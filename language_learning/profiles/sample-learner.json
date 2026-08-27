@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "profile_id": "sample-learner",
+  "selected_language": "ru",
+  "current_learner_difficulty": {"cefr": "A1", "internal": 8},
+  "game_progress": {"chapter": "arrival", "sequence": 1, "flags": ["arrived_in_littleroot"]},
+  "vocabulary": {
+    "ru.privet": {
+      "mastery": 0.65, "exposure_count": 3, "hint_requests": 1,
+      "last_seen": "2026-01-15T18:30:00Z", "next_review": "2026-01-17T18:30:00Z",
+      "srs": {"state": "learning", "interval_days": 2, "ease": 2.3, "lapses": 0}
+    }
+  },
+  "grammar_exposure": {
+    "ru.zero_copula": {"exposure_count": 1, "hint_requests": 1, "last_seen": "2026-01-15T18:30:00Z"}
+  }
+}

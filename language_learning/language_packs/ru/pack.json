@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "pack_id": "ru-core-example",
+  "target_language": {"tag": "ru", "name": "Russian", "native_name": "Русский"},
+  "character_requirements": {
+    "unicode_ranges": ["Basic Latin", "Cyrillic"],
+    "rom_font_status": "external_overlay_only",
+    "notes": "Cyrillic is overlay data only; no ROM font or charmap support is included."
+  },
+  "vocabulary": [
+    {"id": "ru.privet", "lemma": "привет", "english": "hello", "part_of_speech": "interjection", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["привет"]},
+    {"id": "ru.dom", "lemma": "дом", "english": "home; house", "part_of_speech": "noun", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["дом", "дома"]},
+    {"id": "ru.dobro_pozhalovat", "lemma": "добро пожаловать", "english": "welcome", "part_of_speech": "fixed expression", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["добро пожаловать"]}
+  ],
+  "grammar_notes": [
+    {"id": "ru.zero_copula", "title": "Present-tense 'to be' is usually omitted", "english_explanation": "Russian commonly places a noun or adjective after the subject without an explicit present-tense form of 'to be'.", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001"}
+  ],
+  "dialogues": [
+    {"dialogue_id": "littleroot.player_house.mom.welcome.001", "variants": [
+      {"id": "simple", "text": "Привет!", "english_gloss": "Hello!", "cefr": "A1", "internal_difficulty": 5, "vocabulary_ids": ["ru.privet"], "grammar_note_ids": [], "new_vocabulary_budget": 1, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}},
+      {"id": "expanded", "text": "Привет! Добро пожаловать домой!", "english_gloss": "Hello! Welcome home!", "cefr": "A1", "internal_difficulty": 12, "vocabulary_ids": ["ru.privet", "ru.dobro_pozhalovat", "ru.dom"], "grammar_note_ids": ["ru.zero_copula"], "new_vocabulary_budget": 2, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}}
+    ]}
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pokemon-language-learning/language-pack.schema.json",
+  "title": "Pokemon language-learning pack",
+  "type": "object",
+  "required": ["schema_version", "pack_id", "target_language", "character_requirements", "vocabulary", "grammar_notes", "dialogues"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "pack_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]+$"},
+    "target_language": {
+      "type": "object",
+      "required": ["tag", "name", "native_name"],
+      "properties": {
+        "tag": {"type": "string"}, "name": {"type": "string"}, "native_name": {"type": "string"}
+      }, "additionalProperties": false
+    },
+    "character_requirements": {
+      "type": "object", "required": ["unicode_ranges", "rom_font_status"],
+      "properties": {
+        "unicode_ranges": {"type": "array", "items": {"type": "string"}},
+        "rom_font_status": {"enum": ["supported", "requires_font_work", "external_overlay_only"]},
+        "notes": {"type": "string"}
+      }, "additionalProperties": false
+    },
+    "vocabulary": {"type": "array", "items": {"$ref": "#/$defs/vocabulary"}},
+    "grammar_notes": {"type": "array", "items": {"$ref": "#/$defs/grammar"}},
+    "dialogues": {"type": "array", "items": {"$ref": "#/$defs/dialogue"}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "level": {"enum": ["A1", "A2", "B1", "B2", "C1", "C2"]},
+    "vocabulary": {
+      "type": "object", "required": ["id", "lemma", "english", "part_of_speech", "cefr", "first_introduction"],
+      "properties": {
+        "id": {"type": "string"}, "lemma": {"type": "string"}, "english": {"type": "string"},
+        "part_of_speech": {"type": "string"}, "cefr": {"$ref": "#/$defs/level"},
+        "first_introduction": {"type": "string"}, "forms": {"type": "array", "items": {"type": "string"}}
+      }, "additionalProperties": false
+    },
+    "grammar": {
+      "type": "object", "required": ["id", "title", "english_explanation", "cefr", "first_introduction"],
+      "properties": {
+        "id": {"type": "string"}, "title": {"type": "string"}, "english_explanation": {"type": "string"},
+        "cefr": {"$ref": "#/$defs/level"}, "first_introduction": {"type": "string"}
+      }, "additionalProperties": false
+    },
+    "dialogue": {
+      "type": "object", "required": ["dialogue_id", "variants"],
+      "properties": {
+        "dialogue_id": {"type": "string"},
+        "variants": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/variant"}}
+      }, "additionalProperties": false
+    },
+    "variant": {
+      "type": "object", "required": ["id", "text", "english_gloss", "cefr", "internal_difficulty", "vocabulary_ids", "grammar_note_ids"],
+      "properties": {
+        "id": {"type": "string"}, "text": {"type": "string"}, "english_gloss": {"type": "string"},
+        "cefr": {"$ref": "#/$defs/level"}, "internal_difficulty": {"type": "integer", "minimum": 1, "maximum": 100},
+        "vocabulary_ids": {"type": "array", "items": {"type": "string"}},
+        "grammar_note_ids": {"type": "array", "items": {"type": "string"}},
+        "new_vocabulary_budget": {"type": "integer", "minimum": 0},
+        "minimum_game_progress": {"type": "object"}
+      }, "additionalProperties": false
+    }
+  }
+}

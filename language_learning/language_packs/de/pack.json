@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "pack_id": "de-core-example",
+  "target_language": {"tag": "de", "name": "German", "native_name": "Deutsch"},
+  "character_requirements": {
+    "unicode_ranges": ["Basic Latin", "Latin-1 Supplement"],
+    "rom_font_status": "external_overlay_only",
+    "notes": "Example learner data is not connected to the repository's existing German ROM content."
+  },
+  "vocabulary": [
+    {"id": "de.hallo", "lemma": "hallo", "english": "hello", "part_of_speech": "interjection", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["Hallo"]},
+    {"id": "de.zuhause", "lemma": "zu Hause", "english": "at home; home", "part_of_speech": "adverbial phrase", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["zu Hause"]},
+    {"id": "de.willkommen", "lemma": "willkommen", "english": "welcome", "part_of_speech": "adjective", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["willkommen"]}
+  ],
+  "grammar_notes": [
+    {"id": "de.imperative_sein", "title": "Informal singular imperative", "english_explanation": "Sei is the informal singular command form of sein ('to be').", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001"}
+  ],
+  "dialogues": [
+    {"dialogue_id": "littleroot.player_house.mom.welcome.001", "variants": [
+      {"id": "simple", "text": "Hallo!", "english_gloss": "Hello!", "cefr": "A1", "internal_difficulty": 5, "vocabulary_ids": ["de.hallo"], "grammar_note_ids": [], "new_vocabulary_budget": 1, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}},
+      {"id": "expanded", "text": "Hallo! Willkommen zu Hause!", "english_gloss": "Hello! Welcome home!", "cefr": "A1", "internal_difficulty": 11, "vocabulary_ids": ["de.hallo", "de.willkommen", "de.zuhause"], "grammar_note_ids": [], "new_vocabulary_budget": 2, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}}
+    ]}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "game": "pokemon-sapphire",
+  "dialogues": [
+    {
+      "id": "littleroot.player_house.mom.welcome.001",
+      "source": {
+        "kind": "planned_source_symbol",
+        "symbol": "LittlerootPlayerHouse_MomWelcome",
+        "note": "Resolve to the exact base-game text symbol during extraction integration."
+      },
+      "progress": {"chapter": "arrival", "sequence": 1},
+      "tags": ["tutorial", "family"]
+    },
+    {
+      "id": "littleroot.route_sign.001",
+      "source": {
+        "kind": "planned_source_symbol",
+        "symbol": "LittlerootTown_RouteSign",
+        "note": "Placeholder integration coordinate; does not modify base text."
+      },
+      "progress": {"chapter": "arrival", "sequence": 2},
+      "tags": ["navigation", "sign"]
+    }
+  ]
+}

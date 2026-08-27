@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pokemon-language-learning/learner-profile.schema.json",
+  "title": "External learner profile",
+  "type": "object",
+  "required": ["schema_version", "profile_id", "selected_language", "current_learner_difficulty", "game_progress", "vocabulary", "grammar_exposure"],
+  "properties": {
+    "schema_version": {"const": 1}, "profile_id": {"type": "string"},
+    "selected_language": {"type": "string"},
+    "current_learner_difficulty": {
+      "type": "object", "required": ["cefr", "internal"],
+      "properties": {"cefr": {"enum": ["A1", "A2", "B1", "B2", "C1", "C2"]}, "internal": {"type": "integer", "minimum": 1, "maximum": 100}},
+      "additionalProperties": false
+    },
+    "game_progress": {
+      "type": "object", "required": ["chapter", "sequence", "flags"],
+      "properties": {"chapter": {"type": "string"}, "sequence": {"type": "integer", "minimum": 0}, "flags": {"type": "array", "items": {"type": "string"}}},
+      "additionalProperties": false
+    },
+    "vocabulary": {"type": "object", "additionalProperties": {"$ref": "#/$defs/vocabulary_state"}},
+    "grammar_exposure": {"type": "object", "additionalProperties": {"$ref": "#/$defs/grammar_state"}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "timestamp": {"type": ["string", "null"]},
+    "vocabulary_state": {
+      "type": "object", "required": ["mastery", "exposure_count", "hint_requests", "last_seen", "next_review", "srs"],
+      "properties": {
+        "mastery": {"type": "number", "minimum": 0, "maximum": 1}, "exposure_count": {"type": "integer", "minimum": 0},
+        "hint_requests": {"type": "integer", "minimum": 0}, "last_seen": {"$ref": "#/$defs/timestamp"}, "next_review": {"$ref": "#/$defs/timestamp"},
+        "srs": {"type": "object", "required": ["state", "interval_days", "ease", "lapses"], "properties": {
+          "state": {"enum": ["new", "learning", "review", "relearning"]}, "interval_days": {"type": "number", "minimum": 0},
+          "ease": {"type": "number", "minimum": 1.3}, "lapses": {"type": "integer", "minimum": 0}
+        }, "additionalProperties": false}
+      }, "additionalProperties": false
+    },
+    "grammar_state": {
+      "type": "object", "required": ["exposure_count", "hint_requests", "last_seen"],
+      "properties": {"exposure_count": {"type": "integer", "minimum": 0}, "hint_requests": {"type": "integer", "minimum": 0}, "last_seen": {"$ref": "#/$defs/timestamp"}},
+      "additionalProperties": false
+    }
+  }
+}

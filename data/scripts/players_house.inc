@@ -4,6 +4,9 @@ LittlerootTown_MaysHouse_2F_EventScript_1B6950:: @ 81B6950
 	return
 
 PlayersHouse_1F_EventScript_EnterHouseMovingIn:: @ 81B6956
+	.ifdef LEARNER_DEMO
+	call LearnerLesson_ChooseLanguage
+	.endif
 	msgbox PlayersHouse_1F_Text_IsntItNiceInHere, MSGBOX_DEFAULT
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0

@@ -8,6 +8,7 @@ DEBUG         ?= 0
 MODERN        ?= 0
 DEBUG_FIX     ?= 0
 COMPARE       ?= 0
+LEARNER_DEMO  ?= 0
 
 # For gbafix
 MAKER_CODE  := 01
@@ -25,6 +26,7 @@ ifeq ($(GAME_VERSION), SAPPHIRE)
 else
   $(error unknown version $(GAME_VERSION))
 endif
+
 endif
 
 # Language
@@ -76,3 +78,11 @@ else
   BUILD_NAME := $(BUILD_NAME)_modern
 endif
 
+# The lesson is opt-in and gets its own ROM and object directory.
+ifeq ($(LEARNER_DEMO),1)
+ifneq ($(GAME_VERSION)-$(GAME_LANGUAGE)-$(GAME_REVISION)-$(DEBUG)-$(MODERN)-$(DEBUG_FIX),SAPPHIRE-ENGLISH-0-0-0-0)
+$(error LEARNER_DEMO supports only English Sapphire 1.0)
+endif
+BUILD_NAME := sapphire_learner
+override COMPARE := 0
+endif

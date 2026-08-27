@@ -9,6 +9,8 @@
 
 // Multichoice Ids
 // TODO
+#define MULTI_LEARNER_LANGUAGE 73
+#define MULTI_LEARNER_ACTION   74
 
 // Std String Ids
 #define STDSTRING_COOL             0

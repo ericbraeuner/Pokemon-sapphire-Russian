@@ -4,8 +4,8 @@
   "target_language": {"tag": "de", "name": "German", "native_name": "Deutsch"},
   "character_requirements": {
     "unicode_ranges": ["Basic Latin", "Latin-1 Supplement"],
-    "rom_font_status": "external_overlay_only",
-    "notes": "Example learner data is not connected to the repository's existing German ROM content."
+    "rom_font_status": "supported",
+    "notes": "German Latin characters, including umlauts and sharp S, are mapped by the base game. The optional demo uses the English Sapphire engine, not the separate German ROM configuration."
   },
   "vocabulary": [
     {"id": "de.hallo", "lemma": "hallo", "english": "hello", "part_of_speech": "interjection", "cefr": "A1", "first_introduction": "littleroot.player_house.mom.welcome.001", "forms": ["Hallo"]},
@@ -18,7 +18,7 @@
   "dialogues": [
     {"dialogue_id": "littleroot.player_house.mom.welcome.001", "variants": [
       {"id": "simple", "text": "Hallo!", "english_gloss": "Hello!", "cefr": "A1", "internal_difficulty": 5, "vocabulary_ids": ["de.hallo"], "grammar_note_ids": [], "new_vocabulary_budget": 1, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}},
-      {"id": "expanded", "text": "Hallo! Willkommen zu Hause!", "english_gloss": "Hello! Welcome home!", "cefr": "A1", "internal_difficulty": 11, "vocabulary_ids": ["de.hallo", "de.willkommen", "de.zuhause"], "grammar_note_ids": [], "new_vocabulary_budget": 2, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}}
+      {"id": "expanded", "text": "Hallo! Willkommen zu Hause!", "english_gloss": "Hello! Welcome home!", "cefr": "A1", "internal_difficulty": 11, "vocabulary_ids": ["de.hallo", "de.willkommen", "de.zuhause"], "grammar_note_ids": [], "new_vocabulary_budget": 3, "minimum_game_progress": {"chapter": "arrival", "sequence": 1}}
     ]}
   ]
 }

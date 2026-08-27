@@ -2,7 +2,9 @@
 
 This directory contains data contracts and integration seams for turning a base
 Pokemon game into an adaptive language-learning experience. It is deliberately
-separate from the ROM today: no dialogue, gameplay, font, or charmap is changed.
+separate from the normal ROM build. An optional playable demo now adds one
+welcome lesson with Russian and German choices, English hints, and vocabulary
+help. See [PLAY_DEMO.md](PLAY_DEMO.md) for beginner-friendly instructions.
 
 ## Architecture
 
@@ -53,15 +55,27 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` contains future extraction/insertion source
-coordinates. A later generator may emit ROM-native text from the selected pack,
-but generated output must remain a build artifact. Each pack declares required
-Unicode ranges and a `rom_font_status`; validators and future build tooling can
-refuse insertion until the base charmap/font supports those characters.
+`integration/dialogue_catalog.json` connects the welcome lesson to the real
+shared moving-in script for both player characters. The route-sign entry is
+still a placeholder. Validation checks both the connected script symbol and
+the original text symbol. The normal game dialogue follows the extra lesson;
+important story instructions are not replaced.
 
-The current Russian example is intentionally `external_overlay_only`, so its
-Cyrillic content is suitable for an emulator overlay but cannot enter the ROM.
-No font or charmap work is included in this scaffold.
+`tools/build_demo.py` generates ignored assembly from both packs. It rejects
+unsupported characters, wraps text with a conservative pixel-width limit, and
+adds page breaks. It uses the expanded variant as a fixed first lesson, not an
+adaptive selector. It does not update learner profiles or save data.
+
+The demo supports only the 17 Cyrillic glyphs in `fonts/cyrillic.json`, in reserved
+Latin glyph slots with font 0 explicitly selected. The base fonts and charmap
+are untouched. German uses the existing Latin font. Other Russian text still
+requires font work, so its pack does not claim full ROM font support.
+
+`LEARNER_DEMO=1` uses a separate object directory and produces
+`pokesapphire_learner.gba`; it is supported only with English Sapphire 1.0.
+Normal Sapphire remains a matching build. Demo ROMs intentionally do not match
+the original hash. Never commit ROMs, generated assembly, emulator saves, or
+compiler binaries.
 
 ## Adding data
 

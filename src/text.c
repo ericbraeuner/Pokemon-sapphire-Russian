@@ -228,6 +228,12 @@ const u16 gUnknown_081E29E0[] = { 0x100, 0x200, 0x400, 0x800 };
 const u16 gUnknown_081E29E8[] = { 1, 2, 4, 8 };
 
 static const u8 sFont0LatinGlyphs[] = INCBIN_U8("graphics/fonts/font0_lat.1bpp");
+#if LEARNER_DEMO
+// Reserved Latin slots, used only by the lesson's explicit FONT 0 strings.
+extern const u8 gLearnerGlyphs[][16];
+extern const u8 gLearnerGlyphWidths[];
+extern const u8 gLearnerGlyphCount;
+#endif
 static const u8 sFont1LatinGlyphs[] = INCBIN_U8("graphics/fonts/font1_lat.1bpp");
 static const u8 sFont0JapaneseGlyphs[] = INCBIN_U8("graphics/fonts/font0_jpn.1bpp");
 static const u8 sFont1JapaneseGlyphs[] = INCBIN_U8("graphics/fonts/font1_jpn.1bpp");
@@ -2678,6 +2684,16 @@ static void GetGlyphTilePointers(u8 fontNum, u8 language, u16 glyph, u8 **upperT
     u16 index;
     const struct Font *font;
 
+#if LEARNER_DEMO
+    if (fontNum == 0 && language == LANGUAGE_ENGLISH
+     && glyph >= 0x87 && glyph - 0x87 < gLearnerGlyphCount)
+    {
+        *upperTilePtr = (u8 *)gLearnerGlyphs[glyph - 0x87];
+        *lowerTilePtr = *upperTilePtr + 8;
+        return;
+    }
+#endif
+
     if (language == LANGUAGE_JAPANESE)
         language = 0;
     else
@@ -3410,6 +3426,12 @@ static s32 Window_MoveCursor(struct Window *win, u8 x, u8 y)
 static u8 GetGlyphWidth(struct Window *win, u32 glyph)
 {
     u8 width = 8;
+
+#if LEARNER_DEMO
+    if (win->fontNum == 0 && win->language == LANGUAGE_ENGLISH
+     && glyph >= 0x87 && glyph - 0x87 < gLearnerGlyphCount)
+        return win->spacing ? win->spacing : gLearnerGlyphWidths[glyph - 0x87];
+#endif
 
 #ifdef BUGFIX_GLYPHWIDTH
     if (win->language != LANGUAGE_JAPANESE)

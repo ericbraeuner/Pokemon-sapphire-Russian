@@ -5,12 +5,21 @@
     {
       "id": "littleroot.player_house.mom.welcome.001",
       "source": {
-        "kind": "planned_source_symbol",
-        "symbol": "LittlerootPlayerHouse_MomWelcome",
-        "note": "Resolve to the exact base-game text symbol during extraction integration."
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "PlayersHouse_1F_EventScript_EnterHouseMovingIn",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_IsntItNiceInHere",
+        "note": "Optional extra greeting before the shared moving-in dialogue; applies to both player characters. Original dialogue and story instructions follow unchanged."
       },
-      "progress": {"chapter": "arrival", "sequence": 1},
-      "tags": ["tutorial", "family"]
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1
+      },
+      "tags": [
+        "tutorial",
+        "family"
+      ]
     },
     {
       "id": "littleroot.route_sign.001",
@@ -19,8 +28,14 @@
         "symbol": "LittlerootTown_RouteSign",
         "note": "Placeholder integration coordinate; does not modify base text."
       },
-      "progress": {"chapter": "arrival", "sequence": 2},
-      "tags": ["navigation", "sign"]
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 2
+      },
+      "tags": [
+        "navigation",
+        "sign"
+      ]
     }
   ]
 }

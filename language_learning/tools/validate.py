@@ -138,6 +138,7 @@ def validate_profile(path: Path, packs: dict[str, dict[str, set[str]]]) -> None:
 def main() -> int:
     catalogue = load(ROOT / "integration" / "dialogue_catalog.json")
     catalogue_ids = unique_ids(catalogue.get("dialogues", []), "dialogue catalogue")
+    validate_sources(catalogue)
     packs: dict[str, dict[str, set[str]]] = {}
     pack_paths = sorted((ROOT / "language_packs").glob("*/pack.json"))
     if not pack_paths:
@@ -158,6 +159,23 @@ def main() -> int:
         print(f"validated learner profile: {path.relative_to(ROOT)}")
     print(f"validation passed: {len(catalogue_ids)} dialogue IDs, {len(pack_paths)} packs, {len(profile_paths)} profiles")
     return 0
+
+
+def validate_sources(catalogue: dict[str, Any]) -> None:
+    """Resolve connected entries; planned entries remain explicitly unconnected."""
+    repo = ROOT.parent.resolve()
+    for dialogue in catalogue.get("dialogues", []):
+        source = dialogue.get("source", {})
+        if source.get("kind") != "script_hook":
+            continue
+        for path_key, symbol_key in [("path", "symbol"), ("base_text_path", "base_text_symbol")]:
+            require_keys(source, {path_key, symbol_key}, f"dialogue {dialogue['id']}")
+            path = (repo / source[path_key]).resolve()
+            if not path.is_relative_to(repo) or not path.is_file():
+                raise ValidationError(f"{dialogue['id']}: missing or unsafe source path")
+            pattern = rf"^{re.escape(source[symbol_key])}::?(?:\s|$)"
+            if not re.search(pattern, path.read_text(encoding="utf-8"), re.MULTILINE):
+                raise ValidationError(f"{dialogue['id']}: source symbol not found: {source[symbol_key]}")
 
 
 if __name__ == "__main__":

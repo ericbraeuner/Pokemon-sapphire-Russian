@@ -127,6 +127,19 @@ C_OBJECTS    := $(addprefix $(BUILD_DIR)/, $(C_SOURCES:%.c=%.o))
 ASM_OBJECTS  := $(addprefix $(BUILD_DIR)/, $(ASM_SOURCES:%.s=%.o))
 ALL_OBJECTS  := $(C_OBJECTS) $(ASM_OBJECTS) $(MID_OBJS)
 
+ifeq ($(LEARNER_DEMO),1)
+PYTHON ?= python3
+CPPFLAGS += -DLEARNER_DEMO=1
+ASFLAGS += --defsym LEARNER_DEMO=1
+ALL_OBJECTS += $(BUILD_DIR)/learner_demo.o
+
+build/learner_demo/lesson.s: language_learning/tools/build_demo.py language_learning/tools/validate.py language_learning/integration/lesson_script.inc language_learning/integration/dialogue_catalog.json language_learning/fonts/cyrillic.json $(wildcard language_learning/language_packs/*/pack.json) charmap.txt
+	$(PYTHON) language_learning/tools/build_demo.py
+
+$(BUILD_DIR)/learner_demo.o: build/learner_demo/lesson.s language_learning/integration/lesson_script.inc
+	$(PREPROC) $< charmap.txt | $(CPP) -I include | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
+endif
+
 OBJS_REL     := $(ALL_OBJECTS:$(BUILD_DIR)/%=%)
 
 SUBDIRS        := $(sort $(dir $(ALL_OBJECTS)))

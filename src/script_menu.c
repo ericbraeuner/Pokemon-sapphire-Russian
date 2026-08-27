@@ -479,6 +479,23 @@ struct MultichoiceListStruct
     u8 count;
 };
 
+#if LEARNER_DEMO
+static const u8 sLearnerRussian[] = _("Russian");
+static const u8 sLearnerGerman[] = _("German");
+static const u8 sLearnerContinue[] = _("Continue story");
+static const u8 sLearnerRepeat[] = _("Read again");
+static const u8 sLearnerHint[] = _("English hint");
+static const u8 sLearnerWords[] = _("Vocabulary");
+static const u8 sLearnerSwitch[] = _("Change language");
+static const struct MenuAction sLearnerLanguages[] = {
+    {sLearnerRussian, NULL}, {sLearnerGerman, NULL}, {sLearnerContinue, NULL},
+};
+static const struct MenuAction sLearnerActions[] = {
+    {sLearnerRepeat, NULL}, {sLearnerHint, NULL}, {sLearnerWords, NULL},
+    {sLearnerSwitch, NULL}, {sLearnerContinue, NULL},
+};
+#endif
+
 const struct MultichoiceListStruct gMultichoiceLists[] =
 {
     {MultichoiceList_00, ARRAY_COUNT(MultichoiceList_00)},
@@ -554,6 +571,10 @@ const struct MultichoiceListStruct gMultichoiceLists[] =
     {MultichoiceList_70, ARRAY_COUNT(MultichoiceList_70)},
     {MultichoiceList_71, ARRAY_COUNT(MultichoiceList_71)},
     {MultichoiceList_72, ARRAY_COUNT(MultichoiceList_72)},
+#if LEARNER_DEMO
+    [MULTI_LEARNER_LANGUAGE] = MULTICHOICE(sLearnerLanguages),
+    [MULTI_LEARNER_ACTION] = MULTICHOICE(sLearnerActions),
+#endif
 };
 
 const u8 *const gStdStrings[] =

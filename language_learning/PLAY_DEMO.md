@@ -1,36 +1,41 @@
-# Play the first Russian and German lesson
+# Play the Russian and German opening
 
-This is a tiny addition to Pokémon Sapphire, not a full translation. The rest
-of the game stays in English. One demo ROM contains **both** languages.
+This build translates six house dialogue scenes in both languages. It is not
+yet a fully translated game. The introduction, later scenes, clock interface,
+battles, and general menus still contain English.
 
-## Where to find it
+## Try it
 
-1. Open `pokesapphire_learner.gba` from the repository root in a GBA emulator.
-2. Start a **new game**. Do not load an old emulator save state from another ROM.
-3. Finish Professor Birch's introduction and leave the moving truck.
-4. Follow Mom into your house. Before her normal inside-the-house dialogue,
-   she offers a short language lesson.
-5. Choose **Russian** or **German**. Read the greeting, then use the menu:
-   **Read again**, **English hint**, **Vocabulary**, **Change language**, or
-   **Continue story**. The B button also leaves the lesson.
-6. Try both languages before continuing. Mom's original dialogue and clock
-   instructions resume normally afterward.
+1. Open `pokesapphire_learner.gba` in a GBA emulator. Start a **new game**; do not
+   load a save state from an older ROM build. Keep demo saves separate.
+2. Finish Birch's introduction, leave the truck, and follow Mom inside.
+3. Choose Russian or German, then A1, A2, B1, B2, C1, or C2.
+4. Continue through Mom's welcome, moving/room instructions, and upstairs clock
+   scene. The translated dialogue replaces the English lines in those scenes.
+5. After each scene, choose Next, Read again, Translation, Dictionary, or Settings.
+   These labels appear in your selected language. B means Next in the help menu;
+   it does not skip movement or story requirements. Settings cannot be cancelled
+   before a valid language and level are selected.
+6. Use the game's normal SAVE when available to save language and level together
+   with game progress. They are remembered between maps without saving too.
 
-The hook is shared by the boy's and girl's houses. It runs during the moving-in
-scene, not every time you later talk to Mom. Use an emulator save state made in
-this demo immediately before entering the house if you want to revisit it.
-Keep demo saves separate from the normal game.
+German nouns include their articles: **das Haus**, **das Zimmer**, **die Uhr**,
+**der Umzug**, **die Zeit**, **der Schreibtisch**. Fixed phrases such as
+**zu Hause** stay intact. Russian has no articles. Russian **часы** is a plural
+noun meaning clock or watch. Definition separators display as commas to avoid
+the base font's misleading semicolon glyph.
 
-## What the lesson teaches
+## Difficulty in this build
 
-- Russian: **Привет! Добро пожаловать домой!**
-- German: **Hallo! Willkommen zu Hause!**
-- English: **Hello! Welcome home!**
+- A1: short, direct sentences.
+- A2: more connected sentences.
+- B1–C2: the same natural dialogue, with dictionary help still available.
 
-Vocabulary help comes from each language pack. Russian `дом` means house/home;
-`домой` is the directional form used in the greeting. German `zu Hause` means
-at home. This first lesson uses fixed content; difficulty selection, quizzes,
-pronunciation audio, and saved learning progress are not implemented yet.
+These are authored learning targets, not certified CEFR assessments. There are
+three text versions per scene, not six distinct translations. C2 does not mean
+every sentence needs advanced vocabulary. English translations appear only
+when requested within these covered scenes; settings instructions still use
+English. There is no adaptive difficulty or vocabulary tracking yet.
 
 ## Building it
 
@@ -55,13 +60,23 @@ make -j8 GAME_VERSION=SAPPHIRE LEARNER_DEMO=1 PYTHON=/c/Users/ericb/.cache/codex
 The normal game is still built separately with `make sapphire COMPARE=1`.
 Do not expect the demo ROM to match the original game's hash.
 
-## Limits and next steps
+## Development direction
 
-The Russian font supports only the glyphs needed for this lesson. The generator
-fails if new content needs an unsupported glyph. German uses the existing font.
-All learning state remains unchanged: using a hint currently does not record a
-hint request in the external learner profile.
+The intended product keeps the selected target language throughout the game.
+The remaining English is unfinished coverage, not the intended learning loop.
 
-Next, add a short comprehension question in each language, then connect those
-answers and hint requests to a learner profile before expanding the dialogue
-catalogue.
+Next milestones:
+
+1. Move language, level, and guided/immersion mode selection before Birch's
+   introduction. Guided mode can explain controls in English; immersion mode
+   should use the chosen language immediately. This is not implemented yet.
+2. Translate the whole Littleroot opening, then expand route by route while
+   preserving story instructions. Translate game interfaces as well as dialogue.
+3. Add an in-dialogue dictionary shortcut (candidate: R) that pauses and restores
+   the exact text position. Audit existing button uses before assigning it.
+4. Add more level-specific text where useful and connect dictionary requests to
+   learner profiles. Keep dictionary access in every mode, including C2.
+
+The current help menu is a temporary interface, not the final dictionary hotkey.
+The boy and girl share the same translated house hooks. Other dialogue and
+interfaces must still be translated before claiming full immersion.

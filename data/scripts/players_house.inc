@@ -5,16 +5,21 @@ LittlerootTown_MaysHouse_2F_EventScript_1B6950:: @ 81B6950
 
 PlayersHouse_1F_EventScript_EnterHouseMovingIn:: @ 81B6956
 	.ifdef LEARNER_DEMO
-	call LearnerLesson_ChooseLanguage
-	.endif
+	call LearnerOpening_Welcome
+	.else
 	msgbox PlayersHouse_1F_Text_IsntItNiceInHere, MSGBOX_DEFAULT
+	.endif
 	applymovement VAR_0x8004, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_0x8005, 0
 	call_if_eq PlayersHouse_1F_EventScript_MomFacePlayerMovingInMale
 	compare VAR_0x8005, 1
 	call_if_eq PlayersHouse_1F_EventScript_MomFacePlayerMovingInFemale
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Move
+	.else
 	msgbox PlayersHouse_1F_Text_MoversPokemonGoSetClock, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	setvar VAR_LITTLEROOT_INTRO_STATE, 4
 	applymovement LOCALID_PLAYER, PlayersHouse_1F_Movement_PlayerWalkIn
@@ -38,7 +43,11 @@ PlayersHouse_1F_Movement_PlayerWalkIn:: @ 81B69B5
 	step_end
 
 PlayersHouse_1F_EventScript_MomGoSeeRoom:: @ 81B69B7
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RoomReminder
+	.else
 	msgbox PlayersHouse_1F_Text_ArentYouInterestedInRoom, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFastestUp
 	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_1B6CDC
@@ -61,7 +70,11 @@ LittlerootTown_MaysHouse_2F_EventScript_1B69DF:: @ 81B69DF
 LittlerootTown_BrendansHouse_2F_EventScript_1B69EB:: @ 81B69EB
 LittlerootTown_MaysHouse_2F_EventScript_1B69EB:: @ 81B69EB
 	goto_if_set FLAG_SET_WALL_CLOCK, LittlerootTown_BrendansHouse_2F_EventScript_1B6A91
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Clock
+	.else
 	msgbox PlayersHouse_2F_Text_ClockIsStopped, MSGBOX_DEFAULT
+	.endif
 	call LittlerootTown_BrendansHouse_2F_EventScript_1B6A9B
 	delay 30
 	setvar VAR_LITTLEROOT_INTRO_STATE, 6
@@ -85,7 +98,11 @@ LittlerootTown_BrendansHouse_2F_EventScript_1B6A31:: @ 81B6A31
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Room
+	.else
 	msgbox PlayersHouse_2F_Text_HowDoYouLikeYourRoom, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_0x8008, LittlerootTown_BrendansHouse_2F_Movement_1B6AA9
 	waitmovement 0
@@ -98,7 +115,11 @@ LittlerootTown_BrendansHouse_2F_EventScript_1B6A61:: @ 81B6A61
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Room
+	.else
 	msgbox PlayersHouse_2F_Text_HowDoYouLikeYourRoom, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_0x8008, LittlerootTown_BrendansHouse_2F_Movement_1B6AB4
 	waitmovement 0
@@ -262,7 +283,11 @@ LittlerootTown_MaysHouse_1F_EventScript_1B6BE9:: @ 81B6BE9
 	goto_if_eq LittlerootTown_BrendansHouse_1F_EventScript_1B6C80
 	compare VAR_LITTLEROOT_INTRO_STATE, 7
 	goto_if_ge LittlerootTown_BrendansHouse_1F_EventScript_1B6C9C
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Welcome
+	.else
 	msgbox PlayersHouse_1F_Text_IsntItNiceInHere, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

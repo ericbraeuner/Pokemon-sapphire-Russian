@@ -233,6 +233,7 @@ static const u8 sFont0LatinGlyphs[] = INCBIN_U8("graphics/fonts/font0_lat.1bpp")
 extern const u8 gLearnerGlyphs[][16];
 extern const u8 gLearnerGlyphWidths[];
 extern const u8 gLearnerGlyphCount;
+extern const u8 gLearnerGlyphIndex[256];
 #endif
 static const u8 sFont1LatinGlyphs[] = INCBIN_U8("graphics/fonts/font1_lat.1bpp");
 static const u8 sFont0JapaneseGlyphs[] = INCBIN_U8("graphics/fonts/font0_jpn.1bpp");
@@ -2686,9 +2687,9 @@ static void GetGlyphTilePointers(u8 fontNum, u8 language, u16 glyph, u8 **upperT
 
 #if LEARNER_DEMO
     if (fontNum == 0 && language == LANGUAGE_ENGLISH
-     && glyph >= 0x87 && glyph - 0x87 < gLearnerGlyphCount)
+     && glyph < 256 && gLearnerGlyphIndex[glyph] < gLearnerGlyphCount)
     {
-        *upperTilePtr = (u8 *)gLearnerGlyphs[glyph - 0x87];
+        *upperTilePtr = (u8 *)gLearnerGlyphs[gLearnerGlyphIndex[glyph]];
         *lowerTilePtr = *upperTilePtr + 8;
         return;
     }
@@ -3429,8 +3430,8 @@ static u8 GetGlyphWidth(struct Window *win, u32 glyph)
 
 #if LEARNER_DEMO
     if (win->fontNum == 0 && win->language == LANGUAGE_ENGLISH
-     && glyph >= 0x87 && glyph - 0x87 < gLearnerGlyphCount)
-        return win->spacing ? win->spacing : gLearnerGlyphWidths[glyph - 0x87];
+     && glyph < 256 && gLearnerGlyphIndex[glyph] < gLearnerGlyphCount)
+        return win->spacing ? win->spacing : gLearnerGlyphWidths[gLearnerGlyphIndex[glyph]];
 #endif
 
 #ifdef BUGFIX_GLYPHWIDTH

@@ -11,6 +11,9 @@
 // TODO
 #define MULTI_LEARNER_LANGUAGE 73
 #define MULTI_LEARNER_ACTION   74
+#define MULTI_LEARNER_RU       75
+#define MULTI_LEARNER_DE       76
+#define MULTI_LEARNER_LEVEL    77
 
 // Std String Ids
 #define STDSTRING_COOL             0

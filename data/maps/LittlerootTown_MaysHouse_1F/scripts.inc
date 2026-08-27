@@ -59,7 +59,11 @@ LittlerootTown_MaysHouse_1F_OnFrame:: @ 815290E
 
 LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock:: @ 8152938
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_ClockReminder
+	.else
 	msgbox PlayersHouse_1F_Text_GoSetTheClock, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs
 	applymovement 1, LittlerootTown_MaysHouse_1F_Movement_PushTowardStairs

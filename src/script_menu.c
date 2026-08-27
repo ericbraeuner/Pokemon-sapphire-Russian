@@ -480,6 +480,44 @@ struct MultichoiceListStruct
 };
 
 #if LEARNER_DEMO
+extern const u8 LearnerMenu_RuNext[];
+extern const u8 LearnerMenu_RuAgain[];
+extern const u8 LearnerMenu_RuHint[];
+extern const u8 LearnerMenu_RuWords[];
+extern const u8 LearnerMenu_RuSettings[];
+static const struct MenuAction sLearnerRuActions[] = {
+    {LearnerMenu_RuNext, NULL},
+    {LearnerMenu_RuAgain, NULL},
+    {LearnerMenu_RuHint, NULL},
+    {LearnerMenu_RuWords, NULL},
+    {LearnerMenu_RuSettings, NULL},
+};
+extern const u8 LearnerMenu_DeNext[];
+extern const u8 LearnerMenu_DeAgain[];
+extern const u8 LearnerMenu_DeHint[];
+extern const u8 LearnerMenu_DeWords[];
+extern const u8 LearnerMenu_DeSettings[];
+static const struct MenuAction sLearnerDeActions[] = {
+    {LearnerMenu_DeNext, NULL},
+    {LearnerMenu_DeAgain, NULL},
+    {LearnerMenu_DeHint, NULL},
+    {LearnerMenu_DeWords, NULL},
+    {LearnerMenu_DeSettings, NULL},
+};
+static const u8 sLearnerA1[] = _("A1");
+static const u8 sLearnerA2[] = _("A2");
+static const u8 sLearnerB1[] = _("B1");
+static const u8 sLearnerB2[] = _("B2");
+static const u8 sLearnerC1[] = _("C1");
+static const u8 sLearnerC2[] = _("C2");
+static const struct MenuAction sLearnerLevels[] = {
+    {sLearnerA1, NULL},
+    {sLearnerA2, NULL},
+    {sLearnerB1, NULL},
+    {sLearnerB2, NULL},
+    {sLearnerC1, NULL},
+    {sLearnerC2, NULL},
+};
 static const u8 sLearnerRussian[] = _("Russian");
 static const u8 sLearnerGerman[] = _("German");
 static const u8 sLearnerContinue[] = _("Continue story");
@@ -488,7 +526,7 @@ static const u8 sLearnerHint[] = _("English hint");
 static const u8 sLearnerWords[] = _("Vocabulary");
 static const u8 sLearnerSwitch[] = _("Change language");
 static const struct MenuAction sLearnerLanguages[] = {
-    {sLearnerRussian, NULL}, {sLearnerGerman, NULL}, {sLearnerContinue, NULL},
+    {sLearnerRussian, NULL}, {sLearnerGerman, NULL},
 };
 static const struct MenuAction sLearnerActions[] = {
     {sLearnerRepeat, NULL}, {sLearnerHint, NULL}, {sLearnerWords, NULL},
@@ -574,6 +612,9 @@ const struct MultichoiceListStruct gMultichoiceLists[] =
 #if LEARNER_DEMO
     [MULTI_LEARNER_LANGUAGE] = MULTICHOICE(sLearnerLanguages),
     [MULTI_LEARNER_ACTION] = MULTICHOICE(sLearnerActions),
+    [MULTI_LEARNER_RU] = MULTICHOICE(sLearnerRuActions),
+    [MULTI_LEARNER_DE] = MULTICHOICE(sLearnerDeActions),
+    [MULTI_LEARNER_LEVEL] = MULTICHOICE(sLearnerLevels),
 #endif
 };
 

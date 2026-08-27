@@ -33,6 +33,7 @@
       "type": "object", "required": ["id", "lemma", "english", "part_of_speech", "cefr", "first_introduction"],
       "properties": {
         "id": {"type": "string"}, "lemma": {"type": "string"}, "english": {"type": "string"},
+        "dictionary_form": {"type": "string", "minLength": 1, "description": "Display form including the article for German nouns; lemma IDs remain unchanged."},
         "part_of_speech": {"type": "string"}, "cefr": {"$ref": "#/$defs/level"},
         "first_introduction": {"type": "string"}, "forms": {"type": "array", "items": {"type": "string"}}
       }, "additionalProperties": false

@@ -75,6 +75,10 @@ def validate_pack(path: Path, catalogue_ids: set[str]) -> str:
     dialogue_ids: set[str] = set()
     for item in pack["vocabulary"]:
         require_keys(item, {"lemma", "english", "part_of_speech", "cefr", "first_introduction"}, f"{path}: vocabulary {item['id']}")
+        if "dictionary_form" in item and (not isinstance(item["dictionary_form"], str) or not item["dictionary_form"].strip()):
+            raise ValidationError(f"{path}: invalid dictionary_form for {item['id']}")
+        if tag == "de" and item["part_of_speech"] == "noun" and not re.match(r"^(der|die|das) .+", item.get("dictionary_form", "")):
+            raise ValidationError(f"{path}: German noun {item['id']} needs an article in dictionary_form")
         if item["cefr"] not in CEFR or item["first_introduction"] not in catalogue_ids:
             raise ValidationError(f"{path}: invalid CEFR or first_introduction for {item['id']}")
     for item in pack["grammar_notes"]:

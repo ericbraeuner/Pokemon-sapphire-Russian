@@ -1,57 +1,36 @@
-@ Called with the intro already locked. Do not change VAR_0x8004/5,
-@ which carry Mom's object ID and the player's house selection.
-LearnerLesson_ChooseLanguage::
-	msgbox LearnerLesson_Intro, MSGBOX_DEFAULT
-	closemessage
-	multichoice 0, 0, MULTI_LEARNER_LANGUAGE, 0
-	compare VAR_RESULT, 0
-	goto_if_eq LearnerLesson_Russian
-	compare VAR_RESULT, 1
-	goto_if_eq LearnerLesson_German
+@ Saved by the normal SAVE command. Never touch Mom's VAR_0x8004/5/8.
+LearnerOpening_EnsureSettings::
+	compare VAR_LEARNER_LANGUAGE, 1
+	goto_if_eq LearnerOpening_CheckLevel
+	compare VAR_LEARNER_LANGUAGE, 2
+	goto_if_eq LearnerOpening_CheckLevel
+	goto LearnerOpening_Settings
+LearnerOpening_CheckLevel:
+	compare VAR_LEARNER_LEVEL, 1
+	goto_if_lt LearnerOpening_Level
+	compare VAR_LEARNER_LEVEL, 6
+	goto_if_gt LearnerOpening_Level
 	return
 
-LearnerLesson_Russian:
-	msgbox LearnerLesson_RuText, MSGBOX_DEFAULT
-LearnerLesson_RussianMenu:
+LearnerOpening_Settings::
+	msgbox LearnerOpening_SettingsText, MSGBOX_DEFAULT
 	closemessage
-	multichoice 0, 0, MULTI_LEARNER_ACTION, 0
-	compare VAR_RESULT, 0
-	goto_if_eq LearnerLesson_Russian
+	multichoice 0, 0, MULTI_LEARNER_LANGUAGE, 1
 	compare VAR_RESULT, 1
-	goto_if_eq LearnerLesson_RussianHint
-	compare VAR_RESULT, 2
-	goto_if_eq LearnerLesson_RussianWords
-	compare VAR_RESULT, 3
-	goto_if_eq LearnerLesson_ChooseLanguage
-	return
-LearnerLesson_RussianHint:
-	msgbox LearnerLesson_RuHint, MSGBOX_DEFAULT
-	goto LearnerLesson_RussianMenu
-LearnerLesson_RussianWords:
-	msgbox LearnerLesson_RuWords, MSGBOX_DEFAULT
-	goto LearnerLesson_RussianMenu
-
-LearnerLesson_German:
-	msgbox LearnerLesson_DeText, MSGBOX_DEFAULT
-LearnerLesson_GermanMenu:
+	goto_if_gt LearnerOpening_Settings
+	copyvar VAR_LEARNER_LANGUAGE, VAR_RESULT
+	addvar VAR_LEARNER_LANGUAGE, 1
+LearnerOpening_Level:
 	closemessage
-	multichoice 0, 0, MULTI_LEARNER_ACTION, 0
-	compare VAR_RESULT, 0
-	goto_if_eq LearnerLesson_German
-	compare VAR_RESULT, 1
-	goto_if_eq LearnerLesson_GermanHint
-	compare VAR_RESULT, 2
-	goto_if_eq LearnerLesson_GermanWords
-	compare VAR_RESULT, 3
-	goto_if_eq LearnerLesson_ChooseLanguage
+	multichoice 0, 0, MULTI_LEARNER_LEVEL, 1
+	compare VAR_RESULT, 5
+	goto_if_gt LearnerOpening_Level
+	copyvar VAR_LEARNER_LEVEL, VAR_RESULT
+	addvar VAR_LEARNER_LEVEL, 1
 	return
-LearnerLesson_GermanHint:
-	msgbox LearnerLesson_DeHint, MSGBOX_DEFAULT
-	goto LearnerLesson_GermanMenu
-LearnerLesson_GermanWords:
-	msgbox LearnerLesson_DeWords, MSGBOX_DEFAULT
-	goto LearnerLesson_GermanMenu
 
-LearnerLesson_Intro:
-	.string "MOM: Let's practice a greeting!\n"
-	.string "Choose a language, or skip.$"
+LearnerOpening_SettingsText:
+	.string "Language / Sprache\n"
+	.string "A1, A2: simpler dialogue.\p"
+	.string "B1-C2: natural dialogue.\n"
+	.string "Help stays available.$"

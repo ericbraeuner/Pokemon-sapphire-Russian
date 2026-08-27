@@ -170,6 +170,9 @@
 #define VAR_STEVENS_HOUSE_STATE           0x40C6
 #define VAR_OLDALE_STATE                  0x40C7
 
+// Reserved by the opt-in learner build. Stored in the normal save's vars array.
+#define VAR_LEARNER_LANGUAGE              0x40F0 // 0 unset, 1 Russian, 2 German
+#define VAR_LEARNER_LEVEL                 0x40F1 // 1 A1 ... 6 C2
 #define VARS_END                          0x40FF
 
 #define SPECIAL_VARS_START 0x8000

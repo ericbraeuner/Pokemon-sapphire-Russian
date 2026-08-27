@@ -17,8 +17,8 @@ def load_font():
     font = json.loads((ROOT / "language_learning/fonts/cyrillic.json").read_text(encoding="utf-8"))
     glyphs = font["glyphs"]
     start = font["first_code"]
-    if start != 0x87 or start + len(glyphs) > 0xA0:
-        raise ValueError("Cyrillic glyphs must fit the reserved 0x87..0x9F slots")
+    if start != 0x87 or len(glyphs) > len(glyph_codes()):
+        raise ValueError("Cyrillic glyphs exceed unused Latin slots")
     for char, rows in glyphs.items():
         if len(char) != 1 or len(rows) != 9 or not 1 <= len(rows[0]) <= 7:
             raise ValueError(f"Invalid glyph dimensions: {char}")
@@ -41,10 +41,29 @@ def load_charmap():
 
 
 def encode(text, mapping):
+    # The ROM's semicolon bitmap is misleading. Display a plain comma instead.
+    text = text.replace(";", ",")
     try:
         return [mapping[c] for c in text]
     except KeyError as exc:
         raise ValueError(f"Unsupported ROM character: {exc.args[0]!r}") from exc
+
+
+def glyph_codes():
+    text = (ROOT / "charmap.txt").read_text(encoding="utf-8").split("@ Hiragana")[0]
+    used = {int(x, 16) for line in text.splitlines() if "=" in line
+            for x in re.findall(r"\b[0-9A-F]{2}\b", line.split("=", 1)[1])}
+    preferred = list(range(0x87, 0xA0))
+    return preferred + [i for i in range(1, 0xF0) if i not in used and i not in preferred]
+
+
+def russian_mapping(latin, glyphs):
+    return dict(latin, **dict(zip(glyphs, glyph_codes())))
+
+
+def dictionary_entry(item):
+    lemma = item.get("dictionary_form", item["lemma"])
+    return f"{lemma}: {item['english']}"
 
 
 def wrap(text, mapping, glyphs):
@@ -102,7 +121,7 @@ def generate():
     validate.main()
     start, glyphs = load_font()
     latin = load_charmap()
-    russian = dict(latin, **{c: start + i for i, c in enumerate(glyphs)})
+    russian = russian_mapping(latin, glyphs)
     parts = [
         '#include "constants/vars.h"\n#include "constants/script_menu.h"\n',
         '\t.include "include/macros.inc"\n\t.include "include/macros/event.inc"\n',
@@ -114,10 +133,16 @@ def generate():
         dialogue = next(d for d in pack["dialogues"] if d["dialogue_id"] == DIALOGUE_ID)
         variant = next(v for v in dialogue["variants"] if v["id"] == "expanded")
         words = {v["id"]: v for v in pack["vocabulary"]}
-        pages = [f"{words[k]['lemma']}: {words[k]['english']}" for k in variant["vocabulary_ids"]]
+        pages = [dictionary_entry(words[k]) for k in variant["vocabulary_ids"]]
         parts.append(assembly_bytes(f"LearnerLesson_{prefix}Text", message([variant["text"]], mapping, glyphs, font)))
         parts.append(assembly_bytes(f"LearnerLesson_{prefix}Hint", message([variant["english_gloss"]], latin, {}, 3)))
         parts.append(assembly_bytes(f"LearnerLesson_{prefix}Words", message(pages, mapping, glyphs, font)))
+    import opening
+    parts.extend(opening.generate(russian, latin, glyphs))
+    indices = [255] * 256
+    for index, code in enumerate(glyph_codes()[:len(glyphs)]):
+        indices[code] = index
+    parts.append(assembly_bytes("gLearnerGlyphIndex", indices))
     bitmap = []
     for rows in glyphs.values():
         bitmap.extend(encode_glyph(rows))

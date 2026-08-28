@@ -25,11 +25,24 @@ OldaleTown_EventScript_MoveMartEmployee:: @ 814DD9E
 	return
 
 OldaleTown_EventScript_TownSign:: @ 814DDAA
+	.ifdef LEARNER_DEMO
+	lockall
+	call LearnerOpening_OldaleSign
+	releaseall
+	.else
 	msgbox OldaleTown_Text_TownSign, MSGBOX_SIGN
+	.endif
 	end
 
 OldaleTown_EventScript_Girl:: @ 814DDB3
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_OldaleRest
+	release
+	.else
 	msgbox OldaleTown_Text_SavingMyProgress, MSGBOX_NPC
+	.endif
 	end
 
 OldaleTown_EventScript_MartEmployee:: @ 814DDBC
@@ -39,7 +52,11 @@ OldaleTown_EventScript_MartEmployee:: @ 814DDBC
 	goto_if_set FLAG_TEMP_1, OldaleTown_EventScript_ExplainPotion
 	setflag FLAG_TEMP_1
 	playbgm MUS_FOLLOW_ME, FALSE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleShopInvite
+	.else
 	msgbox OldaleTown_Text_IWorkAtPokemonMart, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	switch VAR_FACING
 	case 1, OldaleTown_EventScript_GoToMartSouth
@@ -69,18 +86,30 @@ OldaleTown_EventScript_GoToMartEast:: @ 814DE35
 	end
 
 OldaleTown_EventScript_ExplainPokemonMart:: @ 814DE4C
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleShopTour
+	.else
 	msgbox OldaleTown_Text_ThisIsAPokemonMart, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_POTION
 	compare VAR_RESULT, 0
 	goto_if_eq OldaleTown_EventScript_BagIsFull
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldalePotion
+	.else
 	msgbox OldaleTown_Text_PotionExplanation, MSGBOX_DEFAULT
+	.endif
 	setflag FLAG_RECEIVED_POTION_OLDALE
 	fadedefaultbgm
 	release
 	end
 
 OldaleTown_EventScript_ExplainPotion:: @ 814DE79
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldalePotion
+	.else
 	msgbox OldaleTown_Text_PotionExplanation, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -191,7 +220,11 @@ OldaleTown_EventScript_FootprintsMan:: @ 814DEDF
 	lock
 	faceplayer
 	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_EventScript_NotBlockingPath
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleFootprints
+	.else
 	msgbox OldaleTown_Text_DiscoveredFootprints, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 3, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -203,7 +236,11 @@ OldaleTown_EventScript_BlockedPath:: @ 814DEFF
 	applymovement LOCALID_PLAYER, OldaleTown_Movement_PlayerStepBack
 	applymovement 3, OldaleTown_Movement_BackUp
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleStop
+	.else
 	msgbox OldaleTown_Text_WaitDontComeInHere, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 3, OldaleTown_Movement_ReturnToOriginalPosition
 	waitmovement 0
@@ -211,7 +248,11 @@ OldaleTown_EventScript_BlockedPath:: @ 814DEFF
 	end
 
 OldaleTown_EventScript_NotBlockingPath:: @ 814DF26
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleOwnFootprints
+	.else
 	msgbox OldaleTown_Text_FinishedSketchingFootprints, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -258,12 +299,20 @@ OldaleTown_EventScript_ShowRivalMessage:: @ 814DF92
 	end
 
 OldaleTown_EventScript_ShowMayMessage:: @ 814DFAA
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleMayReturn
+	.else
 	msgbox OldaleTown_Text_MayLetsGoBack, MSGBOX_DEFAULT
+	.endif
 	goto OldaleTown_EventScript_RivalFinish
 	end
 
 OldaleTown_EventScript_ShowBrendanMessage:: @ 814DFB8
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleBrendanReturn
+	.else
 	msgbox OldaleTown_Text_BrendanLetsGoBack, MSGBOX_DEFAULT
+	.endif
 	goto OldaleTown_EventScript_RivalFinish
 	end
 

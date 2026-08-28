@@ -43,15 +43,30 @@ OldaleTown_Mart_EventScript_Woman:: @ 8152FC6
 	lock
 	faceplayer
 	goto_if_set FLAG_ADVENTURE_STARTED, OldaleTown_Mart_EventScript_PokeBallsInStock
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleSoldOut
+	.else
 	msgbox OldaleTown_Mart_Text_PokeBallsAreSoldOut, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 OldaleTown_Mart_EventScript_PokeBallsInStock:: @ 8152FDB
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleBuyBalls
+	.else
 	msgbox OldaleTown_Mart_Text_ImGoingToBuyPokeBalls, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 OldaleTown_Mart_EventScript_Boy:: @ 8152FE5
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_OldaleHealth
+	release
+	.else
 	msgbox OldaleTown_Mart_Text_RestoreHPWithPotion, MSGBOX_NPC
+	.endif
 	end

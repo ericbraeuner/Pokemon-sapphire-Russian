@@ -11,7 +11,7 @@ Text_PutItemInPocket: @ 81A0C8C
 Text_FoundOneItem: @ 81A0CB1
 	.string "{PLAYER} found one {STR_VAR_2}!$"
 
-Text_TooBadBagIsFull:
+Text_TooBadBagIsFull::
 	.string "Too bad!\n"
 	.string "The BAG is full...$"
 

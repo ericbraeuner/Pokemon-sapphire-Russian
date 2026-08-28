@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "shop.h"
 #include "decompress.h"
 #include "field_fadetransition.h"
@@ -523,6 +524,37 @@ static void Shop_DisplayPriceInCheckoutWindow(u8 taskId)
     sub_80A3FA0(gBGTilemapBuffers[1], 1, 11, 12, 2, 0xC3E1);
 }
 
+#if LEARNER_DEMO
+static const u8 *ShopLearnerText(u16 itemId, bool8 description)
+{
+    if (Learner_GetLanguage())
+    {
+        switch (itemId)
+        {
+        case ITEM_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), PotionDescription) : LEARNER_UI(Learner_GetLanguage(), Potion);
+        case ITEM_ANTIDOTE: return description ? LEARNER_UI(Learner_GetLanguage(), AntidoteDesc) : LEARNER_UI(Learner_GetLanguage(), Antidote);
+        case ITEM_PARALYZE_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), ParaHealDesc) : LEARNER_UI(Learner_GetLanguage(), ParaHeal);
+        case ITEM_AWAKENING: return description ? LEARNER_UI(Learner_GetLanguage(), AwakeningDesc) : LEARNER_UI(Learner_GetLanguage(), Awakening);
+        case ITEM_POKE_BALL: return description ? LEARNER_UI(Learner_GetLanguage(), PokeBallDesc) : LEARNER_UI(Learner_GetLanguage(), PokeBall);
+        }
+    }
+    return NULL;
+}
+
+static void CopyShopItemName(u16 itemId, u8 *dest)
+{
+    const u8 *translated = ShopLearnerText(itemId, FALSE);
+    if (translated != NULL)
+        StringCopy(dest, translated);
+    else
+        CopyItemName(itemId, dest);
+}
+
+#else
+#define CopyShopItemName CopyItemName
+#define ShopLearnerText(itemId, description) NULL
+#endif
+
 static void Shop_DisplayNormalPriceInList(u16 itemId, u8 var2, bool32 hasControlCode)
 {
     u8 *stringPtr = gStringVar1;
@@ -535,7 +567,7 @@ static void Shop_DisplayNormalPriceInList(u16 itemId, u8 var2, bool32 hasControl
         stringPtr += 3;
     }
 
-    CopyItemName(itemId, stringPtr);
+    CopyShopItemName(itemId, stringPtr);
 
     sub_8072A18(&gStringVar1[0], 0x70, var2 << 3, 0x58, 0x1);
     stringPtr = gStringVar1;
@@ -605,7 +637,9 @@ static void Shop_PrintItemDescText(void)
     {
         if (gMartInfo.martType == MART_TYPE_0)
         {
-            sub_8072AB0(ItemId_GetDescription(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor]),
+            sub_8072AB0(ShopLearnerText(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], TRUE) != NULL
+                ? ShopLearnerText(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], TRUE)
+                : ItemId_GetDescription(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor]),
                 0x4, 0x68, 0x68, 0x30, 0);
         }
         else
@@ -719,7 +753,7 @@ static void Shop_PrintPrice(u8 taskId)
         sub_80A3FA0(gBGTilemapBuffers[1], 0x1, 0xB, 0xC, 0x2, 0);
         BuyMenuDrawTextboxBG_Restore();
         Shop_DrawViewportTiles();
-        CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
+        CopyShopItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
         ConvertIntToDecimalStringN(gStringVar2, gTasks[taskId].tItemCount, 0, 0x2);
         ConvertIntToDecimalStringN(gStringVar3, gMartTotalCost, 0, 0x8);
         StringExpandPlaceholders(gStringVar4, gOtherText_ThatWillBe);
@@ -1093,7 +1127,7 @@ static void Shop_DoCursorAction(u8 taskId)
                     }
                     else // _080B42BA
                     {
-                        CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
+                        CopyShopItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
                         StringExpandPlaceholders(gStringVar4, gOtherText_HowManyYouWant);
                         DisplayItemMessageOnField(taskId, gStringVar4, Shop_UpdateCurItemCountToMax, 0xC3E1);                    
                     }

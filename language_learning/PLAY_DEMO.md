@@ -1,6 +1,6 @@
 # Play the Russian and German opening
 
-This version translates Birch's introduction, 70 field dialogue entries,
+This version translates Birch's introduction, 90 field dialogue entries,
 the player-name prompt, and the clock confirmation. Room coverage includes the
 GameCube, notebook, bookshelves, PC startup/email, and ordinary TV messages.
 Coverage now includes Littleroot's outdoor NPCs and signs, Route 101's rescue,
@@ -13,10 +13,18 @@ pause menu, save prompts and summary are translated. Route 103's rival encounter
 and the Pokédex handoff now have translated field scenes with dictionary help.
 Battle coverage includes 85 messages/fragments, commands, 21 early move names,
 and all 18 type labels. Some menu labels are shortened to fit the original boxes.
+Oldale coverage includes all 20 local dialogue entries: outdoor NPCs/sign,
+both houses, shop customers, and the Pokémon Center's ground-floor visitors.
+Shared nurse healing messages, shop greetings and buying prompts, Center PC
+startup/primary menus, and the map heading are translated too. Oldale's five
+shop items have translated names and descriptions in the buy screen. Quantity
+and price remain live values in the translated purchase confirmation.
 It is still a partial translation: naming-keyboard button artwork, title/continue
 menus, bag graphics, most item/decor names and descriptions, species names in
 battle, later moves/effects, later TV broadcasts, and later scenes retain English.
 The clock's AM/PM artwork also remains unchanged.
+The upstairs link club, detailed Pokémon box interface, selling/bag screens,
+and the shop's small MONEY graphic still need work.
 
 ## Try it
 

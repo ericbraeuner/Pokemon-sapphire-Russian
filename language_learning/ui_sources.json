@@ -194,7 +194,7 @@
   "gOtherText_Hoenn": {
     "ru": "Хоэнн",
     "de": "Hoenn",
-    "width": 80,
+    "width": 56,
     "lines": 1
   },
   "gOtherText_WhatWillYouDo": {
@@ -586,5 +586,251 @@
     "de": "Zeit",
     "width": 56,
     "lines": 1
+  },
+  "gText_NurseJoy_Welcome": {
+    "ru": "Добро пожаловать в центр покемонов! Здесь мы восстановим их здоровье. Дать твоим покемонам отдохнуть?",
+    "de": "Willkommen im Pokémon-Center! Wir machen deine Pokémon wieder gesund. Sollen sie sich ausruhen?",
+    "width": 192,
+    "lines": 6
+  },
+  "gText_NurseJoy_OkayIllTakeYourPokemon": {
+    "ru": "Хорошо, я возьму твоих покемонов на несколько секунд.",
+    "de": "Gut, ich nehme deine Pokémon für einen Moment.",
+    "width": 192,
+    "lines": 4
+  },
+  "gText_NurseJoy_ThankYouForWaiting": {
+    "ru": "Спасибо за ожидание. Твои покемоны снова здоровы!",
+    "de": "Danke fürs Warten. Deine Pokémon sind wieder gesund!",
+    "width": 192,
+    "lines": 4
+  },
+  "gText_NurseJoy_WeHopeToSeeYouAgain": {
+    "ru": "Будем рады видеть тебя снова!",
+    "de": "Wir freuen uns auf deinen nächsten Besuch!",
+    "width": 192,
+    "lines": 4
+  },
+  "gText_NurseJoy_Pokerus": {
+    "ru": "Возможно, у твоих покемонов покерус. Это крошечные организмы. О них мало известно, но покемоны с покерусом развиваются быстрее.",
+    "de": "Deine Pokémon haben vielleicht Pokérus. Das sind winzige Lebewesen. Man weiß wenig über sie, aber Pokémon mit Pokérus entwickeln sich besonders gut.",
+    "width": 192,
+    "lines": 8
+  },
+  "Text_BootUpPC": {
+    "ru": "Компьютер включён.",
+    "de": "Der PC ist eingeschaltet.",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_WhichPCShouldBeAccessed": {
+    "ru": "Какой компьютер открыть?",
+    "de": "Welchen PC öffnen?",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_AccessedSomeonesPC": {
+    "ru": "Открыт чей-то компьютер.",
+    "de": "Ein fremder PC ist offen.",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_AccessedLanettesPC": {
+    "ru": "Открыт компьютер Ланетт.",
+    "de": "Lanettes PC ist offen.",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_AccessedPlayersPC": {
+    "ru": "Открыт твой компьютер.",
+    "de": "Dein PC ist offen.",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_StorageSystemOpened": {
+    "ru": "Открыто хранилище покемонов.",
+    "de": "Die Pokémon-Lagerung ist geöffnet.",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_HowMayIServeYou": {
+    "ru": "Добро пожаловать! Что желаешь?",
+    "de": "Willkommen! Was möchtest du?",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_PleaseComeAgain": {
+    "ru": "Приходи ещё!",
+    "de": "Komm bald wieder!",
+    "width": 192,
+    "lines": 4
+  },
+  "Text_TooBadBagIsFull": {
+    "ru": "В сумке нет места.",
+    "de": "Dein Beutel ist voll.",
+    "width": 192,
+    "lines": 4
+  },
+  "gOtherText_HowManyYouWant": {
+    "ru": "Сколько желаешь купить?",
+    "de": "Wie viele möchtest du?",
+    "width": 192,
+    "lines": 4
+  },
+  "gOtherText_HereYouGo": {
+    "ru": "Вот, пожалуйста! Спасибо за покупку!",
+    "de": "Bitte sehr! Vielen Dank!",
+    "width": 192,
+    "lines": 4
+  },
+  "gOtherText_AnythingElse": {
+    "ru": "Желаешь что-нибудь ещё?",
+    "de": "Möchtest du noch etwas?",
+    "width": 192,
+    "lines": 4
+  },
+  "gOtherText_CanIHelpYou": {
+    "ru": "Чем ещё помочь?",
+    "de": "Kann ich noch helfen?",
+    "width": 192,
+    "lines": 4
+  },
+  "gOtherText_QuitShopping": {
+    "ru": "Закончить покупки.",
+    "de": "Einkauf beenden.",
+    "width": 192,
+    "lines": 4
+  },
+  "gOtherText_FreePremierBall": {
+    "ru": "Ещё один подарок: премьербол!",
+    "de": "Ein Geschenk: ein Premierball!",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_WhatDoYouWant": {
+    "ru": "Что желаешь сделать?",
+    "de": "Was möchtest du tun?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_MovePokeToParty": {
+    "ru": "Взять покемона из ящика в команду.",
+    "de": "Ein Pokémon aus einer Box ins Team holen.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_StorePokeInBox": {
+    "ru": "Оставить покемона из команды в ящике.",
+    "de": "Ein Pokémon aus dem Team in einer Box lagern.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_OrganizeBoxesParty": {
+    "ru": "Распределить покемонов по ящикам и команде.",
+    "de": "Pokémon in Boxen und im Team ordnen.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_ReturnToPrevMenu": {
+    "ru": "Вернуться в предыдущее меню.",
+    "de": "Zum vorigen Menü zurück.",
+    "width": 192,
+    "lines": 4
+  },
+  "gPCText_OnlyOne": {
+    "ru": "У тебя остался только один покемон.",
+    "de": "Du hast nur ein Pokémon dabei.",
+    "width": 192,
+    "lines": 4
+  },
+  "gPCText_PartyFull2": {
+    "ru": "В команде нет места!",
+    "de": "Dein Team ist voll!",
+    "width": 192,
+    "lines": 4
+  },
+  "gPCText_SomeonesPC": {
+    "ru": "Чей-то ПК",
+    "de": "Fremder PC",
+    "width": 96,
+    "lines": 1
+  },
+  "gPCText_LanettesPC": {
+    "ru": "ПК Ланетт",
+    "de": "Lanettes PC",
+    "width": 96,
+    "lines": 1
+  },
+  "gPCText_PlayersPC": {
+    "ru": "Мой ПК",
+    "de": "Mein PC",
+    "width": 96,
+    "lines": 1
+  },
+  "gPCText_HallOfFame": {
+    "ru": "Зал славы",
+    "de": "Ruhmeshalle",
+    "width": 96,
+    "lines": 1
+  },
+  "gPCText_LogOff": {
+    "ru": "Выключить",
+    "de": "Ausschalten",
+    "width": 96,
+    "lines": 1
+  },
+  "MartText_Buy": {
+    "ru": "Купить",
+    "de": "Kaufen",
+    "width": 64,
+    "lines": 1
+  },
+  "MartText_Sell": {
+    "ru": "Продать",
+    "de": "Verkauf",
+    "width": 64,
+    "lines": 1
+  },
+  "MartText_Quit2": {
+    "ru": "Выход",
+    "de": "Ende",
+    "width": 64,
+    "lines": 1
+  },
+  "PCText_WithdrawPoke": {
+    "ru": "Взять",
+    "de": "Nehmen",
+    "width": 104,
+    "lines": 1
+  },
+  "PCText_DepositPoke": {
+    "ru": "Оставить",
+    "de": "Ablegen",
+    "width": 104,
+    "lines": 1
+  },
+  "PCText_MovePoke": {
+    "ru": "Переместить",
+    "de": "Ordnen",
+    "width": 104,
+    "lines": 1
+  },
+  "PCText_SeeYa": {
+    "ru": "Выход",
+    "de": "Zurück",
+    "width": 104,
+    "lines": 1
+  },
+  "Text_PokemartSign": {
+    "ru": "Магазин покемонов. Всё нужное для тебя!",
+    "de": "Pokémon-Markt. Alles, was du brauchst!",
+    "width": 192,
+    "lines": 2
+  },
+  "Text_PokemonCenterSign": {
+    "ru": "Центр покемонов. Отдых для твоих друзей!",
+    "de": "Pokémon-Center. Erholung für deine Partner!",
+    "width": 192,
+    "lines": 2
   }
 }

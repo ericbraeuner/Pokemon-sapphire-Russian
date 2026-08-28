@@ -12,6 +12,7 @@ import validate
 import opening
 import ui
 import battle
+import field_templates
 
 
 class LessonTests(unittest.TestCase):
@@ -75,6 +76,7 @@ class LessonTests(unittest.TestCase):
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
                   'data/maps/Route101/scripts.inc', 'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
+        paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
             self.assertIn(f"call LearnerOpening_{entry['id']}\n", sources)
@@ -199,6 +201,41 @@ class LessonTests(unittest.TestCase):
         for name in ('OtherText_PokeName', 'gOtherText_BirchInTrouble', 'SystemText_Save', 'SystemText_BAG'):
             self.assertEqual({'ru', 'de', 'width', 'lines'}, set(entries[name]))
         self.assertLessEqual(entries['SystemText_Save']['width'], 56)
+
+    def test_oldale_dialogues_cover_all_local_text(self):
+        import re
+        entries = {entry['base_symbol'] for entry in opening.load()['dialogues']}
+        for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/text.inc'):
+            symbols = re.findall(r'^(OldaleTown\w*Text_\w+)::', path.read_text(encoding='utf-8'), re.M)
+            self.assertTrue(set(symbols) <= entries, path.name)
+        # Service scripts keep their native result/animation/transaction flow.
+        nurse = (demo.ROOT / 'data/scripts/pkmn_center_nurse.inc').read_text()
+        self.assertIn('msgbox gText_NurseJoy_Welcome, MSGBOX_YESNO', nurse)
+        town = (demo.ROOT / 'data/maps/OldaleTown/scripts.inc').read_text()
+        self.assertIn('giveitem ITEM_POTION\n\tcompare VAR_RESULT, 0', town)
+
+    def test_shop_confirmation_keeps_quantity_and_price(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        for tag, mapping, glyphs, font in [('ru', self.russian, self.glyphs, 0), ('de', self.latin, {}, 3)]:
+            entry = templates['gOtherText_ThatWillBe']
+            encoded = bytes(field_templates.compile_text(entry[tag], mapping, glyphs, font, entry['widths']))
+            for token in (2, 3, 4):
+                self.assertIn(bytes([0xFD, token, 0xFC, 6, font]), encoded)
+            self.assertIn(0xFE, encoded)
+        with self.assertRaises((KeyError, ValueError)):
+            field_templates.compile_text('{PLAYER}', self.latin, {}, 3, {})
+        with self.assertRaises(ValueError):
+            field_templates.compile_text('{STR_VAR_1}', self.latin, {}, 3, {'STR_VAR_1': 300})
+
+    def test_shop_text_does_not_change_global_item_buffers(self):
+        code = (demo.ROOT / 'src/shop.c').read_text(encoding='utf-8')
+        self.assertIn('#define CopyShopItemName CopyItemName', code)
+        item = (demo.ROOT / 'src/item.c').read_text(encoding='utf-8')
+        self.assertNotIn('Learner_', item)
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        for key in ('Potion', 'Antidote', 'ParaHeal', 'Awakening', 'PokeBall'):
+            for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
+                self.assertEqual(1, len(demo.wrap(entries[key][tag], mapping, glyphs, 88)))
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

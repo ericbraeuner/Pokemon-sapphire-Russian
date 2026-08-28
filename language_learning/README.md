@@ -113,6 +113,14 @@ move-name buffers or stored nicknames. Unknown pointers still use original text.
 Battle messages and interface wording currently share text across CEFR levels;
 there is no in-battle dictionary shortcut yet.
 
+`field_templates.json` is separate from battle templates: its small whitelist of
+field placeholders preserves shop item, quantity and total price. The compiler
+checks conservative expanded widths/buffer budgets and restores the language font
+after each inserted value. Oldale NPCs use normal lesson help menus; shared nurse
+and clerk text uses direct pointer translation so Yes/No results are not consumed
+by a lesson menu. Shop item translations are scoped to the shop's large string
+buffers; `CopyItemName` and saved item records remain unchanged.
+
 ## Adding data
 
 Copy an existing language-pack directory, use a BCP 47 language tag, keep stable

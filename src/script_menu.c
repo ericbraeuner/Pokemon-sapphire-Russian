@@ -999,6 +999,21 @@ void ScriptMenu_CreatePCMenu(void)
     }
 #endif
 
+#if LEARNER_DEMO
+    if (Learner_GetLanguage())
+    {
+        const u8 *labels[] = {gPCText_SomeonesPC, gPCText_LanettesPC, gPCText_PlayersPC, gPCText_HallOfFame, gPCText_LogOff};
+        u8 i;
+        width = 0;
+        for (i = 0; i < 5; i++)
+        {
+            u8 measured = GetStringWidthInTilesForScriptMenu(labels[i]);
+            if (measured > width)
+                width = measured;
+        }
+    }
+#endif
+
     if (FlagGet(FLAG_SYS_GAME_CLEAR)) // player has cleared game?
     {
         numChoices = 4;

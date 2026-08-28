@@ -3180,6 +3180,886 @@
           ]
         ]
       }
+    },
+    {
+      "id": "OldaleRest",
+      "base_symbol": "OldaleTown_Text_SavingMyProgress",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Я хочу отдохнуть, поэтому сохраняю игру."
+        ],
+        "A2": [
+          "Я хочу отдохнуть, поэтому сохраняю игру."
+        ],
+        "natural": [
+          "Я хочу отдохнуть, поэтому сохраняю игру."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich möchte eine Pause machen. Deshalb speichere ich meinen Fortschritt."
+        ],
+        "A2": [
+          "Ich möchte eine Pause machen. Deshalb speichere ich meinen Fortschritt."
+        ],
+        "natural": [
+          "Ich möchte eine Pause machen. Deshalb speichere ich meinen Fortschritt."
+        ]
+      },
+      "english": [
+        "I am saving before taking a break."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отдыхать",
+            "to rest"
+          ]
+        ],
+        "de": [
+          [
+            "die Pause",
+            "break"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleShopInvite",
+      "base_symbol": "OldaleTown_Text_IWorkAtPokemonMart",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Я работаю в магазине покемонов. Пойдём со мной!"
+        ],
+        "A2": [
+          "Привет! Я работаю в магазине покемонов. Пойдём со мной!"
+        ],
+        "natural": [
+          "Привет! Я работаю в магазине покемонов. Пойдём со мной!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Ich arbeite im Pokémon-Markt. Komm mit!"
+        ],
+        "A2": [
+          "Hallo! Ich arbeite im Pokémon-Markt. Komm mit!"
+        ],
+        "natural": [
+          "Hallo! Ich arbeite im Pokémon-Markt. Komm mit!"
+        ]
+      },
+      "english": [
+        "The shop employee invites you along."
+      ],
+      "words": {
+        "ru": [
+          [
+            "магазин",
+            "shop"
+          ]
+        ],
+        "de": [
+          [
+            "der Laden",
+            "shop"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleShopTour",
+      "base_symbol": "OldaleTown_Text_ThisIsAPokemonMart",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Это магазин покемонов. Его легко найти по синей крыше. Мы продаём разные вещи, например покеболы для ловли покемонов. Вот небольшой подарок для тебя!"
+        ],
+        "A2": [
+          "Это магазин покемонов. Его легко найти по синей крыше. Мы продаём разные вещи, например покеболы для ловли покемонов. Вот небольшой подарок для тебя!"
+        ],
+        "natural": [
+          "Это магазин покемонов. Его легко найти по синей крыше. Мы продаём разные вещи, например покеболы для ловли покемонов. Вот небольшой подарок для тебя!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist der Pokémon-Markt. Du erkennst ihn am blauen Dach. Wir verkaufen viele Dinge, zum Beispiel Pokébälle zum Fangen von Pokémon. Hier ist ein kleines Geschenk für dich!"
+        ],
+        "A2": [
+          "Das ist der Pokémon-Markt. Du erkennst ihn am blauen Dach. Wir verkaufen viele Dinge, zum Beispiel Pokébälle zum Fangen von Pokémon. Hier ist ein kleines Geschenk für dich!"
+        ],
+        "natural": [
+          "Das ist der Pokémon-Markt. Du erkennst ihn am blauen Dach. Wir verkaufen viele Dinge, zum Beispiel Pokébälle zum Fangen von Pokémon. Hier ist ein kleines Geschenk für dich!"
+        ]
+      },
+      "english": [
+        "Look for the blue roof. The shop sells supplies and gives you a gift."
+      ],
+      "words": {
+        "ru": [
+          [
+            "крыша",
+            "roof"
+          ]
+        ],
+        "de": [
+          [
+            "das Dach",
+            "roof"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldalePotion",
+      "base_symbol": "OldaleTown_Text_PotionExplanation",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Зельем можно пользоваться в любой момент. Иногда это удобнее, чем идти в центр покемонов."
+        ],
+        "A2": [
+          "Зельем можно пользоваться в любой момент. Иногда это удобнее, чем идти в центр покемонов."
+        ],
+        "natural": [
+          "Зельем можно пользоваться в любой момент. Иногда это удобнее, чем идти в центр покемонов."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Einen Trank kannst du jederzeit benutzen. Manchmal ist das praktischer als ein Besuch im Pokémon-Center."
+        ],
+        "A2": [
+          "Einen Trank kannst du jederzeit benutzen. Manchmal ist das praktischer als ein Besuch im Pokémon-Center."
+        ],
+        "natural": [
+          "Einen Trank kannst du jederzeit benutzen. Manchmal ist das praktischer als ein Besuch im Pokémon-Center."
+        ]
+      },
+      "english": [
+        "A Potion can be used anywhere."
+      ],
+      "words": {
+        "ru": [
+          [
+            "зелье",
+            "potion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trank",
+            "potion"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleStop",
+      "base_symbol": "OldaleTown_Text_WaitDontComeInHere",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Стой! Не заходи сюда! Я нашёл следы редкого покемона. Подожди, пока я их зарисую."
+        ],
+        "A2": [
+          "Стой! Не заходи сюда! Я нашёл следы редкого покемона. Подожди, пока я их зарисую."
+        ],
+        "natural": [
+          "Стой! Не заходи сюда! Я нашёл следы редкого покемона. Подожди, пока я их зарисую."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Halt! Komm bitte nicht hierher! Ich habe Spuren eines seltenen Pokémon entdeckt. Warte, bis ich sie gezeichnet habe."
+        ],
+        "A2": [
+          "Halt! Komm bitte nicht hierher! Ich habe Spuren eines seltenen Pokémon entdeckt. Warte, bis ich sie gezeichnet habe."
+        ],
+        "natural": [
+          "Halt! Komm bitte nicht hierher! Ich habe Spuren eines seltenen Pokémon entdeckt. Warte, bis ich sie gezeichnet habe."
+        ]
+      },
+      "english": [
+        "Wait while the man sketches the footprints."
+      ],
+      "words": {
+        "ru": [
+          [
+            "след",
+            "footprint; trace"
+          ]
+        ],
+        "de": [
+          [
+            "die Spur",
+            "footprint; trace"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleFootprints",
+      "base_symbol": "OldaleTown_Text_DiscoveredFootprints",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Я нашёл следы редкого покемона! Подожди, пока я их зарисую."
+        ],
+        "A2": [
+          "Я нашёл следы редкого покемона! Подожди, пока я их зарисую."
+        ],
+        "natural": [
+          "Я нашёл следы редкого покемона! Подожди, пока я их зарисую."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe Spuren eines seltenen Pokémon entdeckt! Warte, bis ich sie gezeichnet habe."
+        ],
+        "A2": [
+          "Ich habe Spuren eines seltenen Pokémon entdeckt! Warte, bis ich sie gezeichnet habe."
+        ],
+        "natural": [
+          "Ich habe Spuren eines seltenen Pokémon entdeckt! Warte, bis ich sie gezeichnet habe."
+        ]
+      },
+      "english": [
+        "The man is drawing rare Pokémon footprints."
+      ],
+      "words": {
+        "ru": [
+          [
+            "редкий",
+            "rare"
+          ]
+        ],
+        "de": [
+          [
+            "selten",
+            "rare"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleOwnFootprints",
+      "base_symbol": "OldaleTown_Text_FinishedSketchingFootprints",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Я зарисовал следы редкого покемона. Но оказалось, что это мои собственные следы..."
+        ],
+        "A2": [
+          "Я зарисовал следы редкого покемона. Но оказалось, что это мои собственные следы..."
+        ],
+        "natural": [
+          "Я зарисовал следы редкого покемона. Но оказалось, что это мои собственные следы..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe die Spuren des seltenen Pokémon gezeichnet. Aber es waren nur meine eigenen Fußspuren..."
+        ],
+        "A2": [
+          "Ich habe die Spuren des seltenen Pokémon gezeichnet. Aber es waren nur meine eigenen Fußspuren..."
+        ],
+        "natural": [
+          "Ich habe die Spuren des seltenen Pokémon gezeichnet. Aber es waren nur meine eigenen Fußspuren..."
+        ]
+      },
+      "english": [
+        "The footprints turned out to be his own."
+      ],
+      "words": {
+        "ru": [
+          [
+            "собственный",
+            "own"
+          ]
+        ],
+        "de": [
+          [
+            "eigen",
+            "own"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleMayReturn",
+      "base_symbol": "OldaleTown_Text_MayLetsGoBack",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Мэй: Сюда! Пойдём скорее домой!"
+        ],
+        "A2": [
+          "Мэй: Сюда! Пойдём скорее домой!"
+        ],
+        "natural": [
+          "Мэй: Сюда! Пойдём скорее домой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Maike: Hierher! Lass uns schnell nach Hause gehen!"
+        ],
+        "A2": [
+          "Maike: Hierher! Lass uns schnell nach Hause gehen!"
+        ],
+        "natural": [
+          "Maike: Hierher! Lass uns schnell nach Hause gehen!"
+        ]
+      },
+      "english": [
+        "May asks you to hurry home."
+      ],
+      "words": {
+        "ru": [
+          [
+            "домой",
+            "homeward"
+          ]
+        ],
+        "de": [
+          [
+            "nach Hause",
+            "homeward"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleBrendanReturn",
+      "base_symbol": "OldaleTown_Text_BrendanLetsGoBack",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Брендан: Я возвращаюсь в лабораторию папы. Тебе тоже пора туда!"
+        ],
+        "A2": [
+          "Брендан: Я возвращаюсь в лабораторию папы. Тебе тоже пора туда!"
+        ],
+        "natural": [
+          "Брендан: Я возвращаюсь в лабораторию папы. Тебе тоже пора туда!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Brix: Ich gehe zurück in Papas Labor. Komm auch bald zurück!"
+        ],
+        "A2": [
+          "Brix: Ich gehe zurück in Papas Labor. Komm auch bald zurück!"
+        ],
+        "natural": [
+          "Brix: Ich gehe zurück in Papas Labor. Komm auch bald zurück!"
+        ]
+      },
+      "english": [
+        "Brendan heads back to the lab."
+      ],
+      "words": {
+        "ru": [
+          [
+            "возвращаться",
+            "to return"
+          ]
+        ],
+        "de": [
+          [
+            "zurückgehen",
+            "to go back"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleSign",
+      "base_symbol": "OldaleTown_Text_TownSign",
+      "source_path": "data/maps/OldaleTown/text.inc",
+      "ru": {
+        "A1": [
+          "Олдейл. Здесь всё начинается с малого."
+        ],
+        "A2": [
+          "Олдейл. Здесь всё начинается с малого."
+        ],
+        "natural": [
+          "Олдейл. Здесь всё начинается с малого."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Rosaltstadt. Hier fängt alles klein an."
+        ],
+        "A2": [
+          "Rosaltstadt. Hier fängt alles klein an."
+        ],
+        "natural": [
+          "Rosaltstadt. Hier fängt alles klein an."
+        ]
+      },
+      "english": [
+        "Oldale Town: small beginnings."
+      ],
+      "words": {
+        "ru": [
+          [
+            "начало",
+            "beginning"
+          ]
+        ],
+        "de": [
+          [
+            "der Anfang",
+            "beginning"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldalePartyOrder",
+      "base_symbol": "OldaleTown_House1_Text_LeftPokemonGoesOutFirst",
+      "source_path": "data/maps/OldaleTown_House1/text.inc",
+      "ru": {
+        "A1": [
+          "В начале боя первым выходит покемон слева в списке. Когда в команде станет больше покемонов, попробуй менять их порядок. Это может помочь в бою."
+        ],
+        "A2": [
+          "В начале боя первым выходит покемон слева в списке. Когда в команде станет больше покемонов, попробуй менять их порядок. Это может помочь в бою."
+        ],
+        "natural": [
+          "В начале боя первым выходит покемон слева в списке. Когда в команде станет больше покемонов, попробуй менять их порядок. Это может помочь в бою."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Kampf tritt zuerst das Pokémon links in der Liste an. Wenn du mehr Pokémon im Team hast, ändere ihre Reihenfolge. Das kann dir im Kampf helfen."
+        ],
+        "A2": [
+          "Im Kampf tritt zuerst das Pokémon links in der Liste an. Wenn du mehr Pokémon im Team hast, ändere ihre Reihenfolge. Das kann dir im Kampf helfen."
+        ],
+        "natural": [
+          "Im Kampf tritt zuerst das Pokémon links in der Liste an. Wenn du mehr Pokémon im Team hast, ändere ihre Reihenfolge. Das kann dir im Kampf helfen."
+        ]
+      },
+      "english": [
+        "Change party order to choose which Pokémon fights first."
+      ],
+      "words": {
+        "ru": [
+          [
+            "порядок",
+            "order"
+          ]
+        ],
+        "de": [
+          [
+            "die Reihenfolge",
+            "order"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleLevel",
+      "base_symbol": "OldaleTown_House2_Text_PokemonLevelUp",
+      "source_path": "data/maps/OldaleTown_House2/text.inc",
+      "ru": {
+        "A1": [
+          "В боях покемоны повышают уровень и становятся сильнее."
+        ],
+        "A2": [
+          "В боях покемоны повышают уровень и становятся сильнее."
+        ],
+        "natural": [
+          "В боях покемоны повышают уровень и становятся сильнее."
+        ]
+      },
+      "de": {
+        "A1": [
+          "In Kämpfen steigen Pokémon im Level und werden stärker."
+        ],
+        "A2": [
+          "In Kämpfen steigen Pokémon im Level und werden stärker."
+        ],
+        "natural": [
+          "In Kämpfen steigen Pokémon im Level und werden stärker."
+        ]
+      },
+      "english": [
+        "Battles help Pokémon grow stronger."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сильный",
+            "strong"
+          ]
+        ],
+        "de": [
+          [
+            "stark",
+            "strong"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleTravel",
+      "base_symbol": "OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon",
+      "source_path": "data/maps/OldaleTown_House2/text.inc",
+      "ru": {
+        "A1": [
+          "Когда твои покемоны станут сильнее, ты сможешь путешествовать дальше."
+        ],
+        "A2": [
+          "Когда твои покемоны станут сильнее, ты сможешь путешествовать дальше."
+        ],
+        "natural": [
+          "Когда твои покемоны станут сильнее, ты сможешь путешествовать дальше."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn deine Pokémon stärker werden, kannst du weiter reisen."
+        ],
+        "A2": [
+          "Wenn deine Pokémon stärker werden, kannst du weiter reisen."
+        ],
+        "natural": [
+          "Wenn deine Pokémon stärker werden, kannst du weiter reisen."
+        ]
+      },
+      "english": [
+        "Stronger Pokémon let you travel farther."
+      ],
+      "words": {
+        "ru": [
+          [
+            "путешествовать",
+            "to travel"
+          ]
+        ],
+        "de": [
+          [
+            "reisen",
+            "to travel"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleSoldOut",
+      "base_symbol": "OldaleTown_Mart_Text_PokeBallsAreSoldOut",
+      "source_path": "data/maps/OldaleTown_Mart/text.inc",
+      "ru": {
+        "A1": [
+          "Продавец говорит, что покеболы закончились. Я не могу их купить."
+        ],
+        "A2": [
+          "Продавец говорит, что покеболы закончились. Я не могу их купить."
+        ],
+        "natural": [
+          "Продавец говорит, что покеболы закончились. Я не могу их купить."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Laut Verkäufer sind alle Pokébälle ausverkauft. Ich kann keine kaufen."
+        ],
+        "A2": [
+          "Laut Verkäufer sind alle Pokébälle ausverkauft. Ich kann keine kaufen."
+        ],
+        "natural": [
+          "Laut Verkäufer sind alle Pokébälle ausverkauft. Ich kann keine kaufen."
+        ]
+      },
+      "english": [
+        "The shop has sold out of Poké Balls."
+      ],
+      "words": {
+        "ru": [
+          [
+            "покупать",
+            "to buy"
+          ]
+        ],
+        "de": [
+          [
+            "kaufen",
+            "to buy"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleBuyBalls",
+      "base_symbol": "OldaleTown_Mart_Text_ImGoingToBuyPokeBalls",
+      "source_path": "data/maps/OldaleTown_Mart/text.inc",
+      "ru": {
+        "A1": [
+          "Я куплю много покеболов и поймаю много покемонов!"
+        ],
+        "A2": [
+          "Я куплю много покеболов и поймаю много покемонов!"
+        ],
+        "natural": [
+          "Я куплю много покеболов и поймаю много покемонов!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich kaufe viele Pokébälle und fange viele Pokémon!"
+        ],
+        "A2": [
+          "Ich kaufe viele Pokébälle und fange viele Pokémon!"
+        ],
+        "natural": [
+          "Ich kaufe viele Pokébälle und fange viele Pokémon!"
+        ]
+      },
+      "english": [
+        "I will buy Poké Balls and catch Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ловить",
+            "to catch"
+          ]
+        ],
+        "de": [
+          [
+            "fangen",
+            "to catch"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleHealth",
+      "base_symbol": "OldaleTown_Mart_Text_RestoreHPWithPotion",
+      "source_path": "data/maps/OldaleTown_Mart/text.inc",
+      "ru": {
+        "A1": [
+          "Если покемон теряет все очки здоровья, он больше не может сражаться. Восстанавливай здоровье зельем, чтобы этого не случилось."
+        ],
+        "A2": [
+          "Если покемон теряет все очки здоровья, он больше не может сражаться. Восстанавливай здоровье зельем, чтобы этого не случилось."
+        ],
+        "natural": [
+          "Если покемон теряет все очки здоровья, он больше не может сражаться. Восстанавливай здоровье зельем, чтобы этого не случилось."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn ein Pokémon alle Kraftpunkte verliert, kann es nicht mehr kämpfen. Gib ihm rechtzeitig einen Trank, um seine KP aufzufüllen."
+        ],
+        "A2": [
+          "Wenn ein Pokémon alle Kraftpunkte verliert, kann es nicht mehr kämpfen. Gib ihm rechtzeitig einen Trank, um seine KP aufzufüllen."
+        ],
+        "natural": [
+          "Wenn ein Pokémon alle Kraftpunkte verliert, kann es nicht mehr kämpfen. Gib ihm rechtzeitig einen Trank, um seine KP aufzufüllen."
+        ]
+      },
+      "english": [
+        "Use a Potion before your Pokémon loses all its HP."
+      ],
+      "words": {
+        "ru": [
+          [
+            "здоровье",
+            "health"
+          ]
+        ],
+        "de": [
+          [
+            "die Kraftpunkte",
+            "hit points"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleComputer",
+      "base_symbol": "OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC",
+      "source_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Компьютером в углу может пользоваться любой тренер покемонов. Ты тоже можешь!"
+        ],
+        "A2": [
+          "Компьютером в углу может пользоваться любой тренер покемонов. Ты тоже можешь!"
+        ],
+        "natural": [
+          "Компьютером в углу может пользоваться любой тренер покемонов. Ты тоже можешь!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Den PC in der Ecke darf jeder Pokémon-Trainer benutzen. Du natürlich auch!"
+        ],
+        "A2": [
+          "Den PC in der Ecke darf jeder Pokémon-Trainer benutzen. Du natürlich auch!"
+        ],
+        "natural": [
+          "Den PC in der Ecke darf jeder Pokémon-Trainer benutzen. Du natürlich auch!"
+        ]
+      },
+      "english": [
+        "Any trainer may use the PC in the corner."
+      ],
+      "words": {
+        "ru": [
+          [
+            "угол",
+            "corner"
+          ]
+        ],
+        "de": [
+          [
+            "die Ecke",
+            "corner"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleFreeCare",
+      "base_symbol": "OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat",
+      "source_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Центры покемонов прекрасны! Можно приходить сколько угодно, и всё бесплатно. Не о чем беспокоиться!"
+        ],
+        "A2": [
+          "Центры покемонов прекрасны! Можно приходить сколько угодно, и всё бесплатно. Не о чем беспокоиться!"
+        ],
+        "natural": [
+          "Центры покемонов прекрасны! Можно приходить сколько угодно, и всё бесплатно. Не о чем беспокоиться!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon-Center sind toll! Du kannst jederzeit kommen, und alles ist kostenlos. Du brauchst dir keine Sorgen zu machen!"
+        ],
+        "A2": [
+          "Pokémon-Center sind toll! Du kannst jederzeit kommen, und alles ist kostenlos. Du brauchst dir keine Sorgen zu machen!"
+        ],
+        "natural": [
+          "Pokémon-Center sind toll! Du kannst jederzeit kommen, und alles ist kostenlos. Du brauchst dir keine Sorgen zu machen!"
+        ]
+      },
+      "english": [
+        "Pokémon Center services are free."
+      ],
+      "words": {
+        "ru": [
+          [
+            "бесплатно",
+            "free of charge"
+          ]
+        ],
+        "de": [
+          [
+            "kostenlos",
+            "free of charge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleClubClosed",
+      "base_symbol": "OldaleTown_PokemonCenter_1F_Text_CableClubNotAvailable",
+      "source_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "На втором этаже недавно построили клуб связи. Но его ещё готовят к открытию."
+        ],
+        "A2": [
+          "На втором этаже недавно построили клуб связи. Но его ещё готовят к открытию."
+        ],
+        "natural": [
+          "На втором этаже недавно построили клуб связи. Но его ещё готовят к открытию."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oben wurde vor Kurzem ein Kabel-Club eingerichtet. Er wird aber noch vorbereitet."
+        ],
+        "A2": [
+          "Oben wurde vor Kurzem ein Kabel-Club eingerichtet. Er wird aber noch vorbereitet."
+        ],
+        "natural": [
+          "Oben wurde vor Kurzem ein Kabel-Club eingerichtet. Er wird aber noch vorbereitet."
+        ]
+      },
+      "english": [
+        "The upstairs link club is not ready yet."
+      ],
+      "words": {
+        "ru": [
+          [
+            "этаж",
+            "floor; storey"
+          ]
+        ],
+        "de": [
+          [
+            "das Stockwerk",
+            "floor; storey"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "OldaleClubOpen",
+      "base_symbol": "OldaleTown_PokemonCenter_1F_Text_TradedInCableClub",
+      "source_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "На втором этаже недавно открыли клуб связи. Я уже обменял там покемона!"
+        ],
+        "A2": [
+          "На втором этаже недавно открыли клуб связи. Я уже обменял там покемона!"
+        ],
+        "natural": [
+          "На втором этаже недавно открыли клуб связи. Я уже обменял там покемона!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oben wurde vor Kurzem ein Kabel-Club eröffnet. Ich habe dort gleich ein Pokémon getauscht!"
+        ],
+        "A2": [
+          "Oben wurde vor Kurzem ein Kabel-Club eröffnet. Ich habe dort gleich ein Pokémon getauscht!"
+        ],
+        "natural": [
+          "Oben wurde vor Kurzem ein Kabel-Club eröffnet. Ich habe dort gleich ein Pokémon getauscht!"
+        ]
+      },
+      "english": [
+        "The speaker traded a Pokémon upstairs."
+      ],
+      "words": {
+        "ru": [
+          [
+            "обменивать",
+            "to exchange"
+          ]
+        ],
+        "de": [
+          [
+            "tauschen",
+            "to trade"
+          ]
+        ]
+      }
     }
   ]
 }

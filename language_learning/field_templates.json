@@ -1,0 +1,15 @@
+{
+  "gOtherText_ThatWillBe": {
+    "ru": "{STR_VAR_1}\\n{STR_VAR_2} шт.: {STR_VAR_3}?",
+    "de": "{STR_VAR_1}\\n{STR_VAR_2} St.: {STR_VAR_3}?",
+    "widths": {"STR_VAR_1": 112, "STR_VAR_2": 24, "STR_VAR_3": 48}
+  },
+  "gOtherText_NotEnoughMoney": {
+    "ru": "Не хватает денег!{PAUSE_UNTIL_PRESS}",
+    "de": "Nicht genug Geld!{PAUSE_UNTIL_PRESS}"
+  },
+  "gOtherText_NoRoomFor": {
+    "ru": "В сумке нет места!{PAUSE_UNTIL_PRESS}",
+    "de": "Kein Platz im Beutel!{PAUSE_UNTIL_PRESS}"
+  }
+}

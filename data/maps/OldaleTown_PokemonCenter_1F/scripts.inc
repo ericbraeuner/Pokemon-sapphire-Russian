@@ -16,22 +16,44 @@ OldaleTown_PokemonCenter_1F_EventScript_Nurse:: @ 8152F17
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Gentleman:: @ 8152F25
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_OldaleComputer
+	release
+	.else
 	msgbox OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC, MSGBOX_NPC
+	.endif
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Boy:: @ 8152F2E
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_OldaleFreeCare
+	release
+	.else
 	msgbox OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat, MSGBOX_NPC
+	.endif
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Girl:: @ 8152F37
 	lock
 	faceplayer
 	goto_if_set FLAG_SYS_POKEDEX_GET, OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleClubClosed
+	.else
 	msgbox OldaleTown_PokemonCenter_1F_Text_CableClubNotAvailable, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable:: @ 8152F4C
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_OldaleClubOpen
+	.else
 	msgbox OldaleTown_PokemonCenter_1F_Text_TradedInCableClub, MSGBOX_DEFAULT
+	.endif
 	release
 	end

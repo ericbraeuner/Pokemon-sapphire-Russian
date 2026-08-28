@@ -29,6 +29,10 @@ def generate(russian, latin, glyphs):
     battle_parts, battle_table = battle.generate(russian, latin)
     parts.extend(battle_parts)
     table.extend(battle_table)
+    import field_templates
+    field_parts, field_table = field_templates.generate(russian, latin, glyphs)
+    parts.extend(field_parts)
+    table.extend(field_table)
     parts.append('\t.balign 4\ngLearnerUiTranslations::\n' + '\n'.join(table))
     parts.append(f'gLearnerUiTranslationCount::\n\t.2byte {len(table)}\n')
     names = demo.validate.load(demo.ROOT / 'language_learning/map_names.json')

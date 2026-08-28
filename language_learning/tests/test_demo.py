@@ -10,6 +10,7 @@ sys.path.insert(0, str(TOOLS))
 import build_demo as demo
 import validate
 import opening
+import ui
 
 
 class LessonTests(unittest.TestCase):
@@ -59,6 +60,7 @@ class LessonTests(unittest.TestCase):
 
     def test_opening_hooks_cover_both_houses_and_keep_base_text(self):
         paths = ['data/scripts/players_house.inc',
+                 'data/maps/LittlerootTown/scripts.inc',
                  'data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc',
                  'data/maps/LittlerootTown_MaysHouse_1F/scripts.inc']
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
@@ -82,6 +84,37 @@ class LessonTests(unittest.TestCase):
             if byte_lines:
                 self.assertLessEqual(len(byte_lines), demo.MAX_MESSAGE_BYTES)
                 self.assertEqual('0xFF', byte_lines[-1])
+
+    def test_russian_capital_baselines_and_diaeresis(self):
+        for char, rows in self.glyphs.items():
+            if char.isupper():
+                self.assertIn('1', rows[8], char)
+        self.assertEqual(self.glyphs['е'][2:], self.glyphs['ё'][2:])
+        self.assertEqual('01010', self.glyphs['ё'][0])
+
+    def test_interface_translations_compile_and_have_declarations(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        header = (demo.ROOT / 'include/learner.h').read_text(encoding='utf-8')
+        assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
+        for key in entries:
+            self.assertIn(f'LEARNER_DECLARE({key})', header)
+            for tag in ('ru', 'de'):
+                self.assertIn(f'LearnerUI_{tag}_{key}::', assembly)
+        self.assertEqual('Да', entries['Yes']['ru'])
+        self.assertEqual('Nein', entries['No']['de'])
+
+    def test_new_game_settings_committed_after_all_resets(self):
+        code = (demo.ROOT / 'src/new_game.c').read_text(encoding='utf-8')
+        function = code.split('void NewGameInitData(void)', 1)[1].split('#if DEBUG', 1)[0]
+        self.assertLess(function.index('InitEventData();'), function.index('Learner_CommitNewGameSettings();'))
+        self.assertLess(function.index('RunScriptImmediately(EventScript_ResetAllMapFlags);'), function.index('Learner_CommitNewGameSettings();'))
+        intro = (demo.ROOT / 'src/learner_intro.inc').read_text(encoding='utf-8')
+        for variable in ('LANGUAGE', 'LEVEL', 'MODE'):
+            self.assertIn(f'VarSet(VAR_LEARNER_{variable}', intro)
+        self.assertIn('sLearnerSettingsPending = FALSE;', intro)
+        clock = (demo.ROOT / 'src/wallclock.c').read_text(encoding='utf-8')
+        self.assertIn('LEARNER_UI(VarGet(VAR_LEARNER_LANGUAGE), ClockPrompt)', clock)
+        self.assertNotIn('VarSet(VAR_LEARNER_', clock)
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

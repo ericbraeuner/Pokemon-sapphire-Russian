@@ -182,7 +182,11 @@ PlayersHouse_1F_EventScript_PetalburgGymReportMale:: @ 81B6ABF
 	applymovement LOCALID_PLAYER, LittlerootTown_BrendansHouse_1F_Movement_1B6CCC
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_INTERVIEWER, FALSE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DadOnTV
+	.else
 	msgbox PlayersHouse_1F_Text_MaybeDadWillBeOn, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_0x8005, LittlerootTown_BrendansHouse_1F_Movement_1B6BDB
 	waitmovement 0
@@ -191,8 +195,16 @@ PlayersHouse_1F_EventScript_PetalburgGymReportMale:: @ 81B6ABF
 	call LittlerootTown_BrendansHouse_1F_EventScript_1B6BBE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MissedDad
+	.else
 	msgbox PlayersHouse_1F_Text_ItsOverWeMissedHim, MSGBOX_DEFAULT
+	.endif
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NextDoor
+	.else
 	msgbox PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	setvar VAR_TEMP_1, 1
 	applymovement VAR_0x8005, LittlerootTown_BrendansHouse_1F_Movement_1B6BE1
@@ -207,7 +219,11 @@ LittlerootTown_MaysHouse_1F_EventScript_1B6B2E:: @ 81B6B2E
 	applymovement LOCALID_PLAYER, LittlerootTown_MaysHouse_1F_Movement_1B6CD4
 	waitmovement 0
 	playbgm MUS_ENCOUNTER_INTERVIEWER, FALSE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DadOnTV
+	.else
 	msgbox PlayersHouse_1F_Text_MaybeDadWillBeOn, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_0x8005, LittlerootTown_MaysHouse_1F_Movement_1B6BDE
 	waitmovement 0
@@ -216,8 +232,16 @@ LittlerootTown_MaysHouse_1F_EventScript_1B6B2E:: @ 81B6B2E
 	call LittlerootTown_MaysHouse_1F_EventScript_1B6BBE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MissedDad
+	.else
 	msgbox PlayersHouse_1F_Text_ItsOverWeMissedHim, MSGBOX_DEFAULT
+	.endif
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NextDoor
+	.else
 	msgbox PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	setvar VAR_TEMP_1, 1
 	applymovement VAR_0x8005, LittlerootTown_MaysHouse_1F_Movement_1B6BE5
@@ -232,7 +256,11 @@ LittlerootTown_MaysHouse_1F_EventScript_1B6B9D:: @ 81B6B9D
 	waitmovement 0
 	applymovement VAR_0x8005, Common_Movement_Delay48
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_ComeQuickly
+	.else
 	msgbox PlayersHouse_1F_Text_OhComeQuickly, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	return
 
@@ -240,7 +268,11 @@ LittlerootTown_BrendansHouse_1F_EventScript_1B6BBE:: @ 81B6BBE
 LittlerootTown_MaysHouse_1F_EventScript_1B6BBE:: @ 81B6BBE
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TVReport
+	.else
 	msgbox PlayersHouse_1F_Text_ReportFromPetalburgGym, MSGBOX_DEFAULT
+	.endif
 	fadedefaultbgm
 	special TurnOffTVScreen
 	setflag FLAG_SYS_TV_HOME

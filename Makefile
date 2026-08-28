@@ -133,7 +133,7 @@ CPPFLAGS += -DLEARNER_DEMO=1
 ASFLAGS += --defsym LEARNER_DEMO=1
 ALL_OBJECTS += $(BUILD_DIR)/learner_demo.o
 
-build/learner_demo/lesson.s: language_learning/tools/opening.py language_learning/opening.json language_learning/tools/build_demo.py language_learning/tools/validate.py language_learning/integration/lesson_script.inc language_learning/integration/dialogue_catalog.json language_learning/fonts/cyrillic.json $(wildcard language_learning/language_packs/*/pack.json) charmap.txt
+build/learner_demo/lesson.s: language_learning/tools/ui.py language_learning/ui.json language_learning/tools/opening.py language_learning/opening.json language_learning/tools/build_demo.py language_learning/tools/validate.py language_learning/integration/lesson_script.inc language_learning/integration/dialogue_catalog.json language_learning/fonts/cyrillic.json $(wildcard language_learning/language_packs/*/pack.json) charmap.txt
 	$(PYTHON) language_learning/tools/build_demo.py
 
 $(BUILD_DIR)/learner_demo.o: build/learner_demo/lesson.s language_learning/integration/lesson_script.inc

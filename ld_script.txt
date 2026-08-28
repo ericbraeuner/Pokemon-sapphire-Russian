@@ -10,6 +10,8 @@ SECTIONS {
     ALIGN(4)
     {
         INCLUDE "sym_ewram.ld"
+        /* Optional intro settings; empty in the matching stock build. */
+        src/main_menu.o(ewram_data);
 
         . = 0x40000;
     }

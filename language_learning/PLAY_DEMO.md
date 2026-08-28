@@ -1,41 +1,50 @@
 # Play the Russian and German opening
 
-This build translates six house dialogue scenes in both languages. It is not
-yet a fully translated game. The introduction, later scenes, clock interface,
-battles, and general menus still contain English.
+This version translates Birch's introduction, twelve scripted opening scenes,
+and the clock confirmation. It is still a partial translation: naming-keyboard
+graphics, the main/save/bag menus, battles, many objects, and later scenes retain
+English. The clock's AM/PM artwork also remains unchanged.
 
 ## Try it
 
-1. Open `pokesapphire_learner.gba` in a GBA emulator. Start a **new game**; do not
-   load a save state from an older ROM build. Keep demo saves separate.
-2. Finish Birch's introduction, leave the truck, and follow Mom inside.
-3. Choose Russian or German, then A1, A2, B1, B2, C1, or C2.
-4. Continue through Mom's welcome, moving/room instructions, and upstairs clock
-   scene. The translated dialogue replaces the English lines in those scenes.
-5. After each scene, choose Next, Read again, Translation, Dictionary, or Settings.
-   These labels appear in your selected language. B means Next in the help menu;
-   it does not skip movement or story requirements. Settings cannot be cancelled
-   before a valid language and level are selected.
-6. Use the game's normal SAVE when available to save language and level together
-   with game progress. They are remembered between maps without saving too.
+1. Open `pokesapphire_learner.gba`. Start a **new game** to see the new setup.
+   Do not load an emulator save state from an older ROM build.
+2. Before Birch speaks, the **Language** screen lets you choose Russian or German.
+3. Choose A1–C2, then guided mode or immersion mode. B returns to the previous
+   setup screen. The first language screen requires a choice.
+4. Guided mode adds an English controls explanation. Immersion skips that
+   explanation. Birch speaks the chosen language in both modes. These modes do
+   not claim that the entire game is translated yet.
+5. Follow Mom from the truck into the house, set the clock, and watch the TV
+   sequence. The language and level carry across these scenes without reselecting.
+   The clock confirmation uses the chosen language, including Yes/No.
+6. Help menus provide Next, Read again, Translation, Dictionary, and Settings in
+   the selected language. B means Next; story actions still run normally.
+7. Change language, level, or mode in a translated scene's Settings menu. A new
+   choice applies to subsequent covered interactions, including the clock.
+8. Use the normal game SAVE to store all three choices with your progress.
+   Continue loads them without opening new-game setup. Old learner saves with
+   a language/level but no mode default to guided mode without losing their choices.
 
-German nouns include their articles: **das Haus**, **das Zimmer**, **die Uhr**,
-**der Umzug**, **die Zeit**, **der Schreibtisch**. Fixed phrases such as
-**zu Hause** stay intact. Russian has no articles. Russian **часы** is a plural
-noun meaning clock or watch. Definition separators display as commas to avoid
-the base font's misleading semicolon glyph.
+Keep experimental saves separate from the unmodified game. Normal `.sav` saves
+and emulator save states are different; the latter contain ROM-specific pointers.
 
-## Difficulty in this build
+## Language and difficulty
 
-- A1: short, direct sentences.
+German nouns include articles, such as **das Haus**, **die Uhr**, and
+**der Schreibtisch**. Fixed phrases such as **zu Hause** stay intact. Russian
+has no articles. Definition separators display as commas. The Russian font now
+aligns capitals with the lowercase baseline; accents and descenders are intentional.
+
+- A1: shorter sentences in scenes with authored difficulty variants.
 - A2: more connected sentences.
-- B1–C2: the same natural dialogue, with dictionary help still available.
+- B1–C2: shared natural dialogue, with dictionary help still available.
 
-These are authored learning targets, not certified CEFR assessments. There are
-three text versions per scene, not six distinct translations. C2 does not mean
-every sentence needs advanced vocabulary. English translations appear only
-when requested within these covered scenes; settings instructions still use
-English. There is no adaptive difficulty or vocabulary tracking yet.
+The introductory speech and short TV lines currently use common wording across
+levels. These are learning targets, not certified CEFR assessments or six distinct
+translations of every sentence. There is no adaptive progression or vocabulary
+tracking yet. Help is available after translated field scenes; it is not yet a
+hotkey during Birch's speech or every textbox.
 
 ## Building it
 
@@ -60,23 +69,14 @@ make -j8 GAME_VERSION=SAPPHIRE LEARNER_DEMO=1 PYTHON=/c/Users/ericb/.cache/codex
 The normal game is still built separately with `make sapphire COMPARE=1`.
 Do not expect the demo ROM to match the original game's hash.
 
-## Development direction
+## Next development milestones
 
-The intended product keeps the selected target language throughout the game.
-The remaining English is unfinished coverage, not the intended learning loop.
+1. Translate the neighbor/rival and lab sequences, town objects, naming keyboard,
+   and general game interfaces. Expand route by route with a coverage checklist.
+2. Add a dictionary shortcut during dialogue that pauses and restores the current
+   page. Audit button uses first; R is a candidate, not an implemented shortcut.
+3. Connect exposures and dictionary requests to learner profiles, and add more
+   difficulty-specific variants where they improve learning.
 
-Next milestones:
-
-1. Move language, level, and guided/immersion mode selection before Birch's
-   introduction. Guided mode can explain controls in English; immersion mode
-   should use the chosen language immediately. This is not implemented yet.
-2. Translate the whole Littleroot opening, then expand route by route while
-   preserving story instructions. Translate game interfaces as well as dialogue.
-3. Add an in-dialogue dictionary shortcut (candidate: R) that pauses and restores
-   the exact text position. Audit existing button uses before assigning it.
-4. Add more level-specific text where useful and connect dictionary requests to
-   learner profiles. Keep dictionary access in every mode, including C2.
-
-The current help menu is a temporary interface, not the final dictionary hotkey.
-The boy and girl share the same translated house hooks. Other dialogue and
-interfaces must still be translated before claiming full immersion.
+Full target-language immersion remains the intended final product. English
+outside covered scenes is unfinished coverage, not a deliberate return to English.

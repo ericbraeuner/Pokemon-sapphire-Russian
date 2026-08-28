@@ -66,7 +66,7 @@ def dictionary_entry(item):
     return f"{lemma}: {item['english']}"
 
 
-def wrap(text, mapping, glyphs):
+def wrap(text, mapping, glyphs, max_width=MAX_LINE_WIDTH):
     if not text or any(c in text for c in "\n\r\t${}"):
         raise ValueError("Expected plain, nonempty lesson text without control codes")
     encode(text, mapping)  # Never silently drop unsupported characters.
@@ -75,10 +75,10 @@ def wrap(text, mapping, glyphs):
     lines = []
     current = ""
     for word in text.split():
-        if width(word) > MAX_LINE_WIDTH:
+        if width(word) > max_width:
             raise ValueError(f"Word exceeds message width: {word}")
         candidate = f"{current} {word}" if current else word
-        if width(candidate) > MAX_LINE_WIDTH:
+        if width(candidate) > max_width:
             lines.append(current)
             current = word
         else:
@@ -87,7 +87,7 @@ def wrap(text, mapping, glyphs):
     return lines
 
 
-def message(pages, mapping, glyphs, font):
+def message(pages, mapping, glyphs, font, max_width=MAX_LINE_WIDTH):
     # Explicit Latin mode + font selection, then restore the window's default font.
     data = [0xFC, 0x16, 0xFC, 0x06, font]
     # The native page arrow expects the shadowed font's tile format.
@@ -95,7 +95,7 @@ def message(pages, mapping, glyphs, font):
     for page_index, page in enumerate(pages):
         if page_index:
             data.extend(page_break)
-        for line_index, line in enumerate(wrap(page, mapping, glyphs)):
+        for line_index, line in enumerate(wrap(page, mapping, glyphs, max_width)):
             if line_index:
                 data.extend([0xFE] if line_index % 2 else page_break)
             data.extend(encode(line, mapping))
@@ -139,6 +139,8 @@ def generate():
         parts.append(assembly_bytes(f"LearnerLesson_{prefix}Words", message(pages, mapping, glyphs, font)))
     import opening
     parts.extend(opening.generate(russian, latin, glyphs))
+    import ui
+    parts.extend(ui.generate(russian, latin, glyphs))
     indices = [255] * 256
     for index, code in enumerate(glyph_codes()[:len(glyphs)]):
         indices[code] = index

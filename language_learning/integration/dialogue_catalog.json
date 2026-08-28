@@ -10,7 +10,7 @@
         "symbol": "PlayersHouse_1F_EventScript_EnterHouseMovingIn",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_IsntItNiceInHere",
-        "note": "Optional extra greeting before the shared moving-in dialogue; applies to both player characters. Original dialogue and story instructions follow unchanged."
+        "note": "The learner build replaces the shared moving-in greeting with translated dialogue for both player characters. Story instructions stay unchanged; the stock build retains the original dialogue."
       },
       "progress": {
         "chapter": "arrival",

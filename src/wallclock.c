@@ -10,6 +10,8 @@
 #include "task.h"
 #include "trig.h"
 #include "wallclock.h"
+#include "learner.h"
+#include "event_data.h"
 #include "constants/songs.h"
 
 extern u16 gSpecialVar_0x8004;
@@ -767,13 +769,29 @@ static void Task_SetClock2(u8 taskId)
     }
 }
 
+#if LEARNER_DEMO
+static const struct MenuAction sClockRuYesNo[] = {
+    {LearnerUI_ru_Yes, NULL}, {LearnerUI_ru_No, NULL}
+};
+static const struct MenuAction sClockDeYesNo[] = {
+    {LearnerUI_de_Yes, NULL}, {LearnerUI_de_No, NULL}
+};
+#endif
 //Ask player "Is this the correct time?"
 static void Task_SetClock3(u8 taskId)
 {
     Menu_DrawStdWindowFrame(2, 16, 27, 19);
+#if LEARNER_DEMO
+    Menu_PrintText(VarGet(VAR_LEARNER_LANGUAGE) ? LEARNER_UI(VarGet(VAR_LEARNER_LANGUAGE), ClockPrompt) : gOtherText_CorrectTimePrompt, 3, 17);
+#else
     Menu_PrintText(gOtherText_CorrectTimePrompt, 3, 17);
+#endif
     Menu_DrawStdWindowFrame(23, 8, 29, 13);
+#if LEARNER_DEMO
+    Menu_PrintItems(24, 9, 2, VarGet(VAR_LEARNER_LANGUAGE) == 1 ? sClockRuYesNo : VarGet(VAR_LEARNER_LANGUAGE) == 2 ? sClockDeYesNo : gMenuYesNoItems);
+#else
     Menu_PrintItems(24, 9, 2, gMenuYesNoItems);
+#endif
     InitMenu(0, 24, 9, 2, 1, 5);
     gTasks[taskId].func = Task_SetClock4;
 }

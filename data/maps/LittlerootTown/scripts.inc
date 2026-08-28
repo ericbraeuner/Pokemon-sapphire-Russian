@@ -111,7 +111,11 @@ LittlerootTown_EventScript_GoInsideWithMom:: @ 814D62B
 	delay 10
 	applymovement 4, LittlerootTown_Movement_MomApproachPlayerAtTruck
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Arrival
+	.else
 	msgbox LittlerootTown_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 4, LittlerootTown_Movement_MomApproachDoor
 	applymovement LOCALID_PLAYER, LittlerootTown_Movement_PlayerApproachDoor

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "script.h"
 #include "script_menu.h"
 #include "event_data.h"
@@ -480,6 +481,12 @@ struct MultichoiceListStruct
 };
 
 #if LEARNER_DEMO
+static const struct MenuAction sLearnerRuModes[] = {
+    {LearnerUI_ru_Guided, NULL}, {LearnerUI_ru_Immersion, NULL},
+};
+static const struct MenuAction sLearnerDeModes[] = {
+    {LearnerUI_de_Guided, NULL}, {LearnerUI_de_Immersion, NULL},
+};
 extern const u8 LearnerMenu_RuNext[];
 extern const u8 LearnerMenu_RuAgain[];
 extern const u8 LearnerMenu_RuHint[];
@@ -615,6 +622,8 @@ const struct MultichoiceListStruct gMultichoiceLists[] =
     [MULTI_LEARNER_RU] = MULTICHOICE(sLearnerRuActions),
     [MULTI_LEARNER_DE] = MULTICHOICE(sLearnerDeActions),
     [MULTI_LEARNER_LEVEL] = MULTICHOICE(sLearnerLevels),
+    [MULTI_LEARNER_MODE_RU] = MULTICHOICE(sLearnerRuModes),
+    [MULTI_LEARNER_MODE_DE] = MULTICHOICE(sLearnerDeModes),
 #endif
 };
 

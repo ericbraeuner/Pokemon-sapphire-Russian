@@ -14,6 +14,8 @@
 #define MULTI_LEARNER_RU       75
 #define MULTI_LEARNER_DE       76
 #define MULTI_LEARNER_LEVEL    77
+#define MULTI_LEARNER_MODE_RU  78
+#define MULTI_LEARNER_MODE_DE  79
 
 // Std String Ids
 #define STDSTRING_COOL             0

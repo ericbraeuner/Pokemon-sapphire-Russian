@@ -2,6 +2,7 @@
 #include "constants/songs.h"
 #include "constants/species.h"
 #include "main_menu.h"
+#include "learner.h"
 #include "data2.h"
 #include "decompress.h"
 #include "event_data.h"
@@ -738,6 +739,10 @@ void PrintBadgeCount(void)
 #define tBrendanSpriteId data[10]
 #define tMaySpriteId     data[11]
 
+#if LEARNER_DEMO
+#include "learner_intro.inc"
+#endif
+
 static void Task_NewGameSpeech1(u8 taskId)
 {
     Text_LoadWindowTemplate(&gWindowTemplate_81E6C3C);
@@ -761,7 +766,16 @@ static void Task_NewGameSpeech1(u8 taskId)
     REG_BG1CNT = BGCNT_PRIORITY(3) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(7) | BGCNT_16COLOR | BGCNT_TXT256x256;
     REG_DISPCNT = DISPCNT_MODE_0 | DISPCNT_BG0_ON | DISPCNT_BG1_ON | DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP;
     gTasks[taskId].tBGhofs = 0;
+#if LEARNER_DEMO
+    sLearnerLanguage = 1;
+    sLearnerLevel = 1;
+    sLearnerMode = 1;
+    sLearnerSettingsPending = TRUE;
+    gTasks[taskId].data[12] = 0;
+    gTasks[taskId].func = Task_LearnerSetup;
+#else
     gTasks[taskId].func = Task_NewGameSpeech2;
+#endif
     gTasks[taskId].tTrainerSpriteId = 0xFF;
     gTasks[taskId].data[3] = 0xFF;
     gTasks[taskId].tFrameCounter = 216;  //Wait 3.6 seconds (216 frames) before starting speech
@@ -805,7 +819,11 @@ static void Task_NewGameSpeech3(u8 taskId)
             Menu_DrawStdWindowFrame(2, 13, 27, 18);
             //"Hi! Sorry to keep you waiting...
             //...But everyone calls me the POKEMON PROFESSOR."
+#if LEARNER_DEMO
+            MenuPrintMessage(LEARNER_UI(sLearnerLanguage, Welcome), 3, 14);
+#else
             MenuPrintMessage(gBirchSpeech_Welcome, 3, 14);
+#endif
             gTasks[taskId].func = Task_NewGameSpeech4;
         }
     }
@@ -817,7 +835,11 @@ static void Task_NewGameSpeech4(u8 taskId)
     {
         gTasks[taskId].func = Task_NewGameSpeech5;
         //"This is what we call a POKEMON."
+#if LEARNER_DEMO
+        MenuPrintMessage(LEARNER_UI(sLearnerLanguage, ThisIsPokemon), 3, 14);
+#else
         MenuPrintMessage(gBirchSpeech_ThisIsPokemon, 3, 14);
+#endif
     }
 }
 
@@ -867,7 +889,11 @@ static void Task_NewGameSpeech8(u8 taskId)
     {
         //"This world is widely inhabited by POKEMON...
         //...That's what I do."
+#if LEARNER_DEMO
+        MenuPrintMessage(LEARNER_UI(sLearnerLanguage, WorldInhabitedByPokemon), 3, 14);
+#else
         MenuPrintMessage(gBirchSpeech_WorldInhabitedByPokemon, 3, 14);
+#endif
         gTasks[taskId].func = Task_NewGameSpeech9;
     }
 }
@@ -878,7 +904,11 @@ static void Task_NewGameSpeech9(u8 taskId)
     {
         Menu_DrawStdWindowFrame(2, 13, 27, 18);
         //"And you are?"
+#if LEARNER_DEMO
+        MenuPrintMessage(LEARNER_UI(sLearnerLanguage, AndYouAre), 3, 14);
+#else
         MenuPrintMessage(gBirchSpeech_AndYouAre, 3, 14);
+#endif
         gTasks[taskId].func = Task_NewGameSpeech10;
     }
 }
@@ -954,7 +984,11 @@ static void Task_NewGameSpeech14(u8 taskId)
 {
     Menu_DrawStdWindowFrame(2, 13, 27, 18);
     //"Are you a boy? Or are you a girl?"
+#if LEARNER_DEMO
+    MenuPrintMessage(LEARNER_UI(sLearnerLanguage, AreYouBoyOrGirl), 3, 14);
+#else
     MenuPrintMessage(gBirchSpeech_AreYouBoyOrGirl, 3, 14);
+#endif
     gTasks[taskId].func = Task_NewGameSpeech15;
 }
 
@@ -978,14 +1012,22 @@ static void Task_NewGameSpeech16(u8 taskId)
         Menu_DestroyCursor();
         PlaySE(SE_SELECT);
         gSaveBlock2.playerGender = MALE;
+#if LEARNER_DEMO
+        Menu_EraseWindowRect(2, 4, 11, 9);
+#else
         Menu_EraseWindowRect(2, 4, 8, 9);
+#endif
         gTasks[taskId].func = Task_NewGameSpeech19;
         break;
     case FEMALE:
         Menu_DestroyCursor();
         PlaySE(SE_SELECT);
         gSaveBlock2.playerGender = FEMALE;
+#if LEARNER_DEMO
+        Menu_EraseWindowRect(2, 4, 11, 9);
+#else
         Menu_EraseWindowRect(2, 4, 8, 9);
+#endif
         gTasks[taskId].func = Task_NewGameSpeech19;
         break;
     }
@@ -1054,7 +1096,11 @@ static void Task_NewGameSpeech19(u8 taskId)
 {
     Menu_DrawStdWindowFrame(2, 13, 27, 18);
     //"All right. What's your name?"
+#if LEARNER_DEMO
+    MenuPrintMessage(LEARNER_UI(sLearnerLanguage, WhatsYourName), 3, 14);
+#else
     MenuPrintMessage(gBirchSpeech_WhatsYourName, 3, 14);
+#endif
     gTasks[taskId].func = Task_NewGameSpeech20;
 }
 
@@ -1112,7 +1158,11 @@ static void Task_NewGameSpeech23(u8 taskId)
 {
     Menu_DrawStdWindowFrame(2, 13, 27, 18);
     //"So it's (PLAYER)?"
+#if LEARNER_DEMO
+    StringExpandPlaceholders(gStringVar4, LEARNER_UI(sLearnerLanguage, SoItsPlayer));
+#else
     StringExpandPlaceholders(gStringVar4, gBirchSpeech_SoItsPlayer);
+#endif
     MenuPrintMessage(gStringVar4, 3, 14);
     gTasks[taskId].func = Task_NewGameSpeech24;
 }
@@ -1121,7 +1171,13 @@ static void Task_NewGameSpeech24(u8 taskId)
 {
     if (BirchSpeechUpdateWindowText())
     {
+#if LEARNER_DEMO
+        Menu_DrawStdWindowFrame(2, 1, 8, 6);
+        Menu_PrintItems(3, 2, 2, sLearnerLanguage == 1 ? sLearnerRuYesNo : sLearnerDeYesNo);
+        InitMenu(0, 3, 2, 2, 0, 5);
+#else
         DisplayYesNoMenu(2, 1, 1);
+#endif
         gTasks[taskId].func = Task_NewGameSpeech25;
     }
 }
@@ -1188,7 +1244,11 @@ static void Task_NewGameSpeech27(u8 taskId)
         StartSpriteFadeIn(taskId, 2);
         StartBackgroundFadeIn(taskId, 1);
         Menu_DrawStdWindowFrame(2, 13, 27, 18);
+#if LEARNER_DEMO
+        StringExpandPlaceholders(gStringVar4, LEARNER_UI(sLearnerLanguage, AhOkayYouArePlayer));
+#else
         StringExpandPlaceholders(gStringVar4, gBirchSpeech_AhOkayYouArePlayer);
+#endif
         //"Ah, okay! You're (PLAYER) who's moving...
         //...I get it now!"
         MenuPrintMessage(gStringVar4, 3, 14);
@@ -1258,7 +1318,11 @@ static void Task_NewGameSpeech29(u8 taskId)
             StartSpriteFadeIn(taskId, 2);
             StartBackgroundFadeIn(taskId, 1);
             Menu_DrawStdWindowFrame(2, 13, 27, 18);
+#if LEARNER_DEMO
+            MenuPrintMessage(LEARNER_UI(sLearnerLanguage, AreYouReady), 3, 14);
+#else
             MenuPrintMessage(gBirchSpeech_AreYouReady, 3, 14);
+#endif
             gTasks[taskId].func = Task_NewGameSpeech30;
         }
     }
@@ -1654,7 +1718,12 @@ static void CreateGenderMenu(u8 left, u8 top)
     Menu_DrawStdWindowFrame(left, top, left + 6, top + 5);
     menuLeft = left + 1;
     menuTop = top + 1;
+#if LEARNER_DEMO
+    Menu_DrawStdWindowFrame(left, top, left + 9, top + 5);
+    Menu_PrintItems(menuLeft, menuTop, 2, sLearnerLanguage == 1 ? sLearnerRuGender : sLearnerDeGender);
+#else
     Menu_PrintItems(menuLeft, menuTop, 2, gUnknown_081E79B0);
+#endif
     InitMenu(0, menuLeft, menuTop, 2, 0, 5);
 }
 
@@ -1672,6 +1741,10 @@ static void CreateNameMenu(u8 left, u8 top)
     else
         Menu_PrintItems(left + 1, top + 1, 5, gFemalePresetNames);
 
+#if LEARNER_DEMO
+    Menu_BlankWindowRect(left + 1, top + 1, left + 10, top + 2);
+    Menu_PrintText(LEARNER_UI(sLearnerLanguage, NewName), left + 1, top + 1);
+#endif
     InitMenu(0, left + 1, top + 1, 5, 0, 9);
 }
 

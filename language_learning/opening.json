@@ -1,48 +1,633 @@
 {
-  "coverage": "House arrival through setting the clock. Other scenes and game UI remain untranslated.",
+  "coverage": "Birch introduction, arrival, house/clock and TV sequence through the instruction to visit the neighbor.",
   "level_policy": "A1 uses short sentences, A2 uses connected sentences, B1-C2 share natural dialogue. These are editorial targets, not certified CEFR assessments.",
   "dialogues": [
     {
-      "id": "Welcome", "base_symbol": "PlayersHouse_1F_Text_IsntItNiceInHere",
-      "english": ["Welcome home! Our new house is nice, isn't it?"],
-      "ru": {"A1": ["Мама: Привет! Это наш новый дом. Здесь хорошо!"], "A2": ["Мама: Добро пожаловать домой! Тебе нравится наш новый дом?"], "natural": ["Мама: Ну как тебе наш новый дом? Здесь ведь тоже очень уютно, правда?"]},
-      "de": {"A1": ["Mama: Hallo! Das ist unser neues Haus. Hier ist es schön!"], "A2": ["Mama: Willkommen zu Hause! Gefällt dir unser neues Haus?"], "natural": ["Mama: Na, wie gefällt dir unser neues Haus? Hier ist es doch auch richtig gemütlich, oder?"]},
-      "words": {"ru": [["дом", "home, house"], ["новый", "new"], ["уютно", "cozy"]], "de": [["das Haus", "house"], ["neu", "new"], ["gemütlich", "cozy"]]}
+      "id": "Welcome",
+      "base_symbol": "PlayersHouse_1F_Text_IsntItNiceInHere",
+      "english": [
+        "Welcome home! Our new house is nice, isn't it?"
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Привет! Это наш новый дом. Здесь хорошо!"
+        ],
+        "A2": [
+          "Мама: Добро пожаловать домой! Тебе нравится наш новый дом?"
+        ],
+        "natural": [
+          "Мама: Ну как тебе наш новый дом? Здесь ведь тоже очень уютно, правда?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Hallo! Das ist unser neues Haus. Hier ist es schön!"
+        ],
+        "A2": [
+          "Mama: Willkommen zu Hause! Gefällt dir unser neues Haus?"
+        ],
+        "natural": [
+          "Mama: Na, wie gefällt dir unser neues Haus? Hier ist es doch auch richtig gemütlich, oder?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дом",
+            "home, house"
+          ],
+          [
+            "новый",
+            "new"
+          ],
+          [
+            "уютно",
+            "cozy"
+          ]
+        ],
+        "de": [
+          [
+            "das Haus",
+            "house"
+          ],
+          [
+            "neu",
+            "new"
+          ],
+          [
+            "gemütlich",
+            "cozy"
+          ]
+        ]
+      }
     },
     {
-      "id": "Move", "base_symbol": "PlayersHouse_1F_Text_MoversPokemonGoSetClock",
-      "english": ["The movers' Pokémon carry our things and clean up. That is a big help!", "Your room is upstairs. Dad bought you a new clock for the move. Go look at your room and set the clock."],
-      "ru": {"A1": ["Покемоны несут наши вещи. Они убирают дом. Это удобно!", "Твоя комната наверху. Папа купил тебе новые часы. Иди в комнату и поставь часы на нужное время."], "A2": ["Покемоны помогают нам с переездом и убирают дом. Это очень удобно!", "Твоя комната наверху. Папа купил тебе новые часы к переезду. Посмотри комнату и поставь часы на нужное время."], "natural": ["Покемоны грузчиков переносят наши вещи и всё за собой убирают. Как же это удобно!", "Твоя комната наверху. Папа купил тебе новые часы в честь нашего переезда. Сходи осмотрись и не забудь выставить время!"]},
-      "de": {"A1": ["Die Pokémon tragen unsere Sachen. Sie machen das Haus sauber. Das ist praktisch!", "Dein Zimmer ist oben. Papa hat dir eine neue Uhr gekauft. Schau dir dein Zimmer an und stell die Uhr!"], "A2": ["Die Pokémon helfen uns beim Umzug und machen danach alles sauber. Das ist sehr praktisch!", "Dein Zimmer ist oben. Papa hat dir zum Umzug eine neue Uhr gekauft. Schau dich dort um und stell die Uhr!"], "natural": ["Die Pokémon der Umzugshelfer tragen unsere Sachen herein und räumen anschließend alles auf. Wie praktisch!", "Dein Zimmer ist oben. Papa hat dir anlässlich unseres Umzugs eine neue Uhr gekauft. Schau dich ruhig um und vergiss nicht, die Uhr zu stellen!"]},
-      "words": {"ru": [["комната", "room"], ["наверху", "upstairs"], ["часы", "clock, watch (plural noun)"], ["переезд", "move to a new home"]], "de": [["das Zimmer", "room"], ["die Uhr", "clock, watch"], ["der Umzug", "move to a new home"], ["oben", "upstairs, above"]]}
+      "id": "Move",
+      "base_symbol": "PlayersHouse_1F_Text_MoversPokemonGoSetClock",
+      "english": [
+        "The movers' Pokémon carry our things and clean up. That is a big help!",
+        "Your room is upstairs. Dad bought you a new clock for the move. Go look at your room and set the clock."
+      ],
+      "ru": {
+        "A1": [
+          "Покемоны несут наши вещи. Они убирают дом. Это удобно!",
+          "Твоя комната наверху. Папа купил тебе новые часы. Иди в комнату и поставь часы на нужное время."
+        ],
+        "A2": [
+          "Покемоны помогают нам с переездом и убирают дом. Это очень удобно!",
+          "Твоя комната наверху. Папа купил тебе новые часы к переезду. Посмотри комнату и поставь часы на нужное время."
+        ],
+        "natural": [
+          "Покемоны грузчиков переносят наши вещи и всё за собой убирают. Как же это удобно!",
+          "Твоя комната наверху. Папа купил тебе новые часы в честь нашего переезда. Сходи осмотрись и не забудь выставить время!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Pokémon tragen unsere Sachen. Sie machen das Haus sauber. Das ist praktisch!",
+          "Dein Zimmer ist oben. Papa hat dir eine neue Uhr gekauft. Schau dir dein Zimmer an und stell die Uhr!"
+        ],
+        "A2": [
+          "Die Pokémon helfen uns beim Umzug und machen danach alles sauber. Das ist sehr praktisch!",
+          "Dein Zimmer ist oben. Papa hat dir zum Umzug eine neue Uhr gekauft. Schau dich dort um und stell die Uhr!"
+        ],
+        "natural": [
+          "Die Pokémon der Umzugshelfer tragen unsere Sachen herein und räumen anschließend alles auf. Wie praktisch!",
+          "Dein Zimmer ist oben. Papa hat dir anlässlich unseres Umzugs eine neue Uhr gekauft. Schau dich ruhig um und vergiss nicht, die Uhr zu stellen!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "комната",
+            "room"
+          ],
+          [
+            "наверху",
+            "upstairs"
+          ],
+          [
+            "часы",
+            "clock, watch (plural noun)"
+          ],
+          [
+            "переезд",
+            "move to a new home"
+          ]
+        ],
+        "de": [
+          [
+            "das Zimmer",
+            "room"
+          ],
+          [
+            "die Uhr",
+            "clock, watch"
+          ],
+          [
+            "der Umzug",
+            "move to a new home"
+          ],
+          [
+            "oben",
+            "upstairs, above"
+          ]
+        ]
+      }
     },
     {
-      "id": "RoomReminder", "base_symbol": "PlayersHouse_1F_Text_ArentYouInterestedInRoom",
-      "english": ["Don't you want to see your own room? It is upstairs."],
-      "ru": {"A1": ["Мама: Твоя комната наверху. Иди посмотри!"], "A2": ["Мама: Ты хочешь посмотреть свою комнату? Она наверху."], "natural": ["Мама: Неужели тебе не хочется взглянуть на свою собственную комнату?"]},
-      "de": {"A1": ["Mama: Dein Zimmer ist oben. Schau es dir an!"], "A2": ["Mama: Möchtest du dein eigenes Zimmer sehen? Es ist oben."], "natural": ["Mama: Bist du denn gar nicht neugierig auf dein eigenes Zimmer?"]},
-      "words": {"ru": [["комната", "room"], ["посмотри", "look (informal command)"]], "de": [["das Zimmer", "room"], ["neugierig", "curious"]]}
+      "id": "RoomReminder",
+      "base_symbol": "PlayersHouse_1F_Text_ArentYouInterestedInRoom",
+      "english": [
+        "Don't you want to see your own room? It is upstairs."
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Твоя комната наверху. Иди посмотри!"
+        ],
+        "A2": [
+          "Мама: Ты хочешь посмотреть свою комнату? Она наверху."
+        ],
+        "natural": [
+          "Мама: Неужели тебе не хочется взглянуть на свою собственную комнату?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Dein Zimmer ist oben. Schau es dir an!"
+        ],
+        "A2": [
+          "Mama: Möchtest du dein eigenes Zimmer sehen? Es ist oben."
+        ],
+        "natural": [
+          "Mama: Bist du denn gar nicht neugierig auf dein eigenes Zimmer?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "комната",
+            "room"
+          ],
+          [
+            "посмотри",
+            "look (informal command)"
+          ]
+        ],
+        "de": [
+          [
+            "das Zimmer",
+            "room"
+          ],
+          [
+            "neugierig",
+            "curious"
+          ]
+        ]
+      }
     },
     {
-      "id": "ClockReminder", "base_symbol": "PlayersHouse_1F_Text_GoSetTheClock",
-      "english": ["Go set the clock in your room."],
-      "ru": {"A1": ["Мама: В комнате есть часы. Поставь их на нужное время."], "A2": ["Мама: Иди в свою комнату и поставь часы на нужное время."], "natural": ["Мама: Не забудь выставить время на часах в своей комнате."]},
-      "de": {"A1": ["Mama: Stell bitte die Uhr in deinem Zimmer!"], "A2": ["Mama: Geh bitte in dein Zimmer und stell dort die Uhr!"], "natural": ["Mama: Denk bitte daran, die Uhr in deinem Zimmer zu stellen."]},
-      "words": {"ru": [["часы", "clock, watch (plural noun)"], ["время", "time"]], "de": [["die Uhr", "clock, watch"], ["das Zimmer", "room"]]}
+      "id": "ClockReminder",
+      "base_symbol": "PlayersHouse_1F_Text_GoSetTheClock",
+      "english": [
+        "Go set the clock in your room."
+      ],
+      "ru": {
+        "A1": [
+          "Мама: В комнате есть часы. Поставь их на нужное время."
+        ],
+        "A2": [
+          "Мама: Иди в свою комнату и поставь часы на нужное время."
+        ],
+        "natural": [
+          "Мама: Не забудь выставить время на часах в своей комнате."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Stell bitte die Uhr in deinem Zimmer!"
+        ],
+        "A2": [
+          "Mama: Geh bitte in dein Zimmer und stell dort die Uhr!"
+        ],
+        "natural": [
+          "Mama: Denk bitte daran, die Uhr in deinem Zimmer zu stellen."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "часы",
+            "clock, watch (plural noun)"
+          ],
+          [
+            "время",
+            "time"
+          ]
+        ],
+        "de": [
+          [
+            "die Uhr",
+            "clock, watch"
+          ],
+          [
+            "das Zimmer",
+            "room"
+          ]
+        ]
+      }
     },
     {
-      "id": "Clock", "base_symbol": "PlayersHouse_2F_Text_ClockIsStopped",
-      "english": ["The clock has stopped. Set it to the right time and start it."],
-      "ru": {"A1": ["Часы не идут. Поставь их на нужное время!"], "A2": ["Часы остановились. Поставь их на нужное время и запусти!"], "natural": ["Часы стоят... Лучше выставить правильное время и запустить их."]},
-      "de": {"A1": ["Die Uhr steht. Stell die richtige Zeit ein!"], "A2": ["Die Uhr ist stehen geblieben. Stell die richtige Zeit ein und starte sie!"], "natural": ["Die Uhr ist stehen geblieben... Am besten stellst du sie richtig und setzt sie wieder in Gang."]},
-      "words": {"ru": [["часы", "clock, watch (plural noun)"], ["время", "time"]], "de": [["die Uhr", "clock, watch"], ["die Zeit", "time"]]}
+      "id": "Clock",
+      "base_symbol": "PlayersHouse_2F_Text_ClockIsStopped",
+      "english": [
+        "The clock has stopped. Set it to the right time and start it."
+      ],
+      "ru": {
+        "A1": [
+          "Часы не идут. Поставь их на нужное время!"
+        ],
+        "A2": [
+          "Часы остановились. Поставь их на нужное время и запусти!"
+        ],
+        "natural": [
+          "Часы стоят... Лучше выставить правильное время и запустить их."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Uhr steht. Stell die richtige Zeit ein!"
+        ],
+        "A2": [
+          "Die Uhr ist stehen geblieben. Stell die richtige Zeit ein und starte sie!"
+        ],
+        "natural": [
+          "Die Uhr ist stehen geblieben... Am besten stellst du sie richtig und setzt sie wieder in Gang."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "часы",
+            "clock, watch (plural noun)"
+          ],
+          [
+            "время",
+            "time"
+          ]
+        ],
+        "de": [
+          [
+            "die Uhr",
+            "clock, watch"
+          ],
+          [
+            "die Zeit",
+            "time"
+          ]
+        ]
+      }
     },
     {
-      "id": "Room", "base_symbol": "PlayersHouse_2F_Text_HowDoYouLikeYourRoom",
-      "english": ["How do you like your new room? Everything is tidy. The Pokémon finished moving things downstairs too.", "Check that everything is there on your desk."],
-      "ru": {"A1": ["Мама: Тебе нравится комната? Здесь порядок. Внизу тоже всё готово. Покемоны нам помогли!", "Посмотри на свой стол. Все вещи на месте?"], "A2": ["Мама: Как тебе новая комната? Всё аккуратно убрано. Покемоны уже закончили работу внизу.", "Проверь, все ли вещи на твоём столе."], "natural": ["Мама: Ну как тебе твоя новая комната? Всё так аккуратно разложено! Покемоны и внизу уже закончили. С ними переезжать одно удовольствие!", "Проверь только, всё ли на месте на твоём письменном столе."]},
-      "de": {"A1": ["Mama: Gefällt dir dein Zimmer? Alles ist ordentlich. Unten sind die Pokémon auch fertig.", "Schau auf deinen Schreibtisch. Ist alles da?"], "A2": ["Mama: Wie gefällt dir dein neues Zimmer? Alles ist ordentlich. Die Pokémon sind unten auch fertig.", "Schau bitte nach, ob auf deinem Schreibtisch alles da ist."], "natural": ["Mama: Wie gefällt dir dein neues Zimmer? Alles ist ordentlich eingeräumt! Auch unten sind die Pokémon schon fertig. Solche Umzugshelfer sind wirklich praktisch!", "Prüf bitte noch, ob auf deinem Schreibtisch alles vollständig ist."]},
-      "words": {"ru": [["стол", "table, desk"], ["порядок", "order, tidiness"], ["внизу", "downstairs, below"]], "de": [["der Schreibtisch", "desk"], ["ordentlich", "tidy"], ["unten", "downstairs, below"]]}
+      "id": "Room",
+      "base_symbol": "PlayersHouse_2F_Text_HowDoYouLikeYourRoom",
+      "english": [
+        "How do you like your new room? Everything is tidy. The Pokémon finished moving things downstairs too.",
+        "Check that everything is there on your desk."
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Тебе нравится комната? Здесь порядок. Внизу тоже всё готово. Покемоны нам помогли!",
+          "Посмотри на свой стол. Все вещи на месте?"
+        ],
+        "A2": [
+          "Мама: Как тебе новая комната? Всё аккуратно убрано. Покемоны уже закончили работу внизу.",
+          "Проверь, все ли вещи на твоём столе."
+        ],
+        "natural": [
+          "Мама: Ну как тебе твоя новая комната? Всё так аккуратно разложено! Покемоны и внизу уже закончили. С ними переезжать одно удовольствие!",
+          "Проверь только, всё ли на месте на твоём письменном столе."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Gefällt dir dein Zimmer? Alles ist ordentlich. Unten sind die Pokémon auch fertig.",
+          "Schau auf deinen Schreibtisch. Ist alles da?"
+        ],
+        "A2": [
+          "Mama: Wie gefällt dir dein neues Zimmer? Alles ist ordentlich. Die Pokémon sind unten auch fertig.",
+          "Schau bitte nach, ob auf deinem Schreibtisch alles da ist."
+        ],
+        "natural": [
+          "Mama: Wie gefällt dir dein neues Zimmer? Alles ist ordentlich eingeräumt! Auch unten sind die Pokémon schon fertig. Solche Umzugshelfer sind wirklich praktisch!",
+          "Prüf bitte noch, ob auf deinem Schreibtisch alles vollständig ist."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "стол",
+            "table, desk"
+          ],
+          [
+            "порядок",
+            "order, tidiness"
+          ],
+          [
+            "внизу",
+            "downstairs, below"
+          ]
+        ],
+        "de": [
+          [
+            "der Schreibtisch",
+            "desk"
+          ],
+          [
+            "ordentlich",
+            "tidy"
+          ],
+          [
+            "unten",
+            "downstairs, below"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "Arrival",
+      "base_symbol": "LittlerootTown_Text_OurNewHomeLetsGoInside",
+      "english": [
+        "We have arrived in Littleroot! The truck ride must have been tiring. This is our new home, and you get your own room. Let us go inside."
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Мы приехали! Это Литтлрут. Теперь мы живём здесь. У тебя будет своя комната. Пойдём в дом!"
+        ],
+        "A2": [
+          "Мама: Наконец мы приехали в Литтлрут! Наверное, ты устал от поездки в грузовике. Это наш новый дом. У тебя будет своя комната. Пойдём внутрь!"
+        ],
+        "natural": [
+          "Мама: Вот мы и в Литтлруте! Ехать вместе с вещами в грузовике наверняка было утомительно. Здесь уютно, правда? И у тебя будет своя комната. Пойдём внутрь!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Wir sind da! Das ist Wurzelheim. Hier wohnen wir jetzt. Du bekommst ein eigenes Zimmer. Gehen wir ins Haus!"
+        ],
+        "A2": [
+          "Mama: Endlich sind wir in Wurzelheim! Die Fahrt im Lastwagen war sicher anstrengend. Hier ist unser neues Haus. Du bekommst ein eigenes Zimmer. Gehen wir hinein!"
+        ],
+        "natural": [
+          "Mama: Da wären wir, in Wurzelheim! Die Fahrt zwischen all unseren Sachen war bestimmt anstrengend. Hier lässt es sich sicher gut leben. Du bekommst sogar dein eigenes Zimmer. Komm, gehen wir hinein!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дом",
+            "house, home"
+          ],
+          [
+            "комната",
+            "room"
+          ],
+          [
+            "грузовик",
+            "truck"
+          ]
+        ],
+        "de": [
+          [
+            "das Haus",
+            "house"
+          ],
+          [
+            "das Zimmer",
+            "room"
+          ],
+          [
+            "der Lastwagen",
+            "truck"
+          ]
+        ]
+      },
+      "source_path": "data/maps/LittlerootTown/text.inc"
+    },
+    {
+      "id": "ComeQuickly",
+      "base_symbol": "PlayersHouse_1F_Text_OhComeQuickly",
+      "english": [
+        "Mom: Quick! Come here!"
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Скорее! Иди сюда!"
+        ],
+        "A2": [
+          "Мама: Скорее! Иди сюда!"
+        ],
+        "natural": [
+          "Мама: Скорее! Иди сюда!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Schnell! Komm her!"
+        ],
+        "A2": [
+          "Mama: Schnell! Komm her!"
+        ],
+        "natural": [
+          "Mama: Schnell! Komm her!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "скорее",
+            "quickly"
+          ]
+        ],
+        "de": [
+          [
+            "schnell",
+            "quickly"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DadOnTV",
+      "base_symbol": "PlayersHouse_1F_Text_MaybeDadWillBeOn",
+      "english": [
+        "Look! It is Petalburg Gym. Maybe Dad will be on TV!"
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Смотри! Это стадион в Петалбурге. Может быть, покажут папу!"
+        ],
+        "A2": [
+          "Мама: Смотри! Это стадион в Петалбурге. Может быть, покажут папу!"
+        ],
+        "natural": [
+          "Мама: Смотри! Это стадион в Петалбурге. Может быть, покажут папу!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Schau! Die Arena von Blütenburg! Vielleicht sehen wir Papa!"
+        ],
+        "A2": [
+          "Mama: Schau! Die Arena von Blütenburg! Vielleicht sehen wir Papa!"
+        ],
+        "natural": [
+          "Mama: Schau! Die Arena von Blütenburg! Vielleicht sehen wir Papa!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "стадион",
+            "gym, stadium"
+          ]
+        ],
+        "de": [
+          [
+            "die Arena",
+            "gym, arena"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TVReport",
+      "base_symbol": "PlayersHouse_1F_Text_ReportFromPetalburgGym",
+      "english": [
+        "Reporter: That was our report from in front of Petalburg Gym."
+      ],
+      "ru": {
+        "A1": [
+          "Репортёр: Это был репортаж у стадиона в Петалбурге."
+        ],
+        "A2": [
+          "Репортёр: Это был репортаж у стадиона в Петалбурге."
+        ],
+        "natural": [
+          "Репортёр: Это был репортаж у стадиона в Петалбурге."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Reporter: Das war unser Bericht vor der Arena von Blütenburg."
+        ],
+        "A2": [
+          "Reporter: Das war unser Bericht vor der Arena von Blütenburg."
+        ],
+        "natural": [
+          "Reporter: Das war unser Bericht vor der Arena von Blütenburg."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "репортаж",
+            "report"
+          ]
+        ],
+        "de": [
+          [
+            "der Bericht",
+            "report"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MissedDad",
+      "base_symbol": "PlayersHouse_1F_Text_ItsOverWeMissedHim",
+      "english": [
+        "It is over. I think Dad was on, but we missed him. Too bad!"
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Уже всё? Кажется, папу показывали, а мы пропустили. Жаль!"
+        ],
+        "A2": [
+          "Мама: Уже всё? Кажется, папу показывали, а мы пропустили. Жаль!"
+        ],
+        "natural": [
+          "Мама: Уже всё? Кажется, папу показывали, а мы пропустили. Жаль!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Schon vorbei? Papa war wohl dabei, aber wir haben ihn verpasst. Schade!"
+        ],
+        "A2": [
+          "Mama: Schon vorbei? Papa war wohl dabei, aber wir haben ihn verpasst. Schade!"
+        ],
+        "natural": [
+          "Mama: Schon vorbei? Papa war wohl dabei, aber wir haben ihn verpasst. Schade!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "жаль",
+            "what a pity"
+          ]
+        ],
+        "de": [
+          [
+            "schade",
+            "what a pity"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NextDoor",
+      "base_symbol": "PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor",
+      "english": [
+        "Dad's friend Professor Birch lives next door. Go introduce yourself!"
+      ],
+      "ru": {
+        "A1": [
+          "Мама: Друг папы, профессор Бёрч, живёт по соседству. Сходи познакомься с ним!"
+        ],
+        "A2": [
+          "Мама: Друг папы, профессор Бёрч, живёт по соседству. Сходи познакомься с ним!"
+        ],
+        "natural": [
+          "Мама: Друг папы, профессор Бёрч, живёт по соседству. Сходи познакомься с ним!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Papas Freund, Professor Birk, wohnt nebenan. Geh doch hin und stell dich vor!"
+        ],
+        "A2": [
+          "Mama: Papas Freund, Professor Birk, wohnt nebenan. Geh doch hin und stell dich vor!"
+        ],
+        "natural": [
+          "Mama: Papas Freund, Professor Birk, wohnt nebenan. Geh doch hin und stell dich vor!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "по соседству",
+            "next door"
+          ]
+        ],
+        "de": [
+          [
+            "nebenan",
+            "next door"
+          ]
+        ]
+      }
     }
   ]
 }

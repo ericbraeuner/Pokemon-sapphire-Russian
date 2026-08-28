@@ -1,5 +1,6 @@
 #include "global.h"
 #include "new_game.h"
+#include "learner.h"
 #include "battle_records.h"
 #include "berry.h"
 #include "clock.h"
@@ -203,6 +204,9 @@ void NewGameInitData(void)
     ResetLotteryCorner();
     WarpToTruck();
     RunScriptImmediately(EventScript_ResetAllMapFlags);
+#if LEARNER_DEMO
+    Learner_CommitNewGameSettings();
+#endif
 }
 
 #if DEBUG

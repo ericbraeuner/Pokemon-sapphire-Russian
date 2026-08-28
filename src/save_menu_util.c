@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "save_menu_util.h"
 #include "event_data.h"
 #include "menu.h"
@@ -73,7 +74,11 @@ void PrintSaveMapName(s16 x, s16 y)
     char name[32];
 
     CopyMapName(name, gMapHeader.regionMapSectionId);
+#if LEARNER_DEMO
+    Menu_PrintText(Learner_MapName(gMapHeader.regionMapSectionId, name), x, y);
+#else
     Menu_PrintText(name, x, y);
+#endif
 }
 
 void PrintSaveBadges(s16 x, s16 y)

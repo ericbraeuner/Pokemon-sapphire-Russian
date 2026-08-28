@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "starter_choose.h"
 #include "data2.h"
 #include "decompress.h"
@@ -506,6 +507,24 @@ static void CreateStarterPokemonLabel(u8 prevSelection, u8 selection)
         REG_WIN0V = 0;
     }
 
+#if LEARNER_DEMO
+    if (Learner_GetLanguage())
+    {
+        const u8 *names[] = { LEARNER_UI(Learner_GetLanguage(), TreeckoName), LEARNER_UI(Learner_GetLanguage(), TorchicName), LEARNER_UI(Learner_GetLanguage(), MudkipName) };
+        const u8 *kinds[] = { LEARNER_UI(Learner_GetLanguage(), TreeckoKind), LEARNER_UI(Learner_GetLanguage(), TorchicKind), LEARNER_UI(Learner_GetLanguage(), MudkipKind) };
+        AddTextColorCtrlCode(labelText, 0, 15, 8);
+        labelText[5] = EXT_CTRL_CODE_BEGIN;
+        labelText[6] = EXT_CTRL_CODE_CLEAR;
+        labelText[7] = 5;
+        StringCopy(labelText + 8, kinds[selection]);
+        Menu_PrintText(labelText, gStarterChoose_LabelCoords[selection][0], gStarterChoose_LabelCoords[selection][1]);
+        AddTextColorCtrlCode(labelText, 0, 15, 8);
+        StringCopy(labelText + 8, names[selection]);
+        Menu_PrintText(labelText, gStarterChoose_LabelCoords[selection][0], gStarterChoose_LabelCoords[selection][1] + 2);
+    }
+    else
+#endif
+    {
     species = GetStarterPokemon(selection);
     category = GetPokemonCategory(SpeciesToNationalPokedexNum(species));
     AddTextColorCtrlCode(labelText, 0, 15, 8);
@@ -552,6 +571,8 @@ static void CreateStarterPokemonLabel(u8 prevSelection, u8 selection)
         labelText,
         gStarterChoose_LabelCoords[selection][0],
         gStarterChoose_LabelCoords[selection][1] + 2);
+
+    }
 
     labelLeft = gStarterChoose_LabelCoords[selection][0] * 8 + 4;
     labelRight = (gStarterChoose_LabelCoords[selection][0] + 13) * 8 + 4;

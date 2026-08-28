@@ -1,4 +1,10 @@
 #include "global.h"
+#include "learner.h"
+#if LEARNER_DEMO
+#define LEARNER_BATTLE(text) Learner_Translate(text)
+#else
+#define LEARNER_BATTLE(text) (text)
+#endif
 #include "battle.h"
 #include "battle_message.h"
 #include "battle_tower.h"
@@ -485,9 +491,9 @@ extern u8 *de_sub_8041024(s32, u32);
     if (GetBattlerSide(bank) != 0)                                         \
     {                                                                   \
         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
-            toCpy = BattleText_Foe;                                  \
+            toCpy = LEARNER_BATTLE(BattleText_Foe);                   \
         else                                                            \
-            toCpy = BattleText_Wild;                                  \
+            toCpy = LEARNER_BATTLE(BattleText_Wild);                  \
         while (*toCpy != EOS)                                           \
         {                                                               \
             dst[dstID] = *toCpy;                                        \
@@ -534,6 +540,8 @@ u32 BattleStringExpandPlaceholders(const u8* src, u8* dst)
     const u8* toCpy = NULL;
     u8 text[12];
     u8 multiplayerID = GetMultiplayerId();
+
+    src = LEARNER_BATTLE(src);
 
     while (*src != EOS)
     {
@@ -806,6 +814,7 @@ u32 BattleStringExpandPlaceholders(const u8* src, u8* dst)
                     toCpy = BattleText_Foe4;
                 break;
             }
+            toCpy = LEARNER_BATTLE(toCpy);
             //if (toCpy != NULL) really GF, why did you forget about this?
             while (*toCpy != EOS)
             {
@@ -813,6 +822,16 @@ u32 BattleStringExpandPlaceholders(const u8* src, u8* dst)
                 dstID++;
                 toCpy++;
             }
+#if LEARNER_DEMO
+            // A translated inserted name may restore the default font. Resume
+            // the selected language before the remaining sentence is printed.
+            if (Learner_GetLanguage())
+            {
+                dst[dstID++] = EXT_CTRL_CODE_BEGIN;
+                dst[dstID++] = 6;
+                dst[dstID++] = Learner_GetLanguage() == 1 ? 0 : 3;
+            }
+#endif
             if (*src == B_TXT_TRAINER1_LOSE_TEXT)
             {
                 dst[dstID] = EXT_CTRL_CODE_BEGIN;
@@ -851,7 +870,7 @@ void ExpandBattleTextBuffPlaceholders(u8* src, u8* dst)
             if (hword == 209 || hword == 211)
                 srcID += 3;
 #endif
-            StringAppend(dst, gBattleStringsTable[hword - BATTLESTRING_TO_SUB]);
+            StringAppend(dst, LEARNER_BATTLE(gBattleStringsTable[hword - BATTLESTRING_TO_SUB]));
             srcID += 3;
             break;
         case B_BUFF_NUMBER: // int to string
@@ -915,7 +934,7 @@ void ExpandBattleTextBuffPlaceholders(u8* src, u8* dst)
             srcID += 3;
             break;
         case B_BUFF_STAT: // stats
-            StringAppend(dst, gUnknown_08400F58[src[srcID + 1]]);
+            StringAppend(dst, LEARNER_BATTLE(gUnknown_08400F58[src[srcID + 1]]));
             srcID += 2;
             break;
         case B_BUFF_SPECIES: // species name

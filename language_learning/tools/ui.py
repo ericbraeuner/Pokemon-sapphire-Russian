@@ -25,6 +25,10 @@ def generate(russian, latin, glyphs):
             parts.append(demo.assembly_bytes(label, demo.message([entry[tag]], mapping, bitmap, font, entry['width'])))
             labels.append(label)
         table.append(f'\t.4byte {symbol}, ' + ', '.join(labels))
+    import battle
+    battle_parts, battle_table = battle.generate(russian, latin)
+    parts.extend(battle_parts)
+    table.extend(battle_table)
     parts.append('\t.balign 4\ngLearnerUiTranslations::\n' + '\n'.join(table))
     parts.append(f'gLearnerUiTranslationCount::\n\t.2byte {len(table)}\n')
     names = demo.validate.load(demo.ROOT / 'language_learning/map_names.json')

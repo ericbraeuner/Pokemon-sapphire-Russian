@@ -1,11 +1,46 @@
 {
-  "gOtherText_HowManyToDeposit": {"ru": "Сколько положить?", "de": "Wie viele lagern?", "width": 104, "lines": 2},
-  "gOtherText_DepositedItems": {"ru": "Вещи в ПК.", "de": "Items im PC.", "width": 104, "lines": 2},
-  "gOtherText_NoRoomForItems": {"ru": "В ПК нет места.", "de": "Kein Platz im PC.", "width": 104, "lines": 2},
-  "gOtherText_CantStoreSomeoneItem": {"ru": "Это нельзя хранить.", "de": "Nicht lagerbar.", "width": 104, "lines": 2},
-  "gOtherText_WhatWillYouDo2": {"ru": "Что сделать?", "de": "Was tun?", "width": 104, "lines": 2},
-  "LittlerootTown_Text_WaitPlayer": {"ru": "Мама: Подожди!", "de": "Mama: Warte kurz!", "width": 184, "lines": 2},
-  "LittlerootTown_Text_SwitchShoesWithRunningShoes": {"ru": "Теперь на тебе кроссовки!", "de": "Du trägst jetzt Laufschuhe!", "width": 184, "lines": 2},
+  "gOtherText_HowManyToDeposit": {
+    "ru": "Сколько положить?",
+    "de": "Wie viele lagern?",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_DepositedItems": {
+    "ru": "Вещи в ПК.",
+    "de": "Items im PC.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_NoRoomForItems": {
+    "ru": "В ПК нет места.",
+    "de": "Kein Platz im PC.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_CantStoreSomeoneItem": {
+    "ru": "Это нельзя хранить.",
+    "de": "Nicht lagerbar.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_WhatWillYouDo2": {
+    "ru": "Что сделать?",
+    "de": "Was tun?",
+    "width": 104,
+    "lines": 2
+  },
+  "LittlerootTown_Text_WaitPlayer": {
+    "ru": "Мама: Подожди!",
+    "de": "Mama: Warte kurz!",
+    "width": 184,
+    "lines": 2
+  },
+  "LittlerootTown_Text_SwitchShoesWithRunningShoes": {
+    "ru": "Теперь на тебе кроссовки!",
+    "de": "Du trägst jetzt Laufschuhe!",
+    "width": 184,
+    "lines": 2
+  },
   "SecretBaseText_ItemStorage": {
     "ru": "Вещи",
     "de": "Lager",
@@ -419,5 +454,137 @@
     "de": "Was tauschen?",
     "width": 104,
     "lines": 2
+  },
+  "SystemText_Pokedex": {
+    "ru": "Покедекс",
+    "de": "Dex",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_Pokemon": {
+    "ru": "Покемон",
+    "de": "Poké",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_BAG": {
+    "ru": "Сумка",
+    "de": "Beutel",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_Pokenav": {
+    "ru": "Покенав",
+    "de": "Nav",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_Save": {
+    "ru": "Запись",
+    "de": "Sichern",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_Option": {
+    "ru": "Опции",
+    "de": "Option",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_Exit": {
+    "ru": "Выход",
+    "de": "Ende",
+    "width": 56,
+    "lines": 1
+  },
+  "SystemText_Retire": {
+    "ru": "Конец",
+    "de": "Ende",
+    "width": 56,
+    "lines": 1
+  },
+  "OtherText_PokeName": {
+    "ru": "Прозвище?",
+    "de": "Spitzname?",
+    "width": 128,
+    "lines": 1
+  },
+  "gOtherText_BirchInTrouble": {
+    "ru": "Бёрч в беде! Выбери покемона и помоги ему!",
+    "de": "Birk braucht Hilfe! Wähle ein Pokémon!",
+    "width": 192,
+    "lines": 2
+  },
+  "gSaveText_WouldYouLikeToSave": {
+    "ru": "Сохранить игру?",
+    "de": "Spiel speichern?",
+    "width": 192,
+    "lines": 2
+  },
+  "gSaveText_ThereIsAlreadyAFile": {
+    "ru": "Уже есть сохранение. Перезаписать его?",
+    "de": "Spielstand vorhanden. Überschreiben?",
+    "width": 192,
+    "lines": 2
+  },
+  "gSaveText_ThereIsADifferentFile": {
+    "ru": "Есть сохранение ДРУГОЙ игры. Перезаписать его?",
+    "de": "Ein ANDERER Spielstand ist vorhanden. Überschreiben?",
+    "width": 192,
+    "lines": 4
+  },
+  "gSaveText_DontTurnOff": {
+    "ru": "Сохранение... Не выключай питание!",
+    "de": "Speichern... Nicht ausschalten!",
+    "width": 192,
+    "lines": 2
+  },
+  "gSaveText_PlayerSavedTheGame": {
+    "ru": "Игра сохранена.",
+    "de": "Spiel gespeichert.",
+    "width": 192,
+    "lines": 2
+  },
+  "Route103_Text_16D65B": {
+    "ru": "Отлично! Ты хорошо сражаешься!",
+    "de": "Toll! Du kämpfst wirklich gut!",
+    "width": 192,
+    "lines": 2
+  },
+  "Route103_Text_16D836": {
+    "ru": "А ты неплохо сражаешься!",
+    "de": "Du kämpfst gar nicht schlecht!",
+    "width": 192,
+    "lines": 2
+  },
+  "LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex": {
+    "ru": "Получен покедекс!",
+    "de": "Pokédex erhalten!",
+    "width": 192,
+    "lines": 2
+  },
+  "gOtherText_Player": {
+    "ru": "Имя",
+    "de": "Name",
+    "width": 56,
+    "lines": 1
+  },
+  "gOtherText_Badges": {
+    "ru": "Значки",
+    "de": "Orden",
+    "width": 56,
+    "lines": 1
+  },
+  "gOtherText_Pokedex": {
+    "ru": "Покедекс",
+    "de": "Dex",
+    "width": 56,
+    "lines": 1
+  },
+  "gOtherText_PlayTime": {
+    "ru": "Время",
+    "de": "Zeit",
+    "width": 56,
+    "lines": 1
   }
 }

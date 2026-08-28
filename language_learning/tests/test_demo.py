@@ -11,6 +11,7 @@ import build_demo as demo
 import validate
 import opening
 import ui
+import battle
 
 
 class LessonTests(unittest.TestCase):
@@ -73,7 +74,7 @@ class LessonTests(unittest.TestCase):
         paths += ['data/scripts/tv.inc', 'data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
-                  'data/maps/Route101/scripts.inc', 'data/event_scripts.s']
+                  'data/maps/Route101/scripts.inc', 'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
             self.assertIn(f"call LearnerOpening_{entry['id']}\n", sources)
@@ -165,6 +166,39 @@ class LessonTests(unittest.TestCase):
         clock = (demo.ROOT / 'src/wallclock.c').read_text(encoding='utf-8')
         self.assertIn('LEARNER_UI(VarGet(VAR_LEARNER_LANGUAGE), ClockPrompt)', clock)
         self.assertNotIn('VarSet(VAR_LEARNER_', clock)
+
+    def test_battle_tokens_are_native_and_reject_unknown_controls(self):
+        encoded = battle.encode(r'{ATTACKING_MON}:\n{STRING 17}!\p', self.russian, 0)
+        self.assertIn(bytes([0xFD, 12]), bytes(encoded))
+        self.assertIn(bytes([0xFD, 17]), bytes(encoded))
+        self.assertIn(bytes([0xFC, 6, 3, 0xFB, 0xFC, 6, 0]), bytes(encoded))
+        with self.assertRaises((KeyError, ValueError)):
+            battle.encode('{UNKNOWN_CONTROL}', self.latin, 3)
+        with self.assertRaises(ValueError):
+            battle.encode('{STRING 255}', self.latin, 3)
+        fragment = battle.encode('Angriff', self.latin, 3, fragment=True)
+        self.assertNotIn(0xFC, fragment)
+        self.assertEqual(0xFF, fragment[-1])
+
+    def test_battle_sources_names_and_font_restore(self):
+        parts, table = battle.generate(self.russian, self.latin)
+        self.assertTrue(parts)
+        self.assertTrue(any('gMoveNames + 13 * MOVE_SCRATCH' in row for row in table))
+        code = (demo.ROOT / 'src/battle_message.c').read_text(encoding='utf-8')
+        self.assertIn('src = LEARNER_BATTLE(src);', code)
+        self.assertIn('toCpy = LEARNER_BATTLE(toCpy);', code)
+        self.assertIn('dst[dstID++] = Learner_GetLanguage() == 1 ? 0 : 3;', code)
+        # Never place longer translated names into the engine's 16-byte buffers.
+        self.assertNotIn('StringCopy(gBattleTextBuff2, LEARNER_BATTLE', code)
+        entries = validate.load(demo.ROOT / 'language_learning/battle.json')
+        for tag in ('ru', 'de'):
+            self.assertIn('{STRING 17}', entries['BattleText_OpponentUsedMove'][tag])
+
+    def test_briefcase_nickname_and_pause_labels_are_registered(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        for name in ('OtherText_PokeName', 'gOtherText_BirchInTrouble', 'SystemText_Save', 'SystemText_BAG'):
+            self.assertEqual({'ru', 'de', 'width', 'lines'}, set(entries[name]))
+        self.assertLessEqual(entries['SystemText_Save']['width'], 56)
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

@@ -138,9 +138,17 @@ LittlerootTown_ProfessorBirchsLab_EventScript_152D9A:: @ 8152D9A
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex:: @ 8152DBA
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokedexGift
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex, MSGBOX_DEFAULT
+	.endif
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokedexExplain
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT
+	.endif
 	applymovement 3, LittlerootTown_ProfessorBirchsLab_Movement_RivalApproachPlayer
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestRight
@@ -159,20 +167,36 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex:: @ 8152DBA
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls:: @ 8152E13
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokeBallsGiftMay
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_POKE_BALL, 5
 	compare VAR_RESULT, 0
 	call_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokeBallsExplainMay
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
+	.endif
 	setvar VAR_RESULT, 0
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls:: @ 8152E40
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokeBallsGiftBrendan
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_POKE_BALL, 5
 	compare VAR_RESULT, 0
 	call_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_BrendanNoRoomForPokeBalls
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokeBallsExplainBrendan
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls, MSGBOX_DEFAULT
+	.endif
 	setvar VAR_RESULT, 1
 	return
 
@@ -185,7 +209,11 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex:: @ 8152E6D
 	return
 
 LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait:: @ 8152E7B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PokemonAwait
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

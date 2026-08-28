@@ -2608,6 +2608,578 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RouteResearchMay",
+      "base_symbol": "Route103_Text_16D57A",
+      "source_path": "data/maps/Route103/text.inc",
+      "ru": {
+        "A1": [
+          "Посмотрим... Какие покемоны живут на маршруте 103?"
+        ],
+        "A2": [
+          "Посмотрим... Какие покемоны живут на маршруте 103?"
+        ],
+        "natural": [
+          "Посмотрим... Какие покемоны живут на маршруте 103?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mal sehen... Welche Pokémon leben auf Route 103?"
+        ],
+        "A2": [
+          "Mal sehen... Welche Pokémon leben auf Route 103?"
+        ],
+        "natural": [
+          "Mal sehen... Welche Pokémon leben auf Route 103?"
+        ]
+      },
+      "english": [
+        "Which Pokémon live on Route 103?"
+      ],
+      "words": {
+        "ru": [
+          [
+            "жить",
+            "to live"
+          ]
+        ],
+        "de": [
+          [
+            "leben",
+            "to live"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteResearchBrendan",
+      "base_symbol": "Route103_Text_16D762",
+      "source_path": "data/maps/Route103/text.inc",
+      "ru": {
+        "A1": [
+          "Посмотрим... Какие покемоны живут на маршруте 103?"
+        ],
+        "A2": [
+          "Посмотрим... Какие покемоны живут на маршруте 103?"
+        ],
+        "natural": [
+          "Посмотрим... Какие покемоны живут на маршруте 103?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mal sehen... Welche Pokémon leben auf Route 103?"
+        ],
+        "A2": [
+          "Mal sehen... Welche Pokémon leben auf Route 103?"
+        ],
+        "natural": [
+          "Mal sehen... Welche Pokémon leben auf Route 103?"
+        ]
+      },
+      "english": [
+        "Which Pokémon live on Route 103?"
+      ],
+      "words": {
+        "ru": [
+          [
+            "жить",
+            "to live"
+          ]
+        ],
+        "de": [
+          [
+            "leben",
+            "to live"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteChallengeMay",
+      "base_symbol": "Route103_Text_16D5B6",
+      "source_path": "data/maps/Route103/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером."
+        ],
+        "A2": [
+          "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером."
+        ],
+        "natural": [
+          "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen."
+        ],
+        "A2": [
+          "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen."
+        ],
+        "natural": [
+          "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen."
+        ]
+      },
+      "english": [
+        "Your rival invites you to your first trainer battle."
+      ],
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteChallengeBrendan",
+      "base_symbol": "Route103_Text_16D7A9",
+      "source_path": "data/maps/Route103/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером."
+        ],
+        "A2": [
+          "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером."
+        ],
+        "natural": [
+          "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen."
+        ],
+        "A2": [
+          "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen."
+        ],
+        "natural": [
+          "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen."
+        ]
+      },
+      "english": [
+        "Your rival invites you to your first trainer battle."
+      ],
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteVictoryMay",
+      "base_symbol": "Route103_Text_16D688",
+      "source_path": "data/maps/Route103/text.inc",
+      "ru": {
+        "A1": [
+          "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию."
+        ],
+        "A2": [
+          "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию."
+        ],
+        "natural": [
+          "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor."
+        ],
+        "A2": [
+          "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor."
+        ],
+        "natural": [
+          "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor."
+        ]
+      },
+      "english": [
+        "Your Pokémon already likes you. Return to the lab."
+      ],
+      "words": {
+        "ru": [
+          [
+            "друг",
+            "friend"
+          ]
+        ],
+        "de": [
+          [
+            "der Freund",
+            "friend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteVictoryBrendan",
+      "base_symbol": "Route103_Text_16D856",
+      "source_path": "data/maps/Route103/text.inc",
+      "ru": {
+        "A1": [
+          "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию."
+        ],
+        "A2": [
+          "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию."
+        ],
+        "natural": [
+          "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor."
+        ],
+        "A2": [
+          "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor."
+        ],
+        "natural": [
+          "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor."
+        ]
+      },
+      "english": [
+        "Your Pokémon already likes you. Return to the lab."
+      ],
+      "words": {
+        "ru": [
+          [
+            "друг",
+            "friend"
+          ]
+        ],
+        "de": [
+          [
+            "der Freund",
+            "friend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokedexGift",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Бёрч: Привет! Победа с первой попытки! Прекрасно! У моего ребёнка уже есть опыт. Возьми этот покедекс. Я заказал его для исследований, но он пригодится тебе."
+        ],
+        "A2": [
+          "Бёрч: Привет! Победа с первой попытки! Прекрасно! У моего ребёнка уже есть опыт. Возьми этот покедекс. Я заказал его для исследований, но он пригодится тебе."
+        ],
+        "natural": [
+          "Бёрч: Привет! Победа с первой попытки! Прекрасно! У моего ребёнка уже есть опыт. Возьми этот покедекс. Я заказал его для исследований, но он пригодится тебе."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Birk: Hallo! Gleich beim ersten Versuch gewonnen! Prima! Mein Kind hat schon Erfahrung. Nimm diesen Pokédex. Ich wollte ihn für die Forschung, aber du kannst ihn gut brauchen."
+        ],
+        "A2": [
+          "Birk: Hallo! Gleich beim ersten Versuch gewonnen! Prima! Mein Kind hat schon Erfahrung. Nimm diesen Pokédex. Ich wollte ihn für die Forschung, aber du kannst ihn gut brauchen."
+        ],
+        "natural": [
+          "Birk: Hallo! Gleich beim ersten Versuch gewonnen! Prima! Mein Kind hat schon Erfahrung. Nimm diesen Pokédex. Ich wollte ihn für die Forschung, aber du kannst ihn gut brauchen."
+        ]
+      },
+      "english": [
+        "Birch congratulates you and gives you a Pokédex."
+      ],
+      "words": {
+        "ru": [
+          [
+            "попытка",
+            "attempt"
+          ]
+        ],
+        "de": [
+          [
+            "der Versuch",
+            "attempt"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokedexExplain",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Бёрч: Покедекс сам записывает данные о покемонах, которых ты встречаешь или ловишь. Мой ребёнок всегда берёт его с собой. Новые данные о редких покемонах очень помогают мне в работе."
+        ],
+        "A2": [
+          "Бёрч: Покедекс сам записывает данные о покемонах, которых ты встречаешь или ловишь. Мой ребёнок всегда берёт его с собой. Новые данные о редких покемонах очень помогают мне в работе."
+        ],
+        "natural": [
+          "Бёрч: Покедекс сам записывает данные о покемонах, которых ты встречаешь или ловишь. Мой ребёнок всегда берёт его с собой. Новые данные о редких покемонах очень помогают мне в работе."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Birk: Der Pokédex speichert Daten über Pokémon, die du triffst oder fängst. Mein Kind nimmt ihn immer mit. Neue Daten über seltene Pokémon helfen mir bei meiner Arbeit."
+        ],
+        "A2": [
+          "Birk: Der Pokédex speichert Daten über Pokémon, die du triffst oder fängst. Mein Kind nimmt ihn immer mit. Neue Daten über seltene Pokémon helfen mir bei meiner Arbeit."
+        ],
+        "natural": [
+          "Birk: Der Pokédex speichert Daten über Pokémon, die du triffst oder fängst. Mein Kind nimmt ihn immer mit. Neue Daten über seltene Pokémon helfen mir bei meiner Arbeit."
+        ]
+      },
+      "english": [
+        "The Pokédex records Pokémon you meet and catch."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ловить",
+            "to catch"
+          ]
+        ],
+        "de": [
+          [
+            "fangen",
+            "to catch"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokemonAwait",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Бёрч: Тебя ждёт множество покемонов! Мне тоже не терпится вернуться к работе на природе."
+        ],
+        "A2": [
+          "Бёрч: Тебя ждёт множество покемонов! Мне тоже не терпится вернуться к работе на природе."
+        ],
+        "natural": [
+          "Бёрч: Тебя ждёт множество покемонов! Мне тоже не терпится вернуться к работе на природе."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Birk: Viele Pokémon warten auf dich! Ich möchte auch bald wieder draußen forschen."
+        ],
+        "A2": [
+          "Birk: Viele Pokémon warten auf dich! Ich möchte auch bald wieder draußen forschen."
+        ],
+        "natural": [
+          "Birk: Viele Pokémon warten auf dich! Ich möchte auch bald wieder draußen forschen."
+        ]
+      },
+      "english": [
+        "Many Pokémon await you."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ждать",
+            "to wait"
+          ]
+        ],
+        "de": [
+          [
+            "warten",
+            "to wait"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokeBallsGiftMay",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок."
+        ],
+        "A2": [
+          "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок."
+        ],
+        "natural": [
+          "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich."
+        ],
+        "A2": [
+          "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich."
+        ],
+        "natural": [
+          "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich."
+        ]
+      },
+      "english": [
+        "Your rival has another gift for you."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подарок",
+            "gift"
+          ]
+        ],
+        "de": [
+          [
+            "das Geschenk",
+            "gift"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokeBallsGiftBrendan",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок."
+        ],
+        "A2": [
+          "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок."
+        ],
+        "natural": [
+          "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich."
+        ],
+        "A2": [
+          "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich."
+        ],
+        "natural": [
+          "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich."
+        ]
+      },
+      "english": [
+        "Your rival has another gift for you."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подарок",
+            "gift"
+          ]
+        ],
+        "de": [
+          [
+            "das Geschenk",
+            "gift"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokeBallsExplainMay",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!"
+        ],
+        "A2": [
+          "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!"
+        ],
+        "natural": [
+          "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!"
+        ],
+        "A2": [
+          "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!"
+        ],
+        "natural": [
+          "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!"
+        ]
+      },
+      "english": [
+        "Use Poké Balls to catch more Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "место",
+            "place"
+          ]
+        ],
+        "de": [
+          [
+            "der Ort",
+            "place"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PokeBallsExplainBrendan",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!"
+        ],
+        "A2": [
+          "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!"
+        ],
+        "natural": [
+          "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!"
+        ],
+        "A2": [
+          "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!"
+        ],
+        "natural": [
+          "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!"
+        ]
+      },
+      "english": [
+        "Use Poké Balls to catch more Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "место",
+            "place"
+          ]
+        ],
+        "de": [
+          [
+            "der Ort",
+            "place"
+          ]
+        ]
+      }
     }
   ]
 }

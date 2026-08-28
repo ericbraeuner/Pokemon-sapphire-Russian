@@ -1,6 +1,6 @@
 # Play the Russian and German opening
 
-This version translates Birch's introduction, 57 field dialogue entries,
+This version translates Birch's introduction, 70 field dialogue entries,
 the player-name prompt, and the clock confirmation. Room coverage includes the
 GameCube, notebook, bookshelves, PC startup/email, and ordinary TV messages.
 Coverage now includes Littleroot's outdoor NPCs and signs, Route 101's rescue,
@@ -8,9 +8,14 @@ the starter gift and follow-up prompts, and Mom's running shoes dialogue.
 The wall map and location popups have 88 translated location labels (some
 abbreviated to fit). The PC has translated menu labels, storage prompts,
 mailbox prompts, and decoration controls. Its starting Potion is translated too.
-It is still a partial translation: naming-keyboard buttons, main/save menus,
-bag graphics, most item/decor names and descriptions, starter-selection artwork
-and species labels, battles, later TV broadcasts, and later scenes retain English.
+The briefcase instructions and three starter labels, Pokémon nickname heading,
+pause menu, save prompts and summary are translated. Route 103's rival encounter
+and the Pokédex handoff now have translated field scenes with dictionary help.
+Battle coverage includes 85 messages/fragments, commands, 21 early move names,
+and all 18 type labels. Some menu labels are shortened to fit the original boxes.
+It is still a partial translation: naming-keyboard button artwork, title/continue
+menus, bag graphics, most item/decor names and descriptions, species names in
+battle, later moves/effects, later TV broadcasts, and later scenes retain English.
 The clock's AM/PM artwork also remains unchanged.
 
 ## Try it
@@ -80,9 +85,9 @@ Do not expect the demo ROM to match the original game's hash.
 
 ## Next development milestones
 
-1. Translate the first battle interface, starter-selection labels, broader item
-   and bag interfaces, and the Route 103 rival encounter and Pokédex handoff.
-   Expand route by route with a coverage checklist.
+1. Finish battle-message/move coverage and naming-keyboard artwork, then the
+   broader item and bag interfaces. Play-test the Route 103 rival fight and
+   Pokédex handoff in both languages; expand route by route with a checklist.
 2. Add a dictionary shortcut during dialogue that pauses and restores the current
    page. Audit button uses first; R is a candidate, not an implemented shortcut.
 3. Connect exposures and dictionary requests to learner profiles, and add more

@@ -17,7 +17,11 @@ Route103_EventScript_14EB92:: @ 814EB92
 	end
 
 Route103_EventScript_14EBAB:: @ 814EBAB
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteResearchMay
+	.else
 	msgbox Route103_Text_16D57A, MSGBOX_DEFAULT
+	.endif
 	playbgm MUS_ENCOUNTER_MAY, TRUE
 	applymovement 2, Common_Movement_FacePlayer
 	waitmovement 0
@@ -25,7 +29,11 @@ Route103_EventScript_14EBAB:: @ 814EBAB
 	waitmovement 0
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteChallengeMay
+	.else
 	msgbox Route103_Text_16D5B6, MSGBOX_DEFAULT
+	.endif
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_14EC5D
 	case 1, Route103_EventScript_14EC6D
@@ -33,7 +41,11 @@ Route103_EventScript_14EBAB:: @ 814EBAB
 	end
 
 Route103_EventScript_14EC04:: @ 814EC04
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteResearchBrendan
+	.else
 	msgbox Route103_Text_16D762, MSGBOX_DEFAULT
+	.endif
 	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
 	applymovement 2, Common_Movement_FacePlayer
 	waitmovement 0
@@ -41,7 +53,11 @@ Route103_EventScript_14EC04:: @ 814EC04
 	waitmovement 0
 	applymovement 2, Common_Movement_Delay48
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteChallengeBrendan
+	.else
 	msgbox Route103_Text_16D7A9, MSGBOX_DEFAULT
+	.endif
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_14EC8D
 	case 1, Route103_EventScript_14EC9D
@@ -79,12 +95,20 @@ Route103_EventScript_14ECAD:: @ 814ECAD
 	end
 
 Route103_EventScript_14ECBD:: @ 814ECBD
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteVictoryMay
+	.else
 	msgbox Route103_Text_16D688, MSGBOX_DEFAULT
+	.endif
 	goto Route103_EventScript_14ECD9
 	end
 
 Route103_EventScript_14ECCB:: @ 814ECCB
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteVictoryBrendan
+	.else
 	msgbox Route103_Text_16D856, MSGBOX_DEFAULT
+	.endif
 	goto Route103_EventScript_14ECD9
 	end
 

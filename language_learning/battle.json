@@ -1,0 +1,363 @@
+{
+  "BattleText_WildAppeared1": {
+    "ru": "Дикий {STRING 3}!\\p",
+    "de": "Ein wildes\\n{STRING 3}!\\p"
+  },
+  "BattleText_WildAppeared2": {
+    "ru": "Дикий {STRING 3}!\\p",
+    "de": "Ein wildes\\n{STRING 3}!\\p"
+  },
+  "BattleText_WildAppeared3": {
+    "ru": "Дикий {STRING 3}!{PAUSE 127}",
+    "de": "Ein wildes\\n{STRING 3}!{PAUSE 127}"
+  },
+  "BattleText_SingleWantToBattle1": {
+    "ru": "{STRING 25} {STRING 26}\\nвызывает на бой!\\p",
+    "de": "{STRING 25} {STRING 26}\\nwill kämpfen!\\p"
+  },
+  "BattleText_SingleWantToBattle2": {
+    "ru": "{STRING 29}\\nвызывает на бой!",
+    "de": "{STRING 29}\\nwill kämpfen!"
+  },
+  "BattleText_SentOutSingle6": {
+    "ru": "Вперёд, {STRING 2}!",
+    "de": "Los, {STRING 2}!"
+  },
+  "BattleText_SentOutSingle7": {
+    "ru": "Вперёд, {STRING 0}!",
+    "de": "Los, {STRING 0}!"
+  },
+  "BattleText_SentOutSingle8": {
+    "ru": "Вперёд, {STRING 0}!",
+    "de": "Los, {STRING 0}!"
+  },
+  "BattleText_SentOutSingle9": {
+    "ru": "Вперёд, {STRING 0}!",
+    "de": "Los, {STRING 0}!"
+  },
+  "BattleText_SentOutSingle10": {
+    "ru": "Вперёд, {STRING 0}!",
+    "de": "Los, {STRING 0}!"
+  },
+  "BattleText_SentOutSingle1": {
+    "ru": "{STRING 25} {STRING 26}\\nвыбирает {STRING 3}!",
+    "de": "{STRING 25} {STRING 26}\\nschickt {STRING 3}!"
+  },
+  "BattleText_SentOutSingle2": {
+    "ru": "{STRING 25} {STRING 26}\\nвыбирает {STRING 0}!",
+    "de": "{STRING 25} {STRING 26}\\nschickt {STRING 0}!"
+  },
+  "BattleText_SentOutSingle3": {
+    "ru": "{STRING 29}\\nвыбирает {STRING 3}!",
+    "de": "{STRING 29}\\nschickt {STRING 3}!"
+  },
+  "BattleText_SentOutSingle4": {
+    "ru": "{STRING 29}\\nвыбирает {STRING 0}!",
+    "de": "{STRING 29}\\nschickt {STRING 0}!"
+  },
+  "BattleText_SentOutSingle5": {
+    "ru": "{STRING 31}\\nвыбирает {STRING 0}!",
+    "de": "{STRING 31}\\nschickt {STRING 0}!"
+  },
+  "BattleText_ComeBackSingle1": {
+    "ru": "{STRING 0},\\nвозвращайся!",
+    "de": "{STRING 0},\\nzurück!"
+  },
+  "BattleText_ComeBackSingle2": {
+    "ru": "{STRING 0},\\nвозвращайся!",
+    "de": "{STRING 0},\\nzurück!"
+  },
+  "BattleText_ComeBackSingle3": {
+    "ru": "{STRING 0},\\nвозвращайся!",
+    "de": "{STRING 0},\\nzurück!"
+  },
+  "BattleText_ComeBackSingle4": {
+    "ru": "{STRING 0},\\nвозвращайся!",
+    "de": "{STRING 0},\\nzurück!"
+  },
+  "BattleText_OpponentUsedMove": {
+    "ru": "{ATTACKING_MON}:\\n{STRING 17}!",
+    "de": "{ATTACKING_MON}:\\n{STRING 17}!"
+  },
+  "BattleText_GainExpPoints": {
+    "ru": "{STRING 0}: опыт{STRING 1}\\n+{STRING 42}!\\p",
+    "de": "{STRING 0}: EP{STRING 1}\\n+{STRING 42}!\\p"
+  },
+  "BattleText_BoostedExp": {
+    "ru": " (бонус)",
+    "de": " (Bonus)",
+    "fragment": true
+  },
+  "BattleText_GrewLevel": {
+    "ru": "{STRING 0}:\\nуровень {STRING 1}!{UNKNOWN_A}\\p",
+    "de": "{STRING 0}:\\nLevel {STRING 1}!{UNKNOWN_A}\\p"
+  },
+  "BattleText_LearnedMove": {
+    "ru": "{STRING 0} изучает:\\n{STRING 1}!{UNKNOWN_A}\\p",
+    "de": "{STRING 0} lernt\\n{STRING 1}!{UNKNOWN_A}\\p"
+  },
+  "BattleText_AttackingFainted": {
+    "ru": "{ATTACKING_MON}\\nбольше не может драться!\\p",
+    "de": "{ATTACKING_MON}\\nist kampfunfähig!\\p"
+  },
+  "BattleText_DefendingFainted": {
+    "ru": "{DEFENDING_MON}\\nбольше не может драться!\\p",
+    "de": "{DEFENDING_MON}\\nist kampfunfähig!\\p"
+  },
+  "BattleText_Critical": {
+    "ru": "Критический удар!",
+    "de": "Volltreffer!"
+  },
+  "BattleText_SuperEffective": {
+    "ru": "Очень эффективно!",
+    "de": "Sehr effektiv!"
+  },
+  "BattleText_NotEffective": {
+    "ru": "Не очень эффективно...",
+    "de": "Nicht sehr effektiv..."
+  },
+  "BattleText_Failed": {
+    "ru": "Но ничего не вышло!",
+    "de": "Doch es schlug fehl!"
+  },
+  "BattleText_Nothing": {
+    "ru": "Ничего не произошло!",
+    "de": "Nichts geschah!"
+  },
+  "BattleText_NoEffect": {
+    "ru": "Нет эффекта!",
+    "de": "Keine Wirkung!"
+  },
+  "BattleText_CantEscape": {
+    "ru": "Не удалось сбежать!\\p",
+    "de": "Flucht unmöglich!\\p"
+  },
+  "BattleText_CantEscape2": {
+    "ru": "Не удалось сбежать!\\p",
+    "de": "Flucht unmöglich!\\p"
+  },
+  "BattleText_BirchDontLeaveMe": {
+    "ru": "Бёрч: Не оставляй\\nменя здесь!\\p",
+    "de": "Birk: Lass mich nicht\\nhier zurück!\\p"
+  },
+  "BattleText_NoRunning": {
+    "ru": "Из боя с тренером\\nнельзя сбежать!\\p",
+    "de": "Keine Flucht aus einem\\nTrainerkampf!\\p"
+  },
+  "BattleText_UseNext": {
+    "ru": "Выбрать другого покемона?",
+    "de": "Nächstes Pokémon?"
+  },
+  "BattleText_AttackMissed": {
+    "ru": "{ATTACKING_MON}:\\nатака не попала!",
+    "de": "{ATTACKING_MON}:\\nAngriff verfehlt!"
+  },
+  "BattleText_DoesntAffect": {
+    "ru": "{DEFENDING_MON}:\\nнет эффекта...",
+    "de": "{DEFENDING_MON}:\\nKeine Wirkung..."
+  },
+  "BattleText_WinningPrize": {
+    "ru": "{STRING 32}:\\nнаграда {STRING 0}!\\p",
+    "de": "{STRING 32}:\\nPreisgeld: {STRING 0}!\\p"
+  },
+  "BattleText_PlayerDefeatedTrainer2": {
+    "ru": "Победа над тренером:\\n{STRING 25} {STRING 26}!\\p",
+    "de": "Sieg über\\n{STRING 25} {STRING 26}!\\p"
+  },
+  "BattleText_PlayerDefeatedTrainer": {
+    "ru": "Победа над\\n{STRING 29}!",
+    "de": "Sieg über\\n{STRING 29}!"
+  },
+  "BattleText_OutOfUsablePoke": {
+    "ru": "{STRING 32}: больше нет\\nготовых к бою покемонов!\\p",
+    "de": "{STRING 32}: Kein Pokémon\\nkann mehr kämpfen!\\p"
+  },
+  "BattleText_WhitedOut": {
+    "ru": "{STRING 32}:\\nв глазах потемнело...{PAUSE_UNTIL_PRESS}",
+    "de": "{STRING 32}:\\nAlles wird schwarz...{PAUSE_UNTIL_PRESS}"
+  },
+  "BattleText_OtherMenu": {
+    "ru": "{STRING 15}:\\nчто делать?",
+    "de": "{STRING 15}:\\nWas tun?"
+  },
+  "BattleText_PlayerMenu": {
+    "ru": "{STRING 32}:\\nчто делать?",
+    "de": "{STRING 32}:\\nWas tun?"
+  },
+  "BattleText_WallyMenu": {
+    "ru": "Уолли:\\nчто делать?",
+    "de": "Heiko:\\nWas tun?"
+  },
+  "BattleText_MenuOptions": {
+    "ru": "{MENU_COLORS}Бой{COLUMN}Сумка\\nПоке{COLUMN}Бег",
+    "de": "{MENU_COLORS}Kampf{COLUMN}Beutel\\nPoké{COLUMN}Flucht"
+  },
+  "BattleText_Wild": {
+    "ru": "Дик. ",
+    "de": "Wild ",
+    "fragment": true
+  },
+  "BattleText_Foe": {
+    "ru": "Враг ",
+    "de": "Gegn. ",
+    "fragment": true
+  },
+  "BattleText_Foe2": {
+    "ru": "Враг ",
+    "de": "Gegn. ",
+    "fragment": true
+  },
+  "BattleText_Foe3": {
+    "ru": "Враг ",
+    "de": "Gegn. ",
+    "fragment": true
+  },
+  "BattleText_Foe4": {
+    "ru": "Враг ",
+    "de": "Gegn. ",
+    "fragment": true
+  },
+  "BattleText_Ally": {
+    "ru": "Союз. ",
+    "de": "Partner ",
+    "fragment": true
+  },
+  "BattleText_Ally2": {
+    "ru": "Союз. ",
+    "de": "Partner ",
+    "fragment": true
+  },
+  "BattleText_Ally3": {
+    "ru": "Союз. ",
+    "de": "Partner ",
+    "fragment": true
+  },
+  "BattleText_Rose": {
+    "ru": "выше!",
+    "de": "steigt!",
+    "fragment": true
+  },
+  "BattleText_Fell": {
+    "ru": "ниже!",
+    "de": "sinkt!",
+    "fragment": true
+  },
+  "BattleText_Sharply": {
+    "ru": "резко ",
+    "de": "stark ",
+    "fragment": true
+  },
+  "BattleText_Harshly": {
+    "ru": "резко ",
+    "de": "stark ",
+    "fragment": true
+  },
+  "BattleText_UnknownString7": {
+    "ru": "{ATTACKING_MON}:\\n{STRING 0} {STRING 1}",
+    "de": "{ATTACKING_MON}:\\n{STRING 0} {STRING 1}"
+  },
+  "BattleText_UnknownString5": {
+    "ru": "{ATTACKING_MON}:\\n{STRING 0} {STRING 1}",
+    "de": "{ATTACKING_MON}:\\n{STRING 0} {STRING 1}"
+  },
+  "BattleText_UnknownString3": {
+    "ru": "{DEFENDING_MON}:\\n{STRING 0} {STRING 1}",
+    "de": "{DEFENDING_MON}:\\n{STRING 0} {STRING 1}"
+  },
+  "BattleText_UnknownString6": {
+    "ru": "{DEFENDING_MON}:\\n{STRING 0} {STRING 1}",
+    "de": "{DEFENDING_MON}:\\n{STRING 0} {STRING 1}"
+  },
+  "BattleStatText_HP": {
+    "ru": "ОЗ",
+    "de": "KP",
+    "fragment": true
+  },
+  "BattleStatText_Attack": {
+    "ru": "атака",
+    "de": "Angriff",
+    "fragment": true
+  },
+  "BattleStatText_Defense": {
+    "ru": "защита",
+    "de": "Abwehr",
+    "fragment": true
+  },
+  "BattleStatText_Speed": {
+    "ru": "скорость",
+    "de": "Tempo",
+    "fragment": true
+  },
+  "BattleStatText_SpAtk": {
+    "ru": "спец. атака",
+    "de": "Sp.-Ang.",
+    "fragment": true
+  },
+  "BattleStatText_SpDef": {
+    "ru": "спец. защита",
+    "de": "Sp.-Abw.",
+    "fragment": true
+  },
+  "BattleStatText_Accuracy": {
+    "ru": "точность",
+    "de": "Genauigkeit",
+    "fragment": true
+  },
+  "BattleStatText_Evasion": {
+    "ru": "уклонение",
+    "de": "Fluchtwert",
+    "fragment": true
+  },
+  "BattleText_StatNoHigher": {
+    "ru": "{ATTACKING_MON}:\\nвыше уже нельзя!",
+    "de": "{ATTACKING_MON}:\\nKeine Steigerung mehr!"
+  },
+  "BattleText_StatNoLower": {
+    "ru": "{DEFENDING_MON}:\\nниже уже нельзя!",
+    "de": "{DEFENDING_MON}:\\nKeine Senkung mehr!"
+  },
+  "BattleText_HurtItself": {
+    "ru": "В замешательстве\\nнаносит себе урон!",
+    "de": "Verletzt sich selbst\\nvor Verwirrung!"
+  },
+  "BattleText_Confused": {
+    "ru": "{ATTACKING_MON}\\nв замешательстве!",
+    "de": "{ATTACKING_MON}\\nist verwirrt!"
+  },
+  "BattleText_ConfusionSnapOut": {
+    "ru": "{ATTACKING_MON}:\\nзамешательство прошло!",
+    "de": "{ATTACKING_MON}:\\nNicht mehr verwirrt!"
+  },
+  "BattleText_FellAsleep": {
+    "ru": "{STRING 14}\\nзасыпает!",
+    "de": "{STRING 14}\\nschläft ein!"
+  },
+  "BattleText_Poisoned": {
+    "ru": "{STRING 14}:\\nотравление!",
+    "de": "{STRING 14}\\nist vergiftet!"
+  },
+  "BattleText_PoisonHurt": {
+    "ru": "{ATTACKING_MON}:\\nяд наносит урон!",
+    "de": "{ATTACKING_MON}:\\nDas Gift schadet!"
+  },
+  "BattleText_Paralyzed": {
+    "ru": "{STRING 14}: паралич!\\nДвигаться трудно!",
+    "de": "{STRING 14}: Paralyse!\\nBewegung erschwert!"
+  },
+  "BattleText_Paralyzed3": {
+    "ru": "{ATTACKING_MON}: паралич!\\nДвигаться не может!",
+    "de": "{ATTACKING_MON}: Paralyse!\\nKeine Bewegung!"
+  },
+  "BattleText_Burned": {
+    "ru": "{STRING 14}: ожог!",
+    "de": "{STRING 14}: Verbrennung!"
+  },
+  "BattleText_BurnHurt": {
+    "ru": "{ATTACKING_MON}:\\nожог наносит урон!",
+    "de": "{ATTACKING_MON}:\\nDie Verbrennung schadet!"
+  },
+  "BattleText_GotAwaySafely": {
+    "ru": "{FLEE}Удалось сбежать!\\p",
+    "de": "{FLEE}Flucht gelungen!\\p"
+  }
+}

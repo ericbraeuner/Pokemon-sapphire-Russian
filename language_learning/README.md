@@ -93,7 +93,7 @@ settings without modifying them. All C hooks are conditional on LEARNER_DEMO.
 
 See PLAY_DEMO.md for the explicit coverage limits and full-immersion roadmap.
 
-`ui_sources.json` is a whitelist of 76 fixed source strings and their translations.
+`ui_sources.json` is a whitelist of fixed source strings and their translations.
 The text renderer and placeholder expansion resolve only exact source pointers;
 unknown text and player-entered names pass through unchanged. Width measurement
 uses the same translation as rendering. Each entry has a pixel width and line
@@ -102,6 +102,16 @@ limit checked during generation. PC labels fit existing windows without resizing
 strings directly from ROM, avoiding the original 20-byte map-name buffers.
 No save fields or structures changed in this update. Interface wording is shared
 across difficulty levels; it does not claim six independently authored CEFR versions.
+
+`battle.json` and `tools/battle.py` add battle-specific templates to that pointer
+lookup. Battle `{STRING n}` tokens are deliberately distinct from field variables.
+Templates retain pause/fanfare controls; stat and prefix fragments have no font
+wrappers. The battle expander restores the selected font after inserted names.
+`battle_names.json` maps early move/type constants to ROM strings using their
+original array strides. Rendered translations never replace the engine's small
+move-name buffers or stored nicknames. Unknown pointers still use original text.
+Battle messages and interface wording currently share text across CEFR levels;
+there is no in-battle dictionary shortcut yet.
 
 ## Adding data
 

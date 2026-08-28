@@ -26,6 +26,12 @@ LEARNER_DECLARE(WhatsYourName)
 LEARNER_DECLARE(SoItsPlayer)
 LEARNER_DECLARE(AhOkayYouArePlayer)
 LEARNER_DECLARE(AreYouReady)
+LEARNER_DECLARE(TreeckoName)
+LEARNER_DECLARE(TorchicName)
+LEARNER_DECLARE(MudkipName)
+LEARNER_DECLARE(TreeckoKind)
+LEARNER_DECLARE(TorchicKind)
+LEARNER_DECLARE(MudkipKind)
 #undef LEARNER_DECLARE
 #define LEARNER_UI(language, name) ((language) == 1 ? LearnerUI_ru_##name : LearnerUI_de_##name)
 void Learner_CommitNewGameSettings(void);

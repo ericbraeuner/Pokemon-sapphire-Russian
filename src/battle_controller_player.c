@@ -1,4 +1,10 @@
 #include "global.h"
+#include "learner.h"
+#if LEARNER_DEMO
+#define LEARNER_BATTLE(text) Learner_Translate(text)
+#else
+#define LEARNER_BATTLE(text) (text)
+#endif
 #include "battle_anim_special.h"
 #include "battle_anim.h"
 #include "battle_controllers.h"
@@ -1581,7 +1587,7 @@ void sub_802E12C(s32 a, const u8 *b)
     struct ChooseMoveStruct *r4 = (struct ChooseMoveStruct *)&gBattleBufferA[gActiveBattler][4];
 
     StringCopy(gDisplayedStringBattle, b);
-    StringAppend(gDisplayedStringBattle, gMoveNames[r4->moves[a]]);
+    StringAppend(gDisplayedStringBattle, LEARNER_BATTLE(gMoveNames[r4->moves[a]]));
     Text_InitWindow(
       &gWindowTemplate_Contest_MoveDescription,
       gDisplayedStringBattle,
@@ -1647,7 +1653,7 @@ void sub_802E2D4(void)
         u8 *str = gDisplayedStringBattle;
 
         str = StringCopy(str, BattleText_Format);
-        StringCopy(str, gTypeNames[gBattleMoves[r4->moves[gMoveSelectionCursor[gActiveBattler]]].type]);
+        StringCopy(str, LEARNER_BATTLE(gTypeNames[gBattleMoves[r4->moves[gMoveSelectionCursor[gActiveBattler]]].type]));
         Text_FillWindowRect(&gWindowTemplate_Contest_MoveDescription, 0x1016, 0x17, 0x39, 0x1C, 0x3A);
         Text_InitWindow(&gWindowTemplate_Contest_MoveDescription, gDisplayedStringBattle, 0x2C0, 0x17, 0x39);
     }

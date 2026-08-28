@@ -1,5 +1,5 @@
 {
-  "coverage": "Opening, room objects, TV, first neighbor/rival meeting and early lab aide dialogue. Later story and general menus remain incomplete.",
+  "coverage": "Littleroot opening, room objects, outdoor NPCs and signs, first rival meeting, Route 101 rescue, starter gift, and running shoes. Later game coverage remains incomplete.",
   "level_policy": "A1 uses short sentences, A2 uses connected sentences, B1-C2 share natural dialogue. These are editorial targets, not certified CEFR assessments.",
   "dialogues": [
     {
@@ -1505,6 +1505,1106 @@
           [
             "erforschen",
             "to research"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownPC",
+      "base_symbol": "LittlerootTown_Text_CanUsePCToStoreItems",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "В ПК можно хранить вещи и покемонов. Наука - это здорово!"
+        ],
+        "A2": [
+          "С помощью ПК можно хранить вещи и покемонов. Удивительно, что умеет наука!"
+        ],
+        "natural": [
+          "ПК позволяет хранить и вещи, и покемонов. Возможности науки просто поражают!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im PC kannst du Items und Pokémon lagern. Wissenschaft ist toll!"
+        ],
+        "A2": [
+          "Mit einem PC kannst du Items und Pokémon lagern. Die Wissenschaft ist erstaunlich!"
+        ],
+        "natural": [
+          "Mit einem PC lassen sich Items und Pokémon lagern. Die Möglichkeiten der Wissenschaft sind beeindruckend!"
+        ]
+      },
+      "english": [
+        "A PC can store items and Pokémon. Science is amazing!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "хранить",
+            "to store"
+          ]
+        ],
+        "de": [
+          [
+            "lagern",
+            "to store"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownResearch",
+      "base_symbol": "LittlerootTown_Text_BirchSpendsDaysInLab",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Профессор Бёрч работает в лаборатории. Потом он идёт на природу. Когда он бывает дома?"
+        ],
+        "A2": [
+          "Профессор Бёрч то работает в лаборатории, то изучает покемонов на природе. Когда он успевает побыть дома?"
+        ],
+        "natural": [
+          "Профессор Бёрч днями сидит в лаборатории, а потом вдруг уходит на полевые исследования. Интересно, когда он вообще бывает дома?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Professor Birk arbeitet im Labor. Dann forscht er draußen. Wann ist er zu Hause?"
+        ],
+        "A2": [
+          "Professor Birk arbeitet im Labor und forscht dann draußen weiter. Wann hat er Zeit für zu Hause?"
+        ],
+        "natural": [
+          "Professor Birk verbringt Tage im Labor, bevor er plötzlich zur Feldforschung aufbricht. Wann ist er eigentlich mal zu Hause?"
+        ]
+      },
+      "english": [
+        "Professor Birk studies in the lab and outdoors. When is he ever home?"
+      ],
+      "words": {
+        "ru": [
+          [
+            "лаборатория",
+            "laboratory"
+          ]
+        ],
+        "de": [
+          [
+            "das Labor",
+            "laboratory"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownGrass",
+      "base_symbol": "LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "В высокой траве у дороги живут дикие покемоны. Они могут выпрыгнуть прямо перед тобой!"
+        ],
+        "A2": [
+          "В высокой траве у дороги живут дикие покемоны. Они могут выпрыгнуть прямо перед тобой!"
+        ],
+        "natural": [
+          "В высокой траве у дороги живут дикие покемоны. Они могут выпрыгнуть прямо перед тобой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im hohen Gras neben dem Weg leben wilde Pokémon. Sie können plötzlich vor dir auftauchen!"
+        ],
+        "A2": [
+          "Im hohen Gras neben dem Weg leben wilde Pokémon. Sie können plötzlich vor dir auftauchen!"
+        ],
+        "natural": [
+          "Im hohen Gras neben dem Weg leben wilde Pokémon. Sie können plötzlich vor dir auftauchen!"
+        ]
+      },
+      "english": [
+        "Wild Pokémon appear in the tall grass beside the road."
+      ],
+      "words": {
+        "ru": [
+          [
+            "трава",
+            "grass"
+          ]
+        ],
+        "de": [
+          [
+            "das Gras",
+            "grass"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownDanger",
+      "base_symbol": "LittlerootTown_Text_DangerousIfYouDontHavePokemon",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Без своего покемона туда идти опасно."
+        ],
+        "A2": [
+          "Без своего покемона туда идти опасно."
+        ],
+        "natural": [
+          "Без своего покемона туда идти опасно."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ohne ein eigenes Pokémon ist es dort gefährlich."
+        ],
+        "A2": [
+          "Ohne ein eigenes Pokémon ist es dort gefährlich."
+        ],
+        "natural": [
+          "Ohne ein eigenes Pokémon ist es dort gefährlich."
+        ]
+      },
+      "english": [
+        "It is dangerous to go there without your own Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "опасно",
+            "dangerous"
+          ]
+        ],
+        "de": [
+          [
+            "gefährlich",
+            "dangerous"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownHelp",
+      "base_symbol": "LittlerootTown_Text_CanYouGoSeeWhatsHappening",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "На дороге кто-то кричит! Что делать? Нужно помочь!"
+        ],
+        "A2": [
+          "На дороге кто-то кричит! Что делать? Нужно помочь!"
+        ],
+        "natural": [
+          "На дороге кто-то кричит! Что делать? Нужно помочь!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Da ruft jemand auf dem Weg! Was sollen wir tun? Jemand muss helfen!"
+        ],
+        "A2": [
+          "Da ruft jemand auf dem Weg! Was sollen wir tun? Jemand muss helfen!"
+        ],
+        "natural": [
+          "Da ruft jemand auf dem Weg! Was sollen wir tun? Jemand muss helfen!"
+        ]
+      },
+      "english": [
+        "Someone is shouting down the road. Somebody must help!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "кричать",
+            "to shout"
+          ]
+        ],
+        "de": [
+          [
+            "rufen",
+            "to call; shout"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownRescued",
+      "base_symbol": "LittlerootTown_Text_YouSavedBirch",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Как хорошо, что удалось спасти профессора!"
+        ],
+        "A2": [
+          "Как хорошо, что удалось спасти профессора!"
+        ],
+        "natural": [
+          "Как хорошо, что удалось спасти профессора!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zum Glück hast du den Professor gerettet!"
+        ],
+        "A2": [
+          "Zum Glück hast du den Professor gerettet!"
+        ],
+        "natural": [
+          "Zum Glück hast du den Professor gerettet!"
+        ]
+      },
+      "english": [
+        "I am glad you rescued the professor!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "спасти",
+            "to rescue"
+          ]
+        ],
+        "de": [
+          [
+            "retten",
+            "to rescue"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownGoodLuck",
+      "base_symbol": "LittlerootTown_Text_GoodLuckCatchingPokemon",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Идёшь ловить покемонов? Удачи!"
+        ],
+        "A2": [
+          "Идёшь ловить покемонов? Удачи!"
+        ],
+        "natural": [
+          "Идёшь ловить покемонов? Удачи!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gehst du Pokémon fangen? Viel Glück!"
+        ],
+        "A2": [
+          "Gehst du Pokémon fangen? Viel Glück!"
+        ],
+        "natural": [
+          "Gehst du Pokémon fangen? Viel Glück!"
+        ]
+      },
+      "english": [
+        "Going to catch Pokémon? Good luck!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "удача",
+            "luck"
+          ]
+        ],
+        "de": [
+          [
+            "das Glück",
+            "luck"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TownSign",
+      "base_symbol": "LittlerootTown_Text_TownSign",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Литтлрут. Город, который не окрасить ни в какой цвет."
+        ],
+        "A2": [
+          "Литтлрут. Город, который не окрасить ни в какой цвет."
+        ],
+        "natural": [
+          "Литтлрут. Город, который не окрасить ни в какой цвет."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wurzelheim. Ein Ort, der sich in keiner Farbe malen lässt."
+        ],
+        "A2": [
+          "Wurzelheim. Ein Ort, der sich in keiner Farbe malen lässt."
+        ],
+        "natural": [
+          "Wurzelheim. Ein Ort, der sich in keiner Farbe malen lässt."
+        ]
+      },
+      "english": [
+        "Littleroot Town. A town that cannot be shaded any hue."
+      ],
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town; city"
+          ]
+        ],
+        "de": [
+          [
+            "der Ort",
+            "place; town"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LabSign",
+      "base_symbol": "LittlerootTown_Text_ProfBirchsLab",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Лаборатория покемонов профессора Бёрча."
+        ],
+        "A2": [
+          "Лаборатория покемонов профессора Бёрча."
+        ],
+        "natural": [
+          "Лаборатория покемонов профессора Бёрча."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon-Labor von Professor Birk."
+        ],
+        "A2": [
+          "Pokémon-Labor von Professor Birk."
+        ],
+        "natural": [
+          "Pokémon-Labor von Professor Birk."
+        ]
+      },
+      "english": [
+        "Professor Birk's Pokémon laboratory."
+      ],
+      "words": {
+        "ru": [
+          [
+            "профессор",
+            "professor"
+          ]
+        ],
+        "de": [
+          [
+            "der Professor",
+            "professor"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HomeSign",
+      "base_symbol": "LittlerootTown_Text_PlayersHouse",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Твой дом."
+        ],
+        "A2": [
+          "Твой дом."
+        ],
+        "natural": [
+          "Твой дом."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Zuhause."
+        ],
+        "A2": [
+          "Dein Zuhause."
+        ],
+        "natural": [
+          "Dein Zuhause."
+        ]
+      },
+      "english": [
+        "Your house."
+      ],
+      "words": {
+        "ru": [
+          [
+            "дом",
+            "home; house"
+          ]
+        ],
+        "de": [
+          [
+            "das Zuhause",
+            "home"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BirchHomeSign",
+      "base_symbol": "LittlerootTown_Text_ProfBirchsHouse",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Дом профессора Бёрча."
+        ],
+        "A2": [
+          "Дом профессора Бёрча."
+        ],
+        "natural": [
+          "Дом профессора Бёрча."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Haus von Professor Birk."
+        ],
+        "A2": [
+          "Haus von Professor Birk."
+        ],
+        "natural": [
+          "Haus von Professor Birk."
+        ]
+      },
+      "english": [
+        "Professor Birk's house."
+      ],
+      "words": {
+        "ru": [
+          [
+            "дом",
+            "house"
+          ]
+        ],
+        "de": [
+          [
+            "das Haus",
+            "house"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WallMap",
+      "base_symbol": "Common_Text_LookCloserAtMap",
+      "source_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Это карта региона Хоэнн. Посмотрим поближе."
+        ],
+        "A2": [
+          "Это карта региона Хоэнн. Посмотрим поближе."
+        ],
+        "natural": [
+          "Это карта региона Хоэнн. Посмотрим поближе."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist eine Karte der Hoenn-Region. Schau sie dir genauer an."
+        ],
+        "A2": [
+          "Das ist eine Karte der Hoenn-Region. Schau sie dir genauer an."
+        ],
+        "natural": [
+          "Das ist eine Karte der Hoenn-Region. Schau sie dir genauer an."
+        ]
+      },
+      "english": [
+        "Take a closer look at the Hoenn region map."
+      ],
+      "words": {
+        "ru": [
+          [
+            "карта",
+            "map"
+          ]
+        ],
+        "de": [
+          [
+            "die Karte",
+            "map"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RescueCry",
+      "base_symbol": "Route101_Text_16D10E",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Помогите!"
+        ],
+        "A2": [
+          "Помогите!"
+        ],
+        "natural": [
+          "Помогите!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hilfe!"
+        ],
+        "A2": [
+          "Hilfe!"
+        ],
+        "natural": [
+          "Hilfe!"
+        ]
+      },
+      "english": [
+        "Help!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "помогите",
+            "help me (request)"
+          ]
+        ],
+        "de": [
+          [
+            "die Hilfe",
+            "help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RescueBag",
+      "base_symbol": "Route101_Text_16D119",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Эй! Помоги! В моей сумке есть покебол!"
+        ],
+        "A2": [
+          "Эй, ты! Помоги мне, пожалуйста! Возьми покебол из моей сумки!"
+        ],
+        "natural": [
+          "Эй, ты там! Пожалуйста, помоги! В моей сумке лежит покебол!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "He, du! Hilf mir! In meiner Tasche ist ein Pokéball!"
+        ],
+        "A2": [
+          "He, du da! Bitte hilf mir! Nimm einen Pokéball aus meiner Tasche!"
+        ],
+        "natural": [
+          "He, du dort! Bitte hilf mir! In meiner Tasche liegt ein Pokéball!"
+        ]
+      },
+      "english": [
+        "Help me! There is a Poké Ball in my bag."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сумка",
+            "bag"
+          ]
+        ],
+        "de": [
+          [
+            "die Tasche",
+            "bag"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RescueStay",
+      "base_symbol": "Route101_Text_16D15E",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Куда же ты?! Не бросай меня!"
+        ],
+        "A2": [
+          "Куда же ты?! Не бросай меня!"
+        ],
+        "natural": [
+          "Куда же ты?! Не бросай меня!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wo willst du hin?! Lass mich nicht allein!"
+        ],
+        "A2": [
+          "Wo willst du hin?! Lass mich nicht allein!"
+        ],
+        "natural": [
+          "Wo willst du hin?! Lass mich nicht allein!"
+        ]
+      },
+      "english": [
+        "Where are you going? Do not leave me!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "бросать",
+            "to abandon; throw"
+          ]
+        ],
+        "de": [
+          [
+            "allein",
+            "alone"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RescueThanks",
+      "base_symbol": "Route101_Text_16D191",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Бёрч: Спасибо за помощь! Я изучал покемонов в траве. Вдруг на меня напали! Поговорим в моей лаборатории."
+        ],
+        "A2": [
+          "Бёрч: Уф! Я изучал диких покемонов в траве, когда на меня напали. Спасибо за помощь! Здесь не место для беседы. Приходи в мою лабораторию."
+        ],
+        "natural": [
+          "Бёрч: Уф, пронесло! Я изучал диких покемонов в высокой траве, и тут на меня набросились. Огромное спасибо за помощь! Но здесь не лучшее место для разговора. Приходи ко мне в лабораторию."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Birk: Danke für deine Hilfe! Ich habe Pokémon im Gras erforscht. Plötzlich kam der Angriff! Reden wir in meinem Labor."
+        ],
+        "A2": [
+          "Birk: Puh! Ich habe wilde Pokémon im Gras erforscht. Dabei wurde ich angegriffen. Danke für deine Hilfe! Komm in mein Labor. Dort können wir reden."
+        ],
+        "natural": [
+          "Birk: Puh, das war knapp! Ich habe wilde Pokémon im hohen Gras erforscht, als ich plötzlich angegriffen wurde. Vielen Dank für deine Hilfe! Hier ist kein guter Ort zum Reden. Besuch mich in meinem Labor."
+        ]
+      },
+      "english": [
+        "Birch thanks you for rescuing him during fieldwork and invites you to the lab."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помощь",
+            "help"
+          ]
+        ],
+        "de": [
+          [
+            "der Angriff",
+            "attack"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteHealing",
+      "base_symbol": "Route101_Text_16D25E",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Если покемоны устали, отнеси их в центр покемонов. Ближайший центр находится в Олдейле."
+        ],
+        "A2": [
+          "Если покемоны устали, отнеси их в центр покемонов. Ближайший центр находится в Олдейле."
+        ],
+        "natural": [
+          "Если покемоны устали, отнеси их в центр покемонов. Ближайший центр находится в Олдейле."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn deine Pokémon müde sind, bring sie in ein Pokémon-Center. Das nächste ist in Rosaltstadt."
+        ],
+        "A2": [
+          "Wenn deine Pokémon müde sind, bring sie in ein Pokémon-Center. Das nächste ist in Rosaltstadt."
+        ],
+        "natural": [
+          "Wenn deine Pokémon müde sind, bring sie in ein Pokémon-Center. Das nächste ist in Rosaltstadt."
+        ]
+      },
+      "english": [
+        "Take tired Pokémon to the nearby Pokémon Center in Oldale."
+      ],
+      "words": {
+        "ru": [
+          [
+            "устать",
+            "to get tired"
+          ]
+        ],
+        "de": [
+          [
+            "müde",
+            "tired"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteGrass",
+      "base_symbol": "Route101_Text_16D2CB",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Дикие покемоны прячутся в высокой траве. Чтобы поймать их, ищи там."
+        ],
+        "A2": [
+          "Дикие покемоны прячутся в высокой траве. Чтобы поймать их, ищи там."
+        ],
+        "natural": [
+          "Дикие покемоны прячутся в высокой траве. Чтобы поймать их, ищи там."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wilde Pokémon verstecken sich im hohen Gras. Suche dort, wenn du welche fangen möchtest."
+        ],
+        "A2": [
+          "Wilde Pokémon verstecken sich im hohen Gras. Suche dort, wenn du welche fangen möchtest."
+        ],
+        "natural": [
+          "Wilde Pokémon verstecken sich im hohen Gras. Suche dort, wenn du welche fangen möchtest."
+        ]
+      },
+      "english": [
+        "Look in tall grass to find and catch wild Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "искать",
+            "to search"
+          ]
+        ],
+        "de": [
+          [
+            "suchen",
+            "to search"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteSign",
+      "base_symbol": "Route101_Text_16D349",
+      "source_path": "data/maps/Route101/text.inc",
+      "ru": {
+        "A1": [
+          "Путь 101. На север - Олдейл."
+        ],
+        "A2": [
+          "Путь 101. На север - Олдейл."
+        ],
+        "natural": [
+          "Путь 101. На север - Олдейл."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Route 101. Nach Norden: Rosaltstadt."
+        ],
+        "A2": [
+          "Route 101. Nach Norden: Rosaltstadt."
+        ],
+        "natural": [
+          "Route 101. Nach Norden: Rosaltstadt."
+        ]
+      },
+      "english": [
+        "Route 101. Oldale Town is to the north."
+      ],
+      "words": {
+        "ru": [
+          [
+            "север",
+            "north"
+          ]
+        ],
+        "de": [
+          [
+            "der Norden",
+            "north"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StarterGift",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Бёрч: Твой папа рассказывал о тебе. У тебя ещё нет покемона, но бой прошёл отлично! За помощь я дарю тебе этого покемона. Теперь он твой!"
+        ],
+        "A2": [
+          "Бёрч: Я много слышал о тебе от твоего отца. Хоть у тебя ещё не было своего покемона, бой прошёл отлично! В благодарность за спасение я дарю тебе покемона, который помог в бою."
+        ],
+        "natural": [
+          "Бёрч: Твой отец много рассказывал о тебе. У тебя ещё не было собственного покемона, но в бою тебе удалось отлично справиться! В благодарность за спасение я хочу подарить тебе покемона, с которым ты сражаешься."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Birk: Dein Vater hat mir von dir erzählt. Du hast noch kein Pokémon. Aber du hast toll gekämpft! Als Dank bekommst du dieses Pokémon. Es gehört jetzt dir!"
+        ],
+        "A2": [
+          "Birk: Dein Vater hat mir viel von dir erzählt. Obwohl du noch kein eigenes Pokémon hattest, hast du toll gekämpft! Als Dank für meine Rettung schenke ich dir dieses Pokémon."
+        ],
+        "natural": [
+          "Birk: Dein Vater hat mir viel von dir erzählt. Obwohl du noch kein eigenes Pokémon hattest, hast du den Kampf hervorragend gemeistert! Als Dank für meine Rettung möchte ich dir das Pokémon schenken, mit dem du gekämpft hast."
+        ]
+      },
+      "english": [
+        "Birch gives you the Pokémon you used to rescue him."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подарить",
+            "to give as a gift"
+          ]
+        ],
+        "de": [
+          [
+            "schenken",
+            "to give as a gift"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StarterVisit",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Бёрч: Отлично! Моему ребёнку тоже будет приятно. На пути 103 ты узнаешь, что значит быть тренером!"
+        ],
+        "A2": [
+          "Бёрч: Отлично! Моему ребёнку тоже будет приятно. На пути 103 ты узнаешь, что значит быть тренером!"
+        ],
+        "natural": [
+          "Бёрч: Отлично! Моему ребёнку тоже будет приятно. На пути 103 ты узнаешь, что значит быть тренером!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Birk: Prima! Mein Kind freut sich bestimmt. Auf Route 103 kannst du lernen, was es heißt, Trainer zu sein!"
+        ],
+        "A2": [
+          "Birk: Prima! Mein Kind freut sich bestimmt. Auf Route 103 kannst du lernen, was es heißt, Trainer zu sein!"
+        ],
+        "natural": [
+          "Birk: Prima! Mein Kind freut sich bestimmt. Auf Route 103 kannst du lernen, was es heißt, Trainer zu sein!"
+        ]
+      },
+      "english": [
+        "Visit the rival on Route 103 to learn about being a trainer."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тренер",
+            "trainer"
+          ]
+        ],
+        "de": [
+          [
+            "der Trainer",
+            "trainer"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StarterRest",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchRivalRoute103",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Мой ребёнок где-то на пути 103. Если вы с покемонами устанете, отдохните дома."
+        ],
+        "A2": [
+          "Мой ребёнок где-то на пути 103. Если вы с покемонами устанете, отдохните дома."
+        ],
+        "natural": [
+          "Мой ребёнок где-то на пути 103. Если вы с покемонами устанете, отдохните дома."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Kind ist irgendwo auf Route 103. Wenn du oder deine Pokémon müde seid, ruht euch zu Hause aus."
+        ],
+        "A2": [
+          "Mein Kind ist irgendwo auf Route 103. Wenn du oder deine Pokémon müde seid, ruht euch zu Hause aus."
+        ],
+        "natural": [
+          "Mein Kind ist irgendwo auf Route 103. Wenn du oder deine Pokémon müde seid, ruht euch zu Hause aus."
+        ]
+      },
+      "english": [
+        "The rival is on Route 103. Rest at home if you or your Pokémon get tired."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отдыхать",
+            "to rest"
+          ]
+        ],
+        "de": [
+          [
+            "sich ausruhen",
+            "to rest"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RunningShoes",
+      "base_symbol": "LittlerootTown_Text_WearTheseRunningShoes",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Мама: Какой милый покемон! Это подарок профессора Бёрча? Вы отлично смотритесь вместе! Для приключения тебе нужны кроссовки. Вот, держи!"
+        ],
+        "A2": [
+          "Мама: Какой милый покемон! Это подарок профессора Бёрча? Вы отлично смотритесь вместе! Для приключения тебе нужны кроссовки. Вот, держи!"
+        ],
+        "natural": [
+          "Мама: Какой милый покемон! Это подарок профессора Бёрча? Вы отлично смотритесь вместе! Для приключения тебе нужны кроссовки. Вот, держи!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Was für ein süßes Pokémon! Ein Geschenk von Professor Birk? Ihr passt gut zusammen! Für dein Abenteuer brauchst du Laufschuhe. Hier, bitte!"
+        ],
+        "A2": [
+          "Mama: Was für ein süßes Pokémon! Ein Geschenk von Professor Birk? Ihr passt gut zusammen! Für dein Abenteuer brauchst du Laufschuhe. Hier, bitte!"
+        ],
+        "natural": [
+          "Mama: Was für ein süßes Pokémon! Ein Geschenk von Professor Birk? Ihr passt gut zusammen! Für dein Abenteuer brauchst du Laufschuhe. Hier, bitte!"
+        ]
+      },
+      "english": [
+        "Mom admires your Pokémon and gives you Running Shoes."
+      ],
+      "words": {
+        "ru": [
+          [
+            "кроссовки",
+            "running shoes"
+          ]
+        ],
+        "de": [
+          [
+            "die Laufschuhe",
+            "running shoes"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RunningRules",
+      "base_symbol": "LittlerootTown_Text_ExplainRunningShoes",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Мама: Надень кроссовки и держи кнопку B, чтобы быстро бегать на улице!"
+        ],
+        "A2": [
+          "Мама: Надень кроссовки и держи кнопку B, чтобы быстро бегать на улице!"
+        ],
+        "natural": [
+          "Мама: Надень кроссовки и держи кнопку B, чтобы быстро бегать на улице!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Halte mit deinen Laufschuhen draußen die B-Taste gedrückt, um schnell zu rennen!"
+        ],
+        "A2": [
+          "Mama: Halte mit deinen Laufschuhen draußen die B-Taste gedrückt, um schnell zu rennen!"
+        ],
+        "natural": [
+          "Mama: Halte mit deinen Laufschuhen draußen die B-Taste gedrückt, um schnell zu rennen!"
+        ]
+      },
+      "english": [
+        "Hold B outdoors while wearing the Running Shoes to run."
+      ],
+      "words": {
+        "ru": [
+          [
+            "бегать",
+            "to run"
+          ]
+        ],
+        "de": [
+          [
+            "rennen",
+            "to run"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HomeSafety",
+      "base_symbol": "LittlerootTown_Text_ComeHomeIfAnythingHappens",
+      "source_path": "data/maps/LittlerootTown/text.inc",
+      "ru": {
+        "A1": [
+          "Мама: Теперь у тебя свой покемон! Папа будет очень рад. Будь осторожнее. Если что-то случится, возвращайся домой. Удачи!"
+        ],
+        "A2": [
+          "Мама: Теперь у тебя свой покемон! Папа будет очень рад. Будь осторожнее. Если что-то случится, возвращайся домой. Удачи!"
+        ],
+        "natural": [
+          "Мама: Теперь у тебя свой покемон! Папа будет очень рад. Будь осторожнее. Если что-то случится, возвращайся домой. Удачи!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama: Jetzt hast du dein eigenes Pokémon! Dein Vater wird sich freuen. Pass auf dich auf. Wenn etwas passiert, komm nach Hause. Viel Glück!"
+        ],
+        "A2": [
+          "Mama: Jetzt hast du dein eigenes Pokémon! Dein Vater wird sich freuen. Pass auf dich auf. Wenn etwas passiert, komm nach Hause. Viel Glück!"
+        ],
+        "natural": [
+          "Mama: Jetzt hast du dein eigenes Pokémon! Dein Vater wird sich freuen. Pass auf dich auf. Wenn etwas passiert, komm nach Hause. Viel Glück!"
+        ]
+      },
+      "english": [
+        "Mom wishes you luck and reminds you that you can always come home."
+      ],
+      "words": {
+        "ru": [
+          [
+            "осторожно",
+            "carefully"
+          ]
+        ],
+        "de": [
+          [
+            "aufpassen",
+            "to be careful"
           ]
         ]
       }

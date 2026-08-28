@@ -180,11 +180,25 @@ LittlerootTown_EventScript_BeginDexUpgradeScene:: @ 814D6C5
 	end
 
 LittlerootTown_EventScript_FatMan:: @ 814D6CD
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_TownPC
+	release
+	.else
 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+	.endif
 	end
 
 LittlerootTown_EventScript_Boy:: @ 814D6D6
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_TownResearch
+	release
+	.else
 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+	.endif
 	end
 
 LittlerootTown_EventScript_Twin:: @ 814D6DF
@@ -194,12 +208,20 @@ LittlerootTown_EventScript_Twin:: @ 814D6DF
 	goto_if_set FLAG_RESCUED_BIRCH, LittlerootTown_EventScript_YouSavedBirch
 	compare VAR_LITTLEROOT_STATE, 0
 	goto_if_ne LittlerootTown_EventScript_GoSaveBirch
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownGrass
+	.else
 	msgbox LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 LittlerootTown_EventScript_GoSaveBirch:: @ 814D708
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownHelp
+	.else
 	msgbox LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 1, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -209,12 +231,20 @@ LittlerootTown_EventScript_GoSaveBirch:: @ 814D708
 
 LittlerootTown_EventScript_YouSavedBirch:: @ 814D722
 	special GetPlayerBigGuyGirlString
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownRescued
+	.else
 	msgbox LittlerootTown_Text_YouSavedBirch, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 LittlerootTown_EventScript_GoodLuck:: @ 814D72F
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownGoodLuck
+	.else
 	msgbox LittlerootTown_Text_GoodLuckCatchingPokemon, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -229,12 +259,20 @@ LittlerootTown_EventScript_NeedPokemonTriggerLeft:: @ 814D739
 	end
 
 LittlerootTown_EventScript_DangerousWithoutPokemon:: @ 814D755
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownGrass
+	.else
 	msgbox LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 1, LittlerootTown_Movement_TwinPushPlayerFromRoute
 	applymovement LOCALID_PLAYER, LittlerootTown_Movement_PushPlayerBackFromRoute
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownDanger
+	.else
 	msgbox LittlerootTown_Text_DangerousIfYouDontHavePokemon, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	return
 
@@ -316,7 +354,11 @@ LittlerootTown_EventScript_GoSaveBirchTrigger:: @ 814D7C7
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TownHelp
+	.else
 	msgbox LittlerootTown_Text_CanYouGoSeeWhatsHappening, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 1, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -325,11 +367,23 @@ LittlerootTown_EventScript_GoSaveBirchTrigger:: @ 814D7C7
 	end
 
 LittlerootTown_EventScript_TownSign:: @ 814D7F6
+	.ifdef LEARNER_DEMO
+	lockall
+	call LearnerOpening_TownSign
+	releaseall
+	.else
 	msgbox LittlerootTown_Text_TownSign, MSGBOX_SIGN
+	.endif
 	end
 
 LittlerootTown_EventScript_BirchsLabSign:: @ 814D7FF
+	.ifdef LEARNER_DEMO
+	lockall
+	call LearnerOpening_LabSign
+	releaseall
+	.else
 	msgbox LittlerootTown_Text_ProfBirchsLab, MSGBOX_SIGN
+	.endif
 	end
 
 LittlerootTown_EventScript_BrendansHouseSign:: @ 814D808
@@ -337,17 +391,28 @@ LittlerootTown_EventScript_BrendansHouseSign:: @ 814D808
 	checkplayergender
 	compare VAR_RESULT, 0
 	call_if_eq LittlerootTown_EventScript_PlayersHouseSignMale
+	.ifdef LEARNER_DEMO
+	checkplayergender
+	.endif
 	compare VAR_RESULT, 1
 	call_if_eq LittlerootTown_EventScript_BirchsHouseSignFemale
 	releaseall
 	end
 
 LittlerootTown_EventScript_PlayersHouseSignMale:: @ 814D822
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_HomeSign
+	.else
 	msgbox LittlerootTown_Text_PlayersHouse, MSGBOX_DEFAULT
+	.endif
 	return
 
 LittlerootTown_EventScript_BirchsHouseSignFemale:: @ 814D82B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_BirchHomeSign
+	.else
 	msgbox LittlerootTown_Text_ProfBirchsHouse, MSGBOX_DEFAULT
+	.endif
 	return
 
 LittlerootTown_EventScript_MaysHouseSign:: @ 814D834
@@ -355,17 +420,28 @@ LittlerootTown_EventScript_MaysHouseSign:: @ 814D834
 	checkplayergender
 	compare VAR_RESULT, 0
 	call_if_eq LittlerootTown_EventScript_BirchsHouseSignMale
+	.ifdef LEARNER_DEMO
+	checkplayergender
+	.endif
 	compare VAR_RESULT, 1
 	call_if_eq LittlerootTown_EventScript_PlayersHouseSignFemale
 	releaseall
 	end
 
 LittlerootTown_EventScript_BirchsHouseSignMale:: @ 814D84E
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_BirchHomeSign
+	.else
 	msgbox LittlerootTown_Text_ProfBirchsHouse, MSGBOX_DEFAULT
+	.endif
 	return
 
 LittlerootTown_EventScript_PlayersHouseSignFemale:: @ 814D857
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_HomeSign
+	.else
 	msgbox LittlerootTown_Text_PlayersHouse, MSGBOX_DEFAULT
+	.endif
 	return
 
 LittlerootTown_EventScript_GiveRunningShoesTrigger0:: @ 814D860
@@ -868,14 +944,26 @@ LittlerootTown_EventScript_SetReceivedRunningShoes:: @ 814DD2B
 	end
 
 LittlerootTown_EventScript_GiveRunningShoes:: @ 814DD38
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RunningShoes
+	.else
 	msgbox LittlerootTown_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
+	.endif
 	playfanfare MUS_OBTAIN_ITEM
 	message LittlerootTown_Text_SwitchShoesWithRunningShoes
 	waitfanfare
 	waitmessage
 	setflag FLAG_RECEIVED_RUNNING_SHOES
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RunningRules
+	.else
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	.endif
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_HomeSafety
+	.else
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	delay 30
 	return

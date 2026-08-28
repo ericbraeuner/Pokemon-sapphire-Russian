@@ -57,6 +57,30 @@ u8 Learner_GetLanguage(void)
     return sLearnerSettingsPending ? sLearnerLanguage : VarGet(VAR_LEARNER_LANGUAGE);
 }
 
+extern const u8 *const gLearnerUiTranslations[][3];
+extern const u16 gLearnerUiTranslationCount;
+extern const u8 *const gLearnerMapNames[][2];
+extern const u16 gLearnerMapNameCount;
+
+const u8 *Learner_Translate(const u8 *text)
+{
+    u16 i;
+    u8 language = Learner_GetLanguage();
+    if (text != NULL && language >= 1 && language <= 2)
+        for (i = 0; i < gLearnerUiTranslationCount; i++)
+            if (text == gLearnerUiTranslations[i][0])
+                return gLearnerUiTranslations[i][language];
+    return text;
+}
+
+const u8 *Learner_MapName(u16 section, const u8 *fallback)
+{
+    u8 language = Learner_GetLanguage();
+    if (language >= 1 && language <= 2 && section < gLearnerMapNameCount)
+        return gLearnerMapNames[section][language - 1];
+    return fallback;
+}
+
 static void Learner_DrawSetup(const u8 *title, const struct MenuAction *items, u8 count, u8 cursor)
 {
     Menu_EraseScreen();

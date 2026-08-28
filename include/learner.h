@@ -15,6 +15,8 @@ LEARNER_DECLARE(Boy)
 LEARNER_DECLARE(Girl)
 LEARNER_DECLARE(NewName)
 LEARNER_DECLARE(YourName)
+LEARNER_DECLARE(Potion)
+LEARNER_DECLARE(PotionDescription)
 LEARNER_DECLARE(Welcome)
 LEARNER_DECLARE(ThisIsPokemon)
 LEARNER_DECLARE(WorldInhabitedByPokemon)
@@ -28,5 +30,7 @@ LEARNER_DECLARE(AreYouReady)
 #define LEARNER_UI(language, name) ((language) == 1 ? LearnerUI_ru_##name : LearnerUI_de_##name)
 void Learner_CommitNewGameSettings(void);
 u8 Learner_GetLanguage(void);
+const u8 *Learner_Translate(const u8 *text);
+const u8 *Learner_MapName(u16 section, const u8 *fallback);
 #endif
 #endif

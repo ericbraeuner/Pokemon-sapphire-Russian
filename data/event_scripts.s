@@ -881,7 +881,11 @@ Common_EventScript_OutOfCenterPartyHeal:: @ 81A02CA
 
 EventScript_RegionMap:: @ 81A02D6
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WallMap
+	.else
 	msgbox Common_Text_LookCloserAtMap, MSGBOX_DEFAULT
+	.endif
 	fadescreen FADE_TO_BLACK
 	special FieldShowRegionMap
 	waitstate

@@ -2,7 +2,7 @@
 
 This directory contains data contracts and integration seams for turning a base
 Pokemon game into an adaptive language-learning experience. It is deliberately
-separate from the normal ROM build. An optional playable build translates Birch and 32 field dialogue entries in Russian and German,
+separate from the normal ROM build. An optional playable build translates Birch and 57 field dialogue entries in Russian and German,
 with saved language/level choices, translated help menus, and dictionary help. See [PLAY_DEMO.md](PLAY_DEMO.md) for beginner-friendly instructions.
 
 ## Architecture
@@ -61,7 +61,7 @@ the original text symbol. The normal game dialogue follows the extra lesson;
 important story instructions are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
-`opening.json` currently holds 32 source-symbol mappings,
+`opening.json` currently holds 57 source-symbol mappings,
 translations in three text bands, English help, and dictionary entries. This
 prototype bundle is validated during generation and tests; it is separate from
 the original language-pack/profile schema and does not update external profiles.
@@ -92,6 +92,16 @@ and the clock. `include/learner.h` declares those symbols. The clock reads saved
 settings without modifying them. All C hooks are conditional on LEARNER_DEMO.
 
 See PLAY_DEMO.md for the explicit coverage limits and full-immersion roadmap.
+
+`ui_sources.json` is a whitelist of 76 fixed source strings and their translations.
+The text renderer and placeholder expansion resolve only exact source pointers;
+unknown text and player-entered names pass through unchanged. Width measurement
+uses the same translation as rendering. Each entry has a pixel width and line
+limit checked during generation. PC labels fit existing windows without resizing.
+`map_names.json` covers 88 map sections. Popups and the wall map render these
+strings directly from ROM, avoiding the original 20-byte map-name buffers.
+No save fields or structures changed in this update. Interface wording is shared
+across difficulty levels; it does not claim six independently authored CEFR versions.
 
 ## Adding data
 

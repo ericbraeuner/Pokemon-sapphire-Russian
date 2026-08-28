@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "berry.h"
 #include "berry_tag_screen.h"
 #include "data2.h"
@@ -1404,6 +1405,18 @@ static bool32 CopyTextLine(u8 *destination, const u8 *source, u32 c)
 static void sub_80A4A98(const u8 *text, u32 line)
 {
     u8 buffer[100];
+#if LEARNER_DEMO
+    const u8 *translated = Learner_Translate(text);
+    if (translated != text)
+    {
+        if (line == 0)
+        {
+            Menu_EraseWindowRect(0, 13, 13, 20);
+            Menu_PrintTextPixelCoords(translated, 4, 104, 0);
+        }
+        return;
+    }
+#endif
 
     if (line == 0)
         Menu_EraseWindowRect(0, 13, 13, 20);

@@ -25,8 +25,12 @@ LittlerootTown_ProfessorBirchsLab_OnFrame:: @ 8152CAC
 LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent:: @ 8152CBE
 	lockall
 	bufferleadmonspeciesname 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_StarterGift
+	.else
 	message LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon
 	waitmessage
+	.endif
 	playfanfare MUS_OBTAIN_ITEM
 	waitfanfare
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon, MSGBOX_YESNO
@@ -51,7 +55,11 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GoSeeRival:: @ 8152CFA
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival:: @ 8152D19
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_StarterVisit
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou, MSGBOX_DEFAULT
+	.endif
 	clearflag FLAG_HIDE_BOY_ROUTE101
 	setvar VAR_BIRCH_LAB_STATE, 3
 	releaseall
@@ -121,7 +129,11 @@ LittlerootTown_ProfessorBirchsLab_EventScript_152D9A:: @ 8152D9A
 	goto_if_unset FLAG_UNKNOWN_BIRCH_380, ProfBirch_EventScript_AskRatePokedex
 	compare VAR_BIRCH_LAB_STATE, 5
 	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_StarterRest
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchRivalRoute103, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

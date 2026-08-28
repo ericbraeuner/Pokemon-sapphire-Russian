@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "text.h"
 #include "battle.h"
 #include "main.h"
@@ -1982,7 +1983,11 @@ void Text_InitWindow(struct Window *win, const u8 *text, u16 tileDataStartOffset
     win->tilemapTop = winTemplate->tilemapTop;
     win->width = winTemplate->width;
     win->height = winTemplate->height;
+#if LEARNER_DEMO
+    win->text = Learner_Translate(text);
+#else
     win->text = text;
+#endif
     win->textIndex = 0;
     win->tileDataStartOffset = tileDataStartOffset;
     win->tileDataOffset = 0;
@@ -2018,7 +2023,11 @@ void Text_InitWindow8002E4C(struct Window *win, const u8 *text, u16 tileDataStar
 void Text_SetWindowText(struct Window *win, const u8 *text)
 {
     win->state = WIN_STATE_NORMAL;
+#if LEARNER_DEMO
+    win->text = Learner_Translate(text);
+#else
     win->text = text;
+#endif
     win->textIndex = 0;
     win->downArrowCounter = 0;
     win->win_field_B = -1;
@@ -3636,6 +3645,9 @@ u8 GetStringWidth(struct Window *win, const u8 *s)
     u8 savedLanguage = win->language;
     u8 savedSpacing = win->spacing;
     s32 i = 0;
+#if LEARNER_DEMO
+    s = Learner_Translate(s);
+#endif
 
     while (s[i] != EOS)
     {
@@ -3847,6 +3859,9 @@ u8 sub_8004FD0(struct Window *win, u8 *dest, const u8 *src, u16 tileDataStartOff
     u8 extCtrlCodeLength;
     u8 *start;
     u32 endsWithoutNewline;
+#if LEARNER_DEMO
+    src = Learner_Translate(src);
+#endif
 
     if (dest == NULL)
         dest = gStringVar4;

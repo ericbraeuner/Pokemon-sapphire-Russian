@@ -72,11 +72,13 @@ class LessonTests(unittest.TestCase):
                  'data/maps/LittlerootTown_MaysHouse_1F/scripts.inc']
         paths += ['data/scripts/tv.inc', 'data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
-                  'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc']
+                  'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
+                  'data/maps/Route101/scripts.inc', 'data/event_scripts.s']
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
             self.assertIn(f"call LearnerOpening_{entry['id']}\n", sources)
-            self.assertIn(f"\t.else\n\tmsgbox {entry['base_symbol']}", sources)
+            command = 'message' if entry['id'] == 'StarterGift' else 'msgbox'
+            self.assertIn(f"\t.else\n\t{command} {entry['base_symbol']}", sources)
 
     def test_all_opening_text_bands_and_dictionary_compile(self):
         assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))
@@ -128,6 +130,28 @@ class LessonTests(unittest.TestCase):
         source = (demo.ROOT / 'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc').read_text(encoding='utf-8')
         between = source.split('call_if_eq RivalsHouse_2F_EventScript_May\n')[1].split('call_if_eq RivalsHouse_2F_EventScript_Brendan')[0]
         self.assertIn('checkplayergender\n', between)
+
+    def test_town_sign_branches_and_map_buffers_stay_safe(self):
+        source = (demo.ROOT / 'data/maps/LittlerootTown/scripts.inc').read_text(encoding='utf-8')
+        for sign in ('PlayersHouseSignMale', 'BirchsHouseSignMale'):
+            self.assertIn(f'call_if_eq LittlerootTown_EventScript_{sign}\n\t.ifdef LEARNER_DEMO\n\tcheckplayergender', source)
+        popup = (demo.ROOT / 'src/map_name_popup.c').read_text(encoding='utf-8')
+        self.assertIn('u8 name[20];', popup)
+        self.assertIn('Learner_MapName(gMapHeader.regionMapSectionId, name)', popup)
+        # Translated names are rendered from ROM, never copied into name[20].
+        self.assertNotIn('StringCopy(name, Learner_', popup)
+
+    def test_fixed_ui_and_map_text_are_bounded(self):
+        sources = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        names = validate.load(demo.ROOT / 'language_learning/map_names.json')
+        for collection, map_names in ((sources, False), (names, True)):
+            for key, entry in collection.items():
+                for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
+                    with self.subTest(key=key, tag=tag):
+                        lines = demo.wrap(entry[tag], mapping, glyphs, 96 if map_names else entry['width'])
+                        self.assertLessEqual(len(lines), 1 if map_names else entry['lines'])
+        self.assertEqual('Wurzelheim', names['MAPSEC_LITTLEROOT_TOWN']['de'])
+        self.assertEqual('Вещи', sources['SecretBaseText_ItemStorage']['ru'])
 
     def test_new_game_settings_committed_after_all_resets(self):
         code = (demo.ROOT / 'src/new_game.c').read_text(encoding='utf-8')

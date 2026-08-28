@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "constants/decorations.h"
 #include "main.h"
 #include "constants/event_objects.h"
@@ -1555,7 +1556,11 @@ void sub_80FE470(u8 decoCat, u8 left, u8 top, u8 palIdx) // PrintDecorationCateg
     strptr[1] = 5;
     strptr[2] = palIdx;
     strptr += 3;
+#if LEARNER_DEMO
+    strptr = StringCopy(strptr, Learner_Translate(gUnknown_083EC5E4[decoCat]));
+#else
     strptr = StringCopy(strptr, gUnknown_083EC5E4[decoCat]);
+#endif
     strptr = AlignInt1InMenuWindow(strptr, GetNumDecorationsInInventoryCategory(decoCat), 0x56, 1);
     *strptr++ = 0xba;
     strptr = AlignInt1InMenuWindow(strptr, gDecorationInventories[decoCat].size, 0x68, 1);

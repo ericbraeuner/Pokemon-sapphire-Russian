@@ -1,0 +1,423 @@
+{
+  "gOtherText_HowManyToDeposit": {"ru": "Сколько положить?", "de": "Wie viele lagern?", "width": 104, "lines": 2},
+  "gOtherText_DepositedItems": {"ru": "Вещи в ПК.", "de": "Items im PC.", "width": 104, "lines": 2},
+  "gOtherText_NoRoomForItems": {"ru": "В ПК нет места.", "de": "Kein Platz im PC.", "width": 104, "lines": 2},
+  "gOtherText_CantStoreSomeoneItem": {"ru": "Это нельзя хранить.", "de": "Nicht lagerbar.", "width": 104, "lines": 2},
+  "gOtherText_WhatWillYouDo2": {"ru": "Что сделать?", "de": "Was tun?", "width": 104, "lines": 2},
+  "LittlerootTown_Text_WaitPlayer": {"ru": "Мама: Подожди!", "de": "Mama: Warte kurz!", "width": 184, "lines": 2},
+  "LittlerootTown_Text_SwitchShoesWithRunningShoes": {"ru": "Теперь на тебе кроссовки!", "de": "Du trägst jetzt Laufschuhe!", "width": 184, "lines": 2},
+  "SecretBaseText_ItemStorage": {
+    "ru": "Вещи",
+    "de": "Lager",
+    "width": 80,
+    "lines": 1
+  },
+  "gPCText_Mailbox": {
+    "ru": "Почта",
+    "de": "Postfach",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Decoration": {
+    "ru": "Декор",
+    "de": "Deko",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_TurnOff": {
+    "ru": "Выход",
+    "de": "Aus",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_WithdrawItem": {
+    "ru": "Взять",
+    "de": "Nehmen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_DepositItem": {
+    "ru": "Положить",
+    "de": "Ablegen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_TossItem": {
+    "ru": "Выбросить",
+    "de": "Wegwerfen",
+    "width": 80,
+    "lines": 1
+  },
+  "gOtherText_Exit": {
+    "ru": "Выход",
+    "de": "Zurück",
+    "width": 80,
+    "lines": 1
+  },
+  "gOtherText_CancelNoTerminator": {
+    "ru": "Назад",
+    "de": "Zurück",
+    "width": 80,
+    "lines": 1
+  },
+  "OtherText_Read": {
+    "ru": "Читать",
+    "de": "Lesen",
+    "width": 80,
+    "lines": 1
+  },
+  "gOtherText_MoveToBag": {
+    "ru": "В сумку",
+    "de": "In Beutel",
+    "width": 80,
+    "lines": 1
+  },
+  "OtherText_Give": {
+    "ru": "Дать",
+    "de": "Geben",
+    "width": 80,
+    "lines": 1
+  },
+  "OtherText_Yes": {
+    "ru": "Да",
+    "de": "Ja",
+    "width": 80,
+    "lines": 1
+  },
+  "OtherText_No": {
+    "ru": "Нет",
+    "de": "Nein",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Decorate": {
+    "ru": "Расставить",
+    "de": "Aufstellen",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_PutAway": {
+    "ru": "Убрать",
+    "de": "Wegräumen",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Toss": {
+    "ru": "Выбросить",
+    "de": "Wegwerfen",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Desk": {
+    "ru": "Столы",
+    "de": "Tische",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Chair": {
+    "ru": "Стулья",
+    "de": "Stühle",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Plant": {
+    "ru": "Растения",
+    "de": "Pflanzen",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Ornament": {
+    "ru": "Украшения",
+    "de": "Schmuck",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Mat": {
+    "ru": "Коврики",
+    "de": "Matten",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Poster": {
+    "ru": "Плакаты",
+    "de": "Poster",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Doll": {
+    "ru": "Куклы",
+    "de": "Puppen",
+    "width": 80,
+    "lines": 1
+  },
+  "SecretBaseText_Cushion": {
+    "ru": "Подушки",
+    "de": "Kissen",
+    "width": 80,
+    "lines": 1
+  },
+  "gOtherText_Hoenn": {
+    "ru": "Хоэнн",
+    "de": "Hoenn",
+    "width": 80,
+    "lines": 1
+  },
+  "gOtherText_WhatWillYouDo": {
+    "ru": "Что будем делать?",
+    "de": "Was möchtest du tun?",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_NoMailHere": {
+    "ru": "Писем нет.",
+    "de": "Keine Post vorhanden.",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_NoItems": {
+    "ru": "Здесь нет вещей.",
+    "de": "Hier sind keine Items.",
+    "width": 184,
+    "lines": 2
+  },
+  "PCText_TakeOutItems": {
+    "ru": "Взять вещи из ПК.",
+    "de": "Items aus dem PC nehmen.",
+    "width": 184,
+    "lines": 2
+  },
+  "PCText_StoreItems": {
+    "ru": "Положить вещи в ПК.",
+    "de": "Items im PC lagern.",
+    "width": 184,
+    "lines": 2
+  },
+  "PCText_ThrowAwayItems": {
+    "ru": "Выбросить вещи из ПК.",
+    "de": "Items aus dem PC entsorgen.",
+    "width": 184,
+    "lines": 2
+  },
+  "SecretBaseText_PutOutDecor": {
+    "ru": "Расставить украшения.",
+    "de": "Dekoration aufstellen.",
+    "width": 184,
+    "lines": 2
+  },
+  "SecretBaseText_StoreChosenDecor": {
+    "ru": "Убрать украшения на хранение.",
+    "de": "Dekoration wieder einlagern.",
+    "width": 184,
+    "lines": 2
+  },
+  "SecretBaseText_ThrowAwayDecor": {
+    "ru": "Выбросить украшения.",
+    "de": "Dekoration entsorgen.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_NoDecors": {
+    "ru": "У тебя нет таких украшений.",
+    "de": "Du hast keine solche Deko.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_DecorCantPlace": {
+    "ru": "Это нельзя поставить в комнате.",
+    "de": "Das passt nicht in dein Zimmer.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_InUseAlready": {
+    "ru": "Это уже используется.",
+    "de": "Das wird bereits benutzt.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_NoMoreDecor": {
+    "ru": "Больше ничего не помещается.",
+    "de": "Mehr Deko passt hier nicht hin.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_NoMoreDecor2": {
+    "ru": "Больше ничего не помещается.",
+    "de": "Mehr Deko passt hier nicht hin.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_CancelDecorating": {
+    "ru": "Закончить расстановку?",
+    "de": "Aufstellen beenden?",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_PlaceItHere": {
+    "ru": "Поставить здесь?",
+    "de": "Hier aufstellen?",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_CantBePlacedHere": {
+    "ru": "Здесь поставить нельзя.",
+    "de": "Hier ist kein Platz dafür.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_NoDecorInUse": {
+    "ru": "В комнате нет украшений.",
+    "de": "Hier steht noch keine Deko.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_DecorReturned": {
+    "ru": "Украшение убрано.",
+    "de": "Die Deko wurde eingelagert.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_StopPuttingAwayDecor": {
+    "ru": "Закончить уборку?",
+    "de": "Wegräumen beenden?",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_ReturnDecor": {
+    "ru": "Убрать это украшение?",
+    "de": "Diese Deko wegräumen?",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_NoDecor": {
+    "ru": "Здесь нет украшений.",
+    "de": "Hier steht keine Deko.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_WillBeDiscarded": {
+    "ru": "Выбросить украшение?",
+    "de": "Diese Deko wegwerfen?",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_DecorInUse": {
+    "ru": "Украшение сейчас используется.",
+    "de": "Diese Deko wird gerade benutzt.",
+    "width": 184,
+    "lines": 2
+  },
+  "gSecretBaseText_DecorThrownAway": {
+    "ru": "Украшение выброшено.",
+    "de": "Die Deko wurde weggeworfen.",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_WhatWillYouDoMail": {
+    "ru": "Что сделать с письмом?",
+    "de": "Was möchtest du mit der Post tun?",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_MessageWillBeLost": {
+    "ru": "Текст письма исчезнет. Продолжить?",
+    "de": "Der Brieftext geht verloren. Weiter?",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_BagIsFull": {
+    "ru": "В сумке нет места.",
+    "de": "Dein Beutel ist voll.",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_MailWasReturned": {
+    "ru": "Письмо возвращено в сумку.",
+    "de": "Der Brief ist wieder im Beutel.",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_NoPokemon": {
+    "ru": "Нет подходящего покемона.",
+    "de": "Kein passendes Pokémon da.",
+    "width": 184,
+    "lines": 2
+  },
+  "gOtherText_DoYouChoosePoke": {
+    "ru": "Выбрать этого покемона?",
+    "de": "Wählst du dieses Pokémon?",
+    "width": 184,
+    "lines": 2
+  },
+  "LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon": {
+    "ru": "Дашь своему покемону прозвище?",
+    "de": "Ein Spitzname für dein Pokémon?",
+    "width": 184,
+    "lines": 2
+  },
+  "LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival": {
+    "ru": "Мой ребёнок на пути 103. Пойдёшь туда?",
+    "de": "Mein Kind ist auf Route 103. Gehst du hin?",
+    "width": 184,
+    "lines": 2
+  },
+  "LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay": {
+    "ru": "Ну же! Пойдёшь на маршрут 103?",
+    "de": "Nur zu! Gehst du zur Route 103?",
+    "width": 184,
+    "lines": 2
+  },
+  "gMenuText_GoBackToPrev": {
+    "ru": "Назад в меню.",
+    "de": "Zurück zum Menü.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_HowManyToWithdraw": {
+    "ru": "Сколько взять?",
+    "de": "Wie viele nehmen?",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_WithdrewThing": {
+    "ru": "Вещи взяты.",
+    "de": "Items genommen.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_HowManyToToss": {
+    "ru": "Сколько выбросить?",
+    "de": "Wie viele weg?",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_ThrewAwayItem": {
+    "ru": "Вещи выброшены.",
+    "de": "Items entsorgt.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_NoMoreRoom": {
+    "ru": "Нет места в сумке.",
+    "de": "Beutel voll.",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_TooImportant": {
+    "ru": "Это важная вещь!",
+    "de": "Zu wichtig!",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_OkayToThrowAwayPrompt": {
+    "ru": "Точно выбросить?",
+    "de": "Wegwerfen?",
+    "width": 104,
+    "lines": 2
+  },
+  "gOtherText_SwitchWhichItem": {
+    "ru": "Что переставить?",
+    "de": "Was tauschen?",
+    "width": 104,
+    "lines": 2
+  }
+}

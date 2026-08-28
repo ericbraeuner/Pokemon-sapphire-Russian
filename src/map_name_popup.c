@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "map_name_popup.h"
 #include "event_data.h"
 #include "menu.h"
@@ -103,5 +104,9 @@ void DrawMapNamePopup(void)
     Menu_LoadStdFrameGraphicsOverrideStyle(0);
     GetMapSectionName(name, gMapHeader.regionMapSectionId, 0);
     Menu_DrawStdWindowFrame(0, 0, 13, 3);
+#if LEARNER_DEMO
+    MenuPrint_Centered(Learner_MapName(gMapHeader.regionMapSectionId, name), 1, 1, 0x60);
+#else
     MenuPrint_Centered(name, 1, 1, 0x60);
+#endif
 }

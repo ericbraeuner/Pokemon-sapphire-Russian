@@ -19,7 +19,11 @@ Route101_EventScript_14E93F:: @ 814E93F
 Route101_EventScript_14E948:: @ 814E948
 	lockall
 	playbgm MUS_HELP, TRUE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RescueCry
+	.else
 	msgbox Route101_Text_16D10E, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	setobjectxy 2, 0, 15
 	setobjectxy 4, 0, 16
@@ -35,7 +39,11 @@ Route101_EventScript_14E948:: @ 814E948
 	applymovement 4, Route101_Movement_14EA27
 	applymovement 2, Route101_Movement_14EA58
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RescueBag
+	.else
 	msgbox Route101_Text_16D119, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	setvar VAR_ROUTE101_STATE, 2
 	releaseall
@@ -43,7 +51,11 @@ Route101_EventScript_14E948:: @ 814E948
 
 Route101_EventScript_14E9B8:: @ 814E9B8
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RescueStay
+	.else
 	msgbox Route101_Text_16D15E, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement LOCALID_PLAYER, Route101_Movement_14E9FA
 	waitmovement 0
@@ -52,7 +64,11 @@ Route101_EventScript_14E9B8:: @ 814E9B8
 
 Route101_EventScript_14E9CE:: @ 814E9CE
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RescueStay
+	.else
 	msgbox Route101_Text_16D15E, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement LOCALID_PLAYER, Route101_Movement_14E9FC
 	waitmovement 0
@@ -61,7 +77,11 @@ Route101_EventScript_14E9CE:: @ 814E9CE
 
 Route101_EventScript_14E9E4:: @ 814E9E4
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RescueStay
+	.else
 	msgbox Route101_Text_16D15E, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement LOCALID_PLAYER, Route101_Movement_14E9FE
 	waitmovement 0
@@ -203,15 +223,35 @@ Route101_Movement_14EA58:: @ 814EA58
 	step_end
 
 Route101_EventScript_14EA64:: @ 814EA64
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_RouteHealing
+	release
+	.else
 	msgbox Route101_Text_16D25E, MSGBOX_NPC
+	.endif
 	end
 
 Route101_EventScript_14EA6D:: @ 814EA6D
+	.ifdef LEARNER_DEMO
+	lock
+	faceplayer
+	call LearnerOpening_RouteGrass
+	release
+	.else
 	msgbox Route101_Text_16D2CB, MSGBOX_NPC
+	.endif
 	end
 
 Route101_EventScript_14EA76:: @ 814EA76
+	.ifdef LEARNER_DEMO
+	lockall
+	call LearnerOpening_RouteSign
+	releaseall
+	.else
 	msgbox Route101_Text_16D349, MSGBOX_SIGN
+	.endif
 	end
 
 Route101_EventScript_14EA7F:: @ 814EA7F
@@ -228,7 +268,11 @@ Route101_EventScript_14EA7F:: @ 814EA7F
 	waitstate
 	applymovement 2, Route101_Movement_14EAD7
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RescueThanks
+	.else
 	msgbox Route101_Text_16D191, MSGBOX_DEFAULT
+	.endif
 	special ScrSpecial_HealPlayerParty
 	setflag FLAG_HIDE_BIRCH_BATTLE_POOCHYENA
 	clearflag FLAG_HIDE_BIRCH_IN_LAB

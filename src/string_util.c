@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "string_util.h"
 #include "strings.h"
 #include "text.h"
@@ -372,6 +373,9 @@ u8 *ConvertIntToDecimalString(u8 *dest, s32 value)
 
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 {
+#if LEARNER_DEMO
+    src = Learner_Translate(src);
+#endif
     for (;;)
     {
         u8 c = *src++;

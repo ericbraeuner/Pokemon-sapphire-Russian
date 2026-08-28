@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "player_pc.h"
 #include "decoration.h"
 #include "field_fadetransition.h"
@@ -830,6 +831,10 @@ static void ItemStorage_DrawItemVoidQuantity(u8 var)
 static void ItemStorage_DrawItemName(struct ItemSlot *itemSlot, u8 var, int isSwapSelected)
 {
     CopyItemName(itemSlot->itemId, gStringVar1);
+#if LEARNER_DEMO
+    if (itemSlot->itemId == ITEM_POTION && Learner_GetLanguage())
+        StringCopy(gStringVar1, LEARNER_UI(Learner_GetLanguage(), Potion));
+#endif
 
     if(isSwapSelected != FALSE)
         Menu_PrintText(gSelectedItemFormattedText, 16, var);
@@ -947,6 +952,11 @@ static void ItemStorage_PrintItemPcResponse(u16 itemId)
             string = gOtherText_SwitchWhichItem;
             break;
         default:
+#if LEARNER_DEMO
+            if (itemId == ITEM_POTION && Learner_GetLanguage())
+                string = LEARNER_UI(Learner_GetLanguage(), PotionDescription);
+            else
+#endif
             string = ItemId_GetDescription(itemId);
             break;
     }

@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "field_region_map.h"
 #include "main.h"
 #include "menu.h"
@@ -102,5 +103,9 @@ void sub_813F0C8(void)
 {
     Menu_BlankWindowRect(17, 17, 28, 18);
     if (eRegionMapState.regionMap.unk16)
+#if LEARNER_DEMO
+        Menu_PrintText(Learner_MapName(eRegionMapState.regionMap.mapSectionId, eRegionMapState.regionMap.mapSectionName), 17, 17);
+#else
         Menu_PrintText(eRegionMapState.regionMap.mapSectionName, 17, 17);
+#endif
 }

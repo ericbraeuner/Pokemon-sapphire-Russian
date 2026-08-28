@@ -1,12 +1,17 @@
 # Play the Russian and German opening
 
-This version translates Birch's introduction, 32 field dialogue entries,
+This version translates Birch's introduction, 57 field dialogue entries,
 the player-name prompt, and the clock confirmation. Room coverage includes the
 GameCube, notebook, bookshelves, PC startup/email, and ordinary TV messages.
-The first neighbor/rival meeting and early lab aide dialogue are also translated.
-It is still a partial translation: naming-keyboard buttons,
-the main/save/bag/PC menus, battles, later TV broadcasts, and later scenes retain
-English. The clock's AM/PM artwork also remains unchanged.
+Coverage now includes Littleroot's outdoor NPCs and signs, Route 101's rescue,
+the starter gift and follow-up prompts, and Mom's running shoes dialogue.
+The wall map and location popups have 88 translated location labels (some
+abbreviated to fit). The PC has translated menu labels, storage prompts,
+mailbox prompts, and decoration controls. Its starting Potion is translated too.
+It is still a partial translation: naming-keyboard buttons, main/save menus,
+bag graphics, most item/decor names and descriptions, starter-selection artwork
+and species labels, battles, later TV broadcasts, and later scenes retain English.
+The clock's AM/PM artwork also remains unchanged.
 
 ## Try it
 
@@ -21,7 +26,7 @@ English. The clock's AM/PM artwork also remains unchanged.
 5. Follow Mom from the truck into the house, set the clock, and watch the TV
    sequence. The language and level carry across these scenes without reselecting.
    The clock confirmation uses the chosen language, including Yes/No.
-   Try the GameCube and notebook upstairs, then visit the neighbor and lab.
+   Try the PC and wall map upstairs, then the town signs, NPCs, neighbor and lab.
 6. Help menus provide Next, Read again, Translation, Dictionary, and Settings in
    the selected language. B means Next; story actions still run normally.
 7. Change language, level, or mode in a translated scene's Settings menu. A new
@@ -75,9 +80,9 @@ Do not expect the demo ROM to match the original game's hash.
 
 ## Next development milestones
 
-1. Continue beyond the first rival meeting and lab aide: translate Birch's rescue,
-   starter handoff, later lab sequences, naming-keyboard buttons, and general
-   game interfaces. Expand route by route with a coverage checklist.
+1. Translate the first battle interface, starter-selection labels, broader item
+   and bag interfaces, and the Route 103 rival encounter and Pokédex handoff.
+   Expand route by route with a coverage checklist.
 2. Add a dictionary shortcut during dialogue that pauses and restores the current
    page. Audit button uses first; R is a candidate, not an implemented shortcut.
 3. Connect exposures and dictionary requests to learner profiles, and add more

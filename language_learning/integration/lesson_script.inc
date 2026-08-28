@@ -34,19 +34,7 @@ LearnerOpening_Level:
 	goto_if_gt LearnerOpening_Level
 	copyvar VAR_LEARNER_LEVEL, VAR_RESULT
 	addvar VAR_LEARNER_LEVEL, 1
-LearnerOpening_Mode:
-	closemessage
-	compare VAR_LEARNER_LANGUAGE, 1
-	goto_if_eq LearnerOpening_ModeRu
-	multichoice 0, 0, MULTI_LEARNER_MODE_DE, 1
-	goto LearnerOpening_StoreMode
-LearnerOpening_ModeRu:
-	multichoice 0, 0, MULTI_LEARNER_MODE_RU, 1
-LearnerOpening_StoreMode:
-	compare VAR_RESULT, 1
-	goto_if_gt LearnerOpening_Mode
-	copyvar VAR_LEARNER_MODE, VAR_RESULT
-	addvar VAR_LEARNER_MODE, 1
+	@ The English introduction is only offered before a new game.
 	return
 
 LearnerOpening_SettingsText:

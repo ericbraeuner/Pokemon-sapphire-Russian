@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "battle_setup.h"
 #include "berry.h"
 #include "clock.h"
@@ -1477,7 +1478,11 @@ bool8 ScrCmd_bufferitemname(struct ScriptContext *ctx)
     u8 stringVarIndex = ScriptReadByte(ctx);
     u16 itemId = VarGet(ScriptReadHalfword(ctx));
 
+#if LEARNER_DEMO
+    Learner_CopyItemName(itemId, sScriptStringVars[stringVarIndex]);
+#else
     CopyItemName(itemId, sScriptStringVars[stringVarIndex]);
+#endif
     return FALSE;
 }
 
@@ -1514,7 +1519,11 @@ bool8 ScrCmd_bufferstdstring(struct ScriptContext *ctx)
     u8 stringVarIndex = ScriptReadByte(ctx);
     u16 index = VarGet(ScriptReadHalfword(ctx));
 
+#if LEARNER_DEMO
+    StringCopy(sScriptStringVars[stringVarIndex], Learner_Translate(gStdStrings[index]));
+#else
     StringCopy(sScriptStringVars[stringVarIndex], gStdStrings[index]);
+#endif
     return FALSE;
 }
 

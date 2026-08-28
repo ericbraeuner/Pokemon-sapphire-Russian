@@ -229,13 +229,41 @@ class LessonTests(unittest.TestCase):
 
     def test_shop_text_does_not_change_global_item_buffers(self):
         code = (demo.ROOT / 'src/shop.c').read_text(encoding='utf-8')
-        self.assertIn('#define CopyShopItemName CopyItemName', code)
+        self.assertIn('#define Learner_CopyItemName CopyItemName', code)
         item = (demo.ROOT / 'src/item.c').read_text(encoding='utf-8')
         self.assertNotIn('Learner_', item)
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         for key in ('Potion', 'Antidote', 'ParaHeal', 'Awakening', 'PokeBall'):
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
                 self.assertEqual(1, len(demo.wrap(entries[key][tag], mapping, glyphs, 88)))
+
+    def test_shared_item_messages_preserve_runtime_fields(self):
+        entries = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        expected = {'Text_ObtainedTheItem': [3], 'Text_FoundOneItem': [1, 3],
+                    'Text_PutItemInPocket': [3, 4], 'gOtherText_SoldItem': [2, 3]}
+        exports = (demo.ROOT / 'data/text/obtain_item.inc').read_text()
+        for symbol, tokens in expected.items():
+            entry = entries[symbol]
+            if symbol.startswith('Text_'):
+                self.assertIn(symbol + '::', exports)
+            for tag, mapping, glyphs, font in [('ru', self.russian, self.glyphs, 0), ('de', self.latin, {}, 3)]:
+                data = bytes(field_templates.compile_text(entry[tag], mapping, glyphs, font, entry['widths']))
+                for token in tokens:
+                    self.assertIn(bytes([0xFD, token, 0xFC, 6, font]), data)
+        with self.assertRaises(ValueError):
+            field_templates.compile_text('{STR_VAR_1}\\p{STR_VAR_1}\\p{STR_VAR_1}', self.latin, {}, 3, {'STR_VAR_1': 80})
+
+    def test_shared_display_hooks_and_new_game_only_tutorial(self):
+        bag = (demo.ROOT / 'src/item_menu.c').read_text()
+        self.assertIn('BagItemName(gCurrentBagPocketItemSlots[r4].itemId)', bag)
+        self.assertIn('Learner_ItemText(itemId, TRUE)', bag)
+        script = (demo.ROOT / 'src/scrcmd.c').read_text()
+        self.assertIn('Learner_CopyItemName(itemId, sScriptStringVars[stringVarIndex])', script)
+        dex = (demo.ROOT / 'src/pokedex.c').read_text()
+        self.assertIn('DexLearnerText(sDexSearchColorOptions[var].title)', dex)
+        settings = (demo.ROOT / 'language_learning/integration/lesson_script.inc').read_text()
+        self.assertNotIn('multichoice 0, 0, MULTI_LEARNER_MODE', settings)
+        self.assertIn('sLearnerMode == 1', (demo.ROOT / 'src/learner_intro.inc').read_text())
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

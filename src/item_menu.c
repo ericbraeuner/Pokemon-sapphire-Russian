@@ -169,6 +169,26 @@ static void HandlePopupMenuAction_Give(u8);
 static void HandlePopupMenuAction_CheckTag(u8);
 static void HandlePopupMenuAction_Confirm(u8);
 
+#if LEARNER_DEMO
+static const u8 *BagItemName(u16 itemId)
+{
+    const u8 *text = Learner_ItemText(itemId, FALSE);
+    return text != NULL ? text : ItemId_GetName(itemId);
+}
+static const u8 *BagItemDescription(u16 itemId)
+{
+    const u8 *text = Learner_ItemText(itemId, TRUE);
+    return text != NULL ? text : ItemId_GetDescription(itemId);
+}
+#define BagLearnerText Learner_Translate
+#define BagCopyItemName Learner_CopyItemName
+#else
+#define BagItemName ItemId_GetName
+#define BagItemDescription ItemId_GetDescription
+#define BagLearnerText(text) (text)
+#define BagCopyItemName CopyItemName
+#endif
+
 static const struct MenuAction2 sItemPopupMenuActions[] =
 {
     {OtherText_Use,                   HandlePopupMenuAction_UseOnField},
@@ -1130,7 +1150,7 @@ static bool8 sub_80A42B0(u8 itemPos, int b)
         if (sReturnLocation == RETURN_TO_FIELD_5)
             return TRUE;
         r5 = itemPos * 2 + 2;
-        AlignStringInMenuWindow(gStringVar1, gOtherText_CloseBag, 0x78, 0);
+        AlignStringInMenuWindow(gStringVar1, BagLearnerText(gOtherText_CloseBag), 0x78, 0);
         Menu_PrintText(gStringVar1, 14, r5);
         ptr = gBGTilemapBuffers[2] + 14 + r5 * 32;
         ptr[0] = 0x4F;
@@ -1164,7 +1184,7 @@ static void sub_80A4380(u16 a, int b, int c, int d)
         r5 = i * 2 + 2;
         text = gStringVar1;
         text = sub_80A425C(a, text, i);
-        text = AlignStringInMenuWindow(text, ItemId_GetName(gCurrentBagPocketItemSlots[r4].itemId), 0x66, 0);
+        text = AlignStringInMenuWindow(text, BagItemName(gCurrentBagPocketItemSlots[r4].itemId), 0x66, 0);
         *text++ = CHAR_MULT_SIGN;
         AlignInt1InMenuWindow(text, gCurrentBagPocketItemSlots[r4].quantity, 0x78, 1);
         Menu_PrintText(gStringVar1, 14, r5);
@@ -1285,7 +1305,7 @@ static void sub_80A46FC(u16 taskId, int b, int c, int d)
 
         text = gStringVar1;
         text = sub_80A425C(taskId, text, i);
-        CopyItemName(gCurrentBagPocketItemSlots[r4].itemId, gStringVar2);
+        BagCopyItemName(gCurrentBagPocketItemSlots[r4].itemId, gStringVar2);
         sub_80A41E0(text, gCurrentBagPocketItemSlots[r4].itemId - 0x84, gStringVar2, gCurrentBagPocketItemSlots[r4].quantity, 3);
         Menu_PrintText(gStringVar1, 14, r5);
     }
@@ -1341,7 +1361,7 @@ static void ItemListMenu_InitDescription(s16 itemId)
     }
     else
     {
-        r5 = sub_8072A18(ItemId_GetDescription(itemId), 4, 0x68, 0x68, 1);
+        r5 = sub_8072A18(BagItemDescription(itemId), 4, 0x68, 0x68, 1);
     }
 
     if (r5 < 3)
@@ -1351,6 +1371,18 @@ static void ItemListMenu_InitDescription(s16 itemId)
 static void ItemListMenu_ChangeDescription(s16 itemId, int b)
 {
     u8 description[100];
+#if LEARNER_DEMO
+    const u8 *translated = Learner_ItemText(itemId, TRUE);
+    if (translated != NULL && gBagPocketScrollStates[sCurrentBagPocket].scrollTop + gBagPocketScrollStates[sCurrentBagPocket].cursorPos != gBagPocketScrollStates[sCurrentBagPocket].numSlots)
+    {
+        if (b == 0)
+        {
+            Menu_EraseWindowRect(0, 13, 13, 20);
+            Menu_PrintTextPixelCoords(translated, 4, 104, 0);
+        }
+        return;
+    }
+#endif
 
     if (gBagPocketScrollStates[sCurrentBagPocket].scrollTop + gBagPocketScrollStates[sCurrentBagPocket].cursorPos == gBagPocketScrollStates[sCurrentBagPocket].numSlots)
     {
@@ -2184,7 +2216,7 @@ static void sub_80A5D78(void)
 
 static void sub_80A5DA0(u16 itemId, u16 quantity)
 {
-    CopyItemName(itemId, gStringVar1);
+    BagCopyItemName(itemId, gStringVar1);
     if (quantity >= 100)
         ConvertIntToDecimalStringN(gStringVar2, quantity, STR_CONV_MODE_LEFT_ALIGN, 3);
     else
@@ -2302,7 +2334,7 @@ static void sub_80A6024(u8 taskId)
 static void DisplayCannotBeHeldMessage(u8 taskId)
 {
     sub_80A73FC();
-    CopyItemName(gSpecialVar_ItemId, gStringVar1);
+    BagCopyItemName(gSpecialVar_ItemId, gStringVar1);
     StringExpandPlaceholders(gStringVar4, gOtherText_CantBeHeld);
     sub_80A7590();
     DisplayCannotUseItemMessage(taskId, gStringVar4, sub_80A6024, 1);
@@ -2377,7 +2409,7 @@ static void OnItemSelect_PkmnList(u8 taskId)
     else if (sub_80F92F4(gSpecialVar_ItemId) == 0)
     {
         sub_80A73FC();
-        CopyItemName(gSpecialVar_ItemId, gStringVar1);
+        BagCopyItemName(gSpecialVar_ItemId, gStringVar1);
         StringExpandPlaceholders(gStringVar4, gOtherText_CantBeHeldHere);
         sub_80A7590();
         DisplayCannotUseItemMessage(taskId, gStringVar4, sub_80A6024, 1);
@@ -2420,7 +2452,7 @@ static void OnItemSelect_Shop(u8 taskId)
     gTasks[taskId].data[10] = gBagPocketScrollStates[sCurrentBagPocket].scrollTop + gBagPocketScrollStates[sCurrentBagPocket].cursorPos + 1;
     sub_80A48E8(taskId, gBagPocketScrollStates[sCurrentBagPocket].cursorPos, gBagPocketScrollStates[sCurrentBagPocket].cursorPos);
     sub_80A73FC();
-    CopyItemName(gSpecialVar_ItemId, gStringVar2);
+    BagCopyItemName(gSpecialVar_ItemId, gStringVar2);
     if (ItemId_GetPrice(gSpecialVar_ItemId) == 0)
     {
         StringExpandPlaceholders(gStringVar4, gOtherText_CantBuyThat);
@@ -2492,7 +2524,7 @@ static void sub_80A65AC(u8 taskId)
 {
     Menu_EraseWindowRect(7, 6, 13, 12);
     sub_80A36B8(gBGTilemapBuffers[1], 7, 6, 6, 6);
-    CopyItemName(gSpecialVar_ItemId, gStringVar2);
+    BagCopyItemName(gSpecialVar_ItemId, gStringVar2);
     StringExpandPlaceholders(gStringVar4, gOtherText_SoldItem);
     DisplayCannotUseItemMessage(taskId, gStringVar4, sub_80A6574, 1);
     sub_80A3D5C(taskId);
@@ -2664,7 +2696,7 @@ static void sub_80A6A84(u8 taskId)
     s16 *taskData = gTasks[taskId].data;
 
     sub_80A4DA4(gBGTilemapBuffers[1]);
-    CopyItemName(gSpecialVar_ItemId, gStringVar1);
+    BagCopyItemName(gSpecialVar_ItemId, gStringVar1);
     ConvertIntToDecimalStringN(gStringVar2, taskData[1], STR_CONV_MODE_LEFT_ALIGN, 3);
     Menu_EraseWindowRect(7, 6, 11, 13);
     sub_80A7528(7);

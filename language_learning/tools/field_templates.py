@@ -2,11 +2,12 @@
 import re
 import build_demo as demo
 
-TOKENS = {'STR_VAR_1': 2, 'STR_VAR_2': 3, 'STR_VAR_3': 4}
+TOKENS = {'PLAYER': 1, 'STR_VAR_1': 2, 'STR_VAR_2': 3, 'STR_VAR_3': 4}
 
 def compile_text(text, mapping, glyphs, font, widths):
     data = [0xFC, 22, 0xFC, 6, font]
     width = 0
+    expanded_budget = 0
     for part in re.split(r'(\{[^}]+\}|\\[npl])', text):
         if part in (r'\n', r'\p'):
             width = 0
@@ -18,13 +19,14 @@ def compile_text(text, mapping, glyphs, font, widths):
             data.extend([0xFD, TOKENS[token]])
             data.extend([0xFC, 6, font])
             width += widths[token]
+            expanded_budget += widths[token]
         else:
             data.extend(demo.encode(part, mapping))
             width += sum(len(glyphs[c][0]) + 1 if c in glyphs else 8 for c in part)
         if width > 192:
             raise ValueError('Expanded field template exceeds text box')
     data.extend([0xFC, 7, 0xFF])
-    if len(data) + sum(widths.values()) > 240:
+    if len(data) + expanded_budget > 240:
         raise ValueError('Expanded field template exceeds buffer budget')
     return data
 

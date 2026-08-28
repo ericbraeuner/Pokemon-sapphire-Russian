@@ -2,7 +2,11 @@
   "gOtherText_ThatWillBe": {
     "ru": "{STR_VAR_1}\\n{STR_VAR_2} шт.: {STR_VAR_3}?",
     "de": "{STR_VAR_1}\\n{STR_VAR_2} St.: {STR_VAR_3}?",
-    "widths": {"STR_VAR_1": 112, "STR_VAR_2": 24, "STR_VAR_3": 48}
+    "widths": {
+      "STR_VAR_1": 112,
+      "STR_VAR_2": 24,
+      "STR_VAR_3": 48
+    }
   },
   "gOtherText_NotEnoughMoney": {
     "ru": "Не хватает денег!{PAUSE_UNTIL_PRESS}",
@@ -11,5 +15,76 @@
   "gOtherText_NoRoomFor": {
     "ru": "В сумке нет места!{PAUSE_UNTIL_PRESS}",
     "de": "Kein Platz im Beutel!{PAUSE_UNTIL_PRESS}"
+  },
+  "Text_ObtainedTheItem": {
+    "ru": "Получено:\\n{STR_VAR_2}!",
+    "de": "Erhalten:\\n{STR_VAR_2}!",
+    "widths": {
+      "STR_VAR_2": 112
+    }
+  },
+  "Text_ObtainedTheDecor": {
+    "ru": "Получено:\\n{STR_VAR_2}!",
+    "de": "Erhalten:\\n{STR_VAR_2}!",
+    "widths": {
+      "STR_VAR_2": 112
+    }
+  },
+  "Text_FoundOneItem": {
+    "ru": "{PLAYER}: найдено\\n{STR_VAR_2}!",
+    "de": "{PLAYER} findet:\\n{STR_VAR_2}!",
+    "widths": {
+      "PLAYER": 56,
+      "STR_VAR_2": 112
+    }
+  },
+  "Text_PutItemInPocket": {
+    "ru": "{STR_VAR_2}\\nОтдел: {STR_VAR_3}.",
+    "de": "{STR_VAR_2}\\nFach: {STR_VAR_3}.",
+    "widths": {
+      "STR_VAR_2": 112,
+      "STR_VAR_3": 88
+    }
+  },
+  "Text_TheDecorWasTransferredToThePC": {
+    "ru": "{STR_VAR_2}\\nТеперь в ПК.",
+    "de": "{STR_VAR_2}\\nJetzt im PC.",
+    "widths": {
+      "STR_VAR_2": 112
+    }
+  },
+  "Text_NoRoomLeftForAnother": {
+    "ru": "Нет места для:\\n{STR_VAR_2}.",
+    "de": "Kein Platz für:\\n{STR_VAR_2}.",
+    "widths": {
+      "STR_VAR_2": 112
+    }
+  },
+  "gOtherText_HowManyToSell": {
+    "ru": "{STR_VAR_2}\\nСколько продать?",
+    "de": "{STR_VAR_2}\\nWie viele verkaufen?",
+    "widths": {
+      "STR_VAR_2": 112
+    }
+  },
+  "gOtherText_CanPay": {
+    "ru": "Цена: ¥{STR_VAR_1}.\\nПродать?",
+    "de": "Preis: ¥{STR_VAR_1}.\\nVerkaufen?",
+    "widths": {
+      "STR_VAR_1": 48
+    }
+  },
+  "gOtherText_SoldItem": {
+    "ru": "{STR_VAR_2}\\nПродано за ¥{STR_VAR_1}.",
+    "de": "{STR_VAR_2}\\nVerkauft für ¥{STR_VAR_1}.",
+    "widths": {
+      "STR_VAR_2": 112,
+      "STR_VAR_1": 48
+    }
+  },
+  "gOtherText_CantBuyThat": {
+    "ru": "Это нельзя продать.{PAUSE_UNTIL_PRESS}",
+    "de": "Das ist unverkäuflich.{PAUSE_UNTIL_PRESS}",
+    "widths": {}
   }
 }

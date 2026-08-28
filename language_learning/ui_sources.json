@@ -1,9 +1,9 @@
 {
   "gOtherText_HowManyToDeposit": {
-    "ru": "Сколько положить?",
+    "ru": "Сколько оставить?",
     "de": "Wie viele lagern?",
     "width": 104,
-    "lines": 2
+    "lines": 3
   },
   "gOtherText_DepositedItems": {
     "ru": "Вещи в ПК.",
@@ -12,22 +12,22 @@
     "lines": 2
   },
   "gOtherText_NoRoomForItems": {
-    "ru": "В ПК нет места.",
-    "de": "Kein Platz im PC.",
+    "ru": "Нет места для предметов.",
+    "de": "Kein Platz für Items.",
     "width": 104,
-    "lines": 2
+    "lines": 3
   },
   "gOtherText_CantStoreSomeoneItem": {
-    "ru": "Это нельзя хранить.",
+    "ru": "Этот предмет нельзя хранить.",
     "de": "Nicht lagerbar.",
     "width": 104,
-    "lines": 2
+    "lines": 3
   },
   "gOtherText_WhatWillYouDo2": {
     "ru": "Что сделать?",
     "de": "Was tun?",
     "width": 104,
-    "lines": 2
+    "lines": 3
   },
   "LittlerootTown_Text_WaitPlayer": {
     "ru": "Мама: Подожди!",
@@ -421,9 +421,9 @@
   },
   "gOtherText_HowManyToToss": {
     "ru": "Сколько выбросить?",
-    "de": "Wie viele weg?",
+    "de": "Wie viele wegwerfen?",
     "width": 104,
-    "lines": 2
+    "lines": 3
   },
   "gOtherText_ThrewAwayItem": {
     "ru": "Вещи выброшены.",
@@ -450,10 +450,10 @@
     "lines": 2
   },
   "gOtherText_SwitchWhichItem": {
-    "ru": "Что переставить?",
-    "de": "Was tauschen?",
+    "ru": "С чем поменять?",
+    "de": "Womit tauschen?",
     "width": 104,
-    "lines": 2
+    "lines": 3
   },
   "SystemText_Pokedex": {
     "ru": "Покедекс",
@@ -832,5 +832,377 @@
     "de": "Pokémon-Center. Erholung für deine Partner!",
     "width": 192,
     "lines": 2
+  },
+  "OtherText_Use": {
+    "ru": "Применить",
+    "de": "Nutzen",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Toss": {
+    "ru": "Выбросить",
+    "de": "Wegwerfen",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Register": {
+    "ru": "Назначить",
+    "de": "Belegen",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Give2": {
+    "ru": "Дать",
+    "de": "Geben",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_CheckTag": {
+    "ru": "Сведения",
+    "de": "Info",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Confirm": {
+    "ru": "Да",
+    "de": "OK",
+    "width": 104,
+    "lines": 1
+  },
+  "gOtherText_CloseBag": {
+    "ru": "Закрыть",
+    "de": "Schließen",
+    "width": 104,
+    "lines": 1
+  },
+  "gOtherText_ReturnTo": {
+    "ru": "Назад",
+    "de": "Zurück",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_TheField3": {
+    "ru": "к игре.",
+    "de": "zum Spiel.",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_TheField": {
+    "ru": "к игре.",
+    "de": "zum Spiel.",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_TheField2": {
+    "ru": "к игре.",
+    "de": "zum Spiel.",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_TheBattle": {
+    "ru": "к бою.",
+    "de": "zum Kampf.",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Items": {
+    "ru": "Предметы",
+    "de": "Items",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_KeyItems": {
+    "ru": "Важное",
+    "de": "Basis-Items",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Balls": {
+    "ru": "Покеболы",
+    "de": "Bälle",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_TMsHMs": {
+    "ru": "ТМ и НМ",
+    "de": "TM und VM",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_Berries": {
+    "ru": "Ягоды",
+    "de": "Beeren",
+    "width": 104,
+    "lines": 1
+  },
+  "Text_TheBagIsFull": {
+    "ru": "Сумка полна!",
+    "de": "Der Beutel ist voll!",
+    "width": 192,
+    "lines": 2
+  },
+  "gDexText_RegisterComplete": {
+    "ru": "Запись в Покедексе готова.",
+    "de": "Pokédex-Eintrag fertig.",
+    "width": 208,
+    "lines": 2
+  },
+  "gDexText_Searching": {
+    "ru": "Идёт поиск. Подожди.",
+    "de": "Suche läuft. Bitte warten.",
+    "width": 208,
+    "lines": 2
+  },
+  "gDexText_SearchComplete": {
+    "ru": "Поиск завершён.",
+    "de": "Suche beendet.",
+    "width": 208,
+    "lines": 2
+  },
+  "gDexText_NoMatching": {
+    "ru": "Покемоны не найдены.",
+    "de": "Keine Pokémon gefunden.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_SearchForPoke": {
+    "ru": "Поиск по выбранным условиям.",
+    "de": "Nach Kriterien suchen.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_SwitchDex": {
+    "ru": "Выбери Покедекс.",
+    "de": "Pokédex wechseln.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ReturnToDex": {
+    "ru": "Вернуться в Покедекс.",
+    "de": "Zurück zum Pokédex.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_SelectDexMode": {
+    "ru": "Выбери Покедекс.",
+    "de": "Pokédex wählen.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_SelectDexList": {
+    "ru": "Выбери порядок списка.",
+    "de": "Sortierung wählen.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByABC": {
+    "ru": "По первой букве. Только встреченные.",
+    "de": "Nach Anfangsbuchstaben. Nur gesehene.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByColor": {
+    "ru": "По цвету. Только встреченные.",
+    "de": "Nach Farbe. Nur gesehene.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByType": {
+    "ru": "По типу. Только пойманные.",
+    "de": "Nach Typ. Nur gefangene.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ExecuteSearchSwitch": {
+    "ru": "Начать поиск или сменить список.",
+    "de": "Suche oder Wechsel starten.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_HoennDex2": {
+    "ru": "Покедекс Хоэнна.",
+    "de": "Pokédex von Hoenn.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_NationalDex2": {
+    "ru": "Национальный Покедекс.",
+    "de": "Nationaler Pokédex.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByNumber": {
+    "ru": "По номеру в Покедексе.",
+    "de": "Nach Pokédex-Nummer.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByABC2": {
+    "ru": "Встреченные и пойманные: по алфавиту.",
+    "de": "Gesehene und gefangene: A bis Z.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByHeavyToLightest": {
+    "ru": "Пойманные: от тяжёлых к лёгким.",
+    "de": "Gefangene: schwer bis leicht.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByLightToHeaviest": {
+    "ru": "Пойманные: от лёгких к тяжёлым.",
+    "de": "Gefangene: leicht bis schwer.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListByTallToSmallest": {
+    "ru": "Пойманные: от высоких к низким.",
+    "de": "Gefangene: groß bis klein.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_ListBySmallToTallest": {
+    "ru": "Пойманные: от низких к высоким.",
+    "de": "Gefangene: klein bis groß.",
+    "width": 208,
+    "lines": 2
+  },
+  "DexText_HoennDex": {
+    "ru": "Хоэнн",
+    "de": "Hoenn-Dex",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_NationalDex": {
+    "ru": "Нац. Декс",
+    "de": "National",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_NumericalMode": {
+    "ru": "По номеру",
+    "de": "Nummer",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_ABCMode": {
+    "ru": "По алфавиту",
+    "de": "A bis Z",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_HeaviestMode": {
+    "ru": "Тяжёлые",
+    "de": "Schwerste",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_LightestMode": {
+    "ru": "Лёгкие",
+    "de": "Leichteste",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_TallestMode": {
+    "ru": "Высокие",
+    "de": "Größte",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_SmallestMode": {
+    "ru": "Низкие",
+    "de": "Kleinste",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_DontSpecify": {
+    "ru": "Любые",
+    "de": "Alle",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_None": {
+    "ru": "Нет",
+    "de": "Keine",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Red": {
+    "ru": "Красный",
+    "de": "Rot",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Blue": {
+    "ru": "Синий",
+    "de": "Blau",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Yellow": {
+    "ru": "Жёлтый",
+    "de": "Gelb",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Green": {
+    "ru": "Зелёный",
+    "de": "Grün",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Black": {
+    "ru": "Чёрный",
+    "de": "Schwarz",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Brown": {
+    "ru": "Коричневый",
+    "de": "Braun",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Purple": {
+    "ru": "Фиолетовый",
+    "de": "Lila",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Gray": {
+    "ru": "Серый",
+    "de": "Grau",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_White": {
+    "ru": "Белый",
+    "de": "Weiß",
+    "width": 96,
+    "lines": 1
+  },
+  "DexText_Pink": {
+    "ru": "Розовый",
+    "de": "Rosa",
+    "width": 96,
+    "lines": 1
+  },
+  "OtherText_TheShop": {
+    "ru": "в магазин.",
+    "de": "zum Laden.",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_ThePC": {
+    "ru": "к ПК.",
+    "de": "zum PC.",
+    "width": 104,
+    "lines": 1
+  },
+  "OtherText_ThePokeList": {
+    "ru": "к покемонам.",
+    "de": "zum Team.",
+    "width": 104,
+    "lines": 1
   }
 }

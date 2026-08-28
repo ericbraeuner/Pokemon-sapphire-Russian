@@ -17,34 +17,41 @@ Oldale coverage includes all 20 local dialogue entries: outdoor NPCs/sign,
 both houses, shop customers, and the Pokémon Center's ground-floor visitors.
 Shared nurse healing messages, shop greetings and buying prompts, Center PC
 startup/primary menus, and the map heading are translated too. Oldale's five
-shop items have translated names and descriptions in the buy screen. Quantity
+shop items have translated names and descriptions in the buy and bag screens. Quantity
 and price remain live values in the translated purchase confirmation.
 It is still a partial translation: naming-keyboard button artwork, title/continue
 menus, bag graphics, most item/decor names and descriptions, species names in
 battle, later moves/effects, later TV broadcasts, and later scenes retain English.
 The clock's AM/PM artwork also remains unchanged.
-The upstairs link club, detailed Pokémon box interface, selling/bag screens,
-and the shop's small MONEY graphic still need work.
+Shared item receipt/found/storage messages, bag action labels, basic bag prompts,
+and selling confirmations now use the selected language throughout the game.
+Pokédex search explanations, colors, ordering options, and search results are
+translated. Most individual item names still need coverage beyond the five above.
+The upstairs link club, detailed Pokémon box interface, remaining bag prompts,
+Pokédex heading/button artwork and species entries, and the shop's small MONEY
+graphic still need work.
 
 ## Try it
 
 1. Open `pokesapphire_learner.gba`. Start a **new game** to see the new setup.
    Do not load an emulator save state from an older ROM build.
 2. Before Birch speaks, the **Language** screen lets you choose Russian or German.
-3. Choose A1–C2, then guided mode or immersion mode. B returns to the previous
+3. Choose A1–C2, then whether to show English starting help. B returns to the previous
    setup screen. The first language screen requires a choice.
-4. Guided mode adds an English controls explanation. Immersion skips that
-   explanation. Birch speaks the chosen language in both modes. These modes do
-   not claim that the entire game is translated yet.
+4. Yes adds a short English controls explanation; No skips it. Birch speaks the
+   chosen language either way. This only affects the start of a new game, not
+   dictionary access or the language of later dialogue.
 5. Follow Mom from the truck into the house, set the clock, and watch the TV
    sequence. The language and level carry across these scenes without reselecting.
    The clock confirmation uses the chosen language, including Yes/No.
    Try the PC and wall map upstairs, then the town signs, NPCs, neighbor and lab.
 6. Help menus provide Next, Read again, Translation, Dictionary, and Settings in
    the selected language. B means Next; story actions still run normally.
-7. Change language, level, or mode in a translated scene's Settings menu. A new
+7. Change language or level in a translated scene's Settings menu. A new
    choice applies to subsequent covered interactions, including the clock.
-8. Use the normal game SAVE to store all three choices with your progress.
+   The new-game tutorial choice is no longer offered here because it has no
+   effect after the introduction.
+8. Use the normal game SAVE to store your choices with your progress.
    Continue loads them without opening new-game setup. Old learner saves with
    a language/level but no mode default to guided mode without losing their choices.
 
@@ -93,8 +100,8 @@ Do not expect the demo ROM to match the original game's hash.
 
 ## Next development milestones
 
-1. Finish battle-message/move coverage and naming-keyboard artwork, then the
-   broader item and bag interfaces. Play-test the Route 103 rival fight and
+1. Translate bag/Pokédex/naming artwork and expand the shared item catalogue,
+   then finish battle-message/move coverage. Play-test the Route 103 rival fight and
    Pokédex handoff in both languages; expand route by route with a checklist.
 2. Add a dictionary shortcut during dialogue that pauses and restores the current
    page. Audit button uses first; R is a candidate, not an implemented shortcut.

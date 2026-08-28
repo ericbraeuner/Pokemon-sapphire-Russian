@@ -1,4 +1,10 @@
 #include "global.h"
+#include "learner.h"
+#if LEARNER_DEMO
+#define DexLearnerText Learner_Translate
+#else
+#define DexLearnerText(text) (text)
+#endif
 #include "gba/m4a_internal.h"
 #include "pokedex.h"
 #include "battle.h"
@@ -5249,29 +5255,29 @@ static void PrintSelectedSearchParameters(u8 taskId)
     u16 var;
 
     var = gTasks[taskId].data[6] + gTasks[taskId].data[7];
-    StringCopy(gStringVar1, sDexSearchNameOptions[var].title);
+    StringCopy(gStringVar1, DexLearnerText(sDexSearchNameOptions[var].title));
     Menu_PrintTextPixelCoords(gUnknown_083B5AB2, 45, 16, 1);
 
     var = gTasks[taskId].data[8] + gTasks[taskId].data[9];
-    StringCopy(gStringVar1, sDexSearchColorOptions[var].title);
+    StringCopy(gStringVar1, DexLearnerText(sDexSearchColorOptions[var].title));
     Menu_PrintTextPixelCoords(gUnknown_083B5AB2, 45, 32, 1);
 
     var = gTasks[taskId].data[10] + gTasks[taskId].data[11];
-    StringCopy(gStringVar1, sDexSearchTypeOptions[var].title);
+    StringCopy(gStringVar1, DexLearnerText(sDexSearchTypeOptions[var].title));
     Menu_PrintTextPixelCoords(gUnknown_083B5AAC, 45, 48, 1);
 
     var = gTasks[taskId].data[12] + gTasks[taskId].data[13];
-    StringCopy(gStringVar1, sDexSearchTypeOptions[var].title);
+    StringCopy(gStringVar1, DexLearnerText(sDexSearchTypeOptions[var].title));
     Menu_PrintTextPixelCoords(gUnknown_083B5AAC, 93, 48, 1);
 
     var = gTasks[taskId].data[4] + gTasks[taskId].data[5];
-    StringCopy(gStringVar1, sDexOrderOptions[var].title);
+    StringCopy(gStringVar1, DexLearnerText(sDexOrderOptions[var].title));
     Menu_PrintTextPixelCoords(gUnknown_083B5AB2, 45, 64, 1);
 
     if (IsNationalPokedexEnabled())
     {
         var = gTasks[taskId].data[2] + gTasks[taskId].data[3];
-        StringCopy(gStringVar1, sDexModeOptions[var].title);
+        StringCopy(gStringVar1, DexLearnerText(sDexModeOptions[var].title));
         Menu_PrintTextPixelCoords(gUnknown_083B5AB2, 45, 80, 1);
     }
 }

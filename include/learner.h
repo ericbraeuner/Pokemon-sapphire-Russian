@@ -44,6 +44,8 @@ LEARNER_DECLARE(PokeBallDesc)
 #define LEARNER_UI(language, name) ((language) == 1 ? LearnerUI_ru_##name : LearnerUI_de_##name)
 void Learner_CommitNewGameSettings(void);
 u8 Learner_GetLanguage(void);
+const u8 *Learner_ItemText(u16 itemId, bool8 description);
+void Learner_CopyItemName(u16 itemId, u8 *dest);
 const u8 *Learner_Translate(const u8 *text);
 const u8 *Learner_MapName(u16 section, const u8 *fallback);
 #endif

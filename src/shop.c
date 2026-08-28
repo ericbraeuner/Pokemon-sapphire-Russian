@@ -525,7 +525,7 @@ static void Shop_DisplayPriceInCheckoutWindow(u8 taskId)
 }
 
 #if LEARNER_DEMO
-static const u8 *ShopLearnerText(u16 itemId, bool8 description)
+const u8 *Learner_ItemText(u16 itemId, bool8 description)
 {
     if (Learner_GetLanguage())
     {
@@ -541,9 +541,9 @@ static const u8 *ShopLearnerText(u16 itemId, bool8 description)
     return NULL;
 }
 
-static void CopyShopItemName(u16 itemId, u8 *dest)
+void Learner_CopyItemName(u16 itemId, u8 *dest)
 {
-    const u8 *translated = ShopLearnerText(itemId, FALSE);
+    const u8 *translated = Learner_ItemText(itemId, FALSE);
     if (translated != NULL)
         StringCopy(dest, translated);
     else
@@ -551,8 +551,8 @@ static void CopyShopItemName(u16 itemId, u8 *dest)
 }
 
 #else
-#define CopyShopItemName CopyItemName
-#define ShopLearnerText(itemId, description) NULL
+#define Learner_CopyItemName CopyItemName
+#define Learner_ItemText(itemId, description) NULL
 #endif
 
 static void Shop_DisplayNormalPriceInList(u16 itemId, u8 var2, bool32 hasControlCode)
@@ -567,7 +567,7 @@ static void Shop_DisplayNormalPriceInList(u16 itemId, u8 var2, bool32 hasControl
         stringPtr += 3;
     }
 
-    CopyShopItemName(itemId, stringPtr);
+    Learner_CopyItemName(itemId, stringPtr);
 
     sub_8072A18(&gStringVar1[0], 0x70, var2 << 3, 0x58, 0x1);
     stringPtr = gStringVar1;
@@ -637,8 +637,8 @@ static void Shop_PrintItemDescText(void)
     {
         if (gMartInfo.martType == MART_TYPE_0)
         {
-            sub_8072AB0(ShopLearnerText(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], TRUE) != NULL
-                ? ShopLearnerText(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], TRUE)
+            sub_8072AB0(Learner_ItemText(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], TRUE) != NULL
+                ? Learner_ItemText(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], TRUE)
                 : ItemId_GetDescription(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor]),
                 0x4, 0x68, 0x68, 0x30, 0);
         }
@@ -753,7 +753,7 @@ static void Shop_PrintPrice(u8 taskId)
         sub_80A3FA0(gBGTilemapBuffers[1], 0x1, 0xB, 0xC, 0x2, 0);
         BuyMenuDrawTextboxBG_Restore();
         Shop_DrawViewportTiles();
-        CopyShopItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
+        Learner_CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
         ConvertIntToDecimalStringN(gStringVar2, gTasks[taskId].tItemCount, 0, 0x2);
         ConvertIntToDecimalStringN(gStringVar3, gMartTotalCost, 0, 0x8);
         StringExpandPlaceholders(gStringVar4, gOtherText_ThatWillBe);
@@ -1127,7 +1127,7 @@ static void Shop_DoCursorAction(u8 taskId)
                     }
                     else // _080B42BA
                     {
-                        CopyShopItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
+                        Learner_CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
                         StringExpandPlaceholders(gStringVar4, gOtherText_HowManyYouWant);
                         DisplayItemMessageOnField(taskId, gStringVar4, Shop_UpdateCurItemCountToMax, 0xC3E1);                    
                     }

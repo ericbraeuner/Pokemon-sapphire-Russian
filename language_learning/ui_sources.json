@@ -5,12 +5,6 @@
     "width": 104,
     "lines": 3
   },
-  "gOtherText_DepositedItems": {
-    "ru": "Вещи в ПК.",
-    "de": "Items im PC.",
-    "width": 104,
-    "lines": 2
-  },
   "gOtherText_NoRoomForItems": {
     "ru": "Нет места для предметов.",
     "de": "Kein Platz für Items.",
@@ -371,12 +365,6 @@
     "width": 184,
     "lines": 2
   },
-  "gOtherText_NoPokemon": {
-    "ru": "Нет подходящего покемона.",
-    "de": "Kein passendes Pokémon da.",
-    "width": 184,
-    "lines": 2
-  },
   "gOtherText_DoYouChoosePoke": {
     "ru": "Выбрать этого покемона?",
     "de": "Wählst du dieses Pokémon?",
@@ -425,12 +413,6 @@
     "width": 104,
     "lines": 3
   },
-  "gOtherText_ThrewAwayItem": {
-    "ru": "Вещи выброшены.",
-    "de": "Items entsorgt.",
-    "width": 104,
-    "lines": 2
-  },
   "gOtherText_NoMoreRoom": {
     "ru": "Нет места в сумке.",
     "de": "Beutel voll.",
@@ -438,14 +420,8 @@
     "lines": 2
   },
   "gOtherText_TooImportant": {
-    "ru": "Это важная вещь!",
-    "de": "Zu wichtig!",
-    "width": 104,
-    "lines": 2
-  },
-  "gOtherText_OkayToThrowAwayPrompt": {
-    "ru": "Точно выбросить?",
-    "de": "Wegwerfen?",
+    "ru": "Нельзя выбросить!",
+    "de": "Nicht löschbar!",
     "width": 104,
     "lines": 2
   },
@@ -834,21 +810,21 @@
     "lines": 2
   },
   "OtherText_Use": {
-    "ru": "Применить",
+    "ru": "Примен.",
     "de": "Nutzen",
-    "width": 104,
+    "width": 48,
     "lines": 1
   },
   "OtherText_Toss": {
-    "ru": "Выбросить",
-    "de": "Wegwerfen",
-    "width": 104,
+    "ru": "Убрать",
+    "de": "Weg",
+    "width": 48,
     "lines": 1
   },
   "OtherText_Register": {
-    "ru": "Назначить",
-    "de": "Belegen",
-    "width": 104,
+    "ru": "Кнопка",
+    "de": "Wählen",
+    "width": 48,
     "lines": 1
   },
   "OtherText_Give2": {
@@ -858,9 +834,9 @@
     "lines": 1
   },
   "OtherText_CheckTag": {
-    "ru": "Сведения",
+    "ru": "Метка",
     "de": "Info",
-    "width": 104,
+    "width": 48,
     "lines": 1
   },
   "OtherText_Confirm": {
@@ -1204,5 +1180,11 @@
     "de": "zum Team.",
     "width": 104,
     "lines": 1
+  },
+  "gOtherText_CantWriteMail": {
+    "ru": "Здесь нельзя писать письма.",
+    "de": "Hier keine Post.",
+    "width": 104,
+    "lines": 2
   }
 }

@@ -1,20 +1,193 @@
 {
   "bag": [
-    {"x": 0, "y": 32, "ru": "Предметы", "de": "Items"},
-    {"x": 64, "y": 32, "ru": "Важное", "de": "Basis"},
-    {"x": 128, "y": 32, "ru": "ТМ и НМ", "de": "TM und VM"},
-    {"x": 192, "y": 32, "ru": "Ягоды", "de": "Beeren"},
-    {"x": 0, "y": 48, "ru": "Покеболы", "de": "Bälle"}
+    {
+      "x": 0,
+      "y": 32,
+      "ru": "Предметы",
+      "de": "Items"
+    },
+    {
+      "x": 64,
+      "y": 32,
+      "ru": "Важное",
+      "de": "Basis"
+    },
+    {
+      "x": 128,
+      "y": 32,
+      "ru": "ТМ и НМ",
+      "de": "TM und VM"
+    },
+    {
+      "x": 192,
+      "y": 32,
+      "ru": "Ягоды",
+      "de": "Beeren"
+    },
+    {
+      "x": 0,
+      "y": 48,
+      "ru": "Покеболы",
+      "de": "Bälle"
+    }
   ],
   "dex_search": [
-    {"x": 0, "y": 16, "background": 10, "ru": "Декс", "de": "Dex"},
-    {"x": 40, "y": 16, "background": 10, "ru": "Сорт.", "de": "Reihe"},
-    {"x": 80, "y": 16, "background": 10, "ru": "Имя", "de": "Name"},
-    {"x": 0, "y": 32, "background": 10, "ru": "Цвет", "de": "Farbe"},
-    {"x": 40, "y": 32, "background": 10, "ru": "Тип", "de": "TYP"},
-    {"x": 80, "y": 32, "background": 9, "ru": "Назад", "de": "Ende"},
-    {"x": 0, "y": 48, "background": 8, "ru": "ОК", "de": "OK"},
-    {"x": 40, "y": 48, "background": 8, "ru": "Вид", "de": "Liste"},
-    {"x": 80, "y": 48, "background": 8, "ru": "Поиск", "de": "Suche"}
+    {
+      "x": 0,
+      "y": 16,
+      "background": 10,
+      "ru": "Декс",
+      "de": "Dex"
+    },
+    {
+      "x": 40,
+      "y": 16,
+      "background": 10,
+      "ru": "Сорт.",
+      "de": "Reihe"
+    },
+    {
+      "x": 80,
+      "y": 16,
+      "background": 10,
+      "ru": "Имя",
+      "de": "Name"
+    },
+    {
+      "x": 0,
+      "y": 32,
+      "background": 10,
+      "ru": "Цвет",
+      "de": "Farbe"
+    },
+    {
+      "x": 40,
+      "y": 32,
+      "background": 10,
+      "ru": "Тип",
+      "de": "TYP"
+    },
+    {
+      "x": 80,
+      "y": 32,
+      "background": 9,
+      "ru": "Назад",
+      "de": "Ende"
+    },
+    {
+      "x": 0,
+      "y": 48,
+      "background": 8,
+      "ru": "ОК",
+      "de": "OK"
+    },
+    {
+      "x": 40,
+      "y": 48,
+      "background": 8,
+      "ru": "Вид",
+      "de": "Liste"
+    },
+    {
+      "x": 80,
+      "y": 48,
+      "background": 8,
+      "ru": "Поиск",
+      "de": "Suche"
+    }
+  ],
+  "dex_main": [
+    {
+      "x": 0,
+      "y": 64,
+      "width": 88,
+      "background": 13,
+      "ink": 9,
+      "ru": "К Покедексу",
+      "de": "Zum Pokédex"
+    },
+    {
+      "x": 120,
+      "y": 64,
+      "width": 80,
+      "background": 13,
+      "ink": 9,
+      "ru": "Закрыть",
+      "de": "Schließen"
+    },
+    {
+      "x": 0,
+      "y": 80,
+      "width": 72,
+      "background": 13,
+      "ink": 9,
+      "ru": "К списку",
+      "de": "Zur Liste"
+    },
+    {
+      "x": 72,
+      "y": 80,
+      "width": 40,
+      "background": 7,
+      "ink": 9,
+      "ru": "Назад",
+      "de": "Ende"
+    },
+    {
+      "x": 120,
+      "y": 80,
+      "width": 56,
+      "background": 13,
+      "ink": 9,
+      "ru": "Начало",
+      "de": "Oben"
+    },
+    {
+      "x": 176,
+      "y": 80,
+      "width": 72,
+      "background": 13,
+      "ink": 9,
+      "ru": "Конец",
+      "de": "Unten"
+    }
+  ],
+  "dex_sprites": [
+    {
+      "x": 0,
+      "y": 64,
+      "width": 64,
+      "background": 0,
+      "ink": 1,
+      "ru": "Поиск",
+      "de": "Suche"
+    },
+    {
+      "x": 0,
+      "y": 128,
+      "width": 64,
+      "background": 0,
+      "ink": 1,
+      "ru": "Меню",
+      "de": "Menü"
+    },
+    {
+      "x": 0,
+      "y": 160,
+      "width": 64,
+      "background": 0,
+      "ink": 1,
+      "ru": "Встречено",
+      "de": "Gesehen"
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "width": 64,
+      "background": 0,
+      "ink": 1,
+      "ru": "Поймано",
+      "de": "GEFANGEN"
+    }
   ]
 }

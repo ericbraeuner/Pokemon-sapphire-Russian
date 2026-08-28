@@ -1448,7 +1448,8 @@ static void sub_80A4A98(const u8 *text, u32 line)
         if (line == 0)
         {
             Menu_EraseWindowRect(0, 13, 13, 20);
-            Menu_PrintTextPixelCoords(translated, 4, 104, 0);
+            StringExpandPlaceholders(gStringVar4, translated);
+            Menu_PrintTextPixelCoords(gStringVar4, 4, 104, 0);
         }
         return;
     }

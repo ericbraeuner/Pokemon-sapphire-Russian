@@ -269,8 +269,10 @@ class LessonTests(unittest.TestCase):
                     x, y = e['x'], e['y']
                     if kind == 'bag':
                         rect = (x, y + 1, x + 64, y + 15)
-                    else:
+                    elif kind == 'dex_search':
                         rect = (x + 5, y + 2, x + 36, y + 14)
+                    else:
+                        rect = (x, y, x + e['width'], y + 16)
                     allowed.update((px, py) for px in range(rect[0], rect[2]) for py in range(rect[1], rect[3]))
                 for y in range(size[1]):
                     for x in range(size[0]):
@@ -289,6 +291,35 @@ class LessonTests(unittest.TestCase):
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
                 self.assertEqual(len(demo.wrap(entries[name][tag], mapping, glyphs, 88)), 1)
                 self.assertLessEqual(len(demo.wrap(entries[description][tag], mapping, glyphs, 104)), 2)
+
+    def test_sprite_sheet_stream_and_loader_keep_native_size(self):
+        for tag in ('ru', 'de'):
+            raw = graphic_labels.tile_bytes(graphic_labels.render('dex_sprites', tag))
+            stream = graphic_labels.literal_lz(raw)
+            self.assertEqual(stream[0], 0x10)
+            size = stream[1] | stream[2] << 8 | stream[3] << 16
+            self.assertEqual(size, 0x1F00)
+            decoded = []
+            cursor = 4
+            while len(decoded) < size:
+                self.assertEqual(stream[cursor], 0)
+                decoded.extend(stream[cursor + 1:cursor + 9])
+                cursor += 9
+            self.assertEqual(decoded, raw)
+
+    def test_bag_action_templates_keep_item_quantity_and_fit_pane(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        for key in ('gOtherText_OkayToThrowAwayPrompt', 'gOtherText_ThrewAwayItem', 'gOtherText_DepositedItems'):
+            e = templates[key]
+            self.assertEqual(e['max_width'], 104)
+            for tag, mapping, glyphs, font in [('ru', self.russian, self.glyphs, 0), ('de', self.latin, {}, 3)]:
+                data = bytes(field_templates.compile_text(e[tag], mapping, glyphs, font, e['widths'], e['max_width']))
+                for token in (2, 3):
+                    self.assertIn(bytes([0xFD, token, 0xFC, 6, font]), data)
+                self.assertEqual(data.count(b'\xfe'), 1)
+        code = (demo.ROOT / 'src/item_menu.c').read_text().split('static void sub_80A4A98(')[1].split('\n}\n')[0]
+        self.assertIn('StringExpandPlaceholders(gStringVar4, translated)', code)
+        self.assertIn('Menu_PrintTextPixelCoords(gStringVar4, 4, 104, 0)', code)
 
     def test_shared_display_hooks_and_new_game_only_tutorial(self):
         bag = (demo.ROOT / 'src/item_menu.c').read_text()

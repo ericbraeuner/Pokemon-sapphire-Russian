@@ -29,8 +29,13 @@ Pokédex search explanations, colors, ordering options, and search results are
 translated. The shared catalogue now covers 23 common items, including stronger
 potions, revives, repellents and balls. Bag pocket labels and Pokédex search-button
 graphics are translated too, including during pocket-switch animations.
+Pokédex list navigation, seen/caught counters and menu/search captions now use
+the selected language. Bag discard confirmations/results and PC item-deposit
+results keep their actual item name and quantity. Field item-use messages and
+several common item errors are translated. Compact action buttons fit the bag's
+two-column menu without overlapping.
 The upstairs link club, detailed Pokémon box interface, remaining bag prompts,
-the main Pokédex/list/detail artwork and species entries, and the shop's small MONEY
+the remaining Pokédex title/detail artwork and species entries, and the shop's small MONEY
 graphic still need work.
 
 ## Try it

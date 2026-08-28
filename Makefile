@@ -137,6 +137,7 @@ build/learner_demo/lesson.s: language_learning/tools/field_templates.py language
 	$(PYTHON) language_learning/tools/build_demo.py
 
 build/learner_demo/lesson.s: language_learning/tools/graphic_labels.py language_learning/graphic_labels.json graphics/fonts/font0_lat.png graphics/interface/bag_screen.png graphics/pokedex/menu_search.png
+build/learner_demo/lesson.s: graphics/pokedex/menu.png graphics/pokedex/menu2.png
 
 $(BUILD_DIR)/learner_demo.o: build/learner_demo/lesson.s language_learning/integration/lesson_script.inc
 	$(PREPROC) $< charmap.txt | $(CPP) -I include | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@

@@ -86,5 +86,121 @@
     "ru": "Это нельзя продать.{PAUSE_UNTIL_PRESS}",
     "de": "Das ist unverkäuflich.{PAUSE_UNTIL_PRESS}",
     "widths": {}
+  },
+  "gOtherText_OkayToThrowAwayPrompt": {
+    "ru": "{STR_VAR_1}\\n{STR_VAR_2} выбросить?",
+    "de": "{STR_VAR_1}\\n{STR_VAR_2} weg?",
+    "widths": {
+      "STR_VAR_1": 88,
+      "STR_VAR_2": 24
+    },
+    "max_width": 104
+  },
+  "gOtherText_ThrewAwayItem": {
+    "ru": "{STR_VAR_1}\\nУбрано: {STR_VAR_2}.",
+    "de": "{STR_VAR_1}\\nWeg: {STR_VAR_2}.",
+    "widths": {
+      "STR_VAR_1": 88,
+      "STR_VAR_2": 24
+    },
+    "max_width": 104
+  },
+  "gOtherText_DepositedItems": {
+    "ru": "{STR_VAR_1}\\nВ ПК: {STR_VAR_2}.",
+    "de": "{STR_VAR_1}\\nIm PC: {STR_VAR_2}.",
+    "widths": {
+      "STR_VAR_1": 88,
+      "STR_VAR_2": 24
+    },
+    "max_width": 104
+  },
+  "gOtherText_UsedItem": {
+    "ru": "{PLAYER}: применён\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+    "de": "{PLAYER} nutzt:\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
+    "widths": {
+      "PLAYER": 56,
+      "STR_VAR_2": 112
+    },
+    "max_width": 192
+  },
+  "gOtherText_UsedFlute": {
+    "ru": "Применён: {STR_VAR_2}.\\pДикие покемоны\\nбудут приходить.{PAUSE_UNTIL_PRESS}",
+    "de": "Genutzt: {STR_VAR_2}.\\pLockt wilde Pokémon an.{PAUSE_UNTIL_PRESS}",
+    "widths": {
+      "STR_VAR_2": 112
+    },
+    "max_width": 192
+  },
+  "gOtherText_UsedRepel": {
+    "ru": "Применён: {STR_VAR_2}.\\pОтпугивает\\nдиких покемонов.{PAUSE_UNTIL_PRESS}",
+    "de": "Genutzt: {STR_VAR_2}.\\pHält wilde Pokémon fern.{PAUSE_UNTIL_PRESS}",
+    "widths": {
+      "STR_VAR_2": 112
+    },
+    "max_width": 192
+  },
+  "gOtherText_RepelLingers": {
+    "ru": "Отпугиватель ещё\\nдействует!{PAUSE_UNTIL_PRESS}",
+    "de": "Der Schutz wirkt noch!{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_CantGetOffBike": {
+    "ru": "Здесь нельзя\\nслезть с велосипеда.{PAUSE_UNTIL_PRESS}",
+    "de": "Hier nicht absteigen!{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_NoPokemon": {
+    "ru": "Нет покемонов.{PAUSE_UNTIL_PRESS}",
+    "de": "Keine Pokémon da.{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_DadsAdvice": {
+    "ru": "Совет папы: всему\\nсвоё время и место!{PAUSE_UNTIL_PRESS}",
+    "de": "Papas Rat: Nicht jetzt,\\nnicht hier!{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_NoResponse": {
+    "ru": "Прибор не реагирует.{PAUSE_UNTIL_PRESS}",
+    "de": "Keine Reaktion.{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_ItemfinderResponding": {
+    "ru": "Прибор реагирует!\\nЗдесь зарыт предмет!{PAUSE_UNTIL_PRESS}",
+    "de": "Der Detektor reagiert!\\nHier liegt ein Item!{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_ItemfinderItemUnderfoot": {
+    "ru": "Предмет прямо\\nпод ногами!{PAUSE_UNTIL_PRESS}",
+    "de": "Ein Item direkt\\nunter deinen Füßen!{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_BoxIsFull": {
+    "ru": "Коробка полна.{PAUSE_UNTIL_PRESS}",
+    "de": "Die Box ist voll.{PAUSE_UNTIL_PRESS}",
+    "widths": {},
+    "max_width": 192
+  },
+  "gOtherText_CantBeHeld": {
+    "ru": "Нельзя дать покемону:\\n{STR_VAR_1}.",
+    "de": "Nicht tragbar:\\n{STR_VAR_1}.",
+    "widths": {
+      "STR_VAR_1": 112
+    },
+    "max_width": 192
+  },
+  "gOtherText_CantBeHeldHere": {
+    "ru": "Здесь нельзя дать:\\n{STR_VAR_1}.",
+    "de": "Hier nicht tragbar:\\n{STR_VAR_1}.",
+    "widths": {
+      "STR_VAR_1": 112
+    },
+    "max_width": 192
   }
 }

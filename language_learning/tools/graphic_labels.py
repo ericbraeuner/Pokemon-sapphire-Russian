@@ -9,6 +9,8 @@ import build_demo as demo
 SHEETS = {
     'bag': ('graphics/interface/bag_screen.png', 'BagTiles', (256, 64)),
     'dex_search': ('graphics/pokedex/menu_search.png', 'DexSearchTiles', (128, 64)),
+    'dex_main': ('graphics/pokedex/menu.png', 'DexMainTiles', (256, 96)),
+    'dex_sprites': ('graphics/pokedex/menu2.png', 'DexSpriteTiles', (64, 248)),
 }
 
 
@@ -46,8 +48,10 @@ def render(kind, tag):
         x, y = entry['x'], entry['y']
         if kind == 'bag':
             left, top, width, height, background, ink = x, y + 1, 64, 14, 10, 15
-        else:
+        elif kind == 'dex_search':
             left, top, width, height, background, ink = x + 5, y + 2, 31, 12, entry['background'], 4
+        else:
+            left, top, width, height, background, ink = x, y, entry['width'], 16, entry['background'], entry['ink']
         if left < 0 or top < 0 or left + width > size[0] or top + height > size[1]:
             raise ValueError('Label outside tile sheet')
         letters = [glyph(c, latin, cyrillic if tag == 'ru' else {}, font) for c in entry[tag]]
@@ -80,10 +84,22 @@ def tile_bytes(sheet):
     return data
 
 
+def literal_lz(data):
+    """GBA LZ77 stream with literal-only groups; valid for sprite sheet loaders."""
+    result = [0x10, len(data) & 255, len(data) >> 8 & 255, len(data) >> 16]
+    for i in range(0, len(data), 8):
+        result.extend([0] + data[i:i + 8])
+    result.extend([0] * (-len(result) % 4))
+    return result
+
+
 def generate():
     parts = []
     for kind, (_, name, _) in SHEETS.items():
         for tag in ('ru', 'de'):
+            data = tile_bytes(render(kind, tag))
+            if kind == 'dex_sprites':
+                data = literal_lz(data)
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
-                'gLearner' + name + tag.title(), tile_bytes(render(kind, tag))))
+                'gLearner' + name + tag.title(), data))
     return parts

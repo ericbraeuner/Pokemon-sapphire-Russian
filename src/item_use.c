@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "item_use.h"
 #include "battle.h"
 #include "berry.h"
@@ -776,7 +777,11 @@ static void PrepareItemUseMessage(void)
 {
     RemoveBagItem(gSpecialVar_ItemId, 1);
     sub_80A3E0C();
+#if LEARNER_DEMO
+    Learner_CopyItemName(gSpecialVar_ItemId, gStringVar2);
+#else
     CopyItemName(gSpecialVar_ItemId, gStringVar2);
+#endif
     StringExpandPlaceholders(gStringVar4, gOtherText_UsedItem);
 }
 
@@ -797,7 +802,11 @@ void ItemUseOutOfBattle_Repel(u8 taskId)
 static void sub_80CA07C(void)
 {
     sub_80A3E0C();
+#if LEARNER_DEMO
+    Learner_CopyItemName(gSpecialVar_ItemId, gStringVar2);
+#else
     CopyItemName(gSpecialVar_ItemId, gStringVar2);
+#endif
 }
 
 static void PlayBlackWhiteFluteSound(u8 taskId)

@@ -489,6 +489,16 @@ static const struct CompressedSpriteSheet sInterfaceSpriteSheet[] =
     {gPokedexMenu2_Gfx, 0x1F00, 0x1000},
     {NULL, 0, 0},
 };
+#if LEARNER_DEMO
+static void LoadLearnerDexSprites(void)
+{
+    struct CompressedSpriteSheet sheet = sInterfaceSpriteSheet[0];
+    if (Learner_GetLanguage())
+        sheet.data = Learner_GetLanguage() == 1 ? gLearnerDexSpriteTilesRu : gLearnerDexSpriteTilesDe;
+    LoadCompressedObjectPic(&sheet);
+}
+#endif
+
 static const struct SpritePalette sInterfaceSpritePalette[] =
 {
     {gPokedexMenu_Pal, 0x1000},
@@ -1895,6 +1905,10 @@ static bool8 LoadPokedexListPage(u8 a)
         ResetOtherVideoRegisters(0);
         REG_BG2VOFS = gPokedexView->initialVOffset;
         LZ77UnCompVram(gPokedexMenu_Gfx, (void *)(VRAM));
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerDexMainTilesRu : gLearnerDexMainTilesDe, (void *)(VRAM), 0x3000);
+#endif
         LZ77UnCompVram(gUnknown_08E96738, (void *)(VRAM + 0x6800));
         LZ77UnCompVram(gUnknown_08E9C6DC, (void *)(VRAM + 0x7800));
         DmaClear16(3, VRAM + 0x6000, 0x500);
@@ -1914,7 +1928,11 @@ static bool8 LoadPokedexListPage(u8 a)
         ResetSpriteData();
         FreeAllSpritePalettes();
         gReservedSpritePaletteCount = 8;
+#if LEARNER_DEMO
+        LoadLearnerDexSprites();
+#else
         LoadCompressedObjectPic(&sInterfaceSpriteSheet[0]);
+#endif
         LoadSpritePalettes(sInterfaceSpritePalette);
         CreateInterfaceSprites(a);
         gMain.state++;
@@ -2921,6 +2939,10 @@ static void Task_InitPageScreenMultistep(u8 taskId)
         break;
     case 1:
         LZ77UnCompVram(gPokedexMenu_Gfx, (void *)VRAM);
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerDexMainTilesRu : gLearnerDexMainTilesDe, (void *)VRAM, 0x3000);
+#endif
         LZ77UnCompVram(gUnknown_08E96BD4, (void *)(VRAM + 0x7800));
         PrintFootprint(sPokedexListItem->dexNum, 2, 0x3FC);
         gMain.state++;
@@ -3175,6 +3197,10 @@ static void Task_InitCryScreenMultistep(u8 taskId)
         break;
     case 1:
         LZ77UnCompVram(gPokedexMenu_Gfx, (void *)VRAM);
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerDexMainTilesRu : gLearnerDexMainTilesDe, (void *)VRAM, 0x3000);
+#endif
         LZ77UnCompVram(gUnknown_0839F8A0, (void *)(VRAM + 0x7000));
         gMain.state++;
         break;
@@ -3363,6 +3389,10 @@ static void Task_InitSizeScreenMultistep(u8 taskId)
         break;
     case 1:
         LZ77UnCompVram(gPokedexMenu_Gfx, (void *)VRAM);
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerDexMainTilesRu : gLearnerDexMainTilesDe, (void *)VRAM, 0x3000);
+#endif
         LZ77UnCompVram(gUnknown_0839F988, (void *)(VRAM + 0x7000));
         gMain.state++;
         break;
@@ -3810,6 +3840,10 @@ static void sub_8090750(u8 taskId)
         break;
     case 1:
         LZ77UnCompVram(gPokedexMenu_Gfx, (void *)(VRAM + 0x4000));
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerDexMainTilesRu : gLearnerDexMainTilesDe, (void *)(VRAM + 0x4000), 0x3000);
+#endif
         LZ77UnCompVram(gUnknown_08E96BD4, (void *)(VRAM + 0x7800));
         for (i = 0; i < 0x280; i++)
         {
@@ -4760,7 +4794,11 @@ static void Task_LoadSearchMenu(u8 taskId)
     case 1:
         Text_LoadWindowTemplate(&gWindowTemplate_81E7064);
         InitMenuWindow(&gWindowTemplate_81E7064);
+#if LEARNER_DEMO
+        LoadLearnerDexSprites();
+#else
         LoadCompressedObjectPic(&sInterfaceSpriteSheet[0]);
+#endif
         LoadSpritePalettes(sInterfaceSpritePalette);
         CreateSearchParameterScrollArrows(taskId);
         for (i = 0; i < 16; i++)

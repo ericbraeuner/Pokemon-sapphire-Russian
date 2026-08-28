@@ -102,7 +102,11 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor:: @ 8152744
 	applymovement 4, LittlerootTown_BrendansHouse_1F_Movement_RivalMomApproach
 	waitmovement 0
 	special GetRivalSonDaughterString
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NeighborWelcome
+	.else
 	msgbox RivalsHouse_1F_Text_OhYoureTheNewNeighbor, MSGBOX_DEFAULT
+	.endif
 	setflag FLAG_MET_RIVAL_MOM
 	setvar VAR_LITTLEROOT_HOUSES_STATE, 2
 	releaseall

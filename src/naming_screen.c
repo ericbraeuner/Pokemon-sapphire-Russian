@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "naming_screen.h"
 #include "data2.h"
 #include "graphics.h"
@@ -1820,7 +1821,12 @@ static void sub_80B78A8(void)
     BasicInitMenuWindow(&gWindowTemplate_81E6F4C);
     gUnknown_083CE358[namingScreenDataPtr->templateNum]();
     gUnknown_083CE368[namingScreenDataPtr->template->addGenderIcon]();
-    Menu_PrintText(namingScreenDataPtr->template->title, 9, 2);
+#if LEARNER_DEMO
+    if (namingScreenDataPtr->templateNum == 0 && Learner_GetLanguage())
+        Menu_PrintText(LEARNER_UI(Learner_GetLanguage(), YourName), 9, 2);
+    else
+#endif
+        Menu_PrintText(namingScreenDataPtr->template->title, 9, 2);
 }
 
 static void nullsub_61(void)
@@ -2152,4 +2158,3 @@ const u16 gUnknown_083CE748[] = INCBIN_U16("graphics/naming_screen/lower_keyboar
 const u16 gUnknown_083CEBF8[] = INCBIN_U16("graphics/naming_screen/upper_keyboard_map.bin");
 
 const u16 gUnknown_083CF0A8[] = INCBIN_U16("graphics/naming_screen/others_keyboard_map.bin");
-

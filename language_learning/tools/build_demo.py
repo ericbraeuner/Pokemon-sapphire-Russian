@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DIALOGUE_ID = "littleroot.player_house.mom.welcome.001"
 MAX_LINE_WIDTH = 200  # Conservative margin inside the game's 216px message area.
 MAX_MESSAGE_BYTES = 256  # gStringVar4 in src/text.c; includes controls and EOS.
+SEMICOLON_ROWS = ['00', '00', '01', '00', '00', '01', '01', '10', '00']
 
 
 def load_font():
@@ -41,8 +42,6 @@ def load_charmap():
 
 
 def encode(text, mapping):
-    # The ROM's semicolon bitmap is misleading. Display a plain comma instead.
-    text = text.replace(";", ",")
     try:
         return [mapping[c] for c in text]
     except KeyError as exc:
@@ -98,7 +97,13 @@ def message(pages, mapping, glyphs, font, max_width=MAX_LINE_WIDTH):
         for line_index, line in enumerate(wrap(page, mapping, glyphs, max_width)):
             if line_index:
                 data.extend([0xFE] if line_index % 2 else page_break)
-            data.extend(encode(line, mapping))
+            for char in line:
+                # The stock semicolon resembles an icon. Use our font-0 bitmap
+                # in both languages, then restore the surrounding text font.
+                if char == ';' and font != 0:
+                    data.extend([0xFC, 0x06, 0, mapping[char], 0xFC, 0x06, font])
+                else:
+                    data.extend(encode(char, mapping))
     data.extend([0xFC, 0x07, 0xFF])
     if len(data) > MAX_MESSAGE_BYTES:
         raise ValueError("Lesson exceeds the game's message buffer safety limit")
@@ -144,13 +149,15 @@ def generate():
     indices = [255] * 256
     for index, code in enumerate(glyph_codes()[:len(glyphs)]):
         indices[code] = index
+    indices[latin[';']] = len(glyphs)
     parts.append(assembly_bytes("gLearnerGlyphIndex", indices))
     bitmap = []
     for rows in glyphs.values():
         bitmap.extend(encode_glyph(rows))
+    bitmap.extend(encode_glyph(SEMICOLON_ROWS))
     parts.append(assembly_bytes("gLearnerGlyphs", bitmap))
-    parts.append(assembly_bytes("gLearnerGlyphWidths", [len(rows[0]) + 1 for rows in glyphs.values()]))
-    parts.append(assembly_bytes("gLearnerGlyphCount", [len(glyphs)]))
+    parts.append(assembly_bytes("gLearnerGlyphWidths", [len(rows[0]) + 1 for rows in glyphs.values()] + [3]))
+    parts.append(assembly_bytes("gLearnerGlyphCount", [len(glyphs) + 1]))
     return "\n".join(parts)
 
 

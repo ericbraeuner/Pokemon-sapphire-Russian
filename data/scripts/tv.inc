@@ -30,13 +30,21 @@ EventScript_1A6EBB:
 
 EventScript_1A6EF1:
 	special GetMomOrDadStringForTVMessage
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TVProgram
+	.else
 	msgbox UnknownString_81A0E68, MSGBOX_DEFAULT
+	.endif
 	special TurnOffTVScreen
 	releaseall
 	end
 
 EventScript_1A6F01:
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Movie
+	.else
 	msgbox PlayersHouse_1F_Text_TheresAMovieOnTV, MSGBOX_DEFAULT
+	.endif
 	releaseall
 	end
 
@@ -70,7 +78,11 @@ EventScript_1A6F37:
 
 EventScript_1A6F3F:
 	special GetMomOrDadStringForTVMessage
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TVProgram
+	.else
 	msgbox UnknownString_81A0E68, MSGBOX_DEFAULT
+	.endif
 	goto EventScript_1A6F37
 	end
 

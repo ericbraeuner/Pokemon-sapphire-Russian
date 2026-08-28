@@ -1188,6 +1188,9 @@ static void Task_NewGameSpeech25(u8 taskId)
     switch (Menu_ProcessInputNoWrap_())
     {
     case 0:     //YES
+#if LEARNER_DEMO
+        Menu_DestroyCursor();
+#endif
         PlaySE(SE_SELECT);
         Menu_EraseWindowRect(2, 1, 8, 7);
         gSprites[gTasks[taskId].tTrainerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
@@ -1197,6 +1200,9 @@ static void Task_NewGameSpeech25(u8 taskId)
         break;
     case -1:    //B button
     case 1:     //NO
+#if LEARNER_DEMO
+        Menu_DestroyCursor();
+#endif
         PlaySE(SE_SELECT);
         Menu_EraseWindowRect(2, 1, 8, 7);
         gTasks[taskId].func = Task_NewGameSpeech14;     //Go back to gender menu
@@ -1742,7 +1748,7 @@ static void CreateNameMenu(u8 left, u8 top)
         Menu_PrintItems(left + 1, top + 1, 5, gFemalePresetNames);
 
 #if LEARNER_DEMO
-    Menu_BlankWindowRect(left + 1, top + 1, left + 10, top + 2);
+    Menu_BlankWindowRect(left + 1, top + 1, left + 9, top + 2);
     Menu_PrintText(LEARNER_UI(sLearnerLanguage, NewName), left + 1, top + 1);
 #endif
     InitMenu(0, left + 1, top + 1, 5, 0, 9);

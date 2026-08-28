@@ -14,6 +14,7 @@ LEARNER_DECLARE(Immersion)
 LEARNER_DECLARE(Boy)
 LEARNER_DECLARE(Girl)
 LEARNER_DECLARE(NewName)
+LEARNER_DECLARE(YourName)
 LEARNER_DECLARE(Welcome)
 LEARNER_DECLARE(ThisIsPokemon)
 LEARNER_DECLARE(WorldInhabitedByPokemon)
@@ -26,5 +27,6 @@ LEARNER_DECLARE(AreYouReady)
 #undef LEARNER_DECLARE
 #define LEARNER_UI(language, name) ((language) == 1 ? LearnerUI_ru_##name : LearnerUI_de_##name)
 void Learner_CommitNewGameSettings(void);
+u8 Learner_GetLanguage(void);
 #endif
 #endif

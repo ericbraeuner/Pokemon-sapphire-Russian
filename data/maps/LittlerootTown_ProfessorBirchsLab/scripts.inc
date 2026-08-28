@@ -88,18 +88,30 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Aide:: @ 8152D63
 	compare VAR_BIRCH_LAB_STATE, 3
 	goto_if_ge LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter
 	goto_if_set FLAG_BIRCH_AIDE_MET, LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_LabFieldwork
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork, MSGBOX_DEFAULT
+	.endif
 	setflag FLAG_BIRCH_AIDE_MET
 	release
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet:: @ 8152D86
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_LabDesk
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter:: @ 8152D90
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_LabFamily
+	.else
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

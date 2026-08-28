@@ -102,7 +102,11 @@ LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor:: @ 8152982
 	applymovement 4, LittlerootTown_MaysHouse_1F_Movement_RivalMomApproach
 	waitmovement 0
 	special GetRivalSonDaughterString
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NeighborWelcome
+	.else
 	msgbox RivalsHouse_1F_Text_OhYoureTheNewNeighbor, MSGBOX_DEFAULT
+	.endif
 	setflag FLAG_MET_RIVAL_MOM
 	setvar VAR_LITTLEROOT_HOUSES_STATE_2, 2
 	releaseall
@@ -142,22 +146,38 @@ RivalsHouse_1F_EventScript_RivalMom:: @ 81529EB
 	compare VAR_LITTLEROOT_RIVAL_STATE, 3
 	goto_if_eq LittlerootTown_BrendansHouse_1F_EventScript_WhereHasHusbandGone
 	special GetRivalSonDaughterString
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NeighborUpstairs
+	.else
 	msgbox RivalsHouse_1F_Text_RivalIsUpstairsIThink, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RivalsHouse_1F_EventScript_RivalIsOutSomewhere:: @ 8152A17
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NeighborGone
+	.else
 	msgbox RivalsHouse_1F_Text_WentOutSomewhere, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RivalsHouse_1F_EventScript_GoHomeEverySoOften:: @ 8152A21
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NeighborVisitHome
+	.else
 	msgbox RivalsHouse_1F_Text_ShouldGoHomeEverySoOften, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 LittlerootTown_BrendansHouse_1F_EventScript_WhereHasHusbandGone:: @ 8152A2B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_NeighborHusband
+	.else
 	msgbox RivalsHouse_1F_Text_WhereHasHusbandGone, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

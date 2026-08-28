@@ -11,13 +11,13 @@ def load():
             raise ValueError('Invalid or duplicate opening ID')
         ids.add(entry['id'])
         symbol = entry['base_symbol']
-        if not re.fullmatch(r'(PlayersHouse|LittlerootTown)_[A-Za-z0-9_]+', symbol):
+        if not re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]*', symbol):
             raise ValueError('Invalid source symbol')
         floor = '2F' if '_2F_' in symbol else '1F'
         path = (demo.ROOT / entry.get('source_path', f'data/maps/LittlerootTown_BrendansHouse_{floor}/text.inc')).resolve()
         if not path.is_relative_to(demo.ROOT.resolve()) or not path.is_file():
             raise ValueError('Missing or unsafe opening source path')
-        if not re.search(rf'^{re.escape(symbol)}::', path.read_text(encoding='utf-8'), re.M):
+        if not re.search(rf'^{re.escape(symbol)}:', path.read_text(encoding='utf-8'), re.M):
             raise ValueError(f'Missing source: {symbol}')
         for tag in ('ru', 'de'):
             if set(entry[tag]) != {'A1', 'A2', 'natural'}:

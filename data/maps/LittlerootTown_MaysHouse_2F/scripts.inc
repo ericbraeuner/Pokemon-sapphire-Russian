@@ -33,6 +33,10 @@ LittlerootTown_MaysHouse_2F_EventScript_152A9D:: @ 8152A9D
 	checkplayergender
 	compare VAR_RESULT, 0
 	call_if_eq RivalsHouse_2F_EventScript_May
+	.ifdef LEARNER_DEMO
+@ Dictionary/settings menus change VAR_RESULT. Re-read gender before branching.
+	checkplayergender
+	.endif
 	compare VAR_RESULT, 1
 	call_if_eq RivalsHouse_2F_EventScript_Brendan
 	playse SE_EXIT
@@ -45,7 +49,11 @@ LittlerootTown_MaysHouse_2F_EventScript_152A9D:: @ 8152A9D
 	end
 
 RivalsHouse_2F_EventScript_May:: @ 8152AD4
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MayReady
+	.else
 	msgbox RivalsHouse_2F_Text_MayGettingReady, MSGBOX_DEFAULT
+	.endif
 	playbgm MUS_ENCOUNTER_MAY, TRUE
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
@@ -53,7 +61,11 @@ RivalsHouse_2F_EventScript_May:: @ 8152AD4
 	waitmovement 0
 	applymovement VAR_LAST_TALKED, Common_Movement_Delay48
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MayHello
+	.else
 	msgbox RivalsHouse_2F_Text_MayWhoAreYou, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	compare VAR_FACING, 4
 	call_if_eq LittlerootTown_BrendansHouse_2F_EventScript_152B29
@@ -79,7 +91,11 @@ LittlerootTown_BrendansHouse_2F_EventScript_152B3F:: @ 8152B3F
 	return
 
 RivalsHouse_2F_EventScript_Brendan:: @ 8152B4A
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_BrendanReady
+	.else
 	msgbox RivalsHouse_2F_Text_BrendanGettingReady, MSGBOX_DEFAULT
+	.endif
 	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
@@ -87,7 +103,11 @@ RivalsHouse_2F_EventScript_Brendan:: @ 8152B4A
 	waitmovement 0
 	applymovement VAR_LAST_TALKED, Common_Movement_Delay48
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_BrendanHello
+	.else
 	msgbox RivalsHouse_2F_Text_BrendanWhoAreYou, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	compare VAR_FACING, 4
 	call_if_eq LittlerootTown_BrendansHouse_2F_EventScript_152B9F
@@ -197,7 +217,11 @@ LittlerootTown_MaysHouse_2F_EventScript_PC:: @ 8152C39
 	end
 
 LittlerootTown_MaysHouse_2F_EventScript_CheckRivalsPC:: @ 8152C52
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolEmail
+	.else
 	msgbox gText_PokemonTrainerSchoolEmail, MSGBOX_DEFAULT
+	.endif
 	releaseall
 	end
 
@@ -205,7 +229,11 @@ LittlerootTown_MaysHouse_2F_EventScript_CheckPlayersPC:: @ 8152C5C
 	setvar VAR_0x8004, 2
 	special DoPCTurnOnEffect
 	playse SE_PC_ON
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_BootPC
+	.else
 	msgbox gText_PlayerHouseBootPC, MSGBOX_DEFAULT
+	.endif
 	special BedroomPC
 	waitstate
 	releaseall

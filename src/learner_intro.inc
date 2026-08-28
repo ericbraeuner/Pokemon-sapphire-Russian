@@ -52,6 +52,11 @@ void Learner_CommitNewGameSettings(void)
     sLearnerSettingsPending = FALSE;
 }
 
+u8 Learner_GetLanguage(void)
+{
+    return sLearnerSettingsPending ? sLearnerLanguage : VarGet(VAR_LEARNER_LANGUAGE);
+}
+
 static void Learner_DrawSetup(const u8 *title, const struct MenuAction *items, u8 count, u8 cursor)
 {
     Menu_EraseScreen();

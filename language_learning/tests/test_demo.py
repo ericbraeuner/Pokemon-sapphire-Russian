@@ -39,9 +39,16 @@ class LessonTests(unittest.TestCase):
     def test_german_special_characters_use_existing_glyphs(self):
         self.assertEqual([0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0x15], demo.encode("ÄÖÜäöüß", self.latin))
 
-    def test_definition_separator_is_comma_not_rom_semicolon(self):
-        self.assertEqual(demo.encode('home, house', self.latin), demo.encode('home; house', self.latin))
-        self.assertNotIn(0x36, demo.encode('home; house', self.latin))
+    def test_definition_separator_uses_corrected_semicolon_and_space(self):
+        welcome = next(e for e in opening.load()['dialogues'] if e['id'] == 'Welcome')
+        self.assertIn(['дом', 'home; house'], welcome['words']['ru'])
+        self.assertEqual([0x36, self.latin[' ']], demo.encode('; ', self.latin))
+        for font in (0, 3):
+            data = demo.message(['home; house'], self.latin, {}, font)
+            self.assertIn(0x36, data)
+            if font == 3:
+                self.assertIn(bytes([0xFC, 6, 0, 0x36, 0xFC, 6, 3, 0]), bytes(data))
+        self.assertEqual(16, len(demo.encode_glyph(demo.SEMICOLON_ROWS)))
 
     def test_full_russian_alphabet_uses_only_unused_codes(self):
         alphabet = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
@@ -63,10 +70,13 @@ class LessonTests(unittest.TestCase):
                  'data/maps/LittlerootTown/scripts.inc',
                  'data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc',
                  'data/maps/LittlerootTown_MaysHouse_1F/scripts.inc']
+        paths += ['data/scripts/tv.inc', 'data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc',
+                  'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
+                  'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc']
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
-            hook = f"call LearnerOpening_{entry['id']}\n\t.else\n\tmsgbox {entry['base_symbol']}"
-            self.assertIn(hook, sources)
+            self.assertIn(f"call LearnerOpening_{entry['id']}\n", sources)
+            self.assertIn(f"\t.else\n\tmsgbox {entry['base_symbol']}", sources)
 
     def test_all_opening_text_bands_and_dictionary_compile(self):
         assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))
@@ -102,6 +112,22 @@ class LessonTests(unittest.TestCase):
                 self.assertIn(f'LearnerUI_{tag}_{key}::', assembly)
         self.assertEqual('Да', entries['Yes']['ru'])
         self.assertEqual('Nein', entries['No']['de'])
+
+    def test_naming_menu_cleanup_and_pending_language(self):
+        source = (demo.ROOT / 'src/main_menu.c').read_text(encoding='utf-8')
+        confirm = source.split('static void Task_NewGameSpeech25(u8 taskId)\n{')[1].split('static void Task_NewGameSpeech26')[0]
+        self.assertEqual(2, confirm.count('Menu_DestroyCursor();'))
+        self.assertIn('Menu_BlankWindowRect(left + 1, top + 1, left + 9, top + 2);', source)
+        intro = (demo.ROOT / 'src/learner_intro.inc').read_text(encoding='utf-8')
+        self.assertIn('sLearnerSettingsPending ? sLearnerLanguage : VarGet(VAR_LEARNER_LANGUAGE)', intro)
+        naming = (demo.ROOT / 'src/naming_screen.c').read_text(encoding='utf-8')
+        self.assertIn('namingScreenDataPtr->templateNum == 0 && Learner_GetLanguage()', naming)
+        self.assertIn('LEARNER_UI(Learner_GetLanguage(), YourName)', naming)
+
+    def test_rival_branch_rechecks_gender_after_help_menu(self):
+        source = (demo.ROOT / 'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc').read_text(encoding='utf-8')
+        between = source.split('call_if_eq RivalsHouse_2F_EventScript_May\n')[1].split('call_if_eq RivalsHouse_2F_EventScript_Brendan')[0]
+        self.assertIn('checkplayergender\n', between)
 
     def test_new_game_settings_committed_after_all_resets(self):
         code = (demo.ROOT / 'src/new_game.c').read_text(encoding='utf-8')

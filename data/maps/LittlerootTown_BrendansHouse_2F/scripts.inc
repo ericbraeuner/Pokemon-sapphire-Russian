@@ -36,12 +36,20 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckInitDecor:: @ 81527E4
 	end
 
 LittlerootTown_BrendansHouse_2F_EventScript_15280A:: @ 815280A
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_Bookshelf
+	.else
 	msgbox UnknownString_8172F31, MSGBOX_DEFAULT
+	.endif
 	releaseall
 	end
 
 LittlerootTown_BrendansHouse_2F_EventScript_152814:: @ 8152814
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_PictureBooks
+	.else
 	msgbox UnknownString_8173A76, MSGBOX_DEFAULT
+	.endif
 	releaseall
 	end
 
@@ -60,7 +68,11 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC:: @ 8152837
 	setvar VAR_0x8004, 1
 	special DoPCTurnOnEffect
 	playse SE_PC_ON
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_BootPC
+	.else
 	msgbox gText_PlayerHouseBootPC, MSGBOX_DEFAULT
+	.endif
 	special BedroomPC
 	waitstate
 	releaseall
@@ -74,14 +86,30 @@ gBrendanHouse_TurnPCOff:: @ 8152850
 	end
 
 LittlerootTown_BrendansHouse_2F_EventScript_CheckRivalsPC:: @ 815285D
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolEmail
+	.else
 	msgbox gText_PokemonTrainerSchoolEmail, MSGBOX_DEFAULT
+	.endif
 	releaseall
 	end
 
 PlayersHouse_2F_EventScript_Notebook:: @ 8152867
+	.ifdef LEARNER_DEMO
+	lockall
+	call LearnerOpening_Notebook
+	releaseall
+	.else
 	msgbox PlayersHouse_2F_Text_Notebook, MSGBOX_SIGN
+	.endif
 	end
 
 PlayersHouse_2F_EventScript_GameCube:: @ 8152870
+	.ifdef LEARNER_DEMO
+	lockall
+	call LearnerOpening_GameCube
+	releaseall
+	.else
 	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
+	.endif
 	end

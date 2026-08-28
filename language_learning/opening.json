@@ -1,5 +1,5 @@
 {
-  "coverage": "Birch introduction, arrival, house/clock and TV sequence through the instruction to visit the neighbor.",
+  "coverage": "Opening, room objects, TV, first neighbor/rival meeting and early lab aide dialogue. Later story and general menus remain incomplete.",
   "level_policy": "A1 uses short sentences, A2 uses connected sentences, B1-C2 share natural dialogue. These are editorial targets, not certified CEFR assessments.",
   "dialogues": [
     {
@@ -34,7 +34,7 @@
         "ru": [
           [
             "дом",
-            "home, house"
+            "home; house"
           ],
           [
             "новый",
@@ -386,7 +386,7 @@
         "ru": [
           [
             "дом",
-            "house, home"
+            "house; home"
           ],
           [
             "комната",
@@ -625,6 +625,886 @@
           [
             "nebenan",
             "next door"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "GameCube",
+      "base_symbol": "PlayersHouse_2F_Text_ItsAGameCube",
+      "source_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Это Nintendo GameCube. Game Boy Advance работает как контроллер."
+        ],
+        "A2": [
+          "Это Nintendo GameCube. К ней подключён Game Boy Advance вместо контроллера."
+        ],
+        "natural": [
+          "Это Nintendo GameCube. Подключённый Game Boy Advance служит контроллером."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist ein Nintendo GameCube. Ein Game Boy Advance ist der Controller."
+        ],
+        "A2": [
+          "Das ist ein Nintendo GameCube. Ein Game Boy Advance ist als Controller angeschlossen."
+        ],
+        "natural": [
+          "Ein Nintendo GameCube, an den ein Game Boy Advance als Controller angeschlossen ist."
+        ]
+      },
+      "english": [
+        "A Nintendo GameCube with a Game Boy Advance connected as its controller."
+      ],
+      "words": {
+        "ru": [
+          [
+            "контроллер",
+            "controller"
+          ]
+        ],
+        "de": [
+          [
+            "der Controller",
+            "controller"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "Notebook",
+      "base_symbol": "PlayersHouse_2F_Text_Notebook",
+      "source_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Это блокнот. Правило 1: START открывает меню. Правило 2: SAVE сохраняет игру. Дальше страницы пустые."
+        ],
+        "A2": [
+          "В блокноте два правила. Открой меню кнопкой START. Сохрани игру через SAVE. Остальные страницы пустые."
+        ],
+        "natural": [
+          "В блокноте записаны правила приключения: открывай меню кнопкой START и сохраняй свой прогресс через SAVE. Остальные страницы пока пусты."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist ein Notizbuch. Regel 1: START öffnet das Menü. Regel 2: SAVE speichert das Spiel. Die anderen Seiten sind leer."
+        ],
+        "A2": [
+          "Im Notizbuch stehen zwei Regeln. Öffne das Menü mit START. Speichere mit SAVE. Die anderen Seiten sind leer."
+        ],
+        "natural": [
+          "Im Notizbuch stehen zwei Abenteuerregeln: Öffne das Menü mit START und sichere deinen Fortschritt mit SAVE. Die übrigen Seiten sind noch leer."
+        ]
+      },
+      "english": [
+        "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank."
+      ],
+      "words": {
+        "ru": [
+          [
+            "блокнот",
+            "notebook"
+          ]
+        ],
+        "de": [
+          [
+            "das Notizbuch",
+            "notebook"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "Movie",
+      "base_symbol": "PlayersHouse_1F_Text_TheresAMovieOnTV",
+      "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+      "ru": {
+        "A1": [
+          "По телевизору идёт фильм. Два мужчины танцуют на большом пианино. Пора идти!"
+        ],
+        "A2": [
+          "По телевизору показывают фильм. Два мужчины танцуют на клавишах огромного пианино. Пора идти!"
+        ],
+        "natural": [
+          "По телевизору идёт фильм: двое мужчин танцуют на клавишах огромного пианино. Но пора отправляться в путь!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Fernsehen läuft ein Film. Zwei Männer tanzen auf einem großen Klavier. Zeit zu gehen!"
+        ],
+        "A2": [
+          "Im Fernsehen läuft ein Film. Zwei Männer tanzen auf den Tasten eines riesigen Klaviers. Zeit zu gehen!"
+        ],
+        "natural": [
+          "Im Fernsehen läuft ein Film, in dem zwei Männer auf den Tasten eines riesigen Klaviers tanzen. Aber es wird Zeit aufzubrechen!"
+        ]
+      },
+      "english": [
+        "A film shows two men dancing on a giant piano keyboard. Time to get going!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "клавиша",
+            "key on a keyboard"
+          ]
+        ],
+        "de": [
+          [
+            "die Taste",
+            "key on a keyboard"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TVProgram",
+      "base_symbol": "UnknownString_81A0E68",
+      "source_path": "data/event_scripts.s",
+      "ru": {
+        "A1": [
+          "Эта передача может понравиться родителям. Но пора идти!"
+        ],
+        "A2": [
+          "Эта передача может понравиться родителям. Но пора идти!"
+        ],
+        "natural": [
+          "Эта передача может понравиться родителям. Но пора идти!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diese Sendung könnte deinen Eltern gefallen. Aber es wird Zeit zu gehen!"
+        ],
+        "A2": [
+          "Diese Sendung könnte deinen Eltern gefallen. Aber es wird Zeit zu gehen!"
+        ],
+        "natural": [
+          "Diese Sendung könnte deinen Eltern gefallen. Aber es wird Zeit zu gehen!"
+        ]
+      },
+      "english": [
+        "Your parents might like this program. Time to get going!"
+      ],
+      "words": {
+        "ru": [
+          [
+            "передача",
+            "TV program"
+          ]
+        ],
+        "de": [
+          [
+            "die Sendung",
+            "TV program"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BootPC",
+      "base_symbol": "gText_PlayerHouseBootPC",
+      "source_path": "data/event_scripts.s",
+      "ru": {
+        "A1": [
+          "Компьютер включён."
+        ],
+        "A2": [
+          "Компьютер включён."
+        ],
+        "natural": [
+          "Компьютер включён."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Computer ist eingeschaltet."
+        ],
+        "A2": [
+          "Der Computer ist eingeschaltet."
+        ],
+        "natural": [
+          "Der Computer ist eingeschaltet."
+        ]
+      },
+      "english": [
+        "You turned on the computer."
+      ],
+      "words": {
+        "ru": [
+          [
+            "компьютер",
+            "computer"
+          ]
+        ],
+        "de": [
+          [
+            "der Computer",
+            "computer"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolEmail",
+      "base_symbol": "gText_PokemonTrainerSchoolEmail",
+      "source_path": "data/event_scripts.s",
+      "ru": {
+        "A1": [
+          "Письмо из школы тренеров: покемон может знать до четырёх приёмов. Хороший тренер умеет выбирать приёмы."
+        ],
+        "A2": [
+          "Письмо из школы тренеров: покемон может знать до четырёх приёмов. Хороший тренер умеет выбирать приёмы."
+        ],
+        "natural": [
+          "Письмо из школы тренеров: покемон может знать до четырёх приёмов. Хороший тренер умеет выбирать приёмы."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine E-Mail von der Trainerschule: Ein Pokémon kann bis zu vier Attacken beherrschen. Gute Trainer wählen ihre Attacken sorgfältig aus."
+        ],
+        "A2": [
+          "Eine E-Mail von der Trainerschule: Ein Pokémon kann bis zu vier Attacken beherrschen. Gute Trainer wählen ihre Attacken sorgfältig aus."
+        ],
+        "natural": [
+          "Eine E-Mail von der Trainerschule: Ein Pokémon kann bis zu vier Attacken beherrschen. Gute Trainer wählen ihre Attacken sorgfältig aus."
+        ]
+      },
+      "english": [
+        "An email from the Trainer School: a Pokémon can know up to four moves. A good trainer chooses moves carefully."
+      ],
+      "words": {
+        "ru": [
+          [
+            "приём",
+            "move; technique"
+          ]
+        ],
+        "de": [
+          [
+            "die Attacke",
+            "attack; move"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "Bookshelf",
+      "base_symbol": "UnknownString_8172F31",
+      "source_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "На полке стоят книги о покемонах. Это твоя любимая коллекция."
+        ],
+        "A2": [
+          "На полке стоят книги о покемонах. Это твоя любимая коллекция."
+        ],
+        "natural": [
+          "На полке стоят книги о покемонах. Это твоя любимая коллекция."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Regal stehen deine Bücher über Pokémon. Du bist stolz auf deine Sammlung."
+        ],
+        "A2": [
+          "Im Regal stehen deine Bücher über Pokémon. Du bist stolz auf deine Sammlung."
+        ],
+        "natural": [
+          "Im Regal stehen deine Bücher über Pokémon. Du bist stolz auf deine Sammlung."
+        ]
+      },
+      "english": [
+        "Your prized collection of Pokémon books."
+      ],
+      "words": {
+        "ru": [
+          [
+            "книга",
+            "book"
+          ]
+        ],
+        "de": [
+          [
+            "das Buch",
+            "book"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PictureBooks",
+      "base_symbol": "UnknownString_8173A76",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "На полке стоят книги с картинками о покемонах."
+        ],
+        "A2": [
+          "На полке стоят книги с картинками о покемонах."
+        ],
+        "natural": [
+          "На полке стоят книги с картинками о покемонах."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Regal stehen Bilderbücher über Pokémon."
+        ],
+        "A2": [
+          "Im Regal stehen Bilderbücher über Pokémon."
+        ],
+        "natural": [
+          "Im Regal stehen Bilderbücher über Pokémon."
+        ]
+      },
+      "english": [
+        "The shelf is full of Pokémon picture books."
+      ],
+      "words": {
+        "ru": [
+          [
+            "полка",
+            "shelf"
+          ]
+        ],
+        "de": [
+          [
+            "das Regal",
+            "shelf"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NeighborWelcome",
+      "base_symbol": "RivalsHouse_1F_Text_OhYoureTheNewNeighbor",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Ты теперь живёшь рядом? У нас есть ребёнок твоего возраста. Поднимись наверх!"
+        ],
+        "A2": [
+          "Привет! Значит, вы сегодня переехали в соседний дом. Наш ребёнок примерно твоего возраста и ждёт знакомства. Поднимись наверх!"
+        ],
+        "natural": [
+          "А, здравствуй! Значит, ты из семьи, которая сегодня переехала по соседству. Наш ребёнок примерно твоего возраста и очень хочет с тобой подружиться. Думаю, тебе стоит подняться наверх."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Du wohnst jetzt nebenan? Unser Kind ist so alt wie du. Geh nach oben!"
+        ],
+        "A2": [
+          "Hallo! Ihr seid also heute nebenan eingezogen. Unser Kind ist ungefähr so alt wie du und freut sich auf dich. Geh nach oben!"
+        ],
+        "natural": [
+          "Ach, hallo! Du gehörst also zu unseren neuen Nachbarn. Unser Kind ist ungefähr in deinem Alter und freut sich schon darauf, dich kennenzulernen. Schau doch mal oben nach!"
+        ]
+      },
+      "english": [
+        "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сосед",
+            "neighbor"
+          ]
+        ],
+        "de": [
+          [
+            "der Nachbar",
+            "neighbor"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NeighborUpstairs",
+      "base_symbol": "RivalsHouse_1F_Text_RivalIsUpstairsIThink",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Наверное, тебе стоит посмотреть наверху."
+        ],
+        "A2": [
+          "Наверное, тебе стоит посмотреть наверху."
+        ],
+        "natural": [
+          "Наверное, тебе стоит посмотреть наверху."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Schau doch mal oben nach."
+        ],
+        "A2": [
+          "Schau doch mal oben nach."
+        ],
+        "natural": [
+          "Schau doch mal oben nach."
+        ]
+      },
+      "english": [
+        "Try looking upstairs."
+      ],
+      "words": {
+        "ru": [
+          [
+            "наверху",
+            "upstairs"
+          ]
+        ],
+        "de": [
+          [
+            "oben",
+            "upstairs; above"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NeighborHusband",
+      "base_symbol": "RivalsHouse_1F_Text_WhereHasHusbandGone",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Где же мой муж? Ему не сидится дома! Может быть, он в лаборатории."
+        ],
+        "A2": [
+          "Где же мой муж? Ему не сидится дома! Может быть, он в лаборатории."
+        ],
+        "natural": [
+          "Где же мой муж? Ему не сидится дома! Может быть, он в лаборатории."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wo ist nur mein Mann? Er kann nie lange stillsitzen! Vielleicht ist er im Labor."
+        ],
+        "A2": [
+          "Wo ist nur mein Mann? Er kann nie lange stillsitzen! Vielleicht ist er im Labor."
+        ],
+        "natural": [
+          "Wo ist nur mein Mann? Er kann nie lange stillsitzen! Vielleicht ist er im Labor."
+        ]
+      },
+      "english": [
+        "My husband cannot sit still. Perhaps he is at the lab."
+      ],
+      "words": {
+        "ru": [
+          [
+            "муж",
+            "husband"
+          ]
+        ],
+        "de": [
+          [
+            "der Ehemann",
+            "husband"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NeighborGone",
+      "base_symbol": "RivalsHouse_1F_Text_WentOutSomewhere",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Опять никого нет дома. Как отец, так и ребёнок: на месте не сидят!"
+        ],
+        "A2": [
+          "Опять никого нет дома. Как отец, так и ребёнок: на месте не сидят!"
+        ],
+        "natural": [
+          "Опять никого нет дома. Как отец, так и ребёнок: на месте не сидят!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Schon wieder unterwegs! Wie der Vater, so das Kind: Beide hält es nicht lange zu Hause."
+        ],
+        "A2": [
+          "Schon wieder unterwegs! Wie der Vater, so das Kind: Beide hält es nicht lange zu Hause."
+        ],
+        "natural": [
+          "Schon wieder unterwegs! Wie der Vater, so das Kind: Beide hält es nicht lange zu Hause."
+        ]
+      },
+      "english": [
+        "Like father, like child: always out and about."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отец",
+            "father"
+          ]
+        ],
+        "de": [
+          [
+            "der Vater",
+            "father"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NeighborVisitHome",
+      "base_symbol": "RivalsHouse_1F_Text_ShouldGoHomeEverySoOften",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Путешествовать с покемонами прекрасно. Но иногда возвращайся домой. Мама волнуется за тебя."
+        ],
+        "A2": [
+          "Путешествовать с покемонами прекрасно. Но иногда возвращайся домой. Мама волнуется за тебя."
+        ],
+        "natural": [
+          "Путешествовать с покемонами прекрасно. Но иногда возвращайся домой. Мама волнуется за тебя."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit Pokémon zu reisen ist wunderbar. Aber komm ab und zu nach Hause. Deine Mutter macht sich Sorgen um dich."
+        ],
+        "A2": [
+          "Mit Pokémon zu reisen ist wunderbar. Aber komm ab und zu nach Hause. Deine Mutter macht sich Sorgen um dich."
+        ],
+        "natural": [
+          "Mit Pokémon zu reisen ist wunderbar. Aber komm ab und zu nach Hause. Deine Mutter macht sich Sorgen um dich."
+        ]
+      },
+      "english": [
+        "Travel is wonderful, but visit home sometimes so your mother knows you are okay."
+      ],
+      "words": {
+        "ru": [
+          [
+            "возвращаться",
+            "to return"
+          ]
+        ],
+        "de": [
+          [
+            "zurückkommen",
+            "to return"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MayReady",
+      "base_symbol": "RivalsHouse_2F_Text_MayGettingReady",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Покемоны здоровы. Вещи готовы. А?"
+        ],
+        "A2": [
+          "Покемоны здоровы. Вещи готовы. А?"
+        ],
+        "natural": [
+          "Покемоны здоровы. Вещи готовы. А?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?"
+        ],
+        "A2": [
+          "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?"
+        ],
+        "natural": [
+          "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?"
+        ]
+      },
+      "english": [
+        "Pokémon healed, supplies packed. Huh?"
+      ],
+      "words": {
+        "ru": [
+          [
+            "вещи",
+            "things; belongings"
+          ]
+        ],
+        "de": [
+          [
+            "die Sachen",
+            "things; belongings"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MayHello",
+      "base_symbol": "RivalsHouse_2F_Text_MayWhoAreYou",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Кто ты? Ты живёшь рядом? Меня зовут Мэй. Мой папа - профессор Бёрч. Он ждёт меня. Я помогаю ему ловить покемонов. До встречи!"
+        ],
+        "A2": [
+          "Привет! Значит, ваша семья сегодня переехала в соседний дом. Меня зовут Мэй, а мой папа - профессор Бёрч. Давай дружить! Ой, мне пора помогать папе ловить диких покемонов. Увидимся!"
+        ],
+        "natural": [
+          "Ой, привет! Значит, ты из новой семьи по соседству? Меня зовут Мэй. Папа, профессор Бёрч, уже рассказывал о тебе. Надеюсь, мы подружимся! Только сейчас мне пора: я обещаю помогать папе ловить диких покемонов. Ещё увидимся!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Wer bist du? Du wohnst nebenan? Ich heiße Maike. Mein Vater ist Professor Birk. Ich helfe ihm, Pokémon zu fangen. Bis bald!"
+        ],
+        "A2": [
+          "Hallo! Ihr seid also heute nebenan eingezogen. Ich heiße Maike. Mein Vater ist Professor Birk. Wir können Freunde werden! Oh, ich muss ihm helfen, wilde Pokémon zu fangen. Bis bald!"
+        ],
+        "natural": [
+          "Ach, hallo! Du gehörst also zu den neuen Nachbarn? Ich heiße Maike. Mein Vater, Professor Birk, hat mir schon von dir erzählt. Hoffentlich werden wir Freunde! Aber jetzt muss ich los: Ich soll ihm helfen, wilde Pokémon zu fangen. Wir sehen uns!"
+        ]
+      },
+      "english": [
+        "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помогать",
+            "to help"
+          ]
+        ],
+        "de": [
+          [
+            "helfen",
+            "to help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrendanReady",
+      "base_symbol": "RivalsHouse_2F_Text_BrendanGettingReady",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Покемоны здоровы. Вещи готовы. А?"
+        ],
+        "A2": [
+          "Покемоны здоровы. Вещи готовы. А?"
+        ],
+        "natural": [
+          "Покемоны здоровы. Вещи готовы. А?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?"
+        ],
+        "A2": [
+          "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?"
+        ],
+        "natural": [
+          "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?"
+        ]
+      },
+      "english": [
+        "Pokémon healed, supplies packed. Huh?"
+      ],
+      "words": {
+        "ru": [
+          [
+            "вещи",
+            "things; belongings"
+          ]
+        ],
+        "de": [
+          [
+            "die Sachen",
+            "things; belongings"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrendanHello",
+      "base_symbol": "RivalsHouse_2F_Text_BrendanWhoAreYou",
+      "source_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Кто ты? Ты живёшь рядом? Меня зовут Брендан. Мой папа - профессор Бёрч. Он ждёт меня. Я помогаю ему ловить покемонов. До встречи!"
+        ],
+        "A2": [
+          "Привет! Значит, ваша семья сегодня переехала в соседний дом. Меня зовут Брендан, а мой папа - профессор Бёрч. Давай дружить! Ой, мне пора помогать папе ловить диких покемонов. Увидимся!"
+        ],
+        "natural": [
+          "Ой, привет! Значит, ты из новой семьи по соседству? Меня зовут Брендан. Папа, профессор Бёрч, уже рассказывал о тебе. Надеюсь, мы подружимся! Только сейчас мне пора: я обещаю помогать папе ловить диких покемонов. Ещё увидимся!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Wer bist du? Du wohnst nebenan? Ich heiße Brix. Mein Vater ist Professor Birk. Ich helfe ihm, Pokémon zu fangen. Bis bald!"
+        ],
+        "A2": [
+          "Hallo! Ihr seid also heute nebenan eingezogen. Ich heiße Brix. Mein Vater ist Professor Birk. Wir können Freunde werden! Oh, ich muss ihm helfen, wilde Pokémon zu fangen. Bis bald!"
+        ],
+        "natural": [
+          "Ach, hallo! Du gehörst also zu den neuen Nachbarn? Ich heiße Brix. Mein Vater, Professor Birk, hat mir schon von dir erzählt. Hoffentlich werden wir Freunde! Aber jetzt muss ich los: Ich soll ihm helfen, wilde Pokémon zu fangen. Wir sehen uns!"
+        ]
+      },
+      "english": [
+        "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помогать",
+            "to help"
+          ]
+        ],
+        "de": [
+          [
+            "helfen",
+            "to help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LabFieldwork",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Профессора Бёрча здесь нет. Он изучает покемонов на природе. Он любит работать на улице."
+        ],
+        "A2": [
+          "Профессор Бёрч ушёл изучать покемонов на природе. Это полевая работа: он наблюдает за ними не в лаборатории, а в лесах и горах."
+        ],
+        "natural": [
+          "Профессор Бёрч сейчас на полевых исследованиях. Он изучает покемонов в их естественной среде, а не в лаборатории. Ему больше нравится наблюдать всё своими глазами, чем сидеть за письменным столом."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Professor Birk ist nicht hier. Er erforscht Pokémon draußen in der Natur. Dort arbeitet er gern."
+        ],
+        "A2": [
+          "Professor Birk ist draußen unterwegs. Er macht Feldforschung: Er beobachtet Pokémon in der Natur statt im Labor."
+        ],
+        "natural": [
+          "Professor Birk ist gerade auf Feldforschung. Dabei untersucht er Pokémon in ihrer natürlichen Umgebung statt im Labor. Er beobachtet lieber selbst, als am Schreibtisch darüber zu lesen."
+        ]
+      },
+      "english": [
+        "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk."
+      ],
+      "words": {
+        "ru": [
+          [
+            "исследование",
+            "research; investigation"
+          ]
+        ],
+        "de": [
+          [
+            "die Forschung",
+            "research"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LabDesk",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Профессор любит работать на природе, а не сидеть за столом."
+        ],
+        "A2": [
+          "Профессор любит работать на природе, а не сидеть за столом."
+        ],
+        "natural": [
+          "Профессор любит работать на природе, а не сидеть за столом."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Professor arbeitet lieber draußen in der Natur als am Schreibtisch."
+        ],
+        "A2": [
+          "Der Professor arbeitet lieber draußen in der Natur als am Schreibtisch."
+        ],
+        "natural": [
+          "Der Professor arbeitet lieber draußen in der Natur als am Schreibtisch."
+        ]
+      },
+      "english": [
+        "The professor prefers fieldwork to desk work."
+      ],
+      "words": {
+        "ru": [
+          [
+            "природа",
+            "nature"
+          ]
+        ],
+        "de": [
+          [
+            "die Natur",
+            "nature"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LabFamily",
+      "base_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo",
+      "source_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+      "ru": {
+        "A1": [
+          "Профессор изучает, где живут покемоны. Его ребёнок помогает ему. Они очень близки."
+        ],
+        "A2": [
+          "Профессор изучает, где живут покемоны. Его ребёнок помогает ему. Они очень близки."
+        ],
+        "natural": [
+          "Профессор изучает, где живут покемоны. Его ребёнок помогает ему. Они очень близки."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Professor erforscht, wo Pokémon leben. Sein Kind hilft ihm dabei. Die beiden stehen sich sehr nahe."
+        ],
+        "A2": [
+          "Der Professor erforscht, wo Pokémon leben. Sein Kind hilft ihm dabei. Die beiden stehen sich sehr nahe."
+        ],
+        "natural": [
+          "Der Professor erforscht, wo Pokémon leben. Sein Kind hilft ihm dabei. Die beiden stehen sich sehr nahe."
+        ]
+      },
+      "english": [
+        "The professor studies Pokémon habitats with help from his child."
+      ],
+      "words": {
+        "ru": [
+          [
+            "изучать",
+            "to study"
+          ]
+        ],
+        "de": [
+          [
+            "erforschen",
+            "to research"
           ]
         ]
       }

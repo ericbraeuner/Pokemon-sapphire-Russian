@@ -541,6 +541,10 @@ static bool8 LoadBagGraphicsMultistep(void)
     {
     case 0:
         LZDecompressVram(gBagScreen_Gfx, (void *)(VRAM + 0x4000));
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerBagTilesRu : gLearnerBagTilesDe, (void *)(VRAM + 0x4000), 0x2000);
+#endif
         ewramBagSetupStep++;
         break;
     case 1:

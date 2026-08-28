@@ -20,15 +20,17 @@ startup/primary menus, and the map heading are translated too. Oldale's five
 shop items have translated names and descriptions in the buy and bag screens. Quantity
 and price remain live values in the translated purchase confirmation.
 It is still a partial translation: naming-keyboard button artwork, title/continue
-menus, bag graphics, most item/decor names and descriptions, species names in
+menus, most item/decor names and descriptions, species names in
 battle, later moves/effects, later TV broadcasts, and later scenes retain English.
 The clock's AM/PM artwork also remains unchanged.
 Shared item receipt/found/storage messages, bag action labels, basic bag prompts,
 and selling confirmations now use the selected language throughout the game.
 Pokédex search explanations, colors, ordering options, and search results are
-translated. Most individual item names still need coverage beyond the five above.
+translated. The shared catalogue now covers 23 common items, including stronger
+potions, revives, repellents and balls. Bag pocket labels and Pokédex search-button
+graphics are translated too, including during pocket-switch animations.
 The upstairs link club, detailed Pokémon box interface, remaining bag prompts,
-Pokédex heading/button artwork and species entries, and the shop's small MONEY
+the main Pokédex/list/detail artwork and species entries, and the shop's small MONEY
 graphic still need work.
 
 ## Try it
@@ -84,7 +86,11 @@ make -f language_learning/Makefile test
 make -j8 GAME_VERSION=SAPPHIRE LEARNER_DEMO=1
 ```
 
-Python 3.10 or later, agbcc, the host tools, and devkitARM are required. On this
+Python 3.10 or later, Pillow, agbcc, the host tools, and devkitARM are required.
+Install the Python dependency with `python -m pip install -r language_learning/requirements.txt`.
+Pillow reads the existing indexed graphics and bitmap font; only source code and
+label text are committed, while generated tile arrays stay in the ignored build.
+On this
 Windows setup, use MSYS2 with `/mingw64/bin` and devkitARM on `PATH`. If `python3`
 is unavailable, pass `PYTHON=/path/to/python.exe` to both commands. For example:
 

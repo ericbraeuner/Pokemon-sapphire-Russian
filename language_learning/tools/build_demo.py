@@ -146,6 +146,8 @@ def generate():
     parts.extend(opening.generate(russian, latin, glyphs))
     import ui
     parts.extend(ui.generate(russian, latin, glyphs))
+    import graphic_labels
+    parts.extend(graphic_labels.generate())
     indices = [255] * 256
     for index, code in enumerate(glyph_codes()[:len(glyphs)]):
         indices[code] = index

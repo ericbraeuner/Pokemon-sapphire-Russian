@@ -4738,6 +4738,10 @@ static void Task_LoadSearchMenu(u8 taskId)
             gPokedexView->currentPage = 2;
             ResetOtherVideoRegisters(0);
             LZ77UnCompVram(gPokedexMenuSearch_Gfx, (void *)VRAM);
+#if LEARNER_DEMO
+            if (Learner_GetLanguage())
+                CpuCopy16(Learner_GetLanguage() == 1 ? gLearnerDexSearchTilesRu : gLearnerDexSearchTilesDe, (void *)VRAM, 0x1000);
+#endif
             LZ77UnCompVram(gPokedexMenuSearch_Tilemap, (void *)(VRAM + 0x7800));
             LoadPalette(gPokedexMenuSearch_Pal + 1, 1, 0x7E);
             if (!IsNationalPokedexEnabled())

@@ -531,6 +531,24 @@ const u8 *Learner_ItemText(u16 itemId, bool8 description)
     {
         switch (itemId)
         {
+        case ITEM_GREAT_BALL: return description ? LEARNER_UI(Learner_GetLanguage(), GreatBallDesc) : LEARNER_UI(Learner_GetLanguage(), GreatBall);
+        case ITEM_ULTRA_BALL: return description ? LEARNER_UI(Learner_GetLanguage(), UltraBallDesc) : LEARNER_UI(Learner_GetLanguage(), UltraBall);
+        case ITEM_SUPER_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), SuperPotionDesc) : LEARNER_UI(Learner_GetLanguage(), SuperPotion);
+        case ITEM_HYPER_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), HyperPotionDesc) : LEARNER_UI(Learner_GetLanguage(), HyperPotion);
+        case ITEM_MAX_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), MaxPotionDesc) : LEARNER_UI(Learner_GetLanguage(), MaxPotion);
+        case ITEM_FULL_RESTORE: return description ? LEARNER_UI(Learner_GetLanguage(), FullRestoreDesc) : LEARNER_UI(Learner_GetLanguage(), FullRestore);
+        case ITEM_BURN_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), BurnHealDesc) : LEARNER_UI(Learner_GetLanguage(), BurnHeal);
+        case ITEM_ICE_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), IceHealDesc) : LEARNER_UI(Learner_GetLanguage(), IceHeal);
+        case ITEM_FULL_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), FullHealDesc) : LEARNER_UI(Learner_GetLanguage(), FullHeal);
+        case ITEM_REVIVE: return description ? LEARNER_UI(Learner_GetLanguage(), ReviveDesc) : LEARNER_UI(Learner_GetLanguage(), Revive);
+        case ITEM_MAX_REVIVE: return description ? LEARNER_UI(Learner_GetLanguage(), MaxReviveDesc) : LEARNER_UI(Learner_GetLanguage(), MaxRevive);
+        case ITEM_REPEL: return description ? LEARNER_UI(Learner_GetLanguage(), RepelDesc) : LEARNER_UI(Learner_GetLanguage(), Repel);
+        case ITEM_SUPER_REPEL: return description ? LEARNER_UI(Learner_GetLanguage(), SuperRepelDesc) : LEARNER_UI(Learner_GetLanguage(), SuperRepel);
+        case ITEM_MAX_REPEL: return description ? LEARNER_UI(Learner_GetLanguage(), MaxRepelDesc) : LEARNER_UI(Learner_GetLanguage(), MaxRepel);
+        case ITEM_ESCAPE_ROPE: return description ? LEARNER_UI(Learner_GetLanguage(), EscapeRopeDesc) : LEARNER_UI(Learner_GetLanguage(), EscapeRope);
+        case ITEM_RARE_CANDY: return description ? LEARNER_UI(Learner_GetLanguage(), RareCandyDesc) : LEARNER_UI(Learner_GetLanguage(), RareCandy);
+        case ITEM_ETHER: return description ? LEARNER_UI(Learner_GetLanguage(), EtherDesc) : LEARNER_UI(Learner_GetLanguage(), Ether);
+        case ITEM_ELIXIR: return description ? LEARNER_UI(Learner_GetLanguage(), ElixirDesc) : LEARNER_UI(Learner_GetLanguage(), Elixir);
         case ITEM_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), PotionDescription) : LEARNER_UI(Learner_GetLanguage(), Potion);
         case ITEM_ANTIDOTE: return description ? LEARNER_UI(Learner_GetLanguage(), AntidoteDesc) : LEARNER_UI(Learner_GetLanguage(), Antidote);
         case ITEM_PARALYZE_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), ParaHealDesc) : LEARNER_UI(Learner_GetLanguage(), ParaHeal);

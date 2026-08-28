@@ -136,6 +136,8 @@ ALL_OBJECTS += $(BUILD_DIR)/learner_demo.o
 build/learner_demo/lesson.s: language_learning/tools/field_templates.py language_learning/field_templates.json language_learning/tools/battle.py language_learning/battle.json language_learning/battle_names.json include/constants/moves.h include/constants/pokemon.h language_learning/tools/ui.py language_learning/ui.json language_learning/ui_sources.json language_learning/map_names.json include/constants/region_map_sections.h language_learning/tools/opening.py language_learning/opening.json language_learning/tools/build_demo.py language_learning/tools/validate.py language_learning/integration/lesson_script.inc language_learning/integration/dialogue_catalog.json language_learning/fonts/cyrillic.json $(wildcard language_learning/language_packs/*/pack.json) charmap.txt
 	$(PYTHON) language_learning/tools/build_demo.py
 
+build/learner_demo/lesson.s: language_learning/tools/graphic_labels.py language_learning/graphic_labels.json graphics/fonts/font0_lat.png graphics/interface/bag_screen.png graphics/pokedex/menu_search.png
+
 $(BUILD_DIR)/learner_demo.o: build/learner_demo/lesson.s language_learning/integration/lesson_script.inc
 	$(PREPROC) $< charmap.txt | $(CPP) -I include | $(PREPROC) -ie $< charmap.txt | $(AS) $(ASFLAGS) -o $@
 endif

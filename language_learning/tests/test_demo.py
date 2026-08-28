@@ -13,6 +13,7 @@ import opening
 import ui
 import battle
 import field_templates
+import graphic_labels
 
 
 class LessonTests(unittest.TestCase):
@@ -252,6 +253,42 @@ class LessonTests(unittest.TestCase):
                     self.assertIn(bytes([0xFD, token, 0xFC, 6, font]), data)
         with self.assertRaises(ValueError):
             field_templates.compile_text('{STR_VAR_1}\\p{STR_VAR_1}\\p{STR_VAR_1}', self.latin, {}, 3, {'STR_VAR_1': 80})
+
+    def test_graphic_labels_preserve_tiles_and_borders(self):
+        from PIL import Image
+        entries = validate.load(demo.ROOT / 'language_learning/graphic_labels.json')
+        for kind, (path, _, size) in graphic_labels.SHEETS.items():
+            with Image.open(demo.ROOT / path) as original:
+                source = original.copy()
+            for tag in ('ru', 'de'):
+                rendered = graphic_labels.render(kind, tag)
+                packed = graphic_labels.tile_bytes(rendered)
+                self.assertEqual(len(packed), size[0] * size[1] // 2)
+                allowed = set()
+                for e in entries[kind]:
+                    x, y = e['x'], e['y']
+                    if kind == 'bag':
+                        rect = (x, y + 1, x + 64, y + 15)
+                    else:
+                        rect = (x + 5, y + 2, x + 36, y + 14)
+                    allowed.update((px, py) for px in range(rect[0], rect[2]) for py in range(rect[1], rect[3]))
+                for y in range(size[1]):
+                    for x in range(size[0]):
+                        if (x, y) not in allowed:
+                            self.assertEqual(source.getpixel((x, y)), rendered.getpixel((x, y)))
+                        offset = ((y // 8) * (size[0] // 8) + x // 8) * 32 + (y % 8) * 4 + (x % 8) // 2
+                        self.assertEqual(rendered.getpixel((x, y)), (packed[offset] >> (4 * (x % 2))) & 15)
+
+    def test_shared_item_names_and_descriptions_fit(self):
+        import re
+        code = (demo.ROOT / 'src/shop.c').read_text()
+        names = re.findall(r'case ITEM_\w+: return description \? LEARNER_UI\(Learner_GetLanguage\(\), (\w+)\) : LEARNER_UI\(Learner_GetLanguage\(\), (\w+)\)', code)
+        self.assertEqual(len(names), 23)
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        for description, name in names:
+            for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
+                self.assertEqual(len(demo.wrap(entries[name][tag], mapping, glyphs, 88)), 1)
+                self.assertLessEqual(len(demo.wrap(entries[description][tag], mapping, glyphs, 104)), 2)
 
     def test_shared_display_hooks_and_new_game_only_tutorial(self):
         bag = (demo.ROOT / 'src/item_menu.c').read_text()

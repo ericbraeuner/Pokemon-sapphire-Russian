@@ -9,8 +9,11 @@ def generate(russian, latin, glyphs):
         if not re.fullmatch('[A-Za-z]+', name) or set(languages) != {'ru', 'de'}:
             raise ValueError('Invalid UI key or missing translation')
         for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
+            width = 104 if name.endswith(('Desc', 'Description')) else 184
+            if width == 104 and len(demo.wrap(languages[tag], mapping, glyphs if tag == 'ru' else {}, width)) > 2:
+                raise ValueError(f'Item description overflow: {name}/{tag}')
             parts.append(demo.assembly_bytes(f'LearnerUI_{tag}_{name}', demo.message(
-                [languages[tag]], mapping, glyphs if tag == 'ru' else {}, font, max_width=184)))
+                [languages[tag]], mapping, glyphs if tag == 'ru' else {}, font, max_width=width)))
     sources = demo.validate.load(demo.ROOT / 'language_learning/ui_sources.json')
     table = []
     for index, (symbol, entry) in enumerate(sources.items()):

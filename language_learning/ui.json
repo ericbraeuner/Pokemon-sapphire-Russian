@@ -142,5 +142,149 @@
   "PokeBallDesc": {
     "ru": "Для ловли.",
     "de": "Zum Fangen."
+  },
+  "GreatBall": {
+    "ru": "Супербол",
+    "de": "Superball"
+  },
+  "GreatBallDesc": {
+    "ru": "Ловит лучше покебола.",
+    "de": "Besser als Pokéball."
+  },
+  "UltraBall": {
+    "ru": "Гипербол",
+    "de": "Hyperball"
+  },
+  "UltraBallDesc": {
+    "ru": "Ловит лучше супербола.",
+    "de": "Besser als Superball."
+  },
+  "SuperPotion": {
+    "ru": "Суперзелье",
+    "de": "Supertrank"
+  },
+  "SuperPotionDesc": {
+    "ru": "Лечит 50 ОЗ.",
+    "de": "Heilt 50 KP."
+  },
+  "HyperPotion": {
+    "ru": "Гиперзелье",
+    "de": "Hypertrank"
+  },
+  "HyperPotionDesc": {
+    "ru": "Лечит 200 ОЗ.",
+    "de": "Heilt 200 KP."
+  },
+  "MaxPotion": {
+    "ru": "Макс. зелье",
+    "de": "Top-Trank"
+  },
+  "MaxPotionDesc": {
+    "ru": "Лечит все ОЗ.",
+    "de": "Heilt alle KP."
+  },
+  "FullRestore": {
+    "ru": "Полн. уход",
+    "de": "TopGenesung"
+  },
+  "FullRestoreDesc": {
+    "ru": "Все ОЗ и статус.",
+    "de": "Alle KP und Status."
+  },
+  "BurnHeal": {
+    "ru": "От ожога",
+    "de": "Feuerheiler"
+  },
+  "BurnHealDesc": {
+    "ru": "Лечит ожог.",
+    "de": "Heilt Verbrennung."
+  },
+  "IceHeal": {
+    "ru": "От льда",
+    "de": "Eisheiler"
+  },
+  "IceHealDesc": {
+    "ru": "Снимает заморозку.",
+    "de": "Taut Pokémon auf."
+  },
+  "FullHeal": {
+    "ru": "От статуса",
+    "de": "Hyperheiler"
+  },
+  "FullHealDesc": {
+    "ru": "Лечит проблемы статуса.",
+    "de": "Heilt Status."
+  },
+  "Revive": {
+    "ru": "Оживитель",
+    "de": "Beleber"
+  },
+  "ReviveDesc": {
+    "ru": "Оживляет с половиной ОЗ.",
+    "de": "Belebt mit halben KP."
+  },
+  "MaxRevive": {
+    "ru": "Макс. жизнь",
+    "de": "Top-Beleber"
+  },
+  "MaxReviveDesc": {
+    "ru": "Оживляет со всеми ОЗ.",
+    "de": "Belebt mit allen KP."
+  },
+  "Repel": {
+    "ru": "Отпугиватель",
+    "de": "Schutz"
+  },
+  "RepelDesc": {
+    "ru": "Отпугивает: 100 шагов.",
+    "de": "Schutz: 100 Schritte."
+  },
+  "SuperRepel": {
+    "ru": "Суперотпуг.",
+    "de": "Superschutz"
+  },
+  "SuperRepelDesc": {
+    "ru": "Отпугивает: 200 шагов.",
+    "de": "Schutz: 200 Schritte."
+  },
+  "MaxRepel": {
+    "ru": "Макс. отпуг.",
+    "de": "Top-Schutz"
+  },
+  "MaxRepelDesc": {
+    "ru": "Отпугивает: 250 шагов.",
+    "de": "Schutz: 250 Schritte."
+  },
+  "EscapeRope": {
+    "ru": "Верёвка",
+    "de": "Fluchtseil"
+  },
+  "EscapeRopeDesc": {
+    "ru": "Выход из пещеры.",
+    "de": "Raus aus der Höhle."
+  },
+  "RareCandy": {
+    "ru": "Редк. конф.",
+    "de": "Bonbon"
+  },
+  "RareCandyDesc": {
+    "ru": "Повышает уровень на 1.",
+    "de": "Erhöht Level um 1."
+  },
+  "Ether": {
+    "ru": "Эфир",
+    "de": "Äther"
+  },
+  "EtherDesc": {
+    "ru": "Даёт приёму 10 ОП.",
+    "de": "10 AP für eine Attacke."
+  },
+  "Elixir": {
+    "ru": "Эликсир",
+    "de": "Elixier"
+  },
+  "ElixirDesc": {
+    "ru": "Всем приёмам по 10 ОП.",
+    "de": "10 AP je Attacke."
   }
 }

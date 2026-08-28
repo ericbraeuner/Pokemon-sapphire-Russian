@@ -1,0 +1,20 @@
+{
+  "bag": [
+    {"x": 0, "y": 32, "ru": "Предметы", "de": "Items"},
+    {"x": 64, "y": 32, "ru": "Важное", "de": "Basis"},
+    {"x": 128, "y": 32, "ru": "ТМ и НМ", "de": "TM und VM"},
+    {"x": 192, "y": 32, "ru": "Ягоды", "de": "Beeren"},
+    {"x": 0, "y": 48, "ru": "Покеболы", "de": "Bälle"}
+  ],
+  "dex_search": [
+    {"x": 0, "y": 16, "background": 10, "ru": "Декс", "de": "Dex"},
+    {"x": 40, "y": 16, "background": 10, "ru": "Сорт.", "de": "Reihe"},
+    {"x": 80, "y": 16, "background": 10, "ru": "Имя", "de": "Name"},
+    {"x": 0, "y": 32, "background": 10, "ru": "Цвет", "de": "Farbe"},
+    {"x": 40, "y": 32, "background": 10, "ru": "Тип", "de": "TYP"},
+    {"x": 80, "y": 32, "background": 9, "ru": "Назад", "de": "Ende"},
+    {"x": 0, "y": 48, "background": 8, "ru": "ОК", "de": "OK"},
+    {"x": 40, "y": 48, "background": 8, "ru": "Вид", "de": "Liste"},
+    {"x": 80, "y": 48, "background": 8, "ru": "Поиск", "de": "Suche"}
+  ]
+}

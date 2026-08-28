@@ -40,12 +40,50 @@ LEARNER_DECLARE(AntidoteDesc)
 LEARNER_DECLARE(ParaHealDesc)
 LEARNER_DECLARE(AwakeningDesc)
 LEARNER_DECLARE(PokeBallDesc)
+LEARNER_DECLARE(GreatBall)
+LEARNER_DECLARE(GreatBallDesc)
+LEARNER_DECLARE(UltraBall)
+LEARNER_DECLARE(UltraBallDesc)
+LEARNER_DECLARE(SuperPotion)
+LEARNER_DECLARE(SuperPotionDesc)
+LEARNER_DECLARE(HyperPotion)
+LEARNER_DECLARE(HyperPotionDesc)
+LEARNER_DECLARE(MaxPotion)
+LEARNER_DECLARE(MaxPotionDesc)
+LEARNER_DECLARE(FullRestore)
+LEARNER_DECLARE(FullRestoreDesc)
+LEARNER_DECLARE(BurnHeal)
+LEARNER_DECLARE(BurnHealDesc)
+LEARNER_DECLARE(IceHeal)
+LEARNER_DECLARE(IceHealDesc)
+LEARNER_DECLARE(FullHeal)
+LEARNER_DECLARE(FullHealDesc)
+LEARNER_DECLARE(Revive)
+LEARNER_DECLARE(ReviveDesc)
+LEARNER_DECLARE(MaxRevive)
+LEARNER_DECLARE(MaxReviveDesc)
+LEARNER_DECLARE(Repel)
+LEARNER_DECLARE(RepelDesc)
+LEARNER_DECLARE(SuperRepel)
+LEARNER_DECLARE(SuperRepelDesc)
+LEARNER_DECLARE(MaxRepel)
+LEARNER_DECLARE(MaxRepelDesc)
+LEARNER_DECLARE(EscapeRope)
+LEARNER_DECLARE(EscapeRopeDesc)
+LEARNER_DECLARE(RareCandy)
+LEARNER_DECLARE(RareCandyDesc)
+LEARNER_DECLARE(Ether)
+LEARNER_DECLARE(EtherDesc)
+LEARNER_DECLARE(Elixir)
+LEARNER_DECLARE(ElixirDesc)
 #undef LEARNER_DECLARE
 #define LEARNER_UI(language, name) ((language) == 1 ? LearnerUI_ru_##name : LearnerUI_de_##name)
 void Learner_CommitNewGameSettings(void);
 u8 Learner_GetLanguage(void);
 const u8 *Learner_ItemText(u16 itemId, bool8 description);
 void Learner_CopyItemName(u16 itemId, u8 *dest);
+extern const u8 gLearnerBagTilesRu[], gLearnerBagTilesDe[];
+extern const u8 gLearnerDexSearchTilesRu[], gLearnerDexSearchTilesDe[];
 const u8 *Learner_Translate(const u8 *text);
 const u8 *Learner_MapName(u16 section, const u8 *fallback);
 #endif

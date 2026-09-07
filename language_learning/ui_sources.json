@@ -1186,5 +1186,341 @@
     "de": "Hier keine Post.",
     "width": 104,
     "lines": 2
+  },
+  "PCText_ExitBox": {
+    "ru": "Выйти из ящика?",
+    "de": "Box verlassen?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_WhatYouDo": {
+    "ru": "Что желаешь сделать?",
+    "de": "Was möchtest du tun?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_PickATheme": {
+    "ru": "Выбери тему.",
+    "de": "Wähle ein Thema.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_PickAWallpaper": {
+    "ru": "Выбери фон.",
+    "de": "Wähle einen Hintergrund.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_IsSelected": {
+    "ru": " выбран.",
+    "de": " ist ausgewählt.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_JumpToWhichBox": {
+    "ru": "В какой ящик перейти?",
+    "de": "Zu welcher Box wechseln?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_DepositInWhichBox": {
+    "ru": "В какой ящик положить?",
+    "de": "In welche Box ablegen?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_WasDeposited": {
+    "ru": " помещён в ящик.",
+    "de": " wurde abgelegt.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_BoxIsFull": {
+    "ru": "Ящик полон.",
+    "de": "Die Box ist voll.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_ReleasePoke": {
+    "ru": "Отпустить этого покемона?",
+    "de": "Dieses Pokémon freilassen?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_WasReleased": {
+    "ru": " отпущен.",
+    "de": " wurde freigelassen.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_ByeBye": {
+    "ru": "Прощай, !",
+    "de": "Tschüss, !",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_MarkPoke": {
+    "ru": "Поставь метки покемону.",
+    "de": "Markiere dein Pokémon.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_LastPoke": {
+    "ru": "Это твой последний покемон!",
+    "de": "Das ist dein letztes Pokémon!",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_PartyFull": {
+    "ru": "В команде нет места!",
+    "de": "Dein Team ist voll!",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_HoldingPoke": {
+    "ru": "Ты держишь покемона!",
+    "de": "Du hältst ein Pokémon!",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_WhichOneWillTake": {
+    "ru": "Кого ты возьмёшь?",
+    "de": "Welches nimmst du?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_CantReleaseEgg": {
+    "ru": "Яйцо нельзя отпустить.",
+    "de": "Ein Ei kann nicht freigelassen werden.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_ContinueBox": {
+    "ru": "Продолжить работу с ящиком?",
+    "de": "Box weiter benutzen?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_CameBack": {
+    "ru": " вернулся!",
+    "de": " kam zurück!",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_Worried": {
+    "ru": "Он беспокоился о тебе?",
+    "de": "Hat es sich um dich gesorgt?",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_PleaseRemoveMail": {
+    "ru": "Сначала сними письмо.",
+    "de": "Bitte zuerst den Brief abnehmen.",
+    "width": 192,
+    "lines": 4
+  },
+  "PCText_Cancel2": {
+    "ru": "Назад",
+    "de": "Zurück",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Deposit": {
+    "ru": "Положить",
+    "de": "Ablegen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Withdraw": {
+    "ru": "Взять",
+    "de": "Nehmen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Switch": {
+    "ru": "Обмен",
+    "de": "Tauschen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Move": {
+    "ru": "Двигать",
+    "de": "Bewegen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Place": {
+    "ru": "Поставить",
+    "de": "Ablegen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Summary": {
+    "ru": "Сводка",
+    "de": "Bericht",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Release": {
+    "ru": "Отпустить",
+    "de": "Freilass.",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Mark": {
+    "ru": "Метки",
+    "de": "Markieren",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Name": {
+    "ru": "Имя",
+    "de": "Benennen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Jump": {
+    "ru": "Перейти",
+    "de": "Wechseln",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Wallpaper": {
+    "ru": "Фон",
+    "de": "Motiv",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Scenery1": {
+    "ru": "Пейзажи 1",
+    "de": "Szenerie 1",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Scenery2": {
+    "ru": "Пейзажи 2",
+    "de": "Szenerie 2",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Scenery3": {
+    "ru": "Пейзажи 3",
+    "de": "Szenerie 3",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Etc": {
+    "ru": "Прочее",
+    "de": "Sonstiges",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Forest": {
+    "ru": "Лес",
+    "de": "Wald",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_City": {
+    "ru": "Город",
+    "de": "Stadt",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Desert": {
+    "ru": "Пустыня",
+    "de": "Wüste",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Savanna": {
+    "ru": "Саванна",
+    "de": "Savanne",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Crag": {
+    "ru": "Скалы",
+    "de": "Felsen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Volcano": {
+    "ru": "Вулкан",
+    "de": "Vulkan",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Snow": {
+    "ru": "Снег",
+    "de": "Schnee",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Cave": {
+    "ru": "Пещера",
+    "de": "Höhle",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Beach": {
+    "ru": "Пляж",
+    "de": "Strand",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Seafloor": {
+    "ru": "Морское дно",
+    "de": "Meeresb.",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_River": {
+    "ru": "Река",
+    "de": "Fluss",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Sky": {
+    "ru": "Небо",
+    "de": "Himmel",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Polka": {
+    "ru": "Горошек",
+    "de": "Punkte",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_PokeCenter": {
+    "ru": "Покецентр",
+    "de": "PokéCenter",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Machine": {
+    "ru": "Машины",
+    "de": "Maschinen",
+    "width": 80,
+    "lines": 1
+  },
+  "PCText_Plain": {
+    "ru": "Простой",
+    "de": "Schlicht",
+    "width": 80,
+    "lines": 1
+  },
+  "gDexText_CryOf": {
+    "ru": "Крик",
+    "de": "Ruf von",
+    "width": 96,
+    "lines": 1
+  },
+  "gDexText_SizeComparedTo": {
+    "ru": "Размер рядом с",
+    "de": "Größe neben",
+    "width": 144,
+    "lines": 1
   }
 }

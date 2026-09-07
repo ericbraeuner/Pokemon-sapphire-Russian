@@ -16,6 +16,9 @@
 #include "string_util.h"
 #include "pokemon_summary_screen.h"
 #include "mail_data.h"
+#ifdef LEARNER_DEMO
+#include "learner.h"
+#endif
 #include "naming_screen.h"
 #include "pokemon_storage_system.h"
 
@@ -1639,7 +1642,12 @@ void sub_8098350(void)
 void sub_8098400(void)
 {
     REG_BG1CNT = BGCNT_PRIORITY(1) | BGCNT_SCREENBASE(15);
+#ifdef LEARNER_DEMO
+    LZ77UnCompVram(Learner_GetLanguage() == 1 ? gLearnerStorageMiscTilesRu : gLearnerStorageMiscTilesDe,
+                   BG_SCREEN_ADDR(13));
+#else
     LZ77UnCompVram(gPSSMenuMisc_Gfx, BG_SCREEN_ADDR(13));
+#endif
     LZ77UnCompWram(gPSSMenuMisc_Tilemap, gPokemonStorageSystemPtr->unk_00a8);
     LoadPalette(gPSSMenu3_Pal, 0x20, 0x20);
     LoadPalette(gPSSMenu4_Pal, 0x30, 0x20);

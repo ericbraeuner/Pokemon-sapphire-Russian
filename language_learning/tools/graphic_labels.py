@@ -11,6 +11,7 @@ SHEETS = {
     'dex_search': ('graphics/pokedex/menu_search.png', 'DexSearchTiles', (128, 64)),
     'dex_main': ('graphics/pokedex/menu.png', 'DexMainTiles', (256, 96)),
     'dex_sprites': ('graphics/pokedex/menu2.png', 'DexSpriteTiles', (64, 248)),
+    'storage_misc': ('graphics/pokemon_storage/misc1.png', 'StorageMiscTiles', (72, 88)),
 }
 
 
@@ -37,6 +38,9 @@ def render(kind, tag):
     path, _, size = SHEETS[kind]
     with Image.open(demo.ROOT / path) as source:
         sheet = source.copy()
+    if kind == 'storage_misc' and sheet.mode == 'L':
+        # gbagfx assigns grayscale ramps in reverse palette order.
+        sheet = sheet.point(lambda value: 15 - value // 17).convert('P')
     if sheet.mode != 'P' or sheet.size != size:
         raise ValueError('Unexpected source tile sheet')
     with Image.open(demo.ROOT / 'graphics/fonts/font0_lat.png') as source:
@@ -98,7 +102,7 @@ def generate():
     for kind, (_, name, _) in SHEETS.items():
         for tag in ('ru', 'de'):
             data = tile_bytes(render(kind, tag))
-            if kind == 'dex_sprites':
+            if kind in ('dex_sprites', 'storage_misc'):
                 data = literal_lz(data)
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
                 'gLearner' + name + tag.title(), data))

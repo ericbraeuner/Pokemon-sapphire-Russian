@@ -111,9 +111,11 @@ Do not expect the demo ROM to match the original game's hash.
 
 ## Next development milestones
 
-1. Translate bag/Pokédex/naming artwork and expand the shared item catalogue,
-   then finish battle-message/move coverage. Play-test the Route 103 rival fight and
-   Pokédex handoff in both languages; expand route by route with a checklist.
+1. Translate the remaining Pokédex species/detail content, expand the shared
+   item catalogue, and finish battle-message/move coverage. The detailed Pokémon
+   storage actions and embedded party/close labels are now bilingual. Play-test
+   the Route 103 rival fight and Pokédex handoff in both languages; expand route
+   by route with a checklist.
 2. Add a dictionary shortcut during dialogue that pauses and restores the current
    page. Audit button uses first; R is a candidate, not an implemented shortcut.
 3. Connect exposures and dictionary requests to learner profiles, and add more

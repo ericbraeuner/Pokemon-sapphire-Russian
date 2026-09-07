@@ -189,5 +189,34 @@
       "ru": "Поймано",
       "de": "GEFANGEN"
     }
+  ],
+  "storage_misc": [
+    {
+      "x": 8,
+      "y": 32,
+      "width": 64,
+      "background": 1,
+      "ink": 10,
+      "ru": "Команда",
+      "de": "Team"
+    },
+    {
+      "x": 8,
+      "y": 48,
+      "width": 64,
+      "background": 5,
+      "ink": 10,
+      "ru": "Закрыть",
+      "de": "Schließen"
+    },
+    {
+      "x": 8,
+      "y": 64,
+      "width": 64,
+      "background": 5,
+      "ink": 7,
+      "ru": "Закрыть",
+      "de": "Schließen"
+    }
   ]
 }

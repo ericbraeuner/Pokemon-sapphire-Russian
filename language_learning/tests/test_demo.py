@@ -203,6 +203,19 @@ class LessonTests(unittest.TestCase):
             self.assertEqual({'ru', 'de', 'width', 'lines'}, set(entries[name]))
         self.assertLessEqual(entries['SystemText_Save']['width'], 56)
 
+    def test_storage_and_pokedex_detail_labels_are_registered(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        storage = (
+            'PCText_ExitBox', 'PCText_WhatYouDo', 'PCText_ReleasePoke',
+            'PCText_Deposit', 'PCText_Withdraw', 'PCText_Move',
+            'PCText_Summary', 'PCText_Mark', 'PCText_Name',
+            'PCText_Jump', 'PCText_Wallpaper', 'PCText_Cancel2',
+        )
+        for name in storage + ('gDexText_CryOf', 'gDexText_SizeComparedTo'):
+            self.assertEqual({'ru', 'de', 'width', 'lines'}, set(entries[name]))
+        for name in storage[3:]:
+            self.assertEqual(1, entries[name]['lines'])
+
     def test_oldale_dialogues_cover_all_local_text(self):
         import re
         entries = {entry['base_symbol'] for entry in opening.load()['dialogues']}
@@ -260,6 +273,8 @@ class LessonTests(unittest.TestCase):
         for kind, (path, _, size) in graphic_labels.SHEETS.items():
             with Image.open(demo.ROOT / path) as original:
                 source = original.copy()
+            if kind == 'storage_misc':
+                source = source.point(lambda value: 15 - value // 17).convert('P')
             for tag in ('ru', 'de'):
                 rendered = graphic_labels.render(kind, tag)
                 packed = graphic_labels.tile_bytes(rendered)
@@ -306,6 +321,9 @@ class LessonTests(unittest.TestCase):
                 decoded.extend(stream[cursor + 1:cursor + 9])
                 cursor += 9
             self.assertEqual(decoded, raw)
+        storage = (demo.ROOT / 'src/pokemon_storage_system_2.c').read_text()
+        self.assertIn('gLearnerStorageMiscTilesRu', storage)
+        self.assertIn('gLearnerStorageMiscTilesDe', storage)
 
     def test_bag_action_templates_keep_item_quantity_and_fit_pane(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

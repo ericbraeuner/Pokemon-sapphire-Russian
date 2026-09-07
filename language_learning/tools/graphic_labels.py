@@ -50,6 +50,31 @@ def render(kind, tag):
     entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')[kind]
     for entry in entries:
         x, y = entry['x'], entry['y']
+        if 'bottom_x' in entry:
+            label = Image.new('P', (24, 16))
+            label.putpalette(sheet.getpalette())
+            label.paste(sheet.crop((x, y, x + 24, y + 8)), (0, 0))
+            label.paste(sheet.crop((entry['bottom_x'], y + 8, entry['bottom_x'] + 24, y + 16)), (0, 8))
+            label.paste(12, (0, 3, 24, 14))
+            letters = []
+            for char in entry[tag]:
+                rows = glyph(char, latin, cyrillic if tag == 'ru' else {}, font)
+                occupied = [row for row in rows if any(row)]
+                letters.append(occupied or [[0] * len(rows[0])])
+            text_width = sum(len(g[0]) + 1 for g in letters) - 1
+            if text_width > 24 or any(len(g) > 11 for g in letters):
+                raise ValueError(f'Navbar label overflow: {tag}/{entry[tag]}')
+            cursor = (24 - text_width) // 2
+            for letter in letters:
+                top_row = 3 + (11 - len(letter)) // 2
+                for gy, row in enumerate(letter):
+                    for gx, bit in enumerate(row):
+                        if bit:
+                            label.putpixel((cursor + gx, top_row + gy), 15)
+                cursor += len(letter[0]) + 1
+            sheet.paste(label.crop((0, 0, 24, 8)), (x, y))
+            sheet.paste(label.crop((0, 8, 24, 16)), (entry['bottom_x'], y + 8))
+            continue
         if kind == 'bag':
             left, top, width, height, background, ink = x, y + 1, 64, 14, 10, 15
         elif kind == 'dex_search':

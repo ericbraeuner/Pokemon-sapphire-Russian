@@ -297,7 +297,11 @@ class LessonTests(unittest.TestCase):
                 allowed = set()
                 for e in entries[kind]:
                     x, y = e['x'], e['y']
-                    if kind == 'bag':
+                    if 'bottom_x' in e:
+                        allowed.update((px, py) for px in range(x, x + 24) for py in range(y, y + 8))
+                        allowed.update((px, py) for px in range(e['bottom_x'], e['bottom_x'] + 24) for py in range(y + 8, y + 16))
+                        continue
+                    elif kind == 'bag':
                         rect = (x, y + 1, x + 64, y + 15)
                     elif kind == 'dex_search':
                         rect = (x + 5, y + 2, x + 36, y + 14)

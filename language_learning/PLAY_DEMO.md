@@ -111,9 +111,9 @@ Do not expect the demo ROM to match the original game's hash.
 
 ## Next development milestones
 
-1. Translate the remaining Pokédex species/detail content, including the
-   PAGE/AREA/CRY/SIZE tile labels; expand the shared item catalogue; and finish
-   battle-message/move coverage. The detailed Pokémon
+1. Translate the remaining Pokédex species/detail content; expand the shared
+   item catalogue; and finish battle-message/move coverage. The compact
+   PAGE/AREA/CRY/SIZE labels and detailed Pokémon
    storage actions and embedded party/close labels are now bilingual. Play-test
    the Route 103 rival fight and Pokédex handoff in both languages; expand route
    by route with a checklist.

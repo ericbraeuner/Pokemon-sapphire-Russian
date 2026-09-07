@@ -18,9 +18,12 @@
   still matches SHA-1 `3ccbbd45f8553c36463f13b938e833f652b793e4`.
 - Save structure and player save files are unchanged.
 
-## Remaining Pokédex work
+## Pokédex tab follow-up
 
-The PAGE, AREA, CRY, and SIZE tabs are still English because their letters share
-a compact tile sheet with other UI fragments. They need a dedicated tile-map
-pass. Later species retain their original English names and descriptions until
-their entries are added to the shared selector.
+The compact PAGE, AREA, CRY, and SIZE tabs are now localized as **Стр / Где /
+Крик / Рост** and **S / Ort / Ruf / Gr**. Their upper and lower halves live in
+different source-tile locations, so the generator reconstructs each button before
+editing it and then writes the halves back without changing the tile map.
+
+Later species retain their original English names and descriptions until their
+entries are added to the shared selector.

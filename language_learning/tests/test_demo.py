@@ -216,6 +216,21 @@ class LessonTests(unittest.TestCase):
         for name in storage[3:]:
             self.assertEqual(1, entries[name]['lines'])
 
+    def test_early_pokedex_entries_are_bilingual_and_fit(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        species = ('Treecko', 'Torchic', 'Mudkip', 'Poochyena', 'Zigzagoon', 'Wurmple')
+        for name in species:
+            for suffix in ('Name', 'Kind', 'DexPageOne', 'DexPageTwo'):
+                self.assertEqual({'ru', 'de'}, set(entries[name + suffix]))
+            for page in ('DexPageOne', 'DexPageTwo'):
+                for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
+                    self.assertLessEqual(len(demo.wrap(entries[name + page][tag], mapping, glyphs, 168)), 3)
+        code = (demo.ROOT / 'src/pokedex.c').read_text()
+        for name in species:
+            self.assertIn('NATIONAL_DEX_' + name.upper(), code)
+            self.assertIn(name + 'DexPageOne', code)
+            self.assertIn(name + 'DexPageTwo', code)
+
     def test_oldale_dialogues_cover_all_local_text(self):
         import re
         entries = {entry['base_symbol'] for entry in opening.load()['dialogues']}

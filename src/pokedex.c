@@ -1249,6 +1249,11 @@ static void SpriteCB_PokedexListMonSprite(struct Sprite *sprite);
 static u8 LoadInfoScreen(struct PokedexListItem *, u8);
 static bool8 IsInfoScreenScrolling(u8 taskId);
 static u8 sub_808F284(struct PokedexListItem *, u8);
+#if LEARNER_DEMO
+static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback);
+static const u8 *LearnerDexCategory(u16 dexNum, const u8 *fallback);
+static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback);
+#endif
 static void Task_InitPageScreenMultistep(u8 taskId);
 static void Task_PageScreenProcessInput(u8 taskId);
 static void Task_LoadInfoScreenWaitForFade(u8 taskId);
@@ -2263,11 +2268,24 @@ static u8 CreateMonName(u16 num, u8 b, u8 c)
 {
     u8 text[POKEMON_NAME_LENGTH + (MODERN ? 1 : 0)];
     u8 i;
+#if LEARNER_DEMO
+    const u8 *translated;
+#endif
 
     for (i = 0; i < 10; i++)
         text[i] = CHAR_SPACE;
     text[i] = EOS;
 
+#if LEARNER_DEMO
+    translated = LearnerDexSpeciesName(num, NULL);
+    if (translated)
+    {
+        for (i = 0; translated[i] != EOS && i < POKEMON_NAME_LENGTH; i++)
+            text[i] = translated[i];
+        Menu_PrintTextPixelCoords(text, (b - 0x11) * 8 + 0xFC, c * 8, 0);
+        return i;
+    }
+#endif
     num = NationalPokedexNumToSpecies(num);
     switch (num)
     {
@@ -2969,10 +2987,22 @@ static void Task_InitPageScreenMultistep(u8 taskId)
         Menu_PrintText(gDexText_UnknownWeight, 16, 9);
         if (sPokedexListItem->owned)
         {
-            UnusedPrintMonName(gPokedexEntries[sPokedexListItem->dexNum].categoryName, CATEGORY_LEFT, 5);
+            UnusedPrintMonName(
+#if LEARNER_DEMO
+                LearnerDexCategory(sPokedexListItem->dexNum, gPokedexEntries[sPokedexListItem->dexNum].categoryName),
+#else
+                gPokedexEntries[sPokedexListItem->dexNum].categoryName,
+#endif
+                CATEGORY_LEFT, 5);
             sub_8091458(gPokedexEntries[sPokedexListItem->dexNum].height, 16, 7);
             sub_8091564(gPokedexEntries[sPokedexListItem->dexNum].weight, 16, 9);
-            Menu_PrintText(gPokedexEntries[sPokedexListItem->dexNum].descriptionPage1, 2, 13);
+            Menu_PrintText(
+#if LEARNER_DEMO
+                LearnerDexDescription(sPokedexListItem->dexNum, 0, gPokedexEntries[sPokedexListItem->dexNum].descriptionPage1),
+#else
+                gPokedexEntries[sPokedexListItem->dexNum].descriptionPage1,
+#endif
+                2, 13);
             sub_80C0DC0(14, 0x3FC);
         }
         else
@@ -3872,10 +3902,22 @@ static void sub_8090750(u8 taskId)
         Menu_PrintText(gDexText_UnknownPoke, CATEGORY_LEFT, 5);
         Menu_PrintText(gDexText_UnknownHeight, 16, 7);
         Menu_PrintText(gDexText_UnknownWeight, 16, 9);
-        UnusedPrintMonName(gPokedexEntries[dexNum].categoryName, CATEGORY_LEFT, 5);
+        UnusedPrintMonName(
+#if LEARNER_DEMO
+            LearnerDexCategory(dexNum, gPokedexEntries[dexNum].categoryName),
+#else
+            gPokedexEntries[dexNum].categoryName,
+#endif
+            CATEGORY_LEFT, 5);
         sub_8091458(gPokedexEntries[dexNum].height, 16, 7);
         sub_8091564(gPokedexEntries[dexNum].weight, 16, 9);
-        Menu_PrintText(gPokedexEntries[dexNum].descriptionPage1, 2, 13);
+        Menu_PrintText(
+#if LEARNER_DEMO
+            LearnerDexDescription(dexNum, 0, gPokedexEntries[dexNum].descriptionPage1),
+#else
+            gPokedexEntries[dexNum].descriptionPage1,
+#endif
+            2, 13);
         sub_80C0DC0(14, 0x3FC);
         gTasks[taskId].data[0]++;
         break;
@@ -3923,7 +3965,13 @@ static void sub_8090A3C(u8 taskId)
             u16 r4 = gTasks[taskId].data[1];
 
             Menu_EraseWindowRect(2, 13, 27, 19);
-            Menu_PrintText(gPokedexEntries[r4].descriptionPage2, 2, 13);
+            Menu_PrintText(
+#if LEARNER_DEMO
+                LearnerDexDescription(r4, 1, gPokedexEntries[r4].descriptionPage2),
+#else
+                gPokedexEntries[r4].descriptionPage2,
+#endif
+                2, 13);
             (*(u16 *)(BG_VRAM + 0x7ACA))++;
             (*(u16 *)(BG_VRAM + 0x7B0A))++;
             gTasks[taskId].data[4] = 1;
@@ -3987,7 +4035,13 @@ static void sub_8090C68(void)
         if (gPokedexView->descriptionPageNum == 0)
         {
             Menu_EraseWindowRect(2, 13, 27, 19);
-            Menu_PrintText(gPokedexEntries[sPokedexListItem->dexNum].descriptionPage2, 2, 13);
+            Menu_PrintText(
+#if LEARNER_DEMO
+                LearnerDexDescription(sPokedexListItem->dexNum, 1, gPokedexEntries[sPokedexListItem->dexNum].descriptionPage2),
+#else
+                gPokedexEntries[sPokedexListItem->dexNum].descriptionPage2,
+#endif
+                2, 13);
             gPokedexView->descriptionPageNum = 1;
             (*(u16 *)(BG_VRAM + 0x7ACA))++;
             (*(u16 *)(BG_VRAM + 0x7B0A))++;
@@ -3996,7 +4050,13 @@ static void sub_8090C68(void)
         else
         {
             Menu_EraseWindowRect(2, 13, 27, 19);
-            Menu_PrintText(gPokedexEntries[sPokedexListItem->dexNum].descriptionPage1, 2, 13);
+            Menu_PrintText(
+#if LEARNER_DEMO
+                LearnerDexDescription(sPokedexListItem->dexNum, 0, gPokedexEntries[sPokedexListItem->dexNum].descriptionPage1),
+#else
+                gPokedexEntries[sPokedexListItem->dexNum].descriptionPage1,
+#endif
+                2, 13);
             gPokedexView->descriptionPageNum = 0;
             (*(u16 *)(BG_VRAM + 0x7ACA))--;
             (*(u16 *)(BG_VRAM + 0x7B0A))--;
@@ -4218,6 +4278,50 @@ static void PrintEntryScreenDexNum(u16 order, u8 b, u8 c)
     Menu_PrintText(str, b, c);
 }
 
+#if LEARNER_DEMO
+static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback)
+{
+    switch (dexNum)
+    {
+    case NATIONAL_DEX_TREECKO: return LEARNER_UI(Learner_GetLanguage(), TreeckoName);
+    case NATIONAL_DEX_TORCHIC: return LEARNER_UI(Learner_GetLanguage(), TorchicName);
+    case NATIONAL_DEX_MUDKIP: return LEARNER_UI(Learner_GetLanguage(), MudkipName);
+    case NATIONAL_DEX_POOCHYENA: return LEARNER_UI(Learner_GetLanguage(), PoochyenaName);
+    case NATIONAL_DEX_ZIGZAGOON: return LEARNER_UI(Learner_GetLanguage(), ZigzagoonName);
+    case NATIONAL_DEX_WURMPLE: return LEARNER_UI(Learner_GetLanguage(), WurmpleName);
+    default: return fallback;
+    }
+}
+
+static const u8 *LearnerDexCategory(u16 dexNum, const u8 *fallback)
+{
+    switch (dexNum)
+    {
+    case NATIONAL_DEX_TREECKO: return LEARNER_UI(Learner_GetLanguage(), TreeckoKind);
+    case NATIONAL_DEX_TORCHIC: return LEARNER_UI(Learner_GetLanguage(), TorchicKind);
+    case NATIONAL_DEX_MUDKIP: return LEARNER_UI(Learner_GetLanguage(), MudkipKind);
+    case NATIONAL_DEX_POOCHYENA: return LEARNER_UI(Learner_GetLanguage(), PoochyenaKind);
+    case NATIONAL_DEX_ZIGZAGOON: return LEARNER_UI(Learner_GetLanguage(), ZigzagoonKind);
+    case NATIONAL_DEX_WURMPLE: return LEARNER_UI(Learner_GetLanguage(), WurmpleKind);
+    default: return fallback;
+    }
+}
+
+static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback)
+{
+    switch (dexNum)
+    {
+    case NATIONAL_DEX_TREECKO: return page ? LEARNER_UI(Learner_GetLanguage(), TreeckoDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), TreeckoDexPageOne);
+    case NATIONAL_DEX_TORCHIC: return page ? LEARNER_UI(Learner_GetLanguage(), TorchicDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), TorchicDexPageOne);
+    case NATIONAL_DEX_MUDKIP: return page ? LEARNER_UI(Learner_GetLanguage(), MudkipDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MudkipDexPageOne);
+    case NATIONAL_DEX_POOCHYENA: return page ? LEARNER_UI(Learner_GetLanguage(), PoochyenaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), PoochyenaDexPageOne);
+    case NATIONAL_DEX_ZIGZAGOON: return page ? LEARNER_UI(Learner_GetLanguage(), ZigzagoonDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ZigzagoonDexPageOne);
+    case NATIONAL_DEX_WURMPLE: return page ? LEARNER_UI(Learner_GetLanguage(), WurmpleDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), WurmpleDexPageOne);
+    default: return fallback;
+    }
+}
+#endif
+
 static u8 PrintEntryScreenSpeciesName(u16 num, u8 b, u8 c)
 {
     u8 str[11];
@@ -4225,6 +4329,16 @@ static u8 PrintEntryScreenSpeciesName(u16 num, u8 b, u8 c)
 
     for (i = 0; i < 11; i++)
         str[i] = EOS;
+#if LEARNER_DEMO
+    {
+        const u8 *translated = LearnerDexSpeciesName(num, NULL);
+        if (translated)
+        {
+            Menu_PrintText(translated, b, c);
+            return StringLength(translated);
+        }
+    }
+#endif
     num = NationalPokedexNumToSpecies(num);
     if (num)
     {
@@ -4248,6 +4362,19 @@ static u8 PrintCryScreenSpeciesName(u16 num, u8 b, u8 c, u8 d)
 
     end = StringCopy(str, sText_ClearTo0);
     str[2] = d;
+#if LEARNER_DEMO
+    {
+        const u8 *translated = LearnerDexSpeciesName(num, NULL);
+        if (translated)
+        {
+            for (i = 0; translated[i] != EOS && i < 10; i++)
+                end[i] = translated[i];
+            end[i] = EOS;
+            Menu_PrintText(str, b, c);
+            return i;
+        }
+    }
+#endif
     num = NationalPokedexNumToSpecies(num);
     switch (num)
     {

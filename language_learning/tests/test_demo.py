@@ -237,9 +237,15 @@ class LessonTests(unittest.TestCase):
     def test_pokedex_categories_fit_with_pokemon_suffix(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         species = tuple(name[:-4] for name in entries if name.endswith('Kind'))
-        self.assertGreaterEqual(len(species), 50)
+        self.assertGreaterEqual(len(species), 104)
+        code = (demo.ROOT / 'src/pokedex.c').read_text()
         for name in species:
+            self.assertEqual({'ru', 'de'}, set(entries[name + 'Name']))
+            self.assertIn('NATIONAL_DEX_' + name.upper(), code)
+            self.assertIn(name + 'Name', code)
+            self.assertIn(name + 'Kind', code)
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
+                self.assertLessEqual(len(demo.encode(entries[name + 'Name'][tag], mapping)), 10)
                 category = entries[name + 'Kind'][tag] + ' POKéMON'
                 self.assertEqual(len(demo.wrap(category, mapping, glyphs, 152)), 1)
 

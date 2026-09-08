@@ -4398,6 +4398,26 @@ static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback)
     case NATIONAL_DEX_GROUDON: return LEARNER_UI(Learner_GetLanguage(), GroudonName);
     case NATIONAL_DEX_JIRACHI: return LEARNER_UI(Learner_GetLanguage(), JirachiName);
     case NATIONAL_DEX_DEOXYS: return LEARNER_UI(Learner_GetLanguage(), DeoxysName);
+    case NATIONAL_DEX_VIGOROTH: return LEARNER_UI(Learner_GetLanguage(), VigorothName);
+    case NATIONAL_DEX_SLAKING: return LEARNER_UI(Learner_GetLanguage(), SlakingName);
+    case NATIONAL_DEX_ABRA: return LEARNER_UI(Learner_GetLanguage(), AbraName);
+    case NATIONAL_DEX_KADABRA: return LEARNER_UI(Learner_GetLanguage(), KadabraName);
+    case NATIONAL_DEX_ALAKAZAM: return LEARNER_UI(Learner_GetLanguage(), AlakazamName);
+    case NATIONAL_DEX_NINJASK: return LEARNER_UI(Learner_GetLanguage(), NinjaskName);
+    case NATIONAL_DEX_SHEDINJA: return LEARNER_UI(Learner_GetLanguage(), ShedinjaName);
+    case NATIONAL_DEX_GOLDEEN: return LEARNER_UI(Learner_GetLanguage(), GoldeenName);
+    case NATIONAL_DEX_SEAKING: return LEARNER_UI(Learner_GetLanguage(), SeakingName);
+    case NATIONAL_DEX_MAGIKARP: return LEARNER_UI(Learner_GetLanguage(), MagikarpName);
+    case NATIONAL_DEX_GYARADOS: return LEARNER_UI(Learner_GetLanguage(), GyaradosName);
+    case NATIONAL_DEX_AZURILL: return LEARNER_UI(Learner_GetLanguage(), AzurillName);
+    case NATIONAL_DEX_MARILL: return LEARNER_UI(Learner_GetLanguage(), MarillName);
+    case NATIONAL_DEX_AZUMARILL: return LEARNER_UI(Learner_GetLanguage(), AzumarillName);
+    case NATIONAL_DEX_GEODUDE: return LEARNER_UI(Learner_GetLanguage(), GeodudeName);
+    case NATIONAL_DEX_GRAVELER: return LEARNER_UI(Learner_GetLanguage(), GravelerName);
+    case NATIONAL_DEX_GOLEM: return LEARNER_UI(Learner_GetLanguage(), GolemName);
+    case NATIONAL_DEX_NOSEPASS: return LEARNER_UI(Learner_GetLanguage(), NosepassName);
+    case NATIONAL_DEX_DELCATTY: return LEARNER_UI(Learner_GetLanguage(), DelcattyName);
+    case NATIONAL_DEX_ZUBAT: return LEARNER_UI(Learner_GetLanguage(), ZubatName);
     default: return fallback;
     }
 }
@@ -4521,6 +4541,26 @@ static const u8 *LearnerDexCategory(u16 dexNum, const u8 *fallback)
     case NATIONAL_DEX_GROUDON: return LEARNER_UI(Learner_GetLanguage(), GroudonKind);
     case NATIONAL_DEX_JIRACHI: return LEARNER_UI(Learner_GetLanguage(), JirachiKind);
     case NATIONAL_DEX_DEOXYS: return LEARNER_UI(Learner_GetLanguage(), DeoxysKind);
+    case NATIONAL_DEX_VIGOROTH: return LEARNER_UI(Learner_GetLanguage(), VigorothKind);
+    case NATIONAL_DEX_SLAKING: return LEARNER_UI(Learner_GetLanguage(), SlakingKind);
+    case NATIONAL_DEX_ABRA: return LEARNER_UI(Learner_GetLanguage(), AbraKind);
+    case NATIONAL_DEX_KADABRA: return LEARNER_UI(Learner_GetLanguage(), KadabraKind);
+    case NATIONAL_DEX_ALAKAZAM: return LEARNER_UI(Learner_GetLanguage(), AlakazamKind);
+    case NATIONAL_DEX_NINJASK: return LEARNER_UI(Learner_GetLanguage(), NinjaskKind);
+    case NATIONAL_DEX_SHEDINJA: return LEARNER_UI(Learner_GetLanguage(), ShedinjaKind);
+    case NATIONAL_DEX_GOLDEEN: return LEARNER_UI(Learner_GetLanguage(), GoldeenKind);
+    case NATIONAL_DEX_SEAKING: return LEARNER_UI(Learner_GetLanguage(), SeakingKind);
+    case NATIONAL_DEX_MAGIKARP: return LEARNER_UI(Learner_GetLanguage(), MagikarpKind);
+    case NATIONAL_DEX_GYARADOS: return LEARNER_UI(Learner_GetLanguage(), GyaradosKind);
+    case NATIONAL_DEX_AZURILL: return LEARNER_UI(Learner_GetLanguage(), AzurillKind);
+    case NATIONAL_DEX_MARILL: return LEARNER_UI(Learner_GetLanguage(), MarillKind);
+    case NATIONAL_DEX_AZUMARILL: return LEARNER_UI(Learner_GetLanguage(), AzumarillKind);
+    case NATIONAL_DEX_GEODUDE: return LEARNER_UI(Learner_GetLanguage(), GeodudeKind);
+    case NATIONAL_DEX_GRAVELER: return LEARNER_UI(Learner_GetLanguage(), GravelerKind);
+    case NATIONAL_DEX_GOLEM: return LEARNER_UI(Learner_GetLanguage(), GolemKind);
+    case NATIONAL_DEX_NOSEPASS: return LEARNER_UI(Learner_GetLanguage(), NosepassKind);
+    case NATIONAL_DEX_DELCATTY: return LEARNER_UI(Learner_GetLanguage(), DelcattyKind);
+    case NATIONAL_DEX_ZUBAT: return LEARNER_UI(Learner_GetLanguage(), ZubatKind);
     default: return fallback;
     }
 }
@@ -4644,6 +4684,26 @@ static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback)
     case NATIONAL_DEX_GROUDON: return page ? LEARNER_UI(Learner_GetLanguage(), GroudonDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GroudonDexPageOne);
     case NATIONAL_DEX_JIRACHI: return page ? LEARNER_UI(Learner_GetLanguage(), JirachiDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), JirachiDexPageOne);
     case NATIONAL_DEX_DEOXYS: return page ? LEARNER_UI(Learner_GetLanguage(), DeoxysDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DeoxysDexPageOne);
+    case NATIONAL_DEX_VIGOROTH: return page ? LEARNER_UI(Learner_GetLanguage(), VigorothDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), VigorothDexPageOne);
+    case NATIONAL_DEX_SLAKING: return page ? LEARNER_UI(Learner_GetLanguage(), SlakingDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), SlakingDexPageOne);
+    case NATIONAL_DEX_ABRA: return page ? LEARNER_UI(Learner_GetLanguage(), AbraDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), AbraDexPageOne);
+    case NATIONAL_DEX_KADABRA: return page ? LEARNER_UI(Learner_GetLanguage(), KadabraDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), KadabraDexPageOne);
+    case NATIONAL_DEX_ALAKAZAM: return page ? LEARNER_UI(Learner_GetLanguage(), AlakazamDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), AlakazamDexPageOne);
+    case NATIONAL_DEX_NINJASK: return page ? LEARNER_UI(Learner_GetLanguage(), NinjaskDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), NinjaskDexPageOne);
+    case NATIONAL_DEX_SHEDINJA: return page ? LEARNER_UI(Learner_GetLanguage(), ShedinjaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ShedinjaDexPageOne);
+    case NATIONAL_DEX_GOLDEEN: return page ? LEARNER_UI(Learner_GetLanguage(), GoldeenDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GoldeenDexPageOne);
+    case NATIONAL_DEX_SEAKING: return page ? LEARNER_UI(Learner_GetLanguage(), SeakingDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), SeakingDexPageOne);
+    case NATIONAL_DEX_MAGIKARP: return page ? LEARNER_UI(Learner_GetLanguage(), MagikarpDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MagikarpDexPageOne);
+    case NATIONAL_DEX_GYARADOS: return page ? LEARNER_UI(Learner_GetLanguage(), GyaradosDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GyaradosDexPageOne);
+    case NATIONAL_DEX_AZURILL: return page ? LEARNER_UI(Learner_GetLanguage(), AzurillDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), AzurillDexPageOne);
+    case NATIONAL_DEX_MARILL: return page ? LEARNER_UI(Learner_GetLanguage(), MarillDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MarillDexPageOne);
+    case NATIONAL_DEX_AZUMARILL: return page ? LEARNER_UI(Learner_GetLanguage(), AzumarillDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), AzumarillDexPageOne);
+    case NATIONAL_DEX_GEODUDE: return page ? LEARNER_UI(Learner_GetLanguage(), GeodudeDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GeodudeDexPageOne);
+    case NATIONAL_DEX_GRAVELER: return page ? LEARNER_UI(Learner_GetLanguage(), GravelerDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GravelerDexPageOne);
+    case NATIONAL_DEX_GOLEM: return page ? LEARNER_UI(Learner_GetLanguage(), GolemDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GolemDexPageOne);
+    case NATIONAL_DEX_NOSEPASS: return page ? LEARNER_UI(Learner_GetLanguage(), NosepassDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), NosepassDexPageOne);
+    case NATIONAL_DEX_DELCATTY: return page ? LEARNER_UI(Learner_GetLanguage(), DelcattyDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DelcattyDexPageOne);
+    case NATIONAL_DEX_ZUBAT: return page ? LEARNER_UI(Learner_GetLanguage(), ZubatDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ZubatDexPageOne);
     default: return fallback;
     }
 }

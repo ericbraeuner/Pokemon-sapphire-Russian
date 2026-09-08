@@ -4418,6 +4418,26 @@ static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback)
     case NATIONAL_DEX_NOSEPASS: return LEARNER_UI(Learner_GetLanguage(), NosepassName);
     case NATIONAL_DEX_DELCATTY: return LEARNER_UI(Learner_GetLanguage(), DelcattyName);
     case NATIONAL_DEX_ZUBAT: return LEARNER_UI(Learner_GetLanguage(), ZubatName);
+    case NATIONAL_DEX_GOLBAT: return LEARNER_UI(Learner_GetLanguage(), GolbatName);
+    case NATIONAL_DEX_CROBAT: return LEARNER_UI(Learner_GetLanguage(), CrobatName);
+    case NATIONAL_DEX_TENTACOOL: return LEARNER_UI(Learner_GetLanguage(), TentacoolName);
+    case NATIONAL_DEX_TENTACRUEL: return LEARNER_UI(Learner_GetLanguage(), TentacruelName);
+    case NATIONAL_DEX_MACHOP: return LEARNER_UI(Learner_GetLanguage(), MachopName);
+    case NATIONAL_DEX_MACHOKE: return LEARNER_UI(Learner_GetLanguage(), MachokeName);
+    case NATIONAL_DEX_MACHAMP: return LEARNER_UI(Learner_GetLanguage(), MachampName);
+    case NATIONAL_DEX_MAGNEMITE: return LEARNER_UI(Learner_GetLanguage(), MagnemiteName);
+    case NATIONAL_DEX_MAGNETON: return LEARNER_UI(Learner_GetLanguage(), MagnetonName);
+    case NATIONAL_DEX_VOLTORB: return LEARNER_UI(Learner_GetLanguage(), VoltorbName);
+    case NATIONAL_DEX_ELECTRODE: return LEARNER_UI(Learner_GetLanguage(), ElectrodeName);
+    case NATIONAL_DEX_VOLBEAT: return LEARNER_UI(Learner_GetLanguage(), VolbeatName);
+    case NATIONAL_DEX_ILLUMISE: return LEARNER_UI(Learner_GetLanguage(), IllumiseName);
+    case NATIONAL_DEX_ODDISH: return LEARNER_UI(Learner_GetLanguage(), OddishName);
+    case NATIONAL_DEX_GLOOM: return LEARNER_UI(Learner_GetLanguage(), GloomName);
+    case NATIONAL_DEX_VILEPLUME: return LEARNER_UI(Learner_GetLanguage(), VileplumeName);
+    case NATIONAL_DEX_BELLOSSOM: return LEARNER_UI(Learner_GetLanguage(), BellossomName);
+    case NATIONAL_DEX_DODUO: return LEARNER_UI(Learner_GetLanguage(), DoduoName);
+    case NATIONAL_DEX_DODRIO: return LEARNER_UI(Learner_GetLanguage(), DodrioName);
+    case NATIONAL_DEX_CARVANHA: return LEARNER_UI(Learner_GetLanguage(), CarvanhaName);
     default: return fallback;
     }
 }
@@ -4561,6 +4581,26 @@ static const u8 *LearnerDexCategory(u16 dexNum, const u8 *fallback)
     case NATIONAL_DEX_NOSEPASS: return LEARNER_UI(Learner_GetLanguage(), NosepassKind);
     case NATIONAL_DEX_DELCATTY: return LEARNER_UI(Learner_GetLanguage(), DelcattyKind);
     case NATIONAL_DEX_ZUBAT: return LEARNER_UI(Learner_GetLanguage(), ZubatKind);
+    case NATIONAL_DEX_GOLBAT: return LEARNER_UI(Learner_GetLanguage(), GolbatKind);
+    case NATIONAL_DEX_CROBAT: return LEARNER_UI(Learner_GetLanguage(), CrobatKind);
+    case NATIONAL_DEX_TENTACOOL: return LEARNER_UI(Learner_GetLanguage(), TentacoolKind);
+    case NATIONAL_DEX_TENTACRUEL: return LEARNER_UI(Learner_GetLanguage(), TentacruelKind);
+    case NATIONAL_DEX_MACHOP: return LEARNER_UI(Learner_GetLanguage(), MachopKind);
+    case NATIONAL_DEX_MACHOKE: return LEARNER_UI(Learner_GetLanguage(), MachokeKind);
+    case NATIONAL_DEX_MACHAMP: return LEARNER_UI(Learner_GetLanguage(), MachampKind);
+    case NATIONAL_DEX_MAGNEMITE: return LEARNER_UI(Learner_GetLanguage(), MagnemiteKind);
+    case NATIONAL_DEX_MAGNETON: return LEARNER_UI(Learner_GetLanguage(), MagnetonKind);
+    case NATIONAL_DEX_VOLTORB: return LEARNER_UI(Learner_GetLanguage(), VoltorbKind);
+    case NATIONAL_DEX_ELECTRODE: return LEARNER_UI(Learner_GetLanguage(), ElectrodeKind);
+    case NATIONAL_DEX_VOLBEAT: return LEARNER_UI(Learner_GetLanguage(), VolbeatKind);
+    case NATIONAL_DEX_ILLUMISE: return LEARNER_UI(Learner_GetLanguage(), IllumiseKind);
+    case NATIONAL_DEX_ODDISH: return LEARNER_UI(Learner_GetLanguage(), OddishKind);
+    case NATIONAL_DEX_GLOOM: return LEARNER_UI(Learner_GetLanguage(), GloomKind);
+    case NATIONAL_DEX_VILEPLUME: return LEARNER_UI(Learner_GetLanguage(), VileplumeKind);
+    case NATIONAL_DEX_BELLOSSOM: return LEARNER_UI(Learner_GetLanguage(), BellossomKind);
+    case NATIONAL_DEX_DODUO: return LEARNER_UI(Learner_GetLanguage(), DoduoKind);
+    case NATIONAL_DEX_DODRIO: return LEARNER_UI(Learner_GetLanguage(), DodrioKind);
+    case NATIONAL_DEX_CARVANHA: return LEARNER_UI(Learner_GetLanguage(), CarvanhaKind);
     default: return fallback;
     }
 }
@@ -4704,6 +4744,26 @@ static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback)
     case NATIONAL_DEX_NOSEPASS: return page ? LEARNER_UI(Learner_GetLanguage(), NosepassDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), NosepassDexPageOne);
     case NATIONAL_DEX_DELCATTY: return page ? LEARNER_UI(Learner_GetLanguage(), DelcattyDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DelcattyDexPageOne);
     case NATIONAL_DEX_ZUBAT: return page ? LEARNER_UI(Learner_GetLanguage(), ZubatDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ZubatDexPageOne);
+    case NATIONAL_DEX_GOLBAT: return page ? LEARNER_UI(Learner_GetLanguage(), GolbatDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GolbatDexPageOne);
+    case NATIONAL_DEX_CROBAT: return page ? LEARNER_UI(Learner_GetLanguage(), CrobatDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), CrobatDexPageOne);
+    case NATIONAL_DEX_TENTACOOL: return page ? LEARNER_UI(Learner_GetLanguage(), TentacoolDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), TentacoolDexPageOne);
+    case NATIONAL_DEX_TENTACRUEL: return page ? LEARNER_UI(Learner_GetLanguage(), TentacruelDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), TentacruelDexPageOne);
+    case NATIONAL_DEX_MACHOP: return page ? LEARNER_UI(Learner_GetLanguage(), MachopDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MachopDexPageOne);
+    case NATIONAL_DEX_MACHOKE: return page ? LEARNER_UI(Learner_GetLanguage(), MachokeDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MachokeDexPageOne);
+    case NATIONAL_DEX_MACHAMP: return page ? LEARNER_UI(Learner_GetLanguage(), MachampDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MachampDexPageOne);
+    case NATIONAL_DEX_MAGNEMITE: return page ? LEARNER_UI(Learner_GetLanguage(), MagnemiteDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MagnemiteDexPageOne);
+    case NATIONAL_DEX_MAGNETON: return page ? LEARNER_UI(Learner_GetLanguage(), MagnetonDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MagnetonDexPageOne);
+    case NATIONAL_DEX_VOLTORB: return page ? LEARNER_UI(Learner_GetLanguage(), VoltorbDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), VoltorbDexPageOne);
+    case NATIONAL_DEX_ELECTRODE: return page ? LEARNER_UI(Learner_GetLanguage(), ElectrodeDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ElectrodeDexPageOne);
+    case NATIONAL_DEX_VOLBEAT: return page ? LEARNER_UI(Learner_GetLanguage(), VolbeatDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), VolbeatDexPageOne);
+    case NATIONAL_DEX_ILLUMISE: return page ? LEARNER_UI(Learner_GetLanguage(), IllumiseDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), IllumiseDexPageOne);
+    case NATIONAL_DEX_ODDISH: return page ? LEARNER_UI(Learner_GetLanguage(), OddishDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), OddishDexPageOne);
+    case NATIONAL_DEX_GLOOM: return page ? LEARNER_UI(Learner_GetLanguage(), GloomDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GloomDexPageOne);
+    case NATIONAL_DEX_VILEPLUME: return page ? LEARNER_UI(Learner_GetLanguage(), VileplumeDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), VileplumeDexPageOne);
+    case NATIONAL_DEX_BELLOSSOM: return page ? LEARNER_UI(Learner_GetLanguage(), BellossomDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), BellossomDexPageOne);
+    case NATIONAL_DEX_DODUO: return page ? LEARNER_UI(Learner_GetLanguage(), DoduoDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DoduoDexPageOne);
+    case NATIONAL_DEX_DODRIO: return page ? LEARNER_UI(Learner_GetLanguage(), DodrioDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DodrioDexPageOne);
+    case NATIONAL_DEX_CARVANHA: return page ? LEARNER_UI(Learner_GetLanguage(), CarvanhaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), CarvanhaDexPageOne);
     default: return fallback;
     }
 }

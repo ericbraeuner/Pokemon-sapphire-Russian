@@ -4387,6 +4387,17 @@ static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback)
     case NATIONAL_DEX_LATIOS: return LEARNER_UI(Learner_GetLanguage(), LatiosName);
     case NATIONAL_DEX_KYOGRE: return LEARNER_UI(Learner_GetLanguage(), KyogreName);
     case NATIONAL_DEX_RAYQUAZA: return LEARNER_UI(Learner_GetLanguage(), RayquazaName);
+    case NATIONAL_DEX_BELDUM: return LEARNER_UI(Learner_GetLanguage(), BeldumName);
+    case NATIONAL_DEX_MAWILE: return LEARNER_UI(Learner_GetLanguage(), MawileName);
+    case NATIONAL_DEX_TORKOAL: return LEARNER_UI(Learner_GetLanguage(), TorkoalName);
+    case NATIONAL_DEX_SPINDA: return LEARNER_UI(Learner_GetLanguage(), SpindaName);
+    case NATIONAL_DEX_CACNEA: return LEARNER_UI(Learner_GetLanguage(), CacneaName);
+    case NATIONAL_DEX_CACTURNE: return LEARNER_UI(Learner_GetLanguage(), CacturneName);
+    case NATIONAL_DEX_LUNATONE: return LEARNER_UI(Learner_GetLanguage(), LunatoneName);
+    case NATIONAL_DEX_SOLROCK: return LEARNER_UI(Learner_GetLanguage(), SolrockName);
+    case NATIONAL_DEX_GROUDON: return LEARNER_UI(Learner_GetLanguage(), GroudonName);
+    case NATIONAL_DEX_JIRACHI: return LEARNER_UI(Learner_GetLanguage(), JirachiName);
+    case NATIONAL_DEX_DEOXYS: return LEARNER_UI(Learner_GetLanguage(), DeoxysName);
     default: return fallback;
     }
 }
@@ -4499,6 +4510,17 @@ static const u8 *LearnerDexCategory(u16 dexNum, const u8 *fallback)
     case NATIONAL_DEX_LATIOS: return LEARNER_UI(Learner_GetLanguage(), LatiosKind);
     case NATIONAL_DEX_KYOGRE: return LEARNER_UI(Learner_GetLanguage(), KyogreKind);
     case NATIONAL_DEX_RAYQUAZA: return LEARNER_UI(Learner_GetLanguage(), RayquazaKind);
+    case NATIONAL_DEX_BELDUM: return LEARNER_UI(Learner_GetLanguage(), BeldumKind);
+    case NATIONAL_DEX_MAWILE: return LEARNER_UI(Learner_GetLanguage(), MawileKind);
+    case NATIONAL_DEX_TORKOAL: return LEARNER_UI(Learner_GetLanguage(), TorkoalKind);
+    case NATIONAL_DEX_SPINDA: return LEARNER_UI(Learner_GetLanguage(), SpindaKind);
+    case NATIONAL_DEX_CACNEA: return LEARNER_UI(Learner_GetLanguage(), CacneaKind);
+    case NATIONAL_DEX_CACTURNE: return LEARNER_UI(Learner_GetLanguage(), CacturneKind);
+    case NATIONAL_DEX_LUNATONE: return LEARNER_UI(Learner_GetLanguage(), LunatoneKind);
+    case NATIONAL_DEX_SOLROCK: return LEARNER_UI(Learner_GetLanguage(), SolrockKind);
+    case NATIONAL_DEX_GROUDON: return LEARNER_UI(Learner_GetLanguage(), GroudonKind);
+    case NATIONAL_DEX_JIRACHI: return LEARNER_UI(Learner_GetLanguage(), JirachiKind);
+    case NATIONAL_DEX_DEOXYS: return LEARNER_UI(Learner_GetLanguage(), DeoxysKind);
     default: return fallback;
     }
 }

@@ -4581,6 +4581,36 @@ static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback)
     case NATIONAL_DEX_BRELOOM: return page ? LEARNER_UI(Learner_GetLanguage(), BreloomDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), BreloomDexPageOne);
     case NATIONAL_DEX_LOUDRED: return page ? LEARNER_UI(Learner_GetLanguage(), LoudredDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), LoudredDexPageOne);
     case NATIONAL_DEX_EXPLOUD: return page ? LEARNER_UI(Learner_GetLanguage(), ExploudDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ExploudDexPageOne);
+    case NATIONAL_DEX_HARIYAMA: return page ? LEARNER_UI(Learner_GetLanguage(), HariyamaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), HariyamaDexPageOne);
+    case NATIONAL_DEX_LAIRON: return page ? LEARNER_UI(Learner_GetLanguage(), LaironDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), LaironDexPageOne);
+    case NATIONAL_DEX_AGGRON: return page ? LEARNER_UI(Learner_GetLanguage(), AggronDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), AggronDexPageOne);
+    case NATIONAL_DEX_MEDICHAM: return page ? LEARNER_UI(Learner_GetLanguage(), MedichamDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MedichamDexPageOne);
+    case NATIONAL_DEX_MANECTRIC: return page ? LEARNER_UI(Learner_GetLanguage(), ManectricDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ManectricDexPageOne);
+    case NATIONAL_DEX_SWALOT: return page ? LEARNER_UI(Learner_GetLanguage(), SwalotDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), SwalotDexPageOne);
+    case NATIONAL_DEX_CAMERUPT: return page ? LEARNER_UI(Learner_GetLanguage(), CameruptDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), CameruptDexPageOne);
+    case NATIONAL_DEX_GRUMPIG: return page ? LEARNER_UI(Learner_GetLanguage(), GrumpigDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GrumpigDexPageOne);
+    case NATIONAL_DEX_VIBRAVA: return page ? LEARNER_UI(Learner_GetLanguage(), VibravaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), VibravaDexPageOne);
+    case NATIONAL_DEX_FLYGON: return page ? LEARNER_UI(Learner_GetLanguage(), FlygonDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), FlygonDexPageOne);
+    case NATIONAL_DEX_ALTARIA: return page ? LEARNER_UI(Learner_GetLanguage(), AltariaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), AltariaDexPageOne);
+    case NATIONAL_DEX_GLALIE: return page ? LEARNER_UI(Learner_GetLanguage(), GlalieDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GlalieDexPageOne);
+    case NATIONAL_DEX_WALREIN: return page ? LEARNER_UI(Learner_GetLanguage(), WalreinDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), WalreinDexPageOne);
+    case NATIONAL_DEX_HUNTAIL: return page ? LEARNER_UI(Learner_GetLanguage(), HuntailDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), HuntailDexPageOne);
+    case NATIONAL_DEX_GOREBYSS: return page ? LEARNER_UI(Learner_GetLanguage(), GorebyssDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GorebyssDexPageOne);
+    case NATIONAL_DEX_SHELGON: return page ? LEARNER_UI(Learner_GetLanguage(), ShelgonDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ShelgonDexPageOne);
+    case NATIONAL_DEX_SALAMENCE: return page ? LEARNER_UI(Learner_GetLanguage(), SalamenceDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), SalamenceDexPageOne);
+    case NATIONAL_DEX_CRADILY: return page ? LEARNER_UI(Learner_GetLanguage(), CradilyDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), CradilyDexPageOne);
+    case NATIONAL_DEX_ARMALDO: return page ? LEARNER_UI(Learner_GetLanguage(), ArmaldoDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), ArmaldoDexPageOne);
+    case NATIONAL_DEX_BANETTE: return page ? LEARNER_UI(Learner_GetLanguage(), BanetteDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), BanetteDexPageOne);
+    case NATIONAL_DEX_DUSCLOPS: return page ? LEARNER_UI(Learner_GetLanguage(), DusclopsDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DusclopsDexPageOne);
+    case NATIONAL_DEX_METANG: return page ? LEARNER_UI(Learner_GetLanguage(), MetangDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MetangDexPageOne);
+    case NATIONAL_DEX_METAGROSS: return page ? LEARNER_UI(Learner_GetLanguage(), MetagrossDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MetagrossDexPageOne);
+    case NATIONAL_DEX_REGIROCK: return page ? LEARNER_UI(Learner_GetLanguage(), RegirockDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), RegirockDexPageOne);
+    case NATIONAL_DEX_REGICE: return page ? LEARNER_UI(Learner_GetLanguage(), RegiceDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), RegiceDexPageOne);
+    case NATIONAL_DEX_REGISTEEL: return page ? LEARNER_UI(Learner_GetLanguage(), RegisteelDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), RegisteelDexPageOne);
+    case NATIONAL_DEX_LATIAS: return page ? LEARNER_UI(Learner_GetLanguage(), LatiasDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), LatiasDexPageOne);
+    case NATIONAL_DEX_LATIOS: return page ? LEARNER_UI(Learner_GetLanguage(), LatiosDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), LatiosDexPageOne);
+    case NATIONAL_DEX_KYOGRE: return page ? LEARNER_UI(Learner_GetLanguage(), KyogreDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), KyogreDexPageOne);
+    case NATIONAL_DEX_RAYQUAZA: return page ? LEARNER_UI(Learner_GetLanguage(), RayquazaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), RayquazaDexPageOne);
     default: return fallback;
     }
 }

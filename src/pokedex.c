@@ -4633,6 +4633,17 @@ static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback)
     case NATIONAL_DEX_LATIOS: return page ? LEARNER_UI(Learner_GetLanguage(), LatiosDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), LatiosDexPageOne);
     case NATIONAL_DEX_KYOGRE: return page ? LEARNER_UI(Learner_GetLanguage(), KyogreDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), KyogreDexPageOne);
     case NATIONAL_DEX_RAYQUAZA: return page ? LEARNER_UI(Learner_GetLanguage(), RayquazaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), RayquazaDexPageOne);
+    case NATIONAL_DEX_BELDUM: return page ? LEARNER_UI(Learner_GetLanguage(), BeldumDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), BeldumDexPageOne);
+    case NATIONAL_DEX_MAWILE: return page ? LEARNER_UI(Learner_GetLanguage(), MawileDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), MawileDexPageOne);
+    case NATIONAL_DEX_TORKOAL: return page ? LEARNER_UI(Learner_GetLanguage(), TorkoalDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), TorkoalDexPageOne);
+    case NATIONAL_DEX_SPINDA: return page ? LEARNER_UI(Learner_GetLanguage(), SpindaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), SpindaDexPageOne);
+    case NATIONAL_DEX_CACNEA: return page ? LEARNER_UI(Learner_GetLanguage(), CacneaDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), CacneaDexPageOne);
+    case NATIONAL_DEX_CACTURNE: return page ? LEARNER_UI(Learner_GetLanguage(), CacturneDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), CacturneDexPageOne);
+    case NATIONAL_DEX_LUNATONE: return page ? LEARNER_UI(Learner_GetLanguage(), LunatoneDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), LunatoneDexPageOne);
+    case NATIONAL_DEX_SOLROCK: return page ? LEARNER_UI(Learner_GetLanguage(), SolrockDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), SolrockDexPageOne);
+    case NATIONAL_DEX_GROUDON: return page ? LEARNER_UI(Learner_GetLanguage(), GroudonDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), GroudonDexPageOne);
+    case NATIONAL_DEX_JIRACHI: return page ? LEARNER_UI(Learner_GetLanguage(), JirachiDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), JirachiDexPageOne);
+    case NATIONAL_DEX_DEOXYS: return page ? LEARNER_UI(Learner_GetLanguage(), DeoxysDexPageTwo) : LEARNER_UI(Learner_GetLanguage(), DeoxysDexPageOne);
     default: return fallback;
     }
 }

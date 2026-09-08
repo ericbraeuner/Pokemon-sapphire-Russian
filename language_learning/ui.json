@@ -864,4 +864,26 @@
   ,"AbilityOvergrow":{"ru":"ЗАРОСЛИ","de":"NOTDÜNGER"},"AbilityOvergrowDesc":{"ru":"Трава сильнее при малых ОЗ.","de":"Pflanze stärker."}
   ,"AbilityBlaze":{"ru":"ПЛАМЯ","de":"GROSSBRAND"},"AbilityBlazeDesc":{"ru":"Огонь сильнее при малых ОЗ.","de":"Feuer stärker."}
   ,"AbilityTorrent":{"ru":"ПОТОК","de":"STURZBACH"},"AbilityTorrentDesc":{"ru":"Вода сильнее при малых ОЗ.","de":"Wasser stärker."}
+  ,"AbilityShieldDust":{"ru":"ПЫЛЕЗАЩИТА","de":"PUDERABWEHR"},"AbilityShieldDustDesc":{"ru":"Блокирует доп. эффекты.","de":"Stoppt Nebeneffekt."}
+  ,"AbilityShedSkin":{"ru":"ЛИНЬКА","de":"EXPIDERMIS"},"AbilityShedSkinDesc":{"ru":"Может снять статус.","de":"Heilt durch Häutung."}
+  ,"AbilityCompoundEyes":{"ru":"ФАСЕТ. ГЛАЗА","de":"FACETTENAUGE"},"AbilityCompoundEyesDesc":{"ru":"Повышает точность.","de":"Steigert Genauigkeit."}
+  ,"AbilitySwarm":{"ru":"РОЙ","de":"HEXAPLAGA"},"AbilitySwarmDesc":{"ru":"Жуки сильнее при малых ОЗ.","de":"Käfer stärker bei Not."}
+  ,"AbilityKeenEye":{"ru":"ОСТРЫЙ ГЛАЗ","de":"ADLERAUGE"},"AbilityKeenEyeDesc":{"ru":"Точность нельзя снизить.","de":"Schützt die Genauigkeit."}
+  ,"AbilityRunAway":{"ru":"ПОБЕГ","de":"ANGSTHASE"},"AbilityRunAwayDesc":{"ru":"Облегчает побег.","de":"Erleichtert die Flucht."}
+  ,"AbilityGuts":{"ru":"СМЕЛОСТЬ","de":"ADRENALIN"},"AbilityGutsDesc":{"ru":"Атака выше при статусе.","de":"Mehr Angriff bei Status."}
+  ,"AbilityIntimidate":{"ru":"УСТРАШЕНИЕ","de":"BEDROHER"},"AbilityIntimidateDesc":{"ru":"Снижает атаку врага.","de":"Senkt Angriff des Gegners."}
+  ,"AbilityStatic":{"ru":"СТАТИКА","de":"STATIK"},"AbilityStaticDesc":{"ru":"Парализует при касании.","de":"Paralyse bei Berührung."}
+  ,"AbilitySandVeil":{"ru":"ПЕСЧ. ЗАВЕСА","de":"SANDSCHLEIER"},"AbilitySandVeilDesc":{"ru":"Уклонение выше в песке.","de":"Mehr Flucht im Sand."}
+  ,"AbilityPoisonPoint":{"ru":"ЯДОВИТЫЙ ШИП","de":"GIFTDORN"},"AbilityPoisonPointDesc":{"ru":"Отравляет при касании.","de":"Vergiftet bei Berührung."}
+  ,"AbilityCuteCharm":{"ru":"ОБАЯНИЕ","de":"CHARMEBOLZEN"},"AbilityCuteCharmDesc":{"ru":"Влюбляет при касании.","de":"Betört bei Berührung."}
+  ,"AbilityFlashFire":{"ru":"ПОГЛОЩ. ОГНЯ","de":"FEUERFÄNGER"},"AbilityFlashFireDesc":{"ru":"Поглощает огонь.","de":"Feuer macht stärker."}
+  ,"AbilityInnerFocus":{"ru":"КОНЦЕНТРАЦИЯ","de":"KONZENTRATOR"},"AbilityInnerFocusDesc":{"ru":"Не даёт дрогнуть.","de":"Kein Erschrecken."}
+  ,"AbilityChlorophyll":{"ru":"ХЛОРОФИЛЛ","de":"CHLOROPHYLL"},"AbilityChlorophyllDesc":{"ru":"Скорость выше на солнце.","de":"Mehr Tempo bei Sonne."}
+  ,"AbilityEffectSpore":{"ru":"СПОРЫ","de":"SPORENWIRT"},"AbilityEffectSporeDesc":{"ru":"Споры действуют при касании.","de":"Sporen wirken bei Kontakt."}
+  ,"AbilityArenaTrap":{"ru":"ЛОВУШКА","de":"AUSWEGSLOS"},"AbilityArenaTrapDesc":{"ru":"Мешает врагу сбежать.","de":"Stoppt die Flucht."}
+  ,"AbilityPickup":{"ru":"ПОДБОР","de":"MITNAHME"},"AbilityPickupDesc":{"ru":"Может подобрать предмет.","de":"Kann Items aufnehmen."}
+  ,"AbilityLimber":{"ru":"ГИБКОСТЬ","de":"FLEXIBILITÄT"},"AbilityLimberDesc":{"ru":"Защищает от паралича.","de":"Verhindert Paralyse."}
+  ,"AbilityDamp":{"ru":"СЫРОСТЬ","de":"FEUCHTIGKEIT"},"AbilityDampDesc":{"ru":"Блокирует самоуничтожение.","de":"Stoppt Explosionen."}
+  ,"AbilityCloudNine":{"ru":"БЕЗ ПОГОДЫ","de":"WOLKE SIEBEN"},"AbilityCloudNineDesc":{"ru":"Убирает эффекты погоды.","de":"Stoppt Wetter."}
+  ,"AbilityVitalSpirit":{"ru":"БОДРОСТЬ","de":"MUNTERKEIT"},"AbilityVitalSpiritDesc":{"ru":"Защищает от сна.","de":"Verhindert Schlaf."}
   }

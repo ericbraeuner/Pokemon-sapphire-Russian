@@ -2136,6 +2136,28 @@ static const u8 *SummaryAbilityName(u8 ability)
     case ABILITY_OVERGROW: return LEARNER_UI(Learner_GetLanguage(), AbilityOvergrow);
     case ABILITY_BLAZE: return LEARNER_UI(Learner_GetLanguage(), AbilityBlaze);
     case ABILITY_TORRENT: return LEARNER_UI(Learner_GetLanguage(), AbilityTorrent);
+    case ABILITY_SHIELD_DUST: return LEARNER_UI(Learner_GetLanguage(), AbilityShieldDust);
+    case ABILITY_SHED_SKIN: return LEARNER_UI(Learner_GetLanguage(), AbilityShedSkin);
+    case ABILITY_COMPOUND_EYES: return LEARNER_UI(Learner_GetLanguage(), AbilityCompoundEyes);
+    case ABILITY_SWARM: return LEARNER_UI(Learner_GetLanguage(), AbilitySwarm);
+    case ABILITY_KEEN_EYE: return LEARNER_UI(Learner_GetLanguage(), AbilityKeenEye);
+    case ABILITY_RUN_AWAY: return LEARNER_UI(Learner_GetLanguage(), AbilityRunAway);
+    case ABILITY_GUTS: return LEARNER_UI(Learner_GetLanguage(), AbilityGuts);
+    case ABILITY_INTIMIDATE: return LEARNER_UI(Learner_GetLanguage(), AbilityIntimidate);
+    case ABILITY_STATIC: return LEARNER_UI(Learner_GetLanguage(), AbilityStatic);
+    case ABILITY_SAND_VEIL: return LEARNER_UI(Learner_GetLanguage(), AbilitySandVeil);
+    case ABILITY_POISON_POINT: return LEARNER_UI(Learner_GetLanguage(), AbilityPoisonPoint);
+    case ABILITY_CUTE_CHARM: return LEARNER_UI(Learner_GetLanguage(), AbilityCuteCharm);
+    case ABILITY_FLASH_FIRE: return LEARNER_UI(Learner_GetLanguage(), AbilityFlashFire);
+    case ABILITY_INNER_FOCUS: return LEARNER_UI(Learner_GetLanguage(), AbilityInnerFocus);
+    case ABILITY_CHLOROPHYLL: return LEARNER_UI(Learner_GetLanguage(), AbilityChlorophyll);
+    case ABILITY_EFFECT_SPORE: return LEARNER_UI(Learner_GetLanguage(), AbilityEffectSpore);
+    case ABILITY_ARENA_TRAP: return LEARNER_UI(Learner_GetLanguage(), AbilityArenaTrap);
+    case ABILITY_PICKUP: return LEARNER_UI(Learner_GetLanguage(), AbilityPickup);
+    case ABILITY_LIMBER: return LEARNER_UI(Learner_GetLanguage(), AbilityLimber);
+    case ABILITY_DAMP: return LEARNER_UI(Learner_GetLanguage(), AbilityDamp);
+    case ABILITY_CLOUD_NINE: return LEARNER_UI(Learner_GetLanguage(), AbilityCloudNine);
+    case ABILITY_VITAL_SPIRIT: return LEARNER_UI(Learner_GetLanguage(), AbilityVitalSpirit);
     default: return gAbilityNames[ability];
     }
 }
@@ -2147,6 +2169,28 @@ static const u8 *SummaryAbilityDescription(u8 ability)
     case ABILITY_OVERGROW: return LEARNER_UI(Learner_GetLanguage(), AbilityOvergrowDesc);
     case ABILITY_BLAZE: return LEARNER_UI(Learner_GetLanguage(), AbilityBlazeDesc);
     case ABILITY_TORRENT: return LEARNER_UI(Learner_GetLanguage(), AbilityTorrentDesc);
+    case ABILITY_SHIELD_DUST: return LEARNER_UI(Learner_GetLanguage(), AbilityShieldDustDesc);
+    case ABILITY_SHED_SKIN: return LEARNER_UI(Learner_GetLanguage(), AbilityShedSkinDesc);
+    case ABILITY_COMPOUND_EYES: return LEARNER_UI(Learner_GetLanguage(), AbilityCompoundEyesDesc);
+    case ABILITY_SWARM: return LEARNER_UI(Learner_GetLanguage(), AbilitySwarmDesc);
+    case ABILITY_KEEN_EYE: return LEARNER_UI(Learner_GetLanguage(), AbilityKeenEyeDesc);
+    case ABILITY_RUN_AWAY: return LEARNER_UI(Learner_GetLanguage(), AbilityRunAwayDesc);
+    case ABILITY_GUTS: return LEARNER_UI(Learner_GetLanguage(), AbilityGutsDesc);
+    case ABILITY_INTIMIDATE: return LEARNER_UI(Learner_GetLanguage(), AbilityIntimidateDesc);
+    case ABILITY_STATIC: return LEARNER_UI(Learner_GetLanguage(), AbilityStaticDesc);
+    case ABILITY_SAND_VEIL: return LEARNER_UI(Learner_GetLanguage(), AbilitySandVeilDesc);
+    case ABILITY_POISON_POINT: return LEARNER_UI(Learner_GetLanguage(), AbilityPoisonPointDesc);
+    case ABILITY_CUTE_CHARM: return LEARNER_UI(Learner_GetLanguage(), AbilityCuteCharmDesc);
+    case ABILITY_FLASH_FIRE: return LEARNER_UI(Learner_GetLanguage(), AbilityFlashFireDesc);
+    case ABILITY_INNER_FOCUS: return LEARNER_UI(Learner_GetLanguage(), AbilityInnerFocusDesc);
+    case ABILITY_CHLOROPHYLL: return LEARNER_UI(Learner_GetLanguage(), AbilityChlorophyllDesc);
+    case ABILITY_EFFECT_SPORE: return LEARNER_UI(Learner_GetLanguage(), AbilityEffectSporeDesc);
+    case ABILITY_ARENA_TRAP: return LEARNER_UI(Learner_GetLanguage(), AbilityArenaTrapDesc);
+    case ABILITY_PICKUP: return LEARNER_UI(Learner_GetLanguage(), AbilityPickupDesc);
+    case ABILITY_LIMBER: return LEARNER_UI(Learner_GetLanguage(), AbilityLimberDesc);
+    case ABILITY_DAMP: return LEARNER_UI(Learner_GetLanguage(), AbilityDampDesc);
+    case ABILITY_CLOUD_NINE: return LEARNER_UI(Learner_GetLanguage(), AbilityCloudNineDesc);
+    case ABILITY_VITAL_SPIRIT: return LEARNER_UI(Learner_GetLanguage(), AbilityVitalSpiritDesc);
     default: return gAbilityDescriptions[ability];
     }
 }

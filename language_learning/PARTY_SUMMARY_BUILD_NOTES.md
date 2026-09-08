@@ -6,7 +6,7 @@
   Russian or German language.
 - Party move-name buffers reuse the shared learner battle-name catalogue.
 - Summary page headings, stat labels, held items, move names, all 25 natures,
-  starter abilities, and trainer-memo fragments now use learner translations.
+  25 early-game abilities, and trainer-memo fragments now use learner translations.
 - Trainer-memo locations reuse the complete learner map-name catalogue.
 - The labels formerly baked into the English summary artwork are regenerated at
   build time for Russian and German. This covers profile, ability, trainer origin,
@@ -30,6 +30,6 @@
 
 ## Remaining Phase 3 work
 
-- Expand ability names and descriptions beyond the three starter abilities.
+- Expand ability names and descriptions beyond the 25 early-game abilities.
 - Complete remaining Bag, Pokédex, Save/settings, and item-use edge cases, followed
   by another exhaustive Russian/German visual pass.

@@ -246,6 +246,7 @@ class LessonTests(unittest.TestCase):
             self.assertIn(name + 'Kind', code)
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
                 self.assertLessEqual(len(demo.encode(entries[name + 'Name'][tag], mapping)), 10)
+                self.assertLessEqual(len(demo.encode(entries[name + 'Kind'][tag], mapping)), 16)
                 category = entries[name + 'Kind'][tag] + ' POKéMON'
                 self.assertEqual(len(demo.wrap(category, mapping, glyphs, 152)), 1)
 

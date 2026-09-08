@@ -4988,7 +4988,14 @@ static void UnusedPrintMonName(const u8 *name, u8 left, u8 top)
     u8 j;
 #endif
 
+#if LEARNER_DEMO
+    // Learner strings begin and end with font controls. Do not count those
+    // invisible bytes against the stock eleven-character category limit.
+    // Twenty-three bytes leaves room for the appended "POKéMON" text.
+    for (i = 0; name[i] != EOS && i < 23; i++)
+#else
     for (i = 0; name[i] != EOS && i < 11; i++)
+#endif
         str[i] = name[i];
 #if ENGLISH
     for (j = 0; gDexText_UnknownPoke[j] == CHAR_QUESTION_MARK || gDexText_UnknownPoke[j] == CHAR_SPACE; j++)

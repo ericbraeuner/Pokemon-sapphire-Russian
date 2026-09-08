@@ -968,6 +968,7 @@ extern const u8 gLearnerDexSearchTilesRu[], gLearnerDexSearchTilesDe[];
 extern const u8 gLearnerDexMainTilesRu[], gLearnerDexMainTilesDe[];
 extern const u8 gLearnerDexSpriteTilesRu[], gLearnerDexSpriteTilesDe[];
 extern const u8 gLearnerStorageMiscTilesRu[], gLearnerStorageMiscTilesDe[];
+extern const u8 gLearnerSummaryTilesRu[], gLearnerSummaryTilesDe[];
 const u8 *Learner_Translate(const u8 *text);
 const u8 *Learner_MapName(u16 section, const u8 *fallback);
 #endif

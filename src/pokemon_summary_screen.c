@@ -868,6 +868,11 @@ static bool8 LoadPokemonSummaryScreenGraphics(void)
     switch (pssData.loadGfxState)
     {
     case 0:
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+            LZDecompressVram(Learner_GetLanguage() == 1 ? gLearnerSummaryTilesRu : gLearnerSummaryTilesDe, (void *)VRAM + 0);
+        else
+#endif
         LZDecompressVram(gStatusScreen_Gfx, (void *)VRAM + 0);
         break;
     case 1:

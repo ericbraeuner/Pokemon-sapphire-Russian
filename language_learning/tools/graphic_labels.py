@@ -12,6 +12,7 @@ SHEETS = {
     'dex_main': ('graphics/pokedex/menu.png', 'DexMainTiles', (256, 96)),
     'dex_sprites': ('graphics/pokedex/menu2.png', 'DexSpriteTiles', (64, 248)),
     'storage_misc': ('graphics/pokemon_storage/misc1.png', 'StorageMiscTiles', (72, 88)),
+    'summary': ('graphics/interface/status_screen.png', 'SummaryTiles', (128, 112)),
 }
 
 
@@ -34,11 +35,35 @@ def glyph(char, latin, cyrillic, font):
             for y in range(13)]
 
 
+def small_glyph(char, latin, cyrillic, font):
+    if char == ' ':
+        return [[0] * 2 for _ in range(7)]
+    if char in cyrillic:
+        rows = [[int(pixel) for pixel in row] for row in cyrillic[char]]
+        source = Image.new('1', (len(rows[0]), len(rows)))
+        for y, row in enumerate(rows):
+            for x, pixel in enumerate(row):
+                source.putpixel((x, y), pixel)
+    else:
+        code = latin[char]
+        source = font.crop((code % 16 * 8, code // 16 * 16,
+                            code % 16 * 8 + 8, code // 16 * 16 + 16))
+    bounds = source.getbbox()
+    if bounds is None:
+        raise ValueError(f'No small bitmap for {char!r}')
+    source = source.crop(bounds)
+    width = max(1, round(source.width * min(1, 7 / source.height)))
+    height = min(7, source.height)
+    tile = source.resize((width, height), Image.Resampling.NEAREST)
+    return [[int(tile.getpixel((x, y)) != 0) for x in range(tile.width)]
+            for y in range(tile.height)]
+
+
 def render(kind, tag):
     path, _, size = SHEETS[kind]
     with Image.open(demo.ROOT / path) as source:
         sheet = source.copy()
-    if kind == 'storage_misc' and sheet.mode == 'L':
+    if kind in ('storage_misc', 'summary') and sheet.mode == 'L':
         # gbagfx assigns grayscale ramps in reverse palette order.
         sheet = sheet.point(lambda value: 15 - value // 17).convert('P')
     if sheet.mode != 'P' or sheet.size != size:
@@ -79,23 +104,29 @@ def render(kind, tag):
             left, top, width, height, background, ink = x, y + 1, 64, 14, 10, 15
         elif kind == 'dex_search':
             left, top, width, height, background, ink = x + 5, y + 2, 31, 12, entry['background'], 4
+        elif kind == 'summary':
+            left, top = x, y
+            width, height = entry['width'], 8
+            background, ink = entry.get('background', 6), entry.get('ink', 2)
         else:
             left, top, width, height, background, ink = x, y, entry['width'], 16, entry['background'], entry['ink']
         if left < 0 or top < 0 or left + width > size[0] or top + height > size[1]:
             raise ValueError('Label outside tile sheet')
-        letters = [glyph(c, latin, cyrillic if tag == 'ru' else {}, font) for c in entry[tag]]
+        glyph_fn = small_glyph if kind == 'summary' else glyph
+        letters = [glyph_fn(c, latin, cyrillic if tag == 'ru' else {}, font) for c in entry[tag]]
         text_width = sum(len(g[0]) + 1 for g in letters) - 1
         if text_width > width:
             raise ValueError(f'Graphic label overflow: {kind}/{tag}/{entry[tag]}')
         sheet.paste(background, (left, top, left + width, top + height))
         cursor = left + (width - text_width) // 2
         for letter in letters:
+            label_y = top + (height - len(letter)) // 2
             for gy, row in enumerate(letter):
                 for gx, bit in enumerate(row):
                     if bit:
-                        if not top <= y + gy < top + height:
+                        if not top <= label_y + gy < top + height:
                             raise ValueError('Glyph exceeds label height')
-                        sheet.putpixel((cursor + gx, y + gy), ink)
+                        sheet.putpixel((cursor + gx, label_y + gy), ink)
             cursor += len(letter[0]) + 1
     return sheet
 
@@ -127,7 +158,7 @@ def generate():
     for kind, (_, name, _) in SHEETS.items():
         for tag in ('ru', 'de'):
             data = tile_bytes(render(kind, tag))
-            if kind in ('dex_sprites', 'storage_misc'):
+            if kind in ('dex_sprites', 'storage_misc', 'summary'):
                 data = literal_lz(data)
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
                 'gLearner' + name + tag.title(), data))

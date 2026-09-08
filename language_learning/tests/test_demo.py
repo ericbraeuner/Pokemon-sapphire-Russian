@@ -358,7 +358,7 @@ class LessonTests(unittest.TestCase):
         for kind, (path, _, size) in graphic_labels.SHEETS.items():
             with Image.open(demo.ROOT / path) as original:
                 source = original.copy()
-            if kind == 'storage_misc':
+            if kind in ('storage_misc', 'summary'):
                 source = source.point(lambda value: 15 - value // 17).convert('P')
             for tag in ('ru', 'de'):
                 rendered = graphic_labels.render(kind, tag)
@@ -375,6 +375,8 @@ class LessonTests(unittest.TestCase):
                         rect = (x, y + 1, x + 64, y + 15)
                     elif kind == 'dex_search':
                         rect = (x + 5, y + 2, x + 36, y + 14)
+                    elif kind == 'summary':
+                        rect = (x, y, x + e['width'], y + 8)
                     else:
                         rect = (x, y, x + e['width'], y + 16)
                     allowed.update((px, py) for px in range(rect[0], rect[2]) for py in range(rect[1], rect[3]))

@@ -262,6 +262,18 @@ class LessonTests(unittest.TestCase):
             for suffix in ('Name', 'Kind', 'DexPageOne', 'DexPageTwo'):
                 self.assertIn(name + suffix, entries)
 
+    def test_pokedex_descriptions_are_complete_and_distinct(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        for tag in ('ru', 'de'):
+            descriptions = [value[tag] for key, value in entries.items()
+                            if key.endswith(('DexPageOne', 'DexPageTwo'))]
+            self.assertEqual(404, len(descriptions))
+            self.assertEqual(404, len(set(descriptions)))
+            for description in descriptions:
+                self.assertTrue(description.endswith(('.', '!', '?')), description)
+                self.assertEqual(description.strip(), description)
+                self.assertNotIn('  ', description)
+
     def test_oldale_dialogues_cover_all_local_text(self):
         import re
         entries = {entry['base_symbol'] for entry in opening.load()['dialogues']}

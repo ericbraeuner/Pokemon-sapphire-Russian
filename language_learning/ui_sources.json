@@ -539,6 +539,132 @@
     "width": 192,
     "lines": 2
   },
+  "gSystemText_OptionMenu": {
+    "ru": "Настройки",
+    "de": "Optionen",
+    "width": 184,
+    "lines": 1
+  },
+  "gSystemText_TextSpeed": {
+    "ru": "Скор. текста",
+    "de": "Texttempo",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_BattleScene": {
+    "ru": "Анимация боя",
+    "de": "Kampfszene",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_BattleStyle": {
+    "ru": "Стиль боя",
+    "de": "Kampfstil",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_Sound": {
+    "ru": "Звук",
+    "de": "Ton",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_ButtonMode": {
+    "ru": "Режим кнопок",
+    "de": "Tastenmodus",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_Frame": {
+    "ru": "Рамка",
+    "de": "Fenster",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_Cancel": {
+    "ru": "Назад",
+    "de": "Zurück",
+    "width": 88,
+    "lines": 1
+  },
+  "gSystemText_Slow": {
+    "ru": "Медл.",
+    "de": "Lang.",
+    "width": 40,
+    "lines": 1
+  },
+  "gSystemText_Mid": {
+    "ru": "Сред.",
+    "de": "M.",
+    "width": 34,
+    "lines": 1
+  },
+  "gSystemText_Fast": {
+    "ru": "Быстр.",
+    "de": "Schn.",
+    "width": 40,
+    "lines": 1
+  },
+  "gSystemText_On": {
+    "ru": "Вкл.",
+    "de": "An",
+    "width": 40,
+    "lines": 1
+  },
+  "gSystemText_Off": {
+    "ru": "Выкл.",
+    "de": "Aus",
+    "width": 40,
+    "lines": 1
+  },
+  "gSystemText_Shift": {
+    "ru": "Смена",
+    "de": "Wechs.",
+    "width": 54,
+    "lines": 1
+  },
+  "gSystemText_Set": {
+    "ru": "Фикс.",
+    "de": "Folge",
+    "width": 48,
+    "lines": 1
+  },
+  "gSystemText_Mono": {
+    "ru": "Моно",
+    "de": "Mono",
+    "width": 42,
+    "lines": 1
+  },
+  "gSystemText_Stereo": {
+    "ru": "Стерео",
+    "de": "Stereo",
+    "width": 54,
+    "lines": 1
+  },
+  "gSystemText_Type": {
+    "ru": "Тип ",
+    "de": "Typ ",
+    "width": 40,
+    "lines": 1
+  },
+  "gSystemText_Normal": {
+    "ru": "Обычн.",
+    "de": "Norm.",
+    "width": 46,
+    "lines": 1
+  },
+  "gSystemText_LR": {
+    "ru": "LR",
+    "de": "LR",
+    "width": 18,
+    "lines": 1
+  },
+  "gSystemText_LA": {
+    "ru": "LA",
+    "de": "LA",
+    "width": 18,
+    "lines": 1
+  },
   "gOtherText_Player": {
     "ru": "Имя",
     "de": "Name",

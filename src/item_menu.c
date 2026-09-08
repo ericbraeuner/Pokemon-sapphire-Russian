@@ -1519,7 +1519,7 @@ static void sub_80A4BF0(u16 *a)
                     text = sub_80A4B90(gSpecialVar_ItemId);
                 else
                     text = sItemPopupMenuActions[sPopupMenuActionList[i]].text;
-                Menu_PrintText(text, 1 + (i / 2) * 6, 8 + (i % 2) * 2);
+                Menu_PrintText(BagLearnerText(text), 1 + (i / 2) * 6, 8 + (i % 2) * 2);
             }
         }
         if (sReturnLocation == RETURN_TO_FIELD_5)
@@ -1533,7 +1533,7 @@ static void sub_80A4BF0(u16 *a)
         Menu_DrawStdWindowFrame(0, 5, 13, 12);
         sub_80A4008(a, 1, 6, 12, 6);
         for (i = 0; i < gUnknown_02038564; i++)
-            Menu_PrintText(sItemPopupMenuActions[sPopupMenuActionList[i]].text, 1 + (i / 3) * 6, 6 + (i % 3) * 2);
+            Menu_PrintText(BagLearnerText(sItemPopupMenuActions[sPopupMenuActionList[i]].text), 1 + (i / 3) * 6, 6 + (i % 3) * 2);
         InitMenu(0, 1, 6, gUnknown_02038564, 0, 1);
         sub_8072DCC(0x2F);
     }
@@ -2839,12 +2839,12 @@ static void sub_80A6DF0(u16 *a)
     sub_80A4008(a, 8, 10 - r6, 5, r6 + 2);
     if (gUnknown_02038564 == 1)
     {
-        Menu_PrintText(sItemPopupMenuActions[sPopupMenuActionList[0]].text, 8, 10);
+        Menu_PrintText(BagLearnerText(sItemPopupMenuActions[sPopupMenuActionList[0]].text), 8, 10);
     }
     else
     {
-        Menu_PrintText(sItemPopupMenuActions[sPopupMenuActionList[0]].text, 8, 8);
-        Menu_PrintText(sItemPopupMenuActions[sPopupMenuActionList[1]].text, 8, 10);
+        Menu_PrintText(BagLearnerText(sItemPopupMenuActions[sPopupMenuActionList[0]].text), 8, 8);
+        Menu_PrintText(BagLearnerText(sItemPopupMenuActions[sPopupMenuActionList[1]].text), 8, 10);
     }
     InitMenu(0, 8, 10 - r6, gUnknown_02038564, 0, 5);
     sub_80A7528(2);
@@ -3294,7 +3294,7 @@ static void sub_80A7768(void)
                 const u8 *text = sItemPopupMenuActions[sPopupMenuActionList[r4->unk1 - 1]].text;
                 int var = r4->unk1 - 1;
 
-                Menu_PrintText(text, 7, var * 2 + 1 + r4->unk3);
+                Menu_PrintText(BagLearnerText(text), 7, var * 2 + 1 + r4->unk3);
             }
             else
             {
@@ -3306,7 +3306,7 @@ static void sub_80A7768(void)
                 else
                     text = sItemPopupMenuActions[sPopupMenuActionList[r4->unk1 - 1]].text;
                 var = r4->unk1 - 1;
-                Menu_PrintText(text, (var >> 1) * 6 + 1, (var & 1) * 2 + 8);
+                Menu_PrintText(BagLearnerText(text), (var >> 1) * 6 + 1, (var & 1) * 2 + 8);
             }
             if (r4->unk1 == gUnknown_02038564)
             {

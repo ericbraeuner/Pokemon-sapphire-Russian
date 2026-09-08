@@ -18,7 +18,7 @@
 
 ## Verification
 
-- All 38 language-learning tests pass, including the 88-pixel item-name and
+- All 39 language-learning tests pass, including the 88-pixel item-name and
   two-line 104-pixel item-description limits.
 - Both the learner build and the ordinary Sapphire build compile successfully.
 - Russian party/action screens and Russian and German summary pages were inspected
@@ -31,5 +31,18 @@
 ## Remaining Phase 3 work
 
 - Expand ability names and descriptions beyond the 25 early-game abilities.
-- Complete remaining Bag, Pokédex, Save/settings, and item-use edge cases, followed
+- Complete remaining Bag, Pokédex, settings, and item-use edge cases, followed
   by another exhaustive Russian/German visual pass.
+
+## Options, save, and Bag follow-up — 2026-09-08
+
+- Added Russian and German text for every Options-screen heading and choice,
+  including text speed, battle animation/style, sound, button mode, window frame,
+  and cancel.
+- Save-summary labels now explicitly use the learner language alongside the
+  already localized map name.
+- Bag action menus now translate their delayed-draw and in-battle paths as well as
+  the ordinary field menu. This closes several routes where Use, Give, Toss,
+  Register, Check, Confirm, and Cancel could still appear in English.
+- Added an automated test that guards all 21 Options entries, the four save labels,
+  and the previously missed Bag action paths. Both learner and stock builds pass.

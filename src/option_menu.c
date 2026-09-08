@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "option_menu.h"
 #include "main.h"
 #include "menu.h"
@@ -10,6 +11,14 @@
 #include "task.h"
 
 extern void SetPokemonCryStereo(u32 val);
+
+static u8 sLearnerOptionChoiceText[7][32];
+
+#if LEARNER_DEMO
+#define OptionLearnerText Learner_Translate
+#else
+#define OptionLearnerText(text) (text)
+#endif
 
 // Menu items
 enum
@@ -159,15 +168,15 @@ void CB2_InitOptionMenu(void)
         Menu_DrawStdWindowFrame(2, 0, 27, 3);   // title box
         Menu_DrawStdWindowFrame(2, 4, 27, 19);  // options list box
 
-        Menu_PrintText(gSystemText_OptionMenu,  4,  1);
+        Menu_PrintText(OptionLearnerText(gSystemText_OptionMenu),  4,  1);
 
-        Menu_PrintText(gSystemText_TextSpeed,   4,  5);
-        Menu_PrintText(gSystemText_BattleScene, 4,  7);
-        Menu_PrintText(gSystemText_BattleStyle, 4,  9);
-        Menu_PrintText(gSystemText_Sound,       4, 11);
-        Menu_PrintText(gSystemText_ButtonMode,  4, 13);
-        Menu_PrintText(gSystemText_Frame,       4, 15);
-        Menu_PrintText(gSystemText_Cancel,      4, 17);
+        Menu_PrintText(OptionLearnerText(gSystemText_TextSpeed),   4,  5);
+        Menu_PrintText(OptionLearnerText(gSystemText_BattleScene), 4,  7);
+        Menu_PrintText(OptionLearnerText(gSystemText_BattleStyle), 4,  9);
+        Menu_PrintText(OptionLearnerText(gSystemText_Sound),       4, 11);
+        Menu_PrintText(OptionLearnerText(gSystemText_ButtonMode),  4, 13);
+        Menu_PrintText(OptionLearnerText(gSystemText_Frame),       4, 15);
+        Menu_PrintText(OptionLearnerText(gSystemText_Cancel),      4, 17);
 
         TextSpeed_DrawChoices(gTasks[taskId].tOptTextSpeed);
         BattleScene_DrawChoices(gTasks[taskId].tOptBattleScene);
@@ -287,15 +296,27 @@ static void HighlightOptionMenuItem(u8 index)
 
 static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
 {
-    u8 dst[15];
+    u8 *dst = sLearnerOptionChoiceText[(y - 40) / 16];
     u16 i;
 
-    for (i = 0; *text != EOS && i < 15; i++)
+#if LEARNER_DEMO
+    // The pixel-coordinate printer cannot switch to the learner fonts. Prefix
+    // the translated text with the original palette command, then use the
+    // ordinary tile-coordinate printer which supports Russian and German fonts.
+    dst[0] = gSystemText_Slow[0];
+    dst[1] = gSystemText_Slow[1];
+    dst[2] = style;
+    for (i = 3; *text != EOS && i < 31; i++)
         dst[i] = *(text++);
-
+    dst[i] = EOS;
+    Menu_PrintText(dst, x / 8, y / 8);
+#else
+    for (i = 0; *text != EOS && i < 31; i++)
+        dst[i] = *(text++);
     dst[2] = style;
     dst[i] = EOS;
     Menu_PrintTextPixelCoords(dst, x, y, 1);
+#endif
 }
 
 static u8 TextSpeed_ProcessInput(u8 selection)
@@ -317,12 +338,15 @@ static u8 TextSpeed_ProcessInput(u8 selection)
     return selection;
 }
 
-#if ENGLISH
+#if LEARNER_DEMO
+#define TEXTSPEED_SLOW_LEFT (112)
+#define TEXTSPEED_MIX_LEFT (158)
+#define TEXTSPEED_FAST_LEFT (202)
+#elif ENGLISH
 #define TEXTSPEED_SLOW_LEFT (120)
 #define TEXTSPEED_MIX_LEFT (155)
 #define TEXTSPEED_FAST_LEFT (184)
-#endif
-#if GERMAN
+#elif GERMAN
 #define TEXTSPEED_SLOW_LEFT (120)
 #define TEXTSPEED_MIX_LEFT (161)
 #define TEXTSPEED_FAST_LEFT (202)
@@ -337,9 +361,9 @@ static void TextSpeed_DrawChoices(u8 selection)
     styles[2] = 0xF;
     styles[selection] = 0x8;
 
-    DrawOptionMenuChoice(gSystemText_Slow, TEXTSPEED_SLOW_LEFT, 40, styles[0]);
-    DrawOptionMenuChoice(gSystemText_Mid,  TEXTSPEED_MIX_LEFT,  40, styles[1]);
-    DrawOptionMenuChoice(gSystemText_Fast, TEXTSPEED_FAST_LEFT, 40, styles[2]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Slow), TEXTSPEED_SLOW_LEFT, 40, styles[0]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Mid),  TEXTSPEED_MIX_LEFT,  40, styles[1]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Fast), TEXTSPEED_FAST_LEFT, 40, styles[2]);
 }
 
 static u8 BattleScene_ProcessInput(u8 selection)
@@ -357,8 +381,8 @@ static void BattleScene_DrawChoices(u8 selection)
     styles[1] = 0xF;
     styles[selection] = 0x8;
 
-    DrawOptionMenuChoice(gSystemText_On,  120, 56, styles[0]);
-    DrawOptionMenuChoice(gSystemText_Off, 190, 56, styles[1]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_On),  120, 56, styles[0]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Off), 190, 56, styles[1]);
 }
 
 static u8 BattleStyle_ProcessInput(u8 selection)
@@ -384,8 +408,8 @@ static void BattleStyle_DrawChoices(u8 selection)
     styles[1] = 0xF;
     styles[selection] = 0x8;
 
-    DrawOptionMenuChoice(gSystemText_Shift, BATTLESTYLE_SHIFT, 72, styles[0]);
-    DrawOptionMenuChoice(gSystemText_Set,   BATTLESTYLE_SET,   72, styles[1]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Shift), BATTLESTYLE_SHIFT, 72, styles[0]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Set),   BATTLESTYLE_SET,   72, styles[1]);
 }
 
 static u8 Sound_ProcessInput(u8 selection)
@@ -406,8 +430,8 @@ static void Sound_DrawChoices(u8 selection)
     styles[1] = 0xF;
     styles[selection] = 0x8;
 
-    DrawOptionMenuChoice(gSystemText_Mono,   120, 88, styles[0]);
-    DrawOptionMenuChoice(gSystemText_Stereo, 172, 88, styles[1]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Mono),   120, 88, styles[0]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Stereo), 172, 88, styles[1]);
 }
 
 static u8 FrameType_ProcessInput(u8 selection)
@@ -458,14 +482,14 @@ static void FrameType_DrawChoices(u8 selection)
     }
 
     text[i] = EOS;
-    Menu_PrintText(gSystemText_Type, 15, 15);
+    Menu_PrintText(OptionLearnerText(gSystemText_Type), 15, 15);
     Menu_PrintText(text, 18, 15);
 #elif GERMAN
     u8 text[16];
     u8 n = selection + 1;
     u8 *str;
 
-    StringCopy(text, gSystemText_Type);
+    StringCopy(text, OptionLearnerText(gSystemText_Type));
     str = StringAppend(text, gSystemText_Terminator);
 
     if (n / 10 != 0)
@@ -511,7 +535,7 @@ static void ButtonMode_DrawChoices(u8 selection)
     styles[2] = 0xF;
     styles[selection] = 0x8;
 
-    DrawOptionMenuChoice(gSystemText_Normal, 120, 104, styles[0]);
-    DrawOptionMenuChoice(gSystemText_LR,     166, 104, styles[1]);
-    DrawOptionMenuChoice(gSystemText_LA,     188, 104, styles[2]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_Normal), 120, 104, styles[0]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_LR),     166, 104, styles[1]);
+    DrawOptionMenuChoice(OptionLearnerText(gSystemText_LA),     188, 104, styles[2]);
 }

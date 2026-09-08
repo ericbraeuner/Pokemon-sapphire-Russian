@@ -251,6 +251,31 @@ class LessonTests(unittest.TestCase):
                                          ('de', self.latin, {})]:
                 self.assertEqual(1, len(demo.wrap(ui_entries[name][tag], mapping, glyphs, 136)))
 
+    def test_options_save_and_bag_paths_use_learner_translations(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        option = (demo.ROOT / 'src/option_menu.c').read_text(encoding='utf-8')
+        save = (demo.ROOT / 'src/save_menu_util.c').read_text(encoding='utf-8')
+        bag = (demo.ROOT / 'src/item_menu.c').read_text(encoding='utf-8')
+        option_symbols = (
+            'gSystemText_OptionMenu', 'gSystemText_TextSpeed',
+            'gSystemText_BattleScene', 'gSystemText_BattleStyle',
+            'gSystemText_Sound', 'gSystemText_ButtonMode',
+            'gSystemText_Frame', 'gSystemText_Cancel',
+            'gSystemText_Slow', 'gSystemText_Mid', 'gSystemText_Fast',
+            'gSystemText_On', 'gSystemText_Off', 'gSystemText_Shift',
+            'gSystemText_Set', 'gSystemText_Mono', 'gSystemText_Stereo',
+            'gSystemText_Type', 'gSystemText_Normal',
+            'gSystemText_LR', 'gSystemText_LA',
+        )
+        for symbol in option_symbols:
+            self.assertIn(symbol, entries)
+            self.assertIn(f'OptionLearnerText({symbol})', option)
+        for symbol in ('gOtherText_Player', 'gOtherText_Badges',
+                       'gOtherText_Pokedex', 'gOtherText_PlayTime'):
+            self.assertIn(f'SaveLearnerText({symbol})', save)
+        self.assertGreaterEqual(bag.count('BagLearnerText(sItemPopupMenuActions['), 4)
+        self.assertGreaterEqual(bag.count('Menu_PrintText(BagLearnerText(text)'), 2)
+
     def test_early_pokedex_entries_are_bilingual_and_fit(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         species = tuple(sorted(name[:-10] for name in entries if name.endswith('DexPageOne')))

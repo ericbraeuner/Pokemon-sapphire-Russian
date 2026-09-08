@@ -218,18 +218,13 @@ class LessonTests(unittest.TestCase):
 
     def test_early_pokedex_entries_are_bilingual_and_fit(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
-        species = ('Treecko', 'Torchic', 'Mudkip', 'Poochyena', 'Zigzagoon', 'Wurmple',
-                   'Lotad', 'Seedot', 'Ralts', 'Surskit', 'Taillow', 'Wingull',
-                   'Shroomish', 'Whismur', 'Slakoth', 'Nincada', 'Skitty', 'Sableye',
-                   'Makuhita', 'Aron', 'Meditite', 'Electrike', 'Plusle', 'Minun',
-                   'Roselia', 'Gulpin', 'Numel', 'Spoink', 'Trapinch', 'Swablu')
-        species += ('Zangoose', 'Seviper', 'Barboach', 'Corphish', 'Baltoy', 'Lileep',
-                     'Anorith', 'Feebas', 'Castform', 'Kecleon', 'Shuppet', 'Duskull',
-                     'Tropius', 'Chimecho', 'Absol', 'Wynaut', 'Snorunt', 'Spheal',
-                     'Clamperl', 'Bagon')
+        species = tuple(sorted(name[:-10] for name in entries if name.endswith('DexPageOne')))
+        self.assertGreaterEqual(len(species), 74)
         for name in species:
             for suffix in ('Name', 'Kind', 'DexPageOne', 'DexPageTwo'):
                 self.assertEqual({'ru', 'de'}, set(entries[name + suffix]))
+            self.assertLessEqual(len(demo.encode(entries[name + 'Name']['ru'], self.russian)), 10)
+            self.assertLessEqual(len(demo.encode(entries[name + 'Name']['de'], self.latin)), 10)
             for page in ('DexPageOne', 'DexPageTwo'):
                 for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
                     self.assertLessEqual(len(demo.wrap(entries[name + page][tag], mapping, glyphs, 152)), 3)

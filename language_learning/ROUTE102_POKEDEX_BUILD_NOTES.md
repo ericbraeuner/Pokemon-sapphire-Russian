@@ -9,12 +9,18 @@ Castform, Kecleon, Shuppet, Duskull, Tropius, Chimecho, Absol, Wynaut, Snorunt,
 Spheal, Clamperl, and Bagon. Names, categories, and
 both Pokédex description pages use the selected Russian or German language.
 
+The evolution-family pass adds Grovyle, Sceptile, Combusken, Blaziken,
+Marshtomp, Swampert, Mightyena, Linoone, Silcoon, Beautifly, Cascoon, Dustox,
+Lombre, Ludicolo, Nuzleaf, Shiftry, Kirlia, Gardevoir, Masquerain, Swellow,
+Pelipper, Breloom, Loudred, and Exploud. This brings the validated catalogue
+to at least 74 bilingual species.
+
 The shared Pokédex selector supplies these strings to the list, detail, and
 cry screens, so the entries do not need separate copies in each screen. The
 German noun categories are kept short enough to fit beside the game's
 `POKéMON` suffix. Pokédex page generation uses a narrower safety width than
 ordinary dialogue because the detail panel has less room; the 35 automated
-tests cover this constraint.
+tests discover every translated Pokédex entry and cover this constraint.
 
 ## Verification
 

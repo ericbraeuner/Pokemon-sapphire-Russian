@@ -1,4 +1,21 @@
 #include "global.h"
+#include "learner.h"
+#include "constants/abilities.h"
+#if LEARNER_DEMO
+#define SummaryLearnerText Learner_Translate
+#define SummaryCopyItemName Learner_CopyItemName
+#define SummaryMapName(section, text) Learner_MapName(section, text)
+static const u8 *SummaryNatureText(u8 nature);
+static const u8 *SummaryAbilityName(u8 ability);
+static const u8 *SummaryAbilityDescription(u8 ability);
+#else
+#define SummaryLearnerText(text) (text)
+#define SummaryCopyItemName CopyItemName
+#define SummaryMapName(section, text) (text)
+#define SummaryNatureText(nature) gNatureNames[nature]
+#define SummaryAbilityName(ability) gAbilityNames[ability]
+#define SummaryAbilityDescription(ability) gAbilityDescriptions[ability]
+#endif
 #include "battle.h"
 #include "battle_anim_special.h"
 #include "contest.h"
@@ -1970,7 +1987,7 @@ static void sub_809F9D0(u8 taskId, u8 moveIndex)
     sub_80A1488(-2, 4);
     sub_80A1654(-2, 4);
     Menu_EraseWindowRect(11, 15, 28, 18);
-    Menu_PrintText(gOtherText_CantForgetHMs, 11, 15);
+    Menu_PrintText(SummaryLearnerText(gOtherText_CantForgetHMs), 11, 15);
 
     gTasks[taskId].func = sub_809F814;
 }
@@ -2068,10 +2085,67 @@ static void sub_809FBE4(void)
 
 static void SummaryScreen_PrintPokemonInfoLabels(void)
 {
-    Menu_PrintText(gOtherText_Type2, 11, 6);
+    Menu_PrintText(SummaryLearnerText(gOtherText_Type2), 11, 6);
     SummaryScreen_PlaceTextTile_White(0, 22, 4);
     SummaryScreen_PlaceTextTile_White(2, 23, 4);
 }
+
+#if LEARNER_DEMO
+static const u8 *SummaryNatureText(u8 nature)
+{
+    switch (nature)
+    {
+    case NATURE_HARDY: return LEARNER_UI(Learner_GetLanguage(), NatureHardy);
+    case NATURE_LONELY: return LEARNER_UI(Learner_GetLanguage(), NatureLonely);
+    case NATURE_BRAVE: return LEARNER_UI(Learner_GetLanguage(), NatureBrave);
+    case NATURE_ADAMANT: return LEARNER_UI(Learner_GetLanguage(), NatureAdamant);
+    case NATURE_NAUGHTY: return LEARNER_UI(Learner_GetLanguage(), NatureNaughty);
+    case NATURE_BOLD: return LEARNER_UI(Learner_GetLanguage(), NatureBold);
+    case NATURE_DOCILE: return LEARNER_UI(Learner_GetLanguage(), NatureDocile);
+    case NATURE_RELAXED: return LEARNER_UI(Learner_GetLanguage(), NatureRelaxed);
+    case NATURE_IMPISH: return LEARNER_UI(Learner_GetLanguage(), NatureImpish);
+    case NATURE_LAX: return LEARNER_UI(Learner_GetLanguage(), NatureLax);
+    case NATURE_TIMID: return LEARNER_UI(Learner_GetLanguage(), NatureTimid);
+    case NATURE_HASTY: return LEARNER_UI(Learner_GetLanguage(), NatureHasty);
+    case NATURE_SERIOUS: return LEARNER_UI(Learner_GetLanguage(), NatureSerious);
+    case NATURE_JOLLY: return LEARNER_UI(Learner_GetLanguage(), NatureJolly);
+    case NATURE_NAIVE: return LEARNER_UI(Learner_GetLanguage(), NatureNaive);
+    case NATURE_MODEST: return LEARNER_UI(Learner_GetLanguage(), NatureModest);
+    case NATURE_MILD: return LEARNER_UI(Learner_GetLanguage(), NatureMild);
+    case NATURE_QUIET: return LEARNER_UI(Learner_GetLanguage(), NatureQuiet);
+    case NATURE_BASHFUL: return LEARNER_UI(Learner_GetLanguage(), NatureBashful);
+    case NATURE_RASH: return LEARNER_UI(Learner_GetLanguage(), NatureRash);
+    case NATURE_CALM: return LEARNER_UI(Learner_GetLanguage(), NatureCalm);
+    case NATURE_GENTLE: return LEARNER_UI(Learner_GetLanguage(), NatureGentle);
+    case NATURE_SASSY: return LEARNER_UI(Learner_GetLanguage(), NatureSassy);
+    case NATURE_CAREFUL: return LEARNER_UI(Learner_GetLanguage(), NatureCareful);
+    case NATURE_QUIRKY: return LEARNER_UI(Learner_GetLanguage(), NatureQuirky);
+    default: return gNatureNames[nature];
+    }
+}
+
+static const u8 *SummaryAbilityName(u8 ability)
+{
+    switch (ability)
+    {
+    case ABILITY_OVERGROW: return LEARNER_UI(Learner_GetLanguage(), AbilityOvergrow);
+    case ABILITY_BLAZE: return LEARNER_UI(Learner_GetLanguage(), AbilityBlaze);
+    case ABILITY_TORRENT: return LEARNER_UI(Learner_GetLanguage(), AbilityTorrent);
+    default: return gAbilityNames[ability];
+    }
+}
+
+static const u8 *SummaryAbilityDescription(u8 ability)
+{
+    switch (ability)
+    {
+    case ABILITY_OVERGROW: return LEARNER_UI(Learner_GetLanguage(), AbilityOvergrowDesc);
+    case ABILITY_BLAZE: return LEARNER_UI(Learner_GetLanguage(), AbilityBlazeDesc);
+    case ABILITY_TORRENT: return LEARNER_UI(Learner_GetLanguage(), AbilityTorrentDesc);
+    default: return gAbilityDescriptions[ability];
+    }
+}
+#endif
 
 static void SummaryScreen_PrintPokemonInfo(struct Pokemon *mon)
 {
@@ -2090,7 +2164,7 @@ static void SummaryScreen_PrintPokemonInfo(struct Pokemon *mon)
     {
         buffer = gStringVar1;
         buffer = SummaryScreen_SetTextColor(buffer, 13);
-        buffer = StringCopy(buffer, gOtherText_OriginalTrainer);
+        buffer = StringCopy(buffer, SummaryLearnerText(gOtherText_OriginalTrainer));
         buffer = StringCopy(buffer, gOtherText_FiveQuestions);
         buffer[0] = EXT_CTRL_CODE_BEGIN;
         buffer[1] = 0x13;
@@ -2121,7 +2195,7 @@ static void SummaryScreen_PrintPokemonInfo(struct Pokemon *mon)
 
         buffer = gStringVar1;
         buffer = SummaryScreen_SetTextColor(buffer, 13);
-        buffer = StringCopy(buffer, gOtherText_OriginalTrainer);
+        buffer = StringCopy(buffer, SummaryLearnerText(gOtherText_OriginalTrainer));
 
         if (GetMonData(mon, MON_DATA_OT_GENDER) == MALE)
             buffer = SummaryScreen_SetTextColor(buffer, 9);
@@ -2143,8 +2217,8 @@ static void SummaryScreen_PrintPokemonInfo(struct Pokemon *mon)
             SummaryScreen_DrawTypeIcon(gBaseStats[species].type2, 160, 48, 1);
 
         ability = GetAbilityBySpecies(GetMonData(mon, MON_DATA_SPECIES), GetMonData(mon, MON_DATA_ALT_ABILITY));
-        SummaryScreen_PrintColoredText(gAbilityNames[ability], 13, 11, 9);
-        Menu_PrintText(gAbilityDescriptions[ability], 11, 11);
+        SummaryScreen_PrintColoredText(SummaryAbilityName(ability), 13, 11, 9);
+        Menu_PrintText(SummaryAbilityDescription(ability), 11, 11);
 
         PokemonSummaryScreen_PrintTrainerMemo(mon, 11, 14);
     }
@@ -2279,7 +2353,7 @@ static void sub_80A015C(struct Pokemon *mon)
             else
                 SummaryScreen_DrawTypeIcon(gContestMoves[move].contestCategory + 18, 87, ((2 * i) + 4) * 8, i);
 
-            SummaryScreen_PrintColoredText(gMoveNames[move], 13, 15, (2 * i) + 4);
+            SummaryScreen_PrintColoredText(SummaryLearnerText(gMoveNames[move]), 13, 15, (2 * i) + 4);
             SummaryScreen_PlaceTextTile_White(1, 24, (2 * i) + 4);
 
             ppBonuses = GetMonData(mon, MON_DATA_PP_BONUSES);
@@ -2314,9 +2388,9 @@ static void sub_80A029C(struct Pokemon *mon)
         SummaryScreen_DrawTypeIcon(gContestMoves[move].contestCategory + 18, 87, 96, 4);
 
     if (pssData.page == PSS_PAGE_BATTLE_MOVES)
-        SummaryScreen_PrintColoredText(gMoveNames[move], 10, 15, 12);
+        SummaryScreen_PrintColoredText(SummaryLearnerText(gMoveNames[move]), 10, 15, 12);
     else
-        SummaryScreen_PrintColoredText(gMoveNames[move], 9, 15, 12);
+        SummaryScreen_PrintColoredText(SummaryLearnerText(gMoveNames[move]), 9, 15, 12);
 
     SummaryScreen_PlaceTextTile_White(1, 24, 12);
 
@@ -2510,7 +2584,7 @@ static void PokemonSummaryScreen_PrintEggTrainerMemo(struct Pokemon *mon, u8 lef
 
     if (!(gameMet == VERSION_RUBY || gameMet == VERSION_SAPPHIRE || gameMet == VERSION_EMERALD))
     {
-        Menu_PrintText(gOtherText_EggObtainedInTrade, left, top);
+        Menu_PrintText(SummaryLearnerText(gOtherText_EggObtainedInTrade), left, top);
         return;
     }
 
@@ -2519,13 +2593,13 @@ static void PokemonSummaryScreen_PrintEggTrainerMemo(struct Pokemon *mon, u8 lef
     if (locationMet == METLOC_FATEFUL_ENCOUNTER)
     {
         // Eggs received from Pokemon Box.
-        Menu_PrintText(gOtherText_EggNicePlace, left, top);
+        Menu_PrintText(SummaryLearnerText(gOtherText_EggNicePlace), left, top);
         return;
     }
 
     if (!PokemonSummaryScreen_CheckOT(mon))
     {
-        Menu_PrintText(gOtherText_EggObtainedInTrade, left, top);
+        Menu_PrintText(SummaryLearnerText(gOtherText_EggObtainedInTrade), left, top);
         return;
     }
 
@@ -2533,11 +2607,11 @@ static void PokemonSummaryScreen_PrintEggTrainerMemo(struct Pokemon *mon, u8 lef
 
     if (locationMet == METLOC_SPECIAL_EGG)
     {
-        Menu_PrintText(gOtherText_EggHotSprings, left, top);
+        Menu_PrintText(SummaryLearnerText(gOtherText_EggHotSprings), left, top);
         return;
     }
 
-    Menu_PrintText(gOtherText_EggDayCare, left, top);
+    Menu_PrintText(SummaryLearnerText(gOtherText_EggDayCare), left, top);
 }
 
 static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, u8 top)
@@ -2548,14 +2622,14 @@ static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, 
     u8 nature = GetNature(mon);
 
 #if ENGLISH
-    ptr = SummaryScreen_CopyColoredString(ptr, gNatureNames[nature], 14);
+    ptr = SummaryScreen_CopyColoredString(ptr, SummaryNatureText(nature), 14);
     if (nature != NATURE_BOLD && nature != NATURE_GENTLE)
-        ptr = StringCopy(ptr, gOtherText_Terminator4);
-    ptr = StringCopy(ptr, gOtherText_Nature);
+        ptr = StringCopy(ptr, SummaryLearnerText(gOtherText_Terminator4));
+    ptr = StringCopy(ptr, SummaryLearnerText(gOtherText_Nature));
 #elif GERMAN
-    ptr = StringCopy(gStringVar4, gOtherText_Nature);
-    ptr = SummaryScreen_CopyColoredString(ptr, gNatureNames[nature], 14);
-    ptr = StringCopy(ptr, gOtherText_Terminator4);
+    ptr = StringCopy(gStringVar4, SummaryLearnerText(gOtherText_Nature));
+    ptr = SummaryScreen_CopyColoredString(ptr, SummaryNatureText(nature), 14);
+    ptr = StringCopy(ptr, SummaryLearnerText(gOtherText_Terminator4));
 #endif
 
     if (PokemonSummaryScreen_CheckOT(mon) == TRUE)
@@ -2569,15 +2643,15 @@ static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, 
             ptr++;
 
             CopyLocationName(gStringVar1, locationMet);
-            ptr = SummaryScreen_CopyColoredString(ptr, gStringVar1, 14);
-            StringCopy(ptr, gOtherText_Egg2);
+            ptr = SummaryScreen_CopyColoredString(ptr, SummaryMapName(locationMet, gStringVar1), 14);
+            StringCopy(ptr, SummaryLearnerText(gOtherText_Egg2));
         }
         else if (locationMet >= 88)
         {
             *ptr = CHAR_NEWLINE;
             ptr++;
 
-            StringCopy(ptr, gOtherText_ObtainedInTrade);
+            StringCopy(ptr, SummaryLearnerText(gOtherText_ObtainedInTrade));
         }
         else
         {
@@ -2588,8 +2662,8 @@ static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, 
             ptr++;
 
             CopyLocationName(gStringVar1, locationMet);
-            ptr = SummaryScreen_CopyColoredString(ptr, gStringVar1, 14);
-            StringCopy(ptr, gOtherText_Met);
+            ptr = SummaryScreen_CopyColoredString(ptr, SummaryMapName(locationMet, gStringVar1), 14);
+            StringCopy(ptr, SummaryLearnerText(gOtherText_Met));
         }
     }
     else
@@ -2601,7 +2675,7 @@ static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, 
             *ptr = CHAR_NEWLINE;
             ptr++;
 
-            StringCopy(ptr, gOtherText_ObtainedInTrade);
+            StringCopy(ptr, SummaryLearnerText(gOtherText_ObtainedInTrade));
         }
         else
         {
@@ -2614,14 +2688,14 @@ static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, 
                 *ptr = CHAR_NEWLINE;
                 ptr++;
 
-                StringCopy(ptr, gOtherText_FatefulEncounter);
+                StringCopy(ptr, SummaryLearnerText(gOtherText_FatefulEncounter));
             }
             else if (locationMet >= MAPSEC_NONE)
             {
                 *ptr = CHAR_NEWLINE;
                 ptr++;
 
-                StringCopy(ptr, gOtherText_ObtainedInTrade);
+                StringCopy(ptr, SummaryLearnerText(gOtherText_ObtainedInTrade));
             }
             else
             {
@@ -2632,8 +2706,8 @@ static void PokemonSummaryScreen_PrintTrainerMemo(struct Pokemon *mon, u8 left, 
                 ptr++;
 
                 CopyLocationName(gStringVar1, locationMet);
-                ptr = SummaryScreen_CopyColoredString(ptr, gStringVar1, 14);
-                StringCopy(ptr, gOtherText_Met2);
+                ptr = SummaryScreen_CopyColoredString(ptr, SummaryMapName(locationMet, gStringVar1), 14);
+                StringCopy(ptr, SummaryLearnerText(gOtherText_Met2));
             }
         }
     }
@@ -2742,14 +2816,14 @@ static void PrintNumRibbons(struct Pokemon *mon)
 
     if (numRibbons == 0)
     {
-        StringCopy(gStringVar1, gOtherText_None);
+        StringCopy(gStringVar1, SummaryLearnerText(gOtherText_None));
     }
     else
     {
         u8 ribbonsStringLength;
         u8 *text;
 
-        StringCopy(gStringVar1, gOtherText_Ribbons00);
+        StringCopy(gStringVar1, SummaryLearnerText(gOtherText_Ribbons00));
         ribbonsStringLength = StringLength(gStringVar1);
 
         text = &gStringVar1[ribbonsStringLength - 2];
@@ -2769,11 +2843,11 @@ static void PrintHeldItemName(u16 itemId, u8 left, u8 top)
      && sub_80F9344() == TRUE
      && IsLinkDoubleBattle() == TRUE
      && (pssData.monIndex == 1 || pssData.monIndex == 4 || pssData.monIndex == 5))
-        StringCopy(gStringVar1, ItemId_GetName(itemId));
+        SummaryCopyItemName(itemId, gStringVar1);
     else if (itemId == 0)
-        StringCopy(gStringVar1, gOtherText_None);
+        StringCopy(gStringVar1, SummaryLearnerText(gOtherText_None));
     else
-        CopyItemName(itemId, gStringVar1);
+        SummaryCopyItemName(itemId, gStringVar1);
 
     Menu_PrintText(sUnknown_083C15B4, left, top);
 }
@@ -2854,7 +2928,7 @@ static void PrintSummaryWindowHeaderText(void)
 
     buffer += 3;
     buffer = SummaryScreen_SetTextColor(buffer, 13);
-    buffer = StringCopy(buffer, sPageHeaderTexts[pssData.headerTextId]);
+    buffer = StringCopy(buffer, SummaryLearnerText(sPageHeaderTexts[pssData.headerTextId]));
 
     buffer[0] = EXT_CTRL_CODE_BEGIN;
     buffer[1] = 0x13;
@@ -2875,7 +2949,7 @@ static void PrintSummaryWindowHeaderText(void)
 
     buffer = gStringVar1;
     buffer = SummaryScreen_SetTextColor(buffer, 13);
-    buffer = StringCopy(buffer, sPageHeaderTexts[pssData.headerActionTextId]);
+    buffer = StringCopy(buffer, SummaryLearnerText(sPageHeaderTexts[pssData.headerActionTextId]));
 
     buffer[0] = EXT_CTRL_CODE_BEGIN;
     buffer[1] = 0x13;
@@ -3998,6 +4072,8 @@ static u8 *SummaryScreen_SetTextColor(u8 *text, u8 id)
 static u8 *SummaryScreen_CopyColoredString(u8 *dest, const u8 *src, u8 id)
 {
     u8 colors[3];
+
+    src = SummaryLearnerText(src);
 
     Menu_GetTextColors(&colors[0], &colors[1], &colors[2]);
 

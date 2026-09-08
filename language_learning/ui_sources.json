@@ -1522,5 +1522,224 @@
     "de": "Größe neben",
     "width": 144,
     "lines": 1
+  },
+  "OtherText_ChoosePoke": {
+    "ru": "Выберите покемона.", "de": "Wähle ein Pokémon.", "width": 184, "lines": 1
+  },
+  "OtherText_MovePokeTo": {
+    "ru": "Куда переместить?", "de": "Wohin verschieben?", "width": 184, "lines": 1
+  },
+  "OtherText_TeachWhat": {
+    "ru": "Кого обучить?", "de": "Welches Pokémon lernen?", "width": 184, "lines": 1
+  },
+  "OtherText_UseWhat": {
+    "ru": "На ком использовать?", "de": "Bei welchem Pokémon?", "width": 184, "lines": 1
+  },
+  "OtherText_GiveWhat": {
+    "ru": "Кому дать?", "de": "Welchem Pokémon geben?", "width": 184, "lines": 1
+  },
+  "OtherText_NothingToCut": {
+    "ru": "Здесь нечего рубить.", "de": "Nichts zu fällen.", "width": 184, "lines": 1
+  },
+  "OtherText_CantSurf": {
+    "ru": "Здесь нельзя плыть.", "de": "Surfen geht hier nicht.", "width": 184, "lines": 1
+  },
+  "OtherText_AlreadySurfing": {
+    "ru": "Вы уже плывёте.", "de": "Du surfst bereits.", "width": 184, "lines": 1
+  },
+  "OtherText_CantUseThatHere": {
+    "ru": "Здесь это не работает.", "de": "Das geht hier nicht.", "width": 184, "lines": 1
+  },
+  "OtherText_RestoreWhatMove": {
+    "ru": "Какой приём восстановить?", "de": "Welche Attacke?", "width": 184, "lines": 1
+  },
+  "OtherText_BoostPP": {
+    "ru": "Чьи ОД повысить?", "de": "AP welcher Attacke?", "width": 184, "lines": 1
+  },
+  "OtherText_DoWhatWithItem": {
+    "ru": "Что сделать с предметом?", "de": "Was tun mit dem Item?", "width": 184, "lines": 1
+  },
+  "OtherText_NoPokeForBattle": {
+    "ru": "Нет покемона для боя!", "de": "Kein Pokémon bereit!", "width": 184, "lines": 1
+  },
+  "OtherText_ChoosePoke2": {
+    "ru": "Выберите покемона.", "de": "Wähle ein Pokémon.", "width": 184, "lines": 1
+  },
+  "OtherText_NotEnoughHP": {
+    "ru": "Недостаточно ОЗ...", "de": "Nicht genug KP...", "width": 184, "lines": 1
+  },
+  "OtherText_ThreePokeNeeded": {
+    "ru": "Нужны три покемона.", "de": "Drei Pokémon nötig.", "width": 184, "lines": 1
+  },
+  "OtherText_PokeCantBeSame": {
+    "ru": "Покемоны должны отличаться.", "de": "Andere Pokémon wählen.", "width": 184, "lines": 1
+  },
+  "OtherText_NoIdenticalHoldItems": {
+    "ru": "Нужны разные предметы.", "de": "Keine gleichen Items.", "width": 184, "lines": 1
+  },
+  "OtherText_TeachWhichPoke": {
+    "ru": "Кого обучить?", "de": "Welches Pokémon lernen?", "width": 184, "lines": 1
+  },
+  "gOtherText_WontHaveAnyEffect": {
+    "ru": "Это не подействует.", "de": "Das hat keine Wirkung.", "width": 184, "lines": 2
+  },
+  "gOtherText_MailMustBeRemoved": {
+    "ru": "Сначала снимите письмо.", "de": "Zuerst den Brief abnehmen.", "width": 184, "lines": 2
+  },
+  "gOtherText_BagFullCannotRemoveItem": {
+    "ru": "Сумка полна. Предмет не снят.", "de": "Beutel voll. Item nicht abgenommen.", "width": 184, "lines": 2
+  },
+  "gOtherText_PokeHoldingItemCantMail": {
+    "ru": "Покемон уже держит предмет.", "de": "Das Pokémon trägt schon ein Item.", "width": 184, "lines": 2
+  },
+  "gOtherText_MailTransferredMailbox": {
+    "ru": "Письмо взято из почты.", "de": "Brief aus dem Postfach genommen.", "width": 184, "lines": 2
+  },
+  "gOtherText_SendRemovedMailPrompt": {
+    "ru": "Отправить письмо на ПК?", "de": "Brief an den PC senden?", "width": 184, "lines": 2
+  },
+  "gOtherText_MailTaken": {
+    "ru": "Письмо снято с покемона.", "de": "Brief vom Pokémon genommen.", "width": 184, "lines": 2
+  },
+  "gOtherText_MailWasSent": {
+    "ru": "Письмо отправлено на ПК.", "de": "Brief wurde an den PC gesendet.", "width": 184, "lines": 2
+  },
+  "gOtherText_MailboxIsFull": {
+    "ru": "Почтовый ящик полон.", "de": "Das Postfach ist voll.", "width": 184, "lines": 2
+  },
+  "gOtherText_MailRemovedMessageLost": {
+    "ru": "Текст письма исчезнет. Хорошо?", "de": "Der Brieftext geht verloren. Okay?", "width": 184, "lines": 2
+  },
+  "gOtherText_WhichMoveToForget2": {
+    "ru": "Какой приём забыть?", "de": "Welche Attacke vergessen?", "width": 184, "lines": 2
+  },
+  "OtherText_PokeInfo": {
+    "ru": "О ПОКЕМОНЕ", "de": "POKÉMON-INFO", "width": 112, "lines": 1
+  },
+  "OtherText_PokeSkills": {
+    "ru": "ПАРАМЕТРЫ", "de": "POKÉMON-WERTE", "width": 112, "lines": 1
+  },
+  "OtherText_BattleMoves": {
+    "ru": "БОЕВЫЕ ПРИЁМЫ", "de": "ATTACKEN", "width": 120, "lines": 1
+  },
+  "OtherText_ContestMoves": {
+    "ru": "КОНКУРС", "de": "WETTBEWERB", "width": 120, "lines": 1
+  },
+  "OtherText_Switch": {
+    "ru": "СМЕНИТЬ", "de": "TAUSCHEN", "width": 72, "lines": 1
+  },
+  "OtherText_Info": {
+    "ru": "СВЕДЕНИЯ", "de": "INFO", "width": 72, "lines": 1
+  },
+  "gOtherText_Attack": {
+    "ru": "АТАКА", "de": "ANGRIFF", "width": 64, "lines": 1
+  },
+  "gOtherText_Defense": {
+    "ru": "ЗАЩИТА", "de": "VERT.", "width": 64, "lines": 1
+  },
+  "gOtherText_SpAtk": {
+    "ru": "СП. АТК", "de": "SP. ANG.", "width": 64, "lines": 1
+  },
+  "gOtherText_SpDef": {
+    "ru": "СП. ЗАЩ", "de": "SP. VER.", "width": 64, "lines": 1
+  },
+  "gOtherText_Speed": {
+    "ru": "СКОРОСТЬ", "de": "INIT.", "width": 72, "lines": 1
+  },
+  "gOtherText_HP": {
+    "ru": "ОЗ", "de": "KP", "width": 24, "lines": 1
+  },
+  "gOtherText_OriginalTrainer": {
+    "ru": "ТРЕНЕР/", "de": "OT:", "width": 64, "lines": 1
+  },
+  "gOtherText_Type2": {
+    "ru": "ТИП/", "de": "TYP:", "width": 48, "lines": 1
+  },
+  "gOtherText_Power2": {
+    "ru": "СИЛА", "de": "STÄRKE", "width": 64, "lines": 1
+  },
+  "gOtherText_Accuracy2": {
+    "ru": "ТОЧНОСТЬ", "de": "GENAU.", "width": 72, "lines": 1
+  },
+  "gOtherText_Appeal2": {
+    "ru": "ЭФФЕКТ", "de": "AUSDR.", "width": 64, "lines": 1
+  },
+  "gOtherText_Jam2": {
+    "ru": "ПОМЕХА", "de": "EINDR.", "width": 64, "lines": 1
+  },
+  "gOtherText_Status": {
+    "ru": "СТАТУС", "de": "STATUS", "width": 64, "lines": 1
+  },
+  "gOtherText_ExpPoints": {
+    "ru": "ОПЫТ", "de": "E.-PUNKTE", "width": 80, "lines": 1
+  },
+  "gOtherText_NextLv": {
+    "ru": "ДО УРОВНЯ", "de": "NÄCHST. LV.", "width": 88, "lines": 1
+  },
+  "gOtherText_None": {
+    "ru": "НЕТ", "de": "KEINES", "width": 64, "lines": 1
+  },
+  "gOtherText_Ribbons00": {
+    "ru": "ЛЕНТЫ: 00", "de": "BÄNDER: 00", "width": 88, "lines": 1
+  },
+  "gOtherText_CantForgetHMs": {
+    "ru": "Сейчас нельзя забыть приём HM.", "de": "VM-Attacke kann jetzt nicht vergessen werden.", "width": 184, "lines": 2
+  },
+  "OtherText_Summary": {
+    "ru": "СВОДКА", "de": "BERICHT", "width": 72, "lines": 1
+  },
+  "OtherText_Switch2": {
+    "ru": "СМЕНИТЬ", "de": "TAUSCH", "width": 72, "lines": 1
+  },
+  "OtherText_Item": {
+    "ru": "ПРЕДМЕТ", "de": "ITEM", "width": 72, "lines": 1
+  },
+  "OtherText_Give2": {
+    "ru": "ДАТЬ", "de": "GEBEN", "width": 72, "lines": 1
+  },
+  "OtherText_Take2": {
+    "ru": "СНЯТЬ", "de": "NEHMEN", "width": 72, "lines": 1
+  },
+  "OtherText_Take": {
+    "ru": "ВЗЯТЬ", "de": "NEHMEN", "width": 72, "lines": 1
+  },
+  "OtherText_Mail": {
+    "ru": "ПИСЬМО", "de": "BRIEF", "width": 72, "lines": 1
+  },
+  "OtherText_Read2": {
+    "ru": "ЧИТАТЬ", "de": "LESEN", "width": 72, "lines": 1
+  },
+  "gOtherText_Terminator4": {
+    "ru": ", ", "de": ", ", "width": 16, "lines": 1
+  },
+  "gOtherText_Nature": {
+    "ru": "характер, ", "de": "Wesen, ", "width": 80, "lines": 1
+  },
+  "gOtherText_Met": {
+    "ru": " (встречен).", "de": " (getroffen).", "width": 96, "lines": 1
+  },
+  "gOtherText_Egg2": {
+    "ru": " (ЯЙЦО).", "de": " (EI).", "width": 72, "lines": 1
+  },
+  "gOtherText_ObtainedInTrade": {
+    "ru": "Получен при обмене.", "de": "Im Tausch erhalten.", "width": 136, "lines": 2
+  },
+  "gOtherText_FatefulEncounter": {
+    "ru": "Судьбоносная встреча.", "de": "Schicksalhafte Begegnung.", "width": 184, "lines": 2
+  },
+  "gOtherText_Met2": {
+    "ru": " (встречен).", "de": " (getroffen).", "width": 96, "lines": 1
+  },
+  "gOtherText_EggDayCare": {
+    "ru": "Странное яйцо найдено в питомнике.", "de": "Seltsames Ei aus der Pension.", "width": 144, "lines": 2
+  },
+  "gOtherText_EggNicePlace": {
+    "ru": "Странное яйцо из приятного места.", "de": "Seltsames Ei von einem schönen Ort.", "width": 144, "lines": 2
+  },
+  "gOtherText_EggObtainedInTrade": {
+    "ru": "Странное яйцо получено при обмене.", "de": "Seltsames Ei im Tausch erhalten.", "width": 144, "lines": 2
+  },
+  "gOtherText_EggHotSprings": {
+    "ru": "Яйцо получено у горячих источников.", "de": "Ei an den heißen Quellen erhalten.", "width": 144, "lines": 2
   }
 }

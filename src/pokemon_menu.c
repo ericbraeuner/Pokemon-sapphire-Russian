@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "easy_chat.h"
 #include "pokemon.h"
 #include "pokemon_menu.h"
@@ -231,9 +232,18 @@ static void sub_8089A8C(void)
 
 static void sub_8089BDC(u8 arg0, u8 arg1, u8 arg2, u8 noOfOptions, const struct MenuAction2 *menuActions, const u8 *order, u8 arg6)
 {
+#if LEARNER_DEMO
+    u8 i;
+#endif
+
     PrintPartyMenuPromptText(5, arg6);
     Menu_DrawStdWindowFrame(arg0, arg1, arg0 + arg2, (noOfOptions * 2) + arg1 + 1);
+#if LEARNER_DEMO
+    for (i = 0; i < noOfOptions; i++)
+        Menu_PrintText(Learner_Translate(menuActions[order[i]].text), arg0 + 1, arg1 + 1 + i * 2);
+#else
     Menu_PrintItemsReordered(arg0 + 1, arg1 + 1, noOfOptions, menuActions, order);
+#endif
 }
 
 void sub_8089C50(u8 arg0, u8 arg1, u8 arg2, u8 noOfOptions, const struct MenuAction2 *menuActions, const u8 *order)

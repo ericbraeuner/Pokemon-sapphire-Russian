@@ -812,4 +812,56 @@
   ,"HorseaName":{"ru":"Хорси","de":"Seeper"},"HorseaKind":{"ru":"Дракон","de":"Drache"},"HorseaDexPageOne":{"ru":"Хорси стреляет чернилами в насекомых.","de":"Seeper schießt Tinte auf Insekten."},"HorseaDexPageTwo":{"ru":"При опасности он прячется в кораллах.","de":"Bei Gefahr versteckt es sich in Korallen."}
   ,"SeadraName":{"ru":"Сидра","de":"Seemon"},"SeadraKind":{"ru":"Дракон","de":"Drache"},"SeadraDexPageOne":{"ru":"Шипы Сидры содержат сильный яд.","de":"Seemons Stacheln enthalten starkes Gift."},"SeadraDexPageTwo":{"ru":"Самец заботится о потомстве.","de":"Das Männchen kümmert sich um die Jungen."}
   ,"KingdraName":{"ru":"Кингдра","de":"Seedraking"},"KingdraKind":{"ru":"Дракон","de":"Drache"},"KingdraDexPageOne":{"ru":"Кингдра спит глубоко на морском дне.","de":"Seedraking schläft tief am Meeresboden."},"KingdraDexPageTwo":{"ru":"Зевок может вызвать водоворот.","de":"Ein Gähnen kann Strudel erzeugen."}
+  ,"FreshWater":{"ru":"Вода","de":"Tafelwasser"},"FreshWaterDesc":{"ru":"Лечит 50 ОЗ.","de":"Heilt 50 KP."}
+  ,"SodaPop":{"ru":"Газировка","de":"Sprudel"},"SodaPopDesc":{"ru":"Лечит 60 ОЗ.","de":"Heilt 60 KP."}
+  ,"Lemonade":{"ru":"Лимонад","de":"Limonade"},"LemonadeDesc":{"ru":"Лечит 80 ОЗ.","de":"Heilt 80 KP."}
+  ,"MoomooMilk":{"ru":"Молоко","de":"Kuhmilch"},"MoomooMilkDesc":{"ru":"Лечит 100 ОЗ.","de":"Heilt 100 KP."}
+  ,"EnergyPowder":{"ru":"Энергопорошок","de":"E-Pulver"},"EnergyPowderDesc":{"ru":"Горькое. Лечит 50 ОЗ.","de":"Bitter. Heilt 50 KP."}
+  ,"EnergyRoot":{"ru":"Энергокорень","de":"E-Wurzel"},"EnergyRootDesc":{"ru":"Горькое. Лечит 200 ОЗ.","de":"Bitter. Heilt 200 KP."}
+  ,"HealPowder":{"ru":"Целепорошок","de":"Heilpuder"},"HealPowderDesc":{"ru":"Лечит любой статус.","de":"Heilt jeden Status."}
+  ,"RevivalHerb":{"ru":"Жив-трава","de":"Vitalkraut"},"RevivalHerbDesc":{"ru":"Оживляет покемона.","de":"Belebt wieder."}
+  ,"MaxEther":{"ru":"Макс. эфир","de":"Top-Äther"},"MaxEtherDesc":{"ru":"Все ОД одного приёма.","de":"Alle AP einer Attacke."}
+  ,"MaxElixir":{"ru":"Макс. эликсир","de":"Top-Elixier"},"MaxElixirDesc":{"ru":"Все ОД всех приёмов.","de":"Alle AP aller Attacken."}
+  ,"HPUp":{"ru":"ОЗ плюс","de":"KP-Plus"},"HPUpDesc":{"ru":"Повышает макс. ОЗ.","de":"Erhöht die maximalen KP."}
+  ,"Protein":{"ru":"Протеин","de":"Protein"},"ProteinDesc":{"ru":"Повышает атаку.","de":"Erhöht den Angriff."}
+  ,"Iron":{"ru":"Железо","de":"Eisen"},"IronDesc":{"ru":"Повышает защиту.","de":"Erhöht die Verteidigung."}
+  ,"Carbos":{"ru":"Карбон","de":"Carbon"},"CarbosDesc":{"ru":"Повышает скорость.","de":"Erhöht die Initiative."}
+  ,"Calcium":{"ru":"Кальций","de":"Kalzium"},"CalciumDesc":{"ru":"Повышает спецатаку.","de":"Erhöht den Sp.-Angriff."}
+  ,"PPUp":{"ru":"ОД плюс","de":"AP-Plus"},"PPUpDesc":{"ru":"Повышает макс. ОД.","de":"Erhöht die maximalen AP."}
+  ,"Zinc":{"ru":"Цинк","de":"Zink"},"ZincDesc":{"ru":"Повышает спецзащиту.","de":"Erhöht die Sp.-Abwehr."}
+  ,"PPMax":{"ru":"ОД максимум","de":"AP-Top"},"PPMaxDesc":{"ru":"ОД приёма до максимума.","de":"Maximiert Attacken-AP."}
+  ,"GuardSpec":{"ru":"Защита стат.","de":"Megablock"},"GuardSpecDesc":{"ru":"Не даёт снизить параметры.","de":"Schützt Werte im Kampf."}
+  ,"DireHit":{"ru":"Точный удар","de":"Angriffplus"},"DireHitDesc":{"ru":"Повышает шанс крит. удара.","de":"Mehr Volltreffer."}
+  ,"XAttack":{"ru":"Икс-атака","de":"X-Angriff"},"XAttackDesc":{"ru":"Повышает атаку в бою.","de":"Mehr Angriff im Kampf."}
+  ,"XDefend":{"ru":"Икс-защита","de":"X-Abwehr"},"XDefendDesc":{"ru":"Повышает защиту в бою.","de":"Erhöht Abwehr im Kampf."}
+  ,"XSpeed":{"ru":"Икс-скорость","de":"X-Tempo"},"XSpeedDesc":{"ru":"Повышает скорость в бою.","de":"Mehr Tempo im Kampf."}
+  ,"XAccuracy":{"ru":"Икс-точность","de":"X-Treffer"},"XAccuracyDesc":{"ru":"Повышает точность в бою.","de":"Mehr Genauigkeit."}
+  ,"NatureHardy":{"ru":"Выносливый","de":"ROBUST"}
+  ,"NatureLonely":{"ru":"Одинокий","de":"SOLO"}
+  ,"NatureBrave":{"ru":"Храбрый","de":"MUTIG"}
+  ,"NatureAdamant":{"ru":"Упрямый","de":"HART"}
+  ,"NatureNaughty":{"ru":"Непослушный","de":"FRECH"}
+  ,"NatureBold":{"ru":"Смелый","de":"KÜHN"}
+  ,"NatureDocile":{"ru":"Послушный","de":"SANFT"}
+  ,"NatureRelaxed":{"ru":"Спокойный","de":"LOCKER"}
+  ,"NatureImpish":{"ru":"Озорной","de":"PFIFFIG"}
+  ,"NatureLax":{"ru":"Беспечный","de":"LASCH"}
+  ,"NatureTimid":{"ru":"Робкий","de":"SCHEU"}
+  ,"NatureHasty":{"ru":"Торопливый","de":"HASTIG"}
+  ,"NatureSerious":{"ru":"Серьёзный","de":"ERNST"}
+  ,"NatureJolly":{"ru":"Весёлый","de":"FROH"}
+  ,"NatureNaive":{"ru":"Наивный","de":"NAIV"}
+  ,"NatureModest":{"ru":"Скромный","de":"MÄSSIG"}
+  ,"NatureMild":{"ru":"Мягкий","de":"MILD"}
+  ,"NatureQuiet":{"ru":"Тихий","de":"RUHIG"}
+  ,"NatureBashful":{"ru":"Застенчивый","de":"ZAGHAFT"}
+  ,"NatureRash":{"ru":"Дерзкий","de":"HITZIG"}
+  ,"NatureCalm":{"ru":"Невозмутимый","de":"STILL"}
+  ,"NatureGentle":{"ru":"Нежный","de":"ZART"}
+  ,"NatureSassy":{"ru":"Нахальный","de":"FORSCH"}
+  ,"NatureCareful":{"ru":"Осторожный","de":"SACHT"}
+  ,"NatureQuirky":{"ru":"Причудливый","de":"KAUZIG"}
+  ,"AbilityOvergrow":{"ru":"ЗАРОСЛИ","de":"NOTDÜNGER"},"AbilityOvergrowDesc":{"ru":"Трава сильнее при малых ОЗ.","de":"Pflanze stärker."}
+  ,"AbilityBlaze":{"ru":"ПЛАМЯ","de":"GROSSBRAND"},"AbilityBlazeDesc":{"ru":"Огонь сильнее при малых ОЗ.","de":"Feuer stärker."}
+  ,"AbilityTorrent":{"ru":"ПОТОК","de":"STURZBACH"},"AbilityTorrentDesc":{"ru":"Вода сильнее при малых ОЗ.","de":"Wasser stärker."}
   }

@@ -216,6 +216,33 @@ class LessonTests(unittest.TestCase):
         for name in storage[3:]:
             self.assertEqual(1, entries[name]['lines'])
 
+    def test_party_and_summary_shared_text_use_learner_translations(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        party = (demo.ROOT / 'src/party_menu.c').read_text(encoding='utf-8')
+        summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text(encoding='utf-8')
+        self.assertIn('PartyLearnerText(PartyMenuPromptTexts[textId])', party)
+        self.assertIn('MenuPrintMessage(PartyLearnerText(message)', party)
+        self.assertIn('src = SummaryLearnerText(src);', summary)
+        self.assertEqual(2, summary.count('SummaryLearnerText(sPageHeaderTexts['))
+        self.assertEqual(2, summary.count('SummaryCopyItemName(itemId, gStringVar1);'))
+        self.assertEqual(3, summary.count('SummaryLearnerText(gMoveNames[move])'))
+        self.assertEqual(25, summary.count('case NATURE_'))
+        self.assertEqual(6, summary.count('case ABILITY_'))
+        self.assertEqual(3, summary.count('SummaryMapName(locationMet, gStringVar1)'))
+        pokemon_menu = (demo.ROOT / 'src/pokemon_menu.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_Translate(menuActions[order[i]].text)', pokemon_menu)
+        self.assertNotIn('StringCopy(gStringVar2, gMoveNames[', party)
+        for name in ('OtherText_ChoosePoke', 'OtherText_RestoreWhatMove',
+                     'OtherText_PokeInfo', 'OtherText_PokeSkills',
+                     'gOtherText_Attack', 'gOtherText_Defense',
+                     'gOtherText_ExpPoints', 'gOtherText_NextLv',
+                     'OtherText_Summary', 'OtherText_Item', 'OtherText_Mail',
+                     'gOtherText_Nature', 'gOtherText_Met',
+                     'gOtherText_EggObtainedInTrade'):
+            self.assertIn(name, entries)
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        self.assertEqual({'ru', 'de', 'widths', 'max_width'}, set(templates['OtherText_DoWhat']))
+
     def test_early_pokedex_entries_are_bilingual_and_fit(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         species = tuple(sorted(name[:-10] for name in entries if name.endswith('DexPageOne')))
@@ -362,7 +389,7 @@ class LessonTests(unittest.TestCase):
         import re
         code = (demo.ROOT / 'src/shop.c').read_text()
         names = re.findall(r'case ITEM_\w+: return description \? LEARNER_UI\(Learner_GetLanguage\(\), (\w+)\) : LEARNER_UI\(Learner_GetLanguage\(\), (\w+)\)', code)
-        self.assertEqual(len(names), 23)
+        self.assertEqual(len(names), 47)
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         for description, name in names:
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:

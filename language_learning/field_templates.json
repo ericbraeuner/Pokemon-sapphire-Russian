@@ -202,5 +202,13 @@
       "STR_VAR_1": 112
     },
     "max_width": 192
+  },
+  "OtherText_DoWhat": {
+    "ru": "Что сделать с {STR_VAR_1}?",
+    "de": "Was tun mit {STR_VAR_1}?",
+    "widths": {
+      "STR_VAR_1": 80
+    },
+    "max_width": 184
   }
 }

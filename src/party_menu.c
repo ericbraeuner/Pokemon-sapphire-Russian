@@ -1,4 +1,10 @@
 #include "global.h"
+#include "learner.h"
+#if LEARNER_DEMO
+#define PartyLearnerText Learner_Translate
+#else
+#define PartyLearnerText(text) (text)
+#endif
 #include "constants/items.h"
 #include "constants/item_effects.h"
 #include "constants/moves.h"
@@ -2162,7 +2168,7 @@ void PrintPartyMenuPromptText(u8 textId, u8 b)
             break;
         }
 
-        Menu_PrintText(PartyMenuPromptTexts[textId], 1, 17);
+        Menu_PrintText(PartyLearnerText(PartyMenuPromptTexts[textId]), 1, 17);
     }
 }
 
@@ -2879,7 +2885,7 @@ u8 DisplayPartyMenuMessage(const u8 *message, u8 noClearAfter)
     gPartyMenuMessage_IsPrinting = 1;
 
     Menu_DrawStdWindowFrame(WINDOW_LEFT, 14, WINDOW_RIGHT, 19);
-    MenuPrintMessage(message, WINDOW_LEFT + 1, 15);
+    MenuPrintMessage(PartyLearnerText(message), WINDOW_LEFT + 1, 15);
 
     taskId = CreateTask(Task_PartyMenuPrintRun, 1);
     gTasks[taskId].data[0] = noClearAfter;
@@ -3225,7 +3231,7 @@ void Task_TeamMonTMMove(u8 taskId)
 {
     GetMonNickname(gPartyMenu.pokemon, gStringVar1);
     gPartyMenu.unk8 = ItemIdToBattleMoveId(gPartyMenu.secondarySelectedIndex);
-    StringCopy(gStringVar2, gMoveNames[gPartyMenu.unk8]);
+    StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gPartyMenu.unk8]));
     ePartyMenu2.pmUnk282 = 0;
     if (pokemon_has_move(gPartyMenu.pokemon, gPartyMenu.unk8))
     {
@@ -3263,7 +3269,7 @@ void Task_TeamMonTMMove(u8 taskId)
 
 void Task_TeamMonTMMove2(u8 taskId)
 {
-    StringCopy(gStringVar2, gMoveNames[gPartyMenu.unk8]);
+    StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gPartyMenu.unk8]));
     StringExpandPlaceholders(gStringVar4, gOtherText_LearnedMove);
     DisplayPartyMenuMessage(gStringVar4, 1);
     AdjustFriendship(gPartyMenu.pokemon, FRIENDSHIP_EVENT_LEARN_TMHM);
@@ -3377,7 +3383,7 @@ void TaughtMove(u8 taskId)
         moveIndex = sub_809FA30();
         r4 = GetMonData(gPartyMenu.pokemon, MON_DATA_MOVE1 + moveIndex);
         GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-        StringCopy(gStringVar2, gMoveNames[r4]);
+    StringCopy(gStringVar2, PartyLearnerText(gMoveNames[r4]));
         StringExpandPlaceholders(gStringVar4, gOtherText_ForgetMove123_2);
         DisplayPartyMenuMessage(gStringVar4, 1);
         CreateTask(TMMoveUpdateMoveSlot, 5);
@@ -3400,7 +3406,7 @@ void StopTryingToTeachMove_806F588(u8 taskId)
     {
         gTasks[taskId].func = TaskDummy;
         sub_806E8D0(taskId, gSpecialVar_ItemId, sub_808B508);
-        StringCopy(gStringVar2, gMoveNames[gPartyMenu.unk8]);
+        StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gPartyMenu.unk8]));
         StringExpandPlaceholders(gStringVar4, gOtherText_StopTryingTo);
         DisplayPartyMenuMessage(gStringVar4, 1);
         CreateTask(StopTryingToTeachMove_806F67C, 5);
@@ -3410,7 +3416,7 @@ void StopTryingToTeachMove_806F588(u8 taskId)
 void StopTryingToTeachMove_806F614(u8 taskId)
 {
     Menu_EraseWindowRect(23, 8, 29, 13);
-    StringCopy(gStringVar2, gMoveNames[gPartyMenu.unk8]);
+    StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gPartyMenu.unk8]));
     StringExpandPlaceholders(gStringVar4, gOtherText_StopTryingTo);
     DisplayPartyMenuMessage(gStringVar4, 1);
     gTasks[taskId].func = StopTryingToTeachMove_806F67C;
@@ -3433,7 +3439,7 @@ void StopTryingToTeachMove_806F6B4(u8 taskId)
     {
         Menu_EraseWindowRect(23, 8, 29, 13);
         GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-        StringCopy(gStringVar2, gMoveNames[gPartyMenu.unk8]);
+        StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gPartyMenu.unk8]));
         StringExpandPlaceholders(gStringVar4, gOtherText_DidNotLearnMove2);
         DisplayPartyMenuMessage(gStringVar4, 1);
         gTasks[taskId].func = sub_806F2FC;
@@ -3446,7 +3452,7 @@ void StopTryingToTeachMove_806F6B4(u8 taskId)
             PlaySE(SE_SELECT);
         Menu_EraseWindowRect(23, 8, 29, 13);
         GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-        StringCopy(gStringVar2, gMoveNames[gPartyMenu.unk8]);
+        StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gPartyMenu.unk8]));
         StringExpandPlaceholders(gStringVar4, gOtherText_WantsToLearn);
         DisplayPartyMenuMessage(gStringVar4, 1);
         gTasks[taskId].func = sub_806F358;
@@ -3857,7 +3863,7 @@ void CreateItemUseMoveMenu(u8 partyMonIndex)
     {
         u16 move = GetMonData(&gPlayerParty[partyMonIndex], MON_DATA_MOVE1 + i);
 
-        Menu_PrintText(gMoveNames[move], 20, i * 2 + 11);
+        Menu_PrintText(PartyLearnerText(gMoveNames[move]), 20, i * 2 + 11);
         if (move != 0)
             r6++;
     }
@@ -3951,7 +3957,7 @@ void DoRecoverPP(u8 taskId)
         PlaySE(SE_USE_ITEM);
         RemoveBagItem(gPartyMenu.secondarySelectedIndex, 1);
         r5 = GetMonData(gPartyMenu.pokemon, MON_DATA_MOVE1 + gTasks[taskId].data[11]);
-        StringCopy(gStringVar1, gMoveNames[r5]);
+        StringCopy(gStringVar1, PartyLearnerText(gMoveNames[r5]));
         GetMedicineItemEffectMessage(gPartyMenu.secondarySelectedIndex);
         DisplayPartyMenuMessage(gStringVar4, 1);
     }
@@ -4190,7 +4196,7 @@ void Task_RareCandy3(u8 taskId)
             case 0xFFFF:
                 // Mon already knows 4 moves.
                 GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-                StringCopy(gStringVar2, gMoveNames[gMoveToLearn]);
+                StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gMoveToLearn]));
 
                 StringExpandPlaceholders(gStringVar4, gOtherText_WantsToLearn);
                 DisplayPartyMenuMessage(gStringVar4, 1);
@@ -4205,7 +4211,7 @@ void Task_RareCandy3(u8 taskId)
             default:
                 // Mon automatically learned a move because it knew less than four moves.
                 GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-                StringCopy(gStringVar2, gMoveNames[learnedMove]);
+                StringCopy(gStringVar2, PartyLearnerText(gMoveNames[learnedMove]));
 
                 StringExpandPlaceholders(gStringVar4, gOtherText_LearnedMove);
                 DisplayPartyMenuMessage(gStringVar4, 1);
@@ -4242,7 +4248,7 @@ void TeachMonMoveInPartyMenu(u8 taskId)
     case 0xFFFF:
         // Mon already knows 4 moves.
         GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-        StringCopy(gStringVar2, gMoveNames[gMoveToLearn]);
+        StringCopy(gStringVar2, PartyLearnerText(gMoveNames[gMoveToLearn]));
 
         StringExpandPlaceholders(gStringVar4, gOtherText_WantsToLearn);
         DisplayPartyMenuMessage(gStringVar4, 1);
@@ -4257,7 +4263,7 @@ void TeachMonMoveInPartyMenu(u8 taskId)
     default:
         // Mon automatically learned a move because it knew less than four moves.
         GetMonNickname(gPartyMenu.pokemon, gStringVar1);
-        StringCopy(gStringVar2, gMoveNames[learnedMove]);
+        StringCopy(gStringVar2, PartyLearnerText(gMoveNames[learnedMove]));
 
         StringExpandPlaceholders(gStringVar4, gOtherText_LearnedMove);
         DisplayPartyMenuMessage(gStringVar4, 1);

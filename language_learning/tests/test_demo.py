@@ -218,18 +218,35 @@ class LessonTests(unittest.TestCase):
 
     def test_early_pokedex_entries_are_bilingual_and_fit(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
-        species = ('Treecko', 'Torchic', 'Mudkip', 'Poochyena', 'Zigzagoon', 'Wurmple')
+        species = ('Treecko', 'Torchic', 'Mudkip', 'Poochyena', 'Zigzagoon', 'Wurmple',
+                   'Lotad', 'Seedot', 'Ralts', 'Surskit', 'Taillow', 'Wingull',
+                   'Shroomish', 'Whismur', 'Slakoth', 'Nincada', 'Skitty', 'Sableye',
+                   'Makuhita', 'Aron', 'Meditite', 'Electrike', 'Plusle', 'Minun',
+                   'Roselia', 'Gulpin', 'Numel', 'Spoink', 'Trapinch', 'Swablu')
+        species += ('Zangoose', 'Seviper', 'Barboach', 'Corphish', 'Baltoy', 'Lileep',
+                     'Anorith', 'Feebas', 'Castform', 'Kecleon', 'Shuppet', 'Duskull',
+                     'Tropius', 'Chimecho', 'Absol', 'Wynaut', 'Snorunt', 'Spheal',
+                     'Clamperl', 'Bagon')
         for name in species:
             for suffix in ('Name', 'Kind', 'DexPageOne', 'DexPageTwo'):
                 self.assertEqual({'ru', 'de'}, set(entries[name + suffix]))
             for page in ('DexPageOne', 'DexPageTwo'):
                 for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
-                    self.assertLessEqual(len(demo.wrap(entries[name + page][tag], mapping, glyphs, 168)), 3)
+                    self.assertLessEqual(len(demo.wrap(entries[name + page][tag], mapping, glyphs, 152)), 3)
         code = (demo.ROOT / 'src/pokedex.c').read_text()
         for name in species:
             self.assertIn('NATIONAL_DEX_' + name.upper(), code)
             self.assertIn(name + 'DexPageOne', code)
             self.assertIn(name + 'DexPageTwo', code)
+
+    def test_pokedex_categories_fit_with_pokemon_suffix(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        species = tuple(name[:-4] for name in entries if name.endswith('Kind'))
+        self.assertGreaterEqual(len(species), 50)
+        for name in species:
+            for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
+                category = entries[name + 'Kind'][tag] + ' POKéMON'
+                self.assertEqual(len(demo.wrap(category, mapping, glyphs, 152)), 1)
 
     def test_oldale_dialogues_cover_all_local_text(self):
         import re

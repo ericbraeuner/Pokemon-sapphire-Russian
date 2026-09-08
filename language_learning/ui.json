@@ -345,7 +345,7 @@
   },
   "ZigzagoonDexPageOne": {
     "ru": "Зигзагун трётся о деревья и метит территорию.",
-    "de": "Zigzachs reibt sich an Bäumen und markiert sein Revier."
+    "de": "Zigzachs reibt sich an Bäumen. So markiert es Wege."
   },
   "ZigzagoonDexPageTwo": {
     "ru": "В бою он притворяется мёртвым и обманывает врага.",
@@ -358,5 +358,265 @@
   "WurmpleDexPageTwo": {
     "ru": "Яд из шипов ослабляет нападающего.",
     "de": "Das Gift seiner Stacheln schwächt den Angreifer."
+  },
+  "LotadName": {
+    "ru": "Лотад",
+    "de": "Loturzel"
+  },
+  "LotadKind": {
+    "ru": "Водный",
+    "de": "Wasser"
+  },
+  "LotadDexPageOne": {
+    "ru": "Лотад жил на суше. Его лист стал большим и тяжёлым.",
+    "de": "Loturzel lebte an Land. Sein Blatt wurde zu schwer."
+  },
+  "LotadDexPageTwo": {
+    "ru": "Теперь он плавает на поверхности воды.",
+    "de": "Nun lebt es schwimmend auf dem Wasser."
+  },
+  "SeedotName": {
+    "ru": "Сидот",
+    "de": "Samurzel"
+  },
+  "SeedotKind": {
+    "ru": "Жёлудь",
+    "de": "Eichel"
+  },
+  "SeedotDexPageOne": {
+    "ru": "На ветке дерева Сидот похож на жёлудь.",
+    "de": "Am Ast sieht Samurzel wie eine Eichel aus."
+  },
+  "SeedotDexPageTwo": {
+    "ru": "Он пугает покемонов и чистит тело листьями.",
+    "de": "Es erschreckt Pokémon und putzt sich mit Blättern."
+  },
+  "RaltsName": {
+    "ru": "Ролтс",
+    "de": "Trasla"
+  },
+  "RaltsKind": {
+    "ru": "Чувства",
+    "de": "Gefühl"
+  },
+  "RaltsDexPageOne": {
+    "ru": "Ролтс чувствует эмоции людей.",
+    "de": "Trasla kann die Gefühle von Menschen spüren."
+  },
+  "RaltsDexPageTwo": {
+    "ru": "Если тренер рад, Ролтс тоже веселится.",
+    "de": "Ist sein Trainer froh, freut sich Trasla auch."
+  },
+  "SurskitName": {
+    "ru": "Сурскит",
+    "de": "Gehweiher"
+  },
+  "SurskitKind": {
+    "ru": "Водомер",
+    "de": "Teich"
+  },
+  "SurskitDexPageOne": {
+    "ru": "При опасности Сурскит выделяет сладкий сироп.",
+    "de": "Bei Gefahr gibt Gehweiher süßen Sirup ab."
+  },
+  "SurskitDexPageTwo": {
+    "ru": "Некоторые покемоны любят этот сироп.",
+    "de": "Manche Pokémon mögen diesen Sirup sehr."
+  },
+  "TaillowName": {
+    "ru": "Тейлоу",
+    "de": "Schwalbini"
+  },
+  "TaillowKind": {
+    "ru": "Ласточка",
+    "de": "Schwalbe"
+  },
+  "TaillowDexPageOne": {
+    "ru": "Тейлоу не боится сильных противников.",
+    "de": "Schwalbini scheut keinen starken Gegner."
+  },
+  "TaillowDexPageTwo": {
+    "ru": "Он летает далеко в поисках пищи.",
+    "de": "Es fliegt weit, um Nahrung zu finden."
+  },
+  "WingullName": {
+    "ru": "Вингалл",
+    "de": "Wingull"
+  },
+  "WingullKind": {
+    "ru": "Чайка",
+    "de": "Möwe"
+  },
+  "WingullDexPageOne": {
+    "ru": "Вингалл хранит воду в клюве.",
+    "de": "Wingull speichert Wasser in seinem Schnabel."
+  },
+  "WingullDexPageTwo": {
+    "ru": "Он парит над морем и ветром.",
+    "de": "Es gleitet über das Meer im Wind."
+  },
+  "ShroomishName": {
+    "ru": "Шрумиш",
+    "de": "Knilz"
+  },
+  "ShroomishKind": {
+    "ru": "Гриб",
+    "de": "Pilz"
+  },
+  "ShroomishDexPageOne": {
+    "ru": "Шрумиш любит тёмные влажные места.",
+    "de": "Knilz liebt dunkle, feuchte Orte."
+  },
+  "ShroomishDexPageTwo": {
+    "ru": "При опасности он выпускает споры.",
+    "de": "Bei Gefahr verstreut es Sporen."
+  },
+  "WhismurName": {
+    "ru": "Висмур",
+    "de": "Flurmel"
+  },
+  "WhismurKind": {
+    "ru": "Шёпот",
+    "de": "Flüster"
+  },
+  "WhismurDexPageOne": {
+    "ru": "Висмур почти всегда тихо плачет.",
+    "de": "Flurmel weint fast immer ganz leise."
+  },
+  "WhismurDexPageTwo": {
+    "ru": "Если он испугается, его крик станет громким.",
+    "de": "Erschreckt es sich, wird sein Ruf sehr laut."
+  },
+  "SlakothName": {
+    "ru": "Слакот",
+    "de": "Bummelz"
+  },
+  "SlakothKind": {
+    "ru": "Ленивец",
+    "de": "Faultier"
+  },
+  "SlakothDexPageOne": {
+    "ru": "Слакот спит двадцать часов в день.",
+    "de": "Bummelz schläft zwanzig Stunden am Tag."
+  },
+  "SlakothDexPageTwo": {
+    "ru": "Он почти не двигается и ест листья.",
+    "de": "Es bewegt sich kaum und frisst Blätter."
+  },
+  "NincadaName": {
+    "ru": "Нинкада",
+    "de": "Nincada"
+  },
+  "NincadaKind": {
+    "ru": "Насекомое",
+    "de": "Zikade"
+  },
+  "NincadaDexPageOne": {
+    "ru": "Нинкада живёт под землёй и почти не видит.",
+    "de": "Nincada lebt unter der Erde und sieht kaum."
+  },
+  "NincadaDexPageTwo": {
+    "ru": "Он чувствует корни и ищет воду.",
+    "de": "Es fühlt Wurzeln und sucht nach Wasser."
+  },
+  "SkittyName": {
+    "ru": "Скитти",
+    "de": "Eneco"
+  },
+  "SkittyKind": {
+    "ru": "Кошка",
+    "de": "Kätzchen"
+  },
+  "SkittyDexPageOne": {
+    "ru": "Скитти любит преследовать движущиеся предметы.",
+    "de": "Eneco jagt gern bewegliche Dinge."
+  },
+  "SkittyDexPageTwo": {
+    "ru": "Он часто гоняется за собственным хвостом.",
+    "de": "Es jagt oft seinen eigenen Schweif."
+  },
+  "SableyeName": {
+    "ru": "Сэйблай",
+    "de": "Zobiris"
+  },
+  "SableyeKind": {
+    "ru": "Тьма",
+    "de": "Finsternis"
+  },
+  "SableyeDexPageOne": {
+    "ru": "Сэйблай живёт в пещерах и ест камни.",
+    "de": "Zobiris lebt in Höhlen und frisst Steine."
+  },
+  "SableyeDexPageTwo": {
+    "ru": "Его глаза стали драгоценными камнями.",
+    "de": "Seine Augen wurden zu Edelsteinen."
+  },
+  "MakuhitaName": {"ru": "Макухита", "de": "Makuhita"},
+  "MakuhitaKind": {"ru": "Силач", "de": "Sumo"},
+  "MakuhitaDexPageOne": {"ru": "Макухита тренирует тело ударами.", "de": "Makuhita trainiert seinen Körper mit Schlägen."},
+  "MakuhitaDexPageTwo": {"ru": "Он становится сильнее после каждого боя.", "de": "Nach jedem Kampf wird es stärker."},
+  "AronName": {"ru": "Арон", "de": "Aron"},
+  "AronKind": {"ru": "Железо", "de": "Eisen"},
+  "AronDexPageOne": {"ru": "Арон ест железную руду и камни.", "de": "Aron frisst Eisenerz und Steine."},
+  "AronDexPageTwo": {"ru": "Он живёт в горах и укрепляет тело.", "de": "Es lebt in Bergen und härtet seinen Körper."},
+  "MedititeName": {"ru": "Медитайт", "de": "Meditie"},
+  "MedititeKind": {"ru": "Медитация", "de": "Meditation"},
+  "MedititeDexPageOne": {"ru": "Медитайт каждый день медитирует.", "de": "Meditie meditiert jeden Tag."},
+  "MedititeDexPageTwo": {"ru": "Голод помогает ему сосредоточиться.", "de": "Hunger hilft ihm, sich zu konzentrieren."},
+  "ElectrikeName": {"ru": "Электрайк", "de": "Frizelbliz"},
+  "ElectrikeKind": {"ru": "Молния", "de": "Blitz"},
+  "ElectrikeDexPageOne": {"ru": "Электрик накапливает электричество.", "de": "Frizelbliz sammelt Elektrizität."},
+  "ElectrikeDexPageTwo": {"ru": "Искры появляются, когда он волнуется.", "de": "Bei Aufregung sprühen Funken."},
+  "PlusleName": {"ru": "Пласл", "de": "Plusle"},
+  "PlusleKind": {"ru": "Плюс", "de": "Plus"},
+  "PlusleDexPageOne": {"ru": "Пласл радуется, когда его хвалят.", "de": "Plusle freut sich über Lob."},
+  "PlusleDexPageTwo": {"ru": "Он поддерживает партнёра электричеством.", "de": "Es unterstützt Partner mit Elektrizität."},
+  "MinunName": {"ru": "Минун", "de": "Minun"},
+  "MinunKind": {"ru": "Минус", "de": "Minus"},
+  "MinunDexPageOne": {"ru": "Минун любит помогать друзьям.", "de": "Minun hilft seinen Freunden gern."},
+  "MinunDexPageTwo": {"ru": "Его искры усиливают союзников.", "de": "Seine Funken stärken Verbündete."},
+  "RoseliaName": {"ru": "Розелия", "de": "Roselia"},
+  "RoseliaKind": {"ru": "Шип", "de": "Dorn"},
+  "RoseliaDexPageOne": {"ru": "Розелия выпускает аромат цветов.", "de": "Roselia verströmt den Duft seiner Blüten."},
+  "RoseliaDexPageTwo": {"ru": "Но шипы на его руках опасны.", "de": "Doch die Dornen an seinen Armen sind gefährlich."},
+  "GulpinName": {"ru": "Гулпин", "de": "Schluppuck"},
+  "GulpinKind": {"ru": "Желудок", "de": "Magen"},
+  "GulpinDexPageOne": {"ru": "Гулпин может проглотить предмет размером с себя.", "de": "Schluppuck schluckt Dinge so groß wie sich selbst."},
+  "GulpinDexPageTwo": {"ru": "Его желудочная кислота растворяет всё.", "de": "Seine Magensäure löst fast alles auf."},
+  "NumelName": {"ru": "Нумель", "de": "Camaub"},
+  "NumelKind": {"ru": "Огненный", "de": "Glut"},
+  "NumelDexPageOne": {"ru": "Нумель хранит горячую магму в теле.", "de": "Camaub speichert heiße Magma im Körper."},
+  "NumelDexPageTwo": {"ru": "Он медленный, потому что не чувствует тяжести.", "de": "Es ist langsam und spürt sein Gewicht kaum."},
+  "SpoinkName": {"ru": "Споинк", "de": "Spoink"},
+  "SpoinkKind": {"ru": "Пружина", "de": "Sprungfeder"},
+  "SpoinkDexPageOne": {"ru": "Споинк должен постоянно прыгать.", "de": "Spoink muss ständig hüpfen."},
+  "SpoinkDexPageTwo": {"ru": "Прыжки поддерживают работу его сердца.", "de": "Das Hüpfen hält sein Herz am Schlagen."},
+  "TrapinchName": {"ru": "Трапинч", "de": "Knacklion"},
+  "TrapinchKind": {"ru": "Муравьиный", "de": "Ameise"},
+  "TrapinchDexPageOne": {"ru": "Трапинч роет яму в пустыне.", "de": "Knacklion gräbt eine Grube in der Wüste."},
+  "TrapinchDexPageTwo": {"ru": "Его мощные челюсти не отпускают добычу.", "de": "Seine starken Kiefer lassen Beute nicht los."},
+  "SwabluName": {"ru": "Сваблу", "de": "Wablu"},
+  "SwabluKind": {"ru": "Хлопок", "de": "Watte"},
+  "SwabluDexPageOne": {"ru": "Сваблу покрывает голову мягкими крыльями.", "de": "Wablu bedeckt seinen Kopf mit weichen Flügeln."},
+  "SwabluDexPageTwo": {"ru": "Он любит чистые голубые небеса.", "de": "Es liebt einen klaren blauen Himmel."}
+  ,"ZangooseName":{"ru":"Зангус","de":"Manguspekt"},"ZangooseKind":{"ru":"Кошачий","de":"Katze"},"ZangooseDexPageOne":{"ru":"Зангус ловко сражается когтями.","de":"Manguspekt kämpft geschickt mit Krallen."},"ZangooseDexPageTwo":{"ru":"Он ненавидит Севипера.","de":"Es hasst Vipitis."}
+  ,"SeviperName":{"ru":"Севипер","de":"Vipitis"},"SeviperKind":{"ru":"Змеиный","de":"Schlange"},"SeviperDexPageOne":{"ru":"Севипер носит яд на хвосте.","de":"Vipitis trägt Gift am Schweif."},"SeviperDexPageTwo":{"ru":"Он выслеживает Зангуса.","de":"Es jagt Manguspekt."}
+  ,"BarboachName":{"ru":"Барбоуч","de":"Schmerbe"},"BarboachKind":{"ru":"Усатый","de":"Barbe"},"BarboachDexPageOne":{"ru":"Барбоуч живёт в мутной воде.","de":"Schmerbe lebt in trübem Wasser."},"BarboachDexPageTwo":{"ru":"Его усики чувствуют движения.","de":"Seine Barthaare spüren Bewegungen."}
+  ,"CorphishName":{"ru":"Корфиш","de":"Krebscorps"},"CorphishKind":{"ru":"Речной","de":"Krebs"},"CorphishDexPageOne":{"ru":"Корфиш легко живёт в грязной воде.","de":"Krebscorps lebt leicht in schmutzigem Wasser."},"CorphishDexPageTwo":{"ru":"Его клешни очень сильны.","de":"Seine Scheren sind sehr stark."}
+  ,"BaltoyName":{"ru":"Балтой","de":"Puppance"},"BaltoyKind":{"ru":"Глиняный","de":"Ton"},"BaltoyDexPageOne":{"ru":"Балтой вращается на одном месте.","de":"Puppance dreht sich auf der Stelle."},"BaltoyDexPageTwo":{"ru":"Он общается странными звуками.","de":"Es verständigt sich mit seltsamen Lauten."}
+  ,"LileepName":{"ru":"Лилеп","de":"Liliep"},"LileepKind":{"ru":"Морская лилия","de":"Seelilie"},"LileepDexPageOne":{"ru":"Лилеп цепляется за камни на дне.","de":"Liliep haftet an Felsen am Meeresboden."},"LileepDexPageTwo":{"ru":"Он ловит добычу щупальцами.","de":"Es fängt Beute mit Tentakeln."}
+  ,"AnorithName":{"ru":"Анорит","de":"Anorith"},"AnorithKind":{"ru":"Древний","de":"Urfisch"},"AnorithDexPageOne":{"ru":"Анорит плавал в древних морях.","de":"Anorith schwamm in uralten Meeren."},"AnorithDexPageTwo":{"ru":"Его когти ловко режут добычу.","de":"Seine Klauen schneiden Beute geschickt."}
+  ,"FeebasName":{"ru":"Фибас","de":"Barschwa"},"FeebasKind":{"ru":"Рыба","de":"Fisch"},"FeebasDexPageOne":{"ru":"Фибас живёт в любых водоёмах.","de":"Barschwa lebt in fast jedem Gewässer."},"FeebasDexPageTwo":{"ru":"Он вынослив, хотя выглядит слабым.","de":"Es ist zäh, obwohl es schwach aussieht."}
+  ,"CastformName":{"ru":"Кастформ","de":"Formeo"},"CastformKind":{"ru":"Погода","de":"Wetter"},"CastformDexPageOne":{"ru":"Кастформ меняет форму с погодой.","de":"Formeo ändert seine Form mit dem Wetter."},"CastformDexPageTwo":{"ru":"Его тело состоит из облаков.","de":"Sein Körper besteht aus Wolken."}
+  ,"KecleonName":{"ru":"Кеклеон","de":"Kecleon"},"KecleonKind":{"ru":"Цветной","de":"Farbe"},"KecleonDexPageOne":{"ru":"Кеклеон меняет цвет кожи.","de":"Kecleon kann seine Hautfarbe ändern."},"KecleonDexPageTwo":{"ru":"Он становится невидимым рядом с листьями.","de":"Neben Blättern wird es unsichtbar."}
+  ,"ShuppetName":{"ru":"Шуппет","de":"Shuppet"},"ShuppetKind":{"ru":"Кукла","de":"Puppe"},"ShuppetDexPageOne":{"ru":"Шуппет питается завистью людей.","de":"Shuppet ernährt sich von Neid."},"ShuppetDexPageTwo":{"ru":"Он прячется под карнизами домов.","de":"Es versteckt sich unter Hausvorsprüngen."}
+  ,"DuskullName":{"ru":"Даскалл","de":"Zwirrlicht"},"DuskullKind":{"ru":"Охотник","de":"Fänger"},"DuskullDexPageOne":{"ru":"Даскалл появляется ночью.","de":"Zwirrlicht erscheint nachts."},"DuskullDexPageTwo":{"ru":"Его лицо похоже на чёрный череп.","de":"Sein Gesicht gleicht einem schwarzen Schädel."}
+  ,"TropiusName":{"ru":"Тропиус","de":"Tropius"},"TropiusKind":{"ru":"Фруктовый","de":"Frucht"},"TropiusDexPageOne":{"ru":"Тропиус носит фрукты на шее.","de":"Tropius trägt Früchte am Hals."},"TropiusDexPageTwo":{"ru":"Дети любят сладкие плоды.","de":"Kinder lieben seine süßen Früchte."}
+  ,"ChimechoName":{"ru":"Чаймеко","de":"Palimpalim"},"ChimechoKind":{"ru":"Колокол","de":"Glocke"},"ChimechoDexPageOne":{"ru":"Чаймеко живёт в горах.","de":"Palimpalim lebt in den Bergen."},"ChimechoDexPageTwo":{"ru":"Ветер заставляет его звенеть.","de":"Der Wind lässt es klingeln."}
+  ,"AbsolName":{"ru":"Абсол","de":"Absol"},"AbsolKind":{"ru":"Бедствие","de":"Unheil"},"AbsolDexPageOne":{"ru":"Абсол чувствует надвигающиеся бедствия.","de":"Absol spürt kommende Katastrophen."},"AbsolDexPageTwo":{"ru":"Люди боятся его несправедливо.","de":"Menschen fürchten es zu Unrecht."}
+  ,"WynautName":{"ru":"Вайнаут","de":"Isso"},"WynautKind":{"ru":"Радость","de":"Freude"},"WynautDexPageOne":{"ru":"Вайнаут всегда улыбается.","de":"Isso lächelt immer."},"WynautDexPageTwo":{"ru":"Он становится сильнее в компании друзей.","de":"Mit Freunden wird es stärker."}
+  ,"SnoruntName":{"ru":"Снорант","de":"Schneppke"},"SnoruntKind":{"ru":"Снег","de":"Schnee"},"SnoruntDexPageOne":{"ru":"Снорант живёт в снежных горах.","de":"Schneppke lebt in verschneiten Bergen."},"SnoruntDexPageTwo":{"ru":"Он приносит удачу в дом.","de":"Es bringt Glück ins Haus."}
+  ,"SphealName":{"ru":"Спил","de":"Seemops"},"SphealKind":{"ru":"Морской шар","de":"Seehund"},"SphealDexPageOne":{"ru":"Спил любит кататься по льду.","de":"Seemops rollt gern über Eis."},"SphealDexPageTwo":{"ru":"Он плавает, используя ласты.","de":"Es schwimmt mit seinen Flossen."}
+  ,"ClamperlName":{"ru":"Кламперл","de":"Perlu"},"ClamperlKind":{"ru":"Двустворчатый","de":"Muschel"},"ClamperlDexPageOne":{"ru":"Кламперл живёт в раковине.","de":"Perlu lebt in einer Muschel."},"ClamperlDexPageTwo":{"ru":"Его жемчуг очень ценен.","de":"Seine Perle ist sehr wertvoll."}
+  ,"BagonName":{"ru":"Багон","de":"Kindwurm"},"BagonKind":{"ru":"Голова","de":"Kopfstoß"},"BagonDexPageOne":{"ru":"Багон мечтает однажды летать.","de":"Kindwurm träumt davon zu fliegen."},"BagonDexPageTwo":{"ru":"Он бросается головой на скалы.","de":"Es stößt seinen Kopf gegen Felsen."}
   }
-}

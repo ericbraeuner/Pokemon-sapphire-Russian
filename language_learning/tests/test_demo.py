@@ -249,6 +249,18 @@ class LessonTests(unittest.TestCase):
                 category = entries[name + 'Kind'][tag] + ' POKéMON'
                 self.assertEqual(len(demo.wrap(category, mapping, glyphs, 152)), 1)
 
+    def test_every_hoenn_dex_species_is_translated(self):
+        import re
+        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
+        constants = (demo.ROOT / 'include/constants/species.h').read_text()
+        species = [name.title().replace('_', '') for name, number in
+                   re.findall(r'^#define HOENN_DEX_([A-Z0-9_]+)\s+(\d+)', constants, re.M)
+                   if 0 < int(number) <= 202]
+        self.assertEqual(202, len(species))
+        for name in species:
+            for suffix in ('Name', 'Kind', 'DexPageOne', 'DexPageTwo'):
+                self.assertIn(name + suffix, entries)
+
     def test_oldale_dialogues_cover_all_local_text(self):
         import re
         entries = {entry['base_symbol'] for entry in opening.load()['dialogues']}

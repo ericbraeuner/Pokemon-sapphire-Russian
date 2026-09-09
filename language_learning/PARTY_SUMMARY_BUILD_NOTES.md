@@ -125,3 +125,15 @@
   compare_sapphire` now succeeds against stock SHA-1
   `3ccbbd45f8553c36463f13b938e833f652b793e4`.
 - `PHASE3_QA_CHECKLIST.md` defines the remaining disposable-save emulator matrix.
+
+## Emulator boot smoke test — 2026-09-09
+
+- Downloaded the official portable mGBA 0.10.5 release into the ignored `build`
+  directory; the emulator itself is not part of the repository.
+- Copied the learner ROM into an isolated ignored directory and ran it under the
+  SDL frontend for ten seconds. The emulator stayed alive without a startup crash.
+- The isolated ROM retained SHA-256
+  `e7defeb2059aa25c068471c153cf6b8ac358c9b68c180f6731caa5cd94cb4a6e`.
+- The smoke test did not load, copy or write either real repository save. Full
+  Russian/German screen traversal still requires the visual checklist because
+  stable mGBA 0.10.5 does not expose its Lua scripting interface on the command line.

@@ -186,6 +186,8 @@ class LessonTests(unittest.TestCase):
         self.assertIn(bytes([0xFC, 0x10, 0x11, 0]), bytes(controlled))
         self.assertIn(bytes([0x55, 0x56, 0x57, 0x58, 0x59]), bytes(controlled))
         self.assertIn(bytes([0xFC, 0x0B, 0x60, 1]), bytes(controlled))
+        with self.assertRaises(ValueError):
+            battle.validate_line_width('x' * 26, {})
         self.assertNotIn(0xFC, fragment)
         self.assertEqual(0xFF, fragment[-1])
 

@@ -377,11 +377,11 @@
   ,"BattleText_PlayerTiedTrainers":{"ru":"Ничья с {STRING 30}\\nи {STRING 29}!","de":"Patt mit {STRING 30}\\nund {STRING 29}!"}
   ,"BattleText_FledSingle":{"ru":"{FLEE}{STRING 29} сбегает!","de":"{FLEE}{STRING 29} flieht!"}
   ,"BattleText_FledDouble":{"ru":"{FLEE}{STRING 29} и\\n{STRING 30} сбегают!","de":"{FLEE}{STRING 29} und\\n{STRING 30} fliehen!"}
-  ,"BattleText_BlockBall":{"ru":"Тренер отбивает болл!","de":"Der Trainer blockt den Ball!"}
-  ,"BattleText_DontBeAThief":{"ru":"Нельзя красть чужих покемонов!","de":"Stiehl keine fremden Pokémon!"}
+  ,"BattleText_BlockBall":{"ru":"Тренер отбивает болл!","de":"Trainer blockt den Ball!"}
+  ,"BattleText_DontBeAThief":{"ru":"Нельзя красть чужих покемонов!","de":"Keine fremden Pokémon\\nfangen!"}
   ,"BattleText_DodgeBall":{"ru":"Покемон увернулся!\\nЕго нельзя поймать!","de":"Pokémon weicht aus!\\nEs ist nicht fangbar!"}
   ,"BattleText_MissPoke":{"ru":"Промах по покемону!","de":"Pokémon verfehlt!"}
-  ,"BattleText_BallBrokeOhNo":{"ru":"О нет! Покемон вырвался!","de":"Oh nein! Pokémon ist frei!"}
+  ,"BattleText_BallBrokeOhNo":{"ru":"О нет! Покемон вырвался!","de":"Oh nein! Pokémon\\nist frei!"}
   ,"BattleText_BallBrokeAppeared":{"ru":"Ох! Почти пойман!","de":"Oh! Fast gefangen!"}
   ,"BattleText_BallBrokeAlmost":{"ru":"Почти получилось!","de":"Beinahe geschafft!"}
   ,"BattleText_BallBrokeSoClose":{"ru":"Так близко!","de":"So knapp!"}
@@ -420,7 +420,7 @@
   ,"BattleText_NoPP1":{"ru":"У этого приёма\\nне осталось ОД!\\p","de":"Keine AP mehr für\\ndiese Attacke!\\p"}
   ,"BattleText_NoPP2":{"ru":"Но у приёма\\nне осталось ОД!","de":"Aber die Attacke hat\\nkeine AP mehr!"}
   ,"BattleText_MustRecharge":{"ru":"{ATTACKING_MON} должен\\nвосстановить силы!","de":"{ATTACKING_MON} muss sich\\naufladen!"}
-  ,"BattleText_Paralyzed2":{"ru":"{STRING 23} {STRING 16}\\nпарализует {STRING 14}!\\lОн может не двигаться!","de":"{STRING 23} von {STRING 16}\\nparalysiert {STRING 14}!\\lEs kann sich nicht bewegen!"}
+  ,"BattleText_Paralyzed2":{"ru":"{STRING 23} {STRING 16}\\nпарализует {STRING 14}!\\lОн может не двигаться!","de":"{STRING 23} von {STRING 16}\\nparalysiert {STRING 14}!\\lEs kann nicht handeln!"}
   ,"BattleText_Poisoned2":{"ru":"{STRING 23} {STRING 16}\\nотравляет {STRING 14}!","de":"{STRING 23} von {STRING 16}\\nvergiftet {STRING 14}!"}
   ,"BattleText_WokeUp":{"ru":"{ATTACKING_MON} проснулся!","de":"{ATTACKING_MON} wacht auf!"}
   ,"BattleText_FastAsleep":{"ru":"{ATTACKING_MON} крепко спит.","de":"{ATTACKING_MON} schläft tief."}
@@ -461,10 +461,10 @@
   ,"BattleText_SandBuffeted":{"ru":"Песчаная буря бьёт\\n{ATTACKING_MON}!","de":"Sandsturm trifft\\n{ATTACKING_MON}!"}
   ,"BattleText_SandRages":{"ru":"Песчаная буря бушует.","de":"Der Sandsturm wütet."}
   ,"BattleText_SandSubsided":{"ru":"Песчаная буря стихает.","de":"Der Sandsturm legt sich."}
-  ,"BattleText_SunBright":{"ru":"Солнечный свет усиливается!","de":"Das Sonnenlicht wird stärker!"}
-  ,"BattleText_SunFaded":{"ru":"Солнечный свет меркнет.","de":"Das Sonnenlicht verblasst."}
+  ,"BattleText_SunBright":{"ru":"Солнечный свет усиливается!","de":"Sonnenlicht wird stärker!"}
+  ,"BattleText_SunFaded":{"ru":"Солнечный свет меркнет.","de":"Sonnenlicht verblasst."}
   ,"BattleText_SunIntensified":{"ru":"{STRING 23} {STRING 16}\\nусиливает солнце!","de":"{STRING 23} von {STRING 16}\\nverstärkt die Sonne!"}
-  ,"BattleText_SunStrong":{"ru":"Солнечный свет силён.","de":"Das Sonnenlicht ist stark."}
+  ,"BattleText_SunStrong":{"ru":"Солнечный свет силён.","de":"Sonnenlicht ist stark."}
   ,"BattleText_RainStart":{"ru":"Начинается дождь!","de":"Es beginnt zu regnen!"}
   ,"BattleText_RainCont1":{"ru":"Дождь продолжается.","de":"Der Regen hält an."}
   ,"BattleText_RainStop":{"ru":"Дождь прекращается.","de":"Der Regen hört auf."}
@@ -477,7 +477,7 @@
   ,"BattleText_SpikesBlownAway":{"ru":"{ATTACKING_MON} сдувает\\nшипы!","de":"{ATTACKING_MON} bläst\\ndie Stachler weg!"}
   ,"BattleText_PreventedBurn":{"ru":"{STRING 24} {STRING 14}\\nпредотвращает ожог!","de":"{STRING 24} von {STRING 14}\\nverhindert Verbrennung!"}
   ,"BattleText_PreventedConfusion":{"ru":"{STRING 22} {DEFENDING_MON}\\nпредотвращает замешательство!","de":"{STRING 22} von {DEFENDING_MON}\\nverhindert Verwirrung!"}
-  ,"BattleText_PreventedFlinching":{"ru":"{STRING 24} {STRING 14}\\nпредотвращает испуг!","de":"{STRING 24} von {STRING 14}\\nverhindert Zurückschrecken!"}
+  ,"BattleText_PreventedFlinching":{"ru":"{STRING 24} {STRING 14}\\nпредотвращает испуг!","de":"{STRING 24} von {STRING 14}\\nverhindert Erschrecken!"}
   ,"BattleText_PreventedPara":{"ru":"{STRING 22} {STRING 14}\\nпредотвращает паралич!","de":"{STRING 22} von {STRING 14}\\nverhindert Paralyse!"}
   ,"BattleText_PreventedPoison":{"ru":"{STRING 22} {STRING 14}\\nпредотвращает отравление!","de":"{STRING 22} von {STRING 14}\\nverhindert Vergiftung!"}
   ,"BattleText_PreventedRomance":{"ru":"{STRING 22} {DEFENDING_MON}\\nпредотвращает влюблённость!","de":"{STRING 22} von {DEFENDING_MON}\\nverhindert Verliebtheit!"}
@@ -514,7 +514,7 @@
   ,"BattleText_RaisedDefense":{"ru":"{STRING 17} {STRING 38}\\nповышает Защиту!","de":"{STRING 17} von {STRING 38}\\nerhöht Verteidigung!"}
   ,"BattleText_RaisedDefenseLittle":{"ru":"{STRING 17} {STRING 38} слегка\\nповышает Защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nVerteidigung etwas!"}
   ,"BattleText_RaisedSpDef":{"ru":"{STRING 17} {STRING 38}\\nповышает Спец. защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nSpezial-Verteidigung!"}
-  ,"BattleText_RaisedSpDefLittle":{"ru":"{STRING 17} {STRING 38} слегка\\nповышает Спец. защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nSpezial-Verteidigung etwas!"}
+  ,"BattleText_RaisedSpDefLittle":{"ru":"{STRING 17} {STRING 38} слегка\\nповышает Спец. защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nSp.-Vert. steigt etwas!"}
   ,"BattleText_SpeedRisen":{"ru":"{STRING 23} {STRING 16}\\nповышает Скорость!","de":"{STRING 23} von {STRING 16}\\nerhöht Initiative!"}
   ,"BattleText_StatElim":{"ru":"Все изменения параметров\\nустранены!","de":"Alle Wertveränderungen\\nwurden aufgehoben!"}
   ,"BattleText_CopyStatChanges":{"ru":"{ATTACKING_MON} копирует\\nпараметры {DEFENDING_MON}!","de":"{ATTACKING_MON} kopiert die\\nWertänderungen von {DEFENDING_MON}!"}
@@ -547,11 +547,11 @@
   ,"BattleText_DreamEaten":{"ru":"Сон {DEFENDING_MON}\\nсъеден!","de":"Der Traum von {DEFENDING_MON}\\nwurde gefressen!"}
   ,"BattleText_EnergyDrained":{"ru":"Энергия {DEFENDING_MON}\\nпоглощена!","de":"{DEFENDING_MON} wird\\nEnergie entzogen!"}
   ,"BattleText_HealthSapped":{"ru":"Семя-пиявка высасывает\\nздоровье {ATTACKING_MON}!","de":"Egelsamen raubt\\n{ATTACKING_MON} KP!"}
-  ,"BattleText_AbsorbNutrients":{"ru":"{ATTACKING_MON} поглощает\\nпитание корнями!","de":"{ATTACKING_MON} nimmt über\\ndie Wurzeln Nährstoffe auf!"}
+  ,"BattleText_AbsorbNutrients":{"ru":"{ATTACKING_MON} поглощает\\nпитание корнями!","de":"{ATTACKING_MON} nimmt über\\nWurzeln Nährstoffe auf!"}
   ,"BattleText_PainSplit":{"ru":"Бойцы делят\\nсвою боль!","de":"Die Kämpfer teilen\\nihren Schmerz!"}
   ,"BattleText_TryingToLearnMove":{"ru":"{STRING 0} пытается выучить\\n{STRING 1}.\\p","de":"{STRING 0} versucht,\\n{STRING 1} zu lernen.\\p"}
   ,"BattleText_CantLearnMore":{"ru":"Но {STRING 0} не может знать\\nбольше четырёх приёмов.\\p","de":"Aber {STRING 0} kann nicht mehr\\nals vier Attacken lernen.\\p"}
-  ,"BattleText_DeleteMove":{"ru":"Забыть приём, чтобы\\nосвободить место для {STRING 1}?","de":"Attacke vergessen, um Platz\\nfür {STRING 1} zu schaffen?"}
+  ,"BattleText_DeleteMove":{"ru":"Забыть приём, чтобы\\nосвободить место для {STRING 1}?","de":"Attacke vergessen für\\n{STRING 1}?"}
   ,"BattleText_DeletedMove":{"ru":"{STRING 0} забывает\\n{STRING 1}.\\p","de":"{STRING 0} hat\\n{STRING 1} vergessen.\\p"}
   ,"BattleText_StopLearning":{"ru":"{PAUSE 32}Не учить\\n{STRING 1}?","de":"{PAUSE 32}Lernen von\\n{STRING 1} abbrechen?"}
   ,"BattleText_DidNotLearn":{"ru":"{STRING 0} не выучил\\n{STRING 1}.\\p","de":"{STRING 0} hat\\n{STRING 1} nicht gelernt.\\p"}
@@ -616,7 +616,7 @@
   ,"BattleText_WishTrue":{"ru":"Желание {STRING 0}\\nсбывается!","de":"Wunsch von {STRING 0}\\nwird wahr!"}
   ,"BattleText_PlantedRoots":{"ru":"{ATTACKING_MON} пускает корни!","de":"{ATTACKING_MON} schlägt Wurzeln!"}
   ,"BattleText_AnchoredItself":{"ru":"{DEFENDING_MON} закрепляется\\nкорнями!","de":"{DEFENDING_MON} verankert\\nsich mit Wurzeln!"}
-  ,"BattleText_AbilitySwap":{"ru":"{ATTACKING_MON} меняется\\nспособностями с противником!","de":"{ATTACKING_MON} tauscht\\nFähigkeiten mit dem Gegner!"}
+  ,"BattleText_AbilitySwap":{"ru":"{ATTACKING_MON} меняется\\nспособностями с противником!","de":"{ATTACKING_MON} tauscht\\nFähigkeiten!"}
   ,"BattleText_SealedMove":{"ru":"{ATTACKING_MON} запечатывает\\nприёмы противника!","de":"{ATTACKING_MON} versiegelt\\ndie Attacken des Gegners!"}
   ,"BattleText_GrudgeBear":{"ru":"{ATTACKING_MON} готовит\\nместь противнику!","de":"{ATTACKING_MON} belegt den\\nGegner mit Nachspiel!"}
   ,"BattleText_GrudgeLosePP":{"ru":"Из-за мести {STRING 0}\\n{ATTACKING_MON} теряет все ОД!","de":"Durch Nachspiel verliert\\n{STRING 0} von {ATTACKING_MON} alle AP!"}
@@ -631,7 +631,7 @@
   ,"BattleText_HustleUse":{"ru":"{STRING 16} использует\\n{STRING 19}, чтобы подбодрить!","de":"{STRING 16} setzt\\n{STRING 19} zum Anspornen ein!"}
   ,"BattleText_DraggedOut":{"ru":"{DEFENDING_MON} вытаскивают\\nна поле!\\p","de":"{DEFENDING_MON} wird\\nherausgezerrt!\\p"}
   ,"BattleText_BrokeWall":{"ru":"Стена разбивается!","de":"Die Wand zerbricht!"}
-  ,"BattleText_TormentNoUse":{"ru":"Из-за мучения {STRING 15} не может\\nповторить приём подряд!\\p","de":"Wegen Qual kann {STRING 15} nicht\\nzweimal dieselbe Attacke nutzen!\\p"}
+  ,"BattleText_TormentNoUse":{"ru":"Из-за мучения {STRING 15} не может\\nповторить приём подряд!\\p","de":"Wegen Qual kann {STRING 15}\\nsie nicht wiederholen!\\p"}
   ,"BattleText_TauntNoUse":{"ru":"После провокации {STRING 15}\\nне может применить {STRING 17}!\\p","de":"Nach Verhöhner kann {STRING 15}\\n{STRING 17} nicht einsetzen!\\p"}
   ,"BattleText_SealedNoUse":{"ru":"{STRING 15} не может применить\\nзапечатанный {STRING 17}!\\p","de":"{STRING 15} kann die versiegelte\\nAttacke {STRING 17} nicht nutzen!\\p"}
   ,"BattleText_RainMade":{"ru":"{STRING 23} {STRING 16}\\nвызывает дождь!","de":"{STRING 23} von {STRING 16}\\nlässt es regnen!"}
@@ -657,11 +657,11 @@
   ,"BattleText_FledUsingItem":{"ru":"{PLAY_SE SE_FLEE}{STRING 19} помогает\\n{ATTACKING_MON} сбежать!\\p","de":"{PLAY_SE SE_FLEE}{ATTACKING_MON} flieht mit\\n{STRING 19}!\\p"}
   ,"BattleText_FledUsingOther":{"ru":"{PLAY_SE SE_FLEE}{ATTACKING_MON} сбегает\\nс помощью {STRING 21}!\\p","de":"{PLAY_SE SE_FLEE}{ATTACKING_MON} flieht mit\\n{STRING 21}!\\p"}
   ,"BattleText_FledWild":{"ru":"{PLAY_SE SE_FLEE}Дикий {STRING 0} сбегает!","de":"{PLAY_SE SE_FLEE}Wildes {STRING 0} flieht!"}
-  ,"BattleText_MirrorFail":{"ru":"Зеркальный приём не сработал!","de":"Spiegeltrick schlägt fehl!"}
+  ,"BattleText_MirrorFail":{"ru":"Зеркальный приём не сработал!","de":"Spiegeltrick scheitert!"}
   ,"BattleText_PourStart":{"ru":"Начинается ливень!","de":"Ein Wolkenbruch beginnt!"}
   ,"BattleText_PourCont":{"ru":"Ливень продолжается.","de":"Der Wolkenbruch hält an."}
   ,"BattleText_WindHeatWave":{"ru":"Ветер превращается\\nв жаркую волну!","de":"Der Wind wird zu\\neiner Hitzewelle!"}
-  ,"BattleText_CoinScatter":{"ru":"Монеты разлетаются повсюду!","de":"Münzen fliegen überallhin!"}
+  ,"BattleText_CoinScatter":{"ru":"Монеты разлетаются повсюду!","de":"Münzen überall verstreut!"}
   ,"BattleText_BellChime":{"ru":"Звенит колокол!","de":"Eine Glocke läutet!"}
   ,"BattleText_IgnoredOrdersSLP":{"ru":"Спящий {ATTACKING_MON}\\nне слушает приказ!","de":"{ATTACKING_MON} ignoriert\\nim Schlaf den Befehl!"}
   ,"BattleText_IgnoredOrders":{"ru":"{ATTACKING_MON} не слушает\\nприказ!","de":"{ATTACKING_MON} ignoriert\\nden Befehl!"}
@@ -678,7 +678,7 @@
   ,"BattleText_EnthralledBy":{"ru":"{STRING 3} очарован\\n{STRING 0}!","de":"{STRING 3} ist von\\n{STRING 0} begeistert!"}
   ,"BattleText_IgnoredThing":{"ru":"{STRING 3} полностью\\nигнорирует {STRING 0}!","de":"{STRING 3} ignoriert\\n{STRING 0} völlig!"}
   ,"BattleText_ThrewBlock":{"ru":"{STRING 32} бросает {POKEBLOCK}\\nпокемону {STRING 3}!","de":"{STRING 32} wirft einen {POKEBLOCK}\\nzu {STRING 3}!"}
-  ,"BattleText_SafariOver":{"ru":"{PLAY_SE SE_DING_DONG}ДИКТОР: Сафари-боллы\\nзакончились! Игра окончена!\\p","de":"{PLAY_SE SE_DING_DONG}SPRECHER: Keine Safari-Bälle\\nmehr! Das Spiel ist vorbei!\\p"}
+  ,"BattleText_SafariOver":{"ru":"{PLAY_SE SE_DING_DONG}ДИКТОР: Сафари-боллы\\nзакончились! Игра окончена!\\p","de":"{PLAY_SE SE_DING_DONG}SPRECHER: Safari-Bälle\\nsind aus! Spiel vorbei!\\p"}
   ,"BattleText_Used1":{"ru":"{STRING 32} использует\\n{STRING 19}!","de":"{STRING 32} benutzt\\n{STRING 19}!"}
   ,"BattleText_TutorialUsed":{"ru":"УОЛЛИ использует\\n{STRING 19}!","de":"HEIKO benutzt\\n{STRING 19}!"}
   ,"BattleText_Used2":{"ru":"{STRING 25} {STRING 26}\\nиспользует {STRING 19}!","de":"{STRING 25} {STRING 26}\\nbenutzt {STRING 19}!"}
@@ -688,8 +688,8 @@
   ,"BattleText_Lanette":{"ru":"Ланетт","de":"Lanettes"}
   ,"BattleText_EnigmaBerry":{"ru":"ЗАГАДОЧНАЯ ЯГОДА","de":"ENIGMABEERE"}
   ,"BattleText_Berry":{"ru":" ЯГОДА","de":" BEERE"}
-  ,"BattleText_WallyBall":{"ru":"Теперь бросить болл, да?\\nЯ... Я постараюсь!","de":"Jetzt werfe ich einen Ball, ja?\\nIch... Ich gebe mein Bestes!"}
-  ,"BattleText_LinkStandby":{"ru":"{PAUSE 16}Ожидание связи...","de":"{PAUSE 16}Verbindungsbereitschaft..."}
+  ,"BattleText_WallyBall":{"ru":"Теперь бросить болл, да?\\nЯ... Я постараюсь!","de":"Jetzt einen Ball werfen?\\nIch gebe mein Bestes!"}
+  ,"BattleText_LinkStandby":{"ru":"{PAUSE 16}Ожидание связи...","de":"{PAUSE 16}Warte auf Verbindung..."}
   ,"BattleText_MenuOptionsSafari":{"ru":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}БОЛЛ{CLEAR_TO 0x2E}{POKEBLOCK}\\nБЛИЖЕ{CLEAR_TO 0x2E}БЕГ","de":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}BALL{CLEAR_TO 0x2E}{POKEBLOCK}\\nNÄHER{CLEAR_TO 0x2E}FLUCHT"}
   ,"BattleText_PP":{"ru":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}ОД\\nТИП/","de":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}AP\\nTYP/"}
   ,"BattleText_ForgetMove":{"ru":"{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}{PALETTE 5}Какой приём\\nзабыть?","de":"{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}{PALETTE 5}Welche Attacke soll\\nvergessen werden?"}

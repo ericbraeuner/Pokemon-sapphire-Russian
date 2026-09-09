@@ -178,3 +178,7 @@
   move-forgetting, status, stat and move-type strings. The catalogue now covers
   456 of 479 engine symbols; an exhaustive test limits the 23 omissions to empty,
   punctuation, formatting and internal sentence-composition fragments.
+- Added a conservative 200-pixel literal-line guard to the battle compiler and
+  shortened or reflowed 16 German messages it identified, including Safari,
+  Wally, weather, move-forgetting and ability text. This prevents those known
+  strings from reaching a ROM wider than the message area.

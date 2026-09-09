@@ -18,6 +18,15 @@ TOKENS = {'ATTACKING_MON': [0xFD, 12], 'DEFENDING_MON': [0xFD, 13],
           'HIGHLIGHT TRANSPARENT': [0xFC, 2, 0],
           'RIGHT_ARROW': [0x7C]}
 
+
+def validate_line_width(text, glyphs, max_width=demo.MAX_LINE_WIDTH):
+    """Reject literal text that cannot fit even before runtime names expand."""
+    for line in re.split(r'\\[npl]', text):
+        literal = re.sub(r'\{[^}]+\}', '', line)
+        width = sum(len(glyphs[c][0]) + 1 if c in glyphs else 8 for c in literal)
+        if width > max_width:
+            raise ValueError('Battle text literal exceeds message width')
+
 def encode(text, mapping, font, fragment=False):
     data = [] if fragment else [0xFC, 22, 0xFC, 6, font]
     for part in re.split(r'(\{[^}]+\}|\\[npl])', text):
@@ -48,11 +57,13 @@ def generate(russian, latin):
     entries = demo.validate.load(demo.ROOT / 'language_learning/battle.json')
     source = (demo.ROOT / 'src/data/battle_strings_en.h').read_text()
     parts, table = [], []
+    cyrillic = demo.load_font()[1]
     for index, (symbol, entry) in enumerate(entries.items()):
         if not re.fullmatch(r'Battle(?:Stat)?Text_\w+', symbol) or not re.search(r'const u8 ' + symbol + r'\[\]', source):
             raise ValueError(f'Unknown battle source: {symbol}')
         labels = []
         for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
+            validate_line_width(entry[tag], cyrillic if tag == 'ru' else {})
             label = f'LearnerBattle_{index}_{tag}'
             parts.append(demo.assembly_bytes(label, encode(entry[tag], mapping, font, entry.get('fragment', False))))
             labels.append(label)

@@ -511,4 +511,42 @@
   ,"BattleText_SubWeak":{"ru":"Недостаточно сил\\nдля подмены!","de":"Zu schwach für\\neinen Delegator!"}
   ,"BattleText_EnduredHit":{"ru":"{DEFENDING_MON} выдерживает\\nудар!","de":"{DEFENDING_MON} übersteht\\nden Treffer!"}
   ,"BattleText_BracedItself":{"ru":"{ATTACKING_MON} готовится\\nвыдержать удар!","de":"{ATTACKING_MON} macht sich\\nzum Durchhalten bereit!"}
+  ,"BattleText_RaisedDefense":{"ru":"{STRING 17} {STRING 38}\\nповышает Защиту!","de":"{STRING 17} von {STRING 38}\\nerhöht Verteidigung!"}
+  ,"BattleText_RaisedDefenseLittle":{"ru":"{STRING 17} {STRING 38} слегка\\nповышает Защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nVerteidigung etwas!"}
+  ,"BattleText_RaisedSpDef":{"ru":"{STRING 17} {STRING 38}\\nповышает Спец. защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nSpezial-Verteidigung!"}
+  ,"BattleText_RaisedSpDefLittle":{"ru":"{STRING 17} {STRING 38} слегка\\nповышает Спец. защиту!","de":"{STRING 17} von {STRING 38} erhöht\\nSpezial-Verteidigung etwas!"}
+  ,"BattleText_SpeedRisen":{"ru":"{STRING 23} {STRING 16}\\nповышает Скорость!","de":"{STRING 23} von {STRING 16}\\nerhöht Initiative!"}
+  ,"BattleText_StatElim":{"ru":"Все изменения параметров\\nустранены!","de":"Alle Wertveränderungen\\nwurden aufgehoben!"}
+  ,"BattleText_CopyStatChanges":{"ru":"{ATTACKING_MON} копирует\\nпараметры {DEFENDING_MON}!","de":"{ATTACKING_MON} kopiert die\\nWertänderungen von {DEFENDING_MON}!"}
+  ,"BattleText_CutHPMaxATK":{"ru":"{ATTACKING_MON} тратит ОЗ\\nи доводит Атаку до максимума!","de":"{ATTACKING_MON} opfert KP und\\nmaximiert den Angriff!"}
+  ,"BattleText_CutsAttack":{"ru":"{STRING 23} {STRING 16}\\nснижает Атаку {DEFENDING_MON}!","de":"{STRING 23} von {STRING 16} senkt\\nden Angriff von {DEFENDING_MON}!"}
+  ,"BattleText_MadeIneffective":{"ru":"{STRING 22} {DEFENDING_MON}\\nослабляет {STRING 17}!","de":"{STRING 22} von {DEFENDING_MON}\\nmacht {STRING 17} wirkungslos!"}
+  ,"BattleText_MadeIneffective2":{"ru":"{STRING 23} {STRING 16}\\nлишает это эффекта!","de":"{STRING 23} von {STRING 16}\\nmacht es wirkungslos!"}
+  ,"BattleText_MadeType":{"ru":"{STRING 22} {DEFENDING_MON}\\nдаёт тип {STRING 0}!","de":"{STRING 22} von {DEFENDING_MON}\\nmacht es zum Typ {STRING 0}!"}
+  ,"BattleText_MadeUseless":{"ru":"{STRING 22} {DEFENDING_MON}\\nблокирует {STRING 17}!","de":"{STRING 22} von {DEFENDING_MON}\\nmacht {STRING 17} nutzlos!"}
+  ,"BattleText_TypeTransform":{"ru":"{ATTACKING_MON} получает\\nтип {STRING 0}!","de":"{ATTACKING_MON} wird zum\\nTyp {STRING 0}!"}
+  ,"BattleText_Transformed":{"ru":"{ATTACKING_MON} превращается\\nв {STRING 0}!","de":"{ATTACKING_MON} verwandelt\\nsich in {STRING 0}!"}
+  ,"BattleText_Transformed2":{"ru":"{STRING 16} превращается!","de":"{STRING 16} verwandelt sich!"}
+  ,"BattleText_IdentifiedPoke":{"ru":"{ATTACKING_MON} распознаёт\\n{DEFENDING_MON}!","de":"{ATTACKING_MON} identifiziert\\n{DEFENDING_MON}!"}
+  ,"BattleText_ForesawAttack":{"ru":"{ATTACKING_MON} предвидит\\nатаку!","de":"{ATTACKING_MON} sieht einen\\nAngriff voraus!"}
+  ,"BattleText_TookAim":{"ru":"{ATTACKING_MON} целится\\nв {DEFENDING_MON}!","de":"{ATTACKING_MON} zielt auf\\n{DEFENDING_MON}!"}
+  ,"BattleText_TightenFocus":{"ru":"{ATTACKING_MON} усиливает\\nсосредоточенность!","de":"{ATTACKING_MON} konzentriert\\nsich!"}
+  ,"BattleText_CenterAttention":{"ru":"{ATTACKING_MON} становится\\nцентром внимания!","de":"{ATTACKING_MON} wird zum\\nMittelpunkt!"}
+  ,"BattleText_ReadyToHelp":{"ru":"{ATTACKING_MON} готов помочь\\n{DEFENDING_MON}!","de":"{ATTACKING_MON} ist bereit,\\n{DEFENDING_MON} zu helfen!"}
+  ,"BattleText_NaturePower":{"ru":"Сила природы превращается\\nв {STRING 17}!","de":"Natur-Kraft wird zu\\n{STRING 17}!"}
+  ,"BattleText_MagnitudeCount":{"ru":"Магнитуда {STRING 0}!","de":"Intensität {STRING 0}!"}
+  ,"BattleText_Stockpiled":{"ru":"{ATTACKING_MON} запасает\\nэнергию: {STRING 0}!","de":"{ATTACKING_MON} hortet\\nEnergie: {STRING 0}!"}
+  ,"BattleText_StockpiledCant":{"ru":"{ATTACKING_MON} больше\\nне может запасать энергию!","de":"{ATTACKING_MON} kann keine\\nEnergie mehr horten!"}
+  ,"BattleText_StoringEnergy":{"ru":"{ATTACKING_MON} запасает\\nэнергию!","de":"{ATTACKING_MON} speichert\\nEnergie!"}
+  ,"BattleText_UnleashedEnergy":{"ru":"{ATTACKING_MON} высвобождает\\nэнергию!","de":"{ATTACKING_MON} setzt\\nEnergie frei!"}
+  ,"BattleText_SpitUpFail":{"ru":"Но выплюнуть\\nничего не удалось!","de":"Aber Ausspucken\\nschlägt fehl!"}
+  ,"BattleText_SwallowFail":{"ru":"Но проглотить\\nничего не удалось!","de":"Aber Verzehrer\\nschlägt fehl!"}
+  ,"BattleText_BeganNap":{"ru":"{ATTACKING_MON} начинает\\nдремать!","de":"{ATTACKING_MON} beginnt\\nein Nickerchen!"}
+  ,"BattleText_SoothingAroma":{"ru":"Вокруг разносится\\nуспокаивающий аромат!","de":"Ein beruhigender Duft\\nzieht durch das Gebiet!"}
+  ,"BattleText_DrowsyMade":{"ru":"{ATTACKING_MON} усыпляет\\n{DEFENDING_MON}!","de":"{ATTACKING_MON} macht\\n{DEFENDING_MON} schläfrig!"}
+  ,"BattleText_DreamEaten":{"ru":"Сон {DEFENDING_MON}\\nсъеден!","de":"Der Traum von {DEFENDING_MON}\\nwurde gefressen!"}
+  ,"BattleText_EnergyDrained":{"ru":"Энергия {DEFENDING_MON}\\nпоглощена!","de":"{DEFENDING_MON} wird\\nEnergie entzogen!"}
+  ,"BattleText_HealthSapped":{"ru":"Семя-пиявка высасывает\\nздоровье {ATTACKING_MON}!","de":"Egelsamen raubt\\n{ATTACKING_MON} KP!"}
+  ,"BattleText_AbsorbNutrients":{"ru":"{ATTACKING_MON} поглощает\\nпитание корнями!","de":"{ATTACKING_MON} nimmt über\\ndie Wurzeln Nährstoffe auf!"}
+  ,"BattleText_PainSplit":{"ru":"Бойцы делят\\nсвою боль!","de":"Die Kämpfer teilen\\nihren Schmerz!"}
 }

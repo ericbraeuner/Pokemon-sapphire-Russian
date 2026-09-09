@@ -163,3 +163,6 @@
 - Added 36 more templates for ability-based status prevention, trapping, Leech
   Seed, Nightmare, Curse, Perish Song, Substitute and Endure. Shared battle
   coverage now reaches 236 of the engine's 479 message templates.
+- Added 38 stat-change, type-change, targeting, stored-energy, sleep and
+  health-drain templates. The shared bilingual battle catalogue now covers 274
+  of 479 engine messages.

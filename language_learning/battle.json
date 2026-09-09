@@ -408,4 +408,35 @@
   ,"BattleText_StartEvo":{"ru":"Что? {STRING 2}\\nэволюционирует!","de":"Was? {STRING 2}\\nentwickelt sich!"}
   ,"BattleText_FinishEvo":{"ru":"Поздравляем! {STRING 2} стал\\n{STRING 3}!{UNKNOWN_A}\\p","de":"Glückwunsch! {STRING 2} wurde\\nzu {STRING 3}!{UNKNOWN_A}\\p"}
   ,"BattleText_StopEvo":{"ru":"{STRING 2} перестал\\nэволюционировать!\\p","de":"Entwicklung von {STRING 2}\\nwurde gestoppt!\\p"}
+  ,"BattleText_AvoidedAttack":{"ru":"{DEFENDING_MON} уклоняется\\nот атаки!","de":"{DEFENDING_MON} weicht\\ndem Angriff aus!"}
+  ,"BattleText_BecameConfused":{"ru":"{STRING 14} приходит\\nв замешательство!","de":"{STRING 14} wurde\\nverwirrt!"}
+  ,"BattleText_BadlyPoisoned":{"ru":"{STRING 14} сильно\\nотравлен!","de":"{STRING 14} wurde schwer\\nvergiftet!"}
+  ,"BattleText_Flinched":{"ru":"{ATTACKING_MON} вздрогнул!","de":"{ATTACKING_MON} schreckt zurück!"}
+  ,"BattleText_FrozenSolid":{"ru":"{ATTACKING_MON} полностью\\nзаморожен!","de":"{ATTACKING_MON} ist\\ntiefgefroren!"}
+  ,"BattleText_HurtBy":{"ru":"{ATTACKING_MON} получает урон\\nот {STRING 0}!","de":"{ATTACKING_MON} wird durch\\n{STRING 0} verletzt!"}
+  ,"BattleText_ImmobilizedBy":{"ru":"{ATTACKING_MON} не движется\\nиз-за любви!","de":"{ATTACKING_MON} ist vor\\nLiebe starr!"}
+  ,"BattleText_NoEffectOn":{"ru":"{STRING 23} {STRING 16}\\nне действует на {STRING 14}!","de":"{STRING 23} von {STRING 16}\\nwirkt bei {STRING 14} nicht!"}
+  ,"BattleText_NoMovesLeft":{"ru":"У {STRING 15} не осталось\\nприёмов!\\p","de":"{STRING 15} hat keine\\nAttacken mehr!\\p"}
+  ,"BattleText_NoPP1":{"ru":"У этого приёма\\nне осталось ОД!\\p","de":"Keine AP mehr für\\ndiese Attacke!\\p"}
+  ,"BattleText_NoPP2":{"ru":"Но у приёма\\nне осталось ОД!","de":"Aber die Attacke hat\\nkeine AP mehr!"}
+  ,"BattleText_MustRecharge":{"ru":"{ATTACKING_MON} должен\\nвосстановить силы!","de":"{ATTACKING_MON} muss sich\\naufladen!"}
+  ,"BattleText_Paralyzed2":{"ru":"{STRING 23} {STRING 16}\\nпарализует {STRING 14}!\\lОн может не двигаться!","de":"{STRING 23} von {STRING 16}\\nparalysiert {STRING 14}!\\lEs kann sich nicht bewegen!"}
+  ,"BattleText_Poisoned2":{"ru":"{STRING 23} {STRING 16}\\nотравляет {STRING 14}!","de":"{STRING 23} von {STRING 16}\\nvergiftet {STRING 14}!"}
+  ,"BattleText_WokeUp":{"ru":"{ATTACKING_MON} проснулся!","de":"{ATTACKING_MON} wacht auf!"}
+  ,"BattleText_FastAsleep":{"ru":"{ATTACKING_MON} крепко спит.","de":"{ATTACKING_MON} schläft tief."}
+  ,"BattleText_AttackingAsleep":{"ru":"{ATTACKING_MON} уже спит!","de":"{ATTACKING_MON} schläft\\nbereits!"}
+  ,"BattleText_AttackingDefrosted":{"ru":"{ATTACKING_MON} оттаял!","de":"{ATTACKING_MON} ist\\naufgetaut!"}
+  ,"BattleText_DefendingDefrosted":{"ru":"{DEFENDING_MON} оттаял!","de":"{DEFENDING_MON} ist\\naufgetaut!"}
+  ,"BattleText_RegainedHealth":{"ru":"{DEFENDING_MON} возвращает\\nздоровье!","de":"{DEFENDING_MON} gewinnt\\nKP zurück!"}
+  ,"BattleText_HPFull":{"ru":"У {DEFENDING_MON}\\nполные ОЗ!","de":"KP von {DEFENDING_MON}\\nsind voll!"}
+  ,"BattleText_RestoredHPByItem":{"ru":"{STRING 21} восстанавливает\\nОЗ {ATTACKING_MON}!","de":"{STRING 21} füllt KP\\nvon {ATTACKING_MON} auf!"}
+  ,"BattleText_TookSunlight":{"ru":"{ATTACKING_MON} поглощает\\nсолнечный свет!","de":"{ATTACKING_MON} nimmt\\nSonnenlicht auf!"}
+  ,"BattleText_ChargingPower":{"ru":"{ATTACKING_MON} начинает\\nкопить силу!","de":"{ATTACKING_MON} sammelt\\nEnergie!"}
+  ,"BattleText_WasntAffected":{"ru":"На {DEFENDING_MON}\\nэто не действует!","de":"{DEFENDING_MON} ist\\nnicht betroffen!"}
+  ,"BattleText_AlreadyBurned":{"ru":"У {DEFENDING_MON} уже\\nесть ожог.","de":"{DEFENDING_MON} hat bereits\\neine Verbrennung."}
+  ,"BattleText_AlreadyConfused":{"ru":"{DEFENDING_MON} уже\\nв замешательстве!","de":"{DEFENDING_MON} ist bereits\\nverwirrt!"}
+  ,"BattleText_AlreadyParalyzed":{"ru":"{DEFENDING_MON} уже\\nпарализован!","de":"{DEFENDING_MON} ist bereits\\nparalysiert!"}
+  ,"BattleText_AlreadyPoisoned":{"ru":"{DEFENDING_MON} уже\\nотравлен.","de":"{DEFENDING_MON} ist bereits\\nvergiftet."}
+  ,"BattleText_AttackingStatNoHigher":{"ru":"{STRING 0} {ATTACKING_MON}\\nбольше не повысить!","de":"{STRING 0} von {ATTACKING_MON}\\nsteigt nicht weiter!"}
+  ,"BattleText_DefendingStatNoHigher":{"ru":"{STRING 0} {DEFENDING_MON}\\nбольше не понизить!","de":"{STRING 0} von {DEFENDING_MON}\\nsinkt nicht weiter!"}
 }

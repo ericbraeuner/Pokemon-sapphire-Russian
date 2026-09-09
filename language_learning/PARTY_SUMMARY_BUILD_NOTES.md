@@ -148,3 +148,12 @@
 - The screenshots exposed an English `CANCEL` graphic in the party screen. Added a
   generated Russian `Назад` / German `Zurück` version behind `LEARNER_DEMO` while
   preserving the original stock sheet.
+
+## Common battle-state follow-up — 2026-09-09
+
+- Expanded the bilingual battle catalogue from 133 to 164 shared templates.
+- Added common sleep, poison, paralysis, confusion, freezing, healing, PP,
+  recharge, stat-limit, move-failure and charging messages used across wild,
+  trainer, rival and later battles.
+- Kept Pokémon, move, item and stat names as runtime placeholders so the same
+  translations work throughout the game instead of baking in early-game examples.

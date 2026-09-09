@@ -160,3 +160,6 @@
 - Added a second group of 36 templates for disabled moves, Encore, attraction,
   recoil, protection, Safeguard, Mist, sun, rain, sandstorm, hail and Spikes,
   bringing shared battle coverage to 200 templates.
+- Added 36 more templates for ability-based status prevention, trapping, Leech
+  Seed, Nightmare, Curse, Perish Song, Substitute and Endure. Shared battle
+  coverage now reaches 236 of the engine's 479 message templates.

@@ -475,4 +475,40 @@
   ,"BattleText_SpikesHurt":{"ru":"Шипы ранят\\n{STRING 16}!","de":"Stachler verletzen\\n{STRING 16}!"}
   ,"BattleText_SpikesScattered":{"ru":"Вокруг команды {STRING 37}\\nрассыпаны шипы!","de":"Um das Team von {STRING 37}\\nliegen Stacheln!"}
   ,"BattleText_SpikesBlownAway":{"ru":"{ATTACKING_MON} сдувает\\nшипы!","de":"{ATTACKING_MON} bläst\\ndie Stachler weg!"}
+  ,"BattleText_PreventedBurn":{"ru":"{STRING 24} {STRING 14}\\nпредотвращает ожог!","de":"{STRING 24} von {STRING 14}\\nverhindert Verbrennung!"}
+  ,"BattleText_PreventedConfusion":{"ru":"{STRING 22} {DEFENDING_MON}\\nпредотвращает замешательство!","de":"{STRING 22} von {DEFENDING_MON}\\nverhindert Verwirrung!"}
+  ,"BattleText_PreventedFlinching":{"ru":"{STRING 24} {STRING 14}\\nпредотвращает испуг!","de":"{STRING 24} von {STRING 14}\\nverhindert Zurückschrecken!"}
+  ,"BattleText_PreventedPara":{"ru":"{STRING 22} {STRING 14}\\nпредотвращает паралич!","de":"{STRING 22} von {STRING 14}\\nverhindert Paralyse!"}
+  ,"BattleText_PreventedPoison":{"ru":"{STRING 22} {STRING 14}\\nпредотвращает отравление!","de":"{STRING 22} von {STRING 14}\\nverhindert Vergiftung!"}
+  ,"BattleText_PreventedRomance":{"ru":"{STRING 22} {DEFENDING_MON}\\nпредотвращает влюблённость!","de":"{STRING 22} von {DEFENDING_MON}\\nverhindert Verliebtheit!"}
+  ,"BattleText_PreventedStatLoss":{"ru":"{STRING 23} {STRING 16}\\nзащищает параметры!","de":"{STRING 23} von {STRING 16}\\nschützt die Werte!"}
+  ,"BattleText_PreventedSwitch":{"ru":"{STRING 20} {STRING 0}\\nмешает замене!\\p","de":"{STRING 20} von {STRING 0}\\nverhindert den Wechsel!\\p"}
+  ,"BattleText_PreventedBy":{"ru":"{STRING 22} {DEFENDING_MON} мешает\\n{ATTACKING_MON} применить {STRING 17}!","de":"{STRING 22} von {DEFENDING_MON} hindert\\n{ATTACKING_MON} an {STRING 17}!"}
+  ,"BattleText_PreventedLoss":{"ru":"{STRING 23} {STRING 16}\\nне даёт снизить {STRING 0}!","de":"{STRING 23} von {STRING 16} schützt\\nvor Verlust von {STRING 0}!"}
+  ,"BattleText_PreventedOther":{"ru":"{STRING 22} {DEFENDING_MON}\\nблокирует {STRING 0}\\lу {STRING 16}!","de":"{STRING 22} von {DEFENDING_MON}\\nblockiert {STRING 0}\\lvon {STRING 16}!"}
+  ,"BattleText_PreventedOther2":{"ru":"{STRING 21} {ATTACKING_MON}\\nблокирует {STRING 22}\\lу {DEFENDING_MON}!","de":"{STRING 21} von {ATTACKING_MON}\\nblockiert {STRING 22}\\lvon {DEFENDING_MON}!"}
+  ,"BattleText_StayedAwake":{"ru":"{STRING 22} не даёт\\n{DEFENDING_MON} уснуть!","de":"{STRING 22} hält\\n{DEFENDING_MON} wach!"}
+  ,"BattleText_UproarCantSleep":{"ru":"Но из-за шума\\n{DEFENDING_MON} не уснёт!","de":"Doch im Aufruhr kann\\n{DEFENDING_MON} nicht schlafen!"}
+  ,"BattleText_UproarCantSleep2":{"ru":"Но из-за шума\\n{DEFENDING_MON} не уснёт!","de":"Doch im Aufruhr kann\\n{DEFENDING_MON} nicht schlafen!"}
+  ,"BattleText_Clamped":{"ru":"{ATTACKING_MON} зажимает\\n{DEFENDING_MON}!","de":"{ATTACKING_MON} klemmt\\n{DEFENDING_MON} ein!"}
+  ,"BattleText_Wrapped":{"ru":"{ATTACKING_MON} обвивает\\n{DEFENDING_MON}!","de":"{ATTACKING_MON} wickelt\\n{DEFENDING_MON} ein!"}
+  ,"BattleText_SandTombTrapped":{"ru":"{DEFENDING_MON} попадает\\nв песчаную ловушку!","de":"{DEFENDING_MON} sitzt im\\nSandgrab fest!"}
+  ,"BattleText_TrappedVortex":{"ru":"{DEFENDING_MON} попадает\\nв водоворот!","de":"{DEFENDING_MON} sitzt im\\nWirbel fest!"}
+  ,"BattleText_WasSeeded":{"ru":"На {DEFENDING_MON}\\nпосажено семя!","de":"{DEFENDING_MON} wurde\\nbepflanzt!"}
+  ,"BattleText_LeechShed":{"ru":"{ATTACKING_MON} сбрасывает\\nсемя-пиявку!","de":"{ATTACKING_MON} wird\\nEgelsamen los!"}
+  ,"BattleText_FreedFrom":{"ru":"{ATTACKING_MON} освобождается\\nот {STRING 0}!","de":"{ATTACKING_MON} löst sich\\nvon {STRING 0}!"}
+  ,"BattleText_GotFreeFrom":{"ru":"{ATTACKING_MON} вырывается из\\n{STRING 0} {DEFENDING_MON}!","de":"{ATTACKING_MON} entkommt\\n{STRING 0} von {DEFENDING_MON}!"}
+  ,"BattleText_NightmareStart":{"ru":"{DEFENDING_MON} мучает\\nкошмар!","de":"{DEFENDING_MON} fällt in\\neinen Albtraum!"}
+  ,"BattleText_NightmareLock":{"ru":"{ATTACKING_MON} заперт\\nв кошмаре!","de":"{ATTACKING_MON} steckt im\\nAlbtraum fest!"}
+  ,"BattleText_CurseAfflict":{"ru":"{ATTACKING_MON} поражён\\nпроклятием!","de":"{ATTACKING_MON} leidet\\nunter dem Fluch!"}
+  ,"BattleText_CurseLay":{"ru":"{ATTACKING_MON} тратит ОЗ\\nи проклинает\\l{DEFENDING_MON}!","de":"{ATTACKING_MON} opfert KP\\nund verflucht\\l{DEFENDING_MON}!"}
+  ,"BattleText_PerishSong":{"ru":"Все затронутые покемоны\\nпадут через 3 хода!","de":"Alle betroffenen Pokémon\\ngehen in 3 Runden K.O.!"}
+  ,"BattleText_PerishSongFell":{"ru":"Счёт гибели {ATTACKING_MON}\\nснижается до {STRING 0}!","de":"Abgesang-Zähler von\\n{ATTACKING_MON} fällt auf {STRING 0}!"}
+  ,"BattleText_SubAlready":{"ru":"У {ATTACKING_MON} уже\\nесть подмена!","de":"{ATTACKING_MON} hat bereits\\neinen Delegator!"}
+  ,"BattleText_SubMade":{"ru":"{ATTACKING_MON} создаёт\\nподмену!","de":"{ATTACKING_MON} setzt\\neinen Delegator ein!"}
+  ,"BattleText_SubFaded":{"ru":"Подмена {DEFENDING_MON}\\nисчезает!\\p","de":"Delegator von {DEFENDING_MON}\\nverschwindet!\\p"}
+  ,"BattleText_SubTookDamage":{"ru":"Подмена принимает урон\\nза {DEFENDING_MON}!\\p","de":"Delegator nimmt Schaden\\nfür {DEFENDING_MON}!\\p"}
+  ,"BattleText_SubWeak":{"ru":"Недостаточно сил\\nдля подмены!","de":"Zu schwach für\\neinen Delegator!"}
+  ,"BattleText_EnduredHit":{"ru":"{DEFENDING_MON} выдерживает\\nудар!","de":"{DEFENDING_MON} übersteht\\nden Treffer!"}
+  ,"BattleText_BracedItself":{"ru":"{ATTACKING_MON} готовится\\nвыдержать удар!","de":"{ATTACKING_MON} macht sich\\nzum Durchhalten bereit!"}
 }

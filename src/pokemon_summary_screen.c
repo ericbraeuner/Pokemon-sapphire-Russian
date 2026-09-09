@@ -3,6 +3,7 @@
 #include "constants/abilities.h"
 #if LEARNER_DEMO
 #define SummaryLearnerText Learner_Translate
+#define SummaryCopyEnigmaItemName Learner_CopyItemName
 #define SummaryCopyItemName Learner_CopyItemName
 #define SummaryMapName(section, text) Learner_MapName(section, text)
 static const u8 *SummaryNatureText(u8 nature);
@@ -10,6 +11,7 @@ static const u8 *SummaryAbilityName(u8 ability);
 static const u8 *SummaryAbilityDescription(u8 ability);
 #else
 #define SummaryLearnerText(text) (text)
+#define SummaryCopyEnigmaItemName(itemId, dest) StringCopy(dest, ItemId_GetName(itemId))
 #define SummaryCopyItemName CopyItemName
 #define SummaryMapName(section, text) (text)
 #define SummaryNatureText(nature) gNatureNames[nature]
@@ -2996,7 +2998,7 @@ static void PrintHeldItemName(u16 itemId, u8 left, u8 top)
      && sub_80F9344() == TRUE
      && IsLinkDoubleBattle() == TRUE
      && (pssData.monIndex == 1 || pssData.monIndex == 4 || pssData.monIndex == 5))
-        SummaryCopyItemName(itemId, gStringVar1);
+        SummaryCopyEnigmaItemName(itemId, gStringVar1);
     else if (itemId == 0)
         StringCopy(gStringVar1, SummaryLearnerText(gOtherText_None));
     else

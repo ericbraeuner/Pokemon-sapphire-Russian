@@ -12,9 +12,9 @@
 
 extern void SetPokemonCryStereo(u32 val);
 
+#if LEARNER_DEMO
 static u8 sLearnerOptionChoiceText[7][32];
 
-#if LEARNER_DEMO
 #define OptionLearnerText Learner_Translate
 #else
 #define OptionLearnerText(text) (text)
@@ -296,7 +296,11 @@ static void HighlightOptionMenuItem(u8 index)
 
 static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
 {
+#if LEARNER_DEMO
     u8 *dst = sLearnerOptionChoiceText[(y - 40) / 16];
+#else
+    u8 dst[15];
+#endif
     u16 i;
 
 #if LEARNER_DEMO
@@ -311,7 +315,7 @@ static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style)
     dst[i] = EOS;
     Menu_PrintText(dst, x / 8, y / 8);
 #else
-    for (i = 0; *text != EOS && i < 31; i++)
+    for (i = 0; *text != EOS && i < 15; i++)
         dst[i] = *(text++);
     dst[2] = style;
     dst[i] = EOS;

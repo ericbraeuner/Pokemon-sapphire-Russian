@@ -303,7 +303,14 @@ class LessonTests(unittest.TestCase):
         self.assertIn('MenuPrintMessage(PartyLearnerText(message)', party)
         self.assertIn('src = SummaryLearnerText(src);', summary)
         self.assertEqual(2, summary.count('SummaryLearnerText(sPageHeaderTexts['))
-        self.assertEqual(2, summary.count('SummaryCopyItemName(itemId, gStringVar1);'))
+        self.assertEqual(1, summary.count('SummaryCopyEnigmaItemName(itemId, gStringVar1);'))
+        self.assertEqual(1, summary.count('SummaryCopyItemName(itemId, gStringVar1);'))
+        self.assertIn(
+            '#define SummaryCopyEnigmaItemName(itemId, dest) '
+            'StringCopy(dest, ItemId_GetName(itemId))',
+            summary,
+        )
+        self.assertIn('#define SummaryCopyItemName CopyItemName', summary)
         self.assertEqual(3, summary.count('SummaryLearnerText(gMoveNames[move])'))
         self.assertEqual(25, summary.count('case NATURE_'))
         self.assertEqual(154, summary.count('case ABILITY_'))
@@ -341,6 +348,10 @@ class LessonTests(unittest.TestCase):
     def test_options_save_and_bag_paths_use_learner_translations(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
         option = (demo.ROOT / 'src/option_menu.c').read_text(encoding='utf-8')
+        self.assertIn(
+            '#if LEARNER_DEMO\nstatic u8 sLearnerOptionChoiceText[7][32];',
+            option,
+        )
         save = (demo.ROOT / 'src/save_menu_util.c').read_text(encoding='utf-8')
         bag = (demo.ROOT / 'src/item_menu.c').read_text(encoding='utf-8')
         option_symbols = (

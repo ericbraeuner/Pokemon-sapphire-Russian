@@ -1,6 +1,7 @@
 """Run with python -m unittest discover -s language_learning/tests -v."""
 
 import copy
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -183,6 +184,65 @@ class LessonTests(unittest.TestCase):
         self.assertNotIn(0xFC, fragment)
         self.assertEqual(0xFF, fragment[-1])
 
+    def test_field_move_forgetting_keeps_timing_sound_and_runtime_names(self):
+        entries = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        entry = entries['gOtherText_ForgetMove123_2']
+        self.assertEqual({'STR_VAR_1': 10, 'STR_VAR_2': 12}, entry['buffer_lengths'])
+        for tag, mapping, glyphs, font in (
+                ('ru', self.russian, self.glyphs, 0),
+                ('de', self.latin, {}, 3)):
+            data = field_templates.compile_text(
+                entry[tag], mapping, glyphs, font, entry['widths'],
+                entry['max_width'], entry['buffer_lengths'])
+            self.assertIn(bytes([0xFC, 8, 32]), bytes(data))
+            self.assertEqual(5, bytes(data).count(bytes([0xFC, 8, 15])))
+            self.assertIn(bytes([0xFC, 16, 56, 0]), bytes(data))
+            self.assertIn(bytes([0xFD, 2]), bytes(data))
+            self.assertIn(bytes([0xFD, 3]), bytes(data))
+        with self.assertRaises(ValueError):
+            field_templates.compile_text('{PAUSE 256}', self.latin, {}, 3, {})
+        with self.assertRaises(KeyError):
+            field_templates.compile_text('{PLAY_SE UNKNOWN}', self.latin, {}, 3, {})
+
+    def test_money_sprite_is_localized_and_keeps_native_size(self):
+        labels = validate.load(demo.ROOT / 'language_learning/graphic_labels.json')
+        self.assertEqual('ДЕНЬГИ', labels['money'][0]['ru'])
+        self.assertEqual('GELD', labels['money'][0]['de'])
+        for tag in ('ru', 'de'):
+            rendered = graphic_labels.render('money', tag)
+            self.assertEqual((32, 16), rendered.size)
+            self.assertEqual(256, len(graphic_labels.tile_bytes(rendered)))
+        source = (demo.ROOT / 'src/money.c').read_text(encoding='utf-8')
+        self.assertIn('gLearnerMoneyTilesRu : gLearnerMoneyTilesDe', source)
+        self.assertIn('LoadCompressedObjectPic(&learnerMoneySheet);', source)
+
+    def test_phase_three_shared_screens_have_no_unclassified_text_symbols(self):
+        known = set()
+        for path in ('ui_sources.json', 'field_templates.json', 'ui.json'):
+            known.update(validate.load(demo.ROOT / 'language_learning' / path))
+        phase_sources = (
+            'item_menu.c', 'item_use.c', 'pokedex.c', 'start_menu.c',
+            'save_menu_util.c', 'party_menu.c', 'pokemon_summary_screen.c',
+            'pokemon_storage_system.c', 'shop.c',
+        )
+        pattern = re.compile(
+            r'\b(?:g(?:OtherText|SystemText|DexText|PCText|Text)_[A-Za-z0-9_]+'
+            r'|OtherText_[A-Za-z0-9_]+|SystemText_[A-Za-z0-9_]+'
+            r'|PCText_[A-Za-z0-9_]+)\b')
+        referenced = set()
+        for name in phase_sources:
+            referenced.update(pattern.findall(
+                (demo.ROOT / 'src' / name).read_text(encoding='utf-8')))
+        nonlanguage = {
+            'gOtherText_CancelWithTerminator', 'gOtherText_Comma',
+            'gOtherText_FemaleSymbol2', 'gOtherText_FiveQuestions',
+            'gOtherText_MaleSymbol2', 'gOtherText_OneDash',
+            'gOtherText_TallPlusAndRightArrow', 'gOtherText_Terminator18',
+            'gOtherText_ThreeDashes2', 'gOtherText_TwoDashes',
+            'gOtherText_xString1', 'SystemText_Player',
+        }
+        self.assertEqual(nonlanguage, referenced - known)
+
     def test_battle_sources_names_and_font_restore(self):
         parts, table = battle.generate(self.russian, self.latin)
         self.assertTrue(parts)
@@ -259,8 +319,16 @@ class LessonTests(unittest.TestCase):
                      'gOtherText_Nature', 'gOtherText_Met',
                      'gOtherText_EggObtainedInTrade'):
             self.assertIn(name, entries)
+        for name in ('gOtherText_EggLongTime', 'gOtherText_EggSomeTime',
+                     'gOtherText_EggSoon', 'gOtherText_EggAbout'):
+            self.assertIn(name, entries)
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         self.assertEqual({'ru', 'de', 'widths', 'max_width'}, set(templates['OtherText_DoWhat']))
+        for name in ('gOtherText_WasGivenToHold', 'gOtherText_AlreadyHolding',
+                     'gOtherText_LearnedMove', 'gOtherText_WantsToLearn',
+                     'gOtherText_HPRestoredBy', 'gOtherText_WasRaised',
+                     'gOtherText_ThatWillBe2', 'gOtherText_SpaceForIsFull'):
+            self.assertIn(name, templates)
         ui_entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         abilities = [name for name in ui_entries
                      if name.startswith('Ability') and not name.endswith('Desc')]

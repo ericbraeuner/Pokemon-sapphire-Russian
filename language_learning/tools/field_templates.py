@@ -3,23 +3,34 @@ import re
 import build_demo as demo
 
 TOKENS = {'PLAYER': 1, 'STR_VAR_1': 2, 'STR_VAR_2': 3, 'STR_VAR_3': 4}
+SOUND_EFFECTS = {'SE_BALL_BOUNCE_1': 56}
 
-def compile_text(text, mapping, glyphs, font, widths, max_width=192):
+def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_lengths=None):
     data = [0xFC, 22, 0xFC, 6, font]
     width = 0
     expanded_budget = 0
+    buffer_lengths = widths if buffer_lengths is None else buffer_lengths
     for part in re.split(r'(\{[^}]+\}|\\[npl])', text):
         if part in (r'\n', r'\p'):
             width = 0
             data.extend([0xFE] if part == r'\n' else [0xFC, 6, 3, 0xFB, 0xFC, 6, font])
         elif part == '{PAUSE_UNTIL_PRESS}':
             data.extend([0xFC, 9])
+        elif part.startswith('{PAUSE ') and part.endswith('}'):
+            duration = int(part[7:-1], 0)
+            if not 0 <= duration <= 0xFF:
+                raise ValueError('Pause duration is outside the byte range')
+            data.extend([0xFC, 8, duration])
+        elif part.startswith('{PLAY_SE ') and part.endswith('}'):
+            sound = part[9:-1]
+            sound_id = SOUND_EFFECTS[sound]
+            data.extend([0xFC, 16, sound_id & 0xFF, sound_id >> 8])
         elif part.startswith('{'):
             token = part[1:-1]
             data.extend([0xFD, TOKENS[token]])
             data.extend([0xFC, 6, font])
             width += widths[token]
-            expanded_budget += widths[token]
+            expanded_budget += buffer_lengths[token]
         else:
             data.extend(demo.encode(part, mapping))
             width += sum(len(glyphs[c][0]) + 1 if c in glyphs else 8 for c in part)
@@ -40,7 +51,9 @@ def generate(russian, latin, glyphs):
         for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
             label = f'LearnerFieldTemplate_{i}_{tag}'
             try:
-                data = compile_text(entry[tag], mapping, glyphs if tag == 'ru' else {}, font, entry.get('widths', {}), entry.get('max_width', 192))
+                data = compile_text(entry[tag], mapping, glyphs if tag == 'ru' else {}, font,
+                                    entry.get('widths', {}), entry.get('max_width', 192),
+                                    entry.get('buffer_lengths'))
             except (ValueError, KeyError) as exc:
                 raise ValueError(f'{symbol}/{tag}: {exc}') from exc
             parts.append(demo.assembly_bytes(label, data))

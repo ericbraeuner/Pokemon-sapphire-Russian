@@ -243,4 +243,32 @@
     },
     "max_width": 184
   }
+  ,"gOtherText_WasGivenToHold":{"ru":"{STR_VAR_1} получает\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} erhält\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":88},"max_width":192}
+  ,"gOtherText_AlreadyHolding":{"ru":"{STR_VAR_1} уже держит\\n{STR_VAR_2}.\\pПоменять предметы?","de":"{STR_VAR_1} trägt schon\\n{STR_VAR_2}.\\pItems tauschen?","widths":{"STR_VAR_1":80,"STR_VAR_2":88},"max_width":192}
+  ,"gOtherText_NotHoldingAnything":{"ru":"{STR_VAR_1}:\\nничего не держит.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} trägt nichts.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_ReceivedTheThingFrom":{"ru":"Получен {STR_VAR_2}\\nот {STR_VAR_1}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_2} von\\n{STR_VAR_1} erhalten.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":88},"max_width":192}
+  ,"gOtherText_TakenAndReplaced":{"ru":"{STR_VAR_2} заменён на\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","de":"Tausch:\\n{STR_VAR_2}>{STR_VAR_1}{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":88,"STR_VAR_2":88},"max_width":192}
+  ,"gOtherText_LearnedMove":{"ru":"{STR_VAR_1} изучает\\n{STR_VAR_2}!","de":"{STR_VAR_1} lernt\\n{STR_VAR_2}!","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gOtherText_NotCompatible":{"ru":"{STR_VAR_1} не может изучить\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\n{STR_VAR_2} geht nicht.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gOtherText_WantsToLearn":{"ru":"{STR_VAR_1}: новый приём\\n{STR_VAR_2}.\\pУже есть 4 приёма.\\pЗабыть один?","de":"{STR_VAR_1}: neue Attacke\\n{STR_VAR_2}.\\pSchon 4 Attacken.\\pEine vergessen?","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gOtherText_StopTryingTo":{"ru":"Не обучать приёму\\n{STR_VAR_2}?","de":"{STR_VAR_2} nicht lernen?","widths":{"STR_VAR_2":80},"max_width":192}
+  ,"gOtherText_DidNotLearnMove2":{"ru":"{STR_VAR_1} не изучил\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\n{STR_VAR_2} nicht gelernt{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gOtherText_AlreadyKnows":{"ru":"{STR_VAR_1} уже знает\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} kennt schon\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gOtherText_ForgetMove123_2":{"ru":"{PAUSE 32}1, {PAUSE 15}2 и{PAUSE 15}... {PAUSE 15}... {PAUSE 15}...\\n{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Готово!\\p{STR_VAR_1} забыл приём\\n{STR_VAR_2}.\\pИтак...{PAUSE_UNTIL_PRESS}","de":"{PAUSE 32}1, {PAUSE 15}2 und{PAUSE 15}... {PAUSE 15}... {PAUSE 15}...\\n{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Schwupp!\\p{STR_VAR_1} vergaß\\n{STR_VAR_2}.\\pUnd...{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":12},"max_width":192}
+  ,"gOtherText_HPRestoredBy":{"ru":"{STR_VAR_1}: восстановлено\\n{STR_VAR_2} ОЗ.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}: {STR_VAR_2} KP\\nwiederhergestellt.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":48},"max_width":192}
+  ,"gOtherText_CuredPoisoning":{"ru":"{STR_VAR_1}:\\nяд вылечен.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\nGift geheilt.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_CuredParalysis":{"ru":"{STR_VAR_1}:\\nпаралич снят.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\nParalyse geheilt.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_WokeUp":{"ru":"{STR_VAR_1} просыпается.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} wacht auf.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_BurnHealed":{"ru":"{STR_VAR_1}:\\nожог вылечен.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\nBrand geheilt.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_ThawedOut":{"ru":"{STR_VAR_1} разморожен.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\naufgetaut.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_RegainedHealth":{"ru":"{STR_VAR_1}: здоровье\\nвосстановлено.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} erholt sich.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_BecameHealthy":{"ru":"{STR_VAR_1}:\\nснова здоров.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\nwieder gesund.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_PPIncreased":{"ru":"ОД приёма {STR_VAR_1}\\nувеличены.{PAUSE_UNTIL_PRESS}","de":"AP von {STR_VAR_1}\\nerhöht.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_ElevatedTo":{"ru":"{STR_VAR_1} достигает\\nуровня {STR_VAR_2}.","de":"{STR_VAR_1} erreicht\\nLevel {STR_VAR_2}.","widths":{"STR_VAR_1":80,"STR_VAR_2":48},"max_width":192}
+  ,"gOtherText_WasRaised":{"ru":"{STR_VAR_2} покемона\\n{STR_VAR_1} повышается.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_2} von {STR_VAR_1}\\nerhöht.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":72},"max_width":192}
+  ,"gOtherText_GotOverLove":{"ru":"{STR_VAR_1}:\\nбольше не влюблён.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1}:\\nLiebe vorbei.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80},"max_width":192}
+  ,"gOtherText_CantBeUsedBadge":{"ru":"Нужен новый значок.","de":"Dafür wird ein neuer\\nOrden benötigt.","widths":{},"max_width":192}
+  ,"gOtherText_ThatWillBe2":{"ru":"{STR_VAR_1}\\nЦена ¥{STR_VAR_2}. Купить?","de":"{STR_VAR_1}\\n¥{STR_VAR_2}. Kaufen?","widths":{"STR_VAR_1":112,"STR_VAR_2":48},"max_width":192}
+  ,"gOtherText_ThatWillBe3":{"ru":"{STR_VAR_1}\\nЦена ¥{STR_VAR_2}. Купить?","de":"{STR_VAR_1}\\n¥{STR_VAR_2}. Kaufen?","widths":{"STR_VAR_1":112,"STR_VAR_2":48},"max_width":192}
+  ,"gOtherText_SpaceForIsFull":{"ru":"Нет места для:\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","de":"Kein Platz für:\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":112},"max_width":192}
 }

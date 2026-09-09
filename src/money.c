@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "money.h"
 #include "decompress.h"
 #include "menu.h"
@@ -302,10 +303,23 @@ void UpdateMoneyWindow(u32 amount, u8 x, u8 y)
 
 void OpenMoneyWindow(u32 amount, u8 x, u8 y)
 {
+#ifdef LEARNER_DEMO
+    const struct CompressedSpriteSheet learnerMoneySheet =
+    {
+        Learner_GetLanguage() == 1 ? gLearnerMoneyTilesRu : gLearnerMoneyTilesDe,
+        256,
+        SPRITE_TAG_MONEY,
+    };
+#endif
+
     Menu_DrawStdWindowFrame(x, y, x + 13, y + 3);
     UpdateMoneyWindow(amount, x, y);
 
+#ifdef LEARNER_DEMO
+    LoadCompressedObjectPic(&learnerMoneySheet);
+#else
     LoadCompressedObjectPic(gUnknown_083CF584);
+#endif
     LoadCompressedObjectPalette(gUnknown_083CF58C);
 
     gUnknown_02038734 = CreateSprite(&gSpriteTemplate_83CF56C, x * 8 + 19, y * 8 + 11, 0);

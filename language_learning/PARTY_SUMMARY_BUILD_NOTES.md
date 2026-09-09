@@ -84,3 +84,32 @@
 - Runtime trainer names, Pokémon names, move names, items, and sound/control tokens
   remain in their original positions. Automated tests now verify representative
   placeholders and the flee sound token in both languages.
+
+## Phase 3 shared-interface completion — 2026-09-09
+
+- Added 27 party, item-effect, held-item, move-learning, shop, and storage
+  templates. Live Pokémon names, move names, item names, quantities, prices,
+  levels, and stat names remain runtime values rather than baked-in examples.
+- Translated the four egg-status descriptions and the remaining compact party
+  stat, shop-delivery, PP-restoration, and box labels.
+- Preserved the complete animated move-forgetting sequence: all timed pauses,
+  the ball-bounce sound, page changes, and runtime Pokémon/move placeholders.
+- Replaced the shop and selling window's embedded MONEY sprite with generated
+  Russian `ДЕНЬГИ` and German `GELD` artwork. The original 32-by-16 sprite size,
+  palette, and surrounding interface remain unchanged.
+- The Phase 3 source audit now checks Bag/item use, Pokédex, start/save menus,
+  party/summary, Pokémon storage, and shops. Its only untranslated symbols are
+  explicitly classified punctuation, formatting sentinels, or runtime player
+  data.
+
+## Verification
+
+- All 43 language-learning tests pass, including text-box and buffer bounds,
+  control-code preservation, exact money-sprite dimensions, and the exhaustive
+  Phase 3 symbol audit.
+- Learner and ordinary Sapphire configurations both compile successfully.
+- Generated Russian and German MONEY sprites were inspected directly. A full
+  emulator traversal of every newly translated edge case remains the next
+  hands-on QA pass; it should use a disposable copy of the player's save.
+- ROMs, ELF/map files, generated assembly, objects, screenshots, and saves remain
+  ignored local outputs and must not enter the source commit.

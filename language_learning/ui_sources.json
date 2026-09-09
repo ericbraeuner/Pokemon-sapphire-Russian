@@ -1922,4 +1922,15 @@
   "gOtherText_EggHotSprings": {
     "ru": "Яйцо получено у горячих источников.", "de": "Ei an den heißen Quellen erhalten.", "width": 144, "lines": 2
   }
+  ,"gOtherText_Hp2":{"ru":"ОЗ","de":"KP","width":40,"lines":1}
+  ,"gOtherText_SpAtk2":{"ru":"СП. АТК","de":"SP. ANG.","width":72,"lines":1}
+  ,"gOtherText_SpDef2":{"ru":"СП. ЗАЩ","de":"SP. VER.","width":72,"lines":1}
+  ,"gOtherText_PPRestored":{"ru":"ОД восстановлены.","de":"AP aufgefüllt.","width":192,"lines":2}
+  ,"gOtherText_HereYouGo2":{"ru":"Спасибо! Отправлю в домашний ПК.","de":"Danke! Versand an deinen PC.","width":192,"lines":2}
+  ,"gOtherText_HereYouGo3":{"ru":"Спасибо! Отправлю в твой ПК.","de":"Danke! Versand an deinen PC.","width":192,"lines":2}
+  ,"gPCText_BOX":{"ru":"ЯЩИК","de":"BOX","width":48,"lines":1}
+  ,"gOtherText_EggLongTime":{"ru":"Похоже, яйцо вылупится ещё нескоро.","de":"Dieses Ei braucht noch lange zum Schlüpfen.","width":184,"lines":2}
+  ,"gOtherText_EggSomeTime":{"ru":"Что из него вылупится? Нужно ещё время.","de":"Was schlüpft wohl? Es braucht noch Zeit.","width":184,"lines":2}
+  ,"gOtherText_EggSoon":{"ru":"Иногда оно двигается. Скоро вылупится.","de":"Es bewegt sich. Es schlüpft bald.","width":184,"lines":2}
+  ,"gOtherText_EggAbout":{"ru":"Из яйца слышны звуки. Оно вот-вот вылупится!","de":"Es macht Geräusche. Es schlüpft gleich!","width":184,"lines":2}
 }

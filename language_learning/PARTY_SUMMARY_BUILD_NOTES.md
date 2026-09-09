@@ -169,3 +169,6 @@
 - Added 42 move-learning, move-charge, status, escape, multi-hit, Uproar and
   delayed-effect templates. Shared battle coverage now reaches 316 of 479
   engine messages.
+- Added 51 held-item, ability, escape, switching, Wish, Grudge, Taunt, Torment,
+  sealing and reflected-move templates. Shared battle coverage now reaches 367
+  of 479 engine messages.

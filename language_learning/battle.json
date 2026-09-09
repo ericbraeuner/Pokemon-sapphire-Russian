@@ -591,4 +591,55 @@
   ,"BattleText_CalmedDown":{"ru":"{ATTACKING_MON} успокаивается.","de":"{ATTACKING_MON} beruhigt sich."}
   ,"BattleText_UproarKeptAwake":{"ru":"Но шум не даёт\\n{DEFENDING_MON} уснуть!","de":"Doch der Aufruhr hält\\n{DEFENDING_MON} wach!"}
   ,"BattleText_FatigueConfuse":{"ru":"{ATTACKING_MON} от усталости\\nприходит в замешательство!","de":"{ATTACKING_MON} wird vor\\nErschöpfung verwirrt!"}
+  ,"BattleText_PickedUpYen":{"ru":"{STRING 32} подбирает\\n¥{STRING 0}!\\p","de":"{STRING 32} hebt\\n¥{STRING 0} auf!\\p"}
+  ,"BattleText_Unaffected":{"ru":"На {DEFENDING_MON}\\nэто не действует!","de":"{DEFENDING_MON} bleibt\\nunbeeinflusst!"}
+  ,"BattleText_RageBuilding":{"ru":"Ярость {DEFENDING_MON}\\nнарастает!","de":"Raserei von {DEFENDING_MON}\\nwird stärker!"}
+  ,"BattleText_SketchedMove":{"ru":"{ATTACKING_MON} копирует\\n{STRING 0}!","de":"{ATTACKING_MON} skizziert\\n{STRING 0}!"}
+  ,"BattleText_DestinyBondTake":{"ru":"{ATTACKING_MON} пытается\\nувлечь врага за собой!","de":"{ATTACKING_MON} will den\\nGegner mitnehmen!"}
+  ,"BattleText_DestinyBondTaken":{"ru":"{DEFENDING_MON} увлекает\\n{ATTACKING_MON} за собой!","de":"{DEFENDING_MON} nimmt\\n{ATTACKING_MON} mit!"}
+  ,"BattleText_ReducedBy":{"ru":"{STRING 0} {DEFENDING_MON}\\nснижается на {STRING 1}!","de":"{STRING 0} von {DEFENDING_MON}\\nsinkt um {STRING 1}!"}
+  ,"BattleText_StoleSomething":{"ru":"{ATTACKING_MON} крадёт\\n{STRING 19} у {DEFENDING_MON}!","de":"{ATTACKING_MON} stiehlt\\n{STRING 19} von {DEFENDING_MON}!"}
+  ,"BattleText_CantEscapeNow":{"ru":"{DEFENDING_MON} теперь\\nне может сбежать!","de":"{DEFENDING_MON} kann jetzt\\nnicht fliehen!"}
+  ,"BattleText_FledBattle":{"ru":"{ATTACKING_MON} сбегает\\nиз боя!","de":"{ATTACKING_MON} flieht\\naus dem Kampf!"}
+  ,"BattleText_TookAttack":{"ru":"{DEFENDING_MON} принимает\\nатаку {STRING 0}!","de":"{DEFENDING_MON} fängt den\\nAngriff von {STRING 0} ab!"}
+  ,"BattleText_ChoseDestiny":{"ru":"{ATTACKING_MON} выбирает\\n{STRING 17} своей судьбой!","de":"{ATTACKING_MON} wählt\\n{STRING 17} als Schicksal!"}
+  ,"BattleText_PokeAttack":{"ru":"Атака {STRING 0}!","de":"Angriff von {STRING 0}!"}
+  ,"BattleText_StatusNormal":{"ru":"Статус {ATTACKING_MON}\\nвозвращается в норму!","de":"Status von {ATTACKING_MON}\\nist wieder normal!"}
+  ,"BattleText_TormentSubject":{"ru":"{DEFENDING_MON} подвергается\\nмучению!","de":"{DEFENDING_MON} wird\\ngepeinigt!"}
+  ,"BattleText_TauntFell":{"ru":"{DEFENDING_MON} поддаётся\\nпровокации!","de":"{DEFENDING_MON} fällt auf\\ndie Verhöhnung herein!"}
+  ,"BattleText_SwitchedItems":{"ru":"{ATTACKING_MON} меняется\\nпредметами с противником!","de":"{ATTACKING_MON} tauscht\\nItems mit dem Gegner!"}
+  ,"BattleText_Obtained1":{"ru":"{ATTACKING_MON} получает\\n{STRING 0}.","de":"{ATTACKING_MON} erhält\\n{STRING 0}."}
+  ,"BattleText_Obtained2":{"ru":"{DEFENDING_MON} получает\\n{STRING 1}.","de":"{DEFENDING_MON} erhält\\n{STRING 1}."}
+  ,"BattleText_Obtained3":{"ru":"{ATTACKING_MON} получает\\n{STRING 0}.\\p{DEFENDING_MON} получает\\n{STRING 1}.","de":"{ATTACKING_MON} erhält\\n{STRING 0}.\\p{DEFENDING_MON} erhält\\n{STRING 1}."}
+  ,"BattleText_CopiedObject":{"ru":"{ATTACKING_MON} копирует\\n{STRING 22} {DEFENDING_MON}!","de":"{ATTACKING_MON} kopiert\\n{STRING 22} von {DEFENDING_MON}!"}
+  ,"BattleText_WishMade":{"ru":"{ATTACKING_MON} загадывает\\nжелание!","de":"{ATTACKING_MON} äußert\\neinen Wunsch!"}
+  ,"BattleText_WishTrue":{"ru":"Желание {STRING 0}\\nсбывается!","de":"Wunsch von {STRING 0}\\nwird wahr!"}
+  ,"BattleText_PlantedRoots":{"ru":"{ATTACKING_MON} пускает корни!","de":"{ATTACKING_MON} schlägt Wurzeln!"}
+  ,"BattleText_AnchoredItself":{"ru":"{DEFENDING_MON} закрепляется\\nкорнями!","de":"{DEFENDING_MON} verankert\\nsich mit Wurzeln!"}
+  ,"BattleText_AbilitySwap":{"ru":"{ATTACKING_MON} меняется\\nспособностями с противником!","de":"{ATTACKING_MON} tauscht\\nFähigkeiten mit dem Gegner!"}
+  ,"BattleText_SealedMove":{"ru":"{ATTACKING_MON} запечатывает\\nприёмы противника!","de":"{ATTACKING_MON} versiegelt\\ndie Attacken des Gegners!"}
+  ,"BattleText_GrudgeBear":{"ru":"{ATTACKING_MON} готовит\\nместь противнику!","de":"{ATTACKING_MON} belegt den\\nGegner mit Nachspiel!"}
+  ,"BattleText_GrudgeLosePP":{"ru":"Из-за мести {STRING 0}\\n{ATTACKING_MON} теряет все ОД!","de":"Durch Nachspiel verliert\\n{STRING 0} von {ATTACKING_MON} alle AP!"}
+  ,"BattleText_ShroudedItself":{"ru":"{ATTACKING_MON} окутывает\\nсебя приёмом {STRING 17}!","de":"{ATTACKING_MON} hüllt sich\\nin {STRING 17}!"}
+  ,"BattleText_MagicCoatBounce":{"ru":"Магический плащ отражает\\n{STRING 17} {ATTACKING_MON}!","de":"Magiemantel wirft {STRING 17}\\nvon {ATTACKING_MON} zurück!"}
+  ,"BattleText_AwaitMove":{"ru":"{ATTACKING_MON} ждёт\\nхода противника!","de":"{ATTACKING_MON} wartet auf\\nden Zug des Gegners!"}
+  ,"BattleText_SnatchedMove":{"ru":"{DEFENDING_MON} перехватывает\\nприём {STRING 16}!","de":"{DEFENDING_MON} übernimmt\\ndie Attacke von {STRING 16}!"}
+  ,"BattleText_ElecWeakened":{"ru":"Сила электричества\\nослабевает!","de":"Die Kraft von Elektro\\nwird geschwächt!"}
+  ,"BattleText_FireWeakened":{"ru":"Сила огня ослабевает!","de":"Die Kraft von Feuer\\nwird geschwächt!"}
+  ,"BattleText_FoundOne":{"ru":"{ATTACKING_MON} находит\\n{STRING 19}!","de":"{ATTACKING_MON} findet\\n{STRING 19}!"}
+  ,"BattleText_CantUseItems":{"ru":"Сейчас предметы\\nиспользовать нельзя.{PAUSE 64}","de":"Items können jetzt\\nnicht benutzt werden.{PAUSE 64}"}
+  ,"BattleText_HustleUse":{"ru":"{STRING 16} использует\\n{STRING 19}, чтобы подбодрить!","de":"{STRING 16} setzt\\n{STRING 19} zum Anspornen ein!"}
+  ,"BattleText_DraggedOut":{"ru":"{DEFENDING_MON} вытаскивают\\nна поле!\\p","de":"{DEFENDING_MON} wird\\nherausgezerrt!\\p"}
+  ,"BattleText_BrokeWall":{"ru":"Стена разбивается!","de":"Die Wand zerbricht!"}
+  ,"BattleText_TormentNoUse":{"ru":"Из-за мучения {STRING 15} не может\\nповторить приём подряд!\\p","de":"Wegen Qual kann {STRING 15} nicht\\nzweimal dieselbe Attacke nutzen!\\p"}
+  ,"BattleText_TauntNoUse":{"ru":"После провокации {STRING 15}\\nне может применить {STRING 17}!\\p","de":"Nach Verhöhner kann {STRING 15}\\n{STRING 17} nicht einsetzen!\\p"}
+  ,"BattleText_SealedNoUse":{"ru":"{STRING 15} не может применить\\nзапечатанный {STRING 17}!\\p","de":"{STRING 15} kann die versiegelte\\nAttacke {STRING 17} nicht nutzen!\\p"}
+  ,"BattleText_RainMade":{"ru":"{STRING 23} {STRING 16}\\nвызывает дождь!","de":"{STRING 23} von {STRING 16}\\nlässt es regnen!"}
+  ,"BattleText_HPRestoredUsing":{"ru":"{STRING 22} восстанавливает\\nОЗ {DEFENDING_MON}!","de":"{STRING 22} füllt KP\\nvon {DEFENDING_MON} auf!"}
+  ,"BattleText_RaisedFirePower":{"ru":"{STRING 22} {DEFENDING_MON}\\nусиливает огонь!","de":"{STRING 22} von {DEFENDING_MON}\\nverstärkt Feuer!"}
+  ,"BattleText_AnchorsItself":{"ru":"{STRING 22} удерживает\\n{DEFENDING_MON} на месте!","de":"{STRING 22} verankert\\n{DEFENDING_MON}!"}
+  ,"BattleText_HurtOther":{"ru":"{STRING 22} {DEFENDING_MON}\\nранит {ATTACKING_MON}!","de":"{STRING 22} von {DEFENDING_MON}\\nverletzt {ATTACKING_MON}!"}
+  ,"BattleText_Traced":{"ru":"{STRING 16} копирует\\n{STRING 1} {STRING 0}!","de":"{STRING 16} kopiert\\n{STRING 1} von {STRING 0}!"}
+  ,"BattleText_BlocksOther":{"ru":"{STRING 22} {DEFENDING_MON}\\nблокирует {STRING 17}!","de":"{STRING 22} von {DEFENDING_MON}\\nblockiert {STRING 17}!"}
+  ,"BattleText_BlocksOther2":{"ru":"{STRING 23} {STRING 16}\\nблокирует {STRING 17}!","de":"{STRING 23} von {STRING 16}\\nblockiert {STRING 17}!"}
 }

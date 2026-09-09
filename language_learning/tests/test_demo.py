@@ -259,7 +259,7 @@ class LessonTests(unittest.TestCase):
 
     def test_extended_shared_battle_flows_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/battle.json')
-        self.assertGreaterEqual(len(entries), 274)
+        self.assertGreaterEqual(len(entries), 316)
         expected = (
             'BattleText_WildDoubleAppeared', 'BattleText_DoubleWantToBattle',
             'BattleText_SentOutDouble1', 'BattleText_WithdrewPoke1',
@@ -284,6 +284,10 @@ class LessonTests(unittest.TestCase):
             'BattleText_MadeType', 'BattleText_Transformed',
             'BattleText_TookAim', 'BattleText_NaturePower',
             'BattleText_StockpiledCant', 'BattleText_HealthSapped',
+            'BattleText_TryingToLearnMove', 'BattleText_DeleteMove',
+            'BattleText_GroundMoveNegate', 'BattleText_MadeAsleep',
+            'BattleText_StoppedWorking', 'BattleText_FlewHigh',
+            'BattleText_WoreOff', 'BattleText_FatigueConfuse',
         )
         for symbol in expected:
             self.assertEqual({'ru', 'de'}, set(entries[symbol]))

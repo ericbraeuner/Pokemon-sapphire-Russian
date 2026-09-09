@@ -549,4 +549,46 @@
   ,"BattleText_HealthSapped":{"ru":"Семя-пиявка высасывает\\nздоровье {ATTACKING_MON}!","de":"Egelsamen raubt\\n{ATTACKING_MON} KP!"}
   ,"BattleText_AbsorbNutrients":{"ru":"{ATTACKING_MON} поглощает\\nпитание корнями!","de":"{ATTACKING_MON} nimmt über\\ndie Wurzeln Nährstoffe auf!"}
   ,"BattleText_PainSplit":{"ru":"Бойцы делят\\nсвою боль!","de":"Die Kämpfer teilen\\nihren Schmerz!"}
+  ,"BattleText_TryingToLearnMove":{"ru":"{STRING 0} пытается выучить\\n{STRING 1}.\\p","de":"{STRING 0} versucht,\\n{STRING 1} zu lernen.\\p"}
+  ,"BattleText_CantLearnMore":{"ru":"Но {STRING 0} не может знать\\nбольше четырёх приёмов.\\p","de":"Aber {STRING 0} kann nicht mehr\\nals vier Attacken lernen.\\p"}
+  ,"BattleText_DeleteMove":{"ru":"Забыть приём, чтобы\\nосвободить место для {STRING 1}?","de":"Attacke vergessen, um Platz\\nfür {STRING 1} zu schaffen?"}
+  ,"BattleText_DeletedMove":{"ru":"{STRING 0} забывает\\n{STRING 1}.\\p","de":"{STRING 0} hat\\n{STRING 1} vergessen.\\p"}
+  ,"BattleText_StopLearning":{"ru":"{PAUSE 32}Не учить\\n{STRING 1}?","de":"{PAUSE 32}Lernen von\\n{STRING 1} abbrechen?"}
+  ,"BattleText_DidNotLearn":{"ru":"{STRING 0} не выучил\\n{STRING 1}.\\p","de":"{STRING 0} hat\\n{STRING 1} nicht gelernt.\\p"}
+  ,"BattleText_AvoidedDamage":{"ru":"{STRING 22} помогает\\n{DEFENDING_MON} избежать урона!","de":"{STRING 22} bewahrt\\n{DEFENDING_MON} vor Schaden!"}
+  ,"BattleText_GroundMoveNegate":{"ru":"{STRING 22} защищает\\n{DEFENDING_MON} от земляных приёмов!","de":"{STRING 22} lässt Boden-Attacken\\nbei {DEFENDING_MON} scheitern!"}
+  ,"BattleText_PreventEscape":{"ru":"{STRING 23} {STRING 16}\\nне даёт сбежать!\\p","de":"{STRING 23} von {STRING 16}\\nverhindert die Flucht!\\p"}
+  ,"BattleText_AttackingCantEscape":{"ru":"{ATTACKING_MON}\\nне может сбежать!","de":"{ATTACKING_MON} kann\\nnicht fliehen!"}
+  ,"BattleText_HitMulti":{"ru":"Попаданий: {STRING 0}!","de":"{STRING 0} Treffer!"}
+  ,"BattleText_MadeAsleep":{"ru":"{STRING 23} {STRING 16}\\nусыпляет {STRING 14}!","de":"{STRING 23} von {STRING 16}\\nlässt {STRING 14} einschlafen!"}
+  ,"BattleText_DefendingAsleep":{"ru":"{DEFENDING_MON} уже спит!","de":"{DEFENDING_MON} schläft\\nbereits!"}
+  ,"BattleText_Burned2":{"ru":"{STRING 23} {STRING 16}\\nобжигает {STRING 14}!","de":"{STRING 23} von {STRING 16}\\nverbrennt {STRING 14}!"}
+  ,"BattleText_Frozen":{"ru":"{STRING 14} полностью\\nзаморожен!","de":"{STRING 14} wurde\\neingefroren!"}
+  ,"BattleText_Frozen2":{"ru":"{STRING 23} {STRING 16}\\nзамораживает {STRING 14}!","de":"{STRING 23} von {STRING 16}\\nfriert {STRING 14} ein!"}
+  ,"BattleText_ParalysisHealed":{"ru":"Паралич {DEFENDING_MON}\\nвылечен!","de":"Paralyse von {DEFENDING_MON}\\nwurde geheilt!"}
+  ,"BattleText_StoppedWorking":{"ru":"{STRING 0} вашей команды\\nперестаёт действовать!","de":"{STRING 0} deines Teams\\nwirkt nicht mehr!"}
+  ,"BattleText_StoppedWorking2":{"ru":"{STRING 0} команды врага\\nперестаёт действовать!","de":"{STRING 0} des Gegners\\nwirkt nicht mehr!"}
+  ,"BattleText_BlownAway":{"ru":"{DEFENDING_MON} сдувает\\nпрочь!","de":"{DEFENDING_MON} wird\\nweggeweht!"}
+  ,"BattleText_CoveredVeil":{"ru":"{STRING 38} покрывает\\nзавеса!","de":"Ein Schleier umgibt\\n{STRING 38}!"}
+  ,"BattleText_WentToSleep":{"ru":"{ATTACKING_MON} засыпает!","de":"{ATTACKING_MON} schläft ein!"}
+  ,"BattleText_SpeltHealthy":{"ru":"{ATTACKING_MON} спит\\nи восстанавливается!","de":"{ATTACKING_MON} schläft und\\nerholt sich!"}
+  ,"BattleText_WhipWhirlwind":{"ru":"{ATTACKING_MON} поднимает\\nвихрь!","de":"{ATTACKING_MON} entfacht\\neinen Wirbelwind!"}
+  ,"BattleText_LoweredHead":{"ru":"{ATTACKING_MON} опускает\\nголову!","de":"{ATTACKING_MON} senkt\\nden Kopf!"}
+  ,"BattleText_IsGlowing":{"ru":"{ATTACKING_MON} светится!","de":"{ATTACKING_MON} leuchtet!"}
+  ,"BattleText_FlewHigh":{"ru":"{ATTACKING_MON} взлетает\\nвысоко!","de":"{ATTACKING_MON} fliegt\\nhoch hinauf!"}
+  ,"BattleText_DugHole":{"ru":"{ATTACKING_MON} роет яму!","de":"{ATTACKING_MON} gräbt\\nein Loch!"}
+  ,"BattleText_HidUnderwater":{"ru":"{ATTACKING_MON} скрывается\\nпод водой!","de":"{ATTACKING_MON} taucht\\nunter!"}
+  ,"BattleText_SprangUp":{"ru":"{ATTACKING_MON} взмывает\\nвверх!","de":"{ATTACKING_MON} springt\\nhoch!"}
+  ,"BattleText_SqueezedBind":{"ru":"{ATTACKING_MON} сжимает\\n{DEFENDING_MON} хваткой!","de":"{ATTACKING_MON} quetscht\\n{DEFENDING_MON} mit Klammergriff!"}
+  ,"BattleText_KeptGoingCrash":{"ru":"{ATTACKING_MON} не попадает\\nи разбивается!","de":"{ATTACKING_MON} stürmt weiter\\nund kracht hin!"}
+  ,"BattleText_GetPumped":{"ru":"{ATTACKING_MON} воодушевлён!","de":"{ATTACKING_MON} ist voller\\nKampfgeist!"}
+  ,"BattleText_ProtectedItself2":{"ru":"{ATTACKING_MON} защищается!","de":"{ATTACKING_MON} schützt sich!"}
+  ,"BattleText_WoreOff":{"ru":"Действие {STRING 0}\\nу {STRING 36} заканчивается!","de":"{STRING 0} von {STRING 36}\\nwirkt nicht mehr!"}
+  ,"BattleText_UproarAwake":{"ru":"Шум {STRING 16}\\nне даёт ему уснуть!","de":"Aufruhr von {STRING 16}\\nhält es wach!"}
+  ,"BattleText_UproarWoke":{"ru":"Шум будит\\n{ATTACKING_MON}!","de":"{ATTACKING_MON} wacht\\ndurch den Aufruhr auf!"}
+  ,"BattleText_UproarCaused":{"ru":"{ATTACKING_MON} поднимает\\nшум!","de":"{ATTACKING_MON} verursacht\\neinen Aufruhr!"}
+  ,"BattleText_UproarMaking":{"ru":"{ATTACKING_MON} продолжает\\nшуметь!","de":"{ATTACKING_MON} macht\\nweiter Aufruhr!"}
+  ,"BattleText_CalmedDown":{"ru":"{ATTACKING_MON} успокаивается.","de":"{ATTACKING_MON} beruhigt sich."}
+  ,"BattleText_UproarKeptAwake":{"ru":"Но шум не даёт\\n{DEFENDING_MON} уснуть!","de":"Doch der Aufruhr hält\\n{DEFENDING_MON} wach!"}
+  ,"BattleText_FatigueConfuse":{"ru":"{ATTACKING_MON} от усталости\\nприходит в замешательство!","de":"{ATTACKING_MON} wird vor\\nErschöpfung verwirrt!"}
 }

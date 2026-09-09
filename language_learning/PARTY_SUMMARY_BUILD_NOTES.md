@@ -166,3 +166,6 @@
 - Added 38 stat-change, type-change, targeting, stored-energy, sleep and
   health-drain templates. The shared bilingual battle catalogue now covers 274
   of 479 engine messages.
+- Added 42 move-learning, move-charge, status, escape, multi-hit, Uproar and
+  delayed-effect templates. Shared battle coverage now reaches 316 of 479
+  engine messages.

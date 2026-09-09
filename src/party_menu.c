@@ -2207,7 +2207,12 @@ bool8 LoadPartyMenuGraphics(u8 a)
     bool8 retVal = FALSE;
 
     if (a < 2)
+#if LEARNER_DEMO
+        LZDecompressVram(Learner_GetLanguage() == 1 ? gLearnerPartyMiscTilesRu : gLearnerPartyMiscTilesDe,
+                         (void *)BG_VRAM);
+#else
         LZDecompressVram(gPartyMenuMisc_Gfx, (void *)BG_VRAM);
+#endif
 
     if (a == 2 || a == 0)
         LZDecompressVram(gPartyMenuMisc_Tilemap, (void *)(BG_VRAM + 0x3800));

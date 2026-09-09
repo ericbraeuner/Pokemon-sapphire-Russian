@@ -518,7 +518,7 @@ class LessonTests(unittest.TestCase):
                     elif kind == 'summary':
                         rect = (x, y, x + e['width'], y + 8)
                     else:
-                        rect = (x, y, x + e['width'], y + 16)
+                        rect = (x, y, x + e['width'], y + e.get('height', 16))
                     allowed.update((px, py) for px in range(rect[0], rect[2]) for py in range(rect[1], rect[3]))
                 for y in range(size[1]):
                     for x in range(size[0]):
@@ -555,6 +555,9 @@ class LessonTests(unittest.TestCase):
         storage = (demo.ROOT / 'src/pokemon_storage_system_2.c').read_text()
         self.assertIn('gLearnerStorageMiscTilesRu', storage)
         self.assertIn('gLearnerStorageMiscTilesDe', storage)
+        party = (demo.ROOT / 'src/party_menu.c').read_text(encoding='utf-8')
+        self.assertIn('gLearnerPartyMiscTilesRu', party)
+        self.assertIn('gLearnerPartyMiscTilesDe', party)
 
     def test_bag_action_templates_keep_item_quantity_and_fit_pane(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

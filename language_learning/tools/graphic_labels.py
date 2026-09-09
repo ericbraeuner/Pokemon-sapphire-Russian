@@ -14,6 +14,7 @@ SHEETS = {
     'storage_misc': ('graphics/pokemon_storage/misc1.png', 'StorageMiscTiles', (72, 88)),
     'summary': ('graphics/interface/status_screen.png', 'SummaryTiles', (128, 112)),
     'money': ('graphics/interface/money.png', 'MoneyTiles', (32, 16)),
+    'party_misc': ('graphics/interface/party_menu_misc.png', 'PartyMiscTiles', (128, 64)),
 }
 
 
@@ -114,10 +115,11 @@ def render(kind, tag):
             width, height = entry['width'], 10
             background, ink = entry.get('background', 6), entry.get('ink', 14)
         else:
-            left, top, width, height, background, ink = x, y, entry['width'], 16, entry['background'], entry['ink']
+            left, top, width, height = x, y, entry['width'], entry.get('height', 16)
+            background, ink = entry['background'], entry['ink']
         if left < 0 or top < 0 or left + width > size[0] or top + height > size[1]:
             raise ValueError('Label outside tile sheet')
-        glyph_fn = small_glyph if kind in ('summary', 'money') else glyph
+        glyph_fn = small_glyph if kind in ('summary', 'money', 'party_misc') else glyph
         letters = [glyph_fn(c, latin, cyrillic if tag == 'ru' else {}, font) for c in entry[tag]]
         text_width = sum(len(g[0]) + 1 for g in letters) - 1
         if text_width > width:
@@ -163,7 +165,7 @@ def generate():
     for kind, (_, name, _) in SHEETS.items():
         for tag in ('ru', 'de'):
             data = tile_bytes(render(kind, tag))
-            if kind in ('dex_sprites', 'storage_misc', 'summary', 'money'):
+            if kind in ('dex_sprites', 'storage_misc', 'summary', 'money', 'party_misc'):
                 data = literal_lz(data)
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
                 'gLearner' + name + tag.title(), data))

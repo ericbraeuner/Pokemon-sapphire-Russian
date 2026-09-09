@@ -137,3 +137,14 @@
 - The smoke test did not load, copy or write either real repository save. Full
   Russian/German screen traversal still requires the visual checklist because
   stable mGBA 0.10.5 does not expose its Lua scripting interface on the command line.
+
+## Automated visual follow-up — 2026-09-09
+
+- Used the official mGBA development build's command-line Lua support with isolated
+  ROM and save copies to capture setup, Birch, start menu, Pokédex, party, Bag,
+  save and Options screens.
+- Verified Russian A1 with English help and German C2 without help reach Birch in
+  the selected language. The existing learner save remained byte-for-byte unchanged.
+- The screenshots exposed an English `CANCEL` graphic in the party screen. Added a
+  generated Russian `Назад` / German `Zurück` version behind `LEARNER_DEMO` while
+  preserving the original stock sheet.

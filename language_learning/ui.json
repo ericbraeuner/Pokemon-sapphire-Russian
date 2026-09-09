@@ -886,4 +886,57 @@
   ,"AbilityDamp":{"ru":"СЫРОСТЬ","de":"FEUCHTIGKEIT"},"AbilityDampDesc":{"ru":"Блокирует самоуничтожение.","de":"Stoppt Explosionen."}
   ,"AbilityCloudNine":{"ru":"БЕЗ ПОГОДЫ","de":"WOLKE SIEBEN"},"AbilityCloudNineDesc":{"ru":"Убирает эффекты погоды.","de":"Stoppt Wetter."}
   ,"AbilityVitalSpirit":{"ru":"БОДРОСТЬ","de":"MUNTERKEIT"},"AbilityVitalSpiritDesc":{"ru":"Защищает от сна.","de":"Verhindert Schlaf."}
+
+  ,"AbilityStench":{"ru":"ЗАПАХ","de":"DUFTNOTE"},"AbilityStenchDesc":{"ru":"Отпугивает диких покемонов.","de":"Wehrt wilde Pokémon ab."}
+  ,"AbilityDrizzle":{"ru":"МОРОСЬ","de":"NIESEL"},"AbilityDrizzleDesc":{"ru":"Вызывает дождь в бою.","de":"Ruft Regen im Kampf."}
+  ,"AbilitySpeedBoost":{"ru":"УСКОРЕНИЕ","de":"TEMPOSCHUB"},"AbilitySpeedBoostDesc":{"ru":"Скорость растёт.","de":"Tempo steigt."}
+  ,"AbilityBattleArmor":{"ru":"БОЕВАЯ БРОНЯ","de":"KAMPFPANZER"},"AbilityBattleArmorDesc":{"ru":"Нет критических атак.","de":"Keine Volltreffer."}
+  ,"AbilitySturdy":{"ru":"КРЕПОСТЬ","de":"ROBUSTHEIT"},"AbilitySturdyDesc":{"ru":"Защищает от атак одним ударом.","de":"Stoppt K.o.-Treffer."}
+  ,"AbilityVoltAbsorb":{"ru":"ПОГЛОЩ. ТОКА","de":"VOLTABSORBER"},"AbilityVoltAbsorbDesc":{"ru":"Электричество лечит ОЗ.","de":"Strom füllt KP auf."}
+  ,"AbilityWaterAbsorb":{"ru":"ПОГЛОЩ. ВОДЫ","de":"H2O-ABSORBER"},"AbilityWaterAbsorbDesc":{"ru":"Вода лечит ОЗ.","de":"Wasser füllt KP auf."}
+  ,"AbilityOblivious":{"ru":"НЕВЕДЕНИЕ","de":"DÖSIGKEIT"},"AbilityObliviousDesc":{"ru":"Защищает от влюблённости.","de":"Verhindert Anziehung."}
+  ,"AbilityInsomnia":{"ru":"БЕССОННИЦА","de":"INSOMNIA"},"AbilityInsomniaDesc":{"ru":"Защищает от сна.","de":"Verhindert Schlaf."}
+  ,"AbilityColorChange":{"ru":"СМЕНА ЦВЕТА","de":"FARBWECHSEL"},"AbilityColorChangeDesc":{"ru":"Меняет тип после атаки.","de":"Typ folgt Treffern."}
+  ,"AbilityImmunity":{"ru":"ИММУНИТЕТ","de":"IMMUNITÄT"},"AbilityImmunityDesc":{"ru":"Защищает от отравления.","de":"Verhindert Vergiftung."}
+  ,"AbilityOwnTempo":{"ru":"СВОЙ ТЕМП","de":"TEMPOMACHER"},"AbilityOwnTempoDesc":{"ru":"Защищает от замешательства.","de":"Verhindert Verwirrung."}
+  ,"AbilitySuctionCups":{"ru":"ПРИСОСКИ","de":"SAUGNAPF"},"AbilitySuctionCupsDesc":{"ru":"Не даёт сменить.","de":"Verhindert Austausch."}
+  ,"AbilityShadowTag":{"ru":"МЕТКА ТЕНИ","de":"WEGSPERRE"},"AbilityShadowTagDesc":{"ru":"Мешает врагу сбежать.","de":"Stoppt die Flucht."}
+  ,"AbilityRoughSkin":{"ru":"ГРУБАЯ КОЖА","de":"RAUHAUT"},"AbilityRoughSkinDesc":{"ru":"Ранит врага при касании.","de":"Verletzt bei Berührung."}
+  ,"AbilityWonderGuard":{"ru":"ЧУДО-СТРАЖ","de":"WUNDERWACHE"},"AbilityWonderGuardDesc":{"ru":"Пропускает лишь сверхэфф. атаки.","de":"Nur sehr eff. trifft."}
+  ,"AbilityLevitate":{"ru":"ЛЕВИТАЦИЯ","de":"SCHWEBE"},"AbilityLevitateDesc":{"ru":"Даёт иммунитет к земле.","de":"Immun gegen Boden."}
+  ,"AbilitySynchronize":{"ru":"СИНХРОНИЗАЦИЯ","de":"SYNCHRO"},"AbilitySynchronizeDesc":{"ru":"Передаёт статус врагу.","de":"Gibt Status weiter."}
+  ,"AbilityClearBody":{"ru":"ЧИСТОЕ ТЕЛО","de":"NEUTRALTORSO"},"AbilityClearBodyDesc":{"ru":"Характеристики нельзя снизить.","de":"Werte können nicht sinken."}
+  ,"AbilityNaturalCure":{"ru":"ИСЦЕЛЕНИЕ","de":"INNERE KRAFT"},"AbilityNaturalCureDesc":{"ru":"Снимает статус при замене.","de":"Heilt Status beim Wechsel."}
+  ,"AbilityLightningRod":{"ru":"ГРОМООТВОД","de":"BLITZFÄNGER"},"AbilityLightningRodDesc":{"ru":"Притягивает ток.","de":"Zieht Strom an."}
+  ,"AbilitySereneGrace":{"ru":"БЛАГОДАТЬ","de":"EDELMUT"},"AbilitySereneGraceDesc":{"ru":"Усиливает доп. эффекты.","de":"Verstärkt Nebeneffekte."}
+  ,"AbilitySwiftSwim":{"ru":"БЫСТРОЕ ПЛАВ.","de":"WASSERTEMPO"},"AbilitySwiftSwimDesc":{"ru":"Быстрее под дождём.","de":"Mehr Tempo bei Regen."}
+  ,"AbilityIlluminate":{"ru":"СВЕЧЕНИЕ","de":"ERLEUCHTUNG"},"AbilityIlluminateDesc":{"ru":"Привлекает диких покемонов.","de":"Mehr wilde Begegnungen."}
+  ,"AbilityTrace":{"ru":"КОПИРОВАНИЕ","de":"FÄHRTE"},"AbilityTraceDesc":{"ru":"Копирует навык.","de":"Kopiert die Fähigkeit."}
+  ,"AbilityHugePower":{"ru":"ОГРОМНАЯ СИЛА","de":"KRAFTKOLOSS"},"AbilityHugePowerDesc":{"ru":"Повышает атаку.","de":"Steigert Angriff."}
+  ,"AbilityMagmaArmor":{"ru":"МАГМА-БРОНЯ","de":"MAGMAPANZER"},"AbilityMagmaArmorDesc":{"ru":"Защищает от заморозки.","de":"Verhindert Einfrieren."}
+  ,"AbilityWaterVeil":{"ru":"ВОДНАЯ ВУАЛЬ","de":"AQUAHÜLLE"},"AbilityWaterVeilDesc":{"ru":"Защищает от ожога.","de":"Verhindert Verbrennung."}
+  ,"AbilityMagnetPull":{"ru":"МАГНИТ","de":"MAGNETFALLE"},"AbilityMagnetPullDesc":{"ru":"Не даёт стали сбежать.","de":"Fängt Stahl."}
+  ,"AbilitySoundproof":{"ru":"ШУМОИЗОЛЯЦИЯ","de":"LÄRMSCHUTZ"},"AbilitySoundproofDesc":{"ru":"Даёт иммунитет к звуку.","de":"Immun gegen Lärm."}
+  ,"AbilityRainDish":{"ru":"ДОЖДЕВИК","de":"REGENGENUSS"},"AbilityRainDishDesc":{"ru":"Восстанавливает ОЗ под дождём.","de":"Heilt KP bei Regen."}
+  ,"AbilitySandStream":{"ru":"ПЕСЧАНЫЙ ПОТОК","de":"SANDSTURM"},"AbilitySandStreamDesc":{"ru":"Вызывает песчаную бурю.","de":"Erzeugt Sandsturm."}
+  ,"AbilityPressure":{"ru":"ДАВЛЕНИЕ","de":"ERZWINGER"},"AbilityPressureDesc":{"ru":"Враг тратит больше ОД.","de":"Mehr AP-Verbrauch."}
+  ,"AbilityThickFat":{"ru":"ТОЛСТЫЙ ЖИР","de":"SPECKSCHICHT"},"AbilityThickFatDesc":{"ru":"Ослабляет огонь и лёд.","de":"Dämpft Feuer und Eis."}
+  ,"AbilityEarlyBird":{"ru":"РАННЯЯ ПТИЦА","de":"FRÜHWECKER"},"AbilityEarlyBirdDesc":{"ru":"Ускоряет пробуждение.","de":"Wacht rasch auf."}
+  ,"AbilityFlameBody":{"ru":"ОГНЕННОЕ ТЕЛО","de":"FLAMMKÖRPER"},"AbilityFlameBodyDesc":{"ru":"Обжигает при касании.","de":"Verbrennt bei Berührung."}
+  ,"AbilityHyperCutter":{"ru":"ГИПЕРРЕЗАК","de":"SCHERENMACHT"},"AbilityHyperCutterDesc":{"ru":"Атаку нельзя снизить.","de":"Angriff kann nicht sinken."}
+  ,"AbilityTruant":{"ru":"ЛЕНЬ","de":"SCHNARCHNASE"},"AbilityTruantDesc":{"ru":"Действует через ход.","de":"Handelt nur jeden 2. Zug."}
+  ,"AbilityHustle":{"ru":"РВЕНИЕ","de":"ÜBEREIFER"},"AbilityHustleDesc":{"ru":"Сила выше, точность ниже.","de":"Kraft hoch, Treffer tief."}
+  ,"AbilityPlus":{"ru":"ПЛЮС","de":"PLUS"},"AbilityPlusDesc":{"ru":"Сильнее рядом с Минусом.","de":"Stärker mit MINUS."}
+  ,"AbilityMinus":{"ru":"МИНУС","de":"MINUS"},"AbilityMinusDesc":{"ru":"Сильнее рядом с Плюсом.","de":"Stärker mit PLUS."}
+  ,"AbilityForecast":{"ru":"ПРОГНОЗ","de":"PROGNOSE"},"AbilityForecastDesc":{"ru":"Меняет форму из-за погоды.","de":"Form folgt dem Wetter."}
+  ,"AbilityStickyHold":{"ru":"ЛИПКАЯ ХВАТКА","de":"WERTEHALTER"},"AbilityStickyHoldDesc":{"ru":"Защищает предмет от кражи.","de":"Schützt das Item."}
+  ,"AbilityMarvelScale":{"ru":"ЧУДО-ЧЕШУЯ","de":"NOTSCHUTZ"},"AbilityMarvelScaleDesc":{"ru":"Защита выше при статусе.","de":"Mehr Vert. bei Status."}
+  ,"AbilityLiquidOoze":{"ru":"ЖИДКИЙ ИЛ","de":"KLOAKENSOSSE"},"AbilityLiquidOozeDesc":{"ru":"Истощение ранит врага.","de":"Saugen schadet."}
+  ,"AbilityRockHead":{"ru":"КАМЕННАЯ ГОЛОВА","de":"STEINHAUPT"},"AbilityRockHeadDesc":{"ru":"Защищает от отдачи.","de":"Verhindert Rückstoß."}
+  ,"AbilityDrought":{"ru":"ЗАСУХА","de":"DÜRRE"},"AbilityDroughtDesc":{"ru":"Вызывает солнце в бою.","de":"Ruft Sonne im Kampf."}
+  ,"AbilityWhiteSmoke":{"ru":"БЕЛЫЙ ДЫМ","de":"PULVERRAUCH"},"AbilityWhiteSmokeDesc":{"ru":"Характеристики нельзя снизить.","de":"Werte können nicht sinken."}
+  ,"AbilityPurePower":{"ru":"ЧИСТАЯ СИЛА","de":"MENTALKRAFT"},"AbilityPurePowerDesc":{"ru":"Повышает атаку.","de":"Steigert Angriff."}
+  ,"AbilityShellArmor":{"ru":"БРОНЕПАНЦИРЬ","de":"PANZERHAUT"},"AbilityShellArmorDesc":{"ru":"Нет критических атак.","de":"Keine Volltreffer."}
+  ,"AbilityCacophony":{"ru":"КАКОФОНИЯ","de":"KAKOPHONY"},"AbilityCacophonyDesc":{"ru":"Даёт иммунитет к звуку.","de":"Immun gegen Lärm."}
+  ,"AbilityAirLock":{"ru":"ВОЗДУШНЫЙ ЗАМОК","de":"KLIMASCHUTZ"},"AbilityAirLockDesc":{"ru":"Убирает эффекты погоды.","de":"Stoppt Wetter."}
   }

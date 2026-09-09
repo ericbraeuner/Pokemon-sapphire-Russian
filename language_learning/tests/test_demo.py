@@ -227,7 +227,7 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(2, summary.count('SummaryCopyItemName(itemId, gStringVar1);'))
         self.assertEqual(3, summary.count('SummaryLearnerText(gMoveNames[move])'))
         self.assertEqual(25, summary.count('case NATURE_'))
-        self.assertEqual(50, summary.count('case ABILITY_'))
+        self.assertEqual(154, summary.count('case ABILITY_'))
         self.assertEqual(3, summary.count('SummaryMapName(locationMet, gStringVar1)'))
         pokemon_menu = (demo.ROOT / 'src/pokemon_menu.c').read_text(encoding='utf-8')
         self.assertIn('Learner_Translate(menuActions[order[i]].text)', pokemon_menu)
@@ -245,7 +245,7 @@ class LessonTests(unittest.TestCase):
         ui_entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         abilities = [name for name in ui_entries
                      if name.startswith('Ability') and not name.endswith('Desc')]
-        self.assertEqual(25, len(abilities))
+        self.assertEqual(77, len(abilities))
         for name in abilities:
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs),
                                          ('de', self.latin, {})]:

@@ -113,3 +113,15 @@
   hands-on QA pass; it should use a disposable copy of the player's save.
 - ROMs, ELF/map files, generated assembly, objects, screenshots, and saves remain
   ignored local outputs and must not enter the source commit.
+
+## Stock-isolation follow-up — 2026-09-09
+
+- Moved the Options screen's translated-text buffer wholly behind `LEARNER_DEMO`.
+  The ordinary build again uses the original 15-byte local buffer and draw path.
+- Preserved both original held-item name paths in the ordinary summary screen while
+  keeping their shared learner translation path in Russian and German.
+- Added source-level regression checks for both isolation boundaries.
+- All 43 language-learning tests and the learner build pass. `make
+  compare_sapphire` now succeeds against stock SHA-1
+  `3ccbbd45f8553c36463f13b938e833f652b793e4`.
+- `PHASE3_QA_CHECKLIST.md` defines the remaining disposable-save emulator matrix.

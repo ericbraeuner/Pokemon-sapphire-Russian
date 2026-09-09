@@ -182,3 +182,15 @@
   shortened or reflowed 16 German messages it identified, including Safari,
   Wally, weather, move-forgetting and ability text. This prevents those known
   strings from reaching a ROM wider than the message area.
+
+## Shared move-name expansion — 2026-09-09
+
+- Expanded the reusable bilingual move catalogue from 21 to 62 moves, covering
+  the early universal physical, punch, kick, sound, trapping and status moves.
+- Kept the German labels aligned with established German move terminology while
+  shortening labels where Sapphire's 72-pixel battle field requires it. Russian
+  names use compact, readable equivalents under the same limit.
+- Battle messages, party screens and summary pages all reuse this catalogue, so
+  these names no longer need separate translations in each interface.
+- Added regression coverage for the catalogue size, representative move hooks
+  and the existing per-language width validation.

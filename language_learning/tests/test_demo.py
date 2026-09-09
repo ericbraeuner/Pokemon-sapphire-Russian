@@ -254,6 +254,12 @@ class LessonTests(unittest.TestCase):
         parts, table = battle.generate(self.russian, self.latin)
         self.assertTrue(parts)
         self.assertTrue(any('gMoveNames + 13 * MOVE_SCRATCH' in row for row in table))
+        names = validate.load(demo.ROOT / 'language_learning/battle_names.json')
+        moves = {key for key in names if key.startswith('MOVE_')}
+        self.assertGreaterEqual(len(moves), 62)
+        for move in ('MOVE_CUT', 'MOVE_FLY', 'MOVE_HEADBUTT', 'MOVE_DISABLE'):
+            self.assertIn(move, moves)
+            self.assertTrue(any(f'gMoveNames + 13 * {move}' in row for row in table))
         code = (demo.ROOT / 'src/battle_message.c').read_text(encoding='utf-8')
         self.assertIn('src = LEARNER_BATTLE(src);', code)
         self.assertIn('toCpy = LEARNER_BATTLE(toCpy);', code)

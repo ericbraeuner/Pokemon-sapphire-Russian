@@ -203,6 +203,30 @@
     },
     "max_width": 192
   },
+  "gOtherText_Coins3": {
+    "ru": "Монеты:\\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}",
+    "de": "Münzen:\\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}",
+    "widths": {
+      "STR_VAR_1": 48
+    },
+    "max_width": 192
+  },
+  "gOtherText_ContainsMove": {
+    "ru": "Внутри:\\n{STR_VAR_1}.\\pОбучить покемона\\nприёму {STR_VAR_1}?",
+    "de": "Enthält:\\n{STR_VAR_1}.\\pEinem Pokémon\\n{STR_VAR_1} beibringen?",
+    "widths": {
+      "STR_VAR_1": 80
+    },
+    "max_width": 192
+  },
+  "gOtherText_SnapConfusion": {
+    "ru": "Замешательство\\n{STR_VAR_1} прошло.{PAUSE_UNTIL_PRESS}",
+    "de": "{STR_VAR_1} ist nicht\\nmehr verwirrt.{PAUSE_UNTIL_PRESS}",
+    "widths": {
+      "STR_VAR_1": 80
+    },
+    "max_width": 192
+  },
   "OtherText_DoWhat": {
     "ru": "Что сделать с {STR_VAR_1}?",
     "de": "Was tun mit {STR_VAR_1}?",

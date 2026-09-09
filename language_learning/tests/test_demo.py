@@ -273,6 +273,9 @@ class LessonTests(unittest.TestCase):
         for symbol in ('gOtherText_Player', 'gOtherText_Badges',
                        'gOtherText_Pokedex', 'gOtherText_PlayTime'):
             self.assertIn(f'SaveLearnerText({symbol})', save)
+        for symbol in ('gOtherText_Walk', 'gOtherText_Check',
+                       'gOtherText_BootedTM', 'gOtherText_BootedHM'):
+            self.assertIn(symbol, entries)
         self.assertGreaterEqual(bag.count('BagLearnerText(sItemPopupMenuActions['), 4)
         self.assertGreaterEqual(bag.count('Menu_PrintText(BagLearnerText(text)'), 2)
 
@@ -372,7 +375,9 @@ class LessonTests(unittest.TestCase):
     def test_shared_item_messages_preserve_runtime_fields(self):
         entries = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         expected = {'Text_ObtainedTheItem': [3], 'Text_FoundOneItem': [1, 3],
-                    'Text_PutItemInPocket': [3, 4], 'gOtherText_SoldItem': [2, 3]}
+                    'Text_PutItemInPocket': [3, 4], 'gOtherText_SoldItem': [2, 3],
+                    'gOtherText_Coins3': [2], 'gOtherText_ContainsMove': [2],
+                    'gOtherText_SnapConfusion': [2]}
         exports = (demo.ROOT / 'data/text/obtain_item.inc').read_text()
         for symbol, tokens in expected.items():
             entry = entries[symbol]

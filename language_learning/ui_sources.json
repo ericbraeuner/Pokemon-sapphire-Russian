@@ -665,6 +665,30 @@
     "width": 18,
     "lines": 1
   },
+  "gOtherText_Walk": {
+    "ru": "Пешком",
+    "de": "Laufen",
+    "width": 48,
+    "lines": 1
+  },
+  "gOtherText_Check": {
+    "ru": "Проверить",
+    "de": "Prüfen",
+    "width": 72,
+    "lines": 1
+  },
+  "gOtherText_BootedTM": {
+    "ru": "Запущена TM.",
+    "de": "TM gestartet.",
+    "width": 192,
+    "lines": 2
+  },
+  "gOtherText_BootedHM": {
+    "ru": "Запущена HM.",
+    "de": "VM gestartet.",
+    "width": 192,
+    "lines": 2
+  },
   "gOtherText_Player": {
     "ru": "Имя",
     "de": "Name",

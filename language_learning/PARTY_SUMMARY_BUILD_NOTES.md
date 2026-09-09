@@ -46,3 +46,12 @@
   Register, Check, Confirm, and Cancel could still appear in English.
 - Added an automated test that guards all 21 Options entries, the four save labels,
   and the previously missed Bag action paths. Both learner and stock builds pass.
+
+## Item-use follow-up — 2026-09-09
+
+- Added reusable Russian and German labels for walking, checking an item, and
+  starting TM/HM machines.
+- Added bounded templates for the Coin Case total, TM/HM move-teaching question,
+  and recovery from confusion. Runtime coin totals, move names, and Pokémon names
+  remain intact in both languages.
+- Expanded the automated placeholder checks to cover these item-use messages.

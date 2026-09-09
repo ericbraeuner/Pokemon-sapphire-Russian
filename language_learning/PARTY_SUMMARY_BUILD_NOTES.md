@@ -157,3 +157,6 @@
   trainer, rival and later battles.
 - Kept Pokémon, move, item and stat names as runtime placeholders so the same
   translations work throughout the game instead of baking in early-game examples.
+- Added a second group of 36 templates for disabled moves, Encore, attraction,
+  recoil, protection, Safeguard, Mist, sun, rain, sandstorm, hail and Spikes,
+  bringing shared battle coverage to 200 templates.

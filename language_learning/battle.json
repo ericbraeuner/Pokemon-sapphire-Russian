@@ -439,4 +439,40 @@
   ,"BattleText_AlreadyPoisoned":{"ru":"{DEFENDING_MON} уже\\nотравлен.","de":"{DEFENDING_MON} ist bereits\\nvergiftet."}
   ,"BattleText_AttackingStatNoHigher":{"ru":"{STRING 0} {ATTACKING_MON}\\nбольше не повысить!","de":"{STRING 0} von {ATTACKING_MON}\\nsteigt nicht weiter!"}
   ,"BattleText_DefendingStatNoHigher":{"ru":"{STRING 0} {DEFENDING_MON}\\nбольше не понизить!","de":"{STRING 0} von {DEFENDING_MON}\\nsinkt nicht weiter!"}
+  ,"BattleText_EvadedAttack":{"ru":"{DEFENDING_MON} избегает\\nатаки!","de":"{DEFENDING_MON} entgeht\\ndem Angriff!"}
+  ,"BattleText_MoveIsDisabled":{"ru":"Приём {STRING 17}\\nу {STRING 15} отключён!\\p","de":"{STRING 17} von {STRING 15}\\nist blockiert!\\p"}
+  ,"BattleText_MoveWasDisabled":{"ru":"Приём {STRING 0} у\\n{DEFENDING_MON} отключён!","de":"{STRING 0} von {DEFENDING_MON}\\nwurde blockiert!"}
+  ,"BattleText_DisabledNoMore":{"ru":"Приёмы {ATTACKING_MON}\\nснова доступны!","de":"{ATTACKING_MON} ist nicht\\nmehr blockiert!"}
+  ,"BattleText_EncoreGot":{"ru":"{DEFENDING_MON} вынужден\\nповторять приём!","de":"{DEFENDING_MON} muss die\\nAttacke wiederholen!"}
+  ,"BattleText_EncoreEnded":{"ru":"Повтор приёма\\nу {ATTACKING_MON} окончен!","de":"Die Zugabe von\\n{ATTACKING_MON} endet!"}
+  ,"BattleText_Defrosted":{"ru":"{STRING 17} размораживает\\n{ATTACKING_MON}!","de":"{STRING 17} taut\\n{ATTACKING_MON} auf!"}
+  ,"BattleText_FellLove":{"ru":"{DEFENDING_MON}\\nвлюбляется!","de":"{DEFENDING_MON} hat sich\\nverliebt!"}
+  ,"BattleText_InLoveWith":{"ru":"{ATTACKING_MON} влюблён\\nв {STRING 16}!","de":"{ATTACKING_MON} ist in\\n{STRING 16} verliebt!"}
+  ,"BattleText_HitRecoil":{"ru":"{ATTACKING_MON} страдает\\nот отдачи!","de":"{ATTACKING_MON} erleidet\\nRückstoß!"}
+  ,"BattleText_KnockedOffItem":{"ru":"{ATTACKING_MON} сбивает\\n{STRING 19} у {DEFENDING_MON}!","de":"{ATTACKING_MON} schlägt\\n{STRING 19} von {DEFENDING_MON} weg!"}
+  ,"BattleText_LostFocus":{"ru":"{ATTACKING_MON} теряет\\nсосредоточенность!","de":"{ATTACKING_MON} verliert\\ndie Konzentration!"}
+  ,"BattleText_ProtectedItself":{"ru":"{DEFENDING_MON}\\nзащищается!","de":"{DEFENDING_MON}\\nschützt sich!"}
+  ,"BattleText_ProtectedBy":{"ru":"{STRING 22} защищает\\n{DEFENDING_MON}!","de":"{STRING 22} schützt\\n{DEFENDING_MON}!"}
+  ,"BattleText_SafeguardActive":{"ru":"Завеса защищает\\n{DEFENDING_MON}!","de":"Bodyguard schützt\\n{DEFENDING_MON}!"}
+  ,"BattleText_SafeguardFaded":{"ru":"Завеса команды\\n{STRING 40} исчезает!","de":"Bodyguard von {STRING 40}\\nverschwindet!"}
+  ,"BattleText_MistShroud":{"ru":"Команду {STRING 38}\\nокутывает туман!","de":"Weißnebel umhüllt\\n{STRING 38}!"}
+  ,"BattleText_MistProtect":{"ru":"Туман защищает\\n{STRING 16}!","de":"Weißnebel schützt\\n{STRING 16}!"}
+  ,"BattleText_SandBrewed":{"ru":"Начинается песчаная буря!","de":"Ein Sandsturm kommt auf!"}
+  ,"BattleText_SandBuffeted":{"ru":"Песчаная буря бьёт\\n{ATTACKING_MON}!","de":"Sandsturm trifft\\n{ATTACKING_MON}!"}
+  ,"BattleText_SandRages":{"ru":"Песчаная буря бушует.","de":"Der Sandsturm wütet."}
+  ,"BattleText_SandSubsided":{"ru":"Песчаная буря стихает.","de":"Der Sandsturm legt sich."}
+  ,"BattleText_SunBright":{"ru":"Солнечный свет усиливается!","de":"Das Sonnenlicht wird stärker!"}
+  ,"BattleText_SunFaded":{"ru":"Солнечный свет меркнет.","de":"Das Sonnenlicht verblasst."}
+  ,"BattleText_SunIntensified":{"ru":"{STRING 23} {STRING 16}\\nусиливает солнце!","de":"{STRING 23} von {STRING 16}\\nverstärkt die Sonne!"}
+  ,"BattleText_SunStrong":{"ru":"Солнечный свет силён.","de":"Das Sonnenlicht ist stark."}
+  ,"BattleText_RainStart":{"ru":"Начинается дождь!","de":"Es beginnt zu regnen!"}
+  ,"BattleText_RainCont1":{"ru":"Дождь продолжается.","de":"Der Regen hält an."}
+  ,"BattleText_RainStop":{"ru":"Дождь прекращается.","de":"Der Regen hört auf."}
+  ,"BattleText_HailStart":{"ru":"Начинается град!","de":"Es beginnt zu hageln!"}
+  ,"BattleText_HailCont":{"ru":"Град продолжается.","de":"Der Hagel hält an."}
+  ,"BattleText_HailStop":{"ru":"Град прекращается.","de":"Der Hagel hört auf."}
+  ,"BattleText_HailStricken":{"ru":"Град бьёт\\n{ATTACKING_MON}!","de":"Hagel trifft\\n{ATTACKING_MON}!"}
+  ,"BattleText_SpikesHurt":{"ru":"Шипы ранят\\n{STRING 16}!","de":"Stachler verletzen\\n{STRING 16}!"}
+  ,"BattleText_SpikesScattered":{"ru":"Вокруг команды {STRING 37}\\nрассыпаны шипы!","de":"Um das Team von {STRING 37}\\nliegen Stacheln!"}
+  ,"BattleText_SpikesBlownAway":{"ru":"{ATTACKING_MON} сдувает\\nшипы!","de":"{ATTACKING_MON} bläst\\ndie Stachler weg!"}
 }

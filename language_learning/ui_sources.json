@@ -689,6 +689,36 @@
     "width": 192,
     "lines": 2
   },
+  "gSystemText_SaveErrorExchangeBackup": {
+    "ru": "Ошибка сохранения. Проверь память сохранения.",
+    "de": "Speicherfehler. Bitte Speichermedium prüfen.",
+    "width": 192,
+    "lines": 3
+  },
+  "gSystemText_Saving": {
+    "ru": "Сохранение... Не выключай питание!",
+    "de": "Speichern... Nicht ausschalten!",
+    "width": 192,
+    "lines": 2
+  },
+  "gDexText_UnknownPoke": {
+    "ru": "????? Покемон",
+    "de": "????? Pokémon",
+    "width": 120,
+    "lines": 1
+  },
+  "gDexText_UnknownHeight": {
+    "ru": "?????",
+    "de": "?????",
+    "width": 56,
+    "lines": 1
+  },
+  "gDexText_UnknownWeight": {
+    "ru": "?????",
+    "de": "?????",
+    "width": 56,
+    "lines": 1
+  },
   "gOtherText_Player": {
     "ru": "Имя",
     "de": "Name",

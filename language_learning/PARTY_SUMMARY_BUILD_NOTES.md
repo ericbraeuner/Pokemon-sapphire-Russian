@@ -63,3 +63,14 @@
   names follow the game's existing German terminology.
 - The summary screen keeps the original English tables as its non-learner fallback,
   so ordinary Sapphire builds remain unchanged.
+
+## Save, Safari, and unseen Pokédex states — 2026-09-09
+
+- Added Russian and German emergency-save and full-screen saving messages.
+- The Safari Zone stock window now preserves and displays the live ball count in
+  the selected learner language.
+- Unknown Pokédex species, height, and weight placeholders no longer expose English
+  words or imperial-unit fragments before the Pokémon has been identified.
+- Latin A–Z search ranges remain unchanged because Sapphire's search engine still
+  groups entries by their internal international names; relabeling those ranges as
+  Cyrillic would make the visible filter inaccurate.

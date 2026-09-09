@@ -276,6 +276,10 @@ class LessonTests(unittest.TestCase):
         for symbol in ('gOtherText_Walk', 'gOtherText_Check',
                        'gOtherText_BootedTM', 'gOtherText_BootedHM'):
             self.assertIn(symbol, entries)
+        for symbol in ('gSystemText_SaveErrorExchangeBackup', 'gSystemText_Saving',
+                       'gDexText_UnknownPoke', 'gDexText_UnknownHeight',
+                       'gDexText_UnknownWeight'):
+            self.assertIn(symbol, entries)
         self.assertGreaterEqual(bag.count('BagLearnerText(sItemPopupMenuActions['), 4)
         self.assertGreaterEqual(bag.count('Menu_PrintText(BagLearnerText(text)'), 2)
 
@@ -377,7 +381,7 @@ class LessonTests(unittest.TestCase):
         expected = {'Text_ObtainedTheItem': [3], 'Text_FoundOneItem': [1, 3],
                     'Text_PutItemInPocket': [3, 4], 'gOtherText_SoldItem': [2, 3],
                     'gOtherText_Coins3': [2], 'gOtherText_ContainsMove': [2],
-                    'gOtherText_SnapConfusion': [2]}
+                    'gOtherText_SnapConfusion': [2], 'gOtherText_SafariStock': [2]}
         exports = (demo.ROOT / 'data/text/obtain_item.inc').read_text()
         for symbol, tokens in expected.items():
             entry = entries[symbol]

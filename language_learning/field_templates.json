@@ -203,6 +203,14 @@
     },
     "max_width": 192
   },
+  "gOtherText_SafariStock": {
+    "ru": "Сафари\\nМячи: {STR_VAR_1}",
+    "de": "Safari\\nBälle: {STR_VAR_1}",
+    "widths": {
+      "STR_VAR_1": 24
+    },
+    "max_width": 80
+  },
   "gOtherText_Coins3": {
     "ru": "Монеты:\\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}",
     "de": "Münzen:\\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}",

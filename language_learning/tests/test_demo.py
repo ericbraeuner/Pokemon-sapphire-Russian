@@ -197,6 +197,25 @@ class LessonTests(unittest.TestCase):
         for tag in ('ru', 'de'):
             self.assertIn('{STRING 17}', entries['BattleText_OpponentUsedMove'][tag])
 
+    def test_extended_shared_battle_flows_are_bilingual(self):
+        entries = validate.load(demo.ROOT / 'language_learning/battle.json')
+        self.assertGreaterEqual(len(entries), 133)
+        expected = (
+            'BattleText_WildDoubleAppeared', 'BattleText_DoubleWantToBattle',
+            'BattleText_SentOutDouble1', 'BattleText_WithdrewPoke1',
+            'BattleText_GiveNickname', 'BattleText_SentToPC',
+            'BattleText_AddedToDex', 'BattleText_CuredParalysis',
+            'BattleText_RestoredHealth', 'BattleText_StartEvo',
+            'BattleText_FinishEvo', 'BattleText_StopEvo',
+        )
+        for symbol in expected:
+            self.assertEqual({'ru', 'de'}, set(entries[symbol]))
+        for tag, mapping, font in (('ru', self.russian, 0), ('de', self.latin, 3)):
+            fled = battle.encode(entries['BattleText_FledSingle'][tag], mapping, font)
+            self.assertIn(bytes(battle.TOKENS['FLEE']), bytes(fled))
+            caught = battle.encode(entries['BattleText_AddedToDex'][tag], mapping, font)
+            self.assertIn(bytes([0xFD, 3]), bytes(caught))
+
     def test_briefcase_nickname_and_pause_labels_are_registered(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
         for name in ('OtherText_PokeName', 'gOtherText_BirchInTrouble', 'SystemText_Save', 'SystemText_BAG'):

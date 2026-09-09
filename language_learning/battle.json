@@ -360,4 +360,52 @@
     "ru": "{FLEE}Удалось сбежать!\\p",
     "de": "{FLEE}Flucht gelungen!\\p"
   }
+  ,"BattleText_WildDoubleAppeared":{"ru":"Дикие {STRING 5} и\\n{STRING 3}!\\p","de":"Wilde {STRING 5} und\\n{STRING 3}!\\p"}
+  ,"BattleText_DoubleWantToBattle":{"ru":"{STRING 29} и {STRING 30}\\nвызывают на бой!","de":"{STRING 29} und {STRING 30}\\nwollen kämpfen!"}
+  ,"BattleText_SentOutDouble1":{"ru":"{STRING 25} {STRING 26}\\nвыбирает {STRING 3} и {STRING 5}!","de":"{STRING 25} {STRING 26} schickt\\n{STRING 3} und {STRING 5}!"}
+  ,"BattleText_SentOutDouble2":{"ru":"{STRING 29} выбирает\\n{STRING 3} и {STRING 5}!","de":"{STRING 29} schickt\\n{STRING 3} und {STRING 5}!"}
+  ,"BattleText_SentOutDouble3":{"ru":"{STRING 29}: {STRING 7}!\\p{STRING 30}: {STRING 9}!","de":"{STRING 29}: {STRING 7}!\\p{STRING 30}: {STRING 9}!"}
+  ,"BattleText_SentOutDouble4":{"ru":"Вперёд, {STRING 2} и\\n{STRING 4}!","de":"Los, {STRING 2} und\\n{STRING 4}!"}
+  ,"BattleText_SentOutSingle11":{"ru":"{STRING 28}: {STRING 8}!\\pВперёд, {STRING 6}!","de":"{STRING 28}: {STRING 8}!\\pLos, {STRING 6}!"}
+  ,"BattleText_WithdrewPoke1":{"ru":"{STRING 25} {STRING 26}\\nотзывает {STRING 0}!","de":"{STRING 25} {STRING 26} ruft\\n{STRING 0} zurück!"}
+  ,"BattleText_WithdrewPoke2":{"ru":"{STRING 29} отзывает\\n{STRING 0}!","de":"{STRING 29} ruft\\n{STRING 0} zurück!"}
+  ,"BattleText_WithdrewPoke3":{"ru":"{STRING 31} отзывает\\n{STRING 0}!","de":"{STRING 31} ruft\\n{STRING 0} zurück!"}
+  ,"BattleText_PlayerDefeatedTrainers":{"ru":"Игрок побеждает\\n{STRING 30} и {STRING 29}!","de":"Spieler besiegt\\n{STRING 30} und {STRING 29}!"}
+  ,"BattleText_PlayerLostTrainer":{"ru":"Игрок проигрывает\\n{STRING 29}!","de":"Spieler verliert gegen\\n{STRING 29}!"}
+  ,"BattleText_PlayerLostTrainers":{"ru":"Игрок проигрывает\\n{STRING 30} и {STRING 29}!","de":"Spieler verliert gegen\\n{STRING 30} und {STRING 29}!"}
+  ,"BattleText_PlayerTiedTrainer":{"ru":"Ничья с\\n{STRING 29}!","de":"Unentschieden gegen\\n{STRING 29}!"}
+  ,"BattleText_PlayerTiedTrainers":{"ru":"Ничья с {STRING 30}\\nи {STRING 29}!","de":"Patt mit {STRING 30}\\nund {STRING 29}!"}
+  ,"BattleText_FledSingle":{"ru":"{FLEE}{STRING 29} сбегает!","de":"{FLEE}{STRING 29} flieht!"}
+  ,"BattleText_FledDouble":{"ru":"{FLEE}{STRING 29} и\\n{STRING 30} сбегают!","de":"{FLEE}{STRING 29} und\\n{STRING 30} fliehen!"}
+  ,"BattleText_BlockBall":{"ru":"Тренер отбивает болл!","de":"Der Trainer blockt den Ball!"}
+  ,"BattleText_DontBeAThief":{"ru":"Нельзя красть чужих покемонов!","de":"Stiehl keine fremden Pokémon!"}
+  ,"BattleText_DodgeBall":{"ru":"Покемон увернулся!\\nЕго нельзя поймать!","de":"Pokémon weicht aus!\\nEs ist nicht fangbar!"}
+  ,"BattleText_MissPoke":{"ru":"Промах по покемону!","de":"Pokémon verfehlt!"}
+  ,"BattleText_BallBrokeOhNo":{"ru":"О нет! Покемон вырвался!","de":"Oh nein! Pokémon ist frei!"}
+  ,"BattleText_BallBrokeAppeared":{"ru":"Ох! Почти пойман!","de":"Oh! Fast gefangen!"}
+  ,"BattleText_BallBrokeAlmost":{"ru":"Почти получилось!","de":"Beinahe geschafft!"}
+  ,"BattleText_BallBrokeSoClose":{"ru":"Так близко!","de":"So knapp!"}
+  ,"BattleText_GiveNickname":{"ru":"Дать прозвище\\nпойманному {STRING 3}?","de":"Gefangenem {STRING 3}\\neinen Spitznamen geben?"}
+  ,"BattleText_SentToPC":{"ru":"{STRING 3} отправлен\\nв ПК {STRING 35}.","de":"{STRING 3} wurde an\\n{STRING 35} PC gesendet."}
+  ,"BattleText_AddedToDex":{"ru":"Данные {STRING 3}\\nдобавлены в покедекс.\\p","de":"Daten von {STRING 3}\\nim Pokédex registriert.\\p"}
+  ,"BattleText_Raining":{"ru":"Идёт дождь.","de":"Es regnet."}
+  ,"BattleText_Sandstorm":{"ru":"Бушует песчаная буря.","de":"Ein Sandsturm tobt."}
+  ,"BattleText_BoxFull":{"ru":"Коробка полна!\\nБольше ловить нельзя!\\p","de":"Box ist voll!\\nKein weiterer Fang!\\p"}
+  ,"BattleText_CuredParalysis":{"ru":"{STRING 16}: {STRING 19}\\nснимает паралич!","de":"{STRING 16}: {STRING 19}\\nheilt Paralyse!"}
+  ,"BattleText_CuredPoison":{"ru":"{STRING 16}: {STRING 19}\\nлечит яд!","de":"{STRING 16}: {STRING 19}\\nheilt Vergiftung!"}
+  ,"BattleText_CuredBurn":{"ru":"{STRING 16}: {STRING 19}\\nлечит ожог!","de":"{STRING 16}: {STRING 19}\\nheilt Verbrennung!"}
+  ,"BattleText_CuredFreeze":{"ru":"{STRING 16}: {STRING 19}\\nразмораживает!","de":"{STRING 16}: {STRING 19}\\ntaut es auf!"}
+  ,"BattleText_CuredSleep":{"ru":"{STRING 16}: {STRING 19}\\nбудит его!","de":"{STRING 16}: {STRING 19}\\nweckt es auf!"}
+  ,"BattleText_CuredConfusion":{"ru":"{STRING 16}: {STRING 19}\\nснимает замешательство!","de":"{STRING 16}: {STRING 19}\\nheilt Verwirrung!"}
+  ,"BattleText_CuredStatus":{"ru":"{STRING 16}: {STRING 19}\\nлечит статус {STRING 0}!","de":"{STRING 16}: {STRING 19}\\nheilt {STRING 0}!"}
+  ,"BattleText_NormalizedStatus":{"ru":"{STRING 16}: {STRING 19}\\nнормализует статус!","de":"{STRING 16}: {STRING 19}\\nnormalisiert Status!"}
+  ,"BattleText_RestoredHealth":{"ru":"{STRING 16}: {STRING 19}\\nвосстанавливает ОЗ!","de":"{STRING 16}: {STRING 19}\\nfüllt KP auf!"}
+  ,"BattleText_RestoredPP":{"ru":"{STRING 16}: {STRING 19}\\nвозвращает ОД {STRING 0}!","de":"{STRING 16}: {STRING 19}\\nfüllt AP von {STRING 0}!"}
+  ,"BattleText_RestoredStatus":{"ru":"{STRING 16}: {STRING 19}\\nвосстанавливает статус!","de":"{STRING 16}: {STRING 19}\\nheilt den Status!"}
+  ,"BattleText_RestoredHPLittle":{"ru":"{STRING 16}: {STRING 19}\\nслегка лечит ОЗ!","de":"{STRING 16}: {STRING 19}\\nheilt einige KP!"}
+  ,"BattleText_ChoiceBand":{"ru":"{STRING 19} позволяет\\nтолько {STRING 17}!\\p","de":"{STRING 19} erlaubt nur\\n{STRING 17}!\\p"}
+  ,"BattleText_FocusSash":{"ru":"{DEFENDING_MON} держится\\nблагодаря {STRING 19}!","de":"{DEFENDING_MON} hält dank\\n{STRING 19} durch!"}
+  ,"BattleText_StartEvo":{"ru":"Что? {STRING 2}\\nэволюционирует!","de":"Was? {STRING 2}\\nentwickelt sich!"}
+  ,"BattleText_FinishEvo":{"ru":"Поздравляем! {STRING 2} стал\\n{STRING 3}!{UNKNOWN_A}\\p","de":"Glückwunsch! {STRING 2} wurde\\nzu {STRING 3}!{UNKNOWN_A}\\p"}
+  ,"BattleText_StopEvo":{"ru":"{STRING 2} перестал\\nэволюционировать!\\p","de":"Entwicklung von {STRING 2}\\nwurde gestoppt!\\p"}
 }

@@ -74,3 +74,13 @@
 - Latin A–Z search ranges remain unchanged because Sapphire's search engine still
   groups entries by their internal international names; relabeling those ranges as
   Cyrillic would make the visible filter inaccurate.
+
+## Extended shared battle flows — 2026-09-09
+
+- Expanded the bilingual battle catalogue from 85 to 133 templates.
+- Added double-battle introductions and send-out/withdrawal/results, Poké Ball
+  failure messages, caught-Pokémon nickname/PC/Pokédex follow-up, weather, status
+  cures, held-item recovery, and evolution start/completion/cancellation text.
+- Runtime trainer names, Pokémon names, move names, items, and sound/control tokens
+  remain in their original positions. Automated tests now verify representative
+  placeholders and the flee sound token in both languages.

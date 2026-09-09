@@ -5,7 +5,18 @@ import build_demo as demo
 TOKENS = {'ATTACKING_MON': [0xFD, 12], 'DEFENDING_MON': [0xFD, 13],
           'UNKNOWN_A': [0xFC, 10], 'PAUSE_UNTIL_PRESS': [0xFC, 9],
           'MENU_COLORS': [0xFC, 5, 5, 0xFC, 4, 13, 14, 15],
-          'COLUMN': [0xFC, 19, 46], 'FLEE': [0xFC, 16, 17, 0]}
+          'COLUMN': [0xFC, 19, 46], 'FLEE': [0xFC, 16, 17, 0],
+          'POKEBLOCK': [0x55, 0x56, 0x57, 0x58, 0x59],
+          'PLAY_SE SE_FLEE': [0xFC, 0x10, 0x11, 0],
+          'PLAY_SE SE_DING_DONG': [0xFC, 0x10, 0x49, 0],
+          'PLAY_SE SE_BALL_BOUNCE_1': [0xFC, 0x10, 0x38, 0],
+          'PLAY_BGM MUS_CAUGHT': [0xFC, 0x0B, 0x60, 1],
+          'PALETTE 5': [0xFC, 5, 5],
+          'COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2': [0xFC, 4, 13, 14, 15],
+          'CLEAR_TO 0x2E': [0xFC, 0x13, 0x2E],
+          'HIGHLIGHT RED': [0xFC, 2, 2],
+          'HIGHLIGHT TRANSPARENT': [0xFC, 2, 0],
+          'RIGHT_ARROW': [0x7C]}
 
 def encode(text, mapping, font, fragment=False):
     data = [] if fragment else [0xFC, 22, 0xFC, 6, font]

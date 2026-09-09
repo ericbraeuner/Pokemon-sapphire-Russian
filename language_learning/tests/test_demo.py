@@ -181,6 +181,11 @@ class LessonTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             battle.encode('{STRING 255}', self.latin, 3)
         fragment = battle.encode('Angriff', self.latin, 3, fragment=True)
+        controlled = battle.encode(
+            '{PLAY_SE SE_FLEE}{POKEBLOCK}{PLAY_BGM MUS_CAUGHT}', self.latin, 3)
+        self.assertIn(bytes([0xFC, 0x10, 0x11, 0]), bytes(controlled))
+        self.assertIn(bytes([0x55, 0x56, 0x57, 0x58, 0x59]), bytes(controlled))
+        self.assertIn(bytes([0xFC, 0x0B, 0x60, 1]), bytes(controlled))
         self.assertNotIn(0xFC, fragment)
         self.assertEqual(0xFF, fragment[-1])
 
@@ -259,7 +264,7 @@ class LessonTests(unittest.TestCase):
 
     def test_extended_shared_battle_flows_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/battle.json')
-        self.assertGreaterEqual(len(entries), 367)
+        self.assertGreaterEqual(len(entries), 456)
         expected = (
             'BattleText_WildDoubleAppeared', 'BattleText_DoubleWantToBattle',
             'BattleText_SentOutDouble1', 'BattleText_WithdrewPoke1',
@@ -292,6 +297,10 @@ class LessonTests(unittest.TestCase):
             'BattleText_SwitchedItems', 'BattleText_GrudgeLosePP',
             'BattleText_MagicCoatBounce', 'BattleText_CantUseItems',
             'BattleText_TauntNoUse', 'BattleText_BlocksOther2',
+            'BattleText_MoveForget123', 'BattleText_SafariOver',
+            'BattleText_BallCaught1', 'BattleText_MenuOptionsSafari',
+            'BattleText_ForgetMove', 'BattleText_SafariBalls',
+            'BattleText_Win', 'BattleText_Dark',
         )
         for symbol in expected:
             self.assertEqual({'ru', 'de'}, set(entries[symbol]))
@@ -300,6 +309,24 @@ class LessonTests(unittest.TestCase):
             self.assertIn(bytes(battle.TOKENS['FLEE']), bytes(fled))
             caught = battle.encode(entries['BattleText_AddedToDex'][tag], mapping, font)
             self.assertIn(bytes([0xFD, 3]), bytes(caught))
+
+    def test_battle_catalogue_only_omits_control_and_composition_fragments(self):
+        source = (demo.ROOT / 'src/data/battle_strings_en.h').read_text(encoding='utf-8')
+        symbols = set(re.findall(r'const u8 (Battle(?:Stat)?Text_\w+)\[\]', source))
+        translated = set(validate.load(demo.ROOT / 'language_learning/battle.json'))
+        internal = {
+            'BattleText_UnknownString', 'BattleText_Terminator',
+            'BattleText_Terminator2', 'BattleText_Exclamation',
+            'BattleText_Exclamation2', 'BattleText_Exclamation3',
+            'BattleText_Exclamation4', 'BattleText_Exclamation5',
+            'BattleText_Format', 'BattleText_Format2',
+            'BattleText_RightArrow', 'BattleText_Plus', 'BattleText_Dash',
+            'BattleText_HighlightRed', 'BattleText_Format3',
+            'BattleText_Format4', 'BattleText_Format5', 'BattleText_Format6',
+            'BattleText_Format7', 'BattleText_Format8', 'BattleText_Format9',
+            'BattleText_Format10', 'BattleText_Format11',
+        }
+        self.assertEqual(internal, symbols - translated)
 
     def test_briefcase_nickname_and_pause_labels_are_registered(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')

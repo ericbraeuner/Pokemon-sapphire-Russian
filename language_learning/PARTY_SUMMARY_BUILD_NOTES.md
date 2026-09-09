@@ -172,3 +172,9 @@
 - Added 51 held-item, ability, escape, switching, Wish, Grudge, Taunt, Torment,
   sealing and reflected-move templates. Shared battle coverage now reaches 367
   of 479 engine messages.
+- Extended the battle compiler to preserve native sound, music, Pokéblock,
+  palette, highlight and alignment controls in translated messages.
+- Added the remaining 89 user-visible battle, catching, disobedience, Safari,
+  move-forgetting, status, stat and move-type strings. The catalogue now covers
+  456 of 479 engine symbols; an exhaustive test limits the 23 omissions to empty,
+  punctuation, formatting and internal sentence-composition fragments.

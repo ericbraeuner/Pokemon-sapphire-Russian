@@ -642,4 +642,93 @@
   ,"BattleText_Traced":{"ru":"{STRING 16} копирует\\n{STRING 1} {STRING 0}!","de":"{STRING 16} kopiert\\n{STRING 1} von {STRING 0}!"}
   ,"BattleText_BlocksOther":{"ru":"{STRING 22} {DEFENDING_MON}\\nблокирует {STRING 17}!","de":"{STRING 22} von {DEFENDING_MON}\\nblockiert {STRING 17}!"}
   ,"BattleText_BlocksOther2":{"ru":"{STRING 23} {STRING 16}\\nблокирует {STRING 17}!","de":"{STRING 23} von {STRING 16}\\nblockiert {STRING 17}!"}
+  ,"BattleText_UnknownString2":{"ru":"Для {STRING 16}:\\n{STRING 19} {STRING 0}","de":"Für {STRING 16}:\\n{STRING 19} {STRING 0}"}
+  ,"BattleText_WhipSandstorm":{"ru":"{STRING 23} {STRING 16}\\nвызывает песчаную бурю!","de":"{STRING 23} von {STRING 16}\\nentfacht einen Sandsturm!"}
+  ,"BattleText_InfatuatedPoke":{"ru":"{STRING 22} {DEFENDING_MON}\\nвлюбляет {ATTACKING_MON}!","de":"{STRING 22} von {DEFENDING_MON}\\nverliebt {ATTACKING_MON}!"}
+  ,"BattleText_CuredProblem":{"ru":"{STRING 23} {STRING 16}\\nлечит {STRING 0}!","de":"{STRING 23} von {STRING 16}\\nheilt {STRING 0}!"}
+  ,"BattleText_OozeSuckup":{"ru":"Всасывается жидкий ил!","de":"Der Flüssigschlamm\\nwird aufgesaugt!"}
+  ,"BattleText_TookAttack2":{"ru":"{STRING 22} {DEFENDING_MON}\\nпринимает атаку!","de":"{STRING 22} von {DEFENDING_MON}\\nfängt den Angriff ab!"}
+  ,"BattleText_CuredOfProblem":{"ru":"{STRING 23} {STRING 16}\\nлечит {STRING 0}!","de":"{STRING 23} von {STRING 16}\\nheilt {STRING 0}!"}
+  ,"BattleText_UnknownString4":{"ru":"С помощью {STRING 19} {STRING 0}\\n{STRING 16} {STRING 1}","de":"Mit {STRING 19}: {STRING 0}\\nvon {STRING 16} {STRING 1}"}
+  ,"BattleText_GrandSlam":{"ru":"Нокаут с одного удара!","de":"K.O. mit einem Treffer!"}
+  ,"BattleText_MoveForget123":{"ru":"{PAUSE 32}Раз, {PAUSE 15}два и...{PAUSE 15} ...{PAUSE 15} ...{PAUSE 15}\\n{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Пуф!\\p","de":"{PAUSE 32}Eins, {PAUSE 15}zwei und...{PAUSE 15} ...{PAUSE 15} ...{PAUSE 15}\\n{PAUSE 15}{PLAY_SE SE_BALL_BOUNCE_1}Puff!\\p"}
+  ,"BattleText_MoveForgetAnd":{"ru":"И...\\p","de":"Und...\\p"}
+  ,"BattleText_CantForgetHM":{"ru":"Сейчас нельзя забыть\\nприём СМ.\\p","de":"VM-Attacken können jetzt\\nnicht vergessen werden.\\p"}
+  ,"BattleText_FledUsingItem":{"ru":"{PLAY_SE SE_FLEE}{STRING 19} помогает\\n{ATTACKING_MON} сбежать!\\p","de":"{PLAY_SE SE_FLEE}{ATTACKING_MON} flieht mit\\n{STRING 19}!\\p"}
+  ,"BattleText_FledUsingOther":{"ru":"{PLAY_SE SE_FLEE}{ATTACKING_MON} сбегает\\nс помощью {STRING 21}!\\p","de":"{PLAY_SE SE_FLEE}{ATTACKING_MON} flieht mit\\n{STRING 21}!\\p"}
+  ,"BattleText_FledWild":{"ru":"{PLAY_SE SE_FLEE}Дикий {STRING 0} сбегает!","de":"{PLAY_SE SE_FLEE}Wildes {STRING 0} flieht!"}
+  ,"BattleText_MirrorFail":{"ru":"Зеркальный приём не сработал!","de":"Spiegeltrick schlägt fehl!"}
+  ,"BattleText_PourStart":{"ru":"Начинается ливень!","de":"Ein Wolkenbruch beginnt!"}
+  ,"BattleText_PourCont":{"ru":"Ливень продолжается.","de":"Der Wolkenbruch hält an."}
+  ,"BattleText_WindHeatWave":{"ru":"Ветер превращается\\nв жаркую волну!","de":"Der Wind wird zu\\neiner Hitzewelle!"}
+  ,"BattleText_CoinScatter":{"ru":"Монеты разлетаются повсюду!","de":"Münzen fliegen überallhin!"}
+  ,"BattleText_BellChime":{"ru":"Звенит колокол!","de":"Eine Glocke läutet!"}
+  ,"BattleText_IgnoredOrdersSLP":{"ru":"Спящий {ATTACKING_MON}\\nне слушает приказ!","de":"{ATTACKING_MON} ignoriert\\nim Schlaf den Befehl!"}
+  ,"BattleText_IgnoredOrders":{"ru":"{ATTACKING_MON} не слушает\\nприказ!","de":"{ATTACKING_MON} ignoriert\\nden Befehl!"}
+  ,"BattleText_LoafingAround":{"ru":"{ATTACKING_MON} бездельничает!","de":"{ATTACKING_MON} faulenzt!"}
+  ,"BattleText_WontObey":{"ru":"{ATTACKING_MON} не слушается!","de":"{ATTACKING_MON} gehorcht nicht!"}
+  ,"BattleText_TurnedAway":{"ru":"{ATTACKING_MON} отворачивается!","de":"{ATTACKING_MON} wendet sich ab!"}
+  ,"BattleText_NotNotice":{"ru":"{ATTACKING_MON} делает вид,\\nчто не замечает!","de":"{ATTACKING_MON} tut so, als\\nbemerke es nichts!"}
+  ,"BattleText_WillSwitch":{"ru":"{STRING 25} {STRING 26} готовит\\n{STRING 1}.\\p{STRING 32} сменит покемона?","de":"{STRING 25} {STRING 26} setzt gleich\\n{STRING 1} ein.\\pWechselt {STRING 32} das Pokémon?"}
+  ,"BattleText_LearnedMove2":{"ru":"{ATTACKING_MON} выучил\\n{STRING 0}!","de":"{ATTACKING_MON} lernt\\n{STRING 0}!"}
+  ,"BattleText_CreptCloser":{"ru":"{STRING 32} подкрадывается\\nк {STRING 3}!","de":"{STRING 32} schleicht näher\\nan {STRING 3} heran!"}
+  ,"BattleText_CantGetCloser":{"ru":"{STRING 32} не может подойти ближе!","de":"{STRING 32} kann nicht näher kommen!"}
+  ,"BattleText_WatchingCarefully":{"ru":"{STRING 3} внимательно\\nнаблюдает!","de":"{STRING 3} beobachtet\\naufmerksam!"}
+  ,"BattleText_CuriousAbout":{"ru":"{STRING 3} интересуется\\n{STRING 0}!","de":"{STRING 3} ist neugierig auf\\n{STRING 0}!"}
+  ,"BattleText_EnthralledBy":{"ru":"{STRING 3} очарован\\n{STRING 0}!","de":"{STRING 3} ist von\\n{STRING 0} begeistert!"}
+  ,"BattleText_IgnoredThing":{"ru":"{STRING 3} полностью\\nигнорирует {STRING 0}!","de":"{STRING 3} ignoriert\\n{STRING 0} völlig!"}
+  ,"BattleText_ThrewBlock":{"ru":"{STRING 32} бросает {POKEBLOCK}\\nпокемону {STRING 3}!","de":"{STRING 32} wirft einen {POKEBLOCK}\\nzu {STRING 3}!"}
+  ,"BattleText_SafariOver":{"ru":"{PLAY_SE SE_DING_DONG}ДИКТОР: Сафари-боллы\\nзакончились! Игра окончена!\\p","de":"{PLAY_SE SE_DING_DONG}SPRECHER: Keine Safari-Bälle\\nmehr! Das Spiel ist vorbei!\\p"}
+  ,"BattleText_Used1":{"ru":"{STRING 32} использует\\n{STRING 19}!","de":"{STRING 32} benutzt\\n{STRING 19}!"}
+  ,"BattleText_TutorialUsed":{"ru":"УОЛЛИ использует\\n{STRING 19}!","de":"HEIKO benutzt\\n{STRING 19}!"}
+  ,"BattleText_Used2":{"ru":"{STRING 25} {STRING 26}\\nиспользует {STRING 19}!","de":"{STRING 25} {STRING 26}\\nbenutzt {STRING 19}!"}
+  ,"BattleText_BallCaught1":{"ru":"Пойман!\\n{STRING 3} пойман!{UNKNOWN_A}{PLAY_BGM MUS_CAUGHT}\\p","de":"Geschafft!\\n{STRING 3} wurde gefangen!{UNKNOWN_A}{PLAY_BGM MUS_CAUGHT}\\p"}
+  ,"BattleText_BallCaught2":{"ru":"Пойман!\\n{STRING 3} пойман!{UNKNOWN_A}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}","de":"Geschafft!\\n{STRING 3} wurde gefangen!{UNKNOWN_A}{PLAY_BGM MUS_CAUGHT}{PAUSE 127}"}
+  ,"BattleText_Someone":{"ru":"кого-то","de":"Jemandes"}
+  ,"BattleText_Lanette":{"ru":"Ланетт","de":"Lanettes"}
+  ,"BattleText_EnigmaBerry":{"ru":"ЗАГАДОЧНАЯ ЯГОДА","de":"ENIGMABEERE"}
+  ,"BattleText_Berry":{"ru":" ЯГОДА","de":" BEERE"}
+  ,"BattleText_WallyBall":{"ru":"Теперь бросить болл, да?\\nЯ... Я постараюсь!","de":"Jetzt werfe ich einen Ball, ja?\\nIch... Ich gebe mein Bestes!"}
+  ,"BattleText_LinkStandby":{"ru":"{PAUSE 16}Ожидание связи...","de":"{PAUSE 16}Verbindungsbereitschaft..."}
+  ,"BattleText_MenuOptionsSafari":{"ru":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}БОЛЛ{CLEAR_TO 0x2E}{POKEBLOCK}\\nБЛИЖЕ{CLEAR_TO 0x2E}БЕГ","de":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}BALL{CLEAR_TO 0x2E}{POKEBLOCK}\\nNÄHER{CLEAR_TO 0x2E}FLUCHT"}
+  ,"BattleText_PP":{"ru":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}ОД\\nТИП/","de":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}AP\\nTYP/"}
+  ,"BattleText_ForgetMove":{"ru":"{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}{PALETTE 5}Какой приём\\nзабыть?","de":"{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}{PALETTE 5}Welche Attacke soll\\nvergessen werden?"}
+  ,"BattleText_YesNo":{"ru":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}Да\\nНет","de":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}Ja\\nNein"}
+  ,"BattleText_SwitchWhich":{"ru":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}Сменить\\nкого?","de":"{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW SKY_BLUE LIGHT_BLUE WHITE2}Welches\\nwechseln?"}
+  ,"BattleText_HP":{"ru":"ОЗ ","de":"KP "}
+  ,"BattleText_Attack":{"ru":"АТАКА ","de":"ANGRIFF "}
+  ,"BattleText_Defense":{"ru":"ЗАЩИТА","de":"VERT."}
+  ,"BattleText_SpAtk":{"ru":"СП. АТК","de":"SP. ANG"}
+  ,"BattleText_SpDef":{"ru":"СП. ЗАЩ","de":"SP. VER"}
+  ,"BattleText_SafariBalls":{"ru":"{HIGHLIGHT RED}САФАРИ-БОЛЛЫ","de":"{HIGHLIGHT RED}SAFARI-BÄLLE"}
+  ,"BattleText_SafariBallsLeft":{"ru":"{HIGHLIGHT RED}Осталось: ","de":"{HIGHLIGHT RED}Übrig: "}
+  ,"BattleText_Sleep":{"ru":"сон","de":"Schlaf"}
+  ,"BattleText_PoisonStatus":{"ru":"яд","de":"Gift"}
+  ,"BattleText_Burn":{"ru":"ожог","de":"Verbrennung"}
+  ,"BattleText_Paralysis":{"ru":"паралич","de":"Paralyse"}
+  ,"BattleText_IceStatus":{"ru":"лёд","de":"Eis"}
+  ,"BattleText_Confusion":{"ru":"замешательство","de":"Verwirrung"}
+  ,"BattleText_Love":{"ru":"любовь","de":"Liebe"}
+  ,"BattleText_Wally":{"ru":"УОЛЛИ","de":"HEIKO"}
+  ,"BattleText_Win":{"ru":"{HIGHLIGHT TRANSPARENT}Победа","de":"{HIGHLIGHT TRANSPARENT}Sieg"}
+  ,"BattleText_Loss":{"ru":"{HIGHLIGHT TRANSPARENT}Поражение","de":"{HIGHLIGHT TRANSPARENT}Niederlage"}
+  ,"BattleText_Tie":{"ru":"{HIGHLIGHT TRANSPARENT}Ничья","de":"{HIGHLIGHT TRANSPARENT}Unentschieden"}
+  ,"BattleText_Normal":{"ru":"обычный приём","de":"eine NORMAL-Att."}
+  ,"BattleText_Fighting":{"ru":"боевой приём","de":"eine KAMPF-Att."}
+  ,"BattleText_Flying":{"ru":"летающий приём","de":"eine FLUG-Att."}
+  ,"BattleText_Poison":{"ru":"ядовитый приём","de":"eine GIFT-Att."}
+  ,"BattleText_Ground":{"ru":"земляной приём","de":"eine BODEN-Att."}
+  ,"BattleText_Rock":{"ru":"каменный приём","de":"eine GESTEINS-Att."}
+  ,"BattleText_Bug":{"ru":"приём насекомых","de":"eine KÄFER-Att."}
+  ,"BattleText_Ghost":{"ru":"призрачный приём","de":"eine GEIST-Att."}
+  ,"BattleText_Steel":{"ru":"стальной приём","de":"eine STAHL-Att."}
+  ,"BattleText_Typeless":{"ru":"приём типа ???","de":"eine ???-Attacke"}
+  ,"BattleText_Fire":{"ru":"огненный приём","de":"eine FEUER-Att."}
+  ,"BattleText_Water":{"ru":"водный приём","de":"eine WASSER-Att."}
+  ,"BattleText_Grass":{"ru":"травяной приём","de":"eine PFLANZEN-Att."}
+  ,"BattleText_Electric":{"ru":"электрический приём","de":"eine ELEKTRO-Att."}
+  ,"BattleText_Psychic":{"ru":"психический приём","de":"eine PSYCHO-Att."}
+  ,"BattleText_Ice":{"ru":"ледяной приём","de":"eine EIS-Att."}
+  ,"BattleText_Dragon":{"ru":"драконий приём","de":"eine DRACHEN-Att."}
+  ,"BattleText_Dark":{"ru":"тёмный приём","de":"eine UNLICHT-Att."}
 }

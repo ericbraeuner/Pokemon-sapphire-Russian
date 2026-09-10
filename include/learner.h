@@ -1111,6 +1111,15 @@ void Learner_CommitNewGameSettings(void);
 u8 Learner_GetLanguage(void);
 const u8 *Learner_ItemText(u16 itemId, bool8 description);
 void Learner_CopyItemName(u16 itemId, u8 *dest);
+struct LearnerItemTranslation
+{
+    u16 itemId;
+    u16 padding;
+    const u8 *names[2];
+    const u8 *descriptions[2];
+};
+extern const struct LearnerItemTranslation gLearnerItemTranslations[];
+extern const u16 gLearnerItemTranslationCount;
 extern const u8 gLearnerBagTilesRu[], gLearnerBagTilesDe[];
 extern const u8 gLearnerDexSearchTilesRu[], gLearnerDexSearchTilesDe[];
 extern const u8 gLearnerDexMainTilesRu[], gLearnerDexMainTilesDe[];

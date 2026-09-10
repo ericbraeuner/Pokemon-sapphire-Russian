@@ -527,57 +527,19 @@ static void Shop_DisplayPriceInCheckoutWindow(u8 taskId)
 #if LEARNER_DEMO
 const u8 *Learner_ItemText(u16 itemId, bool8 description)
 {
+    u16 i;
+
     if (Learner_GetLanguage())
     {
-        switch (itemId)
+        u8 language = Learner_GetLanguage() - 1;
+        for (i = 0; i < gLearnerItemTranslationCount; i++)
         {
-        case ITEM_GREAT_BALL: return description ? LEARNER_UI(Learner_GetLanguage(), GreatBallDesc) : LEARNER_UI(Learner_GetLanguage(), GreatBall);
-        case ITEM_ULTRA_BALL: return description ? LEARNER_UI(Learner_GetLanguage(), UltraBallDesc) : LEARNER_UI(Learner_GetLanguage(), UltraBall);
-        case ITEM_SUPER_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), SuperPotionDesc) : LEARNER_UI(Learner_GetLanguage(), SuperPotion);
-        case ITEM_HYPER_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), HyperPotionDesc) : LEARNER_UI(Learner_GetLanguage(), HyperPotion);
-        case ITEM_MAX_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), MaxPotionDesc) : LEARNER_UI(Learner_GetLanguage(), MaxPotion);
-        case ITEM_FULL_RESTORE: return description ? LEARNER_UI(Learner_GetLanguage(), FullRestoreDesc) : LEARNER_UI(Learner_GetLanguage(), FullRestore);
-        case ITEM_BURN_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), BurnHealDesc) : LEARNER_UI(Learner_GetLanguage(), BurnHeal);
-        case ITEM_ICE_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), IceHealDesc) : LEARNER_UI(Learner_GetLanguage(), IceHeal);
-        case ITEM_FULL_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), FullHealDesc) : LEARNER_UI(Learner_GetLanguage(), FullHeal);
-        case ITEM_REVIVE: return description ? LEARNER_UI(Learner_GetLanguage(), ReviveDesc) : LEARNER_UI(Learner_GetLanguage(), Revive);
-        case ITEM_MAX_REVIVE: return description ? LEARNER_UI(Learner_GetLanguage(), MaxReviveDesc) : LEARNER_UI(Learner_GetLanguage(), MaxRevive);
-        case ITEM_REPEL: return description ? LEARNER_UI(Learner_GetLanguage(), RepelDesc) : LEARNER_UI(Learner_GetLanguage(), Repel);
-        case ITEM_SUPER_REPEL: return description ? LEARNER_UI(Learner_GetLanguage(), SuperRepelDesc) : LEARNER_UI(Learner_GetLanguage(), SuperRepel);
-        case ITEM_MAX_REPEL: return description ? LEARNER_UI(Learner_GetLanguage(), MaxRepelDesc) : LEARNER_UI(Learner_GetLanguage(), MaxRepel);
-        case ITEM_ESCAPE_ROPE: return description ? LEARNER_UI(Learner_GetLanguage(), EscapeRopeDesc) : LEARNER_UI(Learner_GetLanguage(), EscapeRope);
-        case ITEM_RARE_CANDY: return description ? LEARNER_UI(Learner_GetLanguage(), RareCandyDesc) : LEARNER_UI(Learner_GetLanguage(), RareCandy);
-        case ITEM_ETHER: return description ? LEARNER_UI(Learner_GetLanguage(), EtherDesc) : LEARNER_UI(Learner_GetLanguage(), Ether);
-        case ITEM_ELIXIR: return description ? LEARNER_UI(Learner_GetLanguage(), ElixirDesc) : LEARNER_UI(Learner_GetLanguage(), Elixir);
-        case ITEM_FRESH_WATER: return description ? LEARNER_UI(Learner_GetLanguage(), FreshWaterDesc) : LEARNER_UI(Learner_GetLanguage(), FreshWater);
-        case ITEM_SODA_POP: return description ? LEARNER_UI(Learner_GetLanguage(), SodaPopDesc) : LEARNER_UI(Learner_GetLanguage(), SodaPop);
-        case ITEM_LEMONADE: return description ? LEARNER_UI(Learner_GetLanguage(), LemonadeDesc) : LEARNER_UI(Learner_GetLanguage(), Lemonade);
-        case ITEM_MOOMOO_MILK: return description ? LEARNER_UI(Learner_GetLanguage(), MoomooMilkDesc) : LEARNER_UI(Learner_GetLanguage(), MoomooMilk);
-        case ITEM_ENERGY_POWDER: return description ? LEARNER_UI(Learner_GetLanguage(), EnergyPowderDesc) : LEARNER_UI(Learner_GetLanguage(), EnergyPowder);
-        case ITEM_ENERGY_ROOT: return description ? LEARNER_UI(Learner_GetLanguage(), EnergyRootDesc) : LEARNER_UI(Learner_GetLanguage(), EnergyRoot);
-        case ITEM_HEAL_POWDER: return description ? LEARNER_UI(Learner_GetLanguage(), HealPowderDesc) : LEARNER_UI(Learner_GetLanguage(), HealPowder);
-        case ITEM_REVIVAL_HERB: return description ? LEARNER_UI(Learner_GetLanguage(), RevivalHerbDesc) : LEARNER_UI(Learner_GetLanguage(), RevivalHerb);
-        case ITEM_MAX_ETHER: return description ? LEARNER_UI(Learner_GetLanguage(), MaxEtherDesc) : LEARNER_UI(Learner_GetLanguage(), MaxEther);
-        case ITEM_MAX_ELIXIR: return description ? LEARNER_UI(Learner_GetLanguage(), MaxElixirDesc) : LEARNER_UI(Learner_GetLanguage(), MaxElixir);
-        case ITEM_HP_UP: return description ? LEARNER_UI(Learner_GetLanguage(), HPUpDesc) : LEARNER_UI(Learner_GetLanguage(), HPUp);
-        case ITEM_PROTEIN: return description ? LEARNER_UI(Learner_GetLanguage(), ProteinDesc) : LEARNER_UI(Learner_GetLanguage(), Protein);
-        case ITEM_IRON: return description ? LEARNER_UI(Learner_GetLanguage(), IronDesc) : LEARNER_UI(Learner_GetLanguage(), Iron);
-        case ITEM_CARBOS: return description ? LEARNER_UI(Learner_GetLanguage(), CarbosDesc) : LEARNER_UI(Learner_GetLanguage(), Carbos);
-        case ITEM_CALCIUM: return description ? LEARNER_UI(Learner_GetLanguage(), CalciumDesc) : LEARNER_UI(Learner_GetLanguage(), Calcium);
-        case ITEM_PP_UP: return description ? LEARNER_UI(Learner_GetLanguage(), PPUpDesc) : LEARNER_UI(Learner_GetLanguage(), PPUp);
-        case ITEM_ZINC: return description ? LEARNER_UI(Learner_GetLanguage(), ZincDesc) : LEARNER_UI(Learner_GetLanguage(), Zinc);
-        case ITEM_PP_MAX: return description ? LEARNER_UI(Learner_GetLanguage(), PPMaxDesc) : LEARNER_UI(Learner_GetLanguage(), PPMax);
-        case ITEM_GUARD_SPEC: return description ? LEARNER_UI(Learner_GetLanguage(), GuardSpecDesc) : LEARNER_UI(Learner_GetLanguage(), GuardSpec);
-        case ITEM_DIRE_HIT: return description ? LEARNER_UI(Learner_GetLanguage(), DireHitDesc) : LEARNER_UI(Learner_GetLanguage(), DireHit);
-        case ITEM_X_ATTACK: return description ? LEARNER_UI(Learner_GetLanguage(), XAttackDesc) : LEARNER_UI(Learner_GetLanguage(), XAttack);
-        case ITEM_X_DEFEND: return description ? LEARNER_UI(Learner_GetLanguage(), XDefendDesc) : LEARNER_UI(Learner_GetLanguage(), XDefend);
-        case ITEM_X_SPEED: return description ? LEARNER_UI(Learner_GetLanguage(), XSpeedDesc) : LEARNER_UI(Learner_GetLanguage(), XSpeed);
-        case ITEM_X_ACCURACY: return description ? LEARNER_UI(Learner_GetLanguage(), XAccuracyDesc) : LEARNER_UI(Learner_GetLanguage(), XAccuracy);
-        case ITEM_POTION: return description ? LEARNER_UI(Learner_GetLanguage(), PotionDescription) : LEARNER_UI(Learner_GetLanguage(), Potion);
-        case ITEM_ANTIDOTE: return description ? LEARNER_UI(Learner_GetLanguage(), AntidoteDesc) : LEARNER_UI(Learner_GetLanguage(), Antidote);
-        case ITEM_PARALYZE_HEAL: return description ? LEARNER_UI(Learner_GetLanguage(), ParaHealDesc) : LEARNER_UI(Learner_GetLanguage(), ParaHeal);
-        case ITEM_AWAKENING: return description ? LEARNER_UI(Learner_GetLanguage(), AwakeningDesc) : LEARNER_UI(Learner_GetLanguage(), Awakening);
-        case ITEM_POKE_BALL: return description ? LEARNER_UI(Learner_GetLanguage(), PokeBallDesc) : LEARNER_UI(Learner_GetLanguage(), PokeBall);
+            if (gLearnerItemTranslations[i].itemId == itemId)
+            {
+                if (description)
+                    return gLearnerItemTranslations[i].descriptions[language];
+                return gLearnerItemTranslations[i].names[language];
+            }
         }
     }
     return NULL;

@@ -604,15 +604,20 @@ class LessonTests(unittest.TestCase):
                         self.assertEqual(rendered.getpixel((x, y)), (packed[offset] >> (4 * (x % 2))) & 15)
 
     def test_shared_item_names_and_descriptions_fit(self):
-        import re
         code = (demo.ROOT / 'src/shop.c').read_text()
-        names = re.findall(r'case ITEM_\w+: return description \? LEARNER_UI\(Learner_GetLanguage\(\), (\w+)\) : LEARNER_UI\(Learner_GetLanguage\(\), (\w+)\)', code)
-        self.assertEqual(len(names), 47)
-        entries = validate.load(demo.ROOT / 'language_learning/ui.json')
-        for description, name in names:
+        self.assertIn('gLearnerItemTranslations[i].itemId == itemId', code)
+        self.assertIn('gLearnerItemTranslations[i].descriptions[language]', code)
+        assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
+        self.assertIn('gLearnerItemTranslations::', assembly)
+        self.assertIn('gLearnerItemTranslationCount::\n\t.2byte 47', assembly)
+        entries = validate.load(demo.ROOT / 'language_learning/items.json')
+        self.assertEqual(len(entries), 47)
+        constants = (demo.ROOT / 'include/constants/items.h').read_text()
+        for item, languages in entries.items():
+            self.assertRegex(constants, rf'(?m)^#define {item} \d+$')
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
-                self.assertEqual(len(demo.wrap(entries[name][tag], mapping, glyphs, 88)), 1)
-                self.assertLessEqual(len(demo.wrap(entries[description][tag], mapping, glyphs, 104)), 2)
+                self.assertEqual(len(demo.wrap(languages[tag]['name'], mapping, glyphs, 88)), 1)
+                self.assertLessEqual(len(demo.wrap(languages[tag]['description'], mapping, glyphs, 104)), 2)
 
     def test_sprite_sheet_stream_and_loader_keep_native_size(self):
         for tag in ('ru', 'de'):

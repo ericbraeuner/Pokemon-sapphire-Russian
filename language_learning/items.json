@@ -1,0 +1,472 @@
+{
+  "ITEM_GREAT_BALL": {
+    "ru": {
+      "name": "Супербол",
+      "description": "Ловит лучше покебола."
+    },
+    "de": {
+      "name": "Superball",
+      "description": "Besser als Pokéball."
+    }
+  },
+  "ITEM_ULTRA_BALL": {
+    "ru": {
+      "name": "Гипербол",
+      "description": "Ловит лучше супербола."
+    },
+    "de": {
+      "name": "Hyperball",
+      "description": "Besser als Superball."
+    }
+  },
+  "ITEM_SUPER_POTION": {
+    "ru": {
+      "name": "Суперзелье",
+      "description": "Лечит 50 ОЗ."
+    },
+    "de": {
+      "name": "Supertrank",
+      "description": "Heilt 50 KP."
+    }
+  },
+  "ITEM_HYPER_POTION": {
+    "ru": {
+      "name": "Гиперзелье",
+      "description": "Лечит 200 ОЗ."
+    },
+    "de": {
+      "name": "Hypertrank",
+      "description": "Heilt 200 KP."
+    }
+  },
+  "ITEM_MAX_POTION": {
+    "ru": {
+      "name": "Макс. зелье",
+      "description": "Лечит все ОЗ."
+    },
+    "de": {
+      "name": "Top-Trank",
+      "description": "Heilt alle KP."
+    }
+  },
+  "ITEM_FULL_RESTORE": {
+    "ru": {
+      "name": "Полн. уход",
+      "description": "Все ОЗ и статус."
+    },
+    "de": {
+      "name": "TopGenesung",
+      "description": "Alle KP und Status."
+    }
+  },
+  "ITEM_BURN_HEAL": {
+    "ru": {
+      "name": "От ожога",
+      "description": "Лечит ожог."
+    },
+    "de": {
+      "name": "Feuerheiler",
+      "description": "Heilt Verbrennung."
+    }
+  },
+  "ITEM_ICE_HEAL": {
+    "ru": {
+      "name": "От льда",
+      "description": "Снимает заморозку."
+    },
+    "de": {
+      "name": "Eisheiler",
+      "description": "Taut Pokémon auf."
+    }
+  },
+  "ITEM_FULL_HEAL": {
+    "ru": {
+      "name": "От статуса",
+      "description": "Лечит проблемы статуса."
+    },
+    "de": {
+      "name": "Hyperheiler",
+      "description": "Heilt Status."
+    }
+  },
+  "ITEM_REVIVE": {
+    "ru": {
+      "name": "Оживитель",
+      "description": "Оживляет с половиной ОЗ."
+    },
+    "de": {
+      "name": "Beleber",
+      "description": "Belebt mit halben KP."
+    }
+  },
+  "ITEM_MAX_REVIVE": {
+    "ru": {
+      "name": "Макс. жизнь",
+      "description": "Оживляет со всеми ОЗ."
+    },
+    "de": {
+      "name": "Top-Beleber",
+      "description": "Belebt mit allen KP."
+    }
+  },
+  "ITEM_REPEL": {
+    "ru": {
+      "name": "Отпугиватель",
+      "description": "Отпугивает: 100 шагов."
+    },
+    "de": {
+      "name": "Schutz",
+      "description": "Schutz: 100 Schritte."
+    }
+  },
+  "ITEM_SUPER_REPEL": {
+    "ru": {
+      "name": "Суперотпуг.",
+      "description": "Отпугивает: 200 шагов."
+    },
+    "de": {
+      "name": "Superschutz",
+      "description": "Schutz: 200 Schritte."
+    }
+  },
+  "ITEM_MAX_REPEL": {
+    "ru": {
+      "name": "Макс. отпуг.",
+      "description": "Отпугивает: 250 шагов."
+    },
+    "de": {
+      "name": "Top-Schutz",
+      "description": "Schutz: 250 Schritte."
+    }
+  },
+  "ITEM_ESCAPE_ROPE": {
+    "ru": {
+      "name": "Верёвка",
+      "description": "Выход из пещеры."
+    },
+    "de": {
+      "name": "Fluchtseil",
+      "description": "Raus aus der Höhle."
+    }
+  },
+  "ITEM_RARE_CANDY": {
+    "ru": {
+      "name": "Редк. конф.",
+      "description": "Повышает уровень на 1."
+    },
+    "de": {
+      "name": "Bonbon",
+      "description": "Erhöht Level um 1."
+    }
+  },
+  "ITEM_ETHER": {
+    "ru": {
+      "name": "Эфир",
+      "description": "Даёт приёму 10 ОП."
+    },
+    "de": {
+      "name": "Äther",
+      "description": "10 AP für eine Attacke."
+    }
+  },
+  "ITEM_ELIXIR": {
+    "ru": {
+      "name": "Эликсир",
+      "description": "Всем приёмам по 10 ОП."
+    },
+    "de": {
+      "name": "Elixier",
+      "description": "10 AP je Attacke."
+    }
+  },
+  "ITEM_FRESH_WATER": {
+    "ru": {
+      "name": "Вода",
+      "description": "Лечит 50 ОЗ."
+    },
+    "de": {
+      "name": "Tafelwasser",
+      "description": "Heilt 50 KP."
+    }
+  },
+  "ITEM_SODA_POP": {
+    "ru": {
+      "name": "Газировка",
+      "description": "Лечит 60 ОЗ."
+    },
+    "de": {
+      "name": "Sprudel",
+      "description": "Heilt 60 KP."
+    }
+  },
+  "ITEM_LEMONADE": {
+    "ru": {
+      "name": "Лимонад",
+      "description": "Лечит 80 ОЗ."
+    },
+    "de": {
+      "name": "Limonade",
+      "description": "Heilt 80 KP."
+    }
+  },
+  "ITEM_MOOMOO_MILK": {
+    "ru": {
+      "name": "Молоко",
+      "description": "Лечит 100 ОЗ."
+    },
+    "de": {
+      "name": "Kuhmilch",
+      "description": "Heilt 100 KP."
+    }
+  },
+  "ITEM_ENERGY_POWDER": {
+    "ru": {
+      "name": "Энергопорошок",
+      "description": "Горькое. Лечит 50 ОЗ."
+    },
+    "de": {
+      "name": "E-Pulver",
+      "description": "Bitter. Heilt 50 KP."
+    }
+  },
+  "ITEM_ENERGY_ROOT": {
+    "ru": {
+      "name": "Энергокорень",
+      "description": "Горькое. Лечит 200 ОЗ."
+    },
+    "de": {
+      "name": "E-Wurzel",
+      "description": "Bitter. Heilt 200 KP."
+    }
+  },
+  "ITEM_HEAL_POWDER": {
+    "ru": {
+      "name": "Целепорошок",
+      "description": "Лечит любой статус."
+    },
+    "de": {
+      "name": "Heilpuder",
+      "description": "Heilt jeden Status."
+    }
+  },
+  "ITEM_REVIVAL_HERB": {
+    "ru": {
+      "name": "Жив-трава",
+      "description": "Оживляет покемона."
+    },
+    "de": {
+      "name": "Vitalkraut",
+      "description": "Belebt wieder."
+    }
+  },
+  "ITEM_MAX_ETHER": {
+    "ru": {
+      "name": "Макс. эфир",
+      "description": "Все ОД одного приёма."
+    },
+    "de": {
+      "name": "Top-Äther",
+      "description": "Alle AP einer Attacke."
+    }
+  },
+  "ITEM_MAX_ELIXIR": {
+    "ru": {
+      "name": "Макс. эликсир",
+      "description": "Все ОД всех приёмов."
+    },
+    "de": {
+      "name": "Top-Elixier",
+      "description": "Alle AP aller Attacken."
+    }
+  },
+  "ITEM_HP_UP": {
+    "ru": {
+      "name": "ОЗ плюс",
+      "description": "Повышает макс. ОЗ."
+    },
+    "de": {
+      "name": "KP-Plus",
+      "description": "Erhöht die maximalen KP."
+    }
+  },
+  "ITEM_PROTEIN": {
+    "ru": {
+      "name": "Протеин",
+      "description": "Повышает атаку."
+    },
+    "de": {
+      "name": "Protein",
+      "description": "Erhöht den Angriff."
+    }
+  },
+  "ITEM_IRON": {
+    "ru": {
+      "name": "Железо",
+      "description": "Повышает защиту."
+    },
+    "de": {
+      "name": "Eisen",
+      "description": "Erhöht die Verteidigung."
+    }
+  },
+  "ITEM_CARBOS": {
+    "ru": {
+      "name": "Карбон",
+      "description": "Повышает скорость."
+    },
+    "de": {
+      "name": "Carbon",
+      "description": "Erhöht die Initiative."
+    }
+  },
+  "ITEM_CALCIUM": {
+    "ru": {
+      "name": "Кальций",
+      "description": "Повышает спецатаку."
+    },
+    "de": {
+      "name": "Kalzium",
+      "description": "Erhöht den Sp.-Angriff."
+    }
+  },
+  "ITEM_PP_UP": {
+    "ru": {
+      "name": "ОД плюс",
+      "description": "Повышает макс. ОД."
+    },
+    "de": {
+      "name": "AP-Plus",
+      "description": "Erhöht die maximalen AP."
+    }
+  },
+  "ITEM_ZINC": {
+    "ru": {
+      "name": "Цинк",
+      "description": "Повышает спецзащиту."
+    },
+    "de": {
+      "name": "Zink",
+      "description": "Erhöht die Sp.-Abwehr."
+    }
+  },
+  "ITEM_PP_MAX": {
+    "ru": {
+      "name": "ОД максимум",
+      "description": "ОД приёма до максимума."
+    },
+    "de": {
+      "name": "AP-Top",
+      "description": "Maximiert Attacken-AP."
+    }
+  },
+  "ITEM_GUARD_SPEC": {
+    "ru": {
+      "name": "Защита стат.",
+      "description": "Не даёт снизить параметры."
+    },
+    "de": {
+      "name": "Megablock",
+      "description": "Schützt Werte im Kampf."
+    }
+  },
+  "ITEM_DIRE_HIT": {
+    "ru": {
+      "name": "Точный удар",
+      "description": "Повышает шанс крит. удара."
+    },
+    "de": {
+      "name": "Angriffplus",
+      "description": "Mehr Volltreffer."
+    }
+  },
+  "ITEM_X_ATTACK": {
+    "ru": {
+      "name": "Икс-атака",
+      "description": "Повышает атаку в бою."
+    },
+    "de": {
+      "name": "X-Angriff",
+      "description": "Mehr Angriff im Kampf."
+    }
+  },
+  "ITEM_X_DEFEND": {
+    "ru": {
+      "name": "Икс-защита",
+      "description": "Повышает защиту в бою."
+    },
+    "de": {
+      "name": "X-Abwehr",
+      "description": "Erhöht Abwehr im Kampf."
+    }
+  },
+  "ITEM_X_SPEED": {
+    "ru": {
+      "name": "Икс-скорость",
+      "description": "Повышает скорость в бою."
+    },
+    "de": {
+      "name": "X-Tempo",
+      "description": "Mehr Tempo im Kampf."
+    }
+  },
+  "ITEM_X_ACCURACY": {
+    "ru": {
+      "name": "Икс-точность",
+      "description": "Повышает точность в бою."
+    },
+    "de": {
+      "name": "X-Treffer",
+      "description": "Mehr Genauigkeit."
+    }
+  },
+  "ITEM_POTION": {
+    "ru": {
+      "name": "Зелье",
+      "description": "Лечит 20 ОЗ."
+    },
+    "de": {
+      "name": "Trank",
+      "description": "Heilt 20 KP."
+    }
+  },
+  "ITEM_ANTIDOTE": {
+    "ru": {
+      "name": "Противоядие",
+      "description": "Лечит яд."
+    },
+    "de": {
+      "name": "Gegengift",
+      "description": "Heilt Gift."
+    }
+  },
+  "ITEM_PARALYZE_HEAL": {
+    "ru": {
+      "name": "Антипаралич",
+      "description": "Лечит паралич."
+    },
+    "de": {
+      "name": "Para-Heil",
+      "description": "Bei Paralyse."
+    }
+  },
+  "ITEM_AWAKENING": {
+    "ru": {
+      "name": "Пробуждение",
+      "description": "Будит покемона."
+    },
+    "de": {
+      "name": "Wecker",
+      "description": "Weckt auf."
+    }
+  },
+  "ITEM_POKE_BALL": {
+    "ru": {
+      "name": "Покебол",
+      "description": "Для ловли."
+    },
+    "de": {
+      "name": "Pokéball",
+      "description": "Zum Fangen."
+    }
+  }
+}

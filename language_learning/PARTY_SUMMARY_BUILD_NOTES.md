@@ -258,3 +258,16 @@
   `include/constants/moves.h`; adding or losing a move now fails the test suite.
 - Added representative hooks for Weather Ball, Calm Mind and Psycho Boost. Every
   Russian and German name continues to pass the 72-pixel compile-time guard.
+
+## Generated shared-item catalogue — 2026-09-09
+
+- Migrated the existing 47 shared item translations from a hand-written C switch
+  into `language_learning/items.json` and a generated runtime lookup table.
+- Shops, the Bag, pickups, item use, held-item summaries and storage retain the
+  same shared lookup function. New items can now be added as bounded data without
+  editing engine code or adding individual C declarations.
+- The generator validates item constants, required Russian/German fields, the
+  88-pixel one-line name limit, and the 104-pixel two-line description limit.
+- Tests verify all catalogue constants exist and that the generated table/count
+  are emitted. The linked table occupies exactly 47 20-byte records before its
+  count, confirming the assembly and C layouts agree.

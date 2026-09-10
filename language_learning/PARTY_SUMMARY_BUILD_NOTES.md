@@ -271,3 +271,14 @@
 - Tests verify all catalogue constants exist and that the generated table/count
   are emitted. The linked table occupies exactly 47 20-byte records before its
   count, confirming the assembly and C layouts agree.
+
+## First generated item expansion — 2026-09-09
+
+- Expanded the shared item catalogue from 47 to 70 entries without further
+  engine changes.
+- Completed all 12 Poké Balls and added the Lava Cookie, six reusable flutes,
+  Berry Juice, Sacred Ash, Shoal Cave salt/shell, and all four colored shards.
+- These names and descriptions now flow through the same shops, Bag, pickup,
+  storage, held-item and item-use paths as the original catalogue entries.
+- Added group-level regression checks for every ball and each new utility/material
+  item; all names and descriptions pass their pixel and line limits.

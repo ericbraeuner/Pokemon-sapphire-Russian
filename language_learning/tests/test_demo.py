@@ -607,11 +607,28 @@ class LessonTests(unittest.TestCase):
         code = (demo.ROOT / 'src/shop.c').read_text()
         self.assertIn('gLearnerItemTranslations[i].itemId == itemId', code)
         self.assertIn('gLearnerItemTranslations[i].descriptions[language]', code)
+        entries = validate.load(demo.ROOT / 'language_learning/items.json')
         assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerItemTranslations::', assembly)
-        self.assertIn('gLearnerItemTranslationCount::\n\t.2byte 47', assembly)
-        entries = validate.load(demo.ROOT / 'language_learning/items.json')
-        self.assertEqual(len(entries), 47)
+        self.assertIn(f'gLearnerItemTranslationCount::\n\t.2byte {len(entries)}', assembly)
+        self.assertGreaterEqual(len(entries), 70)
+        balls = {
+            'ITEM_MASTER_BALL', 'ITEM_ULTRA_BALL', 'ITEM_GREAT_BALL',
+            'ITEM_POKE_BALL', 'ITEM_SAFARI_BALL', 'ITEM_NET_BALL',
+            'ITEM_DIVE_BALL', 'ITEM_NEST_BALL', 'ITEM_REPEAT_BALL',
+            'ITEM_TIMER_BALL', 'ITEM_LUXURY_BALL', 'ITEM_PREMIER_BALL',
+        }
+        self.assertLessEqual(balls, set(entries))
+        self.assertLessEqual({
+            'ITEM_LAVA_COOKIE', 'ITEM_BLUE_FLUTE', 'ITEM_YELLOW_FLUTE',
+            'ITEM_RED_FLUTE', 'ITEM_BLACK_FLUTE', 'ITEM_WHITE_FLUTE',
+            'ITEM_BERRY_JUICE', 'ITEM_SACRED_ASH', 'ITEM_SHOAL_SALT',
+            'ITEM_SHOAL_SHELL', 'ITEM_RED_SHARD', 'ITEM_BLUE_SHARD',
+            'ITEM_YELLOW_SHARD', 'ITEM_GREEN_SHARD',
+        }, set(entries))
+        makefile = (demo.ROOT / 'Makefile').read_text()
+        self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*language_learning/items\.json')
+        self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*include/constants/items\.h')
         constants = (demo.ROOT / 'include/constants/items.h').read_text()
         for item, languages in entries.items():
             self.assertRegex(constants, rf'(?m)^#define {item} \d+$')

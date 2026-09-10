@@ -468,5 +468,97 @@
       "name": "Pokéball",
       "description": "Zum Fangen."
     }
+  },
+  "ITEM_MASTER_BALL": {
+    "ru": {"name": "Мастербол", "description": "Ловит без промаха."},
+    "de": {"name": "Meisterball", "description": "Fängt immer."}
+  },
+  "ITEM_SAFARI_BALL": {
+    "ru": {"name": "Сафарибол", "description": "Только для сафари."},
+    "de": {"name": "Safariball", "description": "Nur für Safari."}
+  },
+  "ITEM_NET_BALL": {
+    "ru": {"name": "Сетебол", "description": "Лучше для Воды и Жуков."},
+    "de": {"name": "Netzball", "description": "Besser für Wasser/Käfer."}
+  },
+  "ITEM_DIVE_BALL": {
+    "ru": {"name": "Дайвбол", "description": "Лучше на морском дне."},
+    "de": {"name": "Tauchball", "description": "Besser am Meeresgrund."}
+  },
+  "ITEM_NEST_BALL": {
+    "ru": {"name": "Гнездобол", "description": "Лучше для слабых."},
+    "de": {"name": "Nestball", "description": "Besser bei Schwachen."}
+  },
+  "ITEM_REPEAT_BALL": {
+    "ru": {"name": "Повторбол", "description": "Лучше для пойманных."},
+    "de": {"name": "Wiederball", "description": "Besser bei Gefangenen."}
+  },
+  "ITEM_TIMER_BALL": {
+    "ru": {"name": "Таймербол", "description": "Сильнее каждый ход."},
+    "de": {"name": "Timerball", "description": "Stärker mit jeder Runde."}
+  },
+  "ITEM_LUXURY_BALL": {
+    "ru": {"name": "Люксбол", "description": "Повышает дружбу."},
+    "de": {"name": "Luxusball", "description": "Erhöht Freundschaft."}
+  },
+  "ITEM_PREMIER_BALL": {
+    "ru": {"name": "Премьербол", "description": "Редкий памятный бол."},
+    "de": {"name": "Premierball", "description": "Seltener Sonderball."}
+  },
+  "ITEM_LAVA_COOKIE": {
+    "ru": {"name": "Лава-печенье", "description": "Лечит любой статус."},
+    "de": {"name": "Lavakeks", "description": "Heilt jeden Status."}
+  },
+  "ITEM_BLUE_FLUTE": {
+    "ru": {"name": "Синяя флейта", "description": "Будит покемона."},
+    "de": {"name": "Blaue Flöte", "description": "Weckt ein Pokémon."}
+  },
+  "ITEM_YELLOW_FLUTE": {
+    "ru": {"name": "Жёлтая флейта", "description": "Лечит смятение."},
+    "de": {"name": "Gelbe Flöte", "description": "Heilt Verwirrung."}
+  },
+  "ITEM_RED_FLUTE": {
+    "ru": {"name": "Красн. флейта", "description": "Лечит влечение."},
+    "de": {"name": "Rote Flöte", "description": "Heilt Anziehung."}
+  },
+  "ITEM_BLACK_FLUTE": {
+    "ru": {"name": "Чёрн. флейта", "description": "Отпугивает диких."},
+    "de": {"name": "Schw. Flöte", "description": "Hält Wilde fern."}
+  },
+  "ITEM_WHITE_FLUTE": {
+    "ru": {"name": "Белая флейта", "description": "Привлекает диких."},
+    "de": {"name": "Weiße Flöte", "description": "Lockt Wilde an."}
+  },
+  "ITEM_BERRY_JUICE": {
+    "ru": {"name": "Ягодный сок", "description": "Лечит 20 ОЗ."},
+    "de": {"name": "Beerensaft", "description": "Heilt 20 KP."}
+  },
+  "ITEM_SACRED_ASH": {
+    "ru": {"name": "Свящ. пепел", "description": "Оживляет всю группу."},
+    "de": {"name": "Zauberasche", "description": "Belebt das ganze Team."}
+  },
+  "ITEM_SHOAL_SALT": {
+    "ru": {"name": "Отмель-соль", "description": "Соль из пещеры."},
+    "de": {"name": "Küstensalz", "description": "Salz aus der Küstenhöhle."}
+  },
+  "ITEM_SHOAL_SHELL": {
+    "ru": {"name": "Ракушка", "description": "Ракушка из пещеры."},
+    "de": {"name": "Küstensch.", "description": "Schale aus der Höhle."}
+  },
+  "ITEM_RED_SHARD": {
+    "ru": {"name": "Красн. осколок", "description": "Осколок древней вещи."},
+    "de": {"name": "Purpurstück", "description": "Scherbe eines Relikts."}
+  },
+  "ITEM_BLUE_SHARD": {
+    "ru": {"name": "Синий осколок", "description": "Осколок древней вещи."},
+    "de": {"name": "Indigostück", "description": "Scherbe eines Relikts."}
+  },
+  "ITEM_YELLOW_SHARD": {
+    "ru": {"name": "Жёлт. осколок", "description": "Осколок древней вещи."},
+    "de": {"name": "Gelbstück", "description": "Scherbe eines Relikts."}
+  },
+  "ITEM_GREEN_SHARD": {
+    "ru": {"name": "Зелён. осколок", "description": "Осколок древней вещи."},
+    "de": {"name": "Grünstück", "description": "Scherbe eines Relikts."}
   }
 }

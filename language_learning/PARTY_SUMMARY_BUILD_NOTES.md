@@ -246,3 +246,15 @@
   signatures and common early-region attacks.
 - Added representative runtime hooks for Superpower, Dive, Blaze Kick and Meteor
   Mash. All entries remain checked against the bilingual 72-pixel name limit.
+
+## Complete Sapphire move-name catalogue — 2026-09-09
+
+- Added the final 43 names, bringing the shared catalogue to all 354 gameplay
+  moves supported by Pokémon Sapphire. `MOVE_NONE` remains the engine's internal
+  empty value and is intentionally not translated.
+- Battles, move learning, party screens and summary pages can now replace every
+  English move name with a bounded Russian or German label.
+- Replaced the minimum-count regression with an exhaustive comparison against
+  `include/constants/moves.h`; adding or losing a move now fails the test suite.
+- Added representative hooks for Weather Ball, Calm Mind and Psycho Boost. Every
+  Russian and German name continues to pass the 72-pixel compile-time guard.

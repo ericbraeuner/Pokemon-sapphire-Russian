@@ -222,3 +222,11 @@
   copying and field techniques used by a wide range of later opponents.
 - Added representative hooks for Dream Eater, Transform, Rest, Substitute and
   Aeroblast while retaining compile-time Russian/German width validation.
+
+## Generation II system move-name expansion — 2026-09-09
+
+- Expanded shared coverage from 182 to 227 moves, adding 45 Generation II
+  techniques including Protect, Spikes, Sandstorm, Baton Pass, weather-adjacent
+  effects, priority attacks, recovery, hazards and Dark/Steel attacks.
+- Added representative runtime-table checks for Protect, Spikes, Sandstorm and
+  Baton Pass. The complete catalogue remains pixel-width checked in both languages.

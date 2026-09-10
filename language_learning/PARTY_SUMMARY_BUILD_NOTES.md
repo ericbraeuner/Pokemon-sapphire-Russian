@@ -238,3 +238,11 @@
   Steel, Ghost and team-support techniques.
 - Added representative runtime hooks for Iron Tail, Rain Dance, Shadow Ball and
   Helping Hand while retaining complete bilingual pixel-width validation.
+
+## Hoenn move-name expansion — 2026-09-09
+
+- Expanded shared coverage from 271 to 311 moves with 40 Hoenn techniques,
+  including ability-oriented effects, doubles support, recovery, recoil, starter
+  signatures and common early-region attacks.
+- Added representative runtime hooks for Superpower, Dive, Blaze Kick and Meteor
+  Mash. All entries remain checked against the bilingual 72-pixel name limit.

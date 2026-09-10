@@ -11,8 +11,10 @@ mailbox prompts, and decoration controls. Its starting Potion is translated too.
 The briefcase instructions and three starter labels, Pokémon nickname heading,
 pause menu, save prompts and summary are translated. Route 103's rival encounter
 and the Pokédex handoff now have translated field scenes with dictionary help.
-Battle coverage includes 85 messages/fragments, commands, 21 early move names,
-and all 18 type labels. Some menu labels are shortened to fit the original boxes.
+Battle coverage includes all 456 user-visible message templates, all 354 gameplay
+move names, battle commands, and all 18 type labels. The 23 omitted engine strings
+are empty, punctuation, formatting, or internal composition fragments. Some move
+and menu labels are shortened to fit the original boxes.
 Oldale coverage includes all 20 local dialogue entries: outdoor NPCs/sign,
 both houses, shop customers, and the Pokémon Center's ground-floor visitors.
 Shared nurse healing messages, shop greetings and buying prompts, Center PC
@@ -20,13 +22,13 @@ startup/primary menus, and the map heading are translated too. Oldale's five
 shop items have translated names and descriptions in the buy and bag screens. Quantity
 and price remain live values in the translated purchase confirmation.
 It is still a partial translation: naming-keyboard button artwork, title/continue
-menus, most item/decor names and descriptions, species names in
-battle, later moves/effects, later TV broadcasts, and later scenes retain English.
+menus, most item/decor names and descriptions, species names in battle, later TV
+broadcasts, and later field scenes retain English.
 The clock's AM/PM artwork also remains unchanged.
 Shared item receipt/found/storage messages, bag action labels, basic bag prompts,
 and selling confirmations now use the selected language throughout the game.
 Pokédex search explanations, colors, ordering options, and search results are
-translated. The shared catalogue now covers 23 common items, including stronger
+translated. The shared catalogue now covers 47 common items, including stronger
 potions, revives, repellents and balls. Bag pocket labels and Pokédex search-button
 graphics are translated too, including during pocket-switch animations.
 Pokédex list navigation, seen/caught counters and menu/search captions now use
@@ -34,9 +36,10 @@ the selected language. Bag discard confirmations/results and PC item-deposit
 results keep their actual item name and quantity. Field item-use messages and
 several common item errors are translated. Compact action buttons fit the bag's
 two-column menu without overlapping.
-The upstairs link club, detailed Pokémon box interface, remaining bag prompts,
-the remaining Pokédex title/detail artwork and species entries, and the shop's small MONEY
-graphic still need work.
+The upstairs link club, remaining item/decor catalogue, Pokédex species entries,
+and uncatalogued later field scenes still need work. Detailed Pokémon storage,
+shared Bag prompts, Pokédex interface artwork, and the shop's MONEY graphic are
+bilingual.
 
 ## Try it
 
@@ -113,8 +116,8 @@ Do not expect the demo ROM to match the original game's hash.
 
 1. Translate the remaining Pokédex species/detail content. Route 102 now has
    Lotad, Seedot, Ralts, and Surskit names, categories, and descriptions;
-   expand the shared
-   item catalogue; and finish battle-message/move coverage. The compact
+   expand the shared item catalogue. Battle-message and move-name coverage is
+   complete. The compact
    PAGE/AREA/CRY/SIZE labels and detailed Pokémon
    storage actions and embedded party/close labels are now bilingual. Play-test
    the Route 103 rival fight and Pokédex handoff in both languages; expand route

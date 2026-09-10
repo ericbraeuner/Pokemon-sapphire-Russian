@@ -212,3 +212,13 @@
   attacks from the original move set.
 - Added source-hook checks for Hypnosis, Recover, Light Screen and Self-Destruct.
   All Russian and German labels remain subject to the 72-pixel compile-time guard.
+
+## Late Generation I move-name expansion — 2026-09-09
+
+- Expanded shared coverage from 137 to 182 moves, completing the remaining
+  Generation I move constants and continuing through the first 15 Generation II
+  techniques.
+- This batch includes transformation, recovery, trapping, recoil, sleep, poison,
+  copying and field techniques used by a wide range of later opponents.
+- Added representative hooks for Dream Eater, Transform, Rest, Substitute and
+  Aeroblast while retaining compile-time Russian/German width validation.

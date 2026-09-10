@@ -204,3 +204,11 @@
   Russian labels. Every entry passes the same 72-pixel battle-name limit.
 - Added representative source-hook checks for Surf, Ice Beam, Earthquake and
   Psychic so the new names remain connected to the runtime translation table.
+
+## Status and defensive move-name expansion — 2026-09-09
+
+- Expanded shared coverage from 99 to 137 moves with Psychic/status techniques,
+  screens and defensive effects, healing, self-destruction, and common special
+  attacks from the original move set.
+- Added source-hook checks for Hypnosis, Recover, Light Screen and Self-Destruct.
+  All Russian and German labels remain subject to the 72-pixel compile-time guard.

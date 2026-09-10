@@ -256,14 +256,16 @@ class LessonTests(unittest.TestCase):
         self.assertTrue(any('gMoveNames + 13 * MOVE_SCRATCH' in row for row in table))
         names = validate.load(demo.ROOT / 'language_learning/battle_names.json')
         moves = {key for key in names if key.startswith('MOVE_')}
-        self.assertGreaterEqual(len(moves), 227)
+        self.assertGreaterEqual(len(moves), 271)
         for move in ('MOVE_CUT', 'MOVE_FLY', 'MOVE_HEADBUTT', 'MOVE_DISABLE',
                      'MOVE_SURF', 'MOVE_ICE_BEAM', 'MOVE_EARTHQUAKE',
                      'MOVE_PSYCHIC', 'MOVE_HYPNOSIS', 'MOVE_RECOVER',
                      'MOVE_LIGHT_SCREEN', 'MOVE_SELF_DESTRUCT',
                      'MOVE_DREAM_EATER', 'MOVE_TRANSFORM', 'MOVE_REST',
                      'MOVE_SUBSTITUTE', 'MOVE_AEROBLAST', 'MOVE_PROTECT',
-                     'MOVE_SPIKES', 'MOVE_SANDSTORM', 'MOVE_BATON_PASS'):
+                     'MOVE_SPIKES', 'MOVE_SANDSTORM', 'MOVE_BATON_PASS',
+                     'MOVE_IRON_TAIL', 'MOVE_RAIN_DANCE', 'MOVE_SHADOW_BALL',
+                     'MOVE_HELPING_HAND'):
             self.assertIn(move, moves)
             self.assertTrue(any(f'gMoveNames + 13 * {move}' in row for row in table))
         code = (demo.ROOT / 'src/battle_message.c').read_text(encoding='utf-8')

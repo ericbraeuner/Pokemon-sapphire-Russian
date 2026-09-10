@@ -230,3 +230,11 @@
   effects, priority attacks, recovery, hazards and Dark/Steel attacks.
 - Added representative runtime-table checks for Protect, Spikes, Sandstorm and
   Baton Pass. The complete catalogue remains pixel-width checked in both languages.
+
+## Late Generation II and early Hoenn move names — 2026-09-09
+
+- Expanded shared coverage from 227 to 271 moves. The 44-name batch completes
+  Generation II and adds early Generation III weather, recovery, recoil, Dark,
+  Steel, Ghost and team-support techniques.
+- Added representative runtime hooks for Iron Tail, Rain Dance, Shadow Ball and
+  Helping Hand while retaining complete bilingual pixel-width validation.

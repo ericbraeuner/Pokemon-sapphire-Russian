@@ -194,3 +194,13 @@
   these names no longer need separate translations in each interface.
 - Added regression coverage for the catalogue size, representative move hooks
   and the existing per-language width validation.
+
+## Elemental move-name expansion — 2026-09-09
+
+- Expanded the shared catalogue again, from 62 to 99 moves. This batch covers
+  Fire, Water, Ice, Electric, Grass, Rock, Ground and Psychic attacks plus their
+  common powder and field-move companions.
+- Kept familiar German move terminology in compact forms and added matching
+  Russian labels. Every entry passes the same 72-pixel battle-name limit.
+- Added representative source-hook checks for Surf, Ice Beam, Earthquake and
+  Psychic so the new names remain connected to the runtime translation table.

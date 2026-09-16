@@ -89,6 +89,18 @@ Potion from the Bag likewise displayed the correct name and quantity in both
 languages. The Russian deposit question was corrected from the ambiguous
 `Сколько оставить?` to `Сколько положить?` and rechecked in mGBA. The captured
 screens fit their windows and showed no visibly misplaced glyphs. This checks
-only this one item and route; larger quantities, cancellation, and the other PC
-branches remain unverified. These emulator files are ignored test artifacts,
-not release files.
+only this one item and route; other PC branches remain unverified. These
+emulator files are ignored test artifacts, not release files.
+
+## 2026-09-16 PC quantity and cancellation follow-up
+
+From copied Russian and German saves, depositing two Potions displayed quantity
+two in the selector and the completed message (`В ПК: 2.` / `Im PC: 2.`).
+Cancelling the deposit quantity prompt with B returned to the Bag with the
+original stack of two still present. A second B returned to the translated PC
+item-storage menu, with no lingering text box or cursor. Reopening the PC
+showed a stack of two; withdrawing both rendered the selected quantity and
+result message (`Взято: 2.` / `Geholt: 2.`). Cancelling the withdrawal quantity
+prompt instead kept the stack of two in the PC and returned cleanly to the
+translated item-storage menu. Other PC branches and storage capacity limits
+remain unverified.

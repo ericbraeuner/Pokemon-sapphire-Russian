@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "constants/hold_effects.h"
 #include "item.h"
 #include "constants/items.h"
@@ -42,6 +43,14 @@ static void CompactPCItems(void);
 
 void CopyItemName(u16 itemId, u8 *string)
 {
+#if LEARNER_DEMO
+    const u8 *translated = Learner_ItemText(itemId, FALSE);
+    if (translated != NULL)
+    {
+        StringCopy(string, translated);
+        return;
+    }
+#endif
     if (itemId == ITEM_ENIGMA_BERRY)
     {
         StringCopy(string, GetBerryInfo(ITEM_TO_BERRY(ITEM_ENIGMA_BERRY))->name);
@@ -429,6 +438,11 @@ static u16 SanitizeItemId(u16 itemId)
 
 const u8 *ItemId_GetName(u16 itemId)
 {
+#if LEARNER_DEMO
+    const u8 *translated = Learner_ItemText(itemId, FALSE);
+    if (translated != NULL)
+        return translated;
+#endif
     return gItems[SanitizeItemId(itemId)].name;
 }
 
@@ -454,13 +468,22 @@ u8 ItemId_GetHoldEffectParam(u16 itemId)
 
 const u8 *ItemId_GetDescription(u16 itemId)
 {
+#if LEARNER_DEMO
+    const u8 *translated = Learner_ItemText(itemId, TRUE);
+    if (translated != NULL)
+        return translated;
+#endif
     return gItems[SanitizeItemId(itemId)].description;
 }
 
 bool32 ItemId_CopyDescription(u8 *dest, u32 itemId, u32 textLine)
 {
     u32 curTextLine = textLine + 1;
+#if LEARNER_DEMO
+    const u8 *description = ItemId_GetDescription(itemId);
+#else
     const u8 *description = gItems[SanitizeItemId(itemId)].description;
+#endif
     u8 *str = dest;
 
     for (;;)

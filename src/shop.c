@@ -527,20 +527,24 @@ static void Shop_DisplayPriceInCheckoutWindow(u8 taskId)
 #if LEARNER_DEMO
 const u8 *Learner_ItemText(u16 itemId, bool8 description)
 {
-    u16 i;
+    u8 selection = Learner_GetLanguage();
+    u16 low = 0;
+    u16 high = gLearnerItemTranslationCount;
 
-    if (Learner_GetLanguage())
+    if (selection != 0)
     {
-        u8 language = Learner_GetLanguage() - 1;
-        for (i = 0; i < gLearnerItemTranslationCount; i++)
+        u8 language = selection - 1;
+        while (low < high)
         {
-            if (gLearnerItemTranslations[i].itemId == itemId)
-            {
-                if (description)
-                    return gLearnerItemTranslations[i].descriptions[language];
-                return gLearnerItemTranslations[i].names[language];
-            }
+            u16 middle = low + (high - low) / 2;
+            if (gLearnerItemTranslations[middle].itemId < itemId)
+                low = middle + 1;
+            else
+                high = middle;
         }
+        if (low < gLearnerItemTranslationCount && gLearnerItemTranslations[low].itemId == itemId)
+            return description ? gLearnerItemTranslations[low].descriptions[language]
+                               : gLearnerItemTranslations[low].names[language];
     }
     return NULL;
 }

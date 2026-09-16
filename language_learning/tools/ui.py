@@ -64,9 +64,14 @@ def generate(russian, latin, glyphs):
     items = demo.validate.load(demo.ROOT / 'language_learning/items.json')
     for item, translation in machine_items().items():
         items.setdefault(item, translation)
+    item_constants = (demo.ROOT / 'include/constants/items.h').read_text()
+    item_ids = {name: int(value) for name, value in re.findall(
+        r'^#define (ITEM_[A-Z0-9_]+) (\d+)$', item_constants, re.MULTILINE)}
+    if not set(items) <= set(item_ids):
+        raise ValueError('Item catalogue contains an unknown item constant')
     item_table = []
     parts.append('#include "constants/items.h"\n')
-    for index, (item, languages) in enumerate(items.items()):
+    for index, (item, languages) in enumerate(sorted(items.items(), key=lambda entry: item_ids[entry[0]])):
         if not re.fullmatch(r'ITEM_[A-Z0-9_]+', item) or set(languages) != {'ru', 'de'}:
             raise ValueError(f'Invalid item catalogue entry: {item}')
         labels = {}

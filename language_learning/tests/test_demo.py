@@ -544,7 +544,9 @@ class LessonTests(unittest.TestCase):
         code = (demo.ROOT / 'src/shop.c').read_text(encoding='utf-8')
         self.assertIn('#define Learner_CopyItemName CopyItemName', code)
         item = (demo.ROOT / 'src/item.c').read_text(encoding='utf-8')
-        self.assertNotIn('Learner_', item)
+        self.assertIn('#if LEARNER_DEMO\n    const u8 *translated = Learner_ItemText', item)
+        self.assertNotRegex(item, r'gItems\[[^]]+\]\.name\s*=')
+        self.assertNotRegex(item, r'gItems\[[^]]+\]\.description\s*=')
         entries = validate.load(demo.ROOT / 'language_learning/ui.json')
         for key in ('Potion', 'Antidote', 'ParaHeal', 'Awakening', 'PokeBall'):
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
@@ -604,9 +606,15 @@ class LessonTests(unittest.TestCase):
                         self.assertEqual(rendered.getpixel((x, y)), (packed[offset] >> (4 * (x % 2))) & 15)
 
     def test_shared_item_names_and_descriptions_fit(self):
+        item_source = (demo.ROOT / 'src/item.c').read_text()
+        for signature in ('void CopyItemName(', 'const u8 *ItemId_GetName(',
+                          'const u8 *ItemId_GetDescription('):
+            body = item_source.split(signature, 1)[1].split('\n}', 1)[0]
+            self.assertIn('Learner_ItemText(itemId,', body)
+        self.assertIn('const u8 *description = ItemId_GetDescription(itemId);', item_source)
         code = (demo.ROOT / 'src/shop.c').read_text()
-        self.assertIn('gLearnerItemTranslations[i].itemId == itemId', code)
-        self.assertIn('gLearnerItemTranslations[i].descriptions[language]', code)
+        self.assertIn('gLearnerItemTranslations[low].itemId == itemId', code)
+        self.assertIn('gLearnerItemTranslations[low].descriptions[language]', code)
         entries = validate.load(demo.ROOT / 'language_learning/items.json')
         machines = ui.machine_items()
         self.assertEqual(len(machines), 58)
@@ -617,6 +625,8 @@ class LessonTests(unittest.TestCase):
         assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerItemTranslations::', assembly)
         self.assertIn(f'gLearnerItemTranslationCount::\n\t.2byte {len(entries) + len(machines)}', assembly)
+        table_items = re.findall(r'^\t\.2byte (ITEM_[A-Z0-9_]+), 0$', assembly, re.MULTILINE)
+        self.assertEqual(set(table_items), set(entries) | set(machines))
         self.assertGreaterEqual(len(entries), 165)
         balls = {
             'ITEM_MASTER_BALL', 'ITEM_ULTRA_BALL', 'ITEM_GREAT_BALL',
@@ -642,6 +652,10 @@ class LessonTests(unittest.TestCase):
         named_items = {item for item in named_items
                        if item != 'ITEM_NONE' and not re.fullmatch(r'ITEM_[0-9A-F]{3}', item)}
         self.assertEqual(set(entries) | set(machines), named_items)
+        item_ids = {item: int(number) for item, number in re.findall(
+            r'^#define (ITEM_[A-Z0-9_]+) (\d+)$', constants, re.MULTILINE)}
+        self.assertEqual(table_items, sorted(table_items, key=item_ids.get))
+        self.assertIn('while (low < high)', code)
         key_section = constants.split('// Key Items', 1)[1].split('// TMs/HMs', 1)[0]
         key_items = set(re.findall(r'^#define (ITEM_[A-Z_0-9]+) \d+$',
                                    key_section, re.MULTILINE)) - {'ITEM_10B'}

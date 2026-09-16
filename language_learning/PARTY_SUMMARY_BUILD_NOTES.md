@@ -338,3 +338,16 @@
   named item cannot silently fall back to English.
 - Names and short descriptions are pixel and line bounded in both languages.
   The names and wording still need native-speaker review in the emulator.
+
+## Shared item lookup across original screens — 2026-09-16
+
+- The original `CopyItemName`, `ItemId_GetName`, `ItemId_GetDescription`, and
+  line-by-line description-copy path now consult the learner catalogue when a
+  language is selected. Existing localized wrappers still work, while direct
+  callers such as PC storage, held-item prompts, battle item messages, Pokéblock
+  screens, and TV item mentions no longer silently use English item names.
+- Before language selection and in the stock build, the original item data and
+  special Enigma Berry handling remain the fallback. These newly reached screens
+  still need an emulator pass for spacing and surrounding message language.
+- The generated item table is ordered by Sapphire's numeric item IDs, allowing
+  binary search instead of a full scan on frequently redrawn lists.

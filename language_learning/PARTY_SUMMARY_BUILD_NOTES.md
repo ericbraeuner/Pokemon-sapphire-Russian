@@ -292,3 +292,11 @@
 - An exhaustive test now derives the usable held-item constants from `items.h`
   and requires all of them in the learner catalogue. Names and descriptions still
   pass the shared one-line and two-line pixel limits.
+
+## Restorative berries — 2026-09-16
+
+- Added the 15 berries that cure status or restore HP/PP, bringing the shared item
+  catalogue to 137 entries. Their bilingual names and descriptions now use the
+  same Bag, held-item, shop and pickup paths as other catalogue items.
+- A source-derived test requires every berry from Cheri through Iapapa, so an
+  accidentally omitted status or healing berry fails validation.

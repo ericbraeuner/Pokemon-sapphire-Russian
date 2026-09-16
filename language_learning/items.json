@@ -768,5 +768,65 @@
   "ITEM_YELLOW_SCARF": {
     "ru": {"name": "Жёлтый шарф", "description": "Повышает силу на конкурсе."},
     "de": {"name": "Gelb. Schal", "description": "Mehr Stärke im Contest."}
+  },
+  "ITEM_CHERI_BERRY": {
+    "ru": {"name": "Ягода Черри", "description": "Лечит паралич."},
+    "de": {"name": "Amrena-B.", "description": "Heilt Paralyse."}
+  },
+  "ITEM_CHESTO_BERRY": {
+    "ru": {"name": "Ягода Често", "description": "Будит от сна."},
+    "de": {"name": "Maron-B.", "description": "Weckt aus Schlaf."}
+  },
+  "ITEM_PECHA_BERRY": {
+    "ru": {"name": "Ягода Печа", "description": "Лечит отравление."},
+    "de": {"name": "Pirsif-B.", "description": "Heilt Vergiftung."}
+  },
+  "ITEM_RAWST_BERRY": {
+    "ru": {"name": "Ягода Роуст", "description": "Лечит ожог."},
+    "de": {"name": "Fragia-B.", "description": "Heilt Verbrennung."}
+  },
+  "ITEM_ASPEAR_BERRY": {
+    "ru": {"name": "Ягода Аспир", "description": "Лечит заморозку."},
+    "de": {"name": "Wilbir-B.", "description": "Heilt Vereisung."}
+  },
+  "ITEM_LEPPA_BERRY": {
+    "ru": {"name": "Ягода Леппа", "description": "Восстан. 10 ОП приёма."},
+    "de": {"name": "Jonago-B.", "description": "Gibt 10 AP zurück."}
+  },
+  "ITEM_ORAN_BERRY": {
+    "ru": {"name": "Ягода Оран", "description": "Восстан. 10 ОЗ."},
+    "de": {"name": "Sinel-B.", "description": "Heilt 10 KP."}
+  },
+  "ITEM_PERSIM_BERRY": {
+    "ru": {"name": "Ягода Персим", "description": "Лечит смятение."},
+    "de": {"name": "Persim-B.", "description": "Heilt Verwirrung."}
+  },
+  "ITEM_LUM_BERRY": {
+    "ru": {"name": "Ягода Лам", "description": "Лечит любой статус."},
+    "de": {"name": "Prunus-B.", "description": "Heilt jeden Status."}
+  },
+  "ITEM_SITRUS_BERRY": {
+    "ru": {"name": "Ягода Ситрус", "description": "Восстан. 30 ОЗ."},
+    "de": {"name": "Tsitru-B.", "description": "Heilt 30 KP."}
+  },
+  "ITEM_FIGY_BERRY": {
+    "ru": {"name": "Ягода Фиги", "description": "Лечит ОЗ; риск смятения."},
+    "de": {"name": "Giefe-B.", "description": "KP +; evtl. verwirrt."}
+  },
+  "ITEM_WIKI_BERRY": {
+    "ru": {"name": "Ягода Вики", "description": "Лечит ОЗ; риск смятения."},
+    "de": {"name": "Wiki-B.", "description": "KP +; evtl. verwirrt."}
+  },
+  "ITEM_MAGO_BERRY": {
+    "ru": {"name": "Ягода Маго", "description": "Лечит ОЗ; риск смятения."},
+    "de": {"name": "Mago-B.", "description": "KP +; evtl. verwirrt."}
+  },
+  "ITEM_AGUAV_BERRY": {
+    "ru": {"name": "Ягода Агав", "description": "Лечит ОЗ; риск смятения."},
+    "de": {"name": "Gauve-B.", "description": "KP +; evtl. verwirrt."}
+  },
+  "ITEM_IAPAPA_BERRY": {
+    "ru": {"name": "Ягода Япапа", "description": "Лечит ОЗ; риск смятения."},
+    "de": {"name": "Yapa-B.", "description": "KP +; evtl. verwirrt."}
   }
 }

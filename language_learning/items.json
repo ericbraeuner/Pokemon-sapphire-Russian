@@ -828,5 +828,117 @@
   "ITEM_IAPAPA_BERRY": {
     "ru": {"name": "Ягода Япапа", "description": "Лечит ОЗ; риск смятения."},
     "de": {"name": "Yapa-B.", "description": "KP +; evtl. verwirrt."}
+  },
+  "ITEM_RAZZ_BERRY": {
+    "ru": {"name": "Ягода Разз", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Himmih-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_BLUK_BERRY": {
+    "ru": {"name": "Ягода Блюк", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Morb-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_NANAB_BERRY": {
+    "ru": {"name": "Ягода Нанаб", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Nanab-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_WEPEAR_BERRY": {
+    "ru": {"name": "Ягода Вепир", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Nirbe-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_PINAP_BERRY": {
+    "ru": {"name": "Ягода Пинап", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Sanana-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_POMEG_BERRY": {
+    "ru": {"name": "Ягода Помег", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Grana-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_KELPSY_BERRY": {
+    "ru": {"name": "Ягода Келпси", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Setang-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_QUALOT_BERRY": {
+    "ru": {"name": "Ягода Квалот", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Qualot-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_HONDEW_BERRY": {
+    "ru": {"name": "Ягода Хондю", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Honmel-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_GREPA_BERRY": {
+    "ru": {"name": "Ягода Грепа", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Labrus-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_TAMATO_BERRY": {
+    "ru": {"name": "Ягода Тамато", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Tamot-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_CORNN_BERRY": {
+    "ru": {"name": "Ягода Корнн", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Saim-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_MAGOST_BERRY": {
+    "ru": {"name": "Ягода Магост", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Magost-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_RABUTA_BERRY": {
+    "ru": {"name": "Ягода Рабута", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Rabuta-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_NOMEL_BERRY": {
+    "ru": {"name": "Ягода Номел", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Tronzi-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_SPELON_BERRY": {
+    "ru": {"name": "Ягода Спелон", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Kiwan-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_PAMTRE_BERRY": {
+    "ru": {"name": "Ягода Памтре", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Pallm-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_WATMEL_BERRY": {
+    "ru": {"name": "Ягода Ватмел", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Wasmel-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_DURIN_BERRY": {
+    "ru": {"name": "Ягода Дурин", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Durin-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_BELUE_BERRY": {
+    "ru": {"name": "Ягода Белю", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Myrtil-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_LIECHI_BERRY": {
+    "ru": {"name": "Ягода Личи", "description": "В беде повышает Атаку."},
+    "de": {"name": "Lydzi-B.", "description": "Hebt Angriff in Not."}
+  },
+  "ITEM_GANLON_BERRY": {
+    "ru": {"name": "Ягода Ганлон", "description": "В беде повышает Защиту."},
+    "de": {"name": "Lingan-B.", "description": "Hebt Abwehr in Not."}
+  },
+  "ITEM_SALAC_BERRY": {
+    "ru": {"name": "Ягода Салак", "description": "В беде повышает Скорость."},
+    "de": {"name": "Salka-B.", "description": "Hebt Tempo in Not."}
+  },
+  "ITEM_PETAYA_BERRY": {
+    "ru": {"name": "Ягода Петая", "description": "В беде повышает Сп. Ат."},
+    "de": {"name": "Tahay-B.", "description": "Sp.-Angr. + in Not."}
+  },
+  "ITEM_APICOT_BERRY": {
+    "ru": {"name": "Ягода Апикот", "description": "В беде повышает Сп. Защ."},
+    "de": {"name": "Apiko-B.", "description": "Sp.-Vert. + in Not."}
+  },
+  "ITEM_LANSAT_BERRY": {
+    "ru": {"name": "Ягода Лансат", "description": "В беде чаще крит. удар."},
+    "de": {"name": "Lansat-B.", "description": "Krit.-Chance + in Not."}
+  },
+  "ITEM_STARF_BERRY": {
+    "ru": {"name": "Ягода Старф", "description": "В беде повышает параметр."},
+    "de": {"name": "Krambo-B.", "description": "Hebt einen Wert in Not."}
+  },
+  "ITEM_ENIGMA_BERRY": {
+    "ru": {"name": "Ягода Энигма", "description": "Для покеблоков. Посади."},
+    "de": {"name": "Enigma-B.", "description": "Block-Zutat. Säen."}
   }
 }

@@ -300,3 +300,12 @@
   same Bag, held-item, shop and pickup paths as other catalogue items.
 - A source-derived test requires every berry from Cheri through Iapapa, so an
   accidentally omitted status or healing berry fails validation.
+
+## Complete Sapphire berry catalogue — 2026-09-16
+
+- Added the remaining 28 berries, bringing the shared item catalogue to 165
+  entries and covering every berry from Cheri through Enigma.
+- Planting and Pokéblock berries use short bilingual descriptions; the seven
+  pinch berries describe their distinct low-HP stat or critical-hit effects.
+- The source-derived test now checks all 43 berry constants. The existing
+  88-pixel name and two-line 104-pixel description limits still apply.

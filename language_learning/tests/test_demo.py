@@ -611,7 +611,7 @@ class LessonTests(unittest.TestCase):
         assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerItemTranslations::', assembly)
         self.assertIn(f'gLearnerItemTranslationCount::\n\t.2byte {len(entries)}', assembly)
-        self.assertGreaterEqual(len(entries), 137)
+        self.assertGreaterEqual(len(entries), 165)
         balls = {
             'ITEM_MASTER_BALL', 'ITEM_ULTRA_BALL', 'ITEM_GREAT_BALL',
             'ITEM_POKE_BALL', 'ITEM_SAFARI_BALL', 'ITEM_NET_BALL',
@@ -634,12 +634,13 @@ class LessonTests(unittest.TestCase):
         held_items = set(re.findall(r'^#define (ITEM_(?!0)[A-Z0-9_]+) \d+$',
                                     held_section, re.MULTILINE))
         self.assertLessEqual(held_items, set(entries))
-        restorative_berries = set(re.findall(
+        berry_constants = set(re.findall(
             r'^#define (ITEM_[A-Z0-9_]+) \d+$',
-            constants.split('#define ITEM_CHERI_BERRY', 1)[1].split('#define ITEM_RAZZ_BERRY', 1)[0],
+            constants.split('#define ITEM_CHERI_BERRY', 1)[1].split('#define ITEM_0B0', 1)[0],
             re.MULTILINE))
-        restorative_berries.add('ITEM_CHERI_BERRY')
-        self.assertLessEqual(restorative_berries, set(entries))
+        berry_constants.add('ITEM_CHERI_BERRY')
+        self.assertEqual(len(berry_constants), 43)
+        self.assertLessEqual(berry_constants, set(entries))
         for item, languages in entries.items():
             self.assertRegex(constants, rf'(?m)^#define {item} \d+$')
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:

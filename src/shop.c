@@ -1136,11 +1136,7 @@ static void Shop_DoCursorAction(u8 taskId)
                     else // _080B42BA
                     {
                         Learner_CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
-#if LEARNER_DEMO
-                        StringExpandPlaceholders(gStringVar4, Learner_Translate(gOtherText_HowManyYouWant));
-#else
                         StringExpandPlaceholders(gStringVar4, gOtherText_HowManyYouWant);
-#endif
                         DisplayItemMessageOnField(taskId, gStringVar4, Shop_UpdateCurItemCountToMax, 0xC3E1);                    
                     }
                 }

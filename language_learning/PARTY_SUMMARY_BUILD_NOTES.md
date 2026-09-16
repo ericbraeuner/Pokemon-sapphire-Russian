@@ -372,7 +372,9 @@
 - Shop quantity, mailbox, and player-PC labels now retain the live item, mail
   owner, and player names rather than replacing them with generic fixed text.
 - Secret Base placement limits and discard confirmation retain the numeric limit
-  or decoration name. Tests require each live placeholder in both languages and
-  enforce its text-window width. The stock Sapphire checksum remains unchanged.
+  or decoration name. These shop, mail, and decoration templates use the existing
+  central placeholder-expansion translation hook, without duplicate per-caller
+  lookups. Tests require each live placeholder in both languages and enforce its
+  text-window width. The stock Sapphire checksum remains unchanged.
 - These interaction branches still need an in-emulator walkthrough; source and
   pixel checks alone do not prove their runtime layout or menu cleanup.

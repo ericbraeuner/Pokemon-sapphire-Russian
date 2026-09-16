@@ -608,9 +608,15 @@ class LessonTests(unittest.TestCase):
         self.assertIn('gLearnerItemTranslations[i].itemId == itemId', code)
         self.assertIn('gLearnerItemTranslations[i].descriptions[language]', code)
         entries = validate.load(demo.ROOT / 'language_learning/items.json')
+        machines = ui.machine_items()
+        self.assertEqual(len(machines), 58)
+        self.assertFalse(set(entries) & set(machines))
+        self.assertEqual(machines['ITEM_TM01_FOCUS_PUNCH']['de']['name'], 'TM01')
+        self.assertEqual(machines['ITEM_TM22_SOLARBEAM']['ru']['name'], 'TM22')
+        self.assertEqual(machines['ITEM_HM08_DIVE']['de']['name'], 'HM08')
         assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerItemTranslations::', assembly)
-        self.assertIn(f'gLearnerItemTranslationCount::\n\t.2byte {len(entries)}', assembly)
+        self.assertIn(f'gLearnerItemTranslationCount::\n\t.2byte {len(entries) + len(machines)}', assembly)
         self.assertGreaterEqual(len(entries), 165)
         balls = {
             'ITEM_MASTER_BALL', 'ITEM_ULTRA_BALL', 'ITEM_GREAT_BALL',
@@ -629,7 +635,11 @@ class LessonTests(unittest.TestCase):
         makefile = (demo.ROOT / 'Makefile').read_text()
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*language_learning/items\.json')
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*include/constants/items\.h')
+        self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*src/party_menu\.c')
         constants = (demo.ROOT / 'include/constants/items.h').read_text()
+        machine_constants = set(re.findall(r'^#define (ITEM_(?:TM|HM)\d{2}_[A-Z0-9_]+) \d+$',
+                                               constants, re.MULTILINE))
+        self.assertEqual(set(machines), machine_constants)
         held_section = constants.split('// hold items', 1)[1].split('// Key Items', 1)[0]
         held_items = set(re.findall(r'^#define (ITEM_(?!0)[A-Z0-9_]+) \d+$',
                                     held_section, re.MULTILINE))
@@ -641,7 +651,7 @@ class LessonTests(unittest.TestCase):
         berry_constants.add('ITEM_CHERI_BERRY')
         self.assertEqual(len(berry_constants), 43)
         self.assertLessEqual(berry_constants, set(entries))
-        for item, languages in entries.items():
+        for item, languages in {**entries, **machines}.items():
             self.assertRegex(constants, rf'(?m)^#define {item} \d+$')
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:
                 self.assertEqual(len(demo.wrap(languages[tag]['name'], mapping, glyphs, 88)), 1)

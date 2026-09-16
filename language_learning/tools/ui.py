@@ -2,6 +2,27 @@
 import re
 import build_demo as demo
 
+def machine_items():
+    constants = (demo.ROOT / 'include/constants/items.h').read_text()
+    machines = re.findall(r'^#define (ITEM_(?:TM|HM)\d{2}_[A-Z0-9_]+) \d+$',
+                          constants, re.MULTILINE)
+    source = (demo.ROOT / 'src/party_menu.c').read_text(encoding='utf-8')
+    move_table = source.split('const u16 TMHMMoves[] =', 1)[1].split('};', 1)[0]
+    moves = re.findall(r'^\s*(MOVE_[A-Z0-9_]+),$', move_table, re.MULTILINE)
+    if len(machines) != 58 or len(moves) != len(machines):
+        raise ValueError('TM/HM item and move tables do not agree')
+    names = demo.validate.load(demo.ROOT / 'language_learning/battle_names.json')
+    result = {}
+    for item, move in zip(machines, moves):
+        if move not in names:
+            raise ValueError(f'Missing bilingual TM/HM move: {move}')
+        label = item.split('_', 2)[1]
+        result[item] = {
+            'ru': {'name': label, 'description': f'Учит: {names[move]["ru"]}.'},
+            'de': {'name': label, 'description': f'Lehrt: {names[move]["de"]}.'},
+        }
+    return result
+
 def generate(russian, latin, glyphs):
     entries = demo.validate.load(demo.ROOT / 'language_learning/ui.json')
     parts = []
@@ -41,6 +62,8 @@ def generate(russian, latin, glyphs):
     parts.append('\t.balign 4\ngLearnerUiTranslations::\n' + '\n'.join(table))
     parts.append(f'gLearnerUiTranslationCount::\n\t.2byte {len(table)}\n')
     items = demo.validate.load(demo.ROOT / 'language_learning/items.json')
+    for item, translation in machine_items().items():
+        items.setdefault(item, translation)
     item_table = []
     parts.append('#include "constants/items.h"\n')
     for index, (item, languages) in enumerate(items.items()):

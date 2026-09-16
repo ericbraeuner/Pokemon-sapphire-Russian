@@ -309,3 +309,13 @@
   pinch berries describe their distinct low-HP stat or critical-hit effects.
 - The source-derived test now checks all 43 berry constants. The existing
   88-pixel name and two-line 104-pixel description limits still apply.
+
+## TM/HM item descriptions — 2026-09-16
+
+- Generated bilingual entries for all 50 TMs and eight HMs from Sapphire's item
+  constants and its actual TM/HM move table. Machine numbers remain recognizable
+  as `TM01` through `TM50` and `HM01` through `HM08`.
+- Each description names its taught move in Russian or German using the complete
+  shared battle move catalogue. This brings the item table to 223 entries.
+- Tests check source-derived machine coverage, bounded descriptions, and the
+  generated table count. Full move-effect prose remains later editorial work.

@@ -319,3 +319,11 @@
   shared battle move catalogue. This brings the item table to 223 entries.
 - Tests check source-derived machine coverage, bounded descriptions, and the
   generated table count. Full move-effect prose remains later editorial work.
+
+## Complete key-item catalogue — 2026-09-16
+
+- Added Russian and German names and short functional descriptions for all 29
+  actual Sapphire key items, including bikes, rods, tickets, ship keys, orbs,
+  fossils, and the Devon Scope. The unused `ITEM_10B` slot is excluded.
+- The shared item table now has 252 entries. A source-derived test requires all
+  real key-item constants, and every entry passes the existing pixel limits.

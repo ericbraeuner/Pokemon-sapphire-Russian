@@ -637,6 +637,11 @@ class LessonTests(unittest.TestCase):
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*include/constants/items\.h')
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*src/party_menu\.c')
         constants = (demo.ROOT / 'include/constants/items.h').read_text()
+        key_section = constants.split('// Key Items', 1)[1].split('// TMs/HMs', 1)[0]
+        key_items = set(re.findall(r'^#define (ITEM_[A-Z_0-9]+) \d+$',
+                                   key_section, re.MULTILINE)) - {'ITEM_10B'}
+        self.assertEqual(len(key_items), 29)
+        self.assertLessEqual(key_items, set(entries))
         machine_constants = set(re.findall(r'^#define (ITEM_(?:TM|HM)\d{2}_[A-Z0-9_]+) \d+$',
                                                constants, re.MULTILINE))
         self.assertEqual(set(machines), machine_constants)

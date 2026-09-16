@@ -940,5 +940,121 @@
   "ITEM_ENIGMA_BERRY": {
     "ru": {"name": "Ягода Энигма", "description": "Для покеблоков. Посади."},
     "de": {"name": "Enigma-B.", "description": "Block-Zutat. Säen."}
+  },
+  "ITEM_MACH_BIKE": {
+    "ru": {"name": "Быстрый вел.", "description": "Очень быстрый велосипед."},
+    "de": {"name": "Eilrad", "description": "Ein schnelles Rad."}
+  },
+  "ITEM_COIN_CASE": {
+    "ru": {"name": "Монетница", "description": "Хранит игровые монеты."},
+    "de": {"name": "Münzkorb", "description": "Für Spielmünzen."}
+  },
+  "ITEM_ITEMFINDER": {
+    "ru": {"name": "Искатель", "description": "Ищет скрытые предметы."},
+    "de": {"name": "Detektor", "description": "Spürt Items auf."}
+  },
+  "ITEM_OLD_ROD": {
+    "ru": {"name": "Старая удочка", "description": "Лови покемонов на воде."},
+    "de": {"name": "Angel", "description": "Zum Angeln von Pokémon."}
+  },
+  "ITEM_GOOD_ROD": {
+    "ru": {"name": "Хорошая удочка", "description": "Лови лучших покемонов."},
+    "de": {"name": "Profiangel", "description": "Fängt bessere Pokémon."}
+  },
+  "ITEM_SUPER_ROD": {
+    "ru": {"name": "Суперудочка", "description": "Лови редких покемонов."},
+    "de": {"name": "Superangel", "description": "Fängt seltene Pokémon."}
+  },
+  "ITEM_SS_TICKET": {
+    "ru": {"name": "Билет С.С.", "description": "Билет на паром С.С. Прилив."},
+    "de": {"name": "Bootsticket", "description": "Fahrkarte für die Fähre."}
+  },
+  "ITEM_CONTEST_PASS": {
+    "ru": {"name": "Пропуск", "description": "Для участия в конкурсах."},
+    "de": {"name": "Wettb.-Pass", "description": "Zutritt zu Wettbewerben."}
+  },
+  "ITEM_WAILMER_PAIL": {
+    "ru": {"name": "Лейка Вейлмер", "description": "Поливает ягоды."},
+    "de": {"name": "Wailmer-K.", "description": "Gießt Beeren."}
+  },
+  "ITEM_DEVON_GOODS": {
+    "ru": {"name": "Груз Девон", "description": "Важный груз фирмы Девон."},
+    "de": {"name": "Devon-Waren", "description": "Wichtige Ware von Devon."}
+  },
+  "ITEM_SOOT_SACK": {
+    "ru": {"name": "Мешок пепла", "description": "Собирает пепел вулкана."},
+    "de": {"name": "Rußsack", "description": "Sammelt Vulkanasche."}
+  },
+  "ITEM_BASEMENT_KEY": {
+    "ru": {"name": "Ключ подвала", "description": "Открывает дверь в подвал."},
+    "de": {"name": "Kellerschl.", "description": "Öffnet eine Kellertür."}
+  },
+  "ITEM_ACRO_BIKE": {
+    "ru": {"name": "Трюковой вел.", "description": "Велосипед для трюков."},
+    "de": {"name": "Kunstrad", "description": "Ein Rad für Kunststücke."}
+  },
+  "ITEM_POKEBLOCK_CASE": {
+    "ru": {"name": "Футляр блоков", "description": "Хранит покеблоки."},
+    "de": {"name": "Blockbox", "description": "Für Pokériegel."}
+  },
+  "ITEM_LETTER": {
+    "ru": {"name": "Письмо", "description": "Письмо для Стивена."},
+    "de": {"name": "Brief", "description": "Ein Brief für Troy."}
+  },
+  "ITEM_EON_TICKET": {
+    "ru": {"name": "Билет Эон", "description": "Билет на Южный остров."},
+    "de": {"name": "Äon-Ticket", "description": "Fahrt zur Südinsel."}
+  },
+  "ITEM_RED_ORB": {
+    "ru": {"name": "Красная сфера", "description": "Таинственная красная сфера."},
+    "de": {"name": "Rote Kugel", "description": "Rätselhafte rote Kugel."}
+  },
+  "ITEM_BLUE_ORB": {
+    "ru": {"name": "Синяя сфера", "description": "Таинственная синяя сфера."},
+    "de": {"name": "Blaue Kugel", "description": "Rätselhafte blaue Kugel."}
+  },
+  "ITEM_SCANNER": {
+    "ru": {"name": "Сканер", "description": "Прибор с судна."},
+    "de": {"name": "Scanner", "description": "Gerät vom Schiffswrack."}
+  },
+  "ITEM_GO_GOGGLES": {
+    "ru": {"name": "Очки пустыни", "description": "Защищают глаза от песка."},
+    "de": {"name": "Wüstenglas", "description": "Schützt vor Sand."}
+  },
+  "ITEM_METEORITE": {
+    "ru": {"name": "Метеорит", "description": "Камень из космоса."},
+    "de": {"name": "Meteorit", "description": "Ein Stein aus dem Weltall."}
+  },
+  "ITEM_ROOM_1_KEY": {
+    "ru": {"name": "Ключ каюты 1", "description": "Открывает каюту номер 1."},
+    "de": {"name": "Kabine 1", "description": "Schlüssel für Kabine 1."}
+  },
+  "ITEM_ROOM_2_KEY": {
+    "ru": {"name": "Ключ каюты 2", "description": "Открывает каюту номер 2."},
+    "de": {"name": "Kabine 2", "description": "Schlüssel für Kabine 2."}
+  },
+  "ITEM_ROOM_4_KEY": {
+    "ru": {"name": "Ключ каюты 4", "description": "Открывает каюту номер 4."},
+    "de": {"name": "Kabine 4", "description": "Schlüssel für Kabine 4."}
+  },
+  "ITEM_ROOM_6_KEY": {
+    "ru": {"name": "Ключ каюты 6", "description": "Открывает каюту номер 6."},
+    "de": {"name": "Kabine 6", "description": "Schlüssel für Kabine 6."}
+  },
+  "ITEM_STORAGE_KEY": {
+    "ru": {"name": "Ключ склада", "description": "Открывает склад корабля."},
+    "de": {"name": "Lagerschl.", "description": "Öffnet das Schiffslager."}
+  },
+  "ITEM_ROOT_FOSSIL": {
+    "ru": {"name": "Корневой иск.", "description": "Окаменелость покемона."},
+    "de": {"name": "Wurzel-F.", "description": "Altes Fossil."}
+  },
+  "ITEM_CLAW_FOSSIL": {
+    "ru": {"name": "Когтевой иск.", "description": "Окаменелость покемона."},
+    "de": {"name": "Klauen-F.", "description": "Altes Fossil."}
+  },
+  "ITEM_DEVON_SCOPE": {
+    "ru": {"name": "Прибор Девон", "description": "Находит скрытых покемонов."},
+    "de": {"name": "Devon-Scope", "description": "Findet Tarn-Pokémon."}
   }
 }

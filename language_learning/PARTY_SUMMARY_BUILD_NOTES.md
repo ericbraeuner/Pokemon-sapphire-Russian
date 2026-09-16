@@ -351,3 +351,15 @@
   still need an emulator pass for spacing and surrounding message language.
 - The generated item table is ordered by Sapphire's numeric item IDs, allowing
   binary search instead of a full scan on frequently redrawn lists.
+
+## Bag catalogue emulator spot check — 2026-09-16
+
+- Ran the new learner ROM in the ignored mGBA development build using isolated
+  copies of the old QA save. The original fixture checksum stayed unchanged.
+- Inspected Russian and German Bag screenshots for Potion, X Special, Sun Stone,
+  Orange Mail, Mach Bike, and TM01. Names and descriptions stayed within their
+  windows; the menu border and quantities remained intact.
+- German TM01 exposed an overly vague inherited `Power` label for Power-Punch.
+  The shared move name is now `Power-P.`, which fits the move-name limit and also
+  clarifies TM01's description. This is a sample of item display, not a complete
+  Phase 3 interaction pass or a native-speaker review.

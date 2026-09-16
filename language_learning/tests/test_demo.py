@@ -262,6 +262,7 @@ class LessonTests(unittest.TestCase):
             re.MULTILINE))
         move_constants.remove('MOVE_NONE')
         self.assertEqual(move_constants, moves)
+        self.assertEqual(names['MOVE_FOCUS_PUNCH']['de'], 'Power-P.')
         for move in ('MOVE_CUT', 'MOVE_FLY', 'MOVE_HEADBUTT', 'MOVE_DISABLE',
                      'MOVE_SURF', 'MOVE_ICE_BEAM', 'MOVE_EARTHQUAKE',
                      'MOVE_PSYCHIC', 'MOVE_HYPNOSIS', 'MOVE_RECOVER',

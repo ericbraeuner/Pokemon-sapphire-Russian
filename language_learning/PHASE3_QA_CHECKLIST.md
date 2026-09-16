@@ -76,3 +76,19 @@ start a new disposable save.
 Record each problem with language, screen, exact preceding action, screenshot and
 whether it reproduces after reopening the ROM. A Phase 3 emulator pass is complete
 only when every section above passes in Russian and German or has a tracked defect.
+
+## 2026-09-16 targeted PC check
+
+Using copied early-game saves and a separate ROM in `build/phase3-item-qa/`, mGBA
+was driven normally from Littleroot Town through Mom's event to the player's
+upstairs PC. In Russian and German, the PC opening message, main PC menu, item
+storage menu, and stored Potion list rendered in the selected language. The
+withdraw quantity prompt preserved the live item name and quantity of one in
+both languages (`Зелье / Взять: 1.` and `Trank / Geholt: 1.`). Depositing one
+Potion from the Bag likewise displayed the correct name and quantity in both
+languages. The Russian deposit question was corrected from the ambiguous
+`Сколько оставить?` to `Сколько положить?` and rechecked in mGBA. The captured
+screens fit their windows and showed no visibly misplaced glyphs. This checks
+only this one item and route; larger quantities, cancellation, and the other PC
+branches remain unverified. These emulator files are ignored test artifacts,
+not release files.

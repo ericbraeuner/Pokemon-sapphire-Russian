@@ -327,3 +327,14 @@
   fossils, and the Devon Scope. The unused `ITEM_10B` slot is excluded.
 - The shared item table now has 252 entries. A source-derived test requires all
   real key-item constants, and every entry passes the existing pixel limits.
+
+## Complete named item catalogue — 2026-09-16
+
+- Added the final 29 ordinary items: X Special, two battle escape items, six
+  evolution stones, eight sale/collector treasures, and all 12 Mail designs.
+- All 281 hand-authored items plus 58 generated TMs/HMs now cover every named,
+  usable item constant in Sapphire. Only `ITEM_NONE` and anonymous unused slots
+  are intentionally excluded. The test compares the complete sets, so a future
+  named item cannot silently fall back to English.
+- Names and short descriptions are pixel and line bounded in both languages.
+  The names and wording still need native-speaker review in the emulator.

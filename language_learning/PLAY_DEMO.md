@@ -28,8 +28,8 @@ The clock's AM/PM artwork also remains unchanged.
 Shared item receipt/found/storage messages, bag action labels, basic bag prompts,
 and selling confirmations now use the selected language throughout the game.
 Pokédex search explanations, colors, ordering options, and search results are
-translated. The shared catalogue now covers 252 items, including stronger
-potions, revives, repellents, balls, held items, berries, key items, and all 58 TMs/HMs.
+translated. The shared catalogue now covers all 339 named, usable items, including
+medicines, balls, held items, berries, key items, mail, and all 58 TMs/HMs.
 Each machine description names the move it teaches. Bag pocket labels and Pokédex search-button
 graphics are translated too, including during pocket-switch animations.
 Pokédex list navigation, seen/caught counters and menu/search captions now use

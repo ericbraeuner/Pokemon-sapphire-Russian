@@ -1056,5 +1056,121 @@
   "ITEM_DEVON_SCOPE": {
     "ru": {"name": "Прибор Девон", "description": "Находит скрытых покемонов."},
     "de": {"name": "Devon-Scope", "description": "Findet Tarn-Pokémon."}
+  },
+  "ITEM_X_SPECIAL": {
+    "ru": {"name": "Икс-спец.", "description": "В бою повышает Сп. Ат."},
+    "de": {"name": "X-Spezial", "description": "Sp.-Angr. steigt."}
+  },
+  "ITEM_POKE_DOLL": {
+    "ru": {"name": "Покекукла", "description": "Помогает сбежать из боя."},
+    "de": {"name": "Poképuppe", "description": "Hilft bei der Flucht."}
+  },
+  "ITEM_FLUFFY_TAIL": {
+    "ru": {"name": "Пушистый хвост", "description": "Помогает сбежать из боя."},
+    "de": {"name": "Eneco-Rute", "description": "Hilft bei der Flucht."}
+  },
+  "ITEM_SUN_STONE": {
+    "ru": {"name": "Солнеч. камень", "description": "Вызывает эволюцию."},
+    "de": {"name": "Sonnenstein", "description": "Entwickelt Pokémon."}
+  },
+  "ITEM_MOON_STONE": {
+    "ru": {"name": "Лунный камень", "description": "Вызывает эволюцию."},
+    "de": {"name": "Mondstein", "description": "Entwickelt Pokémon."}
+  },
+  "ITEM_FIRE_STONE": {
+    "ru": {"name": "Огненный кам.", "description": "Вызывает эволюцию."},
+    "de": {"name": "Feuerstein", "description": "Entwickelt Pokémon."}
+  },
+  "ITEM_THUNDER_STONE": {
+    "ru": {"name": "Громовой кам.", "description": "Вызывает эволюцию."},
+    "de": {"name": "Donnerstein", "description": "Entwickelt Pokémon."}
+  },
+  "ITEM_WATER_STONE": {
+    "ru": {"name": "Водный камень", "description": "Вызывает эволюцию."},
+    "de": {"name": "Wasserstein", "description": "Entwickelt Pokémon."}
+  },
+  "ITEM_LEAF_STONE": {
+    "ru": {"name": "Листовой кам.", "description": "Вызывает эволюцию."},
+    "de": {"name": "Blattstein", "description": "Entwickelt Pokémon."}
+  },
+  "ITEM_TINY_MUSHROOM": {
+    "ru": {"name": "Малый гриб", "description": "Можно дешево продать."},
+    "de": {"name": "Minipilz", "description": "Bringt wenig Geld."}
+  },
+  "ITEM_BIG_MUSHROOM": {
+    "ru": {"name": "Большой гриб", "description": "Можно дорого продать."},
+    "de": {"name": "Riesenpilz", "description": "Bringt viel Geld."}
+  },
+  "ITEM_PEARL": {
+    "ru": {"name": "Жемчужина", "description": "Можно дешево продать."},
+    "de": {"name": "Perle", "description": "Bringt wenig Geld."}
+  },
+  "ITEM_BIG_PEARL": {
+    "ru": {"name": "Крупная жемч.", "description": "Можно дорого продать."},
+    "de": {"name": "Riesenperle", "description": "Bringt viel Geld."}
+  },
+  "ITEM_STARDUST": {
+    "ru": {"name": "Звездная пыль", "description": "Можно дорого продать."},
+    "de": {"name": "Sternstaub", "description": "Bringt viel Geld."}
+  },
+  "ITEM_STAR_PIECE": {
+    "ru": {"name": "Звездный оск.", "description": "Можно очень дорого продать."},
+    "de": {"name": "Sternstück", "description": "Bringt sehr viel Geld."}
+  },
+  "ITEM_NUGGET": {
+    "ru": {"name": "Самородок", "description": "Чистое золото на продажу."},
+    "de": {"name": "Nugget", "description": "Gold zum Verkaufen."}
+  },
+  "ITEM_HEART_SCALE": {
+    "ru": {"name": "Сердеч. чешуя", "description": "Редкая красивая чешуя."},
+    "de": {"name": "Herzschuppe", "description": "Seltene Schuppe."}
+  },
+  "ITEM_ORANGE_MAIL": {
+    "ru": {"name": "Оранж. письмо", "description": "Письмо с Зигзагуном."},
+    "de": {"name": "Zigzagbrief", "description": "Brief mit Zigzachs."}
+  },
+  "ITEM_HARBOR_MAIL": {
+    "ru": {"name": "Порт. письмо", "description": "Письмо с Вингаллом."},
+    "de": {"name": "Hafenbrief", "description": "Brief mit Wingull."}
+  },
+  "ITEM_GLITTER_MAIL": {
+    "ru": {"name": "Блест. письмо", "description": "Письмо с Пикачу."},
+    "de": {"name": "Glitzbrief", "description": "Brief mit Pikachu."}
+  },
+  "ITEM_MECH_MAIL": {
+    "ru": {"name": "Мех. письмо", "description": "Письмо с Магнемайтом."},
+    "de": {"name": "Eilbrief", "description": "Brief mit Magnetilo."}
+  },
+  "ITEM_WOOD_MAIL": {
+    "ru": {"name": "Лесное письмо", "description": "Письмо со Слакотом."},
+    "de": {"name": "Waldbrief", "description": "Brief mit Bummelz."}
+  },
+  "ITEM_WAVE_MAIL": {
+    "ru": {"name": "Письмо волн", "description": "Письмо с Вейлмером."},
+    "de": {"name": "Wellenbrief", "description": "Brief mit Wailmer."}
+  },
+  "ITEM_BEAD_MAIL": {
+    "ru": {"name": "Письмо бусин", "description": "Рисунок носителя."},
+    "de": {"name": "Perlenbrief", "description": "Zeigt den Träger."}
+  },
+  "ITEM_SHADOW_MAIL": {
+    "ru": {"name": "Теневое письмо", "description": "Письмо с Даскуллом."},
+    "de": {"name": "Dunkelbrief", "description": "Brief mit Zwirrlicht."}
+  },
+  "ITEM_TROPIC_MAIL": {
+    "ru": {"name": "Тропик. письмо", "description": "Письмо с Беллоссомом."},
+    "de": {"name": "Tropenbrief", "description": "Brief mit Blubella."}
+  },
+  "ITEM_DREAM_MAIL": {
+    "ru": {"name": "Письмо снов", "description": "Рисунок носителя."},
+    "de": {"name": "Traumbrief", "description": "Zeigt den Träger."}
+  },
+  "ITEM_FAB_MAIL": {
+    "ru": {"name": "Красив. письмо", "description": "Письмо с ярким узором."},
+    "de": {"name": "Edelbrief", "description": "Brief mit edlem Muster."}
+  },
+  "ITEM_RETRO_MAIL": {
+    "ru": {"name": "Ретро-письмо", "description": "Рисунок трех покемонов."},
+    "de": {"name": "Retrobrief", "description": "Zeigt drei Pokémon."}
   }
 }

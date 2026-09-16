@@ -637,6 +637,11 @@ class LessonTests(unittest.TestCase):
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*include/constants/items\.h')
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*src/party_menu\.c')
         constants = (demo.ROOT / 'include/constants/items.h').read_text()
+        named_items = set(re.findall(r'^#define (ITEM_[A-Z0-9_]+) \d+$',
+                                         constants, re.MULTILINE))
+        named_items = {item for item in named_items
+                       if item != 'ITEM_NONE' and not re.fullmatch(r'ITEM_[0-9A-F]{3}', item)}
+        self.assertEqual(set(entries) | set(machines), named_items)
         key_section = constants.split('// Key Items', 1)[1].split('// TMs/HMs', 1)[0]
         key_items = set(re.findall(r'^#define (ITEM_[A-Z_0-9]+) \d+$',
                                    key_section, re.MULTILINE)) - {'ITEM_10B'}

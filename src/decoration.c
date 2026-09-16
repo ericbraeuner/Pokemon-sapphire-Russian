@@ -2216,10 +2216,18 @@ void sub_80FF5BC(u8 taskId)
             ConvertIntToDecimalStringN(gStringVar1, sDecorationContext.size, STR_CONV_MODE_RIGHT_ALIGN, 2);
             if (!sDecorationContext.isPlayerRoom)
             {
+#if LEARNER_DEMO
+                StringExpandPlaceholders(gStringVar4, Learner_Translate(gSecretBaseText_NoMoreDecor));
+#else
                 StringExpandPlaceholders(gStringVar4, gSecretBaseText_NoMoreDecor);
+#endif
             } else
             {
+#if LEARNER_DEMO
+                StringExpandPlaceholders(gStringVar4, Learner_Translate(gSecretBaseText_NoMoreDecor2));
+#else
                 StringExpandPlaceholders(gStringVar4, gSecretBaseText_NoMoreDecor2);
+#endif
             }
             DisplayItemMessageOnField(taskId, gStringVar4, sub_80FEFF4, 0);
         }
@@ -3600,7 +3608,11 @@ void sub_81017A0(u8 taskId)
     if (sub_80FEFA4() == TRUE)
     {
         StringCopy(gStringVar1, gDecorations[gUnknown_020388D0[gUnknown_020388F5]].name);
+#if LEARNER_DEMO
+        StringExpandPlaceholders(gStringVar4, Learner_Translate(gSecretBaseText_WillBeDiscarded));
+#else
         StringExpandPlaceholders(gStringVar4, gSecretBaseText_WillBeDiscarded);
+#endif
         DisplayItemMessageOnField(taskId, gStringVar4, sub_8101824, 0);
     } else
     {

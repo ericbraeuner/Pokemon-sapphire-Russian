@@ -970,10 +970,15 @@ void ScriptMenu_CreatePCMenu(void)
 {
     u8 width;
     u8 numChoices;
+#if LEARNER_DEMO
+#define PC_MENU_TEXT(text) Learner_Translate(text)
+#else
+#define PC_MENU_TEXT(text) (text)
+#endif
 
 #if ENGLISH
-    u16 playersPCWidth = GetStringWidthInTilesForScriptMenu(gPCText_PlayersPC);
-    if (playersPCWidth > GetStringWidthInTilesForScriptMenu(gPCText_SomeonesPC))
+    u16 playersPCWidth = GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_PlayersPC));
+    if (playersPCWidth > GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_SomeonesPC)))
         width = playersPCWidth;
     else
         width = 8;
@@ -983,13 +988,13 @@ void ScriptMenu_CreatePCMenu(void)
     s32 r5;
 
     if (FlagGet(FLAG_SYS_PC_LANETTE))
-        sp8[r4++] = GetStringWidthInTilesForScriptMenu(gPCText_LanettesPC);
+        sp8[r4++] = GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_LanettesPC));
     else
-        sp8[r4++] = GetStringWidthInTilesForScriptMenu(gPCText_SomeonesPC);
-    sp8[r4++] = GetStringWidthInTilesForScriptMenu(gPCText_PlayersPC);
-    sp8[r4++] = GetStringWidthInTilesForScriptMenu(gPCText_LogOff);
+        sp8[r4++] = GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_SomeonesPC));
+    sp8[r4++] = GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_PlayersPC));
+    sp8[r4++] = GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_LogOff));
     if (FlagGet(FLAG_SYS_GAME_CLEAR))
-        sp8[r4++] = GetStringWidthInTilesForScriptMenu(gPCText_HallOfFame);
+        sp8[r4++] = GetStringWidthInTilesForScriptMenu(PC_MENU_TEXT(gPCText_HallOfFame));
 
     width = 0;
     for (r5 = 0; r5 < r4; r5++)
@@ -1002,7 +1007,7 @@ void ScriptMenu_CreatePCMenu(void)
 #if LEARNER_DEMO
     if (Learner_GetLanguage())
     {
-        const u8 *labels[] = {gPCText_SomeonesPC, gPCText_LanettesPC, gPCText_PlayersPC, gPCText_HallOfFame, gPCText_LogOff};
+        const u8 *labels[] = {PC_MENU_TEXT(gPCText_SomeonesPC), PC_MENU_TEXT(gPCText_LanettesPC), PC_MENU_TEXT(gPCText_PlayersPC), PC_MENU_TEXT(gPCText_HallOfFame), PC_MENU_TEXT(gPCText_LogOff)};
         u8 i;
         width = 0;
         for (i = 0; i < 5; i++)
@@ -1018,24 +1023,25 @@ void ScriptMenu_CreatePCMenu(void)
     {
         numChoices = 4;
         Menu_DrawStdWindowFrame(0, 0, width + 2, 9);
-        Menu_PrintText(gPCText_HallOfFame, 1, 5);
-        Menu_PrintText(gPCText_LogOff, 1, 7);
+        Menu_PrintText(PC_MENU_TEXT(gPCText_HallOfFame), 1, 5);
+        Menu_PrintText(PC_MENU_TEXT(gPCText_LogOff), 1, 7);
     }
     else
     {
         numChoices = 3;
         Menu_DrawStdWindowFrame(0, 0, width + 2, 7);
-        Menu_PrintText(gPCText_LogOff, 1, 5);
+        Menu_PrintText(PC_MENU_TEXT(gPCText_LogOff), 1, 5);
     }
 
     if (FlagGet(FLAG_SYS_PC_LANETTE)) // player met lanette?
-        Menu_PrintText(gPCText_LanettesPC, 1, 1);
+        Menu_PrintText(PC_MENU_TEXT(gPCText_LanettesPC), 1, 1);
     else
-        Menu_PrintText(gPCText_SomeonesPC, 1, 1);
+        Menu_PrintText(PC_MENU_TEXT(gPCText_SomeonesPC), 1, 1);
 
-    Menu_PrintText(gPCText_PlayersPC, 1, 3);
+    Menu_PrintText(PC_MENU_TEXT(gPCText_PlayersPC), 1, 3);
     InitMenu(0, 1, 1, numChoices, 0, width + 1);
     StartScriptMenuTask(0, 0, width + 2, 2 * numChoices + 1, 0, numChoices);
+#undef PC_MENU_TEXT
 }
 
 void ScriptMenu_DisplayPCStartupPrompt(void)

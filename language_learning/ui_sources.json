@@ -263,18 +263,6 @@
     "width": 184,
     "lines": 2
   },
-  "gSecretBaseText_NoMoreDecor": {
-    "ru": "Больше ничего не помещается.",
-    "de": "Mehr Deko passt hier nicht hin.",
-    "width": 184,
-    "lines": 2
-  },
-  "gSecretBaseText_NoMoreDecor2": {
-    "ru": "Больше ничего не помещается.",
-    "de": "Mehr Deko passt hier nicht hin.",
-    "width": 184,
-    "lines": 2
-  },
   "gSecretBaseText_CancelDecorating": {
     "ru": "Закончить расстановку?",
     "de": "Aufstellen beenden?",
@@ -323,12 +311,6 @@
     "width": 184,
     "lines": 2
   },
-  "gSecretBaseText_WillBeDiscarded": {
-    "ru": "Выбросить украшение?",
-    "de": "Diese Deko wegwerfen?",
-    "width": 184,
-    "lines": 2
-  },
   "gSecretBaseText_DecorInUse": {
     "ru": "Украшение сейчас используется.",
     "de": "Diese Deko wird gerade benutzt.",
@@ -338,12 +320,6 @@
   "gSecretBaseText_DecorThrownAway": {
     "ru": "Украшение выброшено.",
     "de": "Die Deko wurde weggeworfen.",
-    "width": 184,
-    "lines": 2
-  },
-  "gOtherText_WhatWillYouDoMail": {
-    "ru": "Что сделать с письмом?",
-    "de": "Was möchtest du mit der Post tun?",
     "width": 184,
     "lines": 2
   },
@@ -398,12 +374,6 @@
   "gOtherText_HowManyToWithdraw": {
     "ru": "Сколько взять?",
     "de": "Wie viele nehmen?",
-    "width": 104,
-    "lines": 2
-  },
-  "gOtherText_WithdrewThing": {
-    "ru": "Вещи взяты.",
-    "de": "Items genommen.",
     "width": 104,
     "lines": 2
   },
@@ -827,12 +797,6 @@
     "width": 192,
     "lines": 4
   },
-  "gOtherText_HowManyYouWant": {
-    "ru": "Сколько желаешь купить?",
-    "de": "Wie viele möchtest du?",
-    "width": 192,
-    "lines": 4
-  },
   "gOtherText_HereYouGo": {
     "ru": "Вот, пожалуйста! Спасибо за покупку!",
     "de": "Bitte sehr! Vielen Dank!",
@@ -914,12 +878,6 @@
   "gPCText_LanettesPC": {
     "ru": "ПК Ланетт",
     "de": "Lanettes PC",
-    "width": 96,
-    "lines": 1
-  },
-  "gPCText_PlayersPC": {
-    "ru": "Мой ПК",
-    "de": "Mein PC",
     "width": 96,
     "lines": 1
   },

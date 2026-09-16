@@ -952,15 +952,13 @@ static void ItemStorage_PrintItemPcResponse(u16 itemId)
             string = gOtherText_SwitchWhichItem;
             break;
         default:
-#if LEARNER_DEMO
-            if (itemId == ITEM_POTION && Learner_GetLanguage())
-                string = LEARNER_UI(Learner_GetLanguage(), PotionDescription);
-            else
-#endif
             string = ItemId_GetDescription(itemId);
             break;
     }
 
+#if LEARNER_DEMO
+    string = Learner_Translate(string);
+#endif
     sub_8072AB0(string, 8, 0x68, 0x68, 0x30, 1);
 }
 
@@ -1156,7 +1154,11 @@ static void Mailbox_PrintWhatToDoWithPlayerMailText(u8 taskId)
     Menu_EraseWindowRect(0, 0, 0x1D, 0x13);
     StringCopy(gStringVar1, gSaveBlock1.mail[eMailboxInfo.itemsAbove + 6 + eMailboxInfo.cursorPos].playerName);
     SanitizeNameString(gStringVar1);
+#if LEARNER_DEMO
+    StringExpandPlaceholders(gStringVar4, Learner_Translate(gOtherText_WhatWillYouDoMail));
+#else
     StringExpandPlaceholders(gStringVar4, gOtherText_WhatWillYouDoMail);
+#endif
     DisplayItemMessageOnField(taskId, gStringVar4, Mailbox_PrintMailOptions, 0);
 }
 

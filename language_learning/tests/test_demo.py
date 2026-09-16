@@ -557,9 +557,38 @@ class LessonTests(unittest.TestCase):
         entries = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         expected = {'Text_ObtainedTheItem': [3], 'Text_FoundOneItem': [1, 3],
                     'Text_PutItemInPocket': [3, 4], 'gOtherText_SoldItem': [2, 3],
+                    'gOtherText_WithdrewThing': [2, 3],
+                    'gOtherText_HowManyYouWant': [2],
+                    'gOtherText_WhatWillYouDoMail': [2],
+                    'gPCText_PlayersPC': [1],
+                    'gSecretBaseText_NoMoreDecor': [2],
+                    'gSecretBaseText_NoMoreDecor2': [2],
+                    'gSecretBaseText_WillBeDiscarded': [2],
                     'gOtherText_Coins3': [2], 'gOtherText_ContainsMove': [2],
                     'gOtherText_SnapConfusion': [2], 'gOtherText_SafariStock': [2]}
         exports = (demo.ROOT / 'data/text/obtain_item.inc').read_text()
+        pc_source = (demo.ROOT / 'src/player_pc.c').read_text(encoding='utf-8')
+        response = pc_source.split('static void ItemStorage_PrintItemPcResponse(u16 itemId)\n{', 1)[1].split('\n}', 1)[0]
+        self.assertIn('string = Learner_Translate(string);', response)
+        self.assertIn('string = ItemId_GetDescription(itemId);', response)
+        self.assertIn('Learner_Translate(gOtherText_WhatWillYouDoMail)', pc_source)
+        shop_source = (demo.ROOT / 'src/shop.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_Translate(gOtherText_HowManyYouWant)', shop_source)
+        menu_source = (demo.ROOT / 'src/script_menu.c').read_text(encoding='utf-8')
+        self.assertIn('Menu_PrintText(PC_MENU_TEXT(gPCText_PlayersPC)', menu_source)
+        decor_source = (demo.ROOT / 'src/decoration.c').read_text(encoding='utf-8')
+        for symbol in ('gSecretBaseText_NoMoreDecor', 'gSecretBaseText_NoMoreDecor2',
+                       'gSecretBaseText_WillBeDiscarded'):
+            self.assertIn(f'Learner_Translate({symbol})', decor_source)
+        fixed_sources = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        self.assertFalse(set(expected) & set(fixed_sources))
+        original_strings = (demo.ROOT / 'src/strings.c').read_text(encoding='utf-8')
+        for symbol in fixed_sources:
+            source = re.search(r'const u8 ' + re.escape(symbol) + r'\[\] = _\((.*?)\);',
+                               original_strings, re.DOTALL)
+            if source:
+                self.assertNotRegex(source.group(1), r'\{(?:PLAYER|STR_VAR_[123])\}',
+                                    f'{symbol} loses a live value in its fixed translation')
         for symbol, tokens in expected.items():
             entry = entries[symbol]
             if symbol.startswith('Text_'):

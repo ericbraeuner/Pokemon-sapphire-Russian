@@ -363,3 +363,16 @@
   The shared move name is now `Power-P.`, which fits the move-name limit and also
   clarifies TM01's description. This is a sample of item display, not a complete
   Phase 3 interaction pass or a native-speaker review.
+
+## PC, shop, mail, and decoration live values — 2026-09-16
+
+- PC item-storage responses now pass through the selected-language lookup. The
+  withdrawal message retains the actual item name and quantity, and descriptions
+  use the complete shared item catalogue.
+- Shop quantity, mailbox, and player-PC labels now retain the live item, mail
+  owner, and player names rather than replacing them with generic fixed text.
+- Secret Base placement limits and discard confirmation retain the numeric limit
+  or decoration name. Tests require each live placeholder in both languages and
+  enforce its text-window width. The stock Sapphire checksum remains unchanged.
+- These interaction branches still need an in-emulator walkthrough; source and
+  pixel checks alone do not prove their runtime layout or menu cleanup.

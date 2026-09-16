@@ -114,6 +114,51 @@
     },
     "max_width": 104
   },
+  "gOtherText_WithdrewThing": {
+    "ru": "{STR_VAR_1}\\nВзято: {STR_VAR_2}.",
+    "de": "{STR_VAR_1}\\nGeholt: {STR_VAR_2}.",
+    "widths": {
+      "STR_VAR_1": 88,
+      "STR_VAR_2": 24
+    },
+    "max_width": 104
+  },
+  "gOtherText_HowManyYouWant": {
+    "ru": "{STR_VAR_1}?\\nСколько купить?",
+    "de": "{STR_VAR_1}?\\nWie viele kaufen?",
+    "widths": {"STR_VAR_1": 88},
+    "max_width": 192
+  },
+  "gOtherText_WhatWillYouDoMail": {
+    "ru": "Письмо {STR_VAR_1}.\\nЧто сделать?",
+    "de": "Brief von {STR_VAR_1}.\\nWas tun?",
+    "widths": {"STR_VAR_1": 64},
+    "max_width": 192
+  },
+  "gPCText_PlayersPC": {
+    "ru": "ПК {PLAYER}",
+    "de": "PC {PLAYER}",
+    "widths": {"PLAYER": 56},
+    "max_width": 96
+  },
+  "gSecretBaseText_NoMoreDecor": {
+    "ru": "Лимит украшений: {STR_VAR_1}.",
+    "de": "Deko-Limit: {STR_VAR_1}.",
+    "widths": {"STR_VAR_1": 24},
+    "max_width": 184
+  },
+  "gSecretBaseText_NoMoreDecor2": {
+    "ru": "Лимит украшений: {STR_VAR_1}.",
+    "de": "Deko-Limit: {STR_VAR_1}.",
+    "widths": {"STR_VAR_1": 24},
+    "max_width": 184
+  },
+  "gSecretBaseText_WillBeDiscarded": {
+    "ru": "{STR_VAR_1} выбросить?",
+    "de": "{STR_VAR_1} wegwerfen?",
+    "widths": {"STR_VAR_1": 88},
+    "max_width": 184
+  },
   "gOtherText_UsedItem": {
     "ru": "{PLAYER}: применён\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",
     "de": "{PLAYER} nutzt:\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}",

@@ -611,7 +611,7 @@ class LessonTests(unittest.TestCase):
         assembly = '\n'.join(ui.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerItemTranslations::', assembly)
         self.assertIn(f'gLearnerItemTranslationCount::\n\t.2byte {len(entries)}', assembly)
-        self.assertGreaterEqual(len(entries), 70)
+        self.assertGreaterEqual(len(entries), 122)
         balls = {
             'ITEM_MASTER_BALL', 'ITEM_ULTRA_BALL', 'ITEM_GREAT_BALL',
             'ITEM_POKE_BALL', 'ITEM_SAFARI_BALL', 'ITEM_NET_BALL',
@@ -630,6 +630,10 @@ class LessonTests(unittest.TestCase):
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*language_learning/items\.json')
         self.assertRegex(makefile, r'build/learner_demo/lesson\.s:.*include/constants/items\.h')
         constants = (demo.ROOT / 'include/constants/items.h').read_text()
+        held_section = constants.split('// hold items', 1)[1].split('// Key Items', 1)[0]
+        held_items = set(re.findall(r'^#define (ITEM_(?!0)[A-Z0-9_]+) \d+$',
+                                    held_section, re.MULTILINE))
+        self.assertLessEqual(held_items, set(entries))
         for item, languages in entries.items():
             self.assertRegex(constants, rf'(?m)^#define {item} \d+$')
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs), ('de', self.latin, {})]:

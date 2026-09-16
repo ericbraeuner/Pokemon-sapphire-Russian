@@ -282,3 +282,13 @@
   storage, held-item and item-use paths as the original catalogue entries.
 - Added group-level regression checks for every ball and each new utility/material
   item; all names and descriptions pass their pixel and line limits.
+
+## Complete held-item catalogue — 2026-09-09
+
+- Added all 47 battle/evolution held items and the five Contest scarves, expanding
+  the generated catalogue from 70 to 122 items.
+- Coverage includes battle effects, experience and friendship aids, evolutionary
+  items, every type booster, species-specific items and breeding incense.
+- An exhaustive test now derives the usable held-item constants from `items.h`
+  and requires all of them in the learner catalogue. Names and descriptions still
+  pass the shared one-line and two-line pixel limits.

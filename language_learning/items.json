@@ -560,5 +560,213 @@
   "ITEM_GREEN_SHARD": {
     "ru": {"name": "Зелён. осколок", "description": "Осколок древней вещи."},
     "de": {"name": "Grünstück", "description": "Scherbe eines Relikts."}
+  },
+  "ITEM_BRIGHT_POWDER": {
+    "ru": {"name": "Светопыль", "description": "Снижает меткость врага."},
+    "de": {"name": "Blendpuder", "description": "Feind trifft seltener."}
+  },
+  "ITEM_WHITE_HERB": {
+    "ru": {"name": "Белая трава", "description": "Снимает снижение параметров."},
+    "de": {"name": "Schlohkraut", "description": "Hebt gesenkte Werte auf."}
+  },
+  "ITEM_MACHO_BRACE": {
+    "ru": {"name": "Мачо-браслет", "description": "Рост выше, скорость ниже."},
+    "de": {"name": "Machoband", "description": "Wachstum; langsamer."}
+  },
+  "ITEM_EXP_SHARE": {
+    "ru": {"name": "Доля опыта", "description": "Делит опыт с носителем."},
+    "de": {"name": "EP-Teiler", "description": "Teilt EP mit dem Träger."}
+  },
+  "ITEM_QUICK_CLAW": {
+    "ru": {"name": "Быстр. коготь", "description": "Иногда даёт первый ход."},
+    "de": {"name": "Flinkklaue", "description": "Manchmal zuerst."}
+  },
+  "ITEM_SOOTHE_BELL": {
+    "ru": {"name": "Мягкий звон", "description": "Ускоряет рост дружбы."},
+    "de": {"name": "Sanftglocke", "description": "Fördert Freundschaft."}
+  },
+  "ITEM_MENTAL_HERB": {
+    "ru": {"name": "Ментал-трава", "description": "Снимает влечение."},
+    "de": {"name": "Mentalkraut", "description": "Heilt Anziehung."}
+  },
+  "ITEM_CHOICE_BAND": {
+    "ru": {"name": "Лента выбора", "description": "Сила выше; один приём."},
+    "de": {"name": "Wahlband", "description": "Mehr Kraft; eine Attacke."}
+  },
+  "ITEM_KINGS_ROCK": {
+    "ru": {"name": "Камень короля", "description": "Может вызвать испуг."},
+    "de": {"name": "King-Stein", "description": "Kann Feind erschrecken."}
+  },
+  "ITEM_SILVER_POWDER": {
+    "ru": {"name": "Серебропыль", "description": "Усиливает тип Жук."},
+    "de": {"name": "Silberstaub", "description": "Stärkt Käfer."}
+  },
+  "ITEM_AMULET_COIN": {
+    "ru": {"name": "Монета-амулет", "description": "Удваивает призовые деньги."},
+    "de": {"name": "Münzamulett", "description": "Doppeltes Preisgeld."}
+  },
+  "ITEM_CLEANSE_TAG": {
+    "ru": {"name": "Чистый знак", "description": "Отпугивает диких."},
+    "de": {"name": "Schutzband", "description": "Hält wilde Pokémon fern."}
+  },
+  "ITEM_SOUL_DEW": {
+    "ru": {"name": "Капля души", "description": "Усиливает Латиаса и Латиоса."},
+    "de": {"name": "Seelentau", "description": "Stärkt Latias und Latios."}
+  },
+  "ITEM_DEEP_SEA_TOOTH": {
+    "ru": {"name": "Морской зуб", "description": "Повышает Сп. Атк Кламперла."},
+    "de": {"name": "Abysszahn", "description": "Perlu: mehr Sp.-Angr."}
+  },
+  "ITEM_DEEP_SEA_SCALE": {
+    "ru": {"name": "Морская чешуя", "description": "Повышает Сп. Защ Кламперла."},
+    "de": {"name": "Abyssplatte", "description": "Perlu: mehr Sp.-Vert."}
+  },
+  "ITEM_SMOKE_BALL": {
+    "ru": {"name": "Дымовой шар", "description": "Позволяет всегда убежать."},
+    "de": {"name": "Rauchball", "description": "Erlaubt immer die Flucht."}
+  },
+  "ITEM_EVERSTONE": {
+    "ru": {"name": "Вечный камень", "description": "Останавливает эволюцию."},
+    "de": {"name": "Ewigstein", "description": "Verhindert Entwicklung."}
+  },
+  "ITEM_FOCUS_BAND": {
+    "ru": {"name": "Фокус-лента", "description": "Иногда спасает от нокаута."},
+    "de": {"name": "Fokus-Band", "description": "Kann K. o. abwenden."}
+  },
+  "ITEM_LUCKY_EGG": {
+    "ru": {"name": "Счастл. яйцо", "description": "Даёт больше опыта."},
+    "de": {"name": "Glücks-Ei", "description": "Gibt mehr EP."}
+  },
+  "ITEM_SCOPE_LENS": {
+    "ru": {"name": "Линза прицела", "description": "Повышает шанс крит. удара."},
+    "de": {"name": "Scope-Linse", "description": "Mehr Volltreffer."}
+  },
+  "ITEM_METAL_COAT": {
+    "ru": {"name": "Метал. покров", "description": "Усиливает тип Сталь."},
+    "de": {"name": "Metallmant.", "description": "Stärkt Stahl."}
+  },
+  "ITEM_LEFTOVERS": {
+    "ru": {"name": "Остатки", "description": "Лечит понемногу каждый ход."},
+    "de": {"name": "Überreste", "description": "Heilt jede Runde."}
+  },
+  "ITEM_DRAGON_SCALE": {
+    "ru": {"name": "Чешуя дракона", "description": "Вызывает особую эволюцию."},
+    "de": {"name": "Drachenhaut", "description": "Für eine Entwicklung."}
+  },
+  "ITEM_LIGHT_BALL": {
+    "ru": {"name": "Световой шар", "description": "Повышает Сп. Атк Пикачу."},
+    "de": {"name": "Kugelblitz", "description": "Hebt Pikachus Sp.-Angr."}
+  },
+  "ITEM_SOFT_SAND": {
+    "ru": {"name": "Мягкий песок", "description": "Усиливает тип Земля."},
+    "de": {"name": "Pudersand", "description": "Stärkt Boden."}
+  },
+  "ITEM_HARD_STONE": {
+    "ru": {"name": "Твёрд. камень", "description": "Усиливает тип Камень."},
+    "de": {"name": "Granitstein", "description": "Stärkt Gestein."}
+  },
+  "ITEM_MIRACLE_SEED": {
+    "ru": {"name": "Чудо-семя", "description": "Усиливает тип Трава."},
+    "de": {"name": "Wundersaat", "description": "Stärkt Pflanze."}
+  },
+  "ITEM_BLACK_GLASSES": {
+    "ru": {"name": "Чёрные очки", "description": "Усиливает Тёмный тип."},
+    "de": {"name": "Dunkelglas", "description": "Stärkt Unlicht."}
+  },
+  "ITEM_BLACK_BELT": {
+    "ru": {"name": "Чёрный пояс", "description": "Усиливает тип Бой."},
+    "de": {"name": "Schwarzgurt", "description": "Stärkt Kampf."}
+  },
+  "ITEM_MAGNET": {
+    "ru": {"name": "Магнит", "description": "Усиливает тип Электро."},
+    "de": {"name": "Magnet", "description": "Stärkt Elektro."}
+  },
+  "ITEM_MYSTIC_WATER": {
+    "ru": {"name": "Чудо-вода", "description": "Усиливает тип Вода."},
+    "de": {"name": "Zauberw.", "description": "Stärkt Wasser."}
+  },
+  "ITEM_SHARP_BEAK": {
+    "ru": {"name": "Острый клюв", "description": "Усиливает тип Полёт."},
+    "de": {"name": "Hackattack", "description": "Stärkt Flug."}
+  },
+  "ITEM_POISON_BARB": {
+    "ru": {"name": "Ядовитый шип", "description": "Усиливает тип Яд."},
+    "de": {"name": "Giftstich", "description": "Stärkt Gift."}
+  },
+  "ITEM_NEVER_MELT_ICE": {
+    "ru": {"name": "Вечный лёд", "description": "Усиливает тип Лёд."},
+    "de": {"name": "Ewiges Eis", "description": "Stärkt Eis-Attacken."}
+  },
+  "ITEM_SPELL_TAG": {
+    "ru": {"name": "Знак чар", "description": "Усиливает тип Призрак."},
+    "de": {"name": "Bannsticker", "description": "Stärkt Geist."}
+  },
+  "ITEM_TWISTED_SPOON": {
+    "ru": {"name": "Гнутая ложка", "description": "Усиливает тип Психо."},
+    "de": {"name": "Krümmlöffel", "description": "Stärkt Psycho."}
+  },
+  "ITEM_CHARCOAL": {
+    "ru": {"name": "Древ. уголь", "description": "Усиливает тип Огонь."},
+    "de": {"name": "Holzkohle", "description": "Stärkt Feuer."}
+  },
+  "ITEM_DRAGON_FANG": {
+    "ru": {"name": "Клык дракона", "description": "Усиливает тип Дракон."},
+    "de": {"name": "Drachenzahn", "description": "Stärkt Drache."}
+  },
+  "ITEM_SILK_SCARF": {
+    "ru": {"name": "Шёлковый шарф", "description": "Усиливает Норм. тип."},
+    "de": {"name": "Seidenschal", "description": "Stärkt Normal."}
+  },
+  "ITEM_UP_GRADE": {
+    "ru": {"name": "Апгрейд", "description": "Эволюционный прибор."},
+    "de": {"name": "Up-Grade", "description": "Gerät zur Entwicklung."}
+  },
+  "ITEM_SHELL_BELL": {
+    "ru": {"name": "Ракушкозвон", "description": "Лечит при нанесении урона."},
+    "de": {"name": "Seegesang", "description": "Heilt nach Schaden."}
+  },
+  "ITEM_SEA_INCENSE": {
+    "ru": {"name": "Морской ладан", "description": "Усиливает Воду; для Азурилла."},
+    "de": {"name": "Seerauch", "description": "Wasser +. Für Azurill."}
+  },
+  "ITEM_LAX_INCENSE": {
+    "ru": {"name": "Небр. ладан", "description": "Меткость ниже; Вайнаут."},
+    "de": {"name": "Laxrauch", "description": "Treffer runter; Isso."}
+  },
+  "ITEM_LUCKY_PUNCH": {
+    "ru": {"name": "Счастл. удар", "description": "Повышает крит. шанс Ченси."},
+    "de": {"name": "Lucky Punch", "description": "Mehr Krit. für Chaneira."}
+  },
+  "ITEM_METAL_POWDER": {
+    "ru": {"name": "Метал. пудра", "description": "Повышает защиту Дитто."},
+    "de": {"name": "Metallstaub", "description": "Hebt Dittos Verteidigung."}
+  },
+  "ITEM_THICK_CLUB": {
+    "ru": {"name": "Толстая кость", "description": "Повышает атаку Кубона."},
+    "de": {"name": "Kampfknoch.", "description": "Mehr Angriff für Tragosso."}
+  },
+  "ITEM_STICK": {
+    "ru": {"name": "Стебель", "description": "Повышает крит. шанс Фарфетча."},
+    "de": {"name": "Lauchstange", "description": "Mehr Krit. für Porenta."}
+  },
+  "ITEM_RED_SCARF": {
+    "ru": {"name": "Красный шарф", "description": "Для крутости в конкурсе."},
+    "de": {"name": "Roter Schal", "description": "Mehr Coolness im Contest."}
+  },
+  "ITEM_BLUE_SCARF": {
+    "ru": {"name": "Синий шарф", "description": "Повышает красоту на конкурсе."},
+    "de": {"name": "Blau. Schal", "description": "Schönheit im Contest +."}
+  },
+  "ITEM_PINK_SCARF": {
+    "ru": {"name": "Розовый шарф", "description": "Повышает милоту на конкурсе."},
+    "de": {"name": "Rosa Schal", "description": "Mehr Anmut im Wettbewerb."}
+  },
+  "ITEM_GREEN_SCARF": {
+    "ru": {"name": "Зелёный шарф", "description": "Повышает ум на конкурсе."},
+    "de": {"name": "Grün. Schal", "description": "Mehr Klugheit im Contest."}
+  },
+  "ITEM_YELLOW_SCARF": {
+    "ru": {"name": "Жёлтый шарф", "description": "Повышает силу на конкурсе."},
+    "de": {"name": "Gelb. Schal", "description": "Mehr Stärke im Contest."}
   }
 }

@@ -182,3 +182,15 @@ the accepted swap changed the held item. In separate runs, choosing No returned
 to the Party menu without a stray border; taking the held item then returned
 Potion (`Зелье` / `Trank`), confirming the refusal preserved the old item. These
 runs do not cover a full Bag, a mail item, or other party edge cases.
+
+## 2026-09-17 Bag Potion effect check
+
+Using separate copied saves in mGBA, the Bag's Potion action menu and party
+target prompt appeared in Russian and German. With the Pokémon already at full
+HP, Use displayed `Это не подействует.` / `Das hat keine Wirkung.` and returned
+to the Bag with the Potion quantity unchanged. In separate disposable runs,
+only the Pokémon's current HP was lowered from 23 to 3 in emulator RAM. Using
+the Potion restored 20 HP, showed the localized result with the live Pokémon
+name, and returned to the Bag with the Potion consumed. The original saves and
+released ROM were not modified by these fixtures. Other item effects remain
+unverified.

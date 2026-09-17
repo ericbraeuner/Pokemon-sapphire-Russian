@@ -156,3 +156,13 @@ Pokémon page and Normal badges on the move page rendered in the selected
 language, including the full German `NORMAL` label. Summary page navigation and
 return still worked. Other type/category badges have not each been exercised
 in the emulator, and other Summary text remains part of the Phase 3 checklist.
+
+## 2026-09-17 Party item handoff check
+
+From a disposable copied German save, the Party action menu opened the translated
+Item submenu (`GEBEN`, `NEHMEN`, `Zurück`). Choosing Give opened the Bag with the
+correct Potion (`Trank`) and translated description. This exposed the remaining
+English pocket graphic `Items`. Its shared German Bag label is now `Sachen`;
+the rebuilt ROM showed `Sachen` in the same Give-item flow, and cancelling the
+Bag returned cleanly to the Party action menu. This checks only the entry and
+cancel paths, not completion of giving, taking, or swapping held items.

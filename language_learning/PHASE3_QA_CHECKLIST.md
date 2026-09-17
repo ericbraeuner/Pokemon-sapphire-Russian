@@ -130,3 +130,17 @@ Potion purchase. Russian showed `В сумке нет места!`; German showe
 im Beutel!`. The purchase was refused and the displayed money remained 1050.
 No saved game or released ROM was modified by that fixture. Shop variants
 outside Oldale remain unverified.
+
+## 2026-09-17 Options and save persistence check
+
+In both languages, the Options screen responded to changes in text speed,
+battle animation, battle style, sound, button mode, and frame style. The
+headings and choices fit their windows, and closing Options left no stray
+border or highlight. Disposable copied saves were given Russian/C2/immersion
+or German/A1/guided learner variables in emulator RAM, then saved through the
+normal in-game Save menu. The save and overwrite prompts displayed in the
+selected language. After closing and reopening the ROM with copies of those
+new saves, the three learner values were respectively `1,6,2` and `2,1,1`,
+and the changed Options choices still appeared selected. This verifies
+persistence through Save/Continue; it does not by itself verify the new-game
+setup selections, every frame theme, or a save-error path.

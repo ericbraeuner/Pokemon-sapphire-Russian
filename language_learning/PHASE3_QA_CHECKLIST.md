@@ -169,4 +169,16 @@ both languages gave the Potion to the party Pokémon, then took it back. The
 give/take messages used the live item and Pokémon names; the held-item marker
 appeared after Give and cleared after Take. The action menu returned without a
 stray border. The copied test Pokémon has an artificial `FFFFFFFF` nickname.
-Swapping an already-held item and other party/item edge cases remain unverified.
+Other party/item edge cases remain unverified.
+
+## 2026-09-17 Held-item swap and refusal check
+
+In separate disposable Russian and German emulator runs, an Antidote was added
+to the Bag in RAM alongside the saved Potion; the source saves were not edited.
+After giving the Potion, selecting the Antidote showed the existing held item,
+the localized Yes/No swap question, and the replacement message. Taking the
+held item afterward returned Antidote (`Противоядие` / `Gegengift`), confirming
+the accepted swap changed the held item. In separate runs, choosing No returned
+to the Party menu without a stray border; taking the held item then returned
+Potion (`Зелье` / `Trank`), confirming the refusal preserved the old item. These
+runs do not cover a full Bag, a mail item, or other party edge cases.

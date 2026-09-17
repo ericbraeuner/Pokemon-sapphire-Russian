@@ -118,5 +118,15 @@ quantity prompt returned to the preceding list, and another B returned to
 the clerk menu without leaving a cursor or text box behind. In a separate
 copied run, buying five Poke Balls left 50; choosing a 300-cost Potion showed
 the translated insufficient-money message in both languages. The screens
-fit their windows, with no visibly misplaced glyphs. No-bag-room, larger
-sale quantities, and any shop variants outside Oldale remain unverified.
+fit their windows, with no visibly misplaced glyphs.
+
+## 2026-09-17 Oldale mart quantity and capacity follow-up
+
+Buying two Potions created a Bag stack of three. Selling two then showed a
+total of 300, left one Potion in the Bag, and raised displayed money from 450
+to 750 in both languages. For the no-room branch, a disposable emulator
+fixture filled all 20 item-pocket slots in RAM with distinct items before a
+Potion purchase. Russian showed `В сумке нет места!`; German showed `Kein Platz
+im Beutel!`. The purchase was refused and the displayed money remained 1050.
+No saved game or released ROM was modified by that fixture. Shop variants
+outside Oldale remain unverified.

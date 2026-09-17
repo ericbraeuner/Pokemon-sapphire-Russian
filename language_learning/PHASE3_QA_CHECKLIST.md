@@ -194,3 +194,14 @@ the Potion restored 20 HP, showed the localized result with the live Pokémon
 name, and returned to the Bag with the Potion consumed. The original saves and
 released ROM were not modified by these fixtures. Other item effects remain
 unverified.
+
+## 2026-09-17 Bag Toss check
+
+With copied Russian and German saves, Toss opened the translated quantity and
+Yes/No prompts for one Potion. Choosing Yes displayed the live item name and
+quantity; the completed Bag then contained only Close, confirming the Potion
+was removed. The completion wording was clarified to `Выброшено: 1.` and
+`Entsorgt 1.` and rechecked in the rebuilt learner ROM. Separate No runs
+returned to the Bag with the Potion still present. The copied source saves
+were unchanged. Multiple quantities, other pockets, and capacity limits remain
+unverified for Toss.

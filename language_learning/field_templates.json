@@ -97,8 +97,8 @@
     "max_width": 104
   },
   "gOtherText_ThrewAwayItem": {
-    "ru": "{STR_VAR_1}\\nУбрано: {STR_VAR_2}.",
-    "de": "{STR_VAR_1}\\nWeg: {STR_VAR_2}.",
+    "ru": "{STR_VAR_1}\\nВыброшено: {STR_VAR_2}.",
+    "de": "{STR_VAR_1}\\nEntsorgt {STR_VAR_2}.",
     "widths": {
       "STR_VAR_1": 88,
       "STR_VAR_2": 24

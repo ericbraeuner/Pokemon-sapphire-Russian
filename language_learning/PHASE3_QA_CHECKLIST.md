@@ -144,3 +144,15 @@ new saves, the three learner values were respectively `1,6,2` and `2,1,1`,
 and the changed Options choices still appeared selected. This verifies
 persistence through Save/Continue; it does not by itself verify the new-game
 setup selections, every frame theme, or a save-error path.
+
+## 2026-09-17 Summary type-badge check
+
+The learner build now substitutes Russian and German lettering in the shared
+32×16 type/category icon sheet used by Pokémon Summary. Automated checks confirm
+the 23-icon order and byte size, preserve each source border and the mystery
+icon, and reject labels that exceed the icon interior. A rebuilt ROM was opened
+in mGBA with disposable copied Russian and German saves. The Fire badge on the
+Pokémon page and Normal badges on the move page rendered in the selected
+language, including the full German `NORMAL` label. Summary page navigation and
+return still worked. Other type/category badges have not each been exercised
+in the emulator, and other Summary text remains part of the Phase 3 checklist.

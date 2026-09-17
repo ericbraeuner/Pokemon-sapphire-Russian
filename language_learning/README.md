@@ -100,6 +100,10 @@ uses the same translation as rendering. Each entry has a pixel width and line
 limit checked during generation. PC labels fit existing windows without resizing.
 `map_names.json` covers 88 map sections. Popups and the wall map render these
 strings directly from ROM, avoiding the original 20-byte map-name buffers.
+`graphic_labels.json` also supplies Russian and German text for the 23 shared
+type/category badges on the Pokémon Summary screen. The generator preserves
+their 32×16 sprite layout and border; the learner build chooses the sheet for
+the saved language, while the normal build retains the original English sheet.
 No save fields or structures changed in this update. Interface wording is shared
 across difficulty levels; it does not claim six independently authored CEFR versions.
 

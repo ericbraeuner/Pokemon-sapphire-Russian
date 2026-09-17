@@ -637,6 +637,33 @@ class LessonTests(unittest.TestCase):
                         offset = ((y // 8) * (size[0] // 8) + x // 8) * 32 + (y % 8) * 4 + (x % 8) // 2
                         self.assertEqual(rendered.getpixel((x, y)), (packed[offset] >> (4 * (x % 2))) & 15)
 
+    def test_type_icon_labels_keep_sprite_layout_and_borders(self):
+        from PIL import Image
+        entries = validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['type_icons']
+        self.assertEqual(graphic_labels.TYPE_ICON_NAMES,
+                         tuple(entry['name'] for entry in entries))
+        for tag in ('ru', 'de'):
+            sheet = graphic_labels.render_type_icons(tag)
+            self.assertEqual((32, 16 * 23), sheet.size)
+            self.assertEqual(23 * 0x100, len(graphic_labels.tile_bytes(sheet)))
+            for index, entry in enumerate(entries):
+                with Image.open(demo.ROOT / f'graphics/types/{entry["name"]}.png') as source:
+                    icon = source.copy()
+                result = sheet.crop((0, index * 16, 32, (index + 1) * 16))
+                for x in range(32):
+                    self.assertEqual(icon.getpixel((x, 0)), result.getpixel((x, 0)))
+                    self.assertEqual(icon.getpixel((x, 15)), result.getpixel((x, 15)))
+                for y in range(16):
+                    self.assertEqual(icon.getpixel((0, y)), result.getpixel((0, y)))
+                    self.assertEqual(icon.getpixel((31, y)), result.getpixel((31, y)))
+                if entry['name'] == 'mystery':
+                    self.assertEqual(icon.tobytes(), result.tobytes())
+            with Image.open(demo.ROOT / 'graphics/types/fire.png') as source:
+                self.assertNotEqual(source.tobytes(), sheet.crop((0, 160, 32, 176)).tobytes())
+        summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text()
+        self.assertIn('gLearnerMoveTypeTilesRu : gLearnerMoveTypeTilesDe', summary)
+        self.assertIn('LoadCompressedObjectPic(&sSpriteSheet_MoveTypes);', summary)
+
     def test_shared_item_names_and_descriptions_fit(self):
         item_source = (demo.ROOT / 'src/item.c').read_text()
         for signature in ('void CopyItemName(', 'const u8 *ItemId_GetName(',

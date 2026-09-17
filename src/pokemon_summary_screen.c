@@ -896,6 +896,15 @@ static bool8 LoadPokemonSummaryScreenGraphics(void)
         LoadCompressedPalette(gStatusScreen_Pal, 0, 160);
         break;
     case 7:
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+        {
+            struct CompressedSpriteSheet localized = sSpriteSheet_MoveTypes;
+            localized.data = Learner_GetLanguage() == 1 ? gLearnerMoveTypeTilesRu : gLearnerMoveTypeTilesDe;
+            LoadCompressedObjectPic(&localized);
+        }
+        else
+#endif
         LoadCompressedObjectPic(&sSpriteSheet_MoveTypes);
         break;
     case 8:

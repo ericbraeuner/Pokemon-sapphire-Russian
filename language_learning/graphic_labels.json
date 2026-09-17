@@ -264,5 +264,30 @@
   ],
   "party_misc": [
     {"x": 87, "y": 3, "width": 34, "height": 9, "background": 15, "ink": 10, "ru": "Назад", "de": "Zurück"}
+  ],
+  "type_icons": [
+    {"name": "normal", "ru": "НОРМ.", "de": "NORMAL"},
+    {"name": "fight", "ru": "БОЙ", "de": "KAMPF"},
+    {"name": "flying", "ru": "ПОЛЁТ", "de": "FLUG"},
+    {"name": "poison", "ru": "ЯД", "de": "GIFT"},
+    {"name": "ground", "ru": "ЗЕМЛЯ", "de": "BODEN"},
+    {"name": "rock", "ru": "КАМЕНЬ", "de": "GESTEIN"},
+    {"name": "bug", "ru": "ЖУК", "de": "KÄFER"},
+    {"name": "ghost", "ru": "ПРИЗР.", "de": "GEIST"},
+    {"name": "steel", "ru": "СТАЛЬ", "de": "STAHL"},
+    {"name": "mystery", "ru": "???", "de": "???"},
+    {"name": "fire", "ru": "ОГОНЬ", "de": "FEUER"},
+    {"name": "water", "ru": "ВОДА", "de": "WASSER"},
+    {"name": "grass", "ru": "ТРАВА", "de": "PFLANZE"},
+    {"name": "electric", "ru": "ЭЛЕК.", "de": "ELEKTRO"},
+    {"name": "psychic", "ru": "ПСИ", "de": "PSYCHO"},
+    {"name": "ice", "ru": "ЛЁД", "de": "EIS"},
+    {"name": "dragon", "ru": "ДРАК.", "de": "DRACHE"},
+    {"name": "dark", "ru": "ТЬМА", "de": "UNLICHT"},
+    {"name": "contest_cool", "ru": "КРУТО", "de": "COOL"},
+    {"name": "contest_beauty", "ru": "КРАС.", "de": "SCHÖN"},
+    {"name": "contest_cute", "ru": "МИЛО", "de": "SÜSS"},
+    {"name": "contest_smart", "ru": "УМНО", "de": "KLUG"},
+    {"name": "contest_tough", "ru": "СИЛА", "de": "STARK"}
   ]
 }

@@ -3,6 +3,8 @@
 Only label interiors change. Tile indices, palette indices, borders and animation
 maps stay intact. Generated graphics live in the ignored learner assembly.
 """
+from collections import Counter
+
 from PIL import Image
 import build_demo as demo
 
@@ -16,6 +18,13 @@ SHEETS = {
     'money': ('graphics/interface/money.png', 'MoneyTiles', (32, 16)),
     'party_misc': ('graphics/interface/party_menu_misc.png', 'PartyMiscTiles', (128, 64)),
 }
+
+TYPE_ICON_NAMES = (
+    'normal', 'fight', 'flying', 'poison', 'ground', 'rock', 'bug',
+    'ghost', 'steel', 'mystery', 'fire', 'water', 'grass', 'electric',
+    'psychic', 'ice', 'dragon', 'dark', 'contest_cool', 'contest_beauty',
+    'contest_cute', 'contest_smart', 'contest_tough',
+)
 
 
 def glyph(char, latin, cyrillic, font):
@@ -138,6 +147,50 @@ def render(kind, tag):
     return sheet
 
 
+def render_type_icons(tag):
+    """Replace only the lettering in the shared 32x16 type/category sprites."""
+    entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['type_icons']
+    if tuple(entry['name'] for entry in entries) != TYPE_ICON_NAMES:
+        raise ValueError('Type icon order differs from the sprite animation table')
+    with Image.open(demo.ROOT / 'graphics/fonts/font0_lat.png') as source:
+        font = source.copy()
+    latin = demo.load_charmap()
+    _, cyrillic = demo.load_font()
+    sheet = Image.new('P', (32, 16 * len(entries)))
+    for index, entry in enumerate(entries):
+        with Image.open(demo.ROOT / f'graphics/types/{entry["name"]}.png') as source:
+            icon = source.copy()
+        if icon.mode != 'P' or icon.size != (32, 16):
+            raise ValueError(f'Unexpected type icon: {entry["name"]}')
+        if index == 0:
+            sheet.putpalette(icon.getpalette())
+        if entry['name'] != 'mystery':
+            colors = Counter(icon.getpixel((x, y)) for y in range(4, 12)
+                             for x in range(1, 31))
+            body = max((color for color in colors if color not in (0, 14, 15)),
+                       key=colors.get)
+            for y in range(4, 12):
+                for x in range(1, 31):
+                    if icon.getpixel((x, y)) in (14, 15):
+                        icon.putpixel((x, y), body)
+            letters = [small_glyph(char, latin, cyrillic if tag == 'ru' else {}, font)
+                       for char in entry[tag]]
+            width = sum(len(letter[0]) + 1 for letter in letters) - 1
+            if width > 29:
+                raise ValueError(f'Type icon label overflow: {tag}/{entry["name"]}')
+            cursor = (32 - width) // 2
+            for letter in letters:
+                top = 4 + (7 - len(letter)) // 2
+                for gy, row in enumerate(letter):
+                    for gx, bit in enumerate(row):
+                        if bit:
+                            icon.putpixel((cursor + gx + 1, top + gy + 1), 14)
+                            icon.putpixel((cursor + gx, top + gy), 15)
+                cursor += len(letter[0]) + 1
+        sheet.paste(icon, (0, index * 16))
+    return sheet
+
+
 def tile_bytes(sheet):
     data = []
     for ty in range(0, sheet.height, 8):
@@ -169,4 +222,8 @@ def generate():
                 data = literal_lz(data)
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
                 'gLearner' + name + tag.title(), data))
+    for tag in ('ru', 'de'):
+        data = literal_lz(tile_bytes(render_type_icons(tag)))
+        parts.append('\t.balign 4\n' + demo.assembly_bytes(
+            'gLearnerMoveTypeTiles' + tag.title(), data))
     return parts

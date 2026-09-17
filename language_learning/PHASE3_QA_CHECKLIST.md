@@ -104,3 +104,19 @@ result message (`Взято: 2.` / `Geholt: 2.`). Cancelling the withdrawal quan
 prompt instead kept the stack of two in the PC and returned cleanly to the
 translated item-storage menu. Other PC branches and storage capacity limits
 remain unverified.
+
+## 2026-09-17 Oldale mart check
+
+Using copied early-game saves, mGBA traversed Route 101 into the Oldale mart
+in both languages. A temporary Repel counter was set only in emulator RAM to
+keep wild battles from interrupting the shop fixture. The clerk's greeting,
+Buy/Sell/Exit menu, item list, quantity prompt, confirmation, and thank-you
+message rendered in the selected language. Buying two Poke Balls showed a
+total of 400 and changed the displayed money from 1050 to 650. Selling one
+Potion showed a price of 150 and raised the displayed money to 800. B at each
+quantity prompt returned to the preceding list, and another B returned to
+the clerk menu without leaving a cursor or text box behind. In a separate
+copied run, buying five Poke Balls left 50; choosing a 300-cost Potion showed
+the translated insufficient-money message in both languages. The screens
+fit their windows, with no visibly misplaced glyphs. No-bag-room, larger
+sale quantities, and any shop variants outside Oldale remain unverified.

@@ -164,5 +164,9 @@ Item submenu (`GEBEN`, `NEHMEN`, `Zurück`). Choosing Give opened the Bag with t
 correct Potion (`Trank`) and translated description. This exposed the remaining
 English pocket graphic `Items`. Its shared German Bag label is now `Sachen`;
 the rebuilt ROM showed `Sachen` in the same Give-item flow, and cancelling the
-Bag returned cleanly to the Party action menu. This checks only the entry and
-cancel paths, not completion of giving, taking, or swapping held items.
+Bag returned cleanly to the Party action menu. Follow-up disposable runs in
+both languages gave the Potion to the party Pokémon, then took it back. The
+give/take messages used the live item and Pokémon names; the held-item marker
+appeared after Give and cleared after Take. The action menu returned without a
+stray border. The copied test Pokémon has an artificial `FFFFFFFF` nickname.
+Swapping an already-held item and other party/item edge cases remain unverified.

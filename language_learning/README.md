@@ -104,6 +104,9 @@ strings directly from ROM, avoiding the original 20-byte map-name buffers.
 type/category badges on the Pokémon Summary screen. The generator preserves
 their 32×16 sprite layout and border; the learner build chooses the sheet for
 the saved language, while the normal build retains the original English sheet.
+The same data now supplies the seven 32×8 status badges shared by Party and
+Summary. Battle health-box status badges use separate art and are not covered
+by this sheet.
 No save fields or structures changed in this update. Interface wording is shared
 across difficulty levels; it does not claim six independently authored CEFR versions.
 

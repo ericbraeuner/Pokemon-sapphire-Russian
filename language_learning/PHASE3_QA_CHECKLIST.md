@@ -207,3 +207,43 @@ were unchanged. In additional disposable runs, a three-Potion stack was placed
 in emulator RAM; selecting quantity two displayed `2` in the confirmation and
 completion messages, then left exactly one Potion in the Bag in both languages.
 Other pockets and capacity limits remain unverified for Toss.
+
+## 2026-09-17 Bag pocket navigation check
+
+Using copied saves, mGBA cycled through all five Bag pockets in both directions
+in Russian and German, including wrapping from the last pocket to the first.
+The shared graphic labels rendered as `Предметы`, `Покеболы`, `ТМ и НМ`,
+`Ягоды`, `Важное` and `Sachen`, `Bälle`, `TM und VM`, `Beeren`, `Basis`.
+The populated item and Poké Ball pockets retained their translated names and
+descriptions. Empty pockets showed only the translated Close entry, and no
+stray cursor or border remained after switching. This does not exercise item
+actions within the empty pockets or their behavior when populated.
+
+## 2026-09-17 Poké Ball pocket action check
+
+In both languages, the populated Poké Ball pocket showed five balls and a
+translated description. Its field Bag action menu offered Give, Toss, and
+Back, without a Use action. Choosing Give opened the translated party target
+prompt and displayed the live Poké Ball and Pokémon names in the result. The
+disposable runs do not verify throwing a ball in battle, or other ball types.
+
+## 2026-09-17 Escape Rope field-use failure check
+
+An Escape Rope was added only to disposable emulator RAM in the item pocket.
+Outside a cave, using it displayed the translated advice (`Совет папы: всему
+своё время и место!` / `Papas Rat: Nicht jetzt, nicht hier!`). Closing the
+message returned to the Bag with the Rope still at quantity one in both
+languages and no leftover window. This checks a field-use failure only; using
+Escape Rope successfully inside a cave remains unverified.
+
+## 2026-09-17 Antidote and shared status-badge check
+
+An Antidote and ordinary poison status were added only in disposable emulator
+RAM. The Russian and German Party screens showed localized poison badges
+(`ЯД` / `GIF`). Using the Antidote displayed the translated cure message,
+cleared poison, and consumed the Antidote. The rebuilt Summary screen also
+showed the localized poison badge on its pages. Automated checks preserve the
+seven-badge tile layout and outer pixels; an enlarged preview was inspected to
+confirm that every generated badge has visible lettering. Only poison was
+checked in the emulator. Other status conditions, an Antidote on a healthy
+Pokémon, and the separate battle health-box badges remain unverified.

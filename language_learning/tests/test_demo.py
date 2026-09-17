@@ -664,6 +664,34 @@ class LessonTests(unittest.TestCase):
         self.assertIn('gLearnerMoveTypeTilesRu : gLearnerMoveTypeTilesDe', summary)
         self.assertIn('LoadCompressedObjectPic(&sSpriteSheet_MoveTypes);', summary)
 
+    def test_status_icon_labels_keep_party_and_summary_layout(self):
+        from PIL import Image
+        entries = validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['status_icons']
+        self.assertEqual(graphic_labels.STATUS_ICON_NAMES,
+                         tuple(entry['name'] for entry in entries))
+        with Image.open(demo.ROOT / 'graphics/interface/status_icons.png') as source:
+            original = source.copy()
+        self.assertEqual(bytes(graphic_labels.tile_bytes(original)),
+                         (demo.ROOT / 'graphics/interface/status_icons.4bpp').read_bytes())
+        for tag in ('ru', 'de'):
+            sheet = graphic_labels.render_status_icons(tag)
+            self.assertEqual((32, 56), sheet.size)
+            self.assertEqual(0x380, len(graphic_labels.tile_bytes(sheet)))
+            self.assertNotEqual(original.tobytes(), sheet.tobytes())
+            for index in range(len(entries)):
+                self.assertIn(2, [sheet.getpixel((x, y)) for y in range(index * 8 + 1, index * 8 + 7)
+                                  for x in range(8, 24)])
+            for y in range(56):
+                for x in range(32):
+                    if not (8 <= x < 24 and y % 8 in range(1, 7)):
+                        self.assertEqual(original.getpixel((x, y)), sheet.getpixel((x, y)))
+        party = (demo.ROOT / 'src/party_menu.c').read_text(encoding='utf-8')
+        summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text(encoding='utf-8')
+        self.assertIn('gLearnerStatusIconTilesRu', party)
+        self.assertIn('gLearnerStatusIconTilesRu', summary)
+        self.assertIn('LZDecompressVram(gStatusGfx_Icons', party)
+        self.assertIn('LoadCompressedObjectPic(&sUnknown_083C12F4);', summary)
+
     def test_shared_item_names_and_descriptions_fit(self):
         item_source = (demo.ROOT / 'src/item.c').read_text()
         for signature in ('void CopyItemName(', 'const u8 *ItemId_GetName(',

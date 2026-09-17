@@ -26,6 +26,8 @@ TYPE_ICON_NAMES = (
     'contest_cute', 'contest_smart', 'contest_tough',
 )
 
+STATUS_ICON_NAMES = ('poison', 'paralysis', 'sleep', 'freeze', 'burn', 'pokerus', 'faint')
+
 
 def glyph(char, latin, cyrillic, font):
     if char in cyrillic:
@@ -191,6 +193,46 @@ def render_type_icons(tag):
     return sheet
 
 
+def render_status_icons(tag):
+    """Replace lettering in the shared Party/Summary status tiles."""
+    entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['status_icons']
+    if tuple(entry['name'] for entry in entries) != STATUS_ICON_NAMES:
+        raise ValueError('Status icon order differs from the sprite animation table')
+    with Image.open(demo.ROOT / 'graphics/interface/status_icons.png') as source:
+        sheet = source.copy()
+    if sheet.mode != 'P' or sheet.size != (32, 56):
+        raise ValueError('Unexpected status icon sheet')
+    with Image.open(demo.ROOT / 'graphics/fonts/font0_lat.png') as source:
+        font = source.copy()
+    latin = demo.load_charmap()
+    _, cyrillic = demo.load_font()
+    for index, entry in enumerate(entries):
+        y0 = index * 8
+        background = sheet.getpixel((16, y0))
+        sheet.paste(background, (8, y0 + 1, 24, y0 + 7))
+        letters = [small_glyph(char, latin, cyrillic if tag == 'ru' else {}, font)
+                   for char in entry[tag]]
+        width = sum(len(letter[0]) + 1 for letter in letters) - 1
+        if width > 16:
+            raise ValueError(f'Status icon label overflow: {tag}/{entry["name"]}')
+        cursor = 8 + (16 - width) // 2
+        for letter in letters:
+            height = min(6, len(letter))
+            glyph_image = Image.new('1', (len(letter[0]), len(letter)))
+            for gy, row in enumerate(letter):
+                for gx, bit in enumerate(row):
+                    glyph_image.putpixel((gx, gy), bit)
+            if glyph_image.height != height:
+                glyph_image = glyph_image.resize((glyph_image.width, height), Image.Resampling.NEAREST)
+            top = y0 + 1 + (6 - height) // 2
+            for gy in range(height):
+                for gx in range(glyph_image.width):
+                    if glyph_image.getpixel((gx, gy)):
+                        sheet.putpixel((cursor + gx, top + gy), 2)
+            cursor += len(letter[0]) + 1
+    return sheet
+
+
 def tile_bytes(sheet):
     data = []
     for ty in range(0, sheet.height, 8):
@@ -226,4 +268,7 @@ def generate():
         data = literal_lz(tile_bytes(render_type_icons(tag)))
         parts.append('\t.balign 4\n' + demo.assembly_bytes(
             'gLearnerMoveTypeTiles' + tag.title(), data))
+        data = literal_lz(tile_bytes(render_status_icons(tag)))
+        parts.append('\t.balign 4\n' + demo.assembly_bytes(
+            'gLearnerStatusIconTiles' + tag.title(), data))
     return parts

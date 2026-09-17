@@ -1127,6 +1127,7 @@ extern const u8 gLearnerDexSpriteTilesRu[], gLearnerDexSpriteTilesDe[];
 extern const u8 gLearnerStorageMiscTilesRu[], gLearnerStorageMiscTilesDe[];
 extern const u8 gLearnerSummaryTilesRu[], gLearnerSummaryTilesDe[];
 extern const u8 gLearnerMoveTypeTilesRu[], gLearnerMoveTypeTilesDe[];
+extern const u8 gLearnerStatusIconTilesRu[], gLearnerStatusIconTilesDe[];
 extern const u8 gLearnerMoneyTilesRu[], gLearnerMoneyTilesDe[];
 extern const u8 gLearnerPartyMiscTilesRu[], gLearnerPartyMiscTilesDe[];
 const u8 *Learner_Translate(const u8 *text);

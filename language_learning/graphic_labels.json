@@ -289,5 +289,14 @@
     {"name": "contest_cute", "ru": "МИЛО", "de": "SÜSS"},
     {"name": "contest_smart", "ru": "УМНО", "de": "KLUG"},
     {"name": "contest_tough", "ru": "СИЛА", "de": "STARK"}
+  ],
+  "status_icons": [
+    {"name": "poison", "ru": "ЯД", "de": "GIF"},
+    {"name": "paralysis", "ru": "ПАР", "de": "PAR"},
+    {"name": "sleep", "ru": "СОН", "de": "SCH"},
+    {"name": "freeze", "ru": "ЛЁД", "de": "EIS"},
+    {"name": "burn", "ru": "ОЖГ", "de": "VER"},
+    {"name": "pokerus", "ru": "ПКР", "de": "PKR"},
+    {"name": "faint", "ru": "ОБМ", "de": "KO"}
   ]
 }

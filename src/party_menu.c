@@ -2233,7 +2233,13 @@ bool8 LoadPartyMenuGraphics(u8 a)
         LZDecompressVram(gPartyMenuOrderText_Gfx, (void *)(BG_VRAM + 0x6180));
 
     if (a == 7 || a == 0)
+#if LEARNER_DEMO
+        LZDecompressVram(Learner_GetLanguage() == 1 ? gLearnerStatusIconTilesRu :
+                         Learner_GetLanguage() == 2 ? gLearnerStatusIconTilesDe : gStatusGfx_Icons,
+                         (void *)(BG_VRAM + 0x7180));
+#else
         LZDecompressVram(gStatusGfx_Icons, (void *)(BG_VRAM + 0x7180));
+#endif
 
     if (a == 8 || a == 0)
     {

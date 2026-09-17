@@ -911,6 +911,15 @@ static bool8 LoadPokemonSummaryScreenGraphics(void)
         LoadCompressedObjectPic(&sUnknown_083C1270);
         break;
     case 9:
+#if LEARNER_DEMO
+        if (Learner_GetLanguage())
+        {
+            struct CompressedSpriteSheet localized = sUnknown_083C12F4;
+            localized.data = Learner_GetLanguage() == 1 ? gLearnerStatusIconTilesRu : gLearnerStatusIconTilesDe;
+            LoadCompressedObjectPic(&localized);
+        }
+        else
+#endif
         LoadCompressedObjectPic(&sUnknown_083C12F4);
         break;
     case 10:

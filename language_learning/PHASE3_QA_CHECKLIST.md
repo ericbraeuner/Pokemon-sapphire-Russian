@@ -203,5 +203,7 @@ quantity; the completed Bag then contained only Close, confirming the Potion
 was removed. The completion wording was clarified to `Выброшено: 1.` and
 `Entsorgt 1.` and rechecked in the rebuilt learner ROM. Separate No runs
 returned to the Bag with the Potion still present. The copied source saves
-were unchanged. Multiple quantities, other pockets, and capacity limits remain
-unverified for Toss.
+were unchanged. In additional disposable runs, a three-Potion stack was placed
+in emulator RAM; selecting quantity two displayed `2` in the confirmation and
+completion messages, then left exactly one Potion in the Bag in both languages.
+Other pockets and capacity limits remain unverified for Toss.

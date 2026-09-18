@@ -246,4 +246,16 @@ showed the localized poison badge on its pages. Automated checks preserve the
 seven-badge tile layout and outer pixels; an enlarged preview was inspected to
 confirm that every generated badge has visible lettering. Only poison was
 checked in the emulator. Other status conditions, an Antidote on a healthy
-Pokémon, and the separate battle health-box badges remain unverified.
+Pokémon, and enemy battle health-box badges remain unverified.
+
+## 2026-09-17 Battle health-box poison badge check
+
+The five battle health-box status badges now use a learner-only tile range,
+separate from the Party/Summary sheet. A test verifies that the original five
+badges occupy exactly tile indices 0x15–0x23 in the stock health-box table and
+that the generated replacements preserve their outer pixels and tile count.
+From copied early-game saves, a Pokémon was poisoned only in emulator RAM and
+entered a wild battle through Route 101. The player's health box showed `ЯД`
+in Russian and `GIF` in German, while the HP bar and other health-box graphics
+still rendered. Other conditions, enemy health boxes, and double battles have
+not yet been checked in the emulator.

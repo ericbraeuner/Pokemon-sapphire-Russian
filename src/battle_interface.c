@@ -1,4 +1,5 @@
 #include "global.h"
+#include "learner.h"
 #include "battle.h"
 #include "battle_interface.h"
 #include "decompress.h"
@@ -632,6 +633,13 @@ u8 battle_make_oam_safari_battle(void)
 
 static const void *GetHealthboxElementGfxPtr(u8 a)
 {
+#if LEARNER_DEMO
+    if (a >= 0x15 && a < 0x24 && Learner_GetLanguage())
+    {
+        const u8 *tiles = Learner_GetLanguage() == 1 ? gLearnerBattleStatusTilesRu : gLearnerBattleStatusTilesDe;
+        return tiles + (a - 0x15) * 32;
+    }
+#endif
     return gHealthboxElementsGfxTable[a];
 }
 

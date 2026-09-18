@@ -27,6 +27,7 @@ TYPE_ICON_NAMES = (
 )
 
 STATUS_ICON_NAMES = ('poison', 'paralysis', 'sleep', 'freeze', 'burn', 'pokerus', 'faint')
+BATTLE_STATUS_FILES = ('psn', 'par', 'slp', 'frz', 'brn')
 
 
 def glyph(char, latin, cyrillic, font):
@@ -193,6 +194,29 @@ def render_type_icons(tag):
     return sheet
 
 
+def draw_status_label(sheet, x0, y0, width, label, background, latin, cyrillic, font):
+    sheet.paste(background, (x0, y0 + 1, x0 + width, y0 + 7))
+    letters = [small_glyph(char, latin, cyrillic, font) for char in label]
+    text_width = sum(len(letter[0]) + 1 for letter in letters) - 1
+    if text_width > width:
+        raise ValueError(f'Status icon label overflow: {label}')
+    cursor = x0 + (width - text_width) // 2
+    for letter in letters:
+        height = min(6, len(letter))
+        glyph_image = Image.new('1', (len(letter[0]), len(letter)))
+        for gy, row in enumerate(letter):
+            for gx, bit in enumerate(row):
+                glyph_image.putpixel((gx, gy), bit)
+        if glyph_image.height != height:
+            glyph_image = glyph_image.resize((glyph_image.width, height), Image.Resampling.NEAREST)
+        top = y0 + 1 + (6 - height) // 2
+        for gy in range(height):
+            for gx in range(glyph_image.width):
+                if glyph_image.getpixel((gx, gy)):
+                    sheet.putpixel((cursor + gx, top + gy), 2)
+        cursor += len(letter[0]) + 1
+
+
 def render_status_icons(tag):
     """Replace lettering in the shared Party/Summary status tiles."""
     entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['status_icons']
@@ -208,28 +232,31 @@ def render_status_icons(tag):
     _, cyrillic = demo.load_font()
     for index, entry in enumerate(entries):
         y0 = index * 8
-        background = sheet.getpixel((16, y0))
-        sheet.paste(background, (8, y0 + 1, 24, y0 + 7))
-        letters = [small_glyph(char, latin, cyrillic if tag == 'ru' else {}, font)
-                   for char in entry[tag]]
-        width = sum(len(letter[0]) + 1 for letter in letters) - 1
-        if width > 16:
-            raise ValueError(f'Status icon label overflow: {tag}/{entry["name"]}')
-        cursor = 8 + (16 - width) // 2
-        for letter in letters:
-            height = min(6, len(letter))
-            glyph_image = Image.new('1', (len(letter[0]), len(letter)))
-            for gy, row in enumerate(letter):
-                for gx, bit in enumerate(row):
-                    glyph_image.putpixel((gx, gy), bit)
-            if glyph_image.height != height:
-                glyph_image = glyph_image.resize((glyph_image.width, height), Image.Resampling.NEAREST)
-            top = y0 + 1 + (6 - height) // 2
-            for gy in range(height):
-                for gx in range(glyph_image.width):
-                    if glyph_image.getpixel((gx, gy)):
-                        sheet.putpixel((cursor + gx, top + gy), 2)
-            cursor += len(letter[0]) + 1
+        draw_status_label(sheet, 8, y0, 16, entry[tag], sheet.getpixel((16, y0)),
+                          latin, cyrillic if tag == 'ru' else {}, font)
+    return sheet
+
+
+def render_battle_status_icons(tag):
+    """Return five raw 24x8 status badges in health-box tile order."""
+    entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['status_icons']
+    if tuple(entry['name'] for entry in entries) != STATUS_ICON_NAMES:
+        raise ValueError('Status icon order differs from the sprite animation table')
+    with Image.open(demo.ROOT / 'graphics/fonts/font0_lat.png') as source:
+        font = source.copy()
+    latin = demo.load_charmap()
+    _, cyrillic = demo.load_font()
+    sheet = Image.new('P', (24, 40))
+    for index, entry in enumerate(entries[:5]):
+        with Image.open(demo.ROOT / f'graphics/battle_interface/status_{BATTLE_STATUS_FILES[index]}.png') as source:
+            icon = source.copy()
+        if icon.mode != 'P' or icon.size != (24, 8):
+            raise ValueError(f'Unexpected battle status icon: {entry["name"]}')
+        if index == 0:
+            sheet.putpalette(icon.getpalette())
+        draw_status_label(icon, 3, 0, 15, entry[tag], 12,
+                          latin, cyrillic if tag == 'ru' else {}, font)
+        sheet.paste(icon, (0, index * 8))
     return sheet
 
 
@@ -271,4 +298,7 @@ def generate():
         data = literal_lz(tile_bytes(render_status_icons(tag)))
         parts.append('\t.balign 4\n' + demo.assembly_bytes(
             'gLearnerStatusIconTiles' + tag.title(), data))
+        data = tile_bytes(render_battle_status_icons(tag))
+        parts.append('\t.balign 4\n' + demo.assembly_bytes(
+            'gLearnerBattleStatusTiles' + tag.title(), data))
     return parts

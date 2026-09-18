@@ -692,6 +692,35 @@ class LessonTests(unittest.TestCase):
         self.assertIn('LZDecompressVram(gStatusGfx_Icons', party)
         self.assertIn('LoadCompressedObjectPic(&sUnknown_083C12F4);', summary)
 
+    def test_battle_status_icons_replace_only_five_healthbox_badges(self):
+        from PIL import Image
+        base = demo.ROOT / 'graphics/battle_interface'
+        originals = []
+        for name in graphic_labels.BATTLE_STATUS_FILES:
+            with Image.open(base / f'status_{name}.png') as source:
+                originals.append(source.copy())
+        combined = (base / 'healthbox_elements.4bpp').read_bytes()
+        self.assertEqual(combined[0x15 * 32:0x24 * 32],
+                         b''.join((base / f'status_{name}.4bpp').read_bytes()
+                                  for name in graphic_labels.BATTLE_STATUS_FILES))
+        for tag in ('ru', 'de'):
+            sheet = graphic_labels.render_battle_status_icons(tag)
+            self.assertEqual((24, 40), sheet.size)
+            self.assertEqual(15 * 32, len(graphic_labels.tile_bytes(sheet)))
+            for index, original in enumerate(originals):
+                icon = sheet.crop((0, index * 8, 24, (index + 1) * 8))
+                self.assertNotEqual(original.tobytes(), icon.tobytes())
+                self.assertIn(2, [icon.getpixel((x, y)) for y in range(1, 7)
+                                  for x in range(3, 18)])
+                for y in range(8):
+                    for x in range(24):
+                        if not (3 <= x < 18 and 1 <= y < 7):
+                            self.assertEqual(original.getpixel((x, y)), icon.getpixel((x, y)))
+        battle = (demo.ROOT / 'src/battle_interface.c').read_text(encoding='utf-8')
+        self.assertIn('gLearnerBattleStatusTilesRu', battle)
+        self.assertIn('a >= 0x15 && a < 0x24', battle)
+        self.assertIn('return gHealthboxElementsGfxTable[a];', battle)
+
     def test_shared_item_names_and_descriptions_fit(self):
         item_source = (demo.ROOT / 'src/item.c').read_text()
         for signature in ('void CopyItemName(', 'const u8 *ItemId_GetName(',

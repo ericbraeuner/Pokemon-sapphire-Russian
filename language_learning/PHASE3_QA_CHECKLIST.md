@@ -245,8 +245,13 @@ cleared poison, and consumed the Antidote. The rebuilt Summary screen also
 showed the localized poison badge on its pages. Automated checks preserve the
 seven-badge tile layout and outer pixels; an enlarged preview was inspected to
 confirm that every generated badge has visible lettering. Only poison was
-checked in the emulator. Other status conditions, an Antidote on a healthy
-Pokémon, and enemy battle health-box badges remain unverified.
+checked in the emulator. Other status conditions and enemy battle health-box
+badges remain unverified.
+
+In separate copied Russian and German runs, using Antidote on the same healthy
+Pokémon displayed `Это не подействует.` / `Das hat keine Wirkung.` and returned
+to the Bag with the Antidote still at quantity one. The unsuccessful use did
+not leave a Party window or consume the item.
 
 ## 2026-09-17 Battle health-box poison badge check
 

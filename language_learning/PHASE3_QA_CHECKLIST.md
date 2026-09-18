@@ -244,9 +244,13 @@ RAM. The Russian and German Party screens showed localized poison badges
 cleared poison, and consumed the Antidote. The rebuilt Summary screen also
 showed the localized poison badge on its pages. Automated checks preserve the
 seven-badge tile layout and outer pixels; an enlarged preview was inspected to
-confirm that every generated badge has visible lettering. Only poison was
-checked in the emulator. Other status conditions and enemy battle health-box
-badges remain unverified.
+confirm that every generated badge has visible lettering. Separate copied-save
+emulator runs also displayed sleep, paralysis, burn, and freeze in both Party
+and Summary, in both languages. Their labels were legible and aligned within
+the original badge borders. These runs injected a status value in emulator RAM;
+they do not test acquiring or curing those conditions in normal gameplay.
+Faint and Pokérus remain source/preview checked only, and enemy battle
+health-box badges remain unverified.
 
 In separate copied Russian and German runs, using Antidote on the same healthy
 Pokémon displayed `Это не подействует.` / `Das hat keine Wirkung.` and returned
@@ -262,5 +266,11 @@ that the generated replacements preserve their outer pixels and tile count.
 From copied early-game saves, a Pokémon was poisoned only in emulator RAM and
 entered a wild battle through Route 101. The player's health box showed `ЯД`
 in Russian and `GIF` in German, while the HP bar and other health-box graphics
-still rendered. Other conditions, enemy health boxes, and double battles have
-not yet been checked in the emulator.
+still rendered. Further copied-save runs injected sleep, paralysis, burn, and
+freeze in emulator RAM and reached live wild battles in both languages. Each
+player health-box badge (`СОН`, `ПАР`, `ОЖГ`, `ЛЁД` / `SCH`, `PAR`, `VER`, `EIS`)
+was visibly lettered within its original border, with the HP bar intact. The
+first route script sometimes stopped in tall grass without triggering combat;
+the remaining cases were checked after a revised walking loop actually entered
+battle. These runs do not prove natural infliction/cure flows. Enemy health
+boxes and double battles remain unverified.

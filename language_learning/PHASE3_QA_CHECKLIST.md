@@ -78,6 +78,12 @@ The caption now uses the selected language (`Размер рядом с` / `Grö
 and both rebuilt Size screens were checked in the emulator. Cry playback,
 known-area maps, and size behavior for other species remain unverified.
 
+The Select-button search screen was opened in both languages. Its Name, Color,
+Type, Sort, View, Search, and back controls, along with the default filter
+values and explanatory line, rendered without overflow. Executing a search and
+checking result lists, alternative sort/filter values, and cancellation remain
+unverified.
+
 ## Shop, storage and save/options
 
 - Buy and sell one item and several items; test insufficient money, no bag room and

@@ -54,6 +54,14 @@ start a new disposable save.
   search results, area, cry, size comparison and return/cancel paths.
 - Inspect several Hoenn species descriptions in each language for page overflow.
 
+## 2026-09-23 Pokédex list smoke check
+
+Copied early-game saves opened the Pokédex list in both languages. The Russian
+and German seen/caught counters, menu command, numbered list rows, and caught
+Torchic entry rendered in the selected language without an overflow. This is a
+list-screen check only: unseen detail pages, filters, ordering, search, area,
+cry, size, and species descriptions remain unverified.
+
 ## Shop, storage and save/options
 
 - Buy and sell one item and several items; test insufficient money, no bag room and

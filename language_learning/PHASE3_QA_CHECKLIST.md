@@ -81,8 +81,12 @@ known-area maps, and size behavior for other species remain unverified.
 The Select-button search screen was opened in both languages. Its Name, Color,
 Type, Sort, View, Search, and back controls, along with the default filter
 values and explanatory line, rendered without overflow. Executing a search and
-checking result lists, alternative sort/filter values, and cancellation remain
-unverified.
+checking alternative sort/filter values and cancellation remain unverified.
+
+The default search was then executed in both languages. The translated
+`searching` and `complete` notices displayed before the result list opened with
+localized species names, counters, and its menu label. Alternative filter/sort
+values, empty results, and cancellation remain unverified.
 
 ## Shop, storage and save/options
 

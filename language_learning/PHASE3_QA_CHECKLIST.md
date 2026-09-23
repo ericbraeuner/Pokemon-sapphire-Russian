@@ -257,6 +257,14 @@ Pokémon displayed `Это не подействует.` / `Das hat keine Wirkun
 to the Bag with the Antidote still at quantity one. The unsuccessful use did
 not leave a Party window or consume the item.
 
+Copied-save runs also added a Paralyze Heal and ordinary paralysis only in
+emulator RAM. Selecting the item, choosing the party member, and closing the
+result displayed the localized cure message (`Паралич снят.` / `Paralyse
+geheilt.`). The paralysis badge cleared, and reopening the Bag showed the
+remaining Potion but no Paralyze Heal, confirming that the successful treatment
+was consumed. Burn, freeze, sleep, and Full Heal treatment flows remain
+unverified.
+
 ## 2026-09-17 Battle health-box poison badge check
 
 The five battle health-box status badges now use a learner-only tile range,

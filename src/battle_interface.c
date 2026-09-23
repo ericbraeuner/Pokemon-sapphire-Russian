@@ -634,10 +634,21 @@ u8 battle_make_oam_safari_battle(void)
 static const void *GetHealthboxElementGfxPtr(u8 a)
 {
 #if LEARNER_DEMO
-    if (a >= 0x15 && a < 0x24 && Learner_GetLanguage())
+    // Health boxes have one copy of the five three-tile status badges for each
+    // possible battler position. Keep the original table for every other tile.
+    static const u8 sStatusTileStarts[] = {0x15, 0x47, 0x56, 0x65};
+    u8 i;
+
+    if (Learner_GetLanguage())
     {
-        const u8 *tiles = Learner_GetLanguage() == 1 ? gLearnerBattleStatusTilesRu : gLearnerBattleStatusTilesDe;
-        return tiles + (a - 0x15) * 32;
+        for (i = 0; i < ARRAY_COUNT(sStatusTileStarts); i++)
+        {
+            if (a >= sStatusTileStarts[i] && a < sStatusTileStarts[i] + 15)
+            {
+                const u8 *tiles = Learner_GetLanguage() == 1 ? gLearnerBattleStatusTilesRu : gLearnerBattleStatusTilesDe;
+                return tiles + (a - sStatusTileStarts[i]) * 32;
+            }
+        }
     }
 #endif
     return gHealthboxElementsGfxTable[a];

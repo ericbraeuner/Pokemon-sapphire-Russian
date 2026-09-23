@@ -718,7 +718,9 @@ class LessonTests(unittest.TestCase):
                             self.assertEqual(original.getpixel((x, y)), icon.getpixel((x, y)))
         battle = (demo.ROOT / 'src/battle_interface.c').read_text(encoding='utf-8')
         self.assertIn('gLearnerBattleStatusTilesRu', battle)
-        self.assertIn('a >= 0x15 && a < 0x24', battle)
+        self.assertIn('sStatusTileStarts[] = {0x15, 0x47, 0x56, 0x65}', battle)
+        self.assertIn('a < sStatusTileStarts[i] + 15', battle)
+        self.assertIn('a - sStatusTileStarts[i]', battle)
         self.assertIn('return gHealthboxElementsGfxTable[a];', battle)
 
     def test_shared_item_names_and_descriptions_fit(self):

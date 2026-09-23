@@ -272,5 +272,9 @@ player health-box badge (`СОН`, `ПАР`, `ОЖГ`, `ЛЁД` / `SCH`, `PAR`, 
 was visibly lettered within its original border, with the HP bar intact. The
 first route script sometimes stopped in tall grass without triggering combat;
 the remaining cases were checked after a revised walking loop actually entered
-battle. These runs do not prove natural infliction/cure flows. Enemy health
-boxes and double battles remain unverified.
+battle. A separate wild-battle run set poison only in emulator RAM for the
+opponent and showed `ЯД` in Russian and `GIF` in German in the enemy health
+box. The learner hook now covers each of the four engine health-box tile ranges,
+including the two used by double battles, but enemy sleep/paralysis/burn/freeze
+and double-battle rendering remain unverified. These runs do not prove natural
+infliction/cure flows.

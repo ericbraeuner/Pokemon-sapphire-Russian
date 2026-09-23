@@ -71,6 +71,13 @@ with `НЕИЗВ.` / `UNBEK.` while retaining its original border and three-spri
 layout. The repaired sign was checked in the emulator in both languages. Area
 maps with known encounter locations remain unverified.
 
+Torchic's Cry control opened in both languages with its localized navigation
+label and cry caption. Its Size control initially exposed the English dynamic
+caption `SIZE COMPARED TO` because it appends the player's name after rendering.
+The caption now uses the selected language (`Размер рядом с` / `Größe neben`),
+and both rebuilt Size screens were checked in the emulator. Cry playback,
+known-area maps, and size behavior for other species remain unverified.
+
 ## Shop, storage and save/options
 
 - Buy and sell one item and several items; test insufficient money, no bag room and

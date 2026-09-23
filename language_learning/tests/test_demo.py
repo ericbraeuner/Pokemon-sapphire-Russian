@@ -743,6 +743,10 @@ class LessonTests(unittest.TestCase):
         self.assertIn('gLearnerAreaUnknownTilesRu', area)
         self.assertIn('LZ77UnCompWram(tiles', area)
 
+    def test_pokedex_size_caption_uses_the_selected_language(self):
+        pokedex = (demo.ROOT / 'src/pokedex.c').read_text()
+        self.assertIn('StringAppend(string, DexLearnerText(gDexText_SizeComparedTo));', pokedex)
+
     def test_shared_item_names_and_descriptions_fit(self):
         item_source = (demo.ROOT / 'src/item.c').read_text()
         for signature in ('void CopyItemName(', 'const u8 *ItemId_GetName(',

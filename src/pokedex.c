@@ -3440,7 +3440,7 @@ static void Task_InitSizeScreenMultistep(u8 taskId)
             Text_LoadWindowTemplate(&gWindowTemplate_81E702C);
             InitMenuWindow(&gWindowTemplate_81E702C);
             string[0] = EOS;
-            StringAppend(string, gDexText_SizeComparedTo);
+            StringAppend(string, DexLearnerText(gDexText_SizeComparedTo));
             StringAppend(string, gSaveBlock2.playerName);
             MenuPrint_Centered(string, 3, 15, 0xC0);
             gMain.state++;

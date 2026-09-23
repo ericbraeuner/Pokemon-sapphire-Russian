@@ -262,7 +262,11 @@ emulator RAM. Selecting the item, choosing the party member, and closing the
 result displayed the localized cure message (`Паралич снят.` / `Paralyse
 geheilt.`). The paralysis badge cleared, and reopening the Bag showed the
 remaining Potion but no Paralyze Heal, confirming that the successful treatment
-was consumed. Burn, freeze, sleep, and Full Heal treatment flows remain
+was consumed. The same full Bag flow passed for Burn Heal, Ice Heal, and
+Awakening in both languages: their results read `Ожог вылечен.` / `Brand
+geheilt.`, `разморожен.` / `aufgetaut.`, and `просыпается.` / `wacht auf.`
+after the live player name. In each case the status cleared and the cure item
+was consumed while the original Potion remained. Full Heal treatment remains
 unverified.
 
 ## 2026-09-17 Battle health-box poison badge check

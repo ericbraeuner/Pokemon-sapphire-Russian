@@ -60,7 +60,10 @@ Copied early-game saves opened the Pokédex list in both languages. The Russian
 and German seen/caught counters, menu command, numbered list rows, and caught
 Torchic entry rendered in the selected language without an overflow. This is a
 list-screen check only: unseen detail pages, filters, ordering, search, area,
-cry, size, and species descriptions remain unverified.
+cry, size, and most species descriptions remain unverified. Selecting the
+caught Torchic row also showed its localized category, height, weight, page
+caption, and first description page in both languages without clipping. Its
+other detail pages and all other species remain unverified.
 
 ## Shop, storage and save/options
 

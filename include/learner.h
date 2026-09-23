@@ -1124,6 +1124,7 @@ extern const u8 gLearnerBagTilesRu[], gLearnerBagTilesDe[];
 extern const u8 gLearnerDexSearchTilesRu[], gLearnerDexSearchTilesDe[];
 extern const u8 gLearnerDexMainTilesRu[], gLearnerDexMainTilesDe[];
 extern const u8 gLearnerDexSpriteTilesRu[], gLearnerDexSpriteTilesDe[];
+extern const u8 gLearnerAreaUnknownTilesRu[], gLearnerAreaUnknownTilesDe[];
 extern const u8 gLearnerStorageMiscTilesRu[], gLearnerStorageMiscTilesDe[];
 extern const u8 gLearnerSummaryTilesRu[], gLearnerSummaryTilesDe[];
 extern const u8 gLearnerMoveTypeTilesRu[], gLearnerMoveTypeTilesDe[];

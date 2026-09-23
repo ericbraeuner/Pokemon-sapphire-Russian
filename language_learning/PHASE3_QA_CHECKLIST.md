@@ -65,6 +65,12 @@ caught Torchic row also showed its localized category, height, weight, page
 caption, and first description page in both languages without clipping. Its
 other detail pages and all other species remain unverified.
 
+Selecting Torchic's Area control exposed the stock `AREA UNKNOWN` sign for its
+unavailable encounter data. The learner build now replaces that animated sign
+with `НЕИЗВ.` / `UNBEK.` while retaining its original border and three-sprite
+layout. The repaired sign was checked in the emulator in both languages. Area
+maps with known encounter locations remain unverified.
+
 ## Shop, storage and save/options
 
 - Buy and sell one item and several items; test insufficient money, no bag room and

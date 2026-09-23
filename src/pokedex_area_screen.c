@@ -1,5 +1,6 @@
 // Includes
 #include "global.h"
+#include "learner.h"
 #include "constants/species.h"
 #include "constants/maps.h"
 #include "constants/songs.h"
@@ -1387,8 +1388,13 @@ const struct SpritePalette sAreaUnknownSpritePalette = {gAreaUnknownPalette, 3};
 static void LoadAreaUnknownGraphics(void)
 {
     struct SpriteSheet spriteSheet = {gPokedexAreaScreenPtr->areaUnknownGraphicsBuffer, 0x600, 3};
+    const u8 *tiles = gAreaUnknownTiles;
 
-    LZ77UnCompWram(gAreaUnknownTiles, gPokedexAreaScreenPtr->areaUnknownGraphicsBuffer);
+#if LEARNER_DEMO
+    if (Learner_GetLanguage())
+        tiles = Learner_GetLanguage() == 1 ? gLearnerAreaUnknownTilesRu : gLearnerAreaUnknownTilesDe;
+#endif
+    LZ77UnCompWram(tiles, gPokedexAreaScreenPtr->areaUnknownGraphicsBuffer);
     LoadSpriteSheet(&spriteSheet);
     LoadSpritePalette(&sAreaUnknownSpritePalette);
 }

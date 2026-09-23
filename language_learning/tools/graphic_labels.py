@@ -150,6 +150,41 @@ def render(kind, tag):
     return sheet
 
 
+def render_area_unknown(tag):
+    """Return the three 32x32 animated pieces of the Area Unknown sign."""
+    with Image.open(demo.ROOT / 'graphics/pokedex/area_unknown.png') as source:
+        sheet = source.copy()
+    if sheet.mode != 'P' or sheet.size != (32, 96):
+        raise ValueError('Unexpected Area Unknown sign sheet')
+    combined = Image.new('P', (96, 32))
+    combined.putpalette(sheet.getpalette())
+    for index in range(3):
+        combined.paste(sheet.crop((0, index * 32, 32, index * 32 + 32)), (index * 32, 0))
+    with Image.open(demo.ROOT / 'graphics/fonts/font0_lat.png') as source:
+        font = source.copy()
+    latin = demo.load_charmap()
+    _, cyrillic = demo.load_font()
+    labels = {'ru': 'НЕИЗВ.', 'de': 'UNBEK.'}
+    letters = [glyph(char, latin, cyrillic if tag == 'ru' else {}, font) for char in labels[tag]]
+    text_width = sum(len(letter[0]) + 1 for letter in letters) - 1
+    if text_width > 80:
+        raise ValueError(f'Area Unknown label overflow: {tag}/{labels[tag]}')
+    combined.paste(15, (8, 7, 88, 25))
+    cursor = 8 + (80 - text_width) // 2
+    for letter in letters:
+        top = 7 + (18 - len(letter)) // 2
+        for y, row in enumerate(letter):
+            for x, bit in enumerate(row):
+                if bit:
+                    combined.putpixel((cursor + x, top + y), 0)
+        cursor += len(letter[0]) + 1
+    result = Image.new('P', (32, 96))
+    result.putpalette(sheet.getpalette())
+    for index in range(3):
+        result.paste(combined.crop((index * 32, 0, index * 32 + 32, 32)), (0, index * 32))
+    return result
+
+
 def render_type_icons(tag):
     """Replace only the lettering in the shared 32x16 type/category sprites."""
     entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')['type_icons']
@@ -292,6 +327,9 @@ def generate():
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
                 'gLearner' + name + tag.title(), data))
     for tag in ('ru', 'de'):
+        data = literal_lz(tile_bytes(render_area_unknown(tag)))
+        parts.append('\t.balign 4\n' + demo.assembly_bytes(
+            'gLearnerAreaUnknownTiles' + tag.title(), data))
         data = literal_lz(tile_bytes(render_type_icons(tag)))
         parts.append('\t.balign 4\n' + demo.assembly_bytes(
             'gLearnerMoveTypeTiles' + tag.title(), data))

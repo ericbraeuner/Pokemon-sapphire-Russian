@@ -723,6 +723,26 @@ class LessonTests(unittest.TestCase):
         self.assertIn('a - sStatusTileStarts[i]', battle)
         self.assertIn('return gHealthboxElementsGfxTable[a];', battle)
 
+    def test_area_unknown_sign_keeps_its_three_sprite_borders(self):
+        from PIL import Image
+        with Image.open(demo.ROOT / 'graphics/pokedex/area_unknown.png') as source:
+            original = source.copy()
+        for tag in ('ru', 'de'):
+            rendered = graphic_labels.render_area_unknown(tag)
+            self.assertEqual((32, 96), rendered.size)
+            self.assertEqual(0x600, len(graphic_labels.tile_bytes(rendered)))
+            self.assertNotEqual(original.tobytes(), rendered.tobytes())
+            for frame in range(3):
+                for y in range(32):
+                    for x in range(32):
+                        combined_x = x + frame * 32
+                        if not (8 <= combined_x < 88 and 7 <= y < 25):
+                            self.assertEqual(original.getpixel((x, y + frame * 32)),
+                                             rendered.getpixel((x, y + frame * 32)))
+        area = (demo.ROOT / 'src/pokedex_area_screen.c').read_text()
+        self.assertIn('gLearnerAreaUnknownTilesRu', area)
+        self.assertIn('LZ77UnCompWram(tiles', area)
+
     def test_shared_item_names_and_descriptions_fit(self):
         item_source = (demo.ROOT / 'src/item.c').read_text()
         for signature in ('void CopyItemName(', 'const u8 *ItemId_GetName(',

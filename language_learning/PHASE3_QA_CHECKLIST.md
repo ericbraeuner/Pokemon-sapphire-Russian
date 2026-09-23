@@ -266,8 +266,10 @@ was consumed. The same full Bag flow passed for Burn Heal, Ice Heal, and
 Awakening in both languages: their results read `Ожог вылечен.` / `Brand
 geheilt.`, `разморожен.` / `aufgetaut.`, and `просыпается.` / `wacht auf.`
 after the live player name. In each case the status cleared and the cure item
-was consumed while the original Potion remained. Full Heal treatment remains
-unverified.
+was consumed while the original Potion remained. Full Heal likewise cleared
+ordinary burn in both copied-save runs, showed `снова здоров.` / `wieder
+gesund.`, and was consumed. This completes the ordinary Bag status-cure paths;
+natural battle infliction and cure flows remain unverified.
 
 ## 2026-09-17 Battle health-box poison badge check
 

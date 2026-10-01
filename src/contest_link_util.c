@@ -13,6 +13,7 @@
 #include "field_specials.h"
 #include "graphics.h"
 #include "link.h"
+#include "learner.h"
 #include "main.h"
 #include "menu.h"
 #include "overworld.h"
@@ -32,6 +33,12 @@
 #include "util.h"
 
 #define ABS(x) ((x) < 0 ? -(x) : (x))
+
+#if LEARNER_DEMO
+#define ContestLearnerText(text) Learner_Translate(text)
+#else
+#define ContestLearnerText(text) (text)
+#endif
 
 #define GET_CONTEST_WINNER(var) {           \
     for ((var) = 0; (var) < 4; (var)++)     \
@@ -406,8 +413,8 @@ static void sub_80C2600(u8 taskId)
     if (gTasks[taskId].data[0] == 0)
     {
         CreateTask(sub_80C2F64, 20);
-        sub_80C3158(gContestText_AnnounceResults, eContestLink80C2020Struct2018000.unk_00);
-        sub_80C34CC(sub_80C34AC(gContestText_AnnounceResults), 0x90, 0x78, 0x440);
+        sub_80C3158(ContestLearnerText(gContestText_AnnounceResults), eContestLink80C2020Struct2018000.unk_00);
+        sub_80C34CC(sub_80C34AC(ContestLearnerText(gContestText_AnnounceResults)), 0x90, 0x78, 0x440);
         gTasks[taskId].data[0]++;
     }
     else if (gTasks[taskId].data[0] == 1)
@@ -428,8 +435,8 @@ static void sub_80C2600(u8 taskId)
     }
     else if (gTasks[taskId].data[0] == 3)
     {
-        sub_80C3158(gContestText_PreliminaryResults, eContestLink80C2020Struct2018000.unk_00);
-        sub_80C34CC(sub_80C34AC(gContestText_PreliminaryResults), 0x90, 0xffff, 0x440);
+        sub_80C3158(ContestLearnerText(gContestText_PreliminaryResults), eContestLink80C2020Struct2018000.unk_00);
+        sub_80C34CC(sub_80C34AC(ContestLearnerText(gContestText_PreliminaryResults)), 0x90, 0xffff, 0x440);
         gTasks[taskId].data[0]++;
     }
     else if (gTasks[taskId].data[0] == 4)
@@ -482,8 +489,8 @@ static void sub_80C2770(u8 taskId)
         if (++gTasks[taskId].data[1] == 21)
         {
             gTasks[taskId].data[1] = 0;
-            sub_80C3158(gContestText_Round2Results, eContestLink80C2020Struct2018000.unk_00);
-            sub_80C34CC(sub_80C34AC(gContestText_Round2Results), 0x90, 0xffff, 0x440);
+            sub_80C3158(ContestLearnerText(gContestText_Round2Results), eContestLink80C2020Struct2018000.unk_00);
+            sub_80C34CC(sub_80C34AC(ContestLearnerText(gContestText_Round2Results)), 0x90, 0xffff, 0x440);
         }
     }
     else if (eContestLink80C2020Struct2018000.unk_04 == 2)

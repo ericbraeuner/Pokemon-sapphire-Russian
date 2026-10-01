@@ -325,4 +325,6 @@
   ,"gContestStatsText_NormallyAte":{"ru":"{STR_VAR_1} съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
   ,"gContestStatsText_HappilyAte":{"ru":"{STR_VAR_1} с радостью съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß gern\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
   ,"gContestStatsText_DisdainfullyAte":{"ru":"{STR_VAR_1} неохотно съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß ungern\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
+  ,"gContestText_PokeWon":{"ru":"Победитель: {STR_VAR_1}\\nПокемон: {STR_VAR_2}!","de":"{STR_VAR_1} gewinnt mit\\n{STR_VAR_2}!","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gContestText_ContestWinner":{"ru":"ПОБЕДИТЕЛЬ\\n","de":"SIEGER\\n","widths":{},"max_width":192}
 }

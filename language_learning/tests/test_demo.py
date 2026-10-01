@@ -931,6 +931,16 @@ class LessonTests(unittest.TestCase):
                         'HappilyAte', 'DisdainfullyAte'):
             self.assertIn(f'gContestStatsText_{message}', templates)
 
+    def test_contest_result_screens_use_selected_language(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        for label in ('AnnounceResults', 'PreliminaryResults', 'Round2Results'):
+            self.assertIn(f'gContestText_{label}', entries)
+        self.assertIn('gContestText_PokeWon', templates)
+        self.assertIn('gContestText_ContestWinner', templates)
+        source = (demo.ROOT / 'src/contest_link_util.c').read_text()
+        self.assertGreaterEqual(source.count('ContestLearnerText(gContestText_'), 6)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

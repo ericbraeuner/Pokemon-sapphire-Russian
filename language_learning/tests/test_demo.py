@@ -916,6 +916,21 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(set(entries) | set(templates)))
 
+    def test_pokeblock_case_labels_and_messages_are_bilingual(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        colors = {
+            'Red', 'Blue', 'Pink', 'Green', 'Yellow', 'Purple', 'Indigo',
+            'Brown', 'LiteBlue', 'Olive', 'Gray', 'Black', 'White', 'Gold'
+        }
+        for color in colors:
+            self.assertIn(f'ContestStatsText_{color}PokeBlock', entries)
+        for label in ('Spicy', 'Dry', 'Sweet', 'Bitter', 'Sour', 'Tasty', 'Feel', 'StowCase'):
+            self.assertIn(f'gContestStatsText_{label}', entries)
+        for message in ('ThrowAwayPrompt', 'WasThrownAway', 'NormallyAte',
+                        'HappilyAte', 'DisdainfullyAte'):
+            self.assertIn(f'gContestStatsText_{message}', templates)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

@@ -320,4 +320,9 @@
   ,"gTradeText_ByeBye":{"ru":"До свидания,\\n{STR_VAR_2}!","de":"Mach's gut,\\n{STR_VAR_2}!","widths":{"STR_VAR_2":80},"max_width":192}
   ,"gTradeText_SentOverPoke":{"ru":"{STR_VAR_1} отправляет\\n{STR_VAR_3}.","de":"{STR_VAR_1} sendet\\n{STR_VAR_3}.","widths":{"STR_VAR_1":80,"STR_VAR_3":80},"max_width":192}
   ,"gTradeText_TakeGoodCare":{"ru":"Позаботься о\\n{STR_VAR_3}!","de":"Pass gut auf\\n{STR_VAR_3} auf!","widths":{"STR_VAR_3":80},"max_width":192}
+  ,"gContestStatsText_ThrowAwayPrompt":{"ru":"Выбросить\\n{STR_VAR_1}?","de":"{STR_VAR_1}\\nwegwerfen?","widths":{"STR_VAR_1":94},"max_width":192}
+  ,"gContestStatsText_WasThrownAway":{"ru":"{STR_VAR_1}\\nвыброшен.","de":"{STR_VAR_1} wurde\\nweggeworfen.","widths":{"STR_VAR_1":94},"max_width":192}
+  ,"gContestStatsText_NormallyAte":{"ru":"{STR_VAR_1} съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
+  ,"gContestStatsText_HappilyAte":{"ru":"{STR_VAR_1} с радостью съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß gern\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
+  ,"gContestStatsText_DisdainfullyAte":{"ru":"{STR_VAR_1} неохотно съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß ungern\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
 }

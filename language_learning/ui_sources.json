@@ -1907,4 +1907,31 @@
   ,"TradeText_WaitingForFriend":{"ru":"Ждём, пока друг закончит...","de":"Warte, bis dein Freund fertig ist...","width":192,"lines":3}
   ,"TradeText_WantToTrade":{"ru":"Друг хочет обменяться покемонами.","de":"Dein Freund möchte Pokémon tauschen.","width":192,"lines":3}
   ,"gTradeText_TradeOkayPrompt":{"ru":"Согласен на обмен?","de":"Ist der Tausch in Ordnung?","width":192,"lines":2}
+  ,"ContestStatsText_VerySoft":{"ru":"Очень мягкий","de":"Sehr weich","width":192,"lines":1}
+  ,"ContestStatsText_Soft":{"ru":"Мягкий","de":"Weich","width":192,"lines":1}
+  ,"ContestStatsText_Hard":{"ru":"Твёрдый","de":"Hart","width":192,"lines":1}
+  ,"ContestStatsText_VeryHard":{"ru":"Очень твёрдый","de":"Sehr hart","width":192,"lines":1}
+  ,"ContestStatsText_SuperHard":{"ru":"Каменный","de":"Steinhart","width":192,"lines":1}
+  ,"ContestStatsText_RedPokeBlock":{"ru":"Красный блок","de":"Rot","width":94,"lines":1}
+  ,"ContestStatsText_BluePokeBlock":{"ru":"Синий блок","de":"Blau","width":94,"lines":1}
+  ,"ContestStatsText_PinkPokeBlock":{"ru":"Розовый блок","de":"Rosa","width":94,"lines":1}
+  ,"ContestStatsText_GreenPokeBlock":{"ru":"Зелёный блок","de":"Grün","width":94,"lines":1}
+  ,"ContestStatsText_YellowPokeBlock":{"ru":"Жёлтый блок","de":"Gelb","width":94,"lines":1}
+  ,"ContestStatsText_PurplePokeBlock":{"ru":"Лиловый блок","de":"Lila","width":94,"lines":1}
+  ,"ContestStatsText_IndigoPokeBlock":{"ru":"Индиго блок","de":"Indigo","width":94,"lines":1}
+  ,"ContestStatsText_BrownPokeBlock":{"ru":"Бурый блок","de":"Braun","width":94,"lines":1}
+  ,"ContestStatsText_LiteBluePokeBlock":{"ru":"Голубой блок","de":"Cyan","width":94,"lines":1}
+  ,"ContestStatsText_OlivePokeBlock":{"ru":"Оливковый","de":"Oliv","width":94,"lines":1}
+  ,"ContestStatsText_GrayPokeBlock":{"ru":"Серый блок","de":"Grau","width":94,"lines":1}
+  ,"ContestStatsText_BlackPokeBlock":{"ru":"Чёрный блок","de":"Schwarz","width":94,"lines":1}
+  ,"ContestStatsText_WhitePokeBlock":{"ru":"Белый блок","de":"Weiß","width":94,"lines":1}
+  ,"ContestStatsText_GoldPokeBlock":{"ru":"Золотой блок","de":"Gold","width":94,"lines":1}
+  ,"gContestStatsText_Spicy":{"ru":"ОСТР.","de":"SCHARF","width":48,"lines":1}
+  ,"gContestStatsText_Dry":{"ru":"СУХ.","de":"TROCK.","width":48,"lines":1}
+  ,"gContestStatsText_Sweet":{"ru":"СЛАД.","de":"SÜSS","width":48,"lines":1}
+  ,"gContestStatsText_Bitter":{"ru":"ГОРЬК.","de":"BITTER","width":48,"lines":1}
+  ,"gContestStatsText_Sour":{"ru":"КИСЛ.","de":"SAUER","width":48,"lines":1}
+  ,"gContestStatsText_Tasty":{"ru":"ВКУС","de":"LECKER","width":48,"lines":1}
+  ,"gContestStatsText_Feel":{"ru":"ПЛОТН.","de":"WÜRZE","width":48,"lines":1}
+  ,"gContestStatsText_StowCase":{"ru":"Закрыть кейс.","de":"Box schließen.","width":120,"lines":1}
 }

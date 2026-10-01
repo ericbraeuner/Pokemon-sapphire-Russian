@@ -901,6 +901,21 @@ class LessonTests(unittest.TestCase):
         width_helper = script_menu.rsplit('static u16 GetStringWidthInTilesForScriptMenu', 1)[1].split('\n}', 1)[0]
         self.assertIn('str = Learner_Translate(str);', width_helper)
 
+    def test_secret_base_and_link_trade_text_is_bilingual(self):
+        entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'SecretBaseText_DelRegist', 'TradeText_Cancel', 'TradeText_ChoosePoke',
+            'TradeText_Summary1', 'TradeText_Trade1', 'TradeText_CancelTradePrompt',
+            'TradeText_PressBToExit', 'TradeText_Summary2', 'TradeText_Trade2',
+            'TradeText_LinkStandby', 'TradeText_TradeCancelled', 'TradeText_OnlyPoke',
+            'TradeText_NonTradablePoke', 'TradeText_WaitingForFriend',
+            'TradeText_WantToTrade', 'gTradeText_WillBeSent', 'gTradeText_ByeBye',
+            'gTradeText_SentOverPoke', 'gTradeText_TakeGoodCare',
+            'gTradeText_TradeOkayPrompt'
+        }
+        self.assertTrue(required.issubset(set(entries) | set(templates)))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

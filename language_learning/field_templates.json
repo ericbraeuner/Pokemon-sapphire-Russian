@@ -316,4 +316,8 @@
   ,"gOtherText_ThatWillBe2":{"ru":"{STR_VAR_1}\\nЦена ¥{STR_VAR_2}. Купить?","de":"{STR_VAR_1}\\n¥{STR_VAR_2}. Kaufen?","widths":{"STR_VAR_1":112,"STR_VAR_2":48},"max_width":192}
   ,"gOtherText_ThatWillBe3":{"ru":"{STR_VAR_1}\\nЦена ¥{STR_VAR_2}. Купить?","de":"{STR_VAR_1}\\n¥{STR_VAR_2}. Kaufen?","widths":{"STR_VAR_1":112,"STR_VAR_2":48},"max_width":192}
   ,"gOtherText_SpaceForIsFull":{"ru":"Нет места для:\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","de":"Kein Platz für:\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":112},"max_width":192}
+  ,"gTradeText_WillBeSent":{"ru":"{STR_VAR_2} отправится к\\n{STR_VAR_1}.","de":"{STR_VAR_2} geht an\\n{STR_VAR_1}.","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
+  ,"gTradeText_ByeBye":{"ru":"До свидания,\\n{STR_VAR_2}!","de":"Mach's gut,\\n{STR_VAR_2}!","widths":{"STR_VAR_2":80},"max_width":192}
+  ,"gTradeText_SentOverPoke":{"ru":"{STR_VAR_1} отправляет\\n{STR_VAR_3}.","de":"{STR_VAR_1} sendet\\n{STR_VAR_3}.","widths":{"STR_VAR_1":80,"STR_VAR_3":80},"max_width":192}
+  ,"gTradeText_TakeGoodCare":{"ru":"Позаботься о\\n{STR_VAR_3}!","de":"Pass gut auf\\n{STR_VAR_3} auf!","widths":{"STR_VAR_3":80},"max_width":192}
 }

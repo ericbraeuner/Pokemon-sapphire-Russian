@@ -896,6 +896,11 @@ class LessonTests(unittest.TestCase):
         self.assertIn('translatedActions[i].text = DecorationLearnerText(gUnknown_083EC604[i].text)', decoration)
         self.assertIn('DecorationLearnerText(gUnknown_083EC624[gUnknown_020388D4])', decoration)
 
+    def test_script_choice_windows_measure_translated_labels(self):
+        script_menu = (demo.ROOT / 'src/script_menu.c').read_text()
+        width_helper = script_menu.rsplit('static u16 GetStringWidthInTilesForScriptMenu', 1)[1].split('\n}', 1)[0]
+        self.assertIn('str = Learner_Translate(str);', width_helper)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

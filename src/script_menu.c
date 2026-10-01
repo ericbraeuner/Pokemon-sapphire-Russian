@@ -694,6 +694,9 @@ bool8 ScriptMenu_MultichoiceWithDefault(u8 left, u8 top, u8 multichoiceId, u8 ig
 static u16 GetStringWidthInTilesForScriptMenu(const u8 *str)
 {
     // each tile on screen is 8x8, so it needs the number of tiles and not pixels, hence the division by 8.
+#if LEARNER_DEMO
+    str = Learner_Translate(str);
+#endif
     return (Text_GetStringWidthFromWindowTemplate((struct WindowTemplate *)&gMenuTextWindowTemplate, str) + 7) / 8;
 }
 

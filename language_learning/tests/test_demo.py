@@ -888,6 +888,14 @@ class LessonTests(unittest.TestCase):
         self.assertIn('Menu_PrintText(PlayerPCLearnerText(gPCText_ItemPCOptionsText[var].text)', player_pc)
         self.assertIn('Menu_PrintText(PlayerPCLearnerText(textPtr)', player_pc)
 
+    def test_shop_and_decoration_action_menus_use_selected_language(self):
+        shop = (demo.ROOT / 'src/shop.c').read_text()
+        self.assertIn('translatedActions[i].text = ShopLearnerText(sBuySellQuitMenuActions[i].text)', shop)
+        self.assertEqual(shop.count('Menu_PrintItemsReordered(1, 1,'), 4)
+        decoration = (demo.ROOT / 'src/decoration.c').read_text()
+        self.assertIn('translatedActions[i].text = DecorationLearnerText(gUnknown_083EC604[i].text)', decoration)
+        self.assertIn('DecorationLearnerText(gUnknown_083EC624[gUnknown_020388D4])', decoration)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

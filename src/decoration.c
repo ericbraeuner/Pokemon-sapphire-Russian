@@ -1429,15 +1429,38 @@ const struct YesNoFuncTable gUnknown_083EC634[] = {
     {sub_8109D04, sub_80FF058}
 };
 
+#if LEARNER_DEMO
+static const u8 *DecorationLearnerText(const u8 *text)
+{
+    return Learner_Translate(text);
+}
+#else
+#define DecorationLearnerText(text) (text)
+#endif
+
 // text
 
 extern u8 SecretBase_EventScript_PCCancel[];
 
 void sub_80FE1DC(void)
 {
+#if LEARNER_DEMO
+    struct MenuAction translatedActions[ARRAY_COUNT(gUnknown_083EC604)];
+    u8 i;
+
+    for (i = 0; i < ARRAY_COUNT(gUnknown_083EC604); i++)
+    {
+        translatedActions[i].text = DecorationLearnerText(gUnknown_083EC604[i].text);
+        translatedActions[i].func = NULL;
+    }
+#endif
     sub_80FE2B4();
     Menu_DrawStdWindowFrame(0, 0, 10, 9);
+#if LEARNER_DEMO
+    Menu_PrintItems(1, 1, 4, translatedActions);
+#else
     Menu_PrintItems(1, 1, 4, (const struct MenuAction *)gUnknown_083EC604);
+#endif
     InitMenu(0, 1, 1, 4, gUnknown_020388D4, 9);
 }
 
@@ -1514,7 +1537,7 @@ void Task_DecorationPCProcessMenuInput(u8 taskId)
 void sub_80FE394(void)
 {
     Menu_BlankWindowRect(2, 15, 27, 18);
-    Menu_PrintText(gUnknown_083EC624[gUnknown_020388D4], 2, 15);
+    Menu_PrintText(DecorationLearnerText(gUnknown_083EC624[gUnknown_020388D4]), 2, 15);
 }
 
 void gpu_pal_decompress_alloc_tag_and_upload(u8 taskId)

@@ -88,8 +88,27 @@ static const struct YesNoFuncTable sShopPurchaseYesNoFuncs[] =
     Task_CancelItemPurchase
 };
 
+#if LEARNER_DEMO
+static const u8 *ShopLearnerText(const u8 *text)
+{
+    return Learner_Translate(text);
+}
+#else
+#define ShopLearnerText(text) (text)
+#endif
+
 static u8 CreateShopMenu(u8 martType)
 {
+#if LEARNER_DEMO
+    struct MenuAction2 translatedActions[ARRAY_COUNT(sBuySellQuitMenuActions)];
+    u8 i;
+
+    for (i = 0; i < ARRAY_COUNT(sBuySellQuitMenuActions); i++)
+    {
+        translatedActions[i].text = ShopLearnerText(sBuySellQuitMenuActions[i].text);
+        translatedActions[i].func = sBuySellQuitMenuActions[i].func;
+    }
+#endif
     LockPlayerFieldControls();
     gMartInfo.martType = martType;
     gMartInfo.cursor = 0;
@@ -98,13 +117,21 @@ static u8 CreateShopMenu(u8 martType)
     {
         gMartInfo.numChoices = 2;
         Menu_DrawStdWindowFrame(0, 0, 10, 7);
+#if LEARNER_DEMO
+        Menu_PrintItemsReordered(1, 1, 3, translatedActions, gMartBuySellOptionList);
+#else
         Menu_PrintItemsReordered(1, 1, 3, sBuySellQuitMenuActions, gMartBuySellOptionList);
+#endif
     }
     else
     {
         gMartInfo.numChoices = 1;
         Menu_DrawStdWindowFrame(0, 0, 10, 5);
+#if LEARNER_DEMO
+        Menu_PrintItemsReordered(1, 1, 2, translatedActions, gMartBuyNoSellOptionList);
+#else
         Menu_PrintItemsReordered(1, 1, 2, sBuySellQuitMenuActions, gMartBuyNoSellOptionList);
+#endif
     }
     InitMenu(0, 1, 1, gMartInfo.numChoices + 1, 0, 9); // add 1 for cancel
 

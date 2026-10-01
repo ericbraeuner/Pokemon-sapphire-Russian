@@ -879,6 +879,15 @@ class LessonTests(unittest.TestCase):
         self.assertIn('StorageLearnerText(gPCText_PartyFull2)', storage)
         self.assertIn('StorageLearnerText(gPCText_OnlyOne)', storage)
 
+    def test_player_pc_item_storage_and_mailbox_menus_use_selected_language(self):
+        player_pc = (demo.ROOT / 'src/player_pc.c').read_text()
+        self.assertIn('translatedActions[i].text = PlayerPCLearnerText(sPlayerPCMenuActions[i].text)', player_pc)
+        self.assertIn('translatedActions[i].text = PlayerPCLearnerText(gPCText_ItemPCOptionsText[i].text)', player_pc)
+        self.assertIn('translatedActions[i].text = PlayerPCLearnerText(gMailboxMailOptions[i].text)', player_pc)
+        self.assertIn('Menu_PrintText(PlayerPCLearnerText(gPCText_Mailbox)', player_pc)
+        self.assertIn('Menu_PrintText(PlayerPCLearnerText(gPCText_ItemPCOptionsText[var].text)', player_pc)
+        self.assertIn('Menu_PrintText(PlayerPCLearnerText(textPtr)', player_pc)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

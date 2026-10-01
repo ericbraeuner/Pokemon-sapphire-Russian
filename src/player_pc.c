@@ -192,6 +192,15 @@ extern u32 gUnknown_08406288[];
 extern const struct MenuAction gUnknown_084062C0[];
 extern const struct YesNoFuncTable gUnknown_084062E0;
 
+#if LEARNER_DEMO
+static const u8 *PlayerPCLearnerText(const u8 *text)
+{
+    return Learner_Translate(text);
+}
+#else
+#define PlayerPCLearnerText(text) (text)
+#endif
+
 void NewGameInitPCItems(void)
 {
     u8 i;
@@ -218,8 +227,22 @@ void PlayerPC(void)
 
 static void InitPlayerPCMenu(u8 taskId)
 {
+#if LEARNER_DEMO
+    struct MenuAction2 translatedActions[ARRAY_COUNT(sPlayerPCMenuActions)];
+    u8 i;
+
+    for (i = 0; i < ARRAY_COUNT(sPlayerPCMenuActions); i++)
+    {
+        translatedActions[i].text = PlayerPCLearnerText(sPlayerPCMenuActions[i].text);
+        translatedActions[i].func = sPlayerPCMenuActions[i].func;
+    }
+#endif
     Menu_DrawStdWindowFrame(0, 0, 10, gPcItemMenuOptionsNum * 2 + 1);
+#if LEARNER_DEMO
+    Menu_PrintItemsReordered(1, 1, gPcItemMenuOptionsNum, translatedActions, gPcItemMenuOptionOrder);
+#else
     Menu_PrintItemsReordered(1, 1, gPcItemMenuOptionsNum, sPlayerPCMenuActions, gPcItemMenuOptionOrder);
+#endif
     InitMenu(0, 1, 1, gPcItemMenuOptionsNum, 0, 9);
     TASK.FUNC = PlayerPCProcessMenuInput;
 }
@@ -306,9 +329,23 @@ static void PlayerPC_TurnOff(u8 taskId)
 
 static void InitItemStorageMenu(u8 var)
 {
+#if LEARNER_DEMO
+    struct MenuAction translatedActions[ARRAY_COUNT(gPCText_ItemPCOptionsText)];
+    u8 i;
+
+    for (i = 0; i < ARRAY_COUNT(gPCText_ItemPCOptionsText); i++)
+    {
+        translatedActions[i].text = PlayerPCLearnerText(gPCText_ItemPCOptionsText[i].text);
+        translatedActions[i].func = NULL;
+    }
+#endif
     Menu_EraseWindowRect(0, 0, 10, 9);
     Menu_DrawStdWindowFrame(0, 0, 11, 9);
+#if LEARNER_DEMO
+    Menu_PrintItems(1, 1, 4, translatedActions);
+#else
     Menu_PrintItems(1, 1, 4, (struct MenuAction *)gPCText_ItemPCOptionsText);
+#endif
     InitMenu(0, 1, 1, 4, var, 10);
     ItemStorageMenuPrint(gPCText_OptionDescList[var]);
 }
@@ -316,7 +353,7 @@ static void InitItemStorageMenu(u8 var)
 static void ItemStorageMenuPrint(const u8 *textPtr)
 {
     Menu_BlankWindowRect(2, 15, 27, 18);
-    Menu_PrintText(textPtr, 2, 15);
+    Menu_PrintText(PlayerPCLearnerText(textPtr), 2, 15);
 }
 
 static void ItemStorageMenuProcessInput(u8 var)
@@ -989,7 +1026,7 @@ static void ItemStorage_GoBackToItemPCMenu(u8 taskId, u8 var)
     Menu_DrawStdWindowFrame(0, 0xC, 0xE, 0x13);
     Menu_DrawStdWindowFrame(0, 0, 0xB, 3);
     ItemStorage_PrintItemPcResponse(gSaveBlock1.pcItems[0].itemId);
-    Menu_PrintText(gPCText_ItemPCOptionsText[var].text, 1, 1);
+    Menu_PrintText(PlayerPCLearnerText(gPCText_ItemPCOptionsText[var].text), 1, 1);
     ItemStorage_DrawItemList(taskId);
     InitMenu(0, 0x10, 2, NUM_PAGE_ITEMS, PAGE_INDEX, 0xD);
 }
@@ -1079,7 +1116,7 @@ static void Mailbox_DrawMailboxMenu(u8 taskId)
     LoadScrollIndicatorPalette();
     Menu_EraseWindowRect(0, 0, 0x1D, 0x13);
     Menu_DrawStdWindowFrame(0, 0, 0x8, 0x3);
-    Menu_PrintText(gPCText_Mailbox, 1, 1);
+    Menu_PrintText(PlayerPCLearnerText(gPCText_Mailbox), 1, 1);
     Menu_DrawStdWindowFrame(0x14, 0, 0x1D, 0x13);
     Mailbox_DrawMailList(taskId);
     InitMenu(0, 0x15, 2, eMailboxInfo.pageItems, eMailboxInfo.cursorPos, 8);
@@ -1172,8 +1209,22 @@ static void Mailbox_TurnOff(u8 taskId)
 
 static void Mailbox_PrintMailOptions(u8 taskId) // Mailbox_PrintMailOptions
 {
+#if LEARNER_DEMO
+    struct MenuAction translatedActions[ARRAY_COUNT(gMailboxMailOptions)];
+    u8 i;
+
+    for (i = 0; i < ARRAY_COUNT(gMailboxMailOptions); i++)
+    {
+        translatedActions[i].text = PlayerPCLearnerText(gMailboxMailOptions[i].text);
+        translatedActions[i].func = NULL;
+    }
+#endif
     Menu_DrawStdWindowFrame(0, 0, 0xC, 0x9);
+#if LEARNER_DEMO
+    Menu_PrintItems(1, 1, 4, translatedActions);
+#else
     Menu_PrintItems(1, 1, 4, (struct MenuAction *)gMailboxMailOptions);
+#endif
     InitMenu(0, 1, 1, 4, 0, 0xB);
     TASK.FUNC = Mailbox_MailOptionsProcessInput;
 }

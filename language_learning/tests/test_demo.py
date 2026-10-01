@@ -870,6 +870,15 @@ class LessonTests(unittest.TestCase):
         self.assertNotIn('multichoice 0, 0, MULTI_LEARNER_MODE', settings)
         self.assertIn('sLearnerMode == 1', (demo.ROOT / 'src/learner_intro.inc').read_text())
 
+    def test_pc_startup_and_storage_primary_menu_use_selected_language(self):
+        script_menu = (demo.ROOT / 'src/script_menu.c').read_text()
+        self.assertIn('Learner_Translate(Text_WhichPCShouldBeAccessed)', script_menu)
+        storage = (demo.ROOT / 'src/pokemon_storage_system.c').read_text()
+        self.assertIn('translatedActions[i].text = StorageLearnerText(', storage)
+        self.assertGreaterEqual(storage.count('StorageLearnerText(gUnknown_083B600C['), 6)
+        self.assertIn('StorageLearnerText(gPCText_PartyFull2)', storage)
+        self.assertIn('StorageLearnerText(gPCText_OnlyOne)', storage)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

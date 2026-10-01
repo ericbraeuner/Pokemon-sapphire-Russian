@@ -12,6 +12,7 @@
 #include "event_data.h"
 #include "script.h"
 #include "pokemon_storage_system.h"
+#include "learner.h"
 
 void StorageSystemCreatePrimaryMenu(u8 whichMenu);
 void sub_80963D0(u8 curBox);
@@ -31,6 +32,15 @@ const struct PSS_MenuStringPtrs gUnknown_083B600C[] = {
     {PCText_MovePoke,     PCText_OrganizeBoxesParty},
     {PCText_SeeYa,        PCText_ReturnToPrevMenu}
 };
+
+#if LEARNER_DEMO
+static const u8 *StorageLearnerText(const u8 *text)
+{
+    return Learner_Translate(text);
+}
+#else
+#define StorageLearnerText(text) (text)
+#endif
 
 #if DEBUG
 const u16 gUnknown_Debug_083E05F0[2] = {0};
@@ -253,7 +263,7 @@ void Task_PokemonStorageSystem(u8 taskId)
         case 0:
             StorageSystemCreatePrimaryMenu(task->data[1]);
             Menu_DisplayDialogueFrame();
-            Menu_PrintText(gUnknown_083B600C[task->data[1]].desc, 2, 15);
+            Menu_PrintText(StorageLearnerText(gUnknown_083B600C[task->data[1]].desc), 2, 15);
             task->data[0]++;
             break;
         case 1:
@@ -277,7 +287,7 @@ void Task_PokemonStorageSystem(u8 taskId)
                     {
                         task->data[1] = task->data[3];
                         StorageSystemClearMessageWindow();
-                        Menu_PrintText(gUnknown_083B600C[task->data[1]].desc, 2, 15);
+                        Menu_PrintText(StorageLearnerText(gUnknown_083B600C[task->data[1]].desc), 2, 15);
                     }
                     break;
                 case -1:
@@ -292,13 +302,13 @@ void Task_PokemonStorageSystem(u8 taskId)
                     if (task->data[2] == 0 && StorageSystemGetPartySize() == PARTY_SIZE)
                     {
                         StorageSystemClearMessageWindow();
-                        Menu_PrintText(gPCText_PartyFull2, 2, 15);
+                        Menu_PrintText(StorageLearnerText(gPCText_PartyFull2), 2, 15);
                         task->data[0] = 3;
                     }
                     else if (task->data[2] == 1 && StorageSystemGetPartySize() == 1)
                     {
                         StorageSystemClearMessageWindow();
-                        Menu_PrintText(gPCText_OnlyOne, 2, 15);
+                        Menu_PrintText(StorageLearnerText(gPCText_OnlyOne), 2, 15);
                         task->data[0] = 3;
                     }
                     else
@@ -313,7 +323,7 @@ void Task_PokemonStorageSystem(u8 taskId)
             if (JOY_NEW(A_BUTTON | B_BUTTON))
             {
                 StorageSystemClearMessageWindow();
-                Menu_PrintText(gUnknown_083B600C[task->data[1]].desc, 2, 15);
+                Menu_PrintText(StorageLearnerText(gUnknown_083B600C[task->data[1]].desc), 2, 15);
                 task->data[0] = 2;
             }
             else if (JOY_NEW(DPAD_UP))
@@ -323,7 +333,7 @@ void Task_PokemonStorageSystem(u8 taskId)
                 Menu_MoveCursor(-1);
                 task->data[1] = Menu_GetCursorPos();
                 StorageSystemClearMessageWindow();
-                Menu_PrintText(gUnknown_083B600C[task->data[1]].desc, 2, 15);
+                Menu_PrintText(StorageLearnerText(gUnknown_083B600C[task->data[1]].desc), 2, 15);
                 task->data[0] = 2;
             }
             else if (JOY_NEW(DPAD_DOWN))
@@ -333,7 +343,7 @@ void Task_PokemonStorageSystem(u8 taskId)
                 Menu_MoveCursor(1);
                 task->data[1] = Menu_GetCursorPos();
                 StorageSystemClearMessageWindow();
-                Menu_PrintText(gUnknown_083B600C[task->data[1]].desc, 2, 15);
+                Menu_PrintText(StorageLearnerText(gUnknown_083B600C[task->data[1]].desc), 2, 15);
                 task->data[0] = 2;
             }
             break;
@@ -365,8 +375,22 @@ void FieldCB_ReturnToOverworld(void)
 
 void StorageSystemCreatePrimaryMenu(u8 whichMenu)
 {
+#if LEARNER_DEMO
+    struct MenuAction translatedActions[4];
+    u8 i;
+
+    for (i = 0; i < 4; i++)
+    {
+        translatedActions[i].text = StorageLearnerText(gUnknown_083B600C[i].text);
+        translatedActions[i].func = NULL;
+    }
+#endif
     Menu_DrawStdWindowFrame(0, 0, 13, 9);
+#if LEARNER_DEMO
+    Menu_PrintItems(1, 1, 4, translatedActions);
+#else
     Menu_PrintItems(1, 1, 4, (const struct MenuAction *)gUnknown_083B600C);
+#endif
     InitMenu(0, 1, 1, 4, whichMenu, 12);
 }
 

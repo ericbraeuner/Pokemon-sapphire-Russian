@@ -1047,7 +1047,11 @@ void ScriptMenu_CreatePCMenu(void)
 void ScriptMenu_DisplayPCStartupPrompt(void)
 {
     Menu_DisplayDialogueFrame();
+#if LEARNER_DEMO
+    Menu_PrintText(Learner_Translate(Text_WhichPCShouldBeAccessed), 2, 15);
+#else
     Menu_PrintText(Text_WhichPCShouldBeAccessed, 2, 15);
+#endif
 }
 
 #define tState       data[0]

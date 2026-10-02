@@ -58,7 +58,7 @@ LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests:: @ 8188041
 LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude:: @ 8188120
 	.string "This is merely a token of my gratitude.$"
 
-UnknownString_8188148: @ 8188148
+UnknownString_8188148:: @ 8188148
 	.string "{PLAYER} received a GLASS ORNAMENT.$"
 
 LilycoveCity_LilycoveMuseum_2F_Text_KeepThisForYou:: @ 8188166

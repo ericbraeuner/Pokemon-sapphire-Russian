@@ -1027,6 +1027,62 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_museum_first_floor_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum',
+            'LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings',
+            'LilycoveCity_LilycoveMuseum_1F_Text_NotDisturbYouTakeYourTime',
+            'LilycoveCity_LilycoveMuseum_1F_Text_HaveYouAnInterestInPaintings',
+            'LilycoveCity_LilycoveMuseum_1F_Text_HonoredYoudVisitInSpiteOfThat',
+            'LilycoveCity_LilycoveMuseum_1F_Text_ExcellentCanYouComeWithMe',
+            'LilycoveCity_LilycoveMuseum_1F_Text_VeryOldPainting',
+            'LilycoveCity_LilycoveMuseum_1F_Text_OddLandscapeFantasticScenery',
+            'LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBeautifulWoman',
+            'LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfLegendaryPokemon',
+            'LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon',
+            'LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries',
+            'LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica',
+            'LilycoveCity_LilycoveMuseum_1F_Text_BigPokeBallCarvedFromStone',
+            'LilycoveCity_LilycoveMuseum_1F_Text_StoneTabletWithAncientText',
+            'UnknownString_818788B',
+            'LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts',
+            'LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration',
+            'LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty',
+            'LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable',
+            'LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings',
+            'LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful',
+            'LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings',
+            'LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination'
+        }
+        self.assertTrue(required.issubset(templates))
+
+    def test_lilycove_museum_second_floor_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_LilycoveMuseum_2F_Text_ThisIsExhibitHall',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ExplainExhibitHall',
+            'LilycoveCity_LilycoveMuseum_2F_Text_PleaseObtainPaintingsForExhibit',
+            'LilycoveCity_LilycoveMuseum_2F_Text_WishToFillExhibit',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ThanksAddedNewPainting',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsYouPlayer',
+            'LilycoveCity_LilycoveMuseum_2F_Text_PaintingsAttractedMoreGuests',
+            'LilycoveCity_LilycoveMuseum_2F_Text_TokenOfGratitude',
+            'UnknownString_8188148',
+            'LilycoveCity_LilycoveMuseum_2F_Text_KeepThisForYou',
+            'LilycoveCity_LilycoveMuseum_2F_Text_HonorToHaveYouVisit',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsPinkPictureFrame',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsYellowPictureFrame',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsBluePictureFrame',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsRedPictureFrame',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsGreenPictureFrame',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ItsPaintingOfPokemon',
+            'LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsSurprisedMe',
+            'LilycoveCity_LilycoveMuseum_2F_Text_NewPaintingsRatherAmusing',
+            'LilycoveCity_LilycoveMuseum_2F_Text_ThesePaintingsOfYourPokemon'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

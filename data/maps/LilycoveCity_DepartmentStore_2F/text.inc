@@ -10,6 +10,6 @@ LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:: @ 818C1D9
 	.string "I'm leaving on a long journey soon.\n"
 	.string "I need to stock up on items.$"
 
-LilycoveCity_DepartmentStore_2F_Text_UnusedFloorInfo: @ 818C21A
+LilycoveCity_DepartmentStore_2F_Text_UnusedFloorInfo:: @ 818C21A
 	.string "FOR YOUR TRAVELING COMPANIONS\n"
 	.string "2F: TRAINER'S ZONE$"

@@ -15,6 +15,6 @@ LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves:: @ 818C481
 	.string "I'd like to get all the different TMs,\n"
 	.string "but a POKéMON learns only four moves.$"
 
-LilycoveCity_DepartmentStore_4F_Text_UnusedFloorInfo: @ 818C4CE
+LilycoveCity_DepartmentStore_4F_Text_UnusedFloorInfo:: @ 818C4CE
 	.string "A SHORTCUT TO POKéMON LEAGUE\n"
 	.string "4F: TM CORNER$"

@@ -1083,6 +1083,64 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_department_store_floors_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_DepartmentStore_1F_Text_WelcomeToDeptStore',
+            'LilycoveCity_DepartmentStore_1F_Text_IBuyAllSortsOfThings',
+            'LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture',
+            'LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill',
+            'LilycoveCity_DepartmentStore_1F_Text_Azumarill',
+            'LilycoveCity_DepartmentStore_1F_Text_FloorNamesSign',
+            'LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly',
+            'LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband',
+            'LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems',
+            'LilycoveCity_DepartmentStore_2F_Text_UnusedFloorInfo',
+            'LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon',
+            'LilycoveCity_DepartmentStore_3F_Text_WantMoreEndurance',
+            'LilycoveCity_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon',
+            'LilycoveCity_DepartmentStore_3F_Text_UnusedFloorInfo',
+            'LilycoveCity_DepartmentStore_4F_Text_AttackOrDefenseTM',
+            'LilycoveCity_DepartmentStore_4F_Text_FiftyDifferentTMs',
+            'LilycoveCity_DepartmentStore_4F_Text_PokemonOnlyHaveFourMoves',
+            'LilycoveCity_DepartmentStore_4F_Text_UnusedFloorInfo',
+            'LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls',
+            'LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon',
+            'LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere',
+            'LilycoveCity_DepartmentStore_5F_Text_UnusedFloorInfo',
+            'LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales',
+            'LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale',
+            'LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty',
+            'LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike',
+            'LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown',
+            'LilycoveCity_DepartmentStoreRooftop_Text_ExtraCanOfDrinkDroppedDown',
+            'LilycoveCity_DepartmentStoreRooftop_Text_NotEnoughMoney',
+            'LilycoveCity_DepartmentStoreRooftop_Text_DecidedAgainstBuyingDrink'
+        }
+        self.assertTrue(required.issubset(templates))
+
+    def test_lilycove_department_store_lottery_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket',
+            'LilycoveCity_DepartmentStore_1F_Text_ComeBackTomorrow',
+            'LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain',
+            'UnknownString_81C4C9F',
+            'LilycoveCity_DepartmentStore_1F_Text_PleasePickTicket',
+            'LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait',
+            'LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon',
+            'LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon',
+            'LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched',
+            'LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched',
+            'LilycoveCity_DepartmentStore_1F_Text_ThreeDigitsMatched',
+            'LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched',
+            'LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched',
+            'LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis',
+            'LilycoveCity_DepartmentStore_1F_Text_PrizeWeveBeenHolding',
+            'LilycoveCity_DepartmentStore_1F_Text_PleaseVisitAgain2'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

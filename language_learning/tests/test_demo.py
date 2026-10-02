@@ -1200,6 +1200,42 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_center_harbor_and_motel_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_PokemonCenter_1F_Text_HowManyKindsOfPokemon',
+            'LilycoveCity_PokemonCenter_1F_Text_HeardAboutRottenScoundrels',
+            'LilycoveCity_PokemonCenter_1F_Text_HaventSeenRottenScoundrels',
+            'UnknownString_818A10A',
+            'UnknownString_818A168',
+            'LilycoveCity_Harbor_Text_FerryUnavailable',
+            'LilycoveCity_Harbor_Text_MayISeeYourTicket',
+            'LilycoveCity_Harbor_Text_NoTicket',
+            'LilycoveCity_Harbor_Text_FlashTicketWhereTo',
+            'LilycoveCity_Harbor_Text_SailAnotherTime',
+            'LilycoveCity_Harbor_Text_SlateportItIs',
+            'LilycoveCity_Harbor_Text_BattleTowerItIs',
+            'LilycoveCity_Harbor_Text_PleaseBoard',
+            'LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo',
+            'LilycoveCity_Harbor_Text_SailorFerryUnavailable',
+            'LilycoveCity_Harbor_Text_SailorFerryAvailable',
+            'LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot',
+            'LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithEvilTeam',
+            'LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV',
+            'LilycoveCity_CoveLilyMotel_1F_Text_MonFoundLostItem',
+            'LilycoveCity_CoveLilyMotel_1F_Text_HeardEvilTeamHideoutBusted',
+            'LilycoveCity_CoveLilyMotel_1F_Text_HouseSittingMonCaughtBurglar',
+            'LilycoveCity_CoveLilyMotel_1F_Text_BetterGetWorkingOnGuestsDinner',
+            'LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex',
+            'LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis',
+            'LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer',
+            'LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist',
+            'LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute',
+            'LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart',
+            'LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

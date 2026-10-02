@@ -1008,6 +1008,25 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_contest_painter_and_spectators_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_ContestLobby_Text_YourPokemonSpurredMeToPaint',
+            'LilycoveCity_ContestLobby_Text_ShouldITakePaintingToMuseum',
+            'LilycoveCity_ContestLobby_Text_IllTakePaintingToMuseum',
+            'LilycoveCity_ContestLobby_Text_TakeMementoOfPainting',
+            'LilycoveCity_ContestLobby_Text_TakeHomeButIdLikeToTakeToMuseum',
+            'LilycoveCity_ContestLobby_Text_FineThatsTheWayItIs',
+            'LilycoveCity_ContestLobby_Text_MasterRankHereICome',
+            'LilycoveCity_ContestLobby_Text_WholeVarietyOfPokemonHere',
+            'LilycoveCity_ContestLobby_Text_GetContestPassVerdanturf',
+            'LilycoveCity_ContestLobby_Text_EyesOpenToMon',
+            'LilycoveCity_ContestLobby_Text_ToughContestIsExtreme',
+            'LilycoveCity_ContestLobby_Text_LavishedCareOnMon',
+            'LilycoveCity_ContestLobby_Text_MadePokeblocksWithFamily'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

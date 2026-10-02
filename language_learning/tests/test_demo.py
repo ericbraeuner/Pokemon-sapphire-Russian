@@ -1236,6 +1236,34 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_houses_and_move_deleter_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_House1_Text_PokemonPartnersNotTools',
+            'LilycoveCity_House1_Text_Kecleon',
+            'LilycoveCity_House2_Text_NotAwakeYetHaveThis',
+            'LilycoveCity_House2_Text_SleepIsEssential',
+            'LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks',
+            'LilycoveCity_House3_Text_OhAreYouSure',
+            'LilycoveCity_House3_Text_ExplainPokeblocks',
+            'LilycoveCity_House3_Text_HappyToHaveQuadruplets',
+            'LilycoveCity_House3_Text_GoingToWinMultiBattles',
+            'LilycoveCity_House3_Text_LikeMixingAtRecordCorner',
+            'LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender',
+            'LilycoveCity_House3_Text_GoingToEnterContest',
+            'LilycoveCity_House4_Text_MysteriesAtBottomOfSea',
+            'LilycoveCity_House4_Text_UnderwaterTrenchMossdeepSootopolis',
+            'LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove',
+            'LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget',
+            'LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten',
+            'LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove',
+            'LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten',
+            'LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove',
+            'LilycoveCity_MoveDeletersHouse_Text_ComeAgain',
+            'LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

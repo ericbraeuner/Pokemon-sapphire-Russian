@@ -1141,6 +1141,65 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_rival_and_outdoor_npcs_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_Text_MayShoppingLetsBattle',
+            'LilycoveCity_Text_MayNotRaisingPokemon',
+            'LilycoveCity_Text_MayBattleMe',
+            'LilycoveCity_Text_MayWontBeBeaten',
+            'LilycoveCity_Text_MayDefeat',
+            'LilycoveCity_Text_MayGoingBackToLittleroot',
+            'LilycoveCity_Text_MayYouGoingToCollectBadges',
+            'LilycoveCity_Text_MayYouGoingToPokemonLeague',
+            'LilycoveCity_Text_MayYouGoingToBattleTower',
+            'LilycoveCity_Text_BrendanShoppingLetsBattle',
+            'LilycoveCity_Text_BrendanNoConfidence',
+            'LilycoveCity_Text_BrendanBattleMe',
+            'LilycoveCity_Text_BrendanWontBeBeaten',
+            'LilycoveCity_Text_BrendanDefeat',
+            'LilycoveCity_Text_BrendanGoingBackToLittleroot',
+            'LilycoveCity_Text_BrendanYouGoingToCollectBadges',
+            'LilycoveCity_Text_BrendanYouGoingToPokemonLeague',
+            'LilycoveCity_Text_BrendanYouGoingToBattleTower',
+            'LilycoveCity_Text_MovedLootIntoHideoutToday',
+            'LilycoveCity_Text_ChanceToDoBigThings',
+            'LilycoveCity_Text_DontGoNearCaveInCove',
+            'LilycoveCity_Text_IfWorldBecomesOurs',
+            'LilycoveCity_Text_WailmerLeapOutOfWater',
+            'LilycoveCity_Text_GetLostMessingUpTraining',
+            'LilycoveCity_Text_ContestHallInTown',
+            'LilycoveCity_Text_StrangeCaveInCove',
+            'LilycoveCity_Text_GoingToMoveDeleterForHMs',
+            'LilycoveCity_Text_ImFromKanto',
+            'LilycoveCity_Text_EvilTeamBeenTrainingWailmer',
+            'LilycoveCity_Text_SomeonePuntedEvilTeamOut',
+            'LilycoveCity_Text_SomeoneStoleMyPokemon'
+        }
+        self.assertTrue(required.issubset(templates))
+
+    def test_lilycove_remaining_outdoor_dialogue_and_signs_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_Text_MissingPokemonCameBack',
+            'LilycoveCity_Text_ImArtDealer',
+            'LilycoveCity_Text_SeaRemainsForeverYoung',
+            'LilycoveCity_Text_SixtyYearsAgoHusbandProposed',
+            'LilycoveCity_Text_EvilTeamRenovatedCavern',
+            'LilycoveCity_Text_EvilTeamLotGoneForGood',
+            'LilycoveCity_Text_CitySign',
+            'LilycoveCity_Text_ContestHallSign',
+            'LilycoveCity_Text_MotelSign',
+            'LilycoveCity_Text_MuseumSign',
+            'LilycoveCity_Text_MuseumSignPlayersExhibit',
+            'LilycoveCity_Text_HarborSignUnderConstruction',
+            'LilycoveCity_Text_HarborSign',
+            'LilycoveCity_Text_TrainerFanClubSign',
+            'LilycoveCity_Text_DepartmentStoreSign',
+            'LilycoveCity_Text_MoveDeletersHouseSign'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

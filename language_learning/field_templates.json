@@ -327,4 +327,37 @@
   ,"gContestStatsText_DisdainfullyAte":{"ru":"{STR_VAR_1} неохотно съел\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{STR_VAR_1} aß ungern\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":80,"STR_VAR_2":94},"max_width":192}
   ,"gContestText_PokeWon":{"ru":"Победитель: {STR_VAR_1}\\nПокемон: {STR_VAR_2}!","de":"{STR_VAR_1} gewinnt mit\\n{STR_VAR_2}!","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
   ,"gContestText_ContestWinner":{"ru":"ПОБЕДИТЕЛЬ\\n","de":"SIEGER\\n","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A5DFC":{"ru":"Добро пожаловать!\\pРегистрация на конкурс\\nранга {STR_VAR_1} открыта.","de":"Willkommen!\\pAnmeldung für den\\n{STR_VAR_1}-Rang läuft.","widths":{"STR_VAR_1":64},"buffer_lengths":{"STR_VAR_1":10},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A5E46":{"ru":"Записать покемона\\nна конкурс?","de":"Pokémon zum Wettbewerb\\nanmelden?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A5E7C":{"ru":"О чём рассказать?","de":"Welches Thema?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_EnterWhichPokemon1":{"ru":"Какого покемона заявить?","de":"Welches Pokémon\\nanmelden?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A6583":{"ru":"Вот, держи!","de":"Bitte sehr!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A65EA":{"ru":"Приходи, когда захочешь\\nучаствовать в конкурсе.","de":"Komm wieder, wenn du\\nteilnehmen möchtest.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A6623":{"ru":"Какой конкурс выбрать?","de":"Welcher Wettbewerb?","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank":{"ru":"Прости, этот покемон ещё\\nне готов к этому рангу.","de":"Noch nicht für diesen\\nRang qualifiziert.","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_EggCannotTakePart":{"ru":"Яйцо не может участвовать\\nв конкурсе покемонов.","de":"Ein Ei kann nicht am\\nWettbewerb teilnehmen.","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_MonInNoConditionForContest":{"ru":"Этот покемон сейчас\\nне готов к конкурсу.","de":"Das Pokémon ist gerade\\nnicht bereit.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A6724":{"ru":"У этого покемона уже есть\\nлента за этот конкурс.\\pВсё равно участвовать?","de":"Dieses Pokémon hat hier\\nschon ein Band gewonnen.\\pTrotzdem teilnehmen?","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_ConfirmContestMon":{"ru":"Это твой конкурсный\\nпокемон?","de":"Dein Pokémon für den\\nWettbewerb?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A67C1":{"ru":"Покемон зарегистрирован.\\pЕго номер - 4.\\nСкоро начнём!","de":"Pokémon angemeldet.\\pStartnummer: 4.\\nEs geht gleich los!","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_ComeThroughHere":{"ru":"Проходи сюда.\\nУдачи!","de":"Bitte hier entlang.\\nViel Glück!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A685A":{"ru":"Поздравляем! Твой покемон\\nпобедил в конкурсе!\\pПриз ждёт тебя.\\nПроходи сюда!","de":"Glückwunsch!\\nDein Pokémon gewinnt!\\pDein Preis wartet.\\nBitte hier entlang!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A68C6":{"ru":"Забери свой приз позже.","de":"Hol deinen Preis\\nspäter ab.","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A68F0":{"ru":"Ведущий: Конкурс начинается!\\nРанг: {STR_VAR_3}.\\nКатегория: {STR_VAR_2}.\\pВот участники и покемоны:","de":"MC: Wettbewerb\\nstartet!\\nRang: {STR_VAR_3}.\\nKategorie: {STR_VAR_2}.\\pHier sind die\\nTeilnehmer:","widths":{"STR_VAR_2":72,"STR_VAR_3":64},"buffer_lengths":{"STR_VAR_2":12,"STR_VAR_3":10},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6976":{"ru":"Ведущий: Начинаем сетевой\\nконкурс для четырёх игроков:\\n{STR_VAR_2}!\\pВот участники и покемоны:","de":"MC: Der Link-Wettbewerb\\nfür vier Spieler\\nbeginnt: {STR_VAR_2}!\\pHier sind die\\nTeilnehmer:","widths":{"STR_VAR_2":72},"buffer_lengths":{"STR_VAR_2":12},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6A04":{"ru":"Ведущий: Номер {STR_VAR_2}!\\nПокемон: {STR_VAR_3}.\\nТренер: {STR_VAR_1}!","de":"MC: Startnummer {STR_VAR_2}!\\nPokémon: {STR_VAR_3}.\\nTrainer: {STR_VAR_1}!","widths":{"STR_VAR_1":80,"STR_VAR_2":24,"STR_VAR_3":80},"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":3,"STR_VAR_3":10},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6A1F":{"ru":"Ведущий: Все четыре\\nучастника представлены.\\pНачинается первый этап!\\pЗрители, голосуйте за\\nлюбимого покемона!","de":"MC: Alle vier Teilnehmer\\nsind vorgestellt.\\pDie erste Wertung\\nbeginnt!\\pPublikum, stimmt ab!\\nWählt euer\\nLieblings-Pokémon!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6AE1":{"ru":"Идёт голосование...","de":"Abstimmung läuft...","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6AF5":{"ru":"Голосование окончено!\\pПока считают голоса,\\nначнём второй этап.\\pПора показать приёмы!\\nУдивите судью и зрителей!","de":"Abstimmung beendet!\\pWährend wir zählen,\\nbeginnt Wertung zwei.\\pZeit für eure Attacken!\\nBeeindruckt Jury\\nund Publikum!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6C06":{"ru":"Ведущий: Судейство окончено!","de":"MC: Wertung beendet!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6C21":{"ru":"Спасибо за великолепные\\nвыступления!\\pСудейство завершено.\\nВы отлично справились!","de":"Danke für eure tollen\\nVorführungen!\\pDie Wertung ist beendet.\\nIhr wart großartig!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6C9D":{"ru":"Осталось объявить\\nпобедителя.\\pСудья готов назвать итог!","de":"Nun fehlt nur noch der\\nSieger.\\pDie Jury gibt nun das\\nErgebnis bekannt!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6D16":{"ru":"Судья: Объявляю победителя!","de":"Jury: Der Sieger\\nsteht fest!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6D3C":{"ru":"Ведущий: Номер {STR_VAR_2}!\\p{STR_VAR_3} и {STR_VAR_1},\\nпоздравляем!","de":"MC: Startnummer {STR_VAR_2}!\\pGlückwunsch, {STR_VAR_3}\\nund {STR_VAR_1}!","widths":{"STR_VAR_1":80,"STR_VAR_2":24,"STR_VAR_3":80},"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":3,"STR_VAR_3":10},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6D6A":{"ru":"Вручаем тебе эту ленту\\nкак приз!","de":"Dieses Band ist\\ndein Preis!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6D96":{"ru":"{PLAYER} получает ленту.","de":"{PLAYER} erhält\\nein Band.","widths":{"PLAYER":80},"buffer_lengths":{"PLAYER":10},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6DAC":{"ru":"{PLAYER} надевает ленту\\nна {STR_VAR_1}.","de":"{PLAYER} gibt\\n{STR_VAR_1} das Band.","widths":{"PLAYER":80,"STR_VAR_1":80},"buffer_lengths":{"PLAYER":10,"STR_VAR_1":10},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6DC5":{"ru":"Ведущий: Вот твой приз!","de":"MC: Hier ist dein Preis!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6DF1":{"ru":"Ведущий: Поздравляем!\\nУчаствуй снова!","de":"MC: Glückwunsch!\\nMach bald wieder mit!","widths":{},"max_width":192}
+  ,"LinkContestRoom1_Text_1A6E1F":{"ru":"Забери приз позже\\nна стойке регистрации.\\pУчаствуй снова!","de":"Hol deinen Preis später\\nan der Anmeldung ab.\\pMach bald wieder mit!","widths":{},"max_width":192}
 }

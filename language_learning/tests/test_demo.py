@@ -941,6 +941,27 @@ class LessonTests(unittest.TestCase):
         source = (demo.ROOT / 'src/contest_link_util.c').read_text()
         self.assertGreaterEqual(source.count('ContestLearnerText(gContestText_'), 6)
 
+    def test_contest_registration_and_ceremony_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'FallarborTown_ContestLobby_Text_1A5DFC',
+            'FallarborTown_ContestLobby_Text_1A5E46',
+            'FallarborTown_ContestLobby_Text_EnterWhichPokemon1',
+            'LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank',
+            'LilycoveCity_ContestLobby_Text_EggCannotTakePart',
+            'LilycoveCity_ContestLobby_Text_ConfirmContestMon',
+            'LinkContestRoom1_Text_1A68F0', 'LinkContestRoom1_Text_1A6976',
+            'LinkContestRoom1_Text_1A6A04', 'LinkContestRoom1_Text_1A6A1F',
+            'LinkContestRoom1_Text_1A6AE1', 'LinkContestRoom1_Text_1A6AF5',
+            'LinkContestRoom1_Text_1A6C06', 'LinkContestRoom1_Text_1A6C21',
+            'LinkContestRoom1_Text_1A6C9D', 'LinkContestRoom1_Text_1A6D16',
+            'LinkContestRoom1_Text_1A6D3C', 'LinkContestRoom1_Text_1A6D6A',
+            'LinkContestRoom1_Text_1A6D96', 'LinkContestRoom1_Text_1A6DAC',
+            'LinkContestRoom1_Text_1A6DC5', 'LinkContestRoom1_Text_1A6DF1',
+            'LinkContestRoom1_Text_1A6E1F'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

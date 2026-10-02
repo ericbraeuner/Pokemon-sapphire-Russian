@@ -360,4 +360,39 @@
   ,"LinkContestRoom1_Text_1A6DC5":{"ru":"Ведущий: Вот твой приз!","de":"MC: Hier ist dein Preis!","widths":{},"max_width":192}
   ,"LinkContestRoom1_Text_1A6DF1":{"ru":"Ведущий: Поздравляем!\\nУчаствуй снова!","de":"MC: Glückwunsch!\\nMach bald wieder mit!","widths":{},"max_width":192}
   ,"LinkContestRoom1_Text_1A6E1F":{"ru":"Забери приз позже\\nна стойке регистрации.\\pУчаствуй снова!","de":"Hol deinen Preis später\\nan der Anmeldung ab.\\pMach bald wieder mit!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6E63":{"ru":"Хочешь сделать покеблоки\\nвместе со стариком?","de":"Willst du mit mir\\nPokériegel machen?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6E9D":{"ru":"Отлично!","de":"Ausgezeichnet!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6EA8":{"ru":"Ох...\\nТы расстроил старика...","de":"Oh...\\nJetzt bin ich traurig...","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6ED0":{"ru":"Умеешь делать покеблоки?","de":"Kannst du Pokériegel\\nmachen?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6EF1":{"ru":"Тогда начинаем!\\pЗапускаем миксер ягод!","de":"Dann legen wir los!\\pStartet den Beerenmixer!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6F1F":{"ru":"Я быстро объясню.\\pКогда стрелка дойдёт до\\nтвоей отметки, нажми A.\\pВот и всё. Попробуй!","de":"Eine kurze Erklärung.\\pKommt der Pfeil zur\\nMarkierung, drücke A.\\pDas ist alles.\\nVersuch es!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B6FF0":{"ru":"У тебя нет ягод.\\pБез ягод нельзя сделать\\nпокеблоки.","de":"Du hast keine Beeren.\\pOhne Beeren gibt es\\nkeine Pokériegel.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B70F6":{"ru":"Я бы дал тебе ягоду,\\nно сегодня запасов нет.\\pПопробуем в другой раз.","de":"Ich gäbe dir gern\\neine Beere.\\nHeute habe ich keine.\\pVersuchen wir es später.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B717C":{"ru":"Твой кейс покеблоков полон.\\pИспользуй несколько и\\nвозвращайся.","de":"Deine Riegelbox\\nist voll.\\pBenutze einige\\nPokériegel.\\nKomm dann wieder.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B71D2":{"ru":"У тебя нет кейса\\nдля покеблоков.\\pНайди кейс и возвращайся.","de":"Du hast keine Riegelbox.\\pHol dir eine und\\nkomm wieder.","widths":{},"max_width":192}
+  ,"SlateportCity_ContestLobby_Text_LetsGetBlendingAlready":{"ru":"Пора смешивать ягоды!","de":"Zeit zum Beerenmixen!","widths":{},"max_width":192}
+  ,"BerryBlender_Text_WhatKindOfPokeblockWillIGet":{"ru":"Какой покеблок получится?\\nКак интересно!","de":"Welcher Pokériegel\\nentsteht?\\nWie aufregend!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B727C":{"ru":"Вы с друзьями сделаете\\nпокеблоки из ягод.\\pСохранить игру перед\\nсоединением?","de":"Ihr macht mit Beeren\\ngemeinsam Pokériegel.\\pVor der Verbindung\\nspeichern?","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B7304":{"ru":"Ищем друзей...\\nКнопка B: отмена","de":"Suche Freunde...\\nB-Knopf: Abbrechen","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B733B":{"ru":"{STR_VAR_1} подключается.","de":"{STR_VAR_1} ist da.","widths":{"STR_VAR_1":80},"buffer_lengths":{"STR_VAR_1":10},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B7347":{"ru":"Подключились:\\n{STR_VAR_1} и {STR_VAR_2}.","de":"Verbunden:\\n{STR_VAR_1} und\\n{STR_VAR_2}.","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":10},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B735A":{"ru":"Подключились:\\n{STR_VAR_1}, {STR_VAR_2} и\\n{STR_VAR_3}.","de":"Verbunden:\\n{STR_VAR_1}, {STR_VAR_2} und\\n{STR_VAR_3}.","widths":{"STR_VAR_1":64,"STR_VAR_2":64,"STR_VAR_3":64},"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":10,"STR_VAR_3":10},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B7381":{"ru":"У тебя нет ягод.\\nМиксер нельзя использовать.","de":"Du hast keine Beeren.\\nMixer nicht verfügbar.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B73B7":{"ru":"Кейс покеблоков полон.\\nМиксер нельзя использовать.","de":"Die Riegelbox ist voll.\\nMixer nicht verfügbar.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1B73F1":{"ru":"Нет кейса покеблоков.\\nМиксер нельзя использовать.","de":"Keine Riegelbox.\\nMixer nicht verfügbar.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_UsedToHaveSketch":{"ru":"Раньше здесь висел\\nпортрет моего покемона,\\nно его сменили.\\pМы снова победим,\\nи портрет вернётся!","de":"Hier hing ein Bild\\nmeines Pokémon.\\nNun wurde es ersetzt.\\pWir gewinnen erneut,\\ndann kehrt unser Bild\\nzurück!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_AreYouMakingPokeblock":{"ru":"Привет! Делаешь покеблоки?\\pПриходи как-нибудь\\nс запасом ягод.","de":"Hallo! Machst du\\nPokériegel?\\pKomm einmal mit vielen\\nBeeren vorbei.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_ICreateSketches":{"ru":"Видишь портрет победителя?\\pЯ рисую такие портреты!\\pЕсли твой покемон победит,\\nя нарисую и его.","de":"Siehst du das Bild?\\pIch zeichne die Sieger!\\pGewinnt dein Pokémon,\\nzeichne ich es gern.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_YourSketchIsUp":{"ru":"Поздравляю!\\pЯ повесил портрет\\nтвоего покемона.\\nПусть все увидят!","de":"Glückwunsch!\\pDas Bild deines Pokémon\\nhängt nun für alle hier!","widths":{},"max_width":192}
+  ,"FallarborTown_ContestHall_Text_DoAllRightInPreliminary":{"ru":"Первый раунд проходит хорошо,\\nно в показе мы проигрываем.\\pНадо следить за тем,\\nчто делают соперники.","de":"Die Vorrunde läuft gut,\\nder Auftritt misslingt.\\pIch muss die anderen\\nTeilnehmer beobachten.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestHall_Text_MonAllTheseRibbons":{"ru":"Смотри! Мой покемон\\nвыиграл все эти ленты!\\pЛенты твоих покемонов\\nможно проверить в Покенаве.","de":"Sieh nur! Mein Pokémon\\nhat all diese Bänder\\ngewonnen!\\pDeine Bänder siehst du\\nim PokéNav.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestHall_Text_CantWinEverywhere":{"ru":"Не могу победить лидеров...\\pНе могу выиграть конкурсы...\\pСтолько старался,\\nи всё напрасно...","de":"Keine Leiter besiegt...\\pKeinen Wettbewerb\\ngewonnen...\\pAlle Mühe umsonst...","widths":{},"max_width":192}
+  ,"FallarborTown_ContestHall_Text_SuperRankStage":{"ru":"КОНКУРС ПОКЕМОНОВ\\nСУПЕРРАНГ","de":"POKÉMON-WETTBEWERB\\nSUPER-RANG","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_ProgressWillBeSaved":{"ru":"Перед конкурсом игра\\nбудет сохранена.","de":"Vor dem Wettbewerb wird\\ndas Spiel gespeichert.","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_EnterContest":{"ru":"Участвовать в конкурсе?","de":"Am Wettbewerb\\nteilnehmen?","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_Transmitting":{"ru":"Передача данных...","de":"Datenübertragung...","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_TransmissionError":{"ru":"Ошибка передачи...","de":"Übertragungsfehler...","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel":{"ru":"Подожди.\\nКнопка B: отмена...","de":"Bitte warten.\\nB-Knopf: Abbrechen...","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain":{"ru":"Ошибка передачи.\\nПопробуй снова.","de":"Übertragungsfehler.\\nBitte erneut versuchen.","widths":{},"max_width":192}
+  ,"LilycoveCity_ContestLobby_Text_ContestBeginShortly":{"ru":"Конкурс скоро начнётся.","de":"Der Wettbewerb\\nbeginnt bald.","widths":{},"max_width":192}
 }

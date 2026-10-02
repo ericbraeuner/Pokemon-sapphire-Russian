@@ -962,6 +962,32 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_contest_hall_and_berry_blender_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'FallarborTown_ContestLobby_Text_1B6E63',
+            'FallarborTown_ContestLobby_Text_1B6ED0',
+            'FallarborTown_ContestLobby_Text_1B6F1F',
+            'FallarborTown_ContestLobby_Text_1B6FF0',
+            'FallarborTown_ContestLobby_Text_1B717C',
+            'FallarborTown_ContestLobby_Text_1B71D2',
+            'BerryBlender_Text_WhatKindOfPokeblockWillIGet',
+            'FallarborTown_ContestLobby_Text_1B727C',
+            'FallarborTown_ContestLobby_Text_1B7304',
+            'FallarborTown_ContestLobby_Text_1B733B',
+            'FallarborTown_ContestLobby_Text_1B7347',
+            'FallarborTown_ContestLobby_Text_1B735A',
+            'FallarborTown_ContestLobby_Text_UsedToHaveSketch',
+            'FallarborTown_ContestLobby_Text_ICreateSketches',
+            'FallarborTown_ContestHall_Text_DoAllRightInPreliminary',
+            'FallarborTown_ContestHall_Text_MonAllTheseRibbons',
+            'FallarborTown_ContestHall_Text_CantWinEverywhere',
+            'FallarborTown_ContestHall_Text_SuperRankStage',
+            'LilycoveCity_ContestLobby_Text_ProgressWillBeSaved',
+            'LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

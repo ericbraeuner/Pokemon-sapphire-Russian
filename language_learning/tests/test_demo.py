@@ -988,6 +988,26 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_remaining_contest_guidance_and_registration_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_ContestLobby_Text_ExplainContests',
+            'LilycoveCity_ContestLobby_Text_ExplainContestTypes',
+            'LilycoveCity_ContestLobby_Text_ExplainContestRanks',
+            'FallarborTown_ContestLobby_Text_1A6340',
+            'LilycoveCity_ContestLobby_Text_RegistrationsFromFourNeedContestPass',
+            'FallarborTown_ContestLobby_Text_1A64F4',
+            'FallarborTown_ContestLobby_Text_1B704A',
+            'FallarborTown_ContestLobby_Text_1B742F',
+            'FallarborTown_ContestLobby_Text_1B7469',
+            'ContestHall_Text_OnlyRegister4Players',
+            'LilycoveCity_ContestLobby_Text_Explain4PlayerContest',
+            'LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX',
+            'LilycoveCity_ContestLobby_Text_ReceivedARibbon',
+            'LilycoveCity_ContestLobby_Text_PutTheRibbonOnMon'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

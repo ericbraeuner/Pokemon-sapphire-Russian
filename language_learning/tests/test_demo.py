@@ -1386,6 +1386,13 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(16, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_stevens_house_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/maps/MossdeepCity_StevensHouse/text.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(10, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

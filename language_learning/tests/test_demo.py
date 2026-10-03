@@ -1365,6 +1365,15 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(15, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_mossdeep_city_houses_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for house in ('House1', 'House2', 'House3', 'House4'):
+            source = (demo.ROOT / f'data/maps/MossdeepCity_{house}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(17, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

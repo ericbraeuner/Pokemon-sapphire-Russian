@@ -1427,6 +1427,15 @@ class LessonTests(unittest.TestCase):
         self.assertIn(9, data)
         self.assertIn(8, data)
 
+    def test_sootopolis_houses_one_through_seven_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for house in range(1, 8):
+            source = (demo.ROOT / f'data/maps/SootopolisCity_House{house}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(22, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

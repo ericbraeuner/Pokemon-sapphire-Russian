@@ -3,7 +3,7 @@ import re
 import build_demo as demo
 
 TOKENS = {'PLAYER': 1, 'STR_VAR_1': 2, 'STR_VAR_2': 3, 'STR_VAR_3': 4,
-          'EVIL_TEAM': 8}
+          'EVIL_TEAM': 8, 'GOOD_TEAM': 9, 'EVIL_LEADER': 10, 'GOOD_LEADER': 11}
 SOUND_EFFECTS = {'SE_BALL_BOUNCE_1': 56}
 
 def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_lengths=None):

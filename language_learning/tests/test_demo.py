@@ -1407,6 +1407,26 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(29, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_eastern_sea_story_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        areas = ('ShoalCave_LowTideLowerRoom', 'Route128', 'SeafloorCavern_Room1',
+                 'SeafloorCavern_Room3', 'SeafloorCavern_Room4')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(23, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
+    def test_story_team_tokens_compile(self):
+        text = '{GOOD_LEADER} {EVIL_LEADER} {GOOD_TEAM} {EVIL_TEAM}'
+        widths = {'GOOD_LEADER': 32, 'EVIL_LEADER': 32, 'GOOD_TEAM': 24, 'EVIL_TEAM': 24}
+        data = field_templates.compile_text(text, self.latin, {}, 3, widths)
+        self.assertIn(11, data)
+        self.assertIn(10, data)
+        self.assertIn(9, data)
+        self.assertIn(8, data)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

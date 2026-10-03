@@ -1264,6 +1264,50 @@ class LessonTests(unittest.TestCase):
         }
         self.assertTrue(required.issubset(templates))
 
+    def test_lilycove_trainer_fan_club_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'LilycoveCity_PokemonTrainerFanClub_Text_OhWowItsPlayer',
+            'LilycoveCity_PokemonTrainerFanClub_Text_HeardAboutYouImYourFan',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YoureOneWeWantToWin',
+            'LilycoveCity_PokemonTrainerFanClub_Text_OthersDontKnowYoureTheBest',
+            'LilycoveCity_PokemonTrainerFanClub_Text_TrainersPowerIsOutOfTheOrdinary',
+            'LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsBestNoOneWantsToListen',
+            'LilycoveCity_PokemonTrainerFanClub_Text_HearingAboutToughNewTrainer',
+            'LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou',
+            'LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan',
+            'LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly',
+            'LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly',
+            'LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YourFatherNeverGaveUpSoKeepOnBattling',
+            'LilycoveCity_PokemonTrainerFanClub_Text_LongWayToGoComparedToNorman',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YouAndNormanAreDifferent',
+            'LilycoveCity_PokemonTrainerFanClub_Text_WeDiscussStrongestTrainers',
+            'LilycoveCity_PokemonTrainerFanClub_Text_OhWoweeItsPlayer',
+            'LilycoveCity_PokemonTrainerFanClub_Text_AlwaysCheerForYou',
+            'LilycoveCity_PokemonTrainerFanClub_Text_EveryoneThinksTrainerIsCool',
+            'LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsReallyCoolItsJustMe',
+            'LilycoveCity_PokemonTrainerFanClub_Text_WishThereWasTrainerLikeThat',
+            'LilycoveCity_PokemonTrainerFanClub_Text_WantToBeStrongLikeYou',
+            'LilycoveCity_PokemonTrainerFanClub_Text_OnlyOneWhoCheersForYou',
+            'LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsWickedlyCool',
+            'LilycoveCity_PokemonTrainerFanClub_Text_NeverGoingToStopBeingTrainersFan',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YoureAmazingAfterAll',
+            'LilycoveCity_PokemonTrainerFanClub_Text_ImInYourCorner',
+            'LilycoveCity_PokemonTrainerFanClub_Text_ThinkTrainerIsNumberOne',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YoureMaybeStrongerThanTrainer',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YouChangedMyMind',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YouBattleAttractivelyInToughSituation',
+            'LilycoveCity_PokemonTrainerFanClub_Text_TrainerIsStandout',
+            'LilycoveCity_PokemonTrainerFanClub_Text_NoOneCanKnockYouButTrainerStronger',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YouImpressive',
+            'LilycoveCity_PokemonTrainerFanClub_Text_OnlyIRecognizeYourTrueWorth',
+            'LilycoveCity_PokemonTrainerFanClub_Text_HaventRealizedPotential',
+            'LilycoveCity_PokemonTrainerFanClub_Text_YourePowerfulButNotTrueStrength'
+        }
+        self.assertTrue(required.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

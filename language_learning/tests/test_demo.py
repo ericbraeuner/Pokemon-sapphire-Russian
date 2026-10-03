@@ -1374,6 +1374,18 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(17, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_mossdeep_city_services_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        areas = ('MossdeepCity_Mart', 'MossdeepCity_PokemonCenter_1F',
+                 'MossdeepCity_PokemonCenter_2F', 'MossdeepCity_SpaceCenter_1F',
+                 'MossdeepCity_SpaceCenter_2F')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(16, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

@@ -33,7 +33,7 @@ Route110_TrickHousePuzzle3_Text_AlanPostBattle:: @ 819D110
 	.string "How many traps are in this house?\p"
 	.string "You may be the one to solve that.$"
 
-Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened: @ 819D164
+Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:: @ 819D164
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER is cool.”\n"

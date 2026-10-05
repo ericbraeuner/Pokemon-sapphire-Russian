@@ -32,7 +32,7 @@ Route110_TrickHousePuzzle4_Text_JillDefeat:: @ 819D380
 Route110_TrickHousePuzzle4_Text_JillPostBattle:: @ 819D386
 	.string "Has anyone made it to the end?$"
 
-Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened: @ 819D3A5
+Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:: @ 819D3A5
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER is a genius.”\n"

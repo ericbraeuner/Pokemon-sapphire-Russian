@@ -91,7 +91,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:: @ 817F352
 	.string "Oh, yes, I almost forgot that you\n"
 	.string "even brought the parts from DEVON!$"
 
-UnknownString_817F404: @ 817F404
+UnknownString_817F404:: @ 817F404
 	.string "{PLAYER} handed over the DEVON GOODS\n"
 	.string "to CAPT. STERN.$"
 

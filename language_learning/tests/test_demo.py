@@ -1573,6 +1573,16 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(38, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_slateport_oceanic_museum_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for floor in ('SlateportCity_OceanicMuseum_1F',
+                      'SlateportCity_OceanicMuseum_2F'):
+            source = (demo.ROOT / f'data/maps/{floor}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(55, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

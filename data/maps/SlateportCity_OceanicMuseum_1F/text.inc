@@ -16,7 +16,7 @@ SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:: @ 817E22D
 	.string "You're the only one who's late.\n"
 	.string "You'd better go catch up to them!$"
 
-UnknownString_817E2A0: @ 817E2A0
+UnknownString_817E2A0:: @ 817E2A0
 	.string "Please visit another time!$"
 
 SlateportCity_OceanicMuseum_1F_Text_EvilTeamExistForGoodOfAll:: @ 817E2BB

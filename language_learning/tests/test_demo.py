@@ -1661,6 +1661,24 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(28, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_mauville_gym_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/maps/MauvilleCity_Gym/text.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(23, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
+    def test_mauville_houses_and_services_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        areas = ('MauvilleCity_House1', 'MauvilleCity_House2', 'MauvilleCity_Mart',
+                 'MauvilleCity_PokemonCenter_1F')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(13, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

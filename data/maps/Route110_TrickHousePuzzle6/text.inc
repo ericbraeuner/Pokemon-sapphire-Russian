@@ -34,7 +34,7 @@ Route110_TrickHousePuzzle6_Text_SebastianPostBattle:: @ 819DE44
 	.string "You don't seem to be affected at all.\n"
 	.string "Or do you have your poker face on?$"
 
-Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened: @ 819DE8D
+Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:: @ 819DE8D
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER is huggable.”\n"

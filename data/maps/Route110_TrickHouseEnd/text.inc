@@ -102,7 +102,7 @@ Route110_TrickHouseEnd_Text_YoureIgnoringMe:: @ 819CA8B
 	.string "Now, now! You're ignoring me now?\n"
 	.string "Now that, I consider heartbreaking!$"
 
-UnknownString_819CAD1: @ 819CAD1
+UnknownString_819CAD1:: @ 819CAD1
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER is fabulous.”\n"

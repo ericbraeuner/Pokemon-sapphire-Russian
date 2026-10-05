@@ -56,7 +56,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:: @ 819D745
 	.string "The DEVON RESEARCHER was looking for\n"
 	.string "what POKéMON in PETALBURG WOODS?$"
 
-Route110_TrickHousePuzzle5_Text_CorrectGoThrough2: @ 819D79D
+Route110_TrickHousePuzzle5_Text_CorrectGoThrough2:: @ 819D79D
 	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
 	.string "GO THROUGH. PLEASE.$"
 
@@ -80,7 +80,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:: @ 819D8BA
 	.string "Do one FULL HEAL and GREAT BALL\n"
 	.string "cost more than one REVIVE?$"
 
-Route110_TrickHousePuzzle5_Text_CorrectGoThrough3: @ 819D907
+Route110_TrickHousePuzzle5_Text_CorrectGoThrough3:: @ 819D907
 	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
 	.string "GO THROUGH. PLEASE.$"
 
@@ -104,7 +104,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:: @ 819DA1D
 	.string "The first TRAINER in DEWFORD GYM was\n"
 	.string "male or female?$"
 
-Route110_TrickHousePuzzle5_Text_CorrectGoThrough4: @ 819DA64
+Route110_TrickHousePuzzle5_Text_CorrectGoThrough4:: @ 819DA64
 	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
 	.string "GO THROUGH. PLEASE.$"
 
@@ -129,11 +129,11 @@ Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:: @ 819DB97
 	.string "How many signs are there in\n"
 	.string "LILYCOVE CITY?$"
 
-Route110_TrickHousePuzzle5_Text_CorrectGoThrough5: @ 819DBD4
+Route110_TrickHousePuzzle5_Text_CorrectGoThrough5:: @ 819DBD4
 	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
 	.string "GO THROUGH. PLEASE.$"
 
-Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened: @ 819DC0A
+Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:: @ 819DC0A
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
 	.string "“TRICK MASTER is my life.”\n"

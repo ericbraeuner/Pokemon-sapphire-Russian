@@ -63,7 +63,7 @@ SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock:: @ 817C53D
 	.string "my experience, I'm sure that we can\l"
 	.string "build one great ship, aye!$"
 
-UnknownString_817C6A6: @ 817C6A6
+UnknownString_817C6A6:: @ 817C6A6
 	.string "PEEKO: Pii piihyoro!$"
 
 SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing:: @ 817C6BB

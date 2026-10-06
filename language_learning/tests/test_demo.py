@@ -1832,6 +1832,15 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(89, len(symbols))
         self.assertTrue(symbols.issubset(covered))
 
+    def test_route_104_and_petalburg_woods_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for area in ('Route104', 'Route104_MrBrineysHouse', 'PetalburgWoods'):
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(50, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

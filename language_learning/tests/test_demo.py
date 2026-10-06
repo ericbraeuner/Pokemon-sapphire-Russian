@@ -1818,6 +1818,20 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(47, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_littleroot_and_early_routes_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        opening_entries = validate.load(demo.ROOT / 'language_learning/opening.json')['dialogues']
+        covered = set(templates) | {entry['base_symbol'] for entry in opening_entries}
+        symbols = set()
+        areas = ('LittlerootTown', 'LittlerootTown_BrendansHouse_1F',
+                 'LittlerootTown_MaysHouse_2F',
+                 'LittlerootTown_ProfessorBirchsLab', 'Route102', 'Route103')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(89, len(symbols))
+        self.assertTrue(symbols.issubset(covered))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

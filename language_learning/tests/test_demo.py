@@ -1700,6 +1700,20 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(45, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        areas = ('VerdanturfTown', 'VerdanturfTown_House',
+                 'VerdanturfTown_WandasHouse',
+                 'VerdanturfTown_FriendshipRatersHouse', 'VerdanturfTown_Mart',
+                 'VerdanturfTown_PokemonCenter_1F', 'VerdanturfTown_ContestLobby',
+                 'VerdanturfTown_ContestHall', 'RusturfTunnel')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(62, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

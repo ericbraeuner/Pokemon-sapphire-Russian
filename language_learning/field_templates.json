@@ -2868,4 +2868,30 @@
   ,"RecordCorner_Text_1A4E3B":{"ru":"{STR_VAR_1} прислал\\nпредмет {STR_VAR_2}.","de":"{STR_VAR_1} hat\\n{STR_VAR_2}\\pgesendet.","widths":{"STR_VAR_1":112,"STR_VAR_2":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14,"STR_VAR_2":14}}
   ,"OldaleTown_PokemonCenter_2F_Text_1A4E50":{"ru":"Данные КАРТЫ ТРЕНЕРА будут\\nперезаписаны.","de":"Die Daten des\\nTRAINERPASS werden\\püberschrieben.","widths":{},"max_width":192}
   ,"OldaleTown_PokemonCenter_2F_Text_1A4E79":{"ru":"Надеюсь увидеть тебя снова!","de":"Ich hoffe, wir sehen\\nuns wieder!","widths":{},"max_width":192}
+
+  ,"gBirchDexRatingText_ComeToShowMePokedex":{"ru":"ПРОФЕССОР БЕРЧ: А,\\n{PLAYER}! Хочешь\\pпоказать, как продвигается\\nтвой ПОКЕДЕКС?","de":"PROF. BIRK: Ah,\\n{PLAYER}! Möchtest du\\pzeigen, wie dein\\nPOKÉDEX vorankommt?","widths":{"PLAYER":72},"max_width":192,"buffer_lengths":{"PLAYER":7}}
+  ,"gBirchDexRatingText_Cancel":{"ru":"Хм? Ты поймал ещё слишком\\nмало покемонов для оценки.","de":"Hm? Du hast noch zu\\nwenige Pokémon für eine\\pBewertung gefangen.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_SoYouveSeenAndCaught":{"ru":"Хм... Ты видел\\n{STR_VAR_1} покемонов\\pи поймал {STR_VAR_2}.","de":"Hm... Du hast\\n{STR_VAR_1} Pokémon\\pgesehen und\\n{STR_VAR_2}\\pgefangen.","widths":{"STR_VAR_1":112,"STR_VAR_2":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14,"STR_VAR_2":14}}
+  ,"gBirchDexRatingText_LessThan10":{"ru":"Чаще заходи в траву и\\nвнимательнее ищи покемонов.","de":"Geh öfter ins Gras und\\nsuche aufmerksamer nach\\pPokémon.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan20":{"ru":"Кажется, ты освоился. Но\\nдальше будет труднее.","de":"Du hast den Dreh wohl\\nheraus. Doch ab jetzt\\pwird es schwerer.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan30":{"ru":"Некоторые покемоны живут\\nлишь в определённых местах.\\pБудь настойчив.","de":"Manche Pokémon leben\\nnur an bestimmten\\pOrten. Bleib\\nhartnäckig.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan40":{"ru":"Записей пока мало, но это\\nуже похоже на настоящий\\pПОКЕДЕКС.","de":"Noch fehlen viele\\nEinträge, aber es sieht\\pschon wie ein echter\\nPOKÉDEX aus.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan50":{"ru":"Дело идёт хорошо. Продолжай\\nстараться.","de":"Das läuft gut. Bleib\\nweiter dran.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan60":{"ru":"Ты пользуешься УДОЧКАМИ? В\\nморе живёт много покемонов.","de":"Benutzt du ANGELN? Im\\nMeer leben viele\\pPokémon.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan70":{"ru":"Не только лови покемонов, но\\nи развивай их.","de":"Fang Pokémon nicht nur,\\nsondern entwickle sie\\pauch.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan80":{"ru":"Из этого получится\\nвеликолепный ПОКЕДЕКС. Я это\\pчувствую.","de":"Das wird ein\\ngroßartiger POKÉDEX.\\pDas spüre ich.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan90":{"ru":"Ты собрал уже столько\\nданных... У тебя\\pзамечательный талант!","de":"Du hast schon so viele\\nDaten gesammelt... Dein\\pTalent ist\\nbemerkenswert!","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan100":{"ru":"Ты был в ЗОНЕ САФАРИ?\\nГоворят, некоторых покемонов\\pможно поймать только там.","de":"Warst du in der\\nSAFARIZONE? Manche\\pPokémon soll man nur\\ndort fangen können.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan110":{"ru":"Наконец достигнута отметка в\\n100 видов. Впечатляющий\\pПОКЕДЕКС!","de":"Endlich hast du 100\\nArten erreicht. Ein\\pbeeindruckender\\nPOKÉDEX!","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan120":{"ru":"Некоторых покемонов можно\\nнайти с помощью РАЗБИВАНИЯ\\pКАМНЕЙ.","de":"Manche Pokémon lassen\\nsich vielleicht mit\\pZERTRÜMMERER finden.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan130":{"ru":"Получи ещё покемонов с\\nпомощью обмена.","de":"Erhalte weitere Pokémon\\ndurch Tausch.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan140":{"ru":"Некоторые покемоны\\nразвиваются, когда\\pпо-настоящему полюбят\\nтренера.","de":"Manche Pokémon\\nentwickeln sich, wenn\\psie ihren Trainer\\nwirklich lieben.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan150":{"ru":"Я не знал, что в ХОЭННЕ\\nживёт так много видов\\pпокемонов.","de":"Ich wusste nicht, dass\\nin HOENN so viele\\pPokémon-Arten leben.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan160":{"ru":"Иногда покемоны внезапно\\nпоявляются большими стаями.\\pНе упускай такие возможности.","de":"Manchmal erscheinen\\nPokémon plötzlich in\\pgroßen Schwärmen.\\nVerpass solche Chancen\\pnicht.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan170":{"ru":"Твой ПОКЕДЕКС даёт прекрасное\\nпредставление о покемонах\\pХОЭННА.","de":"Dein POKÉDEX vermittelt\\nein großartiges Bild\\pder Pokémon von HOENN.","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan180":{"ru":"Ты уже достоин звания\\nПРОФЕССОРА ПОКЕМОНОВ, причём\\pотличного!","de":"Du verdienst schon den\\nTitel\\pPOKÉMON-PROFESSOR, und\\nzwar ein sehr guter!","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan190":{"ru":"С таким полным ПОКЕДЕКСОМ ты\\nнастоящий профессионал!","de":"Mit einem so\\nvollständigen POKÉDEX\\pbist du ein echter\\nProfi!","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_LessThan200":{"ru":"До завершения ПОКЕДЕКСА\\nсовсем близко. Я это\\pчувствую!","de":"Der vollständige\\nPOKÉDEX ist ganz nah.\\pIch kann es spüren!","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_DexCompleted":{"ru":"Поздравляю! Твой ПОКЕДЕКС\\nзавершён!","de":"Glückwunsch! Dein\\nPOKÉDEX ist\\pvollständig!","widths":{},"max_width":192}
+  ,"gBirchDexRatingText_OnANationwideBasis":{"ru":"Хм... По всей стране ты\\nвидел {STR_VAR_1}\\pпокемонов и поймал\\n{STR_VAR_2}.","de":"Hm... Landesweit hast\\ndu {STR_VAR_1}\\pPokémon gesehen und\\n{STR_VAR_2}\\pgefangen.","widths":{"STR_VAR_1":112,"STR_VAR_2":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14,"STR_VAR_2":14}}
 }

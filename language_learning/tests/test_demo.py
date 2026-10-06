@@ -1792,6 +1792,19 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(52, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_fortree_and_route_120_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        areas = ('FortreeCity', 'FortreeCity_DecorationShop', 'FortreeCity_Gym',
+                 'FortreeCity_House1', 'FortreeCity_House2', 'FortreeCity_House3',
+                 'FortreeCity_House4', 'FortreeCity_House5', 'FortreeCity_Mart',
+                 'FortreeCity_PokemonCenter_1F', 'Route120')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(79, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

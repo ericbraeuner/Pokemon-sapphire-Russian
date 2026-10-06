@@ -2832,4 +2832,40 @@
   ,"SafariZone_RestHouse_Text_1C3EC9":{"ru":"У меня нет ПОКЕБЛОКОВ, но я\\nпоймал много покемонов.\\pПодойди ближе перед броском\\nСАФАРИ-БОЛА, и шансы\\pвырастут.","de":"Ich habe keine\\nPOKÉRIEGEL, fing aber\\pviele Pokémon. Geh\\nnäher heran, bevor du\\pden SAFARIBALL wirfst,\\ndann steigen die\\pChancen.","widths":{},"max_width":192}
   ,"SafariZone_RestHouse_Text_1C3F71":{"ru":"ПОКЕБЛОКИ мешают диким\\nпокемонам убегать. Но для\\pпокемонов, которые и так\\nредко бегут, они мало\\pполезны.","de":"POKÉRIEGEL hindern\\nwilde Pokémon an der\\pFlucht. Bei Pokémon,\\ndie ohnehin selten\\pfliehen, helfen sie\\nkaum.","widths":{},"max_width":192}
   ,"SafariZone_RestHouse_Text_1C3FF4":{"ru":"Положи ПОКЕБЛОК в КОРМУШКУ,\\nи он привлечёт покемонов.\\pОпределённый вкус привлекает\\nпокемонов со схожим\\pхарактером.","de":"Ein POKÉRIEGEL im\\nFUTTERSPENDER lockt\\pPokémon an. Ein\\nbestimmter Geschmack\\pzieht Pokémon mit\\nähnlichem Wesen an.","widths":{},"max_width":192}
+
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4510":{"ru":"Добро пожаловать в КОЛИЗЕЙ\\nКАБЕЛЬНОГО КЛУБА. Здесь\\pможно сразиться с друзьями.\\nБудешь играть?","de":"Willkommen im KOLOSSEUM\\ndes KABELKLUBS. Hier\\pkannst du gegen Freunde\\nkämpfen. Möchtest du\\pkämpfen?","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A457E":{"ru":"Добро пожаловать в ЦЕНТР\\nОБМЕНА КАБЕЛЬНОГО КЛУБА.\\pЗдесь можно обмениваться\\nпокемонами с другом. Будешь\\pменяться?","de":"Willkommen im\\nTAUSCHCENTER des\\pKABELKLUBS. Hier kannst\\ndu mit Freunden Pokémon\\ptauschen. Möchtest du\\ntauschen?","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A45FE":{"ru":"Добро пожаловать в ЦЕНТР\\nЗАПИСЕЙ КАБЕЛЬНОГО КЛУБА.\\pЗдесь можно смешать записи с\\nдрузьями. Начать?","de":"Willkommen im\\nDATENCENTER des\\pKABELKLUBS. Hier kannst\\ndu Daten mit Freunden\\pmischen. Möchtest du\\nbeginnen?","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4696":{"ru":"Есть три режима. ОДИНОЧНЫЙ\\nБОЙ: два тренера и по одному\\pпокемону. ДВОЙНОЙ БОЙ: два\\nтренера и по два покемона.\\pМУЛЬТИБОЙ: четыре тренера и\\nпо одному покемону.","de":"Es gibt drei Modi.\\nEINZELKAMPF: zwei\\pTrainer mit je einem\\nPokémon. DOPPELKAMPF:\\pzwei Trainer mit je\\nzwei Pokémon.\\pMULTIKAMPF: vier\\nTrainer mit je einem\\pPokémon.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4826":{"ru":"Будешь сражаться?","de":"Möchtest du kämpfen?","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4840":{"ru":"Какой режим боя выбрать?","de":"Welchen Kampfmodus\\nmöchtest du?","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A486A":{"ru":"Для ДВОЙНОГО БОЯ нужны хотя\\nбы два покемона.","de":"Für einen DOPPELKAMPF\\nbrauchst du mindestens\\pzwei Pokémon.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A48A3":{"ru":"Для обмена нужны хотя бы\\nдва покемона.","de":"Zum Tauschen brauchst\\ndu mindestens zwei\\pPokémon.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A48DD":{"ru":"Нельзя обменять покемона,\\nкоторый держит ЯГОДУ\\p{STR_VAR_1}.","de":"Ein Pokémon mit einer\\n{STR_VAR_1}-BEERE\\pkann nicht getauscht\\nwerden.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"gUnknown_081A490C":{"ru":"Подожди... B: отмена","de":"Bitte warten... B:\\nAbbrechen","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A490C":{"ru":"Подожди... B: отмена","de":"Bitte warten... B:\\nAbbrechen","widths":{},"max_width":192}
+  ,"gUnknown_081A4932":{"ru":"Когда все готовы: A -\\nподтвердить, B - отмена.","de":"Wenn alle bereit sind:\\nA - Bestätigen, B -\\pAbbrechen.","widths":{},"max_width":192}
+  ,"gUnknown_081A4975":{"ru":"Начать связь для\\n{STR_VAR_1} игроков?\\pA - подтвердить, B -\\nотмена.","de":"Verbindung für\\n{STR_VAR_1} Spieler\\pstarten? A -\\nBestätigen, B -\\pAbbrechen.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"gUnknown_081A49B6":{"ru":"Ожидание связи... B: отмена","de":"Verbindung wird\\nerwartet... B:\\pAbbrechen","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4A22":{"ru":"Проходи.","de":"Bitte eintreten.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A4A30":{"ru":"Кто-то не готов к связи.\\nВозвращайтесь, когда все\\pподготовятся.","de":"Jemand ist nicht\\nbereit. Kommt zurück,\\pwenn alle vorbereitet\\nsind.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4A30":{"ru":"Кто-то не готов к связи.\\nВозвращайтесь, когда все\\pподготовятся.","de":"Jemand ist nicht\\nbereit. Kommt zurück,\\pwenn alle vorbereitet\\nsind.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A4A85":{"ru":"Ошибка передачи. Перезапусти\\nигру и попробуй снова.","de":"Übertragungsfehler.\\nStarte das Spiel neu\\pund versuche es erneut.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4A85":{"ru":"Ошибка передачи. Перезапусти\\nигру и попробуй снова.","de":"Übertragungsfehler.\\nStarte das Spiel neu\\pund versuche es erneut.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4AC8":{"ru":"Ошибка передачи. Нельзя\\nсмешивать записи игр на\\pразных языках.","de":"Übertragungsfehler.\\nDaten verschiedener\\pSpielsprachen können\\nnicht gemischt werden.","widths":{},"max_width":192}
+  ,"FallarborTown_ContestLobby_Text_1A4B1D":{"ru":"Похоже, участники связи\\nвыбрали разные варианты.","de":"Die Verbindungspartner\\nhaben offenbar\\pVerschiedenes gewählt.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4B1D":{"ru":"Похоже, участники связи\\nвыбрали разные варианты.","de":"Die Verbindungspartner\\nhaben offenbar\\pVerschiedenes gewählt.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4B59":{"ru":"Приходи снова.","de":"Komm bitte wieder.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4B6C":{"ru":"Неверное число участников.","de":"Die Teilnehmerzahl ist\\nfalsch.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4B95":{"ru":"ОДИНОЧНЫЙ БОЙ недоступен для\\n{STR_VAR_1} игроков.","de":"EINZELKAMPF ist mit\\n{STR_VAR_1} Spielern\\pnicht möglich.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4BCC":{"ru":"ДВОЙНОЙ БОЙ недоступен для\\n{STR_VAR_1} игроков.","de":"DOPPELKAMPF ist mit\\n{STR_VAR_1} Spielern\\pnicht möglich.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4C03":{"ru":"Для этого режима нужны\\nчетыре игрока.","de":"Für diesen Modus sind\\nvier Spieler nötig.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4C38":{"ru":"Проверь число игроков и начни\\nснова.","de":"Prüfe die Spielerzahl\\nund starte erneut.","widths":{},"max_width":192}
+  ,"SingleBattleColosseum_Text_1A4D7E":{"ru":"Займи место и начинай бой.","de":"Nimm Platz und beginne\\nden Kampf.","widths":{},"max_width":192}
+  ,"TradeCenter_Text_1A4DAB":{"ru":"Займи место и начинай обмен.","de":"Nimm Platz und beginne\\nden Tausch.","widths":{},"max_width":192}
+  ,"RecordCorner_Text_1A4DD7":{"ru":"Займи место и подожди.","de":"Nimm Platz und warte.","widths":{},"max_width":192}
+  ,"RecordCorner_Text_1A4DF7":{"ru":"Спасибо, что пришёл.","de":"Danke für deinen\\nBesuch.","widths":{},"max_width":192}
+  ,"RecordCorner_Text_1A4E3B":{"ru":"{STR_VAR_1} прислал\\nпредмет {STR_VAR_2}.","de":"{STR_VAR_1} hat\\n{STR_VAR_2}\\pgesendet.","widths":{"STR_VAR_1":112,"STR_VAR_2":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14,"STR_VAR_2":14}}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4E50":{"ru":"Данные КАРТЫ ТРЕНЕРА будут\\nперезаписаны.","de":"Die Daten des\\nTRAINERPASS werden\\püberschrieben.","widths":{},"max_width":192}
+  ,"OldaleTown_PokemonCenter_2F_Text_1A4E79":{"ru":"Надеюсь увидеть тебя снова!","de":"Ich hoffe, wir sehen\\nuns wieder!","widths":{},"max_width":192}
 }

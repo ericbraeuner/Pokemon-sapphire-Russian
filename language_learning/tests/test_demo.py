@@ -1892,6 +1892,15 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(60, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_day_care_and_safari_zone_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for name in ('day_care.inc', 'safari_zone.inc'):
+            source = (demo.ROOT / 'data/text' / name).read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(57, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

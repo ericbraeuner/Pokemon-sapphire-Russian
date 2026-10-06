@@ -1868,6 +1868,21 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(40, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_all_production_map_text_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        opening_entries = validate.load(demo.ROOT / 'language_learning/opening.json')['dialogues']
+        covered = set(templates) | {entry['base_symbol'] for entry in opening_entries}
+        symbols = set()
+        maps_root = demo.ROOT / 'data/maps'
+        for area in maps_root.iterdir():
+            source_path = area / 'text.inc'
+            if not source_path.exists() or 'Prototype' in area.name:
+                continue
+            source = source_path.read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(2359, len(symbols))
+        self.assertTrue(symbols.issubset(covered))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

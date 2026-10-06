@@ -1714,6 +1714,19 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(62, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_route_113_and_fallarbor_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        areas = ('Route113', 'Route113_GlassWorkshop', 'FallarborTown',
+                 'FallarborTown_House1', 'FallarborTown_House2',
+                 'FallarborTown_Mart', 'FallarborTown_PokemonCenter_1F',
+                 'FallarborTown_ContestLobby', 'FallarborTown_ContestHall')
+        for area in areas:
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(60, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

@@ -1739,6 +1739,17 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(53, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_mt_chimney_and_jagged_pass_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for area in ('MtChimney', 'MtChimney_CableCarStation', 'JaggedPass'):
+            source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        story = (demo.ROOT / 'data/text/aqua_chimney.inc').read_text(errors='replace')
+        symbols.update(re.findall(r'^([A-Za-z_]\w*)::', story, re.MULTILINE))
+        self.assertEqual(68, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

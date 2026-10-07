@@ -3079,4 +3079,56 @@
   ,"gTVWorldOfMastersText1":{"ru":"'Мир мастеров'. Тренер\\n{STR_VAR_1} славится\\nумением ловить покемонов. В\\pпамятный день было пройдено\\n{STR_VAR_2} шагов и\\nпоймано покемонов:\\p{STR_VAR_3}!","de":"'Die Welt der Meister'.\\nTrainer {STR_VAR_1}\\nist für Pokémon-Fänge\\pberühmt. An einem\\ndenkwürdigen Tag wurden\\n{STR_VAR_2} Schritte\\pgegangen und\\n{STR_VAR_3} Pokémon\\ngefangen!","widths":{"STR_VAR_1":112,"STR_VAR_2":112,"STR_VAR_3":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14,"STR_VAR_2":14,"STR_VAR_3":14}}
   ,"gTVWorldOfMastersText2":{"ru":"Такое достижение стало\\nвозможным благодаря доверию\\nмежду тренером и\\p{STR_VAR_1}.","de":"Diese Leistung wurde\\ndurch das Vertrauen\\nzwischen dem Trainer\\pund {STR_VAR_1}\\nmöglich.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
   ,"gTVWorldOfMastersText3":{"ru":"Последнего за день покемона\\n{STR_VAR_3} мастер\\nпоймал возле\\p{STR_VAR_2}. Это\\nрекордсмен! Другим тренерам\\nстоит побороться за рекорд.\\pДо следующего эфира!","de":"Das letzte Pokémon des\\nTages, {STR_VAR_3},\\nfing der Meister nahe\\p{STR_VAR_2}. Ein\\nRekordhalter! Andere\\nTrainer sollten den\\pRekord angreifen. Bis\\nzur nächsten Sendung!","widths":{"STR_VAR_2":112,"STR_VAR_3":112},"max_width":192,"buffer_lengths":{"STR_VAR_2":14,"STR_VAR_3":14}}
+
+  ,"gTVNewsText_EnergyGuru1":{"ru":"Новости покемонов! Энергогуру\\nиз Порт-Слейта снова в\\nцентре внимания. Через\\p{STR_VAR_1} дн. он\\nобещает грандиозное событие.\\nКопите деньги и приходите на\\pрынок!","de":"Pokémon-News! Der\\nEnergie-Guru aus\\nGraphitport ist wieder\\pim Gespräch. In\\n{STR_VAR_1} Tagen\\nverspricht er ein\\pgroßes Ereignis. Spart\\nGeld und besucht den\\nMarkt!","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"gTVNewsText_EnergyGuru2":{"ru":"Новости покемонов! Энергогуру\\nпроводит большую распродажу\\nна рынке Порт-Слейта.\\pКальций и протеин по лучшим\\nценам!","de":"Pokémon-News! Der\\nEnergie-Guru\\nveranstaltet einen\\pgroßen Verkauf auf dem\\nMarkt von Graphitport.\\nKalzium und Protein\\pgibt es besonders\\ngünstig!","widths":{},"max_width":192}
+  ,"gTVNewsText_EnergyGuru3":{"ru":"Новости покемонов! Распродажа\\nэнергогуру на рынке\\nПорт-Слейта продолжается.\\pКальция и протеина ещё\\nмного. Приходите за\\nпокупками!","de":"Pokémon-News! Der\\nVerkauf des\\nEnergie-Gurus auf dem\\pMarkt von Graphitport\\nläuft weiter. Kalzium\\nund Protein sind noch\\preichlich da. Kommt\\neinkaufen!","widths":{},"max_width":192}
+  ,"gTVNewsText_GameCorner1":{"ru":"Новости покемонов! Через\\n{STR_VAR_1} дн. в\\nигровом зале наступит особый\\pдень. Даже тем, кому обычно\\nне везёт, может улыбнуться\\nудача!","de":"Pokémon-News! In\\n{STR_VAR_1} Tagen\\nfindet im Spielcasino\\pein besonderer Tag\\nstatt. Selbst Pechvögel\\nkönnten dann Glück\\phaben!","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"gTVNewsText_GameCorner2":{"ru":"Новости покемонов! Особый\\nдень игрового зала уже\\nначался. Испытайте удачу в\\pавтоматах и рулетке города\\nМовиль!","de":"Pokémon-News! Der\\nbesondere Tag im\\nSpielcasino ist da.\\pVersuch dein Glück an\\nAutomaten und Roulette\\nin Malvenfroh City!","widths":{},"max_width":192}
+  ,"gTVNewsText_GameCorner3":{"ru":"Новости покемонов! Особый\\nдень игрового зала скоро\\nзакончится. Поторопитесь\\pиспытать удачу в городе\\nМовиль!","de":"Pokémon-News! Der\\nbesondere Tag im\\nSpielcasino endet bald.\\pBeeil dich und versuch\\ndein Glück in\\nMalvenfroh City!","widths":{},"max_width":192}
+  ,"gTVNewsText_LilycoveDepartment1":{"ru":"Новости покемонов! Через\\n{STR_VAR_1} дн. в\\nунивермаге Лиликов начнётся\\pбольшая распродажа.\\nВозможно, желанный товар\\nстанет вашим!","de":"Pokémon-News! In\\n{STR_VAR_1} Tagen\\nbeginnt im Kaufhaus von\\pSeegrasulb City der\\ngroße Ausverkauf.\\nVielleicht gehört dein\\pWunschartikel bald dir!","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"gTVNewsText_LilycoveDepartment2":{"ru":"Новости покемонов! Большая\\nраспродажа в универмаге\\nЛиликов началась. Найдите\\pтовары, о которых давно\\nмечтали!","de":"Pokémon-News! Der große\\nAusverkauf im Kaufhaus\\nvon Seegrasulb City hat\\pbegonnen. Finde die\\nWaren, von denen du\\nlange geträumt hast!","widths":{},"max_width":192}
+  ,"gTVNewsText_LilycoveDepartment3":{"ru":"Новости покемонов! Большая\\nраспродажа в универмаге\\nЛиликов идёт сейчас. Не\\pупустите встречу с товаром\\nсвоей мечты!","de":"Pokémon-News! Der große\\nAusverkauf im Kaufhaus\\nvon Seegrasulb City\\pläuft jetzt. Verpass\\ndeinen Wunschartikel\\nnicht!","widths":{},"max_width":192}
+  ,"gTVUnusedText_DevonCorporation":{"ru":"Программа выходит при\\nподдержке корпорации Девон.","de":"Diese Sendung wird von\\nder Devon Corporation\\npräsentiert.","widths":{},"max_width":192}
+  ,"gTVUnusedText_Contests":{"ru":"Главное - любовь к покемонам\\nи немного смелости. Пусть ваш\\nлюбимец выйдет на сцену!\\pКонкурсы покемонов!","de":"Wichtig sind Liebe zu\\nPokémon und etwas Mut.\\nLass deinen Liebling\\pauf die Bühne!\\nPokémon-Wettbewerbe!","widths":{},"max_width":192}
+  ,"gTVUnusedText_DayCare":{"ru":"Мы с любовью растим ваших\\nпокемонов! Приходите в\\nдетский сад на трассе 117.","de":"Wir kümmern uns\\nliebevoll um eure\\nPokémon! Besucht die\\pPension auf Route 117.","widths":{},"max_width":192}
+  ,"gTVUnusedText_LavaridgeSpa":{"ru":"Источник веселья и хорошего\\nнастроения! Горячие источники\\nЛаваридж.","de":"Eine Quelle für Spaß\\nund gute Laune! Das Bad\\nvon Bad Lavastadt.","widths":{},"max_width":192}
+  ,"gTVUnusedText_LilycoveDepartment":{"ru":"Отличные товары и море\\nвпечатлений! Всё необходимое\\nждёт вас в универмаге\\pЛиликов!","de":"Tolle Waren und viel\\nVergnügen! Alles Nötige\\nerwartet dich im\\pKaufhaus von Seegrasulb\\nCity!","widths":{},"max_width":192}
+  ,"gLandmarkName_FlowerShop":{"ru":"Цветочный магазин","de":"Der Blumenladen","widths":{},"max_width":192}
+  ,"gLandmarkName_PetalburgWoods":{"ru":"Петалбургский лес","de":"Der Blütenburgwald","widths":{},"max_width":192}
+  ,"gLandmarkName_MrBrineysCottage":{"ru":"Дом мистера Брайни","de":"Mr. Brackens Hütte","widths":{},"max_width":192}
+  ,"gLandmarkName_AbandonedShip":{"ru":"Заброшенный корабль","de":"Das Schiffswrack","widths":{},"max_width":192}
+  ,"gLandmarkName_SeashoreHouse":{"ru":"Дом у моря","de":"Das Strandhaus","widths":{},"max_width":192}
+  ,"gLandmarkName_SlateportBeach":{"ru":"Пляж Порт-Слейта","de":"Der Graphitport-Strand","widths":{},"max_width":192}
+  ,"gLandmarkName_CyclingRoad":{"ru":"Велодорога","de":"Der Radweg","widths":{},"max_width":192}
+  ,"gLandmarkName_NewMauville":{"ru":"Новый Мовиль","de":"Neu Malvenfroh","widths":{},"max_width":192}
+  ,"gLandmarkName_TrickHouse":{"ru":"Дом загадок","de":"Das Rätselhaus","widths":{},"max_width":192}
+  ,"gLandmarkName_OldLadysRestShop":{"ru":"Дом отдыха старушки","de":"Omas Raststätte","widths":{},"max_width":192}
+  ,"gLandmarkName_Desert":{"ru":"Пустыня","de":"Die Wüste","widths":{},"max_width":192}
+  ,"gLandmarkName_WinstrateFamily":{"ru":"Семья Винстрейт","de":"Die Familie Winstrate","widths":{},"max_width":192}
+  ,"gLandmarkName_CableCar":{"ru":"Канатная дорога","de":"Die Seilbahn","widths":{},"max_width":192}
+  ,"gLandmarkName_GlassWorkshop":{"ru":"Стекольная мастерская","de":"Die Glaswerkstatt","widths":{},"max_width":192}
+  ,"gLandmarkName_WeatherInstitute":{"ru":"Институт погоды","de":"Das Klima-Institut","widths":{},"max_width":192}
+  ,"gLandmarkName_MeteorFalls":{"ru":"Метеоритный водопад","de":"Die Meteorfälle","widths":{},"max_width":192}
+  ,"gLandmarkName_TunnelersRestHouse":{"ru":"Дом отдыха землекопа","de":"Die Raststätte des\\nTunnelbauers","widths":{},"max_width":192}
+  ,"gLandmarkName_RusturfTunnel":{"ru":"Туннель Рустурф","de":"Der Metaflurtunnel","widths":{},"max_width":192}
+  ,"gLandmarkName_PokemonDayCare":{"ru":"Детский сад покемонов","de":"Die Pokémon-Pension","widths":{},"max_width":192}
+  ,"gLandmarkName_SafariZoneEntrance":{"ru":"Вход в Зону сафари","de":"Der Eingang zur\\nSafari-Zone","widths":{},"max_width":192}
+  ,"gLandmarkName_MtPyre":{"ru":"Гора Пайр","de":"Der Pyroberg","widths":{},"max_width":192}
+  ,"gLandmarkName_ShoalCave":{"ru":"Приливная пещера","de":"Die Küstenhöhle","widths":{},"max_width":192}
+  ,"gLandmarkName_SeafloorCavern":{"ru":"Подводная пещера","de":"Die Tiefseehöhle","widths":{},"max_width":192}
+  ,"gLandmarkName_GraniteCave":{"ru":"Гранитная пещера","de":"Die Granithöhle","widths":{},"max_width":192}
+  ,"gLandmarkName_OceanCurrent":{"ru":"Океанское течение","de":"Die Meeresströmung","widths":{},"max_width":192}
+  ,"gLandmarkName_LanettesHouse":{"ru":"Дом Ланетт","de":"Lanettes Haus","widths":{},"max_width":192}
+  ,"gLandmarkName_FieryPath":{"ru":"Огненная тропа","de":"Der Feurige Pfad","widths":{},"max_width":192}
+  ,"gLandmarkName_JaggedPass":{"ru":"Каменистый перевал","de":"Der Steilpass","widths":{},"max_width":192}
+  ,"gLandmarkName_SkyPillar":{"ru":"Небесная башня","de":"Der Himmelturm","widths":{},"max_width":192}
+  ,"gLandmarkName_BerryMastersHouse":{"ru":"Дом мастера ягод","de":"Das Haus des\\nBeerenmeisters","widths":{},"max_width":192}
+  ,"gLandmarkName_IslandCave":{"ru":"Островная пещера","de":"Die Inselhöhle","widths":{},"max_width":192}
+  ,"gLandmarkName_DesertRuins":{"ru":"Руины пустыни","de":"Die Wüstenruine","widths":{},"max_width":192}
+  ,"gLandmarkName_ScorchedSlab":{"ru":"Опалённая плита","de":"Die Sonnengrotte","widths":{},"max_width":192}
+  ,"gLandmarkName_AncientTomb":{"ru":"Древняя гробница","de":"Das Grabmal","widths":{},"max_width":192}
+  ,"gLandmarkName_SealedChamber":{"ru":"Запечатанная палата","de":"Die Siegelkammer","widths":{},"max_width":192}
+  ,"gLandmarkName_FossilManiacsHouse":{"ru":"Дом фаната ископаемых","de":"Das Haus des\\nFossilienmaniac","widths":{},"max_width":192}
+  ,"gLandmarkName_HuntersHouse":{"ru":"Дом охотника","de":"Das Haus des Jägers","widths":{},"max_width":192}
 }

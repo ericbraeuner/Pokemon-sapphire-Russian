@@ -1963,6 +1963,17 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(58, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_shared_character_events_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        names = ('bard.inc', 'eon_ticket.inc', 'secret_power_tm.inc',
+                 'hipster.inc', 'giddy.inc')
+        for name in names:
+            source = (demo.ROOT / 'data/text' / name).read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(27, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

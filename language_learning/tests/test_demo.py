@@ -1927,7 +1927,7 @@ class LessonTests(unittest.TestCase):
         source = (demo.ROOT / 'data/text/tv.inc').read_text(errors='replace')
         symbols = re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE)
         self.assertEqual(133, len(symbols))
-        self.assertTrue(set(symbols[:39]).issubset(templates))
+        self.assertTrue(set(symbols[:77]).issubset(templates))
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

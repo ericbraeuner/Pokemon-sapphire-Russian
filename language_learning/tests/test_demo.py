@@ -1974,12 +1974,12 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(27, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
-    def test_opening_route_trainers_are_bilingual(self):
+    def test_opening_and_coastal_route_trainers_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/trainers.inc').read_text(errors='replace')
         symbols = re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE)
         self.assertEqual(801, len(symbols))
-        self.assertTrue(set(symbols[:60]).issubset(templates))
+        self.assertTrue(set(symbols[:120]).issubset(templates))
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

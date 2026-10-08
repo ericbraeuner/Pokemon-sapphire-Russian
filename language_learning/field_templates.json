@@ -4386,4 +4386,72 @@
   ,"gOtherText_Prev":{"ru":"ПРОШЛАЯ","de":"VORHER","widths":{},"max_width":56}
   ,"gOtherText_MixingRecordsWithFriend":{"ru":"Обмен записями...","de":"Datentausch...","widths":{},"max_width":216}
   ,"gOtherText_MixingComplete":{"ru":"Обмен записями завершён.\\nСпасибо за ожидание.","de":"Datentausch beendet.\\nDanke fürs Warten.","widths":{},"max_width":216}
+  ,"gDexText_UnknownPoke":{"ru":"????? ПОКЕМОН","de":"?????","widths":{},"max_width":160}
+  ,"gDexText_CryOf":{"ru":"{CLEAR_TO 2}КРИК","de":"{CLEAR_TO 2}RUF VON","widths":{},"max_width":96}
+  ,"gDexText_RegisterComplete":{"ru":"Запись добавлена в ПОКЕДЕКС.","de":"Neuer Eintrag aufgenommen.","widths":{},"max_width":208}
+  ,"gDexText_Searching":{"ru":"Идёт поиск...\\nПодождите.","de":"Suche läuft.\\nBitte warten...","widths":{},"max_width":208}
+  ,"gDexText_SearchComplete":{"ru":"Поиск завершён.","de":"Suche beendet.","widths":{},"max_width":208}
+  ,"gDexText_NoMatching":{"ru":"Подходящие ПОКЕМОНЫ не найдены.","de":"Keine POKéMON gefunden.","widths":{},"max_width":216}
+  ,"DexText_SearchForPoke":{"ru":"Искать ПОКЕМОНОВ по\\nвыбранным параметрам.","de":"Suche nach POKéMON anhand\\nausgewählter Parameter.","widths":{},"max_width":216}
+  ,"DexText_SwitchDex":{"ru":"Сменить список ПОКЕДЕКСА.","de":"Ordnung des POKéDEX ändern.","widths":{},"max_width":216}
+  ,"DexText_ReturnToDex":{"ru":"Вернуться в ПОКЕДЕКС.","de":"Zurück zum POKéDEX.","widths":{},"max_width":216}
+  ,"DexText_SelectDexMode":{"ru":"Выберите режим ПОКЕДЕКСА.","de":"Wähle einen POKéDEX.","widths":{},"max_width":216}
+  ,"DexText_SelectDexList":{"ru":"Выберите порядок списка.","de":"Wähle die Sortierung.","widths":{},"max_width":216}
+  ,"DexText_ListByABC":{"ru":"По первой букве имени.\\nТолько замеченные ПОКЕМОНЫ.","de":"Nach Anfangsbuchstaben.\\nNur gesehene POKéMON.","widths":{},"max_width":216}
+  ,"DexText_ListByColor":{"ru":"По цвету тела.\\nТолько замеченные ПОКЕМОНЫ.","de":"Nach Körperfarbe.\\nNur gesehene POKéMON.","widths":{},"max_width":216}
+  ,"DexText_ListByType":{"ru":"По типу.\\nТолько пойманные ПОКЕМОНЫ.","de":"Nach Elementklasse.\\nNur gefangene POKéMON.","widths":{},"max_width":216}
+  ,"DexText_ExecuteSearchSwitch":{"ru":"Начать поиск или смену.","de":"Suche/Wechsel starten.","widths":{},"max_width":216}
+  ,"DexText_HoennDex":{"ru":"ПОКЕДЕКС ХОЭННА","de":"HOENN DEX","widths":{},"max_width":96}
+  ,"DexText_NationalDex":{"ru":"ОБЩИЙ ПОКЕДЕКС","de":"NATIONALER DEX","widths":{},"max_width":120}
+  ,"DexText_NumericalMode":{"ru":"ПО НОМЕРУ","de":"NUMERISCH","widths":{},"max_width":96}
+  ,"DexText_ABCMode":{"ru":"ПО АЛФАВИТУ","de":"VON A BIS Z","widths":{},"max_width":96}
+  ,"DexText_HeaviestMode":{"ru":"ВЕС: УБЫВ.","de":"GEWICHT AB","widths":{},"max_width":120}
+  ,"DexText_LightestMode":{"ru":"ВЕС: ВОЗР.","de":"GEWICHT AUF","widths":{},"max_width":120}
+  ,"DexText_TallestMode":{"ru":"РОСТ: УБЫВ.","de":"GRÖSSE AB","widths":{},"max_width":120}
+  ,"DexText_SmallestMode":{"ru":"РОСТ: ВОЗР.","de":"GRÖSSE AUF","widths":{},"max_width":120}
+  ,"DexText_Red":{"ru":"КРАСНЫЙ","de":"ROT","widths":{},"max_width":96}
+  ,"DexText_Blue":{"ru":"СИНИЙ","de":"BLAU","widths":{},"max_width":96}
+  ,"DexText_Yellow":{"ru":"ЖЁЛТЫЙ","de":"GELB","widths":{},"max_width":96}
+  ,"DexText_Green":{"ru":"ЗЕЛЁНЫЙ","de":"GRÜN","widths":{},"max_width":96}
+  ,"DexText_Black":{"ru":"ЧЁРНЫЙ","de":"SCHWARZ","widths":{},"max_width":96}
+  ,"DexText_Brown":{"ru":"КОРИЧНЕВЫЙ","de":"BRAUN","widths":{},"max_width":96}
+  ,"DexText_Purple":{"ru":"ФИОЛЕТОВЫЙ","de":"LILA","widths":{},"max_width":96}
+  ,"DexText_Gray":{"ru":"СЕРЫЙ","de":"GRAU","widths":{},"max_width":96}
+  ,"DexText_White":{"ru":"БЕЛЫЙ","de":"WEISS","widths":{},"max_width":96}
+  ,"DexText_Pink":{"ru":"РОЗОВЫЙ","de":"ROSA","widths":{},"max_width":96}
+  ,"DexText_HoennDex2":{"ru":"ПОКЕДЕКС региона ХОЭНН","de":"POKéDEX von HOENN","widths":{},"max_width":216}
+  ,"DexText_NationalDex2":{"ru":"Общий ПОКЕДЕКС","de":"Erweiterter POKéDEX","widths":{},"max_width":216}
+  ,"DexText_ListByNumber":{"ru":"ПОКЕМОНЫ расположены\\nпо номерам.","de":"POKéMON werden nach\\nNummer sortiert.","widths":{},"max_width":216}
+  ,"DexText_ListByABC2":{"ru":"Замеченные и пойманные:\\nпо алфавиту.","de":"POKéMON gesehen/gefangen:\\nalphabetisch sortiert.","widths":{},"max_width":216}
+  ,"DexText_ListByHeavyToLightest":{"ru":"Пойманные ПОКЕМОНЫ:\\nот тяжёлых к лёгким.","de":"Gefangene POKéMON:\\nschwer nach leicht.","widths":{},"max_width":216}
+  ,"DexText_ListByLightToHeaviest":{"ru":"Пойманные ПОКЕМОНЫ:\\nот лёгких к тяжёлым.","de":"Gefangene POKéMON:\\nleicht nach schwer.","widths":{},"max_width":216}
+  ,"DexText_ListByTallToSmallest":{"ru":"Пойманные ПОКЕМОНЫ:\\nот высоких к низким.","de":"Gefangene POKéMON:\\ngroß nach klein.","widths":{},"max_width":216}
+  ,"DexText_ListBySmallToTallest":{"ru":"Пойманные ПОКЕМОНЫ:\\nот низких к высоким.","de":"Gefangene POKéMON:\\nklein nach groß.","widths":{},"max_width":216}
+  ,"DexText_DontSpecify":{"ru":"НЕ ВАЖНО","de":"KEINE ANGABE","widths":{},"max_width":96}
+  ,"DexText_None":{"ru":"НЕТ","de":"KEINER","widths":{},"max_width":96}
+  ,"OtherText_PokeInfo":{"ru":"ДАННЫЕ ПОКЕМОНА","de":"POKéMON-INFO","widths":{},"max_width":128}
+  ,"OtherText_PokeSkills":{"ru":"НАВЫКИ ПОКЕМОНА","de":"POKéMON-FÄHIG.","widths":{},"max_width":128}
+  ,"OtherText_BattleMoves":{"ru":"БОЕВЫЕ ПРИЁМЫ","de":"ATTACKEN","widths":{},"max_width":128}
+  ,"OtherText_ContestMoves":{"ru":"ПРИЁМЫ КОНКУРСА","de":"WETT.-ATTACKEN","widths":{},"max_width":128}
+  ,"OtherText_Switch":{"ru":"СМЕНИТЬ","de":"TAUSCH","widths":{},"max_width":80}
+  ,"OtherText_Info":{"ru":"ДАННЫЕ","de":"INFO","widths":{},"max_width":80}
+  ,"gOtherText_CancelNoTerminator":{"ru":"ОТМЕНА","de":"ZURÜCK","widths":{},"max_width":80}
+  ,"gOtherText_OriginalTrainer":{"ru":"ТР/","de":"OT:","widths":{},"max_width":32}
+  ,"gOtherText_ExpPoints":{"ru":"ОЧКИ ОПЫТА","de":"E.-PUNKTE","widths":{},"max_width":88}
+  ,"gOtherText_NextLv":{"ru":"СЛЕД. УР.","de":"NÄCHST. Lv.","widths":{},"max_width":88}
+  ,"gOtherText_HP":{"ru":"ОЗ","de":"KP","widths":{},"max_width":42}
+  ,"gOtherText_Attack":{"ru":"АТ.","de":"ANGR.","widths":{},"max_width":42}
+  ,"gOtherText_Defense":{"ru":"ЗАЩ.","de":"VERT.","widths":{},"max_width":42}
+  ,"gOtherText_SpAtk":{"ru":"СП.А","de":"S.AN","widths":{},"max_width":36}
+  ,"gOtherText_SpDef":{"ru":"СП.З","de":"S.VE","widths":{},"max_width":36}
+  ,"gOtherText_Speed":{"ru":"СК.","de":"INIT","widths":{},"max_width":36}
+  ,"gOtherText_Power2":{"ru":"СИЛА","de":"STÄRKE","widths":{},"max_width":72}
+  ,"gOtherText_Accuracy2":{"ru":"ТОЧНОСТЬ","de":"GENAU.","widths":{},"max_width":72}
+  ,"gOtherText_Appeal2":{"ru":"ЭФФЕКТ","de":"AUSDR.","widths":{},"max_width":72}
+  ,"gOtherText_Jam2":{"ru":"ПОМЕХА","de":"EINDR.","widths":{},"max_width":72}
+  ,"gOtherText_Status":{"ru":"СТАТУС","de":"STATUS","widths":{},"max_width":72}
+  ,"gOtherText_EggLongTime":{"ru":"ЯЙЦО вылупится\\nещё нескоро.","de":"Das EI braucht\\nnoch sehr lange.","widths":{},"max_width":144}
+  ,"gOtherText_EggSomeTime":{"ru":"Что там внутри?\\nНадо подождать.","de":"Was schlüpft?\\nEs dauert noch.","widths":{},"max_width":144}
+  ,"gOtherText_EggSoon":{"ru":"ЯЙЦО двигается.\\nСкоро вылупится.","de":"Das EI bewegt sich\\nSchlüpft bald.","widths":{},"max_width":144}
+  ,"gOtherText_EggAbout":{"ru":"Слышны звуки.\\nВот-вот вылупится!","de":"Geräusche im EI.\\nSchlüpft gleich!","widths":{},"max_width":144}
 }

@@ -2317,13 +2317,13 @@ static void SummaryScreen_PrintPokemonInfo(struct Pokemon *mon)
 
         friendship = GetMonData(mon, MON_DATA_FRIENDSHIP);
         if (friendship <= 5)
-            Menu_PrintText(gOtherText_EggAbout, 11, 9);
+            Menu_PrintText(SummaryLearnerText(gOtherText_EggAbout), 11, 9);
         else if (friendship <= 10)
-            Menu_PrintText(gOtherText_EggSoon, 11, 9);
+            Menu_PrintText(SummaryLearnerText(gOtherText_EggSoon), 11, 9);
         else if (friendship <= 40)
-            Menu_PrintText(gOtherText_EggSomeTime, 11, 9);
+            Menu_PrintText(SummaryLearnerText(gOtherText_EggSomeTime), 11, 9);
         else
-            Menu_PrintText(gOtherText_EggLongTime, 11, 9);
+            Menu_PrintText(SummaryLearnerText(gOtherText_EggLongTime), 11, 9);
 
         PokemonSummaryScreen_PrintEggTrainerMemo(mon, 11, 14);
     }
@@ -2380,16 +2380,16 @@ static void sub_809FE80(void)
 
 static void SummaryScreen_PrintPokemonSkillsLabels(void)
 {
-    SummaryScreen_PrintColoredText(gOtherText_ExpPoints, 13, 11, 14);
-    SummaryScreen_PrintColoredText(gOtherText_NextLv, 13, 11, 16);
+    SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_ExpPoints), 13, 11, 14);
+    SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_NextLv), 13, 11, 16);
     Menu_PrintText(gOtherText_Terminator18, 21, 16);
 
-    SummaryScreen_PrintColoredTextCentered(gOtherText_HP, 13, 11, 7, 42);
-    SummaryScreen_PrintColoredTextCentered(gOtherText_Attack, 13, 11, 9, 42);
-    SummaryScreen_PrintColoredTextCentered(gOtherText_Defense, 13, 11, 11, 42);
-    SummaryScreen_PrintColoredTextCentered(gOtherText_SpAtk, 13, 22, 7, 36);
-    SummaryScreen_PrintColoredTextCentered(gOtherText_SpDef, 13, 22, 9, 36);
-    SummaryScreen_PrintColoredTextCentered(gOtherText_Speed, 13, 22, 11, 36);
+    SummaryScreen_PrintColoredTextCentered(SummaryLearnerText(gOtherText_HP), 13, 11, 7, 42);
+    SummaryScreen_PrintColoredTextCentered(SummaryLearnerText(gOtherText_Attack), 13, 11, 9, 42);
+    SummaryScreen_PrintColoredTextCentered(SummaryLearnerText(gOtherText_Defense), 13, 11, 11, 42);
+    SummaryScreen_PrintColoredTextCentered(SummaryLearnerText(gOtherText_SpAtk), 13, 22, 7, 36);
+    SummaryScreen_PrintColoredTextCentered(SummaryLearnerText(gOtherText_SpDef), 13, 22, 9, 36);
+    SummaryScreen_PrintColoredTextCentered(SummaryLearnerText(gOtherText_Speed), 13, 22, 11, 36);
 }
 
 static void SummaryScreen_PrintPokemonSkills(struct Pokemon *mon)
@@ -2455,13 +2455,13 @@ static void sub_80A00F4(u8 a)
     {
         if (pssData.page == PSS_PAGE_BATTLE_MOVES)
         {
-            SummaryScreen_PrintColoredText(gOtherText_Power2, 13, 1, 15);
-            SummaryScreen_PrintColoredText(gOtherText_Accuracy2, 13, 1, 17);
+            SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_Power2), 13, 1, 15);
+            SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_Accuracy2), 13, 1, 17);
         }
         else
         {
-            SummaryScreen_PrintColoredText(gOtherText_Appeal2, 13, 1, 15);
-            SummaryScreen_PrintColoredText(gOtherText_Jam2, 13, 1, 17);
+            SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_Appeal2), 13, 1, 15);
+            SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_Jam2), 13, 1, 17);
         }
     }
 }
@@ -2516,7 +2516,7 @@ static void sub_80A029C(struct Pokemon *mon)
 
     if (pssData.moveToLearn == 0)
     {
-        SummaryScreen_PrintColoredText(gOtherText_CancelNoTerminator, 13, 15, 12);
+        SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_CancelNoTerminator), 13, 15, 12);
         return;
     }
 
@@ -3229,7 +3229,7 @@ void sub_80A1048(u8 taskId)
     if (data[0] == 0 || data[1] <= 0 || data[1] >= 10)
     {
         if (data[1] >= 10)
-            SummaryScreen_PrintColoredText(gOtherText_Status, 13, 1, 18);
+            SummaryScreen_PrintColoredText(SummaryLearnerText(gOtherText_Status), 13, 1, 18);
         sub_80A1D18();
         DestroyTask(taskId);
     }

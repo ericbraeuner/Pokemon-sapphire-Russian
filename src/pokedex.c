@@ -2982,7 +2982,7 @@ static void Task_InitPageScreenMultistep(u8 taskId)
         else
             PrintEntryScreenDexNum(sPokedexListItem->dexNum, 0xD, 3);
         PrintEntryScreenSpeciesName(sPokedexListItem->dexNum, 0x10, 3);
-        Menu_PrintText(gDexText_UnknownPoke, CATEGORY_LEFT, 5);
+        Menu_PrintText(DexLearnerText(gDexText_UnknownPoke), CATEGORY_LEFT, 5);
         Menu_PrintText(gDexText_UnknownHeight, 16, 7);
         Menu_PrintText(gDexText_UnknownWeight, 16, 9);
         if (sPokedexListItem->owned)
@@ -3248,7 +3248,7 @@ static void Task_InitCryScreenMultistep(u8 taskId)
         gMain.state++;
         break;
     case 4:
-        Menu_PrintText(gDexText_CryOf, 10, 4);
+        Menu_PrintText(DexLearnerText(gDexText_CryOf), 10, 4);
         PrintCryScreenSpeciesName(sPokedexListItem->dexNum, 10, 6, 2);
         gMain.state++;
         break;
@@ -3893,13 +3893,13 @@ static void sub_8090750(u8 taskId)
         gTasks[taskId].data[0]++;
         break;
     case 3:
-        MenuPrint_Centered(gDexText_RegisterComplete, 2, 0, 0xD0);
+        MenuPrint_Centered(DexLearnerText(gDexText_RegisterComplete), 2, 0, 0xD0);
         if (!IsNationalPokedexEnabled())
             PrintEntryScreenDexNum(NationalToHoennOrder(dexNum), 13, 3);
         else
             PrintEntryScreenDexNum(dexNum, 13, 3);
         PrintEntryScreenSpeciesName(dexNum, 16, 3);
-        Menu_PrintText(gDexText_UnknownPoke, CATEGORY_LEFT, 5);
+        Menu_PrintText(DexLearnerText(gDexText_UnknownPoke), CATEGORY_LEFT, 5);
         Menu_PrintText(gDexText_UnknownHeight, 16, 7);
         Menu_PrintText(gDexText_UnknownWeight, 16, 9);
         UnusedPrintMonName(
@@ -5473,7 +5473,7 @@ int DoPokedexSearch(u8 dexMode, u8 order, u8 abcGroup, u8 bodyColor, u8 type1, u
 
 void EraseAndPrintSearchTextBox(const u8 *str)
 {
-    sub_8072AB0(str, 9, 120, SUB_8091E20_WIDTH, 32, 1);
+    sub_8072AB0(DexLearnerText(str), 9, 120, SUB_8091E20_WIDTH, 32, 1);
 }
 
 u8 LoadSearchMenu(void)
@@ -6096,7 +6096,7 @@ static void PrintSearchParameterText(u8 taskId)
     {
         if (r6[j].title == NULL)
             break;
-        Menu_PrintText(r6[j].title, 18, i * 2 + 1);
+        Menu_PrintText(DexLearnerText(r6[j].title), 18, i * 2 + 1);
     }
     EraseAndPrintSearchTextBox(r6[*r8 + *r7].description);
 }

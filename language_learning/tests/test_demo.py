@@ -2143,6 +2143,59 @@ class LessonTests(unittest.TestCase):
         for symbol in mixing_symbols:
             self.assertIn(f'RECORD_MIXING_LEARNER_TEXT({symbol})', mixing)
 
+    def test_pokedex_search_and_summary_labels_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        dex_symbols = {
+            'gDexText_UnknownPoke', 'gDexText_CryOf',
+            'gDexText_RegisterComplete', 'gDexText_Searching',
+            'gDexText_SearchComplete', 'gDexText_NoMatching',
+            'DexText_SearchForPoke', 'DexText_SwitchDex',
+            'DexText_ReturnToDex', 'DexText_SelectDexMode',
+            'DexText_SelectDexList', 'DexText_ListByABC',
+            'DexText_ListByColor', 'DexText_ListByType',
+            'DexText_ExecuteSearchSwitch', 'DexText_HoennDex',
+            'DexText_NationalDex', 'DexText_NumericalMode',
+            'DexText_ABCMode', 'DexText_HeaviestMode',
+            'DexText_LightestMode', 'DexText_TallestMode',
+            'DexText_SmallestMode', 'DexText_Red', 'DexText_Blue',
+            'DexText_Yellow', 'DexText_Green', 'DexText_Black',
+            'DexText_Brown', 'DexText_Purple', 'DexText_Gray',
+            'DexText_White', 'DexText_Pink', 'DexText_HoennDex2',
+            'DexText_NationalDex2', 'DexText_ListByNumber',
+            'DexText_ListByABC2', 'DexText_ListByHeavyToLightest',
+            'DexText_ListByLightToHeaviest', 'DexText_ListByTallToSmallest',
+            'DexText_ListBySmallToTallest', 'DexText_DontSpecify',
+            'DexText_None',
+        }
+        summary_symbols = {
+            'OtherText_PokeInfo', 'OtherText_PokeSkills',
+            'OtherText_BattleMoves', 'OtherText_ContestMoves',
+            'OtherText_Switch', 'OtherText_Info',
+            'gOtherText_CancelNoTerminator', 'gOtherText_OriginalTrainer',
+            'gOtherText_ExpPoints', 'gOtherText_NextLv', 'gOtherText_HP',
+            'gOtherText_Attack', 'gOtherText_Defense', 'gOtherText_SpAtk',
+            'gOtherText_SpDef', 'gOtherText_Speed', 'gOtherText_Power2',
+            'gOtherText_Accuracy2', 'gOtherText_Appeal2',
+            'gOtherText_Jam2', 'gOtherText_Status',
+            'gOtherText_EggLongTime', 'gOtherText_EggSomeTime',
+            'gOtherText_EggSoon', 'gOtherText_EggAbout',
+        }
+        self.assertEqual(43, len(dex_symbols))
+        self.assertEqual(25, len(summary_symbols))
+        self.assertTrue((dex_symbols | summary_symbols).issubset(templates))
+        pokedex = (demo.ROOT / 'src/pokedex.c').read_text(errors='replace')
+        summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text(errors='replace')
+        self.assertIn('sub_8072AB0(DexLearnerText(str)', pokedex)
+        self.assertIn('Menu_PrintText(DexLearnerText(r6[j].title)', pokedex)
+        for symbol in ('gDexText_UnknownPoke', 'gDexText_CryOf',
+                       'gDexText_RegisterComplete'):
+            self.assertIn(f'DexLearnerText({symbol})', pokedex)
+        for symbol in summary_symbols - {'OtherText_PokeInfo', 'OtherText_PokeSkills',
+                                         'OtherText_BattleMoves', 'OtherText_ContestMoves',
+                                         'OtherText_Switch', 'OtherText_Info'}:
+            self.assertIn(symbol, summary)
+        self.assertGreaterEqual(summary.count('SummaryLearnerText('), 40)
+
     def test_main_menu_hall_of_fame_and_region_map_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = {

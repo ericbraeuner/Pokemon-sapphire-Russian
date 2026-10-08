@@ -1,4 +1,10 @@
 #include "global.h"
+#include "learner.h"
+#if LEARNER_DEMO
+#define TUTOR_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define TUTOR_LEARNER_TEXT(text) (text)
+#endif
 #include "contest.h"
 #include "data2.h"
 #include "ewram.h"
@@ -810,7 +816,7 @@ static void InitMoveTutorMenuStrings(void)
 
     sMoveTutorMenu->numMenuChoices = GetMoveTutorMoves(&gPlayerParty[sMoveTutorMenu->partyMonIndex], sMoveTutorMenu->movesToLearn);
     for (i = 0; i < sMoveTutorMenu->numMenuChoices; i++)
-        StringCopy(sMoveTutorMenu->moveNames[i], gMoveNames[sMoveTutorMenu->movesToLearn[i]]);
+        StringCopy(sMoveTutorMenu->moveNames[i], TUTOR_LEARNER_TEXT(gMoveNames[sMoveTutorMenu->movesToLearn[i]]));
     GetMonData(&gPlayerParty[sMoveTutorMenu->partyMonIndex], MON_DATA_NICKNAME, nickname);
     StringCopy10(gStringVar1, nickname);
     StringCopy(sMoveTutorMenu->moveNames[sMoveTutorMenu->numMenuChoices], gOtherText_Exit);
@@ -920,7 +926,7 @@ static void DrawMoveSelectionWindow(void)
             if (sMoveTutorMenu->showContestInfo)
                 str = AlignStringInMenuWindow(str, gContestCategoryNames[gContestMoves[moveId].contestCategory], 0x27, 0);
             else
-                str = AlignStringInMenuWindow(str, gTypeNames[gBattleMoves[moveId].type], 0x27, 0);
+                str = AlignStringInMenuWindow(str, TUTOR_LEARNER_TEXT(gTypeNames[gBattleMoves[moveId].type]), 0x27, 0);
 
             str = AlignStringInMenuWindow(str, sMoveTutorMenu->moveNames[menuChoice], 0x72, 0);
 

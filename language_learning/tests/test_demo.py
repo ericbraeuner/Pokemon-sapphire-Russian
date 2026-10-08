@@ -294,6 +294,13 @@ class LessonTests(unittest.TestCase):
         for tag in ('ru', 'de'):
             self.assertIn('{STRING 17}', entries['BattleText_OpponentUsedMove'][tag])
 
+    def test_move_tutor_preserves_translated_move_and_type_names(self):
+        code = (demo.ROOT / 'src/move_tutor_menu.c').read_text(encoding='utf-8')
+        self.assertIn(
+            'TUTOR_LEARNER_TEXT(gMoveNames[sMoveTutorMenu->movesToLearn[i]])', code)
+        self.assertIn(
+            'TUTOR_LEARNER_TEXT(gTypeNames[gBattleMoves[moveId].type])', code)
+
     def test_extended_shared_battle_flows_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/battle.json')
         self.assertGreaterEqual(len(entries), 456)

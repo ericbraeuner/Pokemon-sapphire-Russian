@@ -1995,6 +1995,14 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(21, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_easy_chat_group_names_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/easy_chat/group_name_strings.inc').read_text()
+        symbols = re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE)
+        self.assertEqual(22, len(symbols))
+        self.assertTrue(set(symbols).issubset(templates))
+        self.assertTrue(all(templates[symbol]['max_width'] == 88 for symbol in symbols))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

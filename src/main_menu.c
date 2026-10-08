@@ -26,6 +26,12 @@
 #include "scanline_effect.h"
 #include "ewram.h"
 
+#if LEARNER_DEMO
+#define MAIN_MENU_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define MAIN_MENU_LEARNER_TEXT(text) (text)
+#endif
+
 #define BirchSpeechUpdateWindowText() ((u8)Menu_UpdateWindowTextOverrideLineLength(24))
 
 extern struct PaletteFadeControl gPaletteFade;
@@ -667,10 +673,16 @@ void PrintMainMenuItem(const u8 *text, u8 left, u8 top)
     buffer[1] = 1;
     buffer[2] = 14;
 
+#if LEARNER_DEMO
+    text = Learner_Translate(text);
+    for (i = 0; i < 26 && text[i] != EOS; i++)
+        buffer[3 + i] = text[i];
+    buffer[3 + i] = EOS;
+#else
     for (i = 0; i < 26; i++)
         buffer[3 + i] = text[i];
-
     buffer[29] = EOS;
+#endif
 
     Menu_PrintText(buffer, left, top);
 }
@@ -685,7 +697,7 @@ void PrintSaveFileInfo(void)
 
 void PrintPlayerName(void)
 {
-    Menu_PrintText(gMainMenuString_Player, 2, 3);
+    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Player), 2, 3);
     Menu_PrintText(gSaveBlock2.playerName, 9, 3);
 }
 
@@ -695,7 +707,7 @@ void PrintPlayTime(void)
     u8 alignedPlayTime[32];
 
 #if defined(ENGLISH)
-    Menu_PrintText(gMainMenuString_Time, 16, 3);
+    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Time), 16, 3);
     FormatPlayTime(playTime, gSaveBlock2.playTimeHours, gSaveBlock2.playTimeMinutes, 1);
     AlignStringInMenuWindow(alignedPlayTime, playTime, 48, 1);
     Menu_PrintText(alignedPlayTime, 22, 3);
@@ -711,7 +723,7 @@ void PrintPokedexCount(void)
 {
     u8 buffer[16];
 
-    Menu_PrintText(gMainMenuString_Pokedex, 2, 5);
+    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Pokedex), 2, 5);
     AlignInt1InMenuWindow(buffer, GetPokedexSeenCount(), 18, 0);
     Menu_PrintText(buffer, 9, 5);
 }
@@ -721,7 +733,7 @@ void PrintBadgeCount(void)
     u8 buffer[16];
 
 #if defined(ENGLISH)
-    Menu_PrintText(gMainMenuString_Badges, 16, 5);
+    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Badges), 16, 5);
 #elif defined(GERMAN)
     Menu_PrintTextPixelCoords(gMainMenuString_Badges, 124, 40, TRUE);
 #endif

@@ -66,6 +66,8 @@ def generate(russian, latin, glyphs):
                 max_width = 128
             if tag == 'ru' and symbol.startswith('PCText_'):
                 max_width = 192
+            if tag == 'ru' and symbol.startswith('gMenuText_HOF'):
+                max_width = min(max_width, 216)
             try:
                 data = compile_text(entry[tag], mapping, glyphs if tag == 'ru' else {}, font,
                                     entry.get('widths', {}), max_width,

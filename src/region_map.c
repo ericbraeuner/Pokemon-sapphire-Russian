@@ -21,6 +21,13 @@
 #include "ewram.h"
 #include "heal_location.h"
 #include "constants/heal_locations.h"
+#include "learner.h"
+
+#if LEARNER_DEMO
+#define REGION_MAP_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define REGION_MAP_LEARNER_TEXT(text) (text)
+#endif
 
 #define MAP_WIDTH 28
 #define MAP_HEIGHT 15
@@ -1132,9 +1139,9 @@ const u8 *CopyMapName(u8 *dest, u16 mapSectionId)
     switch (mapSectionId)
     {
     case MAPSEC_DYNAMIC:
-        return StringCopy(dest, gOtherText_Ferry);
+        return StringCopy(dest, REGION_MAP_LEARNER_TEXT(gOtherText_Ferry));
     case MAPSEC_SECRET_BASE:
-        return StringCopy(dest, gOtherText_SecretBase);
+        return StringCopy(dest, REGION_MAP_LEARNER_TEXT(gOtherText_SecretBase));
     default:
         return GetMapSectionName(dest, mapSectionId, 0);
     }
@@ -1143,7 +1150,7 @@ const u8 *CopyMapName(u8 *dest, u16 mapSectionId)
 const u8 *CopyLocationName(u8 *dest, u16 mapSectionId)
 {
     if (mapSectionId == MAPSEC_EVIL_TEAM_HIDEOUT)
-        return StringCopy(dest, gOtherText_Hideout);
+        return StringCopy(dest, REGION_MAP_LEARNER_TEXT(gOtherText_Hideout));
     else
         return CopyMapName(dest, mapSectionId);
 }
@@ -1371,7 +1378,7 @@ void CB2_InitFlyRegionMap(void)
         break;
     case 6:
         LoadPalette(sFlyRegionMapFrame_Pal, 16, 32);
-        Menu_PrintTextPixelCoords(gOtherText_FlyToWhere, 1, 0x90, 1);
+        Menu_PrintTextPixelCoords(REGION_MAP_LEARNER_TEXT(gOtherText_FlyToWhere), 1, 0x90, 1);
         break;
     case 7:
         CreateFlyTargetGraphics();

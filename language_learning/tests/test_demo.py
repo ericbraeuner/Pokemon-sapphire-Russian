@@ -2104,6 +2104,29 @@ class LessonTests(unittest.TestCase):
         self.assertIn([0xFC, 0x11, 0], [clear[i:i + 3] for i in range(len(clear) - 2)])
         self.assertIn([0xFC, 5, 5], [palette[i:i + 3] for i in range(len(palette) - 2)])
 
+    def test_main_menu_hall_of_fame_and_region_map_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = {
+            'gMainMenuString_NewGame', 'gMainMenuString_Continue',
+            'gMainMenuString_Option', 'gMainMenuString_MysteryEvents',
+            'gMainMenuString_Player', 'gMainMenuString_Pokedex',
+            'gMainMenuString_Time', 'gMainMenuString_Badges',
+            'gMenuText_HOFSaving', 'gMenuText_HOFCorrupt',
+            'gMenuText_HOFNumber', 'gMenuText_HOFCongratulations',
+            'gOtherText_Number2', 'gOtherText_Level3', 'gOtherText_IDNumber',
+            'gOtherText_Name', 'gOtherText_IDNumber2', 'gOtherText_FlyToWhere',
+            'gOtherText_Ferry', 'gOtherText_SecretBase', 'gOtherText_Hideout',
+        }
+        self.assertTrue(symbols.issubset(templates))
+        main_menu = (demo.ROOT / 'src/main_menu.c').read_text()
+        self.assertIn('text = Learner_Translate(text);', main_menu)
+        for symbol in ('Player', 'Pokedex', 'Time', 'Badges'):
+            self.assertIn(f'MAIN_MENU_LEARNER_TEXT(gMainMenuString_{symbol})', main_menu)
+        hall = (demo.ROOT / 'src/hall_of_fame.c').read_text()
+        region = (demo.ROOT / 'src/region_map.c').read_text()
+        self.assertGreaterEqual(hall.count('HOF_LEARNER_TEXT('), 11)
+        self.assertEqual(6, region.count('REGION_MAP_LEARNER_TEXT('))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

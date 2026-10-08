@@ -22,6 +22,13 @@
 #include "credits.h"
 #include "pc_screen_effect.h"
 #include "ewram.h"
+#include "learner.h"
+
+#if LEARNER_DEMO
+#define HOF_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define HOF_LEARNER_TEXT(text) (text)
+#endif
 
 static EWRAM_DATA u32 sHofFadePalettes = 0;
 
@@ -553,7 +560,7 @@ static void Task_Hof_InitTeamSaveData(u8 taskID)
     }
     *lastSavedTeam = *fameMons;
     Menu_DrawStdWindowFrame(2, 14, 27, 19);
-    Menu_PrintText(gMenuText_HOFSaving, 3, 15);
+    Menu_PrintText(HOF_LEARNER_TEXT(gMenuText_HOFSaving), 3, 15);
     gTasks[taskID].func = sub_8142274;
 }
 
@@ -729,7 +736,7 @@ static void sub_8142794(u8 taskID)
             Menu_DrawStdWindowFrame(1, 2, 15, 9);
             HallOfFame_PrintPlayerInfo(1, 2);
             Menu_DrawStdWindowFrame(2, 14, 27, 19);
-            Menu_PrintText(gMenuText_HOFCongratulations, 4, 15);
+            Menu_PrintText(HOF_LEARNER_TEXT(gMenuText_HOFCongratulations), 4, 15);
             gTasks[taskID].func = sub_8142818;
         }
     }
@@ -909,7 +916,7 @@ static void sub_8142B04(u8 taskID)
     BlendPalettes(0xFFFF0000, 12, RGB(31, 26, 28));
 
     stringPtr = gStringVar1;
-    stringPtr = StringCopy(stringPtr, gMenuText_HOFNumber);
+    stringPtr = StringCopy(stringPtr, HOF_LEARNER_TEXT(gMenuText_HOFNumber));
     stringPtr[0] = 0xFC;
     stringPtr[1] = 0x14;
     stringPtr[2] = 0x6;
@@ -1029,7 +1036,7 @@ static void sub_8142FCC(u8 taskID)
 static void sub_8142FEC(u8 taskID)
 {
     Menu_DrawStdWindowFrame(2, 14, 27, 19);
-    MenuPrintMessage(gMenuText_HOFCorrupt, 3, 15);
+    MenuPrintMessage(HOF_LEARNER_TEXT(gMenuText_HOFCorrupt), 3, 15);
     gTasks[taskID].func = sub_814302C;
 }
 
@@ -1067,7 +1074,7 @@ static void HallOfFame_PrintMonInfo(struct HallofFameMon* currMon, u8 a1, u8 a2)
         monData = SpeciesToPokedexNum(currMon->species);
         if (monData != 0xFFFF)
         {
-            stringPtr = StringCopy(stringPtr, gOtherText_Number2);
+            stringPtr = StringCopy(stringPtr, HOF_LEARNER_TEXT(gOtherText_Number2));
             ConvertIntToDecimalStringN(stringPtr, monData, 2, 3);
         }
     }
@@ -1129,7 +1136,7 @@ static void HallOfFame_PrintMonInfo(struct HallofFameMon* currMon, u8 a1, u8 a2)
 
         monData = currMon->lvl;
 
-        stringPtr = StringCopy(gStringVar1, gOtherText_Level3);
+        stringPtr = StringCopy(gStringVar1, HOF_LEARNER_TEXT(gOtherText_Level3));
 
         stringPtr[0] = EXT_CTRL_CODE_BEGIN;
         stringPtr[1] = 0x14;
@@ -1147,7 +1154,7 @@ static void HallOfFame_PrintMonInfo(struct HallofFameMon* currMon, u8 a1, u8 a2)
 
         monData = currMon->tid;
 
-        stringPtr = StringCopy(gStringVar1, gOtherText_IDNumber);
+        stringPtr = StringCopy(gStringVar1, HOF_LEARNER_TEXT(gOtherText_IDNumber));
         ConvertIntToDecimalStringN(stringPtr, monData, 2, 5);
 
         Menu_PrintText(gStringVar1, a1 + 13, a2 + 3);
@@ -1161,15 +1168,15 @@ static void HallOfFame_PrintPlayerInfo(u8 a0, u8 a1)
     u8* stringPtr;
     u16 visibleTid;
 
-    Menu_PrintText(gOtherText_Name, a0 + 1, a1 + 1);
+    Menu_PrintText(HOF_LEARNER_TEXT(gOtherText_Name), a0 + 1, a1 + 1);
     MenuPrint_RightAligned(gSaveBlock2.playerName, a0 + 14, a1 + 1);
 
-    Menu_PrintText(gOtherText_IDNumber2, a0 + 1, a1 + 3);
+    Menu_PrintText(HOF_LEARNER_TEXT(gOtherText_IDNumber2), a0 + 1, a1 + 3);
     visibleTid = ByteRead16(gSaveBlock2.playerTrainerId);
     ConvertIntToDecimalStringN(gStringVar1, visibleTid, 2, 5);
 
     MenuPrint_RightAligned(gStringVar1, a0 + 14, a1 + 3);
-    Menu_PrintText(gMainMenuString_Time, a0 + 1, a1 + 5);
+    Menu_PrintText(HOF_LEARNER_TEXT(gMainMenuString_Time), a0 + 1, a1 + 5);
 
     stringPtr = ConvertIntToDecimalString(gStringVar1, gSaveBlock2.playTimeHours);
     stringPtr[0] = CHAR_SPACE;

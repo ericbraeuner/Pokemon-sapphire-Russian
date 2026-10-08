@@ -13,6 +13,13 @@
 #include "sprite.h"
 #include "task.h"
 #include "text.h"
+#include "learner.h"
+
+#if LEARNER_DEMO
+#define MENU_HELPER_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define MENU_HELPER_LEARNER_TEXT(text) (text)
+#endif
 
 #define SCROLL_INDICATOR_PAL_TAG 6
 
@@ -140,7 +147,7 @@ static void PrintMessage(const u8 *str, u16 tile)
     {
         sub_80A3FA0(&gBGTilemapBuffers[1][0], 2, 15, 26, 4, tile);
     }
-    MenuPrintMessageDefaultCoords(str);
+    MenuPrintMessageDefaultCoords(MENU_HELPER_LEARNER_TEXT(str));
 }
 
 static void sub_80F9090(u8 taskId)

@@ -4454,4 +4454,38 @@
   ,"gOtherText_EggSomeTime":{"ru":"Что там внутри?\\nНадо подождать.","de":"Was schlüpft?\\nEs dauert noch.","widths":{},"max_width":144}
   ,"gOtherText_EggSoon":{"ru":"ЯЙЦО двигается.\\nСкоро вылупится.","de":"Das EI bewegt sich\\nSchlüpft bald.","widths":{},"max_width":144}
   ,"gOtherText_EggAbout":{"ru":"Слышны звуки.\\nВот-вот вылупится!","de":"Geräusche im EI.\\nSchlüpft gleich!","widths":{},"max_width":144}
+  ,"OtherText_Use":{"ru":"ПРИМ.","de":"O.K.","widths":{},"max_width":48}
+  ,"OtherText_Toss":{"ru":"ВЫБР.","de":"MÜLL","widths":{},"max_width":48}
+  ,"OtherText_Register":{"ru":"НАЗН.","de":"WÄHLEN","widths":{},"max_width":48}
+  ,"OtherText_Give2":{"ru":"ДАТЬ","de":"GEBEN","widths":{},"max_width":48}
+  ,"OtherText_CheckTag":{"ru":"ЯРЛЫК","de":"PRÜFEN","widths":{},"max_width":48}
+  ,"OtherText_Confirm":{"ru":"ГОТОВ","de":"O.K.","widths":{},"max_width":48}
+  ,"gOtherText_Walk":{"ru":"ИДТИ","de":"LAUFEN","widths":{},"max_width":48}
+  ,"gOtherText_Check":{"ru":"ПРОВ.","de":"PRÜFEN","widths":{},"max_width":48}
+  ,"gOtherText_CancelWithTerminator":{"ru":"ОТМЕНА","de":"ZURÜCK","widths":{},"max_width":80}
+  ,"gOtherText_CloseBag":{"ru":"ЗАКРЫТЬ СУМКУ","de":"BEUTEL ZU","widths":{},"max_width":120}
+  ,"gOtherText_ReturnTo":{"ru":"Вернуться:","de":"Zurück zu","widths":{},"max_width":104}
+  ,"OtherText_TheField3":{"ru":"в мир.","de":"zum Feld.","widths":{},"max_width":104}
+  ,"OtherText_TheBattle":{"ru":"в битву.","de":"zum Kampf.","widths":{},"max_width":104}
+  ,"OtherText_ThePokeList":{"ru":"к команде.","de":"zum TEAM.","widths":{},"max_width":104}
+  ,"OtherText_TheShop":{"ru":"в магазин.","de":"zum Laden.","widths":{},"max_width":104}
+  ,"OtherText_TheField":{"ru":"в мир.","de":"zum Feld.","widths":{},"max_width":104}
+  ,"OtherText_TheField2":{"ru":"в мир.","de":"zum Feld.","widths":{},"max_width":104}
+  ,"OtherText_ThePC":{"ru":"к ПК.","de":"zum PC.","widths":{},"max_width":104}
+  ,"gOtherText_WhatWillYouDo2":{"ru":"Что хотите\\nсделать?","de":"Was möchtest\\ndu tun?","widths":{},"max_width":104}
+  ,"gOtherText_SwitchWhichItem":{"ru":"С чем\\nпоменять?","de":"Welches Item\\nwechseln?","widths":{},"max_width":104}
+  ,"gOtherText_HowManyToToss":{"ru":"Сколько\\nвыбросить?","de":"Wie viele\\nwegwerfen?","widths":{},"max_width":104}
+  ,"gOtherText_HowManyToDeposit":{"ru":"Сколько\\nположить?","de":"Wie viele\\nablegen?","widths":{},"max_width":104}
+  ,"gOtherText_NoRoomForItems":{"ru":"Нет места для\\nпредметов.","de":"Kein Platz\\nfür Items.","widths":{},"max_width":104}
+  ,"gOtherText_CantStoreSomeoneItem":{"ru":"Чужой предмет\\nне хранится\\nна ПК.","de":"Fremdes Item\\nnicht am PC\\nlagerbar.","widths":{},"max_width":104}
+  ,"gOtherText_CantWriteMail":{"ru":"Здесь нельзя\\nписать ПИСЬМО.","de":"Hier kannst du keinen\\nBRIEF schreiben.","widths":{},"max_width":216}
+  ,"gOtherText_TooImportant":{"ru":"Этот предмет слишком\\nважен, чтобы выбросить!","de":"Dieses Item ist zu\\nwichtig zum Wegwerfen!","widths":{},"max_width":216}
+  ,"gOtherText_UsedItem":{"ru":"{PLAYER} использует\\n{STR_VAR_2}.{PAUSE_UNTIL_PRESS}","de":"{PLAYER} setzt\\n{STR_VAR_2} ein.{PAUSE_UNTIL_PRESS}","widths":{"PLAYER":56,"STR_VAR_2":96},"buffer_lengths":{"PLAYER":8,"STR_VAR_2":20},"max_width":216}
+  ,"gOtherText_RepelLingers":{"ru":"Старый РЕПЕЛ всё ещё\\nдействует.{PAUSE_UNTIL_PRESS}","de":"SCHUTZ wirkt noch!{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_UsedFlute":{"ru":"{PLAYER} использует\\n{STR_VAR_2}.\\pДикие ПОКЕМОНЫ подойдут.{PAUSE_UNTIL_PRESS}","de":"{PLAYER} setzt\\n{STR_VAR_2} ein.\\pWilde POKéMON kommen näher.{PAUSE_UNTIL_PRESS}","widths":{"PLAYER":56,"STR_VAR_2":96},"buffer_lengths":{"PLAYER":8,"STR_VAR_2":20},"max_width":216}
+  ,"gOtherText_UsedRepel":{"ru":"{PLAYER} использует\\n{STR_VAR_2}.\\pДикие ПОКЕМОНЫ не подойдут.{PAUSE_UNTIL_PRESS}","de":"{PLAYER} setzt\\n{STR_VAR_2} ein.\\pWilde POKéMON bleiben fern.{PAUSE_UNTIL_PRESS}","widths":{"PLAYER":56,"STR_VAR_2":96},"buffer_lengths":{"PLAYER":8,"STR_VAR_2":20},"max_width":216}
+  ,"gOtherText_BoxIsFull":{"ru":"КОРОБКИ заполнены.{PAUSE_UNTIL_PRESS}","de":"Die BOXEN sind voll.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_WontHaveAnyEffect":{"ru":"Это не даст эффекта.{PAUSE_UNTIL_PRESS}","de":"Es hat keine Wirkung.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_BootedTM":{"ru":"ТМ запущена.","de":"TM wurde gestartet.","widths":{},"max_width":216}
+  ,"gOtherText_BootedHM":{"ru":"НМ запущена.","de":"VM wurde gestartet.","widths":{},"max_width":216}
 }

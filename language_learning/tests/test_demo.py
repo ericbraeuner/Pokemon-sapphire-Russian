@@ -242,8 +242,7 @@ class LessonTests(unittest.TestCase):
             referenced.update(pattern.findall(
                 (demo.ROOT / 'src' / name).read_text(encoding='utf-8')))
         nonlanguage = {
-            'gOtherText_CancelWithTerminator', 'gOtherText_Comma',
-            'gOtherText_FemaleSymbol2', 'gOtherText_FiveQuestions',
+            'gOtherText_Comma', 'gOtherText_FemaleSymbol2', 'gOtherText_FiveQuestions',
             'gOtherText_MaleSymbol2', 'gOtherText_OneDash',
             'gOtherText_TallPlusAndRightArrow', 'gOtherText_Terminator18',
             'gOtherText_ThreeDashes2', 'gOtherText_TwoDashes',
@@ -2195,6 +2194,35 @@ class LessonTests(unittest.TestCase):
                                          'OtherText_Switch', 'OtherText_Info'}:
             self.assertIn(symbol, summary)
         self.assertGreaterEqual(summary.count('SummaryLearnerText('), 40)
+
+    def test_bag_actions_item_messages_and_return_labels_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = {
+            'OtherText_Use', 'OtherText_Toss', 'OtherText_Register',
+            'OtherText_Give2', 'OtherText_CheckTag', 'OtherText_Confirm',
+            'gOtherText_Walk', 'gOtherText_Check',
+            'gOtherText_CancelWithTerminator', 'gOtherText_CloseBag',
+            'gOtherText_ReturnTo', 'OtherText_TheField3',
+            'OtherText_TheBattle', 'OtherText_ThePokeList',
+            'OtherText_TheShop', 'OtherText_TheField',
+            'OtherText_TheField2', 'OtherText_ThePC',
+            'gOtherText_WhatWillYouDo2', 'gOtherText_SwitchWhichItem',
+            'gOtherText_HowManyToToss', 'gOtherText_HowManyToDeposit',
+            'gOtherText_NoRoomForItems', 'gOtherText_CantStoreSomeoneItem',
+            'gOtherText_CantWriteMail', 'gOtherText_TooImportant',
+            'gOtherText_UsedItem', 'gOtherText_RepelLingers',
+            'gOtherText_UsedFlute', 'gOtherText_UsedRepel',
+            'gOtherText_BoxIsFull', 'gOtherText_WontHaveAnyEffect',
+            'gOtherText_BootedTM', 'gOtherText_BootedHM',
+        }
+        self.assertEqual(34, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+        bag = (demo.ROOT / 'src/item_menu.c').read_text(errors='replace')
+        helpers = (demo.ROOT / 'src/menu_helpers.c').read_text(errors='replace')
+        self.assertEqual(2, bag.count('BagLearnerText(gUnknown_0840E740[sReturnLocation])'))
+        self.assertEqual(2, bag.count('BagLearnerText(gMoveNames['))
+        self.assertEqual(2, bag.count('BagItemName(gCurrentBagPocketItemSlots[slot].itemId)'))
+        self.assertIn('MenuPrintMessageDefaultCoords(MENU_HELPER_LEARNER_TEXT(str))', helpers)
 
     def test_main_menu_hall_of_fame_and_region_map_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

@@ -2104,6 +2104,45 @@ class LessonTests(unittest.TestCase):
         self.assertIn([0xFC, 0x11, 0], [clear[i:i + 3] for i in range(len(clear) - 2)])
         self.assertIn([0xFC, 5, 5], [palette[i:i + 3] for i in range(len(palette) - 2)])
 
+        clear_to = field_templates.compile_text('{CLEAR_TO 0x72}Текст', self.russian,
+                                                self.glyphs, 0, {}, 192)
+        pokeblock = field_templates.compile_text('{POKEBLOCK}', self.russian,
+                                                 self.glyphs, 0, {}, 192)
+        self.assertIn([0xFC, 0x13, 0x72],
+                      [clear_to[i:i + 3] for i in range(len(clear_to) - 2)])
+        self.assertIn([0x55, 0x56, 0x57, 0x58, 0x59],
+                      [pokeblock[i:i + 5] for i in range(len(pokeblock) - 4)])
+
+    def test_trainer_card_and_battle_records_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        trainer_symbols = {
+            'gOtherText_FirstHOF', 'gOtherText_LinkCableBattles',
+            'gOtherText_BattleTowerWinRecord', 'gOtherText_ContestRecord',
+            'gOtherText_MixingRecord', 'gOtherText_TradeRecord',
+        }
+        battle_symbols = {
+            'gOtherText_BattleResults', 'gOtherText_WinRecord',
+            'gOtherText_WinLoseDraw', 'gOtherText_BattleTowerResults',
+            'gOtherText_Lv50', 'gOtherText_Lv100', 'gOtherText_WinStreak',
+            'gOtherText_Current', 'gOtherText_Record', 'gOtherText_Prev',
+        }
+        mixing_symbols = {
+            'gOtherText_MixingRecordsWithFriend', 'gOtherText_MixingComplete',
+        }
+        self.assertTrue((trainer_symbols | battle_symbols | mixing_symbols).issubset(templates))
+        trainer = (demo.ROOT / 'src/trainer_card.c').read_text(errors='replace')
+        battle = (demo.ROOT / 'src/battle_records.c').read_text(errors='replace')
+        mixing = (demo.ROOT / 'src/record_mixing.c').read_text(errors='replace')
+        for symbol in trainer_symbols:
+            self.assertIn(f'TRAINER_CARD_LEARNER_TEXT({symbol})', trainer)
+        for symbol in battle_symbols - {'gOtherText_Current', 'gOtherText_Record', 'gOtherText_Prev'}:
+            self.assertIn(f'BATTLE_RECORD_LEARNER_TEXT({symbol})', battle)
+        self.assertIn('BATTLE_RECORD_LEARNER_TEXT(str)', battle)
+        for symbol in ('gOtherText_Current', 'gOtherText_Record', 'gOtherText_Prev'):
+            self.assertIn(symbol, battle)
+        for symbol in mixing_symbols:
+            self.assertIn(f'RECORD_MIXING_LEARNER_TEXT({symbol})', mixing)
+
     def test_main_menu_hall_of_fame_and_region_map_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = {

@@ -7,6 +7,13 @@
 #include "string_util.h"
 #include "strings2.h"
 #include "trainer_card.h"
+#include "learner.h"
+
+#if LEARNER_DEMO
+#define BATTLE_RECORD_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define BATTLE_RECORD_LEARNER_TEXT(text) (text)
+#endif
 
 struct DebugStruct1
 {
@@ -248,7 +255,7 @@ static void PrintLinkBattleWinsLossesDraws(struct LinkBattleRecord *records)
     ConvertIntToDecimalStringN_DigitWidth6(gStringVar1, GetGameStat(GAME_STAT_LINK_BATTLE_WINS), STR_CONV_MODE_RIGHT_ALIGN, 4);
     ConvertIntToDecimalStringN_DigitWidth6(gStringVar2, GetGameStat(GAME_STAT_LINK_BATTLE_LOSSES), STR_CONV_MODE_RIGHT_ALIGN, 4);
     ConvertIntToDecimalStringN_DigitWidth6(gStringVar3, GetGameStat(GAME_STAT_LINK_BATTLE_DRAWS), STR_CONV_MODE_RIGHT_ALIGN, 4);
-    Menu_PrintText(gOtherText_WinRecord, 3, 3);
+    Menu_PrintText(BATTLE_RECORD_LEARNER_TEXT(gOtherText_WinRecord), 3, 3);
 }
 
 static void PrintLinkBattleRecord(struct LinkBattleRecord *record, u8 y)
@@ -290,13 +297,13 @@ void ShowLinkBattleRecords(void)
 {
     s32 i;
     Menu_DrawStdWindowFrame(1, 0, 28, 18);
-    MenuPrint_Centered(gOtherText_BattleResults, 0, 1, 240);
+    MenuPrint_Centered(BATTLE_RECORD_LEARNER_TEXT(gOtherText_BattleResults), 0, 1, 240);
 
     PrintLinkBattleWinsLossesDraws(gSaveBlock1.linkBattleRecords);
 #if ENGLISH
-    Menu_PrintText(gOtherText_WinLoseDraw, 12, 6);
+    Menu_PrintText(BATTLE_RECORD_LEARNER_TEXT(gOtherText_WinLoseDraw), 12, 6);
 #elif GERMAN
-    Menu_PrintTextPixelCoords(gOtherText_WinLoseDraw, 88, 48, 1);
+    Menu_PrintTextPixelCoords(BATTLE_RECORD_LEARNER_TEXT(gOtherText_WinLoseDraw), 88, 48, 1);
 #endif
 
     for (i = 0; i < 5; i++)
@@ -332,11 +339,11 @@ static bool32 sub_8110494(u8 level)
 
 static void PrintWinStreak(const u8 *str, u16 streak, u8 left, u8 top)
 {
-    Menu_PrintText(str, left, top);
+    Menu_PrintText(BATTLE_RECORD_LEARNER_TEXT(str), left, top);
     if (streak > 9999)
         streak = 9999;
     AlignInt1InMenuWindow(gStringVar1, streak, 24, 1);
-    Menu_PrintText(gOtherText_WinStreak, left + 7, top);
+    Menu_PrintText(BATTLE_RECORD_LEARNER_TEXT(gOtherText_WinStreak), left + 7, top);
 }
 
 static void PrintRecordWinStreak(u8 level, u8 left, u8 top)
@@ -368,9 +375,9 @@ void ShowBattleTowerRecords(void)
 {
     u16 i;
     Menu_DrawStdWindowFrame(3, 1, 27, 17);
-    MenuPrint_Centered(gOtherText_BattleTowerResults, 3, 2, 0xC8);
-    Menu_PrintText(gOtherText_Lv50, 5, 6);
-    Menu_PrintText(gOtherText_Lv100, 5, 12);
+    MenuPrint_Centered(BATTLE_RECORD_LEARNER_TEXT(gOtherText_BattleTowerResults), 3, 2, 0xC8);
+    Menu_PrintText(BATTLE_RECORD_LEARNER_TEXT(gOtherText_Lv50), 5, 6);
+    Menu_PrintText(BATTLE_RECORD_LEARNER_TEXT(gOtherText_Lv100), 5, 12);
     for (i = 5; i < 26; i++)
     {
         sub_8071F60(CHAR_HYPHEN, i, 10);

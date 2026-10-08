@@ -5,6 +5,7 @@ import build_demo as demo
 TOKENS = {'PLAYER': 1, 'STR_VAR_1': 2, 'STR_VAR_2': 3, 'STR_VAR_3': 4, 'RIVAL': 6,
           'EVIL_TEAM': 8, 'GOOD_TEAM': 9, 'EVIL_LEADER': 10, 'GOOD_LEADER': 11}
 SOUND_EFFECTS = {'SE_BALL_BOUNCE_1': 56}
+SPECIAL_GLYPHS = {'POKEBLOCK': [0x55, 0x56, 0x57, 0x58, 0x59]}
 
 def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_lengths=None):
     data = [0xFC, 22, 0xFC, 6, font]
@@ -22,6 +23,11 @@ def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_leng
             if not 0 <= amount <= 0xFF:
                 raise ValueError('Clear amount is outside the byte range')
             data.extend([0xFC, 0x11, amount])
+        elif part.startswith('{CLEAR_TO ') and part.endswith('}'):
+            amount = int(part[10:-1], 0)
+            if not 0 <= amount <= 0xFF:
+                raise ValueError('Clear-to amount is outside the byte range')
+            data.extend([0xFC, 0x13, amount])
         elif part.startswith('{PALETTE ') and part.endswith('}'):
             palette = int(part[9:-1], 0)
             if not 0 <= palette <= 0xFF:
@@ -36,6 +42,9 @@ def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_leng
             sound = part[9:-1]
             sound_id = SOUND_EFFECTS[sound]
             data.extend([0xFC, 16, sound_id & 0xFF, sound_id >> 8])
+        elif part in ('{POKEBLOCK}',):
+            data.extend(SPECIAL_GLYPHS[part[1:-1]])
+            width += 40
         elif part.startswith('{'):
             token = part[1:-1]
             data.extend([0xFD, TOKENS[token]])

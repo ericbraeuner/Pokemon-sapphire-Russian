@@ -22,6 +22,13 @@
 #include "strings2.h"
 #include "task.h"
 #include "util.h"
+#include "learner.h"
+
+#if LEARNER_DEMO
+#define TRAINER_CARD_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define TRAINER_CARD_LEARNER_TEXT(text) (text)
+#endif
 
 typedef void (*Callback)(void);
 
@@ -1233,7 +1240,7 @@ static void TrainerCard_Back_PrintName(void)
 static void TrainerCard_Back_PrintHallOfFameTime_Label(void)
 {
     if (gTrainerCardPtr->showHallOfFame != 0)
-        Menu_PrintText(gOtherText_FirstHOF, 3, 5);
+        Menu_PrintText(TRAINER_CARD_LEARNER_TEXT(gOtherText_FirstHOF), 3, 5);
 }
 
 static void TrainerCard_Back_PrintHallOfFameTime(void)
@@ -1255,7 +1262,7 @@ static void TrainerCard_Back_PrintHallOfFameTime(void)
 static void TrainerCard_Back_PrintLinkBattlesLabel(void)
 {
     if (gTrainerCardPtr->showLinkBattleStatus != 0)
-        Menu_PrintText(gOtherText_LinkCableBattles, 3, 7);
+        Menu_PrintText(TRAINER_CARD_LEARNER_TEXT(gOtherText_LinkCableBattles), 3, 7);
 }
 
 static void TrainerCard_Back_PrintLinkBattles(void)
@@ -1275,7 +1282,7 @@ static void TrainerCard_Back_PrintLinkBattles(void)
 static void TrainerCard_Back_PrintBattleTower_Label(void)
 {
     if (gTrainerCardPtr->showBattleTowerStatus != 0)
-        Menu_PrintText(gOtherText_BattleTowerWinRecord, 3, 15);
+        Menu_PrintText(TRAINER_CARD_LEARNER_TEXT(gOtherText_BattleTowerWinRecord), 3, 15);
 }
 
 static void TrainerCard_Back_PrintBattleTower(void)
@@ -1295,7 +1302,7 @@ static void TrainerCard_Back_PrintBattleTower(void)
 static void TrainerCard_Back_PrintLinkContests_Label(void)
 {
     if (gTrainerCardPtr->showContestRecord != 0)
-        Menu_PrintText(gOtherText_ContestRecord, 3, 13);
+        Menu_PrintText(TRAINER_CARD_LEARNER_TEXT(gOtherText_ContestRecord), 3, 13);
 }
 
 static void TrainerCard_Back_PrintLinkContests(void)
@@ -1312,7 +1319,7 @@ static void TrainerCard_Back_PrintLinkContests(void)
 static void TrainerCard_Back_PrintLinkPokeblocks_Label(void)
 {
     if (gTrainerCardPtr->showMixingRecord != 0)
-        Menu_PrintText(gOtherText_MixingRecord, 3, 11);
+        Menu_PrintText(TRAINER_CARD_LEARNER_TEXT(gOtherText_MixingRecord), 3, 11);
 }
 
 static void TrainerCard_Back_PrintLinkPokeblocks(void)
@@ -1329,7 +1336,7 @@ static void TrainerCard_Back_PrintLinkPokeblocks(void)
 static void TrainerCard_Back_PrintPokemonTrades_Label(void)
 {
     if (gTrainerCardPtr->showTradingRecord != 0)
-        Menu_PrintText(gOtherText_TradeRecord, 3, 9);
+        Menu_PrintText(TRAINER_CARD_LEARNER_TEXT(gOtherText_TradeRecord), 3, 9);
 }
 
 static void TrainerCard_Back_PrintPokemonTrades(void)

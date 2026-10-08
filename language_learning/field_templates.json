@@ -4368,4 +4368,22 @@
   ,"gOtherText_Ferry":{"ru":"ПАРОМ","de":"FÄHRE","widths":{},"max_width":96}
   ,"gOtherText_SecretBase":{"ru":"СЕКРЕТНАЯ БАЗА","de":"GEHEIMBASIS","widths":{},"max_width":112}
   ,"gOtherText_Hideout":{"ru":"УКРЫТИЕ","de":"VERSTECK","widths":{},"max_width":96}
+  ,"gOtherText_FirstHOF":{"ru":"ПЕРВЫЙ ЗАЛ СЛАВЫ","de":"ERSTE RUHMESHALLE","widths":{},"max_width":200}
+  ,"gOtherText_LinkCableBattles":{"ru":"БИТВЫ СВЯЗИ П/      ПР/","de":"LINK-KÄMPFE S/      N/","widths":{},"max_width":216}
+  ,"gOtherText_BattleTowerWinRecord":{"ru":"БАШНЯ БИТВ П/{CLEAR_TO 0x72}&{CLEAR_TO 0x98}СЕРИЯ","de":"DUELLTURM S/{CLEAR_TO 0x72}&{CLEAR_TO 0x98}SERIE","widths":{},"max_width":216}
+  ,"gOtherText_ContestRecord":{"ru":"КОНКУРСЫ С ДРУЗЬЯМИ П/","de":"WETTBEWERBE MIT FREUND S/","widths":{},"max_width":216}
+  ,"gOtherText_MixingRecord":{"ru":"{POKEBLOCK} С ДРУЗЬЯМИ","de":"{POKEBLOCK} MIT FREUNDEN","widths":{},"max_width":216}
+  ,"gOtherText_TradeRecord":{"ru":"ОБМЕНЫ ПОКЕМОНОВ","de":"POKéMON-TAUSCH","widths":{},"max_width":216}
+  ,"gOtherText_BattleResults":{"ru":"{PLAYER}: ИТОГИ БИТВ","de":"{PLAYER}: KAMPFERGEBNIS","widths":{"PLAYER":56},"buffer_lengths":{"PLAYER":8},"max_width":240}
+  ,"gOtherText_WinRecord":{"ru":"ВСЕГО П/{STR_VAR_1} ПР/{STR_VAR_2} Н/{STR_VAR_3}","de":"GESAMT S/{STR_VAR_1} N/{STR_VAR_2} U/{STR_VAR_3}","widths":{"STR_VAR_1":32,"STR_VAR_2":32,"STR_VAR_3":32},"buffer_lengths":{"STR_VAR_1":7,"STR_VAR_2":7,"STR_VAR_3":7},"max_width":216}
+  ,"gOtherText_WinLoseDraw":{"ru":"ПОБ.   ПОР.   НИЧ.","de":"SIEG  NIED.  REMIS","widths":{},"max_width":152}
+  ,"gOtherText_BattleTowerResults":{"ru":"{PLAYER}: БАШНЯ БИТВ","de":"{PLAYER}: DUELLTURM","widths":{"PLAYER":56},"buffer_lengths":{"PLAYER":8},"max_width":200}
+  ,"gOtherText_Lv50":{"ru":"УР. 50","de":"LV. 50","widths":{},"max_width":64}
+  ,"gOtherText_Lv100":{"ru":"УР. 100","de":"LV. 100","widths":{},"max_width":64}
+  ,"gOtherText_WinStreak":{"ru":"{STR_VAR_1} ПОБ. ПОДРЯД","de":"{STR_VAR_1} SIEGE IN FOLGE","widths":{"STR_VAR_1":24},"buffer_lengths":{"STR_VAR_1":7},"max_width":144}
+  ,"gOtherText_Current":{"ru":"ТЕКУЩАЯ","de":"AKTUELL","widths":{},"max_width":56}
+  ,"gOtherText_Record":{"ru":"РЕКОРД","de":"REKORD","widths":{},"max_width":56}
+  ,"gOtherText_Prev":{"ru":"ПРОШЛАЯ","de":"VORHER","widths":{},"max_width":56}
+  ,"gOtherText_MixingRecordsWithFriend":{"ru":"Обмен записями...","de":"Datentausch...","widths":{},"max_width":216}
+  ,"gOtherText_MixingComplete":{"ru":"Обмен записями завершён.\\nСпасибо за ожидание.","de":"Datentausch beendet.\\nDanke fürs Warten.","widths":{},"max_width":216}
 }

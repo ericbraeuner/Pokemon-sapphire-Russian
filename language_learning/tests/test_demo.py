@@ -2042,6 +2042,15 @@ class LessonTests(unittest.TestCase):
         self.assertTrue(set(symbols).issubset(templates))
         self.assertTrue(all(templates[symbol]['max_width'] == 88 for symbol in symbols))
 
+    def test_pokenav_buffered_labels_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = ('gOtherText_Ribbons', 'gOtherText_Nature2',
+                   'gOtherText_Number', 'gOtherText_InParty')
+        self.assertTrue(set(symbols).issubset(templates))
+        source = (demo.ROOT / 'src/pokenav.c').read_text()
+        for symbol in symbols:
+            self.assertIn(f'POKENAV_LEARNER_TEXT({symbol})', source)
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

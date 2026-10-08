@@ -28,6 +28,12 @@
 #include "pokenav.h"
 #include "constants/rgb.h"
 
+#if LEARNER_DEMO
+#define POKENAV_LEARNER_TEXT(text) Learner_Translate(text)
+#else
+#define POKENAV_LEARNER_TEXT(text) (text)
+#endif
+
 // Static type declarations
 
 // Static RAM declarations
@@ -1668,7 +1674,7 @@ void sub_80F15A8(void)
 {
     u8 *buffer;
     Menu_EraseWindowRect(12, 13, 27, 16);
-    buffer = StringCopy(gPokenavStructPtr->unk8788, gOtherText_Ribbons);
+    buffer = StringCopy(gPokenavStructPtr->unk8788, POKENAV_LEARNER_TEXT(gOtherText_Ribbons));
     buffer[0] = CHAR_SPACE;
     buffer++;
     buffer = ConvertIntToDecimalStringN(
@@ -1792,7 +1798,7 @@ void sub_80F1934(void)
     if (gPokenavStructPtr->unk893c[gPokenavStructPtr->unk87DC].unk3_14)
     {
         u8 nature = GetNature(&gPlayerParty[sub_8137124(gPokenavStructPtr->unk87DC)]);
-        buffer = StringCopy(buffer, gOtherText_Nature2);
+        buffer = StringCopy(buffer, POKENAV_LEARNER_TEXT(gOtherText_Nature2));
 #if LEARNER_DEMO
         AlignStringInMenuWindow(buffer, Learner_NatureName(nature, gNatureNames[nature]), 87, 0);
 #else
@@ -3643,7 +3649,7 @@ u8 *sub_80F4428(u8 *arg0, u16 arg1, u8 arg2)
 
 u8 *sub_80F443C(u8 *arg0, u16 arg1)
 {
-    return AlignInt1InMenuWindow(StringCopy(arg0, gOtherText_Number), arg1, 56, 1);
+    return AlignInt1InMenuWindow(StringCopy(arg0, POKENAV_LEARNER_TEXT(gOtherText_Number)), arg1, 56, 1);
 }
 
 u8 *sub_80F445C(u8 *arg0, u16 arg1)
@@ -3698,7 +3704,7 @@ void sub_80F45A0(s16 arg0, u8 arg1)
         sub_80F4428(gPokenavStructPtr->unk8829[arg1], arg0, 0);
         box = gPokenavStructPtr->unk893c[arg0].unk1;
         if (box == 14)
-            AlignStringInMenuWindow(gPokenavStructPtr->unk88E9[arg1], gOtherText_InParty, 64, 0);
+            AlignStringInMenuWindow(gPokenavStructPtr->unk88E9[arg1], POKENAV_LEARNER_TEXT(gOtherText_InParty), 64, 0);
         else
             AlignStringInMenuWindow(gPokenavStructPtr->unk88E9[arg1], gPokemonStorage.boxNames[box], 64, 0);
 

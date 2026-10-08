@@ -61,6 +61,8 @@ extern const u8 *const gLearnerUiTranslations[][3];
 extern const u16 gLearnerUiTranslationCount;
 extern const u8 *const gLearnerMapNames[][2];
 extern const u16 gLearnerMapNameCount;
+extern const u8 *const gLearnerTrainerEyeDescriptions[][2];
+extern const u16 gLearnerTrainerEyeDescriptionCount;
 
 const u8 *Learner_Translate(const u8 *text)
 {
@@ -78,6 +80,16 @@ const u8 *Learner_MapName(u16 section, const u8 *fallback)
     u8 language = Learner_GetLanguage();
     if (language >= 1 && language <= 2 && section < gLearnerMapNameCount)
         return gLearnerMapNames[section][language - 1];
+    return fallback;
+}
+
+const u8 *Learner_TrainerEyeDescription(u16 trainerEyesId, const u8 *fallback)
+{
+    u8 language = Learner_GetLanguage();
+    if (language >= 1 && language <= 2
+     && trainerEyesId < gLearnerTrainerEyeDescriptionCount
+     && gLearnerTrainerEyeDescriptions[trainerEyesId][language - 1] != NULL)
+        return gLearnerTrainerEyeDescriptions[trainerEyesId][language - 1];
     return fallback;
 }
 

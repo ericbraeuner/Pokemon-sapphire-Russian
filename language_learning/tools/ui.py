@@ -59,6 +59,8 @@ def generate(russian, latin, glyphs):
     field_parts, field_table = field_templates.generate(russian, latin, glyphs)
     parts.extend(field_parts)
     table.extend(field_table)
+    import trainer_eyes
+    parts.extend(trainer_eyes.generate(russian, latin, glyphs))
     parts.append('\t.balign 4\ngLearnerUiTranslations::\n' + '\n'.join(table))
     parts.append(f'gLearnerUiTranslationCount::\n\t.2byte {len(table)}\n')
     items = demo.validate.load(demo.ROOT / 'language_learning/items.json')

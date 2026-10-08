@@ -1134,6 +1134,7 @@ extern const u8 gLearnerMoneyTilesRu[], gLearnerMoneyTilesDe[];
 extern const u8 gLearnerPartyMiscTilesRu[], gLearnerPartyMiscTilesDe[];
 const u8 *Learner_Translate(const u8 *text);
 const u8 *Learner_MapName(u16 section, const u8 *fallback);
+const u8 *Learner_TrainerEyeDescription(u16 trainerEyesId, const u8 *fallback);
 const u8 *Learner_NatureName(u8 nature, const u8 *fallback);
 void Learner_CopyNatureAbbreviation(u8 nature, const u8 *fallback, u8 *dest, u8 maxChars);
 #endif

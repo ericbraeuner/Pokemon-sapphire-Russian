@@ -1374,7 +1374,12 @@ void LoadTrainerEyesDescriptionLines(void)
     gPokenavStructPtr->unk306 = 0;
     gPokenavStructPtr->unkD15C = 0;
     trainerEyesId = gPokenavStructPtr->trainersEye[gPokenavStructPtr->unk876E].rematchTableIdx;
+#if LEARNER_DEMO
+    gPokenavStructPtr->trainerEyeDescriptionLines[0] =
+        Learner_TrainerEyeDescription(trainerEyesId, gTrainerEyeDescriptions[trainerEyesId]);
+#else
     gPokenavStructPtr->trainerEyeDescriptionLines[0] = gTrainerEyeDescriptions[trainerEyesId];
+#endif
 
     // Find the start of the 3 other lines in the Trainer's Eyes description.
     curChar = gPokenavStructPtr->trainerEyeDescriptionLines[0];

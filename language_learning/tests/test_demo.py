@@ -300,6 +300,14 @@ class LessonTests(unittest.TestCase):
             'TUTOR_LEARNER_TEXT(gMoveNames[sMoveTutorMenu->movesToLearn[i]])', code)
         self.assertIn(
             'TUTOR_LEARNER_TEXT(gTypeNames[gBattleMoves[moveId].type])', code)
+        self.assertIn('categoryName = gContestCategoryNames[gContestMoves[moveId].contestCategory]', code)
+        self.assertIn('categoryName = Learner_Translate(categoryName)', code)
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        categories = {'ContestString_Cool', 'ContestString_Beauty',
+                      'ContestString_Cute', 'ContestString_Smart',
+                      'ContestString_Tough'}
+        self.assertTrue(categories.issubset(templates))
+        self.assertTrue(all(templates[name]['max_width'] == 48 for name in categories))
 
     def test_extended_shared_battle_flows_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/battle.json')

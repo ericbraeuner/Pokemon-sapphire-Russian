@@ -922,9 +922,16 @@ static void DrawMoveSelectionWindow(void)
         else
         {
             u16 moveId = sMoveTutorMenu->movesToLearn[menuChoice];
+            const u8 *categoryName;
 
             if (sMoveTutorMenu->showContestInfo)
-                str = AlignStringInMenuWindow(str, gContestCategoryNames[gContestMoves[moveId].contestCategory], 0x27, 0);
+            {
+                categoryName = gContestCategoryNames[gContestMoves[moveId].contestCategory];
+#if LEARNER_DEMO
+                categoryName = Learner_Translate(categoryName);
+#endif
+                str = AlignStringInMenuWindow(str, categoryName, 0x27, 0);
+            }
             else
                 str = AlignStringInMenuWindow(str, TUTOR_LEARNER_TEXT(gTypeNames[gBattleMoves[moveId].type]), 0x27, 0);
 

@@ -2224,6 +2224,33 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(2, bag.count('BagItemName(gCurrentBagPocketItemSlots[slot].itemId)'))
         self.assertIn('MenuPrintMessageDefaultCoords(MENU_HELPER_LEARNER_TEXT(str))', helpers)
 
+    def test_pokemon_storage_actions_and_messages_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = {
+            'PCText_WithdrawPoke', 'PCText_MovePokeToParty',
+            'PCText_DepositPoke', 'PCText_StorePokeInBox',
+            'PCText_MovePoke', 'PCText_OrganizeBoxesParty',
+            'PCText_SeeYa', 'PCText_ReturnToPrevMenu',
+            'gPCText_OnlyOne', 'gPCText_PartyFull2', 'PCText_ExitBox',
+            'PCText_WhatYouDo', 'PCText_PickATheme',
+            'PCText_PickAWallpaper', 'PCText_IsSelected',
+            'PCText_JumpToWhichBox', 'PCText_DepositInWhichBox',
+            'PCText_WasDeposited', 'PCText_BoxIsFull',
+            'PCText_ReleasePoke', 'PCText_WasReleased', 'PCText_ByeBye',
+            'PCText_MarkPoke', 'PCText_LastPoke', 'PCText_PartyFull',
+            'PCText_HoldingPoke', 'PCText_WhichOneWillTake',
+            'PCText_CantReleaseEgg', 'PCText_ContinueBox',
+            'PCText_CameBack', 'PCText_Worried', 'PCText_Surprise',
+            'PCText_PleaseRemoveMail',
+        }
+        self.assertEqual(33, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+        storage = (demo.ROOT / 'src/pokemon_storage_system.c').read_text(errors='replace')
+        actions = (demo.ROOT / 'src/pokemon_storage_system_2.c').read_text(errors='replace')
+        self.assertGreaterEqual(storage.count('StorageLearnerText(gUnknown_083B600C['), 6)
+        self.assertIn('return Learner_Translate(gPCStorageActionTexts[index].text);', actions)
+        self.assertGreaterEqual(actions.count('StorageActionLearnerText(index)'), 8)
+
     def test_main_menu_hall_of_fame_and_region_map_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = {

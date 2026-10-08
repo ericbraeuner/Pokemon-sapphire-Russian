@@ -16,7 +16,7 @@
 #include "string_util.h"
 #include "pokemon_summary_screen.h"
 #include "mail_data.h"
-#ifdef LEARNER_DEMO
+#if LEARNER_DEMO
 #include "learner.h"
 #endif
 #include "naming_screen.h"
@@ -86,6 +86,16 @@ void sub_8098A38(s8);
 void sub_8098A5C(void);
 void sub_8098A80(void);
 void sub_8098AA8(u8 a0);
+extern const struct StorageAction gPCStorageActionTexts[];
+
+#if LEARNER_DEMO
+static const u8 *StorageActionLearnerText(u8 index)
+{
+    return Learner_Translate(gPCStorageActionTexts[index].text);
+}
+#else
+#define StorageActionLearnerText(index) gPCStorageActionTexts[index].text
+#endif
 
 // .rodata
 
@@ -1841,25 +1851,25 @@ void PrintStorageActionText(u8 index)
     switch (gPCStorageActionTexts[index].format)
     {
     case PC_TEXT_FMT_UNK_02:
-        ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPCStorageActionTexts[index].text);
+        ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, StorageActionLearnerText(index));
         ptr = StringCopy(ptr, gPokemonStorageSystemPtr->unk_11fa);
         break;
     case PC_TEXT_FMT_UNK_05:
-        ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPCStorageActionTexts[index].text);
+        ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, StorageActionLearnerText(index));
         ptr = StringCopy(ptr, gPokemonStorageSystemPtr->unk_26e4);
         break;
     case PC_TEXT_FMT_MON_NAME:
         // {var} + " is selected."
         ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPokemonStorageSystemPtr->unk_11fa);
-        ptr = StringCopy(ptr, gPCStorageActionTexts[index].text);
+        ptr = StringCopy(ptr, StorageActionLearnerText(index));
         break;
     case PC_TEXT_FMT_MON_NAME_2:
         // {var} + " was released."
         ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPokemonStorageSystemPtr->unk_26e4);
 #if ENGLISH
-        ptr = StringCopy(ptr, gPCStorageActionTexts[index].text);
+        ptr = StringCopy(ptr, StorageActionLearnerText(index));
 #elif GERMAN
-        ptr = de_sub_8073174(gPokemonStorageSystemPtr->unk_2694, gPCStorageActionTexts[index].text);
+        ptr = de_sub_8073174(gPokemonStorageSystemPtr->unk_2694, StorageActionLearnerText(index));
 #endif
         break;
     case PC_TEXT_FMT_UNK_03:
@@ -1867,10 +1877,10 @@ void PrintStorageActionText(u8 index)
             const u8 *stringLength;
             const u8 *text;
 
-            text = gPCStorageActionTexts[index].text;
+            text = StorageActionLearnerText(index);
             stringLength = &text[StringLength(text)] + 1;
 
-            ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPCStorageActionTexts[index].text);
+            ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, text);
             ptr = StringCopy(ptr, gPokemonStorageSystemPtr->unk_11fa);
             ptr = StringCopy(ptr, stringLength);
         }
@@ -1880,17 +1890,17 @@ void PrintStorageActionText(u8 index)
             const u8 *stringLength;
             const u8 *text;
 
-            text = gPCStorageActionTexts[index].text;
+            text = StorageActionLearnerText(index);
             stringLength = &text[StringLength(text)] - 1;
 
-            ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPCStorageActionTexts[index].text);
+            ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, text);
             ptr = StringCopy(ptr - 1, gPokemonStorageSystemPtr->unk_26e4);
             ptr = StringCopy(ptr, stringLength);
         }
         break;
     case PC_TEXT_FMT_NORMAL:
     default:
-        ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, gPCStorageActionTexts[index].text);
+        ptr = StringCopy(gPokemonStorageSystemPtr->unk_2694, StorageActionLearnerText(index));
         break;
     }
 

@@ -4488,4 +4488,37 @@
   ,"gOtherText_WontHaveAnyEffect":{"ru":"Это не даст эффекта.{PAUSE_UNTIL_PRESS}","de":"Es hat keine Wirkung.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
   ,"gOtherText_BootedTM":{"ru":"ТМ запущена.","de":"TM wurde gestartet.","widths":{},"max_width":216}
   ,"gOtherText_BootedHM":{"ru":"НМ запущена.","de":"VM wurde gestartet.","widths":{},"max_width":216}
+  ,"PCText_WithdrawPoke":{"ru":"ВЗЯТЬ ПОКЕМОНА","de":"POKéMON NEHMEN","widths":{},"max_width":144}
+  ,"PCText_MovePokeToParty":{"ru":"Взять ПОКЕМОНА из КОРОБКИ\\nв команду.","de":"POKéMON aus einer BOX\\nins Team nehmen.","widths":{},"max_width":216}
+  ,"PCText_DepositPoke":{"ru":"ПОЛОЖИТЬ ПОКЕМОНА","de":"POKéMON ABLEGEN","widths":{},"max_width":144}
+  ,"PCText_StorePokeInBox":{"ru":"Положить ПОКЕМОНА из команды\\nв КОРОБКУ.","de":"POKéMON aus dem Team\\nin einer BOX lagern.","widths":{},"max_width":216}
+  ,"PCText_MovePoke":{"ru":"ПЕРЕМЕСТИТЬ","de":"POKéMON BEWEGEN","widths":{},"max_width":144}
+  ,"PCText_OrganizeBoxesParty":{"ru":"Упорядочить ПОКЕМОНОВ\\nв КОРОБКАХ и команде.","de":"POKéMON in BOXEN und\\nim Team ordnen.","widths":{},"max_width":216}
+  ,"PCText_SeeYa":{"ru":"ВЫЙТИ","de":"TSCHÜSSI!","widths":{},"max_width":144}
+  ,"PCText_ReturnToPrevMenu":{"ru":"Вернуться в прошлое меню.","de":"Zurück zum vorherigen Menü.","widths":{},"max_width":216}
+  ,"gPCText_OnlyOne":{"ru":"В команде только один ПОКЕМОН.","de":"Nur ein POKéMON im Team.","widths":{},"max_width":216}
+  ,"gPCText_PartyFull2":{"ru":"Команда заполнена!","de":"Dein Team ist voll!","widths":{},"max_width":216}
+  ,"PCText_ExitBox":{"ru":"Выйти из КОРОБКИ?","de":"Die BOX verlassen?","widths":{},"max_width":144}
+  ,"PCText_WhatYouDo":{"ru":"Что вы хотите сделать?","de":"Was möchtest du tun?","widths":{},"max_width":176}
+  ,"PCText_PickATheme":{"ru":"Выберите тему.","de":"Wähle ein Motiv.","widths":{},"max_width":144}
+  ,"PCText_PickAWallpaper":{"ru":"Выберите фон.","de":"Wähle Hintergrund.","widths":{},"max_width":152}
+  ,"PCText_IsSelected":{"ru":" выбран.","de":" gewählt.","widths":{},"max_width":80}
+  ,"PCText_JumpToWhichBox":{"ru":"К какой КОРОБКЕ?","de":"Zu welcher BOX?","widths":{},"max_width":144}
+  ,"PCText_DepositInWhichBox":{"ru":"В какую КОРОБКУ?","de":"In welche BOX?","widths":{},"max_width":144}
+  ,"PCText_WasDeposited":{"ru":" помещён.","de":" abgelegt.","widths":{},"max_width":80}
+  ,"PCText_BoxIsFull":{"ru":"КОРОБКА заполнена.","de":"Die BOX ist voll.","widths":{},"max_width":144}
+  ,"PCText_ReleasePoke":{"ru":"Отпустить ПОКЕМОНА?","de":"POKéMON freilassen?","widths":{},"max_width":160}
+  ,"PCText_WasReleased":{"ru":" отпущен.","de":" ist wieder frei.","widths":{},"max_width":136}
+  ,"PCText_ByeBye":{"ru":"Пока, !","de":"Tschüss, !","widths":{},"max_width":80}
+  ,"PCText_MarkPoke":{"ru":"Поставьте метки.","de":"POKéMON markieren.","widths":{},"max_width":152}
+  ,"PCText_LastPoke":{"ru":"Это последний ПОКЕМОН!","de":"Dein letztes POKéMON!","widths":{},"max_width":176}
+  ,"PCText_PartyFull":{"ru":"Команда заполнена!","de":"Team ist voll!","widths":{},"max_width":144}
+  ,"PCText_HoldingPoke":{"ru":"Вы держите ПОКЕМОНА!","de":"Du hältst ein POKéMON!","widths":{},"max_width":176}
+  ,"PCText_WhichOneWillTake":{"ru":"Кого вы возьмёте?","de":"Welches nimmst du?","widths":{},"max_width":144}
+  ,"PCText_CantReleaseEgg":{"ru":"ЯЙЦО нельзя отпустить.","de":"EI nicht freilassen!","widths":{},"max_width":176}
+  ,"PCText_ContinueBox":{"ru":"Продолжить работу?","de":"BOX weiter bearbeiten?","widths":{},"max_width":176}
+  ,"PCText_CameBack":{"ru":" вернулся!","de":" kam zurück!","widths":{},"max_width":96}
+  ,"PCText_Worried":{"ru":"Он беспокоится о вас?","de":"Hat es dich vermisst?","widths":{},"max_width":176}
+  ,"PCText_Surprise":{"ru":"... ... ...!","de":"... ... ...!","widths":{},"max_width":144}
+  ,"PCText_PleaseRemoveMail":{"ru":"Сначала снимите ПИСЬМО.","de":"BRIEF bitte entfernen.","widths":{},"max_width":176}
 }

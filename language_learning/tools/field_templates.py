@@ -51,9 +51,12 @@ def generate(russian, latin, glyphs):
         labels = []
         for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
             label = f'LearnerFieldTemplate_{i}_{tag}'
+            max_width = entry.get('max_width', 192)
+            if tag == 'ru' and symbol.startswith(('gRibbonDescription', 'gGiftRibbonDescription')):
+                max_width = 128
             try:
                 data = compile_text(entry[tag], mapping, glyphs if tag == 'ru' else {}, font,
-                                    entry.get('widths', {}), entry.get('max_width', 192),
+                                    entry.get('widths', {}), max_width,
                                     entry.get('buffer_lengths'))
             except (ValueError, KeyError) as exc:
                 raise ValueError(f'{symbol}/{tag}: {exc}') from exc

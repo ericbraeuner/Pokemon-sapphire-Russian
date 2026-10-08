@@ -1638,8 +1638,8 @@ void sub_80F1494(void)
     {
         gUnknown_020388B4 = gPokenavStructPtr->unkBC91 * 9 + gPokenavStructPtr->unkBC90;
         gUnknown_020388B4 = gPokenavStructPtr->unkBC4C[gUnknown_020388B4];
-        AlignStringInMenuWindow(tileBuffer1, gRibbonDescriptions[gUnknown_020388B4][0], 128, 0);
-        AlignStringInMenuWindow(tileBuffer2, gRibbonDescriptions[gUnknown_020388B4][1], 128, 0);
+        AlignStringInMenuWindow(tileBuffer1, POKENAV_LEARNER_TEXT(gRibbonDescriptions[gUnknown_020388B4][0]), 128, 0);
+        AlignStringInMenuWindow(tileBuffer2, POKENAV_LEARNER_TEXT(gRibbonDescriptions[gUnknown_020388B4][1]), 128, 0);
     }
     else
     {
@@ -1656,8 +1656,8 @@ void sub_80F1494(void)
         if (gUnknown_020388B4)
         {
             gUnknown_020388B4--;
-            AlignStringInMenuWindow(tileBuffer1, gGiftRibbonDescriptions[gUnknown_020388B4][0], 128, 0);
-            AlignStringInMenuWindow(tileBuffer2, gGiftRibbonDescriptions[gUnknown_020388B4][1], 128, 0);
+            AlignStringInMenuWindow(tileBuffer1, POKENAV_LEARNER_TEXT(gGiftRibbonDescriptions[gUnknown_020388B4][0]), 128, 0);
+            AlignStringInMenuWindow(tileBuffer2, POKENAV_LEARNER_TEXT(gGiftRibbonDescriptions[gUnknown_020388B4][1]), 128, 0);
         }
         else
         {

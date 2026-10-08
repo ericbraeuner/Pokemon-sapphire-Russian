@@ -2051,6 +2051,18 @@ class LessonTests(unittest.TestCase):
         for symbol in symbols:
             self.assertIn(f'POKENAV_LEARNER_TEXT({symbol})', source)
 
+    def test_pokenav_ribbon_descriptions_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for name in ('ribbon_descriptions_en.h', 'gift_ribbon_descriptions_en.h'):
+            source = (demo.ROOT / 'src/data/text' / name).read_text()
+            symbols.update(re.findall(r'(?:static )?const u8 (\w+)\[\] = _\(', source))
+        self.assertEqual(66, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+        pokenav = (demo.ROOT / 'src/pokenav.c').read_text()
+        self.assertEqual(2, pokenav.count('POKENAV_LEARNER_TEXT(gRibbonDescriptions['))
+        self.assertEqual(2, pokenav.count('POKENAV_LEARNER_TEXT(gGiftRibbonDescriptions['))
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

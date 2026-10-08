@@ -6,7 +6,7 @@
 #define SummaryCopyEnigmaItemName Learner_CopyItemName
 #define SummaryCopyItemName Learner_CopyItemName
 #define SummaryMapName(section, text) Learner_MapName(section, text)
-static const u8 *SummaryNatureText(u8 nature);
+#define SummaryNatureText(nature) Learner_NatureName((nature), gNatureNames[(nature)])
 static const u8 *SummaryAbilityName(u8 ability);
 static const u8 *SummaryAbilityDescription(u8 ability);
 #else
@@ -2116,39 +2116,6 @@ static void SummaryScreen_PrintPokemonInfoLabels(void)
 }
 
 #if LEARNER_DEMO
-static const u8 *SummaryNatureText(u8 nature)
-{
-    switch (nature)
-    {
-    case NATURE_HARDY: return LEARNER_UI(Learner_GetLanguage(), NatureHardy);
-    case NATURE_LONELY: return LEARNER_UI(Learner_GetLanguage(), NatureLonely);
-    case NATURE_BRAVE: return LEARNER_UI(Learner_GetLanguage(), NatureBrave);
-    case NATURE_ADAMANT: return LEARNER_UI(Learner_GetLanguage(), NatureAdamant);
-    case NATURE_NAUGHTY: return LEARNER_UI(Learner_GetLanguage(), NatureNaughty);
-    case NATURE_BOLD: return LEARNER_UI(Learner_GetLanguage(), NatureBold);
-    case NATURE_DOCILE: return LEARNER_UI(Learner_GetLanguage(), NatureDocile);
-    case NATURE_RELAXED: return LEARNER_UI(Learner_GetLanguage(), NatureRelaxed);
-    case NATURE_IMPISH: return LEARNER_UI(Learner_GetLanguage(), NatureImpish);
-    case NATURE_LAX: return LEARNER_UI(Learner_GetLanguage(), NatureLax);
-    case NATURE_TIMID: return LEARNER_UI(Learner_GetLanguage(), NatureTimid);
-    case NATURE_HASTY: return LEARNER_UI(Learner_GetLanguage(), NatureHasty);
-    case NATURE_SERIOUS: return LEARNER_UI(Learner_GetLanguage(), NatureSerious);
-    case NATURE_JOLLY: return LEARNER_UI(Learner_GetLanguage(), NatureJolly);
-    case NATURE_NAIVE: return LEARNER_UI(Learner_GetLanguage(), NatureNaive);
-    case NATURE_MODEST: return LEARNER_UI(Learner_GetLanguage(), NatureModest);
-    case NATURE_MILD: return LEARNER_UI(Learner_GetLanguage(), NatureMild);
-    case NATURE_QUIET: return LEARNER_UI(Learner_GetLanguage(), NatureQuiet);
-    case NATURE_BASHFUL: return LEARNER_UI(Learner_GetLanguage(), NatureBashful);
-    case NATURE_RASH: return LEARNER_UI(Learner_GetLanguage(), NatureRash);
-    case NATURE_CALM: return LEARNER_UI(Learner_GetLanguage(), NatureCalm);
-    case NATURE_GENTLE: return LEARNER_UI(Learner_GetLanguage(), NatureGentle);
-    case NATURE_SASSY: return LEARNER_UI(Learner_GetLanguage(), NatureSassy);
-    case NATURE_CAREFUL: return LEARNER_UI(Learner_GetLanguage(), NatureCareful);
-    case NATURE_QUIRKY: return LEARNER_UI(Learner_GetLanguage(), NatureQuirky);
-    default: return gNatureNames[nature];
-    }
-}
-
 static const u8 *SummaryAbilityName(u8 ability)
 {
     switch (ability)

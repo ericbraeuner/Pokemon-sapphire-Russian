@@ -81,6 +81,42 @@ const u8 *Learner_MapName(u16 section, const u8 *fallback)
     return fallback;
 }
 
+static const u8 *const sLearnerNatureNames[][2] = {
+    {LearnerUI_ru_NatureHardy, LearnerUI_de_NatureHardy},
+    {LearnerUI_ru_NatureLonely, LearnerUI_de_NatureLonely},
+    {LearnerUI_ru_NatureBrave, LearnerUI_de_NatureBrave},
+    {LearnerUI_ru_NatureAdamant, LearnerUI_de_NatureAdamant},
+    {LearnerUI_ru_NatureNaughty, LearnerUI_de_NatureNaughty},
+    {LearnerUI_ru_NatureBold, LearnerUI_de_NatureBold},
+    {LearnerUI_ru_NatureDocile, LearnerUI_de_NatureDocile},
+    {LearnerUI_ru_NatureRelaxed, LearnerUI_de_NatureRelaxed},
+    {LearnerUI_ru_NatureImpish, LearnerUI_de_NatureImpish},
+    {LearnerUI_ru_NatureLax, LearnerUI_de_NatureLax},
+    {LearnerUI_ru_NatureTimid, LearnerUI_de_NatureTimid},
+    {LearnerUI_ru_NatureHasty, LearnerUI_de_NatureHasty},
+    {LearnerUI_ru_NatureSerious, LearnerUI_de_NatureSerious},
+    {LearnerUI_ru_NatureJolly, LearnerUI_de_NatureJolly},
+    {LearnerUI_ru_NatureNaive, LearnerUI_de_NatureNaive},
+    {LearnerUI_ru_NatureModest, LearnerUI_de_NatureModest},
+    {LearnerUI_ru_NatureMild, LearnerUI_de_NatureMild},
+    {LearnerUI_ru_NatureQuiet, LearnerUI_de_NatureQuiet},
+    {LearnerUI_ru_NatureBashful, LearnerUI_de_NatureBashful},
+    {LearnerUI_ru_NatureRash, LearnerUI_de_NatureRash},
+    {LearnerUI_ru_NatureCalm, LearnerUI_de_NatureCalm},
+    {LearnerUI_ru_NatureGentle, LearnerUI_de_NatureGentle},
+    {LearnerUI_ru_NatureSassy, LearnerUI_de_NatureSassy},
+    {LearnerUI_ru_NatureCareful, LearnerUI_de_NatureCareful},
+    {LearnerUI_ru_NatureQuirky, LearnerUI_de_NatureQuirky},
+};
+
+const u8 *Learner_NatureName(u8 nature, const u8 *fallback)
+{
+    u8 language = Learner_GetLanguage();
+    if (language >= 1 && language <= 2 && nature < ARRAY_COUNT(sLearnerNatureNames))
+        return sLearnerNatureNames[nature][language - 1];
+    return fallback;
+}
+
 static void Learner_DrawSetup(const u8 *title, const struct MenuAction *items, u8 count, u8 cursor)
 {
     Menu_EraseScreen();

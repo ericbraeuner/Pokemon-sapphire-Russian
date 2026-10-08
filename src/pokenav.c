@@ -1,6 +1,7 @@
 
 // Includes
 #include "global.h"
+#include "learner.h"
 #include "ewram.h"
 #include "main.h"
 #include "palette.h"
@@ -1792,7 +1793,11 @@ void sub_80F1934(void)
     {
         u8 nature = GetNature(&gPlayerParty[sub_8137124(gPokenavStructPtr->unk87DC)]);
         buffer = StringCopy(buffer, gOtherText_Nature2);
+#if LEARNER_DEMO
+        AlignStringInMenuWindow(buffer, Learner_NatureName(nature, gNatureNames[nature]), 87, 0);
+#else
         AlignStringInMenuWindow(buffer, gNatureNames[nature], 87, 0);
+#endif
     }
     else
     {

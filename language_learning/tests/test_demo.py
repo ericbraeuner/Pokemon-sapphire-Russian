@@ -309,6 +309,15 @@ class LessonTests(unittest.TestCase):
         self.assertTrue(categories.issubset(templates))
         self.assertTrue(all(templates[name]['max_width'] == 48 for name in categories))
 
+    def test_pokenav_uses_shared_bilingual_nature_names(self):
+        intro = (demo.ROOT / 'src/learner_intro.inc').read_text(encoding='utf-8')
+        self.assertEqual(25, len(re.findall(r'\{LearnerUI_ru_Nature[A-Za-z]+, LearnerUI_de_Nature[A-Za-z]+\}', intro)))
+        self.assertIn('const u8 *Learner_NatureName', intro)
+        pokenav = (demo.ROOT / 'src/pokenav.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_NatureName(nature, gNatureNames[nature])', pokenav)
+        summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text(encoding='utf-8')
+        self.assertIn('#define SummaryNatureText(nature) Learner_NatureName', summary)
+
     def test_extended_shared_battle_flows_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/battle.json')
         self.assertGreaterEqual(len(entries), 456)
@@ -411,7 +420,9 @@ class LessonTests(unittest.TestCase):
         )
         self.assertIn('#define SummaryCopyItemName CopyItemName', summary)
         self.assertEqual(3, summary.count('SummaryLearnerText(gMoveNames[move])'))
-        self.assertEqual(25, summary.count('case NATURE_'))
+        self.assertIn('#define SummaryNatureText(nature) Learner_NatureName', summary)
+        intro = (demo.ROOT / 'src/learner_intro.inc').read_text(encoding='utf-8')
+        self.assertEqual(25, intro.count('{LearnerUI_ru_Nature'))
         self.assertEqual(154, summary.count('case ABILITY_'))
         self.assertEqual(3, summary.count('SummaryMapName(locationMet, gStringVar1)'))
         pokemon_menu = (demo.ROOT / 'src/pokemon_menu.c').read_text(encoding='utf-8')

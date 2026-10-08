@@ -741,6 +741,7 @@ void PrintBadgeCount(void)
 
 #if LEARNER_DEMO
 #include "learner_intro.inc"
+// Shared learner lookups above are linked from summary and PokéNav screens.
 #endif
 
 static void Task_NewGameSpeech1(u8 taskId)

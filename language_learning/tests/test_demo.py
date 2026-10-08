@@ -2080,6 +2080,30 @@ class LessonTests(unittest.TestCase):
         pokenav = (demo.ROOT / 'src/pokenav.c').read_text()
         self.assertIn('Learner_TrainerEyeDescription(trainerEyesId', pokenav)
 
+    def test_pokenav_help_and_trainer_headings_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        pokenav_before = (demo.ROOT / 'src/pokenav_before.c').read_text()
+        help_symbols = set(re.findall(r'^\s+(PCText_\w+),$', pokenav_before, re.MULTILINE))
+        heading_symbols = {
+            'gOtherText_NumberRegistered', 'gOtherText_NumberBattles',
+            'gOtherText_Strategy', 'gOtherText_TrainersPokemon',
+            'gOtherText_SelfIntroduction',
+        }
+        self.assertEqual(16, len(help_symbols))
+        self.assertTrue((help_symbols | heading_symbols).issubset(templates))
+        source = (demo.ROOT / 'src/pokenav.c').read_text()
+        self.assertIn('POKENAV_LEARNER_TEXT(pcText)', source)
+        for symbol in heading_symbols:
+            self.assertIn(f'POKENAV_LEARNER_TEXT({symbol})', source)
+
+    def test_pokenav_field_controls_compile(self):
+        clear = field_templates.compile_text('{CLEAR 0}Текст', self.russian,
+                                             self.glyphs, 0, {}, 192)
+        palette = field_templates.compile_text('{PALETTE 5}Текст', self.russian,
+                                               self.glyphs, 0, {}, 192)
+        self.assertIn([0xFC, 0x11, 0], [clear[i:i + 3] for i in range(len(clear) - 2)])
+        self.assertIn([0xFC, 5, 5], [palette[i:i + 3] for i in range(len(palette) - 2)])
+
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():
             data = demo.encode_glyph(rows)

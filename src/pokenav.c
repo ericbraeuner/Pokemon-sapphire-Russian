@@ -395,7 +395,7 @@ void sub_80EF428(u8 a, u8 b)
     }
 
     tileBuffer = gUnknown_083DFEC8;
-    AlignStringInMenuWindow(&tileBuffer[0x800], pcText, 0xC0, 2);
+    AlignStringInMenuWindow(&tileBuffer[0x800], POKENAV_LEARNER_TEXT(pcText), 0xC0, 2);
     Menu_PrintText(&tileBuffer[0x800], 3, 17);
 }
 
@@ -1182,7 +1182,7 @@ void sub_80F081C(u8 arg0)
     {
     case 0:
     case 1:
-        MenuPrint_RightAligned(gOtherText_NumberRegistered, 10, 9);
+        MenuPrint_RightAligned(POKENAV_LEARNER_TEXT(gOtherText_NumberRegistered), 10, 9);
         if (arg0 != 0)
             break;
         // fall through
@@ -1197,7 +1197,7 @@ void sub_80F081C(u8 arg0)
             break;
         // fall through
     case 3:
-        MenuPrint_RightAligned(gOtherText_NumberBattles, 10, 13);
+        MenuPrint_RightAligned(POKENAV_LEARNER_TEXT(gOtherText_NumberBattles), 10, 13);
         if (arg0 != 0)
             break;
         // fall through
@@ -1410,21 +1410,21 @@ bool8 sub_80F0D5C(void)
     default:
         return FALSE;
     case 0:
-        Menu_PrintTextPixelCoords(gOtherText_Strategy, 0x61, r5 * 8, 0);
+        Menu_PrintTextPixelCoords(POKENAV_LEARNER_TEXT(gOtherText_Strategy), 0x61, r5 * 8, 0);
         break;
     case 1:
         AlignStringInMenuWindow(gPokenavStructPtr->unk8788, gPokenavStructPtr->trainerEyeDescriptionLines[0], 0x88, 0);
         Menu_PrintTextPixelCoords(gPokenavStructPtr->unk8788, 0x61, r5 * 8, 0);
         break;
     case 2:
-        Menu_PrintTextPixelCoords(gOtherText_TrainersPokemon, 0x61, r5 * 8, 0);
+        Menu_PrintTextPixelCoords(POKENAV_LEARNER_TEXT(gOtherText_TrainersPokemon), 0x61, r5 * 8, 0);
         break;
     case 3:
         AlignStringInMenuWindow(gPokenavStructPtr->unk8788, gPokenavStructPtr->trainerEyeDescriptionLines[1], 0x88, 0);
         Menu_PrintTextPixelCoords(gPokenavStructPtr->unk8788, 0x61, r5 * 8, 0);
         break;
     case 4:
-        Menu_PrintTextPixelCoords(gOtherText_SelfIntroduction, 0x61, r5 * 8, 0);
+        Menu_PrintTextPixelCoords(POKENAV_LEARNER_TEXT(gOtherText_SelfIntroduction), 0x61, r5 * 8, 0);
         break;
     case 5:
         AlignStringInMenuWindow(gPokenavStructPtr->unk8788, gPokenavStructPtr->trainerEyeDescriptionLines[2], 0x88, 0);

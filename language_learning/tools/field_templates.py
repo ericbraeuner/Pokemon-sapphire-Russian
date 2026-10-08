@@ -17,6 +17,16 @@ def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_leng
             data.extend([0xFE] if part == r'\n' else [0xFC, 6, 3, 0xFB, 0xFC, 6, font])
         elif part == '{PAUSE_UNTIL_PRESS}':
             data.extend([0xFC, 9])
+        elif part.startswith('{CLEAR ') and part.endswith('}'):
+            amount = int(part[7:-1], 0)
+            if not 0 <= amount <= 0xFF:
+                raise ValueError('Clear amount is outside the byte range')
+            data.extend([0xFC, 0x11, amount])
+        elif part.startswith('{PALETTE ') and part.endswith('}'):
+            palette = int(part[9:-1], 0)
+            if not 0 <= palette <= 0xFF:
+                raise ValueError('Palette is outside the byte range')
+            data.extend([0xFC, 5, palette])
         elif part.startswith('{PAUSE ') and part.endswith('}'):
             duration = int(part[7:-1], 0)
             if not 0 <= duration <= 0xFF:
@@ -54,6 +64,8 @@ def generate(russian, latin, glyphs):
             max_width = entry.get('max_width', 192)
             if tag == 'ru' and symbol.startswith(('gRibbonDescription', 'gGiftRibbonDescription')):
                 max_width = 128
+            if tag == 'ru' and symbol.startswith('PCText_'):
+                max_width = 192
             try:
                 data = compile_text(entry[tag], mapping, glyphs if tag == 'ru' else {}, font,
                                     entry.get('widths', {}), max_width,

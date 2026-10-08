@@ -117,6 +117,25 @@ const u8 *Learner_NatureName(u8 nature, const u8 *fallback)
     return fallback;
 }
 
+void Learner_CopyNatureAbbreviation(u8 nature, const u8 *fallback, u8 *dest, u8 maxChars)
+{
+    const u8 *source = Learner_NatureName(nature, fallback);
+    u8 language = Learner_GetLanguage();
+    u8 count = 0;
+
+    // Generated learner strings begin with color and font controls. The
+    // Safari healthbox has its own styling and room for only five glyphs.
+    if (language >= 1 && language <= 2
+     && source[0] == EXT_CTRL_CODE_BEGIN && source[2] == EXT_CTRL_CODE_BEGIN)
+        source += 5;
+    while (*source != EOS && *source != EXT_CTRL_CODE_BEGIN && count < maxChars)
+    {
+        *dest++ = *source++;
+        count++;
+    }
+    *dest = EOS;
+}
+
 static void Learner_DrawSetup(const u8 *title, const struct MenuAction *items, u8 count, u8 cursor)
 {
     Menu_EraseScreen();

@@ -962,7 +962,11 @@ void PrintSafariMonInfo(u8 a, struct Pokemon *pkmn)
     barFontGfx = &eBattleInterfaceGfxBuffer[0x520 + GetBattlerPosition(gSprites[a].data[6]) * 0x180];
     var = 5;
     nature = GetNature(pkmn);
+#if LEARNER_DEMO
+    Learner_CopyNatureAbbreviation(nature, gNatureNames[nature], text + 6, var);
+#else
     StringCopy(text + 6, gNatureNames[nature]);
+#endif
     RenderTextHandleBold(barFontGfx, text);
 
     for (j = 6, i = 0; i < var; i++, j++)

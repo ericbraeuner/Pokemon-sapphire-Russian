@@ -317,6 +317,12 @@ class LessonTests(unittest.TestCase):
         self.assertIn('Learner_NatureName(nature, gNatureNames[nature])', pokenav)
         summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text(encoding='utf-8')
         self.assertIn('#define SummaryNatureText(nature) Learner_NatureName', summary)
+        battle_ui = (demo.ROOT / 'src/battle_interface.c').read_text(encoding='utf-8')
+        self.assertIn(
+            'Learner_CopyNatureAbbreviation(nature, gNatureNames[nature], text + 6, var)',
+            battle_ui)
+        self.assertIn('count < maxChars', intro)
+        self.assertIn('*dest = EOS;', intro)
 
     def test_extended_shared_battle_flows_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/battle.json')

@@ -2064,19 +2064,19 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(2, pokenav.count('POKENAV_LEARNER_TEXT(gRibbonDescriptions['))
         self.assertEqual(2, pokenav.count('POKENAV_LEARNER_TEXT(gGiftRibbonDescriptions['))
 
-    def test_first_trainer_eyes_batch_is_bilingual(self):
+    def test_trainer_eyes_catalogue_is_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/trainer_eyes.json')
         order, english = trainer_eyes.load_source('trainer_eye_descriptions_en.h')
         german_order, german = trainer_eyes.load_source('trainer_eye_descriptions_de.h')
         self.assertEqual(69, len(order))
         self.assertEqual(order, german_order)
-        self.assertEqual(set(order[:48]), set(entries))
+        self.assertEqual(set(order), set(entries))
         self.assertTrue(all(len(lines) == 4 for lines in entries.values()))
         self.assertTrue(all(len(lines) == 4 for lines in english.values()))
         self.assertTrue(all(len(lines) == 4 for lines in german.values()))
         assembly = '\n'.join(trainer_eyes.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerTrainerEyeDescriptionCount::\n\t.2byte 69', assembly)
-        self.assertEqual(21, assembly.count('\t.4byte 0, 0'))
+        self.assertNotIn('\t.4byte 0, 0', assembly)
         pokenav = (demo.ROOT / 'src/pokenav.c').read_text()
         self.assertIn('Learner_TrainerEyeDescription(trainerEyesId', pokenav)
 

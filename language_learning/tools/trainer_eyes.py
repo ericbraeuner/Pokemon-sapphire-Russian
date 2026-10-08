@@ -13,7 +13,8 @@ def load_source(name):
     result = {}
     order = []
     for symbol, body in SOURCE_PATTERN.findall(source):
-        lines = [line.removesuffix('$') for line in re.findall(r'"([^"]*)"', body)]
+        lines = [line.removesuffix('$').replace('{POKEBLOCK}', 'POKéBLOCK')
+                 for line in re.findall(r'"([^"]*)"', body)]
         if len(lines) != 4:
             raise ValueError(f'{symbol} does not contain four Trainer Eyes lines')
         order.append(symbol)

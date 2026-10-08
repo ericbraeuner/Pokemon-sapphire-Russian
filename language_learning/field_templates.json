@@ -4208,4 +4208,25 @@
   ,"Route134_Text_1C3319":{"ru":"Свирепое здешнее течение\\nделает нас ещё сильнее.","de":"Die wilde Strömung hier\\nmacht uns stärker als\\nje zuvor.","widths":{},"max_width":192}
   ,"Route134_Text_1C335C":{"ru":"Признаю поражение.","de":"Ich gestehe meine\\nNiederlage ein.","widths":{},"max_width":192}
   ,"Route134_Text_1C336E":{"ru":"Мы вернёмся тренироваться у\\nМетеоритного водопада. Если\\nхочешь, приходи тоже. Ты\\pточно станешь крепче!","de":"Wir trainieren wieder\\nbei den Meteorfällen.\\nWenn du willst, komm\\pauch. Das macht dich\\nsicher stärker!","widths":{},"max_width":192}
+  ,"gSaveText_WouldYouLikeToSave":{"ru":"Сохранить игру?","de":"Möchtest du das Spiel\\nspeichern?","widths":{},"max_width":192}
+  ,"gSaveText_ThereIsAlreadyAFile":{"ru":"Сохранение уже существует.\\nПерезаписать его?","de":"Es gibt bereits einen\\nSpielstand. Soll er\\nüberschrieben werden?","widths":{},"max_width":192}
+  ,"gSaveText_DontTurnOff":{"ru":"СОХРАНЕНИЕ... Не выключай\\nпитание.","de":"SPEICHERN... Schalte\\ndas Gerät nicht aus.","widths":{},"max_width":192}
+  ,"BattleTower_BattleRoom_Text_1C6CE1":{"ru":"СОХРАНЕНИЕ... Не выключай\\nпитание.","de":"SPEICHERN... Schalte\\ndas Gerät nicht aus.","widths":{},"max_width":192}
+  ,"gSaveText_PlayerSavedTheGame":{"ru":"{PLAYER} сохраняет игру.","de":"{PLAYER} hat das Spiel\\ngespeichert.","widths":{"PLAYER":72},"max_width":192,"buffer_lengths":{"PLAYER":7}}
+  ,"BattleTower_BattleRoom_Text_1C6D05":{"ru":"{PLAYER} сохраняет игру.","de":"{PLAYER} hat das Spiel\\ngespeichert.","widths":{"PLAYER":72},"max_width":192,"buffer_lengths":{"PLAYER":7}}
+  ,"gSaveText_ThereIsADifferentFile":{"ru":"Сохранена другая игра.\\nПерезаписать её?","de":"Ein anderer Spielstand\\nist gespeichert. Soll\\ner überschrieben\\pwerden?","widths":{},"max_width":192}
+  ,"Text_BootUpPC":{"ru":"{PLAYER} включает ПК.","de":"{PLAYER} schaltet den\\nPC ein.","widths":{"PLAYER":72},"max_width":192,"buffer_lengths":{"PLAYER":7}}
+  ,"Text_WhichPCShouldBeAccessed":{"ru":"К какому ПК обратиться?","de":"Auf welchen PC möchtest\\ndu zugreifen?","widths":{},"max_width":192}
+  ,"Text_AccessedSomeonesPC":{"ru":"Открыт чужой ПК.","de":"Auf einen fremden PC\\nwurde zugegriffen.","widths":{},"max_width":192}
+  ,"Text_StorageSystemOpened":{"ru":"Открыта система хранения\\nпокемонов.","de":"Das\\nPokémon-Lagerungssystem\\nwurde geöffnet.","widths":{},"max_width":192}
+  ,"Text_AccessedPlayersPC":{"ru":"Открыт ПК игрока\\n{PLAYER}.","de":"Auf den PC von\\n{PLAYER} wurde\\nzugegriffen.","widths":{"PLAYER":72},"max_width":192,"buffer_lengths":{"PLAYER":7}}
+  ,"Text_AccessedLanettesPC":{"ru":"Открыт ПК Ланетт.","de":"Auf Lanettes PC wurde\\nzugegriffen.","widths":{},"max_width":192}
+  ,"gText_NurseJoy_Welcome":{"ru":"Здравствуйте! Добро\\nпожаловать в Центр\\nПокемонов. Мы полностью\\pвосстановим ваших уставших\\nпокемонов. Хотите отдохнуть?","de":"Hallo und willkommen im\\nPokémon-Center. Wir\\nheilen deine müden\\pPokémon vollständig.\\nMöchtest du sie\\nausruhen lassen?","widths":{},"max_width":192}
+  ,"gText_NurseJoy_WeHopeToSeeYouAgain":{"ru":"Будем рады видеть вас\\nснова!","de":"Wir hoffen, dich bald\\nwiederzusehen!","widths":{},"max_width":192}
+  ,"gText_NurseJoy_ThankYouForWaiting":{"ru":"Спасибо за ожидание. Ваши\\nпокемоны полностью здоровы.","de":"Danke fürs Warten.\\nDeine Pokémon sind\\nwieder völlig gesund.","widths":{},"max_width":192}
+  ,"Text_HowMayIServeYou":{"ru":"Добро пожаловать! Чем могу\\nпомочь?","de":"Willkommen! Wie kann\\nich dir helfen?","widths":{},"max_width":192}
+  ,"Text_PleaseComeAgain":{"ru":"Приходите ещё!","de":"Komm bald wieder!","widths":{},"max_width":192}
+  ,"Text_PlayerWhatCanIDoForYou":{"ru":"{PLAYER}, добро\\nпожаловать! Чем могу помочь?","de":"{PLAYER}, willkommen!\\nWas kann ich für dich\\ntun?","widths":{"PLAYER":72},"max_width":192,"buffer_lengths":{"PLAYER":7}}
+  ,"Text_TheBagIsFull":{"ru":"Сумка полна...","de":"Der Beutel ist voll...","widths":{},"max_width":192}
+  ,"Text_TooBadBagIsFull":{"ru":"Очень жаль! Сумка полна...","de":"Wie schade! Der Beutel\\nist voll...","widths":{},"max_width":192}
 }

@@ -254,6 +254,10 @@ class LessonTests(unittest.TestCase):
         parts, table = battle.generate(self.russian, self.latin)
         self.assertTrue(parts)
         self.assertTrue(any('gMoveNames + 13 * MOVE_SCRATCH' in row for row in table))
+        ability_rows = [row for row in table if 'gAbilityNames + 13 * ABILITY_' in row]
+        self.assertEqual(77, len(ability_rows))
+        self.assertTrue(any('ABILITY_OVERGROW' in row for row in ability_rows))
+        self.assertTrue(any('ABILITY_AIR_LOCK' in row for row in ability_rows))
         names = validate.load(demo.ROOT / 'language_learning/battle_names.json')
         moves = {key for key in names if key.startswith('MOVE_')}
         move_constants = set(re.findall(
@@ -280,6 +284,9 @@ class LessonTests(unittest.TestCase):
         code = (demo.ROOT / 'src/battle_message.c').read_text(encoding='utf-8')
         self.assertIn('src = LEARNER_BATTLE(src);', code)
         self.assertIn('toCpy = LEARNER_BATTLE(toCpy);', code)
+        self.assertIn('LEARNER_BATTLE(gMoveNames[T1_READ_16', code)
+        self.assertIn('LEARNER_BATTLE(gTypeNames[src[srcID + 1]])', code)
+        self.assertIn('LEARNER_BATTLE(gAbilityNames[src[srcID + 1]])', code)
         self.assertIn('dst[dstID++] = Learner_GetLanguage() == 1 ? 0 : 3;', code)
         # Never place longer translated names into the engine's 16-byte buffers.
         self.assertNotIn('StringCopy(gBattleTextBuff2, LEARNER_BATTLE', code)

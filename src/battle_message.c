@@ -890,11 +890,11 @@ void ExpandBattleTextBuffPlaceholders(u8* src, u8* dst)
             srcID += src[srcID + 1] + 3;
             break;
         case B_BUFF_MOVE: // move name
-            StringAppend(dst, gMoveNames[T1_READ_16(&src[srcID + 1])]);
+            StringAppend(dst, LEARNER_BATTLE(gMoveNames[T1_READ_16(&src[srcID + 1])]));
             srcID += 3;
             break;
         case B_BUFF_TYPE: // type name
-            StringAppend(dst, gTypeNames[src[srcID + 1]]);
+            StringAppend(dst, LEARNER_BATTLE(gTypeNames[src[srcID + 1]]));
             srcID += 2;
             break;
         case B_BUFF_MON_NICK_WITH_PREFIX: // poke nick with prefix
@@ -954,7 +954,7 @@ void ExpandBattleTextBuffPlaceholders(u8* src, u8* dst)
             srcID += 2;
             break;
         case B_BUFF_ABILITY: // ability names
-            StringAppend(dst, gAbilityNames[src[srcID + 1]]);
+            StringAppend(dst, LEARNER_BATTLE(gAbilityNames[src[srcID + 1]]));
             srcID += 2;
             break;
         case B_BUFF_ITEM: // item name

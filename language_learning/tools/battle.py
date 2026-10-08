@@ -86,5 +86,23 @@ def generate(russian, latin):
             parts.append(demo.assembly_bytes(label, encode(entry[tag], mapping, font)))
             labels.append(label)
         table.append('\t.4byte ' + ', '.join([pointer] + labels))
-    parts.insert(0, '#include "constants/moves.h"\n#include "constants/pokemon.h"\n')
+    ui = demo.validate.load(demo.ROOT / 'language_learning/ui.json')
+    summary = (demo.ROOT / 'src/pokemon_summary_screen.c').read_text(encoding='utf-8')
+    ability_function = summary.split('static const u8 *SummaryAbilityName(u8 ability)', 2)[2]
+    ability_function = ability_function.split('static const u8 *SummaryAbilityDescription', 1)[0]
+    abilities = re.findall(
+        r'case (ABILITY_[A-Z0-9_]+): return LEARNER_UI\(Learner_GetLanguage\(\), ([A-Za-z]+)\);',
+        ability_function)
+    if len(abilities) != 77:
+        raise ValueError('Summary ability catalogue is incomplete')
+    for index, (symbol, key) in enumerate(abilities):
+        if key not in ui:
+            raise ValueError(f'Missing bilingual ability name: {key}')
+        labels = []
+        for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
+            label = f'LearnerAbilityName_{index}_{tag}'
+            parts.append(demo.assembly_bytes(label, encode(ui[key][tag], mapping, font)))
+            labels.append(label)
+        table.append('\t.4byte ' + ', '.join([f'gAbilityNames + 13 * {symbol}'] + labels))
+    parts.insert(0, '#include "constants/abilities.h"\n#include "constants/moves.h"\n#include "constants/pokemon.h"\n')
     return parts, table

@@ -102,6 +102,21 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
         self.assertIn('compare VAR_LEARNER_DICTIONARY_REQUEST, 1', assembly)
         self.assertIn('setvar VAR_LEARNER_DICTIONARY_REQUEST, 0', assembly)
+        self.assertIn('LearnerOpening_RecordExposure::', assembly)
+        self.assertIn('addvar VAR_LEARNER_EXPOSURE_COUNT, 1', assembly)
+        self.assertIn('LearnerOpening_RecordDictionaryRequest::', assembly)
+        self.assertIn('addvar VAR_LEARNER_DICTIONARY_COUNT, 1', assembly)
+        self.assertIn('compare VAR_LEARNER_EXPOSURE_COUNT, 0xFFFF', assembly)
+        self.assertIn('compare VAR_LEARNER_DICTIONARY_COUNT, 0xFFFF', assembly)
+        target_pages = re.findall(r'LearnerOpening_\w+_(?:ru|de)_(?:A1|A2|natural)Text_\d+_Display:', assembly)
+        self.assertTrue(target_pages)
+        self.assertEqual(len(target_pages), assembly.count('\tcall LearnerOpening_RecordExposure\n'))
+        for entry in dialogues:
+            for tag in ('ru', 'de'):
+                words = f"LearnerOpening_{entry['id']}_{tag}_Words:"
+                start = assembly.index(words)
+                block = assembly[start:start + 180]
+                self.assertIn('LearnerOpening_RecordDictionaryRequest', block)
         # Every assembly text emitted by opening.generate is independently bounded.
         for block in assembly.split('::\n')[1:]:
             byte_lines = []

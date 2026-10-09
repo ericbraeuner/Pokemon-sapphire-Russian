@@ -30,7 +30,7 @@ def load():
 
 def generate(russian, latin, glyphs):
     parts, scripts, shortcut_handlers = [], [], []
-    def messages(label, paragraphs, mapping, font, dictionary=None):
+    def messages(label, paragraphs, mapping, font, dictionary=None, count_exposure=False):
         labels = []
         for paragraph in paragraphs:
             lines = demo.wrap(paragraph, mapping, glyphs if font == 0 else {})
@@ -42,6 +42,8 @@ def generate(russian, latin, glyphs):
                 labels.append(name)
         commands = []
         for name in labels:
+            if count_exposure:
+                commands.append('\tcall LearnerOpening_RecordExposure\n')
             if dictionary is None:
                 commands.append(f'\tmsgbox {name}, MSGBOX_DEFAULT\n')
                 continue
@@ -51,6 +53,7 @@ def generate(russian, latin, glyphs):
                             f'\tcompare VAR_LEARNER_DICTIONARY_REQUEST, 1\n'
                             f'\tgoto_if_eq {handler}\n')
             shortcut_handlers.append(f'{handler}:\n\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n'
+                                     f'\tcall LearnerOpening_RecordDictionaryRequest\n'
                                      f'\tcall {dictionary}\n\tgoto {display}\n')
         return ''.join(commands)
 
@@ -62,7 +65,19 @@ def generate(russian, latin, glyphs):
             parts.append(demo.assembly_bytes(f'LearnerMenu_{tag}{suffix}', demo.message([label], mapping, glyphs if font == 0 else {}, font)))
 
     dialogues = load()['dialogues']
-    dictionary_dispatch = ['LearnerOpening_OpenCurrentDictionary::']
+    dictionary_dispatch = [
+        'LearnerOpening_RecordExposure::\n'
+        '\tcompare VAR_LEARNER_EXPOSURE_COUNT, 0xFFFF\n'
+        '\tgoto_if_eq LearnerOpening_RecordExposure_Return\n'
+        '\taddvar VAR_LEARNER_EXPOSURE_COUNT, 1\n'
+        'LearnerOpening_RecordExposure_Return:\n\treturn\n',
+        'LearnerOpening_RecordDictionaryRequest::\n'
+        '\tcompare VAR_LEARNER_DICTIONARY_COUNT, 0xFFFF\n'
+        '\tgoto_if_eq LearnerOpening_RecordDictionaryRequest_Return\n'
+        '\taddvar VAR_LEARNER_DICTIONARY_COUNT, 1\n'
+        'LearnerOpening_RecordDictionaryRequest_Return:\n\treturn\n',
+        'LearnerOpening_OpenCurrentDictionary::'
+    ]
     for context_id, entry in enumerate(dialogues, 1):
         root = f"LearnerOpening_{entry['id']}"
         scripts.append(f'{root}::\n\tcall LearnerOpening_EnsureSettings\n'
@@ -79,7 +94,7 @@ def generate(russian, latin, glyphs):
             for band in ('A1', 'A2', 'natural'):
                 label = f'{base}_{band}'
                 scripts.append(f'{label}:\n' + messages(label + 'Text', entry[tag][band], mapping, font,
-                                                        f'{base}_WordsDisplay') + f'\tgoto {base}_Menu\n')
+                                                        f'{base}_WordsDisplay', True) + f'\tgoto {base}_Menu\n')
             scripts.append(f'{base}_Menu:\n\tclosemessage\n\tmultichoice 0, 0, MULTI_LEARNER_{tag.upper()}, 0\n'
                            f'\tcompare VAR_RESULT, 1\n\tgoto_if_eq {base}\n'
                            f'\tcompare VAR_RESULT, 2\n\tgoto_if_eq {base}_Hint\n'
@@ -89,7 +104,8 @@ def generate(russian, latin, glyphs):
                            f'\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n\treturn\n')
             scripts.append(f'{base}_Hint:\n' + messages(base + 'HintText', entry['english'], latin, 3,
                                                          f'{base}_WordsDisplay') + f'\tgoto {base}_Menu\n')
-            scripts.append(f'{base}_Words:\n\tcall {base}_WordsDisplay\n\tgoto {base}_Menu\n')
+            scripts.append(f'{base}_Words:\n\tcall LearnerOpening_RecordDictionaryRequest\n'
+                           f'\tcall {base}_WordsDisplay\n\tgoto {base}_Menu\n')
             scripts.append(f'{base}_WordsDisplay:\n\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n'
                            + messages(base + 'WordsText', [f'{lemma}: {gloss}' for lemma, gloss in entry['words'][tag]], mapping, font)
                            + '\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n\treturn\n')

@@ -176,6 +176,8 @@
 #define VAR_LEARNER_MODE                  0x40F2 // 1 guided, 2 immersion
 #define VAR_LEARNER_DICTIONARY_CONTEXT    0x40F3 // 0 none, otherwise generated dialogue ID
 #define VAR_LEARNER_DICTIONARY_REQUEST    0x40F4 // R-button request while authored dialogue is open
+#define VAR_LEARNER_EXPOSURE_COUNT        0x40F5 // Saturating authored target-language pages shown
+#define VAR_LEARNER_DICTIONARY_COUNT      0x40F6 // Saturating menu and R-button dictionary opens
 #define VARS_END                          0x40FF
 
 #define SPECIAL_VARS_START 0x8000

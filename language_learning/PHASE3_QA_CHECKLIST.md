@@ -28,6 +28,19 @@ start a new disposable save.
 - Save, close the emulator, reopen the ROM and continue. Verify language, level and
   help mode remain selected.
 
+## Dialogue dictionary shortcut
+
+- In an authored learning dialogue, wait until a page finishes printing and press
+  R. Verify that the dictionary opens in the selected language.
+- Close the dictionary. Verify that the exact interrupted page appears again and
+  that continuing does not repeat or skip the associated story action.
+- Repeat from a multi-page dialogue, from its English Translation screen, and in
+  both Russian and German.
+- Press R in an ordinary translated textbox that has no curated vocabulary. It
+  must retain its normal behavior rather than showing an unrelated dictionary.
+- Open the same dictionary from the post-dialogue menu and confirm that it still
+  returns to that menu cleanly.
+
 ## Party and summary
 
 - Open each party action, including summary, switch, item, mail and cancel.

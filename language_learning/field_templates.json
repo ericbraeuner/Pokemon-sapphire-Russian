@@ -4681,4 +4681,27 @@
   ,"SecretBase_Text_SkittyTV":{"ru":"Игрушечный ТВ в виде СКИТТИ.\\nКажется, сейчас уйдёт...","de":"Spielzeug-TV wie ENECO.\\nEs läuft gleich davon...","widths":{},"max_width":192}
   ,"UnknownString_81A3C71":{"ru":"Можно иметь лишь одну ТАЙНУЮ\\nБАЗУ.\\pПереехать с базы возле\\n{STR_VAR_1}?","de":"Nur eine GEHEIMBASIS ist\\nerlaubt.\\pVon der Basis bei\\n{STR_VAR_1} umziehen?","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
   ,"UnknownString_81A3CC9":{"ru":"Переезд завершён.\\pИспользовать ТАЙНУЮ СИЛУ?","de":"Umzug beendet.\\pGEHEIMPOWER einsetzen?","widths":{},"max_width":192}
+
+  ,"Underwater_SealedChamber_Braille_GoUpHere":{"ru":"ПОДНИМИСЬ ЗДЕСЬ.","de":"TAUCHE HIER AUF.","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_ABC":{"ru":"АБВ","de":"ABC","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_GHI":{"ru":"ЗИЙ","de":"GHI","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_MNO":{"ru":"МНО","de":"MNO","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_TUV":{"ru":"ТУФ","de":"TUV","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_DEF":{"ru":"ГДЕ","de":"DEF","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_JKL":{"ru":"КЛМ","de":"JKL","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_PQRS":{"ru":"ПРСТ","de":"PQRS","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_Period":{"ru":".","de":".","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_WXYZ":{"ru":"ХЦЧШ","de":"WXYZ","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_Comma":{"ru":",","de":",","widths":{},"max_width":192}
+  ,"SealedChamber_OuterRoom_Braille_DigHere":{"ru":"КОПАЙ ЗДЕСЬ.","de":"GRABE HIER.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_FirstRelicanthLastWailord":{"ru":"ПЕРВЫМ ИДЁТ\\nРЕЛИКАНТ.\\pПОСЛЕДНИМ -\\nВЕЙЛОРД.","de":"ZUERST KOMMT\\nRELICANTH.\\pZULETZT KOMMT\\nWAILORD.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived":{"ru":"В ЭТОЙ ПЕЩЕРЕ\\nМЫ ЖИЛИ.","de":"IN DIESER HÖHLE\\nLEBTEN WIR.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon":{"ru":"МЫ ВСЕМ ОБЯЗАНЫ\\nПОКЕМОНАМ.","de":"WIR VERDANKEN ALLES\\nDEN POKéMON.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway":{"ru":"НО МЫ ЗАПЕЧАТАЛИ\\nПОКЕМОНА.","de":"DOCH WIR VERSIEGELTEN\\nDAS POKéMON.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_WeFearedIt":{"ru":"МЫ БОЯЛИСЬ ЕГО.","de":"WIR FÜRCHTETEN ES.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_ThoseWithCourageHope":{"ru":"ОБЛАДАЮЩИЕ СМЕЛОСТЬЮ,\\nОБЛАДАЮЩИЕ НАДЕЖДОЙ.","de":"DIE MIT MUT,\\nDIE MIT HOFFNUNG.","widths":{},"max_width":192}
+  ,"SealedChamber_InnerRoom_Braille_1C549B":{"ru":"ОТКРОЙ ДВЕРЬ.\\pВЕЧНЫЙ ПОКЕМОН\\nЖДЁТ.","de":"ÖFFNE DIE TÜR.\\pEIN EWIGES POKéMON\\nWARTET.","widths":{},"max_width":192}
+  ,"DesertRuins_Braille_UseStrength":{"ru":"ВПРАВО, ВПРАВО,\\nВНИЗ, ВНИЗ.\\pЗАТЕМ ИСПОЛЬЗУЙ СИЛУ.","de":"RECHTS, RECHTS,\\nRUNTER, RUNTER.\\pDANN STÄRKE EINSETZEN.","widths":{},"max_width":192}
+  ,"IslandCave_Braille_WaitTwoMinutes":{"ru":"ОСТАНОВИСЬ И ЖДИ.\\pПУСТЬ ВРЕМЯ ПРОЙДЁТ\\nДВАЖДЫ.","de":"BLEIB STEHEN UND WARTE.\\pLASS DIE ZEIT\\nZWEIMAL VERGEHEN.","widths":{},"max_width":192}
+  ,"AncientTomb_Braille_AimToTheSkyInTheMiddle":{"ru":"С НОВЫМ ВРЕМЕНЕМ,\\nНАДЕЖДОЙ И ЛЮБОВЬЮ,\\pСТРЕМИСЬ К НЕБУ\\nВ ЦЕНТРЕ.","de":"MIT NEUER ZEIT,\\nHOFFNUNG UND LIEBE,\\pZIELE IN DER MITTE\\nZUM HIMMEL.","widths":{},"max_width":192}
 }

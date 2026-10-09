@@ -1422,6 +1422,9 @@ bool8 ScrCmd_showcontestwinner(struct ScriptContext *ctx)
 bool8 ScrCmd_braillemessage(struct ScriptContext *ctx)
 {
     u8 *ptr = (u8 *)ScriptReadWord(ctx);
+#if LEARNER_DEMO
+    const u8 *translated = Learner_Translate(ptr);
+#endif
 
     u8 winLeft = ptr[0];
     u8 winTop = ptr[1];
@@ -1429,7 +1432,12 @@ bool8 ScrCmd_braillemessage(struct ScriptContext *ctx)
     u8 winBottom = ptr[3];
     u8 textLeft = ptr[4];
     u8 textTop = ptr[5];
-    StringBraille(gStringVar4, ptr + 6);
+#if LEARNER_DEMO
+    if (translated != ptr)
+        StringCopy(gStringVar4, translated);
+    else
+#endif
+        StringBraille(gStringVar4, ptr + 6);
     Menu_DrawStdWindowFrame(winLeft, winTop, winRight, winBottom);
     Menu_PrintText(gStringVar4, textLeft, textTop);
     return FALSE;

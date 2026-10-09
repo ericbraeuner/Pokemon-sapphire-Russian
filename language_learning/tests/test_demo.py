@@ -2001,6 +2001,17 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(16, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_braille_and_regi_puzzle_text_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/braille.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)(?:::|:)', source, re.MULTILINE))
+        self.assertEqual(22, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+        script_commands = (demo.ROOT / 'src/scrcmd.c').read_text(encoding='utf-8')
+        handler = script_commands.split('bool8 ScrCmd_braillemessage', 1)[1].split('\n}', 1)[0]
+        self.assertIn('translated = Learner_Translate(ptr)', handler)
+        self.assertIn('StringCopy(gStringVar4, translated)', handler)
+
     def test_pokedex_rating_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/pokedex_rating.inc').read_text(errors='replace')

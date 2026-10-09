@@ -1985,6 +1985,15 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(22, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_legendary_settlement_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        symbols = set()
+        for name in ('aqua_settled.inc', 'magma_settled.inc'):
+            source = (demo.ROOT / 'data/text' / name).read_text(errors='replace')
+            symbols.update(re.findall(r'^([A-Za-z_]\w*)(?:::|:)', source, re.MULTILINE))
+        self.assertEqual(8, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_pokedex_rating_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/pokedex_rating.inc').read_text(errors='replace')

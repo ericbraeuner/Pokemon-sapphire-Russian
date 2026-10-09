@@ -1,10 +1,13 @@
 #include "global.h"
+#include "event_data.h"
 #include "field_message_box.h"
+#include "main.h"
 #include "menu.h"
 #include "string_util.h"
 #include "task.h"
 #include "text.h"
 #include "text_window.h"
+#include "constants/vars.h"
 
 static EWRAM_DATA struct Window gFieldMessageBoxWindow = {0};
 
@@ -37,6 +40,18 @@ static void Task_FieldMessageBox(u8 taskId)
         task->data[0]++;
         break;
     case 2:
+#if LEARNER_DEMO
+        // R opens the vocabulary for authored learner dialogue. The generated
+        // script replays this exact message after the vocabulary closes.
+        if (sMessageBoxMode == FIELD_MESSAGE_BOX_NORMAL
+         && VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) != 0
+         && VarGet(VAR_LEARNER_DICTIONARY_REQUEST) == 0
+         && JOY_NEW(R_BUTTON))
+        {
+            VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 1);
+            gMain.newKeys |= A_BUTTON;
+        }
+#endif
         switch (sMessageBoxMode)
         {
         case FIELD_MESSAGE_BOX_NORMAL:

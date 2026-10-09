@@ -61,6 +61,9 @@ for layout, menu cleanup, and contextual wording.
    Try the PC and wall map upstairs, then the town signs, NPCs, neighbor and lab.
 6. Help menus provide Next, Read again, Translation, Dictionary, and Settings in
    the selected language. B means Next; story actions still run normally.
+   During one of the 90 authored learning dialogues, wait for the current text
+   page to finish and press **R** to open its dictionary immediately. Closing the
+   dictionary replays that page so you do not lose your place.
 7. Change language or level in a translated scene's Settings menu. A new
    choice applies to subsequent covered interactions, including the clock.
    The new-game tutorial choice is no longer offered here because it has no
@@ -87,7 +90,7 @@ The introductory speech and short TV lines currently use common wording across
 levels. These are learning targets, not certified CEFR assessments or six distinct
 translations of every sentence. There is no adaptive progression or vocabulary
 tracking yet. Help is available after translated field scenes; it is not yet a
-hotkey during Birch's speech or every textbox.
+hotkey during every translated textbox or in battle.
 
 ## Building it
 
@@ -121,8 +124,8 @@ Do not expect the demo ROM to match the original game's hash.
 1. Run the remaining emulator checklist in both languages, especially uncommon
    services, minigames, Secret Bases, event-ticket scenes, and late-game branches.
    Source and width checks cannot prove that every window closes and redraws well.
-2. Add a dictionary shortcut during dialogue that pauses and restores the current
-   page. Audit button uses first; R is a candidate, not an implemented shortcut.
+2. Expand the R-button dictionary shortcut beyond the 90 authored learning
+   dialogues to translated text that gains curated vocabulary data.
 3. Connect exposures and dictionary requests to learner profiles, add more
    difficulty-specific variants where they improve learning, and obtain a
    native-speaker editorial review of Russian and German wording.

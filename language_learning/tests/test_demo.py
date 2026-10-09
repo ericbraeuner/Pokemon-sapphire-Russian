@@ -100,6 +100,8 @@ class LessonTests(unittest.TestCase):
                 self.assertIn(f'{root}_{tag}_WordsDisplay:', assembly)
             self.assertIn(f'{root}_Dictionary:', assembly)
         self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
+        self.assertIn('compare VAR_LEARNER_DICTIONARY_REQUEST, 1', assembly)
+        self.assertIn('setvar VAR_LEARNER_DICTIONARY_REQUEST, 0', assembly)
         # Every assembly text emitted by opening.generate is independently bounded.
         for block in assembly.split('::\n')[1:]:
             byte_lines = []
@@ -110,6 +112,13 @@ class LessonTests(unittest.TestCase):
             if byte_lines:
                 self.assertLessEqual(len(byte_lines), demo.MAX_MESSAGE_BYTES)
                 self.assertEqual('0xFF', byte_lines[-1])
+
+    def test_r_button_requests_current_dialogue_dictionary(self):
+        source = (demo.ROOT / 'src/field_message_box.c').read_text(encoding='utf-8')
+        self.assertIn('JOY_NEW(R_BUTTON)', source)
+        self.assertIn('VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) != 0', source)
+        self.assertIn('VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 1)', source)
+        self.assertIn('gMain.newKeys |= A_BUTTON', source)
 
     def test_russian_capital_baselines_and_diaeresis(self):
         for char, rows in self.glyphs.items():

@@ -1535,15 +1535,15 @@ Route115_Text_1BCDEF:: @ 81BCDEF
 	.string "enjoyment out of it.\l"
 	.string "It must be that I love POKéMON.$"
 
-UnknownString_81BCE47: @ 81BCE47
+UnknownString_81BCE47:: @ 81BCE47
 	.string "I have a rare POKéMON!\n"
 	.string "Would you like me to show you?$"
 
-UnknownString_81BCE7D: @ 81BCE7D
+UnknownString_81BCE7D:: @ 81BCE7D
 	.string "You...\n"
 	.string "You want my POKéMON, don't you?$"
 
-UnknownString_81BCEA4: @ 81BCEA4
+UnknownString_81BCEA4:: @ 81BCEA4
 	.string "I have this rare POKéMON.\n"
 	.string "It's enough to keep me satisfied.$"
 

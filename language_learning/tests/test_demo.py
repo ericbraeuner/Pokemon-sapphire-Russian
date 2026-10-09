@@ -2110,15 +2110,31 @@ class LessonTests(unittest.TestCase):
         for name in names:
             source = (demo.ROOT / 'data/text' / name).read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(27, len(symbols))
+        self.assertEqual(29, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_opening_and_coastal_route_trainers_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/trainers.inc').read_text(errors='replace')
         symbols = re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE)
-        self.assertEqual(801, len(symbols))
+        self.assertEqual(804, len(symbols))
         self.assertTrue(set(symbols).issubset(templates))
+
+    def test_overlooked_event_and_error_text_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'UnknownString_81C5033', 'UnknownString_81C5070',
+            'UnknownString_81B7372', 'UnknownString_81C6D18',
+            'Text_DiscountSaleToday', 'UnknownString_81BCE47',
+            'UnknownString_81BCE7D', 'UnknownString_81BCEA4',
+        }
+        self.assertTrue(required.issubset(templates))
+        for filename in ('eon_ticket.inc', 'pokeblocks.inc', 'save.inc',
+                         'mart_clerk.inc', 'trainers.inc'):
+            source = (demo.ROOT / 'data/text' / filename).read_text(errors='replace')
+            local = required & set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+            required -= local
+        self.assertFalse(required)
 
     def test_common_services_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
@@ -2131,7 +2147,7 @@ class LessonTests(unittest.TestCase):
                 found = [symbol for symbol in found
                          if symbol in ('Text_TheBagIsFull', 'Text_TooBadBagIsFull')]
             symbols.update(found)
-        self.assertEqual(24, len(symbols))
+        self.assertEqual(26, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_easy_chat_group_names_are_bilingual(self):

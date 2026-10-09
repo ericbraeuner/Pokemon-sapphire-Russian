@@ -80,7 +80,7 @@ FallarborTown_ContestLobby_Text_1B735A:: @ 81B735A
 	.string "{STR_VAR_1}, {STR_VAR_2}, and\n"
 	.string "{STR_VAR_3} arrived.$"
 
-UnknownString_81B7372: @ 81B7372
+UnknownString_81B7372:: @ 81B7372
 	.string "Nobody came...$"
 
 FallarborTown_ContestLobby_Text_1B7381:: @ 81B7381

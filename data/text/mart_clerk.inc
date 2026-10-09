@@ -6,7 +6,7 @@ Text_PleaseComeAgain:: @ 81A0C02
 	.string "Please come again!$"
 
 @ Unused
-Text_DiscountSaleToday: @ 81A0C15
+Text_DiscountSaleToday:: @ 81A0C15
 	.string "Welcome!\p"
 	.string "We're having a discount sale today!$"
 

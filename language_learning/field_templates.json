@@ -4738,4 +4738,13 @@
   ,"UnknownString_81C438C":{"ru":"О, вот это да...\\nНо это не {STR_VAR_1}!","de":"Oh, nicht schlecht...\\nAber das ist kein\\p{STR_VAR_1}!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
   ,"UnknownString_81C43C2":{"ru":"Нет большого {STR_VAR_1}?\\nОчень жаль...\\pНайдёшь большой экземпляр -\\nобязательно покажи мне.","de":"Kein großes {STR_VAR_1}?\\nWie schade...\\pFindest du ein großes,\\nzeig es mir bitte.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
   ,"UnknownString_81C4417":{"ru":"Самый большой {STR_VAR_1}!\\nРекорд {STR_VAR_2}:\\p{STR_VAR_3} дюйм.!","de":"Das größte {STR_VAR_1}!\\nRekord von {STR_VAR_2}:\\p{STR_VAR_3} Zoll!","widths":{"STR_VAR_1":80,"STR_VAR_2":80,"STR_VAR_3":32},"max_width":192,"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":10,"STR_VAR_3":4}}
+
+  ,"UnknownString_81C5033":{"ru":"ПАПА: {PLAYER}!\\nРад тебя видеть!\\pТебе письмо,\\n{PLAYER}.","de":"PAPA: {PLAYER}!\\nSchön, dich zu sehen!\\pEin Brief für dich,\\n{PLAYER}.","widths":{"PLAYER":80},"max_width":192,"buffer_lengths":{"PLAYER":10}}
+  ,"UnknownString_81C5070":{"ru":"ПАПА: Это пропуск\\nна корабль.\\pЯ такого не видел.\\nУзнай о нём в ЛИЛИКОВЕ.","de":"PAPA: Ein Schiffspass.\\nDen kenne ich nicht.\\pFrag in SEEGRASULB,\\nwofür er ist.","widths":{},"max_width":192}
+  ,"UnknownString_81B7372":{"ru":"Никто не пришёл...","de":"Niemand kam...","widths":{},"max_width":192}
+  ,"UnknownString_81C6D18":{"ru":"Ошибка сохранения...","de":"Speicherfehler...","widths":{},"max_width":192}
+  ,"Text_DiscountSaleToday":{"ru":"Добро пожаловать!\\pСегодня у нас распродажа!","de":"Willkommen!\\pHeute: Sonderpreise!","widths":{},"max_width":192}
+  ,"UnknownString_81BCE47":{"ru":"У меня редкий ПОКЕМОН!\\nХочешь увидеть?","de":"Ich habe ein seltenes\\nPOKéMON!\\pWillst du es sehen?","widths":{},"max_width":192}
+  ,"UnknownString_81BCE7D":{"ru":"Ты...\\nТебе нужен мой ПОКЕМОН, да?","de":"Du...\\nDu willst mein POKéMON,\\pnicht wahr?","widths":{},"max_width":192}
+  ,"UnknownString_81BCEA4":{"ru":"У меня есть редкий ПОКЕМОН.\\nМне этого достаточно.","de":"Ich habe dieses seltene\\nPOKéMON. Das genügt mir.","widths":{},"max_width":192}
 }

@@ -1,8 +1,8 @@
-UnknownString_81C5033: @ 81C5033
+UnknownString_81C5033:: @ 81C5033
 	.string "DAD: {PLAYER}! Good to see you!\n"
 	.string "There's a letter here for you, {PLAYER}.$"
 
-UnknownString_81C5070: @ 81C5070
+UnknownString_81C5070:: @ 81C5070
 	.string "DAD: I guess this is a PASS for a ship.\n"
 	.string "But I've never seen this ship before.\p"
 	.string "You should find out what this is about\n"

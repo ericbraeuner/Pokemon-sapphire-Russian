@@ -16,7 +16,7 @@ gSaveText_PlayerSavedTheGame:: @ 81C6D05
 BattleTower_BattleRoom_Text_1C6D05:: @ 81C6D05
 	.string "{PLAYER} saved the game.$"
 
-UnknownString_81C6D18: @ 81C6D18
+UnknownString_81C6D18:: @ 81C6D18
 	.string "Save error...$"
 
 gSaveText_ThereIsADifferentFile:: @ 81C6D26

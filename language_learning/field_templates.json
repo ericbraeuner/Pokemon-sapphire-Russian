@@ -4664,4 +4664,21 @@
   ,"CaveOfOrigin_B4F_Text_1B5009":{"ru":"ГРОУДОН, похоже, снова\\nпогрузился в сон...","de":"GROUDON scheint wieder\\neingeschlafen zu sein...","widths":{},"max_width":192}
   ,"UnknownString_81B503D":{"ru":"МАКСИ: Это...","de":"MARC: Das ist...","widths":{},"max_width":192}
   ,"UnknownString_81B504C":{"ru":"МАКСИ: ... ... ... ...\\pПрощай. Больше ты меня не\\nувидишь...","de":"MARC: ... ... ... ...\\pLeb wohl. Du wirst mich\\nnie wiedersehen...","widths":{},"max_width":192}
+
+  ,"SecretBase_Text_AllDecorationsWillBeReturned":{"ru":"Все украшения из ТАЙНОЙ БАЗЫ\\nвернутся на ПК. Продолжить?","de":"Alle Deko aus der\\nGEHEIMBASIS kehrt zum PC\\pzurück. Okay?","widths":{},"max_width":192}
+  ,"SecretBase_Text_WantToRegisterSecretBase":{"ru":"Зарегистрировать ТАЙНУЮ БАЗУ\\nигрока {STR_VAR_1}?","de":"GEHEIMBASIS von\\n{STR_VAR_1} registrieren?","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"SecretBase_Text_AlreadyRegisteredDelete":{"ru":"Эти данные уже записаны.\\nУдалить их?","de":"Diese Daten sind\\nregistriert. Löschen?","widths":{},"max_width":192}
+  ,"SecretBase_Text_TooManyBasesDeleteSome":{"ru":"Можно записать до 10 баз.\\pУдали одну базу, чтобы\\nдобавить другую.","de":"Bis zu 10 Basen sind\\nmöglich.\\pLösche eine Basis, um\\neine neue einzutragen.","widths":{},"max_width":192}
+  ,"SecretBase_Text_RegistrationCompleted":{"ru":"Регистрация завершена.","de":"Registrierung beendet.","widths":{},"max_width":192}
+  ,"SecretBase_Text_DataUnregistered":{"ru":"Регистрация удалена.","de":"Registrierung gelöscht.","widths":{},"max_width":192}
+  ,"UnknownString_81A3A56":{"ru":"Украшений нет...","de":"Keine Dekoration...","widths":{},"max_width":192}
+  ,"SecretBase_Text_BootUpPC":{"ru":"{PLAYER} включает ПК.","de":"{PLAYER} startet den\\nPC.","widths":{"PLAYER":80},"max_width":192,"buffer_lengths":{"PLAYER":10}}
+  ,"SecretBase_Text_WhatWouldYouLikeToDo":{"ru":"Что вы хотите сделать?","de":"Was möchtest du tun?","widths":{},"max_width":192}
+  ,"SecretBase_Text_RegistryInfo":{"ru":"Записанная ТАЙНАЯ БАЗА\\nостанется, пока хозяин не\\pуйдёт.\\pПосле удаления её место может\\nзанять другая база.\\pМожно записать до 10 баз.{PAUSE_UNTIL_PRESS}","de":"Eine GEHEIMBASIS bleibt,\\nbis der Besitzer\\pumzieht.\\pNach dem Löschen kann\\neine andere Basis\\pfolgen.\\pBis zu 10 Basen möglich.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":192}
+  ,"SecretBase_Text_BattleTowerShield":{"ru":"Щит {STR_VAR_2} за {STR_VAR_1}\\nпобед подряд в БАШНЕ БИТВ.","de":"Schild von {STR_VAR_2}\\nfür {STR_VAR_1} Siege in Folge\\pim DUELLTURM.","widths":{"STR_VAR_1":32,"STR_VAR_2":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":4,"STR_VAR_2":10}}
+  ,"SecretBase_Text_ToyTV":{"ru":"Реалистичный игрушечный ТВ.\\nЕго легко принять за\\pнастоящий.","de":"Ein realistischer\\nSpielzeug-TV. Fast wie\\pein echter.","widths":{},"max_width":192}
+  ,"SecretBase_Text_SeedotTV":{"ru":"Игрушечный ТВ в виде СИДОТА.\\nКажется, сейчас укатится...","de":"Spielzeug-TV wie\\nSAMURZEL. Er rollt\\pgleich davon...","widths":{},"max_width":192}
+  ,"SecretBase_Text_SkittyTV":{"ru":"Игрушечный ТВ в виде СКИТТИ.\\nКажется, сейчас уйдёт...","de":"Spielzeug-TV wie ENECO.\\nEs läuft gleich davon...","widths":{},"max_width":192}
+  ,"UnknownString_81A3C71":{"ru":"Можно иметь лишь одну ТАЙНУЮ\\nБАЗУ.\\pПереехать с базы возле\\n{STR_VAR_1}?","de":"Nur eine GEHEIMBASIS ist\\nerlaubt.\\pVon der Basis bei\\n{STR_VAR_1} umziehen?","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"UnknownString_81A3CC9":{"ru":"Переезд завершён.\\pИспользовать ТАЙНУЮ СИЛУ?","de":"Umzug beendet.\\pGEHEIMPOWER einsetzen?","widths":{},"max_width":192}
 }

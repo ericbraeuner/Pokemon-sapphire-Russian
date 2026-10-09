@@ -1994,6 +1994,13 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(8, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_secret_base_shared_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/secret_base.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)(?:::|:)', source, re.MULTILINE))
+        self.assertEqual(16, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_pokedex_rating_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/pokedex_rating.inc').read_text(errors='replace')

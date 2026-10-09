@@ -1,28 +1,28 @@
-UnknownString_81A1948: @ 81A1948
+UnknownString_81A1948:: @ 81A1948
 	.string "If some vines drop down, this tree can\n"
 	.string "be climbed.$"
 
-UnknownString_81A197B: @ 81A197B
+UnknownString_81A197B:: @ 81A197B
 	.string "If some vines drop down, this tree can\n"
 	.string "be climbed.\p"
 	.string "Use the SECRET POWER?$"
 
-UnknownString_81A19C4: @ 81A19C4
+UnknownString_81A19C4:: @ 81A19C4
 	.string "A thick vine dropped down!$"
 
 UnknownString_81A19DF: @ 81A19DF
 	.string "Want to make your SECRET BASE here?$"
 
-UnknownString_81A1A03: @ 81A1A03
+UnknownString_81A1A03:: @ 81A1A03
 	.string "If this clump of grass can be moved,\n"
 	.string "it might be possible to go inside.$"
 
-UnknownString_81A1A4B: @ 81A1A4B
+UnknownString_81A1A4B:: @ 81A1A4B
 	.string "If this clump of grass can be moved,\n"
 	.string "it might be possible to go inside.\p"
 	.string "Use the SECRET POWER?$"
 
-UnknownString_81A1AA9: @ 81A1AA9
+UnknownString_81A1AA9:: @ 81A1AA9
 	.string "Discovered a small entrance!$"
 
 UnknownString_81A1AC6: @ 81A1AC6

@@ -2081,7 +2081,14 @@ class LessonTests(unittest.TestCase):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/secret_base_trainers.inc').read_text(errors='replace')
         symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(60, len(symbols))
+        self.assertEqual(66, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
+    def test_big_barboach_prize_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/barboach.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+        self.assertEqual(8, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_shared_profile_and_event_dialogue_is_bilingual(self):

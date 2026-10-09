@@ -4723,4 +4723,19 @@
   ,"UnknownString_81C354E":{"ru":"Положить {POKEBLOCK}\\nв КОРМУШКУ?","de":"Einen {POKEBLOCK} auf die\\nFUTTERSTELLE legen?","widths":{},"max_width":192}
   ,"UnknownString_81C3583":{"ru":"Здесь всё ещё лежит\\n{STR_VAR_1}.","de":"{STR_VAR_1} von vorhin\\nliegt noch hier.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
   ,"UnknownString_81C35A9":{"ru":"{STR_VAR_1} положен\\nв КОРМУШКУ.","de":"{STR_VAR_1} wurde auf die\\nFUTTERSTELLE gelegt.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+
+  ,"UnknownString_81A1948":{"ru":"Если свисают лианы,\\nна дерево можно взобраться.","de":"Hängen Ranken herab,\\nkann man hinaufklettern.","widths":{},"max_width":192}
+  ,"UnknownString_81A197B":{"ru":"Если свисают лианы,\\nна дерево можно взобраться.\\pПрименить ТАЙНУЮ СИЛУ?","de":"Hängen Ranken herab,\\nkann man hinaufklettern.\\pGEHEIMPOWER einsetzen?","widths":{},"max_width":192}
+  ,"UnknownString_81A19C4":{"ru":"Спустилась толстая лиана!","de":"Eine dicke Ranke\\nfiel herab!","widths":{},"max_width":192}
+  ,"UnknownString_81A1A03":{"ru":"Если раздвинуть эту траву,\\nможно будет войти внутрь.","de":"Verschiebt man das Gras,\\nkann man hineingehen.","widths":{},"max_width":192}
+  ,"UnknownString_81A1A4B":{"ru":"Если раздвинуть эту траву,\\nможно будет войти внутрь.\\pПрименить ТАЙНУЮ СИЛУ?","de":"Verschiebt man das Gras,\\nkann man hineingehen.\\pGEHEIMPOWER einsetzen?","widths":{},"max_width":192}
+  ,"UnknownString_81A1AA9":{"ru":"Найден маленький вход!","de":"Kleiner Eingang\\nentdeckt!","widths":{},"max_width":192}
+  ,"UnknownString_81C426C":{"ru":"Мне нужны большие\\n{STR_VAR_1}.\\pЧем больше, тем лучше!\\nУ тебя есть {STR_VAR_1}?\\pП-п-покажи, пожалуйста!","de":"Ich suche große\\n{STR_VAR_1}.\\pJe größer, desto besser!\\nHast du ein {STR_VAR_1}?\\pB-b-bitte zeig es mir!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81C42CE":{"ru":"Ого, какой большой!\\nВеликолепный {STR_VAR_1}!\\pСпасибо, что показал.\\nВот награда!","de":"Oh, ist das groß!\\nPrächtiges {STR_VAR_1}!\\pDanke fürs Zeigen.\\nHier ist dein Lohn!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81C432C":{"ru":"{PLAYER} получает\\n{STR_VAR_2}.","de":"{PLAYER} erhält\\n{STR_VAR_2}.","widths":{"PLAYER":80,"STR_VAR_2":80},"max_width":192,"buffer_lengths":{"PLAYER":10,"STR_VAR_2":10}}
+  ,"UnknownString_81C4340":{"ru":"А?\\nВ СУМКЕ нет места.","de":"Hä?\\nDein BEUTEL ist voll.","widths":{},"max_width":192}
+  ,"UnknownString_81C4360":{"ru":"Хм... Я видел {STR_VAR_1}\\nи побольше.","de":"Hm... Ich sah schon ein\\ngrößeres {STR_VAR_1}.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81C438C":{"ru":"О, вот это да...\\nНо это не {STR_VAR_1}!","de":"Oh, nicht schlecht...\\nAber das ist kein\\p{STR_VAR_1}!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81C43C2":{"ru":"Нет большого {STR_VAR_1}?\\nОчень жаль...\\pНайдёшь большой экземпляр -\\nобязательно покажи мне.","de":"Kein großes {STR_VAR_1}?\\nWie schade...\\pFindest du ein großes,\\nzeig es mir bitte.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81C4417":{"ru":"Самый большой {STR_VAR_1}!\\nРекорд {STR_VAR_2}:\\p{STR_VAR_3} дюйм.!","de":"Das größte {STR_VAR_1}!\\nRekord von {STR_VAR_2}:\\p{STR_VAR_3} Zoll!","widths":{"STR_VAR_1":80,"STR_VAR_2":80,"STR_VAR_3":32},"max_width":192,"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":10,"STR_VAR_3":4}}
 }

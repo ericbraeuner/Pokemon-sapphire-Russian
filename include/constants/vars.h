@@ -174,6 +174,7 @@
 #define VAR_LEARNER_LANGUAGE              0x40F0 // 0 unset, 1 Russian, 2 German
 #define VAR_LEARNER_LEVEL                 0x40F1 // 1 A1 ... 6 C2
 #define VAR_LEARNER_MODE                  0x40F2 // 1 guided, 2 immersion
+#define VAR_LEARNER_DICTIONARY_CONTEXT    0x40F3 // 0 none, otherwise generated dialogue ID
 #define VARS_END                          0x40FF
 
 #define SPECIAL_VARS_START 0x8000

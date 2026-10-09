@@ -49,10 +49,16 @@ def generate(russian, latin, glyphs):
         for suffix, label in zip(['Next', 'Again', 'Hint', 'Words', 'Settings'], labels):
             parts.append(demo.assembly_bytes(f'LearnerMenu_{tag}{suffix}', demo.message([label], mapping, glyphs if font == 0 else {}, font)))
 
-    for entry in load()['dialogues']:
+    dialogues = load()['dialogues']
+    dictionary_dispatch = ['LearnerOpening_OpenCurrentDictionary::']
+    for context_id, entry in enumerate(dialogues, 1):
         root = f"LearnerOpening_{entry['id']}"
         scripts.append(f'{root}::\n\tcall LearnerOpening_EnsureSettings\n'
+                       f'\tsetvar VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}\n'
                        f'\tcompare VAR_LEARNER_LANGUAGE, 1\n\tgoto_if_eq {root}_ru\n\tgoto {root}_de\n')
+        dictionary_dispatch.append(
+            f'\tcompare VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}\n'
+            f'\tgoto_if_eq {root}_Dictionary\n')
         for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
             base = f'{root}_{tag}'
             scripts.append(f'{base}:\n\tcompare VAR_LEARNER_LEVEL, 1\n\tgoto_if_eq {base}_A1\n'
@@ -64,8 +70,13 @@ def generate(russian, latin, glyphs):
                            f'\tcompare VAR_RESULT, 1\n\tgoto_if_eq {base}\n'
                            f'\tcompare VAR_RESULT, 2\n\tgoto_if_eq {base}_Hint\n'
                            f'\tcompare VAR_RESULT, 3\n\tgoto_if_eq {base}_Words\n'
-                           f'\tcompare VAR_RESULT, 4\n\tgoto_if_eq {base}_Settings\n\treturn\n')
+                           f'\tcompare VAR_RESULT, 4\n\tgoto_if_eq {base}_Settings\n'
+                           f'\tsetvar VAR_LEARNER_DICTIONARY_CONTEXT, 0\n\treturn\n')
             scripts.append(f'{base}_Hint:\n' + messages(base + 'HintText', entry['english'], latin, 3) + f'\tgoto {base}_Menu\n')
-            scripts.append(f'{base}_Words:\n' + messages(base + 'WordsText', [f'{lemma}: {gloss}' for lemma, gloss in entry['words'][tag]], mapping, font) + f'\tgoto {base}_Menu\n')
+            scripts.append(f'{base}_Words:\n\tcall {base}_WordsDisplay\n\tgoto {base}_Menu\n')
+            scripts.append(f'{base}_WordsDisplay:\n' + messages(base + 'WordsText', [f'{lemma}: {gloss}' for lemma, gloss in entry['words'][tag]], mapping, font) + '\treturn\n')
             scripts.append(f'{base}_Settings:\n\tcall LearnerOpening_Settings\n\tgoto {root}\n')
-    return parts + scripts
+        scripts.append(f'{root}_Dictionary:\n\tcompare VAR_LEARNER_LANGUAGE, 1\n'
+                       f'\tgoto_if_eq {root}_ru_WordsDisplay\n\tgoto {root}_de_WordsDisplay\n')
+    dictionary_dispatch.append('\treturn\n')
+    return parts + dictionary_dispatch + scripts

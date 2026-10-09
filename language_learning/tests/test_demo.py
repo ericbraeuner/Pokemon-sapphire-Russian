@@ -88,10 +88,18 @@ class LessonTests(unittest.TestCase):
 
     def test_all_opening_text_bands_and_dictionary_compile(self):
         assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))
-        for entry in opening.load()['dialogues']:
+        dialogues = opening.load()['dialogues']
+        self.assertIn('LearnerOpening_OpenCurrentDictionary::', assembly)
+        for context_id, entry in enumerate(dialogues, 1):
+            root = f"LearnerOpening_{entry['id']}"
+            self.assertIn(f'setvar VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}', assembly)
+            self.assertIn(f'goto_if_eq {root}_Dictionary', assembly)
             for tag in ('ru', 'de'):
                 for band in ('A1', 'A2', 'natural'):
-                    self.assertIn(f"LearnerOpening_{entry['id']}_{tag}_{band}:", assembly)
+                    self.assertIn(f"{root}_{tag}_{band}:", assembly)
+                self.assertIn(f'{root}_{tag}_WordsDisplay:', assembly)
+            self.assertIn(f'{root}_Dictionary:', assembly)
+        self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
         # Every assembly text emitted by opening.generate is independently bounded.
         for block in assembly.split('::\n')[1:]:
             byte_lines = []

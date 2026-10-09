@@ -610,9 +610,12 @@ class LessonTests(unittest.TestCase):
         response = pc_source.split('static void ItemStorage_PrintItemPcResponse(u16 itemId)\n{', 1)[1].split('\n}', 1)[0]
         self.assertIn('string = Learner_Translate(string);', response)
         self.assertIn('string = ItemId_GetDescription(itemId);', response)
-        self.assertIn('StringExpandPlaceholders(gStringVar4, gOtherText_WhatWillYouDoMail)', pc_source)
+        self.assertIn('StringExpandPlaceholders(gStringVar4, PlayerPCLearnerText(gOtherText_WhatWillYouDoMail))', pc_source)
         shop_source = (demo.ROOT / 'src/shop.c').read_text(encoding='utf-8')
-        self.assertIn('StringExpandPlaceholders(gStringVar4, gOtherText_HowManyYouWant)', shop_source)
+        for symbol in ('gOtherText_HowManyYouWant', 'gOtherText_ThatWillBe',
+                       'gOtherText_ThatWillBe2', 'gOtherText_ThatWillBe3',
+                       'gOtherText_SpaceForIsFull'):
+            self.assertIn(f'StringExpandPlaceholders(gStringVar4, ShopLearnerText({symbol}))', shop_source)
         expansion_source = (demo.ROOT / 'src/string_util.c').read_text(encoding='utf-8')
         self.assertIn('src = Learner_Translate(src);', expansion_source)
         menu_source = (demo.ROOT / 'src/script_menu.c').read_text(encoding='utf-8')

@@ -662,7 +662,7 @@ static void Shop_DisplayPriceInList(int firstItemId, int lastItemId, bool32 hasC
     if (i != 8 && gMartInfo.choicesAbove + i == gMartInfo.itemCount)
     {
         Menu_BlankWindowRect(0xE, (i << 1) + 2, 0x1C, (i << 1) + 3);
-        Menu_PrintText(gOtherText_CancelNoTerminator, 0xE, (i << 1) + 2);
+        Menu_PrintText(ShopLearnerText(gOtherText_CancelNoTerminator), 0xE, (i << 1) + 2);
     }
 }
 
@@ -685,7 +685,7 @@ static void Shop_PrintItemDescText(void)
     }
     else
     {
-        sub_8072AB0(gOtherText_QuitShopping, 0x4, 0x68, 0x68, 0x30, 0);
+        sub_8072AB0(ShopLearnerText(gOtherText_QuitShopping), 0x4, 0x68, 0x68, 0x30, 0);
     }
 }
 
@@ -750,7 +750,7 @@ static void Task_DoItemPurchase(u8 taskId)
             }
             else
             {
-                StringExpandPlaceholders(gStringVar4, gOtherText_SpaceForIsFull);
+                StringExpandPlaceholders(gStringVar4, ShopLearnerText(gOtherText_SpaceForIsFull));
                 DisplayItemMessageOnField(taskId, gStringVar4, Shop_DoPricePrintAndReturnToBuyMenu, 0xC3E1);
             }
         }
@@ -791,7 +791,7 @@ static void Shop_PrintPrice(u8 taskId)
         Learner_CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
         ConvertIntToDecimalStringN(gStringVar2, gTasks[taskId].tItemCount, 0, 0x2);
         ConvertIntToDecimalStringN(gStringVar3, gMartTotalCost, 0, 0x8);
-        StringExpandPlaceholders(gStringVar4, gOtherText_ThatWillBe);
+        StringExpandPlaceholders(gStringVar4, ShopLearnerText(gOtherText_ThatWillBe));
         DisplayItemMessageOnField(taskId, gStringVar4, Shop_DoYesNoPurchase, 0xC3E1);
     }
     else if (JOY_NEW(B_BUTTON))
@@ -1163,7 +1163,7 @@ static void Shop_DoCursorAction(u8 taskId)
                     else // _080B42BA
                     {
                         Learner_CopyItemName(gMartInfo.itemList[gMartInfo.choicesAbove + gMartInfo.cursor], gStringVar1);
-                        StringExpandPlaceholders(gStringVar4, gOtherText_HowManyYouWant);
+                        StringExpandPlaceholders(gStringVar4, ShopLearnerText(gOtherText_HowManyYouWant));
                         DisplayItemMessageOnField(taskId, gStringVar4, Shop_UpdateCurItemCountToMax, 0xC3E1);                    
                     }
                 }
@@ -1181,9 +1181,9 @@ static void Shop_DoCursorAction(u8 taskId)
                         ConvertIntToDecimalStringN(gStringVar2, gMartTotalCost, 0, 0x8);
 
                         if (gMartInfo.martType == MART_TYPE_1)
-                            StringExpandPlaceholders(gStringVar4, gOtherText_ThatWillBe2);
+                            StringExpandPlaceholders(gStringVar4, ShopLearnerText(gOtherText_ThatWillBe2));
                         else
-                            StringExpandPlaceholders(gStringVar4, gOtherText_ThatWillBe3);
+                            StringExpandPlaceholders(gStringVar4, ShopLearnerText(gOtherText_ThatWillBe3));
                         DisplayItemMessageOnField(taskId, gStringVar4, Shop_DoYesNoPurchase, 0xC3E1);
                     }
                 }

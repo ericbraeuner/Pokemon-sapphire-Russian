@@ -4521,4 +4521,37 @@
   ,"PCText_Worried":{"ru":"Он беспокоится о вас?","de":"Hat es dich vermisst?","widths":{},"max_width":176}
   ,"PCText_Surprise":{"ru":"... ... ...!","de":"... ... ...!","widths":{},"max_width":144}
   ,"PCText_PleaseRemoveMail":{"ru":"Сначала снимите ПИСЬМО.","de":"BRIEF bitte entfernen.","widths":{},"max_width":176}
+
+  ,"gOtherText_BagIsFull":{"ru":"СУМКА заполнена.{PAUSE_UNTIL_PRESS}","de":"Der BEUTEL ist voll.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_Exit":{"ru":"ВЫЙТИ","de":"BEENDEN","widths":{},"max_width":64}
+  ,"gOtherText_HowManyToWithdraw":{"ru":"Сколько взять?","de":"Wie viele nehmen?","widths":{},"max_width":144}
+  ,"gOtherText_MailWasReturned":{"ru":"ПИСЬМО в СУМКЕ.\\nСообщение удалено.{PAUSE_UNTIL_PRESS}","de":"BRIEF im BEUTEL.\\nText gelöscht.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_MessageWillBeLost":{"ru":"Сообщение исчезнет.\\nПродолжить?","de":"Der Inhalt geht verloren.\\nIst das okay?","widths":{},"max_width":216}
+  ,"gOtherText_MoveToBag":{"ru":"В СУМКУ","de":"IN BEUTEL GEBEN","widths":{},"max_width":128}
+  ,"gOtherText_NoItems":{"ru":"Предметов нет.{PAUSE_UNTIL_PRESS}","de":"Es gibt keine Items.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_NoMailHere":{"ru":"Здесь нет ПИСЕМ.{PAUSE_UNTIL_PRESS}","de":"Hier ist kein BRIEF.{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_NoMoreRoom":{"ru":"В СУМКЕ больше\\nнет места.","de":"Im BEUTEL ist\\nkein Platz mehr.","widths":{},"max_width":176}
+  ,"gOtherText_WhatWillYouDo":{"ru":"Что вы хотите сделать?","de":"Was möchtest du tun?","widths":{},"max_width":216}
+  ,"gPCText_Mailbox":{"ru":"ПОЧТА","de":"BRIEFBOX","widths":{},"max_width":96}
+  ,"OtherText_Give":{"ru":"ДАТЬ","de":"GEBEN","widths":{},"max_width":48}
+  ,"OtherText_Read":{"ru":"ЧИТАТЬ","de":"LESEN","widths":{},"max_width":56}
+  ,"PCText_DepositItem":{"ru":"ПОЛОЖИТЬ","de":"ITEM ABLEGEN","widths":{},"max_width":112}
+  ,"PCText_StoreItems":{"ru":"Положить предметы в ПК.","de":"Items auf dem PC lagern.","widths":{},"max_width":216}
+  ,"PCText_TakeOutItems":{"ru":"Взять предметы из ПК.","de":"Items vom PC nehmen.","widths":{},"max_width":216}
+  ,"PCText_ThrowAwayItems":{"ru":"Выбросить предметы из ПК.","de":"Gelagerte Items wegwerfen.","widths":{},"max_width":216}
+  ,"PCText_TossItem":{"ru":"ВЫБРОСИТЬ","de":"ITEM IN MÜLL","widths":{},"max_width":112}
+  ,"PCText_WithdrawItem":{"ru":"ВЗЯТЬ","de":"ITEM NEHMEN","widths":{},"max_width":104}
+  ,"SecretBaseText_ItemStorage":{"ru":"ПРЕДМЕТЫ","de":"ITEM-LAGER","widths":{},"max_width":104}
+  ,"SecretBaseText_Decoration":{"ru":"УКРАШЕНИЯ","de":"DEKORATION","widths":{},"max_width":104}
+  ,"SecretBaseText_TurnOff":{"ru":"ВЫКЛЮЧИТЬ","de":"AUSSCHALTEN","widths":{},"max_width":104}
+  ,"MartText_Buy":{"ru":"КУПИТЬ","de":"KAUFEN","widths":{},"max_width":64}
+  ,"MartText_Sell":{"ru":"ПРОДАТЬ","de":"VERKAUFEN","widths":{},"max_width":80}
+  ,"MartText_Quit2":{"ru":"УЙТИ","de":"TSCHÜSS!","widths":{},"max_width":72}
+  ,"gOtherText_AnythingElse":{"ru":"Могу ещё чем-нибудь\\nпомочь?","de":"Kann ich dir sonst noch\\nhelfen?","widths":{},"max_width":216}
+  ,"gOtherText_CanIHelpYou":{"ru":"Могу ещё помочь?","de":"Noch etwas?","widths":{},"max_width":216}
+  ,"gOtherText_FreePremierBall":{"ru":"ПРЕМЬЕР-БОЛ\\nбесплатно!{PAUSE_UNTIL_PRESS}","de":"PREMIERBALL gratis!{PAUSE_UNTIL_PRESS}","widths":{},"max_width":216}
+  ,"gOtherText_HereYouGo":{"ru":"Вот, пожалуйста!\\nБольшое спасибо.","de":"Bitte sehr!\\nVielen Dank.","widths":{},"max_width":216}
+  ,"gOtherText_HereYouGo2":{"ru":"Спасибо!\\nОтправлю это на ваш домашний ПК.","de":"Danke!\\nIch sende es auf deinen PC.","widths":{},"max_width":216}
+  ,"gOtherText_HereYouGo3":{"ru":"Спасибо!\\nОтправлю это на ваш ПК.","de":"Danke!\\nIch sende es auf deinen PC.","widths":{},"max_width":216}
+  ,"gOtherText_QuitShopping":{"ru":"Закончить покупки.","de":"Einkauf beenden.","widths":{},"max_width":216}
 }

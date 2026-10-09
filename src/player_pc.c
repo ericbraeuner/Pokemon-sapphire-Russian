@@ -914,7 +914,7 @@ static void ItemStorage_DrawItemList(u8 taskId)
 
         if (i == NUM_ITEMS)
         {
-            sub_8072A18(gOtherText_CancelNoTerminator, 0x80, (yCoord + 2) * 8, 0x68, 1);
+            sub_8072A18(PlayerPCLearnerText(gOtherText_CancelNoTerminator), 0x80, (yCoord + 2) * 8, 0x68, 1);
             break;
         }
         else
@@ -1085,7 +1085,7 @@ static void Mailbox_DrawMailList(u8 taskId) // taskId is unused
         Menu_BlankWindowRect(0x15, yCoord + 2, 0x1C, yCoord + 3);
         if (i == eMailboxInfo.count)
         {
-            Menu_PrintText(gOtherText_CancelNoTerminator, 0x15, yCoord + 2);
+            Menu_PrintText(PlayerPCLearnerText(gOtherText_CancelNoTerminator), 0x15, yCoord + 2);
             break;
         }
         else
@@ -1191,7 +1191,7 @@ static void Mailbox_PrintWhatToDoWithPlayerMailText(u8 taskId)
     Menu_EraseWindowRect(0, 0, 0x1D, 0x13);
     StringCopy(gStringVar1, gSaveBlock1.mail[eMailboxInfo.itemsAbove + 6 + eMailboxInfo.cursorPos].playerName);
     SanitizeNameString(gStringVar1);
-    StringExpandPlaceholders(gStringVar4, gOtherText_WhatWillYouDoMail);
+    StringExpandPlaceholders(gStringVar4, PlayerPCLearnerText(gOtherText_WhatWillYouDoMail));
     DisplayItemMessageOnField(taskId, gStringVar4, Mailbox_PrintMailOptions, 0);
 }
 
@@ -1291,7 +1291,7 @@ static const u8 gHighlightedMoveToBagFormatText[] = _("{COLOR RED}{STR_VAR_1}");
 static void Mailbox_MoveToBag(u8 taskId)
 {
     Menu_DestroyCursor();
-    StringCopy(gStringVar1, gOtherText_MoveToBag);
+    StringCopy(gStringVar1, PlayerPCLearnerText(gOtherText_MoveToBag));
     Menu_PrintText(gHighlightedMoveToBagFormatText, 1, 3); // gHighlightedMoveToBagFormatText
     DisplayItemMessageOnField(taskId, gOtherText_MessageWillBeLost, Mailbox_DrawYesNoBeforeMove, 0);
 }

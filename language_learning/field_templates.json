@@ -4554,4 +4554,18 @@
   ,"gOtherText_HereYouGo2":{"ru":"Спасибо!\\nОтправлю это на ваш домашний ПК.","de":"Danke!\\nIch sende es auf deinen PC.","widths":{},"max_width":216}
   ,"gOtherText_HereYouGo3":{"ru":"Спасибо!\\nОтправлю это на ваш ПК.","de":"Danke!\\nIch sende es auf deinen PC.","widths":{},"max_width":216}
   ,"gOtherText_QuitShopping":{"ru":"Закончить покупки.","de":"Einkauf beenden.","widths":{},"max_width":216}
+
+  ,"UnknownString_81A4932":{"ru":"Когда все готовы: A -\\nподтвердить, B - отмена.","de":"Wenn alle bereit sind:\\nA - Bestätigen, B -\\pAbbrechen.","widths":{},"max_width":192}
+  ,"UnknownString_81A4975":{"ru":"Начать связь для\\n{STR_VAR_1} игроков?\\pA - подтвердить, B -\\nотмена.","de":"Verbindung für\\n{STR_VAR_1} Spieler\\pstarten? A -\\nBestätigen, B -\\pAbbrechen.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
+  ,"UnknownString_81A49B6":{"ru":"Ожидание связи...\\nB: отмена","de":"Warte auf Verbindung...\\nB: Abbrechen","widths":{},"max_width":192}
+  ,"UnknownString_81A49E2":{"ru":"Перед связью нужно\\nсохраниться. Сохранить?","de":"Vor der Verbindung\\nmuss gespeichert werden.\\pSpeichern?","widths":{},"max_width":192}
+  ,"TradeRoom_WillLinkBeTerminated":{"ru":"Если выйти, связь\\nпрервётся. Выйти?","de":"Beim Verlassen endet\\ndie Verbindung. Gehen?","widths":{},"max_width":192}
+  ,"TradeRoom_TerminatingLink":{"ru":"Связь завершается...\\nПожалуйста, подождите.","de":"Verbindung endet...\\nBitte warten.","widths":{},"max_width":192}
+  ,"CableClub_TooBusyToNotice":{"ru":"Этот ТРЕНЕР\\nзанят...","de":"TRAINER ist\\nbeschäftigt...","widths":{},"max_width":192}
+  ,"CableClub_LookAtTrainerCard1":{"ru":"Удалось увидеть КАРТУ\\nТРЕНЕРА {STR_VAR_1}!","de":"TRAINERPASS von\\n{STR_VAR_1} angesehen!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"CableClub_LookAtTrainerCard2":{"ru":"КАРТА ТРЕНЕРА:\\n{STR_VAR_1}.\\pЦвет: {STR_VAR_2}.","de":"TRAINERPASS von\\n{STR_VAR_1}.\\pFarbe: {STR_VAR_2}.","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":10}}
+  ,"UnknownString_81A4E0A":{"ru":"Выберите ПОКЕМОНА\\nдля МУЛЬТИ-БОЯ.","de":"Wähle dein POKéMON\\nfür den MULTIKAMPF.","widths":{},"max_width":192}
+  ,"UnknownString_81A0B57":{"ru":"Добро пожаловать в КЛУБ\\nСВЯЗИ: ОБМЕН.","de":"Willkommen im LINK-KLUB-\\nTAUSCHCENTER.","widths":{},"max_width":192}
+  ,"UnknownString_81A0B87":{"ru":"Добро пожаловать в КЛУБ\\nСВЯЗИ: КОЛИЗЕЙ.","de":"Willkommen im LINK-KLUB-\\nKOLOSSEUM.","widths":{},"max_width":192}
+  ,"UnknownString_81A0BB4":{"ru":"Добро пожаловать в КЛУБ\\nСВЯЗИ: КАПСУЛА ВРЕМЕНИ.","de":"Willkommen im LINK-KLUB-\\nZEITKAPSEL.","widths":{},"max_width":192}
 }

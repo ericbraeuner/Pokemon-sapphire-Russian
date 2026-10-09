@@ -1946,8 +1946,15 @@ class LessonTests(unittest.TestCase):
     def test_cable_club_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/cable_club.inc').read_text(errors='replace')
-        symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(35, len(symbols))
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)(?:::|:)', source, re.MULTILINE))
+        self.assertEqual(45, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
+    def test_shared_cable_club_welcome_text_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/pkmn_center_nurse.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^(UnknownString_[A-Za-z0-9_]+):', source, re.MULTILINE))
+        self.assertEqual(3, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_pokedex_rating_dialogue_is_bilingual(self):

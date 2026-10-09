@@ -13,14 +13,14 @@ gText_NurseJoy_ThankYouForWaiting:: @ 81A0B14
 	.string "We've restored your POKéMON to\n"
 	.string "full health.$"
 
-UnknownString_81A0B57: @ 81A0B57
+UnknownString_81A0B57:: @ 81A0B57
 	.string "Welcome to the POKéMON CABLE CLUB\n"
 	.string "TRADE CENTER.$"
 
-UnknownString_81A0B87: @ 81A0B87
+UnknownString_81A0B87:: @ 81A0B87
 	.string "Welcome to the POKéMON CABLE CLUB\n"
 	.string "COLOSSEUM.$"
 
-UnknownString_81A0BB4: @ 81A0BB4
+UnknownString_81A0BB4:: @ 81A0BB4
 	.string "Welcome to the POKéMON CABLE CLUB\n"
 	.string "TIME CAPSULE.$"

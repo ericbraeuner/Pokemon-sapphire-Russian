@@ -62,21 +62,21 @@ OldaleTown_PokemonCenter_2F_Text_1A490C:: @ 81A490C
 	.string "... ... B Button: Cancel$"
 
 gUnknown_081A4932:: @ 81A4932
-UnknownString_81A4932: @ 81A4932
+UnknownString_81A4932:: @ 81A4932
 	.string "When all players are ready...\n"
 	.string "A Button: Confirm   B Button: Cancel$"
 
 gUnknown_081A4975:: @ 81A4975
-UnknownString_81A4975: @ 81A4975
+UnknownString_81A4975:: @ 81A4975
 	.string "Start link with {STR_VAR_1} players.\n"
 	.string "A Button: Confirm   B Button: Cancel$"
 
 gUnknown_081A49B6:: @ 81A49B6
-UnknownString_81A49B6: @ 81A49B6
+UnknownString_81A49B6:: @ 81A49B6
 	.string "Awaiting linkup...\n"
 	.string "... ... B Button: Cancel$"
 
-UnknownString_81A49E2: @ 81A49E2
+UnknownString_81A49E2:: @ 81A49E2
 	.string "Your progress must be saved before\n"
 	.string "linking. Is it okay to save?$"
 
@@ -127,22 +127,22 @@ OldaleTown_PokemonCenter_2F_Text_1A4C38:: @ 81A4C38
 	.string "Please confirm the number of players\n"
 	.string "and start again.$"
 
-TradeRoom_WillLinkBeTerminated: @ 81A4C6E
+TradeRoom_WillLinkBeTerminated:: @ 81A4C6E
 	.string "The link will be terminated if you\n"
 	.string "leave the room. Is that okay?$"
 
-TradeRoom_TerminatingLink: @ 81A4CAF
+TradeRoom_TerminatingLink:: @ 81A4CAF
 	.string "Terminating link... You will be\n"
 	.string "escorted out of the room. Please wait.$"
 
-CableClub_TooBusyToNotice: @ 81A4CF6
+CableClub_TooBusyToNotice:: @ 81A4CF6
 	.string "This TRAINER is too busy to notice...$"
 
-CableClub_LookAtTrainerCard1: @ 81A4D1C
+CableClub_LookAtTrainerCard1:: @ 81A4D1C
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
 	.string "TRAINER CARD!$"
 
-CableClub_LookAtTrainerCard2: @ 81A4D45
+CableClub_LookAtTrainerCard2:: @ 81A4D45
 	.string "Score! Got to look at {STR_VAR_1}'s\n"
 	.string "TRAINER CARD! It's a {STR_VAR_2} card!$"
 
@@ -160,7 +160,7 @@ RecordCorner_Text_1A4DD7:: @ 81A4DD7
 RecordCorner_Text_1A4DF7:: @ 81A4DF7
 	.string "Thanks for coming.$"
 
-UnknownString_81A4E0A: @ 81A4E0A
+UnknownString_81A4E0A:: @ 81A4E0A
 	.string "Please choose your POKéMON for the\n"
 	.string "MULTI BATTLE.$"
 

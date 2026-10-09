@@ -1957,6 +1957,13 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(3, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_mt_chimney_story_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/magma_chimney.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)(?:::|:)', source, re.MULTILINE))
+        self.assertEqual(24, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_pokedex_rating_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/pokedex_rating.inc').read_text(errors='replace')
@@ -2041,7 +2048,7 @@ class LessonTests(unittest.TestCase):
                 found = [symbol for symbol in found
                          if symbol in ('Text_TheBagIsFull', 'Text_TooBadBagIsFull')]
             symbols.update(found)
-        self.assertEqual(21, len(symbols))
+        self.assertEqual(24, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_easy_chat_group_names_are_bilingual(self):

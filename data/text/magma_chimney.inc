@@ -78,7 +78,7 @@ MtChimney_Text_1B3D9A:: @ 81B3D9A
 	.string "That annoying TEAM AQUA...\n"
 	.string "They always mess with our plans!$"
 
-MtChimney_Text_1B3DD6: @ 81B3DD6
+MtChimney_Text_1B3DD6:: @ 81B3DD6
 	.string "METEORITES pack amazing power!$"
 
 MtChimney_Text_1B3DF5:: @ 81B3DF5
@@ -94,7 +94,7 @@ MtChimney_Text_1B3E7A:: @ 81B3E7A
 	.string "Yeah!\n"
 	.string "Douse them in fire!$"
 
-UnknownString_81B3E94: @ 81B3E94
+UnknownString_81B3E94:: @ 81B3E94
 	.string "We're going to keep making more land!$"
 
 MtChimney_Text_1B3EBA:: @ 81B3EBA

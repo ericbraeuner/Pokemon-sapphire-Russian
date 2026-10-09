@@ -1964,6 +1964,13 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(24, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
+    def test_mt_pyre_summit_story_dialogue_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        source = (demo.ROOT / 'data/text/magma_summit.inc').read_text(errors='replace')
+        symbols = set(re.findall(r'^([A-Za-z_]\w*)(?:::|:)', source, re.MULTILINE))
+        self.assertEqual(22, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+
     def test_pokedex_rating_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/text/pokedex_rating.inc').read_text(errors='replace')

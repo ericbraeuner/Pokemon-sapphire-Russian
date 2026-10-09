@@ -90,7 +90,7 @@ MtPyre_Summit_Text_1B62E7:: @ 81B62E7
 	.string "You will return the RED ORB to its\n"
 	.string "rightful place, yes?$"
 
-UnknownString_81B6374: @ 81B6374
+UnknownString_81B6374:: @ 81B6374
 	.string "{PLAYER} handed the RED ORB to the\n"
 	.string "old woman.$"
 

@@ -1,7 +1,9 @@
 # Play the Russian and German opening
 
-This version translates Birch's introduction, 90 field dialogue entries,
-the player-name prompt, and the clock confirmation. Room coverage includes the
+This version translates Birch's introduction, the player-name prompt, and the
+clock confirmation. Its automated source audit now covers every exported text
+label used by active Pokémon Sapphire maps, plus shared services and special
+events that live outside individual map files. Room coverage includes the
 GameCube, notebook, bookshelves, PC startup/email, and ordinary TV messages.
 Coverage now includes Littleroot's outdoor NPCs and signs, Route 101's rescue,
 the starter gift and follow-up prompts, and Mom's running shoes dialogue.
@@ -21,10 +23,11 @@ Shared nurse healing messages, shop greetings and buying prompts, Center PC
 startup/primary menus, and the map heading are translated too. Oldale's five
 shop items have translated names and descriptions in the buy and bag screens. Quantity
 and price remain live values in the translated purchase confirmation.
-It is still a partial translation: naming-keyboard button artwork, title/continue
-menus, most item/decor names and descriptions, species names in battle, later TV
-broadcasts, and later field scenes retain English.
-The clock's AM/PM artwork also remains unchanged.
+All 202 regional Pokédex entries, all 339 named usable items, all 354 gameplay
+moves, 77 abilities, battle species names, and active field scenes have bilingual
+runtime paths. Some tile-based artwork still needs a visual audit, including the
+naming keyboard and clock's AM/PM graphic. Debug, unused, and Ruby-exclusive text
+is intentionally outside the Sapphire translation catalogue.
 Shared item receipt/found/storage messages, bag action labels, basic bag prompts,
 and selling confirmations now use the selected language throughout the game.
 Pokédex search explanations, colors, ordering options, and search results are
@@ -37,10 +40,10 @@ the selected language. Bag discard confirmations/results and PC item-deposit
 results keep their actual item name and quantity. Field item-use messages and
 several common item errors are translated. Compact action buttons fit the bag's
 two-column menu without overlapping.
-The upstairs link club, remaining item/decor catalogue, Pokédex species entries,
-and uncatalogued later field scenes still need work. Detailed Pokémon storage,
-shared Bag prompts, Pokédex interface artwork, and the shop's MONEY graphic are
-bilingual.
+The upstairs link club, detailed Pokémon storage, shared Bag prompts, Pokédex
+interface artwork, and the shop's MONEY graphic are bilingual. Source coverage is
+broader than emulator coverage, so uncommon branches still need live playtesting
+for layout, menu cleanup, and contextual wording.
 
 ## Try it
 
@@ -115,18 +118,15 @@ Do not expect the demo ROM to match the original game's hash.
 
 ## Next development milestones
 
-1. Translate the remaining Pokédex species/detail content. Route 102 now has
-   Lotad, Seedot, Ralts, and Surskit names, categories, and descriptions;
-   expand the shared item catalogue. Battle-message and move-name coverage is
-   complete. The compact
-   PAGE/AREA/CRY/SIZE labels and detailed Pokémon
-   storage actions and embedded party/close labels are now bilingual. Play-test
-   the Route 103 rival fight and Pokédex handoff in both languages; expand route
-   by route with a checklist.
+1. Run the remaining emulator checklist in both languages, especially uncommon
+   services, minigames, Secret Bases, event-ticket scenes, and late-game branches.
+   Source and width checks cannot prove that every window closes and redraws well.
 2. Add a dictionary shortcut during dialogue that pauses and restores the current
    page. Audit button uses first; R is a candidate, not an implemented shortcut.
-3. Connect exposures and dictionary requests to learner profiles, and add more
-   difficulty-specific variants where they improve learning.
+3. Connect exposures and dictionary requests to learner profiles, add more
+   difficulty-specific variants where they improve learning, and obtain a
+   native-speaker editorial review of Russian and German wording.
 
-Full target-language immersion remains the intended final product. English
-outside covered scenes is unfinished coverage, not a deliberate return to English.
+Full target-language immersion remains the intended final product. Any English
+found in an active Sapphire scene should be reported as a missed runtime path or
+graphic rather than treated as deliberate behavior.

@@ -457,6 +457,7 @@ class LessonTests(unittest.TestCase):
                      if name.startswith('Ability') and not name.endswith('Desc')]
         self.assertEqual(77, len(abilities))
         for name in abilities:
+            self.assertIn(name + 'Desc', ui_entries)
             for tag, mapping, glyphs in [('ru', self.russian, self.glyphs),
                                          ('de', self.latin, {})]:
                 self.assertEqual(1, len(demo.wrap(ui_entries[name][tag], mapping, glyphs, 136)))
@@ -2099,7 +2100,7 @@ class LessonTests(unittest.TestCase):
         for name in names:
             source = (demo.ROOT / 'data/text' / name).read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(58, len(symbols))
+        self.assertEqual(59, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_shared_character_events_are_bilingual(self):
@@ -2135,6 +2136,47 @@ class LessonTests(unittest.TestCase):
             local = required & set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
             required -= local
         self.assertFalse(required)
+
+    def test_remaining_local_data_text_labels_are_intentional(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        covered = set(templates)
+        covered.update(entry['base_symbol'] for entry in opening.load()['dialogues'])
+        labels = []
+        for path in (demo.ROOT / 'data/text').glob('*.inc'):
+            source = path.read_text(errors='replace')
+            for name, address in re.findall(
+                    r'^([A-Za-z_]\w*)(?:::|:).*?@\s*([0-9A-Fa-f]+)',
+                    source, re.MULTILINE):
+                labels.append((path.name, name, address))
+        covered_addresses = {address for _, name, address in labels if name in covered}
+        dedicated_tables = {
+            ('ability_names.inc', 'gAbilityNames'),
+            ('ability_descriptions.inc', 'gAbilityDescriptions'),
+            ('type_names.inc', 'gTypeNames'),
+        }
+        unused = {
+            ('bard.inc', 'gTextBard_BardTesting'),
+            ('mystery_event_club.inc', 'UnknownString_81B1F7A'),
+            ('record_mix.inc', 'UnusedMixRecordsPromptText'),
+            ('record_mix.inc', 'UnusedMixRecordsSeeYouAgainText'),
+            ('sample_message.inc', 'Text_SampleMessage1'),
+            ('sample_message.inc', 'Text_SampleMessage2'),
+            ('sample_message.inc', 'Text_SampleMessage3'),
+            ('secret_base_trainers.inc', 'UnknownString_81A19DF'),
+            ('secret_base_trainers.inc', 'UnknownString_81A1AC6'),
+        }
+        unexpected = []
+        for filename, name, address in labels:
+            if name in covered or address in covered_addresses:
+                continue
+            if filename == 'ability_descriptions.inc' and name.startswith('gAbilityDescription_'):
+                continue
+            if filename == 'magma_awakening.inc':  # Ruby-only side of an assembly conditional.
+                continue
+            if (filename, name) in dedicated_tables or (filename, name) in unused:
+                continue
+            unexpected.append((filename, name))
+        self.assertEqual([], unexpected)
 
     def test_common_services_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

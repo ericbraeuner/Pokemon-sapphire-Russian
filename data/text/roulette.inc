@@ -43,7 +43,7 @@ gUnknown_081C41F1:: @ 81C41F1
 UnknownString_81C41F1: @ 81C41F1
 	.string "The ROULETTE board will be cleared.$"
 
-UnknownString_81C4215: @ 81C4215
+UnknownString_81C4215:: @ 81C4215
 	.string "You don't have a COIN CASE.$"
 
 gUnknown_081C4231:: @ 81C4231

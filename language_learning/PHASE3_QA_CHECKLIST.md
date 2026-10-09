@@ -40,6 +40,9 @@ start a new disposable save.
   must retain its normal behavior rather than showing an unrelated dictionary.
 - Open the same dictionary from the post-dialogue menu and confirm that it still
   returns to that menu cleanly.
+- Obtain or find an item, use an item, and trigger a shop/Bag message covered by
+  `field_dictionary.json`. Press R and verify its glossary, replayed live item
+  name or quantity, and subsequent event behavior.
 
 ## Party and summary
 

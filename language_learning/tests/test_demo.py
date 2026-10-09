@@ -14,6 +14,7 @@ import opening
 import ui
 import battle
 import field_templates
+import field_dictionary
 import graphic_labels
 import trainer_eyes
 
@@ -134,6 +135,24 @@ class LessonTests(unittest.TestCase):
         self.assertIn('VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) != 0', source)
         self.assertIn('VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 1)', source)
         self.assertIn('gMain.newKeys |= A_BUTTON', source)
+
+    def test_common_field_messages_have_contextual_dictionaries(self):
+        entries = field_dictionary.load()
+        self.assertEqual(20, len(entries))
+        assembly = '\n'.join(field_dictionary.generate(self.russian, self.latin, self.glyphs))
+        self.assertIn('gLearnerFieldDictionaries::', assembly)
+        self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 20', assembly)
+        for index, (symbol, languages) in enumerate(entries.items()):
+            self.assertIn(f'\t.4byte {symbol}, LearnerFieldDictionary_{index}_ru, LearnerFieldDictionary_{index}_de', assembly)
+            for lemma, _ in languages['de']:
+                if lemma[0].isupper():
+                    self.assertRegex(lemma, r'^(der|die|das) ')
+
+        source = (demo.ROOT / 'src/scrcmd.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_GetFieldDictionary(msg)', source)
+        self.assertIn('LearnerWaitForFieldDictionary', source)
+        self.assertIn('ShowFieldMessage(sLearnerFieldDictionaryMessage)', source)
+        self.assertIn('ShowFieldMessage(sLearnerFieldDictionaryReplay)', source)
 
     def test_russian_capital_baselines_and_diaeresis(self):
         for char, rows in self.glyphs.items():

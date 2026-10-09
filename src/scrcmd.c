@@ -43,6 +43,50 @@
 #include "sound.h"
 #include "string_util.h"
 #include "tv.h"
+
+#if LEARNER_DEMO
+#define LEARNER_FIELD_DICTIONARY_CONTEXT 0xFFFE
+static const u8 *sLearnerFieldDictionaryMessage;
+static const u8 *sLearnerFieldDictionaryReplay;
+static u8 sLearnerFieldDictionaryWaitState;
+
+static bool8 LearnerWaitForFieldDictionary(void)
+{
+    u16 count;
+
+    if (!IsFieldMessageBoxHidden())
+        return FALSE;
+
+    switch (sLearnerFieldDictionaryWaitState)
+    {
+    case 0:
+        if (VarGet(VAR_LEARNER_DICTIONARY_REQUEST) != 1)
+            break;
+        VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+        count = VarGet(VAR_LEARNER_DICTIONARY_COUNT);
+        if (count != 0xFFFF)
+            VarSet(VAR_LEARNER_DICTIONARY_COUNT, count + 1);
+        VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
+        ShowFieldMessage(sLearnerFieldDictionaryMessage);
+        sLearnerFieldDictionaryWaitState = 1;
+        return FALSE;
+    case 1:
+        VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
+        ShowFieldMessage(sLearnerFieldDictionaryReplay);
+        sLearnerFieldDictionaryWaitState = 2;
+        return FALSE;
+    case 2:
+        break;
+    }
+
+    VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
+    VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+    sLearnerFieldDictionaryMessage = NULL;
+    sLearnerFieldDictionaryReplay = NULL;
+    sLearnerFieldDictionaryWaitState = 0;
+    return TRUE;
+}
+#endif
 #include "constants/event_objects.h"
 #include "constants/maps.h"
 
@@ -1234,6 +1278,21 @@ bool8 ScrCmd_message(struct ScriptContext *ctx)
 
     if (msg == NULL)
         msg = (u8 *)ctx->data[0];
+#if LEARNER_DEMO
+    sLearnerFieldDictionaryMessage = Learner_GetFieldDictionary(msg);
+    sLearnerFieldDictionaryReplay = sLearnerFieldDictionaryMessage != NULL ? msg : NULL;
+    sLearnerFieldDictionaryWaitState = 0;
+    if (sLearnerFieldDictionaryMessage != NULL)
+    {
+        VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
+        VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+    }
+    else if (VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) == LEARNER_FIELD_DICTIONARY_CONTEXT)
+    {
+        VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
+        VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+    }
+#endif
     ShowFieldMessage(msg);
     return FALSE;
 }
@@ -1250,6 +1309,11 @@ bool8 ScrCmd_messageautoscroll(struct ScriptContext *ctx)
 
 bool8 ScrCmd_waitmessage(struct ScriptContext *ctx)
 {
+#if LEARNER_DEMO
+    if (sLearnerFieldDictionaryMessage != NULL)
+        SetupNativeScript(ctx, LearnerWaitForFieldDictionary);
+    else
+#endif
     SetupNativeScript(ctx, IsFieldMessageBoxHidden);
     return TRUE;
 }

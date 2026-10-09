@@ -63,6 +63,8 @@ extern const u8 *const gLearnerMapNames[][2];
 extern const u16 gLearnerMapNameCount;
 extern const u8 *const gLearnerTrainerEyeDescriptions[][2];
 extern const u16 gLearnerTrainerEyeDescriptionCount;
+extern const u8 *const gLearnerFieldDictionaries[][3];
+extern const u16 gLearnerFieldDictionaryCount;
 
 const u8 *Learner_Translate(const u8 *text)
 {
@@ -73,6 +75,17 @@ const u8 *Learner_Translate(const u8 *text)
             if (text == gLearnerUiTranslations[i][0])
                 return gLearnerUiTranslations[i][language];
     return text;
+}
+
+const u8 *Learner_GetFieldDictionary(const u8 *text)
+{
+    u16 i;
+    u8 language = Learner_GetLanguage();
+    if (text != NULL && language >= 1 && language <= 2)
+        for (i = 0; i < gLearnerFieldDictionaryCount; i++)
+            if (text == gLearnerFieldDictionaries[i][0])
+                return gLearnerFieldDictionaries[i][language];
+    return NULL;
 }
 
 const u8 *Learner_MapName(u16 section, const u8 *fallback)

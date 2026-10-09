@@ -144,6 +144,8 @@ def generate():
         parts.append(assembly_bytes(f"LearnerLesson_{prefix}Words", message(pages, mapping, glyphs, font)))
     import opening
     parts.extend(opening.generate(russian, latin, glyphs))
+    import field_dictionary
+    parts.extend(field_dictionary.generate(russian, latin, glyphs))
     import ui
     parts.extend(ui.generate(russian, latin, glyphs))
     import graphic_labels

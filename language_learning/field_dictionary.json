@@ -1,0 +1,22 @@
+{
+  "gOtherText_NotEnoughMoney": {"ru": [["деньги", "money"], ["хватать", "to be enough"]], "de": [["das Geld", "money"], ["genug", "enough"]]},
+  "gOtherText_NoRoomFor": {"ru": [["сумка", "bag"], ["место", "space"]], "de": [["der Beutel", "bag"], ["der Platz", "space"]]},
+  "Text_ObtainedTheItem": {"ru": [["получить", "to receive"]], "de": [["erhalten", "to receive"]]},
+  "Text_FoundOneItem": {"ru": [["найти", "to find"]], "de": [["finden", "to find"]]},
+  "Text_PutItemInPocket": {"ru": [["отдел", "compartment"]], "de": [["das Fach", "compartment"]]},
+  "gOtherText_HowManyToSell": {"ru": [["сколько", "how many"], ["продать", "to sell"]], "de": [["wie viele", "how many"], ["verkaufen", "to sell"]]},
+  "gOtherText_CanPay": {"ru": [["цена", "price"], ["продать", "to sell"]], "de": [["der Preis", "price"], ["verkaufen", "to sell"]]},
+  "gOtherText_SoldItem": {"ru": [["продано", "sold"]], "de": [["verkauft", "sold"]]},
+  "gOtherText_CantBuyThat": {"ru": [["нельзя", "not possible"], ["продать", "to sell"]], "de": [["unverkäuflich", "not for sale"]]},
+  "gOtherText_OkayToThrowAwayPrompt": {"ru": [["выбросить", "to throw away"]], "de": [["wegwerfen", "to throw away"]]},
+  "gOtherText_ThrewAwayItem": {"ru": [["выброшено", "discarded"]], "de": [["entsorgt", "discarded"]]},
+  "gOtherText_DepositedItems": {"ru": [["положить", "to deposit"]], "de": [["ablegen", "to deposit"]]},
+  "gOtherText_WithdrewThing": {"ru": [["взять", "to take"]], "de": [["holen", "to retrieve"]]},
+  "gOtherText_HowManyYouWant": {"ru": [["сколько", "how many"], ["купить", "to buy"]], "de": [["wie viele", "how many"], ["kaufen", "to buy"]]},
+  "gOtherText_UsedItem": {"ru": [["использовать", "to use"]], "de": [["einsetzen", "to use"]]},
+  "gOtherText_UsedRepel": {"ru": [["дикий", "wild"], ["не подойти", "to stay away"]], "de": [["wild", "wild"], ["fernbleiben", "to stay away"]]},
+  "gOtherText_CantGetOffBike": {"ru": [["здесь", "here"], ["слезть", "to get off"]], "de": [["hier", "here"], ["absteigen", "to get off"]]},
+  "gOtherText_NoPokemon": {"ru": [["нет", "there is no"], ["покемон", "Pokémon"]], "de": [["kein", "no"], ["das Pokémon", "Pokémon"]]},
+  "gOtherText_DadsAdvice": {"ru": [["совет", "advice"], ["время", "time"], ["место", "place"]], "de": [["der Rat", "advice"], ["jetzt", "now"], ["hier", "here"]]},
+  "gOtherText_NoResponse": {"ru": [["прибор", "device"], ["реагировать", "to respond"]], "de": [["die Reaktion", "response"], ["keine", "none"]]}
+}

@@ -76,6 +76,10 @@ the learner build reads/writes them. Always keep experimental saves separate.
 During an authored learning dialogue, R requests the active dictionary. The
 generated script shows the correct Russian or German entries and then replays
 the interrupted page. Text without curated vocabulary remains unaffected.
+`field_dictionary.json` extends the same behavior to an initial set of 20 common
+item, shop, Bag, and field messages. Its central wait handler shows the glossary,
+replays the original message with its live names and quantities, and then resumes
+the original event script.
 Each authored target-language page and each dictionary opening increments its
 own saved counter. Both stop at 65,535 instead of wrapping to zero. These totals
 are groundwork for later learner profiles; they do not change difficulty yet.

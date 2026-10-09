@@ -1,24 +1,24 @@
-UnknownString_81C34B2: @ 81C34B2
+UnknownString_81C34B2:: @ 81C34B2
 	.string "Would you like to exit the SAFARI ZONE\n"
 	.string "right now?$"
 
-UnknownString_81C34E4: @ 81C34E4
+UnknownString_81C34E4:: @ 81C34E4
 	.string "Ding-dong! Time's up!\n"
 	.string "Your SAFARI Game is over.$"
 
-UnknownString_81C3514: @ 81C3514
+UnknownString_81C3514:: @ 81C3514
 	.string "You've run out of SAFARI BALLS.\n"
 	.string "Your SAFARI Game is over.$"
 
-UnknownString_81C354E: @ 81C354E
+UnknownString_81C354E:: @ 81C354E
 	.string "Would you like to place a {POKEBLOCK}\n"
 	.string "on the {POKEBLOCK} FEEDER?$"
 
-UnknownString_81C3583: @ 81C3583
+UnknownString_81C3583:: @ 81C3583
 	.string "The {STR_VAR_1} you left\n"
 	.string "before is still here.$"
 
-UnknownString_81C35A9: @ 81C35A9
+UnknownString_81C35A9:: @ 81C35A9
 	.string "The {STR_VAR_1} was placed\n"
 	.string "on the {POKEBLOCK} FEEDER.$"
 

@@ -40,7 +40,7 @@ Route117_Text_1B27E3:: @ 81B27E3
 	.string "I may even have seen it receiving\n"
 	.string "a piece of MAIL.$"
 
-UnknownString_81B2858: @ 81B2858
+UnknownString_81B2858:: @ 81B2858
 	.string "If you want to pick up your POKéMON,\n"
 	.string "have a word with my wife.$"
 
@@ -98,7 +98,7 @@ Route117_PokemonDayCare_Text_1B2AEF:: @ 81B2AEF
 	.string "Your POKéMON team is full.\n"
 	.string "Make room, then come see me.$"
 
-UnknownString_81B2B27: @ 81B2B27
+UnknownString_81B2B27:: @ 81B2B27
 	.string "Which POKéMON will you take back?$"
 
 Route117_PokemonDayCare_Text_1B2B49:: @ 81B2B49
@@ -125,7 +125,7 @@ Route117_PokemonDayCare_Text_1B2C17:: @ 81B2C17
 	.string "what will you battle with?\p"
 	.string "Come back another time.$"
 
-UnknownString_81B2C68: @ 81B2C68
+UnknownString_81B2C68:: @ 81B2C68
 	.string "Huh?$"
 
 @ XXX JP

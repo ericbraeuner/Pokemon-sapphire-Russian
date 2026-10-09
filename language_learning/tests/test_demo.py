@@ -1940,7 +1940,7 @@ class LessonTests(unittest.TestCase):
         for name in ('day_care.inc', 'safari_zone.inc'):
             source = (demo.ROOT / 'data/text' / name).read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(57, len(symbols))
+        self.assertEqual(66, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_cable_club_dialogue_is_bilingual(self):
@@ -2011,6 +2011,34 @@ class LessonTests(unittest.TestCase):
         handler = script_commands.split('bool8 ScrCmd_braillemessage', 1)[1].split('\n}', 1)[0]
         self.assertIn('translated = Learner_Translate(ptr)', handler)
         self.assertIn('StringCopy(gStringVar4, translated)', handler)
+
+    def test_shared_furniture_surf_daycare_and_safari_text_is_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        required = {
+            'check_furniture.inc': {
+                'Text_PictureBookshelf', 'Text_Bookshelf',
+                'Text_PokemonCenterBookshelf', 'Text_Vase',
+                'Text_EmptyTrashCan', 'Text_ShopShelf', 'Text_Blueprint',
+            },
+            'surf.inc': {'gText_WantToUseSurf', 'gText_PlayerUsedSurf'},
+            'day_care.inc': {
+                'UnknownString_81B2858', 'UnknownString_81B2B27',
+                'UnknownString_81B2C68',
+            },
+            'safari_zone.inc': {
+                'UnknownString_81C34B2', 'UnknownString_81C34E4',
+                'UnknownString_81C3514', 'UnknownString_81C354E',
+                'UnknownString_81C3583', 'UnknownString_81C35A9',
+            },
+        }
+        all_required = set()
+        for filename, symbols in required.items():
+            source = (demo.ROOT / 'data/text' / filename).read_text(errors='replace')
+            exported = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
+            self.assertTrue(symbols.issubset(exported))
+            all_required.update(symbols)
+        required = all_required
+        self.assertTrue(required.issubset(templates))
 
     def test_pokedex_rating_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

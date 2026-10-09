@@ -4704,4 +4704,23 @@
   ,"DesertRuins_Braille_UseStrength":{"ru":"ВПРАВО, ВПРАВО,\\nВНИЗ, ВНИЗ.\\pЗАТЕМ ИСПОЛЬЗУЙ СИЛУ.","de":"RECHTS, RECHTS,\\nRUNTER, RUNTER.\\pDANN STÄRKE EINSETZEN.","widths":{},"max_width":192}
   ,"IslandCave_Braille_WaitTwoMinutes":{"ru":"ОСТАНОВИСЬ И ЖДИ.\\pПУСТЬ ВРЕМЯ ПРОЙДЁТ\\nДВАЖДЫ.","de":"BLEIB STEHEN UND WARTE.\\pLASS DIE ZEIT\\nZWEIMAL VERGEHEN.","widths":{},"max_width":192}
   ,"AncientTomb_Braille_AimToTheSkyInTheMiddle":{"ru":"С НОВЫМ ВРЕМЕНЕМ,\\nНАДЕЖДОЙ И ЛЮБОВЬЮ,\\pСТРЕМИСЬ К НЕБУ\\nВ ЦЕНТРЕ.","de":"MIT NEUER ZEIT,\\nHOFFNUNG UND LIEBE,\\pZIELE IN DER MITTE\\nZUM HIMMEL.","widths":{},"max_width":192}
+
+  ,"Text_PictureBookshelf":{"ru":"Здесь стоят книжки с\\nкартинками о ПОКЕМОНАХ.","de":"Hier stehen Bilderbücher\\nüber POKéMON.","widths":{},"max_width":192}
+  ,"Text_Bookshelf":{"ru":"Полка заполнена разными\\nкнигами.","de":"Das Regal ist mit vielen\\nBüchern gefüllt.","widths":{},"max_width":192}
+  ,"Text_PokemonCenterBookshelf":{"ru":"Журналы о ПОКЕМОНАХ!\\pДРУГ ПОКЕМОНА...\\nСПРАВОЧНИК ПОКЕМОНА...\\pМИЛЫЕ ПОКЕМОНЫ...","de":"POKéMON-Zeitschriften!\\pPOKéMON-FREUND...\\nPOKéMON-HANDBUCH...\\pNIEDLICHE POKéMON...","widths":{},"max_width":192}
+  ,"Text_Vase":{"ru":"Эта ваза выглядит дорогой...\\nЗаглянуть внутрь...\\pНо она пуста.","de":"Die Vase wirkt teuer...\\nDu blickst hinein...\\pDoch sie ist leer.","widths":{},"max_width":192}
+  ,"Text_EmptyTrashCan":{"ru":"Пусто.","de":"Er ist leer.","widths":{},"max_width":192}
+  ,"Text_ShopShelf":{"ru":"Полки ломятся от разных\\nтоваров для ПОКЕМОНОВ.","de":"Die Regale sind voller\\nPOKéMON-Waren.","widths":{},"max_width":192}
+  ,"Text_Blueprint":{"ru":"Какой-то чертёж?\\nСлишком сложно!","de":"Eine Art Bauplan?\\nViel zu kompliziert!","widths":{},"max_width":192}
+  ,"gText_WantToUseSurf":{"ru":"Вода тёмно-синяя...\\nИспользовать СЁРФИНГ?","de":"Tiefblaues Wasser...\\nSURFER einsetzen?","widths":{},"max_width":192}
+  ,"gText_PlayerUsedSurf":{"ru":"{STR_VAR_1} применяет\\nСЁРФИНГ!","de":"{STR_VAR_1} setzt\\nSURFER ein!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81B2858":{"ru":"Если хочешь забрать ПОКЕМОНА,\\nпоговори с моей женой.","de":"Für die Abholung sprich\\nmit meiner Frau.","widths":{},"max_width":192}
+  ,"UnknownString_81B2B27":{"ru":"Какого ПОКЕМОНА забрать?","de":"Welches POKéMON\\nholst du ab?","widths":{},"max_width":192}
+  ,"UnknownString_81B2C68":{"ru":"А?","de":"Hä?","widths":{},"max_width":192}
+  ,"UnknownString_81C34B2":{"ru":"Выйти из ЗОНЫ САФАРИ\\nпрямо сейчас?","de":"SAFARI-ZONE\\njetzt verlassen?","widths":{},"max_width":192}
+  ,"UnknownString_81C34E4":{"ru":"Динь-дон! Время вышло!\\nИгра САФАРИ окончена.","de":"Ding-dong! Zeit ist um!\\nSAFARI-Spiel ist aus.","widths":{},"max_width":192}
+  ,"UnknownString_81C3514":{"ru":"ШАРЫ САФАРИ закончились.\\nИгра САФАРИ окончена.","de":"Keine SAFARIBÄLLE mehr.\\nSAFARI-Spiel ist aus.","widths":{},"max_width":192}
+  ,"UnknownString_81C354E":{"ru":"Положить {POKEBLOCK}\\nв КОРМУШКУ?","de":"Einen {POKEBLOCK} auf die\\nFUTTERSTELLE legen?","widths":{},"max_width":192}
+  ,"UnknownString_81C3583":{"ru":"Здесь всё ещё лежит\\n{STR_VAR_1}.","de":"{STR_VAR_1} von vorhin\\nliegt noch hier.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
+  ,"UnknownString_81C35A9":{"ru":"{STR_VAR_1} положен\\nв КОРМУШКУ.","de":"{STR_VAR_1} wurde auf die\\nFUTTERSTELLE gelegt.","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
 }

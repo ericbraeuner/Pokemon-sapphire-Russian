@@ -153,6 +153,13 @@ class LessonTests(unittest.TestCase):
         self.assertIn('LearnerWaitForFieldDictionary', source)
         self.assertIn('ShowFieldMessage(sLearnerFieldDictionaryMessage)', source)
         self.assertIn('ShowFieldMessage(sLearnerFieldDictionaryReplay)', source)
+        menu_helpers = (demo.ROOT / 'src/menu_helpers.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_GetFieldDictionary(str)', menu_helpers)
+        self.assertIn('PrintMessage(sLearnerItemDictionary', menu_helpers)
+        self.assertIn('PrintMessage(sLearnerItemDictionaryReplay', menu_helpers)
+        string_util = (demo.ROOT / 'src/string_util.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_BeginFieldDictionaryExpansion(dest, src)', string_util)
+        self.assertIn('Learner_EndFieldDictionaryExpansion(sLearnerExpansionDest)', string_util)
 
     def test_russian_capital_baselines_and_diaeresis(self):
         for char, rows in self.glyphs.items():

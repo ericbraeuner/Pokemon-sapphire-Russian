@@ -65,6 +65,17 @@ extern const u8 *const gLearnerTrainerEyeDescriptions[][2];
 extern const u16 gLearnerTrainerEyeDescriptionCount;
 extern const u8 *const gLearnerFieldDictionaries[][3];
 extern const u16 gLearnerFieldDictionaryCount;
+static EWRAM_DATA u8 *sLearnerExpandedDictionaryDest = NULL;
+static EWRAM_DATA const u8 *sLearnerExpandedDictionaryText = NULL;
+static EWRAM_DATA u16 sLearnerExpandedDictionaryHash = 0;
+
+static u16 Learner_DictionaryTextHash(const u8 *text)
+{
+    u16 hash = 0x811C;
+    while (*text != EOS)
+        hash = (hash ^ *text++) * 33;
+    return hash;
+}
 
 const u8 *Learner_Translate(const u8 *text)
 {
@@ -85,7 +96,31 @@ const u8 *Learner_GetFieldDictionary(const u8 *text)
         for (i = 0; i < gLearnerFieldDictionaryCount; i++)
             if (text == gLearnerFieldDictionaries[i][0])
                 return gLearnerFieldDictionaries[i][language];
+    if (text != NULL && text == sLearnerExpandedDictionaryDest
+     && sLearnerExpandedDictionaryText != NULL
+     && Learner_DictionaryTextHash(text) == sLearnerExpandedDictionaryHash)
+        return sLearnerExpandedDictionaryText;
     return NULL;
+}
+
+void Learner_BeginFieldDictionaryExpansion(u8 *dest, const u8 *source)
+{
+    sLearnerExpandedDictionaryDest = dest;
+    sLearnerExpandedDictionaryText = Learner_GetFieldDictionary(source);
+    sLearnerExpandedDictionaryHash = 0;
+}
+
+void Learner_EndFieldDictionaryExpansion(u8 *dest)
+{
+    if (dest == sLearnerExpandedDictionaryDest && sLearnerExpandedDictionaryText != NULL)
+        sLearnerExpandedDictionaryHash = Learner_DictionaryTextHash(dest);
+}
+
+void Learner_RecordDictionaryRequest(void)
+{
+    u16 count = VarGet(VAR_LEARNER_DICTIONARY_COUNT);
+    if (count != 0xFFFF)
+        VarSet(VAR_LEARNER_DICTIONARY_COUNT, count + 1);
 }
 
 const u8 *Learner_MapName(u16 section, const u8 *fallback)

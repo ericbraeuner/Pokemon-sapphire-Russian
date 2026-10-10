@@ -11,6 +11,11 @@ const u8 gRightPointingTriangleString[] = _("▶");
 
 static const u8 sDigits[] = __("0123456789ABCDEF");
 
+#if LEARNER_DEMO
+static u8 sLearnerExpansionDepth;
+static u8 *sLearnerExpansionDest;
+#endif
+
 static const s32 sPowersOfTen[] =
 {
              1,
@@ -374,6 +379,11 @@ u8 *ConvertIntToDecimalString(u8 *dest, s32 value)
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 {
 #if LEARNER_DEMO
+    if (sLearnerExpansionDepth++ == 0)
+    {
+        sLearnerExpansionDest = dest;
+        Learner_BeginFieldDictionaryExpansion(dest, src);
+    }
     src = Learner_Translate(src);
 #endif
     for (;;)
@@ -399,6 +409,10 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
             break;
         case EOS:
             *dest = EOS;
+#if LEARNER_DEMO
+            if (--sLearnerExpansionDepth == 0)
+                Learner_EndFieldDictionaryExpansion(sLearnerExpansionDest);
+#endif
             return dest;
         case 0xFA:
         case 0xFB:

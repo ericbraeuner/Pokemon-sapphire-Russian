@@ -45,15 +45,12 @@
 #include "tv.h"
 
 #if LEARNER_DEMO
-#define LEARNER_FIELD_DICTIONARY_CONTEXT 0xFFFE
 static const u8 *sLearnerFieldDictionaryMessage;
 static const u8 *sLearnerFieldDictionaryReplay;
 static u8 sLearnerFieldDictionaryWaitState;
 
 static bool8 LearnerWaitForFieldDictionary(void)
 {
-    u16 count;
-
     if (!IsFieldMessageBoxHidden())
         return FALSE;
 
@@ -63,9 +60,7 @@ static bool8 LearnerWaitForFieldDictionary(void)
         if (VarGet(VAR_LEARNER_DICTIONARY_REQUEST) != 1)
             break;
         VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
-        count = VarGet(VAR_LEARNER_DICTIONARY_COUNT);
-        if (count != 0xFFFF)
-            VarSet(VAR_LEARNER_DICTIONARY_COUNT, count + 1);
+        Learner_RecordDictionaryRequest();
         VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
         ShowFieldMessage(sLearnerFieldDictionaryMessage);
         sLearnerFieldDictionaryWaitState = 1;

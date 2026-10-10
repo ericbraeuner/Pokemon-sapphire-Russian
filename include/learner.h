@@ -1,6 +1,7 @@
 #ifndef GUARD_LEARNER_H
 #define GUARD_LEARNER_H
 #if LEARNER_DEMO
+#define LEARNER_FIELD_DICTIONARY_CONTEXT 0xFFFE
 #define LEARNER_DECLARE(name) \
     extern const u8 LearnerUI_ru_##name[]; \
     extern const u8 LearnerUI_de_##name[];
@@ -1134,6 +1135,9 @@ extern const u8 gLearnerMoneyTilesRu[], gLearnerMoneyTilesDe[];
 extern const u8 gLearnerPartyMiscTilesRu[], gLearnerPartyMiscTilesDe[];
 const u8 *Learner_Translate(const u8 *text);
 const u8 *Learner_GetFieldDictionary(const u8 *text);
+void Learner_BeginFieldDictionaryExpansion(u8 *dest, const u8 *source);
+void Learner_EndFieldDictionaryExpansion(u8 *dest);
+void Learner_RecordDictionaryRequest(void);
 const u8 *Learner_MapName(u16 section, const u8 *fallback);
 const u8 *Learner_TrainerEyeDescription(u16 trainerEyesId, const u8 *fallback);
 const u8 *Learner_NatureName(u8 nature, const u8 *fallback);

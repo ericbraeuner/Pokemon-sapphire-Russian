@@ -1,4 +1,5 @@
 #include "global.h"
+#include "event_data.h"
 #include "item_menu.h"
 #include "constants/items.h"
 #include "link.h"
@@ -14,6 +15,7 @@
 #include "task.h"
 #include "text.h"
 #include "learner.h"
+#include "constants/vars.h"
 
 #if LEARNER_DEMO
 #define MENU_HELPER_LEARNER_TEXT(text) Learner_Translate(text)
@@ -29,6 +31,13 @@ static EWRAM_DATA u8 gVerticalScrollIndicatorIds[4] = {0};
 static EWRAM_DATA struct YesNoFuncTable gUnknown_020388C4 = {0};
 
 static TaskFunc gUnknown_0300074C;
+
+#if LEARNER_DEMO
+static const u8 *sLearnerItemDictionary;
+static const u8 *sLearnerItemDictionaryReplay;
+static u16 sLearnerItemDictionaryTile;
+static u8 sLearnerItemDictionaryState;
+#endif
 
 static const u8 gSpriteImage_83E5808[] = INCBIN_U8("graphics/unknown_sprites/83E59A0/0.4bpp");
 
@@ -152,14 +161,65 @@ static void PrintMessage(const u8 *str, u16 tile)
 
 static void sub_80F9090(u8 taskId)
 {
+#if LEARNER_DEMO
+    if (sLearnerItemDictionary != NULL
+     && sLearnerItemDictionaryState == 0
+     && JOY_NEW(R_BUTTON))
+    {
+        VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 1);
+        gMain.newKeys |= A_BUTTON;
+    }
+#endif
     if (Menu_UpdateWindowText() == TRUE)
     {
+#if LEARNER_DEMO
+        if (sLearnerItemDictionary != NULL)
+        {
+            if (sLearnerItemDictionaryState == 0
+             && VarGet(VAR_LEARNER_DICTIONARY_REQUEST) == 1)
+            {
+                VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+                VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
+                Learner_RecordDictionaryRequest();
+                PrintMessage(sLearnerItemDictionary, 0);
+                sLearnerItemDictionaryState = 1;
+                return;
+            }
+            if (sLearnerItemDictionaryState == 1)
+            {
+                VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
+                PrintMessage(sLearnerItemDictionaryReplay, sLearnerItemDictionaryTile);
+                sLearnerItemDictionaryState = 0;
+                return;
+            }
+            VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
+            VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+            sLearnerItemDictionary = NULL;
+            sLearnerItemDictionaryReplay = NULL;
+        }
+#endif
         gUnknown_0300074C(taskId);
     }
 }
 
 void DisplayItemMessageOnField(u8 taskId, const u8 *str, TaskFunc callback, u16 tile)
 {
+#if LEARNER_DEMO
+    sLearnerItemDictionary = Learner_GetFieldDictionary(str);
+    sLearnerItemDictionaryReplay = sLearnerItemDictionary != NULL ? str : NULL;
+    sLearnerItemDictionaryTile = tile;
+    sLearnerItemDictionaryState = 0;
+    if (sLearnerItemDictionary != NULL)
+    {
+        VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
+        VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+    }
+    else if (VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) == LEARNER_FIELD_DICTIONARY_CONTEXT)
+    {
+        VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
+        VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
+    }
+#endif
     PrintMessage(str, tile);
     gUnknown_0300074C = callback;
     gTasks[taskId].func = sub_80F9090;

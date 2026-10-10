@@ -61,7 +61,7 @@ for layout, menu cleanup, and contextual wording.
    Try the PC and wall map upstairs, then the town signs, NPCs, neighbor and lab.
 6. Help menus provide Next, Read again, Translation, Dictionary, and Settings in
    the selected language. B means Next; story actions still run normally.
-   During one of the 90 authored learning dialogues, or one of the first 40
+   During one of the 90 authored learning dialogues, or one of the first 60
    curated common field messages, wait for the current text page to finish and
    press **R** to open its dictionary immediately. Closing the dictionary replays
    that page so you do not lose your place.
@@ -126,7 +126,7 @@ Do not expect the demo ROM to match the original game's hash.
    services, minigames, Secret Bases, event-ticket scenes, and late-game branches.
    Source and width checks cannot prove that every window closes and redraws well.
 2. Expand the R-button dictionary shortcut beyond the 90 authored learning
-   dialogues and first 40 shared field messages as more curated vocabulary is added.
+   dialogues and first 60 shared field messages as more curated vocabulary is added.
 3. Connect exposures and dictionary requests to learner profiles, add more
    difficulty-specific variants where they improve learning, and obtain a
    native-speaker editorial review of Russian and German wording.

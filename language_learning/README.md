@@ -76,8 +76,8 @@ the learner build reads/writes them. Always keep experimental saves separate.
 During an authored learning dialogue, R requests the active dictionary. The
 generated script shows the correct Russian or German entries and then replays
 the interrupted page. Text without curated vocabulary remains unaffected.
-`field_dictionary.json` extends the same behavior to 40 common item, shop, PC,
-mail, Secret Base, and field messages. Its central wait handler shows the glossary,
+`field_dictionary.json` extends the same behavior to 60 item, shop, PC, mail,
+Secret Base, Abandoned Ship, and field messages. Its central wait handler shows the glossary,
 replays the original message with its live names and quantities, and then resumes
 the original event script.
 Each authored target-language page and each dictionary opening increments its

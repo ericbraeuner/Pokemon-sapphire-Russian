@@ -138,10 +138,10 @@ class LessonTests(unittest.TestCase):
 
     def test_common_field_messages_have_contextual_dictionaries(self):
         entries = field_dictionary.load()
-        self.assertEqual(20, len(entries))
+        self.assertEqual(40, len(entries))
         assembly = '\n'.join(field_dictionary.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerFieldDictionaries::', assembly)
-        self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 20', assembly)
+        self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 40', assembly)
         for index, (symbol, languages) in enumerate(entries.items()):
             self.assertIn(f'\t.4byte {symbol}, LearnerFieldDictionary_{index}_ru, LearnerFieldDictionary_{index}_de', assembly)
             for lemma, _ in languages['de']:
@@ -160,6 +160,12 @@ class LessonTests(unittest.TestCase):
         string_util = (demo.ROOT / 'src/string_util.c').read_text(encoding='utf-8')
         self.assertIn('Learner_BeginFieldDictionaryExpansion(dest, src)', string_util)
         self.assertIn('Learner_EndFieldDictionaryExpansion(sLearnerExpansionDest)', string_util)
+        makefile = (demo.ROOT / 'Makefile').read_text(encoding='utf-8')
+        dependency_line = next(line for line in makefile.splitlines()
+                               if line.startswith('build/learner_demo/lesson.s:')
+                               and 'field_templates.json' in line)
+        self.assertIn('language_learning/field_dictionary.json', dependency_line)
+        self.assertIn('language_learning/tools/field_dictionary.py', dependency_line)
 
     def test_russian_capital_baselines_and_diaeresis(self):
         for char, rows in self.glyphs.items():

@@ -6,6 +6,7 @@ import build_demo as demo
 def load():
     entries = demo.validate.load(demo.ROOT / 'language_learning/field_dictionary.json')
     translated = demo.validate.load(demo.ROOT / 'language_learning/field_templates.json')
+    translated.update(demo.validate.load(demo.ROOT / 'language_learning/ui_sources.json'))
     for symbol, languages in entries.items():
         if not re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]*', symbol):
             raise ValueError(f'Unsafe field dictionary symbol: {symbol}')

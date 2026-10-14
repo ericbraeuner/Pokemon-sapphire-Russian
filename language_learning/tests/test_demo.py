@@ -138,10 +138,10 @@ class LessonTests(unittest.TestCase):
 
     def test_common_field_messages_have_contextual_dictionaries(self):
         entries = field_dictionary.load()
-        self.assertEqual(80, len(entries))
+        self.assertEqual(100, len(entries))
         assembly = '\n'.join(field_dictionary.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerFieldDictionaries::', assembly)
-        self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 80', assembly)
+        self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 100', assembly)
         for index, (symbol, languages) in enumerate(entries.items()):
             self.assertIn(f'\t.4byte {symbol}, LearnerFieldDictionary_{index}_ru, LearnerFieldDictionary_{index}_de', assembly)
             for lemma, _ in languages['de']:

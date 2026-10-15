@@ -50,6 +50,17 @@ class LessonTests(unittest.TestCase):
             profile_sync.merge(updated, rewound)
         self.assertEqual(39, profile_sync.merge(updated, rewound, allow_reset=True)["rom_learning"]["exposure_count"])
 
+    def test_mgba_exporter_reads_reserved_learner_variables(self):
+        source = (demo.ROOT / "language_learning/mgba/export_learner_snapshot.lua").read_text(encoding="utf-8")
+        self.assertIn("local SAVE_BLOCK1 = 0x02025734", source)
+        self.assertIn("local VARS_OFFSET = 0x1340", source)
+        for variable in ("0x40F0", "0x40F1", "0x40F5", "0x40F6"):
+            self.assertIn(variable, source)
+        self.assertIn("emu:read16(SAVE_BLOCK1 + VARS_OFFSET", source)
+        self.assertIn('callbacks:add("savedataUpdated", exportIfChanged)', source)
+        self.assertIn('"schema_version": 1', source)
+        self.assertNotIn("emu:write", source)
+
     def test_russian_round_trip_and_font_restoration(self):
         phrase = "Привет! Добро пожаловать домой!"
         codes = demo.encode(phrase, self.russian)

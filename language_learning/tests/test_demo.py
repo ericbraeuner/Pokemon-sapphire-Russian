@@ -198,7 +198,7 @@ class LessonTests(unittest.TestCase):
             entry["id"] for entry in catalogue["dialogues"]
             if entry["source"]["kind"] == "script_hook"
         }
-        self.assertEqual(60, len(connected))
+        self.assertEqual(80, len(connected))
         for tag in ("ru", "de"):
             pack = validate.load(
                 demo.ROOT / f"language_learning/language_packs/{tag}/pack.json"
@@ -268,6 +268,17 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(challenge_variants[0], challenge_variants[1])
         self.assertIn(challenge_variants[0],
                       (["shared"], ["simple", "connected", "natural"]))
+
+        for tag, word_id, article in (
+                ("ru", "ru.podarok", None),
+                ("de", "de.geschenk", "das Geschenk"),
+                ("de", "de.reihenfolge", "die Reihenfolge")):
+            pack = validate.load(
+                demo.ROOT / f"language_learning/language_packs/{tag}/pack.json"
+            )
+            word = next(item for item in pack["vocabulary"] if item["id"] == word_id)
+            if article is not None:
+                self.assertEqual(article, word["dictionary_form"])
 
     def test_adaptive_selector_reaches_natural_room_dialogue(self):
         pack = validate.load(demo.ROOT / "language_learning/language_packs/de/pack.json")

@@ -1158,6 +1158,391 @@
         "rival",
         "battle"
       ]
+    },
+    {
+      "id": "route103.may.victory.061",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route103/scripts.inc",
+        "symbol": "Route103_EventScript_14ECBD",
+        "base_text_path": "data/maps/Route103/text.inc",
+        "base_text_symbol": "Route103_Text_16D688",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 60
+      },
+      "tags": [
+        "route",
+        "rival",
+        "battle"
+      ]
+    },
+    {
+      "id": "route103.brendan.victory.062",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route103/scripts.inc",
+        "symbol": "Route103_EventScript_14ECCB",
+        "base_text_path": "data/maps/Route103/text.inc",
+        "base_text_symbol": "Route103_Text_16D856",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 61
+      },
+      "tags": [
+        "route",
+        "rival",
+        "battle"
+      ]
+    },
+    {
+      "id": "littleroot.lab.birch.pokedex_gift.063",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 62
+      },
+      "tags": [
+        "lab",
+        "pokedex"
+      ]
+    },
+    {
+      "id": "littleroot.lab.birch.pokedex_explain.064",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 63
+      },
+      "tags": [
+        "lab",
+        "pokedex"
+      ]
+    },
+    {
+      "id": "littleroot.lab.birch.pokemon_await.065",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 64
+      },
+      "tags": [
+        "lab",
+        "pokedex"
+      ]
+    },
+    {
+      "id": "littleroot.lab.may.pokeballs_gift.066",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 65
+      },
+      "tags": [
+        "lab",
+        "item",
+        "catching"
+      ]
+    },
+    {
+      "id": "littleroot.lab.brendan.pokeballs_gift.067",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 66
+      },
+      "tags": [
+        "lab",
+        "item",
+        "catching"
+      ]
+    },
+    {
+      "id": "littleroot.lab.may.pokeballs_explain.068",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 67
+      },
+      "tags": [
+        "lab",
+        "catching"
+      ]
+    },
+    {
+      "id": "littleroot.lab.brendan.pokeballs_explain.069",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 68
+      },
+      "tags": [
+        "lab",
+        "catching"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.girl.rest.070",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_Girl",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_SavingMyProgress",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 69
+      },
+      "tags": [
+        "oldale",
+        "save"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.employee.invite.071",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_MartEmployee",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_IWorkAtPokemonMart",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 70
+      },
+      "tags": [
+        "oldale",
+        "shop"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.employee.tour.072",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_ExplainPokemonMart",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_ThisIsAPokemonMart",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 71
+      },
+      "tags": [
+        "oldale",
+        "shop"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.employee.potion.073",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_ExplainPotion",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_PotionExplanation",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 72
+      },
+      "tags": [
+        "oldale",
+        "shop",
+        "item"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.footprints.stop.074",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_BlockedPath",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_WaitDontComeInHere",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 73
+      },
+      "tags": [
+        "oldale",
+        "story"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.footprints.discovery.075",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_FootprintsMan",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_DiscoveredFootprints",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 74
+      },
+      "tags": [
+        "oldale",
+        "story"
+      ]
+    },
+    {
+      "id": "oldale.outdoor.footprints.own.076",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_NotBlockingPath",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_FinishedSketchingFootprints",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 75
+      },
+      "tags": [
+        "oldale",
+        "story"
+      ]
+    },
+    {
+      "id": "oldale.rival.may.return.077",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_ShowMayMessage",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_MayLetsGoBack",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 76
+      },
+      "tags": [
+        "oldale",
+        "rival"
+      ]
+    },
+    {
+      "id": "oldale.rival.brendan.return.078",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_ShowBrendanMessage",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_BrendanLetsGoBack",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 77
+      },
+      "tags": [
+        "oldale",
+        "rival"
+      ]
+    },
+    {
+      "id": "oldale.town.sign.079",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown/scripts.inc",
+        "symbol": "OldaleTown_EventScript_TownSign",
+        "base_text_path": "data/maps/OldaleTown/text.inc",
+        "base_text_symbol": "OldaleTown_Text_TownSign",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 78
+      },
+      "tags": [
+        "oldale",
+        "sign"
+      ]
+    },
+    {
+      "id": "oldale.house1.party_order.080",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_House1/scripts.inc",
+        "symbol": "OldaleTown_House1_EventScript_Woman",
+        "base_text_path": "data/maps/OldaleTown_House1/text.inc",
+        "base_text_symbol": "OldaleTown_House1_Text_LeftPokemonGoesOutFirst",
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 79
+      },
+      "tags": [
+        "oldale",
+        "party"
+      ]
     }
   ]
 }

@@ -694,6 +694,160 @@
       "forms": [
         "бой"
       ]
+    },
+    {
+      "id": "ru.drug",
+      "lemma": "друг",
+      "english": "friend",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route103.may.victory.061",
+      "forms": [
+        "друг"
+      ]
+    },
+    {
+      "id": "ru.popytka",
+      "lemma": "попытка",
+      "english": "attempt",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.pokedex_gift.063",
+      "forms": [
+        "попытка"
+      ]
+    },
+    {
+      "id": "ru.lovit",
+      "lemma": "ловить",
+      "english": "to catch",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.pokedex_explain.064",
+      "forms": [
+        "ловить"
+      ]
+    },
+    {
+      "id": "ru.zhdat",
+      "lemma": "ждать",
+      "english": "to wait",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.pokemon_await.065",
+      "forms": [
+        "ждать"
+      ]
+    },
+    {
+      "id": "ru.podarok",
+      "lemma": "подарок",
+      "english": "gift",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.may.pokeballs_gift.066",
+      "forms": [
+        "подарок"
+      ]
+    },
+    {
+      "id": "ru.mesto",
+      "lemma": "место",
+      "english": "place",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.may.pokeballs_explain.068",
+      "forms": [
+        "место"
+      ]
+    },
+    {
+      "id": "ru.magazin",
+      "lemma": "магазин",
+      "english": "shop",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.employee.invite.071",
+      "forms": [
+        "магазин"
+      ]
+    },
+    {
+      "id": "ru.krysha",
+      "lemma": "крыша",
+      "english": "roof",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.employee.tour.072",
+      "forms": [
+        "крыша"
+      ]
+    },
+    {
+      "id": "ru.zele",
+      "lemma": "зелье",
+      "english": "potion",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.employee.potion.073",
+      "forms": [
+        "зелье"
+      ]
+    },
+    {
+      "id": "ru.sled",
+      "lemma": "след",
+      "english": "footprint; trace",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.footprints.stop.074",
+      "forms": [
+        "след"
+      ]
+    },
+    {
+      "id": "ru.redkiy",
+      "lemma": "редкий",
+      "english": "rare",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.footprints.discovery.075",
+      "forms": [
+        "редкий"
+      ]
+    },
+    {
+      "id": "ru.sobstvennyy",
+      "lemma": "собственный",
+      "english": "own",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.footprints.own.076",
+      "forms": [
+        "собственный"
+      ]
+    },
+    {
+      "id": "ru.domoy",
+      "lemma": "домой",
+      "english": "homeward",
+      "part_of_speech": "adverbial phrase",
+      "cefr": "A1",
+      "first_introduction": "oldale.rival.may.return.077",
+      "forms": [
+        "домой"
+      ]
+    },
+    {
+      "id": "ru.nachalo",
+      "lemma": "начало",
+      "english": "beginning",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.town.sign.079",
+      "forms": [
+        "начало"
+      ]
     }
   ],
   "grammar_notes": [
@@ -2566,6 +2720,426 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 59
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.may.victory.061",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию.",
+          "english_gloss": "Your Pokémon already likes you. Return to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.drug"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 60
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.brendan.victory.062",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Теперь понятно, почему папа верит в тебя. Покемон уже любит тебя! Ты легко подружишься с другими покемонами. Пойдём обратно в лабораторию.",
+          "english_gloss": "Your Pokémon already likes you. Return to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.drug"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 61
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.pokedex_gift.063",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Бёрч: Привет! Победа с первой попытки! Прекрасно! У моего ребёнка уже есть опыт. Возьми этот покедекс. Я заказал его для исследований, но он пригодится тебе.",
+          "english_gloss": "Birch congratulates you and gives you a Pokédex.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.popytka"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 62
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.pokedex_explain.064",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Бёрч: Покедекс сам записывает данные о покемонах, которых ты встречаешь или ловишь. Мой ребёнок всегда берёт его с собой. Новые данные о редких покемонах очень помогают мне в работе.",
+          "english_gloss": "The Pokédex records Pokémon you meet and catch.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 63
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.pokemon_await.065",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Бёрч: Тебя ждёт множество покемонов! Мне тоже не терпится вернуться к работе на природе.",
+          "english_gloss": "Many Pokémon await you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.zhdat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 64
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.may.pokeballs_gift.066",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок.",
+          "english_gloss": "Your rival has another gift for you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.podarok"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 65
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.brendan.pokeballs_gift.067",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "У тебя тоже есть покедекс! Отлично! У меня есть для тебя ещё один подарок.",
+          "english_gloss": "Your rival has another gift for you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.podarok"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 66
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.may.pokeballs_explain.068",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!",
+          "english_gloss": "Use Poké Balls to catch more Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.mesto"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 67
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.brendan.pokeballs_explain.069",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "С разными покемонами веселее! Я хочу побывать в разных местах. Интересных покемонов можно ловить в покеболы!",
+          "english_gloss": "Use Poké Balls to catch more Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.mesto"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 68
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.girl.rest.070",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Я хочу отдохнуть, поэтому сохраняю игру.",
+          "english_gloss": "I am saving before taking a break.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.otdykhat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 69
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.employee.invite.071",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Привет! Я работаю в магазине покемонов. Пойдём со мной!",
+          "english_gloss": "The shop employee invites you along.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.magazin"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 70
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.employee.tour.072",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Это магазин покемонов. Его легко найти по синей крыше. Мы продаём разные вещи, например покеболы для ловли покемонов. Вот небольшой подарок для тебя!",
+          "english_gloss": "Look for the blue roof. The shop sells supplies and gives you a gift.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.krysha"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 71
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.employee.potion.073",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Зельем можно пользоваться в любой момент. Иногда это удобнее, чем идти в центр покемонов.",
+          "english_gloss": "A Potion can be used anywhere.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.zele"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 72
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.footprints.stop.074",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Стой! Не заходи сюда! Я нашёл следы редкого покемона. Подожди, пока я их зарисую.",
+          "english_gloss": "Wait while the man sketches the footprints.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.sled"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 73
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.footprints.discovery.075",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Я нашёл следы редкого покемона! Подожди, пока я их зарисую.",
+          "english_gloss": "The man is drawing rare Pokémon footprints.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.redkiy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 74
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.footprints.own.076",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Я зарисовал следы редкого покемона. Но оказалось, что это мои собственные следы...",
+          "english_gloss": "The footprints turned out to be his own.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.sobstvennyy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 75
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.rival.may.return.077",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мэй: Сюда! Пойдём скорее домой!",
+          "english_gloss": "May asks you to hurry home.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.domoy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 76
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.rival.brendan.return.078",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Брендан: Я возвращаюсь в лабораторию папы. Тебе тоже пора туда!",
+          "english_gloss": "Brendan heads back to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.vozvrashchatsya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 77
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.town.sign.079",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Олдейл. Здесь всё начинается с малого.",
+          "english_gloss": "Oldale Town: small beginnings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.nachalo"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 78
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.house1.party_order.080",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "В начале боя первым выходит покемон слева в списке. Когда в команде станет больше покемонов, попробуй менять их порядок. Это может помочь в бою.",
+          "english_gloss": "Change party order to choose which Pokémon fights first.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.poryadok"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 79
           }
         }
       ]

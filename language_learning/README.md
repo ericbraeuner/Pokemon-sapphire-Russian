@@ -43,7 +43,7 @@ progress, enforces each variant's new-word budget, and selects the hardest
 eligible variant. Due vocabulary and known-word mastery break ties without ever
 changing the learner's selected CEFR level.
 
-The adaptive packs now cover the first sixty connected early-game scenes: arriving
+The adaptive packs now cover the first eighty connected early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -61,8 +61,10 @@ script and text symbol. The original welcome example retains its two established
 variants. Birch's starter gift and follow-up guidance, Mom's Running Shoes lesson,
 and both May and Brendan Route 103 research and battle-challenge branches are now
 part of the adaptive catalogue too. German noun records include their articles.
-These external selections do not rewrite the ROM dialogue yet; they are the
-authored input for a future wrapper or in-ROM selector.
+The Route 103 victory responses, Pokédex explanation, May and Brendan Poké Ball
+handoffs, and the first eleven Oldale interactions now follow the same adaptive
+contract. These external selections do not rewrite the ROM dialogue yet; they
+are the authored input for a future wrapper or in-ROM selector.
 
 ## Emulator/wrapper contract
 

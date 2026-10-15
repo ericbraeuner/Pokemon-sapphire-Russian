@@ -747,6 +747,192 @@
         "Kampf"
       ],
       "dictionary_form": "der Kampf"
+    },
+    {
+      "id": "de.freund",
+      "lemma": "Freund",
+      "english": "friend",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route103.may.victory.061",
+      "forms": [
+        "Freund"
+      ],
+      "dictionary_form": "der Freund"
+    },
+    {
+      "id": "de.versuch",
+      "lemma": "Versuch",
+      "english": "attempt",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.pokedex_gift.063",
+      "forms": [
+        "Versuch"
+      ],
+      "dictionary_form": "der Versuch"
+    },
+    {
+      "id": "de.fangen",
+      "lemma": "fangen",
+      "english": "to catch",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.pokedex_explain.064",
+      "forms": [
+        "fangen"
+      ]
+    },
+    {
+      "id": "de.warten",
+      "lemma": "warten",
+      "english": "to wait",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.pokemon_await.065",
+      "forms": [
+        "warten"
+      ]
+    },
+    {
+      "id": "de.geschenk",
+      "lemma": "Geschenk",
+      "english": "gift",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.may.pokeballs_gift.066",
+      "forms": [
+        "Geschenk"
+      ],
+      "dictionary_form": "das Geschenk"
+    },
+    {
+      "id": "de.pause",
+      "lemma": "Pause",
+      "english": "break",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.girl.rest.070",
+      "forms": [
+        "Pause"
+      ],
+      "dictionary_form": "die Pause"
+    },
+    {
+      "id": "de.laden",
+      "lemma": "Laden",
+      "english": "shop",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.employee.invite.071",
+      "forms": [
+        "Laden"
+      ],
+      "dictionary_form": "der Laden"
+    },
+    {
+      "id": "de.dach",
+      "lemma": "Dach",
+      "english": "roof",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.employee.tour.072",
+      "forms": [
+        "Dach"
+      ],
+      "dictionary_form": "das Dach"
+    },
+    {
+      "id": "de.trank",
+      "lemma": "Trank",
+      "english": "potion",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.employee.potion.073",
+      "forms": [
+        "Trank"
+      ],
+      "dictionary_form": "der Trank"
+    },
+    {
+      "id": "de.spur",
+      "lemma": "Spur",
+      "english": "footprint; trace",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.footprints.stop.074",
+      "forms": [
+        "Spur"
+      ],
+      "dictionary_form": "die Spur"
+    },
+    {
+      "id": "de.selten",
+      "lemma": "selten",
+      "english": "rare",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.footprints.discovery.075",
+      "forms": [
+        "selten"
+      ]
+    },
+    {
+      "id": "de.eigen",
+      "lemma": "eigen",
+      "english": "own",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.outdoor.footprints.own.076",
+      "forms": [
+        "eigen"
+      ]
+    },
+    {
+      "id": "de.nach_hause",
+      "lemma": "nach Hause",
+      "english": "homeward",
+      "part_of_speech": "adverbial phrase",
+      "cefr": "A1",
+      "first_introduction": "oldale.rival.may.return.077",
+      "forms": [
+        "nach Hause"
+      ]
+    },
+    {
+      "id": "de.zurueckgehen",
+      "lemma": "zurückgehen",
+      "english": "to go back",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.rival.brendan.return.078",
+      "forms": [
+        "zurückgehen"
+      ]
+    },
+    {
+      "id": "de.anfang",
+      "lemma": "Anfang",
+      "english": "beginning",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.town.sign.079",
+      "forms": [
+        "Anfang"
+      ],
+      "dictionary_form": "der Anfang"
+    },
+    {
+      "id": "de.reihenfolge",
+      "lemma": "Reihenfolge",
+      "english": "order",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.house1.party_order.080",
+      "forms": [
+        "Reihenfolge"
+      ],
+      "dictionary_form": "die Reihenfolge"
     }
   ],
   "grammar_notes": [
@@ -2620,6 +2806,426 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 59
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.may.victory.061",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor.",
+          "english_gloss": "Your Pokémon already likes you. Return to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.freund"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 60
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.brendan.victory.062",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Jetzt verstehe ich, warum Papa an dich glaubt. Dein Pokémon mag dich schon! Du findest sicher viele Pokémon als Freunde. Gehen wir zurück ins Labor.",
+          "english_gloss": "Your Pokémon already likes you. Return to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.freund"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 61
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.pokedex_gift.063",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Birk: Hallo! Gleich beim ersten Versuch gewonnen! Prima! Mein Kind hat schon Erfahrung. Nimm diesen Pokédex. Ich wollte ihn für die Forschung, aber du kannst ihn gut brauchen.",
+          "english_gloss": "Birch congratulates you and gives you a Pokédex.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.versuch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 62
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.pokedex_explain.064",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Birk: Der Pokédex speichert Daten über Pokémon, die du triffst oder fängst. Mein Kind nimmt ihn immer mit. Neue Daten über seltene Pokémon helfen mir bei meiner Arbeit.",
+          "english_gloss": "The Pokédex records Pokémon you meet and catch.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 63
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.pokemon_await.065",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Birk: Viele Pokémon warten auf dich! Ich möchte auch bald wieder draußen forschen.",
+          "english_gloss": "Many Pokémon await you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.warten"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 64
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.may.pokeballs_gift.066",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich.",
+          "english_gloss": "Your rival has another gift for you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.geschenk"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 65
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.brendan.pokeballs_gift.067",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Du hast auch einen Pokédex! Prima! Ich habe noch ein Geschenk für dich.",
+          "english_gloss": "Your rival has another gift for you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.geschenk"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 66
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.may.pokeballs_explain.068",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!",
+          "english_gloss": "Use Poké Balls to catch more Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.ort"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 67
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.brendan.pokeballs_explain.069",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mit vielen Pokémon macht es mehr Spaß! Ich möchte viele Orte besuchen. Interessante Pokémon fange ich mit Pokébällen!",
+          "english_gloss": "Use Poké Balls to catch more Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.ort"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 68
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.girl.rest.070",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Ich möchte eine Pause machen. Deshalb speichere ich meinen Fortschritt.",
+          "english_gloss": "I am saving before taking a break.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.pause"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 69
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.employee.invite.071",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Hallo! Ich arbeite im Pokémon-Markt. Komm mit!",
+          "english_gloss": "The shop employee invites you along.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.laden"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 70
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.employee.tour.072",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Das ist der Pokémon-Markt. Du erkennst ihn am blauen Dach. Wir verkaufen viele Dinge, zum Beispiel Pokébälle zum Fangen von Pokémon. Hier ist ein kleines Geschenk für dich!",
+          "english_gloss": "Look for the blue roof. The shop sells supplies and gives you a gift.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dach"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 71
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.employee.potion.073",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Einen Trank kannst du jederzeit benutzen. Manchmal ist das praktischer als ein Besuch im Pokémon-Center.",
+          "english_gloss": "A Potion can be used anywhere.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.trank"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 72
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.footprints.stop.074",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Halt! Komm bitte nicht hierher! Ich habe Spuren eines seltenen Pokémon entdeckt. Warte, bis ich sie gezeichnet habe.",
+          "english_gloss": "Wait while the man sketches the footprints.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.spur"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 73
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.footprints.discovery.075",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Ich habe Spuren eines seltenen Pokémon entdeckt! Warte, bis ich sie gezeichnet habe.",
+          "english_gloss": "The man is drawing rare Pokémon footprints.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.selten"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 74
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.outdoor.footprints.own.076",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Ich habe die Spuren des seltenen Pokémon gezeichnet. Aber es waren nur meine eigenen Fußspuren...",
+          "english_gloss": "The footprints turned out to be his own.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.eigen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 75
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.rival.may.return.077",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Maike: Hierher! Lass uns schnell nach Hause gehen!",
+          "english_gloss": "May asks you to hurry home.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.nach_hause"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 76
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.rival.brendan.return.078",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Brix: Ich gehe zurück in Papas Labor. Komm auch bald zurück!",
+          "english_gloss": "Brendan heads back to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.zurueckgehen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 77
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.town.sign.079",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Rosaltstadt. Hier fängt alles klein an.",
+          "english_gloss": "Oldale Town: small beginnings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.anfang"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 78
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.house1.party_order.080",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Im Kampf tritt zuerst das Pokémon links in der Liste an. Wenn du mehr Pokémon im Team hast, ändere ihre Reihenfolge. Das kann dir im Kampf helfen.",
+          "english_gloss": "Change party order to choose which Pokémon fights first.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.reihenfolge"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 79
           }
         }
       ]

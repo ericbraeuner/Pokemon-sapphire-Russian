@@ -22,6 +22,7 @@ def signature(path: Path) -> Signature:
 def sync_changed(profile: Path, snapshot: Path, previous: Signature | None, *,
                  review_output: Path | None = None,
                  dashboard_output: Path | None = None,
+                 variant_output: Path | None = None,
                  review_limit: int = 20,
                  include_upcoming: bool = False,
                  allow_reset: bool = False) -> tuple[Signature, bool]:
@@ -31,6 +32,7 @@ def sync_changed(profile: Path, snapshot: Path, previous: Signature | None, *,
     profile_sync.synchronize(
         profile, snapshot, allow_reset=allow_reset,
         review_output=review_output, dashboard_output=dashboard_output,
+        variant_output=variant_output,
         review_limit=review_limit, include_upcoming=include_upcoming,
     )
     return current, True
@@ -47,6 +49,7 @@ def main() -> int:
     parser.add_argument("snapshot", type=Path)
     parser.add_argument("--review-output", type=Path)
     parser.add_argument("--dashboard-output", type=Path)
+    parser.add_argument("--variant-output", type=Path)
     parser.add_argument("--review-limit", type=int, default=20)
     parser.add_argument("--include-upcoming", action="store_true")
     parser.add_argument("--allow-reset", action="store_true")
@@ -62,6 +65,7 @@ def main() -> int:
                 args.profile, args.snapshot, previous,
                 review_output=args.review_output,
                 dashboard_output=args.dashboard_output,
+                variant_output=args.variant_output,
                 review_limit=args.review_limit,
                 include_upcoming=args.include_upcoming,
                 allow_reset=args.allow_reset,

@@ -16,7 +16,8 @@
     "text": {"type": "string"},
     "english_gloss": {"type": "string"},
     "vocabulary_ids": {"type": "array", "items": {"type": "string"}},
-    "grammar_note_ids": {"type": "array", "items": {"type": "string"}}
+    "grammar_note_ids": {"type": "array", "items": {"type": "string"}},
+    "source_symbol": {"type": "string", "minLength": 1}
   },
   "additionalProperties": false
 }

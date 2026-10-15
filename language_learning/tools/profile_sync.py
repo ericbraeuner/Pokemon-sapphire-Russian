@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import context_catalog
+import adaptive_plan
 import learner_dashboard
 import review_queue
 
@@ -156,7 +157,8 @@ def _write_text(path: Path, value: str) -> None:
 def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = False,
                 review_output: Path | None = None, review_limit: int = 20,
                 include_upcoming: bool = False,
-                dashboard_output: Path | None = None) -> dict[str, Any]:
+                dashboard_output: Path | None = None,
+                variant_output: Path | None = None) -> dict[str, Any]:
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
     updated = merge(profile, snapshot, allow_reset=allow_reset)
@@ -169,11 +171,21 @@ def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = 
         )
     dashboard = (learner_dashboard.render(updated, now=captured_at, limit=review_limit)
                  if dashboard_output else None)
+    plan = None
+    if variant_output:
+        tag = updated["selected_language"]
+        pack = json.loads((Path(__file__).resolve().parents[1] / "language_packs" / tag / "pack.json").read_text(encoding="utf-8"))
+        catalogue = json.loads(
+            (Path(__file__).resolve().parents[1] / "integration/dialogue_catalog.json").read_text(encoding="utf-8")
+        )
+        plan = adaptive_plan.build(pack, updated, catalogue, now=captured_at)
     _write_json(profile_path, updated)
     if review_output and queue is not None:
         _write_json(review_output, queue)
     if dashboard_output and dashboard is not None:
         _write_text(dashboard_output, dashboard)
+    if variant_output and plan is not None:
+        _write_json(variant_output, plan)
     return updated
 
 
@@ -193,11 +205,14 @@ def main() -> int:
     parser.add_argument("--include-upcoming", action="store_true")
     parser.add_argument("--dashboard-output", type=Path,
                         help="also write a localized self-contained progress page")
+    parser.add_argument("--variant-output", type=Path,
+                        help="also write adaptive selections for unlocked dialogues")
     args = parser.parse_args()
     synchronize(
         args.profile, args.snapshot, allow_reset=args.allow_reset,
         review_output=args.review_output, review_limit=args.review_limit,
         include_upcoming=args.include_upcoming, dashboard_output=args.dashboard_output,
+        variant_output=args.variant_output,
     )
     return 0
 

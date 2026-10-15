@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pokemon-language-learning/adaptive-plan.schema.json",
+  "title": "Adaptive dialogue plan",
+  "type": "object",
+  "required": ["schema_version", "profile_id", "selected_language", "cefr", "generated_at", "game_progress", "eligible_dialogue_count", "selection_count", "selections"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "profile_id": {"type": "string", "minLength": 1},
+    "selected_language": {"enum": ["ru", "de"]},
+    "cefr": {"enum": ["A1", "A2", "B1", "B2", "C1", "C2"]},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "game_progress": {"type": "object"},
+    "eligible_dialogue_count": {"type": "integer", "minimum": 0},
+    "selection_count": {"type": "integer", "minimum": 0},
+    "selections": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {"$ref": "variant-selection.schema.json"},
+          {
+            "type": "object",
+            "required": ["source_symbol"],
+            "properties": {"source_symbol": {"type": "string", "minLength": 1}}
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": false
+}

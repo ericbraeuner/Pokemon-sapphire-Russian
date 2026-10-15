@@ -23,6 +23,7 @@ import profile_sync
 import context_catalog
 import review_queue
 import adaptive_selector
+import adaptive_plan
 import learner_dashboard
 import session_watcher
 
@@ -154,15 +155,17 @@ class LessonTests(unittest.TestCase):
             snapshot_path = Path(directory) / "snapshot.json"
             queue_path = Path(directory) / "review-queue.json"
             dashboard_path = Path(directory) / "dashboard.html"
+            variant_path = Path(directory) / "adaptive-plan.json"
             profile_path.write_text(json.dumps(profile), encoding="utf-8")
             snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
             updated = profile_sync.synchronize(
                 profile_path, snapshot_path, review_output=queue_path,
-                dashboard_output=dashboard_path,
+                dashboard_output=dashboard_path, variant_output=variant_path,
             )
             saved = json.loads(profile_path.read_text(encoding="utf-8"))
             queue = json.loads(queue_path.read_text(encoding="utf-8"))
             dashboard = dashboard_path.read_text(encoding="utf-8")
+            plan = json.loads(variant_path.read_text(encoding="utf-8"))
         self.assertEqual(updated, saved)
         self.assertEqual("A2", queue["cefr"])
         self.assertGreater(queue["due_count"], 0)
@@ -170,6 +173,29 @@ class LessonTests(unittest.TestCase):
         self.assertIn('<html lang="ru">', dashboard)
         self.assertIn("Прогресс в языке", dashboard)
         self.assertIn("A2", dashboard)
+        self.assertEqual("ru", plan["selected_language"])
+        self.assertEqual("A2", plan["cefr"])
+        self.assertEqual(plan["selection_count"], len(plan["selections"]))
+        self.assertGreater(plan["selection_count"], 0)
+        self.assertTrue(all(item["source_symbol"] for item in plan["selections"]))
+
+    def test_adaptive_plan_selects_every_unlocked_authored_scene(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        profile["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
+        profile["game_progress"] = {"chapter": "arrival", "sequence": 100, "flags": []}
+        pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
+        catalogue = validate.load(
+            demo.ROOT / "language_learning/integration/dialogue_catalog.json"
+        )
+        plan = adaptive_plan.build(
+            pack, profile, catalogue,
+            now=review_queue._timestamp("2026-10-15T12:00:00Z"),
+        )
+        self.assertEqual(90, plan["eligible_dialogue_count"])
+        self.assertEqual(90, plan["selection_count"])
+        self.assertEqual(90, len({item["dialogue_id"] for item in plan["selections"]}))
+        self.assertTrue(all(item["selected_language"] == "ru"
+                            for item in plan["selections"]))
 
     def test_adaptive_selector_respects_language_level_and_progress(self):
         pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
@@ -344,24 +370,29 @@ class LessonTests(unittest.TestCase):
             snapshot_path = Path(directory) / "snapshot.json"
             queue_path = Path(directory) / "queue.json"
             dashboard_path = Path(directory) / "dashboard.html"
+            variant_path = Path(directory) / "variants.json"
             profile_path.write_text(json.dumps(profile), encoding="utf-8")
             snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
             first, changed = session_watcher.sync_changed(
                 profile_path, snapshot_path, None,
                 review_output=queue_path, dashboard_output=dashboard_path,
+                variant_output=variant_path,
             )
             second, repeated = session_watcher.sync_changed(
                 profile_path, snapshot_path, first,
                 review_output=queue_path, dashboard_output=dashboard_path,
+                variant_output=variant_path,
             )
             saved = json.loads(profile_path.read_text(encoding="utf-8"))
             dashboard = dashboard_path.read_text(encoding="utf-8")
+            variants = json.loads(variant_path.read_text(encoding="utf-8"))
         self.assertTrue(changed)
         self.assertFalse(repeated)
         self.assertEqual(first, second)
         self.assertEqual("de", saved["selected_language"])
         self.assertEqual("B2", saved["current_learner_difficulty"]["cefr"])
         self.assertIn('<html lang="de">', dashboard)
+        self.assertEqual("de", variants["selected_language"])
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()

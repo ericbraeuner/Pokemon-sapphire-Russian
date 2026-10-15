@@ -68,6 +68,12 @@ source symbol in `opening.json`, including the clock reminder that was initially
 missed. These external selections do not rewrite the ROM dialogue yet; they are
 the authored input for a future wrapper or in-ROM selector.
 
+`tools/adaptive_plan.py` evaluates the entire unlocked catalogue at once and
+writes a wrapper-ready plan containing the chosen text, source symbol, vocabulary,
+and selection metrics for each scene. A fully progressed early-game profile gets
+one selection for every authored scene; earlier profiles receive only scenes
+allowed by their current chapter and sequence.
+
 ## Emulator/wrapper contract
 
 A future mGBA or Raspberry Pi wrapper is expected to:
@@ -85,11 +91,11 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` connects the welcome lesson to the real
-shared moving-in script for both player characters. The route-sign entry is
-still a placeholder. Validation checks both the connected script symbol and
-the original text symbol. The normal game dialogue follows the extra lesson;
-important story instructions are not replaced.
+`integration/dialogue_catalog.json` connects all 90 authored lessons to their
+real script hooks and original text symbols, including the shared moving-in
+scripts and Route 101 sign. Validation checks both ends of every connection.
+The normal game dialogue follows the extra lesson; important story instructions
+are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
 `opening.json` currently holds 90 source-symbol mappings,
@@ -138,7 +144,10 @@ Pass `--review-output review-queue.json` to update the external profile and emit
 its currently due review cards in the same synchronization step. Add
 `--include-upcoming` when the wrapper also needs the future schedule. Pass
 `--dashboard-output learner-progress.html` to refresh the localized progress page
-from the same captured emulator state.
+from the same captured emulator state. Pass `--variant-output adaptive-plan.json`
+to refresh all currently unlocked adaptive dialogue selections from that same
+snapshot. The session watcher accepts the same option, so language, level,
+mastery, and review changes are reflected without a separate command.
 
 Use `--allow-reset` only when intentionally starting over or synchronizing a
 rewound save whose counters are lower than the profile's last snapshot.

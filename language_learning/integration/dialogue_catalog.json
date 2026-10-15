@@ -135,6 +135,102 @@
         "family",
         "arrival"
       ]
+    },
+    {
+      "id": "littleroot.player_house.mom.quick.007",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_1B6B9D",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_OhComeQuickly",
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 6
+      },
+      "tags": [
+        "family",
+        "tv"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.mom.dad_tv.008",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "PlayersHouse_1F_EventScript_PetalburgGymReportMale",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_MaybeDadWillBeOn",
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 7
+      },
+      "tags": [
+        "family",
+        "tv",
+        "gym"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.tv_report.009",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_1B6BBE",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_ReportFromPetalburgGym",
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 8
+      },
+      "tags": [
+        "tv",
+        "gym"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.mom.missed_dad.010",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "PlayersHouse_1F_EventScript_PetalburgGymReportMale",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_ItsOverWeMissedHim",
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 9
+      },
+      "tags": [
+        "family",
+        "tv"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.mom.next_door.011",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "PlayersHouse_1F_EventScript_PetalburgGymReportMale",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor",
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 10
+      },
+      "tags": [
+        "family",
+        "navigation"
+      ]
     }
   ]
 }

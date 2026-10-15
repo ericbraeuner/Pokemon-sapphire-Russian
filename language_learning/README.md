@@ -43,13 +43,16 @@ progress, enforces each variant's new-word budget, and selects the hardest
 eligible variant. Due vocabulary and known-word mastery break ties without ever
 changing the learner's selected CEFR level.
 
-The adaptive packs now cover the first six connected Littleroot scenes: arriving
+The adaptive packs now cover the first eleven connected Littleroot scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
-clock, and inspecting the finished room. New scenes provide A1, A2, and natural
-B1 variants in both Russian and German; the original welcome example retains its
-two established variants. German noun records include their articles. These
-external selections do not rewrite the ROM dialogue yet; they are the authored
-input for a future wrapper or in-ROM selector.
+clock, inspecting the finished room, and the complete introductory TV sequence
+through Mom's next-door direction. Scenes whose authored wording changes by
+difficulty provide A1, A2, and natural B1 variants in both Russian and German;
+short TV lines whose wording is identical across levels use one honest shared
+variant. The original welcome example retains its two established variants.
+German noun records include their articles. These external selections do not
+rewrite the ROM dialogue yet; they are the authored input for a future wrapper
+or in-ROM selector.
 
 ## Emulator/wrapper contract
 

@@ -187,6 +187,62 @@
         "грузовик",
         "грузовике"
       ]
+    },
+    {
+      "id": "ru.skoree",
+      "lemma": "скорее",
+      "english": "quickly",
+      "part_of_speech": "adverb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.quick.007",
+      "forms": [
+        "скорее"
+      ]
+    },
+    {
+      "id": "ru.stadion",
+      "lemma": "стадион",
+      "english": "gym; stadium",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.dad_tv.008",
+      "forms": [
+        "стадион",
+        "стадиона"
+      ]
+    },
+    {
+      "id": "ru.reportazh",
+      "lemma": "репортаж",
+      "english": "report",
+      "part_of_speech": "noun",
+      "cefr": "A2",
+      "first_introduction": "littleroot.player_house.tv_report.009",
+      "forms": [
+        "репортаж"
+      ]
+    },
+    {
+      "id": "ru.zhal",
+      "lemma": "жаль",
+      "english": "what a pity",
+      "part_of_speech": "predicative",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.missed_dad.010",
+      "forms": [
+        "жаль"
+      ]
+    },
+    {
+      "id": "ru.po_sosedstvu",
+      "lemma": "по соседству",
+      "english": "next door",
+      "part_of_speech": "adverbial phrase",
+      "cefr": "A2",
+      "first_introduction": "littleroot.player_house.mom.next_door.011",
+      "forms": [
+        "по соседству"
+      ]
     }
   ],
   "grammar_notes": [
@@ -541,6 +597,111 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 0
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.quick.007",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Скорее! Иди сюда!",
+          "english_gloss": "Mom: Quick! Come here!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.skoree"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 6
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.dad_tv.008",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Смотри! Это стадион в Петалбурге. Может быть, покажут папу!",
+          "english_gloss": "Look! It is Petalburg Gym. Maybe Dad will be on TV!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.stadion"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 7
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.tv_report.009",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Репортёр: Это был репортаж у стадиона в Петалбурге.",
+          "english_gloss": "Reporter: That was our report from in front of Petalburg Gym.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.reportazh"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 8
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.missed_dad.010",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Уже всё? Кажется, папу показывали, а мы пропустили. Жаль!",
+          "english_gloss": "It is over. I think Dad was on, but we missed him. Too bad!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.zhal"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 9
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.next_door.011",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Друг папы, профессор Бёрч, живёт по соседству. Сходи познакомься с ним!",
+          "english_gloss": "Dad's friend Professor Birch lives next door. Go introduce yourself!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.po_sosedstvu"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 10
           }
         }
       ]

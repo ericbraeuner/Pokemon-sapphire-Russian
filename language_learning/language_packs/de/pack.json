@@ -201,6 +201,63 @@
         "Lastwagen"
       ],
       "dictionary_form": "der Lastwagen"
+    },
+    {
+      "id": "de.schnell",
+      "lemma": "schnell",
+      "english": "quickly",
+      "part_of_speech": "adverb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.quick.007",
+      "forms": [
+        "schnell"
+      ]
+    },
+    {
+      "id": "de.arena",
+      "lemma": "Arena",
+      "dictionary_form": "die Arena",
+      "english": "gym; arena",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.dad_tv.008",
+      "forms": [
+        "Arena"
+      ]
+    },
+    {
+      "id": "de.bericht",
+      "lemma": "Bericht",
+      "dictionary_form": "der Bericht",
+      "english": "report",
+      "part_of_speech": "noun",
+      "cefr": "A2",
+      "first_introduction": "littleroot.player_house.tv_report.009",
+      "forms": [
+        "Bericht"
+      ]
+    },
+    {
+      "id": "de.schade",
+      "lemma": "schade",
+      "english": "what a pity",
+      "part_of_speech": "predicative",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.missed_dad.010",
+      "forms": [
+        "Schade"
+      ]
+    },
+    {
+      "id": "de.nebenan",
+      "lemma": "nebenan",
+      "english": "next door",
+      "part_of_speech": "adverb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.next_door.011",
+      "forms": [
+        "nebenan"
+      ]
     }
   ],
   "grammar_notes": [
@@ -556,6 +613,111 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 0
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.quick.007",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Schnell! Komm her!",
+          "english_gloss": "Mom: Quick! Come here!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.schnell"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 6
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.dad_tv.008",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Schau! Die Arena von Blütenburg! Vielleicht sehen wir Papa!",
+          "english_gloss": "Look! It is Petalburg Gym. Maybe Dad will be on TV!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.arena"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 7
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.tv_report.009",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Reporter: Das war unser Bericht vor der Arena von Blütenburg.",
+          "english_gloss": "Reporter: That was our report from in front of Petalburg Gym.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.bericht"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 8
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.missed_dad.010",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Schon vorbei? Papa war wohl dabei, aber wir haben ihn verpasst. Schade!",
+          "english_gloss": "It is over. I think Dad was on, but we missed him. Too bad!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.schade"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 9
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.next_door.011",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Papas Freund, Professor Birk, wohnt nebenan. Geh doch hin und stell dich vor!",
+          "english_gloss": "Dad's friend Professor Birch lives next door. Go introduce yourself!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.nebenan"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 10
           }
         }
       ]

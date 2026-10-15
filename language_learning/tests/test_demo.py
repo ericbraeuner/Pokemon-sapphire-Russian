@@ -18,6 +18,7 @@ import field_dictionary
 import graphic_labels
 import trainer_eyes
 import profile_sync
+import context_catalog
 
 
 class LessonTests(unittest.TestCase):
@@ -67,6 +68,22 @@ class LessonTests(unittest.TestCase):
         opening_source = (demo.ROOT / "language_learning/tools/opening.py").read_text(encoding="utf-8")
         self.assertIn("VAR_LEARNER_LAST_EXPOSURE_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
         self.assertIn("VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
+
+    def test_activity_contexts_resolve_to_stable_vocabulary(self):
+        contexts = context_catalog.load()
+        self.assertEqual(250, len(contexts))
+        self.assertEqual(set(range(1, 91)), {key for key in contexts if key < 0x1000})
+        self.assertEqual(set(range(0x1000, 0x10A0)), {key for key in contexts if key >= 0x1000})
+        self.assertEqual("authored_dialogue", contexts[1]["kind"])
+        self.assertEqual("field_dictionary", contexts[0x1000]["kind"])
+        identifiers = []
+        for context in contexts.values():
+            self.assertEqual({"ru", "de"}, set(context["words"]))
+            for words in context["words"].values():
+                self.assertTrue(words)
+                identifiers.extend(word["id"] for word in words)
+        self.assertEqual(len(identifiers), len(set(identifiers)))
+        self.assertTrue(all(identifier.startswith(("opening.", "field.")) for identifier in identifiers))
 
     def test_russian_round_trip_and_font_restoration(self):
         phrase = "Привет! Добро пожаловать домой!"

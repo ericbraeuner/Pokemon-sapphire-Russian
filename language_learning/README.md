@@ -82,6 +82,10 @@ replays the original message with its live names and quantities, and then resume
 the original event script. Each entry receives a stable context in the range
 `0x1000`–`0x109F`, following its append-only catalogue order; do not reorder
 existing entries when adding vocabulary.
+`tools/context_catalog.py` resolves those IDs and the 90 authored-dialogue IDs
+to stable, language-specific vocabulary records. It can print the live catalogue
+or write it with `--output`; generated copies remain build artifacts rather than
+committed duplicate data.
 Each authored target-language page and each dictionary opening increments its
 own saved counter. Both stop at 65,535 instead of wrapping to zero. An emulator
 wrapper can export those values as a small JSON snapshot; `tools/profile_sync.py`

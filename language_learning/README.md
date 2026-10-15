@@ -102,6 +102,10 @@ To merge a captured snapshot without partially rewriting a profile, run:
 python language_learning/tools/profile_sync.py language_learning/profiles/sample-learner.json snapshot.json
 ```
 
+Pass `--review-output review-queue.json` to update the external profile and emit
+its currently due review cards in the same synchronization step. Add
+`--include-upcoming` when the wrapper also needs the future schedule.
+
 Use `--allow-reset` only when intentionally starting over or synchronizing a
 rewound save whose counters are lower than the profile's last snapshot.
 

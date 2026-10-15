@@ -1,8 +1,10 @@
 """Run with python -m unittest discover -s language_learning/tests -v."""
 
 import copy
+import json
 import re
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -120,6 +122,36 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(1, due["cards"][0]["days_overdue"])
         all_cards = review_queue.build(profile, now=now, include_upcoming=True)
         self.assertEqual([True, False], [card["is_due"] for card in all_cards["cards"]])
+
+    def test_profile_sync_can_atomically_emit_review_queue(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        snapshot = {
+            "schema_version": 1, "source_id": "queue-test-save",
+            "selected_language": "ru", "cefr": "A2",
+            "exposure_count": 1, "dictionary_count": 0,
+            "last_exposure_context": 1, "last_dictionary_context": 0,
+            "session_id": "queue-test-session",
+            "events": [{
+                "sequence": 1, "kind": "exposure", "context": 1, "delta": 1,
+                "captured_at": "2026-10-14T12:00:00Z",
+            }],
+            "captured_at": "2026-10-16T12:00:00Z",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            profile_path = Path(directory) / "profile.json"
+            snapshot_path = Path(directory) / "snapshot.json"
+            queue_path = Path(directory) / "review-queue.json"
+            profile_path.write_text(json.dumps(profile), encoding="utf-8")
+            snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
+            updated = profile_sync.synchronize(
+                profile_path, snapshot_path, review_output=queue_path,
+            )
+            saved = json.loads(profile_path.read_text(encoding="utf-8"))
+            queue = json.loads(queue_path.read_text(encoding="utf-8"))
+        self.assertEqual(updated, saved)
+        self.assertEqual("A2", queue["cefr"])
+        self.assertGreater(queue["due_count"], 0)
+        self.assertTrue(all(card["is_due"] for card in queue["cards"]))
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()

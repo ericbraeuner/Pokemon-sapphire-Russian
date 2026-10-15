@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import context_catalog
+import review_queue
 
 LEVEL_INTERNAL = {"A1": 8, "A2": 24, "B1": 40, "B2": 56, "C1": 74, "C2": 92}
 LANGUAGES = {"ru", "de"}
@@ -131,18 +132,50 @@ def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: boo
     return result
 
 
+def _write_json(path: Path, value: dict[str, Any]) -> None:
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(path)
+
+
+def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = False,
+                review_output: Path | None = None, review_limit: int = 20,
+                include_upcoming: bool = False) -> dict[str, Any]:
+    profile = json.loads(profile_path.read_text(encoding="utf-8"))
+    snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+    updated = merge(profile, snapshot, allow_reset=allow_reset)
+    queue = None
+    if review_output:
+        queue = review_queue.build(
+            updated, now=_timestamp_value(snapshot["captured_at"]), limit=review_limit,
+            include_upcoming=include_upcoming,
+        )
+    _write_json(profile_path, updated)
+    if review_output and queue is not None:
+        _write_json(review_output, queue)
+    return updated
+
+
+def _timestamp_value(value: str) -> datetime:
+    _timestamp(value)
+    return datetime.fromisoformat(value[:-1] + "+00:00")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("profile", type=Path)
     parser.add_argument("snapshot", type=Path)
     parser.add_argument("--allow-reset", action="store_true")
+    parser.add_argument("--review-output", type=Path,
+                        help="also write a wrapper-ready vocabulary review queue")
+    parser.add_argument("--review-limit", type=int, default=20)
+    parser.add_argument("--include-upcoming", action="store_true")
     args = parser.parse_args()
-    profile = json.loads(args.profile.read_text(encoding="utf-8"))
-    snapshot = json.loads(args.snapshot.read_text(encoding="utf-8"))
-    updated = merge(profile, snapshot, allow_reset=args.allow_reset)
-    temporary = args.profile.with_suffix(args.profile.suffix + ".tmp")
-    temporary.write_text(json.dumps(updated, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    temporary.replace(args.profile)
+    synchronize(
+        args.profile, args.snapshot, allow_reset=args.allow_reset,
+        review_output=args.review_output, review_limit=args.review_limit,
+        include_upcoming=args.include_upcoming,
+    )
     return 0
 
 

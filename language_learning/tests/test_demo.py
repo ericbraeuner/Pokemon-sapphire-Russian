@@ -180,6 +180,7 @@ class LessonTests(unittest.TestCase):
         self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 160', assembly)
         for index, (symbol, languages) in enumerate(entries.items()):
             self.assertIn(f'\t.4byte {symbol}, LearnerFieldDictionary_{index}_ru, LearnerFieldDictionary_{index}_de', assembly)
+            self.assertIn(f'\t.2byte 0x{0x1000 + index:04X}, 0', assembly)
             for lemma, _ in languages['de']:
                 if lemma[0].isupper():
                     self.assertRegex(lemma, r'^(der|die|das) ')
@@ -196,6 +197,9 @@ class LessonTests(unittest.TestCase):
         string_util = (demo.ROOT / 'src/string_util.c').read_text(encoding='utf-8')
         self.assertIn('Learner_BeginFieldDictionaryExpansion(dest, src)', string_util)
         self.assertIn('Learner_EndFieldDictionaryExpansion(sLearnerExpansionDest)', string_util)
+        learner_intro = (demo.ROOT / 'src/learner_intro.inc').read_text(encoding='utf-8')
+        self.assertIn('sLearnerFieldDictionaryContext = gLearnerFieldDictionaries[i].contextId', learner_intro)
+        self.assertIn('VarSet(VAR_LEARNER_LAST_DICTIONARY_CONTEXT, sLearnerFieldDictionaryContext)', learner_intro)
         makefile = (demo.ROOT / 'Makefile').read_text(encoding='utf-8')
         dependency_line = next(line for line in makefile.splitlines()
                                if line.startswith('build/learner_demo/lesson.s:')

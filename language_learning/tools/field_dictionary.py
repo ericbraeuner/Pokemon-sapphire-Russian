@@ -34,7 +34,9 @@ def generate(russian, latin, glyphs):
             parts.append(demo.assembly_bytes(label, demo.message(
                 pages, mapping, glyphs if tag == 'ru' else {}, font)))
             labels.append(label)
-        table.append(f'\t.4byte {symbol}, {labels[0]}, {labels[1]}')
+        context_id = 0x1000 + index
+        table.append(f'\t.4byte {symbol}, {labels[0]}, {labels[1]}\n'
+                     f'\t.2byte 0x{context_id:04X}, 0')
     parts.append('\t.balign 4\ngLearnerFieldDictionaries::\n' + '\n'.join(table))
     parts.append(f'gLearnerFieldDictionaryCount::\n\t.2byte {len(table)}\n')
     return parts

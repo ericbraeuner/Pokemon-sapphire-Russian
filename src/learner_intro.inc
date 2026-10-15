@@ -63,11 +63,19 @@ extern const u8 *const gLearnerMapNames[][2];
 extern const u16 gLearnerMapNameCount;
 extern const u8 *const gLearnerTrainerEyeDescriptions[][2];
 extern const u16 gLearnerTrainerEyeDescriptionCount;
-extern const u8 *const gLearnerFieldDictionaries[][3];
+struct LearnerFieldDictionary
+{
+    const u8 *source;
+    const u8 *translations[2];
+    u16 contextId;
+    u16 padding;
+};
+extern const struct LearnerFieldDictionary gLearnerFieldDictionaries[];
 extern const u16 gLearnerFieldDictionaryCount;
 static EWRAM_DATA u8 *sLearnerExpandedDictionaryDest = NULL;
 static EWRAM_DATA const u8 *sLearnerExpandedDictionaryText = NULL;
 static EWRAM_DATA u16 sLearnerExpandedDictionaryHash = 0;
+static EWRAM_DATA u16 sLearnerFieldDictionaryContext = 0;
 
 static u16 Learner_DictionaryTextHash(const u8 *text)
 {
@@ -94,8 +102,11 @@ const u8 *Learner_GetFieldDictionary(const u8 *text)
     u8 language = Learner_GetLanguage();
     if (text != NULL && language >= 1 && language <= 2)
         for (i = 0; i < gLearnerFieldDictionaryCount; i++)
-            if (text == gLearnerFieldDictionaries[i][0])
-                return gLearnerFieldDictionaries[i][language];
+            if (text == gLearnerFieldDictionaries[i].source)
+            {
+                sLearnerFieldDictionaryContext = gLearnerFieldDictionaries[i].contextId;
+                return gLearnerFieldDictionaries[i].translations[language - 1];
+            }
     if (text != NULL && text == sLearnerExpandedDictionaryDest
      && sLearnerExpandedDictionaryText != NULL
      && Learner_DictionaryTextHash(text) == sLearnerExpandedDictionaryHash)
@@ -119,7 +130,10 @@ void Learner_EndFieldDictionaryExpansion(u8 *dest)
 void Learner_RecordDictionaryRequest(void)
 {
     u16 count = VarGet(VAR_LEARNER_DICTIONARY_COUNT);
-    VarSet(VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VarGet(VAR_LEARNER_DICTIONARY_CONTEXT));
+    if (VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) == LEARNER_FIELD_DICTIONARY_CONTEXT)
+        VarSet(VAR_LEARNER_LAST_DICTIONARY_CONTEXT, sLearnerFieldDictionaryContext);
+    else
+        VarSet(VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VarGet(VAR_LEARNER_DICTIONARY_CONTEXT));
     if (count != 0xFFFF)
         VarSet(VAR_LEARNER_DICTIONARY_COUNT, count + 1);
 }

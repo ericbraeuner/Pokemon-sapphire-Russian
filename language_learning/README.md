@@ -79,7 +79,9 @@ the interrupted page. Text without curated vocabulary remains unaffected.
 `field_dictionary.json` extends the same behavior to 160 item, shop, PC, mail,
 Secret Base, Abandoned Ship, Dewford, Granite Cave, Slateport, and field messages. Its central wait handler shows the glossary,
 replays the original message with its live names and quantities, and then resumes
-the original event script.
+the original event script. Each entry receives a stable context in the range
+`0x1000`–`0x109F`, following its append-only catalogue order; do not reorder
+existing entries when adding vocabulary.
 Each authored target-language page and each dictionary opening increments its
 own saved counter. Both stop at 65,535 instead of wrapping to zero. An emulator
 wrapper can export those values as a small JSON snapshot; `tools/profile_sync.py`

@@ -2,6 +2,7 @@
 #define GUARD_LEARNER_H
 #if LEARNER_DEMO
 #define LEARNER_FIELD_DICTIONARY_CONTEXT 0xFFFE
+#define LEARNER_FIELD_DICTIONARY_CONTEXT_BASE 0x1000
 #define LEARNER_DECLARE(name) \
     extern const u8 LearnerUI_ru_##name[]; \
     extern const u8 LearnerUI_de_##name[];

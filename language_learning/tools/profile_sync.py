@@ -31,7 +31,7 @@ def validate_snapshot(snapshot: dict[str, Any]) -> None:
     missing = required - snapshot.keys()
     if missing:
         raise ValueError(f"snapshot missing keys: {', '.join(sorted(missing))}")
-    if snapshot["schema_version"] != 1 or snapshot["selected_language"] not in LANGUAGES:
+    if snapshot["schema_version"] not in {1, 2} or snapshot["selected_language"] not in LANGUAGES:
         raise ValueError("unsupported snapshot schema or language")
     if snapshot["cefr"] not in LEVEL_INTERNAL:
         raise ValueError("unsupported CEFR level")
@@ -46,7 +46,10 @@ def validate_snapshot(snapshot: dict[str, Any]) -> None:
     _timestamp(snapshot["captured_at"])
     previous_sequence = 0
     for event in snapshot["events"]:
-        if not isinstance(event, dict) or set(event) != {"sequence", "kind", "context", "delta", "captured_at"}:
+        event_keys = {"sequence", "kind", "context", "delta", "captured_at"}
+        if snapshot["schema_version"] == 2:
+            event_keys |= {"selected_language", "cefr"}
+        if not isinstance(event, dict) or set(event) != event_keys:
             raise ValueError("invalid activity event")
         if not isinstance(event["sequence"], int) or event["sequence"] <= previous_sequence:
             raise ValueError("activity event sequences must be strictly increasing")
@@ -56,6 +59,10 @@ def validate_snapshot(snapshot: dict[str, Any]) -> None:
             raise ValueError("invalid activity event context")
         if not isinstance(event["delta"], int) or event["delta"] < 1:
             raise ValueError("invalid activity event delta")
+        if event.get("selected_language", snapshot["selected_language"]) not in LANGUAGES:
+            raise ValueError("invalid activity event language")
+        if event.get("cefr", snapshot["cefr"]) not in LEVEL_INTERNAL:
+            raise ValueError("invalid activity event CEFR level")
         _timestamp(event["captured_at"])
         previous_sequence = event["sequence"]
 
@@ -107,7 +114,8 @@ def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: boo
         context = catalogue.get(event["context"])
         if context is None:
             raise ValueError(f"unknown learner activity context: 0x{event['context']:04X}")
-        for word in context["words"][snapshot["selected_language"]]:
+        event_language = event.get("selected_language", snapshot["selected_language"])
+        for word in context["words"][event_language]:
             state = activity.setdefault(word["id"], {
                 "lemma": word["lemma"], "english_gloss": word["english_gloss"],
                 "exposure_count": 0, "dictionary_requests": 0, "last_seen": None,

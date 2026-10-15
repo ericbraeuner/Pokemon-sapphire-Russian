@@ -43,19 +43,20 @@ local function readState()
     }
 end
 
-local function addEvent(kind, context, delta, capturedAt)
+local function addEvent(kind, context, delta, capturedAt, language, cefr)
     sequence = sequence + 1
     events[#events + 1] = {sequence = sequence, kind = kind, context = context,
-                           delta = delta, capturedAt = capturedAt}
+                           delta = delta, capturedAt = capturedAt,
+                           language = language, cefr = cefr}
 end
 
 local function renderEvents()
     local rendered = {}
     for _, event in ipairs(events) do
         rendered[#rendered + 1] = string.format(
-            '    {"sequence": %d, "kind": %s, "context": %d, "delta": %d, "captured_at": %s}',
+            '    {"sequence": %d, "kind": %s, "context": %d, "delta": %d, "selected_language": %s, "cefr": %s, "captured_at": %s}',
             event.sequence, jsonString(event.kind), event.context, event.delta,
-            jsonString(event.capturedAt))
+            jsonString(event.language), jsonString(event.cefr), jsonString(event.capturedAt))
     end
     return table.concat(rendered, ",\n")
 end
@@ -63,7 +64,7 @@ end
 local function writeSnapshot(state)
     local capturedAt = os.date("!%Y-%m-%dT%H:%M:%SZ")
     local body = string.format(
-        '{\n  "schema_version": 1,\n  "source_id": %s,\n  "selected_language": %s,\n' ..
+        '{\n  "schema_version": 2,\n  "source_id": %s,\n  "selected_language": %s,\n' ..
         '  "cefr": %s,\n  "exposure_count": %d,\n  "dictionary_count": %d,\n' ..
         '  "last_exposure_context": %d,\n  "last_dictionary_context": %d,\n' ..
         '  "session_id": %s,\n  "events": [\n%s\n  ],\n  "captured_at": %s\n}\n',
@@ -111,7 +112,8 @@ local function poll()
         local capturedAt = os.date("!%Y-%m-%dT%H:%M:%SZ")
         if state.exposures > previous.exposures then
             addEvent("exposure", state.exposureContext,
-                     state.exposures - previous.exposures, capturedAt)
+                     state.exposures - previous.exposures, capturedAt,
+                     state.language, state.cefr)
             dirty = true
         elseif state.exposures < previous.exposures then
             console:warn("Learner exposure counter moved backwards; starting a new baseline")
@@ -119,7 +121,8 @@ local function poll()
         end
         if state.dictionaries > previous.dictionaries then
             addEvent("dictionary", state.dictionaryContext,
-                     state.dictionaries - previous.dictionaries, capturedAt)
+                     state.dictionaries - previous.dictionaries, capturedAt,
+                     state.language, state.cefr)
             dirty = true
         elseif state.dictionaries < previous.dictionaries then
             console:warn("Learner dictionary counter moved backwards; starting a new baseline")

@@ -130,6 +130,10 @@ currently a manual step. The exporter only reads emulated memory.
 Snapshot replacement keeps a temporary backup until the new JSON file is safely
 installed, so a failed rename leaves the last valid snapshot available to the
 session watcher.
+Snapshot version 2 records language and CEFR on every event. If the player changes
+settings between syncs, earlier Russian activity stays Russian and earlier German
+activity stays German. The importer continues to accept version-1 snapshots by
+using their top-level language and CEFR for legacy events.
 
 The learner build replaces the redundant `Exit` row in the ordinary START menu
 (START or B still closes it) with a localized Learning page. That page reads the

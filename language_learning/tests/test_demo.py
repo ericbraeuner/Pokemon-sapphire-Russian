@@ -43,15 +43,17 @@ class LessonTests(unittest.TestCase):
     def test_rom_counter_snapshot_updates_external_profile(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
         snapshot = {
-            "schema_version": 1, "source_id": "sample-sapphire-save",
+            "schema_version": 2, "source_id": "sample-sapphire-save",
             "selected_language": "de", "cefr": "B1",
             "exposure_count": 40, "dictionary_count": 10,
             "last_exposure_context": 12, "last_dictionary_context": 9,
             "session_id": "test-session",
             "events": [
                 {"sequence": 1, "kind": "exposure", "context": 1, "delta": 1,
+                 "selected_language": "ru", "cefr": "A1",
                  "captured_at": "2026-10-14T21:59:58Z"},
                 {"sequence": 2, "kind": "dictionary", "context": 0x1000, "delta": 1,
+                 "selected_language": "de", "cefr": "B1",
                  "captured_at": "2026-10-14T21:59:59Z"},
             ],
             "captured_at": "2026-10-14T22:00:00Z",
@@ -63,7 +65,7 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(12, updated["rom_learning"]["last_exposure_context"])
         self.assertEqual(9, updated["rom_learning"]["last_dictionary_context"])
         self.assertEqual(2, updated["rom_learning"]["event_cursors"]["test-session"])
-        opening_words = context_catalog.load()[1]["words"]["de"]
+        opening_words = context_catalog.load()[1]["words"]["ru"]
         field_words = context_catalog.load()[0x1000]["words"]["de"]
         self.assertTrue(all(updated["activity_vocabulary"][word["id"]]["exposure_count"] == 1 for word in opening_words))
         self.assertTrue(all(updated["activity_vocabulary"][word["id"]]["dictionary_requests"] == 1 for word in field_words))
@@ -74,6 +76,8 @@ class LessonTests(unittest.TestCase):
         field_state = updated["activity_vocabulary"][field_words[0]["id"]]
         self.assertEqual(0.0, field_state["mastery"])
         self.assertEqual("2026-10-15T21:59:59Z", field_state["next_review"])
+        self.assertFalse(any(word["id"] in updated["activity_vocabulary"]
+                             for word in context_catalog.load()[1]["words"]["de"]))
         repeated = profile_sync.merge(updated, snapshot)
         self.assertEqual(updated["activity_vocabulary"], repeated["activity_vocabulary"])
         rewound = dict(snapshot, exposure_count=39)
@@ -92,7 +96,8 @@ class LessonTests(unittest.TestCase):
         self.assertIn('callbacks:add("frame", poll)', source)
         self.assertIn('"session_id": %s', source)
         self.assertIn('"events": [', source)
-        self.assertIn('"schema_version": 1', source)
+        self.assertIn('"schema_version": 2', source)
+        self.assertIn('"selected_language": %s, "cefr": %s', source)
         self.assertNotIn("emu:write", source)
         self.assertIn('local backupPath = OUTPUT_PATH .. ".bak"', source)
         self.assertIn('os.rename(OUTPUT_PATH, backupPath)', source)

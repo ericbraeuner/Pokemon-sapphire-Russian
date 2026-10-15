@@ -203,10 +203,15 @@ def main() -> int:
 def validate_sources(catalogue: dict[str, Any]) -> None:
     """Resolve connected entries; planned entries remain explicitly unconnected."""
     repo = ROOT.parent.resolve()
+    authored_ids: set[str] = set()
     for dialogue in catalogue.get("dialogues", []):
         source = dialogue.get("source", {})
         if source.get("kind") != "script_hook":
             continue
+        authored_id = source.get("authored_id")
+        if not isinstance(authored_id, str) or not authored_id or authored_id in authored_ids:
+            raise ValidationError(f"{dialogue['id']}: missing or duplicate authored_id")
+        authored_ids.add(authored_id)
         for path_key, symbol_key in [("path", "symbol"), ("base_text_path", "base_text_symbol")]:
             require_keys(source, {path_key, symbol_key}, f"dialogue {dialogue['id']}")
             path = (repo / source[path_key]).resolve()

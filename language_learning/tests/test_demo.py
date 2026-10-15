@@ -86,6 +86,27 @@ class LessonTests(unittest.TestCase):
             profile_sync.merge(updated, rewound)
         self.assertEqual(39, profile_sync.merge(updated, rewound, allow_reset=True)["rom_learning"]["exposure_count"])
 
+    def test_authored_exposure_advances_adaptive_game_progress(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        snapshot = {
+            "schema_version": 2, "source_id": "progress-test-save",
+            "selected_language": "ru", "cefr": "A1",
+            "exposure_count": 1, "dictionary_count": 0,
+            "last_exposure_context": 90, "last_dictionary_context": 0,
+            "session_id": "progress-test-session",
+            "events": [{
+                "sequence": 1, "kind": "exposure", "context": 90, "delta": 1,
+                "selected_language": "ru", "cefr": "A1",
+                "captured_at": "2026-10-15T12:00:00Z",
+            }],
+            "captured_at": "2026-10-15T12:00:01Z",
+        }
+        updated = profile_sync.merge(profile, snapshot)
+        self.assertEqual("arrival", updated["game_progress"]["chapter"])
+        self.assertEqual(88, updated["game_progress"]["sequence"])
+        repeated = profile_sync.merge(updated, snapshot)
+        self.assertEqual(88, repeated["game_progress"]["sequence"])
+
     def test_mgba_exporter_reads_reserved_learner_variables(self):
         source = (demo.ROOT / "language_learning/mgba/export_learner_snapshot.lua").read_text(encoding="utf-8")
         self.assertIn("local SAVE_BLOCK1 = 0x02025734", source)
@@ -226,11 +247,16 @@ class LessonTests(unittest.TestCase):
         }
         self.assertEqual(90, len(connected))
         authored_symbols = {entry["base_symbol"] for entry in opening.load()["dialogues"]}
+        authored_ids = {entry["id"] for entry in opening.load()["dialogues"]}
         connected_symbols = {
             entry["source"]["base_text_symbol"] for entry in catalogue["dialogues"]
             if entry["source"]["kind"] == "script_hook"
         }
         self.assertEqual(authored_symbols, connected_symbols)
+        self.assertEqual(authored_ids, {
+            entry["source"]["authored_id"] for entry in catalogue["dialogues"]
+            if entry["source"]["kind"] == "script_hook"
+        })
         for tag in ("ru", "de"):
             pack = validate.load(
                 demo.ROOT / f"language_learning/language_packs/{tag}/pack.json"

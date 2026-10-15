@@ -90,6 +90,26 @@ def _update_activity_state(state: dict[str, Any], kind: str, delta: int, seen_at
     state["next_review"] = (seen + timedelta(days=interval)).isoformat().replace("+00:00", "Z")
 
 
+def _authored_progress() -> dict[str, dict[str, Any]]:
+    path = Path(__file__).resolve().parents[1] / "integration/dialogue_catalog.json"
+    catalogue = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        entry["source"]["authored_id"]: entry["progress"]
+        for entry in catalogue["dialogues"]
+        if entry["source"]["kind"] == "script_hook"
+    }
+
+
+def _advance_progress(profile: dict[str, Any], authored_id: str,
+                      progress_by_id: dict[str, dict[str, Any]]) -> None:
+    reached = progress_by_id.get(authored_id)
+    if reached is None:
+        return
+    current = profile["game_progress"]
+    if current["chapter"] == reached["chapter"]:
+        current["sequence"] = max(current["sequence"], reached["sequence"])
+
+
 def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: bool = False) -> dict[str, Any]:
     validate_snapshot(snapshot)
     result = copy.deepcopy(profile)
@@ -106,6 +126,7 @@ def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: boo
         difficulty = {"cefr": snapshot["cefr"], "internal": LEVEL_INTERNAL[snapshot["cefr"]]}
     result["current_learner_difficulty"] = difficulty
     catalogue = context_catalog.load()
+    progress_by_id = _authored_progress()
     activity = result.setdefault("activity_vocabulary", {})
     cursors = dict(previous.get("event_cursors", {})) if previous else {}
     cursor = cursors.get(snapshot["session_id"], 0)
@@ -115,6 +136,8 @@ def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: boo
         context = catalogue.get(event["context"])
         if context is None:
             raise ValueError(f"unknown learner activity context: 0x{event['context']:04X}")
+        if event["kind"] == "exposure" and context["kind"] == "authored_dialogue":
+            _advance_progress(result, context["source_id"], progress_by_id)
         event_language = event.get("selected_language", snapshot["selected_language"])
         for word in context["words"][event_language]:
             state = activity.setdefault(word["id"], {

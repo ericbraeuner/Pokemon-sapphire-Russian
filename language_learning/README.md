@@ -148,6 +148,10 @@ from the same captured emulator state. Pass `--variant-output adaptive-plan.json
 to refresh all currently unlocked adaptive dialogue selections from that same
 snapshot. The session watcher accepts the same option, so language, level,
 mastery, and review changes are reflected without a separate command.
+Exposure to an authored scene also advances the external profile's sequence to
+that scene's stable catalogue position without moving it backwards. Consequently,
+later synchronized plans unlock as the player reaches them; dictionary requests
+and ordinary field-message exposures do not falsely advance story progress.
 
 Use `--allow-reset` only when intentionally starting over or synchronizing a
 rewound save whose counters are lower than the profile's last snapshot.

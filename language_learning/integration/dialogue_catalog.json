@@ -10,7 +10,8 @@
         "symbol": "PlayersHouse_1F_EventScript_EnterHouseMovingIn",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_IsntItNiceInHere",
-        "note": "The learner build replaces the shared moving-in greeting with translated dialogue for both player characters. Story instructions stay unchanged; the stock build retains the original dialogue."
+        "note": "The learner build replaces the shared moving-in greeting with translated dialogue for both player characters. Story instructions stay unchanged; the stock build retains the original dialogue.",
+        "authored_id": "Welcome"
       },
       "progress": {
         "chapter": "arrival",
@@ -29,7 +30,8 @@
         "symbol": "Route101_EventScript_14EA76",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D349",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RouteSign"
       },
       "progress": {
         "chapter": "arrival",
@@ -49,7 +51,8 @@
         "symbol": "PlayersHouse_1F_EventScript_EnterHouseMovingIn",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_MoversPokemonGoSetClock",
-        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged.",
+        "authored_id": "Move"
       },
       "progress": {
         "chapter": "arrival",
@@ -69,7 +72,8 @@
         "symbol": "PlayersHouse_1F_EventScript_MomGoSeeRoom",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_ArentYouInterestedInRoom",
-        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged.",
+        "authored_id": "RoomReminder"
       },
       "progress": {
         "chapter": "arrival",
@@ -89,7 +93,8 @@
         "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_1B69EB",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
         "base_text_symbol": "PlayersHouse_2F_Text_ClockIsStopped",
-        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged.",
+        "authored_id": "Clock"
       },
       "progress": {
         "chapter": "arrival",
@@ -108,7 +113,8 @@
         "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_1B6A31",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
         "base_text_symbol": "PlayersHouse_2F_Text_HowDoYouLikeYourRoom",
-        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged.",
+        "authored_id": "Room"
       },
       "progress": {
         "chapter": "arrival",
@@ -128,7 +134,8 @@
         "symbol": "LittlerootTown_EventScript_GoInsideWithMom",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_OurNewHomeLetsGoInside",
-        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged.",
+        "authored_id": "Arrival"
       },
       "progress": {
         "chapter": "arrival",
@@ -148,7 +155,8 @@
         "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_1B6B9D",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_OhComeQuickly",
-        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged.",
+        "authored_id": "ComeQuickly"
       },
       "progress": {
         "chapter": "arrival",
@@ -167,7 +175,8 @@
         "symbol": "PlayersHouse_1F_EventScript_PetalburgGymReportMale",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_MaybeDadWillBeOn",
-        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged.",
+        "authored_id": "DadOnTV"
       },
       "progress": {
         "chapter": "arrival",
@@ -187,7 +196,8 @@
         "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_1B6BBE",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_ReportFromPetalburgGym",
-        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged.",
+        "authored_id": "TVReport"
       },
       "progress": {
         "chapter": "arrival",
@@ -206,7 +216,8 @@
         "symbol": "PlayersHouse_1F_EventScript_PetalburgGymReportMale",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_ItsOverWeMissedHim",
-        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged.",
+        "authored_id": "MissedDad"
       },
       "progress": {
         "chapter": "arrival",
@@ -225,7 +236,8 @@
         "symbol": "PlayersHouse_1F_EventScript_PetalburgGymReportMale",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor",
-        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged."
+        "note": "Connected to the shared male/female learner opening sequence; movement and story progression remain unchanged.",
+        "authored_id": "NextDoor"
       },
       "progress": {
         "chapter": "arrival",
@@ -244,7 +256,8 @@
         "symbol": "PlayersHouse_2F_EventScript_GameCube",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
         "base_text_symbol": "PlayersHouse_2F_Text_ItsAGameCube",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "GameCube"
       },
       "progress": {
         "chapter": "arrival",
@@ -263,7 +276,8 @@
         "symbol": "PlayersHouse_2F_EventScript_Notebook",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
         "base_text_symbol": "PlayersHouse_2F_Text_Notebook",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "Notebook"
       },
       "progress": {
         "chapter": "arrival",
@@ -283,7 +297,8 @@
         "symbol": "EventScript_1A6F01",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_TheresAMovieOnTV",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "Movie"
       },
       "progress": {
         "chapter": "arrival",
@@ -302,7 +317,8 @@
         "symbol": "EventScript_1A6EF1",
         "base_text_path": "data/event_scripts.s",
         "base_text_symbol": "UnknownString_81A0E68",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "TVProgram"
       },
       "progress": {
         "chapter": "arrival",
@@ -321,7 +337,8 @@
         "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC",
         "base_text_path": "data/event_scripts.s",
         "base_text_symbol": "gText_PlayerHouseBootPC",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "BootPC"
       },
       "progress": {
         "chapter": "arrival",
@@ -340,7 +357,8 @@
         "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_CheckRivalsPC",
         "base_text_path": "data/event_scripts.s",
         "base_text_symbol": "gText_PokemonTrainerSchoolEmail",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "SchoolEmail"
       },
       "progress": {
         "chapter": "arrival",
@@ -359,7 +377,8 @@
         "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_15280A",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
         "base_text_symbol": "UnknownString_8172F31",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "Bookshelf"
       },
       "progress": {
         "chapter": "arrival",
@@ -378,7 +397,8 @@
         "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_152814",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
         "base_text_symbol": "UnknownString_8173A76",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "PictureBooks"
       },
       "progress": {
         "chapter": "arrival",
@@ -397,7 +417,8 @@
         "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
         "base_text_symbol": "RivalsHouse_1F_Text_OhYoureTheNewNeighbor",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "NeighborWelcome"
       },
       "progress": {
         "chapter": "arrival",
@@ -416,7 +437,8 @@
         "symbol": "RivalsHouse_1F_EventScript_RivalMom",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
         "base_text_symbol": "RivalsHouse_1F_Text_RivalIsUpstairsIThink",
-        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged.",
+        "authored_id": "NeighborUpstairs"
       },
       "progress": {
         "chapter": "arrival",
@@ -435,7 +457,8 @@
         "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_WhereHasHusbandGone",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
         "base_text_symbol": "RivalsHouse_1F_Text_WhereHasHusbandGone",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "NeighborHusband"
       },
       "progress": {
         "chapter": "arrival",
@@ -454,7 +477,8 @@
         "symbol": "RivalsHouse_1F_EventScript_RivalIsOutSomewhere",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
         "base_text_symbol": "RivalsHouse_1F_Text_WentOutSomewhere",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "NeighborGone"
       },
       "progress": {
         "chapter": "arrival",
@@ -473,7 +497,8 @@
         "symbol": "RivalsHouse_1F_EventScript_GoHomeEverySoOften",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
         "base_text_symbol": "RivalsHouse_1F_Text_ShouldGoHomeEverySoOften",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "NeighborVisitHome"
       },
       "progress": {
         "chapter": "arrival",
@@ -492,7 +517,8 @@
         "symbol": "RivalsHouse_2F_EventScript_May",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
         "base_text_symbol": "RivalsHouse_2F_Text_MayGettingReady",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "MayReady"
       },
       "progress": {
         "chapter": "arrival",
@@ -511,7 +537,8 @@
         "symbol": "RivalsHouse_2F_EventScript_May",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
         "base_text_symbol": "RivalsHouse_2F_Text_MayWhoAreYou",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "MayHello"
       },
       "progress": {
         "chapter": "arrival",
@@ -530,7 +557,8 @@
         "symbol": "RivalsHouse_2F_EventScript_Brendan",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
         "base_text_symbol": "RivalsHouse_2F_Text_BrendanGettingReady",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "BrendanReady"
       },
       "progress": {
         "chapter": "arrival",
@@ -549,7 +577,8 @@
         "symbol": "RivalsHouse_2F_EventScript_Brendan",
         "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
         "base_text_symbol": "RivalsHouse_2F_Text_BrendanWhoAreYou",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "BrendanHello"
       },
       "progress": {
         "chapter": "arrival",
@@ -568,7 +597,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_Aide",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "LabFieldwork"
       },
       "progress": {
         "chapter": "arrival",
@@ -587,7 +617,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "LabDesk"
       },
       "progress": {
         "chapter": "arrival",
@@ -606,7 +637,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo",
-        "note": "Connected to an existing learner dialogue without changing event progression."
+        "note": "Connected to an existing learner dialogue without changing event progression.",
+        "authored_id": "LabFamily"
       },
       "progress": {
         "chapter": "arrival",
@@ -626,7 +658,8 @@
         "symbol": "LittlerootTown_EventScript_FatMan",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_CanUsePCToStoreItems",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownPC"
       },
       "progress": {
         "chapter": "arrival",
@@ -645,7 +678,8 @@
         "symbol": "LittlerootTown_EventScript_Boy",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_BirchSpendsDaysInLab",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownResearch"
       },
       "progress": {
         "chapter": "arrival",
@@ -664,7 +698,8 @@
         "symbol": "LittlerootTown_EventScript_Twin",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownGrass"
       },
       "progress": {
         "chapter": "arrival",
@@ -683,7 +718,8 @@
         "symbol": "LittlerootTown_EventScript_DangerousWithoutPokemon",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_DangerousIfYouDontHavePokemon",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownDanger"
       },
       "progress": {
         "chapter": "arrival",
@@ -702,7 +738,8 @@
         "symbol": "LittlerootTown_EventScript_GoSaveBirch",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_CanYouGoSeeWhatsHappening",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownHelp"
       },
       "progress": {
         "chapter": "arrival",
@@ -721,7 +758,8 @@
         "symbol": "LittlerootTown_EventScript_YouSavedBirch",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_YouSavedBirch",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownRescued"
       },
       "progress": {
         "chapter": "arrival",
@@ -740,7 +778,8 @@
         "symbol": "LittlerootTown_EventScript_GoodLuck",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_GoodLuckCatchingPokemon",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownGoodLuck"
       },
       "progress": {
         "chapter": "arrival",
@@ -759,7 +798,8 @@
         "symbol": "LittlerootTown_EventScript_TownSign",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_TownSign",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "TownSign"
       },
       "progress": {
         "chapter": "arrival",
@@ -778,7 +818,8 @@
         "symbol": "LittlerootTown_EventScript_BirchsLabSign",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_ProfBirchsLab",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "LabSign"
       },
       "progress": {
         "chapter": "arrival",
@@ -798,7 +839,8 @@
         "symbol": "LittlerootTown_EventScript_PlayersHouseSignMale",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_PlayersHouse",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "HomeSign"
       },
       "progress": {
         "chapter": "arrival",
@@ -818,7 +860,8 @@
         "symbol": "LittlerootTown_EventScript_BirchsHouseSignMale",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_ProfBirchsHouse",
-        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged.",
+        "authored_id": "BirchHomeSign"
       },
       "progress": {
         "chapter": "arrival",
@@ -838,7 +881,8 @@
         "symbol": "EventScript_RegionMap",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
         "base_text_symbol": "Common_Text_LookCloserAtMap",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "WallMap"
       },
       "progress": {
         "chapter": "arrival",
@@ -857,7 +901,8 @@
         "symbol": "Route101_EventScript_14E948",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D10E",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RescueCry"
       },
       "progress": {
         "chapter": "arrival",
@@ -876,7 +921,8 @@
         "symbol": "Route101_EventScript_14E948",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D119",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RescueBag"
       },
       "progress": {
         "chapter": "arrival",
@@ -896,7 +942,8 @@
         "symbol": "Route101_EventScript_14E9B8",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D15E",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RescueStay"
       },
       "progress": {
         "chapter": "arrival",
@@ -915,7 +962,8 @@
         "symbol": "Route101_EventScript_14EA7F",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D191",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RescueThanks"
       },
       "progress": {
         "chapter": "arrival",
@@ -935,7 +983,8 @@
         "symbol": "Route101_EventScript_14EA64",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D25E",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RouteHealing"
       },
       "progress": {
         "chapter": "arrival",
@@ -954,7 +1003,8 @@
         "symbol": "Route101_EventScript_14EA6D",
         "base_text_path": "data/maps/Route101/text.inc",
         "base_text_symbol": "Route101_Text_16D2CB",
-        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged.",
+        "authored_id": "RouteGrass"
       },
       "progress": {
         "chapter": "arrival",
@@ -973,7 +1023,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "StarterGift"
       },
       "progress": {
         "chapter": "arrival",
@@ -992,7 +1043,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "StarterVisit"
       },
       "progress": {
         "chapter": "arrival",
@@ -1011,7 +1063,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_152D9A",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchRivalRoute103",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "StarterRest"
       },
       "progress": {
         "chapter": "arrival",
@@ -1030,7 +1083,8 @@
         "symbol": "LittlerootTown_EventScript_GiveRunningShoes",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_WearTheseRunningShoes",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "RunningShoes"
       },
       "progress": {
         "chapter": "arrival",
@@ -1049,7 +1103,8 @@
         "symbol": "LittlerootTown_EventScript_GiveRunningShoes",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_ExplainRunningShoes",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "RunningRules"
       },
       "progress": {
         "chapter": "arrival",
@@ -1068,7 +1123,8 @@
         "symbol": "LittlerootTown_EventScript_GiveRunningShoes",
         "base_text_path": "data/maps/LittlerootTown/text.inc",
         "base_text_symbol": "LittlerootTown_Text_ComeHomeIfAnythingHappens",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "HomeSafety"
       },
       "progress": {
         "chapter": "arrival",
@@ -1087,7 +1143,8 @@
         "symbol": "Route103_EventScript_14EBAB",
         "base_text_path": "data/maps/Route103/text.inc",
         "base_text_symbol": "Route103_Text_16D57A",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "RouteResearchMay"
       },
       "progress": {
         "chapter": "arrival",
@@ -1107,7 +1164,8 @@
         "symbol": "Route103_EventScript_14EC04",
         "base_text_path": "data/maps/Route103/text.inc",
         "base_text_symbol": "Route103_Text_16D762",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "RouteResearchBrendan"
       },
       "progress": {
         "chapter": "arrival",
@@ -1127,7 +1185,8 @@
         "symbol": "Route103_EventScript_14EBAB",
         "base_text_path": "data/maps/Route103/text.inc",
         "base_text_symbol": "Route103_Text_16D5B6",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "RouteChallengeMay"
       },
       "progress": {
         "chapter": "arrival",
@@ -1147,7 +1206,8 @@
         "symbol": "Route103_EventScript_14EC04",
         "base_text_path": "data/maps/Route103/text.inc",
         "base_text_symbol": "Route103_Text_16D7A9",
-        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged.",
+        "authored_id": "RouteChallengeBrendan"
       },
       "progress": {
         "chapter": "arrival",
@@ -1167,7 +1227,8 @@
         "symbol": "Route103_EventScript_14ECBD",
         "base_text_path": "data/maps/Route103/text.inc",
         "base_text_symbol": "Route103_Text_16D688",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "RouteVictoryMay"
       },
       "progress": {
         "chapter": "arrival",
@@ -1187,7 +1248,8 @@
         "symbol": "Route103_EventScript_14ECCB",
         "base_text_path": "data/maps/Route103/text.inc",
         "base_text_symbol": "Route103_Text_16D856",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "RouteVictoryBrendan"
       },
       "progress": {
         "chapter": "arrival",
@@ -1207,7 +1269,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokedexGift"
       },
       "progress": {
         "chapter": "arrival",
@@ -1226,7 +1289,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokedexExplain"
       },
       "progress": {
         "chapter": "arrival",
@@ -1245,7 +1309,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokemonAwait"
       },
       "progress": {
         "chapter": "arrival",
@@ -1264,7 +1329,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokeBallsGiftMay"
       },
       "progress": {
         "chapter": "arrival",
@@ -1284,7 +1350,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokeBallsGiftBrendan"
       },
       "progress": {
         "chapter": "arrival",
@@ -1304,7 +1371,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokeBallsExplainMay"
       },
       "progress": {
         "chapter": "arrival",
@@ -1323,7 +1391,8 @@
         "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls",
         "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
         "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "PokeBallsExplainBrendan"
       },
       "progress": {
         "chapter": "arrival",
@@ -1342,7 +1411,8 @@
         "symbol": "OldaleTown_EventScript_Girl",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_SavingMyProgress",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleRest"
       },
       "progress": {
         "chapter": "arrival",
@@ -1361,7 +1431,8 @@
         "symbol": "OldaleTown_EventScript_MartEmployee",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_IWorkAtPokemonMart",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleShopInvite"
       },
       "progress": {
         "chapter": "arrival",
@@ -1380,7 +1451,8 @@
         "symbol": "OldaleTown_EventScript_ExplainPokemonMart",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_ThisIsAPokemonMart",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleShopTour"
       },
       "progress": {
         "chapter": "arrival",
@@ -1399,7 +1471,8 @@
         "symbol": "OldaleTown_EventScript_ExplainPotion",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_PotionExplanation",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldalePotion"
       },
       "progress": {
         "chapter": "arrival",
@@ -1419,7 +1492,8 @@
         "symbol": "OldaleTown_EventScript_BlockedPath",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_WaitDontComeInHere",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleStop"
       },
       "progress": {
         "chapter": "arrival",
@@ -1438,7 +1512,8 @@
         "symbol": "OldaleTown_EventScript_FootprintsMan",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_DiscoveredFootprints",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleFootprints"
       },
       "progress": {
         "chapter": "arrival",
@@ -1457,7 +1532,8 @@
         "symbol": "OldaleTown_EventScript_NotBlockingPath",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_FinishedSketchingFootprints",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleOwnFootprints"
       },
       "progress": {
         "chapter": "arrival",
@@ -1476,7 +1552,8 @@
         "symbol": "OldaleTown_EventScript_ShowMayMessage",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_MayLetsGoBack",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleMayReturn"
       },
       "progress": {
         "chapter": "arrival",
@@ -1495,7 +1572,8 @@
         "symbol": "OldaleTown_EventScript_ShowBrendanMessage",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_BrendanLetsGoBack",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleBrendanReturn"
       },
       "progress": {
         "chapter": "arrival",
@@ -1514,7 +1592,8 @@
         "symbol": "OldaleTown_EventScript_TownSign",
         "base_text_path": "data/maps/OldaleTown/text.inc",
         "base_text_symbol": "OldaleTown_Text_TownSign",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldaleSign"
       },
       "progress": {
         "chapter": "arrival",
@@ -1533,7 +1612,8 @@
         "symbol": "OldaleTown_House1_EventScript_Woman",
         "base_text_path": "data/maps/OldaleTown_House1/text.inc",
         "base_text_symbol": "OldaleTown_House1_Text_LeftPokemonGoesOutFirst",
-        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged."
+        "note": "Connected to an existing learner story or NPC interaction; game progression remains unchanged.",
+        "authored_id": "OldalePartyOrder"
       },
       "progress": {
         "chapter": "arrival",
@@ -1552,7 +1632,8 @@
         "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock",
         "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
         "base_text_symbol": "PlayersHouse_1F_Text_GoSetTheClock",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "ClockReminder"
       },
       "progress": {
         "chapter": "arrival",
@@ -1572,7 +1653,8 @@
         "symbol": "OldaleTown_House2_EventScript_Woman",
         "base_text_path": "data/maps/OldaleTown_House2/text.inc",
         "base_text_symbol": "OldaleTown_House2_Text_PokemonLevelUp",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleLevel"
       },
       "progress": {
         "chapter": "arrival",
@@ -1591,7 +1673,8 @@
         "symbol": "OldaleTown_House2_EventScript_Man",
         "base_text_path": "data/maps/OldaleTown_House2/text.inc",
         "base_text_symbol": "OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleTravel"
       },
       "progress": {
         "chapter": "arrival",
@@ -1610,7 +1693,8 @@
         "symbol": "OldaleTown_Mart_EventScript_Woman",
         "base_text_path": "data/maps/OldaleTown_Mart/text.inc",
         "base_text_symbol": "OldaleTown_Mart_Text_PokeBallsAreSoldOut",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleSoldOut"
       },
       "progress": {
         "chapter": "arrival",
@@ -1629,7 +1713,8 @@
         "symbol": "OldaleTown_Mart_EventScript_PokeBallsInStock",
         "base_text_path": "data/maps/OldaleTown_Mart/text.inc",
         "base_text_symbol": "OldaleTown_Mart_Text_ImGoingToBuyPokeBalls",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleBuyBalls"
       },
       "progress": {
         "chapter": "arrival",
@@ -1649,7 +1734,8 @@
         "symbol": "OldaleTown_Mart_EventScript_Boy",
         "base_text_path": "data/maps/OldaleTown_Mart/text.inc",
         "base_text_symbol": "OldaleTown_Mart_Text_RestoreHPWithPotion",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleHealth"
       },
       "progress": {
         "chapter": "arrival",
@@ -1669,7 +1755,8 @@
         "symbol": "OldaleTown_PokemonCenter_1F_EventScript_Gentleman",
         "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
         "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleComputer"
       },
       "progress": {
         "chapter": "arrival",
@@ -1689,7 +1776,8 @@
         "symbol": "OldaleTown_PokemonCenter_1F_EventScript_Boy",
         "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
         "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleFreeCare"
       },
       "progress": {
         "chapter": "arrival",
@@ -1709,7 +1797,8 @@
         "symbol": "OldaleTown_PokemonCenter_1F_EventScript_Girl",
         "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
         "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_CableClubNotAvailable",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleClubClosed"
       },
       "progress": {
         "chapter": "arrival",
@@ -1729,7 +1818,8 @@
         "symbol": "OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable",
         "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
         "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_TradedInCableClub",
-        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged.",
+        "authored_id": "OldaleClubOpen"
       },
       "progress": {
         "chapter": "arrival",

@@ -137,9 +137,16 @@ def validate_profile(path: Path, packs: dict[str, dict[str, set[str]]]) -> None:
             raise ValidationError(f"{path}: unknown grammar ID {grammar_id}")
         require_keys(state, {"exposure_count", "hint_requests", "last_seen"}, f"{path}: {grammar_id}")
         timestamp(state["last_seen"], f"{path}: {grammar_id}.last_seen")
+    for word_id, state in profile.get("activity_vocabulary", {}).items():
+        require_keys(state, {"lemma", "english_gloss", "exposure_count", "dictionary_requests", "last_seen"}, f"{path}: {word_id}")
+        if not all(isinstance(state[name], str) and state[name] for name in ("lemma", "english_gloss")):
+            raise ValidationError(f"{path}: invalid activity vocabulary text for {word_id}")
+        if any(not isinstance(state[name], int) or state[name] < 0 for name in ("exposure_count", "dictionary_requests")):
+            raise ValidationError(f"{path}: invalid activity vocabulary counters for {word_id}")
+        timestamp(state["last_seen"], f"{path}: {word_id}.last_seen")
     if "rom_learning" in profile:
         state = profile["rom_learning"]
-        require_keys(state, {"source_id", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "dictionary_rate", "last_synced"}, f"{path}: rom_learning")
+        require_keys(state, {"source_id", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "event_cursors", "dictionary_rate", "last_synced"}, f"{path}: rom_learning")
         if not isinstance(state["source_id"], str) or not state["source_id"]:
             raise ValidationError(f"{path}: invalid ROM source ID")
         if any(not isinstance(state[name], int) or not 0 <= state[name] <= 0xFFFF
@@ -148,6 +155,10 @@ def validate_profile(path: Path, packs: dict[str, dict[str, set[str]]]) -> None:
         expected_rate = state["dictionary_count"] / state["exposure_count"] if state["exposure_count"] else 0
         if not isinstance(state["dictionary_rate"], (int, float)) or abs(state["dictionary_rate"] - expected_rate) > 0.0001:
             raise ValidationError(f"{path}: invalid ROM dictionary rate")
+        if not isinstance(state["event_cursors"], dict) or any(
+                not isinstance(key, str) or not key or not isinstance(value, int) or value < 0
+                for key, value in state["event_cursors"].items()):
+            raise ValidationError(f"{path}: invalid ROM event cursors")
         timestamp(state["last_synced"], f"{path}: rom_learning.last_synced")
 
 

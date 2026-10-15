@@ -3,7 +3,7 @@
   "$id": "https://example.invalid/pokemon-language-learning/rom-learning-snapshot.schema.json",
   "title": "Learner ROM counter snapshot",
   "type": "object",
-  "required": ["schema_version", "source_id", "selected_language", "cefr", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "captured_at"],
+  "required": ["schema_version", "source_id", "selected_language", "cefr", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "session_id", "events", "captured_at"],
   "properties": {
     "schema_version": {"const": 1},
     "source_id": {"type": "string", "minLength": 1},
@@ -13,6 +13,22 @@
     "dictionary_count": {"type": "integer", "minimum": 0, "maximum": 65535},
     "last_exposure_context": {"type": "integer", "minimum": 0, "maximum": 65535},
     "last_dictionary_context": {"type": "integer", "minimum": 0, "maximum": 65535},
+    "session_id": {"type": "string", "minLength": 1},
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sequence", "kind", "context", "delta", "captured_at"],
+        "properties": {
+          "sequence": {"type": "integer", "minimum": 1},
+          "kind": {"enum": ["exposure", "dictionary"]},
+          "context": {"type": "integer", "minimum": 0, "maximum": 65535},
+          "delta": {"type": "integer", "minimum": 1},
+          "captured_at": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
     "captured_at": {"type": "string"}
   },
   "additionalProperties": false

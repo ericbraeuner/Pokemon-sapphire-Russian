@@ -1,9 +1,8 @@
--- Export learner settings and counters from Pokémon Sapphire to JSON.
+-- Export learner settings and lossless activity events from Pokémon Sapphire.
 -- In mGBA 0.10+, open Tools > Scripting, load this file, and leave it running.
 
 local OUTPUT_PATH = "learner-snapshot.json"
 local SOURCE_ID = "pokemon-sapphire-learner-save"
-local EXPORT_INTERVAL_FRAMES = 300
 
 local SAVE_BLOCK1 = 0x02025734
 local VARS_OFFSET = 0x1340
@@ -17,8 +16,11 @@ local VAR_LAST_DICTIONARY_CONTEXT = 0x40F8
 
 local languages = {[1] = "ru", [2] = "de"}
 local levels = {[1] = "A1", [2] = "A2", [3] = "B1", [4] = "B2", [5] = "C1", [6] = "C2"}
-local lastSignature = nil
-local frameCounter = 0
+local sessionId = SOURCE_ID .. "-" .. os.date("!%Y%m%dT%H%M%SZ")
+local events = {}
+local sequence = 0
+local previous = nil
+local dirty = false
 
 local function readVar(id)
     return emu:read16(SAVE_BLOCK1 + VARS_OFFSET + 2 * (id - VARS_START))
@@ -28,40 +30,52 @@ local function jsonString(value)
     return '"' .. value:gsub('\\', '\\\\'):gsub('"', '\\"'):gsub('\n', '\\n') .. '"'
 end
 
-local function snapshot()
+local function readState()
     local language = languages[readVar(VAR_LANGUAGE)]
     local cefr = levels[readVar(VAR_LEVEL)]
-    if not language or not cefr then
-        return nil
+    if not language or not cefr then return nil end
+    return {
+        language = language, cefr = cefr,
+        exposures = readVar(VAR_EXPOSURES),
+        dictionaries = readVar(VAR_DICTIONARIES),
+        exposureContext = readVar(VAR_LAST_EXPOSURE_CONTEXT),
+        dictionaryContext = readVar(VAR_LAST_DICTIONARY_CONTEXT),
+    }
+end
+
+local function addEvent(kind, context, delta, capturedAt)
+    sequence = sequence + 1
+    events[#events + 1] = {sequence = sequence, kind = kind, context = context,
+                           delta = delta, capturedAt = capturedAt}
+end
+
+local function renderEvents()
+    local rendered = {}
+    for _, event in ipairs(events) do
+        rendered[#rendered + 1] = string.format(
+            '    {"sequence": %d, "kind": %s, "context": %d, "delta": %d, "captured_at": %s}',
+            event.sequence, jsonString(event.kind), event.context, event.delta,
+            jsonString(event.capturedAt))
     end
-    local exposures = readVar(VAR_EXPOSURES)
-    local dictionaries = readVar(VAR_DICTIONARIES)
-    local lastExposureContext = readVar(VAR_LAST_EXPOSURE_CONTEXT)
-    local lastDictionaryContext = readVar(VAR_LAST_DICTIONARY_CONTEXT)
+    return table.concat(rendered, ",\n")
+end
+
+local function writeSnapshot(state)
     local capturedAt = os.date("!%Y-%m-%dT%H:%M:%SZ")
-    local signature = table.concat({language, cefr, exposures, dictionaries,
-                                    lastExposureContext, lastDictionaryContext}, ":")
     local body = string.format(
         '{\n  "schema_version": 1,\n  "source_id": %s,\n  "selected_language": %s,\n' ..
         '  "cefr": %s,\n  "exposure_count": %d,\n  "dictionary_count": %d,\n' ..
         '  "last_exposure_context": %d,\n  "last_dictionary_context": %d,\n' ..
-        '  "captured_at": %s\n}\n',
-        jsonString(SOURCE_ID), jsonString(language), jsonString(cefr),
-        exposures, dictionaries, lastExposureContext, lastDictionaryContext,
+        '  "session_id": %s,\n  "events": [\n%s\n  ],\n  "captured_at": %s\n}\n',
+        jsonString(SOURCE_ID), jsonString(state.language), jsonString(state.cefr),
+        state.exposures, state.dictionaries, state.exposureContext,
+        state.dictionaryContext, jsonString(sessionId), renderEvents(),
         jsonString(capturedAt))
-    return body, signature
-end
-
-local function exportIfChanged()
-    local body, signature = snapshot()
-    if not body or signature == lastSignature then
-        return
-    end
     local temporaryPath = OUTPUT_PATH .. ".tmp"
     local file, message = io.open(temporaryPath, "wb")
     if not file then
         console:error("Learner snapshot could not be opened: " .. tostring(message))
-        return
+        return false
     end
     file:write(body)
     file:close()
@@ -69,20 +83,42 @@ local function exportIfChanged()
     local ok, renameMessage = os.rename(temporaryPath, OUTPUT_PATH)
     if not ok then
         console:error("Learner snapshot could not be installed: " .. tostring(renameMessage))
-        return
+        return false
     end
-    lastSignature = signature
-    console:log("Learner snapshot updated: " .. signature)
+    return true
 end
 
-callbacks:add("frame", function()
-    frameCounter = frameCounter + 1
-    if frameCounter >= EXPORT_INTERVAL_FRAMES then
-        frameCounter = 0
-        exportIfChanged()
+local function poll()
+    local state = readState()
+    if not state then return end
+    if not previous then
+        previous = state
+        dirty = true
+    else
+        local capturedAt = os.date("!%Y-%m-%dT%H:%M:%SZ")
+        if state.exposures > previous.exposures then
+            addEvent("exposure", state.exposureContext,
+                     state.exposures - previous.exposures, capturedAt)
+            dirty = true
+        elseif state.exposures < previous.exposures then
+            console:warn("Learner exposure counter moved backwards; starting a new baseline")
+            dirty = true
+        end
+        if state.dictionaries > previous.dictionaries then
+            addEvent("dictionary", state.dictionaryContext,
+                     state.dictionaries - previous.dictionaries, capturedAt)
+            dirty = true
+        elseif state.dictionaries < previous.dictionaries then
+            console:warn("Learner dictionary counter moved backwards; starting a new baseline")
+            dirty = true
+        end
+        if state.language ~= previous.language or state.cefr ~= previous.cefr then dirty = true end
+        previous = state
     end
-end)
+    if dirty and writeSnapshot(state) then dirty = false end
+end
 
-callbacks:add("start", exportIfChanged)
-callbacks:add("savedataUpdated", exportIfChanged)
-exportIfChanged()
+callbacks:add("frame", poll)
+callbacks:add("start", poll)
+callbacks:add("savedataUpdated", poll)
+poll()

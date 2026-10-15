@@ -14,12 +14,14 @@
   "grammar_exposure": {
     "ru.zero_copula": {"exposure_count": 1, "hint_requests": 1, "last_seen": "2026-01-15T18:30:00Z"}
   },
+  "activity_vocabulary": {},
   "rom_learning": {
     "source_id": "sample-sapphire-save",
     "exposure_count": 12,
     "dictionary_count": 3,
     "last_exposure_context": 1,
     "last_dictionary_context": 1,
+    "event_cursors": {},
     "dictionary_rate": 0.25,
     "last_synced": "2026-01-15T18:30:00Z"
   }

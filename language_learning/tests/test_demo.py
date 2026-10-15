@@ -41,6 +41,13 @@ class LessonTests(unittest.TestCase):
             "selected_language": "de", "cefr": "B1",
             "exposure_count": 40, "dictionary_count": 10,
             "last_exposure_context": 12, "last_dictionary_context": 9,
+            "session_id": "test-session",
+            "events": [
+                {"sequence": 1, "kind": "exposure", "context": 1, "delta": 1,
+                 "captured_at": "2026-10-14T21:59:58Z"},
+                {"sequence": 2, "kind": "dictionary", "context": 0x1000, "delta": 1,
+                 "captured_at": "2026-10-14T21:59:59Z"},
+            ],
             "captured_at": "2026-10-14T22:00:00Z",
         }
         updated = profile_sync.merge(profile, snapshot)
@@ -49,6 +56,13 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(0.25, updated["rom_learning"]["dictionary_rate"])
         self.assertEqual(12, updated["rom_learning"]["last_exposure_context"])
         self.assertEqual(9, updated["rom_learning"]["last_dictionary_context"])
+        self.assertEqual(2, updated["rom_learning"]["event_cursors"]["test-session"])
+        opening_words = context_catalog.load()[1]["words"]["de"]
+        field_words = context_catalog.load()[0x1000]["words"]["de"]
+        self.assertTrue(all(updated["activity_vocabulary"][word["id"]]["exposure_count"] == 1 for word in opening_words))
+        self.assertTrue(all(updated["activity_vocabulary"][word["id"]]["dictionary_requests"] == 1 for word in field_words))
+        repeated = profile_sync.merge(updated, snapshot)
+        self.assertEqual(updated["activity_vocabulary"], repeated["activity_vocabulary"])
         rewound = dict(snapshot, exposure_count=39)
         with self.assertRaisesRegex(ValueError, "moved backwards"):
             profile_sync.merge(updated, rewound)
@@ -61,7 +75,10 @@ class LessonTests(unittest.TestCase):
         for variable in ("0x40F0", "0x40F1", "0x40F5", "0x40F6", "0x40F7", "0x40F8"):
             self.assertIn(variable, source)
         self.assertIn("emu:read16(SAVE_BLOCK1 + VARS_OFFSET", source)
-        self.assertIn('callbacks:add("savedataUpdated", exportIfChanged)', source)
+        self.assertIn('callbacks:add("savedataUpdated", poll)', source)
+        self.assertIn('callbacks:add("frame", poll)', source)
+        self.assertIn('"session_id": %s', source)
+        self.assertIn('"events": [', source)
         self.assertIn('"schema_version": 1', source)
         self.assertNotIn("emu:write", source)
 

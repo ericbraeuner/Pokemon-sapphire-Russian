@@ -106,9 +106,11 @@ Use `--allow-reset` only when intentionally starting over or synchronizing a
 rewound save whose counters are lower than the profile's last snapshot.
 
 For mGBA 0.10 or newer, load `mgba/export_learner_snapshot.lua` from
-**Tools > Scripting**. It reads the learner build's reserved variables every five
-seconds, writes only when values change, and also reacts to emulator start and
-save-data updates. Set `OUTPUT_PATH` and `SOURCE_ID` at the top of the script for
+**Tools > Scripting**. It reads the learner build's reserved variables continuously,
+writes only when values change, and also reacts to emulator start and save-data
+updates. It observes every frame so it can retain an ordered event
+for each counter change; profile synchronization uses a per-session cursor to
+ignore events it has already imported. Set `OUTPUT_PATH` and `SOURCE_ID` at the top of the script for
 the profile and save being used. Released mGBA builds do not reliably support a
 command-line script-loading option, so loading it from the Scripting window is
 currently a manual step. The exporter only reads emulated memory.

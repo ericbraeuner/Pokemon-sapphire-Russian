@@ -656,6 +656,97 @@
         "Norden"
       ],
       "dictionary_form": "der Norden"
+    },
+    {
+      "id": "de.schenken",
+      "lemma": "schenken",
+      "english": "to give as a gift",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.starter_gift.051",
+      "forms": [
+        "schenken"
+      ]
+    },
+    {
+      "id": "de.trainer",
+      "lemma": "Trainer",
+      "english": "trainer",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.rival_visit.052",
+      "forms": [
+        "Trainer"
+      ],
+      "dictionary_form": "der Trainer"
+    },
+    {
+      "id": "de.ausruhen",
+      "lemma": "sich ausruhen",
+      "english": "to rest",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.rest.053",
+      "forms": [
+        "sich ausruhen"
+      ]
+    },
+    {
+      "id": "de.laufschuhe",
+      "lemma": "Laufschuhe",
+      "english": "running shoes",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.mom.running_shoes.054",
+      "forms": [
+        "Laufschuhe"
+      ],
+      "dictionary_form": "die Laufschuhe"
+    },
+    {
+      "id": "de.rennen",
+      "lemma": "rennen",
+      "english": "to run",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.mom.running_rules.055",
+      "forms": [
+        "rennen"
+      ]
+    },
+    {
+      "id": "de.aufpassen",
+      "lemma": "aufpassen",
+      "english": "to be careful",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.mom.safety.056",
+      "forms": [
+        "aufpassen"
+      ]
+    },
+    {
+      "id": "de.leben",
+      "lemma": "leben",
+      "english": "to live",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "route103.may.research.057",
+      "forms": [
+        "leben"
+      ]
+    },
+    {
+      "id": "de.kampf",
+      "lemma": "Kampf",
+      "english": "battle",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route103.may.challenge.059",
+      "forms": [
+        "Kampf"
+      ],
+      "dictionary_form": "der Kampf"
     }
   ],
   "grammar_notes": [
@@ -2287,6 +2378,248 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 49
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.starter_gift.051",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Birk: Dein Vater hat mir von dir erzählt. Du hast noch kein Pokémon. Aber du hast toll gekämpft! Als Dank bekommst du dieses Pokémon. Es gehört jetzt dir!",
+          "english_gloss": "Birch gives you the Pokémon you used to rescue him.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.schenken"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 50
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Birk: Dein Vater hat mir viel von dir erzählt. Obwohl du noch kein eigenes Pokémon hattest, hast du toll gekämpft! Als Dank für meine Rettung schenke ich dir dieses Pokémon.",
+          "english_gloss": "Birch gives you the Pokémon you used to rescue him.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.schenken"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 50
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Birk: Dein Vater hat mir viel von dir erzählt. Obwohl du noch kein eigenes Pokémon hattest, hast du den Kampf hervorragend gemeistert! Als Dank für meine Rettung möchte ich dir das Pokémon schenken, mit dem du gekämpft hast.",
+          "english_gloss": "Birch gives you the Pokémon you used to rescue him.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.schenken"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 50
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.rival_visit.052",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Birk: Prima! Mein Kind freut sich bestimmt. Auf Route 103 kannst du lernen, was es heißt, Trainer zu sein!",
+          "english_gloss": "Visit the rival on Route 103 to learn about being a trainer.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.trainer"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 51
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.rest.053",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mein Kind ist irgendwo auf Route 103. Wenn du oder deine Pokémon müde seid, ruht euch zu Hause aus.",
+          "english_gloss": "The rival is on Route 103. Rest at home if you or your Pokémon get tired.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.ausruhen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 52
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.mom.running_shoes.054",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Was für ein süßes Pokémon! Ein Geschenk von Professor Birk? Ihr passt gut zusammen! Für dein Abenteuer brauchst du Laufschuhe. Hier, bitte!",
+          "english_gloss": "Mom admires your Pokémon and gives you Running Shoes.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.laufschuhe"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 53
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.mom.running_rules.055",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Halte mit deinen Laufschuhen draußen die B-Taste gedrückt, um schnell zu rennen!",
+          "english_gloss": "Hold B outdoors while wearing the Running Shoes to run.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rennen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 54
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.mom.safety.056",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mama: Jetzt hast du dein eigenes Pokémon! Dein Vater wird sich freuen. Pass auf dich auf. Wenn etwas passiert, komm nach Hause. Viel Glück!",
+          "english_gloss": "Mom wishes you luck and reminds you that you can always come home.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.aufpassen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 55
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.may.research.057",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mal sehen... Welche Pokémon leben auf Route 103?",
+          "english_gloss": "Which Pokémon live on Route 103?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.leben"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 56
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.brendan.research.058",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mal sehen... Welche Pokémon leben auf Route 103?",
+          "english_gloss": "Which Pokémon live on Route 103?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.leben"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 57
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.may.challenge.059",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen.",
+          "english_gloss": "Your rival invites you to your first trainer battle.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.kampf"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 58
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.brendan.challenge.060",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Hallo! Papa hat dir ein Pokémon gegeben? Lass uns kämpfen! So lernst du das Leben als Trainer kennen.",
+          "english_gloss": "Your rival invites you to your first trainer battle.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.kampf"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 59
           }
         }
       ]

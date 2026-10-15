@@ -43,7 +43,7 @@ progress, enforces each variant's new-word budget, and selects the hardest
 eligible variant. Due vocabulary and known-word mastery break ties without ever
 changing the learner's selected CEFR level.
 
-The adaptive packs now cover the first fifty connected early-game scenes: arriving
+The adaptive packs now cover the first sixty connected early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -58,9 +58,11 @@ and both house signs are included as well. Route 101 now contributes the wall-ma
 lead-in, Birch's complete rescue sequence, both route residents, and its actual
 northbound sign; the former route-sign placeholder is now connected to the real
 script and text symbol. The original welcome example retains its two established
-variants. German noun records include their articles. These external selections
-do not rewrite the ROM dialogue yet; they are the authored input for a future
-wrapper or in-ROM selector.
+variants. Birch's starter gift and follow-up guidance, Mom's Running Shoes lesson,
+and both May and Brendan Route 103 research and battle-challenge branches are now
+part of the adaptive catalogue too. German noun records include their articles.
+These external selections do not rewrite the ROM dialogue yet; they are the
+authored input for a future wrapper or in-ROM selector.
 
 ## Emulator/wrapper contract
 

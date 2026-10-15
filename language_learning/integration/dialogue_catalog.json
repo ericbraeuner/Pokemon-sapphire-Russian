@@ -964,6 +964,200 @@
         "route",
         "catching"
       ]
+    },
+    {
+      "id": "littleroot.lab.birch.starter_gift.051",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 50
+      },
+      "tags": [
+        "lab",
+        "starter"
+      ]
+    },
+    {
+      "id": "littleroot.lab.birch.rival_visit.052",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 51
+      },
+      "tags": [
+        "lab",
+        "rival"
+      ]
+    },
+    {
+      "id": "littleroot.lab.birch.rest.053",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_152D9A",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchRivalRoute103",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 52
+      },
+      "tags": [
+        "lab",
+        "healing"
+      ]
+    },
+    {
+      "id": "littleroot.mom.running_shoes.054",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_GiveRunningShoes",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_WearTheseRunningShoes",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 53
+      },
+      "tags": [
+        "family",
+        "item"
+      ]
+    },
+    {
+      "id": "littleroot.mom.running_rules.055",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_GiveRunningShoes",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_ExplainRunningShoes",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 54
+      },
+      "tags": [
+        "family",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "littleroot.mom.safety.056",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_GiveRunningShoes",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_ComeHomeIfAnythingHappens",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 55
+      },
+      "tags": [
+        "family",
+        "safety"
+      ]
+    },
+    {
+      "id": "route103.may.research.057",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route103/scripts.inc",
+        "symbol": "Route103_EventScript_14EBAB",
+        "base_text_path": "data/maps/Route103/text.inc",
+        "base_text_symbol": "Route103_Text_16D57A",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 56
+      },
+      "tags": [
+        "route",
+        "rival",
+        "research"
+      ]
+    },
+    {
+      "id": "route103.brendan.research.058",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route103/scripts.inc",
+        "symbol": "Route103_EventScript_14EC04",
+        "base_text_path": "data/maps/Route103/text.inc",
+        "base_text_symbol": "Route103_Text_16D762",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 57
+      },
+      "tags": [
+        "route",
+        "rival",
+        "research"
+      ]
+    },
+    {
+      "id": "route103.may.challenge.059",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route103/scripts.inc",
+        "symbol": "Route103_EventScript_14EBAB",
+        "base_text_path": "data/maps/Route103/text.inc",
+        "base_text_symbol": "Route103_Text_16D5B6",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 58
+      },
+      "tags": [
+        "route",
+        "rival",
+        "battle"
+      ]
+    },
+    {
+      "id": "route103.brendan.challenge.060",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route103/scripts.inc",
+        "symbol": "Route103_EventScript_14EC04",
+        "base_text_path": "data/maps/Route103/text.inc",
+        "base_text_symbol": "Route103_Text_16D7A9",
+        "note": "Connected to an existing learner story interaction; battle and event progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 59
+      },
+      "tags": [
+        "route",
+        "rival",
+        "battle"
+      ]
     }
   ]
 }

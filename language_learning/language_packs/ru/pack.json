@@ -606,6 +606,94 @@
       "forms": [
         "север"
       ]
+    },
+    {
+      "id": "ru.podarit",
+      "lemma": "подарить",
+      "english": "to give as a gift",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.starter_gift.051",
+      "forms": [
+        "подарить"
+      ]
+    },
+    {
+      "id": "ru.trener",
+      "lemma": "тренер",
+      "english": "trainer",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.rival_visit.052",
+      "forms": [
+        "тренер"
+      ]
+    },
+    {
+      "id": "ru.otdykhat",
+      "lemma": "отдыхать",
+      "english": "to rest",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.birch.rest.053",
+      "forms": [
+        "отдыхать"
+      ]
+    },
+    {
+      "id": "ru.krossovki",
+      "lemma": "кроссовки",
+      "english": "running shoes",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.mom.running_shoes.054",
+      "forms": [
+        "кроссовки"
+      ]
+    },
+    {
+      "id": "ru.begat",
+      "lemma": "бегать",
+      "english": "to run",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.mom.running_rules.055",
+      "forms": [
+        "бегать"
+      ]
+    },
+    {
+      "id": "ru.ostorozhno",
+      "lemma": "осторожно",
+      "english": "carefully",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.mom.safety.056",
+      "forms": [
+        "осторожно"
+      ]
+    },
+    {
+      "id": "ru.zhit",
+      "lemma": "жить",
+      "english": "to live",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "route103.may.research.057",
+      "forms": [
+        "жить"
+      ]
+    },
+    {
+      "id": "ru.boy",
+      "lemma": "бой",
+      "english": "battle",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route103.may.challenge.059",
+      "forms": [
+        "бой"
+      ]
     }
   ],
   "grammar_notes": [
@@ -2236,6 +2324,248 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 49
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.starter_gift.051",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Бёрч: Твой папа рассказывал о тебе. У тебя ещё нет покемона, но бой прошёл отлично! За помощь я дарю тебе этого покемона. Теперь он твой!",
+          "english_gloss": "Birch gives you the Pokémon you used to rescue him.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.podarit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 50
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Бёрч: Я много слышал о тебе от твоего отца. Хоть у тебя ещё не было своего покемона, бой прошёл отлично! В благодарность за спасение я дарю тебе покемона, который помог в бою.",
+          "english_gloss": "Birch gives you the Pokémon you used to rescue him.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.podarit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 50
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Бёрч: Твой отец много рассказывал о тебе. У тебя ещё не было собственного покемона, но в бою тебе удалось отлично справиться! В благодарность за спасение я хочу подарить тебе покемона, с которым ты сражаешься.",
+          "english_gloss": "Birch gives you the Pokémon you used to rescue him.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.podarit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 50
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.rival_visit.052",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Бёрч: Отлично! Моему ребёнку тоже будет приятно. На пути 103 ты узнаешь, что значит быть тренером!",
+          "english_gloss": "Visit the rival on Route 103 to learn about being a trainer.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.trener"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 51
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.birch.rest.053",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мой ребёнок где-то на пути 103. Если вы с покемонами устанете, отдохните дома.",
+          "english_gloss": "The rival is on Route 103. Rest at home if you or your Pokémon get tired.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.otdykhat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 52
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.mom.running_shoes.054",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Какой милый покемон! Это подарок профессора Бёрча? Вы отлично смотритесь вместе! Для приключения тебе нужны кроссовки. Вот, держи!",
+          "english_gloss": "Mom admires your Pokémon and gives you Running Shoes.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.krossovki"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 53
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.mom.running_rules.055",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Надень кроссовки и держи кнопку B, чтобы быстро бегать на улице!",
+          "english_gloss": "Hold B outdoors while wearing the Running Shoes to run.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.begat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 54
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.mom.safety.056",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Мама: Теперь у тебя свой покемон! Папа будет очень рад. Будь осторожнее. Если что-то случится, возвращайся домой. Удачи!",
+          "english_gloss": "Mom wishes you luck and reminds you that you can always come home.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.ostorozhno"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 55
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.may.research.057",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Посмотрим... Какие покемоны живут на маршруте 103?",
+          "english_gloss": "Which Pokémon live on Route 103?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.zhit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 56
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.brendan.research.058",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Посмотрим... Какие покемоны живут на маршруте 103?",
+          "english_gloss": "Which Pokémon live on Route 103?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.zhit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 57
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.may.challenge.059",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером.",
+          "english_gloss": "Your rival invites you to your first trainer battle.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.boy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 58
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route103.brendan.challenge.060",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Привет! Папа дал тебе покемона? Давай проведём бой! Ты узнаешь, каково быть тренером.",
+          "english_gloss": "Your rival invites you to your first trainer battle.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.boy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 59
           }
         }
       ]

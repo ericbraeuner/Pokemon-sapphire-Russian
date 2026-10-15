@@ -43,7 +43,7 @@ progress, enforces each variant's new-word budget, and selects the hardest
 eligible variant. Due vocabulary and known-word mastery break ties without ever
 changing the learner's selected CEFR level.
 
-The adaptive packs now cover the first eighty connected early-game scenes: arriving
+The adaptive packs now cover all ninety authored early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -62,9 +62,11 @@ variants. Birch's starter gift and follow-up guidance, Mom's Running Shoes lesso
 and both May and Brendan Route 103 research and battle-challenge branches are now
 part of the adaptive catalogue too. German noun records include their articles.
 The Route 103 victory responses, Pokédex explanation, May and Brendan Poké Ball
-handoffs, and the first eleven Oldale interactions now follow the same adaptive
-contract. These external selections do not rewrite the ROM dialogue yet; they
-are the authored input for a future wrapper or in-ROM selector.
+handoffs, and every authored Oldale interaction now follow the same adaptive
+contract. Automated coverage requires the adaptive catalogue to resolve every
+source symbol in `opening.json`, including the clock reminder that was initially
+missed. These external selections do not rewrite the ROM dialogue yet; they are
+the authored input for a future wrapper or in-ROM selector.
 
 ## Emulator/wrapper contract
 

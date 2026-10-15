@@ -933,6 +933,97 @@
         "Reihenfolge"
       ],
       "dictionary_form": "die Reihenfolge"
+    },
+    {
+      "id": "de.stark",
+      "lemma": "stark",
+      "english": "strong",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.house2.level.081",
+      "forms": [
+        "stark"
+      ]
+    },
+    {
+      "id": "de.reisen",
+      "lemma": "reisen",
+      "english": "to travel",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.house2.travel.082",
+      "forms": [
+        "reisen"
+      ]
+    },
+    {
+      "id": "de.kaufen",
+      "lemma": "kaufen",
+      "english": "to buy",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.mart.sold_out.083",
+      "forms": [
+        "kaufen"
+      ]
+    },
+    {
+      "id": "de.kraftpunkte",
+      "lemma": "Kraftpunkte",
+      "english": "hit points",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.mart.health.085",
+      "forms": [
+        "Kraftpunkte"
+      ],
+      "dictionary_form": "die Kraftpunkte"
+    },
+    {
+      "id": "de.ecke",
+      "lemma": "Ecke",
+      "english": "corner",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.computer.086",
+      "forms": [
+        "Ecke"
+      ],
+      "dictionary_form": "die Ecke"
+    },
+    {
+      "id": "de.kostenlos",
+      "lemma": "kostenlos",
+      "english": "free of charge",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.free_care.087",
+      "forms": [
+        "kostenlos"
+      ]
+    },
+    {
+      "id": "de.stockwerk",
+      "lemma": "Stockwerk",
+      "english": "floor; storey",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.club_closed.088",
+      "forms": [
+        "Stockwerk"
+      ],
+      "dictionary_form": "das Stockwerk"
+    },
+    {
+      "id": "de.tauschen",
+      "lemma": "tauschen",
+      "english": "to trade",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.club_open.089",
+      "forms": [
+        "tauschen"
+      ]
     }
   ],
   "grammar_notes": [
@@ -3226,6 +3317,248 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 79
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.clock_reminder.003b",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Mama: Stell bitte die Uhr in deinem Zimmer!",
+          "english_gloss": "Go set the clock in your room.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.uhr"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mama: Geh bitte in dein Zimmer und stell dort die Uhr!",
+          "english_gloss": "Go set the clock in your room.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.uhr"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Mama: Denk bitte daran, die Uhr in deinem Zimmer zu stellen.",
+          "english_gloss": "Go set the clock in your room.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.uhr"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.house2.level.081",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "In Kämpfen steigen Pokémon im Level und werden stärker.",
+          "english_gloss": "Battles help Pokémon grow stronger.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.stark"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 80
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.house2.travel.082",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wenn deine Pokémon stärker werden, kannst du weiter reisen.",
+          "english_gloss": "Stronger Pokémon let you travel farther.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.reisen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 81
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.mart.sold_out.083",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Laut Verkäufer sind alle Pokébälle ausverkauft. Ich kann keine kaufen.",
+          "english_gloss": "The shop has sold out of Poké Balls.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.kaufen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 82
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.mart.buy_balls.084",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Ich kaufe viele Pokébälle und fange viele Pokémon!",
+          "english_gloss": "I will buy Poké Balls and catch Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 83
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.mart.health.085",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wenn ein Pokémon alle Kraftpunkte verliert, kann es nicht mehr kämpfen. Gib ihm rechtzeitig einen Trank, um seine KP aufzufüllen.",
+          "english_gloss": "Use a Potion before your Pokémon loses all its HP.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.kraftpunkte"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 84
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.computer.086",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Den PC in der Ecke darf jeder Pokémon-Trainer benutzen. Du natürlich auch!",
+          "english_gloss": "Any trainer may use the PC in the corner.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.ecke"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 85
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.free_care.087",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Pokémon-Center sind toll! Du kannst jederzeit kommen, und alles ist kostenlos. Du brauchst dir keine Sorgen zu machen!",
+          "english_gloss": "Pokémon Center services are free.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.kostenlos"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 86
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.club_closed.088",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Oben wurde vor Kurzem ein Kabel-Club eingerichtet. Er wird aber noch vorbereitet.",
+          "english_gloss": "The upstairs link club is not ready yet.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.stockwerk"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 87
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.club_open.089",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Oben wurde vor Kurzem ein Kabel-Club eröffnet. Ich habe dort gleich ein Pokémon getauscht!",
+          "english_gloss": "The speaker traded a Pokémon upstairs.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.tauschen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 88
           }
         }
       ]

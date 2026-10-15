@@ -848,6 +848,94 @@
       "forms": [
         "начало"
       ]
+    },
+    {
+      "id": "ru.silnyy",
+      "lemma": "сильный",
+      "english": "strong",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.house2.level.081",
+      "forms": [
+        "сильный"
+      ]
+    },
+    {
+      "id": "ru.puteshestvovat",
+      "lemma": "путешествовать",
+      "english": "to travel",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.house2.travel.082",
+      "forms": [
+        "путешествовать"
+      ]
+    },
+    {
+      "id": "ru.pokupat",
+      "lemma": "покупать",
+      "english": "to buy",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.mart.sold_out.083",
+      "forms": [
+        "покупать"
+      ]
+    },
+    {
+      "id": "ru.zdorove",
+      "lemma": "здоровье",
+      "english": "health",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.mart.health.085",
+      "forms": [
+        "здоровье"
+      ]
+    },
+    {
+      "id": "ru.ugol",
+      "lemma": "угол",
+      "english": "corner",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.computer.086",
+      "forms": [
+        "угол"
+      ]
+    },
+    {
+      "id": "ru.besplatno",
+      "lemma": "бесплатно",
+      "english": "free of charge",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.free_care.087",
+      "forms": [
+        "бесплатно"
+      ]
+    },
+    {
+      "id": "ru.etazh",
+      "lemma": "этаж",
+      "english": "floor; storey",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.club_closed.088",
+      "forms": [
+        "этаж"
+      ]
+    },
+    {
+      "id": "ru.obmenivat",
+      "lemma": "обменивать",
+      "english": "to exchange",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "oldale.center.club_open.089",
+      "forms": [
+        "обменивать"
+      ]
     }
   ],
   "grammar_notes": [
@@ -3140,6 +3228,248 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 79
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.clock_reminder.003b",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мама: В комнате есть часы. Поставь их на нужное время.",
+          "english_gloss": "Go set the clock in your room.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.chasy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мама: Иди в свою комнату и поставь часы на нужное время.",
+          "english_gloss": "Go set the clock in your room.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.chasy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Мама: Не забудь выставить время на часах в своей комнате.",
+          "english_gloss": "Go set the clock in your room.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.chasy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.house2.level.081",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "В боях покемоны повышают уровень и становятся сильнее.",
+          "english_gloss": "Battles help Pokémon grow stronger.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.silnyy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 80
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.house2.travel.082",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Когда твои покемоны станут сильнее, ты сможешь путешествовать дальше.",
+          "english_gloss": "Stronger Pokémon let you travel farther.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.puteshestvovat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 81
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.mart.sold_out.083",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Продавец говорит, что покеболы закончились. Я не могу их купить.",
+          "english_gloss": "The shop has sold out of Poké Balls.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pokupat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 82
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.mart.buy_balls.084",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Я куплю много покеболов и поймаю много покемонов!",
+          "english_gloss": "I will buy Poké Balls and catch Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 83
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.mart.health.085",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Если покемон теряет все очки здоровья, он больше не может сражаться. Восстанавливай здоровье зельем, чтобы этого не случилось.",
+          "english_gloss": "Use a Potion before your Pokémon loses all its HP.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.zdorove"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 84
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.computer.086",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Компьютером в углу может пользоваться любой тренер покемонов. Ты тоже можешь!",
+          "english_gloss": "Any trainer may use the PC in the corner.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.ugol"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 85
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.free_care.087",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Центры покемонов прекрасны! Можно приходить сколько угодно, и всё бесплатно. Не о чем беспокоиться!",
+          "english_gloss": "Pokémon Center services are free.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.besplatno"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 86
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.club_closed.088",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "На втором этаже недавно построили клуб связи. Но его ещё готовят к открытию.",
+          "english_gloss": "The upstairs link club is not ready yet.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.etazh"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 87
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "oldale.center.club_open.089",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "На втором этаже недавно открыли клуб связи. Я уже обменял там покемона!",
+          "english_gloss": "The speaker traded a Pokémon upstairs.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.obmenivat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 88
           }
         }
       ]

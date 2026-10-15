@@ -198,7 +198,13 @@ class LessonTests(unittest.TestCase):
             entry["id"] for entry in catalogue["dialogues"]
             if entry["source"]["kind"] == "script_hook"
         }
-        self.assertEqual(80, len(connected))
+        self.assertEqual(90, len(connected))
+        authored_symbols = {entry["base_symbol"] for entry in opening.load()["dialogues"]}
+        connected_symbols = {
+            entry["source"]["base_text_symbol"] for entry in catalogue["dialogues"]
+            if entry["source"]["kind"] == "script_hook"
+        }
+        self.assertEqual(authored_symbols, connected_symbols)
         for tag in ("ru", "de"):
             pack = validate.load(
                 demo.ROOT / f"language_learning/language_packs/{tag}/pack.json"

@@ -1543,6 +1543,203 @@
         "oldale",
         "party"
       ]
+    },
+    {
+      "id": "littleroot.player_house.mom.clock_reminder.003b",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_GoSetTheClock",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 3
+      },
+      "tags": [
+        "tutorial",
+        "family",
+        "clock"
+      ]
+    },
+    {
+      "id": "oldale.house2.level.081",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_House2/scripts.inc",
+        "symbol": "OldaleTown_House2_EventScript_Woman",
+        "base_text_path": "data/maps/OldaleTown_House2/text.inc",
+        "base_text_symbol": "OldaleTown_House2_Text_PokemonLevelUp",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 80
+      },
+      "tags": [
+        "oldale",
+        "training"
+      ]
+    },
+    {
+      "id": "oldale.house2.travel.082",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_House2/scripts.inc",
+        "symbol": "OldaleTown_House2_EventScript_Man",
+        "base_text_path": "data/maps/OldaleTown_House2/text.inc",
+        "base_text_symbol": "OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 81
+      },
+      "tags": [
+        "oldale",
+        "travel"
+      ]
+    },
+    {
+      "id": "oldale.mart.sold_out.083",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_Mart/scripts.inc",
+        "symbol": "OldaleTown_Mart_EventScript_Woman",
+        "base_text_path": "data/maps/OldaleTown_Mart/text.inc",
+        "base_text_symbol": "OldaleTown_Mart_Text_PokeBallsAreSoldOut",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 82
+      },
+      "tags": [
+        "oldale",
+        "shop"
+      ]
+    },
+    {
+      "id": "oldale.mart.buy_balls.084",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_Mart/scripts.inc",
+        "symbol": "OldaleTown_Mart_EventScript_PokeBallsInStock",
+        "base_text_path": "data/maps/OldaleTown_Mart/text.inc",
+        "base_text_symbol": "OldaleTown_Mart_Text_ImGoingToBuyPokeBalls",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 83
+      },
+      "tags": [
+        "oldale",
+        "shop",
+        "catching"
+      ]
+    },
+    {
+      "id": "oldale.mart.health.085",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_Mart/scripts.inc",
+        "symbol": "OldaleTown_Mart_EventScript_Boy",
+        "base_text_path": "data/maps/OldaleTown_Mart/text.inc",
+        "base_text_symbol": "OldaleTown_Mart_Text_RestoreHPWithPotion",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 84
+      },
+      "tags": [
+        "oldale",
+        "shop",
+        "healing"
+      ]
+    },
+    {
+      "id": "oldale.center.computer.086",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "OldaleTown_PokemonCenter_1F_EventScript_Gentleman",
+        "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 85
+      },
+      "tags": [
+        "oldale",
+        "center",
+        "computer"
+      ]
+    },
+    {
+      "id": "oldale.center.free_care.087",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "OldaleTown_PokemonCenter_1F_EventScript_Boy",
+        "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_PokemonCentersAreGreat",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 86
+      },
+      "tags": [
+        "oldale",
+        "center",
+        "healing"
+      ]
+    },
+    {
+      "id": "oldale.center.club_closed.088",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "OldaleTown_PokemonCenter_1F_EventScript_Girl",
+        "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_CableClubNotAvailable",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 87
+      },
+      "tags": [
+        "oldale",
+        "center",
+        "link"
+      ]
+    },
+    {
+      "id": "oldale.center.club_open.089",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/OldaleTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable",
+        "base_text_path": "data/maps/OldaleTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "OldaleTown_PokemonCenter_1F_Text_TradedInCableClub",
+        "note": "Connected to an existing learner interaction; game behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 88
+      },
+      "tags": [
+        "oldale",
+        "center",
+        "link"
+      ]
     }
   ]
 }

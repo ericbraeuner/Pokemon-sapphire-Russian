@@ -422,6 +422,197 @@
         "neighbor",
         "navigation"
       ]
+    },
+    {
+      "id": "littleroot.rival_house.mom.husband.022",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_1F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_WhereHasHusbandGone",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+        "base_text_symbol": "RivalsHouse_1F_Text_WhereHasHusbandGone",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 21
+      },
+      "tags": [
+        "neighbor",
+        "family"
+      ]
+    },
+    {
+      "id": "littleroot.rival_house.mom.gone.023",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_1F/scripts.inc",
+        "symbol": "RivalsHouse_1F_EventScript_RivalIsOutSomewhere",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+        "base_text_symbol": "RivalsHouse_1F_Text_WentOutSomewhere",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 22
+      },
+      "tags": [
+        "neighbor",
+        "family"
+      ]
+    },
+    {
+      "id": "littleroot.rival_house.mom.visit.024",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_1F/scripts.inc",
+        "symbol": "RivalsHouse_1F_EventScript_GoHomeEverySoOften",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+        "base_text_symbol": "RivalsHouse_1F_Text_ShouldGoHomeEverySoOften",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 23
+      },
+      "tags": [
+        "neighbor",
+        "family"
+      ]
+    },
+    {
+      "id": "littleroot.rival_room.may.ready.025",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_2F/scripts.inc",
+        "symbol": "RivalsHouse_2F_EventScript_May",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+        "base_text_symbol": "RivalsHouse_2F_Text_MayGettingReady",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 24
+      },
+      "tags": [
+        "rival",
+        "introduction"
+      ]
+    },
+    {
+      "id": "littleroot.rival_room.may.hello.026",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_2F/scripts.inc",
+        "symbol": "RivalsHouse_2F_EventScript_May",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+        "base_text_symbol": "RivalsHouse_2F_Text_MayWhoAreYou",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 25
+      },
+      "tags": [
+        "rival",
+        "introduction"
+      ]
+    },
+    {
+      "id": "littleroot.rival_room.brendan.ready.027",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_2F/scripts.inc",
+        "symbol": "RivalsHouse_2F_EventScript_Brendan",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+        "base_text_symbol": "RivalsHouse_2F_Text_BrendanGettingReady",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 26
+      },
+      "tags": [
+        "rival",
+        "introduction"
+      ]
+    },
+    {
+      "id": "littleroot.rival_room.brendan.hello.028",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_2F/scripts.inc",
+        "symbol": "RivalsHouse_2F_EventScript_Brendan",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+        "base_text_symbol": "RivalsHouse_2F_Text_BrendanWhoAreYou",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 27
+      },
+      "tags": [
+        "rival",
+        "introduction"
+      ]
+    },
+    {
+      "id": "littleroot.lab.aide.fieldwork.029",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_Aide",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 28
+      },
+      "tags": [
+        "lab",
+        "research"
+      ]
+    },
+    {
+      "id": "littleroot.lab.aide.desk.030",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 29
+      },
+      "tags": [
+        "lab",
+        "research"
+      ]
+    },
+    {
+      "id": "littleroot.lab.aide.family.031",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc",
+        "symbol": "LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter",
+        "base_text_path": "data/maps/LittlerootTown_ProfessorBirchsLab/text.inc",
+        "base_text_symbol": "LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo",
+        "note": "Connected to an existing learner dialogue without changing event progression."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 30
+      },
+      "tags": [
+        "lab",
+        "research",
+        "family"
+      ]
     }
   ]
 }

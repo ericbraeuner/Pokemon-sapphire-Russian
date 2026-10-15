@@ -342,6 +342,83 @@
       "forms": [
         "сосед"
       ]
+    },
+    {
+      "id": "ru.muzh",
+      "lemma": "муж",
+      "english": "husband",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.husband.022",
+      "forms": [
+        "муж"
+      ]
+    },
+    {
+      "id": "ru.otets",
+      "lemma": "отец",
+      "english": "father",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.gone.023",
+      "forms": [
+        "отец"
+      ]
+    },
+    {
+      "id": "ru.vozvrashchatsya",
+      "lemma": "возвращаться",
+      "english": "to return",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.visit.024",
+      "forms": [
+        "возвращаться"
+      ]
+    },
+    {
+      "id": "ru.pomogat",
+      "lemma": "помогать",
+      "english": "to help",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_room.may.hello.026",
+      "forms": [
+        "помогать"
+      ]
+    },
+    {
+      "id": "ru.issledovanie",
+      "lemma": "исследование",
+      "english": "research; investigation",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.aide.fieldwork.029",
+      "forms": [
+        "исследование"
+      ]
+    },
+    {
+      "id": "ru.priroda",
+      "lemma": "природа",
+      "english": "nature",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.aide.desk.030",
+      "forms": [
+        "природа"
+      ]
+    },
+    {
+      "id": "ru.izuchat",
+      "lemma": "изучать",
+      "english": "to study",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.aide.family.031",
+      "forms": [
+        "изучать"
+      ]
     }
   ],
   "grammar_notes": [
@@ -1139,6 +1216,312 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 20
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.husband.022",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Где же мой муж? Ему не сидится дома! Может быть, он в лаборатории.",
+          "english_gloss": "My husband cannot sit still. Perhaps he is at the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.muzh"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 21
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.gone.023",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Опять никого нет дома. Как отец, так и ребёнок: на месте не сидят!",
+          "english_gloss": "Like father, like child: always out and about.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.otets"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 22
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.visit.024",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Путешествовать с покемонами прекрасно. Но иногда возвращайся домой. Мама волнуется за тебя.",
+          "english_gloss": "Travel is wonderful, but visit home sometimes so your mother knows you are okay.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.vozvrashchatsya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 23
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.may.ready.025",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Покемоны здоровы. Вещи готовы. А?",
+          "english_gloss": "Pokémon healed, supplies packed. Huh?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.veshchi"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 24
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.may.hello.026",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Привет! Кто ты? Ты живёшь рядом? Меня зовут Мэй. Мой папа - профессор Бёрч. Он ждёт меня. Я помогаю ему ловить покемонов. До встречи!",
+          "english_gloss": "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 25
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Привет! Значит, ваша семья сегодня переехала в соседний дом. Меня зовут Мэй, а мой папа - профессор Бёрч. Давай дружить! Ой, мне пора помогать папе ловить диких покемонов. Увидимся!",
+          "english_gloss": "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 25
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ой, привет! Значит, ты из новой семьи по соседству? Меня зовут Мэй. Папа, профессор Бёрч, уже рассказывал о тебе. Надеюсь, мы подружимся! Только сейчас мне пора: я обещаю помогать папе ловить диких покемонов. Ещё увидимся!",
+          "english_gloss": "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 25
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.brendan.ready.027",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Покемоны здоровы. Вещи готовы. А?",
+          "english_gloss": "Pokémon healed, supplies packed. Huh?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.veshchi"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 26
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.brendan.hello.028",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Привет! Кто ты? Ты живёшь рядом? Меня зовут Брендан. Мой папа - профессор Бёрч. Он ждёт меня. Я помогаю ему ловить покемонов. До встречи!",
+          "english_gloss": "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 27
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Привет! Значит, ваша семья сегодня переехала в соседний дом. Меня зовут Брендан, а мой папа - профессор Бёрч. Давай дружить! Ой, мне пора помогать папе ловить диких покемонов. Увидимся!",
+          "english_gloss": "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 27
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ой, привет! Значит, ты из новой семьи по соседству? Меня зовут Брендан. Папа, профессор Бёрч, уже рассказывал о тебе. Надеюсь, мы подружимся! Только сейчас мне пора: я обещаю помогать папе ловить диких покемонов. Ещё увидимся!",
+          "english_gloss": "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 27
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.aide.fieldwork.029",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Профессора Бёрча здесь нет. Он изучает покемонов на природе. Он любит работать на улице.",
+          "english_gloss": "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.issledovanie"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 28
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Профессор Бёрч ушёл изучать покемонов на природе. Это полевая работа: он наблюдает за ними не в лаборатории, а в лесах и горах.",
+          "english_gloss": "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.issledovanie"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 28
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Профессор Бёрч сейчас на полевых исследованиях. Он изучает покемонов в их естественной среде, а не в лаборатории. Ему больше нравится наблюдать всё своими глазами, чем сидеть за письменным столом.",
+          "english_gloss": "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.issledovanie"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 28
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.aide.desk.030",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Профессор любит работать на природе, а не сидеть за столом.",
+          "english_gloss": "The professor prefers fieldwork to desk work.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.priroda"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 29
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.aide.family.031",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Профессор изучает, где живут покемоны. Его ребёнок помогает ему. Они очень близки.",
+          "english_gloss": "The professor studies Pokémon habitats with help from his child.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.izuchat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 30
           }
         }
       ]

@@ -366,6 +366,87 @@
         "Nachbar"
       ],
       "dictionary_form": "der Nachbar"
+    },
+    {
+      "id": "de.ehemann",
+      "lemma": "Ehemann",
+      "english": "husband",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.husband.022",
+      "forms": [
+        "Ehemann"
+      ],
+      "dictionary_form": "der Ehemann"
+    },
+    {
+      "id": "de.vater",
+      "lemma": "Vater",
+      "english": "father",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.gone.023",
+      "forms": [
+        "Vater"
+      ],
+      "dictionary_form": "der Vater"
+    },
+    {
+      "id": "de.zurueckkommen",
+      "lemma": "zurückkommen",
+      "english": "to return",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.visit.024",
+      "forms": [
+        "zurückkommen"
+      ]
+    },
+    {
+      "id": "de.helfen",
+      "lemma": "helfen",
+      "english": "to help",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_room.may.hello.026",
+      "forms": [
+        "helfen"
+      ]
+    },
+    {
+      "id": "de.forschung",
+      "lemma": "Forschung",
+      "english": "research",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.aide.fieldwork.029",
+      "forms": [
+        "Forschung"
+      ],
+      "dictionary_form": "die Forschung"
+    },
+    {
+      "id": "de.natur",
+      "lemma": "Natur",
+      "english": "nature",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.aide.desk.030",
+      "forms": [
+        "Natur"
+      ],
+      "dictionary_form": "die Natur"
+    },
+    {
+      "id": "de.erforschen",
+      "lemma": "erforschen",
+      "english": "to research",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.aide.family.031",
+      "forms": [
+        "erforschen"
+      ]
     }
   ],
   "grammar_notes": [
@@ -1164,6 +1245,312 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 20
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.husband.022",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wo ist nur mein Mann? Er kann nie lange stillsitzen! Vielleicht ist er im Labor.",
+          "english_gloss": "My husband cannot sit still. Perhaps he is at the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.ehemann"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 21
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.gone.023",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Schon wieder unterwegs! Wie der Vater, so das Kind: Beide hält es nicht lange zu Hause.",
+          "english_gloss": "Like father, like child: always out and about.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.vater"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 22
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.visit.024",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Mit Pokémon zu reisen ist wunderbar. Aber komm ab und zu nach Hause. Deine Mutter macht sich Sorgen um dich.",
+          "english_gloss": "Travel is wonderful, but visit home sometimes so your mother knows you are okay.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.zurueckkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 23
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.may.ready.025",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?",
+          "english_gloss": "Pokémon healed, supplies packed. Huh?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.sachen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 24
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.may.hello.026",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Hallo! Wer bist du? Du wohnst nebenan? Ich heiße Maike. Mein Vater ist Professor Birk. Ich helfe ihm, Pokémon zu fangen. Bis bald!",
+          "english_gloss": "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 25
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Hallo! Ihr seid also heute nebenan eingezogen. Ich heiße Maike. Mein Vater ist Professor Birk. Wir können Freunde werden! Oh, ich muss ihm helfen, wilde Pokémon zu fangen. Bis bald!",
+          "english_gloss": "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 25
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach, hallo! Du gehörst also zu den neuen Nachbarn? Ich heiße Maike. Mein Vater, Professor Birk, hat mir schon von dir erzählt. Hoffentlich werden wir Freunde! Aber jetzt muss ich los: Ich soll ihm helfen, wilde Pokémon zu fangen. Wir sehen uns!",
+          "english_gloss": "Maike introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 25
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.brendan.ready.027",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Die Pokémon sind wieder fit. Die Sachen sind gepackt. Hm?",
+          "english_gloss": "Pokémon healed, supplies packed. Huh?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.sachen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 26
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.brendan.hello.028",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Hallo! Wer bist du? Du wohnst nebenan? Ich heiße Brix. Mein Vater ist Professor Birk. Ich helfe ihm, Pokémon zu fangen. Bis bald!",
+          "english_gloss": "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 27
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Hallo! Ihr seid also heute nebenan eingezogen. Ich heiße Brix. Mein Vater ist Professor Birk. Wir können Freunde werden! Oh, ich muss ihm helfen, wilde Pokémon zu fangen. Bis bald!",
+          "english_gloss": "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 27
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach, hallo! Du gehörst also zu den neuen Nachbarn? Ich heiße Brix. Mein Vater, Professor Birk, hat mir schon von dir erzählt. Hoffentlich werden wir Freunde! Aber jetzt muss ich los: Ich soll ihm helfen, wilde Pokémon zu fangen. Wir sehen uns!",
+          "english_gloss": "Brix introduces themself, welcomes the new neighbor, and leaves to help Professor Birk catch wild Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 27
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.aide.fieldwork.029",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Professor Birk ist nicht hier. Er erforscht Pokémon draußen in der Natur. Dort arbeitet er gern.",
+          "english_gloss": "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.forschung"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 28
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Professor Birk ist draußen unterwegs. Er macht Feldforschung: Er beobachtet Pokémon in der Natur statt im Labor.",
+          "english_gloss": "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.forschung"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 28
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Professor Birk ist gerade auf Feldforschung. Dabei untersucht er Pokémon in ihrer natürlichen Umgebung statt im Labor. Er beobachtet lieber selbst, als am Schreibtisch darüber zu lesen.",
+          "english_gloss": "Professor Birk is away on fieldwork, studying Pokémon in their natural environment rather than at a desk.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.forschung"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 28
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.aide.desk.030",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Der Professor arbeitet lieber draußen in der Natur als am Schreibtisch.",
+          "english_gloss": "The professor prefers fieldwork to desk work.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.natur"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 29
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.aide.family.031",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Der Professor erforscht, wo Pokémon leben. Sein Kind hilft ihm dabei. Die beiden stehen sich sehr nahe.",
+          "english_gloss": "The professor studies Pokémon habitats with help from his child.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.erforschen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 30
           }
         }
       ]

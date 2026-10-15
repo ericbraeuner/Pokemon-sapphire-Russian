@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import context_catalog
+import learner_dashboard
 import review_queue
 
 LEVEL_INTERNAL = {"A1": 8, "A2": 24, "B1": 40, "B2": 56, "C1": 74, "C2": 92}
@@ -138,21 +139,33 @@ def _write_json(path: Path, value: dict[str, Any]) -> None:
     temporary.replace(path)
 
 
+def _write_text(path: Path, value: str) -> None:
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(value, encoding="utf-8")
+    temporary.replace(path)
+
+
 def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = False,
                 review_output: Path | None = None, review_limit: int = 20,
-                include_upcoming: bool = False) -> dict[str, Any]:
+                include_upcoming: bool = False,
+                dashboard_output: Path | None = None) -> dict[str, Any]:
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
     updated = merge(profile, snapshot, allow_reset=allow_reset)
+    captured_at = _timestamp_value(snapshot["captured_at"])
     queue = None
     if review_output:
         queue = review_queue.build(
-            updated, now=_timestamp_value(snapshot["captured_at"]), limit=review_limit,
+            updated, now=captured_at, limit=review_limit,
             include_upcoming=include_upcoming,
         )
+    dashboard = (learner_dashboard.render(updated, now=captured_at, limit=review_limit)
+                 if dashboard_output else None)
     _write_json(profile_path, updated)
     if review_output and queue is not None:
         _write_json(review_output, queue)
+    if dashboard_output and dashboard is not None:
+        _write_text(dashboard_output, dashboard)
     return updated
 
 
@@ -170,11 +183,13 @@ def main() -> int:
                         help="also write a wrapper-ready vocabulary review queue")
     parser.add_argument("--review-limit", type=int, default=20)
     parser.add_argument("--include-upcoming", action="store_true")
+    parser.add_argument("--dashboard-output", type=Path,
+                        help="also write a localized self-contained progress page")
     args = parser.parse_args()
     synchronize(
         args.profile, args.snapshot, allow_reset=args.allow_reset,
         review_output=args.review_output, review_limit=args.review_limit,
-        include_upcoming=args.include_upcoming,
+        include_upcoming=args.include_upcoming, dashboard_output=args.dashboard_output,
     )
     return 0
 

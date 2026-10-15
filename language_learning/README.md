@@ -110,7 +110,9 @@ python language_learning/tools/profile_sync.py language_learning/profiles/sample
 
 Pass `--review-output review-queue.json` to update the external profile and emit
 its currently due review cards in the same synchronization step. Add
-`--include-upcoming` when the wrapper also needs the future schedule.
+`--include-upcoming` when the wrapper also needs the future schedule. Pass
+`--dashboard-output learner-progress.html` to refresh the localized progress page
+from the same captured emulator state.
 
 Use `--allow-reset` only when intentionally starting over or synchronizing a
 rewound save whose counters are lower than the profile's last snapshot.

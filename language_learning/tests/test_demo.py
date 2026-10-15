@@ -143,17 +143,23 @@ class LessonTests(unittest.TestCase):
             profile_path = Path(directory) / "profile.json"
             snapshot_path = Path(directory) / "snapshot.json"
             queue_path = Path(directory) / "review-queue.json"
+            dashboard_path = Path(directory) / "dashboard.html"
             profile_path.write_text(json.dumps(profile), encoding="utf-8")
             snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
             updated = profile_sync.synchronize(
                 profile_path, snapshot_path, review_output=queue_path,
+                dashboard_output=dashboard_path,
             )
             saved = json.loads(profile_path.read_text(encoding="utf-8"))
             queue = json.loads(queue_path.read_text(encoding="utf-8"))
+            dashboard = dashboard_path.read_text(encoding="utf-8")
         self.assertEqual(updated, saved)
         self.assertEqual("A2", queue["cefr"])
         self.assertGreater(queue["due_count"], 0)
         self.assertTrue(all(card["is_due"] for card in queue["cards"]))
+        self.assertIn('<html lang="ru">', dashboard)
+        self.assertIn("Прогресс в языке", dashboard)
+        self.assertIn("A2", dashboard)
 
     def test_adaptive_selector_respects_language_level_and_progress(self):
         pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")

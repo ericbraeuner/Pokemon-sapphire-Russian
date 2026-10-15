@@ -61,6 +61,13 @@ class LessonTests(unittest.TestCase):
         field_words = context_catalog.load()[0x1000]["words"]["de"]
         self.assertTrue(all(updated["activity_vocabulary"][word["id"]]["exposure_count"] == 1 for word in opening_words))
         self.assertTrue(all(updated["activity_vocabulary"][word["id"]]["dictionary_requests"] == 1 for word in field_words))
+        opening_state = updated["activity_vocabulary"][opening_words[0]["id"]]
+        self.assertEqual(0.25, opening_state["mastery"])
+        self.assertEqual("2026-10-15T21:59:58Z", opening_state["next_review"])
+        self.assertEqual("learning", opening_state["srs"]["state"])
+        field_state = updated["activity_vocabulary"][field_words[0]["id"]]
+        self.assertEqual(0.0, field_state["mastery"])
+        self.assertEqual("2026-10-15T21:59:59Z", field_state["next_review"])
         repeated = profile_sync.merge(updated, snapshot)
         self.assertEqual(updated["activity_vocabulary"], repeated["activity_vocabulary"])
         rewound = dict(snapshot, exposure_count=39)

@@ -6,7 +6,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -58,6 +58,28 @@ def validate_snapshot(snapshot: dict[str, Any]) -> None:
         previous_sequence = event["sequence"]
 
 
+def _update_activity_state(state: dict[str, Any], kind: str, delta: int, seen_at: str) -> None:
+    counter = "exposure_count" if kind == "exposure" else "dictionary_requests"
+    state[counter] += delta
+    exposures = state["exposure_count"]
+    requests = state["dictionary_requests"]
+    state["mastery"] = round(exposures / (exposures + 3 + 2 * requests), 4) if exposures else 0.0
+    if kind == "dictionary":
+        interval = 1
+    else:
+        successful_exposures = max(0, exposures - requests)
+        interval = min(30, 2 ** max(0, min(5, successful_exposures - 1)))
+    state["srs"] = {
+        "state": "review" if state["mastery"] >= 0.6 else "learning",
+        "interval_days": interval,
+        "ease": round(max(1.3, 2.3 - requests * 0.1), 2),
+        "lapses": state.get("srs", {}).get("lapses", 0),
+    }
+    seen = datetime.fromisoformat(seen_at[:-1] + "+00:00")
+    state["last_seen"] = seen_at
+    state["next_review"] = (seen + timedelta(days=interval)).isoformat().replace("+00:00", "Z")
+
+
 def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: bool = False) -> dict[str, Any]:
     validate_snapshot(snapshot)
     result = copy.deepcopy(profile)
@@ -87,10 +109,13 @@ def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: boo
             state = activity.setdefault(word["id"], {
                 "lemma": word["lemma"], "english_gloss": word["english_gloss"],
                 "exposure_count": 0, "dictionary_requests": 0, "last_seen": None,
+                "mastery": 0.0, "next_review": None,
+                "srs": {"state": "new", "interval_days": 0, "ease": 2.3, "lapses": 0},
             })
-            counter = "exposure_count" if event["kind"] == "exposure" else "dictionary_requests"
-            state[counter] += event["delta"]
-            state["last_seen"] = event["captured_at"]
+            state.setdefault("mastery", 0.0)
+            state.setdefault("next_review", None)
+            state.setdefault("srs", {"state": "new", "interval_days": 0, "ease": 2.3, "lapses": 0})
+            _update_activity_state(state, event["kind"], event["delta"], event["captured_at"])
         cursor = event["sequence"]
     cursors[snapshot["session_id"]] = cursor
     result["rom_learning"] = {

@@ -138,12 +138,24 @@ def validate_profile(path: Path, packs: dict[str, dict[str, set[str]]]) -> None:
         require_keys(state, {"exposure_count", "hint_requests", "last_seen"}, f"{path}: {grammar_id}")
         timestamp(state["last_seen"], f"{path}: {grammar_id}.last_seen")
     for word_id, state in profile.get("activity_vocabulary", {}).items():
-        require_keys(state, {"lemma", "english_gloss", "exposure_count", "dictionary_requests", "last_seen"}, f"{path}: {word_id}")
+        require_keys(state, {"lemma", "english_gloss", "mastery", "exposure_count", "dictionary_requests", "last_seen", "next_review", "srs"}, f"{path}: {word_id}")
         if not all(isinstance(state[name], str) and state[name] for name in ("lemma", "english_gloss")):
             raise ValidationError(f"{path}: invalid activity vocabulary text for {word_id}")
         if any(not isinstance(state[name], int) or state[name] < 0 for name in ("exposure_count", "dictionary_requests")):
             raise ValidationError(f"{path}: invalid activity vocabulary counters for {word_id}")
+        if not isinstance(state["mastery"], (int, float)) or not 0 <= state["mastery"] <= 1:
+            raise ValidationError(f"{path}: invalid activity vocabulary mastery for {word_id}")
         timestamp(state["last_seen"], f"{path}: {word_id}.last_seen")
+        timestamp(state["next_review"], f"{path}: {word_id}.next_review")
+        require_keys(state["srs"], {"state", "interval_days", "ease", "lapses"}, f"{path}: {word_id}.srs")
+        if state["srs"]["state"] not in {"new", "learning", "review", "relearning"}:
+            raise ValidationError(f"{path}: invalid activity vocabulary SRS state for {word_id}")
+        if not isinstance(state["srs"]["interval_days"], (int, float)) or state["srs"]["interval_days"] < 0:
+            raise ValidationError(f"{path}: invalid activity vocabulary SRS interval for {word_id}")
+        if not isinstance(state["srs"]["ease"], (int, float)) or state["srs"]["ease"] < 1.3:
+            raise ValidationError(f"{path}: invalid activity vocabulary SRS ease for {word_id}")
+        if not isinstance(state["srs"]["lapses"], int) or state["srs"]["lapses"] < 0:
+            raise ValidationError(f"{path}: invalid activity vocabulary SRS lapses for {word_id}")
     if "rom_learning" in profile:
         state = profile["rom_learning"]
         require_keys(state, {"source_id", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "event_cursors", "dictionary_rate", "last_synced"}, f"{path}: rom_learning")

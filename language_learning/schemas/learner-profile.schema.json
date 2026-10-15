@@ -55,13 +55,21 @@
       "additionalProperties": false
     },
     "activity_vocabulary_state": {
-      "type": "object", "required": ["lemma", "english_gloss", "exposure_count", "dictionary_requests", "last_seen"],
+      "type": "object", "required": ["lemma", "english_gloss", "mastery", "exposure_count", "dictionary_requests", "last_seen", "next_review", "srs"],
       "properties": {
         "lemma": {"type": "string", "minLength": 1},
         "english_gloss": {"type": "string", "minLength": 1},
+        "mastery": {"type": "number", "minimum": 0, "maximum": 1},
         "exposure_count": {"type": "integer", "minimum": 0},
         "dictionary_requests": {"type": "integer", "minimum": 0},
-        "last_seen": {"$ref": "#/$defs/timestamp"}
+        "last_seen": {"$ref": "#/$defs/timestamp"},
+        "next_review": {"$ref": "#/$defs/timestamp"},
+        "srs": {"type": "object", "required": ["state", "interval_days", "ease", "lapses"], "properties": {
+          "state": {"enum": ["new", "learning", "review", "relearning"]},
+          "interval_days": {"type": "number", "minimum": 0},
+          "ease": {"type": "number", "minimum": 1.3},
+          "lapses": {"type": "integer", "minimum": 0}
+        }, "additionalProperties": false}
       },
       "additionalProperties": false
     }

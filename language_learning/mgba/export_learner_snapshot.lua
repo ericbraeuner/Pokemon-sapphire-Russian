@@ -12,6 +12,8 @@ local VAR_LANGUAGE = 0x40F0
 local VAR_LEVEL = 0x40F1
 local VAR_EXPOSURES = 0x40F5
 local VAR_DICTIONARIES = 0x40F6
+local VAR_LAST_EXPOSURE_CONTEXT = 0x40F7
+local VAR_LAST_DICTIONARY_CONTEXT = 0x40F8
 
 local languages = {[1] = "ru", [2] = "de"}
 local levels = {[1] = "A1", [2] = "A2", [3] = "B1", [4] = "B2", [5] = "C1", [6] = "C2"}
@@ -34,14 +36,19 @@ local function snapshot()
     end
     local exposures = readVar(VAR_EXPOSURES)
     local dictionaries = readVar(VAR_DICTIONARIES)
+    local lastExposureContext = readVar(VAR_LAST_EXPOSURE_CONTEXT)
+    local lastDictionaryContext = readVar(VAR_LAST_DICTIONARY_CONTEXT)
     local capturedAt = os.date("!%Y-%m-%dT%H:%M:%SZ")
-    local signature = table.concat({language, cefr, exposures, dictionaries}, ":")
+    local signature = table.concat({language, cefr, exposures, dictionaries,
+                                    lastExposureContext, lastDictionaryContext}, ":")
     local body = string.format(
         '{\n  "schema_version": 1,\n  "source_id": %s,\n  "selected_language": %s,\n' ..
         '  "cefr": %s,\n  "exposure_count": %d,\n  "dictionary_count": %d,\n' ..
+        '  "last_exposure_context": %d,\n  "last_dictionary_context": %d,\n' ..
         '  "captured_at": %s\n}\n',
         jsonString(SOURCE_ID), jsonString(language), jsonString(cefr),
-        exposures, dictionaries, jsonString(capturedAt))
+        exposures, dictionaries, lastExposureContext, lastDictionaryContext,
+        jsonString(capturedAt))
     return body, signature
 end
 

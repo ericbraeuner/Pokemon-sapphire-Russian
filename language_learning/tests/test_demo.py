@@ -39,12 +39,15 @@ class LessonTests(unittest.TestCase):
             "schema_version": 1, "source_id": "sample-sapphire-save",
             "selected_language": "de", "cefr": "B1",
             "exposure_count": 40, "dictionary_count": 10,
+            "last_exposure_context": 12, "last_dictionary_context": 9,
             "captured_at": "2026-10-14T22:00:00Z",
         }
         updated = profile_sync.merge(profile, snapshot)
         self.assertEqual("de", updated["selected_language"])
         self.assertEqual({"cefr": "B1", "internal": 40}, updated["current_learner_difficulty"])
         self.assertEqual(0.25, updated["rom_learning"]["dictionary_rate"])
+        self.assertEqual(12, updated["rom_learning"]["last_exposure_context"])
+        self.assertEqual(9, updated["rom_learning"]["last_dictionary_context"])
         rewound = dict(snapshot, exposure_count=39)
         with self.assertRaisesRegex(ValueError, "moved backwards"):
             profile_sync.merge(updated, rewound)
@@ -54,12 +57,16 @@ class LessonTests(unittest.TestCase):
         source = (demo.ROOT / "language_learning/mgba/export_learner_snapshot.lua").read_text(encoding="utf-8")
         self.assertIn("local SAVE_BLOCK1 = 0x02025734", source)
         self.assertIn("local VARS_OFFSET = 0x1340", source)
-        for variable in ("0x40F0", "0x40F1", "0x40F5", "0x40F6"):
+        for variable in ("0x40F0", "0x40F1", "0x40F5", "0x40F6", "0x40F7", "0x40F8"):
             self.assertIn(variable, source)
         self.assertIn("emu:read16(SAVE_BLOCK1 + VARS_OFFSET", source)
         self.assertIn('callbacks:add("savedataUpdated", exportIfChanged)', source)
         self.assertIn('"schema_version": 1', source)
         self.assertNotIn("emu:write", source)
+
+        opening_source = (demo.ROOT / "language_learning/tools/opening.py").read_text(encoding="utf-8")
+        self.assertIn("VAR_LEARNER_LAST_EXPOSURE_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
+        self.assertIn("VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
 
     def test_russian_round_trip_and_font_restoration(self):
         phrase = "Привет! Добро пожаловать домой!"

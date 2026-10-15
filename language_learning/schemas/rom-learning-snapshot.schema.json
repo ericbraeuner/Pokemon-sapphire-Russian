@@ -3,7 +3,7 @@
   "$id": "https://example.invalid/pokemon-language-learning/rom-learning-snapshot.schema.json",
   "title": "Learner ROM counter snapshot",
   "type": "object",
-  "required": ["schema_version", "source_id", "selected_language", "cefr", "exposure_count", "dictionary_count", "captured_at"],
+  "required": ["schema_version", "source_id", "selected_language", "cefr", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "captured_at"],
   "properties": {
     "schema_version": {"const": 1},
     "source_id": {"type": "string", "minLength": 1},
@@ -11,6 +11,8 @@
     "cefr": {"enum": ["A1", "A2", "B1", "B2", "C1", "C2"]},
     "exposure_count": {"type": "integer", "minimum": 0, "maximum": 65535},
     "dictionary_count": {"type": "integer", "minimum": 0, "maximum": 65535},
+    "last_exposure_context": {"type": "integer", "minimum": 0, "maximum": 65535},
+    "last_dictionary_context": {"type": "integer", "minimum": 0, "maximum": 65535},
     "captured_at": {"type": "string"}
   },
   "additionalProperties": false

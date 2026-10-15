@@ -67,11 +67,13 @@ def generate(russian, latin, glyphs):
     dialogues = load()['dialogues']
     dictionary_dispatch = [
         'LearnerOpening_RecordExposure::\n'
+        '\tcopyvar VAR_LEARNER_LAST_EXPOSURE_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT\n'
         '\tcompare VAR_LEARNER_EXPOSURE_COUNT, 0xFFFF\n'
         '\tgoto_if_eq LearnerOpening_RecordExposure_Return\n'
         '\taddvar VAR_LEARNER_EXPOSURE_COUNT, 1\n'
         'LearnerOpening_RecordExposure_Return:\n\treturn\n',
         'LearnerOpening_RecordDictionaryRequest::\n'
+        '\tcopyvar VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT\n'
         '\tcompare VAR_LEARNER_DICTIONARY_COUNT, 0xFFFF\n'
         '\tgoto_if_eq LearnerOpening_RecordDictionaryRequest_Return\n'
         '\taddvar VAR_LEARNER_DICTIONARY_COUNT, 1\n'

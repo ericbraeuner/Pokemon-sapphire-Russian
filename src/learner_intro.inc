@@ -119,6 +119,7 @@ void Learner_EndFieldDictionaryExpansion(u8 *dest)
 void Learner_RecordDictionaryRequest(void)
 {
     u16 count = VarGet(VAR_LEARNER_DICTIONARY_COUNT);
+    VarSet(VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VarGet(VAR_LEARNER_DICTIONARY_CONTEXT));
     if (count != 0xFFFF)
         VarSet(VAR_LEARNER_DICTIONARY_COUNT, count + 1);
 }

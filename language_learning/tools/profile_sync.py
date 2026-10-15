@@ -21,7 +21,8 @@ def _timestamp(value: Any) -> None:
 
 def validate_snapshot(snapshot: dict[str, Any]) -> None:
     required = {"schema_version", "source_id", "selected_language", "cefr",
-                "exposure_count", "dictionary_count", "captured_at"}
+                "exposure_count", "dictionary_count", "last_exposure_context",
+                "last_dictionary_context", "captured_at"}
     missing = required - snapshot.keys()
     if missing:
         raise ValueError(f"snapshot missing keys: {', '.join(sorted(missing))}")
@@ -31,7 +32,8 @@ def validate_snapshot(snapshot: dict[str, Any]) -> None:
         raise ValueError("unsupported CEFR level")
     if not isinstance(snapshot["source_id"], str) or not snapshot["source_id"].strip():
         raise ValueError("source_id must be a non-empty string")
-    for name in ("exposure_count", "dictionary_count"):
+    for name in ("exposure_count", "dictionary_count", "last_exposure_context",
+                 "last_dictionary_context"):
         if not isinstance(snapshot[name], int) or not 0 <= snapshot[name] <= 0xFFFF:
             raise ValueError(f"{name} must be an unsigned 16-bit integer")
     _timestamp(snapshot["captured_at"])
@@ -56,6 +58,8 @@ def merge(profile: dict[str, Any], snapshot: dict[str, Any], *, allow_reset: boo
         "source_id": snapshot["source_id"],
         "exposure_count": exposure_count,
         "dictionary_count": dictionary_count,
+        "last_exposure_context": snapshot["last_exposure_context"],
+        "last_dictionary_context": snapshot["last_dictionary_context"],
         "dictionary_rate": round(dictionary_count / exposure_count, 4) if exposure_count else 0.0,
         "last_synced": snapshot["captured_at"],
     }

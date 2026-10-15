@@ -84,7 +84,8 @@ Each authored target-language page and each dictionary opening increments its
 own saved counter. Both stop at 65,535 instead of wrapping to zero. An emulator
 wrapper can export those values as a small JSON snapshot; `tools/profile_sync.py`
 validates and atomically merges it into the matching external profile, including
-language, CEFR level, totals, and dictionary-use rate. Counter regressions are
+language, CEFR level, totals, dictionary-use rate, and the most recent dialogue
+contexts responsible for an exposure and dictionary request. Counter regressions are
 rejected unless the wrapper explicitly identifies a reset or rewound save. These
 metrics do not automatically change difficulty yet.
 

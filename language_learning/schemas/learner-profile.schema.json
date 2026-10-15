@@ -20,11 +20,13 @@
     "vocabulary": {"type": "object", "additionalProperties": {"$ref": "#/$defs/vocabulary_state"}},
     "grammar_exposure": {"type": "object", "additionalProperties": {"$ref": "#/$defs/grammar_state"}},
     "rom_learning": {
-      "type": "object", "required": ["source_id", "exposure_count", "dictionary_count", "dictionary_rate", "last_synced"],
+      "type": "object", "required": ["source_id", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "dictionary_rate", "last_synced"],
       "properties": {
         "source_id": {"type": "string", "minLength": 1},
         "exposure_count": {"type": "integer", "minimum": 0, "maximum": 65535},
         "dictionary_count": {"type": "integer", "minimum": 0, "maximum": 65535},
+        "last_exposure_context": {"type": "integer", "minimum": 0, "maximum": 65535},
+        "last_dictionary_context": {"type": "integer", "minimum": 0, "maximum": 65535},
         "dictionary_rate": {"type": "number", "minimum": 0},
         "last_synced": {"$ref": "#/$defs/timestamp"}
       },

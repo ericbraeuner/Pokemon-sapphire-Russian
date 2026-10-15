@@ -139,11 +139,11 @@ def validate_profile(path: Path, packs: dict[str, dict[str, set[str]]]) -> None:
         timestamp(state["last_seen"], f"{path}: {grammar_id}.last_seen")
     if "rom_learning" in profile:
         state = profile["rom_learning"]
-        require_keys(state, {"source_id", "exposure_count", "dictionary_count", "dictionary_rate", "last_synced"}, f"{path}: rom_learning")
+        require_keys(state, {"source_id", "exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context", "dictionary_rate", "last_synced"}, f"{path}: rom_learning")
         if not isinstance(state["source_id"], str) or not state["source_id"]:
             raise ValidationError(f"{path}: invalid ROM source ID")
         if any(not isinstance(state[name], int) or not 0 <= state[name] <= 0xFFFF
-               for name in ("exposure_count", "dictionary_count")):
+               for name in ("exposure_count", "dictionary_count", "last_exposure_context", "last_dictionary_context")):
             raise ValidationError(f"{path}: invalid ROM learning counters")
         expected_rate = state["dictionary_count"] / state["exposure_count"] if state["exposure_count"] else 0
         if not isinstance(state["dictionary_rate"], (int, float)) or abs(state["dictionary_rate"] - expected_rate) > 0.0001:

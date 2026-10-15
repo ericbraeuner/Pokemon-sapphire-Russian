@@ -17,6 +17,7 @@ import field_templates
 import field_dictionary
 import graphic_labels
 import trainer_eyes
+import profile_sync
 
 
 class LessonTests(unittest.TestCase):
@@ -31,6 +32,23 @@ class LessonTests(unittest.TestCase):
         for language in ("Ru", "De"):
             for kind in ("Text", "Hint", "Words"):
                 self.assertIn(f"LearnerLesson_{language}{kind}::", first)
+
+    def test_rom_counter_snapshot_updates_external_profile(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        snapshot = {
+            "schema_version": 1, "source_id": "sample-sapphire-save",
+            "selected_language": "de", "cefr": "B1",
+            "exposure_count": 40, "dictionary_count": 10,
+            "captured_at": "2026-10-14T22:00:00Z",
+        }
+        updated = profile_sync.merge(profile, snapshot)
+        self.assertEqual("de", updated["selected_language"])
+        self.assertEqual({"cefr": "B1", "internal": 40}, updated["current_learner_difficulty"])
+        self.assertEqual(0.25, updated["rom_learning"]["dictionary_rate"])
+        rewound = dict(snapshot, exposure_count=39)
+        with self.assertRaisesRegex(ValueError, "moved backwards"):
+            profile_sync.merge(updated, rewound)
+        self.assertEqual(39, profile_sync.merge(updated, rewound, allow_reset=True)["rom_learning"]["exposure_count"])
 
     def test_russian_round_trip_and_font_restoration(self):
         phrase = "Привет! Добро пожаловать домой!"

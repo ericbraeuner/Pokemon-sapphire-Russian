@@ -13,5 +13,12 @@
   },
   "grammar_exposure": {
     "ru.zero_copula": {"exposure_count": 1, "hint_requests": 1, "last_seen": "2026-01-15T18:30:00Z"}
+  },
+  "rom_learning": {
+    "source_id": "sample-sapphire-save",
+    "exposure_count": 12,
+    "dictionary_count": 3,
+    "dictionary_rate": 0.25,
+    "last_synced": "2026-01-15T18:30:00Z"
   }
 }

@@ -31,6 +31,10 @@
 #include "task.h"
 #include "trainer_card.h"
 #include "scanline_effect.h"
+#if LEARNER_DEMO
+#include "learner.h"
+#include "constants/vars.h"
+#endif
 
 //Menu actions
 enum {
@@ -44,6 +48,9 @@ enum {
     MENU_ACTION_EXIT,
     MENU_ACTION_RETIRE,
     MENU_ACTION_PLAYER_LINK
+#if LEARNER_DEMO
+    , MENU_ACTION_LEARNER_PROGRESS
+#endif
 };
 
 #if DEBUG
@@ -84,6 +91,10 @@ static u8 StartMenu_OptionCallback(void);
 static u8 StartMenu_ExitCallback(void);
 static u8 StartMenu_RetireCallback(void);
 static u8 StartMenu_PlayerLinkCallback(void);
+#if LEARNER_DEMO
+static u8 StartMenu_LearnerProgressCallback(void);
+static u8 StartMenu_LearnerProgressInput(void);
+#endif
 
 static const struct MenuAction sStartMenuItems[] =
 {
@@ -97,6 +108,9 @@ static const struct MenuAction sStartMenuItems[] =
     { SystemText_Exit, StartMenu_ExitCallback },
     { SystemText_Retire, StartMenu_RetireCallback },
     { SystemText_Player, StartMenu_PlayerLinkCallback },
+#if LEARNER_DEMO
+    { LearnerUI_ru_LearningMenu, StartMenu_LearnerProgressCallback },
+#endif
 };
 
 //Private functions
@@ -272,7 +286,11 @@ static void BuildStartMenuActions_Normal(void)
     AddStartMenuAction(MENU_ACTION_PLAYER);
     AddStartMenuAction(MENU_ACTION_SAVE);
     AddStartMenuAction(MENU_ACTION_OPTION);
+#if LEARNER_DEMO
+    AddStartMenuAction(MENU_ACTION_LEARNER_PROGRESS);
+#else
     AddStartMenuAction(MENU_ACTION_EXIT);
+#endif
 }
 
 static void BuildStartMenuActions_SafariZone(void)
@@ -312,7 +330,12 @@ static bool32 PrintStartMenuItemsMultistep(s16 *index, u32 n)
 
     do
     {
-        Menu_PrintText(sStartMenuItems[sCurrentStartMenuActions[_index]].text, 23, 2 + _index * 2);
+        const u8 *text = sStartMenuItems[sCurrentStartMenuActions[_index]].text;
+#if LEARNER_DEMO
+        if (sCurrentStartMenuActions[_index] == MENU_ACTION_LEARNER_PROGRESS)
+            text = LEARNER_UI(Learner_GetLanguage(), LearningMenu);
+#endif
+        Menu_PrintText(text, 23, 2 + _index * 2);
         _index++;
         if (_index >= sNumStartMenuActions)
         {
@@ -436,6 +459,9 @@ static u8 StartMenu_InputProcessCallback(void)
         gMenuCallback = sStartMenuItems[sCurrentStartMenuActions[sStartMenuCursorPos]].func;
         if (gMenuCallback != StartMenu_SaveCallback &&
            gMenuCallback != StartMenu_ExitCallback &&
+#if LEARNER_DEMO
+           gMenuCallback != StartMenu_LearnerProgressCallback &&
+#endif
            gMenuCallback != StartMenu_RetireCallback)
             FadeScreen(1, 0);
         return 0;
@@ -556,6 +582,70 @@ static u8 StartMenu_PlayerLinkCallback(void)
     }
     return 0;
 }
+
+#if LEARNER_DEMO
+static const u8 sLearnerLevelA1[] = _("A1");
+static const u8 sLearnerLevelA2[] = _("A2");
+static const u8 sLearnerLevelB1[] = _("B1");
+static const u8 sLearnerLevelB2[] = _("B2");
+static const u8 sLearnerLevelC1[] = _("C1");
+static const u8 sLearnerLevelC2[] = _("C2");
+static const u8 *const sLearnerLevelNames[] = {
+    sLearnerLevelA1, sLearnerLevelA2, sLearnerLevelB1,
+    sLearnerLevelB2, sLearnerLevelC1, sLearnerLevelC2,
+};
+
+static void PrintLearnerProgressValue(const u8 *label, const u8 *value, u8 top)
+{
+    Menu_PrintText(label, 2, top);
+    Menu_PrintText(value, 18, top);
+}
+
+static void PrintLearnerProgressNumber(const u8 *label, u16 value, u8 top)
+{
+    ConvertIntToDecimalStringN(gStringVar1, value, STR_CONV_MODE_LEFT_ALIGN, 5);
+    PrintLearnerProgressValue(label, gStringVar1, top);
+}
+
+static u8 StartMenu_LearnerProgressCallback(void)
+{
+    u8 language = Learner_GetLanguage();
+    u16 level = VarGet(VAR_LEARNER_LEVEL);
+
+    Menu_DestroyCursor();
+    Menu_EraseScreen();
+    Menu_DrawStdWindowFrame(0, 0, 29, 19);
+    Menu_PrintText(LEARNER_UI(language, ProgressTitle), 2, 1);
+    PrintLearnerProgressValue(LEARNER_UI(language, LanguageLabel),
+                              LEARNER_UI(language, LanguageName), 4);
+    if (level < 1 || level > ARRAY_COUNT(sLearnerLevelNames))
+        level = 1;
+    PrintLearnerProgressValue(LEARNER_UI(language, Level), sLearnerLevelNames[level - 1], 6);
+    PrintLearnerProgressValue(LEARNER_UI(language, IntroHelpLabel),
+                              VarGet(VAR_LEARNER_MODE) == 1
+                                  ? LEARNER_UI(language, Yes)
+                                  : LEARNER_UI(language, No), 8);
+    PrintLearnerProgressNumber(LEARNER_UI(language, ExposureLabel),
+                               VarGet(VAR_LEARNER_EXPOSURE_COUNT), 10);
+    PrintLearnerProgressNumber(LEARNER_UI(language, DictionaryLabel),
+                               VarGet(VAR_LEARNER_DICTIONARY_COUNT), 12);
+    Menu_PrintText(LEARNER_UI(language, BackHint), 2, 16);
+    gMenuCallback = StartMenu_LearnerProgressInput;
+    return 0;
+}
+
+static u8 StartMenu_LearnerProgressInput(void)
+{
+    if (JOY_NEW(A_BUTTON | B_BUTTON))
+    {
+        PlaySE(SE_SELECT);
+        Menu_EraseScreen();
+        InitStartMenu();
+        gMenuCallback = StartMenu_InputProcessCallback;
+    }
+    return 0;
+}
+#endif
 
 //Save dialog status
 enum

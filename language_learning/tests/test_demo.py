@@ -1214,6 +1214,22 @@ class LessonTests(unittest.TestCase):
         self.assertNotIn('multichoice 0, 0, MULTI_LEARNER_MODE', settings)
         self.assertIn('sLearnerMode == 1', (demo.ROOT / 'src/learner_intro.inc').read_text())
 
+    def test_start_menu_exposes_saved_learner_progress(self):
+        source = (demo.ROOT / "src/start_menu.c").read_text(encoding="utf-8")
+        self.assertIn("MENU_ACTION_LEARNER_PROGRESS", source)
+        self.assertIn("StartMenu_LearnerProgressCallback", source)
+        self.assertIn("VAR_LEARNER_EXPOSURE_COUNT", source)
+        self.assertIn("VAR_LEARNER_DICTIONARY_COUNT", source)
+        self.assertIn("VarGet(VAR_LEARNER_LEVEL)", source)
+        self.assertIn("VarGet(VAR_LEARNER_MODE) == 1", source)
+        self.assertIn("#else\n    AddStartMenuAction(MENU_ACTION_EXIT);", source)
+        learner = source.split("#if LEARNER_DEMO", 1)[1]
+        self.assertIn("Menu_EraseScreen();", learner)
+        ui_data = validate.load(demo.ROOT / "language_learning/ui.json")
+        for key in ("LearningMenu", "ProgressTitle", "LanguageLabel", "LanguageName",
+                    "ExposureLabel", "DictionaryLabel", "IntroHelpLabel", "BackHint"):
+            self.assertEqual({"ru", "de"}, set(ui_data[key]))
+
     def test_pc_startup_and_storage_primary_menu_use_selected_language(self):
         script_menu = (demo.ROOT / 'src/script_menu.c').read_text()
         self.assertIn('Learner_Translate(Text_WhichPCShouldBeAccessed)', script_menu)

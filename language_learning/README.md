@@ -129,6 +129,12 @@ currently a manual step. The exporter only reads emulated memory.
 Snapshot replacement keeps a temporary backup until the new JSON file is safely
 installed, so a failed rename leaves the last valid snapshot available to the
 session watcher.
+
+The learner build replaces the redundant `Exit` row in the ordinary START menu
+(START or B still closes it) with a localized Learning page. That page reads the
+saved language, CEFR level, introductory-help choice, exposure count, and
+dictionary count directly from the reserved variables. It does not modify those
+settings or add save data.
 Imported events also update a conservative mastery estimate and next-review date
 for every vocabulary record in the context. Dictionary use shortens the review
 interval; repeated exposure gradually lengthens it up to 30 days. This activity

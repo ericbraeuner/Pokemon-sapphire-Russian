@@ -23,6 +23,7 @@ import profile_sync
 import context_catalog
 import review_queue
 import adaptive_selector
+import learner_dashboard
 
 
 class LessonTests(unittest.TestCase):
@@ -172,6 +173,32 @@ class LessonTests(unittest.TestCase):
         before_arrival["game_progress"]["sequence"] = 0
         with self.assertRaisesRegex(ValueError, "no dialogue variant"):
             adaptive_selector.select(pack, before_arrival, dialogue_id)
+
+    def test_dashboard_is_localized_and_escapes_profile_content(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        profile["profile_id"] = '<script>alert("x")</script>'
+        word = context_catalog.load()[1]["words"]["ru"][0]
+        profile["activity_vocabulary"] = {
+            word["id"]: {
+                "lemma": word["lemma"], "english_gloss": word["english_gloss"],
+                "mastery": 0.25, "exposure_count": 1, "dictionary_requests": 0,
+                "last_seen": "2026-10-13T12:00:00Z", "next_review": "2026-10-14T12:00:00Z",
+                "srs": {"state": "learning", "interval_days": 1, "ease": 2.3, "lapses": 0},
+            },
+        }
+        page = learner_dashboard.render(
+            profile, now=review_queue._timestamp("2026-10-15T12:00:00Z"),
+        )
+        self.assertIn('<html lang="ru">', page)
+        self.assertIn("Прогресс в языке", page)
+        self.assertIn(word["lemma"], page)
+        self.assertIn("aria-valuenow=\"25\"", page)
+        self.assertNotIn("<script>", page)
+        self.assertIn("&lt;script&gt;", page)
+        german = copy.deepcopy(profile)
+        german["selected_language"] = "de"
+        german["activity_vocabulary"] = {}
+        self.assertIn("Sprachfortschritt", learner_dashboard.render(german))
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()

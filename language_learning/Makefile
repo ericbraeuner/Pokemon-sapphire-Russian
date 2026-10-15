@@ -1,4 +1,4 @@
-.PHONY: validate test demo review-queue select-variant
+.PHONY: validate test demo review-queue select-variant dashboard
 
 PYTHON ?= python3
 
@@ -16,3 +16,6 @@ review-queue:
 
 select-variant:
 	$(PYTHON) language_learning/tools/adaptive_selector.py language_learning/language_packs/ru/pack.json language_learning/profiles/sample-learner.json littleroot.player_house.mom.welcome.001
+
+dashboard:
+	$(PYTHON) language_learning/tools/learner_dashboard.py language_learning/profiles/sample-learner.json build/learner-dashboard.html

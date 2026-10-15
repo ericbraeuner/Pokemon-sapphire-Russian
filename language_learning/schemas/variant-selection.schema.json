@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pokemon-language-learning/variant-selection.schema.json",
+  "title": "Adaptive dialogue variant selection",
+  "type": "object",
+  "required": ["schema_version", "dialogue_id", "variant_id", "selected_language", "cefr", "internal_difficulty", "due_vocabulary_count", "average_known_mastery", "text", "english_gloss", "vocabulary_ids", "grammar_note_ids"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "dialogue_id": {"type": "string", "minLength": 1},
+    "variant_id": {"type": "string", "minLength": 1},
+    "selected_language": {"enum": ["ru", "de"]},
+    "cefr": {"enum": ["A1", "A2", "B1", "B2", "C1", "C2"]},
+    "internal_difficulty": {"type": "integer", "minimum": 1, "maximum": 100},
+    "due_vocabulary_count": {"type": "integer", "minimum": 0},
+    "average_known_mastery": {"type": "number", "minimum": 0, "maximum": 1},
+    "text": {"type": "string"},
+    "english_gloss": {"type": "string"},
+    "vocabulary_ids": {"type": "array", "items": {"type": "string"}},
+    "grammar_note_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

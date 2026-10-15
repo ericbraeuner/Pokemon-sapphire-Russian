@@ -22,6 +22,7 @@ import trainer_eyes
 import profile_sync
 import context_catalog
 import review_queue
+import adaptive_selector
 
 
 class LessonTests(unittest.TestCase):
@@ -152,6 +153,25 @@ class LessonTests(unittest.TestCase):
         self.assertEqual("A2", queue["cefr"])
         self.assertGreater(queue["due_count"], 0)
         self.assertTrue(all(card["is_due"] for card in queue["cards"]))
+
+    def test_adaptive_selector_respects_language_level_and_progress(self):
+        pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        dialogue_id = "littleroot.player_house.mom.welcome.001"
+        simple = adaptive_selector.select(pack, profile, dialogue_id)
+        self.assertEqual("simple", simple["variant_id"])
+        advanced = copy.deepcopy(profile)
+        advanced["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
+        expanded = adaptive_selector.select(pack, advanced, dialogue_id)
+        self.assertEqual("expanded", expanded["variant_id"])
+        wrong_language = copy.deepcopy(profile)
+        wrong_language["selected_language"] = "de"
+        with self.assertRaisesRegex(ValueError, "does not match"):
+            adaptive_selector.select(pack, wrong_language, dialogue_id)
+        before_arrival = copy.deepcopy(profile)
+        before_arrival["game_progress"]["sequence"] = 0
+        with self.assertRaisesRegex(ValueError, "no dialogue variant"):
+            adaptive_selector.select(pack, before_arrival, dialogue_id)
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()

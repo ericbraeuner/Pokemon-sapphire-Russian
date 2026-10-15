@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -100,7 +101,7 @@ def main() -> int:
         temporary.write_text(rendered, encoding="utf-8")
         temporary.replace(args.output)
     else:
-        print(rendered, end="")
+        sys.stdout.buffer.write(rendered.encode("utf-8"))
     return 0
 
 

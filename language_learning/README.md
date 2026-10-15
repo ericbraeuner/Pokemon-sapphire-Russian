@@ -37,6 +37,12 @@ The CEFR labels (`A1`, `A2`, `B1`, and later levels) are broad reporting labels;
 `internal_difficulty` is the finer-grained ordering key. Profiles keep both game
 progress and learner difficulty because neither is a safe proxy for the other.
 
+`tools/adaptive_selector.py` implements this contract for external wrappers. It
+rejects variants above the selected internal difficulty or ahead of game
+progress, enforces each variant's new-word budget, and selects the hardest
+eligible variant. Due vocabulary and known-word mastery break ties without ever
+changing the learner's selected CEFR level.
+
 ## Emulator/wrapper contract
 
 A future mGBA or Raspberry Pi wrapper is expected to:

@@ -126,6 +126,9 @@ ignore events it has already imported. Set `OUTPUT_PATH` and `SOURCE_ID` at the 
 the profile and save being used. Released mGBA builds do not reliably support a
 command-line script-loading option, so loading it from the Scripting window is
 currently a manual step. The exporter only reads emulated memory.
+Snapshot replacement keeps a temporary backup until the new JSON file is safely
+installed, so a failed rename leaves the last valid snapshot available to the
+session watcher.
 Imported events also update a conservative mastery estimate and next-review date
 for every vocabulary record in the context. Dictionary use shortens the review
 interval; repeated exposure gradually lengthens it up to 30 days. This activity

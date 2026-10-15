@@ -94,6 +94,10 @@ class LessonTests(unittest.TestCase):
         self.assertIn('"events": [', source)
         self.assertIn('"schema_version": 1', source)
         self.assertNotIn("emu:write", source)
+        self.assertIn('local backupPath = OUTPUT_PATH .. ".bak"', source)
+        self.assertIn('os.rename(OUTPUT_PATH, backupPath)', source)
+        self.assertIn('os.rename(backupPath, OUTPUT_PATH)', source)
+        self.assertNotIn('os.remove(OUTPUT_PATH)', source)
 
         opening_source = (demo.ROOT / "language_learning/tools/opening.py").read_text(encoding="utf-8")
         self.assertIn("VAR_LEARNER_LAST_EXPOSURE_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)

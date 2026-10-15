@@ -79,12 +79,25 @@ local function writeSnapshot(state)
     end
     file:write(body)
     file:close()
-    os.remove(OUTPUT_PATH)
+    local backupPath = OUTPUT_PATH .. ".bak"
+    os.remove(backupPath)
+    local old = io.open(OUTPUT_PATH, "rb")
+    if old then
+        old:close()
+        local backedUp, backupMessage = os.rename(OUTPUT_PATH, backupPath)
+        if not backedUp then
+            os.remove(temporaryPath)
+            console:error("Learner snapshot backup failed: " .. tostring(backupMessage))
+            return false
+        end
+    end
     local ok, renameMessage = os.rename(temporaryPath, OUTPUT_PATH)
     if not ok then
+        os.rename(backupPath, OUTPUT_PATH)
         console:error("Learner snapshot could not be installed: " .. tostring(renameMessage))
         return false
     end
+    os.remove(backupPath)
     return true
 end
 

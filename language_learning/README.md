@@ -43,7 +43,7 @@ progress, enforces each variant's new-word budget, and selects the hardest
 eligible variant. Due vocabulary and known-word mastery break ties without ever
 changing the learner's selected CEFR level.
 
-The adaptive packs now cover the first thirty-one connected Littleroot scenes: arriving
+The adaptive packs now cover the first fifty connected early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -52,10 +52,15 @@ programs, the neighbor-family conversations, both May and Brendan introduction
 branches, and the first three Professor Birch laboratory conversations. Scenes
 whose authored wording changes by difficulty provide A1, A2, and natural B1
 variants in both Russian and German; short lines whose wording is identical
-across levels use one honest shared variant. The original welcome example retains
-its two established variants. German noun records include their articles. These
-external selections do not rewrite the ROM dialogue yet; they are the authored
-input for a future wrapper or in-ROM selector.
+across levels use one honest shared variant. Littleroot's outdoor residents,
+grass and rescue warnings, post-rescue encouragement, town sign, laboratory sign,
+and both house signs are included as well. Route 101 now contributes the wall-map
+lead-in, Birch's complete rescue sequence, both route residents, and its actual
+northbound sign; the former route-sign placeholder is now connected to the real
+script and text symbol. The original welcome example retains its two established
+variants. German noun records include their articles. These external selections
+do not rewrite the ROM dialogue yet; they are the authored input for a future
+wrapper or in-ROM selector.
 
 ## Emulator/wrapper contract
 

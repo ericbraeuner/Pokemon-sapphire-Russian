@@ -24,17 +24,21 @@
     {
       "id": "littleroot.route_sign.001",
       "source": {
-        "kind": "planned_source_symbol",
-        "symbol": "LittlerootTown_RouteSign",
-        "note": "Placeholder integration coordinate; does not modify base text."
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14EA76",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D349",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
       },
       "progress": {
         "chapter": "arrival",
-        "sequence": 2
+        "sequence": 49
       },
       "tags": [
-        "navigation",
-        "sign"
+        "route",
+        "sign",
+        "navigation"
       ]
     },
     {
@@ -612,6 +616,353 @@
         "lab",
         "research",
         "family"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.pc.032",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_FatMan",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_CanUsePCToStoreItems",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 31
+      },
+      "tags": [
+        "town",
+        "computer"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.research.033",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_Boy",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_BirchSpendsDaysInLab",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 32
+      },
+      "tags": [
+        "town",
+        "research"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.grass.034",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_Twin",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 33
+      },
+      "tags": [
+        "town",
+        "safety"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.danger.035",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_DangerousWithoutPokemon",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_DangerousIfYouDontHavePokemon",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 34
+      },
+      "tags": [
+        "town",
+        "safety"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.help.036",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_GoSaveBirch",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_CanYouGoSeeWhatsHappening",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 35
+      },
+      "tags": [
+        "town",
+        "rescue"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.rescued.037",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_YouSavedBirch",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_YouSavedBirch",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 36
+      },
+      "tags": [
+        "town",
+        "rescue"
+      ]
+    },
+    {
+      "id": "littleroot.town.npc.good_luck.038",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_GoodLuck",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_GoodLuckCatchingPokemon",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 37
+      },
+      "tags": [
+        "town",
+        "adventure"
+      ]
+    },
+    {
+      "id": "littleroot.town.sign.039",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_TownSign",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_TownSign",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 38
+      },
+      "tags": [
+        "town",
+        "sign"
+      ]
+    },
+    {
+      "id": "littleroot.lab.sign.040",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_BirchsLabSign",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_ProfBirchsLab",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 39
+      },
+      "tags": [
+        "town",
+        "sign",
+        "lab"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.sign.041",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_PlayersHouseSignMale",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_PlayersHouse",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 40
+      },
+      "tags": [
+        "town",
+        "sign",
+        "home"
+      ]
+    },
+    {
+      "id": "littleroot.birch_house.sign.042",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_BirchsHouseSignMale",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_ProfBirchsHouse",
+        "note": "Connected to an existing learner Littleroot interaction; event behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 41
+      },
+      "tags": [
+        "town",
+        "sign",
+        "home"
+      ]
+    },
+    {
+      "id": "littleroot.player_room.wall_map.043",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "EventScript_RegionMap",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+        "base_text_symbol": "Common_Text_LookCloserAtMap",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 42
+      },
+      "tags": [
+        "room",
+        "map"
+      ]
+    },
+    {
+      "id": "route101.birch.rescue_cry.044",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14E948",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D10E",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 43
+      },
+      "tags": [
+        "route",
+        "rescue"
+      ]
+    },
+    {
+      "id": "route101.birch.rescue_bag.045",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14E948",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D119",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 44
+      },
+      "tags": [
+        "route",
+        "rescue",
+        "starter"
+      ]
+    },
+    {
+      "id": "route101.birch.rescue_stay.046",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14E9B8",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D15E",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 45
+      },
+      "tags": [
+        "route",
+        "rescue"
+      ]
+    },
+    {
+      "id": "route101.birch.rescue_thanks.047",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14EA7F",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D191",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 46
+      },
+      "tags": [
+        "route",
+        "rescue",
+        "lab"
+      ]
+    },
+    {
+      "id": "route101.npc.healing.048",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14EA64",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D25E",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 47
+      },
+      "tags": [
+        "route",
+        "healing"
+      ]
+    },
+    {
+      "id": "route101.npc.grass.049",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route101/scripts.inc",
+        "symbol": "Route101_EventScript_14EA6D",
+        "base_text_path": "data/maps/Route101/text.inc",
+        "base_text_symbol": "Route101_Text_16D2CB",
+        "note": "Connected to an existing learner interaction; event behavior and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 48
+      },
+      "tags": [
+        "route",
+        "catching"
       ]
     }
   ]

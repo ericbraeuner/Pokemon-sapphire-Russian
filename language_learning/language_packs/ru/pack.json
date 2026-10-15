@@ -419,6 +419,193 @@
       "forms": [
         "изучать"
       ]
+    },
+    {
+      "id": "ru.khranit",
+      "lemma": "хранить",
+      "english": "to store",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.pc.032",
+      "forms": [
+        "хранить"
+      ]
+    },
+    {
+      "id": "ru.laboratoriya",
+      "lemma": "лаборатория",
+      "english": "laboratory",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.research.033",
+      "forms": [
+        "лаборатория"
+      ]
+    },
+    {
+      "id": "ru.trava",
+      "lemma": "трава",
+      "english": "grass",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.grass.034",
+      "forms": [
+        "трава"
+      ]
+    },
+    {
+      "id": "ru.opasno",
+      "lemma": "опасно",
+      "english": "dangerous",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.danger.035",
+      "forms": [
+        "опасно"
+      ]
+    },
+    {
+      "id": "ru.krichat",
+      "lemma": "кричать",
+      "english": "to shout",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.help.036",
+      "forms": [
+        "кричать"
+      ]
+    },
+    {
+      "id": "ru.spasti",
+      "lemma": "спасти",
+      "english": "to rescue",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.rescued.037",
+      "forms": [
+        "спасти"
+      ]
+    },
+    {
+      "id": "ru.udacha",
+      "lemma": "удача",
+      "english": "luck",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.good_luck.038",
+      "forms": [
+        "удача"
+      ]
+    },
+    {
+      "id": "ru.gorod",
+      "lemma": "город",
+      "english": "town; city",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.sign.039",
+      "forms": [
+        "город"
+      ]
+    },
+    {
+      "id": "ru.professor",
+      "lemma": "профессор",
+      "english": "professor",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.sign.040",
+      "forms": [
+        "профессор"
+      ]
+    },
+    {
+      "id": "ru.karta",
+      "lemma": "карта",
+      "english": "map",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.wall_map.043",
+      "forms": [
+        "карта"
+      ]
+    },
+    {
+      "id": "ru.pomogite",
+      "lemma": "помогите",
+      "english": "help me (request)",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_cry.044",
+      "forms": [
+        "помогите"
+      ]
+    },
+    {
+      "id": "ru.sumka",
+      "lemma": "сумка",
+      "english": "bag",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_bag.045",
+      "forms": [
+        "сумка"
+      ]
+    },
+    {
+      "id": "ru.brosat",
+      "lemma": "бросать",
+      "english": "to abandon; throw",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_stay.046",
+      "forms": [
+        "бросать"
+      ]
+    },
+    {
+      "id": "ru.pomoshch",
+      "lemma": "помощь",
+      "english": "help",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_thanks.047",
+      "forms": [
+        "помощь"
+      ]
+    },
+    {
+      "id": "ru.ustat",
+      "lemma": "устать",
+      "english": "to get tired",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "route101.npc.healing.048",
+      "forms": [
+        "устать"
+      ]
+    },
+    {
+      "id": "ru.iskat",
+      "lemma": "искать",
+      "english": "to search",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "route101.npc.grass.049",
+      "forms": [
+        "искать"
+      ]
+    },
+    {
+      "id": "ru.sever",
+      "lemma": "север",
+      "english": "north",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.route_sign.001",
+      "forms": [
+        "север"
+      ]
     }
   ],
   "grammar_notes": [
@@ -1522,6 +1709,533 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 30
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.pc.032",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "В ПК можно хранить вещи и покемонов. Наука - это здорово!",
+          "english_gloss": "A PC can store items and Pokémon. Science is amazing!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.khranit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 31
+          }
+        },
+        {
+          "id": "connected",
+          "text": "С помощью ПК можно хранить вещи и покемонов. Удивительно, что умеет наука!",
+          "english_gloss": "A PC can store items and Pokémon. Science is amazing!",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.khranit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 31
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПК позволяет хранить и вещи, и покемонов. Возможности науки просто поражают!",
+          "english_gloss": "A PC can store items and Pokémon. Science is amazing!",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.khranit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 31
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.research.033",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Профессор Бёрч работает в лаборатории. Потом он идёт на природу. Когда он бывает дома?",
+          "english_gloss": "Professor Birk studies in the lab and outdoors. When is he ever home?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.laboratoriya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 32
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Профессор Бёрч то работает в лаборатории, то изучает покемонов на природе. Когда он успевает побыть дома?",
+          "english_gloss": "Professor Birk studies in the lab and outdoors. When is he ever home?",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.laboratoriya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 32
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Профессор Бёрч днями сидит в лаборатории, а потом вдруг уходит на полевые исследования. Интересно, когда он вообще бывает дома?",
+          "english_gloss": "Professor Birk studies in the lab and outdoors. When is he ever home?",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.laboratoriya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 32
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.grass.034",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "В высокой траве у дороги живут дикие покемоны. Они могут выпрыгнуть прямо перед тобой!",
+          "english_gloss": "Wild Pokémon appear in the tall grass beside the road.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.trava"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 33
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.danger.035",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Без своего покемона туда идти опасно.",
+          "english_gloss": "It is dangerous to go there without your own Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.opasno"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 34
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.help.036",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "На дороге кто-то кричит! Что делать? Нужно помочь!",
+          "english_gloss": "Someone is shouting down the road. Somebody must help!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.krichat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 35
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.rescued.037",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Как хорошо, что удалось спасти профессора!",
+          "english_gloss": "I am glad you rescued the professor!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.spasti"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 36
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.good_luck.038",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Идёшь ловить покемонов? Удачи!",
+          "english_gloss": "Going to catch Pokémon? Good luck!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.udacha"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 37
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.sign.039",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Литтлрут. Город, который не окрасить ни в какой цвет.",
+          "english_gloss": "Littleroot Town. A town that cannot be shaded any hue.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.gorod"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 38
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.sign.040",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Лаборатория покемонов профессора Бёрча.",
+          "english_gloss": "Professor Birk's Pokémon laboratory.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.professor"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 39
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.sign.041",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Твой дом.",
+          "english_gloss": "Your house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.dom"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 40
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.birch_house.sign.042",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Дом профессора Бёрча.",
+          "english_gloss": "Professor Birk's house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.dom"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 41
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.wall_map.043",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Это карта региона Хоэнн. Посмотрим поближе.",
+          "english_gloss": "Take a closer look at the Hoenn region map.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.karta"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 42
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_cry.044",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Помогите!",
+          "english_gloss": "Help!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pomogite"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 43
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_bag.045",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Эй! Помоги! В моей сумке есть покебол!",
+          "english_gloss": "Help me! There is a Poké Ball in my bag.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.sumka"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 44
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Эй, ты! Помоги мне, пожалуйста! Возьми покебол из моей сумки!",
+          "english_gloss": "Help me! There is a Poké Ball in my bag.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.sumka"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 44
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Эй, ты там! Пожалуйста, помоги! В моей сумке лежит покебол!",
+          "english_gloss": "Help me! There is a Poké Ball in my bag.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.sumka"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 44
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_stay.046",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Куда же ты?! Не бросай меня!",
+          "english_gloss": "Where are you going? Do not leave me!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.brosat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 45
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_thanks.047",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Бёрч: Спасибо за помощь! Я изучал покемонов в траве. Вдруг на меня напали! Поговорим в моей лаборатории.",
+          "english_gloss": "Birch thanks you for rescuing him during fieldwork and invites you to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pomoshch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 46
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Бёрч: Уф! Я изучал диких покемонов в траве, когда на меня напали. Спасибо за помощь! Здесь не место для беседы. Приходи в мою лабораторию.",
+          "english_gloss": "Birch thanks you for rescuing him during fieldwork and invites you to the lab.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.pomoshch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 46
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Бёрч: Уф, пронесло! Я изучал диких покемонов в высокой траве, и тут на меня набросились. Огромное спасибо за помощь! Но здесь не лучшее место для разговора. Приходи ко мне в лабораторию.",
+          "english_gloss": "Birch thanks you for rescuing him during fieldwork and invites you to the lab.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.pomoshch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 46
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.npc.healing.048",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Если покемоны устали, отнеси их в центр покемонов. Ближайший центр находится в Олдейле.",
+          "english_gloss": "Take tired Pokémon to the nearby Pokémon Center in Oldale.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.ustat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 47
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.npc.grass.049",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Дикие покемоны прячутся в высокой траве. Чтобы поймать их, ищи там.",
+          "english_gloss": "Look in tall grass to find and catch wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.iskat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 48
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.route_sign.001",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Путь 101. На север - Олдейл.",
+          "english_gloss": "Route 101. Oldale Town is to the north.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.sever"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 49
           }
         }
       ]

@@ -447,6 +447,215 @@
       "forms": [
         "erforschen"
       ]
+    },
+    {
+      "id": "de.lagern",
+      "lemma": "lagern",
+      "english": "to store",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.pc.032",
+      "forms": [
+        "lagern"
+      ]
+    },
+    {
+      "id": "de.labor",
+      "lemma": "Labor",
+      "english": "laboratory",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.research.033",
+      "forms": [
+        "Labor"
+      ],
+      "dictionary_form": "das Labor"
+    },
+    {
+      "id": "de.gras",
+      "lemma": "Gras",
+      "english": "grass",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.grass.034",
+      "forms": [
+        "Gras"
+      ],
+      "dictionary_form": "das Gras"
+    },
+    {
+      "id": "de.gefaehrlich",
+      "lemma": "gefährlich",
+      "english": "dangerous",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.danger.035",
+      "forms": [
+        "gefährlich"
+      ]
+    },
+    {
+      "id": "de.rufen",
+      "lemma": "rufen",
+      "english": "to call; shout",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.help.036",
+      "forms": [
+        "rufen"
+      ]
+    },
+    {
+      "id": "de.retten",
+      "lemma": "retten",
+      "english": "to rescue",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.rescued.037",
+      "forms": [
+        "retten"
+      ]
+    },
+    {
+      "id": "de.glueck",
+      "lemma": "Glück",
+      "english": "luck",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.npc.good_luck.038",
+      "forms": [
+        "Glück"
+      ],
+      "dictionary_form": "das Glück"
+    },
+    {
+      "id": "de.ort",
+      "lemma": "Ort",
+      "english": "place; town",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.town.sign.039",
+      "forms": [
+        "Ort"
+      ],
+      "dictionary_form": "der Ort"
+    },
+    {
+      "id": "de.professor",
+      "lemma": "Professor",
+      "english": "professor",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.lab.sign.040",
+      "forms": [
+        "Professor"
+      ],
+      "dictionary_form": "der Professor"
+    },
+    {
+      "id": "de.zuhause_noun",
+      "lemma": "Zuhause",
+      "english": "home",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.sign.041",
+      "forms": [
+        "Zuhause"
+      ],
+      "dictionary_form": "das Zuhause"
+    },
+    {
+      "id": "de.karte",
+      "lemma": "Karte",
+      "english": "map",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.wall_map.043",
+      "forms": [
+        "Karte"
+      ],
+      "dictionary_form": "die Karte"
+    },
+    {
+      "id": "de.hilfe",
+      "lemma": "Hilfe",
+      "english": "help",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_cry.044",
+      "forms": [
+        "Hilfe"
+      ],
+      "dictionary_form": "die Hilfe"
+    },
+    {
+      "id": "de.tasche",
+      "lemma": "Tasche",
+      "english": "bag",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_bag.045",
+      "forms": [
+        "Tasche"
+      ],
+      "dictionary_form": "die Tasche"
+    },
+    {
+      "id": "de.allein",
+      "lemma": "allein",
+      "english": "alone",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_stay.046",
+      "forms": [
+        "allein"
+      ]
+    },
+    {
+      "id": "de.angriff",
+      "lemma": "Angriff",
+      "english": "attack",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "route101.birch.rescue_thanks.047",
+      "forms": [
+        "Angriff"
+      ],
+      "dictionary_form": "der Angriff"
+    },
+    {
+      "id": "de.muede",
+      "lemma": "müde",
+      "english": "tired",
+      "part_of_speech": "adjective",
+      "cefr": "A1",
+      "first_introduction": "route101.npc.healing.048",
+      "forms": [
+        "müde"
+      ]
+    },
+    {
+      "id": "de.suchen",
+      "lemma": "suchen",
+      "english": "to search",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "route101.npc.grass.049",
+      "forms": [
+        "suchen"
+      ]
+    },
+    {
+      "id": "de.norden",
+      "lemma": "Norden",
+      "english": "north",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.route_sign.001",
+      "forms": [
+        "Norden"
+      ],
+      "dictionary_form": "der Norden"
     }
   ],
   "grammar_notes": [
@@ -1551,6 +1760,533 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 30
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.pc.032",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Im PC kannst du Items und Pokémon lagern. Wissenschaft ist toll!",
+          "english_gloss": "A PC can store items and Pokémon. Science is amazing!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.lagern"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 31
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mit einem PC kannst du Items und Pokémon lagern. Die Wissenschaft ist erstaunlich!",
+          "english_gloss": "A PC can store items and Pokémon. Science is amazing!",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.lagern"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 31
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Mit einem PC lassen sich Items und Pokémon lagern. Die Möglichkeiten der Wissenschaft sind beeindruckend!",
+          "english_gloss": "A PC can store items and Pokémon. Science is amazing!",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.lagern"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 31
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.research.033",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Professor Birk arbeitet im Labor. Dann forscht er draußen. Wann ist er zu Hause?",
+          "english_gloss": "Professor Birk studies in the lab and outdoors. When is he ever home?",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.labor"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 32
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Professor Birk arbeitet im Labor und forscht dann draußen weiter. Wann hat er Zeit für zu Hause?",
+          "english_gloss": "Professor Birk studies in the lab and outdoors. When is he ever home?",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.labor"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 32
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Professor Birk verbringt Tage im Labor, bevor er plötzlich zur Feldforschung aufbricht. Wann ist er eigentlich mal zu Hause?",
+          "english_gloss": "Professor Birk studies in the lab and outdoors. When is he ever home?",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.labor"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 32
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.grass.034",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Im hohen Gras neben dem Weg leben wilde Pokémon. Sie können plötzlich vor dir auftauchen!",
+          "english_gloss": "Wild Pokémon appear in the tall grass beside the road.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.gras"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 33
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.danger.035",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Ohne ein eigenes Pokémon ist es dort gefährlich.",
+          "english_gloss": "It is dangerous to go there without your own Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.gefaehrlich"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 34
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.help.036",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Da ruft jemand auf dem Weg! Was sollen wir tun? Jemand muss helfen!",
+          "english_gloss": "Someone is shouting down the road. Somebody must help!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rufen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 35
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.rescued.037",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Zum Glück hast du den Professor gerettet!",
+          "english_gloss": "I am glad you rescued the professor!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.retten"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 36
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.npc.good_luck.038",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Gehst du Pokémon fangen? Viel Glück!",
+          "english_gloss": "Going to catch Pokémon? Good luck!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.glueck"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 37
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.town.sign.039",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wurzelheim. Ein Ort, der sich in keiner Farbe malen lässt.",
+          "english_gloss": "Littleroot Town. A town that cannot be shaded any hue.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.ort"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 38
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.lab.sign.040",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Pokémon-Labor von Professor Birk.",
+          "english_gloss": "Professor Birk's Pokémon laboratory.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.professor"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 39
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.sign.041",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Dein Zuhause.",
+          "english_gloss": "Your house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.zuhause_noun"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 40
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.birch_house.sign.042",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Haus von Professor Birk.",
+          "english_gloss": "Professor Birk's house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.haus"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 41
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.wall_map.043",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Das ist eine Karte der Hoenn-Region. Schau sie dir genauer an.",
+          "english_gloss": "Take a closer look at the Hoenn region map.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.karte"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 42
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_cry.044",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Hilfe!",
+          "english_gloss": "Help!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.hilfe"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 43
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_bag.045",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "He, du! Hilf mir! In meiner Tasche ist ein Pokéball!",
+          "english_gloss": "Help me! There is a Poké Ball in my bag.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.tasche"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 44
+          }
+        },
+        {
+          "id": "connected",
+          "text": "He, du da! Bitte hilf mir! Nimm einen Pokéball aus meiner Tasche!",
+          "english_gloss": "Help me! There is a Poké Ball in my bag.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.tasche"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 44
+          }
+        },
+        {
+          "id": "natural",
+          "text": "He, du dort! Bitte hilf mir! In meiner Tasche liegt ein Pokéball!",
+          "english_gloss": "Help me! There is a Poké Ball in my bag.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.tasche"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 44
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_stay.046",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wo willst du hin?! Lass mich nicht allein!",
+          "english_gloss": "Where are you going? Do not leave me!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.allein"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 45
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.birch.rescue_thanks.047",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Birk: Danke für deine Hilfe! Ich habe Pokémon im Gras erforscht. Plötzlich kam der Angriff! Reden wir in meinem Labor.",
+          "english_gloss": "Birch thanks you for rescuing him during fieldwork and invites you to the lab.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.angriff"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 46
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Birk: Puh! Ich habe wilde Pokémon im Gras erforscht. Dabei wurde ich angegriffen. Danke für deine Hilfe! Komm in mein Labor. Dort können wir reden.",
+          "english_gloss": "Birch thanks you for rescuing him during fieldwork and invites you to the lab.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.angriff"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 46
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Birk: Puh, das war knapp! Ich habe wilde Pokémon im hohen Gras erforscht, als ich plötzlich angegriffen wurde. Vielen Dank für deine Hilfe! Hier ist kein guter Ort zum Reden. Besuch mich in meinem Labor.",
+          "english_gloss": "Birch thanks you for rescuing him during fieldwork and invites you to the lab.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.angriff"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 46
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.npc.healing.048",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wenn deine Pokémon müde sind, bring sie in ein Pokémon-Center. Das nächste ist in Rosaltstadt.",
+          "english_gloss": "Take tired Pokémon to the nearby Pokémon Center in Oldale.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.muede"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 47
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route101.npc.grass.049",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Wilde Pokémon verstecken sich im hohen Gras. Suche dort, wenn du welche fangen möchtest.",
+          "english_gloss": "Look in tall grass to find and catch wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.suchen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 48
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.route_sign.001",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Route 101. Nach Norden: Rosaltstadt.",
+          "english_gloss": "Route 101. Oldale Town is to the north.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.norden"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 49
           }
         }
       ]

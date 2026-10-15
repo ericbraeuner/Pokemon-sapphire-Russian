@@ -19,6 +19,7 @@ import graphic_labels
 import trainer_eyes
 import profile_sync
 import context_catalog
+import review_queue
 
 
 class LessonTests(unittest.TestCase):
@@ -92,6 +93,33 @@ class LessonTests(unittest.TestCase):
         opening_source = (demo.ROOT / "language_learning/tools/opening.py").read_text(encoding="utf-8")
         self.assertIn("VAR_LEARNER_LAST_EXPOSURE_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
         self.assertIn("VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
+
+    def test_review_queue_prioritizes_due_context_vocabulary(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        words = context_catalog.load()[1]["words"]["ru"][:2]
+        profile["activity_vocabulary"] = {
+            words[0]["id"]: {
+                "lemma": words[0]["lemma"], "english_gloss": words[0]["english_gloss"],
+                "mastery": 0.25, "exposure_count": 1, "dictionary_requests": 0,
+                "last_seen": "2026-10-13T12:00:00Z", "next_review": "2026-10-14T12:00:00Z",
+                "srs": {"state": "learning", "interval_days": 1, "ease": 2.3, "lapses": 0},
+            },
+            words[1]["id"]: {
+                "lemma": words[1]["lemma"], "english_gloss": words[1]["english_gloss"],
+                "mastery": 0.4, "exposure_count": 2, "dictionary_requests": 1,
+                "last_seen": "2026-10-14T12:00:00Z", "next_review": "2026-10-16T12:00:00Z",
+                "srs": {"state": "learning", "interval_days": 2, "ease": 2.2, "lapses": 0},
+            },
+        }
+        now = review_queue._timestamp("2026-10-15T12:00:00Z")
+        due = review_queue.build(profile, now=now)
+        self.assertEqual(1, due["due_count"])
+        self.assertEqual([words[0]["id"]], [card["word_id"] for card in due["cards"]])
+        self.assertEqual(1, due["cards"][0]["context_id"])
+        self.assertEqual("authored_dialogue", due["cards"][0]["context_kind"])
+        self.assertEqual(1, due["cards"][0]["days_overdue"])
+        all_cards = review_queue.build(profile, now=now, include_upcoming=True)
+        self.assertEqual([True, False], [card["is_due"] for card in all_cards["cards"]])
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/pokemon-language-learning/review-queue.schema.json",
+  "title": "Vocabulary review queue",
+  "type": "object",
+  "required": ["schema_version", "profile_id", "selected_language", "cefr", "generated_at", "due_count", "cards"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "profile_id": {"type": "string"},
+    "selected_language": {"enum": ["ru", "de"]},
+    "cefr": {"enum": ["A1", "A2", "B1", "B2", "C1", "C2"]},
+    "generated_at": {"type": "string"},
+    "due_count": {"type": "integer", "minimum": 0},
+    "cards": {"type": "array", "items": {"$ref": "#/$defs/card"}}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "card": {
+      "type": "object",
+      "required": ["word_id", "lemma", "english_gloss", "context_id", "context_kind", "source_id", "due_at", "is_due", "days_overdue", "mastery", "exposure_count", "dictionary_requests", "srs_state"],
+      "properties": {
+        "word_id": {"type": "string", "minLength": 1},
+        "lemma": {"type": "string", "minLength": 1},
+        "english_gloss": {"type": "string", "minLength": 1},
+        "context_id": {"type": "integer", "minimum": 1, "maximum": 65535},
+        "context_kind": {"enum": ["authored_dialogue", "field_dictionary"]},
+        "source_id": {"type": "string", "minLength": 1},
+        "due_at": {"type": "string"},
+        "is_due": {"type": "boolean"},
+        "days_overdue": {"type": "integer", "minimum": 0},
+        "mastery": {"type": "number", "minimum": 0, "maximum": 1},
+        "exposure_count": {"type": "integer", "minimum": 0},
+        "dictionary_requests": {"type": "integer", "minimum": 0},
+        "srs_state": {"enum": ["new", "learning", "review", "relearning"]}
+      },
+      "additionalProperties": false
+    }
+  }
+}

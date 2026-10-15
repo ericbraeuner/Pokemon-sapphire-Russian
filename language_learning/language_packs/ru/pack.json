@@ -243,6 +243,105 @@
       "forms": [
         "по соседству"
       ]
+    },
+    {
+      "id": "ru.kontroller",
+      "lemma": "контроллер",
+      "english": "controller",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.gamecube.012",
+      "forms": [
+        "контроллер"
+      ]
+    },
+    {
+      "id": "ru.bloknot",
+      "lemma": "блокнот",
+      "english": "notebook",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.notebook.013",
+      "forms": [
+        "блокнот"
+      ]
+    },
+    {
+      "id": "ru.klavisha",
+      "lemma": "клавиша",
+      "english": "key on a keyboard",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.tv_movie.014",
+      "forms": [
+        "клавиша"
+      ]
+    },
+    {
+      "id": "ru.peredacha",
+      "lemma": "передача",
+      "english": "TV program",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.tv_program.015",
+      "forms": [
+        "передача"
+      ]
+    },
+    {
+      "id": "ru.kompyuter",
+      "lemma": "компьютер",
+      "english": "computer",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.pc_boot.016",
+      "forms": [
+        "компьютер"
+      ]
+    },
+    {
+      "id": "ru.priyom",
+      "lemma": "приём",
+      "english": "move; technique",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_room.school_email.017",
+      "forms": [
+        "приём"
+      ]
+    },
+    {
+      "id": "ru.kniga",
+      "lemma": "книга",
+      "english": "book",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.bookshelf.018",
+      "forms": [
+        "книга"
+      ]
+    },
+    {
+      "id": "ru.polka",
+      "lemma": "полка",
+      "english": "shelf",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_room.picture_books.019",
+      "forms": [
+        "полка"
+      ]
+    },
+    {
+      "id": "ru.sosed",
+      "lemma": "сосед",
+      "english": "neighbor",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.welcome.020",
+      "forms": [
+        "сосед"
+      ]
     }
   ],
   "grammar_notes": [
@@ -702,6 +801,344 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 10
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.gamecube.012",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Это Nintendo GameCube. Game Boy Advance работает как контроллер.",
+          "english_gloss": "A Nintendo GameCube with a Game Boy Advance connected as its controller.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.kontroller"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 11
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Это Nintendo GameCube. К ней подключён Game Boy Advance вместо контроллера.",
+          "english_gloss": "A Nintendo GameCube with a Game Boy Advance connected as its controller.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.kontroller"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 11
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Это Nintendo GameCube. Подключённый Game Boy Advance служит контроллером.",
+          "english_gloss": "A Nintendo GameCube with a Game Boy Advance connected as its controller.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.kontroller"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 11
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.notebook.013",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Это блокнот. Правило 1: START открывает меню. Правило 2: SAVE сохраняет игру. Дальше страницы пустые.",
+          "english_gloss": "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.bloknot"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 12
+          }
+        },
+        {
+          "id": "connected",
+          "text": "В блокноте два правила. Открой меню кнопкой START. Сохрани игру через SAVE. Остальные страницы пустые.",
+          "english_gloss": "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.bloknot"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 12
+          }
+        },
+        {
+          "id": "natural",
+          "text": "В блокноте записаны правила приключения: открывай меню кнопкой START и сохраняй свой прогресс через SAVE. Остальные страницы пока пусты.",
+          "english_gloss": "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.bloknot"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 12
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.tv_movie.014",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "По телевизору идёт фильм. Два мужчины танцуют на большом пианино. Пора идти!",
+          "english_gloss": "A film shows two men dancing on a giant piano keyboard. Time to get going!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.klavisha"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 13
+          }
+        },
+        {
+          "id": "connected",
+          "text": "По телевизору показывают фильм. Два мужчины танцуют на клавишах огромного пианино. Пора идти!",
+          "english_gloss": "A film shows two men dancing on a giant piano keyboard. Time to get going!",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.klavisha"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 13
+          }
+        },
+        {
+          "id": "natural",
+          "text": "По телевизору идёт фильм: двое мужчин танцуют на клавишах огромного пианино. Но пора отправляться в путь!",
+          "english_gloss": "A film shows two men dancing on a giant piano keyboard. Time to get going!",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.klavisha"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 13
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.tv_program.015",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Эта передача может понравиться родителям. Но пора идти!",
+          "english_gloss": "Your parents might like this program. Time to get going!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.peredacha"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 14
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.pc_boot.016",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Компьютер включён.",
+          "english_gloss": "You turned on the computer.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.kompyuter"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 15
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.school_email.017",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Письмо из школы тренеров: покемон может знать до четырёх приёмов. Хороший тренер умеет выбирать приёмы.",
+          "english_gloss": "An email from the Trainer School: a Pokémon can know up to four moves. A good trainer chooses moves carefully.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.priyom"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 16
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.bookshelf.018",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "На полке стоят книги о покемонах. Это твоя любимая коллекция.",
+          "english_gloss": "Your prized collection of Pokémon books.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.kniga"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 17
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.picture_books.019",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "На полке стоят книги с картинками о покемонах.",
+          "english_gloss": "The shelf is full of Pokémon picture books.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.polka"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 18
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.welcome.020",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Привет! Ты теперь живёшь рядом? У нас есть ребёнок твоего возраста. Поднимись наверх!",
+          "english_gloss": "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.sosed"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 19
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Привет! Значит, вы сегодня переехали в соседний дом. Наш ребёнок примерно твоего возраста и ждёт знакомства. Поднимись наверх!",
+          "english_gloss": "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.sosed"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 19
+          }
+        },
+        {
+          "id": "natural",
+          "text": "А, здравствуй! Значит, ты из семьи, которая сегодня переехала по соседству. Наш ребёнок примерно твоего возраста и очень хочет с тобой подружиться. Думаю, тебе стоит подняться наверх.",
+          "english_gloss": "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.sosed"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 19
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.upstairs.021",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Наверное, тебе стоит посмотреть наверху.",
+          "english_gloss": "Try looking upstairs.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.naverhu"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 20
           }
         }
       ]

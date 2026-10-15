@@ -258,6 +258,114 @@
       "forms": [
         "nebenan"
       ]
+    },
+    {
+      "id": "de.controller",
+      "lemma": "Controller",
+      "english": "controller",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.gamecube.012",
+      "forms": [
+        "Controller"
+      ],
+      "dictionary_form": "der Controller"
+    },
+    {
+      "id": "de.notizbuch",
+      "lemma": "Notizbuch",
+      "english": "notebook",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.notebook.013",
+      "forms": [
+        "Notizbuch"
+      ],
+      "dictionary_form": "das Notizbuch"
+    },
+    {
+      "id": "de.taste",
+      "lemma": "Taste",
+      "english": "key on a keyboard",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.tv_movie.014",
+      "forms": [
+        "Taste"
+      ],
+      "dictionary_form": "die Taste"
+    },
+    {
+      "id": "de.sendung",
+      "lemma": "Sendung",
+      "english": "TV program",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.tv_program.015",
+      "forms": [
+        "Sendung"
+      ],
+      "dictionary_form": "die Sendung"
+    },
+    {
+      "id": "de.computer",
+      "lemma": "Computer",
+      "english": "computer",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.pc_boot.016",
+      "forms": [
+        "Computer"
+      ],
+      "dictionary_form": "der Computer"
+    },
+    {
+      "id": "de.attacke",
+      "lemma": "Attacke",
+      "english": "attack; move",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_room.school_email.017",
+      "forms": [
+        "Attacke"
+      ],
+      "dictionary_form": "die Attacke"
+    },
+    {
+      "id": "de.buch",
+      "lemma": "Buch",
+      "english": "book",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_room.bookshelf.018",
+      "forms": [
+        "Buch"
+      ],
+      "dictionary_form": "das Buch"
+    },
+    {
+      "id": "de.regal",
+      "lemma": "Regal",
+      "english": "shelf",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_room.picture_books.019",
+      "forms": [
+        "Regal"
+      ],
+      "dictionary_form": "das Regal"
+    },
+    {
+      "id": "de.nachbar",
+      "lemma": "Nachbar",
+      "english": "neighbor",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.rival_house.mom.welcome.020",
+      "forms": [
+        "Nachbar"
+      ],
+      "dictionary_form": "der Nachbar"
     }
   ],
   "grammar_notes": [
@@ -718,6 +826,344 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 10
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.gamecube.012",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Das ist ein Nintendo GameCube. Ein Game Boy Advance ist der Controller.",
+          "english_gloss": "A Nintendo GameCube with a Game Boy Advance connected as its controller.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.controller"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 11
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Das ist ein Nintendo GameCube. Ein Game Boy Advance ist als Controller angeschlossen.",
+          "english_gloss": "A Nintendo GameCube with a Game Boy Advance connected as its controller.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.controller"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 11
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein Nintendo GameCube, an den ein Game Boy Advance als Controller angeschlossen ist.",
+          "english_gloss": "A Nintendo GameCube with a Game Boy Advance connected as its controller.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.controller"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 11
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.notebook.013",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Das ist ein Notizbuch. Regel 1: START öffnet das Menü. Regel 2: SAVE speichert das Spiel. Die anderen Seiten sind leer.",
+          "english_gloss": "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.notizbuch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 12
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Im Notizbuch stehen zwei Regeln. Öffne das Menü mit START. Speichere mit SAVE. Die anderen Seiten sind leer.",
+          "english_gloss": "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.notizbuch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 12
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Im Notizbuch stehen zwei Abenteuerregeln: Öffne das Menü mit START und sichere deinen Fortschritt mit SAVE. Die übrigen Seiten sind noch leer.",
+          "english_gloss": "The notebook says to open the menu with START and save progress with SAVE. The other pages are blank.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.notizbuch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 12
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.tv_movie.014",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Im Fernsehen läuft ein Film. Zwei Männer tanzen auf einem großen Klavier. Zeit zu gehen!",
+          "english_gloss": "A film shows two men dancing on a giant piano keyboard. Time to get going!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.taste"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 13
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Im Fernsehen läuft ein Film. Zwei Männer tanzen auf den Tasten eines riesigen Klaviers. Zeit zu gehen!",
+          "english_gloss": "A film shows two men dancing on a giant piano keyboard. Time to get going!",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.taste"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 13
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Im Fernsehen läuft ein Film, in dem zwei Männer auf den Tasten eines riesigen Klaviers tanzen. Aber es wird Zeit aufzubrechen!",
+          "english_gloss": "A film shows two men dancing on a giant piano keyboard. Time to get going!",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.taste"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 13
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.tv_program.015",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Diese Sendung könnte deinen Eltern gefallen. Aber es wird Zeit zu gehen!",
+          "english_gloss": "Your parents might like this program. Time to get going!",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.sendung"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 14
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.pc_boot.016",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Der Computer ist eingeschaltet.",
+          "english_gloss": "You turned on the computer.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.computer"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 15
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.school_email.017",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Eine E-Mail von der Trainerschule: Ein Pokémon kann bis zu vier Attacken beherrschen. Gute Trainer wählen ihre Attacken sorgfältig aus.",
+          "english_gloss": "An email from the Trainer School: a Pokémon can know up to four moves. A good trainer chooses moves carefully.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.attacke"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 16
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_room.bookshelf.018",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Im Regal stehen deine Bücher über Pokémon. Du bist stolz auf deine Sammlung.",
+          "english_gloss": "Your prized collection of Pokémon books.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.buch"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 17
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_room.picture_books.019",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Im Regal stehen Bilderbücher über Pokémon.",
+          "english_gloss": "The shelf is full of Pokémon picture books.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.regal"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 18
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.welcome.020",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Hallo! Du wohnst jetzt nebenan? Unser Kind ist so alt wie du. Geh nach oben!",
+          "english_gloss": "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.nachbar"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 19
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Hallo! Ihr seid also heute nebenan eingezogen. Unser Kind ist ungefähr so alt wie du und freut sich auf dich. Geh nach oben!",
+          "english_gloss": "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.nachbar"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 19
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach, hallo! Du gehörst also zu unseren neuen Nachbarn. Unser Kind ist ungefähr in deinem Alter und freut sich schon darauf, dich kennenzulernen. Schau doch mal oben nach!",
+          "english_gloss": "Welcome, new neighbor! Our child is about your age and is upstairs, eager to meet you.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.nachbar"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 19
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.rival_house.mom.upstairs.021",
+      "variants": [
+        {
+          "id": "shared",
+          "text": "Schau doch mal oben nach.",
+          "english_gloss": "Try looking upstairs.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.oben"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 20
           }
         }
       ]

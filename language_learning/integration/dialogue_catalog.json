@@ -231,6 +231,197 @@
         "family",
         "navigation"
       ]
+    },
+    {
+      "id": "littleroot.player_room.gamecube.012",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
+        "symbol": "PlayersHouse_2F_EventScript_GameCube",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+        "base_text_symbol": "PlayersHouse_2F_Text_ItsAGameCube",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 11
+      },
+      "tags": [
+        "room",
+        "object"
+      ]
+    },
+    {
+      "id": "littleroot.player_room.notebook.013",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
+        "symbol": "PlayersHouse_2F_EventScript_Notebook",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+        "base_text_symbol": "PlayersHouse_2F_Text_Notebook",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 12
+      },
+      "tags": [
+        "room",
+        "tutorial",
+        "object"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.tv_movie.014",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/tv.inc",
+        "symbol": "EventScript_1A6F01",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_TheresAMovieOnTV",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 13
+      },
+      "tags": [
+        "tv",
+        "object"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.tv_program.015",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/tv.inc",
+        "symbol": "EventScript_1A6EF1",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "UnknownString_81A0E68",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 14
+      },
+      "tags": [
+        "tv",
+        "object"
+      ]
+    },
+    {
+      "id": "littleroot.player_room.pc_boot.016",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_CheckPlayersPC",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "gText_PlayerHouseBootPC",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 15
+      },
+      "tags": [
+        "computer",
+        "room"
+      ]
+    },
+    {
+      "id": "littleroot.rival_room.school_email.017",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_CheckRivalsPC",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "gText_PokemonTrainerSchoolEmail",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 16
+      },
+      "tags": [
+        "computer",
+        "school"
+      ]
+    },
+    {
+      "id": "littleroot.player_room.bookshelf.018",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_15280A",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+        "base_text_symbol": "UnknownString_8172F31",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 17
+      },
+      "tags": [
+        "room",
+        "books"
+      ]
+    },
+    {
+      "id": "littleroot.rival_room.picture_books.019",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_152814",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_2F/text.inc",
+        "base_text_symbol": "UnknownString_8173A76",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 18
+      },
+      "tags": [
+        "room",
+        "books"
+      ]
+    },
+    {
+      "id": "littleroot.rival_house.mom.welcome.020",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc",
+        "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+        "base_text_symbol": "RivalsHouse_1F_Text_OhYoureTheNewNeighbor",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 19
+      },
+      "tags": [
+        "neighbor",
+        "family"
+      ]
+    },
+    {
+      "id": "littleroot.rival_house.mom.upstairs.021",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown_MaysHouse_1F/scripts.inc",
+        "symbol": "RivalsHouse_1F_EventScript_RivalMom",
+        "base_text_path": "data/maps/LittlerootTown_MaysHouse_1F/text.inc",
+        "base_text_symbol": "RivalsHouse_1F_Text_RivalIsUpstairsIThink",
+        "note": "Connected to an existing learner opening interaction; the original object or story behavior remains unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 20
+      },
+      "tags": [
+        "neighbor",
+        "navigation"
+      ]
     }
   ]
 }

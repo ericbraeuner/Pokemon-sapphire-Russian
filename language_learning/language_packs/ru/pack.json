@@ -49,6 +49,144 @@
       "forms": [
         "добро пожаловать"
       ]
+    },
+    {
+      "id": "ru.pokemon",
+      "lemma": "покемон",
+      "english": "Pokémon",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.move.002",
+      "forms": [
+        "покемон",
+        "покемоны"
+      ]
+    },
+    {
+      "id": "ru.veshchi",
+      "lemma": "вещи",
+      "english": "things",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.move.002",
+      "forms": [
+        "вещи"
+      ]
+    },
+    {
+      "id": "ru.komnata",
+      "lemma": "комната",
+      "english": "room",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.arrival.mom.006",
+      "forms": [
+        "комната",
+        "комнату",
+        "комнате"
+      ]
+    },
+    {
+      "id": "ru.naverhu",
+      "lemma": "наверху",
+      "english": "upstairs; above",
+      "part_of_speech": "adverb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.move.002",
+      "forms": [
+        "наверху"
+      ]
+    },
+    {
+      "id": "ru.chasy",
+      "lemma": "часы",
+      "english": "clock; watch (plural noun)",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.move.002",
+      "forms": [
+        "часы"
+      ]
+    },
+    {
+      "id": "ru.pereezd",
+      "lemma": "переезд",
+      "english": "move to a new home",
+      "part_of_speech": "noun",
+      "cefr": "A2",
+      "first_introduction": "littleroot.player_house.mom.move.002",
+      "forms": [
+        "переезд",
+        "переезду"
+      ]
+    },
+    {
+      "id": "ru.posmotri",
+      "lemma": "посмотри",
+      "english": "look (informal command)",
+      "part_of_speech": "verb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.room_reminder.003",
+      "forms": [
+        "посмотри"
+      ]
+    },
+    {
+      "id": "ru.vremya",
+      "lemma": "время",
+      "english": "time",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.clock.004",
+      "forms": [
+        "время"
+      ]
+    },
+    {
+      "id": "ru.stol",
+      "lemma": "стол",
+      "english": "table; desk",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.room.005",
+      "forms": [
+        "стол",
+        "столе"
+      ]
+    },
+    {
+      "id": "ru.poryadok",
+      "lemma": "порядок",
+      "english": "order; tidiness",
+      "part_of_speech": "noun",
+      "cefr": "A2",
+      "first_introduction": "littleroot.player_house.mom.room.005",
+      "forms": [
+        "порядок"
+      ]
+    },
+    {
+      "id": "ru.vnizu",
+      "lemma": "внизу",
+      "english": "downstairs; below",
+      "part_of_speech": "adverb",
+      "cefr": "A1",
+      "first_introduction": "littleroot.player_house.mom.room.005",
+      "forms": [
+        "внизу"
+      ]
+    },
+    {
+      "id": "ru.gruzovik",
+      "lemma": "грузовик",
+      "english": "truck",
+      "part_of_speech": "noun",
+      "cefr": "A1",
+      "first_introduction": "littleroot.arrival.mom.006",
+      "forms": [
+        "грузовик",
+        "грузовике"
+      ]
     }
   ],
   "grammar_notes": [
@@ -96,6 +234,313 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 1
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.move.002",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Покемоны несут наши вещи. Они убирают дом. Это удобно!\n\nТвоя комната наверху. Папа купил тебе новые часы. Иди в комнату и поставь часы на нужное время.",
+          "english_gloss": "The movers' Pokémon carry our things and clean up. That is a big help!\n\nYour room is upstairs. Dad bought you a new clock for the move. Go look at your room and set the clock.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pokemon",
+            "ru.veshchi",
+            "ru.komnata",
+            "ru.naverhu",
+            "ru.chasy",
+            "ru.pereezd"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 6,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 2
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Покемоны помогают нам с переездом и убирают дом. Это очень удобно!\n\nТвоя комната наверху. Папа купил тебе новые часы к переезду. Посмотри комнату и поставь часы на нужное время.",
+          "english_gloss": "The movers' Pokémon carry our things and clean up. That is a big help!\n\nYour room is upstairs. Dad bought you a new clock for the move. Go look at your room and set the clock.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.pokemon",
+            "ru.veshchi",
+            "ru.komnata",
+            "ru.naverhu",
+            "ru.chasy",
+            "ru.pereezd"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 6,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 2
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Покемоны грузчиков переносят наши вещи и всё за собой убирают. Как же это удобно!\n\nТвоя комната наверху. Папа купил тебе новые часы в честь нашего переезда. Сходи осмотрись и не забудь выставить время!",
+          "english_gloss": "The movers' Pokémon carry our things and clean up. That is a big help!\n\nYour room is upstairs. Dad bought you a new clock for the move. Go look at your room and set the clock.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.pokemon",
+            "ru.veshchi",
+            "ru.komnata",
+            "ru.naverhu",
+            "ru.chasy",
+            "ru.pereezd"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 6,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 2
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.room_reminder.003",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мама: Твоя комната наверху. Иди посмотри!",
+          "english_gloss": "Don't you want to see your own room? It is upstairs.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.komnata",
+            "ru.naverhu",
+            "ru.posmotri"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мама: Ты хочешь посмотреть свою комнату? Она наверху.",
+          "english_gloss": "Don't you want to see your own room? It is upstairs.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.komnata",
+            "ru.naverhu",
+            "ru.posmotri"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Мама: Неужели тебе не хочется взглянуть на свою собственную комнату?",
+          "english_gloss": "Don't you want to see your own room? It is upstairs.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.komnata",
+            "ru.naverhu",
+            "ru.posmotri"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 3
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.clock.004",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Часы не идут. Поставь их на нужное время!",
+          "english_gloss": "The clock has stopped. Set it to the right time and start it.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.chasy",
+            "ru.vremya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 4
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Часы остановились. Поставь их на нужное время и запусти!",
+          "english_gloss": "The clock has stopped. Set it to the right time and start it.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.chasy",
+            "ru.vremya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 4
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Часы стоят... Лучше выставить правильное время и запустить их.",
+          "english_gloss": "The clock has stopped. Set it to the right time and start it.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.chasy",
+            "ru.vremya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 4
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.player_house.mom.room.005",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мама: Тебе нравится комната? Здесь порядок. Внизу тоже всё готово. Покемоны нам помогли!\n\nПосмотри на свой стол. Все вещи на месте?",
+          "english_gloss": "How do you like your new room? Everything is tidy. The Pokémon finished moving things downstairs too.\n\nCheck that everything is there on your desk.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.komnata",
+            "ru.stol",
+            "ru.poryadok",
+            "ru.vnizu",
+            "ru.pokemon"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 5,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 5
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мама: Как тебе новая комната? Всё аккуратно убрано. Покемоны уже закончили работу внизу.\n\nПроверь, все ли вещи на твоём столе.",
+          "english_gloss": "How do you like your new room? Everything is tidy. The Pokémon finished moving things downstairs too.\n\nCheck that everything is there on your desk.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.komnata",
+            "ru.stol",
+            "ru.poryadok",
+            "ru.vnizu",
+            "ru.pokemon"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 5,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 5
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Мама: Ну как тебе твоя новая комната? Всё так аккуратно разложено! Покемоны и внизу уже закончили. С ними переезжать одно удовольствие!\n\nПроверь только, всё ли на месте на твоём письменном столе.",
+          "english_gloss": "How do you like your new room? Everything is tidy. The Pokémon finished moving things downstairs too.\n\nCheck that everything is there on your desk.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.komnata",
+            "ru.stol",
+            "ru.poryadok",
+            "ru.vnizu",
+            "ru.pokemon"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 5,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 5
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "littleroot.arrival.mom.006",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мама: Мы приехали! Это Литтлрут. Теперь мы живём здесь. У тебя будет своя комната. Пойдём в дом!",
+          "english_gloss": "We have arrived in Littleroot! The truck ride must have been tiring. This is our new home, and you get your own room. Let us go inside.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.dom",
+            "ru.komnata",
+            "ru.gruzovik"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 0
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мама: Наконец мы приехали в Литтлрут! Наверное, ты устал от поездки в грузовике. Это наш новый дом. У тебя будет своя комната. Пойдём внутрь!",
+          "english_gloss": "We have arrived in Littleroot! The truck ride must have been tiring. This is our new home, and you get your own room. Let us go inside.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.dom",
+            "ru.komnata",
+            "ru.gruzovik"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 0
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Мама: Вот мы и в Литтлруте! Ехать вместе с вещами в грузовике наверняка было утомительно. Здесь уютно, правда? И у тебя будет своя комната. Пойдём внутрь!",
+          "english_gloss": "We have arrived in Littleroot! The truck ride must have been tiring. This is our new home, and you get your own room. Let us go inside.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.dom",
+            "ru.komnata",
+            "ru.gruzovik"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 0
           }
         }
       ]

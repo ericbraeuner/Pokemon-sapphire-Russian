@@ -36,6 +36,105 @@
         "navigation",
         "sign"
       ]
+    },
+    {
+      "id": "littleroot.player_house.mom.move.002",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "PlayersHouse_1F_EventScript_EnterHouseMovingIn",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_MoversPokemonGoSetClock",
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 2
+      },
+      "tags": [
+        "tutorial",
+        "family",
+        "moving"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.mom.room_reminder.003",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "PlayersHouse_1F_EventScript_MomGoSeeRoom",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+        "base_text_symbol": "PlayersHouse_1F_Text_ArentYouInterestedInRoom",
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 3
+      },
+      "tags": [
+        "tutorial",
+        "family",
+        "navigation"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.clock.004",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_1B69EB",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+        "base_text_symbol": "PlayersHouse_2F_Text_ClockIsStopped",
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 4
+      },
+      "tags": [
+        "tutorial",
+        "clock"
+      ]
+    },
+    {
+      "id": "littleroot.player_house.mom.room.005",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/scripts/players_house.inc",
+        "symbol": "LittlerootTown_BrendansHouse_2F_EventScript_1B6A31",
+        "base_text_path": "data/maps/LittlerootTown_BrendansHouse_2F/text.inc",
+        "base_text_symbol": "PlayersHouse_2F_Text_HowDoYouLikeYourRoom",
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 5
+      },
+      "tags": [
+        "tutorial",
+        "family",
+        "room"
+      ]
+    },
+    {
+      "id": "littleroot.arrival.mom.006",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LittlerootTown/scripts.inc",
+        "symbol": "LittlerootTown_EventScript_GoInsideWithMom",
+        "base_text_path": "data/maps/LittlerootTown/text.inc",
+        "base_text_symbol": "LittlerootTown_Text_OurNewHomeLetsGoInside",
+        "note": "Connected to the existing learner opening scene; story movement and progression remain unchanged."
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 0
+      },
+      "tags": [
+        "tutorial",
+        "family",
+        "arrival"
+      ]
     }
   ]
 }

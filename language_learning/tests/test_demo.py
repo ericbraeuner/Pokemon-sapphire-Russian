@@ -190,6 +190,42 @@ class LessonTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "no dialogue variant"):
             adaptive_selector.select(pack, before_arrival, dialogue_id)
 
+    def test_adaptive_opening_pack_covers_connected_early_scenes(self):
+        catalogue = validate.load(
+            demo.ROOT / "language_learning/integration/dialogue_catalog.json"
+        )
+        connected = {
+            entry["id"] for entry in catalogue["dialogues"]
+            if entry["source"]["kind"] == "script_hook"
+        }
+        self.assertEqual(6, len(connected))
+        for tag in ("ru", "de"):
+            pack = validate.load(
+                demo.ROOT / f"language_learning/language_packs/{tag}/pack.json"
+            )
+            dialogues = {entry["dialogue_id"]: entry for entry in pack["dialogues"]}
+            self.assertEqual(connected, set(dialogues))
+            for dialogue in dialogues.values():
+                difficulties = [variant["internal_difficulty"]
+                                for variant in dialogue["variants"]]
+                if len(dialogue["variants"]) == 3:
+                    self.assertEqual([5, 20, 40], difficulties)
+                    self.assertEqual(["A1", "A2", "B1"],
+                                     [variant["cefr"] for variant in dialogue["variants"]])
+
+    def test_adaptive_selector_reaches_natural_room_dialogue(self):
+        pack = validate.load(demo.ROOT / "language_learning/language_packs/de/pack.json")
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        profile["selected_language"] = "de"
+        profile["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
+        profile["game_progress"] = {"chapter": "arrival", "sequence": 5, "flags": []}
+        selected = adaptive_selector.select(
+            pack, profile, "littleroot.player_house.mom.room.005"
+        )
+        self.assertEqual("natural", selected["variant_id"])
+        self.assertEqual("B1", selected["cefr"])
+        self.assertIn("Schreibtisch", selected["text"])
+
     def test_dashboard_is_localized_and_escapes_profile_content(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
         profile["profile_id"] = '<script>alert("x")</script>'

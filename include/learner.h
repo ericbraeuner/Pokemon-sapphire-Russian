@@ -1148,6 +1148,7 @@ const u8 *Learner_GetFieldDictionary(const u8 *text);
 void Learner_BeginFieldDictionaryExpansion(u8 *dest, const u8 *source);
 void Learner_EndFieldDictionaryExpansion(u8 *dest);
 void Learner_RecordDictionaryRequest(void);
+void Learner_RecordFieldExposure(void);
 const u8 *Learner_MapName(u16 section, const u8 *fallback);
 const u8 *Learner_TrainerEyeDescription(u16 trainerEyesId, const u8 *fallback);
 const u8 *Learner_NatureName(u8 nature, const u8 *fallback);

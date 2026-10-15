@@ -1279,6 +1279,7 @@ bool8 ScrCmd_message(struct ScriptContext *ctx)
     sLearnerFieldDictionaryWaitState = 0;
     if (sLearnerFieldDictionaryMessage != NULL)
     {
+        Learner_RecordFieldExposure();
         VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
         VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
     }

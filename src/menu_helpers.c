@@ -211,6 +211,7 @@ void DisplayItemMessageOnField(u8 taskId, const u8 *str, TaskFunc callback, u16 
     sLearnerItemDictionaryState = 0;
     if (sLearnerItemDictionary != NULL)
     {
+        Learner_RecordFieldExposure();
         VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
         VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
     }

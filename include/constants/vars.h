@@ -176,9 +176,9 @@
 #define VAR_LEARNER_MODE                  0x40F2 // 1 guided, 2 immersion
 #define VAR_LEARNER_DICTIONARY_CONTEXT    0x40F3 // 0 none, otherwise generated dialogue ID
 #define VAR_LEARNER_DICTIONARY_REQUEST    0x40F4 // R-button request while authored dialogue is open
-#define VAR_LEARNER_EXPOSURE_COUNT        0x40F5 // Saturating authored target-language pages shown
+#define VAR_LEARNER_EXPOSURE_COUNT        0x40F5 // Saturating curated target-language messages shown
 #define VAR_LEARNER_DICTIONARY_COUNT      0x40F6 // Saturating menu and R-button dictionary opens
-#define VAR_LEARNER_LAST_EXPOSURE_CONTEXT 0x40F7 // Most recent authored dialogue ID counted
+#define VAR_LEARNER_LAST_EXPOSURE_CONTEXT 0x40F7 // Most recent authored/field context counted
 #define VAR_LEARNER_LAST_DICTIONARY_CONTEXT 0x40F8 // Most recent authored/field dictionary context
 #define VARS_END                          0x40FF
 

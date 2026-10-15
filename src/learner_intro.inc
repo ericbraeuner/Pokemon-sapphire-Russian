@@ -138,6 +138,16 @@ void Learner_RecordDictionaryRequest(void)
         VarSet(VAR_LEARNER_DICTIONARY_COUNT, count + 1);
 }
 
+void Learner_RecordFieldExposure(void)
+{
+    u16 count = VarGet(VAR_LEARNER_EXPOSURE_COUNT);
+    if (sLearnerFieldDictionaryContext == 0)
+        return;
+    VarSet(VAR_LEARNER_LAST_EXPOSURE_CONTEXT, sLearnerFieldDictionaryContext);
+    if (count != 0xFFFF)
+        VarSet(VAR_LEARNER_EXPOSURE_COUNT, count + 1);
+}
+
 const u8 *Learner_MapName(u16 section, const u8 *fallback)
 {
     u8 language = Learner_GetLanguage();

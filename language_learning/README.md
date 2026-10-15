@@ -92,8 +92,9 @@ existing entries when adding vocabulary.
 to stable, language-specific vocabulary records. It can print the live catalogue
 or write it with `--output`; generated copies remain build artifacts rather than
 committed duplicate data.
-Each authored target-language page and each dictionary opening increments its
-own saved counter. Both stop at 65,535 instead of wrapping to zero. An emulator
+Each authored target-language page, curated field or item message, and dictionary
+opening increments its own saved counter. Replaying a message after dictionary
+help does not count it twice. Both counters stop at 65,535 instead of wrapping to zero. An emulator
 wrapper can export those values as a small JSON snapshot; `tools/profile_sync.py`
 validates and atomically merges it into the matching external profile, including
 language, CEFR level, totals, dictionary-use rate, and the most recent dialogue

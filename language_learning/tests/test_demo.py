@@ -24,6 +24,7 @@ import context_catalog
 import review_queue
 import adaptive_selector
 import learner_dashboard
+import session_watcher
 
 
 class LessonTests(unittest.TestCase):
@@ -205,6 +206,44 @@ class LessonTests(unittest.TestCase):
         german["selected_language"] = "de"
         german["activity_vocabulary"] = {}
         self.assertIn("Sprachfortschritt", learner_dashboard.render(german))
+
+    def test_session_watcher_only_syncs_changed_snapshots(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        snapshot = {
+            "schema_version": 1, "source_id": "watcher-test-save",
+            "selected_language": "de", "cefr": "B2",
+            "exposure_count": 1, "dictionary_count": 1,
+            "last_exposure_context": 1, "last_dictionary_context": 1,
+            "session_id": "watcher-test-session",
+            "events": [{
+                "sequence": 1, "kind": "exposure", "context": 1, "delta": 1,
+                "captured_at": "2026-10-14T12:00:00Z",
+            }],
+            "captured_at": "2026-10-14T12:00:01Z",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            profile_path = Path(directory) / "profile.json"
+            snapshot_path = Path(directory) / "snapshot.json"
+            queue_path = Path(directory) / "queue.json"
+            dashboard_path = Path(directory) / "dashboard.html"
+            profile_path.write_text(json.dumps(profile), encoding="utf-8")
+            snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
+            first, changed = session_watcher.sync_changed(
+                profile_path, snapshot_path, None,
+                review_output=queue_path, dashboard_output=dashboard_path,
+            )
+            second, repeated = session_watcher.sync_changed(
+                profile_path, snapshot_path, first,
+                review_output=queue_path, dashboard_output=dashboard_path,
+            )
+            saved = json.loads(profile_path.read_text(encoding="utf-8"))
+            dashboard = dashboard_path.read_text(encoding="utf-8")
+        self.assertTrue(changed)
+        self.assertFalse(repeated)
+        self.assertEqual(first, second)
+        self.assertEqual("de", saved["selected_language"])
+        self.assertEqual("B2", saved["current_learner_difficulty"]["cefr"])
+        self.assertIn('<html lang="de">', dashboard)
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()

@@ -27,6 +27,11 @@ start a new disposable save.
   language.
 - Save, close the emulator, reopen the ROM and continue. Verify language, level and
   help mode remain selected.
+- Open the START menu and select Learning (`Учёба` / `Lernen`). Confirm the
+  language, CEFR level, introductory-help setting, exposure count, and dictionary
+  count. Use up/down and left/right to change each of the first three rows;
+  confirm the page redraws in the new language, then save and continue to verify
+  the choices persist. The two counters must not be editable.
 
 ## Dialogue dictionary shortcut
 

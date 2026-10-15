@@ -134,7 +134,10 @@ The learner build replaces the redundant `Exit` row in the ordinary START menu
 (START or B still closes it) with a localized Learning page. That page reads the
 saved language, CEFR level, introductory-help choice, exposure count, and
 dictionary count directly from the reserved variables. It does not modify those
-settings or add save data.
+settings until the player uses left/right on the first three rows. Language,
+CEFR level, and introductory help can then be changed; the two activity counters
+remain read-only. Changes use the same reserved variables and persist with the
+next ordinary in-game save. No save structure is added.
 Imported events also update a conservative mastery estimate and next-review date
 for every vocabulary record in the context. Dictionary use shortens the review
 interval; repeated exposure gradually lengthens it up to 30 days. This activity

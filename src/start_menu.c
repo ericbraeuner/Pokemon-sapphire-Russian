@@ -73,6 +73,9 @@ u8 (*gMenuCallback)(void);
 EWRAM_DATA static u8 sStartMenuCursorPos = 0;
 EWRAM_DATA static u8 sNumStartMenuActions = 0;
 EWRAM_DATA static u8 sCurrentStartMenuActions[10] = {0};
+#if LEARNER_DEMO
+EWRAM_DATA static u8 sLearnerProgressCursor = 0;
+#endif
 
 //Text strings
 extern u8 gSaveText_PlayerSavedTheGame[];
@@ -94,6 +97,7 @@ static u8 StartMenu_PlayerLinkCallback(void);
 #if LEARNER_DEMO
 static u8 StartMenu_LearnerProgressCallback(void);
 static u8 StartMenu_LearnerProgressInput(void);
+static void DrawLearnerProgressPage(void);
 #endif
 
 static const struct MenuAction sStartMenuItems[] =
@@ -607,12 +611,11 @@ static void PrintLearnerProgressNumber(const u8 *label, u16 value, u8 top)
     PrintLearnerProgressValue(label, gStringVar1, top);
 }
 
-static u8 StartMenu_LearnerProgressCallback(void)
+static void DrawLearnerProgressPage(void)
 {
     u8 language = Learner_GetLanguage();
     u16 level = VarGet(VAR_LEARNER_LEVEL);
 
-    Menu_DestroyCursor();
     Menu_EraseScreen();
     Menu_DrawStdWindowFrame(0, 0, 29, 19);
     Menu_PrintText(LEARNER_UI(language, ProgressTitle), 2, 1);
@@ -629,16 +632,62 @@ static u8 StartMenu_LearnerProgressCallback(void)
                                VarGet(VAR_LEARNER_EXPOSURE_COUNT), 10);
     PrintLearnerProgressNumber(LEARNER_UI(language, DictionaryLabel),
                                VarGet(VAR_LEARNER_DICTIONARY_COUNT), 12);
-    Menu_PrintText(LEARNER_UI(language, BackHint), 2, 16);
+    Menu_PrintText(LEARNER_UI(language, ChangeHint), 2, 15);
+    Menu_PrintText(LEARNER_UI(language, BackHint), 2, 17);
+    sLearnerProgressCursor = InitMenu(0, 1, 4, 3, sLearnerProgressCursor, 15);
+}
+
+static u8 StartMenu_LearnerProgressCallback(void)
+{
+    Menu_DestroyCursor();
+    DrawLearnerProgressPage();
     gMenuCallback = StartMenu_LearnerProgressInput;
     return 0;
 }
 
 static u8 StartMenu_LearnerProgressInput(void)
 {
+    if (JOY_NEW(DPAD_UP))
+    {
+        PlaySE(SE_SELECT);
+        sLearnerProgressCursor = Menu_MoveCursor(-1);
+    }
+    else if (JOY_NEW(DPAD_DOWN))
+    {
+        PlaySE(SE_SELECT);
+        sLearnerProgressCursor = Menu_MoveCursor(1);
+    }
+    else if (JOY_NEW(DPAD_LEFT | DPAD_RIGHT))
+    {
+        u16 value;
+
+        PlaySE(SE_SELECT);
+        switch (sLearnerProgressCursor)
+        {
+        case 0:
+            VarSet(VAR_LEARNER_LANGUAGE, Learner_GetLanguage() == 1 ? 2 : 1);
+            break;
+        case 1:
+            value = VarGet(VAR_LEARNER_LEVEL);
+            if (value < 1 || value > 6)
+                value = 1;
+            else if (JOY_NEW(DPAD_RIGHT))
+                value = value == 6 ? 1 : value + 1;
+            else
+                value = value == 1 ? 6 : value - 1;
+            VarSet(VAR_LEARNER_LEVEL, value);
+            break;
+        case 2:
+            VarSet(VAR_LEARNER_MODE, VarGet(VAR_LEARNER_MODE) == 1 ? 2 : 1);
+            break;
+        }
+        Menu_DestroyCursor();
+        DrawLearnerProgressPage();
+    }
     if (JOY_NEW(A_BUTTON | B_BUTTON))
     {
         PlaySE(SE_SELECT);
+        Menu_DestroyCursor();
         Menu_EraseScreen();
         InitStartMenu();
         gMenuCallback = StartMenu_InputProcessCallback;

@@ -1222,12 +1222,18 @@ class LessonTests(unittest.TestCase):
         self.assertIn("VAR_LEARNER_DICTIONARY_COUNT", source)
         self.assertIn("VarGet(VAR_LEARNER_LEVEL)", source)
         self.assertIn("VarGet(VAR_LEARNER_MODE) == 1", source)
+        self.assertIn("JOY_NEW(DPAD_LEFT | DPAD_RIGHT)", source)
+        self.assertIn("VarSet(VAR_LEARNER_LANGUAGE", source)
+        self.assertIn("VarSet(VAR_LEARNER_LEVEL", source)
+        self.assertIn("VarSet(VAR_LEARNER_MODE", source)
+        self.assertIn("sLearnerProgressCursor = Menu_MoveCursor", source)
         self.assertIn("#else\n    AddStartMenuAction(MENU_ACTION_EXIT);", source)
         learner = source.split("#if LEARNER_DEMO", 1)[1]
         self.assertIn("Menu_EraseScreen();", learner)
         ui_data = validate.load(demo.ROOT / "language_learning/ui.json")
         for key in ("LearningMenu", "ProgressTitle", "LanguageLabel", "LanguageName",
-                    "ExposureLabel", "DictionaryLabel", "IntroHelpLabel", "BackHint"):
+                    "ExposureLabel", "DictionaryLabel", "IntroHelpLabel", "BackHint",
+                    "ChangeHint"):
             self.assertEqual({"ru", "de"}, set(ui_data[key]))
 
     def test_pc_startup_and_storage_primary_menu_use_selected_language(self):

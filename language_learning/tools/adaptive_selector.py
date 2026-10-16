@@ -11,6 +11,57 @@ from pathlib import Path
 from typing import Any
 
 
+def _combined_states(pack: dict[str, Any], profile: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    """Resolve context activity back to stable pack vocabulary IDs by lemma."""
+    states = {key: dict(value) for key, value in profile.get("vocabulary", {}).items()}
+    for state in states.values():
+        state.setdefault("dictionary_requests", state.get("hint_requests", 0))
+    activity_by_lemma: dict[str, list[dict[str, Any]]] = {}
+    for state in profile.get("activity_vocabulary", {}).values():
+        lemma = state.get("lemma")
+        if isinstance(lemma, str):
+            activity_by_lemma.setdefault(lemma.casefold(), []).append(state)
+    for word in pack["vocabulary"]:
+        matches = activity_by_lemma.get(word["lemma"].casefold(), [])
+        if not matches:
+            continue
+        direct = states.get(word["id"], {})
+        direct_exposures = direct.get("exposure_count", 0)
+        exposures = direct_exposures + sum(item.get("exposure_count", 0) for item in matches)
+        requests = (direct.get("dictionary_requests", direct.get("hint_requests", 0))
+                    + sum(item.get("dictionary_requests", 0) for item in matches))
+        weighted_mastery = direct.get("mastery", 0.0) * direct_exposures
+        weighted_mastery += sum(item.get("mastery", 0.0) * item.get("exposure_count", 0)
+                                for item in matches)
+        reviews = [value for value in [direct.get("next_review"),
+                   *(item.get("next_review") for item in matches)] if value]
+        states[word["id"]] = {
+            "exposure_count": exposures,
+            "dictionary_requests": requests,
+            "mastery": round(weighted_mastery / exposures, 4) if exposures else 0.0,
+            "next_review": min(reviews, default=None),
+        }
+    return states
+
+
+def _effective_difficulty(profile: dict[str, Any], variants: list[dict[str, Any]],
+                          states: dict[str, dict[str, Any]]) -> tuple[int, str]:
+    saved = profile["current_learner_difficulty"]["internal"]
+    if len({variant["id"] for variant in variants}) < 2:
+        return saved, "saved_level"
+    vocabulary_ids = {word for variant in variants for word in variant["vocabulary_ids"]}
+    exposures = sum(states.get(word, {}).get("exposure_count", 0) for word in vocabulary_ids)
+    requests = sum(states.get(word, {}).get("dictionary_requests", 0) for word in vocabulary_ids)
+    if exposures >= 3 and requests / exposures >= 0.5:
+        return min(saved, 5), "frequent_dictionary_help"
+    if exposures >= 3 and requests / exposures >= 0.25:
+        return min(saved, 20), "some_dictionary_help"
+    learning = profile.get("rom_learning", {})
+    if learning.get("exposure_count", 0) >= 10 and learning.get("dictionary_rate", 0) >= 0.5:
+        return min(saved, 20), "high_overall_dictionary_use"
+    return saved, "saved_level"
+
+
 def _time(value: str | None) -> datetime | None:
     if value is None:
         return None
@@ -38,8 +89,9 @@ def select(pack: dict[str, Any], profile: dict[str, Any], dialogue_id: str,
     if dialogue is None:
         raise ValueError(f"dialogue not found in language pack: {dialogue_id}")
     now = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
-    states = profile.get("vocabulary", {})
-    difficulty = profile["current_learner_difficulty"]["internal"]
+    states = _combined_states(pack, profile)
+    saved_difficulty = profile["current_learner_difficulty"]["internal"]
+    difficulty, adaptation_reason = _effective_difficulty(profile, dialogue["variants"], states)
     candidates = []
     for variant in dialogue["variants"]:
         if variant["internal_difficulty"] > difficulty or not _progress_allows(profile, variant):
@@ -68,6 +120,9 @@ def select(pack: dict[str, Any], profile: dict[str, Any], dialogue_id: str,
         "selected_language": language,
         "cefr": variant["cefr"],
         "internal_difficulty": difficulty_score,
+        "base_internal_difficulty": saved_difficulty,
+        "effective_internal_difficulty": difficulty,
+        "adaptation_reason": adaptation_reason,
         "due_vocabulary_count": due_count,
         "average_known_mastery": mastery,
         "text": variant["text"],

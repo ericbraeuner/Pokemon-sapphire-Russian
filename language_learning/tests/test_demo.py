@@ -234,7 +234,7 @@ class LessonTests(unittest.TestCase):
                             for item in plan["selections"]))
         self.assertEqual(set(range(1, 91)), {item["context_id"] for item in plan["selections"]})
         runtime = adaptive_plan.render_lua(plan)
-        self.assertIn("[1] = 3,", runtime)
+        self.assertIn("[1] = 2,", runtime)
 
     def test_adaptive_selector_respects_language_level_and_progress(self):
         pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
@@ -245,7 +245,8 @@ class LessonTests(unittest.TestCase):
         advanced = copy.deepcopy(profile)
         advanced["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
         expanded = adaptive_selector.select(pack, advanced, dialogue_id)
-        self.assertEqual("natural", expanded["variant_id"])
+        self.assertEqual("connected", expanded["variant_id"])
+        self.assertEqual("some_dictionary_help", expanded["adaptation_reason"])
         wrong_language = copy.deepcopy(profile)
         wrong_language["selected_language"] = "de"
         with self.assertRaisesRegex(ValueError, "does not match"):
@@ -254,6 +255,47 @@ class LessonTests(unittest.TestCase):
         before_arrival["game_progress"]["sequence"] = 0
         with self.assertRaisesRegex(ValueError, "no dialogue variant"):
             adaptive_selector.select(pack, before_arrival, dialogue_id)
+
+    def test_adaptive_selector_uses_context_activity_to_reduce_support_level(self):
+        pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        profile["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
+        profile["vocabulary"] = {}
+        profile["activity_vocabulary"] = {
+            "opening.Welcome.ru.1": {
+                "lemma": "привет", "english_gloss": "hello", "mastery": 0.2,
+                "exposure_count": 4, "dictionary_requests": 3,
+                "last_seen": "2026-10-15T12:00:00Z", "next_review": "2026-10-15T12:00:00Z",
+                "srs": {"state": "learning", "interval_days": 1, "ease": 2.3, "lapses": 0},
+            }
+        }
+        selected = adaptive_selector.select(
+            pack, profile, "littleroot.player_house.mom.welcome.001",
+            now=review_queue._timestamp("2026-10-16T12:00:00Z"),
+        )
+        self.assertEqual("simple", selected["variant_id"])
+        self.assertEqual(40, selected["base_internal_difficulty"])
+        self.assertEqual(5, selected["effective_internal_difficulty"])
+        self.assertEqual("frequent_dictionary_help", selected["adaptation_reason"])
+        self.assertEqual(1, selected["due_vocabulary_count"])
+        self.assertEqual(0.2, selected["average_known_mastery"])
+
+    def test_adaptive_selector_uses_overall_help_rate_conservatively(self):
+        pack = validate.load(demo.ROOT / "language_learning/language_packs/de/pack.json")
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        profile["selected_language"] = "de"
+        profile["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
+        profile["vocabulary"] = {}
+        profile["activity_vocabulary"] = {}
+        profile["rom_learning"]["exposure_count"] = 20
+        profile["rom_learning"]["dictionary_count"] = 12
+        profile["rom_learning"]["dictionary_rate"] = 0.6
+        selected = adaptive_selector.select(
+            pack, profile, "littleroot.player_house.mom.welcome.001"
+        )
+        self.assertEqual("connected", selected["variant_id"])
+        self.assertEqual(20, selected["effective_internal_difficulty"])
+        self.assertEqual("high_overall_dictionary_use", selected["adaptation_reason"])
 
     def test_adaptive_opening_pack_covers_connected_early_scenes(self):
         catalogue = validate.load(

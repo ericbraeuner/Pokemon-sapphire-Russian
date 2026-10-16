@@ -42,6 +42,12 @@ rejects variants above the selected internal difficulty or ahead of game
 progress, enforces each variant's new-word budget, and selects the hardest
 eligible variant. Due vocabulary and known-word mastery break ties without ever
 changing the learner's selected CEFR level.
+Context-specific gameplay records are matched back to stable pack vocabulary by
+their lemma. After at least three relevant exposures, repeated dictionary use
+can temporarily select A2 or A1 wording below the saved level. A high overall
+help rate can conservatively select A2 after ten exposures. The saved difficulty
+remains the ceiling and is never changed by this adjustment. Every selection
+records both difficulty values and its reason so a wrapper can explain the choice.
 
 The adaptive packs now cover all ninety authored early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the

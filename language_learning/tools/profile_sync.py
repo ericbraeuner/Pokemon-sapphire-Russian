@@ -181,7 +181,8 @@ def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = 
                 review_output: Path | None = None, review_limit: int = 20,
                 include_upcoming: bool = False,
                 dashboard_output: Path | None = None,
-                variant_output: Path | None = None) -> dict[str, Any]:
+                variant_output: Path | None = None,
+                runtime_output: Path | None = None) -> dict[str, Any]:
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
     updated = merge(profile, snapshot, allow_reset=allow_reset)
@@ -195,7 +196,7 @@ def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = 
     dashboard = (learner_dashboard.render(updated, now=captured_at, limit=review_limit)
                  if dashboard_output else None)
     plan = None
-    if variant_output:
+    if variant_output or runtime_output:
         tag = updated["selected_language"]
         pack = json.loads((Path(__file__).resolve().parents[1] / "language_packs" / tag / "pack.json").read_text(encoding="utf-8"))
         catalogue = json.loads(
@@ -209,6 +210,8 @@ def synchronize(profile_path: Path, snapshot_path: Path, *, allow_reset: bool = 
         _write_text(dashboard_output, dashboard)
     if variant_output and plan is not None:
         _write_json(variant_output, plan)
+    if runtime_output and plan is not None:
+        _write_text(runtime_output, adaptive_plan.render_lua(plan))
     return updated
 
 
@@ -230,12 +233,14 @@ def main() -> int:
                         help="also write a localized self-contained progress page")
     parser.add_argument("--variant-output", type=Path,
                         help="also write adaptive selections for unlocked dialogues")
+    parser.add_argument("--runtime-output", type=Path,
+                        help="also write the mGBA runtime selection table")
     args = parser.parse_args()
     synchronize(
         args.profile, args.snapshot, allow_reset=args.allow_reset,
         review_output=args.review_output, review_limit=args.review_limit,
         include_upcoming=args.include_upcoming, dashboard_output=args.dashboard_output,
-        variant_output=args.variant_output,
+        variant_output=args.variant_output, runtime_output=args.runtime_output,
     )
     return 0
 

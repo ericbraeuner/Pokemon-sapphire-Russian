@@ -180,6 +180,7 @@
 #define VAR_LEARNER_DICTIONARY_COUNT      0x40F6 // Saturating menu and R-button dictionary opens
 #define VAR_LEARNER_LAST_EXPOSURE_CONTEXT 0x40F7 // Most recent authored/field context counted
 #define VAR_LEARNER_LAST_DICTIONARY_CONTEXT 0x40F8 // Most recent authored/field dictionary context
+#define VAR_LEARNER_ADAPTIVE_VARIANT       0x40F9 // 0 saved-level fallback, 1 A1, 2 A2, 3 natural
 #define VARS_END                          0x40FF
 
 #define SPECIAL_VARS_START 0x8000

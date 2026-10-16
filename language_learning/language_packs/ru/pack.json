@@ -953,30 +953,50 @@
       "variants": [
         {
           "id": "simple",
-          "text": "Привет!",
-          "english_gloss": "Hello!",
+          "text": "Мама: Привет! Это наш новый дом. Здесь хорошо!",
+          "english_gloss": "Welcome home! Our new house is nice, isn't it?",
           "cefr": "A1",
           "internal_difficulty": 5,
           "vocabulary_ids": [
-            "ru.privet"
+            "ru.privet",
+            "ru.dom",
+            "ru.dobro_pozhalovat"
           ],
           "grammar_note_ids": [],
-          "new_vocabulary_budget": 1,
+          "new_vocabulary_budget": 3,
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 1
           }
         },
         {
-          "id": "expanded",
-          "text": "Привет! Добро пожаловать домой!",
-          "english_gloss": "Hello! Welcome home!",
-          "cefr": "A1",
-          "internal_difficulty": 12,
+          "id": "connected",
+          "text": "Мама: Добро пожаловать домой! Тебе нравится наш новый дом?",
+          "english_gloss": "Welcome home! Our new house is nice, isn't it?",
+          "cefr": "A2",
+          "internal_difficulty": 20,
           "vocabulary_ids": [
             "ru.privet",
-            "ru.dobro_pozhalovat",
-            "ru.dom"
+            "ru.dom",
+            "ru.dobro_pozhalovat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 3,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 1
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Мама: Ну как тебе наш новый дом? Здесь ведь тоже очень уютно, правда?",
+          "english_gloss": "Welcome home! Our new house is nice, isn't it?",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.privet",
+            "ru.dom",
+            "ru.dobro_pozhalovat"
           ],
           "grammar_note_ids": [],
           "new_vocabulary_budget": 3,

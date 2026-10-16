@@ -1041,31 +1041,53 @@
       "variants": [
         {
           "id": "simple",
-          "text": "Hallo!",
-          "english_gloss": "Hello!",
+          "text": "Mama: Hallo! Das ist unser neues Haus. Hier ist es schön!",
+          "english_gloss": "Welcome home! Our new house is nice, isn't it?",
           "cefr": "A1",
           "internal_difficulty": 5,
           "vocabulary_ids": [
-            "de.hallo"
+            "de.hallo",
+            "de.haus",
+            "de.willkommen",
+            "de.zuhause"
           ],
           "grammar_note_ids": [],
-          "new_vocabulary_budget": 1,
+          "new_vocabulary_budget": 4,
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 1
           }
         },
         {
-          "id": "expanded",
-          "text": "Hallo! Willkommen zu Hause!",
-          "english_gloss": "Hello! Welcome home!",
-          "cefr": "A1",
-          "internal_difficulty": 11,
+          "id": "connected",
+          "text": "Mama: Willkommen zu Hause! Gefällt dir unser neues Haus?",
+          "english_gloss": "Welcome home! Our new house is nice, isn't it?",
+          "cefr": "A2",
+          "internal_difficulty": 20,
           "vocabulary_ids": [
             "de.hallo",
+            "de.haus",
             "de.willkommen",
-            "de.zuhause",
-            "de.haus"
+            "de.zuhause"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 4,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 1
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Mama: Na, wie gefällt dir unser neues Haus? Hier ist es doch auch richtig gemütlich, oder?",
+          "english_gloss": "Welcome home! Our new house is nice, isn't it?",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.hallo",
+            "de.haus",
+            "de.willkommen",
+            "de.zuhause"
           ],
           "grammar_note_ids": [],
           "new_vocabulary_budget": 4,

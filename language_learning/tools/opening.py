@@ -85,13 +85,17 @@ def generate(russian, latin, glyphs):
         scripts.append(f'{root}::\n\tcall LearnerOpening_EnsureSettings\n'
                        f'\tsetvar VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}\n'
                        f'\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n'
+                       f'\tsetvar VAR_LEARNER_ADAPTIVE_VARIANT, 0\n\tdelay 1\n'
                        f'\tcompare VAR_LEARNER_LANGUAGE, 1\n\tgoto_if_eq {root}_ru\n\tgoto {root}_de\n')
         dictionary_dispatch.append(
             f'\tcompare VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}\n'
             f'\tgoto_if_eq {root}_Dictionary\n')
         for tag, mapping, font in [('ru', russian, 0), ('de', latin, 3)]:
             base = f'{root}_{tag}'
-            scripts.append(f'{base}:\n\tcompare VAR_LEARNER_LEVEL, 1\n\tgoto_if_eq {base}_A1\n'
+            scripts.append(f'{base}:\n\tcompare VAR_LEARNER_ADAPTIVE_VARIANT, 1\n\tgoto_if_eq {base}_A1\n'
+                           f'\tcompare VAR_LEARNER_ADAPTIVE_VARIANT, 2\n\tgoto_if_eq {base}_A2\n'
+                           f'\tcompare VAR_LEARNER_ADAPTIVE_VARIANT, 3\n\tgoto_if_eq {base}_natural\n'
+                           f'\tcompare VAR_LEARNER_LEVEL, 1\n\tgoto_if_eq {base}_A1\n'
                            f'\tcompare VAR_LEARNER_LEVEL, 2\n\tgoto_if_eq {base}_A2\n\tgoto {base}_natural\n')
             for band in ('A1', 'A2', 'natural'):
                 label = f'{base}_{band}'

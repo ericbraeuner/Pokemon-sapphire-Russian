@@ -14,6 +14,7 @@ import adaptive_selector
 
 
 ROOT = Path(__file__).resolve().parents[1]
+VARIANT_CODES = {"simple": 1, "connected": 2, "natural": 3, "shared": 3}
 
 
 def _timestamp(value: str | None) -> datetime:
@@ -31,6 +32,12 @@ def build(pack: dict[str, Any], profile: dict[str, Any], catalogue: dict[str, An
     available = {item["dialogue_id"] for item in pack["dialogues"]}
     selections = []
     eligible = 0
+    context_ids = {
+        entry["id"]: index
+        for index, entry in enumerate(
+            json.loads((ROOT / "opening.json").read_text(encoding="utf-8"))["dialogues"], 1
+        )
+    }
     for entry in catalogue["dialogues"]:
         dialogue_id = entry["id"]
         if dialogue_id not in available:
@@ -50,6 +57,7 @@ def build(pack: dict[str, Any], profile: dict[str, Any], catalogue: dict[str, An
                 raise
             continue
         selection["source_symbol"] = entry["source"]["base_text_symbol"]
+        selection["context_id"] = context_ids[entry["source"]["authored_id"]]
         selections.append(selection)
     generated_at = now.isoformat().replace("+00:00", "Z")
     return {
@@ -63,6 +71,17 @@ def build(pack: dict[str, Any], profile: dict[str, Any], catalogue: dict[str, An
         "selection_count": len(selections),
         "selections": selections,
     }
+
+
+def render_lua(plan: dict[str, Any]) -> str:
+    """Render the small, data-only table consumed by the mGBA runtime loader."""
+    rows = []
+    for selection in sorted(plan["selections"], key=lambda item: item["context_id"]):
+        code = VARIANT_CODES.get(selection["variant_id"])
+        if code is None:
+            raise ValueError(f"unsupported runtime variant: {selection['variant_id']}")
+        rows.append(f"  [{selection['context_id']}] = {code},")
+    return "return {\n  schema_version = 1,\n  selections = {\n" + "\n".join(rows) + "\n  }\n}\n"
 
 
 def main() -> int:

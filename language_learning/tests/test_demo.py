@@ -130,6 +130,15 @@ class LessonTests(unittest.TestCase):
         self.assertIn("VAR_LEARNER_LAST_EXPOSURE_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
         self.assertIn("VAR_LEARNER_LAST_DICTIONARY_CONTEXT, VAR_LEARNER_DICTIONARY_CONTEXT", opening_source)
 
+    def test_mgba_adaptive_loader_only_writes_reserved_override(self):
+        source = (demo.ROOT / "language_learning/mgba/apply_adaptive_plan.lua").read_text(encoding="utf-8")
+        self.assertIn("local VAR_CONTEXT = 0x40F3", source)
+        self.assertIn("local VAR_ADAPTIVE_VARIANT = 0x40F9", source)
+        self.assertIn("loadfile(PLAN_PATH)", source)
+        self.assertIn('callbacks:add("frame", poll)', source)
+        self.assertEqual(1, source.count("emu:write16("))
+        self.assertIn("emu:write16(address(VAR_ADAPTIVE_VARIANT), value)", source)
+
     def test_review_queue_prioritizes_due_context_vocabulary(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
         words = context_catalog.load()[1]["words"]["ru"][:2]
@@ -177,16 +186,19 @@ class LessonTests(unittest.TestCase):
             queue_path = Path(directory) / "review-queue.json"
             dashboard_path = Path(directory) / "dashboard.html"
             variant_path = Path(directory) / "adaptive-plan.json"
+            runtime_path = Path(directory) / "adaptive-runtime.lua"
             profile_path.write_text(json.dumps(profile), encoding="utf-8")
             snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
             updated = profile_sync.synchronize(
                 profile_path, snapshot_path, review_output=queue_path,
                 dashboard_output=dashboard_path, variant_output=variant_path,
+                runtime_output=runtime_path,
             )
             saved = json.loads(profile_path.read_text(encoding="utf-8"))
             queue = json.loads(queue_path.read_text(encoding="utf-8"))
             dashboard = dashboard_path.read_text(encoding="utf-8")
             plan = json.loads(variant_path.read_text(encoding="utf-8"))
+            runtime = runtime_path.read_text(encoding="utf-8")
         self.assertEqual(updated, saved)
         self.assertEqual("A2", queue["cefr"])
         self.assertGreater(queue["due_count"], 0)
@@ -199,6 +211,9 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(plan["selection_count"], len(plan["selections"]))
         self.assertGreater(plan["selection_count"], 0)
         self.assertTrue(all(item["source_symbol"] for item in plan["selections"]))
+        self.assertTrue(all(item["context_id"] for item in plan["selections"]))
+        self.assertIn("return {", runtime)
+        self.assertIn("selections = {", runtime)
 
     def test_adaptive_plan_selects_every_unlocked_authored_scene(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
@@ -217,6 +232,9 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(90, len({item["dialogue_id"] for item in plan["selections"]}))
         self.assertTrue(all(item["selected_language"] == "ru"
                             for item in plan["selections"]))
+        self.assertEqual(set(range(1, 91)), {item["context_id"] for item in plan["selections"]})
+        runtime = adaptive_plan.render_lua(plan)
+        self.assertIn("[1] = 3,", runtime)
 
     def test_adaptive_selector_respects_language_level_and_progress(self):
         pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
@@ -227,7 +245,7 @@ class LessonTests(unittest.TestCase):
         advanced = copy.deepcopy(profile)
         advanced["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
         expanded = adaptive_selector.select(pack, advanced, dialogue_id)
-        self.assertEqual("expanded", expanded["variant_id"])
+        self.assertEqual("natural", expanded["variant_id"])
         wrong_language = copy.deepcopy(profile)
         wrong_language["selected_language"] = "de"
         with self.assertRaisesRegex(ValueError, "does not match"):
@@ -397,21 +415,25 @@ class LessonTests(unittest.TestCase):
             queue_path = Path(directory) / "queue.json"
             dashboard_path = Path(directory) / "dashboard.html"
             variant_path = Path(directory) / "variants.json"
+            runtime_path = Path(directory) / "adaptive-runtime.lua"
             profile_path.write_text(json.dumps(profile), encoding="utf-8")
             snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
             first, changed = session_watcher.sync_changed(
                 profile_path, snapshot_path, None,
                 review_output=queue_path, dashboard_output=dashboard_path,
                 variant_output=variant_path,
+                runtime_output=runtime_path,
             )
             second, repeated = session_watcher.sync_changed(
                 profile_path, snapshot_path, first,
                 review_output=queue_path, dashboard_output=dashboard_path,
                 variant_output=variant_path,
+                runtime_output=runtime_path,
             )
             saved = json.loads(profile_path.read_text(encoding="utf-8"))
             dashboard = dashboard_path.read_text(encoding="utf-8")
             variants = json.loads(variant_path.read_text(encoding="utf-8"))
+            runtime = runtime_path.read_text(encoding="utf-8")
         self.assertTrue(changed)
         self.assertFalse(repeated)
         self.assertEqual(first, second)
@@ -419,6 +441,7 @@ class LessonTests(unittest.TestCase):
         self.assertEqual("B2", saved["current_learner_difficulty"]["cefr"])
         self.assertIn('<html lang="de">', dashboard)
         self.assertEqual("de", variants["selected_language"])
+        self.assertIn("selections = {", runtime)
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()
@@ -498,6 +521,8 @@ class LessonTests(unittest.TestCase):
         for context_id, entry in enumerate(dialogues, 1):
             root = f"LearnerOpening_{entry['id']}"
             self.assertIn(f'setvar VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}', assembly)
+            self.assertIn('setvar VAR_LEARNER_ADAPTIVE_VARIANT, 0', assembly)
+            self.assertIn('delay 1', assembly)
             self.assertIn(f'goto_if_eq {root}_Dictionary', assembly)
             for tag in ('ru', 'de'):
                 for band in ('A1', 'A2', 'natural'):
@@ -506,6 +531,9 @@ class LessonTests(unittest.TestCase):
             self.assertIn(f'{root}_Dictionary:', assembly)
         self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
         self.assertIn('compare VAR_LEARNER_DICTIONARY_REQUEST, 1', assembly)
+        self.assertIn('compare VAR_LEARNER_ADAPTIVE_VARIANT, 1', assembly)
+        self.assertIn('compare VAR_LEARNER_ADAPTIVE_VARIANT, 2', assembly)
+        self.assertIn('compare VAR_LEARNER_ADAPTIVE_VARIANT, 3', assembly)
         self.assertIn('setvar VAR_LEARNER_DICTIONARY_REQUEST, 0', assembly)
         self.assertIn('LearnerOpening_RecordExposure::', assembly)
         self.assertIn('addvar VAR_LEARNER_EXPOSURE_COUNT, 1', assembly)

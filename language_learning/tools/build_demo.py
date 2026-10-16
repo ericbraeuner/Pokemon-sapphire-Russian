@@ -136,7 +136,7 @@ def generate():
     for tag, prefix, mapping, font in [("ru", "Ru", russian, 0), ("de", "De", latin, 3)]:
         pack = validate.load(ROOT / f"language_learning/language_packs/{tag}/pack.json")
         dialogue = next(d for d in pack["dialogues"] if d["dialogue_id"] == DIALOGUE_ID)
-        variant = next(v for v in dialogue["variants"] if v["id"] == "expanded")
+        variant = next(v for v in dialogue["variants"] if v["id"] == "connected")
         words = {v["id"]: v for v in pack["vocabulary"]}
         pages = [dictionary_entry(words[k]) for k in variant["vocabulary_ids"]]
         parts.append(assembly_bytes(f"LearnerLesson_{prefix}Text", message([variant["text"]], mapping, glyphs, font)))

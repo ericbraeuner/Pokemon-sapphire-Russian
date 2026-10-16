@@ -146,7 +146,9 @@ its currently due review cards in the same synchronization step. Add
 `--dashboard-output learner-progress.html` to refresh the localized progress page
 from the same captured emulator state. Pass `--variant-output adaptive-plan.json`
 to refresh all currently unlocked adaptive dialogue selections from that same
-snapshot. The session watcher accepts the same option, so language, level,
+snapshot. Pass `--runtime-output adaptive-runtime.lua` to also create the compact
+table that mGBA can apply while the game is running. The session watcher accepts
+the same options, so language, level,
 mastery, and review changes are reflected without a separate command.
 Exposure to an authored scene also advances the external profile's sequence to
 that scene's stable catalogue position without moving it backwards. Consequently,
@@ -172,6 +174,14 @@ Snapshot version 2 records language and CEFR on every event. If the player chang
 settings between syncs, earlier Russian activity stays Russian and earlier German
 activity stays German. The importer continues to accept version-1 snapshots by
 using their top-level language and CEFR for legacy events.
+
+To apply adaptive selections in the game, set `PLAN_PATH` near the top of
+`mgba/apply_adaptive_plan.lua` to the generated `adaptive-runtime.lua`, then load
+the script through **Tools > Scripting**. It watches the current authored-dialogue
+context and writes only the reserved adaptive-variant variable. The selected
+variant is one of the three versions already compiled into the ROM: A1, A2, or
+natural. If the plan is missing, does not contain that scene, or the loader is not
+running, the game keeps using the CEFR level saved in its normal settings.
 
 The learner build replaces the redundant `Exit` row in the ordinary START menu
 (START or B still closes it) with a localized Learning page. That page reads the

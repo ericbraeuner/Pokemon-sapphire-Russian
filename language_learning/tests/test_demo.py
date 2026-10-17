@@ -3023,6 +3023,14 @@ class LessonTests(unittest.TestCase):
             'gOtherText_Ferry', 'gOtherText_SecretBase', 'gOtherText_Hideout',
         }
         self.assertTrue(symbols.issubset(templates))
+        self.assertEqual({"ru": "ИМЯ", "de": "NAME"}, {
+            tag: templates["gMainMenuString_Player"][tag] for tag in ("ru", "de")
+        })
+        self.assertEqual({"ru": "ВРЕМЯ", "de": "ZEIT"}, {
+            tag: templates["gMainMenuString_Time"][tag] for tag in ("ru", "de")
+        })
+        self.assertLessEqual(templates["gMainMenuString_Player"]["max_width"], 48)
+        self.assertLessEqual(templates["gMainMenuString_Time"]["max_width"], 48)
         main_menu = (demo.ROOT / 'src/main_menu.c').read_text()
         self.assertIn('text = Learner_Translate(text);', main_menu)
         for symbol in ('Player', 'Pokedex', 'Time', 'Badges'):

@@ -3,7 +3,11 @@ RustboroCity_PokemonSchool_MapScripts:: @ 81579E1
 
 RustboroCity_PokemonSchool_EventScript_Blackboard:: @ 81579E2
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolBlackboard
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges, MSGBOX_DEFAULT
+	.endif
 	goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
 	end
 
@@ -22,27 +26,47 @@ RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic:: @ 81579F1
 	end
 
 RustboroCity_PokemonSchool_EventScript_Poison:: @ 8157A50
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolPoison
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ExplainPoison, MSGBOX_DEFAULT
+	.endif
 	goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
 	end
 
 RustboroCity_PokemonSchool_EventScript_Paralysis:: @ 8157A5E
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolParalysis
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ExplainParalysis, MSGBOX_DEFAULT
+	.endif
 	goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
 	end
 
 RustboroCity_PokemonSchool_EventScript_Sleep:: @ 8157A6C
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolSleep
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ExplainSleep, MSGBOX_DEFAULT
+	.endif
 	goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
 	end
 
 RustboroCity_PokemonSchool_EventScript_Burn:: @ 8157A7A
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolBurn
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ExplainBurn, MSGBOX_DEFAULT
+	.endif
 	goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
 	end
 
 RustboroCity_PokemonSchool_EventScript_Freeze:: @ 8157A88
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolFreeze
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ExplainFreeze, MSGBOX_DEFAULT
+	.endif
 	goto RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic
 	end
 
@@ -51,27 +75,51 @@ RustboroCity_PokemonSchool_EventScript_ExitTopicSelect:: @ 8157A96
 	end
 
 RustboroCity_PokemonSchool_EventScript_GameboyKid1:: @ 8157A98
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolTrading
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_TradingRightNow, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonSchool_EventScript_GameboyKid2:: @ 8157AA1
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolSeedot
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonSchool_EventScript_RichBoy:: @ 8157AAA
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolManmadeItems
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonSchool_EventScript_Lass:: @ 8157AB3
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolConfusion
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonSchool_EventScript_SchoolKidM:: @ 8157ABC
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolHeldBerry
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonSchool_EventScript_StudentNotebook:: @ 8157AC5
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolNotebook
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_StudentsNotes, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_PokemonSchool_EventScript_Teacher:: @ 8157ACE
@@ -82,7 +130,11 @@ RustboroCity_PokemonSchool_EventScript_Teacher:: @ 8157ACE
 	call_if_eq RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsEast
 	compare VAR_FACING, 3
 	call_if_eq RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsWest
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolQuickClawGift
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_QUICK_CLAW
 	compare VAR_RESULT, 0
 	goto_if_eq Common_EventScript_ShowBagIsFull
@@ -104,7 +156,11 @@ RustboroCity_PokemonSchool_EventScript_TeacherCheckOnStudentsWest:: @ 8157B29
 	return
 
 RustboroCity_PokemonSchool_EventScript_GaveQuickClaw:: @ 8157B34
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_SchoolQuickClawInfo
+	.else
 	msgbox RustboroCity_PokemonSchool_Text_ExplainQuickClaw, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0

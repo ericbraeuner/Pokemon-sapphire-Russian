@@ -1981,6 +1981,171 @@
       "forms": [
         "дом"
       ]
+    },
+    {
+      "id": "ru.rustboro_school_1",
+      "lemma": "состояние",
+      "english": "condition; status",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolblackboard.194",
+      "forms": [
+        "состояние"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_2",
+      "lemma": "тема",
+      "english": "topic",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schooltopicprompt.195",
+      "forms": [
+        "тема"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_3",
+      "lemma": "яд",
+      "english": "poison",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolpoison.196",
+      "forms": [
+        "яд"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_4",
+      "lemma": "паралич",
+      "english": "paralysis",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolparalysis.197",
+      "forms": [
+        "паралич"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_5",
+      "lemma": "сон",
+      "english": "sleep",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolsleep.198",
+      "forms": [
+        "сон"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_6",
+      "lemma": "ожог",
+      "english": "burn",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolburn.199",
+      "forms": [
+        "ожог"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_7",
+      "lemma": "заморозка",
+      "english": "freeze",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolfreeze.200",
+      "forms": [
+        "заморозка"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_8",
+      "lemma": "коготь",
+      "english": "claw",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolquickclawgift.201",
+      "forms": [
+        "коготь"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_9",
+      "lemma": "быстрый",
+      "english": "quick",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolquickclawinfo.202",
+      "forms": [
+        "быстрый"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_10",
+      "lemma": "друг",
+      "english": "friend",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schooltrading.203",
+      "forms": [
+        "друг"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_11",
+      "lemma": "наконец",
+      "english": "finally",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolseedot.204",
+      "forms": [
+        "наконец"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_12",
+      "lemma": "искусственный",
+      "english": "man-made",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolmanmadeitems.205",
+      "forms": [
+        "искусственный"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_13",
+      "lemma": "путаница",
+      "english": "confusion",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolconfusion.206",
+      "forms": [
+        "путаница"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_14",
+      "lemma": "лечиться",
+      "english": "to heal",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolheldberry.207",
+      "forms": [
+        "лечиться"
+      ]
+    },
+    {
+      "id": "ru.rustboro_school_15",
+      "lemma": "тетрадь",
+      "english": "notebook",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolnotebook.208",
+      "forms": [
+        "тетрадь"
+      ]
     }
   ],
   "grammar_notes": [
@@ -10103,6 +10268,801 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 193
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolblackboard.194",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "На доске написано о состояниях покемонов в бою.",
+          "english_gloss": "The blackboard introduces battle status conditions.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 194
+          }
+        },
+        {
+          "id": "connected",
+          "text": "На доске перечислены изменения состояния, которые влияют на покемонов в бою.",
+          "english_gloss": "The blackboard introduces battle status conditions.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 194
+          }
+        },
+        {
+          "id": "natural",
+          "text": "На доске перечислены состояния, влияющие на покемонов в бою.",
+          "english_gloss": "The blackboard introduces battle status conditions.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 194
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schooltopicprompt.195",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Какую тему прочитать?",
+          "english_gloss": "The blackboard asks the player to select a topic.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 195
+          }
+        },
+        {
+          "id": "connected",
+          "text": "О каком состоянии ты хочешь прочитать?",
+          "english_gloss": "The blackboard asks the player to select a topic.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 195
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Какую тему хочешь прочитать?",
+          "english_gloss": "The blackboard asks the player to select a topic.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 195
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolpoison.196",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ЯД постоянно отнимает ОЗ. Он остаётся после боя. Используй ПРОТИВОЯДИЕ.",
+          "english_gloss": "The lesson explains poison and Antidote.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 196
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Отравленный покемон теряет ОЗ в бою и во время пути. Яд остаётся после боя. Лечи его ПРОТИВОЯДИЕМ.",
+          "english_gloss": "The lesson explains poison and Antidote.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 196
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Отравленный покемон постепенно теряет здоровье даже после боя и в пути. Вылечи его ПРОТИВОЯДИЕМ.",
+          "english_gloss": "The lesson explains poison and Antidote.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 196
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolparalysis.197",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАРАЛИЧ снижает СКОРОСТЬ и может остановить движение. Используй ЛЕЧЕНИЕ ПАРАЛИЧА.",
+          "english_gloss": "The lesson explains paralysis and Parlyz Heal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 197
+          }
+        },
+        {
+          "id": "connected",
+          "text": "При ПАРАЛИЧЕ снижается СКОРОСТЬ. В бою покемон иногда не может двигаться. Лечи его ЛЕЧЕНИЕМ ПАРАЛИЧА.",
+          "english_gloss": "The lesson explains paralysis and Parlyz Heal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 197
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Паралич снижает скорость и иногда мешает двигаться. Он остаётся после боя. Вылечи его СРЕДСТВОМ ОТ ПАРАЛИЧА.",
+          "english_gloss": "The lesson explains paralysis and Parlyz Heal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 197
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolsleep.198",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Спящий покемон не атакует. Разбуди его ПРОБУЖДЕНИЕМ.",
+          "english_gloss": "The lesson explains sleep and Awakening.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 198
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Спящий покемон не может атаковать. Иногда он просыпается сам, но сон остаётся после боя. Используй ПРОБУЖДЕНИЕ.",
+          "english_gloss": "The lesson explains sleep and Awakening.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 198
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Спящий покемон не может атаковать. Он может проснуться сам, но сон остаётся после боя. Разбуди его ПРОБУЖДЕНИЕМ.",
+          "english_gloss": "The lesson explains sleep and Awakening.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 198
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolburn.199",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ОЖОГ снижает атаку и отнимает ОЗ. Используй ЛЕЧЕНИЕ ОЖОГА.",
+          "english_gloss": "The lesson explains burn and Burn Heal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 199
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ожог ослабляет атаку и постоянно отнимает ОЗ. Он остаётся после боя. Лечи его ЛЕЧЕНИЕМ ОЖОГА.",
+          "english_gloss": "The lesson explains burn and Burn Heal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 199
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ожог снижает атаку и постепенно отнимает здоровье. Он остаётся после боя. Вылечи его СРЕДСТВОМ ОТ ОЖОГА.",
+          "english_gloss": "The lesson explains burn and Burn Heal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 199
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolfreeze.200",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Замёрзший покемон не может действовать. Используй ЛЕДЯНОЕ ЛЕЧЕНИЕ.",
+          "english_gloss": "The lesson explains freeze and Ice Heal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 200
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Замёрзший покемон полностью беспомощен. Заморозка остаётся после боя. Растопи лёд ЛЕДЯНЫМ ЛЕЧЕНИЕМ.",
+          "english_gloss": "The lesson explains freeze and Ice Heal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 200
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Замороженный покемон беспомощен. Заморозка остаётся после боя. Разморозь его СРЕДСТВОМ ОТ ЛЬДА.",
+          "english_gloss": "The lesson explains freeze and Ice Heal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 200
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolquickclawgift.201",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ты получишь БЫСТРЫЙ КОГОТЬ. Покажи, что умеешь им пользоваться.",
+          "english_gloss": "The teacher gives the player a Quick Claw.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 201
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ученики, которые не учатся, узнают мой БЫСТРЫЙ КОГОТЬ. По тому, как ты используешь предмет, будет видно, хороший ли ты ученик.",
+          "english_gloss": "The teacher gives the player a Quick Claw.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 201
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Неучам достаётся мой БЫСТРЫЙ КОГОТЬ. Хороший ли ты ученик, покажет то, как ты им воспользуешься.",
+          "english_gloss": "The teacher gives the player a Quick Claw.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 201
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolquickclawinfo.202",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "С БЫСТРЫМ КОГТЕМ покемон иногда ходит первым. Есть и другие предметы для покемонов.",
+          "english_gloss": "The teacher explains the Quick Claw and held items.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 202
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Покемон с БЫСТРЫМ КОГТЕМ иногда ускоряется и действует раньше противника. Существует много других удерживаемых предметов.",
+          "english_gloss": "The teacher explains the Quick Claw and held items.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 202
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Покемон с БЫСТРЫМ КОГТЕМ иногда двигается раньше соперника. Есть много других предметов для покемонов. Изучать придётся долго!",
+          "english_gloss": "The teacher explains the Quick Claw and held items.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 202
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schooltrading.203",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я сейчас обмениваюсь покемонами с другом.",
+          "english_gloss": "A student is trading Pokémon with a friend.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 203
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мы с другом прямо сейчас обмениваемся покемонами.",
+          "english_gloss": "A student is trading Pokémon with a friend.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 203
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я сейчас обмениваюсь покемонами с другом.",
+          "english_gloss": "A student is trading Pokémon with a friend.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 203
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolseedot.204",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я всегда хотел СИДОТА. Наконец я его получу!",
+          "english_gloss": "A student is excited to receive a Seedot.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 204
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я давно хотел СИДОТА и наконец получаю его через обмен!",
+          "english_gloss": "A student is excited to receive a Seedot.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 204
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я всегда хотел СИДОТА и наконец получу его!",
+          "english_gloss": "A student is excited to receive a Seedot.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 204
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolmanmadeitems.205",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Покемон может держать предмет, но не умеет использовать ЗЕЛЬЕ или ПРОТИВОЯДИЕ.",
+          "english_gloss": "A student distinguishes held items from medicine.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 205
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Покемоны могут держать предметы, но не знают, как применять созданные людьми вещи вроде ЗЕЛЬЯ и ПРОТИВОЯДИЯ.",
+          "english_gloss": "A student distinguishes held items from medicine.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 205
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Покемоны могут держать предметы, но не умеют применять ЗЕЛЬЯ и ПРОТИВОЯДИЯ.",
+          "english_gloss": "A student distinguishes held items from medicine.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 205
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolconfusion.206",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Сбитый с толку покемон иногда атакует себя. После боя он приходит в норму.",
+          "english_gloss": "A student explains confusion and self-inflicted attacks.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 206
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Некоторые приёмы сбивают покемона с толку. Тогда он иногда случайно атакует себя, но после выхода из боя приходит в норму.",
+          "english_gloss": "A student explains confusion and self-inflicted attacks.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 206
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Некоторые приёмы сбивают покемона с толку. Тогда он иногда атакует себя. После выхода из боя это проходит.",
+          "english_gloss": "A student explains confusion and self-inflicted attacks.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 206
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolheldberry.207",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Покемон с ЯГОДОЙ может сам вылечиться. Есть много удерживаемых предметов.",
+          "english_gloss": "A student explains automatic healing with held Berries.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 207
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Покемон, который держит ЯГОДУ, может сам себя вылечить. Покемоны могут держать много разных предметов.",
+          "english_gloss": "A student explains automatic healing with held Berries.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 207
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Покемон с ягодой может вылечить себя. Есть много предметов для покемонов... Ох, как трудно всё записывать!",
+          "english_gloss": "A student explains automatic healing with held Berries.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 207
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolnotebook.208",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Записи: покемонов ловят ПОКЕБОЛАМИ. Тренер носит до шести покемонов и сражается с лидерами.",
+          "english_gloss": "The notebook summarizes catching, parties, Trainers, and Gyms.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_school_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 208
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Записи ученика: покемонов ловят ПОКЕБОЛАМИ. С тренером могут идти до шести покемонов. Тренеры растят их, сражаются и вызывают лидеров стадионов.",
+          "english_gloss": "The notebook summarizes catching, parties, Trainers, and Gyms.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_school_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 208
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Тетрадь ученика... Покемонов ловят покеболами. С тренером идут до шести. Тренер ловит, растит и использует их в боях. Его цель - победить сильных тренеров на стадионах.",
+          "english_gloss": "The notebook summarizes catching, parties, Trainers, and Gyms.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_school_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 208
           }
         }
       ]

@@ -3946,6 +3946,306 @@
         "rustboro",
         "sign"
       ]
+    },
+    {
+      "id": "rustboro.school.schoolblackboard.194",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Blackboard",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolBlackboard"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 194
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schooltopicprompt.195",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_ChooseBlackboardTopic",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ReadWhichTopic",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolTopicPrompt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 195
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolpoison.196",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Poison",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ExplainPoison",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolPoison"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 196
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolparalysis.197",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Paralysis",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ExplainParalysis",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolParalysis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 197
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolsleep.198",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Sleep",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ExplainSleep",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolSleep"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 198
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolburn.199",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Burn",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ExplainBurn",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolBurn"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 199
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolfreeze.200",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Freeze",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ExplainFreeze",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolFreeze"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 200
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolquickclawgift.201",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Teacher",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolQuickClawGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 201
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolquickclawinfo.202",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_GaveQuickClaw",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ExplainQuickClaw",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolQuickClawInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 202
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schooltrading.203",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_GameboyKid1",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_TradingRightNow",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolTrading"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 203
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolseedot.204",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_GameboyKid2",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolSeedot"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 204
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolmanmadeitems.205",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_RichBoy",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolManmadeItems"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 205
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolconfusion.206",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_Lass",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolConfusion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 206
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolheldberry.207",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_SchoolKidM",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolHeldBerry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 207
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.school.schoolnotebook.208",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonSchool/scripts.inc",
+        "symbol": "RustboroCity_PokemonSchool_EventScript_StudentNotebook",
+        "base_text_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonSchool_Text_StudentsNotes",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "SchoolNotebook"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 208
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
     }
   ]
 }

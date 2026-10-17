@@ -8710,6 +8710,667 @@
           ]
         ]
       }
+    },
+    {
+      "id": "SchoolBlackboard",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_BlackboardListsStatusChanges",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "На доске написано о состояниях покемонов в бою."
+        ],
+        "A2": [
+          "На доске перечислены изменения состояния, которые влияют на покемонов в бою."
+        ],
+        "natural": [
+          "На доске перечислены состояния, влияющие на покемонов в бою."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf der Tafel stehen Zustände im Pokémon-Kampf."
+        ],
+        "A2": [
+          "Die Tafel nennt Zustandsänderungen, die Pokémon im Kampf beeinflussen."
+        ],
+        "natural": [
+          "An der Tafel stehen Zustände, die Pokémon im Kampf beeinflussen."
+        ]
+      },
+      "english": [
+        "The blackboard introduces battle status conditions."
+      ],
+      "words": {
+        "ru": [
+          [
+            "состояние",
+            "condition; status"
+          ]
+        ],
+        "de": [
+          [
+            "der Zustand",
+            "condition; status"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolTopicPrompt",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ReadWhichTopic",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Какую тему прочитать?"
+        ],
+        "A2": [
+          "О каком состоянии ты хочешь прочитать?"
+        ],
+        "natural": [
+          "Какую тему хочешь прочитать?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Welches Thema lesen?"
+        ],
+        "A2": [
+          "Über welchen Zustand möchtest du lesen?"
+        ],
+        "natural": [
+          "Welches Thema möchtest du lesen?"
+        ]
+      },
+      "english": [
+        "The blackboard asks the player to select a topic."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тема",
+            "topic"
+          ]
+        ],
+        "de": [
+          [
+            "das Thema",
+            "topic"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "SchoolPoison",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ExplainPoison",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "ЯД постоянно отнимает ОЗ. Он остаётся после боя. Используй ПРОТИВОЯДИЕ."
+        ],
+        "A2": [
+          "Отравленный покемон теряет ОЗ в бою и во время пути. Яд остаётся после боя. Лечи его ПРОТИВОЯДИЕМ."
+        ],
+        "natural": [
+          "Отравленный покемон постепенно теряет здоровье даже после боя и в пути. Вылечи его ПРОТИВОЯДИЕМ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "GIFT senkt ständig KP und bleibt nach dem Kampf. Nutze ein GEGENGIFT."
+        ],
+        "A2": [
+          "Ein vergiftetes Pokémon verliert im Kampf und unterwegs KP. Gift bleibt nach dem Kampf. Heile es mit GEGENGIFT."
+        ],
+        "natural": [
+          "Ein vergiftetes Pokémon verliert ständig KP, auch nach dem Kampf und unterwegs. Heile es mit einem GEGENMITTEL."
+        ]
+      },
+      "english": [
+        "The lesson explains poison and Antidote."
+      ],
+      "words": {
+        "ru": [
+          [
+            "яд",
+            "poison"
+          ]
+        ],
+        "de": [
+          [
+            "das Gift",
+            "poison"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolParalysis",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ExplainParalysis",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "ПАРАЛИЧ снижает СКОРОСТЬ и может остановить движение. Используй ЛЕЧЕНИЕ ПАРАЛИЧА."
+        ],
+        "A2": [
+          "При ПАРАЛИЧЕ снижается СКОРОСТЬ. В бою покемон иногда не может двигаться. Лечи его ЛЕЧЕНИЕМ ПАРАЛИЧА."
+        ],
+        "natural": [
+          "Паралич снижает скорость и иногда мешает двигаться. Он остаётся после боя. Вылечи его СРЕДСТВОМ ОТ ПАРАЛИЧА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "PARALYSE senkt das TEMPO und kann Bewegungen stoppen. Nutze PARA-HEILER."
+        ],
+        "A2": [
+          "Bei PARALYSE sinkt das TEMPO. Im Kampf kann sich das Pokémon manchmal nicht bewegen. Heile es mit PARA-HEILER."
+        ],
+        "natural": [
+          "Paralyse senkt die Initiative und kann Bewegungen verhindern. Sie bleibt nach dem Kampf. Heile sie mit PARA-HEILER."
+        ]
+      },
+      "english": [
+        "The lesson explains paralysis and Parlyz Heal."
+      ],
+      "words": {
+        "ru": [
+          [
+            "паралич",
+            "paralysis"
+          ]
+        ],
+        "de": [
+          [
+            "die Paralyse",
+            "paralysis"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolSleep",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ExplainSleep",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Спящий покемон не атакует. Разбуди его ПРОБУЖДЕНИЕМ."
+        ],
+        "A2": [
+          "Спящий покемон не может атаковать. Иногда он просыпается сам, но сон остаётся после боя. Используй ПРОБУЖДЕНИЕ."
+        ],
+        "natural": [
+          "Спящий покемон не может атаковать. Он может проснуться сам, но сон остаётся после боя. Разбуди его ПРОБУЖДЕНИЕМ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein schlafendes Pokémon greift nicht an. Wecke es mit AUFWECKER."
+        ],
+        "A2": [
+          "Ein schlafendes Pokémon kann nicht angreifen. Manchmal wacht es selbst auf, doch Schlaf bleibt nach dem Kampf. Nutze AUFWECKER."
+        ],
+        "natural": [
+          "Ein schlafendes Pokémon greift nicht an. Es kann erwachen, bleibt aber nach dem Kampf müde. Nutze einen AUFWECKER."
+        ]
+      },
+      "english": [
+        "The lesson explains sleep and Awakening."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сон",
+            "sleep"
+          ]
+        ],
+        "de": [
+          [
+            "der Schlaf",
+            "sleep"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolBurn",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ExplainBurn",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "ОЖОГ снижает атаку и отнимает ОЗ. Используй ЛЕЧЕНИЕ ОЖОГА."
+        ],
+        "A2": [
+          "Ожог ослабляет атаку и постоянно отнимает ОЗ. Он остаётся после боя. Лечи его ЛЕЧЕНИЕМ ОЖОГА."
+        ],
+        "natural": [
+          "Ожог снижает атаку и постепенно отнимает здоровье. Он остаётся после боя. Вылечи его СРЕДСТВОМ ОТ ОЖОГА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "VERBRENNUNG senkt den ANGRIFF und KP. Nutze FEUERHEILER."
+        ],
+        "A2": [
+          "Eine Verbrennung schwächt den ANGRIFF und senkt ständig KP. Sie bleibt nach dem Kampf. Nutze FEUERHEILER."
+        ],
+        "natural": [
+          "Verbrennung senkt den Angriff und KP. Sie bleibt nach dem Kampf bestehen. Heile sie mit einem FEUERHEILER."
+        ]
+      },
+      "english": [
+        "The lesson explains burn and Burn Heal."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ожог",
+            "burn"
+          ]
+        ],
+        "de": [
+          [
+            "die Verbrennung",
+            "burn"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolFreeze",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ExplainFreeze",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Замёрзший покемон не может действовать. Используй ЛЕДЯНОЕ ЛЕЧЕНИЕ."
+        ],
+        "A2": [
+          "Замёрзший покемон полностью беспомощен. Заморозка остаётся после боя. Растопи лёд ЛЕДЯНЫМ ЛЕЧЕНИЕМ."
+        ],
+        "natural": [
+          "Замороженный покемон беспомощен. Заморозка остаётся после боя. Разморозь его СРЕДСТВОМ ОТ ЛЬДА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein gefrorenes Pokémon kann nicht handeln. Nutze EISHEILER."
+        ],
+        "A2": [
+          "Ein gefrorenes Pokémon ist völlig hilflos. Es bleibt nach dem Kampf gefroren. Taue es mit EISHEILER auf."
+        ],
+        "natural": [
+          "Ein eingefrorenes Pokémon ist hilflos. Der Zustand bleibt nach dem Kampf. Taue es mit einem EISHEILER auf."
+        ]
+      },
+      "english": [
+        "The lesson explains freeze and Ice Heal."
+      ],
+      "words": {
+        "ru": [
+          [
+            "заморозка",
+            "freeze"
+          ]
+        ],
+        "de": [
+          [
+            "das Einfrieren",
+            "freeze"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolQuickClawGift",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Ты получишь БЫСТРЫЙ КОГОТЬ. Покажи, что умеешь им пользоваться."
+        ],
+        "A2": [
+          "Ученики, которые не учатся, узнают мой БЫСТРЫЙ КОГОТЬ. По тому, как ты используешь предмет, будет видно, хороший ли ты ученик."
+        ],
+        "natural": [
+          "Неучам достаётся мой БЫСТРЫЙ КОГОТЬ. Хороший ли ты ученик, покажет то, как ты им воспользуешься."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bekommst eine FLINKKLAUE. Zeig, dass du sie nutzen kannst."
+        ],
+        "A2": [
+          "Schüler, die nicht lernen, spüren meine FLINKKLAUE. Wie du dieses Item nutzt, zeigt, ob du ein guter Schüler bist."
+        ],
+        "natural": [
+          "Wer nicht lernt, spürt meine FLINKKLAUE. Wie du sie benutzt, zeigt, ob du ein guter Schüler bist."
+        ]
+      },
+      "english": [
+        "The teacher gives the player a Quick Claw."
+      ],
+      "words": {
+        "ru": [
+          [
+            "коготь",
+            "claw"
+          ]
+        ],
+        "de": [
+          [
+            "die Klaue",
+            "claw"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolQuickClawInfo",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ExplainQuickClaw",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "С БЫСТРЫМ КОГТЕМ покемон иногда ходит первым. Есть и другие предметы для покемонов."
+        ],
+        "A2": [
+          "Покемон с БЫСТРЫМ КОГТЕМ иногда ускоряется и действует раньше противника. Существует много других удерживаемых предметов."
+        ],
+        "natural": [
+          "Покемон с БЫСТРЫМ КОГТЕМ иногда двигается раньше соперника. Есть много других предметов для покемонов. Изучать придётся долго!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit FLINKKLAUE handelt ein Pokémon manchmal zuerst. Es gibt weitere Items zum Tragen."
+        ],
+        "A2": [
+          "Ein Pokémon mit FLINKKLAUE wird manchmal schneller und handelt vor dem Gegner. Es gibt viele weitere Items, die Pokémon tragen können."
+        ],
+        "natural": [
+          "Ein Pokémon mit FLINKKLAUE greift manchmal vor dem Gegner an. Viele weitere Items können Pokémon tragen. Es gibt viel zu lernen!"
+        ]
+      },
+      "english": [
+        "The teacher explains the Quick Claw and held items."
+      ],
+      "words": {
+        "ru": [
+          [
+            "быстрый",
+            "quick"
+          ]
+        ],
+        "de": [
+          [
+            "schnell",
+            "quick"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolTrading",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_TradingRightNow",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Я сейчас обмениваюсь покемонами с другом."
+        ],
+        "A2": [
+          "Мы с другом прямо сейчас обмениваемся покемонами."
+        ],
+        "natural": [
+          "Я сейчас обмениваюсь покемонами с другом."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich tausche gerade Pokémon mit einem Freund."
+        ],
+        "A2": [
+          "Mein Freund und ich tauschen gerade Pokémon."
+        ],
+        "natural": [
+          "Ich tausche gerade Pokémon mit meinem Freund."
+        ]
+      },
+      "english": [
+        "A student is trading Pokémon with a friend."
+      ],
+      "words": {
+        "ru": [
+          [
+            "друг",
+            "friend"
+          ]
+        ],
+        "de": [
+          [
+            "der Freund",
+            "friend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolSeedot",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Я всегда хотел СИДОТА. Наконец я его получу!"
+        ],
+        "A2": [
+          "Я давно хотел СИДОТА и наконец получаю его через обмен!"
+        ],
+        "natural": [
+          "Я всегда хотел СИДОТА и наконец получу его!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich wollte immer ein SAMURZEL. Endlich bekomme ich eins!"
+        ],
+        "A2": [
+          "Ich wollte schon lange ein SAMURZEL und bekomme endlich eines durch einen Tausch!"
+        ],
+        "natural": [
+          "Ich wollte immer ein SAMURZEL und bekomme endlich eines!"
+        ]
+      },
+      "english": [
+        "A student is excited to receive a Seedot."
+      ],
+      "words": {
+        "ru": [
+          [
+            "наконец",
+            "finally"
+          ]
+        ],
+        "de": [
+          [
+            "endlich",
+            "finally"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolManmadeItems",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Покемон может держать предмет, но не умеет использовать ЗЕЛЬЕ или ПРОТИВОЯДИЕ."
+        ],
+        "A2": [
+          "Покемоны могут держать предметы, но не знают, как применять созданные людьми вещи вроде ЗЕЛЬЯ и ПРОТИВОЯДИЯ."
+        ],
+        "natural": [
+          "Покемоны могут держать предметы, но не умеют применять ЗЕЛЬЯ и ПРОТИВОЯДИЯ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon können Items tragen, aber TRANK oder GEGENGIFT nicht selbst benutzen."
+        ],
+        "A2": [
+          "Pokémon können Items tragen, wissen aber mit hergestellten Dingen wie TRANK und GEGENGIFT nichts anzufangen."
+        ],
+        "natural": [
+          "Pokémon können Items tragen, aber Trank oder Gegengift nicht selbst nutzen."
+        ]
+      },
+      "english": [
+        "A student distinguishes held items from medicine."
+      ],
+      "words": {
+        "ru": [
+          [
+            "искусственный",
+            "man-made"
+          ]
+        ],
+        "de": [
+          [
+            "künstlich",
+            "man-made"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolConfusion",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Сбитый с толку покемон иногда атакует себя. После боя он приходит в норму."
+        ],
+        "A2": [
+          "Некоторые приёмы сбивают покемона с толку. Тогда он иногда случайно атакует себя, но после выхода из боя приходит в норму."
+        ],
+        "natural": [
+          "Некоторые приёмы сбивают покемона с толку. Тогда он иногда атакует себя. После выхода из боя это проходит."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein verwirrtes Pokémon greift manchmal sich selbst an. Nach dem Kampf ist es wieder normal."
+        ],
+        "A2": [
+          "Manche Attacken verwirren Pokémon. Dann greifen sie manchmal sich selbst an, werden nach dem Kampf aber wieder normal."
+        ],
+        "natural": [
+          "Manche Attacken verwirren Pokémon. Dann greifen sie manchmal sich selbst an. Nach dem Kampf endet die Verwirrung."
+        ]
+      },
+      "english": [
+        "A student explains confusion and self-inflicted attacks."
+      ],
+      "words": {
+        "ru": [
+          [
+            "путаница",
+            "confusion"
+          ]
+        ],
+        "de": [
+          [
+            "die Verwirrung",
+            "confusion"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolHeldBerry",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Покемон с ЯГОДОЙ может сам вылечиться. Есть много удерживаемых предметов."
+        ],
+        "A2": [
+          "Покемон, который держит ЯГОДУ, может сам себя вылечить. Покемоны могут держать много разных предметов."
+        ],
+        "natural": [
+          "Покемон с ягодой может вылечить себя. Есть много предметов для покемонов... Ох, как трудно всё записывать!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Pokémon mit BEERE kann sich selbst heilen. Es gibt viele Items zum Tragen."
+        ],
+        "A2": [
+          "Ein Pokémon, das eine BEERE trägt, kann sich selbst heilen. Pokémon können viele verschiedene Items tragen."
+        ],
+        "natural": [
+          "Ein Pokémon mit Beere kann sich heilen. Es gibt viele tragbare Items... Mann, Mitschreiben ist wirklich schwer!"
+        ]
+      },
+      "english": [
+        "A student explains automatic healing with held Berries."
+      ],
+      "words": {
+        "ru": [
+          [
+            "лечиться",
+            "to heal"
+          ]
+        ],
+        "de": [
+          [
+            "heilen",
+            "to heal"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "SchoolNotebook",
+      "base_symbol": "RustboroCity_PokemonSchool_Text_StudentsNotes",
+      "source_path": "data/maps/RustboroCity_PokemonSchool/text.inc",
+      "ru": {
+        "A1": [
+          "Записи: покемонов ловят ПОКЕБОЛАМИ. Тренер носит до шести покемонов и сражается с лидерами."
+        ],
+        "A2": [
+          "Записи ученика: покемонов ловят ПОКЕБОЛАМИ. С тренером могут идти до шести покемонов. Тренеры растят их, сражаются и вызывают лидеров стадионов."
+        ],
+        "natural": [
+          "Тетрадь ученика... Покемонов ловят покеболами. С тренером идут до шести. Тренер ловит, растит и использует их в боях. Его цель - победить сильных тренеров на стадионах."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Notizen: Pokémon werden mit POKéBÄLLEN gefangen. Trainer tragen bis zu sechs Pokémon und fordern Leiter heraus."
+        ],
+        "A2": [
+          "Schülernotizen: Pokémon fängt man mit POKéBÄLLEN. Bis zu sechs begleiten einen Trainer. Trainer ziehen sie auf, kämpfen und fordern Arenaleiter heraus."
+        ],
+        "natural": [
+          "Das Heft eines Schülers... Pokémon fängt man mit Pokébällen. Sechs dürfen mitreisen. Trainer fangen, erziehen und kämpfen mit ihnen. Ihr Ziel sind Siege in den Arenen."
+        ]
+      },
+      "english": [
+        "The notebook summarizes catching, parties, Trainers, and Gyms."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тетрадь",
+            "notebook"
+          ]
+        ],
+        "de": [
+          [
+            "das Heft",
+            "notebook"
+          ]
+        ]
+      }
     }
   ]
 }

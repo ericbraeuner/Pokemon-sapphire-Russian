@@ -2193,6 +2193,186 @@
         "das Haus"
       ],
       "dictionary_form": "das Haus"
+    },
+    {
+      "id": "de.rustboro_school_1",
+      "lemma": "Zustand",
+      "english": "condition; status",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolblackboard.194",
+      "forms": [
+        "der Zustand"
+      ],
+      "dictionary_form": "der Zustand"
+    },
+    {
+      "id": "de.rustboro_school_2",
+      "lemma": "Thema",
+      "english": "topic",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schooltopicprompt.195",
+      "forms": [
+        "das Thema"
+      ],
+      "dictionary_form": "das Thema"
+    },
+    {
+      "id": "de.rustboro_school_3",
+      "lemma": "Gift",
+      "english": "poison",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolpoison.196",
+      "forms": [
+        "das Gift"
+      ],
+      "dictionary_form": "das Gift"
+    },
+    {
+      "id": "de.rustboro_school_4",
+      "lemma": "Paralyse",
+      "english": "paralysis",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolparalysis.197",
+      "forms": [
+        "die Paralyse"
+      ],
+      "dictionary_form": "die Paralyse"
+    },
+    {
+      "id": "de.rustboro_school_5",
+      "lemma": "Schlaf",
+      "english": "sleep",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolsleep.198",
+      "forms": [
+        "der Schlaf"
+      ],
+      "dictionary_form": "der Schlaf"
+    },
+    {
+      "id": "de.rustboro_school_6",
+      "lemma": "Verbrennung",
+      "english": "burn",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolburn.199",
+      "forms": [
+        "die Verbrennung"
+      ],
+      "dictionary_form": "die Verbrennung"
+    },
+    {
+      "id": "de.rustboro_school_7",
+      "lemma": "Einfrieren",
+      "english": "freeze",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolfreeze.200",
+      "forms": [
+        "das Einfrieren"
+      ],
+      "dictionary_form": "das Einfrieren"
+    },
+    {
+      "id": "de.rustboro_school_8",
+      "lemma": "Klaue",
+      "english": "claw",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolquickclawgift.201",
+      "forms": [
+        "die Klaue"
+      ],
+      "dictionary_form": "die Klaue"
+    },
+    {
+      "id": "de.rustboro_school_9",
+      "lemma": "schnell",
+      "english": "quick",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolquickclawinfo.202",
+      "forms": [
+        "schnell"
+      ],
+      "dictionary_form": "schnell"
+    },
+    {
+      "id": "de.rustboro_school_10",
+      "lemma": "Freund",
+      "english": "friend",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schooltrading.203",
+      "forms": [
+        "der Freund"
+      ],
+      "dictionary_form": "der Freund"
+    },
+    {
+      "id": "de.rustboro_school_11",
+      "lemma": "endlich",
+      "english": "finally",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolseedot.204",
+      "forms": [
+        "endlich"
+      ],
+      "dictionary_form": "endlich"
+    },
+    {
+      "id": "de.rustboro_school_12",
+      "lemma": "künstlich",
+      "english": "man-made",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolmanmadeitems.205",
+      "forms": [
+        "künstlich"
+      ],
+      "dictionary_form": "künstlich"
+    },
+    {
+      "id": "de.rustboro_school_13",
+      "lemma": "Verwirrung",
+      "english": "confusion",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolconfusion.206",
+      "forms": [
+        "die Verwirrung"
+      ],
+      "dictionary_form": "die Verwirrung"
+    },
+    {
+      "id": "de.rustboro_school_14",
+      "lemma": "heilen",
+      "english": "to heal",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolheldberry.207",
+      "forms": [
+        "heilen"
+      ],
+      "dictionary_form": "heilen"
+    },
+    {
+      "id": "de.rustboro_school_15",
+      "lemma": "Heft",
+      "english": "notebook",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.school.schoolnotebook.208",
+      "forms": [
+        "das Heft"
+      ],
+      "dictionary_form": "das Heft"
     }
   ],
   "grammar_notes": [
@@ -10318,6 +10498,801 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 193
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolblackboard.194",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Auf der Tafel stehen Zustände im Pokémon-Kampf.",
+          "english_gloss": "The blackboard introduces battle status conditions.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 194
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Die Tafel nennt Zustandsänderungen, die Pokémon im Kampf beeinflussen.",
+          "english_gloss": "The blackboard introduces battle status conditions.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 194
+          }
+        },
+        {
+          "id": "natural",
+          "text": "An der Tafel stehen Zustände, die Pokémon im Kampf beeinflussen.",
+          "english_gloss": "The blackboard introduces battle status conditions.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 194
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schooltopicprompt.195",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Welches Thema lesen?",
+          "english_gloss": "The blackboard asks the player to select a topic.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 195
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Über welchen Zustand möchtest du lesen?",
+          "english_gloss": "The blackboard asks the player to select a topic.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 195
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Welches Thema möchtest du lesen?",
+          "english_gloss": "The blackboard asks the player to select a topic.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 195
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolpoison.196",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "GIFT senkt ständig KP und bleibt nach dem Kampf. Nutze ein GEGENGIFT.",
+          "english_gloss": "The lesson explains poison and Antidote.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 196
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein vergiftetes Pokémon verliert im Kampf und unterwegs KP. Gift bleibt nach dem Kampf. Heile es mit GEGENGIFT.",
+          "english_gloss": "The lesson explains poison and Antidote.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 196
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein vergiftetes Pokémon verliert ständig KP, auch nach dem Kampf und unterwegs. Heile es mit einem GEGENMITTEL.",
+          "english_gloss": "The lesson explains poison and Antidote.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 196
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolparalysis.197",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PARALYSE senkt das TEMPO und kann Bewegungen stoppen. Nutze PARA-HEILER.",
+          "english_gloss": "The lesson explains paralysis and Parlyz Heal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 197
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Bei PARALYSE sinkt das TEMPO. Im Kampf kann sich das Pokémon manchmal nicht bewegen. Heile es mit PARA-HEILER.",
+          "english_gloss": "The lesson explains paralysis and Parlyz Heal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 197
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Paralyse senkt die Initiative und kann Bewegungen verhindern. Sie bleibt nach dem Kampf. Heile sie mit PARA-HEILER.",
+          "english_gloss": "The lesson explains paralysis and Parlyz Heal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 197
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolsleep.198",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein schlafendes Pokémon greift nicht an. Wecke es mit AUFWECKER.",
+          "english_gloss": "The lesson explains sleep and Awakening.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 198
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein schlafendes Pokémon kann nicht angreifen. Manchmal wacht es selbst auf, doch Schlaf bleibt nach dem Kampf. Nutze AUFWECKER.",
+          "english_gloss": "The lesson explains sleep and Awakening.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 198
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein schlafendes Pokémon greift nicht an. Es kann erwachen, bleibt aber nach dem Kampf müde. Nutze einen AUFWECKER.",
+          "english_gloss": "The lesson explains sleep and Awakening.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 198
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolburn.199",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "VERBRENNUNG senkt den ANGRIFF und KP. Nutze FEUERHEILER.",
+          "english_gloss": "The lesson explains burn and Burn Heal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 199
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Eine Verbrennung schwächt den ANGRIFF und senkt ständig KP. Sie bleibt nach dem Kampf. Nutze FEUERHEILER.",
+          "english_gloss": "The lesson explains burn and Burn Heal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 199
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Verbrennung senkt den Angriff und KP. Sie bleibt nach dem Kampf bestehen. Heile sie mit einem FEUERHEILER.",
+          "english_gloss": "The lesson explains burn and Burn Heal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 199
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolfreeze.200",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein gefrorenes Pokémon kann nicht handeln. Nutze EISHEILER.",
+          "english_gloss": "The lesson explains freeze and Ice Heal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 200
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein gefrorenes Pokémon ist völlig hilflos. Es bleibt nach dem Kampf gefroren. Taue es mit EISHEILER auf.",
+          "english_gloss": "The lesson explains freeze and Ice Heal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 200
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein eingefrorenes Pokémon ist hilflos. Der Zustand bleibt nach dem Kampf. Taue es mit einem EISHEILER auf.",
+          "english_gloss": "The lesson explains freeze and Ice Heal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 200
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolquickclawgift.201",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du bekommst eine FLINKKLAUE. Zeig, dass du sie nutzen kannst.",
+          "english_gloss": "The teacher gives the player a Quick Claw.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 201
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Schüler, die nicht lernen, spüren meine FLINKKLAUE. Wie du dieses Item nutzt, zeigt, ob du ein guter Schüler bist.",
+          "english_gloss": "The teacher gives the player a Quick Claw.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 201
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wer nicht lernt, spürt meine FLINKKLAUE. Wie du sie benutzt, zeigt, ob du ein guter Schüler bist.",
+          "english_gloss": "The teacher gives the player a Quick Claw.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 201
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolquickclawinfo.202",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Mit FLINKKLAUE handelt ein Pokémon manchmal zuerst. Es gibt weitere Items zum Tragen.",
+          "english_gloss": "The teacher explains the Quick Claw and held items.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 202
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein Pokémon mit FLINKKLAUE wird manchmal schneller und handelt vor dem Gegner. Es gibt viele weitere Items, die Pokémon tragen können.",
+          "english_gloss": "The teacher explains the Quick Claw and held items.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 202
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein Pokémon mit FLINKKLAUE greift manchmal vor dem Gegner an. Viele weitere Items können Pokémon tragen. Es gibt viel zu lernen!",
+          "english_gloss": "The teacher explains the Quick Claw and held items.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 202
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schooltrading.203",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich tausche gerade Pokémon mit einem Freund.",
+          "english_gloss": "A student is trading Pokémon with a friend.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 203
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mein Freund und ich tauschen gerade Pokémon.",
+          "english_gloss": "A student is trading Pokémon with a friend.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 203
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich tausche gerade Pokémon mit meinem Freund.",
+          "english_gloss": "A student is trading Pokémon with a friend.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 203
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolseedot.204",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich wollte immer ein SAMURZEL. Endlich bekomme ich eins!",
+          "english_gloss": "A student is excited to receive a Seedot.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 204
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich wollte schon lange ein SAMURZEL und bekomme endlich eines durch einen Tausch!",
+          "english_gloss": "A student is excited to receive a Seedot.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 204
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich wollte immer ein SAMURZEL und bekomme endlich eines!",
+          "english_gloss": "A student is excited to receive a Seedot.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 204
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolmanmadeitems.205",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Pokémon können Items tragen, aber TRANK oder GEGENGIFT nicht selbst benutzen.",
+          "english_gloss": "A student distinguishes held items from medicine.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 205
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Pokémon können Items tragen, wissen aber mit hergestellten Dingen wie TRANK und GEGENGIFT nichts anzufangen.",
+          "english_gloss": "A student distinguishes held items from medicine.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 205
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Pokémon können Items tragen, aber Trank oder Gegengift nicht selbst nutzen.",
+          "english_gloss": "A student distinguishes held items from medicine.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 205
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolconfusion.206",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein verwirrtes Pokémon greift manchmal sich selbst an. Nach dem Kampf ist es wieder normal.",
+          "english_gloss": "A student explains confusion and self-inflicted attacks.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 206
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Manche Attacken verwirren Pokémon. Dann greifen sie manchmal sich selbst an, werden nach dem Kampf aber wieder normal.",
+          "english_gloss": "A student explains confusion and self-inflicted attacks.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 206
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Manche Attacken verwirren Pokémon. Dann greifen sie manchmal sich selbst an. Nach dem Kampf endet die Verwirrung.",
+          "english_gloss": "A student explains confusion and self-inflicted attacks.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 206
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolheldberry.207",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein Pokémon mit BEERE kann sich selbst heilen. Es gibt viele Items zum Tragen.",
+          "english_gloss": "A student explains automatic healing with held Berries.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 207
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein Pokémon, das eine BEERE trägt, kann sich selbst heilen. Pokémon können viele verschiedene Items tragen.",
+          "english_gloss": "A student explains automatic healing with held Berries.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 207
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein Pokémon mit Beere kann sich heilen. Es gibt viele tragbare Items... Mann, Mitschreiben ist wirklich schwer!",
+          "english_gloss": "A student explains automatic healing with held Berries.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 207
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.school.schoolnotebook.208",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Notizen: Pokémon werden mit POKéBÄLLEN gefangen. Trainer tragen bis zu sechs Pokémon und fordern Leiter heraus.",
+          "english_gloss": "The notebook summarizes catching, parties, Trainers, and Gyms.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_school_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 208
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Schülernotizen: Pokémon fängt man mit POKéBÄLLEN. Bis zu sechs begleiten einen Trainer. Trainer ziehen sie auf, kämpfen und fordern Arenaleiter heraus.",
+          "english_gloss": "The notebook summarizes catching, parties, Trainers, and Gyms.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_school_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 208
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Das Heft eines Schülers... Pokémon fängt man mit Pokébällen. Sechs dürfen mitreisen. Trainer fangen, erziehen und kämpfen mit ihnen. Ihr Ziel sind Siege in den Arenen.",
+          "english_gloss": "The notebook summarizes catching, parties, Trainers, and Gyms.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_school_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 208
           }
         }
       ]

@@ -34,6 +34,9 @@
 #include "strings.h"
 #include "task.h"
 #include "text.h"
+#if LEARNER_DEMO
+#include "learner.h"
+#endif
 #include "constants/trainers.h"
 
 extern u16 gSpecialVar_Result;
@@ -984,6 +987,9 @@ static void TrainerBattleLoadArgs(const struct TrainerBattleParameter *specs, co
             *(u32 *)specs->varPtr = 0;
             break;
         case TRAINER_PARAM_LOAD_SCRIPT_RET_ADDR:
+#if LEARNER_DEMO
+            Learner_SetAdaptiveTextContext(sTrainerIntroSpeech);
+#endif
             *(const u8 **)specs->varPtr = data;
             return;
         }
@@ -1100,6 +1106,9 @@ void ClearTrainerFlag(u16 flag)
 
 void BattleSetup_StartTrainerBattle(void)
 {
+#if LEARNER_DEMO
+    Learner_SetAdaptiveTextContext(sTrainerDefeatSpeech);
+#endif
     gBattleTypeFlags = BATTLE_TYPE_TRAINER;
     gMain.savedCallback = CB2_EndTrainerBattle;
     StartTheBattle();

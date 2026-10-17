@@ -78,6 +78,10 @@ coverage requires the adaptive catalogue to resolve every
 source symbol in `opening.json`, including the clock reminder that was initially
 missed. The mGBA runtime bridge can apply these selections to the compiled ROM
 variants while preserving the saved CEFR fallback when the bridge is absent.
+Trainer introductions and defeat lines can now opt into the same generated
+variant table. The battle setup records the introduction context before the
+encounter and switches to the defeat context when combat begins, leaving the
+trainer command, encounter, result, and rematch machinery untouched.
 
 `tools/adaptive_plan.py` evaluates the entire unlocked catalogue at once and
 writes a wrapper-ready plan containing the chosen text, source symbol, vocabulary,

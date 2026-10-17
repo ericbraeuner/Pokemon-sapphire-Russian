@@ -25,11 +25,13 @@ def load():
             for lemma, gloss in entry['words'][tag]:
                 if not lemma or not gloss:
                     raise ValueError('Empty dictionary entry')
+        if entry.get('adaptive_translation') not in (None, True):
+            raise ValueError('adaptive_translation must be true when present')
     return data
 
 
 def generate(russian, latin, glyphs):
-    parts, scripts, shortcut_handlers = [], [], []
+    parts, scripts, shortcut_handlers, adaptive_table = [], [], [], []
     def messages(label, paragraphs, mapping, font, dictionary=None, count_exposure=False):
         labels = []
         for paragraph in paragraphs:
@@ -116,7 +118,20 @@ def generate(russian, latin, glyphs):
                            + messages(base + 'WordsText', [f'{lemma}: {gloss}' for lemma, gloss in entry['words'][tag]], mapping, font)
                            + '\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n\treturn\n')
             scripts.append(f'{base}_Settings:\n\tcall LearnerOpening_Settings\n\tgoto {root}\n')
+        if entry.get('adaptive_translation'):
+            for tag in ('ru', 'de'):
+                for band in ('A1', 'A2', 'natural'):
+                    if len(demo.wrap(entry[tag][band][0], russian if tag == 'ru' else latin,
+                                     glyphs if tag == 'ru' else {})) > 2 or len(entry[tag][band]) != 1:
+                        raise ValueError(f'Adaptive translation must fit one two-line message: {entry["id"]}/{tag}/{band}')
+            labels = [f'{root}_{tag}_{band}Text_0' for tag in ('ru', 'de')
+                      for band in ('A1', 'A2', 'natural')]
+            adaptive_table.append(f'\t.4byte {entry["base_symbol"]}, ' + ', '.join(labels)
+                                  + f'\n\t.2byte {context_id}, 0')
         scripts.append(f'{root}_Dictionary:\n\tcompare VAR_LEARNER_LANGUAGE, 1\n'
                        f'\tgoto_if_eq {root}_ru_WordsDisplay\n\tgoto {root}_de_WordsDisplay\n')
     dictionary_dispatch.append('\treturn\n')
+    parts.append('\t.balign 4\ngLearnerAdaptiveTranslations::\n'
+                 + ('\n'.join(adaptive_table) if adaptive_table else '\t.4byte 0') + '\n')
+    parts.append(f'gLearnerAdaptiveTranslationCount::\n\t.2byte {len(adaptive_table)}\n')
     return parts + dictionary_dispatch + scripts + shortcut_handlers

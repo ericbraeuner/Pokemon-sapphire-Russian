@@ -59,6 +59,15 @@ u8 Learner_GetLanguage(void)
 
 extern const u8 *const gLearnerUiTranslations[][3];
 extern const u16 gLearnerUiTranslationCount;
+struct LearnerAdaptiveTranslation
+{
+    const u8 *source;
+    const u8 *translations[2][3];
+    u16 contextId;
+    u16 padding;
+};
+extern const struct LearnerAdaptiveTranslation gLearnerAdaptiveTranslations[];
+extern const u16 gLearnerAdaptiveTranslationCount;
 extern const u8 *const gLearnerMapNames[][2];
 extern const u16 gLearnerMapNameCount;
 extern const u8 *const gLearnerTrainerEyeDescriptions[][2];
@@ -89,11 +98,40 @@ const u8 *Learner_Translate(const u8 *text)
 {
     u16 i;
     u8 language = Learner_GetLanguage();
+    u8 variant;
     if (text != NULL && language >= 1 && language <= 2)
+    {
+        for (i = 0; i < gLearnerAdaptiveTranslationCount; i++)
+            if (text == gLearnerAdaptiveTranslations[i].source)
+            {
+                variant = VarGet(VAR_LEARNER_ADAPTIVE_VARIANT);
+                if (variant < 1 || variant > 3)
+                {
+                    variant = VarGet(VAR_LEARNER_LEVEL);
+                    if (variant > 3)
+                        variant = 3;
+                    if (variant < 1)
+                        variant = 1;
+                }
+                return gLearnerAdaptiveTranslations[i].translations[language - 1][variant - 1];
+            }
         for (i = 0; i < gLearnerUiTranslationCount; i++)
             if (text == gLearnerUiTranslations[i][0])
                 return gLearnerUiTranslations[i][language];
+    }
     return text;
+}
+
+void Learner_SetAdaptiveTextContext(const u8 *text)
+{
+    u16 i;
+    for (i = 0; i < gLearnerAdaptiveTranslationCount; i++)
+        if (text == gLearnerAdaptiveTranslations[i].source)
+        {
+            VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, gLearnerAdaptiveTranslations[i].contextId);
+            VarSet(VAR_LEARNER_ADAPTIVE_VARIANT, 0);
+            return;
+        }
 }
 
 const u8 *Learner_GetFieldDictionary(const u8 *text)

@@ -608,6 +608,17 @@ class LessonTests(unittest.TestCase):
                 self.assertIn(f'{root}_{tag}_WordsDisplay:', assembly)
             self.assertIn(f'{root}_Dictionary:', assembly)
         self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
+
+    def test_trainer_adaptive_translation_bridge_is_generated_and_hooked(self):
+        assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))
+        dialogues = opening.load()['dialogues']
+        self.assertIn('gLearnerAdaptiveTranslations::', assembly)
+        self.assertIn('gLearnerAdaptiveTranslationCount::', assembly)
+        intro = (demo.ROOT / 'src/learner_intro.inc').read_text(encoding='utf-8')
+        battle = (demo.ROOT / 'src/battle_setup.c').read_text(encoding='utf-8')
+        self.assertIn('Learner_SetAdaptiveTextContext', intro)
+        self.assertIn('Learner_SetAdaptiveTextContext(sTrainerIntroSpeech);', battle)
+        self.assertIn('Learner_SetAdaptiveTextContext(sTrainerDefeatSpeech);', battle)
         self.assertIn('compare VAR_LEARNER_DICTIONARY_REQUEST, 1', assembly)
         self.assertIn('compare VAR_LEARNER_ADAPTIVE_VARIANT, 1', assembly)
         self.assertIn('compare VAR_LEARNER_ADAPTIVE_VARIANT, 2', assembly)

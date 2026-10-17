@@ -3493,6 +3493,30 @@
           }
         }
       ]
+    },
+    {
+      "dialogue_id": "route102.wally.catch_intro.090",
+      "variants": [
+        {"id":"simple","text":"УОЛЛИ: Покемоны прячутся в траве. Посмотри, как я поймаю одного!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["ru.trava","ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
+        {"id":"connected","text":"УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, правильно ли я поймаю одного!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["ru.trava","ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
+        {"id":"natural","text":"УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, смогу ли я правильно поймать одного. Ого!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["ru.trava","ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}}
+      ]
+    },
+    {
+      "dialogue_id": "route102.wally.first_catch.091",
+      "variants": [
+        {"id":"simple","text":"УОЛЛИ: Получилось! Это мой покемон!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
+        {"id":"connected","text":"УОЛЛИ: Я сделал это... Теперь это мой покемон!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
+        {"id":"natural","text":"УОЛЛИ: Получилось... Это мой... мой покемон!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}}
+      ]
+    },
+    {
+      "dialogue_id": "route102.wally.return_to_gym.092",
+      "variants": [
+        {"id":"simple","text":"УОЛЛИ: Спасибо! Вернёмся в зал!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["ru.vozvrashchatsya"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
+        {"id":"connected","text":"УОЛЛИ: Большое спасибо! Теперь вернёмся в зал.","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["ru.vozvrashchatsya"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
+        {"id":"natural","text":"УОЛЛИ: Спасибо! Вернёмся в зал!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["ru.vozvrashchatsya"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}}
+      ]
     }
   ]
 }

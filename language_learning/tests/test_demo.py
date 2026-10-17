@@ -89,14 +89,15 @@ class LessonTests(unittest.TestCase):
 
     def test_authored_exposure_advances_adaptive_game_progress(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        last_context = len(opening.load()["dialogues"])
         snapshot = {
             "schema_version": 2, "source_id": "progress-test-save",
             "selected_language": "ru", "cefr": "A1",
             "exposure_count": 1, "dictionary_count": 0,
-            "last_exposure_context": 90, "last_dictionary_context": 0,
+            "last_exposure_context": last_context, "last_dictionary_context": 0,
             "session_id": "progress-test-session",
             "events": [{
-                "sequence": 1, "kind": "exposure", "context": 90, "delta": 1,
+                "sequence": 1, "kind": "exposure", "context": last_context, "delta": 1,
                 "selected_language": "ru", "cefr": "A1",
                 "captured_at": "2026-10-15T12:00:00Z",
             }],
@@ -104,9 +105,9 @@ class LessonTests(unittest.TestCase):
         }
         updated = profile_sync.merge(profile, snapshot)
         self.assertEqual("arrival", updated["game_progress"]["chapter"])
-        self.assertEqual(88, updated["game_progress"]["sequence"])
+        self.assertEqual(91, updated["game_progress"]["sequence"])
         repeated = profile_sync.merge(updated, snapshot)
-        self.assertEqual(88, repeated["game_progress"]["sequence"])
+        self.assertEqual(91, repeated["game_progress"]["sequence"])
 
     def test_mgba_exporter_reads_reserved_learner_variables(self):
         source = (demo.ROOT / "language_learning/mgba/export_learner_snapshot.lua").read_text(encoding="utf-8")
@@ -252,12 +253,12 @@ class LessonTests(unittest.TestCase):
             pack, profile, catalogue,
             now=review_queue._timestamp("2026-10-15T12:00:00Z"),
         )
-        self.assertEqual(90, plan["eligible_dialogue_count"])
-        self.assertEqual(90, plan["selection_count"])
-        self.assertEqual(90, len({item["dialogue_id"] for item in plan["selections"]}))
+        authored_count = len(opening.load()["dialogues"])
+        self.assertEqual(authored_count, plan["eligible_dialogue_count"])
+        self.assertEqual(authored_count, plan["selection_count"])
+        self.assertEqual(authored_count, len({item["dialogue_id"] for item in plan["selections"]}))
         self.assertTrue(all(item["selected_language"] == "ru"
                             for item in plan["selections"]))
-        authored_count = len(opening.load()["dialogues"])
         self.assertEqual(set(range(1, authored_count + 1)),
                          {item["context_id"] for item in plan["selections"]})
         runtime = adaptive_plan.render_lua(plan)
@@ -332,7 +333,7 @@ class LessonTests(unittest.TestCase):
             entry["id"] for entry in catalogue["dialogues"]
             if entry["source"]["kind"] == "script_hook"
         }
-        self.assertEqual(90, len(connected))
+        self.assertEqual(len(opening.load()["dialogues"]), len(connected))
         authored_symbols = {entry["base_symbol"] for entry in opening.load()["dialogues"]}
         authored_ids = {entry["id"] for entry in opening.load()["dialogues"]}
         connected_symbols = {
@@ -514,8 +515,8 @@ class LessonTests(unittest.TestCase):
 
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()
-        self.assertEqual(250, len(contexts))
         authored_count = len(opening.load()["dialogues"])
+        self.assertEqual(authored_count + 160, len(contexts))
         self.assertEqual(set(range(1, authored_count + 1)),
                          {key for key in contexts if key < 0x1000})
         self.assertEqual(set(range(0x1000, 0x10A0)), {key for key in contexts if key >= 0x1000})
@@ -578,6 +579,7 @@ class LessonTests(unittest.TestCase):
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
                   'data/maps/Route101/scripts.inc', 'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
+        paths += ['data/maps/PetalburgCity/scripts.inc']
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:

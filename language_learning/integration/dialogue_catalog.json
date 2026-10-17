@@ -1830,6 +1830,48 @@
         "center",
         "link"
       ]
+    },
+    {
+      "id": "route102.wally.catch_intro.090",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity/scripts.inc",
+        "symbol": "PetalburgCity_EventScript_WallyTutorial",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_WatchMeCatchPokemon",
+        "note": "Adaptive wording is shown before the unchanged Wally catching tutorial battle.",
+        "authored_id": "WallyCatchIntro"
+      },
+      "progress": {"chapter": "arrival", "sequence": 89},
+      "tags": ["route102", "wally", "catching_tutorial"]
+    },
+    {
+      "id": "route102.wally.first_catch.091",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity/scripts.inc",
+        "symbol": "PetalburgCity_EventScript_WallyTutorial",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_WallyIDidIt",
+        "note": "Adaptive wording follows the unchanged Wally catching tutorial battle.",
+        "authored_id": "WallyCaught"
+      },
+      "progress": {"chapter": "arrival", "sequence": 90},
+      "tags": ["route102", "wally", "catching_tutorial"]
+    },
+    {
+      "id": "route102.wally.return_to_gym.092",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity/scripts.inc",
+        "symbol": "PetalburgCity_EventScript_WallyTutorial",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_LetsGoBack",
+        "note": "Adaptive wording precedes the unchanged return warp to Petalburg Gym.",
+        "authored_id": "WallyReturn"
+      },
+      "progress": {"chapter": "arrival", "sequence": 91},
+      "tags": ["route102", "wally", "navigation"]
     }
   ]
 }

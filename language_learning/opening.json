@@ -4060,6 +4060,66 @@
           ]
         ]
       }
+    },
+    {
+      "id": "WallyCatchIntro",
+      "base_symbol": "Route102_Text_WatchMeCatchPokemon",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": ["УОЛЛИ: Покемоны прячутся в траве. Посмотри, как я поймаю одного!"],
+        "A2": ["УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, правильно ли я поймаю одного!"],
+        "natural": ["УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, смогу ли я правильно поймать одного. Ого!"]
+      },
+      "de": {
+        "A1": ["HEIKO: Pokémon verstecken sich im Gras. Sieh zu, wie ich eines fange!"],
+        "A2": ["HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh zu, ob ich eines richtig fange!"],
+        "natural": ["HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh bitte zu, ob ich eines richtig fange. Wow!"]
+      },
+      "english": ["Wally asks the player to watch him catch a Pokémon in the tall grass."],
+      "words": {
+        "ru": [["трава", "grass"], ["ловить", "to catch"]],
+        "de": [["das Gras", "grass"], ["fangen", "to catch"]]
+      }
+    },
+    {
+      "id": "WallyCaught",
+      "base_symbol": "Route102_Text_WallyIDidIt",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": ["УОЛЛИ: Получилось! Это мой покемон!"],
+        "A2": ["УОЛЛИ: Я сделал это... Теперь это мой покемон!"],
+        "natural": ["УОЛЛИ: Получилось... Это мой... мой покемон!"]
+      },
+      "de": {
+        "A1": ["HEIKO: Geschafft! Das ist mein Pokémon!"],
+        "A2": ["HEIKO: Ich habe es geschafft... Jetzt ist es mein Pokémon!"],
+        "natural": ["HEIKO: Geschafft... Das ist mein... mein Pokémon!"]
+      },
+      "english": ["Wally celebrates catching his first Pokémon."],
+      "words": {
+        "ru": [["ловить", "to catch"]],
+        "de": [["fangen", "to catch"]]
+      }
+    },
+    {
+      "id": "WallyReturn",
+      "base_symbol": "Route102_Text_LetsGoBack",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": ["УОЛЛИ: Спасибо! Вернёмся в зал!"],
+        "A2": ["УОЛЛИ: Большое спасибо! Теперь вернёмся в зал."],
+        "natural": ["УОЛЛИ: Спасибо! Вернёмся в зал!"]
+      },
+      "de": {
+        "A1": ["HEIKO: Danke! Gehen wir zurück zur Arena!"],
+        "A2": ["HEIKO: Vielen Dank! Jetzt gehen wir zurück zur Arena."],
+        "natural": ["HEIKO: Danke! Gehen wir zurück zur Arena!"]
+      },
+      "english": ["Wally thanks the player and suggests returning to the Gym."],
+      "words": {
+        "ru": [["возвращаться", "to return"]],
+        "de": [["zurückkommen", "to return"]]
+      }
     }
   ]
 }

@@ -3584,6 +3584,30 @@
           }
         }
       ]
+    },
+    {
+      "dialogue_id": "route102.wally.catch_intro.090",
+      "variants": [
+        {"id":"simple","text":"HEIKO: Pokémon verstecken sich im Gras. Sieh zu, wie ich eines fange!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["de.gras","de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
+        {"id":"connected","text":"HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh zu, ob ich eines richtig fange!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["de.gras","de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
+        {"id":"natural","text":"HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh bitte zu, ob ich eines richtig fange. Wow!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["de.gras","de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}}
+      ]
+    },
+    {
+      "dialogue_id": "route102.wally.first_catch.091",
+      "variants": [
+        {"id":"simple","text":"HEIKO: Geschafft! Das ist mein Pokémon!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
+        {"id":"connected","text":"HEIKO: Ich habe es geschafft... Jetzt ist es mein Pokémon!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
+        {"id":"natural","text":"HEIKO: Geschafft... Das ist mein... mein Pokémon!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}}
+      ]
+    },
+    {
+      "dialogue_id": "route102.wally.return_to_gym.092",
+      "variants": [
+        {"id":"simple","text":"HEIKO: Danke! Gehen wir zurück zur Arena!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["de.zurueckkommen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
+        {"id":"connected","text":"HEIKO: Vielen Dank! Jetzt gehen wir zurück zur Arena.","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["de.zurueckkommen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
+        {"id":"natural","text":"HEIKO: Danke! Gehen wir zurück zur Arena!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["de.zurueckkommen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}}
+      ]
     }
   ]
 }

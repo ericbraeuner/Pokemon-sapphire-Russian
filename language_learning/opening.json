@@ -7256,6 +7256,580 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RouteBulletSeedGift",
+      "base_symbol": "Route104_Text_16DC5F",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "Я люблю быстро выплёвывать семена! Возьми эту ТМ. Она научит покемона стрелять семенами."
+        ],
+        "A2": [
+          "Мне нравится набирать семена в рот и быстро выплёвывать их! Возьми эту ТМ и научи покемона такому приёму."
+        ],
+        "natural": [
+          "Я люблю набить рот семенами, а потом быстро их выплёвывать! Возьми эту ТМ: с ней покемон выучит приём, который быстро стреляет семенами."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich spucke gern schnell Samen! Nimm diese TM. Sie lehrt ein Pokémon, Samen zu schießen."
+        ],
+        "A2": [
+          "Ich nehme gern Samen in den Mund und spucke sie schnell aus! Nimm diese TM und bring einem Pokémon die Attacke bei."
+        ],
+        "natural": [
+          "Ich fülle meinen Mund gern mit Samen und spucke sie rasch aus! Nimm diese TM: Sie bringt einem Pokémon eine Attacke bei, die schnell Samen abfeuert."
+        ]
+      },
+      "english": [
+        "A resident gives the Bullet Seed TM and explains its move."
+      ],
+      "words": {
+        "ru": [
+          [
+            "семя",
+            "seed"
+          ]
+        ],
+        "de": [
+          [
+            "der Samen",
+            "seed"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteTechnicalMachineAdvice",
+      "base_symbol": "Route104_Text_16DD0E",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "Совет: ТМ можно использовать только один раз. Думай перед использованием!"
+        ],
+        "A2": [
+          "Совет: техническая машина годится только для одного применения. После этого она исчезнет, поэтому выбирай внимательно."
+        ],
+        "natural": [
+          "Небольшой совет: ТМ, то есть техническая машина, используется лишь один раз. После применения она пропадает, так что сначала хорошенько подумай!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Tipp: Eine TM kannst du nur einmal benutzen. Überleg vorher gut!"
+        ],
+        "A2": [
+          "Ein Rat: Eine Technische Maschine ist nur einmal nutzbar. Danach ist sie weg, also wähle gut."
+        ],
+        "natural": [
+          "Ein kleiner Rat: Eine TM, also eine Technische Maschine, kann nur einmal verwendet werden. Danach ist sie weg, also überlege es dir gut!"
+        ]
+      },
+      "english": [
+        "A resident explains that TMs are single-use items."
+      ],
+      "words": {
+        "ru": [
+          [
+            "один раз",
+            "one time"
+          ]
+        ],
+        "de": [
+          [
+            "einmal",
+            "one time"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteWhiteHerbGift",
+      "base_symbol": "Route104_Text_16DD91",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН продаёт саженцы. Я купил слишком много. Возьми БЕЛУЮ ТРАВУ."
+        ],
+        "A2": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН недавно начал продавать саженцы. Я так обрадовался, что купил слишком много. Возьми мою БЕЛУЮ ТРАВУ."
+        ],
+        "natural": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН недавно стал продавать саженцы. Я от радости увлёкся покупками, поэтому БЕЛАЯ ТРАВА мне больше не нужна. Возьмёшь её?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der BLUMENLADEN verkauft Setzlinge. Ich kaufte zu viele. Nimm das SCHLOHKRAUT."
+        ],
+        "A2": [
+          "Der BLUMENLADEN verkauft seit Kurzem Setzlinge. Vor Freude kaufte ich zu viele. Nimm mein SCHLOHKRAUT."
+        ],
+        "natural": [
+          "Der BLUMENLADEN verkauft seit Kurzem Setzlinge. Ich war so begeistert, dass ich beim Einkaufen übertrieb. Das SCHLOHKRAUT brauche ich nicht mehr. Möchtest du es?"
+        ]
+      },
+      "english": [
+        "A shopper offers a White Herb after buying too many saplings."
+      ],
+      "words": {
+        "ru": [
+          [
+            "саженец",
+            "sapling"
+          ]
+        ],
+        "de": [
+          [
+            "der Setzling",
+            "sapling"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteSaplingOverflow",
+      "base_symbol": "Route104_Text_16DE36",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "МАГАЗИН продаёт саженцы. Я купил слишком много. Куда их поставить?"
+        ],
+        "A2": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН начал продавать саженцы. Я обрадовался и купил слишком много. Куда теперь их поставить?"
+        ],
+        "natural": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН недавно стал продавать саженцы. Я так увлёкся покупками, что теперь не знаю, куда всё поставить."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Laden verkauft Setzlinge. Ich kaufte zu viele. Wohin damit?"
+        ],
+        "A2": [
+          "Der BLUMENLADEN verkauft nun Setzlinge. Vor Freude kaufte ich zu viele. Wohin soll ich sie stellen?"
+        ],
+        "natural": [
+          "Der BLUMENLADEN verkauft seit Kurzem Setzlinge. Ich war so begeistert, dass ich beim Einkaufen übertrieb. Wohin nur mit all den Pflanzen?"
+        ]
+      },
+      "english": [
+        "The shopper wonders where to put all the purchased saplings."
+      ],
+      "words": {
+        "ru": [
+          [
+            "покупать",
+            "to buy"
+          ]
+        ],
+        "de": [
+          [
+            "kaufen",
+            "to buy"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopWelcome",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5EC6",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "Привет! Это магазин КРАСИВЫЙ ЛЕПЕСТОК. Мы дарим миру цветы!"
+        ],
+        "A2": [
+          "Добро пожаловать в цветочный магазин КРАСИВЫЙ ЛЕПЕСТОК! Мы хотим наполнить весь мир цветами."
+        ],
+        "natural": [
+          "Здравствуйте! Это цветочный магазин КРАСИВЫЙ ЛЕПЕСТОК. Мы распространяем цветы по всему миру!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Das ist der Blumenladen BLÜTENZAUBER. Wir bringen Blumen in die Welt!"
+        ],
+        "A2": [
+          "Willkommen im Blumenladen BLÜTENZAUBER! Wir möchten die ganze Welt mit Blumen füllen."
+        ],
+        "natural": [
+          "Hallo! Dies ist der Blumenladen BLÜTENZAUBER. Wir verbreiten Blumen in der ganzen Welt!"
+        ]
+      },
+      "english": [
+        "The shop owner welcomes the player to Pretty Petal."
+      ],
+      "words": {
+        "ru": [
+          [
+            "цветочный магазин",
+            "flower shop"
+          ]
+        ],
+        "de": [
+          [
+            "der Blumenladen",
+            "flower shop"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopBerryQuestion",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5F1B",
+      "source_path": "data/text/berries.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Хочешь узнать о ЯГОДАХ?"
+        ],
+        "A2": [
+          "Хочешь послушать, как растут ЯГОДЫ?"
+        ],
+        "natural": [
+          "Хочешь узнать побольше о ЯГОДАХ?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Möchtest du etwas über BEEREN lernen?"
+        ],
+        "A2": [
+          "Möchtest du hören, wie BEEREN wachsen?"
+        ],
+        "natural": [
+          "Möchtest du mehr über BEEREN erfahren?"
+        ]
+      },
+      "english": [
+        "The owner asks whether the player wants a Berry lesson."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ягода",
+            "berry"
+          ]
+        ],
+        "de": [
+          [
+            "die Beere",
+            "berry"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopIntroduction",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5F48",
+      "source_path": "data/text/berries.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Красивое имя! Хочешь узнать о ЯГОДАХ?"
+        ],
+        "A2": [
+          "Какое хорошее имя! Хочешь послушать рассказ о ЯГОДАХ?"
+        ],
+        "natural": [
+          "Очень красивое имя. Хочешь узнать побольше о ЯГОДАХ?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Schöner Name! Möchtest du etwas über BEEREN lernen?"
+        ],
+        "A2": [
+          "Was für ein schöner Name! Möchtest du etwas über BEEREN hören?"
+        ],
+        "natural": [
+          "Das ist ein wirklich schöner Name. Möchtest du mehr über BEEREN erfahren?"
+        ]
+      },
+      "english": [
+        "The owner compliments the player's name and offers a Berry lesson."
+      ],
+      "words": {
+        "ru": [
+          [
+            "имя",
+            "name"
+          ]
+        ],
+        "de": [
+          [
+            "der Name",
+            "name"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopBerryLesson",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5F9D",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "ЯГОДЫ растут в мягкой земле. Собрал ягоды - посади одну снова. Она даст росток, цветы и новые ягоды. Помоги наполнить мир цветами!"
+        ],
+        "A2": [
+          "ЯГОДНЫЕ деревья любят тёмную мягкую землю. После сбора посади одну ягоду обратно. Она прорастёт, зацветёт и снова даст ягоды. Помоги нам выращивать цветы!"
+        ],
+        "natural": [
+          "ЯГОДЫ растут на деревьях в тёмной рыхлой почве. Собрав урожай, обязательно посади одну ягоду обратно. Она прорастёт, вырастет, красиво зацветёт и снова даст плоды. Я мечтаю наполнить весь мир цветами. Помоги мне осуществить эту мечту!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "BEEREN wachsen in weicher Erde. Pflückst du welche, pflanze eine neu. Sie keimt, blüht und trägt neue Beeren. Hilf, die Welt mit Blumen zu füllen!"
+        ],
+        "A2": [
+          "BEERENBÄUME mögen dunkle, lockere Erde. Pflanze nach der Ernte eine Beere neu. Sie keimt, blüht und trägt wieder Beeren. Hilf uns, Blumen zu züchten!"
+        ],
+        "natural": [
+          "BEEREN wachsen auf Bäumen, die in dunkler, lockerer Erde gedeihen. Pflanze nach der Ernte unbedingt eine Beere neu. Sie keimt, wächst, blüht wunderschön und trägt erneut Früchte. Mein Traum ist eine Welt voller Blumen. Bitte hilf mir dabei!"
+        ]
+      },
+      "english": [
+        "The owner explains the complete Berry growth cycle."
+      ],
+      "words": {
+        "ru": [
+          [
+            "прорастать",
+            "to sprout"
+          ]
+        ],
+        "de": [
+          [
+            "keimen",
+            "to sprout"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopHappiness",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C6121",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "Цветы делают людей счастливыми, правда?"
+        ],
+        "A2": [
+          "Цветы приносят людям много радости, не так ли?"
+        ],
+        "natural": [
+          "Цветы дарят людям столько счастья, правда?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Blumen machen Menschen glücklich, oder?"
+        ],
+        "A2": [
+          "Blumen bringen den Menschen viel Freude, nicht wahr?"
+        ],
+        "natural": [
+          "Blumen schenken den Menschen so viel Freude, findest du nicht?"
+        ]
+      },
+      "english": [
+        "The owner says flowers make people happy."
+      ],
+      "words": {
+        "ru": [
+          [
+            "счастье",
+            "happiness"
+          ]
+        ],
+        "de": [
+          [
+            "das Glück",
+            "happiness"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopPailGift",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C6158",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "Чем больше заботы, тем красивее цветы. Тебе понравится за ними ухаживать. Возьми это."
+        ],
+        "A2": [
+          "Чем больше внимания уделяешь цветам, тем красивее они цветут. Думаю, тебе понравится уход. Возьми этот подарок."
+        ],
+        "natural": [
+          "Чем больше внимания ты уделяешь цветам, тем прекраснее они распускаются. Уверена, тебе понравится за ними ухаживать. Можешь взять это."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Je mehr Pflege, desto schöner die Blumen. Du wirst sie gern pflegen. Nimm das."
+        ],
+        "A2": [
+          "Je mehr Aufmerksamkeit du Blumen schenkst, desto schöner blühen sie. Die Pflege wird dir gefallen. Nimm dieses Geschenk."
+        ],
+        "natural": [
+          "Je mehr Aufmerksamkeit du Blumen widmest, desto schöner blühen sie. Bestimmt wirst du Freude an der Pflege haben. Das hier kannst du mitnehmen."
+        ]
+      },
+      "english": [
+        "A shop worker gives the Wailmer Pail."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ухаживать",
+            "to care for"
+          ]
+        ],
+        "de": [
+          [
+            "pflegen",
+            "to care for"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopWatering",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C61E8",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "Поливай ЯГОДЫ ЛЕЙКОЙ ВЭЙЛМЕРА. Если не собрать ягоды, они упадут и снова прорастут."
+        ],
+        "A2": [
+          "Пока ЯГОДЫ растут, поливай их ЛЕЙКОЙ ВЭЙЛМЕРА. Несобранные ягоды упадут на землю и прорастут снова."
+        ],
+        "natural": [
+          "Пока ЯГОДНЫЕ растения растут, поливай их ЛЕЙКОЙ ВЭЙЛМЕРА. Если долго не собирать плоды, они упадут на землю, но затем снова прорастут. Удивительно, словно у них есть воля к жизни!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gieß BEEREN mit der WAILMERKANNE. Pflückst du sie nicht, fallen sie ab und keimen neu."
+        ],
+        "A2": [
+          "Während BEEREN wachsen, gieße sie mit der WAILMERKANNE. Ungepflückte Beeren fallen zu Boden und keimen erneut."
+        ],
+        "natural": [
+          "Während BEERENPFLANZEN wachsen, gieße sie mit der WAILMERKANNE. Pflückst du sie lange nicht, fallen sie zu Boden und keimen erneut. Erstaunlich, als hätten sie einen eigenen Lebenswillen!"
+        ]
+      },
+      "english": [
+        "A shop worker explains watering and automatic regrowth."
+      ],
+      "words": {
+        "ru": [
+          [
+            "поливать",
+            "to water"
+          ]
+        ],
+        "de": [
+          [
+            "gießen",
+            "to water"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopDailyBerry",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C62DA",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "Я хочу быть как старшие сёстры и тоже выращиваю цветы! Вот подарок тебе."
+        ],
+        "A2": [
+          "Я стараюсь быть похожей на старших сестёр, поэтому тоже выращиваю цветы. Держи, это тебе!"
+        ],
+        "natural": [
+          "Я хочу стать похожей на старших сестёр и тоже выращиваю цветы! Вот, возьми, это тебе!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich will wie meine großen Schwestern sein und züchte Blumen! Das ist für dich."
+        ],
+        "A2": [
+          "Ich möchte meinen großen Schwestern ähneln, deshalb züchte ich auch Blumen. Hier, für dich!"
+        ],
+        "natural": [
+          "Ich versuche, wie meine großen Schwestern zu sein, und ziehe ebenfalls Blumen! Hier, das ist für dich!"
+        ]
+      },
+      "english": [
+        "The youngest sister offers the daily Berry gift."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сестра",
+            "sister"
+          ]
+        ],
+        "de": [
+          [
+            "die Schwester",
+            "sister"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlowerShopBerryUses",
+      "base_symbol": "Route104_PrettyPetalFlowerShop_Text_1C6335",
+      "source_path": "data/text/berries.inc",
+      "ru": {
+        "A1": [
+          "ЯГОДУ можно посадить или дать покемону. Ещё машина смешивает ягоды в конфеты для покемонов. Я тоже хочу конфету!"
+        ],
+        "A2": [
+          "ЯГОДУ можно вырастить или дать держать покемону. Есть машина, которая смешивает разные ягоды и делает конфеты для покемонов. Я тоже хочу такую!"
+        ],
+        "natural": [
+          "ЯГОДУ можно посадить и вырастить либо дать покемону держать её. Теперь существует машина, смешивающая разные ягоды в конфеты для покемонов. Мне тоже хочется такую конфету!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du kannst eine BEERE pflanzen oder einem Pokémon geben. Eine Maschine mischt Beeren zu Pokémon-Bonbons. Ich will auch eins!"
+        ],
+        "A2": [
+          "Du kannst eine BEERE großziehen oder sie ein Pokémon tragen lassen. Eine Maschine mischt verschiedene Beeren zu Bonbons für Pokémon. Ich möchte auch eins!"
+        ],
+        "natural": [
+          "Du kannst eine BEERE pflanzen und großziehen oder sie einem Pokémon zum Tragen geben. Mittlerweile gibt es eine Maschine, die verschiedene Beeren zu Bonbons für Pokémon mischt. So ein Bonbon hätte ich auch gern!"
+        ]
+      },
+      "english": [
+        "The youngest sister explains planting, held Berries, and Pokéblocks."
+      ],
+      "words": {
+        "ru": [
+          [
+            "конфета",
+            "candy"
+          ]
+        ],
+        "de": [
+          [
+            "das Bonbon",
+            "candy"
+          ]
+        ]
+      }
     }
   ]
 }

@@ -48,7 +48,11 @@ Route104_EventScript_14EF09:: @ 814EF09
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_WHITE_HERB, Route104_EventScript_14EF38
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteWhiteHerbGift
+	.else
 	msgbox Route104_Text_16DD91, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_WHITE_HERB
 	compare VAR_RESULT, 0
 	goto_if_eq Common_EventScript_ShowBagIsFull
@@ -57,7 +61,11 @@ Route104_EventScript_14EF09:: @ 814EF09
 	end
 
 Route104_EventScript_14EF38:: @ 814EF38
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteSaplingOverflow
+	.else
 	msgbox Route104_Text_16DE36, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -137,7 +145,11 @@ Route104_EventScript_14EF93:: @ 814EF93
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_TM09, Route104_EventScript_14EFC2
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteBulletSeedGift
+	.else
 	msgbox Route104_Text_16DC5F, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_TM09_BULLET_SEED
 	compare VAR_RESULT, 0
 	goto_if_eq Common_EventScript_ShowBagIsFull
@@ -146,7 +158,11 @@ Route104_EventScript_14EF93:: @ 814EF93
 	end
 
 Route104_EventScript_14EFC2:: @ 814EFC2
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteTechnicalMachineAdvice
+	.else
 	msgbox Route104_Text_16DD0E, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

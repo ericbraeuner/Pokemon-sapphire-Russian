@@ -1797,6 +1797,162 @@
         "trainieren"
       ],
       "dictionary_form": "trainieren"
+    },
+    {
+      "id": "de.route104_services_1",
+      "lemma": "Samen",
+      "english": "seed",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routebulletseedgift.161",
+      "forms": [
+        "der Samen"
+      ],
+      "dictionary_form": "der Samen"
+    },
+    {
+      "id": "de.route104_services_2",
+      "lemma": "einmal",
+      "english": "one time",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routetechnicalmachineadvice.162",
+      "forms": [
+        "einmal"
+      ],
+      "dictionary_form": "einmal"
+    },
+    {
+      "id": "de.route104_services_3",
+      "lemma": "Setzling",
+      "english": "sapling",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routewhiteherbgift.163",
+      "forms": [
+        "der Setzling"
+      ],
+      "dictionary_form": "der Setzling"
+    },
+    {
+      "id": "de.route104_services_4",
+      "lemma": "kaufen",
+      "english": "to buy",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routesaplingoverflow.164",
+      "forms": [
+        "kaufen"
+      ],
+      "dictionary_form": "kaufen"
+    },
+    {
+      "id": "de.route104_services_5",
+      "lemma": "Blumenladen",
+      "english": "flower shop",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopwelcome.165",
+      "forms": [
+        "der Blumenladen"
+      ],
+      "dictionary_form": "der Blumenladen"
+    },
+    {
+      "id": "de.route104_services_6",
+      "lemma": "Beere",
+      "english": "berry",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopberryquestion.166",
+      "forms": [
+        "die Beere"
+      ],
+      "dictionary_form": "die Beere"
+    },
+    {
+      "id": "de.route104_services_7",
+      "lemma": "Name",
+      "english": "name",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopintroduction.167",
+      "forms": [
+        "der Name"
+      ],
+      "dictionary_form": "der Name"
+    },
+    {
+      "id": "de.route104_services_8",
+      "lemma": "keimen",
+      "english": "to sprout",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopberrylesson.168",
+      "forms": [
+        "keimen"
+      ],
+      "dictionary_form": "keimen"
+    },
+    {
+      "id": "de.route104_services_9",
+      "lemma": "Glück",
+      "english": "happiness",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershophappiness.169",
+      "forms": [
+        "das Glück"
+      ],
+      "dictionary_form": "das Glück"
+    },
+    {
+      "id": "de.route104_services_10",
+      "lemma": "pflegen",
+      "english": "to care for",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershoppailgift.170",
+      "forms": [
+        "pflegen"
+      ],
+      "dictionary_form": "pflegen"
+    },
+    {
+      "id": "de.route104_services_11",
+      "lemma": "gießen",
+      "english": "to water",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopwatering.171",
+      "forms": [
+        "gießen"
+      ],
+      "dictionary_form": "gießen"
+    },
+    {
+      "id": "de.route104_services_12",
+      "lemma": "Schwester",
+      "english": "sister",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopdailyberry.172",
+      "forms": [
+        "die Schwester"
+      ],
+      "dictionary_form": "die Schwester"
+    },
+    {
+      "id": "de.route104_services_13",
+      "lemma": "Bonbon",
+      "english": "candy",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopberryuses.173",
+      "forms": [
+        "das Bonbon"
+      ],
+      "dictionary_form": "das Bonbon"
     }
   ],
   "grammar_notes": [
@@ -8173,6 +8329,695 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 160
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routebulletseedgift.161",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich spucke gern schnell Samen! Nimm diese TM. Sie lehrt ein Pokémon, Samen zu schießen.",
+          "english_gloss": "A resident gives the Bullet Seed TM and explains its move.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 161
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich nehme gern Samen in den Mund und spucke sie schnell aus! Nimm diese TM und bring einem Pokémon die Attacke bei.",
+          "english_gloss": "A resident gives the Bullet Seed TM and explains its move.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 161
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich fülle meinen Mund gern mit Samen und spucke sie rasch aus! Nimm diese TM: Sie bringt einem Pokémon eine Attacke bei, die schnell Samen abfeuert.",
+          "english_gloss": "A resident gives the Bullet Seed TM and explains its move.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 161
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routetechnicalmachineadvice.162",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Tipp: Eine TM kannst du nur einmal benutzen. Überleg vorher gut!",
+          "english_gloss": "A resident explains that TMs are single-use items.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 162
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein Rat: Eine Technische Maschine ist nur einmal nutzbar. Danach ist sie weg, also wähle gut.",
+          "english_gloss": "A resident explains that TMs are single-use items.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 162
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein kleiner Rat: Eine TM, also eine Technische Maschine, kann nur einmal verwendet werden. Danach ist sie weg, also überlege es dir gut!",
+          "english_gloss": "A resident explains that TMs are single-use items.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 162
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routewhiteherbgift.163",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der BLUMENLADEN verkauft Setzlinge. Ich kaufte zu viele. Nimm das SCHLOHKRAUT.",
+          "english_gloss": "A shopper offers a White Herb after buying too many saplings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 163
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der BLUMENLADEN verkauft seit Kurzem Setzlinge. Vor Freude kaufte ich zu viele. Nimm mein SCHLOHKRAUT.",
+          "english_gloss": "A shopper offers a White Herb after buying too many saplings.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 163
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Der BLUMENLADEN verkauft seit Kurzem Setzlinge. Ich war so begeistert, dass ich beim Einkaufen übertrieb. Das SCHLOHKRAUT brauche ich nicht mehr. Möchtest du es?",
+          "english_gloss": "A shopper offers a White Herb after buying too many saplings.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 163
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routesaplingoverflow.164",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der Laden verkauft Setzlinge. Ich kaufte zu viele. Wohin damit?",
+          "english_gloss": "The shopper wonders where to put all the purchased saplings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 164
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der BLUMENLADEN verkauft nun Setzlinge. Vor Freude kaufte ich zu viele. Wohin soll ich sie stellen?",
+          "english_gloss": "The shopper wonders where to put all the purchased saplings.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 164
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Der BLUMENLADEN verkauft seit Kurzem Setzlinge. Ich war so begeistert, dass ich beim Einkaufen übertrieb. Wohin nur mit all den Pflanzen?",
+          "english_gloss": "The shopper wonders where to put all the purchased saplings.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 164
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopwelcome.165",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Hallo! Das ist der Blumenladen BLÜTENZAUBER. Wir bringen Blumen in die Welt!",
+          "english_gloss": "The shop owner welcomes the player to Pretty Petal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 165
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Willkommen im Blumenladen BLÜTENZAUBER! Wir möchten die ganze Welt mit Blumen füllen.",
+          "english_gloss": "The shop owner welcomes the player to Pretty Petal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 165
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Hallo! Dies ist der Blumenladen BLÜTENZAUBER. Wir verbreiten Blumen in der ganzen Welt!",
+          "english_gloss": "The shop owner welcomes the player to Pretty Petal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 165
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopberryquestion.166",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Möchtest du etwas über BEEREN lernen?",
+          "english_gloss": "The owner asks whether the player wants a Berry lesson.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 166
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Möchtest du hören, wie BEEREN wachsen?",
+          "english_gloss": "The owner asks whether the player wants a Berry lesson.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 166
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Möchtest du mehr über BEEREN erfahren?",
+          "english_gloss": "The owner asks whether the player wants a Berry lesson.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 166
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopintroduction.167",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Schöner Name! Möchtest du etwas über BEEREN lernen?",
+          "english_gloss": "The owner compliments the player's name and offers a Berry lesson.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 167
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Was für ein schöner Name! Möchtest du etwas über BEEREN hören?",
+          "english_gloss": "The owner compliments the player's name and offers a Berry lesson.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 167
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Das ist ein wirklich schöner Name. Möchtest du mehr über BEEREN erfahren?",
+          "english_gloss": "The owner compliments the player's name and offers a Berry lesson.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 167
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopberrylesson.168",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "BEEREN wachsen in weicher Erde. Pflückst du welche, pflanze eine neu. Sie keimt, blüht und trägt neue Beeren. Hilf, die Welt mit Blumen zu füllen!",
+          "english_gloss": "The owner explains the complete Berry growth cycle.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 168
+          }
+        },
+        {
+          "id": "connected",
+          "text": "BEERENBÄUME mögen dunkle, lockere Erde. Pflanze nach der Ernte eine Beere neu. Sie keimt, blüht und trägt wieder Beeren. Hilf uns, Blumen zu züchten!",
+          "english_gloss": "The owner explains the complete Berry growth cycle.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 168
+          }
+        },
+        {
+          "id": "natural",
+          "text": "BEEREN wachsen auf Bäumen, die in dunkler, lockerer Erde gedeihen. Pflanze nach der Ernte unbedingt eine Beere neu. Sie keimt, wächst, blüht wunderschön und trägt erneut Früchte. Mein Traum ist eine Welt voller Blumen. Bitte hilf mir dabei!",
+          "english_gloss": "The owner explains the complete Berry growth cycle.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 168
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershophappiness.169",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Blumen machen Menschen glücklich, oder?",
+          "english_gloss": "The owner says flowers make people happy.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 169
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Blumen bringen den Menschen viel Freude, nicht wahr?",
+          "english_gloss": "The owner says flowers make people happy.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 169
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Blumen schenken den Menschen so viel Freude, findest du nicht?",
+          "english_gloss": "The owner says flowers make people happy.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 169
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershoppailgift.170",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Je mehr Pflege, desto schöner die Blumen. Du wirst sie gern pflegen. Nimm das.",
+          "english_gloss": "A shop worker gives the Wailmer Pail.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 170
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Je mehr Aufmerksamkeit du Blumen schenkst, desto schöner blühen sie. Die Pflege wird dir gefallen. Nimm dieses Geschenk.",
+          "english_gloss": "A shop worker gives the Wailmer Pail.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 170
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Je mehr Aufmerksamkeit du Blumen widmest, desto schöner blühen sie. Bestimmt wirst du Freude an der Pflege haben. Das hier kannst du mitnehmen.",
+          "english_gloss": "A shop worker gives the Wailmer Pail.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 170
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopwatering.171",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Gieß BEEREN mit der WAILMERKANNE. Pflückst du sie nicht, fallen sie ab und keimen neu.",
+          "english_gloss": "A shop worker explains watering and automatic regrowth.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 171
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Während BEEREN wachsen, gieße sie mit der WAILMERKANNE. Ungepflückte Beeren fallen zu Boden und keimen erneut.",
+          "english_gloss": "A shop worker explains watering and automatic regrowth.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 171
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Während BEERENPFLANZEN wachsen, gieße sie mit der WAILMERKANNE. Pflückst du sie lange nicht, fallen sie zu Boden und keimen erneut. Erstaunlich, als hätten sie einen eigenen Lebenswillen!",
+          "english_gloss": "A shop worker explains watering and automatic regrowth.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 171
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopdailyberry.172",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich will wie meine großen Schwestern sein und züchte Blumen! Das ist für dich.",
+          "english_gloss": "The youngest sister offers the daily Berry gift.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 172
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich möchte meinen großen Schwestern ähneln, deshalb züchte ich auch Blumen. Hier, für dich!",
+          "english_gloss": "The youngest sister offers the daily Berry gift.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 172
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich versuche, wie meine großen Schwestern zu sein, und ziehe ebenfalls Blumen! Hier, das ist für dich!",
+          "english_gloss": "The youngest sister offers the daily Berry gift.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 172
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopberryuses.173",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du kannst eine BEERE pflanzen oder einem Pokémon geben. Eine Maschine mischt Beeren zu Pokémon-Bonbons. Ich will auch eins!",
+          "english_gloss": "The youngest sister explains planting, held Berries, and Pokéblocks.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_services_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 173
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du kannst eine BEERE großziehen oder sie ein Pokémon tragen lassen. Eine Maschine mischt verschiedene Beeren zu Bonbons für Pokémon. Ich möchte auch eins!",
+          "english_gloss": "The youngest sister explains planting, held Berries, and Pokéblocks.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_services_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 173
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Du kannst eine BEERE pflanzen und großziehen oder sie einem Pokémon zum Tragen geben. Mittlerweile gibt es eine Maschine, die verschiedene Beeren zu Bonbons für Pokémon mischt. So ein Bonbon hätte ich auch gern!",
+          "english_gloss": "The youngest sister explains planting, held Berries, and Pokéblocks.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_services_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 173
           }
         }
       ]

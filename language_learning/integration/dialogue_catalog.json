@@ -3286,6 +3286,266 @@
         "petalburg_woods",
         "trainer"
       ]
+    },
+    {
+      "id": "route104.services.routebulletseedgift.161",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF93",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DC5F",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteBulletSeedGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 161
+      },
+      "tags": [
+        "route104",
+        "item"
+      ]
+    },
+    {
+      "id": "route104.services.routetechnicalmachineadvice.162",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EFC2",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DD0E",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteTechnicalMachineAdvice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 162
+      },
+      "tags": [
+        "route104",
+        "item"
+      ]
+    },
+    {
+      "id": "route104.services.routewhiteherbgift.163",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF09",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DD91",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteWhiteHerbGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 163
+      },
+      "tags": [
+        "route104",
+        "item"
+      ]
+    },
+    {
+      "id": "route104.services.routesaplingoverflow.164",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF38",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DE36",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteSaplingOverflow"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 164
+      },
+      "tags": [
+        "route104",
+        "resident"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopwelcome.165",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BE0B",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5EC6",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopWelcome"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 165
+      },
+      "tags": [
+        "route104",
+        "shop"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopberryquestion.166",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BE4A",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5F1B",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopBerryQuestion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 166
+      },
+      "tags": [
+        "route104",
+        "shop"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopintroduction.167",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BE0B",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5F48",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopIntroduction"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 167
+      },
+      "tags": [
+        "route104",
+        "shop"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopberrylesson.168",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BE6A",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C5F9D",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopBerryLesson"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 168
+      },
+      "tags": [
+        "route104",
+        "lesson"
+      ]
+    },
+    {
+      "id": "route104.services.flowershophappiness.169",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BE73",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C6121",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopHappiness"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 169
+      },
+      "tags": [
+        "route104",
+        "shop"
+      ]
+    },
+    {
+      "id": "route104.services.flowershoppailgift.170",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BEB9",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C6158",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopPailGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 170
+      },
+      "tags": [
+        "route104",
+        "item"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopwatering.171",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BEA4",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C61E8",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopWatering"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 171
+      },
+      "tags": [
+        "route104",
+        "lesson"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopdailyberry.172",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BEDA",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C62DA",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopDailyBerry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 172
+      },
+      "tags": [
+        "route104",
+        "item"
+      ]
+    },
+    {
+      "id": "route104.services.flowershopberryuses.173",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_PrettyPetalFlowerShop/scripts.inc",
+        "symbol": "Route104_PrettyPetalFlowerShop_EventScript_15BF1A",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route104_PrettyPetalFlowerShop_Text_1C6335",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlowerShopBerryUses"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 173
+      },
+      "tags": [
+        "route104",
+        "lesson"
+      ]
     }
   ]
 }

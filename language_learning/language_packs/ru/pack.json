@@ -1618,6 +1618,149 @@
       "forms": [
         "тренироваться"
       ]
+    },
+    {
+      "id": "ru.route104_services_1",
+      "lemma": "семя",
+      "english": "seed",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routebulletseedgift.161",
+      "forms": [
+        "семя"
+      ]
+    },
+    {
+      "id": "ru.route104_services_2",
+      "lemma": "один раз",
+      "english": "one time",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routetechnicalmachineadvice.162",
+      "forms": [
+        "один раз"
+      ]
+    },
+    {
+      "id": "ru.route104_services_3",
+      "lemma": "саженец",
+      "english": "sapling",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routewhiteherbgift.163",
+      "forms": [
+        "саженец"
+      ]
+    },
+    {
+      "id": "ru.route104_services_4",
+      "lemma": "покупать",
+      "english": "to buy",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.routesaplingoverflow.164",
+      "forms": [
+        "покупать"
+      ]
+    },
+    {
+      "id": "ru.route104_services_5",
+      "lemma": "цветочный магазин",
+      "english": "flower shop",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopwelcome.165",
+      "forms": [
+        "цветочный магазин"
+      ]
+    },
+    {
+      "id": "ru.route104_services_6",
+      "lemma": "ягода",
+      "english": "berry",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopberryquestion.166",
+      "forms": [
+        "ягода"
+      ]
+    },
+    {
+      "id": "ru.route104_services_7",
+      "lemma": "имя",
+      "english": "name",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopintroduction.167",
+      "forms": [
+        "имя"
+      ]
+    },
+    {
+      "id": "ru.route104_services_8",
+      "lemma": "прорастать",
+      "english": "to sprout",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopberrylesson.168",
+      "forms": [
+        "прорастать"
+      ]
+    },
+    {
+      "id": "ru.route104_services_9",
+      "lemma": "счастье",
+      "english": "happiness",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershophappiness.169",
+      "forms": [
+        "счастье"
+      ]
+    },
+    {
+      "id": "ru.route104_services_10",
+      "lemma": "ухаживать",
+      "english": "to care for",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershoppailgift.170",
+      "forms": [
+        "ухаживать"
+      ]
+    },
+    {
+      "id": "ru.route104_services_11",
+      "lemma": "поливать",
+      "english": "to water",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopwatering.171",
+      "forms": [
+        "поливать"
+      ]
+    },
+    {
+      "id": "ru.route104_services_12",
+      "lemma": "сестра",
+      "english": "sister",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopdailyberry.172",
+      "forms": [
+        "сестра"
+      ]
+    },
+    {
+      "id": "ru.route104_services_13",
+      "lemma": "конфета",
+      "english": "candy",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.services.flowershopberryuses.173",
+      "forms": [
+        "конфета"
+      ]
     }
   ],
   "grammar_notes": [
@@ -7991,6 +8134,695 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 160
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routebulletseedgift.161",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я люблю быстро выплёвывать семена! Возьми эту ТМ. Она научит покемона стрелять семенами.",
+          "english_gloss": "A resident gives the Bullet Seed TM and explains its move.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 161
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мне нравится набирать семена в рот и быстро выплёвывать их! Возьми эту ТМ и научи покемона такому приёму.",
+          "english_gloss": "A resident gives the Bullet Seed TM and explains its move.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 161
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я люблю набить рот семенами, а потом быстро их выплёвывать! Возьми эту ТМ: с ней покемон выучит приём, который быстро стреляет семенами.",
+          "english_gloss": "A resident gives the Bullet Seed TM and explains its move.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 161
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routetechnicalmachineadvice.162",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Совет: ТМ можно использовать только один раз. Думай перед использованием!",
+          "english_gloss": "A resident explains that TMs are single-use items.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 162
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Совет: техническая машина годится только для одного применения. После этого она исчезнет, поэтому выбирай внимательно.",
+          "english_gloss": "A resident explains that TMs are single-use items.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 162
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Небольшой совет: ТМ, то есть техническая машина, используется лишь один раз. После применения она пропадает, так что сначала хорошенько подумай!",
+          "english_gloss": "A resident explains that TMs are single-use items.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 162
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routewhiteherbgift.163",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН продаёт саженцы. Я купил слишком много. Возьми БЕЛУЮ ТРАВУ.",
+          "english_gloss": "A shopper offers a White Herb after buying too many saplings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 163
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН недавно начал продавать саженцы. Я так обрадовался, что купил слишком много. Возьми мою БЕЛУЮ ТРАВУ.",
+          "english_gloss": "A shopper offers a White Herb after buying too many saplings.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 163
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН недавно стал продавать саженцы. Я от радости увлёкся покупками, поэтому БЕЛАЯ ТРАВА мне больше не нужна. Возьмёшь её?",
+          "english_gloss": "A shopper offers a White Herb after buying too many saplings.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 163
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.routesaplingoverflow.164",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "МАГАЗИН продаёт саженцы. Я купил слишком много. Куда их поставить?",
+          "english_gloss": "The shopper wonders where to put all the purchased saplings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 164
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН начал продавать саженцы. Я обрадовался и купил слишком много. Куда теперь их поставить?",
+          "english_gloss": "The shopper wonders where to put all the purchased saplings.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 164
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН недавно стал продавать саженцы. Я так увлёкся покупками, что теперь не знаю, куда всё поставить.",
+          "english_gloss": "The shopper wonders where to put all the purchased saplings.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 164
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopwelcome.165",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Привет! Это магазин КРАСИВЫЙ ЛЕПЕСТОК. Мы дарим миру цветы!",
+          "english_gloss": "The shop owner welcomes the player to Pretty Petal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 165
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Добро пожаловать в цветочный магазин КРАСИВЫЙ ЛЕПЕСТОК! Мы хотим наполнить весь мир цветами.",
+          "english_gloss": "The shop owner welcomes the player to Pretty Petal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 165
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Здравствуйте! Это цветочный магазин КРАСИВЫЙ ЛЕПЕСТОК. Мы распространяем цветы по всему миру!",
+          "english_gloss": "The shop owner welcomes the player to Pretty Petal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 165
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopberryquestion.166",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Хочешь узнать о ЯГОДАХ?",
+          "english_gloss": "The owner asks whether the player wants a Berry lesson.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 166
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Хочешь послушать, как растут ЯГОДЫ?",
+          "english_gloss": "The owner asks whether the player wants a Berry lesson.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 166
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Хочешь узнать побольше о ЯГОДАХ?",
+          "english_gloss": "The owner asks whether the player wants a Berry lesson.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 166
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopintroduction.167",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Красивое имя! Хочешь узнать о ЯГОДАХ?",
+          "english_gloss": "The owner compliments the player's name and offers a Berry lesson.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 167
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Какое хорошее имя! Хочешь послушать рассказ о ЯГОДАХ?",
+          "english_gloss": "The owner compliments the player's name and offers a Berry lesson.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 167
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Очень красивое имя. Хочешь узнать побольше о ЯГОДАХ?",
+          "english_gloss": "The owner compliments the player's name and offers a Berry lesson.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 167
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopberrylesson.168",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ЯГОДЫ растут в мягкой земле. Собрал ягоды - посади одну снова. Она даст росток, цветы и новые ягоды. Помоги наполнить мир цветами!",
+          "english_gloss": "The owner explains the complete Berry growth cycle.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 168
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ЯГОДНЫЕ деревья любят тёмную мягкую землю. После сбора посади одну ягоду обратно. Она прорастёт, зацветёт и снова даст ягоды. Помоги нам выращивать цветы!",
+          "english_gloss": "The owner explains the complete Berry growth cycle.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 168
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ЯГОДЫ растут на деревьях в тёмной рыхлой почве. Собрав урожай, обязательно посади одну ягоду обратно. Она прорастёт, вырастет, красиво зацветёт и снова даст плоды. Я мечтаю наполнить весь мир цветами. Помоги мне осуществить эту мечту!",
+          "english_gloss": "The owner explains the complete Berry growth cycle.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 168
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershophappiness.169",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Цветы делают людей счастливыми, правда?",
+          "english_gloss": "The owner says flowers make people happy.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 169
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Цветы приносят людям много радости, не так ли?",
+          "english_gloss": "The owner says flowers make people happy.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 169
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Цветы дарят людям столько счастья, правда?",
+          "english_gloss": "The owner says flowers make people happy.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 169
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershoppailgift.170",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Чем больше заботы, тем красивее цветы. Тебе понравится за ними ухаживать. Возьми это.",
+          "english_gloss": "A shop worker gives the Wailmer Pail.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 170
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Чем больше внимания уделяешь цветам, тем красивее они цветут. Думаю, тебе понравится уход. Возьми этот подарок.",
+          "english_gloss": "A shop worker gives the Wailmer Pail.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 170
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Чем больше внимания ты уделяешь цветам, тем прекраснее они распускаются. Уверена, тебе понравится за ними ухаживать. Можешь взять это.",
+          "english_gloss": "A shop worker gives the Wailmer Pail.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 170
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopwatering.171",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Поливай ЯГОДЫ ЛЕЙКОЙ ВЭЙЛМЕРА. Если не собрать ягоды, они упадут и снова прорастут.",
+          "english_gloss": "A shop worker explains watering and automatic regrowth.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 171
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Пока ЯГОДЫ растут, поливай их ЛЕЙКОЙ ВЭЙЛМЕРА. Несобранные ягоды упадут на землю и прорастут снова.",
+          "english_gloss": "A shop worker explains watering and automatic regrowth.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 171
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Пока ЯГОДНЫЕ растения растут, поливай их ЛЕЙКОЙ ВЭЙЛМЕРА. Если долго не собирать плоды, они упадут на землю, но затем снова прорастут. Удивительно, словно у них есть воля к жизни!",
+          "english_gloss": "A shop worker explains watering and automatic regrowth.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 171
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopdailyberry.172",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я хочу быть как старшие сёстры и тоже выращиваю цветы! Вот подарок тебе.",
+          "english_gloss": "The youngest sister offers the daily Berry gift.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 172
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я стараюсь быть похожей на старших сестёр, поэтому тоже выращиваю цветы. Держи, это тебе!",
+          "english_gloss": "The youngest sister offers the daily Berry gift.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 172
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я хочу стать похожей на старших сестёр и тоже выращиваю цветы! Вот, возьми, это тебе!",
+          "english_gloss": "The youngest sister offers the daily Berry gift.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 172
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.services.flowershopberryuses.173",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ЯГОДУ можно посадить или дать покемону. Ещё машина смешивает ягоды в конфеты для покемонов. Я тоже хочу конфету!",
+          "english_gloss": "The youngest sister explains planting, held Berries, and Pokéblocks.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_services_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 173
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ЯГОДУ можно вырастить или дать держать покемону. Есть машина, которая смешивает разные ягоды и делает конфеты для покемонов. Я тоже хочу такую!",
+          "english_gloss": "The youngest sister explains planting, held Berries, and Pokéblocks.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_services_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 173
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ЯГОДУ можно посадить и вырастить либо дать покемону держать её. Теперь существует машина, смешивающая разные ягоды в конфеты для покемонов. Мне тоже хочется такую конфету!",
+          "english_gloss": "The youngest sister explains planting, held Berries, and Pokéblocks.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_services_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 173
           }
         }
       ]

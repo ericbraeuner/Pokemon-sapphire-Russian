@@ -31,14 +31,14 @@ PetalburgCity_EventScript_WallyTutorial:: @ 814B747
 	applymovement 2, PetalburgCity_Movement_WallyTutorialWally
 	applymovement LOCALID_PLAYER, PetalburgCity_Movement_WallyTutorialPlayer
 	waitmovement 0
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_WallyCatchIntro
 	.else
 	msgbox Route102_Text_WatchMeCatchPokemon, MSGBOX_DEFAULT
 	.endif
 	special ScrSpecial_StartWallyTutorialBattle
 	waitstate
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_WallyCaught
 	.else
 	msgbox Route102_Text_WallyIDidIt, MSGBOX_DEFAULT
@@ -46,7 +46,7 @@ PetalburgCity_EventScript_WallyTutorial:: @ 814B747
 	applymovement 2, Common_Movement_WalkInPlaceFastestLeft, MAP_PETALBURG_CITY
 	@ Local id and map num were swapped here (0, 0, 2 vs 2, 0, 0). Fixed to waitmovement 2, MAP_PETALBURG_CITY in Emerald
 	waitmovement 0, MAP_MAUVILLE_CITY
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_WallyReturn
 	.else
 	msgbox Route102_Text_LetsGoBack, MSGBOX_DEFAULT

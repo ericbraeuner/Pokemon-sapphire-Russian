@@ -1222,6 +1222,105 @@
       "forms": [
         "надеяться"
       ]
+    },
+    {
+      "id": "ru.route104_0",
+      "lemma": "моряк",
+      "english": "sailor",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routecottageresident.124",
+      "forms": [
+        "моряк"
+      ]
+    },
+    {
+      "id": "ru.route104_1",
+      "lemma": "дно",
+      "english": "bottom",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routeseathought.125",
+      "forms": [
+        "дно"
+      ]
+    },
+    {
+      "id": "ru.route104_2",
+      "lemma": "домик",
+      "english": "cottage",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routecottagesign.126",
+      "forms": [
+        "домик"
+      ]
+    },
+    {
+      "id": "ru.route104_3",
+      "lemma": "направление",
+      "english": "direction",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routepetalburgsign.127",
+      "forms": [
+        "направление"
+      ]
+    },
+    {
+      "id": "ru.route104_5",
+      "lemma": "цветок",
+      "english": "flower",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routeflowershopsign.129",
+      "forms": [
+        "цветок"
+      ]
+    },
+    {
+      "id": "ru.route104_6",
+      "lemma": "двойной бой",
+      "english": "Double Battle",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routedoublebattletip.130",
+      "forms": [
+        "двойной бой"
+      ]
+    },
+    {
+      "id": "ru.route104_7",
+      "lemma": "ослаблять",
+      "english": "to weaken",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routecatchtip.131",
+      "forms": [
+        "ослаблять"
+      ]
+    },
+    {
+      "id": "ru.route104_8",
+      "lemma": "красть",
+      "english": "to steal",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routenostealingtip.132",
+      "forms": [
+        "красть"
+      ]
+    },
+    {
+      "id": "ru.route104_9",
+      "lemma": "взгляд",
+      "english": "look; gaze",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routetrainersighttip.133",
+      "forms": [
+        "взгляд"
+      ]
     }
   ],
   "grammar_notes": [
@@ -5634,6 +5733,536 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 123
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routecottageresident.124",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "В домике у моря живёт МИСТЕР БРАЙНИ. Он был смелым моряком.",
+          "english_gloss": "A resident describes Mr. Briney's seaside cottage and sailing past.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 124
+          }
+        },
+        {
+          "id": "connected",
+          "text": "В домике у моря живёт МИСТЕР БРАЙНИ. Когда-то он был смелым моряком.",
+          "english_gloss": "A resident describes Mr. Briney's seaside cottage and sailing past.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 124
+          }
+        },
+        {
+          "id": "natural",
+          "text": "В домике у моря живёт МИСТЕР БРАЙНИ. Когда-то он был могучим моряком и не боялся даже бурного моря.",
+          "english_gloss": "A resident describes Mr. Briney's seaside cottage and sailing past.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 124
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routeseathought.125",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Море... Что находится на дне?",
+          "english_gloss": "A sign-side thought wonders what lies at the bottom of the sea.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 125
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Интересно, что находится на дне моря?",
+          "english_gloss": "A sign-side thought wonders what lies at the bottom of the sea.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 125
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Море, да? Интересно, каково там, на самом дне?",
+          "english_gloss": "A sign-side thought wonders what lies at the bottom of the sea.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 125
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routecottagesign.126",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ДОМИК МИСТЕРА БРАЙНИ",
+          "english_gloss": "The sign identifies Mr. Briney's cottage.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 126
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ДОМИК МИСТЕРА БРАЙНИ",
+          "english_gloss": "The sign identifies Mr. Briney's cottage.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 126
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ДОМИК МИСТЕРА БРАЙНИ",
+          "english_gloss": "The sign identifies Mr. Briney's cottage.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 126
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routepetalburgsign.127",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "МАРШРУТ 104. Туда - ПЕТАЛБУРГ.",
+          "english_gloss": "The Route 104 sign points toward Petalburg City.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 127
+          }
+        },
+        {
+          "id": "connected",
+          "text": "МАРШРУТ 104. В ту сторону ПЕТАЛБУРГ.",
+          "english_gloss": "The Route 104 sign points toward Petalburg City.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 127
+          }
+        },
+        {
+          "id": "natural",
+          "text": "МАРШРУТ 104. В сторону ПЕТАЛБУРГА.",
+          "english_gloss": "The Route 104 sign points toward Petalburg City.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 127
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routerustborosign.128",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "МАРШРУТ 104. Туда - РАСТБОРО.",
+          "english_gloss": "The Route 104 sign points toward Rustboro City.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 128
+          }
+        },
+        {
+          "id": "connected",
+          "text": "МАРШРУТ 104. В ту сторону РАСТБОРО.",
+          "english_gloss": "The Route 104 sign points toward Rustboro City.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 128
+          }
+        },
+        {
+          "id": "natural",
+          "text": "МАРШРУТ 104. В сторону РАСТБОРО.",
+          "english_gloss": "The Route 104 sign points toward Rustboro City.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 128
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routeflowershopsign.129",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН",
+          "english_gloss": "The sign identifies the Pretty Petal Flower Shop.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 129
+          }
+        },
+        {
+          "id": "connected",
+          "text": "МАГАЗИН КРАСИВЫХ ЛЕПЕСТКОВ",
+          "english_gloss": "The sign identifies the Pretty Petal Flower Shop.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 129
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ЦВЕТОЧНЫЙ МАГАЗИН КРАСИВЫЙ ЛЕПЕСТОК",
+          "english_gloss": "The sign identifies the Pretty Petal Flower Shop.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 129
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routedoublebattletip.130",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "СОВЕТ: В двойном бою сражаются два покемона. Поставь их первыми в команде.",
+          "english_gloss": "Trainer Tips explain Double Battles and party order.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 130
+          }
+        },
+        {
+          "id": "connected",
+          "text": "СОВЕТ: В двойном бою тренер выпускает двух покемонов. Выбери первых двух в команде.",
+          "english_gloss": "Trainer Tips explain Double Battles and party order.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 130
+          }
+        },
+        {
+          "id": "natural",
+          "text": "СОВЕТ ТРЕНЕРУ: В ХОЭННЕ пары тренеров вызывают на двойной бой. Ты выпускаешь двух первых покемонов из списка команды.",
+          "english_gloss": "Trainer Tips explain Double Battles and party order.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 130
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routecatchtip.131",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ослабь дикого покемона, потом бросай ПОКЕБОЛ.",
+          "english_gloss": "A resident explains how to make wild Pokémon easier to catch.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 131
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Сначала ослабь дикого покемона. Сон или ожог облегчат поимку.",
+          "english_gloss": "A resident explains how to make wild Pokémon easier to catch.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 131
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Перед броском ПОКЕБОЛА ослабь дикого покемона. Отравление, ожог или сон облегчают поимку.",
+          "english_gloss": "A resident explains how to make wild Pokémon easier to catch.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 131
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routenostealingtip.132",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Не кради чужих покемонов. Лови только диких.",
+          "english_gloss": "A resident warns that Poké Balls are only for wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 132
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Бросай ПОКЕБОЛЫ только в диких покемонов. Чужих красть нельзя.",
+          "english_gloss": "A resident warns that Poké Balls are only for wild Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 132
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Попытка украсть чужого покемона делает тебя вором. Бросай ПОКЕБОЛЫ только в диких покемонов.",
+          "english_gloss": "A resident warns that Poké Balls are only for wild Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 132
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routetrainersighttip.133",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я не тренер. Если тренер тебя увидит, начнётся бой.",
+          "english_gloss": "A resident explains trainer sight and avoiding battles.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route104_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 133
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я не тренер. Встретишься взглядом с тренером - начнётся бой. Не хочешь боя, не попадайся ему.",
+          "english_gloss": "A resident explains trainer sight and avoiding battles.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route104_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 133
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я не тренер. Но если тренеры встречаются взглядами, это вызов на бой. Не хочешь сражаться - не попадайся им на глаза.",
+          "english_gloss": "A resident explains trainer sight and avoiding battles.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route104_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 133
           }
         }
       ]

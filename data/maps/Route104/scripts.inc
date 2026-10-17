@@ -62,39 +62,75 @@ Route104_EventScript_14EF38:: @ 814EF38
 	end
 
 Route104_EventScript_14EF42:: @ 814EF42
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteCottageResident
+	.else
 	msgbox Route104_Text_16DA13, MSGBOX_NPC
+	.endif
 	end
 
 Route104_EventScript_14EF4B:: @ 814EF4B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteSeaThought
+	.else
 	msgbox Route104_Text_16DA89, MSGBOX_SIGN
+	.endif
 	end
 
 Route104_EventScript_14EF54:: @ 814EF54
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteCottageSign
+	.else
 	msgbox Route104_Text_16DEB3, MSGBOX_SIGN
+	.endif
 	end
 
 Route104_EventScript_14EF5D:: @ 814EF5D
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RoutePetalburgDirection
+	.else
 	msgbox Route104_Text_16DEC8, MSGBOX_SIGN
+	.endif
 	end
 
 Route104_EventScript_14EF66:: @ 814EF66
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteRustboroSign
+	.else
 	msgbox Route104_Text_16DEE3, MSGBOX_SIGN
+	.endif
 	end
 
 Route104_EventScript_14EF6F:: @ 814EF6F
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteFlowerShopSign
+	.else
 	msgbox Route104_Text_16DEFD, MSGBOX_SIGN
+	.endif
 	end
 
 Route104_EventScript_14EF78:: @ 814EF78
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteDoubleBattleTip
+	.else
 	msgbox Route104_Text_16DF16, MSGBOX_SIGN
+	.endif
 	end
 
 Route104_EventScript_14EF81:: @ 814EF81
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteCatchTip
+	.else
 	msgbox Route104_Text_16DAC9, MSGBOX_NPC
+	.endif
 	end
 
 Route104_EventScript_14EF8A:: @ 814EF8A
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteNoStealingTip
+	.else
 	msgbox Route104_Text_16DB5C, MSGBOX_NPC
+	.endif
 	end
 
 Route104_EventScript_14EF93:: @ 814EF93
@@ -115,7 +151,11 @@ Route104_EventScript_14EFC2:: @ 814EFC2
 	end
 
 Route104_EventScript_14EFCC:: @ 814EFCC
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteTrainerSightTip
+	.else
 	msgbox Route104_Text_16DBC9, MSGBOX_NPC
+	.endif
 	end
 
 Route104_EventScript_14EFD5:: @ 814EFD5

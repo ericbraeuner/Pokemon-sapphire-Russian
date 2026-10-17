@@ -1355,6 +1355,124 @@
       "forms": [
         "hoffen"
       ]
+    },
+    {
+      "id": "de.route104_0",
+      "lemma": "Seemann",
+      "english": "sailor",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routecottageresident.124",
+      "forms": [
+        "der Seemann"
+      ],
+      "dictionary_form": "der Seemann"
+    },
+    {
+      "id": "de.route104_1",
+      "lemma": "Grund",
+      "english": "bottom; ground",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routeseathought.125",
+      "forms": [
+        "der Grund"
+      ],
+      "dictionary_form": "der Grund"
+    },
+    {
+      "id": "de.route104_2",
+      "lemma": "Haus",
+      "english": "house; cottage",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routecottagesign.126",
+      "forms": [
+        "das Haus"
+      ],
+      "dictionary_form": "das Haus"
+    },
+    {
+      "id": "de.route104_3",
+      "lemma": "Richtung",
+      "english": "direction",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routepetalburgsign.127",
+      "forms": [
+        "die Richtung"
+      ],
+      "dictionary_form": "die Richtung"
+    },
+    {
+      "id": "de.route104_4",
+      "lemma": "Route",
+      "english": "route",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routerustborosign.128",
+      "forms": [
+        "die Route"
+      ],
+      "dictionary_form": "die Route"
+    },
+    {
+      "id": "de.route104_5",
+      "lemma": "Blume",
+      "english": "flower",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routeflowershopsign.129",
+      "forms": [
+        "die Blume"
+      ],
+      "dictionary_form": "die Blume"
+    },
+    {
+      "id": "de.route104_6",
+      "lemma": "Doppelkampf",
+      "english": "Double Battle",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routedoublebattletip.130",
+      "forms": [
+        "der Doppelkampf"
+      ],
+      "dictionary_form": "der Doppelkampf"
+    },
+    {
+      "id": "de.route104_7",
+      "lemma": "schwächen",
+      "english": "to weaken",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routecatchtip.131",
+      "forms": [
+        "schwächen"
+      ]
+    },
+    {
+      "id": "de.route104_8",
+      "lemma": "stehlen",
+      "english": "to steal",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routenostealingtip.132",
+      "forms": [
+        "stehlen"
+      ]
+    },
+    {
+      "id": "de.route104_9",
+      "lemma": "Blick",
+      "english": "look; gaze",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route104.guide.routetrainersighttip.133",
+      "forms": [
+        "der Blick"
+      ],
+      "dictionary_form": "der Blick"
     }
   ],
   "grammar_notes": [
@@ -5770,6 +5888,536 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 123
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routecottageresident.124",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Im Haus am Meer wohnt MR. BRACK. Er war ein mutiger Seemann.",
+          "english_gloss": "A resident describes Mr. Briney's seaside cottage and sailing past.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 124
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Im Haus am Meer wohnt MR. BRACK. Früher war er ein mutiger Seemann.",
+          "english_gloss": "A resident describes Mr. Briney's seaside cottage and sailing past.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 124
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Im Haus am Meer wohnt MR. BRACK. Früher war er ein mächtiger Seemann, der selbst stürmische See nicht fürchtete.",
+          "english_gloss": "A resident describes Mr. Briney's seaside cottage and sailing past.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 124
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routeseathought.125",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Das Meer... Was ist am Grund?",
+          "english_gloss": "A sign-side thought wonders what lies at the bottom of the sea.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 125
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich frage mich, was am Meeresgrund liegt.",
+          "english_gloss": "A sign-side thought wonders what lies at the bottom of the sea.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 125
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Das Meer, hm? Ich frage mich, wie es ganz unten am Meeresgrund ist.",
+          "english_gloss": "A sign-side thought wonders what lies at the bottom of the sea.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 125
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routecottagesign.126",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "MR. BRACKS HAUS",
+          "english_gloss": "The sign identifies Mr. Briney's cottage.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 126
+          }
+        },
+        {
+          "id": "connected",
+          "text": "MR. BRACKS HAUS",
+          "english_gloss": "The sign identifies Mr. Briney's cottage.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 126
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACKS HAUS",
+          "english_gloss": "The sign identifies Mr. Briney's cottage.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 126
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routepetalburgsign.127",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ROUTE 104. Dort liegt BLÜTENBURG.",
+          "english_gloss": "The Route 104 sign points toward Petalburg City.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 127
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ROUTE 104. In diese Richtung liegt BLÜTENBURG.",
+          "english_gloss": "The Route 104 sign points toward Petalburg City.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 127
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ROUTE 104. Richtung BLÜTENBURG.",
+          "english_gloss": "The Route 104 sign points toward Petalburg City.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 127
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routerustborosign.128",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ROUTE 104. Dort liegt METAROST.",
+          "english_gloss": "The Route 104 sign points toward Rustboro City.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 128
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ROUTE 104. In diese Richtung liegt METAROST.",
+          "english_gloss": "The Route 104 sign points toward Rustboro City.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 128
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ROUTE 104. Richtung METAROST.",
+          "english_gloss": "The Route 104 sign points toward Rustboro City.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 128
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routeflowershopsign.129",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "BLUMENLADEN",
+          "english_gloss": "The sign identifies the Pretty Petal Flower Shop.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 129
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HÜBSCHBLUMENLADEN",
+          "english_gloss": "The sign identifies the Pretty Petal Flower Shop.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 129
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HÜBSCHBLUMENLADEN",
+          "english_gloss": "The sign identifies the Pretty Petal Flower Shop.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 129
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routedoublebattletip.130",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "TIPP: Im Doppelkampf kämpfen zwei Pokémon. Setze sie im Team nach vorn.",
+          "english_gloss": "Trainer Tips explain Double Battles and party order.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 130
+          }
+        },
+        {
+          "id": "connected",
+          "text": "TIPP: Im Doppelkampf setzt ein Trainer zwei Pokémon ein. Wähle die ersten beiden im Team.",
+          "english_gloss": "Trainer Tips explain Double Battles and party order.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 130
+          }
+        },
+        {
+          "id": "natural",
+          "text": "TRAINER-TIPP: In HOENN fordern Trainerpaare zu Doppelkämpfen heraus. Dabei werden die ersten beiden Pokémon der Teamliste eingesetzt.",
+          "english_gloss": "Trainer Tips explain Double Battles and party order.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 130
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routecatchtip.131",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Schwäche ein wildes Pokémon, dann wirf den POKÉBALL.",
+          "english_gloss": "A resident explains how to make wild Pokémon easier to catch.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 131
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Schwäche zuerst das wilde Pokémon. Schlaf oder Brand erleichtern das Fangen.",
+          "english_gloss": "A resident explains how to make wild Pokémon easier to catch.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 131
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Schwäche ein wildes Pokémon vor dem POKÉBALL. Gift, Brand oder Schlaf erleichtern das Fangen.",
+          "english_gloss": "A resident explains how to make wild Pokémon easier to catch.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 131
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routenostealingtip.132",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Stiehl keine fremden Pokémon. Fange nur wilde.",
+          "english_gloss": "A resident warns that Poké Balls are only for wild Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 132
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wirf POKÉBÄLLE nur auf wilde Pokémon. Fremde darfst du nicht stehlen.",
+          "english_gloss": "A resident warns that Poké Balls are only for wild Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 132
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wer fremde Pokémon stehlen will, ist ein Dieb. Wirf POKÉBÄLLE nur auf wilde Pokémon.",
+          "english_gloss": "A resident warns that Poké Balls are only for wild Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 132
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route104.guide.routetrainersighttip.133",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich bin kein Trainer. Sieht dich einer, beginnt ein Kampf.",
+          "english_gloss": "A resident explains trainer sight and avoiding battles.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route104_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 133
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich bin kein Trainer. Triffst du den Blick eines Trainers, beginnt ein Kampf. Bleib sonst außer Sicht.",
+          "english_gloss": "A resident explains trainer sight and avoiding battles.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route104_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 133
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich bin kein Trainer. Treffen sich Trainerblicke, ist das eine Herausforderung. Willst du nicht kämpfen, bleib außer Sicht.",
+          "english_gloss": "A resident explains trainer sight and avoiding battles.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route104_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 133
           }
         }
       ]

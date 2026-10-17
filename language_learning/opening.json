@@ -5618,6 +5618,446 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RouteCottageResident",
+      "base_symbol": "Route104_Text_16DA13",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "В домике у моря живёт МИСТЕР БРАЙНИ. Он был смелым моряком."
+        ],
+        "A2": [
+          "В домике у моря живёт МИСТЕР БРАЙНИ. Когда-то он был смелым моряком."
+        ],
+        "natural": [
+          "В домике у моря живёт МИСТЕР БРАЙНИ. Когда-то он был могучим моряком и не боялся даже бурного моря."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Haus am Meer wohnt MR. BRACK. Er war ein mutiger Seemann."
+        ],
+        "A2": [
+          "Im Haus am Meer wohnt MR. BRACK. Früher war er ein mutiger Seemann."
+        ],
+        "natural": [
+          "Im Haus am Meer wohnt MR. BRACK. Früher war er ein mächtiger Seemann, der selbst stürmische See nicht fürchtete."
+        ]
+      },
+      "english": [
+        "A resident describes Mr. Briney's seaside cottage and sailing past."
+      ],
+      "words": {
+        "ru": [
+          [
+            "моряк",
+            "sailor"
+          ]
+        ],
+        "de": [
+          [
+            "der Seemann",
+            "sailor"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteSeaThought",
+      "base_symbol": "Route104_Text_16DA89",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "Море... Что находится на дне?"
+        ],
+        "A2": [
+          "Интересно, что находится на дне моря?"
+        ],
+        "natural": [
+          "Море, да? Интересно, каково там, на самом дне?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Meer... Was ist am Grund?"
+        ],
+        "A2": [
+          "Ich frage mich, was am Meeresgrund liegt."
+        ],
+        "natural": [
+          "Das Meer, hm? Ich frage mich, wie es ganz unten am Meeresgrund ist."
+        ]
+      },
+      "english": [
+        "A sign-side thought wonders what lies at the bottom of the sea."
+      ],
+      "words": {
+        "ru": [
+          [
+            "дно",
+            "bottom"
+          ]
+        ],
+        "de": [
+          [
+            "der Grund",
+            "bottom; ground"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteCottageSign",
+      "base_symbol": "Route104_Text_16DEB3",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "ДОМИК МИСТЕРА БРАЙНИ"
+        ],
+        "A2": [
+          "ДОМИК МИСТЕРА БРАЙНИ"
+        ],
+        "natural": [
+          "ДОМИК МИСТЕРА БРАЙНИ"
+        ]
+      },
+      "de": {
+        "A1": [
+          "MR. BRACKS HAUS"
+        ],
+        "A2": [
+          "MR. BRACKS HAUS"
+        ],
+        "natural": [
+          "MR. BRACKS HAUS"
+        ]
+      },
+      "english": [
+        "The sign identifies Mr. Briney's cottage."
+      ],
+      "words": {
+        "ru": [
+          [
+            "домик",
+            "cottage"
+          ]
+        ],
+        "de": [
+          [
+            "das Haus",
+            "house; cottage"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RoutePetalburgDirection",
+      "base_symbol": "Route104_Text_16DEC8",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "МАРШРУТ 104. Туда - ПЕТАЛБУРГ."
+        ],
+        "A2": [
+          "МАРШРУТ 104. В ту сторону ПЕТАЛБУРГ."
+        ],
+        "natural": [
+          "МАРШРУТ 104. В сторону ПЕТАЛБУРГА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 104. Dort liegt BLÜTENBURG."
+        ],
+        "A2": [
+          "ROUTE 104. In diese Richtung liegt BLÜTENBURG."
+        ],
+        "natural": [
+          "ROUTE 104. Richtung BLÜTENBURG."
+        ]
+      },
+      "english": [
+        "The Route 104 sign points toward Petalburg City."
+      ],
+      "words": {
+        "ru": [
+          [
+            "направление",
+            "direction"
+          ]
+        ],
+        "de": [
+          [
+            "die Richtung",
+            "direction"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteRustboroSign",
+      "base_symbol": "Route104_Text_16DEE3",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "МАРШРУТ 104. Туда - РАСТБОРО."
+        ],
+        "A2": [
+          "МАРШРУТ 104. В ту сторону РАСТБОРО."
+        ],
+        "natural": [
+          "МАРШРУТ 104. В сторону РАСТБОРО."
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 104. Dort liegt METAROST."
+        ],
+        "A2": [
+          "ROUTE 104. In diese Richtung liegt METAROST."
+        ],
+        "natural": [
+          "ROUTE 104. Richtung METAROST."
+        ]
+      },
+      "english": [
+        "The Route 104 sign points toward Rustboro City."
+      ],
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteFlowerShopSign",
+      "base_symbol": "Route104_Text_16DEFD",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН"
+        ],
+        "A2": [
+          "МАГАЗИН КРАСИВЫХ ЛЕПЕСТКОВ"
+        ],
+        "natural": [
+          "ЦВЕТОЧНЫЙ МАГАЗИН КРАСИВЫЙ ЛЕПЕСТОК"
+        ]
+      },
+      "de": {
+        "A1": [
+          "BLUMENLADEN"
+        ],
+        "A2": [
+          "HÜBSCHBLUMENLADEN"
+        ],
+        "natural": [
+          "HÜBSCHBLUMENLADEN"
+        ]
+      },
+      "english": [
+        "The sign identifies the Pretty Petal Flower Shop."
+      ],
+      "words": {
+        "ru": [
+          [
+            "цветок",
+            "flower"
+          ]
+        ],
+        "de": [
+          [
+            "die Blume",
+            "flower"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteDoubleBattleTip",
+      "base_symbol": "Route104_Text_16DF16",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "СОВЕТ: В двойном бою сражаются два покемона. Поставь их первыми в команде."
+        ],
+        "A2": [
+          "СОВЕТ: В двойном бою тренер выпускает двух покемонов. Выбери первых двух в команде."
+        ],
+        "natural": [
+          "СОВЕТ ТРЕНЕРУ: В ХОЭННЕ пары тренеров вызывают на двойной бой. Ты выпускаешь двух первых покемонов из списка команды."
+        ]
+      },
+      "de": {
+        "A1": [
+          "TIPP: Im Doppelkampf kämpfen zwei Pokémon. Setze sie im Team nach vorn."
+        ],
+        "A2": [
+          "TIPP: Im Doppelkampf setzt ein Trainer zwei Pokémon ein. Wähle die ersten beiden im Team."
+        ],
+        "natural": [
+          "TRAINER-TIPP: In HOENN fordern Trainerpaare zu Doppelkämpfen heraus. Dabei werden die ersten beiden Pokémon der Teamliste eingesetzt."
+        ]
+      },
+      "english": [
+        "Trainer Tips explain Double Battles and party order."
+      ],
+      "words": {
+        "ru": [
+          [
+            "двойной бой",
+            "Double Battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Doppelkampf",
+            "Double Battle"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteCatchTip",
+      "base_symbol": "Route104_Text_16DAC9",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "Ослабь дикого покемона, потом бросай ПОКЕБОЛ."
+        ],
+        "A2": [
+          "Сначала ослабь дикого покемона. Сон или ожог облегчат поимку."
+        ],
+        "natural": [
+          "Перед броском ПОКЕБОЛА ослабь дикого покемона. Отравление, ожог или сон облегчают поимку."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Schwäche ein wildes Pokémon, dann wirf den POKÉBALL."
+        ],
+        "A2": [
+          "Schwäche zuerst das wilde Pokémon. Schlaf oder Brand erleichtern das Fangen."
+        ],
+        "natural": [
+          "Schwäche ein wildes Pokémon vor dem POKÉBALL. Gift, Brand oder Schlaf erleichtern das Fangen."
+        ]
+      },
+      "english": [
+        "A resident explains how to make wild Pokémon easier to catch."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ослаблять",
+            "to weaken"
+          ]
+        ],
+        "de": [
+          [
+            "schwächen",
+            "to weaken"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteNoStealingTip",
+      "base_symbol": "Route104_Text_16DB5C",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "Не кради чужих покемонов. Лови только диких."
+        ],
+        "A2": [
+          "Бросай ПОКЕБОЛЫ только в диких покемонов. Чужих красть нельзя."
+        ],
+        "natural": [
+          "Попытка украсть чужого покемона делает тебя вором. Бросай ПОКЕБОЛЫ только в диких покемонов."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Stiehl keine fremden Pokémon. Fange nur wilde."
+        ],
+        "A2": [
+          "Wirf POKÉBÄLLE nur auf wilde Pokémon. Fremde darfst du nicht stehlen."
+        ],
+        "natural": [
+          "Wer fremde Pokémon stehlen will, ist ein Dieb. Wirf POKÉBÄLLE nur auf wilde Pokémon."
+        ]
+      },
+      "english": [
+        "A resident warns that Poké Balls are only for wild Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "красть",
+            "to steal"
+          ]
+        ],
+        "de": [
+          [
+            "stehlen",
+            "to steal"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteTrainerSightTip",
+      "base_symbol": "Route104_Text_16DBC9",
+      "source_path": "data/maps/Route104/text.inc",
+      "ru": {
+        "A1": [
+          "Я не тренер. Если тренер тебя увидит, начнётся бой."
+        ],
+        "A2": [
+          "Я не тренер. Встретишься взглядом с тренером - начнётся бой. Не хочешь боя, не попадайся ему."
+        ],
+        "natural": [
+          "Я не тренер. Но если тренеры встречаются взглядами, это вызов на бой. Не хочешь сражаться - не попадайся им на глаза."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin kein Trainer. Sieht dich einer, beginnt ein Kampf."
+        ],
+        "A2": [
+          "Ich bin kein Trainer. Triffst du den Blick eines Trainers, beginnt ein Kampf. Bleib sonst außer Sicht."
+        ],
+        "natural": [
+          "Ich bin kein Trainer. Treffen sich Trainerblicke, ist das eine Herausforderung. Willst du nicht kämpfen, bleib außer Sicht."
+        ]
+      },
+      "english": [
+        "A resident explains trainer sight and avoiding battles."
+      ],
+      "words": {
+        "ru": [
+          [
+            "взгляд",
+            "look; gaze"
+          ]
+        ],
+        "de": [
+          [
+            "der Blick",
+            "look; gaze"
+          ]
+        ]
+      }
     }
   ]
 }

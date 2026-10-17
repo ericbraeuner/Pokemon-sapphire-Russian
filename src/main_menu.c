@@ -714,8 +714,10 @@ void PrintPlayTime(void)
 #elif defined(GERMAN)
     Menu_PrintTextPixelCoords(gMainMenuString_Time, 124, 24, TRUE);
     FormatPlayTime(playTime, gSaveBlock2.playTimeHours, gSaveBlock2.playTimeMinutes, 1);
-    AlignStringInMenuWindow(alignedPlayTime, playTime, 40, 1);
-    Menu_PrintText(alignedPlayTime, 23, 3);
+    // The nine-letter German label reaches farther right than "TIME". Keep
+    // the changing clock in its own final four-character column.
+    AlignStringInMenuWindow(alignedPlayTime, playTime, 32, 1);
+    Menu_PrintText(alignedPlayTime, 25, 3);
 #endif
 }
 

@@ -70,7 +70,7 @@ PetalburgCity_Gym_OnFrame:: @ 8154562
 
 PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial:: @ 815456C
 	lockall
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_NormanChecksCatch
 	call LearnerOpening_WallyReturnsPokemon
 	.else
@@ -87,7 +87,7 @@ PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial:: @ 815456C
 	delay 30
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_NormanSendsPlayerOn
 	.else
 	msgbox PetalburgCity_Gym_Text_DadGoCollectBadges, MSGBOX_DEFAULT
@@ -113,7 +113,7 @@ PetalburgCity_Gym_EventScript_Norman:: @ 81545B9
 	case 5, PetalburgCity_Gym_EventScript_NormanThreeBadges
 	case 6, PetalburgCity_Gym_EventScript_NormanBattle
 	case 7, PetalburgCity_Gym_EventScript_NormanPostBattle
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_PetalburgDadArrival
 	.else
 	msgbox PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon, MSGBOX_DEFAULT
@@ -157,7 +157,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial:: @ 8154669
 	call_if_eq PetalburgCity_Gym_EventScript_WallyArriveWestEast
 	compare VAR_0x8008, 3
 	call_if_eq PetalburgCity_Gym_EventScript_WallyArriveWestEast
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_WallyAsksPokemon
 	call LearnerOpening_NormanRecognizesWally
 	call LearnerOpening_WallyExplainsMove
@@ -176,7 +176,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial:: @ 8154669
 	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressPlayerWest
 	compare VAR_0x8008, 3
 	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressPlayerEast
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_NormanRequestsHelp
 	.else
 	msgbox PetalburgCity_Gym_Text_DadPlayerGoWithWally, MSGBOX_DEFAULT
@@ -189,7 +189,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial:: @ 8154669
 	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressWallyWest
 	compare VAR_0x8008, 3
 	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressWallyEast
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_NormanLoansPokemon
 	call LearnerOpening_NormanGivesBall
 	call LearnerOpening_WallyThanks
@@ -214,7 +214,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial:: @ 8154669
 	call_if_eq PetalburgCity_Gym_EventScript_WallyFacePlayer
 	compare VAR_0x8008, 3
 	call_if_eq PetalburgCity_Gym_EventScript_WallyFacePlayer
-	.if LEARNER_DEMO
+	.ifdef LEARNER_DEMO
 	call LearnerOpening_WallyInvitesPlayer
 	.else
 	msgbox PetalburgCity_Gym_Text_WouldYouReallyComeWithMe, MSGBOX_DEFAULT

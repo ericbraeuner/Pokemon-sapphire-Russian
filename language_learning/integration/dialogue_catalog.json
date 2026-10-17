@@ -2546,6 +2546,206 @@
         "route102",
         "trainer"
       ]
+    },
+    {
+      "id": "route104.guide.routecottageresident.124",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF42",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DA13",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteCottageResident"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 124
+      },
+      "tags": [
+        "route104",
+        "resident"
+      ]
+    },
+    {
+      "id": "route104.guide.routeseathought.125",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF4B",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DA89",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteSeaThought"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 125
+      },
+      "tags": [
+        "route104",
+        "resident"
+      ]
+    },
+    {
+      "id": "route104.guide.routecottagesign.126",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF54",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DEB3",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteCottageSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 126
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routepetalburgsign.127",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF5D",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DEC8",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RoutePetalburgDirection"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 127
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routerustborosign.128",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF66",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DEE3",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteRustboroSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 128
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routeflowershopsign.129",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF6F",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DEFD",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteFlowerShopSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 129
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routedoublebattletip.130",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF78",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DF16",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteDoubleBattleTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 130
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routecatchtip.131",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF81",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DAC9",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteCatchTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 131
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routenostealingtip.132",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EF8A",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DB5C",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteNoStealingTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 132
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
+    },
+    {
+      "id": "route104.guide.routetrainersighttip.133",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104/scripts.inc",
+        "symbol": "Route104_EventScript_14EFCC",
+        "base_text_path": "data/maps/Route104/text.inc",
+        "base_text_symbol": "Route104_Text_16DBC9",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RouteTrainerSightTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 133
+      },
+      "tags": [
+        "route104",
+        "sign"
+      ]
     }
   ]
 }

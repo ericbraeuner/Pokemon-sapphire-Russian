@@ -582,7 +582,8 @@ class LessonTests(unittest.TestCase):
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
                   'data/maps/Route101/scripts.inc', 'data/maps/Route102/scripts.inc',
-                  'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
+                  'data/maps/Route103/scripts.inc', 'data/maps/Route104/scripts.inc',
+                  'data/event_scripts.s']
         paths += ['data/maps/PetalburgCity/scripts.inc',
                   'data/maps/PetalburgCity_Gym/scripts.inc']
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
@@ -3056,8 +3057,11 @@ class LessonTests(unittest.TestCase):
         })
         self.assertLessEqual(templates["gMainMenuString_Player"]["max_width"], 48)
         self.assertLessEqual(templates["gMainMenuString_Time"]["max_width"], 48)
+        self.assertLessEqual(len(templates["gMainMenuString_Player"]["de"]), 4)
+        self.assertLessEqual(len(templates["gMainMenuString_Time"]["de"]), 4)
         main_menu = (demo.ROOT / 'src/main_menu.c').read_text()
         self.assertIn('text = Learner_Translate(text);', main_menu)
+        self.assertIn('Menu_PrintText(alignedPlayTime, 25, 3);', main_menu)
         for symbol in ('Player', 'Pokedex', 'Time', 'Badges'):
             self.assertIn(f'MAIN_MENU_LEARNER_TEXT(gMainMenuString_{symbol})', main_menu)
         hall = (demo.ROOT / 'src/hall_of_fame.c').read_text()

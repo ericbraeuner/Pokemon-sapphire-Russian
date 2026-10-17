@@ -2746,6 +2746,546 @@
         "route104",
         "sign"
       ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodssearch.134",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CDE6",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194D71",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsSearch"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 134
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsshroomish.135",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CCA8",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194D92",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsShroomish"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 135
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsambush.136",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CCA8",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194DED",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsAmbush"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 136
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsdemand.137",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CCA8",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194E6B",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsDemand"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 137
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodshelp.138",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CCA8",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194E9A",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsHelp"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 138
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodschallenge.139",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CCA8",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194EE8",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsChallenge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 139
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsgruntdefeat.140",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CCA8",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194F83",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsGruntDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 140
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsgruntretreat.141",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CDFA",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_194FA4",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsGruntRetreat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 141
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsreward.142",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CDFA",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_19507E",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsReward"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 142
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsrustborowarning.143",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CE4D",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_19510A",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsRustboroWarning"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 143
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodscrisis.144",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CE4D",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195153",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsCrisis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 144
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsbagfull.145",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CE3F",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195182",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsBagFull"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 145
+      },
+      "tags": [
+        "petalburg_woods",
+        "story"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsavoidgrass.146",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CECA",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_1953AC",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsAvoidGrass"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 146
+      },
+      "tags": [
+        "petalburg_woods",
+        "resident"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodshiddenitems.147",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CED3",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_19542B",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsHiddenItems"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 147
+      },
+      "tags": [
+        "petalburg_woods",
+        "resident"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsmiracleseedgift.148",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CEDC",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_19549E",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsMiracleSeedGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 148
+      },
+      "tags": [
+        "petalburg_woods",
+        "item"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsmiracleseedinfo.149",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF0B",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195503",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsMiracleSeedInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 149
+      },
+      "tags": [
+        "petalburg_woods",
+        "item"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodsexperiencetip.150",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF15",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_1955B0",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsExperienceTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 150
+      },
+      "tags": [
+        "petalburg_woods",
+        "sign"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.woodspowerpointstip.151",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF1E",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_1956A6",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "WoodsPowerPointsTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 151
+      },
+      "tags": [
+        "petalburg_woods",
+        "sign"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.lyleintro.152",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF27",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_1951BE",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "LyleIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 152
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.lyledefeat.153",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF27",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195202",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "LyleDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 153
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.lyleafter.154",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF27",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195232",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "LyleAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 154
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.jamesintro.155",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF3E",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_19526A",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JamesIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 155
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.jamesdefeat.156",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF3E",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_1952AE",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JamesDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 156
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.jamesafter.157",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF3E",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_1952CC",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JamesAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 157
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.jamesrematch.158",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF65",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195306",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JamesRematch"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 158
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.jamesrematchdefeat.159",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF65",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195338",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JamesRematchDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 159
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
+    },
+    {
+      "id": "petalburgwoods.guide.jamesrematchafter.160",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgWoods/scripts.inc",
+        "symbol": "PetalburgWoods_EventScript_15CF65",
+        "base_text_path": "data/maps/PetalburgWoods/text.inc",
+        "base_text_symbol": "PetalburgWoods_Text_195356",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JamesRematchAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 160
+      },
+      "tags": [
+        "petalburg_woods",
+        "trainer"
+      ]
     }
   ]
 }

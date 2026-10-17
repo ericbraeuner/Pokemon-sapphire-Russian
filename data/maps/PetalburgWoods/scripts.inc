@@ -11,25 +11,45 @@ PetalburgWoods_EventScript_15CCA8:: @ 815CCA8
 	call PetalburgWoods_EventScript_15CDE6
 	applymovement 4, PetalburgWoods_Movement_15CE89
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsShroomish
+	.else
 	msgbox PetalburgWoods_Text_194D92, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	playbgm MUS_EVIL_TEAM, FALSE
 	applymovement 3, PetalburgWoods_Movement_15CEC3
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsAmbush
+	.else
 	msgbox PetalburgWoods_Text_194DED, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 3, PetalburgWoods_Movement_15CEB0
 	waitmovement 0
 	applymovement 4, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsDemand
+	.else
 	msgbox PetalburgWoods_Text_194E6B, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 4, PetalburgWoods_Movement_15CE9E
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsHelp
+	.else
 	msgbox PetalburgWoods_Text_194E9A, MSGBOX_DEFAULT
+	.endif
 	applymovement 3, PetalburgWoods_Movement_15CEC8
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsChallenge
+	.else
 	msgbox PetalburgWoods_Text_194EE8, MSGBOX_DEFAULT
+	.endif
 	trainerbattle_no_intro TRAINER_PETALBURG_WOODS_GRUNT, PetalburgWoods_Text_194F83
 	applymovement 3, PetalburgWoods_Movement_15CEB3
 	waitmovement 0
@@ -46,25 +66,45 @@ PetalburgWoods_EventScript_15CD42:: @ 815CD42
 	waitmovement 0
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsShroomish
+	.else
 	msgbox PetalburgWoods_Text_194D92, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	playbgm MUS_EVIL_TEAM, FALSE
 	applymovement 3, PetalburgWoods_Movement_15CEC3
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsAmbush
+	.else
 	msgbox PetalburgWoods_Text_194DED, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 3, PetalburgWoods_Movement_15CEBF
 	waitmovement 0
 	applymovement 4, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsDemand
+	.else
 	msgbox PetalburgWoods_Text_194E6B, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 4, PetalburgWoods_Movement_15CEA4
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsHelp
+	.else
 	msgbox PetalburgWoods_Text_194E9A, MSGBOX_DEFAULT
+	.endif
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsChallenge
+	.else
 	msgbox PetalburgWoods_Text_194EE8, MSGBOX_DEFAULT
+	.endif
 	trainerbattle_no_intro TRAINER_PETALBURG_WOODS_GRUNT, PetalburgWoods_Text_194F83
 	applymovement 3, PetalburgWoods_Movement_15CEB3
 	waitmovement 0
@@ -77,19 +117,31 @@ PetalburgWoods_EventScript_15CD42:: @ 815CD42
 PetalburgWoods_EventScript_15CDE6:: @ 815CDE6
 	applymovement 4, PetalburgWoods_Movement_15CE73
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsSearch
+	.else
 	msgbox PetalburgWoods_Text_194D71, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	return
 
 PetalburgWoods_EventScript_15CDFA:: @ 815CDFA
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsGruntRetreat
+	.else
 	msgbox PetalburgWoods_Text_194FA4, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 3, PetalburgWoods_Movement_15CEB7
 	waitmovement 0
 	removeobject 3
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsReward
+	.else
 	msgbox PetalburgWoods_Text_19507E, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_GREAT_BALL
 	compare VAR_RESULT, 0
 	goto_if_eq PetalburgWoods_EventScript_15CE3F
@@ -97,15 +149,27 @@ PetalburgWoods_EventScript_15CDFA:: @ 815CDFA
 	end
 
 PetalburgWoods_EventScript_15CE3F:: @ 815CE3F
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsBagFull
+	.else
 	msgbox PetalburgWoods_Text_195182, MSGBOX_DEFAULT
+	.endif
 	goto PetalburgWoods_EventScript_15CE4D
 	end
 
 PetalburgWoods_EventScript_15CE4D:: @ 815CE4D
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsRustboroWarning
+	.else
 	msgbox PetalburgWoods_Text_19510A, MSGBOX_DEFAULT
+	.endif
 	applymovement 4, PetalburgWoods_Movement_15CEA8
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsCrisis
+	.else
 	msgbox PetalburgWoods_Text_195153, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	return
 
@@ -231,18 +295,30 @@ PetalburgWoods_Movement_15CEC8:: @ 815CEC8
 	step_end
 
 PetalburgWoods_EventScript_15CECA:: @ 815CECA
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsAvoidGrass
+	.else
 	msgbox PetalburgWoods_Text_1953AC, MSGBOX_NPC
+	.endif
 	end
 
 PetalburgWoods_EventScript_15CED3:: @ 815CED3
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsHiddenItems
+	.else
 	msgbox PetalburgWoods_Text_19542B, MSGBOX_NPC
+	.endif
 	end
 
 PetalburgWoods_EventScript_15CEDC:: @ 815CEDC
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_MIRACLE_SEED, PetalburgWoods_EventScript_15CF0B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsMiracleSeedGift
+	.else
 	msgbox PetalburgWoods_Text_19549E, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_MIRACLE_SEED
 	compare VAR_RESULT, 0
 	goto_if_eq Common_EventScript_ShowBagIsFull
@@ -251,16 +327,28 @@ PetalburgWoods_EventScript_15CEDC:: @ 815CEDC
 	end
 
 PetalburgWoods_EventScript_15CF0B:: @ 815CF0B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsMiracleSeedInfo
+	.else
 	msgbox PetalburgWoods_Text_195503, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 PetalburgWoods_EventScript_15CF15:: @ 815CF15
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsExperienceTip
+	.else
 	msgbox PetalburgWoods_Text_1955B0, MSGBOX_SIGN
+	.endif
 	end
 
 PetalburgWoods_EventScript_15CF1E:: @ 815CF1E
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_WoodsPowerPointsTip
+	.else
 	msgbox PetalburgWoods_Text_1956A6, MSGBOX_SIGN
+	.endif
 	end
 
 PetalburgWoods_EventScript_15CF27:: @ 815CF27

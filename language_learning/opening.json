@@ -6058,6 +6058,1204 @@
           ]
         ]
       }
+    },
+    {
+      "id": "WoodsSearch",
+      "base_symbol": "PetalburgWoods_Text_194D71",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Хм... Здесь ничего нет..."
+        ],
+        "A2": [
+          "Хм... Ничего не могу найти..."
+        ],
+        "natural": [
+          "Хм... Ни одного не видно..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hm... Hier ist nichts..."
+        ],
+        "A2": [
+          "Hm... Ich kann nichts finden..."
+        ],
+        "natural": [
+          "Hm... Kein einziges ist zu finden..."
+        ]
+      },
+      "english": [
+        "The Devon researcher cannot find what he is looking for."
+      ],
+      "words": {
+        "ru": [
+          [
+            "искать",
+            "to search"
+          ]
+        ],
+        "de": [
+          [
+            "suchen",
+            "to search"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsShroomish",
+      "base_symbol": "PetalburgWoods_Text_194D92",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Привет! Ты видел здесь ШРУМИША? Я люблю этого покемона."
+        ],
+        "A2": [
+          "Привет! Ты видел здесь покемона по имени ШРУМИШ? Он мне очень нравится."
+        ],
+        "natural": [
+          "Здравствуйте! Вы не встречали здесь ШРУМИША? Я просто обожаю этого покемона."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo! Hast du hier KNILZ gesehen? Ich mag dieses Pokémon."
+        ],
+        "A2": [
+          "Hallo! Hast du hier ein Pokémon namens KNILZ gesehen? Ich mag es sehr."
+        ],
+        "natural": [
+          "Hallo! Ist dir hier ein KNILZ begegnet? Ich liebe dieses Pokémon einfach."
+        ]
+      },
+      "english": [
+        "The researcher asks whether the player has seen a Shroomish."
+      ],
+      "words": {
+        "ru": [
+          [
+            "встречать",
+            "to encounter"
+          ]
+        ],
+        "de": [
+          [
+            "begegnen",
+            "to encounter"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsAmbush",
+      "base_symbol": "PetalburgWoods_Text_194DED",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Я хотел напасть, но ты долго шёл. Мне надоело ждать!"
+        ],
+        "A2": [
+          "Я хотел устроить засаду, но ты слишком долго бродил по лесу. Я устал ждать!"
+        ],
+        "natural": [
+          "Я собирался напасть из засады, но ты целую вечность плутал по ПЕТАЛБУРГСКОМУ ЛЕСУ. Надоело ждать, поэтому я пришёл сам!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich wollte dich überfallen, aber du warst zu langsam. Das Warten reicht!"
+        ],
+        "A2": [
+          "Ich wollte dir auflauern, doch du warst ewig im Wald. Ich hatte das Warten satt!"
+        ],
+        "natural": [
+          "Ich wollte dir auflauern, aber du hast im BLÜTENBURG-WALD ewig getrödelt. Das Warten wurde mir zu viel, also bin ich hier!"
+        ]
+      },
+      "english": [
+        "A Team Aqua grunt reveals an attempted ambush."
+      ],
+      "words": {
+        "ru": [
+          [
+            "засада",
+            "ambush"
+          ]
+        ],
+        "de": [
+          [
+            "der Hinterhalt",
+            "ambush"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsDemand",
+      "base_symbol": "PetalburgWoods_Text_194E6B",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Ты, исследователь ДЕВОНА! Отдай бумаги!"
+        ],
+        "A2": [
+          "Эй, исследователь ДЕВОНА! Отдай эти документы!"
+        ],
+        "natural": [
+          "Ты! Исследователь ДЕВОНА! Немедленно передай документы!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du, DEVON-Forscher! Gib die Papiere her!"
+        ],
+        "A2": [
+          "He, DEVON-Forscher! Übergib die Unterlagen!"
+        ],
+        "natural": [
+          "Du da, DEVON-Forscher! Rück sofort die Unterlagen heraus!"
+        ]
+      },
+      "english": [
+        "The grunt demands the Devon research papers."
+      ],
+      "words": {
+        "ru": [
+          [
+            "документы",
+            "documents"
+          ]
+        ],
+        "de": [
+          [
+            "die Unterlagen",
+            "documents"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsHelp",
+      "base_symbol": "PetalburgWoods_Text_194E9A",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Ай! Ты тренер покемонов? Помоги мне!"
+        ],
+        "A2": [
+          "Ой! Ты ведь тренер покемонов? Пожалуйста, помоги мне!"
+        ],
+        "natural": [
+          "Ай! Ты же тренер покемонов, верно? Прошу, помоги мне!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ah! Du bist Trainer, oder? Hilf mir!"
+        ],
+        "A2": [
+          "Ah! Du bist doch Pokémon-Trainer? Bitte hilf mir!"
+        ],
+        "natural": [
+          "Auweia! Du bist ein Pokémon-Trainer, nicht wahr? Bitte hilf mir!"
+        ]
+      },
+      "english": [
+        "The researcher asks the player for protection."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помогать",
+            "to help"
+          ]
+        ],
+        "de": [
+          [
+            "helfen",
+            "to help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsChallenge",
+      "base_symbol": "PetalburgWoods_Text_194EE8",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Что ты делаешь? Хочешь его защитить? КОМАНДА АКВА тебя не пощадит! Сражайся!"
+        ],
+        "A2": [
+          "Что ты задумал? Будешь его защищать? КОМАНДА АКВА никого не щадит, даже детей. Давай сразимся!"
+        ],
+        "natural": [
+          "Что это ты делаешь? Решил его защитить? Тот, кто встаёт на пути КОМАНДЫ АКВА, пощады не получит, даже ребёнок! Выходи на бой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was tust du? Willst du ihn schützen? TEAM AQUA verschont dich nicht! Kämpfe!"
+        ],
+        "A2": [
+          "Was hast du vor? Du willst ihn schützen? TEAM AQUA zeigt keine Gnade, auch Kindern nicht. Kämpfen wir!"
+        ],
+        "natural": [
+          "Was glaubst du, was du da tust? Willst du ihn beschützen? Wer sich TEAM AQUA entgegenstellt, erfährt keine Gnade, nicht einmal ein Kind! Kämpf mit mir!"
+        ]
+      },
+      "english": [
+        "The grunt challenges the player for protecting the researcher."
+      ],
+      "words": {
+        "ru": [
+          [
+            "пощада",
+            "mercy"
+          ]
+        ],
+        "de": [
+          [
+            "die Gnade",
+            "mercy"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsGruntDefeat",
+      "base_symbol": "PetalburgWoods_Text_194F83",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Не может быть! Ты сильный!"
+        ],
+        "A2": [
+          "Ты шутишь! Ты очень сильный!"
+        ],
+        "natural": [
+          "Да ладно! Вот это сила!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das kann nicht sein! Du bist stark!"
+        ],
+        "A2": [
+          "Das ist doch ein Witz! Du bist wirklich stark!"
+        ],
+        "natural": [
+          "Das darf nicht wahr sein! Du bist ganz schön stark!"
+        ]
+      },
+      "english": [
+        "The defeated grunt admits the player is strong."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сильный",
+            "strong"
+          ]
+        ],
+        "de": [
+          [
+            "stark",
+            "strong"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsGruntRetreat",
+      "base_symbol": "PetalburgWoods_Text_194FA4",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Не мешай КОМАНДЕ АКВА! У меня больше нет покемонов. Мы ищем кое-что в РАСТБОРО. Сегодня я уйду!"
+        ],
+        "A2": [
+          "Не лезь в дела КОМАНДЫ АКВА! Я бы снова сразился, но покемонов не осталось. Нам ещё нужно кое-что в РАСТБОРО. Сегодня я тебя отпущу!"
+        ],
+        "natural": [
+          "Гр-р... Хватило же тебе смелости вмешаться в дела КОМАНДЫ АКВА! Я бы вызвал тебя снова, но покемоны кончились. К тому же нас интересует кое-что в РАСТБОРО. Сегодня тебе повезло!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Misch dich nicht bei TEAM AQUA ein! Ich habe keine Pokémon mehr. Wir suchen etwas in METAROST. Heute gehe ich!"
+        ],
+        "A2": [
+          "Misch dich nicht in die Pläne von TEAM AQUA ein! Ich würde erneut kämpfen, aber mir fehlen Pokémon. In METAROST suchen wir auch etwas. Heute lasse ich dich gehen!"
+        ],
+        "natural": [
+          "Grr... Du hast Nerven, dich mit TEAM AQUA anzulegen! Ich würde dich gern erneut fordern, doch mir sind die Pokémon ausgegangen. Außerdem suchen wir etwas in METAROST. Heute lasse ich dich davonkommen!"
+        ]
+      },
+      "english": [
+        "The grunt retreats and mentions another objective in Rustboro."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вмешиваться",
+            "to interfere"
+          ]
+        ],
+        "de": [
+          [
+            "sich einmischen",
+            "to interfere"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsReward",
+      "base_symbol": "PetalburgWoods_Text_19507E",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Фух! Ты спас мои бумаги. Спасибо! Возьми СУПЕРБОЛ."
+        ],
+        "A2": [
+          "Фух, было опасно! Благодаря тебе мои важные документы целы. В благодарность дам тебе СУПЕРБОЛ."
+        ],
+        "natural": [
+          "Фух... Ещё немного, и он украл бы важные документы! Спасибо тебе. Прими в благодарность СУПЕРБОЛ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puh! Du hast meine Unterlagen gerettet. Danke! Nimm einen SUPERBALL."
+        ],
+        "A2": [
+          "Puh, das war knapp! Dank dir sind meine wichtigen Unterlagen sicher. Als Dank bekommst du einen SUPERBALL."
+        ],
+        "natural": [
+          "Puh... Das war äußerst knapp! Dank dir konnte er mir diese wichtigen Unterlagen nicht rauben. Als Dank schenke ich dir einen SUPERBALL!"
+        ]
+      },
+      "english": [
+        "The researcher rewards the player with a Great Ball."
+      ],
+      "words": {
+        "ru": [
+          [
+            "награда",
+            "reward"
+          ]
+        ],
+        "de": [
+          [
+            "die Belohnung",
+            "reward"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsRustboroWarning",
+      "base_symbol": "PetalburgWoods_Text_19510A",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Этот бандит сказал, что КОМАНДА АКВА ищет что-то в РАСТБОРО?"
+        ],
+        "A2": [
+          "Разве бандит из КОМАНДЫ АКВА не сказал, что им нужно что-то в РАСТБОРО?"
+        ],
+        "natural": [
+          "Тот головорез из КОМАНДЫ АКВА сказал, что они охотятся за чем-то и в РАСТБОРО, верно?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sagte der Gauner nicht, TEAM AQUA suche etwas in METAROST?"
+        ],
+        "A2": [
+          "Hat der Schurke von TEAM AQUA nicht gesagt, sie suchten auch etwas in METAROST?"
+        ],
+        "natural": [
+          "Hat dieser TEAM-AQUA-Gauner nicht erwähnt, dass sie auch in METAROST hinter etwas her sind?"
+        ]
+      },
+      "english": [
+        "The researcher recalls the threat to Rustboro."
+      ],
+      "words": {
+        "ru": [
+          [
+            "угроза",
+            "threat"
+          ]
+        ],
+        "de": [
+          [
+            "die Bedrohung",
+            "threat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsCrisis",
+      "base_symbol": "PetalburgWoods_Text_195153",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "О нет! Это беда! Нельзя терять время!"
+        ],
+        "A2": [
+          "О нет, это кризис! Я не могу терять время!"
+        ],
+        "natural": [
+          "Вот беда! Похоже, начался кризис. Нельзя терять ни минуты!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh nein! Eine Krise! Keine Zeit verlieren!"
+        ],
+        "A2": [
+          "Oh nein, das ist eine Krise! Ich darf keine Zeit verlieren!"
+        ],
+        "natural": [
+          "Oje! Das ist eine Krise! Jetzt darf ich wirklich keine Zeit vergeuden!"
+        ]
+      },
+      "english": [
+        "The researcher rushes toward Rustboro."
+      ],
+      "words": {
+        "ru": [
+          [
+            "кризис",
+            "crisis"
+          ]
+        ],
+        "de": [
+          [
+            "die Krise",
+            "crisis"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsBagFull",
+      "base_symbol": "PetalburgWoods_Text_195182",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Твоя сумка полна. Я не могу дать тебе СУПЕРБОЛ."
+        ],
+        "A2": [
+          "У тебя слишком много вещей. Я пока не могу отдать СУПЕРБОЛ."
+        ],
+        "natural": [
+          "Твоя сумка забита вещами. Я не смогу вручить тебе этот СУПЕРБОЛ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Beutel ist voll. Ich kann dir den SUPERBALL nicht geben."
+        ],
+        "A2": [
+          "Du trägst zu viele Items. So kann ich dir den SUPERBALL nicht geben."
+        ],
+        "natural": [
+          "Dein Beutel ist völlig voll. Daher kann ich dir diesen SUPERBALL nicht überreichen."
+        ]
+      },
+      "english": [
+        "The researcher explains that the player's Bag is full."
+      ],
+      "words": {
+        "ru": [
+          [
+            "полный",
+            "full"
+          ]
+        ],
+        "de": [
+          [
+            "voll",
+            "full"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsAvoidGrass",
+      "base_symbol": "PetalburgWoods_Text_1953AC",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Твои покемоны здоровы? Если они слабы и ты не хочешь боя, не ходи по высокой траве."
+        ],
+        "A2": [
+          "Как твои покемоны? Если они ослабли и ты хочешь избежать боя, держись подальше от высокой травы."
+        ],
+        "natural": [
+          "Эй! Твои покемоны в порядке? Если они ослабли и ты хочешь избежать сражений, лучше не заходи в высокую траву."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Geht es deinen Pokémon gut? Sind sie schwach, meide hohes Gras und Kämpfe."
+        ],
+        "A2": [
+          "Wie geht es deinen Pokémon? Sind sie schwach und du willst Kämpfe vermeiden, bleib aus hohem Gras."
+        ],
+        "natural": [
+          "Na, alles klar? Geht es deinen Pokémon gut? Sind sie geschwächt und du möchtest Kämpfe vermeiden, solltest du hohes Gras meiden."
+        ]
+      },
+      "english": [
+        "A resident explains how to avoid wild battles."
+      ],
+      "words": {
+        "ru": [
+          [
+            "избегать",
+            "to avoid"
+          ]
+        ],
+        "de": [
+          [
+            "meiden",
+            "to avoid"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsHiddenItems",
+      "base_symbol": "PetalburgWoods_Text_19542B",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Иногда на земле лежат невидимые вещи. Поэтому я смотрю под ноги."
+        ],
+        "A2": [
+          "Иногда предмет лежит на земле, хотя его не видно. Поэтому я всегда проверяю дорогу."
+        ],
+        "natural": [
+          "На земле иногда прячутся невидимые предметы. Поэтому я всегда внимательно проверяю, куда ступаю."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Manchmal liegen unsichtbare Items am Boden. Darum prüfe ich meinen Weg."
+        ],
+        "A2": [
+          "Manchmal liegt etwas am Boden, obwohl man es nicht sieht. Darum prüfe ich jeden Schritt."
+        ],
+        "natural": [
+          "Manchmal liegen Dinge auf dem Boden, obwohl sie unsichtbar sind. Deshalb prüfe ich immer genau, wohin ich trete."
+        ]
+      },
+      "english": [
+        "A resident teaches the player about hidden items."
+      ],
+      "words": {
+        "ru": [
+          [
+            "невидимый",
+            "invisible"
+          ]
+        ],
+        "de": [
+          [
+            "unsichtbar",
+            "invisible"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsMiracleSeedGift",
+      "base_symbol": "PetalburgWoods_Text_19549E",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "О, у тебя ЗНАЧОК РАСТБОРО! Ты тренер. Попробуй этот предмет."
+        ],
+        "A2": [
+          "О, это ЗНАЧОК СТАДИОНА РАСТБОРО! Значит, ты тренер. Попробуй воспользоваться этим предметом."
+        ],
+        "natural": [
+          "О, это же ЗНАЧОК СТАДИОНА РАСТБОРО! Значит, ты тренер. Тогда попробуй применить этот предмет."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, der ORDEN aus METAROST! Du bist Trainer. Probier dieses Item."
+        ],
+        "A2": [
+          "Oh, das ist der ORDEN der METAROST-ARENA! Du bist also Trainer. Probier dieses Item aus."
+        ],
+        "natural": [
+          "Oh, das ist ja der ORDEN der METAROST-ARENA! Du bist also Trainer. Dann solltest du dieses Item ausprobieren."
+        ]
+      },
+      "english": [
+        "A resident recognizes the Stone Badge and offers an item."
+      ],
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsMiracleSeedInfo",
+      "base_symbol": "PetalburgWoods_Text_195503",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "Это ЧУДО-СЕМЯ. Если покемон держит его, травяные атаки сильнее."
+        ],
+        "A2": [
+          "Это ЧУДО-СЕМЯ. Когда покемон держит его, атаки травяного типа становятся сильнее. Есть и другие полезные предметы."
+        ],
+        "natural": [
+          "Это ЧУДО-СЕМЯ. У держащего его покемона усиливаются атаки травяного типа. Существуют и другие полезные предметы, которые покемоны могут держать."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist WUNDERSAAT. Trägt ein Pokémon sie, werden Pflanzen-Attacken stärker."
+        ],
+        "A2": [
+          "Das ist WUNDERSAAT. Wenn ein Pokémon sie trägt, werden Pflanzen-Attacken stärker. Es gibt weitere nützliche Items."
+        ],
+        "natural": [
+          "Das ist WUNDERSAAT. Trägt ein Pokémon dieses Item, werden seine Pflanzen-Attacken stärker. Es gibt noch andere nützliche Items zum Tragen."
+        ]
+      },
+      "english": [
+        "A resident explains held items and the Miracle Seed."
+      ],
+      "words": {
+        "ru": [
+          [
+            "семя",
+            "seed"
+          ]
+        ],
+        "de": [
+          [
+            "die Saat",
+            "seed"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsExperienceTip",
+      "base_symbol": "PetalburgWoods_Text_1955B0",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "СОВЕТ ТРЕНЕРУ. Покемон получает опыт, если участвовал в бою. Слабого покемона поставь первым, а потом замени."
+        ],
+        "A2": [
+          "СОВЕТ ТРЕНЕРУ. Каждый покемон, появившийся в бою, получает опыт. Чтобы растить слабого, поставь его первым и сразу замени."
+        ],
+        "natural": [
+          "СОВЕТ ТРЕНЕРУ. Любой покемон, хотя бы раз вышедший в бой, получает очки опыта. Поставь слабого первым и сразу замени: он получит опыт без риска."
+        ]
+      },
+      "de": {
+        "A1": [
+          "TRAINER-TIPP. Ein Pokémon erhält EP, wenn es am Kampf teilnimmt. Setz ein schwaches zuerst ein und wechsle es aus."
+        ],
+        "A2": [
+          "TRAINER-TIPP. Jedes Pokémon, das im Kampf erscheint, erhält EP. Setz ein schwaches zuerst ein und wechsle sofort."
+        ],
+        "natural": [
+          "TRAINER-TIPP. Jedes Pokémon, das auch nur einmal im Kampf erscheint, erhält EP. Setze ein schwaches an die Spitze und wechsle es sofort aus, damit es ohne Risiko lernt."
+        ]
+      },
+      "english": [
+        "The sign explains experience sharing through switching."
+      ],
+      "words": {
+        "ru": [
+          [
+            "опыт",
+            "experience"
+          ]
+        ],
+        "de": [
+          [
+            "die Erfahrung",
+            "experience"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WoodsPowerPointsTip",
+      "base_symbol": "PetalburgWoods_Text_1956A6",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "ru": {
+        "A1": [
+          "СОВЕТ ТРЕНЕРУ. Кроме ОЗ у приёмов есть ОП. Если ОП кончились, иди в ЦЕНТР ПОКЕМОНОВ."
+        ],
+        "A2": [
+          "СОВЕТ ТРЕНЕРУ. Кроме очков здоровья у покемонов есть очки приёмов. Когда ОП заканчиваются, отведи покемона в ЦЕНТР ПОКЕМОНОВ."
+        ],
+        "natural": [
+          "СОВЕТ ТРЕНЕРУ. Помимо очков здоровья у приёмов покемона есть очки приёмов. Если ОП закончились, восстанови их в ЦЕНТРЕ ПОКЕМОНОВ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "TRAINER-TIPP. Neben KP gibt es AP für Attacken. Sind AP leer, geh zum POKéMON-CENTER."
+        ],
+        "A2": [
+          "TRAINER-TIPP. Neben Kraftpunkten haben Attacken Aktionspunkte. Sind die AP aufgebraucht, geh zum POKéMON-CENTER."
+        ],
+        "natural": [
+          "TRAINER-TIPP. Zusätzlich zu den Kraftpunkten besitzen Pokémon Aktionspunkte für ihre Attacken. Sind die AP aufgebraucht, müssen sie im POKéMON-CENTER erholt werden."
+        ]
+      },
+      "english": [
+        "The sign explains PP and recovery at a Pokémon Center."
+      ],
+      "words": {
+        "ru": [
+          [
+            "приём",
+            "move"
+          ]
+        ],
+        "de": [
+          [
+            "die Attacke",
+            "move"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LyleIntro",
+      "base_symbol": "PetalburgWoods_Text_1951BE",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я поймал много покемонов! Вперёд, моя команда жуков!"
+        ],
+        "A2": [
+          "Я поймал целую кучу покемонов! Вперёд, моя команда покемонов-жуков!"
+        ],
+        "natural": [
+          "Я наловил множество покемонов! Вперёд, вперёд, моя команда покемонов-жуков!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich fing viele Pokémon! Los, mein Käfer-Team!"
+        ],
+        "A2": [
+          "Ich habe eine ganze Menge Pokémon gefangen! Los, mein Team aus Käfer-Pokémon!"
+        ],
+        "natural": [
+          "Ich habe einen ganzen Haufen Pokémon gefangen! Los, los, los, mein Käfer-Pokémon-Team!"
+        ]
+      },
+      "english": [
+        "Bug Catcher Lyle sends out his bug team."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ловить",
+            "to catch"
+          ]
+        ],
+        "de": [
+          [
+            "fangen",
+            "to catch"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LyleDefeat",
+      "base_symbol": "PetalburgWoods_Text_195202",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "У меня много покемонов, но я проиграл..."
+        ],
+        "A2": [
+          "У меня столько покемонов, а победить не получилось..."
+        ],
+        "natural": [
+          "Столько покемонов, а победить всё равно не удалось..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe viele Pokémon, aber verlor..."
+        ],
+        "A2": [
+          "Ich habe so viele Pokémon und konnte trotzdem nicht gewinnen..."
+        ],
+        "natural": [
+          "Ich besitze all diese Pokémon und konnte trotzdem nicht gewinnen..."
+        ]
+      },
+      "english": [
+        "Lyle is surprised that many Pokémon did not ensure victory."
+      ],
+      "words": {
+        "ru": [
+          [
+            "проигрывать",
+            "to lose"
+          ]
+        ],
+        "de": [
+          [
+            "verlieren",
+            "to lose"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "LyleAfter",
+      "base_symbol": "PetalburgWoods_Text_195232",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я поймал много покемонов. Теперь у меня нет ПОКЕБОЛОВ."
+        ],
+        "A2": [
+          "Я поймал много покемонов, и теперь мои ПОКЕБОЛЫ закончились."
+        ],
+        "natural": [
+          "Я наловил целую кучу покемонов, зато теперь остался совсем без ПОКЕБОЛОВ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich fing viele Pokémon. Jetzt habe ich keine POKéBÄLLE mehr."
+        ],
+        "A2": [
+          "Ich habe viele Pokémon gefangen. Nun sind meine POKéBÄLLE aufgebraucht."
+        ],
+        "natural": [
+          "Ich habe einen Haufen Pokémon gefangen und nun keinen einzigen POKéBALL mehr übrig."
+        ]
+      },
+      "english": [
+        "Lyle has used all of his Poké Balls."
+      ],
+      "words": {
+        "ru": [
+          [
+            "заканчиваться",
+            "to run out"
+          ]
+        ],
+        "de": [
+          [
+            "ausgehen",
+            "to run out"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JamesIntro",
+      "base_symbol": "PetalburgWoods_Text_19526A",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Возьмёшь покемона-жука в школу - станешь популярным!"
+        ],
+        "A2": [
+          "Если принести покемона-жука в школу, сразу станешь популярным!"
+        ],
+        "natural": [
+          "Стоит взять покемона-жука в школу, и популярность тебе обеспечена!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nimm ein Käfer-Pokémon mit zur Schule, dann wirst du beliebt!"
+        ],
+        "A2": [
+          "Wenn du ein Käfer-Pokémon zur Schule mitnimmst, wirst du sofort beliebt!"
+        ],
+        "natural": [
+          "Nimmt man ein Käfer-Pokémon mit in die Schule, ist man sofort beliebt!"
+        ]
+      },
+      "english": [
+        "Bug Catcher James wants popularity at school."
+      ],
+      "words": {
+        "ru": [
+          [
+            "популярный",
+            "popular"
+          ]
+        ],
+        "de": [
+          [
+            "beliebt",
+            "popular"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JamesDefeat",
+      "base_symbol": "PetalburgWoods_Text_1952AE",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Если я проигрываю, популярным мне не стать."
+        ],
+        "A2": [
+          "Я не стану популярным, если буду проигрывать."
+        ],
+        "natural": [
+          "С такими поражениями о популярности можно забыть."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn ich verliere, werde ich nicht beliebt."
+        ],
+        "A2": [
+          "Ich kann nicht beliebt sein, wenn ich verliere."
+        ],
+        "natural": [
+          "Mit solchen Niederlagen kann ich die Beliebtheit vergessen."
+        ]
+      },
+      "english": [
+        "James worries that losing will hurt his popularity."
+      ],
+      "words": {
+        "ru": [
+          [
+            "популярность",
+            "popularity"
+          ]
+        ],
+        "de": [
+          [
+            "die Beliebtheit",
+            "popularity"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JamesAfter",
+      "base_symbol": "PetalburgWoods_Text_1952CC",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "За большого покемона-жука тебя уважают."
+        ],
+        "A2": [
+          "Если у тебя большой покемон-жук, люди тебя уважают."
+        ],
+        "natural": [
+          "Люди уважают тренера с большим покемоном-жуком."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit einem großen Käfer-Pokémon wirst du respektiert."
+        ],
+        "A2": [
+          "Wenn du ein großes Käfer-Pokémon hast, respektieren dich die Leute."
+        ],
+        "natural": [
+          "Mit einem großen Käfer-Pokémon verschafft man sich bei den Leuten Respekt."
+        ]
+      },
+      "english": [
+        "James says a large bug Pokémon earns respect."
+      ],
+      "words": {
+        "ru": [
+          [
+            "уважать",
+            "to respect"
+          ]
+        ],
+        "de": [
+          [
+            "respektieren",
+            "to respect"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JamesRematch",
+      "base_symbol": "PetalburgWoods_Text_195306",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мои покемоны-жуки выросли. Я снова стану популярным."
+        ],
+        "A2": [
+          "Мои покемоны-жуки стали сильнее. Теперь я снова буду популярным."
+        ],
+        "natural": [
+          "Мои покемоны-жуки подросли. Теперь моя популярность вернётся!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Käfer-Pokémon sind gewachsen. Ich werde wieder beliebt."
+        ],
+        "A2": [
+          "Meine Käfer-Pokémon sind stärker geworden. Jetzt werde ich wieder beliebt."
+        ],
+        "natural": [
+          "Meine Käfer-Pokémon sind gewachsen. Jetzt werde ich wieder beliebt sein!"
+        ]
+      },
+      "english": [
+        "James returns with stronger bug Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вырастать",
+            "to grow"
+          ]
+        ],
+        "de": [
+          [
+            "wachsen",
+            "to grow"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JamesRematchDefeat",
+      "base_symbol": "PetalburgWoods_Text_195338",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Если я проигрываю, популярным мне не стать."
+        ],
+        "A2": [
+          "Я не стану популярным, если буду проигрывать."
+        ],
+        "natural": [
+          "С такими поражениями о популярности можно забыть."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn ich verliere, werde ich nicht beliebt."
+        ],
+        "A2": [
+          "Ich kann nicht beliebt sein, wenn ich verliere."
+        ],
+        "natural": [
+          "Mit solchen Niederlagen kann ich die Beliebtheit vergessen."
+        ]
+      },
+      "english": [
+        "James again worries that losing hurts his popularity."
+      ],
+      "words": {
+        "ru": [
+          [
+            "поражение",
+            "defeat"
+          ]
+        ],
+        "de": [
+          [
+            "die Niederlage",
+            "defeat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JamesRematchAfter",
+      "base_symbol": "PetalburgWoods_Text_195356",
+      "source_path": "data/maps/PetalburgWoods/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "С сильными покемонами станешь популярным, да? Поэтому я много тренируюсь."
+        ],
+        "A2": [
+          "Сильные покемоны делают тебя популярным, правда? Поэтому я усердно тренировался."
+        ],
+        "natural": [
+          "С сильными покемонами легко стать популярным, верно? Вот почему я так упорно тренировался."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit starken Pokémon wird man beliebt, oder? Darum trainiere ich viel."
+        ],
+        "A2": [
+          "Mit starken Pokémon wirst du beliebt, oder? Deshalb habe ich hart trainiert."
+        ],
+        "natural": [
+          "Starke Pokémon machen einen beliebt, nicht wahr? Deshalb habe ich so hart trainiert."
+        ]
+      },
+      "english": [
+        "James explains why he has trained hard."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тренироваться",
+            "to train"
+          ]
+        ],
+        "de": [
+          [
+            "trainieren",
+            "to train"
+          ]
+        ]
+      }
     }
   ]
 }

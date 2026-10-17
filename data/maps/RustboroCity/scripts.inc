@@ -12,36 +12,60 @@ RustboroCity_EventScript_FatMan:: @ 814C386
 	lock
 	faceplayer
 	goto_if_set FLAG_DEVON_GOODS_STOLEN, RustboroCity_EventScript_FatManSawGrunt
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroDevonName
+	.else
 	msgbox RustboroCity_Text_WeShortenItToDevon, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_EventScript_FatManSawGrunt:: @ 814C39B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroCornerHint
+	.else
 	msgbox RustboroCity_Text_SneakyLookingManWentAroundCorner, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_EventScript_DevonEmployee2:: @ 814C3A5
 	lock
 	faceplayer
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroNewStudent
+	.else
 	msgbox RustboroCity_Text_YoureNewAroundHere, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_EventScript_Woman:: @ 814C3B1
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroFireVsRock
+	.else
 	msgbox RustboroCity_Text_GymLeaderIsntEasyWithFire, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_EventScript_Man1:: @ 814C3BA
 	lock
 	faceplayer
 	goto_if_set FLAG_BADGE01_GET, RustboroCity_EventScript_Man1HaveBadge
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroGymQuestion
+	.else
 	msgbox RustboroCity_Text_HaveYouChallengedGym, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_EventScript_Man1HaveBadge:: @ 814C3CF
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroBadgePraise
+	.else
 	msgbox RustboroCity_Text_HeyThatsRustborosGymBadge, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -49,55 +73,103 @@ RustboroCity_EventScript_Boy2:: @ 814C3D9
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_POKENAV, RustboroCity_EventScript_Boy2BrineyLeftTunnel
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroBrineyTunnel
+	.else
 	msgbox RustboroCity_Text_MrBrineyWalksInTheTunnel, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_EventScript_Boy2BrineyLeftTunnel:: @ 814C3EE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroBrineyPeeko
+	.else
 	msgbox RustboroCity_Text_MrBrineyLovesPeeko, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_EventScript_Twin:: @ 814C3F8
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroPokemonDream
+	.else
 	msgbox RustboroCity_Text_WowYouHavePokemon, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_EventScript_NinjaBoy:: @ 814C401
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroRarePokemonSchool
+	.else
 	msgbox RustboroCity_Text_CatchRarePokemonIfIGoToSchool, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_TunnelSign:: @ 814C40A
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroTunnelSign
+	.else
 	msgbox RustboroCity_Text_TunnelNearingCompletion, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_DevonCorpSign:: @ 814C413
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroDevonSign
+	.else
 	msgbox RustboroCity_Text_DevonCorpSign, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_GymSign:: @ 814C41C
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroGymSign
+	.else
 	msgbox RustboroCity_Text_GymSign, MSGBOX_SIGN
+	.endif
 	end
 
-@ 814C425
+RustboroCity_EventScript_DevonCorpBranchOfficeSign:: @ 814C425
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroBranchSign
+	.else
 	msgbox RustboroCity_Text_DevonCorpBranchOfficeSign, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_CitySign:: @ 814C42E
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroCitySign
+	.else
 	msgbox RustboroCity_Text_CitySign, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_TrainersSchoolSign:: @ 814C437
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroSchoolSign
+	.else
 	msgbox RustboroCity_Text_TrainersSchoolSign, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_CuttersHouseSign:: @ 814C440
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroCutterSign
+	.else
 	msgbox RustboroCity_Text_CuttersHouse, MSGBOX_SIGN
+	.endif
 	end
 
 RustboroCity_EventScript_LittleBoy:: @ 814C449
 	lock
 	faceplayer
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroEvolutionExperience
+	.else
 	msgbox RustboroCity_Text_PokemonCanChangeLookFromExp, MSGBOX_DEFAULT
+	.endif
 	applymovement 7, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
@@ -106,7 +178,11 @@ RustboroCity_EventScript_LittleBoy:: @ 814C449
 RustboroCity_EventScript_LittleGirl:: @ 814C45F
 	lock
 	faceplayer
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroEvolutionSurprise
+	.else
 	msgbox RustboroCity_Text_PokemonChangeShape, MSGBOX_DEFAULT
+	.endif
 	applymovement 8, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
@@ -115,7 +191,11 @@ RustboroCity_EventScript_LittleGirl:: @ 814C45F
 RustboroCity_EventScript_Man2:: @ 814C475
 	lock
 	faceplayer
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroTradedPokemon
+	.else
 	msgbox RustboroCity_Text_TradePokemonGrowFast, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 

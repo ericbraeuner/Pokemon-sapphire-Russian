@@ -7830,6 +7830,886 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RustboroDevonName",
+      "base_symbol": "RustboroCity_Text_WeShortenItToDevon",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "КОРПОРАЦИЮ ДЕВОН зовут просто ДЕВОН. Она делает полезные вещи."
+        ],
+        "A2": [
+          "КОРПОРАЦИЮ ДЕВОН обычно называют просто ДЕВОН. Она производит много полезных вещей."
+        ],
+        "natural": [
+          "КОРПОРАЦИЮ ДЕВОН все зовут просто ДЕВОН. Она делает много полезных вещей."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Alle nennen die DEVON CORPORATION kurz DEVON. Sie macht nützliche Dinge."
+        ],
+        "A2": [
+          "Die DEVON CORPORATION wird meist kurz DEVON genannt. Sie stellt viele nützliche Dinge her."
+        ],
+        "natural": [
+          "Die DEVON CORPORATION nennen alle einfach DEVON. Sie fertigt viele nützliche Dinge."
+        ]
+      },
+      "english": [
+        "A resident explains the shortened Devon Corporation name."
+      ],
+      "words": {
+        "ru": [
+          [
+            "корпорация",
+            "corporation"
+          ]
+        ],
+        "de": [
+          [
+            "die Firma",
+            "company"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroCornerHint",
+      "base_symbol": "RustboroCity_Text_SneakyLookingManWentAroundCorner",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Подозрительный человек только что скрылся за углом."
+        ],
+        "A2": [
+          "Ты ищешь подозрительного человека? Такой тип только что исчез за углом."
+        ],
+        "natural": [
+          "Подозрительный человек? Да, какой-то тип только что скрылся за углом."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein verdächtiger Mann verschwand gerade um die Ecke."
+        ],
+        "A2": [
+          "Suchst du einen verdächtigen Mann? So ein Typ ist gerade um die Ecke verschwunden."
+        ],
+        "natural": [
+          "Ein verdächtiger Mann? Ja, so ein Typ ist gerade um die Ecke verschwunden."
+        ]
+      },
+      "english": [
+        "A resident points toward the fleeing suspicious man."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подозрительный",
+            "suspicious"
+          ]
+        ],
+        "de": [
+          [
+            "verdächtig",
+            "suspicious"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroGymQuestion",
+      "base_symbol": "RustboroCity_Text_HaveYouChallengedGym",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Ты уже вызвал лидера стадиона? Значок показывает силу тренера."
+        ],
+        "A2": [
+          "Ты уже бросил вызов стадиону? Блестящий значок показывает, чего достиг тренер."
+        ],
+        "natural": [
+          "Ты уже бросил вызов стадиону? Получив блестящий значок, тренер понимает, чего от него требуют."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hast du die Arena herausgefordert? Ein Orden zeigt die Stärke eines Trainers."
+        ],
+        "A2": [
+          "Hast du die Arena schon herausgefordert? Ein glänzender Orden zeigt, was ein Trainer erreicht hat."
+        ],
+        "natural": [
+          "Hast du die Arena herausgefordert? Mit einem glänzenden Orden erkennt ein Trainer, was von ihm verlangt wird."
+        ]
+      },
+      "english": [
+        "A resident asks about challenging the Rustboro Gym."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вызов",
+            "challenge"
+          ]
+        ],
+        "de": [
+          [
+            "die Herausforderung",
+            "challenge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroBadgePraise",
+      "base_symbol": "RustboroCity_Text_HeyThatsRustborosGymBadge",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Это значок стадиона РАСТБОРО! Он очень крутой."
+        ],
+        "A2": [
+          "Эй, это же значок стадиона РАСТБОРО! По-моему, он самый крутой."
+        ],
+        "natural": [
+          "Эй, это значок стадиона РАСТБОРО! По-моему, он самый крутой из всех."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist der Orden von METAROST! Er ist echt cool."
+        ],
+        "A2": [
+          "Hey, das ist ja der Orden von METAROST! Für mich ist er der coolste."
+        ],
+        "natural": [
+          "Hey, das ist der Orden von METAROST! Für mich ist er der coolste von allen."
+        ]
+      },
+      "english": [
+        "A resident admires the player's Stone Badge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroNewStudent",
+      "base_symbol": "RustboroCity_Text_YoureNewAroundHere",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Ты здесь новенький? Ты учишься в школе тренеров?"
+        ],
+        "A2": [
+          "О, новое лицо! Ты недавно поступил в школу тренеров?"
+        ],
+        "natural": [
+          "О? Кто ты? Новое лицо в наших краях. Ты недавно поступил в школу тренеров?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bist du neu hier? Gehst du zur Trainerschule?"
+        ],
+        "A2": [
+          "Oh, ein neues Gesicht! Bist du gerade an die Trainerschule gewechselt?"
+        ],
+        "natural": [
+          "Oh? Wer bist du? Du bist neu hier. Bist du gerade an die Trainerschule gewechselt?"
+        ]
+      },
+      "english": [
+        "A Devon employee wonders whether the player is a new student."
+      ],
+      "words": {
+        "ru": [
+          [
+            "школа",
+            "school"
+          ]
+        ],
+        "de": [
+          [
+            "die Schule",
+            "school"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroFireVsRock",
+      "base_symbol": "RustboroCity_Text_GymLeaderIsntEasyWithFire",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Огненным покемонам трудно победить каменных."
+        ],
+        "A2": [
+          "Я вызвала лидера стадиона, но огненным покемонам трудно против каменных."
+        ],
+        "natural": [
+          "Я вызвал лидера стадиона, но огненным покемонам нелегко победить каменных."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Feuer-Pokémon haben es gegen Gesteins-Pokémon schwer."
+        ],
+        "A2": [
+          "Ich forderte die Arenaleiterin heraus, aber Feuer-Pokémon haben es gegen Gesteins-Pokémon schwer."
+        ],
+        "natural": [
+          "Ich forderte die Arenaleiterin heraus. Mit Feuer-Pokémon ist es schwer gegen Gesteins-Pokémon."
+        ]
+      },
+      "english": [
+        "A trainer explains the Fire-versus-Rock matchup."
+      ],
+      "words": {
+        "ru": [
+          [
+            "камень",
+            "rock"
+          ]
+        ],
+        "de": [
+          [
+            "das Gestein",
+            "rock"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroBrineyTunnel",
+      "base_symbol": "RustboroCity_Text_MrBrineyWalksInTheTunnel",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Мистер БРАЙНИ живёт у моря. Иногда он гуляет в туннеле."
+        ],
+        "A2": [
+          "Старый моряк мистер БРАЙНИ живёт в доме у моря и иногда гуляет в туннеле."
+        ],
+        "natural": [
+          "Старый моряк мистер БРАЙНИ живёт в домике у моря. Иногда он гуляет в туннеле."
+        ]
+      },
+      "de": {
+        "A1": [
+          "MR. BRACK wohnt am Meer. Manchmal geht er im Tunnel spazieren."
+        ],
+        "A2": [
+          "Der alte Seemann MR. BRACK wohnt in einem Haus am Meer und geht manchmal im Tunnel spazieren."
+        ],
+        "natural": [
+          "Der alte Seemann MR. BRACK wohnt in einem Haus am Meer. Manchmal geht er im Tunnel spazieren."
+        ]
+      },
+      "english": [
+        "A boy explains where Mr. Briney lives and walks."
+      ],
+      "words": {
+        "ru": [
+          [
+            "моряк",
+            "sailor"
+          ]
+        ],
+        "de": [
+          [
+            "der Seemann",
+            "sailor"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroBrineyPeeko",
+      "base_symbol": "RustboroCity_Text_MrBrineyLovesPeeko",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Мистер БРАЙНИ живёт у моря и очень любит ПИКО."
+        ],
+        "A2": [
+          "Мистер БРАЙНИ живёт у моря. Он поехал в СЛЕЙТПОРТ за покупками для любимой ПИКО."
+        ],
+        "natural": [
+          "Мистер БРАЙНИ живёт у моря. Он поехал в СЛЕЙТПОРТ за покупками для ПИКО. Старый моряк очень любит ПИКО."
+        ]
+      },
+      "de": {
+        "A1": [
+          "MR. BRACK wohnt am Meer und liebt PEEKO sehr."
+        ],
+        "A2": [
+          "MR. BRACK wohnt am Meer. Er ist nach GRAPHITPORT gefahren, um für seine geliebte PEEKO einzukaufen."
+        ],
+        "natural": [
+          "MR. BRACK wohnt am Meer. Er kauft in GRAPHITPORT für PEEKO ein. Der alte Seebär liebt PEEKO wirklich."
+        ]
+      },
+      "english": [
+        "A boy explains Mr. Briney's affection for Peeko."
+      ],
+      "words": {
+        "ru": [
+          [
+            "любить",
+            "to love"
+          ]
+        ],
+        "de": [
+          [
+            "lieben",
+            "to love"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroPokemonDream",
+      "base_symbol": "RustboroCity_Text_WowYouHavePokemon",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "У тебя есть покемоны! Я тоже хочу путешествовать с ними."
+        ],
+        "A2": [
+          "Ух ты, у тебя тоже есть покемоны! Когда вырасту, я буду путешествовать вместе с ними."
+        ],
+        "natural": [
+          "Ух ты, у тебя тоже есть покемоны! Когда вырасту, тоже буду путешествовать с покемонами."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast Pokémon! Ich will auch mit ihnen reisen."
+        ],
+        "A2": [
+          "Wow, du hast auch Pokémon! Wenn ich groß bin, möchte ich mit ihnen reisen."
+        ],
+        "natural": [
+          "Wow, du hast auch Pokémon! Wenn ich groß bin, reise ich ebenfalls mit Pokémon."
+        ]
+      },
+      "english": [
+        "A child dreams of traveling with Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "путешествовать",
+            "to travel"
+          ]
+        ],
+        "de": [
+          [
+            "reisen",
+            "to travel"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroRarePokemonSchool",
+      "base_symbol": "RustboroCity_Text_CatchRarePokemonIfIGoToSchool",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Если я буду учиться здесь, смогу ловить редких покемонов?"
+        ],
+        "A2": [
+          "Это школа тренеров! Если я буду здесь учиться, смогу легко ловить редких покемонов?"
+        ],
+        "natural": [
+          "ШКОЛА ТРЕНЕРОВ! Если я буду здесь учиться, смогу легко ловить редких покемонов?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kann ich seltene Pokémon fangen, wenn ich hier lerne?"
+        ],
+        "A2": [
+          "Das ist die Trainerschule! Kann ich seltene Pokémon leicht fangen, wenn ich hier lerne?"
+        ],
+        "natural": [
+          "TRAINERSCHULE! Kann ich seltene Pokémon leicht fangen, wenn ich hier lerne?"
+        ]
+      },
+      "english": [
+        "A child wonders whether school makes rare Pokémon easier to catch."
+      ],
+      "words": {
+        "ru": [
+          [
+            "редкий",
+            "rare"
+          ]
+        ],
+        "de": [
+          [
+            "selten",
+            "rare"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroEvolutionExperience",
+      "base_symbol": "RustboroCity_Text_PokemonCanChangeLookFromExp",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "С опытом покемон иногда меняет облик."
+        ],
+        "A2": [
+          "Когда покемон получает опыт в боях, его внешний вид иногда меняется."
+        ],
+        "natural": [
+          "Получая опыт в боях, покемон иногда может изменить свой облик."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit Erfahrung verändert ein Pokémon manchmal sein Aussehen."
+        ],
+        "A2": [
+          "Wenn ein Pokémon Kampferfahrung sammelt, kann sich manchmal sein Aussehen verändern."
+        ],
+        "natural": [
+          "Sammelt ein Pokémon Kampferfahrung, kann sich sein Aussehen verändern."
+        ]
+      },
+      "english": [
+        "A child describes evolution through battle experience."
+      ],
+      "words": {
+        "ru": [
+          [
+            "опыт",
+            "experience"
+          ]
+        ],
+        "de": [
+          [
+            "die Erfahrung",
+            "experience"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroEvolutionSurprise",
+      "base_symbol": "RustboroCity_Text_PokemonChangeShape",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Покемон меняет форму? Вот это сюрприз!"
+        ],
+        "A2": [
+          "Покемон может изменить форму? Это меня очень удивило бы!"
+        ],
+        "natural": [
+          "Покемон меняет форму? Вот это меня удивило бы!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Pokémon verändert seine Form? Was für eine Überraschung!"
+        ],
+        "A2": [
+          "Ein Pokémon kann seine Form verändern? Das würde mich sehr überraschen!"
+        ],
+        "natural": [
+          "Ein Pokémon verändert seine Form? Das würde mich überraschen!"
+        ]
+      },
+      "english": [
+        "A child reacts to the idea of Pokémon evolution."
+      ],
+      "words": {
+        "ru": [
+          [
+            "форма",
+            "form; shape"
+          ]
+        ],
+        "de": [
+          [
+            "die Form",
+            "form; shape"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroTradedPokemon",
+      "base_symbol": "RustboroCity_Text_TradePokemonGrowFast",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Обменный покемон растёт быстро, но без значков может не слушаться."
+        ],
+        "A2": [
+          "Полученный при обмене покемон быстро растёт. Но без нужных значков он может тебя не слушаться."
+        ],
+        "natural": [
+          "Полученный при обмене покемон растёт быстро. Но без нужных значков он может не слушаться..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein ertauschtes Pokémon wächst schnell, gehorcht aber ohne Orden vielleicht nicht."
+        ],
+        "A2": [
+          "Ein ertauschtes Pokémon wächst schnell. Ohne die nötigen Orden gehorcht es dir aber vielleicht nicht."
+        ],
+        "natural": [
+          "Ein ertauschtes Pokémon wächst schnell. Ohne bestimmte Orden gehorcht es dir aber vielleicht nicht..."
+        ]
+      },
+      "english": [
+        "A resident explains traded Pokémon growth and obedience."
+      ],
+      "words": {
+        "ru": [
+          [
+            "обмен",
+            "trade"
+          ]
+        ],
+        "de": [
+          [
+            "der Tausch",
+            "trade"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroTunnelSign",
+      "base_symbol": "RustboroCity_Text_TunnelNearingCompletion",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "Туннель почти готов. Но на знаке нарисован красный крест."
+        ],
+        "A2": [
+          "Знак говорит, что короткий туннель почти готов, но поверх него нарисован большой красный крест."
+        ],
+        "natural": [
+          "Туннель для быстрой дороги почти готов! Так написано, но поверх знака красной краской нарисован большой крест..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Tunnel ist fast fertig. Doch auf dem Schild ist ein rotes X."
+        ],
+        "A2": [
+          "Laut Schild ist der kurze Tunnel fast fertig, doch ein großes rotes X wurde darüber gemalt."
+        ],
+        "natural": [
+          "Der Zeitspar-Tunnel ist fast fertig! So steht es hier, doch ein großes rotes X wurde über das Schild gemalt..."
+        ]
+      },
+      "english": [
+        "The tunnel sign has been crossed out in red."
+      ],
+      "words": {
+        "ru": [
+          [
+            "туннель",
+            "tunnel"
+          ]
+        ],
+        "de": [
+          [
+            "der Tunnel",
+            "tunnel"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroDevonSign",
+      "base_symbol": "RustboroCity_Text_DevonCorpSign",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "КОРПОРАЦИЯ ДЕВОН. Мы делаем всё для вашей жизни."
+        ],
+        "A2": [
+          "КОРПОРАЦИЯ ДЕВОН. Мы производим всё необходимое для вашей жизни."
+        ],
+        "natural": [
+          "КОРПОРАЦИЯ ДЕВОН Мы производим всё для вашей жизни."
+        ]
+      },
+      "de": {
+        "A1": [
+          "DEVON CORPORATION. Wir fertigen alles für dein Leben."
+        ],
+        "A2": [
+          "DEVON CORPORATION. Wir stellen alles her, was du für dein Leben brauchst."
+        ],
+        "natural": [
+          "DEVON CORPORATION Wir fertigen alles für dein Leben."
+        ]
+      },
+      "english": [
+        "The Devon Corporation sign advertises its products."
+      ],
+      "words": {
+        "ru": [
+          [
+            "производить",
+            "to manufacture"
+          ]
+        ],
+        "de": [
+          [
+            "herstellen",
+            "to manufacture"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroGymSign",
+      "base_symbol": "RustboroCity_Text_GymSign",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "СТАДИОН РАСТБОРО. ЛИДЕР РОКСАНА любит каменных покемонов."
+        ],
+        "A2": [
+          "СТАДИОН РАСТБОРО. ЛИДЕР РОКСАНА - отличница и знаток каменных покемонов."
+        ],
+        "natural": [
+          "СТАДИОН РАСТБОРО ЛИДЕР: РОКСАНА Отличница, любящая каменных покемонов!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "ARENA VON METAROST. LEITERIN FELIZIA liebt Gesteins-Pokémon."
+        ],
+        "A2": [
+          "ARENA VON METAROST. LEITERIN FELIZIA ist eine Musterschülerin und liebt Gesteins-Pokémon."
+        ],
+        "natural": [
+          "ARENA VON METAROST LEITERIN: FELIZIA Die Musterschülerin liebt Gestein!"
+        ]
+      },
+      "english": [
+        "The Gym sign introduces Roxanne and her Rock Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "лидер",
+            "leader"
+          ]
+        ],
+        "de": [
+          [
+            "die Leiterin",
+            "female leader"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroBranchSign",
+      "base_symbol": "RustboroCity_Text_DevonCorpBranchOfficeSign",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "ФИЛИАЛ ДЕВОНА. Вход только сотрудникам."
+        ],
+        "A2": [
+          "ФИЛИАЛ КОРПОРАЦИИ ДЕВОН. Вход только сотрудникам и людям с разрешением."
+        ],
+        "natural": [
+          "ФИЛИАЛ КОРПОРАЦИИ ДЕВОН Вход лишь сотрудникам и лицам с разрешением."
+        ]
+      },
+      "de": {
+        "A1": [
+          "DEVON-ZWEIGSTELLE. Zutritt nur für Mitarbeiter."
+        ],
+        "A2": [
+          "DEVON-ZWEIGSTELLE. Zutritt nur für Mitarbeiter und befugte Personen."
+        ],
+        "natural": [
+          "DEVON-ZWEIGSTELLE Zutritt nur für Mitarbeiter und befugte Personen."
+        ]
+      },
+      "english": [
+        "The branch-office sign restricts entry to authorized people."
+      ],
+      "words": {
+        "ru": [
+          [
+            "разрешение",
+            "permission"
+          ]
+        ],
+        "de": [
+          [
+            "die Erlaubnis",
+            "permission"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroCitySign",
+      "base_symbol": "RustboroCity_Text_CitySign",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "РАСТБОРО. Город природы и науки."
+        ],
+        "A2": [
+          "РАСТБОРО. Город, который исследует союз природы и науки."
+        ],
+        "natural": [
+          "РАСТБОРО Город, исследующий союз природы и науки."
+        ]
+      },
+      "de": {
+        "A1": [
+          "METAROST CITY. Eine Stadt für Natur und Wissenschaft."
+        ],
+        "A2": [
+          "METAROST CITY. Die Stadt erforscht die Verbindung von Natur und Wissenschaft."
+        ],
+        "natural": [
+          "METAROST CITY Die Stadt erforscht die Verbindung von Natur und Wissenschaft."
+        ]
+      },
+      "english": [
+        "The city sign describes Rustboro's union of nature and science."
+      ],
+      "words": {
+        "ru": [
+          [
+            "наука",
+            "science"
+          ]
+        ],
+        "de": [
+          [
+            "die Wissenschaft",
+            "science"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroSchoolSign",
+      "base_symbol": "RustboroCity_Text_TrainersSchoolSign",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "ШКОЛА ТРЕНЕРОВ. Здесь учат всему о покемонах."
+        ],
+        "A2": [
+          "ШКОЛА ТРЕНЕРОВ ПОКЕМОНОВ. Мы научим тебя всему о покемонах!"
+        ],
+        "natural": [
+          "ШКОЛА ТРЕНЕРОВ ПОКЕМОНОВ Мы научим всему о покемонах!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKÉMON-TRAINERSCHULE. Hier lernst du alles über Pokémon."
+        ],
+        "A2": [
+          "POKÉMON-TRAINERSCHULE. Wir bringen dir alles über Pokémon bei!"
+        ],
+        "natural": [
+          "POKÉMON-TRAINERSCHULE Wir bringen dir alles über Pokémon bei!"
+        ]
+      },
+      "english": [
+        "The Trainer School sign advertises Pokémon lessons."
+      ],
+      "words": {
+        "ru": [
+          [
+            "учить",
+            "to teach"
+          ]
+        ],
+        "de": [
+          [
+            "beibringen",
+            "to teach"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroCutterSign",
+      "base_symbol": "RustboroCity_Text_CuttersHouse",
+      "source_path": "data/maps/RustboroCity/text.inc",
+      "ru": {
+        "A1": [
+          "ДОМ РУБАКИ"
+        ],
+        "A2": [
+          "Здесь находится ДОМ РУБАКИ."
+        ],
+        "natural": [
+          "ДОМ РУБАКИ"
+        ]
+      },
+      "de": {
+        "A1": [
+          "HAUS DES ZERSCHNEIDERS"
+        ],
+        "A2": [
+          "Hier steht das HAUS DES ZERSCHNEIDERS."
+        ],
+        "natural": [
+          "HAUS DES ZERSCHNEIDERS"
+        ]
+      },
+      "english": [
+        "The sign identifies the Cutter's house."
+      ],
+      "words": {
+        "ru": [
+          [
+            "дом",
+            "house"
+          ]
+        ],
+        "de": [
+          [
+            "das Haus",
+            "house"
+          ]
+        ]
+      }
     }
   ]
 }

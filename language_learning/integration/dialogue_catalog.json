@@ -3546,6 +3546,406 @@
         "route104",
         "lesson"
       ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborodevonname.174",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_FatMan",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_WeShortenItToDevon",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroDevonName"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 174
+      },
+      "tags": [
+        "rustboro",
+        "resident"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborocornerhint.175",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_FatManSawGrunt",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_SneakyLookingManWentAroundCorner",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroCornerHint"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 175
+      },
+      "tags": [
+        "rustboro",
+        "story"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborogymquestion.176",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Man1",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_HaveYouChallengedGym",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroGymQuestion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 176
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborobadgepraise.177",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Man1HaveBadge",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_HeyThatsRustborosGymBadge",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroBadgePraise"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 177
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustboronewstudent.178",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_DevonEmployee2",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_YoureNewAroundHere",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroNewStudent"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 178
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborofirevsrock.179",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Woman",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_GymLeaderIsntEasyWithFire",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroFireVsRock"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 179
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborobrineytunnel.180",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Boy2",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_MrBrineyWalksInTheTunnel",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroBrineyTunnel"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 180
+      },
+      "tags": [
+        "rustboro",
+        "navigation"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborobrineypeeko.181",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Boy2BrineyLeftTunnel",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_MrBrineyLovesPeeko",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroBrineyPeeko"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 181
+      },
+      "tags": [
+        "rustboro",
+        "navigation"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustboropokemondream.182",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Twin",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_WowYouHavePokemon",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroPokemonDream"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 182
+      },
+      "tags": [
+        "rustboro",
+        "resident"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustbororarepokemonschool.183",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_NinjaBoy",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_CatchRarePokemonIfIGoToSchool",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroRarePokemonSchool"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 183
+      },
+      "tags": [
+        "rustboro",
+        "school"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustboroevolutionexperience.184",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_LittleBoy",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_PokemonCanChangeLookFromExp",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroEvolutionExperience"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 184
+      },
+      "tags": [
+        "rustboro",
+        "lesson"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustboroevolutionsurprise.185",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_LittleGirl",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_PokemonChangeShape",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroEvolutionSurprise"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 185
+      },
+      "tags": [
+        "rustboro",
+        "lesson"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborotradedpokemon.186",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_Man2",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_TradePokemonGrowFast",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroTradedPokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 186
+      },
+      "tags": [
+        "rustboro",
+        "lesson"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborotunnelsign.187",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_TunnelSign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_TunnelNearingCompletion",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroTunnelSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 187
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborodevonsign.188",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_DevonCorpSign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_DevonCorpSign",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroDevonSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 188
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborogymsign.189",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_GymSign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_GymSign",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroGymSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 189
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborobranchsign.190",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_DevonCorpBranchOfficeSign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_DevonCorpBranchOfficeSign",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroBranchSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 190
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborocitysign.191",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_CitySign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_CitySign",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroCitySign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 191
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustboroschoolsign.192",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_TrainersSchoolSign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_TrainersSchoolSign",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroSchoolSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 192
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
+    },
+    {
+      "id": "rustboro.outdoors.rustborocuttersign.193",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity/scripts.inc",
+        "symbol": "RustboroCity_EventScript_CuttersHouseSign",
+        "base_text_path": "data/maps/RustboroCity/text.inc",
+        "base_text_symbol": "RustboroCity_Text_CuttersHouse",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroCutterSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 193
+      },
+      "tags": [
+        "rustboro",
+        "sign"
+      ]
     }
   ]
 }

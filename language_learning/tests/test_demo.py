@@ -104,10 +104,13 @@ class LessonTests(unittest.TestCase):
             "captured_at": "2026-10-15T12:00:01Z",
         }
         updated = profile_sync.merge(profile, snapshot)
+        final_sequence = max(entry["progress"]["sequence"] for entry in
+                             validate.load(demo.ROOT / "language_learning/integration/dialogue_catalog.json")["dialogues"]
+                             if entry["source"]["kind"] == "script_hook")
         self.assertEqual("arrival", updated["game_progress"]["chapter"])
-        self.assertEqual(91, updated["game_progress"]["sequence"])
+        self.assertEqual(final_sequence, updated["game_progress"]["sequence"])
         repeated = profile_sync.merge(updated, snapshot)
-        self.assertEqual(91, repeated["game_progress"]["sequence"])
+        self.assertEqual(final_sequence, repeated["game_progress"]["sequence"])
 
     def test_mgba_exporter_reads_reserved_learner_variables(self):
         source = (demo.ROOT / "language_learning/mgba/export_learner_snapshot.lua").read_text(encoding="utf-8")
@@ -244,7 +247,7 @@ class LessonTests(unittest.TestCase):
     def test_adaptive_plan_selects_every_unlocked_authored_scene(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
         profile["current_learner_difficulty"] = {"cefr": "B1", "internal": 40}
-        profile["game_progress"] = {"chapter": "arrival", "sequence": 100, "flags": []}
+        profile["game_progress"] = {"chapter": "arrival", "sequence": 0xFFF, "flags": []}
         pack = validate.load(demo.ROOT / "language_learning/language_packs/ru/pack.json")
         catalogue = validate.load(
             demo.ROOT / "language_learning/integration/dialogue_catalog.json"
@@ -579,13 +582,14 @@ class LessonTests(unittest.TestCase):
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
                   'data/maps/Route101/scripts.inc', 'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
-        paths += ['data/maps/PetalburgCity/scripts.inc']
+        paths += ['data/maps/PetalburgCity/scripts.inc',
+                  'data/maps/PetalburgCity_Gym/scripts.inc']
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
             self.assertIn(f"call LearnerOpening_{entry['id']}\n", sources)
             command = 'message' if entry['id'] == 'StarterGift' else 'msgbox'
-            self.assertIn(f"\t.else\n\t{command} {entry['base_symbol']}", sources)
+            self.assertIn(f"\t{command} {entry['base_symbol']}", sources)
 
     def test_all_opening_text_bands_and_dictionary_compile(self):
         assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))

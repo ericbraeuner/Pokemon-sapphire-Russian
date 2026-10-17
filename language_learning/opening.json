@@ -4066,19 +4066,51 @@
       "base_symbol": "Route102_Text_WatchMeCatchPokemon",
       "source_path": "data/maps/Route102/text.inc",
       "ru": {
-        "A1": ["УОЛЛИ: Покемоны прячутся в траве. Посмотри, как я поймаю одного!"],
-        "A2": ["УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, правильно ли я поймаю одного!"],
-        "natural": ["УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, смогу ли я правильно поймать одного. Ого!"]
+        "A1": [
+          "УОЛЛИ: Покемоны прячутся в траве. Посмотри, как я поймаю одного!"
+        ],
+        "A2": [
+          "УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, правильно ли я поймаю одного!"
+        ],
+        "natural": [
+          "УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, смогу ли я правильно поймать одного. Ого!"
+        ]
       },
       "de": {
-        "A1": ["HEIKO: Pokémon verstecken sich im Gras. Sieh zu, wie ich eines fange!"],
-        "A2": ["HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh zu, ob ich eines richtig fange!"],
-        "natural": ["HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh bitte zu, ob ich eines richtig fange. Wow!"]
+        "A1": [
+          "HEIKO: Pokémon verstecken sich im Gras. Sieh zu, wie ich eines fange!"
+        ],
+        "A2": [
+          "HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh zu, ob ich eines richtig fange!"
+        ],
+        "natural": [
+          "HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh bitte zu, ob ich eines richtig fange. Wow!"
+        ]
       },
-      "english": ["Wally asks the player to watch him catch a Pokémon in the tall grass."],
+      "english": [
+        "Wally asks the player to watch him catch a Pokémon in the tall grass."
+      ],
       "words": {
-        "ru": [["трава", "grass"], ["ловить", "to catch"]],
-        "de": [["das Gras", "grass"], ["fangen", "to catch"]]
+        "ru": [
+          [
+            "трава",
+            "grass"
+          ],
+          [
+            "ловить",
+            "to catch"
+          ]
+        ],
+        "de": [
+          [
+            "das Gras",
+            "grass"
+          ],
+          [
+            "fangen",
+            "to catch"
+          ]
+        ]
       }
     },
     {
@@ -4086,19 +4118,43 @@
       "base_symbol": "Route102_Text_WallyIDidIt",
       "source_path": "data/maps/Route102/text.inc",
       "ru": {
-        "A1": ["УОЛЛИ: Получилось! Это мой покемон!"],
-        "A2": ["УОЛЛИ: Я сделал это... Теперь это мой покемон!"],
-        "natural": ["УОЛЛИ: Получилось... Это мой... мой покемон!"]
+        "A1": [
+          "УОЛЛИ: Получилось! Это мой покемон!"
+        ],
+        "A2": [
+          "УОЛЛИ: Я сделал это... Теперь это мой покемон!"
+        ],
+        "natural": [
+          "УОЛЛИ: Получилось... Это мой... мой покемон!"
+        ]
       },
       "de": {
-        "A1": ["HEIKO: Geschafft! Das ist mein Pokémon!"],
-        "A2": ["HEIKO: Ich habe es geschafft... Jetzt ist es mein Pokémon!"],
-        "natural": ["HEIKO: Geschafft... Das ist mein... mein Pokémon!"]
+        "A1": [
+          "HEIKO: Geschafft! Das ist mein Pokémon!"
+        ],
+        "A2": [
+          "HEIKO: Ich habe es geschafft... Jetzt ist es mein Pokémon!"
+        ],
+        "natural": [
+          "HEIKO: Geschafft... Das ist mein... mein Pokémon!"
+        ]
       },
-      "english": ["Wally celebrates catching his first Pokémon."],
+      "english": [
+        "Wally celebrates catching his first Pokémon."
+      ],
       "words": {
-        "ru": [["ловить", "to catch"]],
-        "de": [["fangen", "to catch"]]
+        "ru": [
+          [
+            "ловить",
+            "to catch"
+          ]
+        ],
+        "de": [
+          [
+            "fangen",
+            "to catch"
+          ]
+        ]
       }
     },
     {
@@ -4106,19 +4162,615 @@
       "base_symbol": "Route102_Text_LetsGoBack",
       "source_path": "data/maps/Route102/text.inc",
       "ru": {
-        "A1": ["УОЛЛИ: Спасибо! Вернёмся в зал!"],
-        "A2": ["УОЛЛИ: Большое спасибо! Теперь вернёмся в зал."],
-        "natural": ["УОЛЛИ: Спасибо! Вернёмся в зал!"]
+        "A1": [
+          "УОЛЛИ: Спасибо! Вернёмся в зал!"
+        ],
+        "A2": [
+          "УОЛЛИ: Большое спасибо! Теперь вернёмся в зал."
+        ],
+        "natural": [
+          "УОЛЛИ: Спасибо! Вернёмся в зал!"
+        ]
       },
       "de": {
-        "A1": ["HEIKO: Danke! Gehen wir zurück zur Arena!"],
-        "A2": ["HEIKO: Vielen Dank! Jetzt gehen wir zurück zur Arena."],
-        "natural": ["HEIKO: Danke! Gehen wir zurück zur Arena!"]
+        "A1": [
+          "HEIKO: Danke! Gehen wir zurück zur Arena!"
+        ],
+        "A2": [
+          "HEIKO: Vielen Dank! Jetzt gehen wir zurück zur Arena."
+        ],
+        "natural": [
+          "HEIKO: Danke! Gehen wir zurück zur Arena!"
+        ]
       },
-      "english": ["Wally thanks the player and suggests returning to the Gym."],
+      "english": [
+        "Wally thanks the player and suggests returning to the Gym."
+      ],
       "words": {
-        "ru": [["возвращаться", "to return"]],
-        "de": [["zurückkommen", "to return"]]
+        "ru": [
+          [
+            "возвращаться",
+            "to return"
+          ]
+        ],
+        "de": [
+          [
+            "zurückkommen",
+            "to return"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "PetalburgDadArrival",
+      "base_symbol": "PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Ты уже здесь! С тобой покемон. Значит, ты тоже станешь тренером!"
+        ],
+        "A2": [
+          "ПАПА: Ты уже закончил переезд? Вижу, с тобой покемон. Значит, ты станешь тренером, как я!"
+        ],
+        "natural": [
+          "ПАПА: ! Уже закончил переезд? Ты пришёл один? А, с тобой покемон. Значит, станешь тренером, как я. Отличная новость!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Du bist da! Du hast ein Pokémon. Also wirst du auch Trainer!"
+        ],
+        "A2": [
+          "PAPA: Bist du schon mit dem Umzug fertig? Du hast ein Pokémon dabei. Dann wirst du Trainer wie ich!"
+        ],
+        "natural": [
+          "PAPA: ! Schon fertig mit dem Umzug? Du kamst allein? Ach, dein Pokémon ist dabei. Dann wirst du Trainer wie ich. Großartig!"
+        ]
+      },
+      "english": [
+        "Dad welcomes the player and notices their Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тренер",
+            "trainer"
+          ]
+        ],
+        "de": [
+          [
+            "der Trainer",
+            "trainer"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WallyAsksPokemon",
+      "base_symbol": "PetalburgCity_Gym_Text_WallyIdLikeAPokemon",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Я хочу покемона..."
+        ],
+        "A2": [
+          "УОЛЛИ: Я... Я хотел бы покемона..."
+        ],
+        "natural": [
+          "УОЛЛИ: Я... Я хотел бы получить покемона..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Ich möchte ein Pokémon..."
+        ],
+        "A2": [
+          "HEIKO: Ich... Ich hätte gern ein Pokémon..."
+        ],
+        "natural": [
+          "HEIKO: Ich... Ich hätte gern ein Pokémon..."
+        ]
+      },
+      "english": [
+        "Wally asks for a Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "хотеть",
+            "to want"
+          ]
+        ],
+        "de": [
+          [
+            "möchten",
+            "would like"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanRecognizesWally",
+      "base_symbol": "PetalburgCity_Gym_Text_DadOhYoureWallyRight",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Ты УОЛЛИ?"
+        ],
+        "A2": [
+          "ПАПА: Ты ведь УОЛЛИ, верно?"
+        ],
+        "natural": [
+          "ПАПА: Ты ведь УОЛЛИ, верно?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Du bist HEIKO?"
+        ],
+        "A2": [
+          "PAPA: Du bist HEIKO, richtig?"
+        ],
+        "natural": [
+          "PAPA: Du bist HEIKO, richtig?"
+        ]
+      },
+      "english": [
+        "Norman recognizes Wally."
+      ],
+      "words": {
+        "ru": [
+          [
+            "верно",
+            "right; correct"
+          ]
+        ],
+        "de": [
+          [
+            "richtig",
+            "right; correct"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WallyExplainsMove",
+      "base_symbol": "PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Я переезжаю. Одному будет одиноко. Я хочу покемона, но не умею их ловить."
+        ],
+        "A2": [
+          "УОЛЛИ: Я уезжаю к родным. Одному будет одиноко, поэтому хочу покемона. Но я ещё не ловил их."
+        ],
+        "natural": [
+          "УОЛЛИ: Я уезжаю к родным в ВЕРДАНТУРФ. Одному будет одиноко, поэтому хочу взять покемона. Но я никогда их не ловил."
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Ich ziehe um. Allein bin ich einsam. Ich möchte ein Pokémon, kann aber keines fangen."
+        ],
+        "A2": [
+          "HEIKO: Ich ziehe zu Verwandten. Allein wäre ich einsam, darum möchte ich ein Pokémon. Ich fing noch keines."
+        ],
+        "natural": [
+          "HEIKO: Ich ziehe zu Verwandten nach WIESENFLUR. Allein wäre ich einsam, darum möchte ich ein Pokémon. Ich fing aber noch nie eines."
+        ]
+      },
+      "english": [
+        "Wally explains why he wants a Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "одинокий",
+            "lonely"
+          ]
+        ],
+        "de": [
+          [
+            "einsam",
+            "lonely"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanUnderstands",
+      "base_symbol": "PetalburgCity_Gym_Text_DadHmISee",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Понятно."
+        ],
+        "A2": [
+          "ПАПА: Понимаю."
+        ],
+        "natural": [
+          "ПАПА: Хм... Понятно."
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Verstanden."
+        ],
+        "A2": [
+          "PAPA: Ich verstehe."
+        ],
+        "natural": [
+          "PAPA: Hm... Verstehe."
+        ]
+      },
+      "english": [
+        "Norman understands Wally's request."
+      ],
+      "words": {
+        "ru": [
+          [
+            "понимать",
+            "to understand"
+          ]
+        ],
+        "de": [
+          [
+            "verstehen",
+            "to understand"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanRequestsHelp",
+      "base_symbol": "PetalburgCity_Gym_Text_DadPlayerGoWithWally",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Помоги УОЛЛИ поймать покемона."
+        ],
+        "A2": [
+          "ПАПА: , иди с УОЛЛИ и помоги ему поймать покемона."
+        ],
+        "natural": [
+          "ПАПА: , сходи с УОЛЛИ и помоги ему безопасно поймать покемона."
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Hilf HEIKO, ein Pokémon zu fangen."
+        ],
+        "A2": [
+          "PAPA: , geh mit HEIKO und hilf ihm, ein Pokémon zu fangen."
+        ],
+        "natural": [
+          "PAPA: , begleite HEIKO und hilf ihm, sicher ein Pokémon zu fangen."
+        ]
+      },
+      "english": [
+        "Norman asks the player to help Wally catch a Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помогать",
+            "to help"
+          ]
+        ],
+        "de": [
+          [
+            "helfen",
+            "to help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanLoansPokemon",
+      "base_symbol": "PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Я дам тебе покемона. УОЛЛИ получает ЗИГЗАГУНА!"
+        ],
+        "A2": [
+          "ПАПА: Я одолжу тебе покемона. УОЛЛИ получает ЗИГЗАГУНА!"
+        ],
+        "natural": [
+          "ПАПА: УОЛЛИ, я одолжу тебе покемона. УОЛЛИ получает ЗИГЗАГУНА!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Ich gebe dir ein Pokémon. HEIKO erhält ZIGZACHS!"
+        ],
+        "A2": [
+          "PAPA: Ich leihe dir ein Pokémon. HEIKO erhält ZIGZACHS!"
+        ],
+        "natural": [
+          "PAPA: HEIKO, ich leihe dir mein Pokémon. HEIKO erhält ZIGZACHS!"
+        ]
+      },
+      "english": [
+        "Norman lends Wally a Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "одалживать",
+            "to lend"
+          ]
+        ],
+        "de": [
+          [
+            "leihen",
+            "to lend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanGivesBall",
+      "base_symbol": "PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Спасибо! ПАПА: Возьми и ПОКЕБОЛ."
+        ],
+        "A2": [
+          "УОЛЛИ: Вот это покемон! ПАПА: Возьми ещё ПОКЕБОЛ."
+        ],
+        "natural": [
+          "УОЛЛИ: Ух ты, покемон! ПАПА: И возьми ПОКЕБОЛ. Вперёд!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Danke! PAPA: Nimm auch einen POKÉBALL."
+        ],
+        "A2": [
+          "HEIKO: Ein Pokémon! PAPA: Nimm auch einen POKÉBALL."
+        ],
+        "natural": [
+          "HEIKO: Wow, ein Pokémon! PAPA: Nimm auch einen POKÉBALL. Los!"
+        ]
+      },
+      "english": [
+        "Norman also gives Wally a Poké Ball."
+      ],
+      "words": {
+        "ru": [
+          [
+            "покебол",
+            "Poké Ball"
+          ]
+        ],
+        "de": [
+          [
+            "der Pokéball",
+            "Poké Ball"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WallyThanks",
+      "base_symbol": "PetalburgCity_Gym_Text_WallyOhWowThankYou",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Спасибо!"
+        ],
+        "A2": [
+          "УОЛЛИ: Большое спасибо!"
+        ],
+        "natural": [
+          "УОЛЛИ: Ух ты! Спасибо!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Danke!"
+        ],
+        "A2": [
+          "HEIKO: Vielen Dank!"
+        ],
+        "natural": [
+          "HEIKO: Wow! Danke!"
+        ]
+      },
+      "english": [
+        "Wally thanks Norman."
+      ],
+      "words": {
+        "ru": [
+          [
+            "спасибо",
+            "thank you"
+          ]
+        ],
+        "de": [
+          [
+            "danke",
+            "thank you"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WallyInvitesPlayer",
+      "base_symbol": "PetalburgCity_Gym_Text_WouldYouReallyComeWithMe",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Пойдёшь со мной?"
+        ],
+        "A2": [
+          "УОЛЛИ: , ты пойдёшь со мной?"
+        ],
+        "natural": [
+          "УОЛЛИ: , ты правда пойдёшь со мной?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Kommst du mit?"
+        ],
+        "A2": [
+          "HEIKO: , kommst du mit?"
+        ],
+        "natural": [
+          "HEIKO: , kommst du wirklich mit?"
+        ]
+      },
+      "english": [
+        "Wally asks the player to come along."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вместе",
+            "together"
+          ]
+        ],
+        "de": [
+          [
+            "mitkommen",
+            "to come along"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanChecksCatch",
+      "base_symbol": "PetalburgCity_Gym_Text_DadSoDidItWorkOut",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Получилось?"
+        ],
+        "A2": [
+          "ПАПА: Ну что, получилось?"
+        ],
+        "natural": [
+          "ПАПА: Ну что, всё получилось?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Hat es geklappt?"
+        ],
+        "A2": [
+          "PAPA: Und, hat es geklappt?"
+        ],
+        "natural": [
+          "PAPA: Nun, hat alles geklappt?"
+        ]
+      },
+      "english": [
+        "Norman asks whether the catching lesson worked."
+      ],
+      "words": {
+        "ru": [
+          [
+            "получаться",
+            "to work out"
+          ]
+        ],
+        "de": [
+          [
+            "klappen",
+            "to work out"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "WallyReturnsPokemon",
+      "base_symbol": "PetalburgCity_Gym_Text_WallyThankYouBye",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Спасибо! Вот ваш покемон. Я поймал своего! Пока!"
+        ],
+        "A2": [
+          "УОЛЛИ: Спасибо! Вот ваш покемон. , благодаря тебе я поймал своего. Пока!"
+        ],
+        "natural": [
+          "УОЛЛИ: Да, спасибо! Вот ваш покемон. , благодаря тебе я поймал своего. Я буду хорошо о нём заботиться. Мама ждёт. Пока!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Danke! Hier ist dein Pokémon. Ich habe meines gefangen! Tschüss!"
+        ],
+        "A2": [
+          "HEIKO: Danke! Hier ist dein Pokémon. , dank dir fing ich meines. Tschüss!"
+        ],
+        "natural": [
+          "HEIKO: Ja, danke! Hier ist dein Pokémon. , dank dir fing ich meines. Ich kümmere mich gut darum. Mama wartet. Tschüss!"
+        ]
+      },
+      "english": [
+        "Wally returns Norman's Pokémon and says goodbye."
+      ],
+      "words": {
+        "ru": [
+          [
+            "заботиться",
+            "to take care of"
+          ]
+        ],
+        "de": [
+          [
+            "sich kümmern",
+            "to take care of"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NormanSendsPlayerOn",
+      "base_symbol": "PetalburgCity_Gym_Text_DadGoCollectBadges",
+      "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ПАПА: Иди в РАСТБОРО и победи лидера. Собирай ЗНАЧКИ, и потом мы сразимся."
+        ],
+        "A2": [
+          "ПАПА: Иди в РАСТБОРО и брось вызов РОКСАННЕ. Собирай ЗНАЧКИ, и мы сразимся, когда ты станешь сильнее."
+        ],
+        "natural": [
+          "ПАПА: , хочешь стать сильнее - иди в РАСТБОРО и брось вызов РОКСАННЕ. Побеждай лидеров и собирай ЗНАЧКИ. Потом сразимся и мы."
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAPA: Geh nach METAROST und besiege die Leiterin. Sammle ORDEN, dann kämpfen wir."
+        ],
+        "A2": [
+          "PAPA: Geh nach METAROST und fordere FELIZIA heraus. Sammle ORDEN; wenn du stärker bist, kämpfen wir."
+        ],
+        "natural": [
+          "PAPA: , willst du stärker werden, fordere FELIZIA in METAROST heraus. Besiege weitere Leiter und sammle ORDEN. Dann kämpfen wir."
+        ]
+      },
+      "english": [
+        "Norman sends the player toward Rustboro and the Gym challenge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
       }
     }
   ]

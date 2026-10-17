@@ -1024,6 +1024,141 @@
       "forms": [
         "tauschen"
       ]
+    },
+    {
+      "id": "de.der_trainer",
+      "lemma": "Trainer",
+      "english": "trainer",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.petalburgdadarrival.092",
+      "forms": [
+        "der Trainer"
+      ],
+      "dictionary_form": "der Trainer"
+    },
+    {
+      "id": "de.moechten",
+      "lemma": "möchten",
+      "english": "would like",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyaskspokemon.093",
+      "forms": [
+        "möchten"
+      ]
+    },
+    {
+      "id": "de.richtig",
+      "lemma": "richtig",
+      "english": "right; correct",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normanrecognizeswally.094",
+      "forms": [
+        "richtig"
+      ]
+    },
+    {
+      "id": "de.einsam",
+      "lemma": "einsam",
+      "english": "lonely",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyexplainsmove.095",
+      "forms": [
+        "einsam"
+      ]
+    },
+    {
+      "id": "de.verstehen",
+      "lemma": "verstehen",
+      "english": "to understand",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normanunderstands.096",
+      "forms": [
+        "verstehen"
+      ]
+    },
+    {
+      "id": "de.leihen",
+      "lemma": "leihen",
+      "english": "to lend",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normanloanspokemon.098",
+      "forms": [
+        "leihen"
+      ]
+    },
+    {
+      "id": "de.der_pokball",
+      "lemma": "Pokéball",
+      "english": "Poké Ball",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normangivesball.099",
+      "forms": [
+        "der Pokéball"
+      ],
+      "dictionary_form": "der Pokéball"
+    },
+    {
+      "id": "de.danke",
+      "lemma": "danke",
+      "english": "thank you",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallythanks.100",
+      "forms": [
+        "danke"
+      ]
+    },
+    {
+      "id": "de.mitkommen",
+      "lemma": "mitkommen",
+      "english": "to come along",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyinvitesplayer.101",
+      "forms": [
+        "mitkommen"
+      ]
+    },
+    {
+      "id": "de.klappen",
+      "lemma": "klappen",
+      "english": "to work out",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normancheckscatch.102",
+      "forms": [
+        "klappen"
+      ]
+    },
+    {
+      "id": "de.sich_kuemmern",
+      "lemma": "sich kümmern",
+      "english": "to take care of",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyreturnspokemon.103",
+      "forms": [
+        "sich kümmern"
+      ]
+    },
+    {
+      "id": "de.der_orden",
+      "lemma": "Orden",
+      "english": "badge",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normansendsplayeron.104",
+      "forms": [
+        "der Orden"
+      ],
+      "dictionary_form": "der Orden"
     }
   ],
   "grammar_notes": [
@@ -3588,25 +3723,852 @@
     {
       "dialogue_id": "route102.wally.catch_intro.090",
       "variants": [
-        {"id":"simple","text":"HEIKO: Pokémon verstecken sich im Gras. Sieh zu, wie ich eines fange!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["de.gras","de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
-        {"id":"connected","text":"HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh zu, ob ich eines richtig fange!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["de.gras","de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
-        {"id":"natural","text":"HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh bitte zu, ob ich eines richtig fange. Wow!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["de.gras","de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}}
+        {
+          "id": "simple",
+          "text": "HEIKO: Pokémon verstecken sich im Gras. Sieh zu, wie ich eines fange!",
+          "english_gloss": "Wally asks the player to watch him catch a Pokémon in the tall grass.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.gras",
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 89
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh zu, ob ich eines richtig fange!",
+          "english_gloss": "Wally asks the player to watch him catch a Pokémon in the tall grass.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.gras",
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 89
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Pokémon verstecken sich im hohen Gras, oder? Sieh bitte zu, ob ich eines richtig fange. Wow!",
+          "english_gloss": "Wally asks the player to watch him catch a Pokémon in the tall grass.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.gras",
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 89
+          }
+        }
       ]
     },
     {
       "dialogue_id": "route102.wally.first_catch.091",
       "variants": [
-        {"id":"simple","text":"HEIKO: Geschafft! Das ist mein Pokémon!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
-        {"id":"connected","text":"HEIKO: Ich habe es geschafft... Jetzt ist es mein Pokémon!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
-        {"id":"natural","text":"HEIKO: Geschafft... Das ist mein... mein Pokémon!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["de.fangen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}}
+        {
+          "id": "simple",
+          "text": "HEIKO: Geschafft! Das ist mein Pokémon!",
+          "english_gloss": "Wally celebrates catching his first Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 90
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Ich habe es geschafft... Jetzt ist es mein Pokémon!",
+          "english_gloss": "Wally celebrates catching his first Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 90
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Geschafft... Das ist mein... mein Pokémon!",
+          "english_gloss": "Wally celebrates catching his first Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.fangen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 90
+          }
+        }
       ]
     },
     {
       "dialogue_id": "route102.wally.return_to_gym.092",
       "variants": [
-        {"id":"simple","text":"HEIKO: Danke! Gehen wir zurück zur Arena!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["de.zurueckkommen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
-        {"id":"connected","text":"HEIKO: Vielen Dank! Jetzt gehen wir zurück zur Arena.","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["de.zurueckkommen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
-        {"id":"natural","text":"HEIKO: Danke! Gehen wir zurück zur Arena!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["de.zurueckkommen"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}}
+        {
+          "id": "simple",
+          "text": "HEIKO: Danke! Gehen wir zurück zur Arena!",
+          "english_gloss": "Wally thanks the player and suggests returning to the Gym.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.zurueckkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 91
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Vielen Dank! Jetzt gehen wir zurück zur Arena.",
+          "english_gloss": "Wally thanks the player and suggests returning to the Gym.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.zurueckkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 91
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Danke! Gehen wir zurück zur Arena!",
+          "english_gloss": "Wally thanks the player and suggests returning to the Gym.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.zurueckkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 91
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.petalburgdadarrival.092",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Du bist da! Du hast ein Pokémon. Also wirst du auch Trainer!",
+          "english_gloss": "Dad welcomes the player and notices their Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.der_trainer"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 92
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: Bist du schon mit dem Umzug fertig? Du hast ein Pokémon dabei. Dann wirst du Trainer wie ich!",
+          "english_gloss": "Dad welcomes the player and notices their Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.der_trainer"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 92
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: ! Schon fertig mit dem Umzug? Du kamst allein? Ach, dein Pokémon ist dabei. Dann wirst du Trainer wie ich. Großartig!",
+          "english_gloss": "Dad welcomes the player and notices their Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.der_trainer"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 92
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyaskspokemon.093",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "HEIKO: Ich möchte ein Pokémon...",
+          "english_gloss": "Wally asks for a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.moechten"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 93
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Ich... Ich hätte gern ein Pokémon...",
+          "english_gloss": "Wally asks for a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.moechten"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 93
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Ich... Ich hätte gern ein Pokémon...",
+          "english_gloss": "Wally asks for a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.moechten"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 93
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanrecognizeswally.094",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Du bist HEIKO?",
+          "english_gloss": "Norman recognizes Wally.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.richtig"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 94
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: Du bist HEIKO, richtig?",
+          "english_gloss": "Norman recognizes Wally.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.richtig"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 94
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: Du bist HEIKO, richtig?",
+          "english_gloss": "Norman recognizes Wally.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.richtig"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 94
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyexplainsmove.095",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "HEIKO: Ich ziehe um. Allein bin ich einsam. Ich möchte ein Pokémon, kann aber keines fangen.",
+          "english_gloss": "Wally explains why he wants a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.einsam"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 95
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Ich ziehe zu Verwandten. Allein wäre ich einsam, darum möchte ich ein Pokémon. Ich fing noch keines.",
+          "english_gloss": "Wally explains why he wants a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.einsam"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 95
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Ich ziehe zu Verwandten nach WIESENFLUR. Allein wäre ich einsam, darum möchte ich ein Pokémon. Ich fing aber noch nie eines.",
+          "english_gloss": "Wally explains why he wants a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.einsam"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 95
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanunderstands.096",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Verstanden.",
+          "english_gloss": "Norman understands Wally's request.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.verstehen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 96
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: Ich verstehe.",
+          "english_gloss": "Norman understands Wally's request.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.verstehen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 96
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: Hm... Verstehe.",
+          "english_gloss": "Norman understands Wally's request.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.verstehen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 96
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanrequestshelp.097",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Hilf HEIKO, ein Pokémon zu fangen.",
+          "english_gloss": "Norman asks the player to help Wally catch a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 97
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: , geh mit HEIKO und hilf ihm, ein Pokémon zu fangen.",
+          "english_gloss": "Norman asks the player to help Wally catch a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 97
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: , begleite HEIKO und hilf ihm, sicher ein Pokémon zu fangen.",
+          "english_gloss": "Norman asks the player to help Wally catch a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 97
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanloanspokemon.098",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Ich gebe dir ein Pokémon. HEIKO erhält ZIGZACHS!",
+          "english_gloss": "Norman lends Wally a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.leihen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 98
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: Ich leihe dir ein Pokémon. HEIKO erhält ZIGZACHS!",
+          "english_gloss": "Norman lends Wally a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.leihen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 98
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: HEIKO, ich leihe dir mein Pokémon. HEIKO erhält ZIGZACHS!",
+          "english_gloss": "Norman lends Wally a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.leihen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 98
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normangivesball.099",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "HEIKO: Danke! PAPA: Nimm auch einen POKÉBALL.",
+          "english_gloss": "Norman also gives Wally a Poké Ball.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.der_pokball"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 99
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Ein Pokémon! PAPA: Nimm auch einen POKÉBALL.",
+          "english_gloss": "Norman also gives Wally a Poké Ball.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.der_pokball"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 99
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Wow, ein Pokémon! PAPA: Nimm auch einen POKÉBALL. Los!",
+          "english_gloss": "Norman also gives Wally a Poké Ball.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.der_pokball"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 99
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallythanks.100",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "HEIKO: Danke!",
+          "english_gloss": "Wally thanks Norman.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.danke"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 100
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Vielen Dank!",
+          "english_gloss": "Wally thanks Norman.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.danke"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 100
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Wow! Danke!",
+          "english_gloss": "Wally thanks Norman.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.danke"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 100
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyinvitesplayer.101",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "HEIKO: Kommst du mit?",
+          "english_gloss": "Wally asks the player to come along.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.mitkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 101
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: , kommst du mit?",
+          "english_gloss": "Wally asks the player to come along.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.mitkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 101
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: , kommst du wirklich mit?",
+          "english_gloss": "Wally asks the player to come along.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.mitkommen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 101
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normancheckscatch.102",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Hat es geklappt?",
+          "english_gloss": "Norman asks whether the catching lesson worked.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.klappen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 102
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: Und, hat es geklappt?",
+          "english_gloss": "Norman asks whether the catching lesson worked.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.klappen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 102
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: Nun, hat alles geklappt?",
+          "english_gloss": "Norman asks whether the catching lesson worked.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.klappen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 102
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyreturnspokemon.103",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "HEIKO: Danke! Hier ist dein Pokémon. Ich habe meines gefangen! Tschüss!",
+          "english_gloss": "Wally returns Norman's Pokémon and says goodbye.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.sich_kuemmern"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 103
+          }
+        },
+        {
+          "id": "connected",
+          "text": "HEIKO: Danke! Hier ist dein Pokémon. , dank dir fing ich meines. Tschüss!",
+          "english_gloss": "Wally returns Norman's Pokémon and says goodbye.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.sich_kuemmern"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 103
+          }
+        },
+        {
+          "id": "natural",
+          "text": "HEIKO: Ja, danke! Hier ist dein Pokémon. , dank dir fing ich meines. Ich kümmere mich gut darum. Mama wartet. Tschüss!",
+          "english_gloss": "Wally returns Norman's Pokémon and says goodbye.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.sich_kuemmern"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 103
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normansendsplayeron.104",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PAPA: Geh nach METAROST und besiege die Leiterin. Sammle ORDEN, dann kämpfen wir.",
+          "english_gloss": "Norman sends the player toward Rustboro and the Gym challenge.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.der_orden"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 104
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PAPA: Geh nach METAROST und fordere FELIZIA heraus. Sammle ORDEN; wenn du stärker bist, kämpfen wir.",
+          "english_gloss": "Norman sends the player toward Rustboro and the Gym challenge.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.der_orden"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 104
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PAPA: , willst du stärker werden, fordere FELIZIA in METAROST heraus. Besiege weitere Leiter und sammle ORDEN. Dann kämpfen wir.",
+          "english_gloss": "Norman sends the player toward Rustboro and the Gym challenge.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.der_orden"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 104
+          }
+        }
       ]
     }
   ]

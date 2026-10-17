@@ -936,6 +936,127 @@
       "forms": [
         "обменивать"
       ]
+    },
+    {
+      "id": "ru.wally_1",
+      "lemma": "хотеть",
+      "english": "to want",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyaskspokemon.093",
+      "forms": [
+        "хотеть"
+      ]
+    },
+    {
+      "id": "ru.wally_2",
+      "lemma": "верно",
+      "english": "right; correct",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normanrecognizeswally.094",
+      "forms": [
+        "верно"
+      ]
+    },
+    {
+      "id": "ru.wally_3",
+      "lemma": "одинокий",
+      "english": "lonely",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyexplainsmove.095",
+      "forms": [
+        "одинокий"
+      ]
+    },
+    {
+      "id": "ru.wally_4",
+      "lemma": "понимать",
+      "english": "to understand",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normanunderstands.096",
+      "forms": [
+        "понимать"
+      ]
+    },
+    {
+      "id": "ru.wally_6",
+      "lemma": "одалживать",
+      "english": "to lend",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normanloanspokemon.098",
+      "forms": [
+        "одалживать"
+      ]
+    },
+    {
+      "id": "ru.wally_7",
+      "lemma": "покебол",
+      "english": "Poké Ball",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normangivesball.099",
+      "forms": [
+        "покебол"
+      ]
+    },
+    {
+      "id": "ru.wally_8",
+      "lemma": "спасибо",
+      "english": "thank you",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallythanks.100",
+      "forms": [
+        "спасибо"
+      ]
+    },
+    {
+      "id": "ru.wally_9",
+      "lemma": "вместе",
+      "english": "together",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyinvitesplayer.101",
+      "forms": [
+        "вместе"
+      ]
+    },
+    {
+      "id": "ru.wally_10",
+      "lemma": "получаться",
+      "english": "to work out",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normancheckscatch.102",
+      "forms": [
+        "получаться"
+      ]
+    },
+    {
+      "id": "ru.wally_11",
+      "lemma": "заботиться",
+      "english": "to take care of",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.wallyreturnspokemon.103",
+      "forms": [
+        "заботиться"
+      ]
+    },
+    {
+      "id": "ru.wally_12",
+      "lemma": "значок",
+      "english": "badge",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "petalburg.gym.wally.normansendsplayeron.104",
+      "forms": [
+        "значок"
+      ]
     }
   ],
   "grammar_notes": [
@@ -3497,25 +3618,852 @@
     {
       "dialogue_id": "route102.wally.catch_intro.090",
       "variants": [
-        {"id":"simple","text":"УОЛЛИ: Покемоны прячутся в траве. Посмотри, как я поймаю одного!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["ru.trava","ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
-        {"id":"connected","text":"УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, правильно ли я поймаю одного!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["ru.trava","ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}},
-        {"id":"natural","text":"УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, смогу ли я правильно поймать одного. Ого!","english_gloss":"Wally asks the player to watch him catch a Pokémon in the tall grass.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["ru.trava","ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":2,"minimum_game_progress":{"chapter":"arrival","sequence":89}}
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Покемоны прячутся в траве. Посмотри, как я поймаю одного!",
+          "english_gloss": "Wally asks the player to watch him catch a Pokémon in the tall grass.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.trava",
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 89
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, правильно ли я поймаю одного!",
+          "english_gloss": "Wally asks the player to watch him catch a Pokémon in the tall grass.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.trava",
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 89
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Покемоны прячутся в высокой траве, да? Посмотри, смогу ли я правильно поймать одного. Ого!",
+          "english_gloss": "Wally asks the player to watch him catch a Pokémon in the tall grass.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.trava",
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 2,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 89
+          }
+        }
       ]
     },
     {
       "dialogue_id": "route102.wally.first_catch.091",
       "variants": [
-        {"id":"simple","text":"УОЛЛИ: Получилось! Это мой покемон!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
-        {"id":"connected","text":"УОЛЛИ: Я сделал это... Теперь это мой покемон!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}},
-        {"id":"natural","text":"УОЛЛИ: Получилось... Это мой... мой покемон!","english_gloss":"Wally celebrates catching his first Pokémon.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["ru.lovit"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":90}}
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Получилось! Это мой покемон!",
+          "english_gloss": "Wally celebrates catching his first Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 90
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Я сделал это... Теперь это мой покемон!",
+          "english_gloss": "Wally celebrates catching his first Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 90
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Получилось... Это мой... мой покемон!",
+          "english_gloss": "Wally celebrates catching his first Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.lovit"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 90
+          }
+        }
       ]
     },
     {
       "dialogue_id": "route102.wally.return_to_gym.092",
       "variants": [
-        {"id":"simple","text":"УОЛЛИ: Спасибо! Вернёмся в зал!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A1","internal_difficulty":5,"vocabulary_ids":["ru.vozvrashchatsya"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
-        {"id":"connected","text":"УОЛЛИ: Большое спасибо! Теперь вернёмся в зал.","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"A2","internal_difficulty":20,"vocabulary_ids":["ru.vozvrashchatsya"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}},
-        {"id":"natural","text":"УОЛЛИ: Спасибо! Вернёмся в зал!","english_gloss":"Wally thanks the player and suggests returning to the Gym.","cefr":"B1","internal_difficulty":40,"vocabulary_ids":["ru.vozvrashchatsya"],"grammar_note_ids":[],"new_vocabulary_budget":1,"minimum_game_progress":{"chapter":"arrival","sequence":91}}
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Спасибо! Вернёмся в зал!",
+          "english_gloss": "Wally thanks the player and suggests returning to the Gym.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.vozvrashchatsya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 91
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Большое спасибо! Теперь вернёмся в зал.",
+          "english_gloss": "Wally thanks the player and suggests returning to the Gym.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.vozvrashchatsya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 91
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Спасибо! Вернёмся в зал!",
+          "english_gloss": "Wally thanks the player and suggests returning to the Gym.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.vozvrashchatsya"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 91
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.petalburgdadarrival.092",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Ты уже здесь! С тобой покемон. Значит, ты тоже станешь тренером!",
+          "english_gloss": "Dad welcomes the player and notices their Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.trener"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 92
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: Ты уже закончил переезд? Вижу, с тобой покемон. Значит, ты станешь тренером, как я!",
+          "english_gloss": "Dad welcomes the player and notices their Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.trener"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 92
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: ! Уже закончил переезд? Ты пришёл один? А, с тобой покемон. Значит, станешь тренером, как я. Отличная новость!",
+          "english_gloss": "Dad welcomes the player and notices their Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.trener"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 92
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyaskspokemon.093",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Я хочу покемона...",
+          "english_gloss": "Wally asks for a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 93
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Я... Я хотел бы покемона...",
+          "english_gloss": "Wally asks for a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 93
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Я... Я хотел бы получить покемона...",
+          "english_gloss": "Wally asks for a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 93
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanrecognizeswally.094",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Ты УОЛЛИ?",
+          "english_gloss": "Norman recognizes Wally.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 94
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: Ты ведь УОЛЛИ, верно?",
+          "english_gloss": "Norman recognizes Wally.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 94
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: Ты ведь УОЛЛИ, верно?",
+          "english_gloss": "Norman recognizes Wally.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 94
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyexplainsmove.095",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Я переезжаю. Одному будет одиноко. Я хочу покемона, но не умею их ловить.",
+          "english_gloss": "Wally explains why he wants a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 95
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Я уезжаю к родным. Одному будет одиноко, поэтому хочу покемона. Но я ещё не ловил их.",
+          "english_gloss": "Wally explains why he wants a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 95
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Я уезжаю к родным в ВЕРДАНТУРФ. Одному будет одиноко, поэтому хочу взять покемона. Но я никогда их не ловил.",
+          "english_gloss": "Wally explains why he wants a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 95
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanunderstands.096",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Понятно.",
+          "english_gloss": "Norman understands Wally's request.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 96
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: Понимаю.",
+          "english_gloss": "Norman understands Wally's request.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 96
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: Хм... Понятно.",
+          "english_gloss": "Norman understands Wally's request.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 96
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanrequestshelp.097",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Помоги УОЛЛИ поймать покемона.",
+          "english_gloss": "Norman asks the player to help Wally catch a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 97
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: , иди с УОЛЛИ и помоги ему поймать покемона.",
+          "english_gloss": "Norman asks the player to help Wally catch a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 97
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: , сходи с УОЛЛИ и помоги ему безопасно поймать покемона.",
+          "english_gloss": "Norman asks the player to help Wally catch a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 97
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normanloanspokemon.098",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Я дам тебе покемона. УОЛЛИ получает ЗИГЗАГУНА!",
+          "english_gloss": "Norman lends Wally a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 98
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: Я одолжу тебе покемона. УОЛЛИ получает ЗИГЗАГУНА!",
+          "english_gloss": "Norman lends Wally a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 98
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: УОЛЛИ, я одолжу тебе покемона. УОЛЛИ получает ЗИГЗАГУНА!",
+          "english_gloss": "Norman lends Wally a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 98
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normangivesball.099",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Спасибо! ПАПА: Возьми и ПОКЕБОЛ.",
+          "english_gloss": "Norman also gives Wally a Poké Ball.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 99
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Вот это покемон! ПАПА: Возьми ещё ПОКЕБОЛ.",
+          "english_gloss": "Norman also gives Wally a Poké Ball.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 99
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Ух ты, покемон! ПАПА: И возьми ПОКЕБОЛ. Вперёд!",
+          "english_gloss": "Norman also gives Wally a Poké Ball.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 99
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallythanks.100",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Спасибо!",
+          "english_gloss": "Wally thanks Norman.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 100
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Большое спасибо!",
+          "english_gloss": "Wally thanks Norman.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 100
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Ух ты! Спасибо!",
+          "english_gloss": "Wally thanks Norman.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 100
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyinvitesplayer.101",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Пойдёшь со мной?",
+          "english_gloss": "Wally asks the player to come along.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 101
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: , ты пойдёшь со мной?",
+          "english_gloss": "Wally asks the player to come along.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 101
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: , ты правда пойдёшь со мной?",
+          "english_gloss": "Wally asks the player to come along.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 101
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normancheckscatch.102",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Получилось?",
+          "english_gloss": "Norman asks whether the catching lesson worked.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 102
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: Ну что, получилось?",
+          "english_gloss": "Norman asks whether the catching lesson worked.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 102
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: Ну что, всё получилось?",
+          "english_gloss": "Norman asks whether the catching lesson worked.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 102
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.wallyreturnspokemon.103",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "УОЛЛИ: Спасибо! Вот ваш покемон. Я поймал своего! Пока!",
+          "english_gloss": "Wally returns Norman's Pokémon and says goodbye.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 103
+          }
+        },
+        {
+          "id": "connected",
+          "text": "УОЛЛИ: Спасибо! Вот ваш покемон. , благодаря тебе я поймал своего. Пока!",
+          "english_gloss": "Wally returns Norman's Pokémon and says goodbye.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 103
+          }
+        },
+        {
+          "id": "natural",
+          "text": "УОЛЛИ: Да, спасибо! Вот ваш покемон. , благодаря тебе я поймал своего. Я буду хорошо о нём заботиться. Мама ждёт. Пока!",
+          "english_gloss": "Wally returns Norman's Pokémon and says goodbye.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 103
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "petalburg.gym.wally.normansendsplayeron.104",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПАПА: Иди в РАСТБОРО и победи лидера. Собирай ЗНАЧКИ, и потом мы сразимся.",
+          "english_gloss": "Norman sends the player toward Rustboro and the Gym challenge.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.wally_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 104
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПАПА: Иди в РАСТБОРО и брось вызов РОКСАННЕ. Собирай ЗНАЧКИ, и мы сразимся, когда ты станешь сильнее.",
+          "english_gloss": "Norman sends the player toward Rustboro and the Gym challenge.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.wally_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 104
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПАПА: , хочешь стать сильнее - иди в РАСТБОРО и брось вызов РОКСАННЕ. Побеждай лидеров и собирай ЗНАЧКИ. Потом сразимся и мы.",
+          "english_gloss": "Norman sends the player toward Rustboro and the Gym challenge.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.wally_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 104
+          }
+        }
       ]
     }
   ]

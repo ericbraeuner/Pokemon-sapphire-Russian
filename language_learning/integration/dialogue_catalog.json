@@ -1842,8 +1842,15 @@
         "note": "Adaptive wording is shown before the unchanged Wally catching tutorial battle.",
         "authored_id": "WallyCatchIntro"
       },
-      "progress": {"chapter": "arrival", "sequence": 89},
-      "tags": ["route102", "wally", "catching_tutorial"]
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 89
+      },
+      "tags": [
+        "route102",
+        "wally",
+        "catching_tutorial"
+      ]
     },
     {
       "id": "route102.wally.first_catch.091",
@@ -1856,8 +1863,15 @@
         "note": "Adaptive wording follows the unchanged Wally catching tutorial battle.",
         "authored_id": "WallyCaught"
       },
-      "progress": {"chapter": "arrival", "sequence": 90},
-      "tags": ["route102", "wally", "catching_tutorial"]
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 90
+      },
+      "tags": [
+        "route102",
+        "wally",
+        "catching_tutorial"
+      ]
     },
     {
       "id": "route102.wally.return_to_gym.092",
@@ -1870,8 +1884,288 @@
         "note": "Adaptive wording precedes the unchanged return warp to Petalburg Gym.",
         "authored_id": "WallyReturn"
       },
-      "progress": {"chapter": "arrival", "sequence": 91},
-      "tags": ["route102", "wally", "navigation"]
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 91
+      },
+      "tags": [
+        "route102",
+        "wally",
+        "navigation"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.petalburgdadarrival.092",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "PetalburgDadArrival"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 92
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.wallyaskspokemon.093",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_WallyIdLikeAPokemon",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "WallyAsksPokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 93
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normanrecognizeswally.094",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_DadOhYoureWallyRight",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanRecognizesWally"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 94
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.wallyexplainsmove.095",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "WallyExplainsMove"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 95
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normanunderstands.096",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_DadHmISee",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanUnderstands"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 96
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normanrequestshelp.097",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_DadPlayerGoWithWally",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanRequestsHelp"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 97
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normanloanspokemon.098",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanLoansPokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 98
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normangivesball.099",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanGivesBall"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 99
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.wallythanks.100",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_WallyOhWowThankYou",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "WallyThanks"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 100
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.wallyinvitesplayer.101",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_WouldYouReallyComeWithMe",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "WallyInvitesPlayer"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 101
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normancheckscatch.102",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_DadSoDidItWorkOut",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanChecksCatch"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 102
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.wallyreturnspokemon.103",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_WallyThankYouBye",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "WallyReturnsPokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 103
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
+    },
+    {
+      "id": "petalburg.gym.wally.normansendsplayeron.104",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+        "symbol": "PetalburgCity_Gym_EventScript_ReturnFromWallyTutorial",
+        "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+        "base_text_symbol": "PetalburgCity_Gym_Text_DadGoCollectBadges",
+        "note": "Adaptive wording replaces only the dialogue; event progression remains unchanged.",
+        "authored_id": "NormanSendsPlayerOn"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 104
+      },
+      "tags": [
+        "petalburg",
+        "gym",
+        "wally"
+      ]
     }
   ]
 }

@@ -189,6 +189,19 @@ variant is one of the three versions already compiled into the ROM: A1, A2, or
 natural. If the plan is missing, does not contain that scene, or the loader is not
 running, the game keeps using the CEFR level saved in its normal settings.
 
+On Windows, the setup helper removes the manual path editing and creates a
+single mGBA launcher plus a double-clickable synchronizer:
+
+```sh
+python language_learning/tools/setup_mgba_runtime.py language_learning/profiles/sample-learner.json
+```
+
+Open `build/learner_runtime/start_learner_sync.cmd`, then load only
+`build/learner_runtime/learner_runtime.lua` through mGBA's Scripting window.
+The generated folder also receives the snapshot, adaptive plan, review queue,
+and progress dashboard. It is an ignored local runtime folder, not source that
+should be committed.
+
 The learner build replaces the redundant `Exit` row in the ordinary START menu
 (START or B still closes it) with a localized Learning page. That page reads the
 saved language, CEFR level, introductory-help choice, exposure count, and

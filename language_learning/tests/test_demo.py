@@ -26,6 +26,7 @@ import adaptive_selector
 import adaptive_plan
 import learner_dashboard
 import session_watcher
+import setup_mgba_runtime
 
 
 class LessonTests(unittest.TestCase):
@@ -138,6 +139,30 @@ class LessonTests(unittest.TestCase):
         self.assertIn('callbacks:add("frame", poll)', source)
         self.assertEqual(1, source.count("emu:write16("))
         self.assertIn("emu:write16(address(VAR_ADAPTIVE_VARIANT), value)", source)
+
+    def test_mgba_runtime_setup_generates_one_launcher_and_watcher(self):
+        profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            profile_path = root / "learner profile.json"
+            output = root / "runtime folder"
+            profile_path.write_text(json.dumps(profile), encoding="utf-8")
+            files = setup_mgba_runtime.configure(
+                profile_path, output, python_executable=Path("C:/Python/python.exe")
+            )
+            launcher = files["launcher"].read_text(encoding="utf-8")
+            exporter = (output / "export_learner_snapshot.lua").read_text(encoding="utf-8")
+            adaptive = (output / "apply_adaptive_plan.lua").read_text(encoding="utf-8")
+            watcher = files["watcher"].read_text(encoding="utf-8")
+        self.assertEqual(2, launcher.count("dofile("))
+        self.assertIn("learner-snapshot.json", exporter)
+        self.assertIn('local SOURCE_ID = "sample-learner"', exporter)
+        self.assertIn("adaptive-runtime.lua", adaptive)
+        self.assertIn('"C:\\Python\\python.exe"', watcher)
+        self.assertNotIn("\n\n", watcher)
+        for option in ("--review-output", "--dashboard-output",
+                       "--variant-output", "--runtime-output"):
+            self.assertIn(option, watcher)
 
     def test_review_queue_prioritizes_due_context_vocabulary(self):
         profile = validate.load(demo.ROOT / "language_learning/profiles/sample-learner.json")

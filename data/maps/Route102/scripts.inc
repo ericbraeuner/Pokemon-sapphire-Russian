@@ -2,19 +2,35 @@ Route102_MapScripts:: @ 814EAD9
 	.byte 0
 
 Route102_EventScript_14EADA:: @ 814EADA
+	.if LEARNER_DEMO
+	call LearnerOpening_RouteTallGrass
+	.else
 	msgbox Route102_Text_16D431, MSGBOX_NPC
+	.endif
 	end
 
 Route102_EventScript_14EAE3:: @ 814EAE3
+	.if LEARNER_DEMO
+	call LearnerOpening_RouteOldaleSign
+	.else
 	msgbox Route102_Text_16D547, MSGBOX_SIGN
+	.endif
 	end
 
 Route102_EventScript_14EAEC:: @ 814EAEC
+	.if LEARNER_DEMO
+	call LearnerOpening_RoutePetalburgSign
+	.else
 	msgbox Route102_Text_16D55F, MSGBOX_SIGN
+	.endif
 	end
 
 Route102_EventScript_14EAF5:: @ 814EAF5
+	.if LEARNER_DEMO
+	call LearnerOpening_RouteCatchMany
+	.else
 	msgbox Route102_Text_16D51A, MSGBOX_NPC
+	.endif
 	end
 
 Route102_EventScript_14EAFE:: @ 814EAFE

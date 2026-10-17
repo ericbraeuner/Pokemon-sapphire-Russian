@@ -2166,6 +2166,86 @@
         "gym",
         "wally"
       ]
+    },
+    {
+      "id": "route102.resident.route102tallgrass.105",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EADA",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_16D431",
+        "note": "Adaptive wording replaces only the message; map behavior remains unchanged.",
+        "authored_id": "RouteTallGrass"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 105
+      },
+      "tags": [
+        "route102",
+        "resident"
+      ]
+    },
+    {
+      "id": "route102.resident.route102catchmany.106",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EAF5",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_16D51A",
+        "note": "Adaptive wording replaces only the message; map behavior remains unchanged.",
+        "authored_id": "RouteCatchMany"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 106
+      },
+      "tags": [
+        "route102",
+        "resident"
+      ]
+    },
+    {
+      "id": "route102.resident.route102oldalesign.107",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EAE3",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_16D547",
+        "note": "Adaptive wording replaces only the message; map behavior remains unchanged.",
+        "authored_id": "RouteOldaleSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 107
+      },
+      "tags": [
+        "route102",
+        "sign"
+      ]
+    },
+    {
+      "id": "route102.resident.route102petalburgsign.108",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EAEC",
+        "base_text_path": "data/maps/Route102/text.inc",
+        "base_text_symbol": "Route102_Text_16D55F",
+        "note": "Adaptive wording replaces only the message; map behavior remains unchanged.",
+        "authored_id": "RoutePetalburgSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 108
+      },
+      "tags": [
+        "route102",
+        "sign"
+      ]
     }
   ]
 }

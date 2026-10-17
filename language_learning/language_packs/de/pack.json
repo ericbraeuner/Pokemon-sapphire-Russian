@@ -1159,6 +1159,53 @@
         "der Orden"
       ],
       "dictionary_form": "der Orden"
+    },
+    {
+      "id": "de.route102_0",
+      "lemma": "Gras",
+      "english": "grass",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.resident.route102tallgrass.105",
+      "forms": [
+        "das Gras"
+      ],
+      "dictionary_form": "das Gras"
+    },
+    {
+      "id": "de.route102_1",
+      "lemma": "viel",
+      "english": "many; a lot",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.resident.route102catchmany.106",
+      "forms": [
+        "viel"
+      ]
+    },
+    {
+      "id": "de.route102_2",
+      "lemma": "Route",
+      "english": "route",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.resident.route102oldalesign.107",
+      "forms": [
+        "die Route"
+      ],
+      "dictionary_form": "die Route"
+    },
+    {
+      "id": "de.route102_3",
+      "lemma": "Stadt",
+      "english": "city",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.resident.route102petalburgsign.108",
+      "forms": [
+        "die Stadt"
+      ],
+      "dictionary_form": "die Stadt"
     }
   ],
   "grammar_notes": [
@@ -4567,6 +4614,218 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 104
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102tallgrass.105",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich bin klein. Im hohen Gras sieht man mich kaum. Hatschi!",
+          "english_gloss": "A short resident struggles in the tall grass.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 105
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich bin nicht groß, deshalb versinke ich im hohen Gras. Das Gras kitzelt meine Nase... Hatschi!",
+          "english_gloss": "A short resident struggles in the tall grass.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 105
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich bin... nicht sehr groß, deshalb versinke ich im hohen Gras. Das Gras kommt an meine Nase und... Hatschi!",
+          "english_gloss": "A short resident struggles in the tall grass.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 105
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102catchmany.106",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich fange viele Pokémon!",
+          "english_gloss": "A resident plans to catch many Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 106
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich werde viele Pokémon fangen!",
+          "english_gloss": "A resident plans to catch many Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 106
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich werde einen ganzen Haufen Pokémon fangen!",
+          "english_gloss": "A resident plans to catch many Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 106
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102oldalesign.107",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ROUTE 102. Dort liegt ROSALTSTADT.",
+          "english_gloss": "The Route 102 sign points toward Oldale Town.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 107
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ROUTE 102. In diese Richtung liegt ROSALTSTADT.",
+          "english_gloss": "The Route 102 sign points toward Oldale Town.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 107
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ROUTE 102. Richtung ROSALTSTADT.",
+          "english_gloss": "The Route 102 sign points toward Oldale Town.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 107
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102petalburgsign.108",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ROUTE 102. Dort liegt BLÜTENBURG.",
+          "english_gloss": "The Route 102 sign points toward Petalburg City.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 108
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ROUTE 102. In diese Richtung liegt BLÜTENBURG.",
+          "english_gloss": "The Route 102 sign points toward Petalburg City.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 108
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ROUTE 102. Richtung BLÜTENBURG.",
+          "english_gloss": "The Route 102 sign points toward Petalburg City.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 108
           }
         }
       ]

@@ -581,7 +581,8 @@ class LessonTests(unittest.TestCase):
         paths += ['data/scripts/tv.inc', 'data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_MaysHouse_2F/scripts.inc',
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
-                  'data/maps/Route101/scripts.inc', 'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
+                  'data/maps/Route101/scripts.inc', 'data/maps/Route102/scripts.inc',
+                  'data/maps/Route103/scripts.inc', 'data/event_scripts.s']
         paths += ['data/maps/PetalburgCity/scripts.inc',
                   'data/maps/PetalburgCity_Gym/scripts.inc']
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]

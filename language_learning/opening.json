@@ -4772,6 +4772,182 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RouteTallGrass",
+      "base_symbol": "Route102_Text_16D431",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": [
+          "Я маленького роста. В высокой траве меня почти не видно. Апчхи!"
+        ],
+        "A2": [
+          "Я невысокий, поэтому тону в высокой траве. Трава щекочет нос... Апчхи!"
+        ],
+        "natural": [
+          "Я... не очень высокий, поэтому совсем тону в высокой траве. Трава лезет в нос и... Апчхи!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin klein. Im hohen Gras sieht man mich kaum. Hatschi!"
+        ],
+        "A2": [
+          "Ich bin nicht groß, deshalb versinke ich im hohen Gras. Das Gras kitzelt meine Nase... Hatschi!"
+        ],
+        "natural": [
+          "Ich bin... nicht sehr groß, deshalb versinke ich im hohen Gras. Das Gras kommt an meine Nase und... Hatschi!"
+        ]
+      },
+      "english": [
+        "A short resident struggles in the tall grass."
+      ],
+      "words": {
+        "ru": [
+          [
+            "трава",
+            "grass"
+          ]
+        ],
+        "de": [
+          [
+            "das Gras",
+            "grass"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteCatchMany",
+      "base_symbol": "Route102_Text_16D51A",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": [
+          "Я поймаю много покемонов!"
+        ],
+        "A2": [
+          "Я собираюсь поймать много покемонов!"
+        ],
+        "natural": [
+          "Я собираюсь поймать целую кучу покемонов!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich fange viele Pokémon!"
+        ],
+        "A2": [
+          "Ich werde viele Pokémon fangen!"
+        ],
+        "natural": [
+          "Ich werde einen ganzen Haufen Pokémon fangen!"
+        ]
+      },
+      "english": [
+        "A resident plans to catch many Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "много",
+            "many"
+          ]
+        ],
+        "de": [
+          [
+            "viel",
+            "many; a lot"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteOldaleSign",
+      "base_symbol": "Route102_Text_16D547",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": [
+          "МАРШРУТ 102. Туда - ОЛДЕЙЛ."
+        ],
+        "A2": [
+          "МАРШРУТ 102. В ту сторону ОЛДЕЙЛ."
+        ],
+        "natural": [
+          "МАРШРУТ 102. В сторону ОЛДЕЙЛА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 102. Dort liegt ROSALTSTADT."
+        ],
+        "A2": [
+          "ROUTE 102. In diese Richtung liegt ROSALTSTADT."
+        ],
+        "natural": [
+          "ROUTE 102. Richtung ROSALTSTADT."
+        ]
+      },
+      "english": [
+        "The Route 102 sign points toward Oldale Town."
+      ],
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RoutePetalburgSign",
+      "base_symbol": "Route102_Text_16D55F",
+      "source_path": "data/maps/Route102/text.inc",
+      "ru": {
+        "A1": [
+          "МАРШРУТ 102. Туда - ПЕТАЛБУРГ."
+        ],
+        "A2": [
+          "МАРШРУТ 102. В ту сторону ПЕТАЛБУРГ."
+        ],
+        "natural": [
+          "МАРШРУТ 102. В сторону ПЕТАЛБУРГА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 102. Dort liegt BLÜTENBURG."
+        ],
+        "A2": [
+          "ROUTE 102. In diese Richtung liegt BLÜTENBURG."
+        ],
+        "natural": [
+          "ROUTE 102. Richtung BLÜTENBURG."
+        ]
+      },
+      "english": [
+        "The Route 102 sign points toward Petalburg City."
+      ],
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      }
     }
   ]
 }

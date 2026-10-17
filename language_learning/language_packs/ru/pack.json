@@ -1057,6 +1057,28 @@
       "forms": [
         "значок"
       ]
+    },
+    {
+      "id": "ru.route102_1",
+      "lemma": "много",
+      "english": "many",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.resident.route102catchmany.106",
+      "forms": [
+        "много"
+      ]
+    },
+    {
+      "id": "ru.route102_2",
+      "lemma": "маршрут",
+      "english": "route",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.resident.route102oldalesign.107",
+      "forms": [
+        "маршрут"
+      ]
     }
   ],
   "grammar_notes": [
@@ -4462,6 +4484,218 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 104
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102tallgrass.105",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я маленького роста. В высокой траве меня почти не видно. Апчхи!",
+          "english_gloss": "A short resident struggles in the tall grass.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.trava"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 105
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я невысокий, поэтому тону в высокой траве. Трава щекочет нос... Апчхи!",
+          "english_gloss": "A short resident struggles in the tall grass.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.trava"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 105
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я... не очень высокий, поэтому совсем тону в высокой траве. Трава лезет в нос и... Апчхи!",
+          "english_gloss": "A short resident struggles in the tall grass.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.trava"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 105
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102catchmany.106",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я поймаю много покемонов!",
+          "english_gloss": "A resident plans to catch many Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 106
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я собираюсь поймать много покемонов!",
+          "english_gloss": "A resident plans to catch many Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 106
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я собираюсь поймать целую кучу покемонов!",
+          "english_gloss": "A resident plans to catch many Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 106
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102oldalesign.107",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "МАРШРУТ 102. Туда - ОЛДЕЙЛ.",
+          "english_gloss": "The Route 102 sign points toward Oldale Town.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 107
+          }
+        },
+        {
+          "id": "connected",
+          "text": "МАРШРУТ 102. В ту сторону ОЛДЕЙЛ.",
+          "english_gloss": "The Route 102 sign points toward Oldale Town.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 107
+          }
+        },
+        {
+          "id": "natural",
+          "text": "МАРШРУТ 102. В сторону ОЛДЕЙЛА.",
+          "english_gloss": "The Route 102 sign points toward Oldale Town.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 107
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.resident.route102petalburgsign.108",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "МАРШРУТ 102. Туда - ПЕТАЛБУРГ.",
+          "english_gloss": "The Route 102 sign points toward Petalburg City.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.gorod"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 108
+          }
+        },
+        {
+          "id": "connected",
+          "text": "МАРШРУТ 102. В ту сторону ПЕТАЛБУРГ.",
+          "english_gloss": "The Route 102 sign points toward Petalburg City.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.gorod"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 108
+          }
+        },
+        {
+          "id": "natural",
+          "text": "МАРШРУТ 102. В сторону ПЕТАЛБУРГА.",
+          "english_gloss": "The Route 102 sign points toward Petalburg City.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.gorod"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 108
           }
         }
       ]

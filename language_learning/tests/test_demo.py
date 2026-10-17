@@ -257,7 +257,9 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(90, len({item["dialogue_id"] for item in plan["selections"]}))
         self.assertTrue(all(item["selected_language"] == "ru"
                             for item in plan["selections"]))
-        self.assertEqual(set(range(1, 91)), {item["context_id"] for item in plan["selections"]})
+        authored_count = len(opening.load()["dialogues"])
+        self.assertEqual(set(range(1, authored_count + 1)),
+                         {item["context_id"] for item in plan["selections"]})
         runtime = adaptive_plan.render_lua(plan)
         self.assertIn("[1] = 2,", runtime)
 
@@ -513,7 +515,9 @@ class LessonTests(unittest.TestCase):
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()
         self.assertEqual(250, len(contexts))
-        self.assertEqual(set(range(1, 91)), {key for key in contexts if key < 0x1000})
+        authored_count = len(opening.load()["dialogues"])
+        self.assertEqual(set(range(1, authored_count + 1)),
+                         {key for key in contexts if key < 0x1000})
         self.assertEqual(set(range(0x1000, 0x10A0)), {key for key in contexts if key >= 0x1000})
         self.assertEqual("authored_dialogue", contexts[1]["kind"])
         self.assertEqual("field_dictionary", contexts[0x1000]["kind"])

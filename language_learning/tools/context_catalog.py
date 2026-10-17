@@ -24,7 +24,10 @@ def _words(prefix: str, values: list[list[str]]) -> list[dict[str, str]]:
 
 def load() -> dict[int, dict[str, Any]]:
     contexts: dict[int, dict[str, Any]] = {}
-    for context_id, entry in enumerate(opening.load()["dialogues"], 1):
+    authored = opening.load()["dialogues"]
+    if len(authored) >= FIELD_CONTEXT_BASE:
+        raise ValueError("authored dialogue contexts overlap the reserved field range")
+    for context_id, entry in enumerate(authored, 1):
         contexts[context_id] = {
             "kind": "authored_dialogue",
             "source_id": entry["id"],

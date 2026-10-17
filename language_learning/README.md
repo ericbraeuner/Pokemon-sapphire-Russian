@@ -125,7 +125,7 @@ replays the original message with its live names and quantities, and then resume
 the original event script. Each entry receives a stable context in the range
 `0x1000`–`0x109F`, following its append-only catalogue order; do not reorder
 existing entries when adding vocabulary.
-`tools/context_catalog.py` resolves those IDs and the 90 authored-dialogue IDs
+`tools/context_catalog.py` resolves those IDs and all authored-dialogue IDs
 to stable, language-specific vocabulary records. It can print the live catalogue
 or write it with `--output`; generated copies remain build artifacts rather than
 committed duplicate data.

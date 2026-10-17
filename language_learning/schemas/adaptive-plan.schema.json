@@ -23,7 +23,7 @@
             "required": ["source_symbol", "context_id"],
             "properties": {
               "source_symbol": {"type": "string", "minLength": 1},
-              "context_id": {"type": "integer", "minimum": 1, "maximum": 90}
+              "context_id": {"type": "integer", "minimum": 1, "maximum": 4095}
             }
           }
         ]

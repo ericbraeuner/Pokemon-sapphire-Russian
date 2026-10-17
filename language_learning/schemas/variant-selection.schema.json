@@ -21,7 +21,7 @@
     "vocabulary_ids": {"type": "array", "items": {"type": "string"}},
     "grammar_note_ids": {"type": "array", "items": {"type": "string"}},
     "source_symbol": {"type": "string", "minLength": 1},
-    "context_id": {"type": "integer", "minimum": 1, "maximum": 90}
+    "context_id": {"type": "integer", "minimum": 1, "maximum": 4095}
   },
   "additionalProperties": false
 }

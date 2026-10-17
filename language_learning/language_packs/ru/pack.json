@@ -1079,6 +1079,149 @@
       "forms": [
         "маршрут"
       ]
+    },
+    {
+      "id": "ru.route102_trainer_0",
+      "lemma": "вызов",
+      "english": "challenge",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinintro.109",
+      "forms": [
+        "вызов"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_1",
+      "lemma": "тренироваться",
+      "english": "to train",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvindefeat.110",
+      "forms": [
+        "тренироваться"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_3",
+      "lemma": "снова",
+      "english": "again",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinrematchintro.112",
+      "forms": [
+        "снова"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_4",
+      "lemma": "неправильно",
+      "english": "incorrectly",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinrematchdefeat.113",
+      "forms": [
+        "неправильно"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_5",
+      "lemma": "тоже",
+      "english": "also; too",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinrematchpost.114",
+      "forms": [
+        "тоже"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_6",
+      "lemma": "жук",
+      "english": "bug",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.rickintro.115",
+      "forms": [
+        "жук"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_7",
+      "lemma": "поражение",
+      "english": "defeat",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.rickdefeat.116",
+      "forms": [
+        "поражение"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_8",
+      "lemma": "правило",
+      "english": "rule",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.rickpost.117",
+      "forms": [
+        "правило"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_9",
+      "lemma": "карьера",
+      "english": "career",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.tianaintro.118",
+      "forms": [
+        "карьера"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_11",
+      "lemma": "побеждать",
+      "english": "to win",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.tianapost.120",
+      "forms": [
+        "побеждать"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_12",
+      "lemma": "новичок",
+      "english": "beginner",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.allenintro.121",
+      "forms": [
+        "новичок"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_13",
+      "lemma": "думать",
+      "english": "to think",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.allendefeat.122",
+      "forms": [
+        "думать"
+      ]
+    },
+    {
+      "id": "ru.route102_trainer_14",
+      "lemma": "надеяться",
+      "english": "to hope",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.allenpost.123",
+      "forms": [
+        "надеяться"
+      ]
     }
   ],
   "grammar_notes": [
@@ -4696,6 +4839,801 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 108
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinintro.109",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "У тебя есть покемон. Значит, ты тренер! Сражайся!",
+          "english_gloss": "Calvin challenges any trainer who carries a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 109
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Если у тебя есть покемон, ты тренер. От вызова не отказаться!",
+          "english_gloss": "Calvin challenges any trainer who carries a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 109
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Если у тебя есть покемон, ты официальный тренер! От моего вызова не отказаться!",
+          "english_gloss": "Calvin challenges any trainer who carries a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 109
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvindefeat.110",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я проиграл. Надо больше тренироваться.",
+          "english_gloss": "Calvin regrets not training more.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 110
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Эх, я проиграл... Надо было больше тренироваться.",
+          "english_gloss": "Calvin regrets not training more.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 110
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Эх, я проиграл... Мне следовало больше тренироваться.",
+          "english_gloss": "Calvin regrets not training more.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 110
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinpost.111",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ты сильный! Предупреждать надо!",
+          "english_gloss": "Calvin says the player should have warned him.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.silnyy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 111
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Если ты такой сильный, надо было предупредить!",
+          "english_gloss": "Calvin says the player should have warned him.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.silnyy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 111
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Если ты настолько сильный, надо было меня предупредить!",
+          "english_gloss": "Calvin says the player should have warned him.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.silnyy"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 111
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinrematchintro.112",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я много тренировался. Снова сразимся!",
+          "english_gloss": "Calvin demands a rematch after training hard.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 112
+          }
+        },
+        {
+          "id": "connected",
+          "text": "После поражения я много тренировался. Снова сразимся!",
+          "english_gloss": "Calvin demands a rematch after training hard.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 112
+          }
+        },
+        {
+          "id": "natural",
+          "text": "После поражения я отчаянно тренировался. Теперь от вызова не отказаться!",
+          "english_gloss": "Calvin demands a rematch after training hard.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 112
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinrematchdefeat.113",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Снова проиграл. Что я делаю не так?",
+          "english_gloss": "Calvin loses the rematch and questions his training.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 113
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Эх, снова проиграл... Может, я тренируюсь неправильно?",
+          "english_gloss": "Calvin loses the rematch and questions his training.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 113
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Эх, снова проиграл... Может быть, я тренируюсь неправильно?",
+          "english_gloss": "Calvin loses the rematch and questions his training.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 113
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinrematchpost.114",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ты станешь сильнее, и я тоже.",
+          "english_gloss": "Calvin promises to grow stronger with the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 114
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Если ты станешь сильнее, я тоже стану сильнее.",
+          "english_gloss": "Calvin promises to grow stronger with the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 114
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Если ты станешь сильнее, я тоже стану сильнее.",
+          "english_gloss": "Calvin promises to grow stronger with the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 114
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.rickintro.115",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мы встретились взглядами! Сражайся с моими жуками!",
+          "english_gloss": "Bug Catcher Rick challenges the player after making eye contact.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 115
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Наши взгляды встретились! Сразись с моими покемонами-жуками!",
+          "english_gloss": "Bug Catcher Rick challenges the player after making eye contact.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 115
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ха! Мы встретились взглядами! Сразись с моими покемонами-жуками!",
+          "english_gloss": "Bug Catcher Rick challenges the player after making eye contact.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 115
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.rickdefeat.116",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ох! Я проиграл!",
+          "english_gloss": "Rick is completely defeated.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 116
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ох! Полное поражение!",
+          "english_gloss": "Rick is completely defeated.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 116
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ох! Я полностью разгромлен!",
+          "english_gloss": "Rick is completely defeated.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 116
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.rickpost.117",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Встретился взглядом с тренером - сражайся!",
+          "english_gloss": "Rick explains the rule about trainers meeting eyes.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 117
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Если тренеры встретились взглядами, они должны сражаться. Это правило!",
+          "english_gloss": "Rick explains the rule about trainers meeting eyes.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 117
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Если встретился взглядом с тренером, надо сражаться. Таково правило!",
+          "english_gloss": "Rick explains the rule about trainers meeting eyes.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 117
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.tianaintro.118",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я стану лучшим тренером. Сразись со мной!",
+          "english_gloss": "Tiana asks the player to help her winning career.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 118
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я буду побеждать и стану лучшим тренером. Помоги моей карьере!",
+          "english_gloss": "Tiana asks the player to help her winning career.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 118
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я буду побеждать и стану лучшим тренером. Помоги моей карьере!",
+          "english_gloss": "Tiana asks the player to help her winning career.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 118
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.tianadefeat.119",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Теперь я помогла твоей карьере...",
+          "english_gloss": "Tiana admits she helped the player's career instead.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 119
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Похоже, я помогла твоей карьере...",
+          "english_gloss": "Tiana admits she helped the player's career instead.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 119
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Похоже, вместо этого я помогла твоей карьере...",
+          "english_gloss": "Tiana admits she helped the player's career instead.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.pomogat"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 119
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.tianapost.120",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мне нужно больше покемонов, чтобы побеждать.",
+          "english_gloss": "Tiana plans to catch more Pokémon so she can keep winning.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 120
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Чтобы побеждать дальше, мне нужно поймать больше покемонов.",
+          "english_gloss": "Tiana plans to catch more Pokémon so she can keep winning.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 120
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Чтобы продолжать побеждать, мне нужно поймать больше покемонов.",
+          "english_gloss": "Tiana plans to catch more Pokémon so she can keep winning.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 120
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.allenintro.121",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ты новый тренер? Я тоже!",
+          "english_gloss": "Allen notices that both trainers are beginners.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 121
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ты тоже недавно стал тренером? Мы оба новички!",
+          "english_gloss": "Allen notices that both trainers are beginners.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 121
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ты тоже только что стал тренером? Тогда мы оба новички!",
+          "english_gloss": "Allen notices that both trainers are beginners.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 121
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.allendefeat.122",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я думал, что смогу победить...",
+          "english_gloss": "Allen thought he could win when he challenged the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 122
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я вызвал тебя, потому что думал, что смогу победить...",
+          "english_gloss": "Allen thought he could win when he challenged the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 122
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я бросил тебе вызов, потому что думал, что смогу победить...",
+          "english_gloss": "Allen thought he could win when he challenged the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 122
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.allenpost.123",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я ещё не побеждал. Может, скоро!",
+          "english_gloss": "Allen hopes to earn his first victory soon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route102_trainer_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 123
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я ещё ни разу не победил. Надеюсь, скоро получится.",
+          "english_gloss": "Allen hopes to earn his first victory soon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route102_trainer_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 123
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я ещё ни разу не победил... Надеюсь, скоро получится.",
+          "english_gloss": "Allen hopes to earn his first victory soon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route102_trainer_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 123
           }
         }
       ]

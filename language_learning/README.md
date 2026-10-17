@@ -49,7 +49,7 @@ help rate can conservatively select A2 after ten exposures. The saved difficulty
 remains the ceiling and is never changed by this adjustment. Every selection
 records both difficulty values and its reason so a wrapper can explain the choice.
 
-The adaptive packs now cover 110 authored early-game scenes: arriving
+The adaptive packs now cover 125 authored early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -73,7 +73,9 @@ contract. Wally's Petalburg Gym introduction, request for a Pokémon, borrowed
 Pokémon and Poké Ball handoff, invitation, Route 102 catching demonstration,
 return, and Norman's next objective now use adaptive A1, A2, and natural wording.
 Route 102's two residents and both directional signs follow the same adaptive
-contract. The tutorial battle and all event progression remain unchanged. Automated
+contract. Its four first-battle trainers, Calvin's rematch, their defeat lines,
+and their post-battle comments now use the trainer bridge as well. The tutorial
+battle and all event progression remain unchanged. Automated
 coverage requires the adaptive catalogue to resolve every
 source symbol in `opening.json`, including the clock reminder that was initially
 missed. The mGBA runtime bridge can apply these selections to the compiled ROM
@@ -106,14 +108,14 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` connects all 110 authored lessons to their
+`integration/dialogue_catalog.json` connects all 125 authored lessons to their
 real script hooks and original text symbols, including the shared moving-in
 scripts and Route 101 sign. Validation checks both ends of every connection.
 The normal game dialogue follows the extra lesson; important story instructions
 are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
-`opening.json` currently holds 110 source-symbol mappings,
+`opening.json` currently holds 125 source-symbol mappings,
 translations in three text bands, English help, and dictionary entries. This
 prototype bundle is validated during generation and tests; it is separate from
 the original language-pack/profile schema and does not update external profiles.

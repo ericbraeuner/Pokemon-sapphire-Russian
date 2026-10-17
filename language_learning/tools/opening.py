@@ -119,13 +119,17 @@ def generate(russian, latin, glyphs):
                            + '\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n\treturn\n')
             scripts.append(f'{base}_Settings:\n\tcall LearnerOpening_Settings\n\tgoto {root}\n')
         if entry.get('adaptive_translation'):
+            labels = []
             for tag in ('ru', 'de'):
                 for band in ('A1', 'A2', 'natural'):
-                    if len(demo.wrap(entry[tag][band][0], russian if tag == 'ru' else latin,
-                                     glyphs if tag == 'ru' else {})) > 2 or len(entry[tag][band]) != 1:
-                        raise ValueError(f'Adaptive translation must fit one two-line message: {entry["id"]}/{tag}/{band}')
-            labels = [f'{root}_{tag}_{band}Text_0' for tag in ('ru', 'de')
-                      for band in ('A1', 'A2', 'natural')]
+                    if len(entry[tag][band]) != 1:
+                        raise ValueError(f'Adaptive translation must be one paragraph: {entry["id"]}/{tag}/{band}')
+                    label = f'{root}_{tag}_{band}AdaptiveText'
+                    mapping = russian if tag == 'ru' else latin
+                    font = 0 if tag == 'ru' else 3
+                    parts.append(demo.assembly_bytes(label, demo.message(
+                        entry[tag][band], mapping, glyphs if tag == 'ru' else {}, font)))
+                    labels.append(label)
             adaptive_table.append(f'\t.4byte {entry["base_symbol"]}, ' + ', '.join(labels)
                                   + f'\n\t.2byte {context_id}, 0')
         scripts.append(f'{root}_Dictionary:\n\tcompare VAR_LEARNER_LANGUAGE, 1\n'

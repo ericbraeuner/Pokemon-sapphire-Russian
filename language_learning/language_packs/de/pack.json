@@ -1206,6 +1206,155 @@
         "die Stadt"
       ],
       "dictionary_form": "die Stadt"
+    },
+    {
+      "id": "de.route102_trainer_0",
+      "lemma": "Herausforderung",
+      "english": "challenge",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinintro.109",
+      "forms": [
+        "die Herausforderung"
+      ],
+      "dictionary_form": "die Herausforderung"
+    },
+    {
+      "id": "de.route102_trainer_1",
+      "lemma": "trainieren",
+      "english": "to train",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvindefeat.110",
+      "forms": [
+        "trainieren"
+      ]
+    },
+    {
+      "id": "de.route102_trainer_3",
+      "lemma": "wieder",
+      "english": "again",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinrematchintro.112",
+      "forms": [
+        "wieder"
+      ]
+    },
+    {
+      "id": "de.route102_trainer_4",
+      "lemma": "falsch",
+      "english": "wrong; incorrectly",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinrematchdefeat.113",
+      "forms": [
+        "falsch"
+      ]
+    },
+    {
+      "id": "de.route102_trainer_5",
+      "lemma": "ebenfalls",
+      "english": "also; likewise",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.calvinrematchpost.114",
+      "forms": [
+        "ebenfalls"
+      ]
+    },
+    {
+      "id": "de.route102_trainer_6",
+      "lemma": "Käfer",
+      "english": "bug",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.rickintro.115",
+      "forms": [
+        "der Käfer"
+      ],
+      "dictionary_form": "der Käfer"
+    },
+    {
+      "id": "de.route102_trainer_7",
+      "lemma": "Niederlage",
+      "english": "defeat",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.rickdefeat.116",
+      "forms": [
+        "die Niederlage"
+      ],
+      "dictionary_form": "die Niederlage"
+    },
+    {
+      "id": "de.route102_trainer_8",
+      "lemma": "Regel",
+      "english": "rule",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.rickpost.117",
+      "forms": [
+        "die Regel"
+      ],
+      "dictionary_form": "die Regel"
+    },
+    {
+      "id": "de.route102_trainer_9",
+      "lemma": "Laufbahn",
+      "english": "career",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.tianaintro.118",
+      "forms": [
+        "die Laufbahn"
+      ],
+      "dictionary_form": "die Laufbahn"
+    },
+    {
+      "id": "de.route102_trainer_11",
+      "lemma": "gewinnen",
+      "english": "to win",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.tianapost.120",
+      "forms": [
+        "gewinnen"
+      ]
+    },
+    {
+      "id": "de.route102_trainer_12",
+      "lemma": "Anfänger",
+      "english": "beginner",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.allenintro.121",
+      "forms": [
+        "der Anfänger"
+      ],
+      "dictionary_form": "der Anfänger"
+    },
+    {
+      "id": "de.route102_trainer_13",
+      "lemma": "denken",
+      "english": "to think",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.allendefeat.122",
+      "forms": [
+        "denken"
+      ]
+    },
+    {
+      "id": "de.route102_trainer_14",
+      "lemma": "hoffen",
+      "english": "to hope",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route102.trainer.allenpost.123",
+      "forms": [
+        "hoffen"
+      ]
     }
   ],
   "grammar_notes": [
@@ -4826,6 +4975,801 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 108
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinintro.109",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du hast ein Pokémon. Also bist du Trainer! Kämpfe!",
+          "english_gloss": "Calvin challenges any trainer who carries a Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 109
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mit einem Pokémon bist du Trainer. Meine Herausforderung gilt!",
+          "english_gloss": "Calvin challenges any trainer who carries a Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 109
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wenn du ein Pokémon hast, bist du ein richtiger Trainer! Meine Herausforderung kannst du nicht ablehnen!",
+          "english_gloss": "Calvin challenges any trainer who carries a Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_0"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 109
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvindefeat.110",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich verlor. Ich muss mehr trainieren.",
+          "english_gloss": "Calvin regrets not training more.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 110
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ach, ich verlor... Ich hätte mehr trainieren sollen.",
+          "english_gloss": "Calvin regrets not training more.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 110
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach, ich habe verloren... Ich hätte mehr trainieren sollen.",
+          "english_gloss": "Calvin regrets not training more.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 110
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinpost.111",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du bist stark! Warn mich doch!",
+          "english_gloss": "Calvin says the player should have warned him.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.stark"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 111
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wenn du so stark bist, hättest du mich warnen sollen!",
+          "english_gloss": "Calvin says the player should have warned him.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.stark"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 111
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wenn du so stark bist, hättest du mich vorher warnen sollen!",
+          "english_gloss": "Calvin says the player should have warned him.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.stark"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 111
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinrematchintro.112",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich trainierte viel. Kämpfen wir wieder!",
+          "english_gloss": "Calvin demands a rematch after training hard.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 112
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Seit der Niederlage trainierte ich viel. Kämpfen wir wieder!",
+          "english_gloss": "Calvin demands a rematch after training hard.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 112
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Seit meiner Niederlage habe ich hart trainiert. Jetzt kannst du meine Herausforderung nicht ablehnen!",
+          "english_gloss": "Calvin demands a rematch after training hard.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 112
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinrematchdefeat.113",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wieder verloren. Was mache ich falsch?",
+          "english_gloss": "Calvin loses the rematch and questions his training.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 113
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ach, wieder verloren... Trainiere ich falsch?",
+          "english_gloss": "Calvin loses the rematch and questions his training.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 113
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach, wieder verloren... Trainiere ich vielleicht falsch?",
+          "english_gloss": "Calvin loses the rematch and questions his training.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 113
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.calvinrematchpost.114",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wirst du stärker, werde ich es auch.",
+          "english_gloss": "Calvin promises to grow stronger with the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 114
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wenn du stärker wirst, werde ich auch stärker.",
+          "english_gloss": "Calvin promises to grow stronger with the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 114
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wenn du stärker wirst, werde ich ebenfalls stärker.",
+          "english_gloss": "Calvin promises to grow stronger with the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 114
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.rickintro.115",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Unsere Blicke trafen sich! Kämpfe gegen meine Käfer!",
+          "english_gloss": "Bug Catcher Rick challenges the player after making eye contact.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 115
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Unsere Blicke trafen sich! Kämpfe gegen meine Käfer-Pokémon!",
+          "english_gloss": "Bug Catcher Rick challenges the player after making eye contact.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 115
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ha! Unsere Blicke trafen sich! Kämpfe gegen meine Käfer-Pokémon!",
+          "english_gloss": "Bug Catcher Rick challenges the player after making eye contact.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 115
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.rickdefeat.116",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Autsch! Ich verlor!",
+          "english_gloss": "Rick is completely defeated.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 116
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Autsch! Völlig besiegt!",
+          "english_gloss": "Rick is completely defeated.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 116
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Autsch! Vollständig besiegt!",
+          "english_gloss": "Rick is completely defeated.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 116
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.rickpost.117",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Treffen sich Trainerblicke, wird gekämpft!",
+          "english_gloss": "Rick explains the rule about trainers meeting eyes.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 117
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wenn Trainer sich ansehen, müssen sie kämpfen. Das ist die Regel!",
+          "english_gloss": "Rick explains the rule about trainers meeting eyes.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 117
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wenn sich Trainer in die Augen sehen, müssen sie kämpfen. So lautet die Regel!",
+          "english_gloss": "Rick explains the rule about trainers meeting eyes.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 117
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.tianaintro.118",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich werde die beste Trainerin. Kämpfe mit mir!",
+          "english_gloss": "Tiana asks the player to help her winning career.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 118
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich werde siegen und die beste Trainerin werden. Hilf meiner Laufbahn!",
+          "english_gloss": "Tiana asks the player to help her winning career.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 118
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich werde weiter siegen und die beste Trainerin werden. Hilf meiner Laufbahn!",
+          "english_gloss": "Tiana asks the player to help her winning career.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 118
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.tianadefeat.119",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Nun half ich deiner Laufbahn...",
+          "english_gloss": "Tiana admits she helped the player's career instead.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 119
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Offenbar half ich deiner Laufbahn...",
+          "english_gloss": "Tiana admits she helped the player's career instead.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 119
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Offenbar habe ich stattdessen deiner Laufbahn geholfen...",
+          "english_gloss": "Tiana admits she helped the player's career instead.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.helfen"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 119
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.tianapost.120",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Für Siege brauche ich mehr Pokémon.",
+          "english_gloss": "Tiana plans to catch more Pokémon so she can keep winning.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 120
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Um weiter zu siegen, muss ich mehr Pokémon fangen.",
+          "english_gloss": "Tiana plans to catch more Pokémon so she can keep winning.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 120
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Um weiter zu gewinnen, muss ich mehr Pokémon fangen.",
+          "english_gloss": "Tiana plans to catch more Pokémon so she can keep winning.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 120
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.allenintro.121",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Bist du neuer Trainer? Ich auch!",
+          "english_gloss": "Allen notices that both trainers are beginners.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 121
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Bist du auch gerade Trainer geworden? Wir sind beide Anfänger!",
+          "english_gloss": "Allen notices that both trainers are beginners.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 121
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Bist du auch erst Trainer geworden? Dann sind wir beide Anfänger!",
+          "english_gloss": "Allen notices that both trainers are beginners.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 121
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.allendefeat.122",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich dachte, ich könnte gewinnen...",
+          "english_gloss": "Allen thought he could win when he challenged the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 122
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich rief dich, weil ich dachte, ich könnte gewinnen...",
+          "english_gloss": "Allen thought he could win when he challenged the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 122
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich forderte dich heraus, weil ich dachte, ich könnte gewinnen...",
+          "english_gloss": "Allen thought he could win when he challenged the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 122
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route102.trainer.allenpost.123",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich gewann noch nie. Vielleicht bald!",
+          "english_gloss": "Allen hopes to earn his first victory soon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route102_trainer_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 123
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich habe noch nie gewonnen. Hoffentlich klappt es bald.",
+          "english_gloss": "Allen hopes to earn his first victory soon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route102_trainer_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 123
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich habe noch nie gewonnen... Hoffentlich klappt es bald.",
+          "english_gloss": "Allen hopes to earn his first victory soon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route102_trainer_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 123
           }
         }
       ]

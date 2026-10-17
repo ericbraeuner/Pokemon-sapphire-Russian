@@ -4948,6 +4948,676 @@
           ]
         ]
       }
+    },
+    {
+      "id": "CalvinIntro",
+      "base_symbol": "Route102_Text_1B79C3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "У тебя есть покемон. Значит, ты тренер! Сражайся!"
+        ],
+        "A2": [
+          "Если у тебя есть покемон, ты тренер. От вызова не отказаться!"
+        ],
+        "natural": [
+          "Если у тебя есть покемон, ты официальный тренер! От моего вызова не отказаться!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast ein Pokémon. Also bist du Trainer! Kämpfe!"
+        ],
+        "A2": [
+          "Mit einem Pokémon bist du Trainer. Meine Herausforderung gilt!"
+        ],
+        "natural": [
+          "Wenn du ein Pokémon hast, bist du ein richtiger Trainer! Meine Herausforderung kannst du nicht ablehnen!"
+        ]
+      },
+      "english": [
+        "Calvin challenges any trainer who carries a Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вызов",
+            "challenge"
+          ]
+        ],
+        "de": [
+          [
+            "die Herausforderung",
+            "challenge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CalvinDefeat",
+      "base_symbol": "Route102_Text_1B7A2C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я проиграл. Надо больше тренироваться."
+        ],
+        "A2": [
+          "Эх, я проиграл... Надо было больше тренироваться."
+        ],
+        "natural": [
+          "Эх, я проиграл... Мне следовало больше тренироваться."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verlor. Ich muss mehr trainieren."
+        ],
+        "A2": [
+          "Ach, ich verlor... Ich hätte mehr trainieren sollen."
+        ],
+        "natural": [
+          "Ach, ich habe verloren... Ich hätte mehr trainieren sollen."
+        ]
+      },
+      "english": [
+        "Calvin regrets not training more."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тренироваться",
+            "to train"
+          ]
+        ],
+        "de": [
+          [
+            "trainieren",
+            "to train"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CalvinPost",
+      "base_symbol": "Route102_Text_1B7A60",
+      "source_path": "data/text/trainers.inc",
+      "ru": {
+        "A1": [
+          "Ты сильный! Предупреждать надо!"
+        ],
+        "A2": [
+          "Если ты такой сильный, надо было предупредить!"
+        ],
+        "natural": [
+          "Если ты настолько сильный, надо было меня предупредить!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist stark! Warn mich doch!"
+        ],
+        "A2": [
+          "Wenn du so stark bist, hättest du mich warnen sollen!"
+        ],
+        "natural": [
+          "Wenn du so stark bist, hättest du mich vorher warnen sollen!"
+        ]
+      },
+      "english": [
+        "Calvin says the player should have warned him."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сильный",
+            "strong"
+          ]
+        ],
+        "de": [
+          [
+            "stark",
+            "strong"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CalvinRematchIntro",
+      "base_symbol": "Route102_Text_1B7A9F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я много тренировался. Снова сразимся!"
+        ],
+        "A2": [
+          "После поражения я много тренировался. Снова сразимся!"
+        ],
+        "natural": [
+          "После поражения я отчаянно тренировался. Теперь от вызова не отказаться!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich trainierte viel. Kämpfen wir wieder!"
+        ],
+        "A2": [
+          "Seit der Niederlage trainierte ich viel. Kämpfen wir wieder!"
+        ],
+        "natural": [
+          "Seit meiner Niederlage habe ich hart trainiert. Jetzt kannst du meine Herausforderung nicht ablehnen!"
+        ]
+      },
+      "english": [
+        "Calvin demands a rematch after training hard."
+      ],
+      "words": {
+        "ru": [
+          [
+            "снова",
+            "again"
+          ]
+        ],
+        "de": [
+          [
+            "wieder",
+            "again"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CalvinRematchDefeat",
+      "base_symbol": "Route102_Text_1B7AFD",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Снова проиграл. Что я делаю не так?"
+        ],
+        "A2": [
+          "Эх, снова проиграл... Может, я тренируюсь неправильно?"
+        ],
+        "natural": [
+          "Эх, снова проиграл... Может быть, я тренируюсь неправильно?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wieder verloren. Was mache ich falsch?"
+        ],
+        "A2": [
+          "Ach, wieder verloren... Trainiere ich falsch?"
+        ],
+        "natural": [
+          "Ach, wieder verloren... Trainiere ich vielleicht falsch?"
+        ]
+      },
+      "english": [
+        "Calvin loses the rematch and questions his training."
+      ],
+      "words": {
+        "ru": [
+          [
+            "неправильно",
+            "incorrectly"
+          ]
+        ],
+        "de": [
+          [
+            "falsch",
+            "wrong; incorrectly"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CalvinRematchPost",
+      "base_symbol": "Route102_Text_1B7B2F",
+      "source_path": "data/text/trainers.inc",
+      "ru": {
+        "A1": [
+          "Ты станешь сильнее, и я тоже."
+        ],
+        "A2": [
+          "Если ты станешь сильнее, я тоже стану сильнее."
+        ],
+        "natural": [
+          "Если ты станешь сильнее, я тоже стану сильнее."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wirst du stärker, werde ich es auch."
+        ],
+        "A2": [
+          "Wenn du stärker wirst, werde ich auch stärker."
+        ],
+        "natural": [
+          "Wenn du stärker wirst, werde ich ebenfalls stärker."
+        ]
+      },
+      "english": [
+        "Calvin promises to grow stronger with the player."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тоже",
+            "also; too"
+          ]
+        ],
+        "de": [
+          [
+            "ebenfalls",
+            "also; likewise"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RickIntro",
+      "base_symbol": "Route102_Text_1B7C05",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мы встретились взглядами! Сражайся с моими жуками!"
+        ],
+        "A2": [
+          "Наши взгляды встретились! Сразись с моими покемонами-жуками!"
+        ],
+        "natural": [
+          "Ха! Мы встретились взглядами! Сразись с моими покемонами-жуками!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unsere Blicke trafen sich! Kämpfe gegen meine Käfer!"
+        ],
+        "A2": [
+          "Unsere Blicke trafen sich! Kämpfe gegen meine Käfer-Pokémon!"
+        ],
+        "natural": [
+          "Ha! Unsere Blicke trafen sich! Kämpfe gegen meine Käfer-Pokémon!"
+        ]
+      },
+      "english": [
+        "Bug Catcher Rick challenges the player after making eye contact."
+      ],
+      "words": {
+        "ru": [
+          [
+            "жук",
+            "bug"
+          ]
+        ],
+        "de": [
+          [
+            "der Käfer",
+            "bug"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RickDefeat",
+      "base_symbol": "Route102_Text_1B7C40",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ох! Я проиграл!"
+        ],
+        "A2": [
+          "Ох! Полное поражение!"
+        ],
+        "natural": [
+          "Ох! Я полностью разгромлен!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Autsch! Ich verlor!"
+        ],
+        "A2": [
+          "Autsch! Völlig besiegt!"
+        ],
+        "natural": [
+          "Autsch! Vollständig besiegt!"
+        ]
+      },
+      "english": [
+        "Rick is completely defeated."
+      ],
+      "words": {
+        "ru": [
+          [
+            "поражение",
+            "defeat"
+          ]
+        ],
+        "de": [
+          [
+            "die Niederlage",
+            "defeat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RickPost",
+      "base_symbol": "Route102_Text_1B7C52",
+      "source_path": "data/text/trainers.inc",
+      "ru": {
+        "A1": [
+          "Встретился взглядом с тренером - сражайся!"
+        ],
+        "A2": [
+          "Если тренеры встретились взглядами, они должны сражаться. Это правило!"
+        ],
+        "natural": [
+          "Если встретился взглядом с тренером, надо сражаться. Таково правило!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Treffen sich Trainerblicke, wird gekämpft!"
+        ],
+        "A2": [
+          "Wenn Trainer sich ansehen, müssen sie kämpfen. Das ist die Regel!"
+        ],
+        "natural": [
+          "Wenn sich Trainer in die Augen sehen, müssen sie kämpfen. So lautet die Regel!"
+        ]
+      },
+      "english": [
+        "Rick explains the rule about trainers meeting eyes."
+      ],
+      "words": {
+        "ru": [
+          [
+            "правило",
+            "rule"
+          ]
+        ],
+        "de": [
+          [
+            "die Regel",
+            "rule"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TianaIntro",
+      "base_symbol": "Route102_Text_1B7C97",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я стану лучшим тренером. Сразись со мной!"
+        ],
+        "A2": [
+          "Я буду побеждать и стану лучшим тренером. Помоги моей карьере!"
+        ],
+        "natural": [
+          "Я буду побеждать и стану лучшим тренером. Помоги моей карьере!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich werde die beste Trainerin. Kämpfe mit mir!"
+        ],
+        "A2": [
+          "Ich werde siegen und die beste Trainerin werden. Hilf meiner Laufbahn!"
+        ],
+        "natural": [
+          "Ich werde weiter siegen und die beste Trainerin werden. Hilf meiner Laufbahn!"
+        ]
+      },
+      "english": [
+        "Tiana asks the player to help her winning career."
+      ],
+      "words": {
+        "ru": [
+          [
+            "карьера",
+            "career"
+          ]
+        ],
+        "de": [
+          [
+            "die Laufbahn",
+            "career"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TianaDefeat",
+      "base_symbol": "Route102_Text_1B7CEC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Теперь я помогла твоей карьере..."
+        ],
+        "A2": [
+          "Похоже, я помогла твоей карьере..."
+        ],
+        "natural": [
+          "Похоже, вместо этого я помогла твоей карьере..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nun half ich deiner Laufbahn..."
+        ],
+        "A2": [
+          "Offenbar half ich deiner Laufbahn..."
+        ],
+        "natural": [
+          "Offenbar habe ich stattdessen deiner Laufbahn geholfen..."
+        ]
+      },
+      "english": [
+        "Tiana admits she helped the player's career instead."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помогать",
+            "to help"
+          ]
+        ],
+        "de": [
+          [
+            "helfen",
+            "to help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TianaPost",
+      "base_symbol": "Route102_Text_1B7D11",
+      "source_path": "data/text/trainers.inc",
+      "ru": {
+        "A1": [
+          "Мне нужно больше покемонов, чтобы побеждать."
+        ],
+        "A2": [
+          "Чтобы побеждать дальше, мне нужно поймать больше покемонов."
+        ],
+        "natural": [
+          "Чтобы продолжать побеждать, мне нужно поймать больше покемонов."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Für Siege brauche ich mehr Pokémon."
+        ],
+        "A2": [
+          "Um weiter zu siegen, muss ich mehr Pokémon fangen."
+        ],
+        "natural": [
+          "Um weiter zu gewinnen, muss ich mehr Pokémon fangen."
+        ]
+      },
+      "english": [
+        "Tiana plans to catch more Pokémon so she can keep winning."
+      ],
+      "words": {
+        "ru": [
+          [
+            "побеждать",
+            "to win"
+          ]
+        ],
+        "de": [
+          [
+            "gewinnen",
+            "to win"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AllenIntro",
+      "base_symbol": "Route102_Text_1B7B68",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ты новый тренер? Я тоже!"
+        ],
+        "A2": [
+          "Ты тоже недавно стал тренером? Мы оба новички!"
+        ],
+        "natural": [
+          "Ты тоже только что стал тренером? Тогда мы оба новички!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bist du neuer Trainer? Ich auch!"
+        ],
+        "A2": [
+          "Bist du auch gerade Trainer geworden? Wir sind beide Anfänger!"
+        ],
+        "natural": [
+          "Bist du auch erst Trainer geworden? Dann sind wir beide Anfänger!"
+        ]
+      },
+      "english": [
+        "Allen notices that both trainers are beginners."
+      ],
+      "words": {
+        "ru": [
+          [
+            "новичок",
+            "beginner"
+          ]
+        ],
+        "de": [
+          [
+            "der Anfänger",
+            "beginner"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AllenDefeat",
+      "base_symbol": "Route102_Text_1B7B9D",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я думал, что смогу победить..."
+        ],
+        "A2": [
+          "Я вызвал тебя, потому что думал, что смогу победить..."
+        ],
+        "natural": [
+          "Я бросил тебе вызов, потому что думал, что смогу победить..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich dachte, ich könnte gewinnen..."
+        ],
+        "A2": [
+          "Ich rief dich, weil ich dachte, ich könnte gewinnen..."
+        ],
+        "natural": [
+          "Ich forderte dich heraus, weil ich dachte, ich könnte gewinnen..."
+        ]
+      },
+      "english": [
+        "Allen thought he could win when he challenged the player."
+      ],
+      "words": {
+        "ru": [
+          [
+            "думать",
+            "to think"
+          ]
+        ],
+        "de": [
+          [
+            "denken",
+            "to think"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "AllenPost",
+      "base_symbol": "Route102_Text_1B7BD0",
+      "source_path": "data/text/trainers.inc",
+      "ru": {
+        "A1": [
+          "Я ещё не побеждал. Может, скоро!"
+        ],
+        "A2": [
+          "Я ещё ни разу не победил. Надеюсь, скоро получится."
+        ],
+        "natural": [
+          "Я ещё ни разу не победил... Надеюсь, скоро получится."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich gewann noch nie. Vielleicht bald!"
+        ],
+        "A2": [
+          "Ich habe noch nie gewonnen. Hoffentlich klappt es bald."
+        ],
+        "natural": [
+          "Ich habe noch nie gewonnen... Hoffentlich klappt es bald."
+        ]
+      },
+      "english": [
+        "Allen hopes to earn his first victory soon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "надеяться",
+            "to hope"
+          ]
+        ],
+        "de": [
+          [
+            "hoffen",
+            "to hope"
+          ]
+        ]
+      }
     }
   ]
 }

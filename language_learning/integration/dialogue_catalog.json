@@ -2246,6 +2246,306 @@
         "route102",
         "sign"
       ]
+    },
+    {
+      "id": "route102.trainer.calvinintro.109",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EAFE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B79C3",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "CalvinIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 109
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.calvindefeat.110",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EAFE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7A2C",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "CalvinDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 110
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.calvinpost.111",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EAFE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7A60",
+        "note": "Adaptive post-battle wording preserves trainer state.",
+        "authored_id": "CalvinPost"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 111
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.calvinrematchintro.112",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB25",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7A9F",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "CalvinRematchIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 112
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.calvinrematchdefeat.113",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB25",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7AFD",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "CalvinRematchDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 113
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.calvinrematchpost.114",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB25",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7B2F",
+        "note": "Adaptive post-battle wording preserves trainer state.",
+        "authored_id": "CalvinRematchPost"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 114
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.rickintro.115",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB3C",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7C05",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "RickIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 115
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.rickdefeat.116",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB3C",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7C40",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "RickDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 116
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.rickpost.117",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB3C",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7C52",
+        "note": "Adaptive post-battle wording preserves trainer state.",
+        "authored_id": "RickPost"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 117
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.tianaintro.118",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB53",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7C97",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "TianaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 118
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.tianadefeat.119",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB53",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7CEC",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "TianaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 119
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.tianapost.120",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB53",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7D11",
+        "note": "Adaptive post-battle wording preserves trainer state.",
+        "authored_id": "TianaPost"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 120
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.allenintro.121",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB6A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7B68",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "AllenIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 121
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.allendefeat.122",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB6A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7B9D",
+        "note": "Trainer translation bridge preserves the encounter and rematch flow.",
+        "authored_id": "AllenDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 122
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route102.trainer.allenpost.123",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route102/scripts.inc",
+        "symbol": "Route102_EventScript_14EB6A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route102_Text_1B7BD0",
+        "note": "Adaptive post-battle wording preserves trainer state.",
+        "authored_id": "AllenPost"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 123
+      },
+      "tags": [
+        "route102",
+        "trainer"
+      ]
     }
   ]
 }

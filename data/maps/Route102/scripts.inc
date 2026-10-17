@@ -38,25 +38,45 @@ Route102_EventScript_14EAFE:: @ 814EAFE
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	compare VAR_RESULT, 1
 	goto_if_eq Route102_EventScript_14EB25
+	.if LEARNER_DEMO
+	call LearnerOpening_CalvinPost
+	.else
 	msgbox Route102_Text_1B7A60, MSGBOX_AUTOCLOSE
+	.endif
 	end
 
 Route102_EventScript_14EB25:: @ 814EB25
 	trainerbattle_rematch TRAINER_CALVIN_1, Route102_Text_1B7A9F, Route102_Text_1B7AFD
+	.if LEARNER_DEMO
+	call LearnerOpening_CalvinRematchPost
+	.else
 	msgbox Route102_Text_1B7B2F, MSGBOX_AUTOCLOSE
+	.endif
 	end
 
 Route102_EventScript_14EB3C:: @ 814EB3C
 	trainerbattle_single TRAINER_RICK, Route102_Text_1B7C05, Route102_Text_1B7C40
+	.if LEARNER_DEMO
+	call LearnerOpening_RickPost
+	.else
 	msgbox Route102_Text_1B7C52, MSGBOX_AUTOCLOSE
+	.endif
 	end
 
 Route102_EventScript_14EB53:: @ 814EB53
 	trainerbattle_single TRAINER_TIANA, Route102_Text_1B7C97, Route102_Text_1B7CEC
+	.if LEARNER_DEMO
+	call LearnerOpening_TianaPost
+	.else
 	msgbox Route102_Text_1B7D11, MSGBOX_AUTOCLOSE
+	.endif
 	end
 
 Route102_EventScript_14EB6A:: @ 814EB6A
 	trainerbattle_single TRAINER_ALLEN, Route102_Text_1B7B68, Route102_Text_1B7B9D
+	.if LEARNER_DEMO
+	call LearnerOpening_AllenPost
+	.else
 	msgbox Route102_Text_1B7BD0, MSGBOX_AUTOCLOSE
+	.endif
 	end

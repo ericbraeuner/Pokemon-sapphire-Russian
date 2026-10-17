@@ -588,6 +588,9 @@ class LessonTests(unittest.TestCase):
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
+            if entry.get('adaptive_translation'):
+                self.assertIn(entry['base_symbol'], sources)
+                continue
             self.assertIn(f"call LearnerOpening_{entry['id']}\n", sources)
             command = 'message' if entry['id'] == 'StarterGift' else 'msgbox'
             self.assertIn(f"\t{command} {entry['base_symbol']}", sources)

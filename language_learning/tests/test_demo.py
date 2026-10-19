@@ -587,6 +587,16 @@ class LessonTests(unittest.TestCase):
                   'data/maps/PetalburgWoods/scripts.inc',
                   'data/maps/RustboroCity/scripts.inc',
                   'data/maps/RustboroCity_PokemonSchool/scripts.inc',
+                  'data/maps/RustboroCity_CuttersHouse/scripts.inc',
+                  'data/maps/RustboroCity_House2/scripts.inc',
+                  'data/maps/RustboroCity_House3/scripts.inc',
+                  'data/maps/RustboroCity_Flat1_1F/scripts.inc',
+                  'data/maps/RustboroCity_Flat1_2F/scripts.inc',
+                  'data/maps/RustboroCity_Flat2_1F/scripts.inc',
+                  'data/maps/RustboroCity_Flat2_2F/scripts.inc',
+                  'data/maps/RustboroCity_Flat2_3F/scripts.inc',
+                  'data/maps/RustboroCity_Mart/scripts.inc',
+                  'data/maps/RustboroCity_PokemonCenter_1F/scripts.inc',
                   'data/event_scripts.s']
         paths += ['data/maps/PetalburgCity/scripts.inc',
                   'data/maps/PetalburgCity_Gym/scripts.inc']

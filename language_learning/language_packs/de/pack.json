@@ -2373,6 +2373,290 @@
         "das Heft"
       ],
       "dictionary_form": "das Heft"
+    },
+    {
+      "id": "de.rustboro_interiors_1",
+      "lemma": "VM",
+      "english": "HM",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.cuttergift.209",
+      "forms": [
+        "die VM"
+      ],
+      "dictionary_form": "die VM"
+    },
+    {
+      "id": "de.rustboro_interiors_2",
+      "lemma": "Baum",
+      "english": "tree",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.cutterexplaincut.210",
+      "forms": [
+        "der Baum"
+      ],
+      "dictionary_form": "der Baum"
+    },
+    {
+      "id": "de.rustboro_interiors_3",
+      "lemma": "Vater",
+      "english": "father",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.cutterfamilyhistory.211",
+      "forms": [
+        "der Vater"
+      ],
+      "dictionary_form": "der Vater"
+    },
+    {
+      "id": "de.rustboro_interiors_4",
+      "lemma": "Schule",
+      "english": "school",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.house2trainerschool.212",
+      "forms": [
+        "die Schule"
+      ],
+      "dictionary_form": "die Schule"
+    },
+    {
+      "id": "de.rustboro_interiors_5",
+      "lemma": "stark",
+      "english": "strong",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.house2roxanne.213",
+      "forms": [
+        "stark"
+      ]
+    },
+    {
+      "id": "de.rustboro_interiors_6",
+      "lemma": "Spitzname",
+      "english": "nickname",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.house3nicknames.214",
+      "forms": [
+        "der Spitzname"
+      ],
+      "dictionary_form": "der Spitzname"
+    },
+    {
+      "id": "de.rustboro_interiors_7",
+      "lemma": "Name",
+      "english": "name",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.house3pekachuopinion.215",
+      "forms": [
+        "der Name"
+      ],
+      "dictionary_form": "der Name"
+    },
+    {
+      "id": "de.rustboro_interiors_8",
+      "lemma": "Laut",
+      "english": "sound",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.house3pekachucry.216",
+      "forms": [
+        "der Laut"
+      ],
+      "dictionary_form": "der Laut"
+    },
+    {
+      "id": "de.rustboro_interiors_9",
+      "lemma": "Fähigkeit",
+      "english": "ability",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat1abilities.217",
+      "forms": [
+        "die Fähigkeit"
+      ],
+      "dictionary_form": "die Fähigkeit"
+    },
+    {
+      "id": "de.rustboro_interiors_10",
+      "lemma": "Wesen",
+      "english": "creature",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat1pokemonstrange.218",
+      "forms": [
+        "das Wesen"
+      ],
+      "dictionary_form": "das Wesen"
+    },
+    {
+      "id": "de.rustboro_interiors_11",
+      "lemma": "kochen",
+      "english": "to cook",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat1meals.219",
+      "forms": [
+        "kochen"
+      ]
+    },
+    {
+      "id": "de.rustboro_interiors_12",
+      "lemma": "Mitarbeiter",
+      "english": "employee",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2workers.220",
+      "forms": [
+        "der Mitarbeiter"
+      ],
+      "dictionary_form": "der Mitarbeiter"
+    },
+    {
+      "id": "de.rustboro_interiors_13",
+      "lemma": "Katze",
+      "english": "cat",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2skitty.221",
+      "forms": [
+        "die Katze"
+      ],
+      "dictionary_form": "die Katze"
+    },
+    {
+      "id": "de.rustboro_interiors_14",
+      "lemma": "Firma",
+      "english": "company",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2devonhistory.222",
+      "forms": [
+        "die Firma"
+      ],
+      "dictionary_form": "die Firma"
+    },
+    {
+      "id": "de.rustboro_interiors_15",
+      "lemma": "Ball",
+      "english": "ball",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2premierballgift.223",
+      "forms": [
+        "der Ball"
+      ],
+      "dictionary_form": "der Ball"
+    },
+    {
+      "id": "de.rustboro_interiors_16",
+      "lemma": "arbeiten",
+      "english": "to work",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2futureworker.224",
+      "forms": [
+        "arbeiten"
+      ]
+    },
+    {
+      "id": "de.rustboro_interiors_17",
+      "lemma": "Stein",
+      "english": "stone",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2presidentstones.225",
+      "forms": [
+        "der Stein"
+      ],
+      "dictionary_form": "der Stein"
+    },
+    {
+      "id": "de.rustboro_interiors_18",
+      "lemma": "Sohn",
+      "english": "son",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.flat2sonstones.226",
+      "forms": [
+        "der Sohn"
+      ],
+      "dictionary_form": "der Sohn"
+    },
+    {
+      "id": "de.rustboro_interiors_19",
+      "lemma": "Medizin",
+      "english": "medicine",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.rustboromartheals.227",
+      "forms": [
+        "die Medizin"
+      ],
+      "dictionary_form": "die Medizin"
+    },
+    {
+      "id": "de.rustboro_interiors_20",
+      "lemma": "Gesundheit",
+      "english": "health",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.rustboromartsuperpotions.228",
+      "forms": [
+        "die Gesundheit"
+      ],
+      "dictionary_form": "die Gesundheit"
+    },
+    {
+      "id": "de.rustboro_interiors_21",
+      "lemma": "Höhle",
+      "english": "cave",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.rustboromartescaperope.229",
+      "forms": [
+        "die Höhle"
+      ],
+      "dictionary_form": "die Höhle"
+    },
+    {
+      "id": "de.rustboro_interiors_22",
+      "lemma": "Persönlichkeit",
+      "english": "personality",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.rustborocenterpersonalities.230",
+      "forms": [
+        "die Persönlichkeit"
+      ],
+      "dictionary_form": "die Persönlichkeit"
+    },
+    {
+      "id": "de.rustboro_interiors_23",
+      "lemma": "männlich",
+      "english": "male",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.rustborocentergender.231",
+      "forms": [
+        "männlich"
+      ]
+    },
+    {
+      "id": "de.rustboro_interiors_24",
+      "lemma": "Nachbar",
+      "english": "neighbor",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.interiors.rustborocentercut.232",
+      "forms": [
+        "der Nachbar"
+      ],
+      "dictionary_form": "der Nachbar"
     }
   ],
   "grammar_notes": [
@@ -11293,6 +11577,1278 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 208
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.cuttergift.209",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du bist ein guter Trainer. Nimm diese VM.",
+          "english_gloss": "The Cutter offers the player HM01.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 209
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du wirkst wie ein erfahrener Trainer. Diese VM hilft dir. Nimm sie!",
+          "english_gloss": "The Cutter offers the player HM01.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 209
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Entschlossener Blick, flinke Bewegungen und gut trainierte Pokémon... Du bist erfahren! Diese VM kannst du sicher gebrauchen. Nimm sie!",
+          "english_gloss": "The Cutter offers the player HM01.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 209
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.cutterexplaincut.210",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Die VM enthält ZERSCHNEIDER. Mit einem ORDEN fällt sie kleine Bäume.",
+          "english_gloss": "The Cutter explains how Cut and HMs work.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 210
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Diese VM lehrt ZERSCHNEIDER. Mit dem STEINORDEN kann ein Pokémon draußen dünne Bäume fällen.",
+          "english_gloss": "The Cutter explains how Cut and HMs work.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 210
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Diese VM enthält ZERSCHNEIDER. Mit dem STEINORDEN kann ein Pokémon damit außerhalb des Kampfes dünne Bäume fällen. VMs verschwinden nicht nach Gebrauch.",
+          "english_gloss": "The Cutter explains how Cut and HMs work.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 210
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.cutterfamilyhistory.211",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Mein Papa fällte hier Bäume mit ZERSCHNEIDER.",
+          "english_gloss": "The girl explains her father's work clearing trees.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 211
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Als die Stadt wuchs, half mein Papa mit ZERSCHNEIDER beim Fällen der Bäume.",
+          "english_gloss": "The girl explains her father's work clearing trees.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 211
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Als METAROST wuchs, half mein Vater, das Land zu roden. Sein Pokémon fällte die Bäume mit ZERSCHNEIDER.",
+          "english_gloss": "The girl explains her father's work clearing trees.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 211
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.house2trainerschool.212",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Die Trainerschule ist sehr gut.",
+          "english_gloss": "A resident praises the Trainer School.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 212
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Die Trainerschule ist ausgezeichnet. Dort kann man viel lernen.",
+          "english_gloss": "A resident praises the Trainer School.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 212
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Die Trainerschule ist ausgezeichnet. Wer fleißig lernt, kann eines Tages sogar Arenaleiter werden.",
+          "english_gloss": "A resident praises the Trainer School.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 212
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.house2roxanne.213",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "FELIZIA weiß viel und kämpft gut.",
+          "english_gloss": "A child praises the Rustboro Gym Leader.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 213
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Arenaleiterin FELIZIA weiß viel über Pokémon. Sie ist sehr stark.",
+          "english_gloss": "A child praises the Rustboro Gym Leader.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 213
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Arenaleiterin FELIZIA kennt sich hervorragend mit Pokémon aus und ist außerdem sehr stark im Kampf!",
+          "english_gloss": "A child praises the Rustboro Gym Leader.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 213
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.house3nicknames.214",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich gebe Pokémon gute Spitznamen.",
+          "english_gloss": "An old man discusses Pokémon nicknames.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 214
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Meine Pokémon bekommen passende Spitznamen. Das ist mein Stil.",
+          "english_gloss": "An old man discusses Pokémon nicknames.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 214
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Meine Pokémon bekommen immer perfekt passende Spitznamen! Damit zeige ich meine Originalität.",
+          "english_gloss": "An old man discusses Pokémon nicknames.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 214
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.house3pekachuopinion.215",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein PIKACHU namens PEKACHU? Ein seltsamer Name.",
+          "english_gloss": "An old woman comments on Pikachu's nickname.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 215
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein PIKACHU PEKACHU zu nennen ist einfach, aber nicht sehr originell.",
+          "english_gloss": "An old woman comments on Pikachu's nickname.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 215
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein PIKACHU PEKACHU zu nennen ist ziemlich sinnlos. Ein verständlicher Name ist gut, aber trotzdem...",
+          "english_gloss": "An old woman comments on Pikachu's nickname.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 215
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.house3pekachucry.216",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PEKACHU: Peka!",
+          "english_gloss": "Pekachu cries its own nickname.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 216
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PEKACHU: Peka-peka!",
+          "english_gloss": "Pekachu cries its own nickname.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 216
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PEKACHU: Peka!",
+          "english_gloss": "Pekachu cries its own nickname.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 216
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat1abilities.217",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Jedes Pokémon hat eine Fähigkeit.",
+          "english_gloss": "A resident explains Pokémon abilities.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 217
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Jedes Pokémon besitzt eine besondere Fähigkeit.",
+          "english_gloss": "A resident explains Pokémon abilities.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 217
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Jedes Pokémon besitzt eine besondere Fähigkeit, die ihm im Kampf helfen kann.",
+          "english_gloss": "A resident explains Pokémon abilities.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 217
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat1pokemonstrange.218",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Pokémon sind seltsame Wesen.",
+          "english_gloss": "A resident reflects on how strange Pokémon are.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 218
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Pokémon sind wirklich seltsame Wesen.",
+          "english_gloss": "A resident reflects on how strange Pokémon are.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 218
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Pokémon sind wirklich erstaunliche und geheimnisvolle Wesen.",
+          "english_gloss": "A resident reflects on how strange Pokémon are.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 218
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat1meals.219",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Jeden Tag frage ich: Was koche ich?",
+          "english_gloss": "A resident struggles to plan daily meals.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 219
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Es ist schwer, jeden Tag ein neues Essen zu planen.",
+          "english_gloss": "A resident struggles to plan daily meals.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 219
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Jeder Tag ist schwer... Was genau? Muss man das fragen? Jeden Tag zu überlegen, was ich kochen soll, ist gar nicht leicht.",
+          "english_gloss": "A resident struggles to plan daily meals.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 219
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2workers.220",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Hier wohnen Arbeiter von DEVON.",
+          "english_gloss": "A resident identifies the Devon employee apartments.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 220
+          }
+        },
+        {
+          "id": "connected",
+          "text": "In diesem Haus wohnen Mitarbeiter der Firma DEVON.",
+          "english_gloss": "A resident identifies the Devon employee apartments.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 220
+          }
+        },
+        {
+          "id": "natural",
+          "text": "In diesem Gebäude wohnen Mitarbeiter der DEVON CORPORATION.",
+          "english_gloss": "A resident identifies the Devon employee apartments.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 220
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2skitty.221",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ENECO: Miau!",
+          "english_gloss": "Skitty greets the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 221
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ENECO: Miaaau!",
+          "english_gloss": "Skitty greets the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 221
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ENECO: Miaaau!",
+          "english_gloss": "Skitty greets the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 221
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2devonhistory.222",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Früher war DEVON eine kleine Firma.",
+          "english_gloss": "An old man recalls Devon's humble beginnings.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 222
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Früher war DEVON nur eine sehr kleine Firma.",
+          "english_gloss": "An old man recalls Devon's humble beginnings.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 222
+          }
+        },
+        {
+          "id": "natural",
+          "text": "In früheren Zeiten war DEVON lediglich ein winziges Unternehmen.",
+          "english_gloss": "An old man recalls Devon's humble beginnings.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 222
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2premierballgift.223",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Mein Papa machte diesen Ball. Nimm ihn!",
+          "english_gloss": "A child gives the player a Premier Ball.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 223
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mein Papa arbeitet bei DEVON und machte diesen Ball. Ich kann ihn nicht benutzen, also nimm ihn!",
+          "english_gloss": "A child gives the player a Premier Ball.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 223
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Mein Papa arbeitet bei der DEVON CORPORATION. Er hat diesen Ball hergestellt, aber ich kann ihn nicht benutzen. Du darfst ihn haben!",
+          "english_gloss": "A child gives the player a Premier Ball.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 223
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2futureworker.224",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Mein Papa arbeitet bei DEVON. Ich will dort auch arbeiten.",
+          "english_gloss": "A child dreams of working for Devon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 224
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wenn ich groß bin, arbeite ich wie mein Papa bei DEVON.",
+          "english_gloss": "A child dreams of working for Devon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 224
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Mein Papa arbeitet bei der DEVON CORPORATION. Wenn ich groß bin, möchte ich ebenfalls dort arbeiten.",
+          "english_gloss": "A child dreams of working for Devon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 224
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2presidentstones.225",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der DEVON-Präsident sammelt seltene Steine.",
+          "english_gloss": "An employee discusses the Devon president's collection.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 225
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der Präsident von DEVON sammelt gern seltene Steine.",
+          "english_gloss": "An employee discusses the Devon president's collection.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 225
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Der Präsident der DEVON CORPORATION ist dafür bekannt, seltene Steine zu sammeln.",
+          "english_gloss": "An employee discusses the Devon president's collection.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 225
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.flat2sonstones.226",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der Sohn des Präsidenten mag auch seltene Steine.",
+          "english_gloss": "A resident mentions the president's son's interest in stones.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 226
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich glaube, der Sohn des Präsidenten sammelt ebenfalls seltene Steine.",
+          "english_gloss": "A resident mentions the president's son's interest in stones.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 226
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Soweit ich weiß, begeistert sich auch der Sohn des Präsidenten für das Sammeln seltener Steine.",
+          "english_gloss": "A resident mentions the president's son's interest in stones.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 226
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.rustboromartheals.227",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich kaufe Medizin für den Wald.",
+          "english_gloss": "A shopper prepares status-healing items for Petalburg Woods.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 227
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich kaufe PARA-HEILER und GEGENMITTEL für den Weg durch den Wald.",
+          "english_gloss": "A shopper prepares status-healing items for Petalburg Woods.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 227
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich decke mich mit PARA-HEILERN und GEGENMITTELN ein, falls ich im BLÜTENBURGWAL auf KNILZ treffe.",
+          "english_gloss": "A shopper prepares status-healing items for Petalburg Woods.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 227
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.rustboromartsuperpotions.228",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Mein Pokémon braucht SUPERTRÄNKE.",
+          "english_gloss": "A shopper explains why evolved Pokémon need stronger Potions.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 228
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mein Pokémon hat sich entwickelt und besitzt mehr KP. Jetzt kaufe ich SUPERTRÄNKE.",
+          "english_gloss": "A shopper explains why evolved Pokémon need stronger Potions.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 228
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Seit der Entwicklung hat mein Pokémon viel mehr KP. Deshalb sollte ich statt normaler Tränke wohl SUPERTRÄNKE kaufen.",
+          "english_gloss": "A shopper explains why evolved Pokémon need stronger Potions.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 228
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.rustboromartescaperope.229",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein FLUCHTSEIL bringt mich aus einer Höhle.",
+          "english_gloss": "A shopper explains how an Escape Rope works.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_21"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 229
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich nehme ein FLUCHTSEIL. Wenn ich mich in einer Höhle verirre, bringt es mich zum Eingang zurück.",
+          "english_gloss": "A shopper explains how an Escape Rope works.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_21"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 229
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Zur Sicherheit nehme ich ein FLUCHTSEIL mit. Falls ich mich in einer Höhle verirre, bringt es mich sofort zum Eingang zurück.",
+          "english_gloss": "A shopper explains how an Escape Rope works.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_21"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 229
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.rustborocenterpersonalities.230",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Pokémon haben verschiedene Persönlichkeiten.",
+          "english_gloss": "A visitor explains Pokémon personalities.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_22"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 230
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Mein Pokémon ist naiv, das meines Freundes ist froh. Sie haben verschiedene Persönlichkeiten.",
+          "english_gloss": "A visitor explains Pokémon personalities.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_22"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 230
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Mein Pokémon ist naiv, das meines Freundes dagegen froh. Faszinierend, dass jedes Pokémon eine eigene Persönlichkeit besitzt!",
+          "english_gloss": "A visitor explains Pokémon personalities.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_22"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 230
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.rustborocentergender.231",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Pokémon sind männlich oder weiblich.",
+          "english_gloss": "A visitor explains that Pokémon can be male or female.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_23"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 231
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wie Menschen sind Pokémon männlich oder weiblich.",
+          "english_gloss": "A visitor explains that Pokémon can be male or female.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_23"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 231
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wie Menschen können Pokémon männlich oder weiblich sein. Doch niemand weiß genau, wodurch sie sich unterscheiden.",
+          "english_gloss": "A visitor explains that Pokémon can be male or female.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_23"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 231
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.interiors.rustborocentercut.232",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der Nachbar gab mir eine VM mit ZERSCHNEIDER.",
+          "english_gloss": "A visitor describes teaching Cut with the HM from next door.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_24"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 232
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der Nachbar gab mir eine VM. Mein Pokémon lernte ZERSCHNEIDER und fällt nun dünne Bäume.",
+          "english_gloss": "A visitor describes teaching Cut with the HM from next door.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_24"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 232
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Der Nachbar schenkte mir eine VM. Ich brachte meinem Pokémon ZERSCHNEIDER bei, damit es dünne Bäume fällen kann.",
+          "english_gloss": "A visitor describes teaching Cut with the HM from next door.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_interiors_24"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 232
           }
         }
       ]

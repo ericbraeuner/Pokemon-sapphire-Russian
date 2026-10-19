@@ -4246,6 +4246,486 @@
         "rustboro",
         "school"
       ]
+    },
+    {
+      "id": "rustboro.interiors.cuttergift.209",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_CuttersHouse/scripts.inc",
+        "symbol": "RustboroCity_CuttersHouse_EventScript_Cutter",
+        "base_text_path": "data/maps/RustboroCity_CuttersHouse/text.inc",
+        "base_text_symbol": "RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "CutterGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 209
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.cutterexplaincut.210",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_CuttersHouse/scripts.inc",
+        "symbol": "RustboroCity_CuttersHouse_EventScript_ExplainCut",
+        "base_text_path": "data/maps/RustboroCity_CuttersHouse/text.inc",
+        "base_text_symbol": "RustboroCity_CuttersHouse_Text_ExplainCut",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "CutterExplainCut"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 210
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.cutterfamilyhistory.211",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_CuttersHouse/scripts.inc",
+        "symbol": "RustboroCity_CuttersHouse_EventScript_Lass",
+        "base_text_path": "data/maps/RustboroCity_CuttersHouse/text.inc",
+        "base_text_symbol": "RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "CutterFamilyHistory"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 211
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.house2trainerschool.212",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House2/scripts.inc",
+        "symbol": "RustboroCity_House2_EventScript_PokefanF",
+        "base_text_path": "data/maps/RustboroCity_House2/text.inc",
+        "base_text_symbol": "RustboroCity_House2_Text_TrainerSchoolExcellent",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "HouseTwoTrainerSchool"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 212
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.house2roxanne.213",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House2/scripts.inc",
+        "symbol": "RustboroCity_House2_EventScript_LittleGirl",
+        "base_text_path": "data/maps/RustboroCity_House2/text.inc",
+        "base_text_symbol": "RustboroCity_House2_Text_RoxanneKnowsALot",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "HouseTwoRoxanne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 213
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.house3nicknames.214",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House3/scripts.inc",
+        "symbol": "RustboroCity_House3_EventScript_OldMan",
+        "base_text_path": "data/maps/RustboroCity_House3/text.inc",
+        "base_text_symbol": "RustboroCity_House3_Text_IGivePerfectlySuitedNicknames",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "HouseThreeNicknames"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 214
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.house3pekachuopinion.215",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House3/scripts.inc",
+        "symbol": "RustboroCity_House3_EventScript_OldWoman",
+        "base_text_path": "data/maps/RustboroCity_House3/text.inc",
+        "base_text_symbol": "RustboroCity_House3_Text_NamingPikachuPekachu",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "HouseThreePekachuOpinion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 215
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.house3pekachucry.216",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House3/scripts.inc",
+        "symbol": "RustboroCity_House3_EventScript_Pekachu",
+        "base_text_path": "data/maps/RustboroCity_House3/text.inc",
+        "base_text_symbol": "RustboroCity_House3_Text_Pekachu",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "HouseThreePekachuCry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 216
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat1abilities.217",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat1_1F/scripts.inc",
+        "symbol": "RustboroCity_Flat1_1F_EventScript_Man",
+        "base_text_path": "data/maps/RustboroCity_Flat1_1F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatOneAbilities"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 217
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat1pokemonstrange.218",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat1_1F/scripts.inc",
+        "symbol": "RustboroCity_Flat1_1F_EventScript_Woman",
+        "base_text_path": "data/maps/RustboroCity_Flat1_1F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat1_1F_Text_PokemonStrange",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatOnePokemonStrange"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 218
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat1meals.219",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat1_2F/scripts.inc",
+        "symbol": "RustboroCity_Flat1_2F_EventScript_Woman",
+        "base_text_path": "data/maps/RustboroCity_Flat1_2F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatOneMeals"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 219
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2workers.220",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_1F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_1F_EventScript_OldWoman",
+        "base_text_path": "data/maps/RustboroCity_Flat2_1F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoWorkers"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 220
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2skitty.221",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_1F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_1F_EventScript_Skitty",
+        "base_text_path": "data/maps/RustboroCity_Flat2_1F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_1F_Text_Skitty",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoSkitty"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 221
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2devonhistory.222",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_2F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_2F_EventScript_OldMan",
+        "base_text_path": "data/maps/RustboroCity_Flat2_2F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoDevonHistory"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 222
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2premierballgift.223",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_2F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_2F_EventScript_NinjaBoy",
+        "base_text_path": "data/maps/RustboroCity_Flat2_2F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoPremierBallGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 223
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2futureworker.224",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_2F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_2F_EventScript_GavePremierBall",
+        "base_text_path": "data/maps/RustboroCity_Flat2_2F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoFutureWorker"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 224
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2presidentstones.225",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_3F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_3F_EventScript_DevonEmployee",
+        "base_text_path": "data/maps/RustboroCity_Flat2_3F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoPresidentStones"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 225
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.flat2sonstones.226",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Flat2_3F/scripts.inc",
+        "symbol": "RustboroCity_Flat2_3F_EventScript_Woman",
+        "base_text_path": "data/maps/RustboroCity_Flat2_3F/text.inc",
+        "base_text_symbol": "RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "FlatTwoSonStones"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 226
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.rustboromartheals.227",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Mart/scripts.inc",
+        "symbol": "RustboroCity_Mart_EventScript_PokefanF",
+        "base_text_path": "data/maps/RustboroCity_Mart/text.inc",
+        "base_text_symbol": "RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroMartHeals"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 227
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.rustboromartsuperpotions.228",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Mart/scripts.inc",
+        "symbol": "RustboroCity_Mart_EventScript_Boy",
+        "base_text_path": "data/maps/RustboroCity_Mart/text.inc",
+        "base_text_symbol": "RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroMartSuperPotions"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 228
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.rustboromartescaperope.229",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Mart/scripts.inc",
+        "symbol": "RustboroCity_Mart_EventScript_BugCatcher",
+        "base_text_path": "data/maps/RustboroCity_Mart/text.inc",
+        "base_text_symbol": "RustboroCity_Mart_Text_GettingEscapeRopeJustInCase",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroMartEscapeRope"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 229
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.rustborocenterpersonalities.230",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonCenter_1F/scripts.inc",
+        "symbol": "RustboroCity_PokemonCenter_1F_EventScript_Man",
+        "base_text_path": "data/maps/RustboroCity_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroCenterPersonalities"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 230
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.rustborocentergender.231",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonCenter_1F/scripts.inc",
+        "symbol": "RustboroCity_PokemonCenter_1F_EventScript_Boy",
+        "base_text_path": "data/maps/RustboroCity_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroCenterGender"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 231
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
+    },
+    {
+      "id": "rustboro.interiors.rustborocentercut.232",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_PokemonCenter_1F/scripts.inc",
+        "symbol": "RustboroCity_PokemonCenter_1F_EventScript_Girl",
+        "base_text_path": "data/maps/RustboroCity_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RustboroCenterCut"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 232
+      },
+      "tags": [
+        "rustboro",
+        "interiors"
+      ]
     }
   ]
 }

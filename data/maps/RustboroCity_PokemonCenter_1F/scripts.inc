@@ -16,13 +16,25 @@ RustboroCity_PokemonCenter_1F_EventScript_Nurse:: @ 8157B88
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_Man:: @ 8157B96
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroCenterPersonalities
+	.else
 	msgbox RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_Boy:: @ 8157B9F
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroCenterGender
+	.else
 	msgbox RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_PokemonCenter_1F_EventScript_Girl:: @ 8157BA8
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroCenterCut
+	.else
 	msgbox RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor, MSGBOX_NPC
+	.endif
 	end

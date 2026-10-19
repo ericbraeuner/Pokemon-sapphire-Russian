@@ -9371,6 +9371,1062 @@
           ]
         ]
       }
+    },
+    {
+      "id": "CutterGift",
+      "base_symbol": "RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse",
+      "source_path": "data/maps/RustboroCity_CuttersHouse/text.inc",
+      "ru": {
+        "A1": [
+          "Ты хороший тренер. Возьми эту СМ."
+        ],
+        "A2": [
+          "Ты выглядишь опытным тренером. Эта СМ тебе пригодится. Возьми её!"
+        ],
+        "natural": [
+          "Решительный взгляд, ловкие движения и хорошо обученные покемоны... Ты опытный тренер! Эта СМ тебе точно пригодится. Бери!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist ein guter Trainer. Nimm diese VM."
+        ],
+        "A2": [
+          "Du wirkst wie ein erfahrener Trainer. Diese VM hilft dir. Nimm sie!"
+        ],
+        "natural": [
+          "Entschlossener Blick, flinke Bewegungen und gut trainierte Pokémon... Du bist erfahren! Diese VM kannst du sicher gebrauchen. Nimm sie!"
+        ]
+      },
+      "english": [
+        "The Cutter offers the player HM01."
+      ],
+      "words": {
+        "ru": [
+          [
+            "СМ",
+            "HM"
+          ]
+        ],
+        "de": [
+          [
+            "die VM",
+            "HM"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CutterExplainCut",
+      "base_symbol": "RustboroCity_CuttersHouse_Text_ExplainCut",
+      "source_path": "data/maps/RustboroCity_CuttersHouse/text.inc",
+      "ru": {
+        "A1": [
+          "В СМ есть РЕЗКА. Со ЗНАЧКОМ она рубит тонкие деревья."
+        ],
+        "A2": [
+          "Эта СМ учит РЕЗКЕ. Со КАМЕННЫМ ЗНАЧКОМ покемон может рубить тонкие деревья вне боя."
+        ],
+        "natural": [
+          "Эта СМ содержит РЕЗКУ. Со КАМЕННЫМ ЗНАЧКОМ покемон, знающий РЕЗКУ, сможет рубить тонкие деревья вне боя. СМ не исчезает после использования."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die VM enthält ZERSCHNEIDER. Mit einem ORDEN fällt sie kleine Bäume."
+        ],
+        "A2": [
+          "Diese VM lehrt ZERSCHNEIDER. Mit dem STEINORDEN kann ein Pokémon draußen dünne Bäume fällen."
+        ],
+        "natural": [
+          "Diese VM enthält ZERSCHNEIDER. Mit dem STEINORDEN kann ein Pokémon damit außerhalb des Kampfes dünne Bäume fällen. VMs verschwinden nicht nach Gebrauch."
+        ]
+      },
+      "english": [
+        "The Cutter explains how Cut and HMs work."
+      ],
+      "words": {
+        "ru": [
+          [
+            "дерево",
+            "tree"
+          ]
+        ],
+        "de": [
+          [
+            "der Baum",
+            "tree"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "CutterFamilyHistory",
+      "base_symbol": "RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees",
+      "source_path": "data/maps/RustboroCity_CuttersHouse/text.inc",
+      "ru": {
+        "A1": [
+          "Мой папа рубил здесь деревья РЕЗКОЙ."
+        ],
+        "A2": [
+          "Когда город рос, мой папа помогал рубить деревья приёмом РЕЗКА."
+        ],
+        "natural": [
+          "Когда РАСТБОРО расширяли, мой отец помогал расчищать землю. Его покемон рубил деревья РЕЗКОЙ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Papa fällte hier Bäume mit ZERSCHNEIDER."
+        ],
+        "A2": [
+          "Als die Stadt wuchs, half mein Papa mit ZERSCHNEIDER beim Fällen der Bäume."
+        ],
+        "natural": [
+          "Als METAROST wuchs, half mein Vater, das Land zu roden. Sein Pokémon fällte die Bäume mit ZERSCHNEIDER."
+        ]
+      },
+      "english": [
+        "The girl explains her father's work clearing trees."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отец",
+            "father"
+          ]
+        ],
+        "de": [
+          [
+            "der Vater",
+            "father"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HouseTwoTrainerSchool",
+      "base_symbol": "RustboroCity_House2_Text_TrainerSchoolExcellent",
+      "source_path": "data/maps/RustboroCity_House2/text.inc",
+      "ru": {
+        "A1": [
+          "Школа тренеров очень хорошая."
+        ],
+        "A2": [
+          "Школа тренеров отличная. Там можно многому научиться."
+        ],
+        "natural": [
+          "Школа тренеров превосходна. Если хорошо учиться, однажды можно даже стать лидером стадиона."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Trainerschule ist sehr gut."
+        ],
+        "A2": [
+          "Die Trainerschule ist ausgezeichnet. Dort kann man viel lernen."
+        ],
+        "natural": [
+          "Die Trainerschule ist ausgezeichnet. Wer fleißig lernt, kann eines Tages sogar Arenaleiter werden."
+        ]
+      },
+      "english": [
+        "A resident praises the Trainer School."
+      ],
+      "words": {
+        "ru": [
+          [
+            "школа",
+            "school"
+          ]
+        ],
+        "de": [
+          [
+            "die Schule",
+            "school"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HouseTwoRoxanne",
+      "base_symbol": "RustboroCity_House2_Text_RoxanneKnowsALot",
+      "source_path": "data/maps/RustboroCity_House2/text.inc",
+      "ru": {
+        "A1": [
+          "РОКСАНА много знает и хорошо сражается."
+        ],
+        "A2": [
+          "Лидер РОКСАНА много знает о покемонах. Она очень сильная."
+        ],
+        "natural": [
+          "Лидер стадиона РОКСАНА прекрасно знает покемонов и к тому же очень сильна в бою!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "FELIZIA weiß viel und kämpft gut."
+        ],
+        "A2": [
+          "Arenaleiterin FELIZIA weiß viel über Pokémon. Sie ist sehr stark."
+        ],
+        "natural": [
+          "Arenaleiterin FELIZIA kennt sich hervorragend mit Pokémon aus und ist außerdem sehr stark im Kampf!"
+        ]
+      },
+      "english": [
+        "A child praises the Rustboro Gym Leader."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сильный",
+            "strong"
+          ]
+        ],
+        "de": [
+          [
+            "stark",
+            "strong"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HouseThreeNicknames",
+      "base_symbol": "RustboroCity_House3_Text_IGivePerfectlySuitedNicknames",
+      "source_path": "data/maps/RustboroCity_House3/text.inc",
+      "ru": {
+        "A1": [
+          "Я даю покемонам хорошие прозвища."
+        ],
+        "A2": [
+          "Я даю своим покемонам подходящие прозвища. Это мой стиль."
+        ],
+        "natural": [
+          "Я всегда даю своим покемонам идеально подходящие прозвища! Так я выражаю свою оригинальность."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich gebe Pokémon gute Spitznamen."
+        ],
+        "A2": [
+          "Meine Pokémon bekommen passende Spitznamen. Das ist mein Stil."
+        ],
+        "natural": [
+          "Meine Pokémon bekommen immer perfekt passende Spitznamen! Damit zeige ich meine Originalität."
+        ]
+      },
+      "english": [
+        "An old man discusses Pokémon nicknames."
+      ],
+      "words": {
+        "ru": [
+          [
+            "прозвище",
+            "nickname"
+          ]
+        ],
+        "de": [
+          [
+            "der Spitzname",
+            "nickname"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HouseThreePekachuOpinion",
+      "base_symbol": "RustboroCity_House3_Text_NamingPikachuPekachu",
+      "source_path": "data/maps/RustboroCity_House3/text.inc",
+      "ru": {
+        "A1": [
+          "ПИКАЧУ по имени ПЕКАЧУ? Странное имя."
+        ],
+        "A2": [
+          "Назвать ПИКАЧУ ПЕКАЧУ просто, но не очень оригинально."
+        ],
+        "natural": [
+          "Назвать ПИКАЧУ ПЕКАЧУ довольно бессмысленно. Понятное имя - это хорошо, но всё-таки..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein PIKACHU namens PEKACHU? Ein seltsamer Name."
+        ],
+        "A2": [
+          "Ein PIKACHU PEKACHU zu nennen ist einfach, aber nicht sehr originell."
+        ],
+        "natural": [
+          "Ein PIKACHU PEKACHU zu nennen ist ziemlich sinnlos. Ein verständlicher Name ist gut, aber trotzdem..."
+        ]
+      },
+      "english": [
+        "An old woman comments on Pikachu's nickname."
+      ],
+      "words": {
+        "ru": [
+          [
+            "имя",
+            "name"
+          ]
+        ],
+        "de": [
+          [
+            "der Name",
+            "name"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "HouseThreePekachuCry",
+      "base_symbol": "RustboroCity_House3_Text_Pekachu",
+      "source_path": "data/maps/RustboroCity_House3/text.inc",
+      "ru": {
+        "A1": [
+          "ПЕКАЧУ: Пека!"
+        ],
+        "A2": [
+          "ПЕКАЧУ: Пека-пека!"
+        ],
+        "natural": [
+          "ПЕКАЧУ: Пека!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PEKACHU: Peka!"
+        ],
+        "A2": [
+          "PEKACHU: Peka-peka!"
+        ],
+        "natural": [
+          "PEKACHU: Peka!"
+        ]
+      },
+      "english": [
+        "Pekachu cries its own nickname."
+      ],
+      "words": {
+        "ru": [
+          [
+            "звук",
+            "sound"
+          ]
+        ],
+        "de": [
+          [
+            "der Laut",
+            "sound"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatOneAbilities",
+      "base_symbol": "RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility",
+      "source_path": "data/maps/RustboroCity_Flat1_1F/text.inc",
+      "ru": {
+        "A1": [
+          "У каждого покемона есть способность."
+        ],
+        "A2": [
+          "У каждого покемона есть особая способность."
+        ],
+        "natural": [
+          "У каждого покемона есть особая способность, которая может помочь ему в бою."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jedes Pokémon hat eine Fähigkeit."
+        ],
+        "A2": [
+          "Jedes Pokémon besitzt eine besondere Fähigkeit."
+        ],
+        "natural": [
+          "Jedes Pokémon besitzt eine besondere Fähigkeit, die ihm im Kampf helfen kann."
+        ]
+      },
+      "english": [
+        "A resident explains Pokémon abilities."
+      ],
+      "words": {
+        "ru": [
+          [
+            "способность",
+            "ability"
+          ]
+        ],
+        "de": [
+          [
+            "die Fähigkeit",
+            "ability"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatOnePokemonStrange",
+      "base_symbol": "RustboroCity_Flat1_1F_Text_PokemonStrange",
+      "source_path": "data/maps/RustboroCity_Flat1_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Покемоны - странные существа."
+        ],
+        "A2": [
+          "Покемоны - очень странные существа."
+        ],
+        "natural": [
+          "Покемоны действительно удивительные и загадочные существа."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon sind seltsame Wesen."
+        ],
+        "A2": [
+          "Pokémon sind wirklich seltsame Wesen."
+        ],
+        "natural": [
+          "Pokémon sind wirklich erstaunliche und geheimnisvolle Wesen."
+        ]
+      },
+      "english": [
+        "A resident reflects on how strange Pokémon are."
+      ],
+      "words": {
+        "ru": [
+          [
+            "существо",
+            "creature"
+          ]
+        ],
+        "de": [
+          [
+            "das Wesen",
+            "creature"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatOneMeals",
+      "base_symbol": "RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard",
+      "source_path": "data/maps/RustboroCity_Flat1_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Каждый день я думаю: что приготовить?"
+        ],
+        "A2": [
+          "Трудно каждый день придумывать новое блюдо."
+        ],
+        "natural": [
+          "Каждый день так трудно... Что именно? Разве не ясно? Придумывать, что готовить каждый день, совсем нелегко."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jeden Tag frage ich: Was koche ich?"
+        ],
+        "A2": [
+          "Es ist schwer, jeden Tag ein neues Essen zu planen."
+        ],
+        "natural": [
+          "Jeder Tag ist schwer... Was genau? Muss man das fragen? Jeden Tag zu überlegen, was ich kochen soll, ist gar nicht leicht."
+        ]
+      },
+      "english": [
+        "A resident struggles to plan daily meals."
+      ],
+      "words": {
+        "ru": [
+          [
+            "готовить",
+            "to cook"
+          ]
+        ],
+        "de": [
+          [
+            "kochen",
+            "to cook"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoWorkers",
+      "base_symbol": "RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere",
+      "source_path": "data/maps/RustboroCity_Flat2_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Здесь живут работники ДЕВОН."
+        ],
+        "A2": [
+          "В этом доме живут работники компании ДЕВОН."
+        ],
+        "natural": [
+          "В этом здании живут сотрудники корпорации ДЕВОН."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier wohnen Arbeiter von DEVON."
+        ],
+        "A2": [
+          "In diesem Haus wohnen Mitarbeiter der Firma DEVON."
+        ],
+        "natural": [
+          "In diesem Gebäude wohnen Mitarbeiter der DEVON CORPORATION."
+        ]
+      },
+      "english": [
+        "A resident identifies the Devon employee apartments."
+      ],
+      "words": {
+        "ru": [
+          [
+            "работник",
+            "worker"
+          ]
+        ],
+        "de": [
+          [
+            "der Mitarbeiter",
+            "employee"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoSkitty",
+      "base_symbol": "RustboroCity_Flat2_1F_Text_Skitty",
+      "source_path": "data/maps/RustboroCity_Flat2_1F/text.inc",
+      "ru": {
+        "A1": [
+          "СКИТТИ: Мяу!"
+        ],
+        "A2": [
+          "СКИТТИ: Мя-я-яу!"
+        ],
+        "natural": [
+          "СКИТТИ: Мя-я-яу!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "ENECO: Miau!"
+        ],
+        "A2": [
+          "ENECO: Miaaau!"
+        ],
+        "natural": [
+          "ENECO: Miaaau!"
+        ]
+      },
+      "english": [
+        "Skitty greets the player."
+      ],
+      "words": {
+        "ru": [
+          [
+            "кошка",
+            "cat"
+          ]
+        ],
+        "de": [
+          [
+            "die Katze",
+            "cat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoDevonHistory",
+      "base_symbol": "RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays",
+      "source_path": "data/maps/RustboroCity_Flat2_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Раньше ДЕВОН была маленькой фирмой."
+        ],
+        "A2": [
+          "Когда-то ДЕВОН была совсем маленькой компанией."
+        ],
+        "natural": [
+          "В прежние времена ДЕВОН была всего лишь крошечной компанией."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Früher war DEVON eine kleine Firma."
+        ],
+        "A2": [
+          "Früher war DEVON nur eine sehr kleine Firma."
+        ],
+        "natural": [
+          "In früheren Zeiten war DEVON lediglich ein winziges Unternehmen."
+        ]
+      },
+      "english": [
+        "An old man recalls Devon's humble beginnings."
+      ],
+      "words": {
+        "ru": [
+          [
+            "компания",
+            "company"
+          ]
+        ],
+        "de": [
+          [
+            "die Firma",
+            "company"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoPremierBallGift",
+      "base_symbol": "RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt",
+      "source_path": "data/maps/RustboroCity_Flat2_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Мой папа сделал этот мяч. Возьми!"
+        ],
+        "A2": [
+          "Мой папа работает в ДЕВОН и сделал этот мяч. Я не умею им пользоваться, поэтому возьми его!"
+        ],
+        "natural": [
+          "Мой папа работает в корпорации ДЕВОН. Он сделал этот мяч, но я не умею им пользоваться. Можешь забрать его!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Papa machte diesen Ball. Nimm ihn!"
+        ],
+        "A2": [
+          "Mein Papa arbeitet bei DEVON und machte diesen Ball. Ich kann ihn nicht benutzen, also nimm ihn!"
+        ],
+        "natural": [
+          "Mein Papa arbeitet bei der DEVON CORPORATION. Er hat diesen Ball hergestellt, aber ich kann ihn nicht benutzen. Du darfst ihn haben!"
+        ]
+      },
+      "english": [
+        "A child gives the player a Premier Ball."
+      ],
+      "words": {
+        "ru": [
+          [
+            "мяч",
+            "ball"
+          ]
+        ],
+        "de": [
+          [
+            "der Ball",
+            "ball"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoFutureWorker",
+      "base_symbol": "RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo",
+      "source_path": "data/maps/RustboroCity_Flat2_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Мой папа работает в ДЕВОН. Я тоже хочу там работать."
+        ],
+        "A2": [
+          "Когда я вырасту, я тоже буду работать в ДЕВОН, как папа."
+        ],
+        "natural": [
+          "Мой папа работает в корпорации ДЕВОН. Когда я вырасту, я тоже хочу работать там."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Papa arbeitet bei DEVON. Ich will dort auch arbeiten."
+        ],
+        "A2": [
+          "Wenn ich groß bin, arbeite ich wie mein Papa bei DEVON."
+        ],
+        "natural": [
+          "Mein Papa arbeitet bei der DEVON CORPORATION. Wenn ich groß bin, möchte ich ebenfalls dort arbeiten."
+        ]
+      },
+      "english": [
+        "A child dreams of working for Devon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "работать",
+            "to work"
+          ]
+        ],
+        "de": [
+          [
+            "arbeiten",
+            "to work"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoPresidentStones",
+      "base_symbol": "RustboroCity_Flat2_3F_Text_PresidentCollectsRareStones",
+      "source_path": "data/maps/RustboroCity_Flat2_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Президент ДЕВОН собирает редкие камни."
+        ],
+        "A2": [
+          "Президент компании ДЕВОН любит собирать редкие камни."
+        ],
+        "natural": [
+          "Президент корпорации ДЕВОН известен тем, что коллекционирует редкие камни."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der DEVON-Präsident sammelt seltene Steine."
+        ],
+        "A2": [
+          "Der Präsident von DEVON sammelt gern seltene Steine."
+        ],
+        "natural": [
+          "Der Präsident der DEVON CORPORATION ist dafür bekannt, seltene Steine zu sammeln."
+        ]
+      },
+      "english": [
+        "An employee discusses the Devon president's collection."
+      ],
+      "words": {
+        "ru": [
+          [
+            "камень",
+            "stone"
+          ]
+        ],
+        "de": [
+          [
+            "der Stein",
+            "stone"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "FlatTwoSonStones",
+      "base_symbol": "RustboroCity_Flat2_3F_Text_PresidentsSonAlsoCollectsRareStones",
+      "source_path": "data/maps/RustboroCity_Flat2_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Сын президента тоже любит редкие камни."
+        ],
+        "A2": [
+          "Я думаю, сын президента тоже собирает редкие камни."
+        ],
+        "natural": [
+          "Насколько я знаю, сын президента тоже увлекается коллекционированием редких камней."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Sohn des Präsidenten mag auch seltene Steine."
+        ],
+        "A2": [
+          "Ich glaube, der Sohn des Präsidenten sammelt ebenfalls seltene Steine."
+        ],
+        "natural": [
+          "Soweit ich weiß, begeistert sich auch der Sohn des Präsidenten für das Sammeln seltener Steine."
+        ]
+      },
+      "english": [
+        "A resident mentions the president's son's interest in stones."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сын",
+            "son"
+          ]
+        ],
+        "de": [
+          [
+            "der Sohn",
+            "son"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroMartHeals",
+      "base_symbol": "RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish",
+      "source_path": "data/maps/RustboroCity_Mart/text.inc",
+      "ru": {
+        "A1": [
+          "Я покупаю лекарства для леса."
+        ],
+        "A2": [
+          "Я покупаю средства от паралича и противоядия для пути через лес."
+        ],
+        "natural": [
+          "Я запасаюсь средствами от паралича и противоядиями на случай встречи со ШРУМИШЕМ в ПЕТАЛБУРГСКОМ ЛЕСУ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich kaufe Medizin für den Wald."
+        ],
+        "A2": [
+          "Ich kaufe PARA-HEILER und GEGENMITTEL für den Weg durch den Wald."
+        ],
+        "natural": [
+          "Ich decke mich mit PARA-HEILERN und GEGENMITTELN ein, falls ich im BLÜTENBURGWAL auf KNILZ treffe."
+        ]
+      },
+      "english": [
+        "A shopper prepares status-healing items for Petalburg Woods."
+      ],
+      "words": {
+        "ru": [
+          [
+            "лекарство",
+            "medicine"
+          ]
+        ],
+        "de": [
+          [
+            "die Medizin",
+            "medicine"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroMartSuperPotions",
+      "base_symbol": "RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead",
+      "source_path": "data/maps/RustboroCity_Mart/text.inc",
+      "ru": {
+        "A1": [
+          "Моему покемону нужны СУПЕРЗЕЛЬЯ."
+        ],
+        "A2": [
+          "Мой покемон эволюционировал и имеет больше здоровья. Теперь я покупаю СУПЕРЗЕЛЬЯ."
+        ],
+        "natural": [
+          "После эволюции у моего покемона стало намного больше здоровья. Пожалуй, вместо обычных зелий стоит покупать СУПЕРЗЕЛЬЯ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Pokémon braucht SUPERTRÄNKE."
+        ],
+        "A2": [
+          "Mein Pokémon hat sich entwickelt und besitzt mehr KP. Jetzt kaufe ich SUPERTRÄNKE."
+        ],
+        "natural": [
+          "Seit der Entwicklung hat mein Pokémon viel mehr KP. Deshalb sollte ich statt normaler Tränke wohl SUPERTRÄNKE kaufen."
+        ]
+      },
+      "english": [
+        "A shopper explains why evolved Pokémon need stronger Potions."
+      ],
+      "words": {
+        "ru": [
+          [
+            "здоровье",
+            "health"
+          ]
+        ],
+        "de": [
+          [
+            "die Gesundheit",
+            "health"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroMartEscapeRope",
+      "base_symbol": "RustboroCity_Mart_Text_GettingEscapeRopeJustInCase",
+      "source_path": "data/maps/RustboroCity_Mart/text.inc",
+      "ru": {
+        "A1": [
+          "ВЕРЁВКА ВЫХОДА выводит из пещеры."
+        ],
+        "A2": [
+          "Я беру ВЕРЁВКУ ВЫХОДА. Она вернёт меня ко входу, если я заблужусь в пещере."
+        ],
+        "natural": [
+          "Я на всякий случай беру ВЕРЁВКУ ВЫХОДА. Если заблужусь в пещере, она мгновенно вернёт меня ко входу."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein FLUCHTSEIL bringt mich aus einer Höhle."
+        ],
+        "A2": [
+          "Ich nehme ein FLUCHTSEIL. Wenn ich mich in einer Höhle verirre, bringt es mich zum Eingang zurück."
+        ],
+        "natural": [
+          "Zur Sicherheit nehme ich ein FLUCHTSEIL mit. Falls ich mich in einer Höhle verirre, bringt es mich sofort zum Eingang zurück."
+        ]
+      },
+      "english": [
+        "A shopper explains how an Escape Rope works."
+      ],
+      "words": {
+        "ru": [
+          [
+            "пещера",
+            "cave"
+          ]
+        ],
+        "de": [
+          [
+            "die Höhle",
+            "cave"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroCenterPersonalities",
+      "base_symbol": "RustboroCity_PokemonCenter_1F_Text_PokemonHavePersonalities",
+      "source_path": "data/maps/RustboroCity_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "У покемонов разные характеры."
+        ],
+        "A2": [
+          "Мой покемон наивный, а покемон друга весёлый. У них разные характеры."
+        ],
+        "natural": [
+          "У моего покемона наивный характер, а у покемона моего друга - весёлый. Удивительно, что у каждого покемона своя личность!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon haben verschiedene Persönlichkeiten."
+        ],
+        "A2": [
+          "Mein Pokémon ist naiv, das meines Freundes ist froh. Sie haben verschiedene Persönlichkeiten."
+        ],
+        "natural": [
+          "Mein Pokémon ist naiv, das meines Freundes dagegen froh. Faszinierend, dass jedes Pokémon eine eigene Persönlichkeit besitzt!"
+        ]
+      },
+      "english": [
+        "A visitor explains Pokémon personalities."
+      ],
+      "words": {
+        "ru": [
+          [
+            "характер",
+            "personality"
+          ]
+        ],
+        "de": [
+          [
+            "die Persönlichkeit",
+            "personality"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroCenterGender",
+      "base_symbol": "RustboroCity_PokemonCenter_1F_Text_MaleAndFemalePokemon",
+      "source_path": "data/maps/RustboroCity_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Покемоны бывают самцами и самками."
+        ],
+        "A2": [
+          "Как и люди, покемоны бывают самцами и самками."
+        ],
+        "natural": [
+          "Как и люди, покемоны бывают мужского и женского пола. Но никто толком не знает, чем они отличаются."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon sind männlich oder weiblich."
+        ],
+        "A2": [
+          "Wie Menschen sind Pokémon männlich oder weiblich."
+        ],
+        "natural": [
+          "Wie Menschen können Pokémon männlich oder weiblich sein. Doch niemand weiß genau, wodurch sie sich unterscheiden."
+        ]
+      },
+      "english": [
+        "A visitor explains that Pokémon can be male or female."
+      ],
+      "words": {
+        "ru": [
+          [
+            "самец",
+            "male"
+          ]
+        ],
+        "de": [
+          [
+            "männlich",
+            "male"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RustboroCenterCut",
+      "base_symbol": "RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor",
+      "source_path": "data/maps/RustboroCity_PokemonCenter_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Сосед дал мне СМ с РЕЗКОЙ."
+        ],
+        "A2": [
+          "Сосед дал мне СМ. Мой покемон выучил РЕЗКУ и теперь рубит тонкие деревья."
+        ],
+        "natural": [
+          "Сосед подарил мне СМ. Я научил своего покемона РЕЗКЕ, и теперь он может рубить тонкие деревья."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Nachbar gab mir eine VM mit ZERSCHNEIDER."
+        ],
+        "A2": [
+          "Der Nachbar gab mir eine VM. Mein Pokémon lernte ZERSCHNEIDER und fällt nun dünne Bäume."
+        ],
+        "natural": [
+          "Der Nachbar schenkte mir eine VM. Ich brachte meinem Pokémon ZERSCHNEIDER bei, damit es dünne Bäume fällen kann."
+        ]
+      },
+      "english": [
+        "A visitor describes teaching Cut with the HM from next door."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сосед",
+            "neighbor"
+          ]
+        ],
+        "de": [
+          [
+            "der Nachbar",
+            "neighbor"
+          ]
+        ]
+      }
     }
   ]
 }

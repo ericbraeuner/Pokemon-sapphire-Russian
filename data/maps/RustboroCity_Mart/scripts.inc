@@ -57,13 +57,25 @@ RustboroCity_Mart_Pokemart_Expanded:: @ 8157C28
 	end
 
 RustboroCity_Mart_EventScript_PokefanF:: @ 8157C44
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroMartHeals
+	.else
 	msgbox RustboroCity_Mart_Text_BuyingHealsInCaseOfShroomish, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_Mart_EventScript_Boy:: @ 8157C4D
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroMartSuperPotions
+	.else
 	msgbox RustboroCity_Mart_Text_ShouldBuySuperPotionsInstead, MSGBOX_NPC
+	.endif
 	end
 
 RustboroCity_Mart_EventScript_BugCatcher:: @ 8157C56
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RustboroMartEscapeRope
+	.else
 	msgbox RustboroCity_Mart_Text_GettingEscapeRopeJustInCase, MSGBOX_NPC
+	.endif
 	end

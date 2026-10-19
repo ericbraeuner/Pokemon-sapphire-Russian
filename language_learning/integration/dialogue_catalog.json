@@ -4726,6 +4726,406 @@
         "rustboro",
         "interiors"
       ]
+    },
+    {
+      "id": "rustboro.gym_trade.gymguideadvice.233",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_GymGuide",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_GymGuideAdvice",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "GymGuideAdvice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 233
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.gymguidevictory.234",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_GymGuidePostVictory",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_GymGuidePostVictory",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "GymGuideVictory"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 234
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.joshintro.235",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Josh",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_JoshIntro",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "JoshIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 235
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.joshdefeat.236",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Josh",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_JoshDefeat",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "JoshDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 236
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.joshpostbattle.237",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Josh",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_JoshPostBattle",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "JoshPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 237
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.tommyintro.238",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Tommy",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_TommyIntro",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "TommyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 238
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.tommydefeat.239",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Tommy",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_TommyDefeat",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "TommyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 239
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.tommypostbattle.240",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Tommy",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_TommyPostBattle",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "TommyPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 240
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.roxanneintro.241",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Roxanne",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_RoxanneIntro",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "RoxanneIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 241
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.roxannedefeat.242",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Roxanne",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_RoxanneDefeat",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "RoxanneDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 242
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.receivedstonebadge.243",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_RoxanneDefeated",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_ReceivedStoneBadge",
+        "note": "Trainer translation bridge preserves the encounter flow.",
+        "authored_id": "ReceivedStoneBadge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 243
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.stonebadgeinfo.244",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_RoxanneDefeated",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_StoneBadgeInfoTakeThis",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "StoneBadgeInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 244
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.rocktombinfo.245",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_GiveRockTomb",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_ExplainRockTomb",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RockTombInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 245
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.roxannepostbattle.246",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_Roxanne",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_RoxannePostBattle",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "RoxannePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 246
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.gymstatue.247",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_GymStatue",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_GymStatue",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "GymStatue"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 247
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.gymstatuecertified.248",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_Gym/scripts.inc",
+        "symbol": "RustboroCity_Gym_EventScript_GymStatueCertified",
+        "base_text_path": "data/maps/RustboroCity_Gym/text.inc",
+        "base_text_symbol": "RustboroCity_Gym_Text_GymStatueCertified",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "GymStatueCertified"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 248
+      },
+      "tags": [
+        "rustboro",
+        "gym"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.tradeexcitement.249",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House1/scripts.inc",
+        "symbol": "RustboroCity_House1_EventScript_Trader",
+        "base_text_path": "data/maps/RustboroCity_House1/text.inc",
+        "base_text_symbol": "RustboroCity_House1_Text_PleaseBeGoodToMyPokemon",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "TradeExcitement"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 249
+      },
+      "tags": [
+        "rustboro",
+        "trade"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.tradedeclined.250",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House1/scripts.inc",
+        "symbol": "RustboroCity_House1_EventScript_DeclineTrade",
+        "base_text_path": "data/maps/RustboroCity_House1/text.inc",
+        "base_text_symbol": "RustboroCity_House1_Text_AwwItsAGoodMon",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "TradeDeclined"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 250
+      },
+      "tags": [
+        "rustboro",
+        "trade"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.tradecompleted.251",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House1/scripts.inc",
+        "symbol": "RustboroCity_House1_EventScript_TradeCompleted",
+        "base_text_path": "data/maps/RustboroCity_House1/text.inc",
+        "base_text_symbol": "RustboroCity_House1_Text_WontYouGetCurious",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "TradeCompleted"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 251
+      },
+      "tags": [
+        "rustboro",
+        "trade"
+      ]
+    },
+    {
+      "id": "rustboro.gym_trade.travelinghiker.252",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_House1/scripts.inc",
+        "symbol": "RustboroCity_House1_EventScript_Hiker",
+        "base_text_path": "data/maps/RustboroCity_House1/text.inc",
+        "base_text_symbol": "RustboroCity_House1_Text_AllSortsOfPlaces",
+        "note": "Adaptive wording preserves the original map interaction.",
+        "authored_id": "TravelingHiker"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 252
+      },
+      "tags": [
+        "rustboro",
+        "trade"
+      ]
     }
   ]
 }

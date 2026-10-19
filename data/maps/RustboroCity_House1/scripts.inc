@@ -27,13 +27,21 @@ RustboroCity_House1_EventScript_Trader:: @ 8157C7D
 	special CreateInGameTradePokemon
 	special DoInGameTradeScene
 	waitstate
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TradeExcitement
+	.else
 	msgbox RustboroCity_House1_Text_PleaseBeGoodToMyPokemon, MSGBOX_DEFAULT
+	.endif
 	setflag FLAG_RUSTBORO_NPC_TRADE_COMPLETED
 	release
 	end
 
 RustboroCity_House1_EventScript_DeclineTrade:: @ 8157CFB
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TradeDeclined
+	.else
 	msgbox RustboroCity_House1_Text_AwwItsAGoodMon, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -44,10 +52,18 @@ RustboroCity_House1_EventScript_NotRequestedMon:: @ 8157D05
 	end
 
 RustboroCity_House1_EventScript_TradeCompleted:: @ 8157D13
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TradeCompleted
+	.else
 	msgbox RustboroCity_House1_Text_WontYouGetCurious, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_House1_EventScript_Hiker:: @ 8157D1D
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TravelingHiker
+	.else
 	msgbox RustboroCity_House1_Text_AllSortsOfPlaces, MSGBOX_NPC
+	.endif
 	end

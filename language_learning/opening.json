@@ -10427,6 +10427,893 @@
           ]
         ]
       }
+    },
+    {
+      "id": "GymGuideAdvice",
+      "base_symbol": "RustboroCity_Gym_Text_GymGuideAdvice",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "РОКСАНА использует каменных покемонов. Вода и трава сильны против них."
+        ],
+        "A2": [
+          "РОКСАНА использует каменных покемонов. Они крепкие, но слабы против воды и травы."
+        ],
+        "natural": [
+          "Хочешь стать чемпионом? РОКСАНА использует каменных покемонов. Они очень прочные, зато уязвимы перед водными и травяными приёмами. Удачи!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "FELIZIA nutzt Gesteins-Pokémon. Wasser und Pflanze sind stark gegen sie."
+        ],
+        "A2": [
+          "FELIZIA nutzt Gesteins-Pokémon. Sie sind robust, aber schwach gegen Wasser und Pflanze."
+        ],
+        "natural": [
+          "Willst du Champ werden? FELIZIA setzt Gesteins-Pokémon ein. Sie sind sehr robust, aber anfällig gegen Wasser- und Pflanzen-Attacken. Viel Glück!"
+        ]
+      },
+      "english": [
+        "The Gym Guide explains Roxanne's Rock-type weaknesses."
+      ],
+      "words": {
+        "ru": [
+          [
+            "совет",
+            "advice"
+          ]
+        ],
+        "de": [
+          [
+            "der Rat",
+            "advice"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "GymGuideVictory",
+      "base_symbol": "RustboroCity_Gym_Text_GymGuidePostVictory",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Отличная победа! КАМЕННЫЙ ЗНАЧОК записан в карте тренера."
+        ],
+        "A2": [
+          "Какая победа! КАМЕННЫЙ ЗНАЧОК теперь записан в твоей карте тренера."
+        ],
+        "natural": [
+          "Потрясающая победа! Проверь карту тренера: КАМЕННЫЙ ЗНАЧОК уже записан. Это твой первый шаг к чемпионству!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Toller Sieg! Der STEINORDEN steht jetzt im Trainerpass."
+        ],
+        "A2": [
+          "Was für ein Sieg! Der STEINORDEN ist nun in deinem Trainerpass eingetragen."
+        ],
+        "natural": [
+          "Was für ein großartiger Sieg! Sieh in deinen Trainerpass: Der STEINORDEN ist eingetragen. Das ist dein erster Schritt zur Meisterschaft!"
+        ]
+      },
+      "english": [
+        "The Gym Guide celebrates the first Badge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "победа",
+            "victory"
+          ]
+        ],
+        "de": [
+          [
+            "der Sieg",
+            "victory"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoshIntro",
+      "base_symbol": "RustboroCity_Gym_Text_JoshIntro",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Не недооценивай тренеров стадиона!"
+        ],
+        "A2": [
+          "Не относись к тренерам стадиона легкомысленно! Я покажу нашу силу!"
+        ],
+        "natural": [
+          "Не смей недооценивать тренеров стадиона! Сейчас я покажу, чем мы лучше!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unterschätze Arenatrainer nicht!"
+        ],
+        "A2": [
+          "Nimm Arenatrainer nicht auf die leichte Schulter! Ich zeige dir unsere Stärke!"
+        ],
+        "natural": [
+          "Wage es nicht, Arenatrainer zu unterschätzen! Ich zeige dir, warum wir besser sind!"
+        ]
+      },
+      "english": [
+        "Gym Trainer Josh challenges the player."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тренер",
+            "trainer"
+          ]
+        ],
+        "de": [
+          [
+            "der Trainer",
+            "trainer"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "JoshDefeat",
+      "base_symbol": "RustboroCity_Gym_Text_JoshDefeat",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Ты слишком силён..."
+        ],
+        "A2": [
+          "Ты оказался слишком силён для меня..."
+        ],
+        "natural": [
+          "Ты был слишком хорош для меня..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist zu stark..."
+        ],
+        "A2": [
+          "Du warst zu stark für mich..."
+        ],
+        "natural": [
+          "Du warst einfach zu gut für mich..."
+        ]
+      },
+      "english": [
+        "Josh admits defeat."
+      ],
+      "words": {
+        "ru": [
+          [
+            "проиграть",
+            "to lose"
+          ]
+        ],
+        "de": [
+          [
+            "verlieren",
+            "to lose"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "JoshPostBattle",
+      "base_symbol": "RustboroCity_Gym_Text_JoshPostBattle",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Ты ещё не видел силу каменного типа!"
+        ],
+        "A2": [
+          "Ты ещё не видел настоящую силу каменных покемонов!"
+        ],
+        "natural": [
+          "Ты ещё ничего не видел от ужасающей силы каменного типа!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du kennst die Kraft des Gesteins noch nicht!"
+        ],
+        "A2": [
+          "Du hast die wahre Kraft der Gesteins-Pokémon noch nicht gesehen!"
+        ],
+        "natural": [
+          "Du hast noch nichts von der furchterregenden Kraft des Gesteins gesehen!"
+        ]
+      },
+      "english": [
+        "Josh warns about Rock-type power."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сила",
+            "power"
+          ]
+        ],
+        "de": [
+          [
+            "die Kraft",
+            "power"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TommyIntro",
+      "base_symbol": "RustboroCity_Gym_Text_TommyIntro",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Не победишь меня - не победишь РОКСАНУ!"
+        ],
+        "A2": [
+          "Если не победишь меня, у тебя нет шансов против РОКСАНЫ!"
+        ],
+        "natural": [
+          "Если ты не можешь победить меня, против РОКСАНЫ у тебя не будет ни единого шанса!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Besiegst du mich nicht, besiegst du FELIZIA nicht!"
+        ],
+        "A2": [
+          "Wenn du mich nicht schlägst, hast du keine Chance gegen FELIZIA!"
+        ],
+        "natural": [
+          "Wenn du nicht einmal mich besiegen kannst, hast du gegen FELIZIA nicht die geringste Chance!"
+        ]
+      },
+      "english": [
+        "Gym Trainer Tommy challenges the player."
+      ],
+      "words": {
+        "ru": [
+          [
+            "шанс",
+            "chance"
+          ]
+        ],
+        "de": [
+          [
+            "die Chance",
+            "chance"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "TommyDefeat",
+      "base_symbol": "RustboroCity_Gym_Text_TommyDefeat",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Ого! Ты талантлив!"
+        ],
+        "A2": [
+          "Ого! У тебя есть талант!"
+        ],
+        "natural": [
+          "Ничего себе! В тебе определённо есть потенциал!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wow! Du hast Talent!"
+        ],
+        "A2": [
+          "Wow! Du hast wirklich Talent!"
+        ],
+        "natural": [
+          "Donnerwetter! In dir steckt eindeutig großes Potenzial!"
+        ]
+      },
+      "english": [
+        "Tommy recognizes the player's potential."
+      ],
+      "words": {
+        "ru": [
+          [
+            "талант",
+            "talent"
+          ]
+        ],
+        "de": [
+          [
+            "das Talent",
+            "talent"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "TommyPostBattle",
+      "base_symbol": "RustboroCity_Gym_Text_TommyPostBattle",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "РОКСАНА намного сильнее меня. Осторожно!"
+        ],
+        "A2": [
+          "РОКСАНА гораздо сильнее меня. Будь осторожен!"
+        ],
+        "natural": [
+          "РОКСАНА во много раз сильнее меня. Тебе лучше быть начеку!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "FELIZIA ist viel stärker als ich. Vorsicht!"
+        ],
+        "A2": [
+          "FELIZIA ist viel stärker als ich. Sei vorsichtig!"
+        ],
+        "natural": [
+          "FELIZIA ist um ein Vielfaches stärker als ich. Du solltest auf der Hut sein!"
+        ]
+      },
+      "english": [
+        "Tommy warns that Roxanne is much stronger."
+      ],
+      "words": {
+        "ru": [
+          [
+            "осторожно",
+            "careful"
+          ]
+        ],
+        "de": [
+          [
+            "vorsichtig",
+            "careful"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RoxanneIntro",
+      "base_symbol": "RustboroCity_Gym_Text_RoxanneIntro",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Я РОКСАНА, лидер стадиона РАСТБОРО. Покажи, как ты сражаешься!"
+        ],
+        "A2": [
+          "Я РОКСАНА, лидер стадиона РАСТБОРО. Я применяю знания школы тренеров. Покажи свой стиль боя!"
+        ],
+        "natural": [
+          "Здравствуйте, я РОКСАНА, лидер стадиона РАСТБОРО. Я стала лидером, чтобы применять в бою знания из школы тренеров. Покажи, как и с какими покемонами ты сражаешься."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin FELIZIA, Leiterin der METAROST-ARENA. Zeig mir deinen Kampf!"
+        ],
+        "A2": [
+          "Ich bin FELIZIA, Leiterin der METAROST-ARENA. Ich nutze das Wissen der Trainerschule. Zeig mir deinen Kampfstil!"
+        ],
+        "natural": [
+          "Hallo, ich bin FELIZIA, Leiterin der METAROST-ARENA. Ich wurde Leiterin, um mein Wissen aus der Trainerschule im Kampf anzuwenden. Zeig mir, wie und mit welchen Pokémon du kämpfst."
+        ]
+      },
+      "english": [
+        "Roxanne introduces herself and requests a battle demonstration."
+      ],
+      "words": {
+        "ru": [
+          [
+            "лидер",
+            "leader"
+          ]
+        ],
+        "de": [
+          [
+            "die Leiterin",
+            "female leader"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "RoxanneDefeat",
+      "base_symbol": "RustboroCity_Gym_Text_RoxanneDefeat",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Я проиграла. Прими КАМЕННЫЙ ЗНАЧОК."
+        ],
+        "A2": [
+          "Я проиграла и должна ещё учиться. По правилам Лиги ты получаешь КАМЕННЫЙ ЗНАЧОК."
+        ],
+        "natural": [
+          "Я проиграла... Мне ещё многому надо учиться. По правилам Лиги тренер, победивший лидера, получает официальный КАМЕННЫЙ ЗНАЧОК. Прими его."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren. Nimm den STEINORDEN."
+        ],
+        "A2": [
+          "Ich habe verloren und muss weiter lernen. Nach den Regeln der Liga erhältst du den STEINORDEN."
+        ],
+        "natural": [
+          "Ich habe verloren... Ich muss noch viel lernen. Nach den Regeln der Liga erhält ein Trainer, der eine Leiterin besiegt, den offiziellen STEINORDEN. Bitte nimm ihn an."
+        ]
+      },
+      "english": [
+        "Roxanne admits defeat and awards the Stone Badge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "правило",
+            "rule"
+          ]
+        ],
+        "de": [
+          [
+            "die Regel",
+            "rule"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "ReceivedStoneBadge",
+      "base_symbol": "RustboroCity_Gym_Text_ReceivedStoneBadge",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Получен КАМЕННЫЙ ЗНАЧОК!"
+        ],
+        "A2": [
+          "РОКСАНА вручает КАМЕННЫЙ ЗНАЧОК!"
+        ],
+        "natural": [
+          "Получен КАМЕННЫЙ ЗНАЧОК от РОКСАНЫ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "STEINORDEN erhalten!"
+        ],
+        "A2": [
+          "FELIZIA überreicht den STEINORDEN!"
+        ],
+        "natural": [
+          "Den STEINORDEN von FELIZIA erhalten!"
+        ]
+      },
+      "english": [
+        "The player receives the Stone Badge from Roxanne."
+      ],
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "StoneBadgeInfo",
+      "base_symbol": "RustboroCity_Gym_Text_StoneBadgeInfoTakeThis",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "КАМЕННЫЙ ЗНАЧОК усиливает атаку и позволяет применять РЕЗКУ вне боя."
+        ],
+        "A2": [
+          "КАМЕННЫЙ ЗНАЧОК усиливает атаку покемонов. С ним можно применять РЕЗКУ вне боя."
+        ],
+        "natural": [
+          "КАМЕННЫЙ ЗНАЧОК повышает силу атаки твоих покемонов и позволяет использовать РЕЗКУ вне боя. Возьми ещё и это."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der STEINORDEN stärkt den Angriff und erlaubt ZERSCHNEIDER außerhalb des Kampfes."
+        ],
+        "A2": [
+          "Der STEINORDEN stärkt den Angriff deiner Pokémon. Mit ihm kannst du ZERSCHNEIDER außerhalb des Kampfes einsetzen."
+        ],
+        "natural": [
+          "Der STEINORDEN erhöht die Angriffskraft deiner Pokémon und erlaubt ZERSCHNEIDER außerhalb des Kampfes. Nimm außerdem dies."
+        ]
+      },
+      "english": [
+        "Roxanne explains the Stone Badge's effects."
+      ],
+      "words": {
+        "ru": [
+          [
+            "атака",
+            "attack"
+          ]
+        ],
+        "de": [
+          [
+            "der Angriff",
+            "attack"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RockTombInfo",
+      "base_symbol": "RustboroCity_Gym_Text_ExplainRockTomb",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "ТМ39 учит КАМЕННОЙ ГРОБНИЦЕ. Она наносит урон и снижает скорость."
+        ],
+        "A2": [
+          "ТМ39 содержит КАМЕННУЮ ГРОБНИЦУ. Приём наносит урон и снижает скорость. ТМ используется один раз."
+        ],
+        "natural": [
+          "ТМ39 содержит КАМЕННУЮ ГРОБНИЦУ. Приём наносит урон и снижает скорость противника. ТМ мгновенно учит приёму, но используется только один раз."
+        ]
+      },
+      "de": {
+        "A1": [
+          "TM39 lehrt FELSGRAB. Die Attacke verursacht Schaden und senkt die Initiative."
+        ],
+        "A2": [
+          "TM39 enthält FELSGRAB. Die Attacke verursacht Schaden und senkt die Initiative. Eine TM ist einmal nutzbar."
+        ],
+        "natural": [
+          "TM39 enthält FELSGRAB. Die Attacke verursacht Schaden und senkt die Initiative des Gegners. Eine TM lehrt die Attacke sofort, kann aber nur einmal benutzt werden."
+        ]
+      },
+      "english": [
+        "Roxanne explains TM39 Rock Tomb."
+      ],
+      "words": {
+        "ru": [
+          [
+            "скорость",
+            "speed"
+          ]
+        ],
+        "de": [
+          [
+            "die Initiative",
+            "speed stat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RoxannePostBattle",
+      "base_symbol": "RustboroCity_Gym_Text_RoxannePostBattle",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "Ты силён. Сразись с другими лидерами!"
+        ],
+        "A2": [
+          "Ты очень силён. Брось вызов другим лидерам и учись в боях."
+        ],
+        "natural": [
+          "Ты очень силён. Теперь тебе стоит бросить вызов другим лидерам. Сражаясь со многими тренерами, ты многому научишься."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist stark. Fordere andere Arenaleiter heraus!"
+        ],
+        "A2": [
+          "Du bist sehr stark. Fordere andere Arenaleiter heraus und lerne aus den Kämpfen."
+        ],
+        "natural": [
+          "Du bist sehr stark. Nun solltest du andere Arenaleiter herausfordern. In den Kämpfen gegen viele Trainer wirst du viel lernen."
+        ]
+      },
+      "english": [
+        "Roxanne encourages the player to challenge other Gym Leaders."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вызов",
+            "challenge"
+          ]
+        ],
+        "de": [
+          [
+            "die Herausforderung",
+            "challenge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "GymStatue",
+      "base_symbol": "RustboroCity_Gym_Text_GymStatue",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "СТАДИОН РАСТБОРО"
+        ],
+        "A2": [
+          "СТАДИОН ПОКЕМОНОВ РАСТБОРО"
+        ],
+        "natural": [
+          "СТАДИОН ПОКЕМОНОВ РАСТБОРО"
+        ]
+      },
+      "de": {
+        "A1": [
+          "METAROST-ARENA"
+        ],
+        "A2": [
+          "POKÉMON-ARENA VON METAROST"
+        ],
+        "natural": [
+          "POKÉMON-ARENA VON METAROST"
+        ]
+      },
+      "english": [
+        "The statue identifies the Rustboro Gym."
+      ],
+      "words": {
+        "ru": [
+          [
+            "стадион",
+            "gym"
+          ]
+        ],
+        "de": [
+          [
+            "die Arena",
+            "gym"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "GymStatueCertified",
+      "base_symbol": "RustboroCity_Gym_Text_GymStatueCertified",
+      "source_path": "data/maps/RustboroCity_Gym/text.inc",
+      "ru": {
+        "A1": [
+          "СТАДИОН РАСТБОРО. ПРИЗНАННЫЙ ТРЕНЕР: ты!"
+        ],
+        "A2": [
+          "СТАДИОН РАСТБОРО. РОКСАНА признаёт тебя сильным тренером!"
+        ],
+        "natural": [
+          "СТАДИОН ПОКЕМОНОВ РАСТБОРО. ПРИЗНАННЫЙ РОКСАНОЙ ТРЕНЕР: ты!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "METAROST-ARENA. ANERKANNTER TRAINER: du!"
+        ],
+        "A2": [
+          "METAROST-ARENA. FELIZIA erkennt dich als starken Trainer an!"
+        ],
+        "natural": [
+          "POKÉMON-ARENA VON METAROST. VON FELIZIA ANERKANNTER TRAINER: du!"
+        ]
+      },
+      "english": [
+        "The statue records the player as a certified Trainer."
+      ],
+      "words": {
+        "ru": [
+          [
+            "признанный",
+            "recognized"
+          ]
+        ],
+        "de": [
+          [
+            "anerkannt",
+            "recognized"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TradeExcitement",
+      "base_symbol": "RustboroCity_House1_Text_PleaseBeGoodToMyPokemon",
+      "source_path": "data/maps/RustboroCity_House1/text.inc",
+      "ru": {
+        "A1": [
+          "Ура! Береги моего покемона!"
+        ],
+        "A2": [
+          "Как здорово! Пожалуйста, заботься о моём покемоне!"
+        ],
+        "natural": [
+          "Хе-хе, как волнительно! Пожалуйста, хорошо заботься о моём покемоне!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Juhu! Pass gut auf mein Pokémon auf!"
+        ],
+        "A2": [
+          "Wie aufregend! Bitte kümmere dich gut um mein Pokémon!"
+        ],
+        "natural": [
+          "Hehe, ist das aufregend! Bitte kümmere dich gut um mein Pokémon!"
+        ]
+      },
+      "english": [
+        "The trader celebrates the completed Pokémon trade."
+      ],
+      "words": {
+        "ru": [
+          [
+            "заботиться",
+            "to care for"
+          ]
+        ],
+        "de": [
+          [
+            "sich kümmern",
+            "to care for"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TradeDeclined",
+      "base_symbol": "RustboroCity_House1_Text_AwwItsAGoodMon",
+      "source_path": "data/maps/RustboroCity_House1/text.inc",
+      "ru": {
+        "A1": [
+          "Жаль. Это хороший покемон..."
+        ],
+        "A2": [
+          "Очень жаль. Это ведь хороший покемон..."
+        ],
+        "natural": [
+          "Эх, жаль. Это действительно хороший покемон..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Schade. Es ist ein gutes Pokémon..."
+        ],
+        "A2": [
+          "Wie schade. Es ist doch ein gutes Pokémon..."
+        ],
+        "natural": [
+          "Ach, wie schade. Es ist wirklich ein gutes Pokémon..."
+        ]
+      },
+      "english": [
+        "The trader is disappointed when the trade is declined."
+      ],
+      "words": {
+        "ru": [
+          [
+            "жаль",
+            "a pity"
+          ]
+        ],
+        "de": [
+          [
+            "schade",
+            "a pity"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TradeCompleted",
+      "base_symbol": "RustboroCity_House1_Text_WontYouGetCurious",
+      "source_path": "data/maps/RustboroCity_House1/text.inc",
+      "ru": {
+        "A1": [
+          "Интересно, какие прозвища дают другие?"
+        ],
+        "A2": [
+          "Тебе не интересно, как другие люди называют своих покемонов?"
+        ],
+        "natural": [
+          "Разве тебе не любопытно, какие прозвища другие люди дают своим покемонам?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Welche Spitznamen geben andere wohl?"
+        ],
+        "A2": [
+          "Möchtest du nicht wissen, wie andere Leute ihre Pokémon nennen?"
+        ],
+        "natural": [
+          "Bist du nicht neugierig, welche Spitznamen andere Leute ihren Pokémon geben?"
+        ]
+      },
+      "english": [
+        "The trader asks about other people's Pokémon nicknames."
+      ],
+      "words": {
+        "ru": [
+          [
+            "любопытно",
+            "curious"
+          ]
+        ],
+        "de": [
+          [
+            "neugierig",
+            "curious"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TravelingHiker",
+      "base_symbol": "RustboroCity_House1_Text_AllSortsOfPlaces",
+      "source_path": "data/maps/RustboroCity_House1/text.inc",
+      "ru": {
+        "A1": [
+          "В разных местах живут разные люди и покемоны."
+        ],
+        "A2": [
+          "Повсюду живут разные люди и покемоны. Поэтому я люблю путешествовать."
+        ],
+        "natural": [
+          "В самых разных местах живут самые разные люди и покемоны. Мне это интересно, поэтому я повсюду путешествую."
+        ]
+      },
+      "de": {
+        "A1": [
+          "An verschiedenen Orten leben verschiedene Menschen und Pokémon."
+        ],
+        "A2": [
+          "Überall leben andere Menschen und Pokémon. Deshalb reise ich gern."
+        ],
+        "natural": [
+          "An den verschiedensten Orten leben ganz unterschiedliche Menschen und Pokémon. Das fasziniert mich, deshalb reise ich überallhin."
+        ]
+      },
+      "english": [
+        "A Hiker explains why he travels."
+      ],
+      "words": {
+        "ru": [
+          [
+            "путешествовать",
+            "to travel"
+          ]
+        ],
+        "de": [
+          [
+            "reisen",
+            "to travel"
+          ]
+        ]
+      }
     }
   ]
 }

@@ -2657,6 +2657,239 @@
         "der Nachbar"
       ],
       "dictionary_form": "der Nachbar"
+    },
+    {
+      "id": "de.rustboro_gym_trade_1",
+      "lemma": "Rat",
+      "english": "advice",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.gymguideadvice.233",
+      "forms": [
+        "der Rat"
+      ],
+      "dictionary_form": "der Rat"
+    },
+    {
+      "id": "de.rustboro_gym_trade_2",
+      "lemma": "Sieg",
+      "english": "victory",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.gymguidevictory.234",
+      "forms": [
+        "der Sieg"
+      ],
+      "dictionary_form": "der Sieg"
+    },
+    {
+      "id": "de.rustboro_gym_trade_3",
+      "lemma": "Trainer",
+      "english": "trainer",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.joshintro.235",
+      "forms": [
+        "der Trainer"
+      ],
+      "dictionary_form": "der Trainer"
+    },
+    {
+      "id": "de.rustboro_gym_trade_4",
+      "lemma": "verlieren",
+      "english": "to lose",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.joshdefeat.236",
+      "forms": [
+        "verlieren"
+      ]
+    },
+    {
+      "id": "de.rustboro_gym_trade_5",
+      "lemma": "Kraft",
+      "english": "power",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.joshpostbattle.237",
+      "forms": [
+        "die Kraft"
+      ],
+      "dictionary_form": "die Kraft"
+    },
+    {
+      "id": "de.rustboro_gym_trade_6",
+      "lemma": "Chance",
+      "english": "chance",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.tommyintro.238",
+      "forms": [
+        "die Chance"
+      ],
+      "dictionary_form": "die Chance"
+    },
+    {
+      "id": "de.rustboro_gym_trade_7",
+      "lemma": "Talent",
+      "english": "talent",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.tommydefeat.239",
+      "forms": [
+        "das Talent"
+      ],
+      "dictionary_form": "das Talent"
+    },
+    {
+      "id": "de.rustboro_gym_trade_8",
+      "lemma": "vorsichtig",
+      "english": "careful",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.tommypostbattle.240",
+      "forms": [
+        "vorsichtig"
+      ]
+    },
+    {
+      "id": "de.rustboro_gym_trade_9",
+      "lemma": "Leiterin",
+      "english": "female leader",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.roxanneintro.241",
+      "forms": [
+        "die Leiterin"
+      ],
+      "dictionary_form": "die Leiterin"
+    },
+    {
+      "id": "de.rustboro_gym_trade_10",
+      "lemma": "Regel",
+      "english": "rule",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.roxannedefeat.242",
+      "forms": [
+        "die Regel"
+      ],
+      "dictionary_form": "die Regel"
+    },
+    {
+      "id": "de.rustboro_gym_trade_11",
+      "lemma": "Orden",
+      "english": "badge",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.receivedstonebadge.243",
+      "forms": [
+        "der Orden"
+      ],
+      "dictionary_form": "der Orden"
+    },
+    {
+      "id": "de.rustboro_gym_trade_12",
+      "lemma": "Angriff",
+      "english": "attack",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.stonebadgeinfo.244",
+      "forms": [
+        "der Angriff"
+      ],
+      "dictionary_form": "der Angriff"
+    },
+    {
+      "id": "de.rustboro_gym_trade_13",
+      "lemma": "Initiative",
+      "english": "speed stat",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.rocktombinfo.245",
+      "forms": [
+        "die Initiative"
+      ],
+      "dictionary_form": "die Initiative"
+    },
+    {
+      "id": "de.rustboro_gym_trade_14",
+      "lemma": "Herausforderung",
+      "english": "challenge",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.roxannepostbattle.246",
+      "forms": [
+        "die Herausforderung"
+      ],
+      "dictionary_form": "die Herausforderung"
+    },
+    {
+      "id": "de.rustboro_gym_trade_15",
+      "lemma": "Arena",
+      "english": "gym",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.gymstatue.247",
+      "forms": [
+        "die Arena"
+      ],
+      "dictionary_form": "die Arena"
+    },
+    {
+      "id": "de.rustboro_gym_trade_16",
+      "lemma": "anerkannt",
+      "english": "recognized",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.gymstatuecertified.248",
+      "forms": [
+        "anerkannt"
+      ]
+    },
+    {
+      "id": "de.rustboro_gym_trade_17",
+      "lemma": "kümmern",
+      "english": "to care for",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.tradeexcitement.249",
+      "forms": [
+        "sich kümmern"
+      ]
+    },
+    {
+      "id": "de.rustboro_gym_trade_18",
+      "lemma": "schade",
+      "english": "a pity",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.tradedeclined.250",
+      "forms": [
+        "schade"
+      ]
+    },
+    {
+      "id": "de.rustboro_gym_trade_19",
+      "lemma": "neugierig",
+      "english": "curious",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.tradecompleted.251",
+      "forms": [
+        "neugierig"
+      ]
+    },
+    {
+      "id": "de.rustboro_gym_trade_20",
+      "lemma": "reisen",
+      "english": "to travel",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.gym_trade.travelinghiker.252",
+      "forms": [
+        "reisen"
+      ]
     }
   ],
   "grammar_notes": [
@@ -12849,6 +13082,1066 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 232
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.gymguideadvice.233",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "FELIZIA nutzt Gesteins-Pokémon. Wasser und Pflanze sind stark gegen sie.",
+          "english_gloss": "The Gym Guide explains Roxanne's Rock-type weaknesses.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 233
+          }
+        },
+        {
+          "id": "connected",
+          "text": "FELIZIA nutzt Gesteins-Pokémon. Sie sind robust, aber schwach gegen Wasser und Pflanze.",
+          "english_gloss": "The Gym Guide explains Roxanne's Rock-type weaknesses.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 233
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Willst du Champ werden? FELIZIA setzt Gesteins-Pokémon ein. Sie sind sehr robust, aber anfällig gegen Wasser- und Pflanzen-Attacken. Viel Glück!",
+          "english_gloss": "The Gym Guide explains Roxanne's Rock-type weaknesses.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 233
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.gymguidevictory.234",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Toller Sieg! Der STEINORDEN steht jetzt im Trainerpass.",
+          "english_gloss": "The Gym Guide celebrates the first Badge.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 234
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Was für ein Sieg! Der STEINORDEN ist nun in deinem Trainerpass eingetragen.",
+          "english_gloss": "The Gym Guide celebrates the first Badge.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 234
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Was für ein großartiger Sieg! Sieh in deinen Trainerpass: Der STEINORDEN ist eingetragen. Das ist dein erster Schritt zur Meisterschaft!",
+          "english_gloss": "The Gym Guide celebrates the first Badge.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 234
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.joshintro.235",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Unterschätze Arenatrainer nicht!",
+          "english_gloss": "Gym Trainer Josh challenges the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 235
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Nimm Arenatrainer nicht auf die leichte Schulter! Ich zeige dir unsere Stärke!",
+          "english_gloss": "Gym Trainer Josh challenges the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 235
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wage es nicht, Arenatrainer zu unterschätzen! Ich zeige dir, warum wir besser sind!",
+          "english_gloss": "Gym Trainer Josh challenges the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 235
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.joshdefeat.236",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du bist zu stark...",
+          "english_gloss": "Josh admits defeat.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 236
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du warst zu stark für mich...",
+          "english_gloss": "Josh admits defeat.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 236
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Du warst einfach zu gut für mich...",
+          "english_gloss": "Josh admits defeat.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 236
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.joshpostbattle.237",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du kennst die Kraft des Gesteins noch nicht!",
+          "english_gloss": "Josh warns about Rock-type power.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 237
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du hast die wahre Kraft der Gesteins-Pokémon noch nicht gesehen!",
+          "english_gloss": "Josh warns about Rock-type power.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 237
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Du hast noch nichts von der furchterregenden Kraft des Gesteins gesehen!",
+          "english_gloss": "Josh warns about Rock-type power.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 237
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.tommyintro.238",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Besiegst du mich nicht, besiegst du FELIZIA nicht!",
+          "english_gloss": "Gym Trainer Tommy challenges the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 238
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wenn du mich nicht schlägst, hast du keine Chance gegen FELIZIA!",
+          "english_gloss": "Gym Trainer Tommy challenges the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 238
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Wenn du nicht einmal mich besiegen kannst, hast du gegen FELIZIA nicht die geringste Chance!",
+          "english_gloss": "Gym Trainer Tommy challenges the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 238
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.tommydefeat.239",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wow! Du hast Talent!",
+          "english_gloss": "Tommy recognizes the player's potential.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 239
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wow! Du hast wirklich Talent!",
+          "english_gloss": "Tommy recognizes the player's potential.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 239
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Donnerwetter! In dir steckt eindeutig großes Potenzial!",
+          "english_gloss": "Tommy recognizes the player's potential.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 239
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.tommypostbattle.240",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "FELIZIA ist viel stärker als ich. Vorsicht!",
+          "english_gloss": "Tommy warns that Roxanne is much stronger.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 240
+          }
+        },
+        {
+          "id": "connected",
+          "text": "FELIZIA ist viel stärker als ich. Sei vorsichtig!",
+          "english_gloss": "Tommy warns that Roxanne is much stronger.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 240
+          }
+        },
+        {
+          "id": "natural",
+          "text": "FELIZIA ist um ein Vielfaches stärker als ich. Du solltest auf der Hut sein!",
+          "english_gloss": "Tommy warns that Roxanne is much stronger.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 240
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.roxanneintro.241",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich bin FELIZIA, Leiterin der METAROST-ARENA. Zeig mir deinen Kampf!",
+          "english_gloss": "Roxanne introduces herself and requests a battle demonstration.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 241
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich bin FELIZIA, Leiterin der METAROST-ARENA. Ich nutze das Wissen der Trainerschule. Zeig mir deinen Kampfstil!",
+          "english_gloss": "Roxanne introduces herself and requests a battle demonstration.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 241
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Hallo, ich bin FELIZIA, Leiterin der METAROST-ARENA. Ich wurde Leiterin, um mein Wissen aus der Trainerschule im Kampf anzuwenden. Zeig mir, wie und mit welchen Pokémon du kämpfst.",
+          "english_gloss": "Roxanne introduces herself and requests a battle demonstration.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 241
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.roxannedefeat.242",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich habe verloren. Nimm den STEINORDEN.",
+          "english_gloss": "Roxanne admits defeat and awards the Stone Badge.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 242
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich habe verloren und muss weiter lernen. Nach den Regeln der Liga erhältst du den STEINORDEN.",
+          "english_gloss": "Roxanne admits defeat and awards the Stone Badge.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 242
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ich habe verloren... Ich muss noch viel lernen. Nach den Regeln der Liga erhält ein Trainer, der eine Leiterin besiegt, den offiziellen STEINORDEN. Bitte nimm ihn an.",
+          "english_gloss": "Roxanne admits defeat and awards the Stone Badge.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 242
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.receivedstonebadge.243",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "STEINORDEN erhalten!",
+          "english_gloss": "The player receives the Stone Badge from Roxanne.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 243
+          }
+        },
+        {
+          "id": "connected",
+          "text": "FELIZIA überreicht den STEINORDEN!",
+          "english_gloss": "The player receives the Stone Badge from Roxanne.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 243
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Den STEINORDEN von FELIZIA erhalten!",
+          "english_gloss": "The player receives the Stone Badge from Roxanne.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 243
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.stonebadgeinfo.244",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der STEINORDEN stärkt den Angriff und erlaubt ZERSCHNEIDER außerhalb des Kampfes.",
+          "english_gloss": "Roxanne explains the Stone Badge's effects.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 244
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der STEINORDEN stärkt den Angriff deiner Pokémon. Mit ihm kannst du ZERSCHNEIDER außerhalb des Kampfes einsetzen.",
+          "english_gloss": "Roxanne explains the Stone Badge's effects.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 244
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Der STEINORDEN erhöht die Angriffskraft deiner Pokémon und erlaubt ZERSCHNEIDER außerhalb des Kampfes. Nimm außerdem dies.",
+          "english_gloss": "Roxanne explains the Stone Badge's effects.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 244
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.rocktombinfo.245",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "TM39 lehrt FELSGRAB. Die Attacke verursacht Schaden und senkt die Initiative.",
+          "english_gloss": "Roxanne explains TM39 Rock Tomb.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 245
+          }
+        },
+        {
+          "id": "connected",
+          "text": "TM39 enthält FELSGRAB. Die Attacke verursacht Schaden und senkt die Initiative. Eine TM ist einmal nutzbar.",
+          "english_gloss": "Roxanne explains TM39 Rock Tomb.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 245
+          }
+        },
+        {
+          "id": "natural",
+          "text": "TM39 enthält FELSGRAB. Die Attacke verursacht Schaden und senkt die Initiative des Gegners. Eine TM lehrt die Attacke sofort, kann aber nur einmal benutzt werden.",
+          "english_gloss": "Roxanne explains TM39 Rock Tomb.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 245
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.roxannepostbattle.246",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du bist stark. Fordere andere Arenaleiter heraus!",
+          "english_gloss": "Roxanne encourages the player to challenge other Gym Leaders.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 246
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du bist sehr stark. Fordere andere Arenaleiter heraus und lerne aus den Kämpfen.",
+          "english_gloss": "Roxanne encourages the player to challenge other Gym Leaders.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 246
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Du bist sehr stark. Nun solltest du andere Arenaleiter herausfordern. In den Kämpfen gegen viele Trainer wirst du viel lernen.",
+          "english_gloss": "Roxanne encourages the player to challenge other Gym Leaders.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 246
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.gymstatue.247",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "METAROST-ARENA",
+          "english_gloss": "The statue identifies the Rustboro Gym.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 247
+          }
+        },
+        {
+          "id": "connected",
+          "text": "POKÉMON-ARENA VON METAROST",
+          "english_gloss": "The statue identifies the Rustboro Gym.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 247
+          }
+        },
+        {
+          "id": "natural",
+          "text": "POKÉMON-ARENA VON METAROST",
+          "english_gloss": "The statue identifies the Rustboro Gym.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 247
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.gymstatuecertified.248",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "METAROST-ARENA. ANERKANNTER TRAINER: du!",
+          "english_gloss": "The statue records the player as a certified Trainer.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 248
+          }
+        },
+        {
+          "id": "connected",
+          "text": "METAROST-ARENA. FELIZIA erkennt dich als starken Trainer an!",
+          "english_gloss": "The statue records the player as a certified Trainer.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 248
+          }
+        },
+        {
+          "id": "natural",
+          "text": "POKÉMON-ARENA VON METAROST. VON FELIZIA ANERKANNTER TRAINER: du!",
+          "english_gloss": "The statue records the player as a certified Trainer.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 248
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.tradeexcitement.249",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Juhu! Pass gut auf mein Pokémon auf!",
+          "english_gloss": "The trader celebrates the completed Pokémon trade.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 249
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wie aufregend! Bitte kümmere dich gut um mein Pokémon!",
+          "english_gloss": "The trader celebrates the completed Pokémon trade.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 249
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Hehe, ist das aufregend! Bitte kümmere dich gut um mein Pokémon!",
+          "english_gloss": "The trader celebrates the completed Pokémon trade.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 249
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.tradedeclined.250",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Schade. Es ist ein gutes Pokémon...",
+          "english_gloss": "The trader is disappointed when the trade is declined.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 250
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wie schade. Es ist doch ein gutes Pokémon...",
+          "english_gloss": "The trader is disappointed when the trade is declined.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 250
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach, wie schade. Es ist wirklich ein gutes Pokémon...",
+          "english_gloss": "The trader is disappointed when the trade is declined.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 250
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.tradecompleted.251",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Welche Spitznamen geben andere wohl?",
+          "english_gloss": "The trader asks about other people's Pokémon nicknames.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 251
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Möchtest du nicht wissen, wie andere Leute ihre Pokémon nennen?",
+          "english_gloss": "The trader asks about other people's Pokémon nicknames.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 251
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Bist du nicht neugierig, welche Spitznamen andere Leute ihren Pokémon geben?",
+          "english_gloss": "The trader asks about other people's Pokémon nicknames.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 251
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.gym_trade.travelinghiker.252",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "An verschiedenen Orten leben verschiedene Menschen und Pokémon.",
+          "english_gloss": "A Hiker explains why he travels.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 252
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Überall leben andere Menschen und Pokémon. Deshalb reise ich gern.",
+          "english_gloss": "A Hiker explains why he travels.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 252
+          }
+        },
+        {
+          "id": "natural",
+          "text": "An den verschiedensten Orten leben ganz unterschiedliche Menschen und Pokémon. Das fasziniert mich, deshalb reise ich überallhin.",
+          "english_gloss": "A Hiker explains why he travels.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.rustboro_gym_trade_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 252
           }
         }
       ]

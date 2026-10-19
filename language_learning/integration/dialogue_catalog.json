@@ -5126,6 +5126,326 @@
         "rustboro",
         "trade"
       ]
+    },
+    {
+      "id": "rustboro.devon.devonwelcome.253",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_Greeter",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonWelcome"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 253
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonstaffrobbed.254",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_StaffGotRobbed",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_StaffGotRobbed",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonStaffRobbed"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 254
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonshoes.255",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_Employee",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonShoes"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 255
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonrobber.256",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_RobberWasntBright",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonRobber"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 256
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devongoodsrecovered.257",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_GoodsRecovered",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonGoodsRecovered"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 257
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonauthorizedonly.258",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_StairGuard",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonAuthorizedOnly"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 258
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonalwayswelcome.259",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_AlwaysWelcome",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonAlwaysWelcome"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 259
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonrobberyshock.260",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_1F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_1F_EventScript_GotRobbed",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonRobberyShock"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 260
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonthirdfloor.261",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonThirdFloor"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 261
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devonpresidentready.262",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonPresidentReady"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 262
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.devongoahead.263",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_PleaseGoAhead",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "DevonGoAhead"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 263
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.mrstonefavor.264",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "MrStoneFavor"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 264
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.mrstonepokenavgift.265",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "MrStonePokenavGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 265
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.receivedpokenav.266",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_ReceivedPokenav",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "ReceivedPokenav"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 266
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.mrstoneexplainpokenav.267",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenav",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "MrStoneExplainPokenav"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 267
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon.mrstonecountingonyou.268",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MrStone",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_CountingOnYou",
+        "note": "Adaptive wording preserves the original story flow.",
+        "authored_id": "MrStoneCountingOnYou"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 268
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
     }
   ]
 }

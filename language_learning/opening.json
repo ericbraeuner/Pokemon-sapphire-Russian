@@ -11314,6 +11314,711 @@
           ]
         ]
       }
+    },
+    {
+      "id": "DevonWelcome",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Добро пожаловать в ДЕВОН."
+        ],
+        "A2": [
+          "Добро пожаловать в корпорацию ДЕВОН. Мы создаём полезные вещи."
+        ],
+        "natural": [
+          "Добро пожаловать в корпорацию ДЕВОН. Мы создаём предметы и лекарства, которые делают жизнь удобнее."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Willkommen bei DEVON."
+        ],
+        "A2": [
+          "Willkommen bei der DEVON CORPORATION. Wir entwickeln nützliche Dinge."
+        ],
+        "natural": [
+          "Willkommen bei der DEVON CORPORATION. Wir entwickeln Items und Medizin, die das Leben angenehmer machen."
+        ]
+      },
+      "english": [
+        "The receptionist welcomes the player to Devon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "добро пожаловать",
+            "welcome"
+          ]
+        ],
+        "de": [
+          [
+            "willkommen",
+            "welcome"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonStaffRobbed",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_StaffGotRobbed",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "У нашего работника украли посылку."
+        ],
+        "A2": [
+          "У одного исследователя украли важную посылку."
+        ],
+        "natural": [
+          "У одного из наших исследователей украли важную посылку. Какая неприятность!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unserem Mitarbeiter wurde ein Paket gestohlen."
+        ],
+        "A2": [
+          "Einem Forscher wurde ein wichtiges Paket gestohlen."
+        ],
+        "natural": [
+          "Einem unserer Forscher wurde ein wichtiges Paket gestohlen. Was für ein Ärger!"
+        ]
+      },
+      "english": [
+        "The receptionist reports the stolen package."
+      ],
+      "words": {
+        "ru": [
+          [
+            "посылка",
+            "package"
+          ]
+        ],
+        "de": [
+          [
+            "das Paket",
+            "package"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonShoes",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Эти БЕГОВЫЕ ТУФЛИ сделала ДЕВОН!"
+        ],
+        "A2": [
+          "Твои БЕГОВЫЕ ТУФЛИ - продукт ДЕВОН. Приятно видеть их в деле!"
+        ],
+        "natural": [
+          "Эй, эти БЕГОВЫЕ ТУФЛИ произвела наша компания! Рад видеть, что люди пользуются нашими изделиями."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diese TURBOTRETER sind von DEVON!"
+        ],
+        "A2": [
+          "Deine TURBOTRETER sind ein DEVON-Produkt. Schön, sie im Einsatz zu sehen!"
+        ],
+        "natural": [
+          "Hey, diese TURBOTRETER stammen von unserer Firma! Es freut mich, wenn Menschen unsere Produkte benutzen."
+        ]
+      },
+      "english": [
+        "An employee recognizes Devon's Running Shoes."
+      ],
+      "words": {
+        "ru": [
+          [
+            "туфли",
+            "shoes"
+          ]
+        ],
+        "de": [
+          [
+            "die Schuhe",
+            "shoes"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonRobber",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Вор не сможет использовать посылку."
+        ],
+        "A2": [
+          "Посылка важна, но вор не сможет ею воспользоваться."
+        ],
+        "natural": [
+          "Украденная посылка важна, но посторонний не сможет ею воспользоваться. Грабитель был не очень умён."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Dieb kann das Paket nicht benutzen."
+        ],
+        "A2": [
+          "Das Paket ist wichtig, aber der Dieb kann es nicht benutzen."
+        ],
+        "natural": [
+          "Das gestohlene Paket ist wichtig, aber für Fremde nutzlos. Der Räuber war wohl nicht besonders klug."
+        ]
+      },
+      "english": [
+        "An employee explains the stolen package is useless to outsiders."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вор",
+            "thief"
+          ]
+        ],
+        "de": [
+          [
+            "der Dieb",
+            "thief"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonGoodsRecovered",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "ГРУЗ ДЕВОН вернули!"
+        ],
+        "A2": [
+          "Похоже, украденный ГРУЗ ДЕВОН уже вернули."
+        ],
+        "natural": [
+          "Похоже, украденные ТОВАРЫ ДЕВОН благополучно вернули."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die DEVON-WAREN sind zurück!"
+        ],
+        "A2": [
+          "Die gestohlenen DEVON-WAREN wurden offenbar zurückgebracht."
+        ],
+        "natural": [
+          "Anscheinend wurden die gestohlenen DEVON-WAREN sicher zurückgebracht."
+        ]
+      },
+      "english": [
+        "An employee confirms the Devon Goods were recovered."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вернуть",
+            "to return"
+          ]
+        ],
+        "de": [
+          [
+            "zurückbringen",
+            "to return"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonAuthorizedOnly",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Наверх могут идти только работники."
+        ],
+        "A2": [
+          "Извини, наверх могут пройти только уполномоченные люди."
+        ],
+        "natural": [
+          "Прошу прощения, но вход на верхние этажи разрешён только уполномоченным лицам."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nach oben dürfen nur Mitarbeiter."
+        ],
+        "A2": [
+          "Tut mir leid, nach oben dürfen nur befugte Personen."
+        ],
+        "natural": [
+          "Es tut mir leid, aber die oberen Stockwerke dürfen nur befugte Personen betreten."
+        ]
+      },
+      "english": [
+        "The guard restricts access to authorized personnel."
+      ],
+      "words": {
+        "ru": [
+          [
+            "разрешение",
+            "permission"
+          ]
+        ],
+        "de": [
+          [
+            "die Erlaubnis",
+            "permission"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonAlwaysWelcome",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Тебе здесь всегда рады!"
+        ],
+        "A2": [
+          "Привет! В ДЕВОН тебе всегда рады!"
+        ],
+        "natural": [
+          "Добро пожаловать! После твоей помощи тебе в ДЕВОН всегда будут рады."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist hier immer willkommen!"
+        ],
+        "A2": [
+          "Hallo! Bei DEVON bist du immer willkommen!"
+        ],
+        "natural": [
+          "Willkommen! Nach deiner Hilfe bist du bei DEVON jederzeit gern gesehen."
+        ]
+      },
+      "english": [
+        "The guard welcomes the player after the recovery."
+      ],
+      "words": {
+        "ru": [
+          [
+            "всегда",
+            "always"
+          ]
+        ],
+        "de": [
+          [
+            "immer",
+            "always"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonRobberyShock",
+      "base_symbol": "RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed",
+      "source_path": "data/maps/RustboroCity_DevonCorp_1F/text.inc",
+      "ru": {
+        "A1": [
+          "Как нас могли ограбить?"
+        ],
+        "A2": [
+          "Не могу поверить. Как нас могли ограбить?"
+        ],
+        "natural": [
+          "Какая глупость! Как вообще кто-то смог ограбить ДЕВОН?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie konnten wir beraubt werden?"
+        ],
+        "A2": [
+          "Ich kann es nicht glauben. Wie konnten wir beraubt werden?"
+        ],
+        "natural": [
+          "Wie peinlich! Wie konnte es überhaupt jemand schaffen, DEVON zu berauben?"
+        ]
+      },
+      "english": [
+        "The guard reacts to the robbery."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ограбить",
+            "to rob"
+          ]
+        ],
+        "de": [
+          [
+            "berauben",
+            "to rob"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonThirdFloor",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Это третий этаж. Подожди здесь."
+        ],
+        "A2": [
+          "Мы на третьем этаже. Подожди здесь, я поговорю с президентом."
+        ],
+        "natural": [
+          "Вот и третий этаж. Подожди здесь немного, пока я сообщу президенту о твоём прибытии."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist der dritte Stock. Warte hier."
+        ],
+        "A2": [
+          "Wir sind im dritten Stock. Warte hier, ich spreche mit dem Präsidenten."
+        ],
+        "natural": [
+          "Hier ist der dritte Stock. Warte bitte einen Moment, während ich dem Präsidenten deine Ankunft melde."
+        ]
+      },
+      "english": [
+        "The employee asks the player to wait on the third floor."
+      ],
+      "words": {
+        "ru": [
+          [
+            "этаж",
+            "floor"
+          ]
+        ],
+        "de": [
+          [
+            "der Stock",
+            "floor"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonPresidentReady",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Президент готов. Иди за мной."
+        ],
+        "A2": [
+          "Я поговорил с президентом. Он ждёт тебя. Иди за мной."
+        ],
+        "natural": [
+          "Я рассказал президенту о твоей помощи. Он хочет лично поблагодарить тебя. Следуй за мной."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Präsident ist bereit. Folge mir."
+        ],
+        "A2": [
+          "Ich habe mit dem Präsidenten gesprochen. Er erwartet dich. Folge mir."
+        ],
+        "natural": [
+          "Ich habe dem Präsidenten von deiner Hilfe erzählt. Er möchte dir persönlich danken. Folge mir bitte."
+        ]
+      },
+      "english": [
+        "The employee leads the player to the president."
+      ],
+      "words": {
+        "ru": [
+          [
+            "следовать",
+            "to follow"
+          ]
+        ],
+        "de": [
+          [
+            "folgen",
+            "to follow"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonGoAhead",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_PleaseGoAhead",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Проходи к президенту."
+        ],
+        "A2": [
+          "Пожалуйста, подойди к президенту."
+        ],
+        "natural": [
+          "Пожалуйста, проходи. Президент ждёт тебя у своего стола."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Geh bitte zum Präsidenten."
+        ],
+        "A2": [
+          "Bitte geh zum Präsidenten hinüber."
+        ],
+        "natural": [
+          "Bitte geh nur weiter. Der Präsident erwartet dich an seinem Schreibtisch."
+        ]
+      },
+      "english": [
+        "The employee invites the player to approach Mr. Stone."
+      ],
+      "words": {
+        "ru": [
+          [
+            "проходить",
+            "to go ahead"
+          ]
+        ],
+        "de": [
+          [
+            "weitergehen",
+            "to go ahead"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MrStoneFavor",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Я президент ДЕВОН. Доставь письмо СТИВЕНУ и посылку капитану ШТЕРНУ."
+        ],
+        "A2": [
+          "Я президент ДЕВОН. Спасибо за возврат груза. Отнеси письмо СТИВЕНУ в ДЬЮФОРДЕ и посылку капитану ШТЕРНУ."
+        ],
+        "natural": [
+          "Я господин СТОУН, президент ДЕВОН. Спасибо, что вернул наш груз. Прошу ещё об одном: доставь письмо СТИВЕНУ в ДЬЮФОРДЕ, а товары - капитану ШТЕРНУ в СЛЕЙТПОРТЕ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin der DEVON-Präsident. Bring STEVEN den Brief und KAPITÄN BRIGGS das Paket."
+        ],
+        "A2": [
+          "Ich bin der DEVON-Präsident. Danke für die Waren. Bring STEVEN in FAUSTAUHAVEN den Brief und KAPITÄN BRIGGS das Paket."
+        ],
+        "natural": [
+          "Ich bin MR. TRUMM, Präsident von DEVON. Danke für die Rückgabe unserer Waren. Ich habe noch eine Bitte: Bring TROY in FAUSTAUHAVEN den Brief und KAPITÄN BRIGGS in GRAPHITPORT die Waren."
+        ]
+      },
+      "english": [
+        "Mr. Stone asks for two important deliveries."
+      ],
+      "words": {
+        "ru": [
+          [
+            "письмо",
+            "letter"
+          ]
+        ],
+        "de": [
+          [
+            "der Brief",
+            "letter"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MrStonePokenavGift",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Возьми ПОКЕНАВ. Он поможет в пути."
+        ],
+        "A2": [
+          "Ты много путешествуешь, поэтому возьми ПОКЕНАВ. Он поможет найти дорогу."
+        ],
+        "natural": [
+          "За твою помощь я хочу подарить тебе ПОКЕНАВ. Это новое устройство ДЕВОН наверняка пригодится в путешествии."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nimm den POKéNAV. Er hilft dir auf der Reise."
+        ],
+        "A2": [
+          "Du reist viel, deshalb nimm den POKéNAV. Er hilft dir, den Weg zu finden."
+        ],
+        "natural": [
+          "Für deine Hilfe möchte ich dir den POKéNAV schenken. Dieses neue DEVON-Gerät wird dir auf deiner Reise sicher nützlich sein."
+        ]
+      },
+      "english": [
+        "Mr. Stone offers the player a PokéNav."
+      ],
+      "words": {
+        "ru": [
+          [
+            "устройство",
+            "device"
+          ]
+        ],
+        "de": [
+          [
+            "das Gerät",
+            "device"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ReceivedPokenav",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_ReceivedPokenav",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Получен ПОКЕНАВ!"
+        ],
+        "A2": [
+          "Ты получаешь ПОКЕНАВ!"
+        ],
+        "natural": [
+          "Получен ПОКЕНАВ от господина СТОУНА!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéNAV erhalten!"
+        ],
+        "A2": [
+          "Du erhältst den POKéNAV!"
+        ],
+        "natural": [
+          "Den POKéNAV von MR. TRUMM erhalten!"
+        ]
+      },
+      "english": [
+        "The player receives the PokéNav."
+      ],
+      "words": {
+        "ru": [
+          [
+            "получить",
+            "to receive"
+          ]
+        ],
+        "de": [
+          [
+            "erhalten",
+            "to receive"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "MrStoneExplainPokenav",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenav",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "ПОКЕНАВ показывает карту ХОЭННА."
+        ],
+        "A2": [
+          "ПОКЕНАВ показывает карту ХОЭННА и помогает тренерам в пути."
+        ],
+        "natural": [
+          "ПОКЕНАВ - сокращение от ПОКЕМОН-НАВИГАТОР. Он содержит карту ХОЭННА и множество полезных функций для тренеров."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der POKéNAV zeigt die Karte von HOENN."
+        ],
+        "A2": [
+          "Der POKéNAV zeigt die Karte von HOENN und hilft Trainern auf Reisen."
+        ],
+        "natural": [
+          "POKéNAV ist die Kurzform für POKéMON-NAVIGATOR. Er enthält eine Karte von HOENN und viele nützliche Funktionen für Trainer."
+        ]
+      },
+      "english": [
+        "Mr. Stone explains the PokéNav's purpose."
+      ],
+      "words": {
+        "ru": [
+          [
+            "карта",
+            "map"
+          ]
+        ],
+        "de": [
+          [
+            "die Karte",
+            "map"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MrStoneCountingOnYou",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_CountingOnYou",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Я рассчитываю на тебя!"
+        ],
+        "A2": [
+          "Я рассчитываю на тебя. Удачи с доставкой!"
+        ],
+        "natural": [
+          "Я рассчитываю на тебя. Пожалуйста, доставь письмо и товары в целости!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich zähle auf dich!"
+        ],
+        "A2": [
+          "Ich zähle auf dich. Viel Glück mit den Lieferungen!"
+        ],
+        "natural": [
+          "Ich zähle auf dich. Bitte bring den Brief und die Waren sicher ans Ziel!"
+        ]
+      },
+      "english": [
+        "Mr. Stone reiterates that he is counting on the player."
+      ],
+      "words": {
+        "ru": [
+          [
+            "рассчитывать",
+            "to count on"
+          ]
+        ],
+        "de": [
+          [
+            "zählen auf",
+            "to count on"
+          ]
+        ]
+      }
     }
   ]
 }

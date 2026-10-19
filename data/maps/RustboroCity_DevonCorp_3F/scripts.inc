@@ -28,35 +28,59 @@ RustboroCity_DevonCorp_3F_OnFrame:: @ 8157748
 
 RustboroCity_DevonCorp_3F_EventScript_MeetPresident:: @ 8157752
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DevonThirdFloor
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 2, RustboroCity_DevonCorp_3F_Movement_EmployeeWalkOffscreen
 	waitmovement 0
 	delay 80
 	applymovement 2, RustboroCity_DevonCorp_3F_Movement_EmployeeReturnToPlayer
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DevonPresidentReady
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	playbgm MUS_FOLLOW_ME, FALSE
 	applymovement 2, RustboroCity_DevonCorp_3F_Movement_LeadPlayerToPresident
 	applymovement LOCALID_PLAYER, RustboroCity_DevonCorp_3F_Movement_PlayerFollowToPresident
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DevonGoAhead
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_PleaseGoAhead, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	fadedefaultbgm
 	applymovement 2, RustboroCity_DevonCorp_3F_Movement_EmployeeFaceDesk
 	applymovement LOCALID_PLAYER, RustboroCity_DevonCorp_3F_Movement_PlayerApproachDesk
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStoneFavor
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_LETTER
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStonePokenavGift
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis, MSGBOX_DEFAULT
+	.endif
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_3F_Text_ReceivedPokenav
 	waitfanfare
 	waitmessage
 	setflag FLAG_SYS_POKENAV_GET
 	setflag FLAG_RECEIVED_POKENAV
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStoneExplainPokenav
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenav, MSGBOX_DEFAULT
+	.endif
 	setflag FLAG_HIDE_TUNNER_DIGGER_ROUTE116
 	clearflag FLAG_HIDE_BOYFRIEND_RUSTURF_TUNNEL
 	clearflag FLAG_HIDE_GIRLFRIEND_RUSTURF_TUNNEL
@@ -148,7 +172,11 @@ RustboroCity_DevonCorp_3F_EventScript_MrStone:: @ 815783B
 	faceplayer
 	goto_if_set FLAG_RECEIVED_EXP_SHARE, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
 	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveExpShare
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStoneCountingOnYou
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_CountingOnYou, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0

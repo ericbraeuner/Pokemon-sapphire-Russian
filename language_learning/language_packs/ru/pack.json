@@ -2630,6 +2630,182 @@
       "forms": [
         "путешествовать"
       ]
+    },
+    {
+      "id": "ru.rustboro_devon_1",
+      "lemma": "добро пожаловать",
+      "english": "welcome",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonwelcome.253",
+      "forms": [
+        "добро пожаловать"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_2",
+      "lemma": "посылка",
+      "english": "package",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonstaffrobbed.254",
+      "forms": [
+        "посылка"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_3",
+      "lemma": "туфли",
+      "english": "shoes",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonshoes.255",
+      "forms": [
+        "туфли"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_4",
+      "lemma": "вор",
+      "english": "thief",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonrobber.256",
+      "forms": [
+        "вор"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_5",
+      "lemma": "вернуть",
+      "english": "to return",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devongoodsrecovered.257",
+      "forms": [
+        "вернуть"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_6",
+      "lemma": "разрешение",
+      "english": "permission",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonauthorizedonly.258",
+      "forms": [
+        "разрешение"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_7",
+      "lemma": "всегда",
+      "english": "always",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonalwayswelcome.259",
+      "forms": [
+        "всегда"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_8",
+      "lemma": "ограбить",
+      "english": "to rob",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonrobberyshock.260",
+      "forms": [
+        "ограбить"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_9",
+      "lemma": "этаж",
+      "english": "floor",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonthirdfloor.261",
+      "forms": [
+        "этаж"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_10",
+      "lemma": "следовать",
+      "english": "to follow",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devonpresidentready.262",
+      "forms": [
+        "следовать"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_11",
+      "lemma": "проходить",
+      "english": "to go ahead",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.devongoahead.263",
+      "forms": [
+        "проходить"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_12",
+      "lemma": "письмо",
+      "english": "letter",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.mrstonefavor.264",
+      "forms": [
+        "письмо"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_13",
+      "lemma": "устройство",
+      "english": "device",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.mrstonepokenavgift.265",
+      "forms": [
+        "устройство"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_14",
+      "lemma": "получить",
+      "english": "to receive",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.receivedpokenav.266",
+      "forms": [
+        "получить"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_15",
+      "lemma": "карта",
+      "english": "map",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.mrstoneexplainpokenav.267",
+      "forms": [
+        "карта"
+      ]
+    },
+    {
+      "id": "ru.rustboro_devon_16",
+      "lemma": "рассчитывать",
+      "english": "to count on",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon.mrstonecountingonyou.268",
+      "forms": [
+        "рассчитывать"
+      ]
     }
   ],
   "grammar_notes": [
@@ -13879,6 +14055,854 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 252
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonwelcome.253",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Добро пожаловать в ДЕВОН.",
+          "english_gloss": "The receptionist welcomes the player to Devon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 253
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Добро пожаловать в корпорацию ДЕВОН. Мы создаём полезные вещи.",
+          "english_gloss": "The receptionist welcomes the player to Devon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 253
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Добро пожаловать в корпорацию ДЕВОН. Мы создаём предметы и лекарства, которые делают жизнь удобнее.",
+          "english_gloss": "The receptionist welcomes the player to Devon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 253
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonstaffrobbed.254",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "У нашего работника украли посылку.",
+          "english_gloss": "The receptionist reports the stolen package.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 254
+          }
+        },
+        {
+          "id": "connected",
+          "text": "У одного исследователя украли важную посылку.",
+          "english_gloss": "The receptionist reports the stolen package.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 254
+          }
+        },
+        {
+          "id": "natural",
+          "text": "У одного из наших исследователей украли важную посылку. Какая неприятность!",
+          "english_gloss": "The receptionist reports the stolen package.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 254
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonshoes.255",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Эти БЕГОВЫЕ ТУФЛИ сделала ДЕВОН!",
+          "english_gloss": "An employee recognizes Devon's Running Shoes.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 255
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Твои БЕГОВЫЕ ТУФЛИ - продукт ДЕВОН. Приятно видеть их в деле!",
+          "english_gloss": "An employee recognizes Devon's Running Shoes.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 255
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Эй, эти БЕГОВЫЕ ТУФЛИ произвела наша компания! Рад видеть, что люди пользуются нашими изделиями.",
+          "english_gloss": "An employee recognizes Devon's Running Shoes.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 255
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonrobber.256",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Вор не сможет использовать посылку.",
+          "english_gloss": "An employee explains the stolen package is useless to outsiders.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 256
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Посылка важна, но вор не сможет ею воспользоваться.",
+          "english_gloss": "An employee explains the stolen package is useless to outsiders.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 256
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Украденная посылка важна, но посторонний не сможет ею воспользоваться. Грабитель был не очень умён.",
+          "english_gloss": "An employee explains the stolen package is useless to outsiders.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 256
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devongoodsrecovered.257",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ГРУЗ ДЕВОН вернули!",
+          "english_gloss": "An employee confirms the Devon Goods were recovered.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 257
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Похоже, украденный ГРУЗ ДЕВОН уже вернули.",
+          "english_gloss": "An employee confirms the Devon Goods were recovered.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 257
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Похоже, украденные ТОВАРЫ ДЕВОН благополучно вернули.",
+          "english_gloss": "An employee confirms the Devon Goods were recovered.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 257
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonauthorizedonly.258",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Наверх могут идти только работники.",
+          "english_gloss": "The guard restricts access to authorized personnel.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 258
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Извини, наверх могут пройти только уполномоченные люди.",
+          "english_gloss": "The guard restricts access to authorized personnel.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 258
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Прошу прощения, но вход на верхние этажи разрешён только уполномоченным лицам.",
+          "english_gloss": "The guard restricts access to authorized personnel.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 258
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonalwayswelcome.259",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Тебе здесь всегда рады!",
+          "english_gloss": "The guard welcomes the player after the recovery.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 259
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Привет! В ДЕВОН тебе всегда рады!",
+          "english_gloss": "The guard welcomes the player after the recovery.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 259
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Добро пожаловать! После твоей помощи тебе в ДЕВОН всегда будут рады.",
+          "english_gloss": "The guard welcomes the player after the recovery.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 259
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonrobberyshock.260",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Как нас могли ограбить?",
+          "english_gloss": "The guard reacts to the robbery.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 260
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Не могу поверить. Как нас могли ограбить?",
+          "english_gloss": "The guard reacts to the robbery.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 260
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Какая глупость! Как вообще кто-то смог ограбить ДЕВОН?",
+          "english_gloss": "The guard reacts to the robbery.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 260
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonthirdfloor.261",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Это третий этаж. Подожди здесь.",
+          "english_gloss": "The employee asks the player to wait on the third floor.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 261
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мы на третьем этаже. Подожди здесь, я поговорю с президентом.",
+          "english_gloss": "The employee asks the player to wait on the third floor.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 261
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Вот и третий этаж. Подожди здесь немного, пока я сообщу президенту о твоём прибытии.",
+          "english_gloss": "The employee asks the player to wait on the third floor.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 261
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devonpresidentready.262",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Президент готов. Иди за мной.",
+          "english_gloss": "The employee leads the player to the president.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 262
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я поговорил с президентом. Он ждёт тебя. Иди за мной.",
+          "english_gloss": "The employee leads the player to the president.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 262
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я рассказал президенту о твоей помощи. Он хочет лично поблагодарить тебя. Следуй за мной.",
+          "english_gloss": "The employee leads the player to the president.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 262
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.devongoahead.263",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Проходи к президенту.",
+          "english_gloss": "The employee invites the player to approach Mr. Stone.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 263
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Пожалуйста, подойди к президенту.",
+          "english_gloss": "The employee invites the player to approach Mr. Stone.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 263
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Пожалуйста, проходи. Президент ждёт тебя у своего стола.",
+          "english_gloss": "The employee invites the player to approach Mr. Stone.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 263
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.mrstonefavor.264",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я президент ДЕВОН. Доставь письмо СТИВЕНУ и посылку капитану ШТЕРНУ.",
+          "english_gloss": "Mr. Stone asks for two important deliveries.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 264
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я президент ДЕВОН. Спасибо за возврат груза. Отнеси письмо СТИВЕНУ в ДЬЮФОРДЕ и посылку капитану ШТЕРНУ.",
+          "english_gloss": "Mr. Stone asks for two important deliveries.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 264
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я господин СТОУН, президент ДЕВОН. Спасибо, что вернул наш груз. Прошу ещё об одном: доставь письмо СТИВЕНУ в ДЬЮФОРДЕ, а товары - капитану ШТЕРНУ в СЛЕЙТПОРТЕ.",
+          "english_gloss": "Mr. Stone asks for two important deliveries.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 264
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.mrstonepokenavgift.265",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Возьми ПОКЕНАВ. Он поможет в пути.",
+          "english_gloss": "Mr. Stone offers the player a PokéNav.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 265
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ты много путешествуешь, поэтому возьми ПОКЕНАВ. Он поможет найти дорогу.",
+          "english_gloss": "Mr. Stone offers the player a PokéNav.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 265
+          }
+        },
+        {
+          "id": "natural",
+          "text": "За твою помощь я хочу подарить тебе ПОКЕНАВ. Это новое устройство ДЕВОН наверняка пригодится в путешествии.",
+          "english_gloss": "Mr. Stone offers the player a PokéNav.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 265
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.receivedpokenav.266",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Получен ПОКЕНАВ!",
+          "english_gloss": "The player receives the PokéNav.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 266
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ты получаешь ПОКЕНАВ!",
+          "english_gloss": "The player receives the PokéNav.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 266
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Получен ПОКЕНАВ от господина СТОУНА!",
+          "english_gloss": "The player receives the PokéNav.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 266
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.mrstoneexplainpokenav.267",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПОКЕНАВ показывает карту ХОЭННА.",
+          "english_gloss": "Mr. Stone explains the PokéNav's purpose.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 267
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ПОКЕНАВ показывает карту ХОЭННА и помогает тренерам в пути.",
+          "english_gloss": "Mr. Stone explains the PokéNav's purpose.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 267
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ПОКЕНАВ - сокращение от ПОКЕМОН-НАВИГАТОР. Он содержит карту ХОЭННА и множество полезных функций для тренеров.",
+          "english_gloss": "Mr. Stone explains the PokéNav's purpose.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 267
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon.mrstonecountingonyou.268",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я рассчитываю на тебя!",
+          "english_gloss": "Mr. Stone reiterates that he is counting on the player.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 268
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я рассчитываю на тебя. Удачи с доставкой!",
+          "english_gloss": "Mr. Stone reiterates that he is counting on the player.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 268
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я рассчитываю на тебя. Пожалуйста, доставь письмо и товары в целости!",
+          "english_gloss": "Mr. Stone reiterates that he is counting on the player.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.rustboro_devon_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 268
           }
         }
       ]

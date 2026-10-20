@@ -184,12 +184,20 @@ RustboroCity_DevonCorp_3F_EventScript_MrStone:: @ 815783B
 	end
 
 RustboroCity_DevonCorp_3F_EventScript_GiveExpShare:: @ 8157864
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStoneLetterThanks
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_EXP_SHARE
 	compare VAR_RESULT, 0
 	goto_if_eq Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_EXP_SHARE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStoneExplainExpShare
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_ExplainExpShare, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -197,7 +205,11 @@ RustboroCity_DevonCorp_3F_EventScript_GiveExpShare:: @ 8157864
 	end
 
 RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor:: @ 815789B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_MrStoneTrends
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -208,15 +220,27 @@ RustboroCity_DevonCorp_3F_EventScript_Employee:: @ 81578B0
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_REPEAT_BALL, RustboroCity_DevonCorp_3F_EventScript_EmployeeBalls
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DevonVisitShipyard
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_DevonCorp_3F_EventScript_EmployeeBalls:: @ 81578C5
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DevonBallsPopular
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay:: @ 81578CF
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_DevonRareRocks
+	.else
 	msgbox RustboroCity_DevonCorp_3F_Text_RareRocksDisplay, MSGBOX_SIGN
+	.endif
 	end

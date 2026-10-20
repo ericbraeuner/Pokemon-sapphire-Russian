@@ -2806,6 +2806,226 @@
       "forms": [
         "рассчитывать"
       ]
+    },
+    {
+      "id": "ru.devon_research_1",
+      "lemma": "разговор",
+      "english": "conversation",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.talkdevice.269",
+      "forms": [
+        "разговор"
+      ]
+    },
+    {
+      "id": "ru.devon_research_2",
+      "lemma": "исследование",
+      "english": "research",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.ballresearch.270",
+      "forms": [
+        "исследование"
+      ]
+    },
+    {
+      "id": "ru.devon_research_3",
+      "lemma": "время",
+      "english": "time",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.newballs.271",
+      "forms": [
+        "время"
+      ]
+    },
+    {
+      "id": "ru.devon_research_4",
+      "lemma": "создавать",
+      "english": "to create",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.madepokenav.272",
+      "forms": [
+        "создавать"
+      ]
+    },
+    {
+      "id": "ru.devon_research_5",
+      "lemma": "изобретение",
+      "english": "invention",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.seepokenav.273",
+      "forms": [
+        "изобретение"
+      ]
+    },
+    {
+      "id": "ru.devon_research_6",
+      "lemma": "сон",
+      "english": "dream",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.dreamdevice.274",
+      "forms": [
+        "сон"
+      ]
+    },
+    {
+      "id": "ru.devon_research_7",
+      "lemma": "окаменелость",
+      "english": "fossil",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.fossildevice.275",
+      "forms": [
+        "окаменелость"
+      ]
+    },
+    {
+      "id": "ru.devon_research_8",
+      "lemma": "оживить",
+      "english": "to revive",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.fossilquestion.276",
+      "forms": [
+        "оживить"
+      ]
+    },
+    {
+      "id": "ru.devon_research_9",
+      "lemma": "передумать",
+      "english": "to reconsider",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.fossildeclined.277",
+      "forms": [
+        "передумать"
+      ]
+    },
+    {
+      "id": "ru.devon_research_10",
+      "lemma": "передавать",
+      "english": "to hand over",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.handedfossil.278",
+      "forms": [
+        "передавать"
+      ]
+    },
+    {
+      "id": "ru.devon_research_11",
+      "lemma": "ждать",
+      "english": "to wait",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.fossilwaiting.279",
+      "forms": [
+        "ждать"
+      ]
+    },
+    {
+      "id": "ru.devon_research_12",
+      "lemma": "успех",
+      "english": "success",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.fossilrevived.280",
+      "forms": [
+        "успех"
+      ]
+    },
+    {
+      "id": "ru.devon_research_13",
+      "lemma": "получать",
+      "english": "to receive",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.receivedfossilmon.281",
+      "forms": [
+        "получать"
+      ]
+    },
+    {
+      "id": "ru.devon_research_14",
+      "lemma": "место",
+      "english": "space",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.partyfull.282",
+      "forms": [
+        "место"
+      ]
+    },
+    {
+      "id": "ru.devon_research_15",
+      "lemma": "благодарность",
+      "english": "gratitude",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.letterthanks.283",
+      "forms": [
+        "благодарность"
+      ]
+    },
+    {
+      "id": "ru.devon_research_16",
+      "lemma": "опыт",
+      "english": "experience",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.explainexpshare.284",
+      "forms": [
+        "опыт"
+      ]
+    },
+    {
+      "id": "ru.devon_research_17",
+      "lemma": "увлечение",
+      "english": "trend",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.mrstonetrends.285",
+      "forms": [
+        "увлечение"
+      ]
+    },
+    {
+      "id": "ru.devon_research_18",
+      "lemma": "верфь",
+      "english": "shipyard",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.visitshipyard.286",
+      "forms": [
+        "верфь"
+      ]
+    },
+    {
+      "id": "ru.devon_research_19",
+      "lemma": "популярный",
+      "english": "popular",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.ballspopular.287",
+      "forms": [
+        "популярный"
+      ]
+    },
+    {
+      "id": "ru.devon_research_20",
+      "lemma": "витрина",
+      "english": "display case",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "rustboro.devon_research.rarerocks.288",
+      "forms": [
+        "витрина"
+      ]
     }
   ],
   "grammar_notes": [
@@ -14903,6 +15123,1066 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 268
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.talkdevice.269",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мы создаём прибор для разговора с покемонами.",
+          "english_gloss": "A scientist is developing a device for talking to Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 269
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мы создаём устройство, которое позволит говорить с покемонами.",
+          "english_gloss": "A scientist is developing a device for talking to Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 269
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Мы разрабатываем устройство для общения с покемонами, но пока без особого успеха.",
+          "english_gloss": "A scientist is developing a device for talking to Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 269
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.ballresearch.270",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я создаю новые покеболы.",
+          "english_gloss": "A scientist is researching new Poké Balls.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 270
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я разрабатываю новые покеболы, но работа идёт медленно.",
+          "english_gloss": "A scientist is researching new Poké Balls.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 270
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я занимаюсь разработкой совершенно новых покеболов, хотя пока почти не продвинулся.",
+          "english_gloss": "A scientist is researching new Poké Balls.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 270
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.newballs.271",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мы создали ПОВТОРНЫЙ и ТАЙМЕРНЫЙ МЯЧИ!",
+          "english_gloss": "The scientist explains Repeat and Timer Balls.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 271
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Мы создали новые мячи. ПОВТОРНЫЙ ловит знакомых покемонов, а ТАЙМЕРНЫЙ становится лучше со временем.",
+          "english_gloss": "The scientist explains Repeat and Timer Balls.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 271
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Наконец мы создали новые покеболы! ПОВТОРНЫЙ МЯЧ лучше ловит уже пойманные виды, а ТАЙМЕРНЫЙ становится эффективнее с каждым ходом.",
+          "english_gloss": "The scientist explains Repeat and Timer Balls.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 271
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.madepokenav.272",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я создал ПОКЕНАВ.",
+          "english_gloss": "A scientist discusses creating the PokéNav.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 272
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я создал ПОКЕНАВ, но президенту он не понравился.",
+          "english_gloss": "A scientist discusses creating the PokéNav.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 272
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я разработал ПОКЕНАВ. Президент отклонил первый вариант, поэтому я продолжаю его улучшать.",
+          "english_gloss": "A scientist discusses creating the PokéNav.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 272
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.seepokenav.273",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ого, у тебя ПОКЕНАВ!",
+          "english_gloss": "The inventor recognizes the player's PokéNav.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 273
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ого, это новый ПОКЕНАВ! Покажи его мне.",
+          "english_gloss": "The inventor recognizes the player's PokéNav.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 273
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Вот это да, у тебя новейший ПОКЕНАВ! Приятно видеть моё изобретение в руках тренера.",
+          "english_gloss": "The inventor recognizes the player's PokéNav.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 273
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.dreamdevice.274",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я хочу показывать сны покемонов.",
+          "english_gloss": "A scientist wants to visualize Pokémon dreams.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 274
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я создаю прибор, который покажет сны покемонов.",
+          "english_gloss": "A scientist wants to visualize Pokémon dreams.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 274
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я разрабатываю устройство, способное превращать сны покемонов в видимые изображения.",
+          "english_gloss": "A scientist wants to visualize Pokémon dreams.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 274
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.fossildevice.275",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Мой прибор оживляет покемонов из ископаемых.",
+          "english_gloss": "The fossil scientist explains the resurrection machine.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 275
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я создал устройство, которое возвращает к жизни покемонов из окаменелостей.",
+          "english_gloss": "The fossil scientist explains the resurrection machine.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 275
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Я разработал устройство, способное воскресить покемона из древней окаменелости.",
+          "english_gloss": "The fossil scientist explains the resurrection machine.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 275
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.fossilquestion.276",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Оживить этот ФОССИЛЬ?",
+          "english_gloss": "The scientist asks whether to revive the fossil.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 276
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Хочешь, чтобы я оживил покемона из этого ФОССИЛЯ?",
+          "english_gloss": "The scientist asks whether to revive the fossil.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 276
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Хочешь, чтобы я воспользовался аппаратом и вернул покемона из этой окаменелости к жизни?",
+          "english_gloss": "The scientist asks whether to revive the fossil.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 276
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.fossildeclined.277",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Понятно. Приходи позже.",
+          "english_gloss": "The scientist accepts the player's refusal.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 277
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Вот как? Приходи, если передумаешь.",
+          "english_gloss": "The scientist accepts the player's refusal.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 277
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Понятно. Если передумаешь, я буду здесь и с радостью помогу.",
+          "english_gloss": "The scientist accepts the player's refusal.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_9"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 277
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.handedfossil.278",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ФОССИЛЬ передан исследователю.",
+          "english_gloss": "The player hands the fossil to the researcher.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 278
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ты отдаёшь ФОССИЛЬ исследователю.",
+          "english_gloss": "The player hands the fossil to the researcher.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 278
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Окаменелость передана исследователю для восстановления.",
+          "english_gloss": "The player hands the fossil to the researcher.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_10"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 278
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.fossilwaiting.279",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Оживление займёт время. Погуляй немного.",
+          "english_gloss": "The scientist asks the player to wait for fossil restoration.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 279
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Аппарату нужно время. Выйди и вернись позже.",
+          "english_gloss": "The scientist asks the player to wait for fossil restoration.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 279
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Восстановление требует времени. Прогуляйся немного и возвращайся, когда аппарат закончит работу.",
+          "english_gloss": "The scientist asks the player to wait for fossil restoration.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_11"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 279
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.fossilrevived.280",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Покемон из ФОССИЛЯ ожил!",
+          "english_gloss": "The fossil Pokémon has been restored.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 280
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Удалось оживить покемона из твоего ФОССИЛЯ!",
+          "english_gloss": "The fossil Pokémon has been restored.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 280
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Успех! Покемон, сохранившийся в окаменелости, полностью возвращён к жизни!",
+          "english_gloss": "The fossil Pokémon has been restored.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_12"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 280
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.receivedfossilmon.281",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Получен восстановленный покемон!",
+          "english_gloss": "The player receives the restored Pokémon.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 281
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ты получаешь оживлённого покемона!",
+          "english_gloss": "The player receives the restored Pokémon.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 281
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Исследователь передаёт тебе восстановленного покемона!",
+          "english_gloss": "The player receives the restored Pokémon.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_13"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 281
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.partyfull.282",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "В команде нет места.",
+          "english_gloss": "The scientist says the party is full.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 282
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Твоя команда полна. Освободи место и вернись.",
+          "english_gloss": "The scientist says the party is full.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 282
+          }
+        },
+        {
+          "id": "natural",
+          "text": "У тебя уже шесть покемонов. Освободи место в команде и возвращайся за восстановленным покемоном.",
+          "english_gloss": "The scientist says the party is full.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_14"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 282
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.letterthanks.283",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Спасибо за доставку письма. Возьми подарок.",
+          "english_gloss": "Mr. Stone rewards the successful letter delivery.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 283
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Спасибо, что доставил письмо СТИВЕНУ. Прими этот подарок.",
+          "english_gloss": "Mr. Stone rewards the successful letter delivery.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 283
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Большое спасибо, что доставил письмо СТИВЕНУ. В знак благодарности я хочу вручить тебе этот полезный предмет.",
+          "english_gloss": "Mr. Stone rewards the successful letter delivery.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_15"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 283
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.explainexpshare.284",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ДОЛЯ ОПЫТА делится опытом с покемоном.",
+          "english_gloss": "Mr. Stone explains how the Exp. Share works.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 284
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Покемон с ДОЛЕЙ ОПЫТА получает опыт, даже если не сражается.",
+          "english_gloss": "Mr. Stone explains how the Exp. Share works.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 284
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Покемон, держащий ДОЛЮ ОПЫТА, получает часть опыта после боя, даже если сам не участвовал.",
+          "english_gloss": "Mr. Stone explains how the Exp. Share works.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_16"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 284
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.mrstonetrends.285",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Я плохо знаю современные увлечения.",
+          "english_gloss": "Mr. Stone admits he does not follow trends.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 285
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я занят работой и не очень понимаю новые увлечения.",
+          "english_gloss": "Mr. Stone admits he does not follow trends.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 285
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Работа президента отнимает всё время, поэтому я почти не знаком с нынешними модными увлечениями.",
+          "english_gloss": "Mr. Stone admits he does not follow trends.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_17"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 285
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.visitshipyard.286",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Отнеси товары капитану ШТЕРНУ на верфь.",
+          "english_gloss": "The employee directs the player to Captain Stern's shipyard.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 286
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Капитан ШТЕРН работает на верфи в СЛЕЙТПОРТЕ. Отнеси ему товары.",
+          "english_gloss": "The employee directs the player to Captain Stern's shipyard.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 286
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Пожалуйста, доставь ТОВАРЫ ДЕВОН капитану ШТЕРНУ. Скорее всего, он находится на верфи в СЛЕЙТПОРТЕ.",
+          "english_gloss": "The employee directs the player to Captain Stern's shipyard.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_18"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 286
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.ballspopular.287",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ПОВТОРНЫЙ и ТАЙМЕРНЫЙ МЯЧИ очень популярны!",
+          "english_gloss": "The employee celebrates the new Balls' popularity.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 287
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Наши ПОВТОРНЫЕ и ТАЙМЕРНЫЕ МЯЧИ стали очень популярными.",
+          "english_gloss": "The employee celebrates the new Balls' popularity.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 287
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Разработанные нами ПОВТОРНЫЕ и ТАЙМЕРНЫЕ МЯЧИ пользуются огромной популярностью у тренеров!",
+          "english_gloss": "The employee celebrates the new Balls' popularity.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_19"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 287
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "rustboro.devon_research.rarerocks.288",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Коллекция редких камней президента.",
+          "english_gloss": "A display contains the president's rare stone collection.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.devon_research_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 288
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Здесь выставлена коллекция редких камней президента ДЕВОН.",
+          "english_gloss": "A display contains the president's rare stone collection.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.devon_research_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 288
+          }
+        },
+        {
+          "id": "natural",
+          "text": "В витрине представлена тщательно собранная президентом ДЕВОН коллекция редких камней.",
+          "english_gloss": "A display contains the president's rare stone collection.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.devon_research_20"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 288
           }
         }
       ]

@@ -5446,6 +5446,406 @@
         "rustboro",
         "devon"
       ]
+    },
+    {
+      "id": "rustboro.devon_research.talkdevice.269",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_TalkToPokemonScientist",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonTalkDevice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 269
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.ballresearch.270",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_BallScientist",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonBallResearch"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 270
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.newballs.271",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_DevelopedBalls",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonNewBalls"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 271
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.madepokenav.272",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_PokenavScientist",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_IMadePokenav",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonMadePokenav"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 272
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.seepokenav.273",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_HasPokenav",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonSeePokenav"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 273
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.dreamdevice.274",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_PokemonDreamsScientist",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonDreamDevice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 274
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.fossildevice.275",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_FossilScientist",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonFossilDevice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 275
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.fossilquestion.276",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_NoticeRootFossil",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonFossilQuestion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 276
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.fossildeclined.277",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_OhIsThatSo",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonFossilDeclined"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 277
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.handedfossil.278",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_NoticeRootFossil",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonHandedFossil"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 278
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.fossilwaiting.279",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_StillRegenerating",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonFossilWaiting"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 279
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.fossilrevived.280",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_LileepReady",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonFossilRevived"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 280
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.receivedfossilmon.281",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_LileepReady",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonReceivedFossilMon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 281
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.partyfull.282",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_2F_EventScript_TooManyPokemon",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_2F_Text_TooManyPokemon",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonPartyFull"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 282
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.letterthanks.283",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_GiveExpShare",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "MrStoneLetterThanks"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 283
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.explainexpshare.284",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_GiveExpShare",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_ExplainExpShare",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "MrStoneExplainExpShare"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 284
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.mrstonetrends.285",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "MrStoneTrends"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 285
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.visitshipyard.286",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_Employee",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonVisitShipyard"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 286
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.ballspopular.287",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_EmployeeBalls",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonBallsPopular"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 287
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
+    },
+    {
+      "id": "rustboro.devon_research.rarerocks.288",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc",
+        "symbol": "RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay",
+        "base_text_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+        "base_text_symbol": "RustboroCity_DevonCorp_3F_Text_RareRocksDisplay",
+        "note": "Adaptive wording preserves the original research and reward flow.",
+        "authored_id": "DevonRareRocks"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 288
+      },
+      "tags": [
+        "rustboro",
+        "devon"
+      ]
     }
   ]
 }

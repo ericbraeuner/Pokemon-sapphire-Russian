@@ -12019,6 +12019,888 @@
           ]
         ]
       }
+    },
+    {
+      "id": "DevonTalkDevice",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Мы создаём прибор для разговора с покемонами."
+        ],
+        "A2": [
+          "Мы создаём устройство, которое позволит говорить с покемонами."
+        ],
+        "natural": [
+          "Мы разрабатываем устройство для общения с покемонами, но пока без особого успеха."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir bauen ein Gerät zum Sprechen mit Pokémon."
+        ],
+        "A2": [
+          "Wir entwickeln ein Gerät, mit dem man mit Pokémon sprechen kann."
+        ],
+        "natural": [
+          "Wir entwickeln ein Gerät zur Verständigung mit Pokémon, hatten bisher aber wenig Erfolg."
+        ]
+      },
+      "english": [
+        "A scientist is developing a device for talking to Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "разговор",
+            "conversation"
+          ]
+        ],
+        "de": [
+          [
+            "das Gespräch",
+            "conversation"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonBallResearch",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Я создаю новые покеболы."
+        ],
+        "A2": [
+          "Я разрабатываю новые покеболы, но работа идёт медленно."
+        ],
+        "natural": [
+          "Я занимаюсь разработкой совершенно новых покеболов, хотя пока почти не продвинулся."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich entwickle neue Pokébälle."
+        ],
+        "A2": [
+          "Ich entwickle neue Pokébälle, komme aber nur langsam voran."
+        ],
+        "natural": [
+          "Ich arbeite an völlig neuen Pokébällen, bin bisher jedoch kaum vorangekommen."
+        ]
+      },
+      "english": [
+        "A scientist is researching new Poké Balls."
+      ],
+      "words": {
+        "ru": [
+          [
+            "исследование",
+            "research"
+          ]
+        ],
+        "de": [
+          [
+            "die Forschung",
+            "research"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonNewBalls",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Мы создали ПОВТОРНЫЙ и ТАЙМЕРНЫЙ МЯЧИ!"
+        ],
+        "A2": [
+          "Мы создали новые мячи. ПОВТОРНЫЙ ловит знакомых покемонов, а ТАЙМЕРНЫЙ становится лучше со временем."
+        ],
+        "natural": [
+          "Наконец мы создали новые покеболы! ПОВТОРНЫЙ МЯЧ лучше ловит уже пойманные виды, а ТАЙМЕРНЫЙ становится эффективнее с каждым ходом."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir haben WIEDERBALL und TIMERBALL entwickelt!"
+        ],
+        "A2": [
+          "Wir haben neue Bälle entwickelt. Der WIEDERBALL fängt bekannte Pokémon, der TIMERBALL wird mit der Zeit besser."
+        ],
+        "natural": [
+          "Endlich haben wir neue Pokébälle entwickelt! Der WIEDERBALL fängt bereits bekannte Arten besser, während der TIMERBALL mit jeder Runde wirksamer wird."
+        ]
+      },
+      "english": [
+        "The scientist explains Repeat and Timer Balls."
+      ],
+      "words": {
+        "ru": [
+          [
+            "время",
+            "time"
+          ]
+        ],
+        "de": [
+          [
+            "die Zeit",
+            "time"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonMadePokenav",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_IMadePokenav",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Я создал ПОКЕНАВ."
+        ],
+        "A2": [
+          "Я создал ПОКЕНАВ, но президенту он не понравился."
+        ],
+        "natural": [
+          "Я разработал ПОКЕНАВ. Президент отклонил первый вариант, поэтому я продолжаю его улучшать."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe den POKéNAV entwickelt."
+        ],
+        "A2": [
+          "Ich habe den POKéNAV entwickelt, aber der Präsident war nicht zufrieden."
+        ],
+        "natural": [
+          "Ich habe den POKéNAV entwickelt. Der Präsident lehnte den ersten Entwurf ab, deshalb verbessere ich ihn weiter."
+        ]
+      },
+      "english": [
+        "A scientist discusses creating the PokéNav."
+      ],
+      "words": {
+        "ru": [
+          [
+            "создавать",
+            "to create"
+          ]
+        ],
+        "de": [
+          [
+            "entwickeln",
+            "to develop"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonSeePokenav",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Ого, у тебя ПОКЕНАВ!"
+        ],
+        "A2": [
+          "Ого, это новый ПОКЕНАВ! Покажи его мне."
+        ],
+        "natural": [
+          "Вот это да, у тебя новейший ПОКЕНАВ! Приятно видеть моё изобретение в руках тренера."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wow, du hast einen POKéNAV!"
+        ],
+        "A2": [
+          "Wow, das ist der neue POKéNAV! Zeig ihn mir."
+        ],
+        "natural": [
+          "Unglaublich, du besitzt den neuesten POKéNAV! Es freut mich, meine Erfindung in den Händen eines Trainers zu sehen."
+        ]
+      },
+      "english": [
+        "The inventor recognizes the player's PokéNav."
+      ],
+      "words": {
+        "ru": [
+          [
+            "изобретение",
+            "invention"
+          ]
+        ],
+        "de": [
+          [
+            "die Erfindung",
+            "invention"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonDreamDevice",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Я хочу показывать сны покемонов."
+        ],
+        "A2": [
+          "Я создаю прибор, который покажет сны покемонов."
+        ],
+        "natural": [
+          "Я разрабатываю устройство, способное превращать сны покемонов в видимые изображения."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich möchte Pokémon-Träume zeigen."
+        ],
+        "A2": [
+          "Ich entwickle ein Gerät, das Pokémon-Träume sichtbar macht."
+        ],
+        "natural": [
+          "Ich entwickle ein Gerät, das die Träume von Pokémon in sichtbare Bilder umwandeln kann."
+        ]
+      },
+      "english": [
+        "A scientist wants to visualize Pokémon dreams."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сон",
+            "dream"
+          ]
+        ],
+        "de": [
+          [
+            "der Traum",
+            "dream"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonFossilDevice",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Мой прибор оживляет покемонов из ископаемых."
+        ],
+        "A2": [
+          "Я создал устройство, которое возвращает к жизни покемонов из окаменелостей."
+        ],
+        "natural": [
+          "Я разработал устройство, способное воскресить покемона из древней окаменелости."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Gerät belebt Pokémon aus Fossilien."
+        ],
+        "A2": [
+          "Ich habe ein Gerät entwickelt, das Pokémon aus Fossilien wiederbelebt."
+        ],
+        "natural": [
+          "Ich habe ein Gerät entwickelt, das ein Pokémon aus einem uralten Fossil wieder zum Leben erwecken kann."
+        ]
+      },
+      "english": [
+        "The fossil scientist explains the resurrection machine."
+      ],
+      "words": {
+        "ru": [
+          [
+            "окаменелость",
+            "fossil"
+          ]
+        ],
+        "de": [
+          [
+            "das Fossil",
+            "fossil"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonFossilQuestion",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Оживить этот ФОССИЛЬ?"
+        ],
+        "A2": [
+          "Хочешь, чтобы я оживил покемона из этого ФОССИЛЯ?"
+        ],
+        "natural": [
+          "Хочешь, чтобы я воспользовался аппаратом и вернул покемона из этой окаменелости к жизни?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieses FOSSIL wiederbeleben?"
+        ],
+        "A2": [
+          "Soll ich das Pokémon aus diesem FOSSIL wiederbeleben?"
+        ],
+        "natural": [
+          "Möchtest du, dass ich die Maschine benutze und das Pokémon aus diesem Fossil wieder zum Leben erwecke?"
+        ]
+      },
+      "english": [
+        "The scientist asks whether to revive the fossil."
+      ],
+      "words": {
+        "ru": [
+          [
+            "оживить",
+            "to revive"
+          ]
+        ],
+        "de": [
+          [
+            "wiederbeleben",
+            "to revive"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "DevonFossilDeclined",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_OhIsThatSo",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Понятно. Приходи позже."
+        ],
+        "A2": [
+          "Вот как? Приходи, если передумаешь."
+        ],
+        "natural": [
+          "Понятно. Если передумаешь, я буду здесь и с радостью помогу."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Verstehe. Komm später wieder."
+        ],
+        "A2": [
+          "Ach so? Komm wieder, wenn du es dir anders überlegst."
+        ],
+        "natural": [
+          "Verstehe. Falls du deine Meinung änderst, bin ich hier und helfe dir gern."
+        ]
+      },
+      "english": [
+        "The scientist accepts the player's refusal."
+      ],
+      "words": {
+        "ru": [
+          [
+            "передумать",
+            "to reconsider"
+          ]
+        ],
+        "de": [
+          [
+            "überlegen",
+            "to reconsider"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonHandedFossil",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "ФОССИЛЬ передан исследователю."
+        ],
+        "A2": [
+          "Ты отдаёшь ФОССИЛЬ исследователю."
+        ],
+        "natural": [
+          "Окаменелость передана исследователю для восстановления."
+        ]
+      },
+      "de": {
+        "A1": [
+          "FOSSIL dem Forscher gegeben."
+        ],
+        "A2": [
+          "Du gibst dem Forscher das FOSSIL."
+        ],
+        "natural": [
+          "Das Fossil wurde dem Forscher zur Wiederherstellung übergeben."
+        ]
+      },
+      "english": [
+        "The player hands the fossil to the researcher."
+      ],
+      "words": {
+        "ru": [
+          [
+            "передавать",
+            "to hand over"
+          ]
+        ],
+        "de": [
+          [
+            "übergeben",
+            "to hand over"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonFossilWaiting",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Оживление займёт время. Погуляй немного."
+        ],
+        "A2": [
+          "Аппарату нужно время. Выйди и вернись позже."
+        ],
+        "natural": [
+          "Восстановление требует времени. Прогуляйся немного и возвращайся, когда аппарат закончит работу."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Wiederbelebung dauert. Geh kurz hinaus."
+        ],
+        "A2": [
+          "Die Maschine braucht Zeit. Geh hinaus und komm später zurück."
+        ],
+        "natural": [
+          "Die Wiederherstellung braucht etwas Zeit. Geh ein wenig spazieren und komm zurück, sobald die Maschine fertig ist."
+        ]
+      },
+      "english": [
+        "The scientist asks the player to wait for fossil restoration."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ждать",
+            "to wait"
+          ]
+        ],
+        "de": [
+          [
+            "warten",
+            "to wait"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonFossilRevived",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Покемон из ФОССИЛЯ ожил!"
+        ],
+        "A2": [
+          "Удалось оживить покемона из твоего ФОССИЛЯ!"
+        ],
+        "natural": [
+          "Успех! Покемон, сохранившийся в окаменелости, полностью возвращён к жизни!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Pokémon aus dem FOSSIL lebt!"
+        ],
+        "A2": [
+          "Das Pokémon aus deinem FOSSIL wurde erfolgreich wiederbelebt!"
+        ],
+        "natural": [
+          "Erfolg! Das im Fossil erhaltene Pokémon wurde vollständig wieder zum Leben erweckt!"
+        ]
+      },
+      "english": [
+        "The fossil Pokémon has been restored."
+      ],
+      "words": {
+        "ru": [
+          [
+            "успех",
+            "success"
+          ]
+        ],
+        "de": [
+          [
+            "der Erfolg",
+            "success"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonReceivedFossilMon",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "Получен восстановленный покемон!"
+        ],
+        "A2": [
+          "Ты получаешь оживлённого покемона!"
+        ],
+        "natural": [
+          "Исследователь передаёт тебе восстановленного покемона!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wiederbelebtes Pokémon erhalten!"
+        ],
+        "A2": [
+          "Du erhältst das wiederbelebte Pokémon!"
+        ],
+        "natural": [
+          "Der Forscher übergibt dir das wiederhergestellte Pokémon!"
+        ]
+      },
+      "english": [
+        "The player receives the restored Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "получать",
+            "to receive"
+          ]
+        ],
+        "de": [
+          [
+            "erhalten",
+            "to receive"
+          ]
+        ]
+      },
+      "adaptive_translation": true
+    },
+    {
+      "id": "DevonPartyFull",
+      "base_symbol": "RustboroCity_DevonCorp_2F_Text_TooManyPokemon",
+      "source_path": "data/maps/RustboroCity_DevonCorp_2F/text.inc",
+      "ru": {
+        "A1": [
+          "В команде нет места."
+        ],
+        "A2": [
+          "Твоя команда полна. Освободи место и вернись."
+        ],
+        "natural": [
+          "У тебя уже шесть покемонов. Освободи место в команде и возвращайся за восстановленным покемоном."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Team ist voll."
+        ],
+        "A2": [
+          "Dein Team ist voll. Mach einen Platz frei und komm zurück."
+        ],
+        "natural": [
+          "Du hast bereits sechs Pokémon. Mach einen Platz im Team frei und hol das wiederbelebte Pokémon später ab."
+        ]
+      },
+      "english": [
+        "The scientist says the party is full."
+      ],
+      "words": {
+        "ru": [
+          [
+            "место",
+            "space"
+          ]
+        ],
+        "de": [
+          [
+            "der Platz",
+            "space"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MrStoneLetterThanks",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Спасибо за доставку письма. Возьми подарок."
+        ],
+        "A2": [
+          "Спасибо, что доставил письмо СТИВЕНУ. Прими этот подарок."
+        ],
+        "natural": [
+          "Большое спасибо, что доставил письмо СТИВЕНУ. В знак благодарности я хочу вручить тебе этот полезный предмет."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Danke für den Brief. Nimm dieses Geschenk."
+        ],
+        "A2": [
+          "Danke, dass du STEVEN den Brief gebracht hast. Nimm dieses Geschenk an."
+        ],
+        "natural": [
+          "Vielen Dank, dass du STEVEN den Brief überbracht hast. Als Zeichen meiner Dankbarkeit möchte ich dir dieses nützliche Item geben."
+        ]
+      },
+      "english": [
+        "Mr. Stone rewards the successful letter delivery."
+      ],
+      "words": {
+        "ru": [
+          [
+            "благодарность",
+            "gratitude"
+          ]
+        ],
+        "de": [
+          [
+            "der Dank",
+            "gratitude"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MrStoneExplainExpShare",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_ExplainExpShare",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "ДОЛЯ ОПЫТА делится опытом с покемоном."
+        ],
+        "A2": [
+          "Покемон с ДОЛЕЙ ОПЫТА получает опыт, даже если не сражается."
+        ],
+        "natural": [
+          "Покемон, держащий ДОЛЮ ОПЫТА, получает часть опыта после боя, даже если сам не участвовал."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der EP-TEILER gibt einem Pokémon Erfahrung."
+        ],
+        "A2": [
+          "Ein Pokémon mit EP-TEILER erhält Erfahrung, auch wenn es nicht kämpft."
+        ],
+        "natural": [
+          "Ein Pokémon, das den EP-TEILER trägt, erhält nach dem Kampf einen Teil der Erfahrung, selbst wenn es nicht teilgenommen hat."
+        ]
+      },
+      "english": [
+        "Mr. Stone explains how the Exp. Share works."
+      ],
+      "words": {
+        "ru": [
+          [
+            "опыт",
+            "experience"
+          ]
+        ],
+        "de": [
+          [
+            "die Erfahrung",
+            "experience"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MrStoneTrends",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Я плохо знаю современные увлечения."
+        ],
+        "A2": [
+          "Я занят работой и не очень понимаю новые увлечения."
+        ],
+        "natural": [
+          "Работа президента отнимает всё время, поэтому я почти не знаком с нынешними модными увлечениями."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich kenne moderne Trends kaum."
+        ],
+        "A2": [
+          "Ich bin mit der Arbeit beschäftigt und kenne neue Trends kaum."
+        ],
+        "natural": [
+          "Die Arbeit als Präsident beansprucht meine ganze Zeit, deshalb kenne ich mich mit aktuellen Trends kaum aus."
+        ]
+      },
+      "english": [
+        "Mr. Stone admits he does not follow trends."
+      ],
+      "words": {
+        "ru": [
+          [
+            "увлечение",
+            "trend"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonVisitShipyard",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Отнеси товары капитану ШТЕРНУ на верфь."
+        ],
+        "A2": [
+          "Капитан ШТЕРН работает на верфи в СЛЕЙТПОРТЕ. Отнеси ему товары."
+        ],
+        "natural": [
+          "Пожалуйста, доставь ТОВАРЫ ДЕВОН капитану ШТЕРНУ. Скорее всего, он находится на верфи в СЛЕЙТПОРТЕ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bring die Waren zu KAPITÄN BRIGGS in die Werft."
+        ],
+        "A2": [
+          "KAPITÄN BRIGGS arbeitet in der Werft von GRAPHITPORT. Bring ihm die Waren."
+        ],
+        "natural": [
+          "Bitte bring die DEVON-WAREN zu KAPITÄN BRIGGS. Vermutlich ist er in der Werft von GRAPHITPORT."
+        ]
+      },
+      "english": [
+        "The employee directs the player to Captain Stern's shipyard."
+      ],
+      "words": {
+        "ru": [
+          [
+            "верфь",
+            "shipyard"
+          ]
+        ],
+        "de": [
+          [
+            "die Werft",
+            "shipyard"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonBallsPopular",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "ПОВТОРНЫЙ и ТАЙМЕРНЫЙ МЯЧИ очень популярны!"
+        ],
+        "A2": [
+          "Наши ПОВТОРНЫЕ и ТАЙМЕРНЫЕ МЯЧИ стали очень популярными."
+        ],
+        "natural": [
+          "Разработанные нами ПОВТОРНЫЕ и ТАЙМЕРНЫЕ МЯЧИ пользуются огромной популярностью у тренеров!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "WIEDERBALL und TIMERBALL sind sehr beliebt!"
+        ],
+        "A2": [
+          "Unsere WIEDERBÄLLE und TIMERBÄLLE sind sehr beliebt geworden."
+        ],
+        "natural": [
+          "Die von uns entwickelten WIEDERBÄLLE und TIMERBÄLLE erfreuen sich bei Trainern riesiger Beliebtheit!"
+        ]
+      },
+      "english": [
+        "The employee celebrates the new Balls' popularity."
+      ],
+      "words": {
+        "ru": [
+          [
+            "популярный",
+            "popular"
+          ]
+        ],
+        "de": [
+          [
+            "beliebt",
+            "popular"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DevonRareRocks",
+      "base_symbol": "RustboroCity_DevonCorp_3F_Text_RareRocksDisplay",
+      "source_path": "data/maps/RustboroCity_DevonCorp_3F/text.inc",
+      "ru": {
+        "A1": [
+          "Коллекция редких камней президента."
+        ],
+        "A2": [
+          "Здесь выставлена коллекция редких камней президента ДЕВОН."
+        ],
+        "natural": [
+          "В витрине представлена тщательно собранная президентом ДЕВОН коллекция редких камней."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sammlung seltener Steine des Präsidenten."
+        ],
+        "A2": [
+          "Hier ist die Sammlung seltener Steine des DEVON-Präsidenten ausgestellt."
+        ],
+        "natural": [
+          "In der Vitrine ist die sorgfältig zusammengestellte Sammlung seltener Steine des DEVON-Präsidenten ausgestellt."
+        ]
+      },
+      "english": [
+        "A display contains the president's rare stone collection."
+      ],
+      "words": {
+        "ru": [
+          [
+            "витрина",
+            "display case"
+          ]
+        ],
+        "de": [
+          [
+            "die Vitrine",
+            "display case"
+          ]
+        ]
+      }
     }
   ]
 }

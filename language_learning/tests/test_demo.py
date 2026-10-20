@@ -589,6 +589,7 @@ class LessonTests(unittest.TestCase):
                   'data/maps/RustboroCity_PokemonSchool/scripts.inc',
                   'data/maps/RustboroCity_CuttersHouse/scripts.inc',
                   'data/maps/RustboroCity_DevonCorp_1F/scripts.inc',
+                  'data/maps/RustboroCity_DevonCorp_2F/scripts.inc',
                   'data/maps/RustboroCity_DevonCorp_3F/scripts.inc',
                   'data/maps/RustboroCity_Gym/scripts.inc',
                   'data/maps/RustboroCity_House1/scripts.inc',

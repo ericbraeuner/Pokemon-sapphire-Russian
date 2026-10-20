@@ -49,7 +49,7 @@ help rate can conservatively select A2 after ten exposures. The saved difficulty
 remains the ceiling and is never changed by this adjustment. Every selection
 records both difficulty values and its reason so a wrapper can explain the choice.
 
-The adaptive packs now cover 376 authored early-game scenes: arriving
+The adaptive packs now cover 401 authored early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -122,6 +122,9 @@ Briney's full thanks, and Hiker Mike's complete encounter are adaptive as well.
 Mr. Briney's cottage, every early boat destination and cancellation path,
 Dewford's outdoor NPC and signs, and the complete Old Rod lesson now preserve
 their choices and rewards while adapting to the learner's selected level.
+Dewford's two homes, ordinary Pokémon Center visitors, every Gym trainer,
+Brawly's challenge and rewards, and the Gym's post-battle guidance now join the
+same adaptive sequence without changing battles, badges, TMs, or item gifts.
 Trainer introductions and defeat lines can now opt into the same generated
 variant table. The battle setup records the introduction context before the
 encounter and switches to the defeat context when combat begins, leaving the
@@ -150,14 +153,14 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` connects all 376 authored lessons to their
+`integration/dialogue_catalog.json` connects all 401 authored lessons to their
 real script hooks and original text symbols, including the shared moving-in
 scripts and Route 101 sign. Validation checks both ends of every connection.
 The normal game dialogue follows the extra lesson; important story instructions
 are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
-`opening.json` currently holds 376 source-symbol mappings,
+`opening.json` currently holds 401 source-symbol mappings,
 translations in three text bands, English help, and dictionary entries. This
 prototype bundle is validated during generation and tests; it is separate from
 the original language-pack/profile schema and does not update external profiles.

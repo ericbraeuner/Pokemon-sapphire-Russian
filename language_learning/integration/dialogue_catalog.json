@@ -7566,6 +7566,506 @@
         "dewford",
         "story"
       ]
+    },
+    {
+      "id": "dewford.home.islandharmony.376",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House1/scripts.inc",
+        "symbol": "DewfordTown_House1_EventScript_Man",
+        "base_text_path": "data/maps/DewfordTown_House1/text.inc",
+        "base_text_symbol": "DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordIslandHarmony"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 376
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.home.slowlife.377",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House1/scripts.inc",
+        "symbol": "DewfordTown_House1_EventScript_Woman",
+        "base_text_path": "data/maps/DewfordTown_House1/text.inc",
+        "base_text_symbol": "DewfordTown_House1_Text_LifeGoesSlowlyOnIsland",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordSlowLife"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 377
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.home.zigzagoon.378",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House1/scripts.inc",
+        "symbol": "DewfordTown_House1_EventScript_Zigzagoon",
+        "base_text_path": "data/maps/DewfordTown_House1/text.inc",
+        "base_text_symbol": "DewfordTown_House1_Text_Zigzagoon",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordZigzagoon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 378
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.home.silkscarfgift.379",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House2/scripts.inc",
+        "symbol": "DewfordTown_House2_EventScript_Man",
+        "base_text_path": "data/maps/DewfordTown_House2/text.inc",
+        "base_text_symbol": "DewfordTown_House2_Text_WantYouToHaveSilkScarf",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordSilkScarfGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 379
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.home.scarfbafull.380",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House2/scripts.inc",
+        "symbol": "DewfordTown_House2_EventScript_NoRoomForScarf",
+        "base_text_path": "data/maps/DewfordTown_House2/text.inc",
+        "base_text_symbol": "DewfordTown_House2_Text_NoRoom",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordScarfBagFull"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 380
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.home.scarfinfo.381",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House2/scripts.inc",
+        "symbol": "DewfordTown_House2_EventScript_ExplainSilkScarf",
+        "base_text_path": "data/maps/DewfordTown_House2/text.inc",
+        "base_text_symbol": "DewfordTown_House2_Text_ExplainSilkScarf",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordScarfInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 381
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.home.brawlyfan.382",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_House2/scripts.inc",
+        "symbol": "DewfordTown_House2_EventScript_Boy",
+        "base_text_path": "data/maps/DewfordTown_House2/text.inc",
+        "base_text_symbol": "DewfordTown_House2_Text_BrawlySoCool",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordBrawlyFan"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 382
+      },
+      "tags": [
+        "dewford",
+        "home"
+      ]
+    },
+    {
+      "id": "dewford.center.granitecavetip.383",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "DewfordTown_PokemonCenter_1F_EventScript_PokefanF",
+        "base_text_path": "data/maps/DewfordTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "DewfordTown_PokemonCenter_1F_Text_StoneCavern",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordGraniteCaveTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 383
+      },
+      "tags": [
+        "dewford",
+        "center"
+      ]
+    },
+    {
+      "id": "dewford.center.faintedhmtip.384",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "DewfordTown_PokemonCenter_1F_EventScript_Man",
+        "base_text_path": "data/maps/DewfordTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordFaintedHmTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 384
+      },
+      "tags": [
+        "dewford",
+        "center"
+      ]
+    },
+    {
+      "id": "dewford.gym.gymguidewin.385",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_GymGuidePostVictory",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_GymGuidePostVictory",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordGymGuideWin"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 385
+      },
+      "tags": [
+        "dewford",
+        "gym"
+      ]
+    },
+    {
+      "id": "dewford.trainer.hidekiintro.386",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Hideki",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_HidekiIntro",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordHidekiIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 386
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.hidekidefeat.387",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Hideki",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_HidekiDefeat",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordHidekiDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 387
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.hidekiafter.388",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Hideki",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_HidekiPostBattle",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordHidekiAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 388
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.tessaintro.389",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Tessa",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_TessaIntro",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordTessaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 389
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.tessadefeat.390",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Tessa",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_TessaDefeat",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordTessaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 390
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.tessaafter.391",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Tessa",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_TessaPostBattle",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordTessaAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 391
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.lauraintro.392",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Laura",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_LauraIntro",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordLauraIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 392
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.lauradefeat.393",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Laura",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_LauraDefeat",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordLauraDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 393
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.trainer.lauraafter.394",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Laura",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_LauraPostBattle",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordLauraAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 394
+      },
+      "tags": [
+        "dewford",
+        "trainer"
+      ]
+    },
+    {
+      "id": "dewford.leader.brawlyintro.395",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Brawly",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_BrawlyIntro",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordBrawlyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 395
+      },
+      "tags": [
+        "dewford",
+        "leader"
+      ]
+    },
+    {
+      "id": "dewford.leader.brawlydefeat.396",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Brawly",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_BrawlyDefeat",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordBrawlyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 396
+      },
+      "tags": [
+        "dewford",
+        "leader"
+      ]
+    },
+    {
+      "id": "dewford.leader.knuckleinfo.397",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_BrawlyDefeated",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordKnuckleInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 397
+      },
+      "tags": [
+        "dewford",
+        "leader"
+      ]
+    },
+    {
+      "id": "dewford.leader.bulkupinfo.398",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_GiveBulkUp",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_ExplainBulkUp",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordBulkUpInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 398
+      },
+      "tags": [
+        "dewford",
+        "leader"
+      ]
+    },
+    {
+      "id": "dewford.leader.brawlyafter.399",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_Brawly",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_BrawlyPostBattle",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordBrawlyAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 399
+      },
+      "tags": [
+        "dewford",
+        "leader"
+      ]
+    },
+    {
+      "id": "dewford.gym.gymstatue.400",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Gym/scripts.inc",
+        "symbol": "DewfordTown_Gym_EventScript_GymStatue",
+        "base_text_path": "data/maps/DewfordTown_Gym/text.inc",
+        "base_text_symbol": "DewfordTown_Gym_Text_GymStatue",
+        "note": "Adaptive translation bridge preserves the original event flow.",
+        "authored_id": "DewfordGymStatue"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 400
+      },
+      "tags": [
+        "dewford",
+        "gym"
+      ]
     }
   ]
 }

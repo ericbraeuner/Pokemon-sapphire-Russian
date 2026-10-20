@@ -16742,6 +16742,1131 @@
           ]
         ]
       }
+    },
+    {
+      "id": "DewfordIslandHarmony",
+      "base_symbol": "DewfordTown_House1_Text_LotToBeSaidForLivingOnIsland",
+      "source_path": "data/maps/DewfordTown_House1/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "На острове хорошо жить с семьёй и ПОКЕМОНАМИ."
+        ],
+        "A2": [
+          "На маленьком острове приятно жить в согласии с семьёй и ПОКЕМОНАМИ."
+        ],
+        "natural": [
+          "Есть много хорошего в жизни на таком маленьком острове, в гармонии с семьёй и ПОКЕМОНАМИ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf der Insel lebt man gut mit Familie und POKéMON."
+        ],
+        "A2": [
+          "Auf einer kleinen Insel lebt man schön in Harmonie mit Familie und POKéMON."
+        ],
+        "natural": [
+          "Das Leben auf einer kleinen Insel hat viel für sich, besonders in Harmonie mit Familie und POKéMON."
+        ]
+      },
+      "english": [
+        "A man praises island life in harmony with family and Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "согласие",
+            "harmony"
+          ]
+        ],
+        "de": [
+          [
+            "die Harmonie",
+            "harmony"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordSlowLife",
+      "base_symbol": "DewfordTown_House1_Text_LifeGoesSlowlyOnIsland",
+      "source_path": "data/maps/DewfordTown_House1/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "На острове жизнь медленная, а море прекрасное."
+        ],
+        "A2": [
+          "Я приехала из СЛЕЙТПОРТА. Здесь жизнь идёт медленно, но море дарит счастье."
+        ],
+        "natural": [
+          "Я приехала из большого порта СЛЕЙТПОРТ, когда вышла замуж. На острове жизнь течёт медленно, зато вокруг прекрасное море - и это тоже счастье."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf der Insel ist das Leben langsam und das Meer schön."
+        ],
+        "A2": [
+          "Ich kam aus GRAPHITPORT. Hier vergeht das Leben langsam, doch das Meer macht glücklich."
+        ],
+        "natural": [
+          "Ich kam aus dem großen Hafen GRAPHITPORT, als ich heiratete. Auf der Insel vergeht das Leben langsam, aber das schöne Meer ringsum bedeutet ebenfalls Glück."
+        ]
+      },
+      "english": [
+        "A woman from Slateport enjoys Dewford's slow life and beautiful sea."
+      ],
+      "words": {
+        "ru": [
+          [
+            "медленно",
+            "slowly"
+          ]
+        ],
+        "de": [
+          [
+            "langsam",
+            "slowly"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordZigzagoon",
+      "base_symbol": "DewfordTown_House1_Text_Zigzagoon",
+      "source_path": "data/maps/DewfordTown_House1/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ЗИГЗАГУН: Гу-гу!"
+        ],
+        "A2": [
+          "ЗИГЗАГУН радостно говорит: Гу-гу!"
+        ],
+        "natural": [
+          "Домашний ЗИГЗАГУН приветливо урчит: Гу-гу!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "ZIGZACHS: Guguuh!"
+        ],
+        "A2": [
+          "ZIGZACHS ruft fröhlich: Guguuh!"
+        ],
+        "natural": [
+          "Das ZIGZACHS im Haus brummt freundlich: Guguuh!"
+        ]
+      },
+      "english": [
+        "The household Zigzagoon makes a happy sound."
+      ],
+      "words": {
+        "ru": [
+          [
+            "урчать",
+            "to rumble"
+          ]
+        ],
+        "de": [
+          [
+            "brummen",
+            "to rumble"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordSilkScarfGift",
+      "base_symbol": "DewfordTown_House2_Text_WantYouToHaveSilkScarf",
+      "source_path": "data/maps/DewfordTown_House2/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Смотри! Это ШЁЛКОВЫЙ ШАРФ. Бери!"
+        ],
+        "A2": [
+          "Этот ШЁЛКОВЫЙ ШАРФ очень модный. Тебе нравится мой стиль, поэтому я дарю его тебе!"
+        ],
+        "natural": [
+          "Полюбуйся! Этот ШЁЛКОВЫЙ ШАРФ на самом острие моды. Я вижу, ты ценишь мой ослепительный стиль, так что он твой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieh nur! Das ist ein SEIDENSCHAL. Nimm ihn!"
+        ],
+        "A2": [
+          "Dieser SEIDENSCHAL ist sehr modisch. Dir gefällt mein Stil, also schenke ich ihn dir!"
+        ],
+        "natural": [
+          "Sieh ihn dir an! Dieser SEIDENSCHAL ist der letzte Schrei. Du schätzt meinen glänzenden Stil, darum gehört er jetzt dir!"
+        ]
+      },
+      "english": [
+        "A fashionable man gives you a Silk Scarf."
+      ],
+      "words": {
+        "ru": [
+          [
+            "шарф",
+            "scarf"
+          ]
+        ],
+        "de": [
+          [
+            "der Schal",
+            "scarf"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordScarfBagFull",
+      "base_symbol": "DewfordTown_House2_Text_NoRoom",
+      "source_path": "data/maps/DewfordTown_House2/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В СУМКЕ нет места для ШАРФА."
+        ],
+        "A2": [
+          "Нет места? Но этот ШАРФ обязательно надо взять!"
+        ],
+        "natural": [
+          "Что, в СУМКЕ нет места? Послушай, этот ШАРФ просто необходим! Я бы продал все свои вещи ради него."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im BEUTEL ist kein Platz für den SCHAL."
+        ],
+        "A2": [
+          "Kein Platz? Aber diesen SCHAL musst du unbedingt haben!"
+        ],
+        "natural": [
+          "Was, kein Platz im BEUTEL? Hör zu, dieser SCHAL ist ein Muss! Dafür würde ich all meine Items verkaufen."
+        ]
+      },
+      "english": [
+        "Your Bag has no room for the Silk Scarf."
+      ],
+      "words": {
+        "ru": [
+          [
+            "необходимый",
+            "essential"
+          ]
+        ],
+        "de": [
+          [
+            "unbedingt nötig",
+            "essential"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordScarfInfo",
+      "base_symbol": "DewfordTown_House2_Text_ExplainSilkScarf",
+      "source_path": "data/maps/DewfordTown_House2/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ШЁЛКОВЫЙ ШАРФ усиливает ОБЫЧНЫЕ атаки."
+        ],
+        "A2": [
+          "ШЁЛКОВЫЙ ШАРФ повышает силу атак ОБЫЧНОГО типа и подходит почти всем ПОКЕМОНАМ."
+        ],
+        "natural": [
+          "ШЁЛКОВЫЙ ШАРФ усиливает приёмы ОБЫЧНОГО типа. Это великолепный аксессуар, который подходит почти любому ПОКЕМОНУ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der SEIDENSCHAL verstärkt NORMAL-Attacken."
+        ],
+        "A2": [
+          "Der SEIDENSCHAL erhöht die Kraft von NORMAL-Attacken und passt zu fast jedem POKéMON."
+        ],
+        "natural": [
+          "Der SEIDENSCHAL verstärkt Attacken vom Typ NORMAL. Dieses wunderbare Accessoire steht beinahe jedem POKéMON!"
+        ]
+      },
+      "english": [
+        "The man explains that Silk Scarf powers up Normal-type moves."
+      ],
+      "words": {
+        "ru": [
+          [
+            "усиливать",
+            "to strengthen"
+          ]
+        ],
+        "de": [
+          [
+            "verstärken",
+            "to strengthen"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordBrawlyFan",
+      "base_symbol": "DewfordTown_House2_Text_BrawlySoCool",
+      "source_path": "data/maps/DewfordTown_House2/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ты приплыл ради БРОУЛИ? Он очень крутой!"
+        ],
+        "A2": [
+          "Ты пересёк море, чтобы увидеть БРОУЛИ? Он такой крутой, все им восхищаются."
+        ],
+        "natural": [
+          "Ты правда пересёк море ради ДЬЮФОРДА? Может, ты услышал о БРОУЛИ? Он такой крутой, что здесь все им восхищаются."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bist du wegen KAMILLO gekommen? Er ist so cool!"
+        ],
+        "A2": [
+          "Bist du über das Meer gekommen, um KAMILLO zu sehen? Er ist cool und alle bewundern ihn."
+        ],
+        "natural": [
+          "Du hast wirklich das Meer bis FAUSTAUHAVEN überquert? Vielleicht wegen KAMILLO? Er ist so cool, dass ihn hier alle bewundern."
+        ]
+      },
+      "english": [
+        "A boy wonders whether you crossed the sea to meet the admired Brawly."
+      ],
+      "words": {
+        "ru": [
+          [
+            "восхищаться",
+            "to admire"
+          ]
+        ],
+        "de": [
+          [
+            "bewundern",
+            "to admire"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordGraniteCaveTip",
+      "base_symbol": "DewfordTown_PokemonCenter_1F_Text_StoneCavern",
+      "source_path": "data/maps/DewfordTown_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "У края города есть пещера с редкими камнями."
+        ],
+        "A2": [
+          "На краю города есть каменная пещера. Говорят, там находят редкие камни."
+        ],
+        "natural": [
+          "У самого края города находится каменная пещера. Я слышала, что внутри можно найти очень редкие камни."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Am Ortsrand liegt eine Höhle mit seltenen Steinen."
+        ],
+        "A2": [
+          "Am Rand des Ortes liegt eine Steinhöhle. Dort soll man seltene Steine finden."
+        ],
+        "natural": [
+          "Ganz am Ortsrand liegt eine steinerne Höhle. Ich habe gehört, dass man dort sehr seltene Steine entdecken kann."
+        ]
+      },
+      "english": [
+        "A visitor says rare stones can be found in the cave outside town."
+      ],
+      "words": {
+        "ru": [
+          [
+            "редкий",
+            "rare"
+          ]
+        ],
+        "de": [
+          [
+            "selten",
+            "rare"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordFaintedHmTip",
+      "base_symbol": "DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM",
+      "source_path": "data/maps/DewfordTown_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ослабевший ПОКЕМОН всё ещё может использовать HM."
+        ],
+        "A2": [
+          "Даже если ПОКЕМОН не может сражаться, он всё ещё может применять приём из HM."
+        ],
+        "natural": [
+          "Даже потеряв силы и способность сражаться, ПОКЕМОН по-прежнему может использовать вне боя приём, изученный с помощью Скрытой Машины."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein besiegtes POKéMON kann weiterhin eine VM einsetzen."
+        ],
+        "A2": [
+          "Auch wenn ein POKéMON nicht kämpfen kann, kann es weiterhin eine VM-Attacke benutzen."
+        ],
+        "natural": [
+          "Selbst wenn ein POKéMON kampfunfähig ist, kann es außerhalb des Kampfes weiterhin eine mit einer VM erlernte Attacke einsetzen."
+        ]
+      },
+      "english": [
+        "A fainted Pokémon can still use an HM move outside battle."
+      ],
+      "words": {
+        "ru": [
+          [
+            "ослабевший",
+            "fainted"
+          ]
+        ],
+        "de": [
+          [
+            "kampfunfähig",
+            "fainted"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordGymGuideWin",
+      "base_symbol": "DewfordTown_Gym_Text_GymGuidePostVictory",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Теперь здесь светло! И твоё будущее светлое!"
+        ],
+        "A2": [
+          "Ого, здесь стало очень светло! Твоё будущее тоже сияет."
+        ],
+        "natural": [
+          "Вот это да, теперь здесь даже слишком светло! Впрочем, твоё будущее сияет ничуть не меньше."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jetzt ist es hell! Deine Zukunft auch!"
+        ],
+        "A2": [
+          "Wow, hier ist es sehr hell geworden! Auch deine Zukunft strahlt."
+        ],
+        "natural": [
+          "Wow, jetzt ist es hier beinahe zu hell! Aber deine Zukunft strahlt mindestens genauso stark."
+        ]
+      },
+      "english": [
+        "The Gym guide celebrates your bright victory and future."
+      ],
+      "words": {
+        "ru": [
+          [
+            "будущее",
+            "future"
+          ]
+        ],
+        "de": [
+          [
+            "die Zukunft",
+            "future"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordHidekiIntro",
+      "base_symbol": "DewfordTown_Gym_Text_HidekiIntro",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Сила решает всё! Вперёд!"
+        ],
+        "A2": [
+          "Сильный всегда прав! Давай сразимся!"
+        ],
+        "natural": [
+          "Прав тот, у кого больше силы! Ну же, покажи, на что ты способен!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Stärke entscheidet! Los!"
+        ],
+        "A2": [
+          "Der Starke hat recht! Kämpfen wir!"
+        ],
+        "natural": [
+          "Recht hat, wer die größere Kraft besitzt! Los, zeig mir, was du kannst!"
+        ]
+      },
+      "english": [
+        "Hideki declares that strength is everything."
+      ],
+      "words": {
+        "ru": [
+          [
+            "мощь",
+            "might"
+          ]
+        ],
+        "de": [
+          [
+            "die Kraft",
+            "might"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordHidekiDefeat",
+      "base_symbol": "DewfordTown_Gym_Text_HidekiDefeat",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Не хватило силы..."
+        ],
+        "A2": [
+          "Мне не хватило силы, чтобы победить."
+        ],
+        "natural": [
+          "Моей силы попросту оказалось недостаточно..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nicht genug Kraft..."
+        ],
+        "A2": [
+          "Meine Kraft hat nicht zum Sieg gereicht."
+        ],
+        "natural": [
+          "Meine Kraft hat einfach nicht ausgereicht..."
+        ]
+      },
+      "english": [
+        "Hideki admits that he lacked power."
+      ],
+      "words": {
+        "ru": [
+          [
+            "не хватать",
+            "not enough"
+          ]
+        ],
+        "de": [
+          [
+            "nicht ausreichen",
+            "not enough"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordHidekiAfter",
+      "base_symbol": "DewfordTown_Gym_Text_HidekiPostBattle",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Твоё умение победило мою силу!"
+        ],
+        "A2": [
+          "Твоё мастерство оказалось сильнее моей мощи. Отличная техника!"
+        ],
+        "natural": [
+          "Твоё мастерство одолело мою грубую силу! Такая техника действительно заслуживает похвалы."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Können besiegte meine Kraft!"
+        ],
+        "A2": [
+          "Dein Geschick war stärker als meine Kraft. Gute Technik!"
+        ],
+        "natural": [
+          "Dein Können hat meine rohe Kraft überwunden! Diese Technik verdient wirklich Anerkennung."
+        ]
+      },
+      "english": [
+        "Hideki praises your skill and technique over his strength."
+      ],
+      "words": {
+        "ru": [
+          [
+            "мастерство",
+            "skill"
+          ]
+        ],
+        "de": [
+          [
+            "das Können",
+            "skill"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordTessaIntro",
+      "base_symbol": "DewfordTown_Gym_Text_TessaIntro",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "БРОУЛИ не нужен. Я тебя сокрушу!"
+        ],
+        "A2": [
+          "БРОУЛИ не придётся вмешиваться. Я сама тебя сокрушу!"
+        ],
+        "natural": [
+          "БРОУЛИ даже не понадобится участвовать: я сама раздавлю твою команду!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAMILLO muss nicht kämpfen. Ich besiege dich!"
+        ],
+        "A2": [
+          "KAMILLO braucht sich nicht einzumischen. Ich besiege dich selbst!"
+        ],
+        "natural": [
+          "KAMILLO muss gar nicht erst eingreifen: Ich werde dein Team eigenhändig zerschmettern!"
+        ]
+      },
+      "english": [
+        "Tessa says Brawly need not fight because she will crush you."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сокрушить",
+            "to crush"
+          ]
+        ],
+        "de": [
+          [
+            "zerschmettern",
+            "to crush"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordTessaDefeat",
+      "base_symbol": "DewfordTown_Gym_Text_TessaDefeat",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Но как? Почему я проиграла?"
+        ],
+        "A2": [
+          "Но как это возможно? Почему я так легко проиграла?"
+        ],
+        "natural": [
+          "Но... как? Как я могла потерпеть поражение настолько легко?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Aber wie? Warum habe ich verloren?"
+        ],
+        "A2": [
+          "Aber wie ist das möglich? Warum habe ich so leicht verloren?"
+        ],
+        "natural": [
+          "Aber... wie? Wie konnte ich nur so mühelos besiegt werden?"
+        ]
+      },
+      "english": [
+        "Tessa cannot understand how she lost so easily."
+      ],
+      "words": {
+        "ru": [
+          [
+            "легко",
+            "easily"
+          ]
+        ],
+        "de": [
+          [
+            "mühelos",
+            "easily"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordTessaAfter",
+      "base_symbol": "DewfordTown_Gym_Text_TessaPostBattle",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Это поражение заставит меня тренироваться!"
+        ],
+        "A2": [
+          "Я не потрачу поражение зря. Оно поможет мне тренироваться и стать ЛИДЕРОМ ЗАЛА!"
+        ],
+        "natural": [
+          "Я превращу это поражение в мотивацию для тренировок. Однажды я стану не просто ЛИДЕРОМ ЗАЛА, а ЧЕМПИОНОМ ЛИГИ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diese Niederlage motiviert mich zum Training!"
+        ],
+        "A2": [
+          "Ich verschwende diese Niederlage nicht. Sie treibt mich an, ARENALEITERIN zu werden!"
+        ],
+        "natural": [
+          "Ich nutze diese Niederlage als Motivation fürs Training. Eines Tages werde ich nicht nur ARENALEITERIN, sondern CHAMPION der LIGA!"
+        ]
+      },
+      "english": [
+        "Tessa turns her loss into motivation to become Champion."
+      ],
+      "words": {
+        "ru": [
+          [
+            "мотивация",
+            "motivation"
+          ]
+        ],
+        "de": [
+          [
+            "die Motivation",
+            "motivation"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordLauraIntro",
+      "base_symbol": "DewfordTown_Gym_Text_LauraIntro",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Не смей меня недооценивать!"
+        ],
+        "A2": [
+          "Не вздумай отмахиваться от меня! Если заплачешь, это не моя вина."
+        ],
+        "natural": [
+          "Только не смей меня недооценивать! А если после боя расплачешься, сам будешь виноват!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unterschätze mich nicht!"
+        ],
+        "A2": [
+          "Wage es nicht, mich abzutun! Wenn du weinst, bin ich nicht schuld."
+        ],
+        "natural": [
+          "Wage es ja nicht, mich zu unterschätzen! Und wenn du nach dem Kampf weinst, bist du selbst schuld!"
+        ]
+      },
+      "english": [
+        "Laura warns you not to underestimate her."
+      ],
+      "words": {
+        "ru": [
+          [
+            "недооценивать",
+            "to underestimate"
+          ]
+        ],
+        "de": [
+          [
+            "unterschätzen",
+            "to underestimate"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordLauraDefeat",
+      "base_symbol": "DewfordTown_Gym_Text_LauraDefeat",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "А-а-а! Я проиграла!"
+        ],
+        "A2": [
+          "Нет! Я всё-таки проиграла!"
+        ],
+        "natural": [
+          "Уа-а-а! Не могу поверить, что я проиграла!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wäääh! Ich habe verloren!"
+        ],
+        "A2": [
+          "Nein! Ich habe tatsächlich verloren!"
+        ],
+        "natural": [
+          "Wäääh! Ich kann nicht glauben, dass ich verloren habe!"
+        ]
+      },
+      "english": [
+        "Laura cries after losing."
+      ],
+      "words": {
+        "ru": [
+          [
+            "плакать",
+            "to cry"
+          ]
+        ],
+        "de": [
+          [
+            "weinen",
+            "to cry"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordLauraAfter",
+      "base_symbol": "DewfordTown_Gym_Text_LauraPostBattle",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я сражаюсь в темноте, чтобы стать смелее."
+        ],
+        "A2": [
+          "Я сражаюсь в темноте, чтобы укрепить сердце. Но из-за неё я не вижу БРОУЛИ."
+        ],
+        "natural": [
+          "Бои во тьме должны укреплять моё сердце. Только здесь настолько темно, что я никогда не вижу лица БРОУЛИ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich kämpfe im Dunkeln, um mutiger zu werden."
+        ],
+        "A2": [
+          "Ich kämpfe im Dunkeln, um mein Herz zu stärken. Aber so sehe ich KAMILLO nicht."
+        ],
+        "natural": [
+          "Kämpfe in der Dunkelheit sollen mein Herz stärken. Doch hier ist es so dunkel, dass ich KAMILLOS Gesicht nie sehen kann."
+        ]
+      },
+      "english": [
+        "Laura trains in darkness to strengthen her heart but cannot see Brawly."
+      ],
+      "words": {
+        "ru": [
+          [
+            "темнота",
+            "darkness"
+          ]
+        ],
+        "de": [
+          [
+            "die Dunkelheit",
+            "darkness"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordBrawlyIntro",
+      "base_symbol": "DewfordTown_Gym_Text_BrawlyIntro",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я БРОУЛИ, ЛИДЕР ЗАЛА! Покажи свою силу!"
+        ],
+        "A2": [
+          "Я БРОУЛИ, ЛИДЕР ЗАЛА ДЬЮФОРДА. Волны и тёмная пещера сделали меня сильным. Начнём бой!"
+        ],
+        "natural": [
+          "Я БРОУЛИ, ЛИДЕР ЗАЛА ДЬЮФОРДА! Бурные волны и кромешная тьма пещеры закалили меня. Ты бросаешь мне вызов? Покажи, чего стоишь!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin KAMILLO, der ARENALEITER! Zeig deine Kraft!"
+        ],
+        "A2": [
+          "Ich bin KAMILLO, LEITER von FAUSTAUHAVEN. Wellen und dunkle Höhlen machten mich stark. Kämpfen wir!"
+        ],
+        "natural": [
+          "Ich bin KAMILLO, LEITER der ARENA von FAUSTAUHAVEN! Raue Wellen und die finstere Höhle haben mich abgehärtet. Du forderst mich heraus? Zeig, was du kannst!"
+        ]
+      },
+      "english": [
+        "Brawly introduces himself and accepts your Gym challenge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "закалить",
+            "to toughen"
+          ]
+        ],
+        "de": [
+          [
+            "abhärten",
+            "to toughen"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordBrawlyDefeat",
+      "base_symbol": "DewfordTown_Gym_Text_BrawlyDefeat",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Вот это волна! Ты победил. Получай ЗНАЧОК!"
+        ],
+        "A2": [
+          "Ты оказался гораздо сильнее, чем я ожидал, и полностью меня победил. Этот ЗНАЧОК твой!"
+        ],
+        "natural": [
+          "Ого, ты поднял волну куда больше, чем я ожидал, и просто смыл мою защиту! Признаю поражение. Возьми этот ЗНАЧОК ЗАЛА!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was für eine Welle! Du hast gewonnen. Nimm den ORDEN!"
+        ],
+        "A2": [
+          "Du warst viel stärker als erwartet und hast mich klar besiegt. Dieser ORDEN gehört dir!"
+        ],
+        "natural": [
+          "Wow, du hast viel größere Wellen geschlagen als erwartet und mich völlig überspült! Ich gebe mich geschlagen. Nimm diesen ARENAORDEN!"
+        ]
+      },
+      "english": [
+        "Brawly accepts defeat and awards the Knuckle Badge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "поражение",
+            "defeat"
+          ]
+        ],
+        "de": [
+          [
+            "die Niederlage",
+            "defeat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordKnuckleInfo",
+      "base_symbol": "DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ЗНАЧОК подчиняет ПОКЕМОНОВ до уровня 30 и разрешает ВСПЫШКУ. Возьми TM."
+        ],
+        "A2": [
+          "С КУЛАЧНЫМ ЗНАЧКОМ ПОКЕМОНЫ до уровня 30 слушаются тебя, а ВСПЫШКУ можно применять вне боя. Возьми ещё эту TM."
+        ],
+        "natural": [
+          "КУЛАЧНЫЙ ЗНАЧОК заставляет всех ПОКЕМОНОВ до уровня 30 беспрекословно слушаться тебя, даже обменянных. Теперь ВСПЫШКУ можно применять вне боя. И возьми эту TM!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der ORDEN lässt POKéMON bis Level 30 gehorchen und erlaubt BLITZ. Nimm die TM."
+        ],
+        "A2": [
+          "Mit dem FAUSTORDEN gehorchen POKéMON bis Level 30 und BLITZ ist außerhalb des Kampfes nutzbar. Nimm auch diese TM."
+        ],
+        "natural": [
+          "Der FAUSTORDEN lässt alle POKéMON bis Level 30 gehorchen, auch getauschte. Außerdem kannst du BLITZ außerhalb des Kampfes einsetzen. Nimm auch diese TM!"
+        ]
+      },
+      "english": [
+        "Brawly explains the Knuckle Badge and offers a TM."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подчиняться",
+            "to obey"
+          ]
+        ],
+        "de": [
+          [
+            "gehorchen",
+            "to obey"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordBulkUpInfo",
+      "base_symbol": "DewfordTown_Gym_Text_ExplainBulkUp",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "TM08 содержит НАКАЧКУ. Она повышает АТАКУ и ЗАЩИТУ."
+        ],
+        "A2": [
+          "В TM08 находится НАКАЧКА. Этот приём повышает и АТАКУ, и ЗАЩИТУ."
+        ],
+        "natural": [
+          "TM08 содержит приём НАКАЧКА, который одновременно повышает показатели АТАКИ и ЗАЩИТЫ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "TM08 enthält PROTZER. Die Attacke erhöht ANGRIFF und VERTEIDIGUNG."
+        ],
+        "A2": [
+          "TM08 enthält PROTZER. Diese Attacke erhöht sowohl ANGRIFF als auch VERTEIDIGUNG."
+        ],
+        "natural": [
+          "TM08 enthält die Attacke PROTZER, die gleichzeitig den ANGRIFFS- und VERTEIDIGUNGS-Wert steigert."
+        ]
+      },
+      "english": [
+        "Brawly explains that TM08 Bulk Up raises Attack and Defense."
+      ],
+      "words": {
+        "ru": [
+          [
+            "повышать",
+            "to raise"
+          ]
+        ],
+        "de": [
+          [
+            "steigern",
+            "to raise"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordBrawlyAfter",
+      "base_symbol": "DewfordTown_Gym_Text_BrawlyPostBattle",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Твой талант однажды удивит всех ТРЕНЕРОВ!"
+        ],
+        "A2": [
+          "Я вижу, как твой талант растёт. Однажды он удивит всех ТРЕНЕРОВ!"
+        ],
+        "natural": [
+          "Я вижу, как твой талант превращается в огромную волну. Однажды она вызовет бурю изумления среди всех ТРЕНЕРОВ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Talent wird eines Tages alle TRAINER erstaunen!"
+        ],
+        "A2": [
+          "Ich sehe, wie dein Talent wächst. Eines Tages wird es alle TRAINER überraschen!"
+        ],
+        "natural": [
+          "Ich sehe, wie dein Talent zu einer riesigen Welle wird. Eines Tages wird sie unter allen TRAINERN einen Sturm des Staunens auslösen!"
+        ]
+      },
+      "english": [
+        "Brawly predicts your talent will astonish trainers someday."
+      ],
+      "words": {
+        "ru": [
+          [
+            "талант",
+            "talent"
+          ]
+        ],
+        "de": [
+          [
+            "das Talent",
+            "talent"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordGymStatue",
+      "base_symbol": "DewfordTown_Gym_Text_GymStatue",
+      "source_path": "data/maps/DewfordTown_Gym/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ЗАЛ ПОКЕМОНОВ ДЬЮФОРДА."
+        ],
+        "A2": [
+          "Это ЗАЛ ПОКЕМОНОВ города ДЬЮФОРД."
+        ],
+        "natural": [
+          "Каменная надпись: ЗАЛ ПОКЕМОНОВ ДЬЮФОРДА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéMON-ARENA VON FAUSTAUHAVEN."
+        ],
+        "A2": [
+          "Dies ist die POKéMON-ARENA von FAUSTAUHAVEN."
+        ],
+        "natural": [
+          "Die steinerne Inschrift lautet: POKéMON-ARENA VON FAUSTAUHAVEN."
+        ]
+      },
+      "english": [
+        "The statue identifies the Dewford Pokémon Gym."
+      ],
+      "words": {
+        "ru": [
+          [
+            "надпись",
+            "inscription"
+          ]
+        ],
+        "de": [
+          [
+            "die Inschrift",
+            "inscription"
+          ]
+        ]
+      }
     }
   ]
 }

@@ -14177,6 +14177,1266 @@
           ]
         ]
       }
+    },
+    {
+      "id": "ClarkIntro",
+      "base_symbol": "Route116_Text_1BCF79",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Туннель закрыт. Я пойду через гору!"
+        ],
+        "A2": [
+          "Если туннель не проходит насквозь, я просто перелезу через гору!"
+        ],
+        "natural": [
+          "Раз туннель не достроен, ничего страшного: я просто перевалю через вершину!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Tunnel ist zu. Ich gehe über den Berg!"
+        ],
+        "A2": [
+          "Wenn der Tunnel nicht durchgeht, steige ich einfach über den Berg!"
+        ],
+        "natural": [
+          "Wenn der Tunnel nicht fertig wird, macht das nichts: Ich überquere einfach den Gipfel!"
+        ]
+      },
+      "english": [
+        "A hiker decides to cross over the mountain because the tunnel is closed."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вершина",
+            "summit"
+          ]
+        ],
+        "de": [
+          [
+            "der Gipfel",
+            "summit"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ClarkDefeat",
+      "base_symbol": "Route116_Text_1BCFBB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Уф... Я проиграл и устал."
+        ],
+        "A2": [
+          "Уф... Поражение совсем меня утомило."
+        ],
+        "natural": [
+          "Фух... фух... После такого поражения у меня совсем не осталось сил."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puh... Ich habe verloren und bin müde."
+        ],
+        "A2": [
+          "Puh... Die Niederlage hat mich völlig erschöpft."
+        ],
+        "natural": [
+          "Keuch... keuch... Diese Niederlage hat mir wirklich die letzte Kraft geraubt."
+        ]
+      },
+      "english": [
+        "The defeated hiker is exhausted."
+      ],
+      "words": {
+        "ru": [
+          [
+            "утомиться",
+            "exhausted"
+          ]
+        ],
+        "de": [
+          [
+            "erschöpft",
+            "exhausted"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ClarkAfter",
+      "base_symbol": "Route116_Text_1BCFE3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Для ТУРИСТА гора - это дорога!"
+        ],
+        "A2": [
+          "Без туннеля можно обойтись. Для ТУРИСТА горы - это дороги!"
+        ],
+        "natural": [
+          "Не беда, если туннеля нет. Для настоящего ТУРИСТА сами горы служат дорогами!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Für einen WANDERER ist der Berg eine Straße!"
+        ],
+        "A2": [
+          "Ein Tunnel ist nicht nötig. Für WANDERER sind Berge Straßen!"
+        ],
+        "natural": [
+          "Es ist nicht schlimm, wenn es keinen Tunnel gibt. Für einen echten WANDERER sind die Berge selbst die Straßen!"
+        ]
+      },
+      "english": [
+        "The hiker says mountains serve as roads for hikers."
+      ],
+      "words": {
+        "ru": [
+          [
+            "турист",
+            "hiker"
+          ]
+        ],
+        "de": [
+          [
+            "der Wanderer",
+            "hiker"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoeyIntro",
+      "base_symbol": "Route116_Text_1BD02B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мои ПОКЕМОНЫ лучшие! Смотри!"
+        ],
+        "A2": [
+          "Мои ПОКЕМОНЫ отлично сражаются! Сейчас увидишь!"
+        ],
+        "natural": [
+          "Мои ПОКЕМОНЫ всех сильнее! Смотри внимательно, сейчас я это докажу!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine POKéMON sind die Besten! Schau!"
+        ],
+        "A2": [
+          "Meine POKéMON kämpfen großartig! Sieh sie dir an!"
+        ],
+        "natural": [
+          "Meine POKéMON sind unschlagbar! Pass gut auf, ich werde es dir beweisen!"
+        ]
+      },
+      "english": [
+        "Joey boasts about his Pokémon and starts a battle."
+      ],
+      "words": {
+        "ru": [
+          [
+            "хвастаться",
+            "to boast"
+          ]
+        ],
+        "de": [
+          [
+            "angeben",
+            "to boast"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoeyDefeat",
+      "base_symbol": "Route116_Text_1BD04C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ай! Царапина! Нужен пластырь."
+        ],
+        "A2": [
+          "Ой, я поцарапался! Надо заклеить царапину пластырем."
+        ],
+        "natural": [
+          "Ай! Какая царапина! Придётся немедленно наложить пластырь."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Au! Ein Kratzer! Ich brauche ein Pflaster."
+        ],
+        "A2": [
+          "Au, ich habe einen Kratzer! Ich muss ein Pflaster daraufkleben."
+        ],
+        "natural": [
+          "Autsch! Was für ein Kratzer! Da muss ich sofort ein Pflaster draufmachen."
+        ]
+      },
+      "english": [
+        "Joey treats his scrape after losing."
+      ],
+      "words": {
+        "ru": [
+          [
+            "пластырь",
+            "bandage"
+          ]
+        ],
+        "de": [
+          [
+            "das Pflaster",
+            "bandage"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoeyAfter",
+      "base_symbol": "Route116_Text_1BD078",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Пластыри - знак силы! У меня новый!"
+        ],
+        "A2": [
+          "Пластырь показывает, какой я крепкий! Теперь у меня ещё один."
+        ],
+        "natural": [
+          "Пластыри - настоящие знаки стойкости! И вот моя коллекция стала ещё больше."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pflaster zeigen Stärke! Jetzt habe ich noch eins!"
+        ],
+        "A2": [
+          "Pflaster zeigen, wie hart man ist! Jetzt habe ich noch eins."
+        ],
+        "natural": [
+          "Pflaster sind echte Zeichen der Zähigkeit! Und schon ist meine Sammlung wieder größer."
+        ]
+      },
+      "english": [
+        "Joey proudly calls bandages signs of toughness."
+      ],
+      "words": {
+        "ru": [
+          [
+            "стойкость",
+            "toughness"
+          ]
+        ],
+        "de": [
+          [
+            "die Zähigkeit",
+            "toughness"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoseIntro",
+      "base_symbol": "Route116_Text_1BD0AF",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мои ПОКЕМОНЫ-ЖУКИ сильные! Бой!"
+        ],
+        "A2": [
+          "Мои ПОКЕМОНЫ-ЖУКИ очень крепкие. Давай сразимся!"
+        ],
+        "natural": [
+          "Мои ПОКЕМОНЫ-ЖУКИ куда сильнее, чем кажутся! Вызываю тебя на бой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine KÄFER-POKéMON sind stark! Kämpfen wir!"
+        ],
+        "A2": [
+          "Meine KÄFER-POKéMON sind sehr zäh. Lass uns kämpfen!"
+        ],
+        "natural": [
+          "Meine KÄFER-POKéMON sind viel stärker, als sie aussehen! Ich fordere dich heraus!"
+        ]
+      },
+      "english": [
+        "José challenges you with his tough Bug Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "жук",
+            "bug"
+          ]
+        ],
+        "de": [
+          [
+            "der Käfer",
+            "bug"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoseDefeat",
+      "base_symbol": "Route116_Text_1BD0D7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я проиграл! Я думал, что победил."
+        ],
+        "A2": [
+          "Я проиграл! А мне казалось, что победа уже моя."
+        ],
+        "natural": [
+          "Неужели я проиграл? Я был уверен, что почти одолел тебя!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren! Ich dachte, ich gewinne."
+        ],
+        "A2": [
+          "Ich habe verloren! Dabei dachte ich, der Sieg wäre schon meiner."
+        ],
+        "natural": [
+          "Ich habe wirklich verloren? Ich war sicher, dass ich dich beinahe besiegt hätte!"
+        ]
+      },
+      "english": [
+        "José is surprised that he lost."
+      ],
+      "words": {
+        "ru": [
+          [
+            "победа",
+            "victory"
+          ]
+        ],
+        "de": [
+          [
+            "der Sieg",
+            "victory"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JoseAfter",
+      "base_symbol": "Route116_Text_1BD0F4",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ПОКЕМОНЫ-ЖУКИ быстро развиваются."
+        ],
+        "A2": [
+          "ПОКЕМОНЫ-ЖУКИ быстро эволюционируют и поэтому быстро становятся сильнее."
+        ],
+        "natural": [
+          "ПОКЕМОНЫ-ЖУКИ эволюционируют очень рано, поэтому и силу набирают быстрее других."
+        ]
+      },
+      "de": {
+        "A1": [
+          "KÄFER-POKéMON entwickeln sich schnell."
+        ],
+        "A2": [
+          "KÄFER-POKéMON entwickeln sich schnell und werden deshalb rasch stärker."
+        ],
+        "natural": [
+          "KÄFER-POKéMON entwickeln sich sehr früh und gewinnen deshalb schneller an Stärke als andere."
+        ]
+      },
+      "english": [
+        "José explains that Bug Pokémon evolve and grow strong quickly."
+      ],
+      "words": {
+        "ru": [
+          [
+            "быстро",
+            "quickly"
+          ]
+        ],
+        "de": [
+          [
+            "schnell",
+            "quickly"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JaniceIntro",
+      "base_symbol": "Route116_Text_1BD131",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Смотри, какие сильные мои милые ПОКЕМОНЫ!"
+        ],
+        "A2": [
+          "Я покажу тебе, насколько сильны мои милые ПОКЕМОНЫ!"
+        ],
+        "natural": [
+          "Позволь мне продемонстрировать, сколько силы скрывается в моих очаровательных ПОКЕМОНАХ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieh, wie stark meine süßen POKéMON sind!"
+        ],
+        "A2": [
+          "Ich zeige dir, wie stark meine niedlichen POKéMON sind!"
+        ],
+        "natural": [
+          "Lass mich dir zeigen, wie viel Kraft in meinen bezaubernden POKéMON steckt!"
+        ]
+      },
+      "english": [
+        "Janice wants to demonstrate her adorable Pokémon's strength."
+      ],
+      "words": {
+        "ru": [
+          [
+            "милый",
+            "adorable"
+          ]
+        ],
+        "de": [
+          [
+            "niedlich",
+            "adorable"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JaniceDefeat",
+      "base_symbol": "Route116_Text_1BD165",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ты на шаг впереди меня."
+        ],
+        "A2": [
+          "Похоже, ты всё-таки немного сильнее меня."
+        ],
+        "natural": [
+          "Должна признать: ты оказался на целую ступень выше меня."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist mir einen Schritt voraus."
+        ],
+        "A2": [
+          "Offenbar bist du doch etwas stärker als ich."
+        ],
+        "natural": [
+          "Ich muss zugeben: Du stehst tatsächlich eine ganze Stufe über mir."
+        ]
+      },
+      "english": [
+        "Janice admits that you are one step ahead."
+      ],
+      "words": {
+        "ru": [
+          [
+            "признать",
+            "to admit"
+          ]
+        ],
+        "de": [
+          [
+            "zugeben",
+            "to admit"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JaniceAfter",
+      "base_symbol": "Route116_Text_1BD180",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Милый и сильный ПОКЕМОН - идеал."
+        ],
+        "A2": [
+          "Для меня идеальный ПОКЕМОН должен быть милым и сильным."
+        ],
+        "natural": [
+          "По-моему, идеальный ПОКЕМОН должен сочетать в себе очарование и настоящую силу."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein süßes und starkes POKéMON ist ideal."
+        ],
+        "A2": [
+          "Für mich muss das ideale POKéMON niedlich und stark sein."
+        ],
+        "natural": [
+          "Meiner Meinung nach vereint das ideale POKéMON sowohl Niedlichkeit als auch echte Stärke."
+        ]
+      },
+      "english": [
+        "Janice says the ideal Pokémon combines cuteness and power."
+      ],
+      "words": {
+        "ru": [
+          [
+            "идеал",
+            "ideal"
+          ]
+        ],
+        "de": [
+          [
+            "das Ideal",
+            "ideal"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JerryIntro",
+      "base_symbol": "Route116_Text_1BD1C0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я учусь в ШКОЛЕ ТРЕНЕРОВ. Проверим знания!"
+        ],
+        "A2": [
+          "В ШКОЛЕ ТРЕНЕРОВ мы многому учимся. Я хочу проверить знания в бою!"
+        ],
+        "natural": [
+          "В ШКОЛЕ ТРЕНЕРОВ нам рассказывают о множестве вещей. Теперь я хочу испытать всё это в настоящем бою!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich lerne in der TRAINERSCHULE. Testen wir mein Wissen!"
+        ],
+        "A2": [
+          "In der TRAINERSCHULE lernen wir viel. Ich will mein Wissen im Kampf testen!"
+        ],
+        "natural": [
+          "In der TRAINERSCHULE lernen wir die verschiedensten Dinge. Jetzt möchte ich alles in einem echten Kampf ausprobieren!"
+        ]
+      },
+      "english": [
+        "Jerry wants to test what he learned at Trainer School."
+      ],
+      "words": {
+        "ru": [
+          [
+            "знание",
+            "knowledge"
+          ]
+        ],
+        "de": [
+          [
+            "das Wissen",
+            "knowledge"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JerryDefeat",
+      "base_symbol": "Route116_Text_1BD21A",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я плохо учился, поэтому проиграл."
+        ],
+        "A2": [
+          "Я ленился в школе. Наверное, поэтому и проиграл."
+        ],
+        "natural": [
+          "Я слишком часто отлынивал от занятий. Вот почему сегодняшний бой закончился поражением."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich war faul in der Schule, deshalb verlor ich."
+        ],
+        "A2": [
+          "Ich habe in der Schule nicht aufgepasst. Deshalb habe ich wohl verloren."
+        ],
+        "natural": [
+          "Ich habe den Unterricht zu oft vernachlässigt. Darum endete dieser Kampf heute mit einer Niederlage."
+        ]
+      },
+      "english": [
+        "Jerry blames his loss on neglecting schoolwork."
+      ],
+      "words": {
+        "ru": [
+          [
+            "лениться",
+            "to slack off"
+          ]
+        ],
+        "de": [
+          [
+            "faul sein",
+            "to slack off"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JerryAfter",
+      "base_symbol": "Route116_Text_1BD248",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Надо повторить уроки, иначе РОКСАНА рассердится."
+        ],
+        "A2": [
+          "Мне придётся снова пройти уроки в ШКОЛЕ ТРЕНЕРОВ, иначе РОКСАНА рассердится."
+        ],
+        "natural": [
+          "Похоже, придётся заново пройти несколько курсов в ШКОЛЕ ТРЕНЕРОВ. Иначе РОКСАНА будет в ярости."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich muss den Stoff wiederholen, sonst wird FELIZIA böse."
+        ],
+        "A2": [
+          "Ich muss Kurse in der TRAINERSCHULE wiederholen, sonst wird FELIZIA wütend."
+        ],
+        "natural": [
+          "Offenbar muss ich einige Kurse an der TRAINERSCHULE wiederholen. Sonst wird FELIZIA ganz schön sauer."
+        ]
+      },
+      "english": [
+        "Jerry plans to repeat courses before Roxanne gets angry."
+      ],
+      "words": {
+        "ru": [
+          [
+            "повторить",
+            "to repeat"
+          ]
+        ],
+        "de": [
+          [
+            "wiederholen",
+            "to repeat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JerryRematchIntro",
+      "base_symbol": "Route116_Text_1BD2A5",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я хорошо учился. Теперь я не проиграю!"
+        ],
+        "A2": [
+          "Я серьёзно занимался в ШКОЛЕ ТРЕНЕРОВ. На этот раз я не проиграю!"
+        ],
+        "natural": [
+          "После нашей встречи я усердно занимался в ШКОЛЕ ТРЕНЕРОВ. Второго поражения не будет!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe fleißig gelernt. Jetzt verliere ich nicht!"
+        ],
+        "A2": [
+          "Ich habe ernsthaft in der TRAINERSCHULE gelernt. Diesmal verliere ich nicht!"
+        ],
+        "natural": [
+          "Seit unserer Begegnung habe ich an der TRAINERSCHULE fleißig gelernt. Eine zweite Niederlage wird es nicht geben!"
+        ]
+      },
+      "english": [
+        "Jerry returns after studying seriously and expects to win."
+      ],
+      "words": {
+        "ru": [
+          [
+            "усердно",
+            "diligently"
+          ]
+        ],
+        "de": [
+          [
+            "fleißig",
+            "diligently"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "JerryRematchDefeat",
+      "base_symbol": "Route116_Text_1BD2FE",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Что? Я ведь усердно учился!"
+        ],
+        "A2": [
+          "Как так? Я же так старательно занимался!"
+        ],
+        "natural": [
+          "Что же произошло? Я ведь занимался так прилежно и серьёзно!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was? Ich habe doch fleißig gelernt!"
+        ],
+        "A2": [
+          "Wie kann das sein? Ich habe doch so ernsthaft gelernt!"
+        ],
+        "natural": [
+          "Was ist nur passiert? Ich habe doch so gewissenhaft und ernsthaft gelernt!"
+        ]
+      },
+      "english": [
+        "Jerry cannot believe he lost despite studying diligently."
+      ],
+      "words": {
+        "ru": [
+          [
+            "старательно",
+            "conscientiously"
+          ]
+        ],
+        "de": [
+          [
+            "gewissenhaft",
+            "conscientiously"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "KarenIntro",
+      "base_symbol": "Route116_Text_1BD377",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я учусь в школе и по дороге домой!"
+        ],
+        "A2": [
+          "Я занимаюсь и в школе, и по пути домой. Давай проверим мои знания!"
+        ],
+        "natural": [
+          "Я учусь не только в школе, но даже по дороге домой! Сейчас покажу результат своих стараний."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich lerne in der Schule und auf dem Heimweg!"
+        ],
+        "A2": [
+          "Ich lerne in der Schule und auch auf dem Heimweg. Testen wir mein Wissen!"
+        ],
+        "natural": [
+          "Ich lerne nicht nur in der Schule, sondern sogar auf dem Heimweg! Jetzt zeige ich dir das Ergebnis meiner Mühe."
+        ]
+      },
+      "english": [
+        "Karen studies both at school and on her way home."
+      ],
+      "words": {
+        "ru": [
+          [
+            "старание",
+            "effort"
+          ]
+        ],
+        "de": [
+          [
+            "die Mühe",
+            "effort"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "KarenDefeat",
+      "base_symbol": "Route116_Text_1BD3AC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я проиграла? Какой шок!"
+        ],
+        "A2": [
+          "Не могу поверить, что проиграла. Я потрясена!"
+        ],
+        "natural": [
+          "Я действительно проиграла? Вот это потрясение - я совсем такого не ожидала!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren? Was für ein Schock!"
+        ],
+        "A2": [
+          "Ich kann nicht glauben, dass ich verloren habe. Ich bin schockiert!"
+        ],
+        "natural": [
+          "Ich habe wirklich verloren? Was für ein Schock - damit hätte ich überhaupt nicht gerechnet!"
+        ]
+      },
+      "english": [
+        "Karen is shocked that she lost."
+      ],
+      "words": {
+        "ru": [
+          [
+            "потрясение",
+            "shock"
+          ]
+        ],
+        "de": [
+          [
+            "der Schock",
+            "shock"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "KarenAfter",
+      "base_symbol": "Route116_Text_1BD3C3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Так я не стану изящным ТРЕНЕРОМ, как РОКСАНА."
+        ],
+        "A2": [
+          "Если так пойдёт дальше, я никогда не стану таким изящным ТРЕНЕРОМ, как РОКСАНА."
+        ],
+        "natural": [
+          "Эх... С такими результатами мне никогда не стать настолько изящным ТРЕНЕРОМ, как РОКСАНА!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "So werde ich nie eine elegante TRAINERIN wie FELIZIA."
+        ],
+        "A2": [
+          "Wenn es so weitergeht, werde ich nie eine so elegante TRAINERIN wie FELIZIA."
+        ],
+        "natural": [
+          "Ach... Mit solchen Ergebnissen werde ich niemals eine so elegante TRAINERIN wie FELIZIA werden!"
+        ]
+      },
+      "english": [
+        "Karen worries that she will never become an elegant trainer like Roxanne."
+      ],
+      "words": {
+        "ru": [
+          [
+            "изящный",
+            "elegant"
+          ]
+        ],
+        "de": [
+          [
+            "elegant",
+            "elegant"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "KarenRematchIntro",
+      "base_symbol": "Route116_Text_1BD405",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я много училась. Посмотри, чего я достигла!"
+        ],
+        "A2": [
+          "После нашей встречи я много занималась. Теперь оцени мои успехи!"
+        ],
+        "natural": [
+          "С тех пор как мы виделись, я очень много училась. Ты обязательно должен увидеть, чего я добилась!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe viel gelernt. Sieh, was ich erreicht habe!"
+        ],
+        "A2": [
+          "Seit unserem Treffen habe ich viel gelernt. Bewundere jetzt meine Fortschritte!"
+        ],
+        "natural": [
+          "Seit wir uns gesehen haben, habe ich unglaublich viel gelernt. Du musst unbedingt sehen, was ich erreicht habe!"
+        ]
+      },
+      "english": [
+        "Karen asks you to witness the results of all her studying."
+      ],
+      "words": {
+        "ru": [
+          [
+            "достичь",
+            "to achieve"
+          ]
+        ],
+        "de": [
+          [
+            "erreichen",
+            "to achieve"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "KarenRematchDefeat",
+      "base_symbol": "Route116_Text_1BD44A",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я снова проиграла? Вот это шок!"
+        ],
+        "A2": [
+          "Неужели я снова проиграла? Я просто потрясена!"
+        ],
+        "natural": [
+          "Я опять проиграла, несмотря на все занятия? Для меня это настоящий шок!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe wieder verloren? Was für ein Schock!"
+        ],
+        "A2": [
+          "Habe ich wirklich wieder verloren? Ich bin völlig schockiert!"
+        ],
+        "natural": [
+          "Ich habe trotz all des Lernens schon wieder verloren? Das ist für mich ein echter Schock!"
+        ]
+      },
+      "english": [
+        "Karen is shocked to lose the rematch too."
+      ],
+      "words": {
+        "ru": [
+          [
+            "снова",
+            "again"
+          ]
+        ],
+        "de": [
+          [
+            "wieder",
+            "again"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "KarenRematchAfter",
+      "base_symbol": "Route116_Text_1BD466",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ты победил РОКСАНУ? Тогда мне пока тебя не одолеть."
+        ],
+        "A2": [
+          "Ты уже победил РОКСАНУ? Тогда я пока не смогу победить тебя."
+        ],
+        "natural": [
+          "Так ты победил саму РОКСАНУ? Тогда неудивительно, что мне пока тебя не одолеть. Но однажды я смогу!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast FELIZIA besiegt? Dann kann ich dich noch nicht schlagen."
+        ],
+        "A2": [
+          "Du hast schon FELIZIA besiegt? Dann kann ich dich vorerst nicht bezwingen."
+        ],
+        "natural": [
+          "Du hast sogar FELIZIA besiegt? Dann ist es kein Wunder, dass ich dich noch nicht bezwingen kann. Aber eines Tages schaffe ich es!"
+        ]
+      },
+      "english": [
+        "Karen realizes she is not ready to beat someone who defeated Roxanne."
+      ],
+      "words": {
+        "ru": [
+          [
+            "одолеть",
+            "to overcome"
+          ]
+        ],
+        "de": [
+          [
+            "bezwingen",
+            "to overcome"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelGruntDefeat",
+      "base_symbol": "RusturfTunnel_Text_194243",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Моя преступная карьера зашла в тупик!"
+        ],
+        "A2": [
+          "Уф! Кажется, моя преступная карьера закончилась в этом тупике!"
+        ],
+        "natural": [
+          "Ар-р-р! Вот и всё: моя преступная карьера закончилась самым настоящим тупиком!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Verbrecherkarriere endet in einer Sackgasse!"
+        ],
+        "A2": [
+          "Uff! Meine Verbrecherkarriere ist wohl in dieser Sackgasse beendet!"
+        ],
+        "natural": [
+          "Arrgh! Das war es: Meine Verbrecherkarriere ist tatsächlich in einer Sackgasse gelandet!"
+        ]
+      },
+      "english": [
+        "The defeated Aqua grunt says his criminal career has reached a dead end."
+      ],
+      "words": {
+        "ru": [
+          [
+            "карьера",
+            "career"
+          ]
+        ],
+        "de": [
+          [
+            "die Karriere",
+            "career"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelBrineyThanks",
+      "base_symbol": "RusturfTunnel_Text_19434F",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я МИСТЕР БРАЙНИ. Спасибо за спасение ПИКО!"
+        ],
+        "A2": [
+          "Меня зовут МИСТЕР БРАЙНИ. Спасибо, что спас ПИКО! Если нужна помощь, приходи в мой дом у моря."
+        ],
+        "natural": [
+          "ПИКО обязана тебе жизнью! Меня зовут МИСТЕР БРАЙНИ. Огромное спасибо! Если тебя что-нибудь тревожит, приходи в мой дом у моря возле ПЕТАЛБУРГСКОГО ЛЕСА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin MR. BRACK. Danke, dass du PEEKO gerettet hast!"
+        ],
+        "A2": [
+          "Man nennt mich MR. BRACK. Danke für PEEKOS Rettung! Wenn du Hilfe brauchst, komm zu meinem Haus am Meer."
+        ],
+        "natural": [
+          "PEEKO verdankt dir ihr Leben! Man nennt mich MR. BRACK. Vielen Dank! Wenn dich etwas bedrückt, besuche mein Haus am Meer beim BLÜTENBURGWALD."
+        ]
+      },
+      "english": [
+        "Mr. Briney introduces himself, thanks you, and offers future help."
+      ],
+      "words": {
+        "ru": [
+          [
+            "обязан жизнью",
+            "to owe one's life"
+          ]
+        ],
+        "de": [
+          [
+            "jemandem das Leben verdanken",
+            "to owe one's life"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MikeIntro",
+      "base_symbol": "RusturfTunnel_Text_194814",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В горах живёт горец. А ПОКЕМОН там - горный ПОКЕМОН?"
+        ],
+        "A2": [
+          "Дикого человека в горах зовут горцем. Почему ПОКЕМОНА в горах не зовут горным?"
+        ],
+        "natural": [
+          "Дикого человека в горах называют горцем, верно? Тогда почему ПОКЕМОНА в горах никто не называет горным ПОКЕМОНОМ?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Mann in den Bergen ist ein Bergmann. Ist ein POKéMON dort ein Berg-POKéMON?"
+        ],
+        "A2": [
+          "Einen wilden Mann in den Bergen nennt man Bergmann. Warum heißt ein POKéMON dort nicht Berg-POKéMON?"
+        ],
+        "natural": [
+          "Einen wilden Mann oben in den Bergen nennt man Bergmann, richtig? Warum nennt dann niemand ein POKéMON in den Bergen ein Berg-POKéMON?"
+        ]
+      },
+      "english": [
+        "Hiker Mike jokes about mountain men and mountain Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "горец",
+            "mountain man"
+          ]
+        ],
+        "de": [
+          [
+            "der Bergmann",
+            "mountain man"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MikeDefeat",
+      "base_symbol": "RusturfTunnel_Text_1948A2",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "У моих ПОКЕМОНОВ кончились силы."
+        ],
+        "A2": [
+          "Мои ПОКЕМОНЫ совсем выбились из сил."
+        ],
+        "natural": [
+          "У моих ПОКЕМОНОВ полностью иссякли силы - они больше не могут сражаться."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meinen POKéMON ging die Kraft aus."
+        ],
+        "A2": [
+          "Meine POKéMON sind völlig erschöpft."
+        ],
+        "natural": [
+          "Die Kraft meiner POKéMON ist vollständig aufgebraucht - sie können nicht mehr kämpfen."
+        ]
+      },
+      "english": [
+        "Mike's Pokémon run out of energy."
+      ],
+      "words": {
+        "ru": [
+          [
+            "иссякнуть",
+            "to run out"
+          ]
+        ],
+        "de": [
+          [
+            "ausgehen",
+            "to run out"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MikeAfter",
+      "base_symbol": "RusturfTunnel_Text_1948C4",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Туннель остановили ради ПОКЕМОНОВ. Хорошая история!"
+        ],
+        "A2": [
+          "Работы здесь остановили, чтобы защитить ПОКЕМОНОВ. Это добрая история!"
+        ],
+        "natural": [
+          "Развитие туннеля остановили ради защиты ПОКЕМОНОВ, верно? Вот история, от которой становится тепло на душе!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Tunnelbau wurde für die POKéMON gestoppt. Eine gute Geschichte!"
+        ],
+        "A2": [
+          "Die Arbeiten wurden gestoppt, um die POKéMON zu schützen. Das ist eine schöne Geschichte!"
+        ],
+        "natural": [
+          "Der Ausbau wurde zum Schutz der POKéMON eingestellt, richtig? Das ist wirklich eine herzerwärmende Geschichte!"
+        ]
+      },
+      "english": [
+        "Mike approves of stopping tunnel construction to protect Pokémon."
+      ],
+      "words": {
+        "ru": [
+          [
+            "защитить",
+            "to protect"
+          ]
+        ],
+        "de": [
+          [
+            "schützen",
+            "to protect"
+          ]
+        ]
+      }
     }
   ]
 }

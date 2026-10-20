@@ -6426,6 +6426,566 @@
         "rusturf_tunnel",
         "story"
       ]
+    },
+    {
+      "id": "route116.trainer.clarkintro.318",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CCE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BCF79",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "ClarkIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 318
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.clarkdefeat.319",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CCE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BCFBB",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "ClarkDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 319
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.clarkafter.320",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CCE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BCFE3",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "ClarkAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 320
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.joeyintro.321",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C62",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD02B",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JoeyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 321
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.joeydefeat.322",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C62",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD04C",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JoeyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 322
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.joeyafter.323",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C62",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD078",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JoeyAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 323
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.joseintro.324",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C79",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD0AF",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JoseIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 324
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.josedefeat.325",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C79",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD0D7",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JoseDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 325
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.joseafter.326",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C79",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD0F4",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JoseAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 326
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.janiceintro.327",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CE5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD131",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JaniceIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 327
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.janicedefeat.328",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CE5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD165",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JaniceDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 328
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.janiceafter.329",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CE5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD180",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JaniceAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 329
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.jerryintro.330",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C90",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD1C0",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JerryIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 330
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.jerrydefeat.331",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C90",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD21A",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JerryDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 331
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.jerryafter.332",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150C90",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD248",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JerryAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 332
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.jerryrematchintro.333",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CB7",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD2A5",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JerryRematchIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 333
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.jerryrematchdefeat.334",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CB7",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD2FE",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "JerryRematchDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 334
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.karenintro.335",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CFC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD377",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "KarenIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 335
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.karendefeat.336",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CFC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD3AC",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "KarenDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 336
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.karenafter.337",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150CFC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD3C3",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "KarenAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 337
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.karenrematchintro.338",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150D23",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD405",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "KarenRematchIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 338
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.karenrematchdefeat.339",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150D23",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD44A",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "KarenRematchDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 339
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route116.trainer.karenrematchafter.340",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150D23",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route116_Text_1BD466",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "KarenRematchAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 340
+      },
+      "tags": [
+        "route116",
+        "trainer"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.tunnelgruntdefeat.341",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9EA",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194243",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "TunnelGruntDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 341
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.tunnelbrineythanks.342",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9EA",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_19434F",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "TunnelBrineyThanks"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 342
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.trainer.mikeintro.343",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15CACD",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194814",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "MikeIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 343
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "trainer"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.trainer.mikedefeat.344",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15CACD",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_1948A2",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "MikeDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 344
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "trainer"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.trainer.mikeafter.345",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15CACD",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_1948C4",
+        "note": "Adaptive translation bridge preserves the original encounter flow.",
+        "authored_id": "MikeAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 345
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "trainer"
+      ]
     }
   ]
 }

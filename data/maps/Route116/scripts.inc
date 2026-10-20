@@ -45,7 +45,11 @@ Route116_EventScript_150A7B:: @ 8150A7B
 	lock
 	faceplayer
 	goto_if_set FLAG_MET_DEVON_EMPLOYEE, Route116_EventScript_150B04
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteDevonThanks
+	.else
 	msgbox Route116_Text_1705AE, MSGBOX_DEFAULT
+	.endif
 	goto Route116_EventScript_150A94
 	end
 
@@ -54,7 +58,11 @@ Route116_EventScript_150A94:: @ 8150A94
 	giveitem ITEM_REPEAT_BALL
 	compare VAR_RESULT, 0
 	goto_if_eq Route116_EventScript_150B12
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteRepeatBallAvailable
+	.else
 	msgbox Route116_Text_1707B8, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	compare VAR_FACING, 2
 	call_if_eq Route116_EventScript_150AEE
@@ -81,12 +89,20 @@ Route116_EventScript_150AF9:: @ 8150AF9
 	return
 
 Route116_EventScript_150B04:: @ 8150B04
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteRepeatBallReminder
+	.else
 	msgbox Route116_Text_170865, MSGBOX_DEFAULT
+	.endif
 	goto Route116_EventScript_150A94
 	end
 
 Route116_EventScript_150B12:: @ 8150B12
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteRepeatBallBagFull
+	.else
 	msgbox Route116_Text_17082A, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -157,7 +173,11 @@ Route116_EventScript_150B54:: @ 8150B54
 Route116_EventScript_150B5D:: @ 8150B5D
 	lock
 	faceplayer
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteBrineyLostPeeko
+	.else
 	msgbox Route116_Text_17032A, MSGBOX_DEFAULT
+	.endif
 	setvar VAR_ROUTE116_STATE, 2
 	release
 	end
@@ -167,7 +187,11 @@ Route116_EventScript_150B6E:: @ 8150B6E
 	applymovement 11, Common_Movement_WalkInPlaceFastestRight
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteBrineyLostPeeko
+	.else
 	msgbox Route116_Text_17032A, MSGBOX_DEFAULT
+	.endif
 	setvar VAR_ROUTE116_STATE, 2
 	releaseall
 	end
@@ -181,28 +205,49 @@ Route116_EventScript_150B8F:: @ 8150B8F
 	specialvar VAR_RESULT, FoundBlackGlasses
 	compare VAR_RESULT, 1
 	goto_if_eq Route116_EventScript_150BBB
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteGlassesHelp
+	.else
 	msgbox Route116_Text_1708EE, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 Route116_EventScript_150BBB:: @ 8150BBB
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteGlassesGone
+	.else
 	msgbox Route116_Text_1709B7, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	goto Route116_EventScript_150C03
 	end
 
 Route116_EventScript_150BCA:: @ 8150BCA
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteGlassesHelp
+	call LearnerOpening_RouteGlassesInspect
+	.else
 	msgbox Route116_Text_1708EE, MSGBOX_DEFAULT
 	msgbox Route116_Text_170921, MSGBOX_DEFAULT
+	.endif
 	specialvar VAR_RESULT, FoundBlackGlasses
 	compare VAR_RESULT, 1
 	goto_if_eq Route116_EventScript_150BF4
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteBlackGlasses
+	.else
 	msgbox Route116_Text_170A03, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 Route116_EventScript_150BF4:: @ 8150BF4
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteWrongGlasses
+	.else
 	msgbox Route116_Text_17094D, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	goto Route116_EventScript_150C03
 	end

@@ -22,7 +22,11 @@ RusturfTunnel_EventScript_15C773:: @ 815C773
 RusturfTunnel_EventScript_15C782:: @ 815C782
 	lock
 	faceplayer
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelWandaRock
+	.else
 	msgbox RusturfTunnel_Text_194766, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -34,7 +38,11 @@ RusturfTunnel_EventScript_15C799:: @ 815C799
 	faceplayer
 	goto_if_set FLAG_TEMP_1, RusturfTunnel_EventScript_15C7BC
 	setflag FLAG_TEMP_1
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelBoyfriendWaiting
+	.else
 	msgbox RusturfTunnel_Text_1944C5, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -42,7 +50,11 @@ RusturfTunnel_EventScript_15C799:: @ 815C799
 	end
 
 RusturfTunnel_EventScript_15C7BC:: @ 815C7BC
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelLongRoute
+	.else
 	msgbox RusturfTunnel_Text_1945B2, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
@@ -58,14 +70,22 @@ RusturfTunnel_EventScript_15C7D1:: @ 815C7D1
 	compare VAR_TEMP_1, 3
 	call_if_eq RusturfTunnel_EventScript_15C8EA
 	call RusturfTunnel_EventScript_15C92D
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelStrengthReward
+	.else
 	msgbox RusturfTunnel_Text_19461D, MSGBOX_DEFAULT
+	.endif
 	compare VAR_TEMP_1, 2
 	call_if_eq RusturfTunnel_EventScript_15C8EB
 	compare VAR_TEMP_1, 3
 	call_if_eq RusturfTunnel_EventScript_15C8EB
 	giveitem ITEM_HM04_STRENGTH
 	setflag FLAG_RECEIVED_HM04
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelStrengthExplain
+	.else
 	msgbox RusturfTunnel_Text_194693, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	compare VAR_TEMP_1, 1
 	call_if_eq RusturfTunnel_EventScript_15C880
@@ -73,7 +93,11 @@ RusturfTunnel_EventScript_15C7D1:: @ 815C7D1
 	call_if_eq RusturfTunnel_EventScript_15C892
 	compare VAR_TEMP_1, 3
 	call_if_eq RusturfTunnel_EventScript_15C8AE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelCoupleReunited
+	.else
 	msgbox RusturfTunnel_Text_194706, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	compare VAR_TEMP_1, 1
 	call_if_eq RusturfTunnel_EventScript_15C8F7
@@ -278,7 +302,11 @@ RusturfTunnel_EventScript_15C9A5:: @ 815C9A5
 
 RusturfTunnel_EventScript_15C9AB:: @ 815C9AB
 	lockall
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelGruntChallenge
+	.else
 	msgbox RusturfTunnel_Text_194159, MSGBOX_DEFAULT
+	.endif
 	closemessage
 	applymovement 6, RusturfTunnel_Movement_15C9D3
 	applymovement 7, RusturfTunnel_Movement_15C9D3
@@ -300,7 +328,11 @@ RusturfTunnel_EventScript_15C9D7:: @ 815C9D7
 	faceplayer
 	waitse
 	playmoncry SPECIES_WINGULL, 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelPeekoCry
+	.else
 	msgbox RusturfTunnel_Text_194188, MSGBOX_DEFAULT
+	.endif
 	waitmoncry
 	release
 	end
@@ -309,9 +341,17 @@ RusturfTunnel_EventScript_15C9EA:: @ 815C9EA
 	lock
 	faceplayer
 	playbgm MUS_EVIL_TEAM, FALSE
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelGruntCornered
+	.else
 	msgbox RusturfTunnel_Text_19419B, MSGBOX_DEFAULT
+	.endif
 	trainerbattle_no_intro TRAINER_RUSTURF_TUNNEL_GRUNT, RusturfTunnel_Text_194243
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelGoodsReturned
+	.else
 	msgbox RusturfTunnel_Text_194274, MSGBOX_DEFAULT
+	.endif
 	giveitem ITEM_DEVON_GOODS
 	closemessage
 	applymovement LOCALID_PLAYER, RusturfTunnel_Movement_15CA99
@@ -325,7 +365,11 @@ RusturfTunnel_EventScript_15C9EA:: @ 815C9EA
 	applymovement LOCALID_PLAYER, RusturfTunnel_Movement_15CA9F
 	applymovement 5, RusturfTunnel_Movement_15CAC0
 	waitmovement 0
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_TunnelPeekoSafe
+	.else
 	msgbox RusturfTunnel_Text_19432A, MSGBOX_DEFAULT
+	.endif
 	applymovement 5, Common_Movement_FacePlayer
 	waitmovement 0
 	message RusturfTunnel_Text_19434F

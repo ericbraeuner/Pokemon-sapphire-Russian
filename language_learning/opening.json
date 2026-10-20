@@ -13253,6 +13253,930 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RouteDevonThanks",
+      "base_symbol": "Route116_Text_1705AE",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Ты вернул посылку ДЕВОНА. Спасибо!"
+        ],
+        "A2": [
+          "Ты вернул украденную посылку и доставил её в СЛЕЙТПОРТ. Большое спасибо!"
+        ],
+        "natural": [
+          "Ты не только помог мне в ПЕТАЛБУРГСКОМ ЛЕСУ, но и вернул украденную посылку, а затем доставил её капитану ШТЕРНУ. Огромное спасибо!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast das DEVON-PAKET gerettet. Danke!"
+        ],
+        "A2": [
+          "Du hast das gestohlene Paket zurückgebracht und nach GRAPHITPORT geliefert. Vielen Dank!"
+        ],
+        "natural": [
+          "Du hast mir nicht nur im BLÜTENBURGWALD geholfen, sondern auch das gestohlene Paket zurückgebracht und zu Kapitän BRIGG geliefert. Vielen Dank!"
+        ]
+      },
+      "english": [
+        "The Devon employee thanks you for returning and delivering the stolen package."
+      ],
+      "words": {
+        "ru": [
+          [
+            "посылка",
+            "package"
+          ]
+        ],
+        "de": [
+          [
+            "das Paket",
+            "package"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteRepeatBallAvailable",
+      "base_symbol": "Route116_Text_1707B8",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Новый ПОВТОРБОЛ теперь продаётся в МЕТАРОСТЕ."
+        ],
+        "A2": [
+          "Наш новый ПОВТОРБОЛ теперь можно купить в магазине МЕТАРОСТА. Попробуй его!"
+        ],
+        "natural": [
+          "Наш новый ПОВТОРБОЛ уже поступил в продажу в магазине МЕТАРОСТА. Обязательно испытай его! Спасибо и до свидания!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der neue WIEDERBALL wird jetzt in METAROST verkauft."
+        ],
+        "A2": [
+          "Unser neuer WIEDERBALL ist jetzt im Markt von METAROST erhältlich. Probier ihn aus!"
+        ],
+        "natural": [
+          "Unser neuer WIEDERBALL ist nun im Pokémon-Markt von METAROST erhältlich. Probier ihn bitte aus! Vielen Dank und auf Wiedersehen!"
+        ]
+      },
+      "english": [
+        "The employee says Repeat Balls are now sold in Rustboro and leaves."
+      ],
+      "words": {
+        "ru": [
+          [
+            "продаваться",
+            "available for sale"
+          ]
+        ],
+        "de": [
+          [
+            "erhältlich",
+            "available for sale"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteRepeatBallBagFull",
+      "base_symbol": "Route116_Text_17082A",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Твоя СУМКА полна. ПОВТОРБОЛ не помещается."
+        ],
+        "A2": [
+          "В твоей СУМКЕ нет места, поэтому я не могу отдать ПОВТОРБОЛ."
+        ],
+        "natural": [
+          "Твоя СУМКА набита до отказа. Я не смогу отдать тебе ПОВТОРБОЛ, пока не освободится место."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein BEUTEL ist voll. Der WIEDERBALL passt nicht hinein."
+        ],
+        "A2": [
+          "In deinem BEUTEL ist kein Platz, deshalb kann ich dir den WIEDERBALL nicht geben."
+        ],
+        "natural": [
+          "Dein BEUTEL ist randvoll. Ich kann dir den WIEDERBALL erst geben, wenn du etwas Platz geschaffen hast."
+        ]
+      },
+      "english": [
+        "Your Bag is full, so the employee cannot give you the Repeat Ball."
+      ],
+      "words": {
+        "ru": [
+          [
+            "место",
+            "space"
+          ]
+        ],
+        "de": [
+          [
+            "der Platz",
+            "space"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteRepeatBallReminder",
+      "base_symbol": "Route116_Text_170865",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "У меня для тебя новый ПОКЕБОЛ."
+        ],
+        "A2": [
+          "За доставку нашей посылки я хочу подарить тебе новый ПОКЕБОЛ."
+        ],
+        "natural": [
+          "В благодарность за доставку нашей посылки я приготовил для замечательного ТРЕНЕРА новый вид ПОКЕБОЛА!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe einen neuen POKéBALL für dich."
+        ],
+        "A2": [
+          "Für die Lieferung unseres Pakets möchte ich dir einen neuen POKéBALL schenken."
+        ],
+        "natural": [
+          "Als Dank für die Lieferung unseres Pakets möchte ich unserem großartigen TRAINER einen neuartigen POKéBALL schenken!"
+        ]
+      },
+      "english": [
+        "The employee again offers the new Poké Ball as thanks for the delivery."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подарить",
+            "to give as a gift"
+          ]
+        ],
+        "de": [
+          [
+            "schenken",
+            "to give as a gift"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteBrineyLostPeeko",
+      "base_symbol": "Route116_Text_17032A",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Бандит похитил мою ПИКО!"
+        ],
+        "A2": [
+          "Мы гуляли с ПИКО, когда странный бандит напал на нас и унёс её!"
+        ],
+        "natural": [
+          "Что же мне делать? Мы с ПИКО гуляли, когда на нас напал странный бандит. Негодяй похитил мою дорогую ПИКО!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Gauner hat meine PEEKO entführt!"
+        ],
+        "A2": [
+          "PEEKO und ich waren spazieren, als ein seltsamer Gauner uns überfiel und sie mitnahm!"
+        ],
+        "natural": [
+          "Was soll ich nur tun? PEEKO und ich waren spazieren, als uns ein seltsamer Gauner überfiel. Der Schurke hat meine geliebte PEEKO entführt!"
+        ]
+      },
+      "english": [
+        "Mr. Briney says a strange thug kidnapped Peeko during their walk."
+      ],
+      "words": {
+        "ru": [
+          [
+            "похитить",
+            "to kidnap"
+          ]
+        ],
+        "de": [
+          [
+            "entführen",
+            "to kidnap"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteGlassesHelp",
+      "base_symbol": "Route116_Text_1708EE",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Я потерял очки. Поможешь найти их?"
+        ],
+        "A2": [
+          "Я где-то уронил очки. Поможешь мне их найти?"
+        ],
+        "natural": [
+          "Я обронил свои очки и никак не могу их найти. Ты не поможешь мне поискать?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe meine Brille verloren. Hilfst du mir?"
+        ],
+        "A2": [
+          "Ich habe irgendwo meine Brille fallen lassen. Hilfst du mir, sie zu finden?"
+        ],
+        "natural": [
+          "Ich habe meine Brille verloren und kann sie nirgends finden. Würdest du mir bitte beim Suchen helfen?"
+        ]
+      },
+      "english": [
+        "A man asks you to help find his missing glasses."
+      ],
+      "words": {
+        "ru": [
+          [
+            "очки",
+            "glasses"
+          ]
+        ],
+        "de": [
+          [
+            "die Brille",
+            "glasses"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteGlassesInspect",
+      "base_symbol": "Route116_Text_170921",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Это очки! Можно посмотреть?"
+        ],
+        "A2": [
+          "Ты нашёл очки! Можно мне на секунду взглянуть на них?"
+        ],
+        "natural": [
+          "Те очки, которые ты нашёл! Можно я взгляну на них всего на секунду?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist eine Brille! Darf ich sie sehen?"
+        ],
+        "A2": [
+          "Du hast eine Brille gefunden! Darf ich sie kurz ansehen?"
+        ],
+        "natural": [
+          "Diese Brille, die du gefunden hast! Darf ich sie mir bitte einen Augenblick ansehen?"
+        ]
+      },
+      "english": [
+        "The man asks to inspect the glasses you found."
+      ],
+      "words": {
+        "ru": [
+          [
+            "взглянуть",
+            "to look at"
+          ]
+        ],
+        "de": [
+          [
+            "ansehen",
+            "to look at"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteWrongGlasses",
+      "base_symbol": "Route116_Text_17094D",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Это ЧЁРНЫЕ ОЧКИ, но не мои."
+        ],
+        "A2": [
+          "Это ЧЁРНЫЕ ОЧКИ. Они не те, которые я ищу."
+        ],
+        "natural": [
+          "Хм... Это ЧЁРНЫЕ ОЧКИ, а не моя пропавшая пара. Похоже, моих очков здесь нет."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist eine SCHWARZBRILLE, aber nicht meine."
+        ],
+        "A2": [
+          "Das ist eine SCHWARZBRILLE. Sie ist nicht die Brille, die ich suche."
+        ],
+        "natural": [
+          "Hm... Das ist eine SCHWARZBRILLE und nicht mein verlorenes Paar. Meine Brille scheint nicht hier zu sein."
+        ]
+      },
+      "english": [
+        "The Black Glasses are not the pair the man lost."
+      ],
+      "words": {
+        "ru": [
+          [
+            "не тот",
+            "not the same one"
+          ]
+        ],
+        "de": [
+          [
+            "nicht derselbe",
+            "not the same one"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteGlassesGone",
+      "base_symbol": "Route116_Text_1709B7",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Моих очков здесь нет."
+        ],
+        "A2": [
+          "Я нигде не нахожу свои очки. Наверное, их здесь нет."
+        ],
+        "natural": [
+          "Хм... Я нигде не могу найти свои очки. Похоже, они всё-таки не в этом месте."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Brille ist nicht hier."
+        ],
+        "A2": [
+          "Ich kann meine Brille nirgends finden. Sie ist wohl nicht hier."
+        ],
+        "natural": [
+          "Hm... Ich kann meine Brille nirgends finden. Offenbar liegt sie doch nicht in dieser Gegend."
+        ]
+      },
+      "english": [
+        "The man concludes that his missing glasses are not nearby."
+      ],
+      "words": {
+        "ru": [
+          [
+            "нигде",
+            "nowhere"
+          ]
+        ],
+        "de": [
+          [
+            "nirgends",
+            "nowhere"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteBlackGlasses",
+      "base_symbol": "Route116_Text_170A03",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Это ЧЁРНЫЕ ОЧКИ. Они не мои."
+        ],
+        "A2": [
+          "Хм... Это ЧЁРНЫЕ ОЧКИ, а не те очки, которые я ищу."
+        ],
+        "natural": [
+          "Хм... Это действительно ЧЁРНЫЕ ОЧКИ. Но это не моя пропавшая пара."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist eine SCHWARZBRILLE. Sie gehört nicht mir."
+        ],
+        "A2": [
+          "Hm... Das ist eine SCHWARZBRILLE und nicht die Brille, die ich suche."
+        ],
+        "natural": [
+          "Hm... Das ist tatsächlich eine SCHWARZBRILLE. Aber sie ist nicht mein verlorenes Paar."
+        ]
+      },
+      "english": [
+        "The man identifies the found item as Black Glasses, not his own glasses."
+      ],
+      "words": {
+        "ru": [
+          [
+            "принадлежать",
+            "to belong"
+          ]
+        ],
+        "de": [
+          [
+            "gehören",
+            "to belong"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelWandaRock",
+      "base_symbol": "RusturfTunnel_Text_194766",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "За этим камнем мой парень."
+        ],
+        "A2": [
+          "Мой парень за этим камнем. Он роет туннель ради всех."
+        ],
+        "natural": [
+          "По другую сторону камня мой парень. Он трудится до мозолей не только ради встречи со мной, но и ради всех людей."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hinter diesem Felsen ist mein Freund."
+        ],
+        "A2": [
+          "Mein Freund ist hinter diesem Felsen. Er gräbt den Tunnel für alle."
+        ],
+        "natural": [
+          "Auf der anderen Seite dieses Felsens ist mein Freund. Er arbeitet sich die Hände wund, nicht nur um mich zu sehen, sondern zum Wohl aller."
+        ]
+      },
+      "english": [
+        "Wanda says her boyfriend is beyond the rock and digs for everyone's benefit."
+      ],
+      "words": {
+        "ru": [
+          [
+            "парень",
+            "boyfriend"
+          ]
+        ],
+        "de": [
+          [
+            "der Freund",
+            "boyfriend"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelBoyfriendWaiting",
+      "base_symbol": "RusturfTunnel_Text_1944C5",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "Моя любимая ждёт в ВЕРДАНТУРФЕ."
+        ],
+        "A2": [
+          "Моя любимая ждёт в ВЕРДАНТУРФЕ за туннелем. Как мне попасть к ней?"
+        ],
+        "natural": [
+          "Почему работы остановились? Моя любимая ждёт в ВЕРДАНТУРФЕ. Если бы туннель соединял города, я мог бы видеть её каждый день."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Geliebte wartet in WIESENFLUR."
+        ],
+        "A2": [
+          "Meine Geliebte wartet hinter dem Tunnel in WIESENFLUR. Wie komme ich zu ihr?"
+        ],
+        "natural": [
+          "Warum wird nicht weitergegraben? Meine Geliebte wartet in WIESENFLUR. Würde der Tunnel beide Orte verbinden, könnte ich sie jeden Tag besuchen."
+        ]
+      },
+      "english": [
+        "A man worries because the tunnel to his beloved in Verdanturf is unfinished."
+      ],
+      "words": {
+        "ru": [
+          [
+            "любимая",
+            "beloved"
+          ]
+        ],
+        "de": [
+          [
+            "die Geliebte",
+            "beloved"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelLongRoute",
+      "base_symbol": "RusturfTunnel_Text_1945B2",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "До ВЕРДАНТУРФА очень далеко."
+        ],
+        "A2": [
+          "Из МЕТАРОСТА в ВЕРДАНТУРФ надо ехать через ДЬЮФОРД, СЛЕЙТПОРТ и МОВИЛЬ."
+        ],
+        "natural": [
+          "Чтобы попасть из МЕТАРОСТА в ВЕРДАНТУРФ, придётся сначала добраться до ДЬЮФОРДА, а потом пройти через СЛЕЙТПОРТ и МОВИЛЬ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Weg nach WIESENFLUR ist sehr lang."
+        ],
+        "A2": [
+          "Von METAROST nach WIESENFLUR muss man über FAUSTAUHAVEN, GRAPHITPORT und MALVENFROH reisen."
+        ],
+        "natural": [
+          "Um von METAROST nach WIESENFLUR zu gelangen, muss man erst nach FAUSTAUHAVEN und dann durch GRAPHITPORT und MALVENFROH reisen."
+        ]
+      },
+      "english": [
+        "The man describes the long route from Rustboro to Verdanturf."
+      ],
+      "words": {
+        "ru": [
+          [
+            "путь",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "der Weg",
+            "route"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelStrengthReward",
+      "base_symbol": "RusturfTunnel_Text_19461D",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "Ты разбил камень! Возьми эту HM."
+        ],
+        "A2": [
+          "Ты разбил валун, который закрывал путь. В благодарность возьми эту HM."
+        ],
+        "natural": [
+          "Ух ты! Ты раздробил валун, перекрывавший дорогу. Я очень благодарен и хочу подарить тебе эту HM."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast den Felsen zertrümmert! Nimm diese VM."
+        ],
+        "A2": [
+          "Du hast den Felsbrocken beseitigt, der den Weg versperrte. Nimm als Dank diese VM."
+        ],
+        "natural": [
+          "Wow! Du hast den Felsbrocken zertrümmert, der den Weg blockiert hat. Zum Dank möchte ich dir diese VM geben."
+        ]
+      },
+      "english": [
+        "The grateful man rewards you for breaking the blocking boulder."
+      ],
+      "words": {
+        "ru": [
+          [
+            "валун",
+            "boulder"
+          ]
+        ],
+        "de": [
+          [
+            "der Felsbrocken",
+            "boulder"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelStrengthExplain",
+      "base_symbol": "RusturfTunnel_Text_194693",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "В этой HM есть СИЛА."
+        ],
+        "A2": [
+          "Эта HM учит СИЛЕ. Сильный ПОКЕМОН сможет двигать большие валуны."
+        ],
+        "natural": [
+          "В этой HM содержится СИЛА. Выучив её, мускулистый ПОКЕМОН сможет передвигать даже огромные валуны."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diese VM enthält STÄRKE."
+        ],
+        "A2": [
+          "Diese VM lehrt STÄRKE. Ein kräftiges POKéMON kann damit große Felsen bewegen."
+        ],
+        "natural": [
+          "Diese VM enthält STÄRKE. Lernt ein kräftiges POKéMON diese Attacke, kann es sogar riesige Felsbrocken bewegen."
+        ]
+      },
+      "english": [
+        "The man explains that HM04 teaches Strength for moving large boulders."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сила",
+            "strength"
+          ]
+        ],
+        "de": [
+          [
+            "die Stärke",
+            "strength"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelCoupleReunited",
+      "base_symbol": "RusturfTunnel_Text_194706",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "ВАНДА! Теперь мы снова вместе!"
+        ],
+        "A2": [
+          "ВАНДА! Теперь я смогу видеть тебя всегда! ВАНДА приглашает тебя отдохнуть у неё дома."
+        ],
+        "natural": [
+          "ВАНДА! Теперь я смогу видеться с тобой в любое время! ВАНДА счастлива и приглашает тебя отдохнуть в её доме."
+        ]
+      },
+      "de": {
+        "A1": [
+          "WANDA! Jetzt sind wir wieder vereint!"
+        ],
+        "A2": [
+          "WANDA! Jetzt kann ich dich jederzeit sehen! WANDA lädt dich ein, dich bei ihr zu Hause auszuruhen."
+        ],
+        "natural": [
+          "WANDA! Jetzt kann ich dich jederzeit besuchen! WANDA ist überglücklich und lädt dich ein, dich in ihrem Haus auszuruhen."
+        ]
+      },
+      "english": [
+        "The reunited couple celebrates and Wanda invites you to rest at her home."
+      ],
+      "words": {
+        "ru": [
+          [
+            "воссоединиться",
+            "reunited"
+          ]
+        ],
+        "de": [
+          [
+            "wieder vereint",
+            "reunited"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelGruntChallenge",
+      "base_symbol": "RusturfTunnel_Text_194159",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "Идёшь за мной? Тогда попробуй поймать!"
+        ],
+        "A2": [
+          "Ты всё ещё идёшь за мной? Тогда догони меня, если сможешь!"
+        ],
+        "natural": [
+          "Что, всё-таки идёшь за мной? Ну тогда попробуй догнать и сразиться со мной!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du folgst mir? Dann fang mich doch!"
+        ],
+        "A2": [
+          "Du folgst mir immer noch? Dann hol mich ein, wenn du kannst!"
+        ],
+        "natural": [
+          "Was, du kommst mir wirklich nach? Dann hol mich doch ein und kämpfe gegen mich!"
+        ]
+      },
+      "english": [
+        "The fleeing Aqua grunt challenges you to follow and fight him."
+      ],
+      "words": {
+        "ru": [
+          [
+            "догнать",
+            "to catch up"
+          ]
+        ],
+        "de": [
+          [
+            "einholen",
+            "to catch up"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelPeekoCry",
+      "base_symbol": "RusturfTunnel_Text_194188",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "ПИКО: Пи-и!"
+        ],
+        "A2": [
+          "ПИКО зовёт на помощь: Пи-и!"
+        ],
+        "natural": [
+          "ПИКО тревожно кричит из глубины туннеля: Пи-и!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PEEKO: Pii!"
+        ],
+        "A2": [
+          "PEEKO ruft um Hilfe: Pii!"
+        ],
+        "natural": [
+          "Aus dem Tunnel ruft PEEKO ängstlich um Hilfe: Pii!"
+        ]
+      },
+      "english": [
+        "Peeko cries out from inside the tunnel."
+      ],
+      "words": {
+        "ru": [
+          [
+            "помощь",
+            "help"
+          ]
+        ],
+        "de": [
+          [
+            "die Hilfe",
+            "help"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelGruntCornered",
+      "base_symbol": "RusturfTunnel_Text_19419B",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "Тупик! Хочешь вернуть ПОКЕМОНА? Сразись со мной!"
+        ],
+        "A2": [
+          "Этот туннель ведёт в тупик, а заложник бесполезен. Хочешь боя?"
+        ],
+        "natural": [
+          "Вот незадача! ПОКЕМОН-заложник оказался бесполезен, а этот туннель ведёт в тупик. Раз хочешь вернуть его, сразись со мной!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Sackgasse! Willst du das POKéMON zurück? Dann kämpfe!"
+        ],
+        "A2": [
+          "Der Tunnel endet hier und die Geisel ist nutzlos. Du willst kämpfen?"
+        ],
+        "natural": [
+          "Verdammt! Das POKéMON als Geisel war nutzlos und dieser Tunnel ist eine Sackgasse. Willst du es zurück, dann kämpfe gegen mich!"
+        ]
+      },
+      "english": [
+        "The cornered Aqua grunt complains and challenges you to battle."
+      ],
+      "words": {
+        "ru": [
+          [
+            "тупик",
+            "dead end"
+          ]
+        ],
+        "de": [
+          [
+            "die Sackgasse",
+            "dead end"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelGoodsReturned",
+      "base_symbol": "RusturfTunnel_Text_194274",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "Забирай посылку ДЕВОНА!"
+        ],
+        "A2": [
+          "Босс сказал, что это будет лёгкая работа. Забирай украденную посылку ДЕВОНА!"
+        ],
+        "natural": [
+          "Всё пошло не по плану. Босс обещал лёгкую работу: всего лишь украсть посылку у ДЕВОНА. Раз она так нужна, забирай!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nimm das gestohlene DEVON-PAKET zurück!"
+        ],
+        "A2": [
+          "Der Boss nannte es einen leichten Auftrag. Nimm das gestohlene DEVON-PAKET zurück!"
+        ],
+        "natural": [
+          "Alles lief schief. Der Boss versprach einen leichten Auftrag: nur ein Paket von DEVON stehlen. Wenn du es so dringend willst, nimm es zurück!"
+        ]
+      },
+      "english": [
+        "The defeated grunt returns the stolen Devon Goods and flees."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вернуть",
+            "to return"
+          ]
+        ],
+        "de": [
+          [
+            "zurückgeben",
+            "to return"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "TunnelPeekoSafe",
+      "base_symbol": "RusturfTunnel_Text_19432A",
+      "source_path": "data/maps/RusturfTunnel/text.inc",
+      "ru": {
+        "A1": [
+          "ПИКО! Как хорошо, что ты цела!"
+        ],
+        "A2": [
+          "ПИКО! Я так рад видеть, что ты цела и невредима!"
+        ],
+        "natural": [
+          "ПИКО! Какое счастье видеть тебя снова целой и невредимой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PEEKO! Zum Glück bist du sicher!"
+        ],
+        "A2": [
+          "PEEKO! Ich bin so froh, dass du sicher und unverletzt bist!"
+        ],
+        "natural": [
+          "PEEKO! Wie froh ich bin, dich wieder wohlbehalten und unverletzt zu sehen!"
+        ]
+      },
+      "english": [
+        "Mr. Briney is relieved that Peeko is safe."
+      ],
+      "words": {
+        "ru": [
+          [
+            "невредимый",
+            "unharmed"
+          ]
+        ],
+        "de": [
+          [
+            "unverletzt",
+            "unharmed"
+          ]
+        ]
+      }
     }
   ]
 }

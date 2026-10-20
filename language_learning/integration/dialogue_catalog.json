@@ -6006,6 +6006,426 @@
         "route116",
         "guide"
       ]
+    },
+    {
+      "id": "route116.story.devonthanks.297",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150A7B",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_1705AE",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteDevonThanks"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 297
+      },
+      "tags": [
+        "route116",
+        "story"
+      ]
+    },
+    {
+      "id": "route116.guide.repeatballavailable.298",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150A94",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_1707B8",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteRepeatBallAvailable"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 298
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.repeatballbagfull.299",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B12",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_17082A",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteRepeatBallBagFull"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 299
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.repeatballreminder.300",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B04",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170865",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteRepeatBallReminder"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 300
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.story.brineylostpeeko.301",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B5D",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_17032A",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteBrineyLostPeeko"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 301
+      },
+      "tags": [
+        "route116",
+        "story"
+      ]
+    },
+    {
+      "id": "route116.guide.glasseshelp.302",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B8F",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_1708EE",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteGlassesHelp"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 302
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.glassesinspect.303",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150BCA",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170921",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteGlassesInspect"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 303
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.wrongglasses.304",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150BF4",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_17094D",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteWrongGlasses"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 304
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.glassesgone.305",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150BBB",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_1709B7",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteGlassesGone"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 305
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.blackglasses.306",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150BCA",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170A03",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "RouteBlackGlasses"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 306
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.guide.wandarock.307",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C782",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194766",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelWandaRock"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 307
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.guide.boyfriendwaiting.308",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C799",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_1944C5",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelBoyfriendWaiting"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 308
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.guide.longroute.309",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C7BC",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_1945B2",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelLongRoute"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 309
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.guide.strengthreward.310",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C7D1",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_19461D",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelStrengthReward"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 310
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.guide.strengthexplain.311",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C7D1",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194693",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelStrengthExplain"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 311
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.guide.couplereunited.312",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C7D1",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194706",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelCoupleReunited"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 312
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "guide"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.gruntchallenge.313",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9AB",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194159",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelGruntChallenge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 313
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.peekocry.314",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9D7",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194188",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelPeekoCry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 314
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.gruntcornered.315",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9EA",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_19419B",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelGruntCornered"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 315
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.goodsreturned.316",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9EA",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_194274",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelGoodsReturned"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 316
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
+    },
+    {
+      "id": "rusturf_tunnel.story.peekosafe.317",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/RusturfTunnel/scripts.inc",
+        "symbol": "RusturfTunnel_EventScript_15C9EA",
+        "base_text_path": "data/maps/RusturfTunnel/text.inc",
+        "base_text_symbol": "RusturfTunnel_Text_19432A",
+        "note": "Adaptive wording preserves the original story interaction.",
+        "authored_id": "TunnelPeekoSafe"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 317
+      },
+      "tags": [
+        "rusturf_tunnel",
+        "story"
+      ]
     }
   ]
 }

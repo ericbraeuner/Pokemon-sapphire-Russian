@@ -3990,6 +3990,354 @@
         "schützen"
       ],
       "dictionary_form": "schützen"
+    },
+    {
+      "id": "de.briney_house_346",
+      "lemma": "warten",
+      "english": "to wait",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.waitpeeko.346",
+      "forms": [
+        "warten"
+      ],
+      "dictionary_form": "warten"
+    },
+    {
+      "id": "de.briney_house_347",
+      "lemma": "segeln",
+      "english": "to sail",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.firstsailoffer.347",
+      "forms": [
+        "segeln"
+      ],
+      "dictionary_form": "segeln"
+    },
+    {
+      "id": "de.briney_house_348",
+      "lemma": "Anker",
+      "english": "anchor",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.saildewford.348",
+      "forms": [
+        "der Anker"
+      ],
+      "dictionary_form": "der Anker"
+    },
+    {
+      "id": "de.briney_house_349",
+      "lemma": "bereit",
+      "english": "ready",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.deliverieswait.349",
+      "forms": [
+        "bereit"
+      ],
+      "dictionary_form": "bereit"
+    },
+    {
+      "id": "de.briney_house_350",
+      "lemma": "Lieferung",
+      "english": "delivery",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.letterandgoods.350",
+      "forms": [
+        "die Lieferung"
+      ],
+      "dictionary_form": "die Lieferung"
+    },
+    {
+      "id": "de.briney_house_351",
+      "lemma": "Kapitän",
+      "english": "captain",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.goodsonly.351",
+      "forms": [
+        "der Kapitän"
+      ],
+      "dictionary_form": "der Kapitän"
+    },
+    {
+      "id": "de.briney_house_352",
+      "lemma": "Ziel",
+      "english": "destination",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.choosedestination.352",
+      "forms": [
+        "das Ziel"
+      ],
+      "dictionary_form": "das Ziel"
+    },
+    {
+      "id": "de.briney_house_353",
+      "lemma": "zurückkommen",
+      "english": "to return",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.canceldestination.353",
+      "forms": [
+        "zurückkommen"
+      ],
+      "dictionary_form": "zurückkommen"
+    },
+    {
+      "id": "de.briney_house_355",
+      "lemma": "zwitschern",
+      "english": "to chirp",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "briney_house.guide.peekohomecry.355",
+      "forms": [
+        "zwitschern"
+      ],
+      "dictionary_form": "zwitschern"
+    },
+    {
+      "id": "de.dewford_town_356",
+      "lemma": "Insel",
+      "english": "island",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.islandcommunity.356",
+      "forms": [
+        "die Insel"
+      ],
+      "dictionary_form": "die Insel"
+    },
+    {
+      "id": "de.dewford_town_357",
+      "lemma": "Meer",
+      "english": "sea",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.townsign.357",
+      "forms": [
+        "das Meer"
+      ],
+      "dictionary_form": "das Meer"
+    },
+    {
+      "id": "de.dewford_town_358",
+      "lemma": "Leiter",
+      "english": "leader",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.gymsign.358",
+      "forms": [
+        "der Leiter"
+      ],
+      "dictionary_form": "der Leiter"
+    },
+    {
+      "id": "de.dewford_town_359",
+      "lemma": "Austausch",
+      "english": "exchange",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.hallsign.359",
+      "forms": [
+        "der Austausch"
+      ],
+      "dictionary_form": "der Austausch"
+    },
+    {
+      "id": "de.dewford_town_360",
+      "lemma": "Brief",
+      "english": "letter",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.landedwithletter.360",
+      "forms": [
+        "der Brief"
+      ],
+      "dictionary_form": "der Brief"
+    },
+    {
+      "id": "de.dewford_town_361",
+      "lemma": "zurück",
+      "english": "back",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.returnprompt.361",
+      "forms": [
+        "zurück"
+      ],
+      "dictionary_form": "zurück"
+    },
+    {
+      "id": "de.dewford_town_362",
+      "lemma": "ablegen",
+      "english": "to set sail",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.sailpetalburlgearly.362",
+      "forms": [
+        "ablegen"
+      ],
+      "dictionary_form": "ablegen"
+    },
+    {
+      "id": "de.dewford_town_363",
+      "lemma": "geduldig",
+      "english": "patiently",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.deliverfirst.363",
+      "forms": [
+        "geduldig"
+      ],
+      "dictionary_form": "geduldig"
+    },
+    {
+      "id": "de.dewford_town_364",
+      "lemma": "anlegen",
+      "english": "to dock",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.landedgeneral.364",
+      "forms": [
+        "anlegen"
+      ],
+      "dictionary_form": "anlegen"
+    },
+    {
+      "id": "de.dewford_town_365",
+      "lemma": "Kurs",
+      "english": "course",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.wherebound.365",
+      "forms": [
+        "der Kurs"
+      ],
+      "dictionary_form": "der Kurs"
+    },
+    {
+      "id": "de.dewford_town_366",
+      "lemma": "aufbrechen",
+      "english": "to depart",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.sailpetalburg.366",
+      "forms": [
+        "aufbrechen"
+      ],
+      "dictionary_form": "aufbrechen"
+    },
+    {
+      "id": "de.dewford_town_367",
+      "lemma": "Hafen",
+      "english": "port",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.sailslateport.367",
+      "forms": [
+        "der Hafen"
+      ],
+      "dictionary_form": "der Hafen"
+    },
+    {
+      "id": "de.dewford_town_368",
+      "lemma": "wieder",
+      "english": "again",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.cancelsail.368",
+      "forms": [
+        "wieder"
+      ],
+      "dictionary_form": "wieder"
+    },
+    {
+      "id": "de.dewford_town_369",
+      "lemma": "Angeln",
+      "english": "fishing",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.fishingprompt.369",
+      "forms": [
+        "das Angeln"
+      ],
+      "dictionary_form": "das Angeln"
+    },
+    {
+      "id": "de.dewford_town_370",
+      "lemma": "Angel",
+      "english": "fishing rod",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.rodgift.370",
+      "forms": [
+        "die Angel"
+      ],
+      "dictionary_form": "die Angel"
+    },
+    {
+      "id": "de.dewford_town_371",
+      "lemma": "Biss",
+      "english": "bite",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.fishinglesson.371",
+      "forms": [
+        "der Biss"
+      ],
+      "dictionary_form": "der Biss"
+    },
+    {
+      "id": "de.dewford_town_372",
+      "lemma": "schade",
+      "english": "a pity",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.nofishing.372",
+      "forms": [
+        "schade"
+      ],
+      "dictionary_form": "schade"
+    },
+    {
+      "id": "de.dewford_town_373",
+      "lemma": "Erfolg",
+      "english": "success",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.fishingcheck.373",
+      "forms": [
+        "der Erfolg"
+      ],
+      "dictionary_form": "der Erfolg"
+    },
+    {
+      "id": "de.dewford_town_374",
+      "lemma": "Fang",
+      "english": "catch",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.fishinggreat.374",
+      "forms": [
+        "der Fang"
+      ],
+      "dictionary_form": "der Fang"
+    },
+    {
+      "id": "de.dewford_town_375",
+      "lemma": "nicht aufgeben",
+      "english": "not to give up",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "dewford_town.guide.fishingretry.375",
+      "forms": [
+        "nicht aufgeben"
+      ],
+      "dictionary_form": "nicht aufgeben"
     }
   ],
   "grammar_notes": [
@@ -20171,6 +20519,1543 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 345
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.waitpeeko.346",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PEEKO, warte!",
+          "english_gloss": "Mr. Briney calls for Peeko to slow down.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_346"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 346
+          }
+        },
+        {
+          "id": "connected",
+          "text": "MR. BRACK: Halt, PEEKO! Nicht so schnell!",
+          "english_gloss": "Mr. Briney calls for Peeko to slow down.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_346"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 346
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Halt, mein Mädchen! Warte auf mich, PEEKO!",
+          "english_gloss": "Mr. Briney calls for Peeko to slow down.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_346"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 346
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.firstsailoffer.347",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Du hast PEEKO gerettet! Soll ich dich nach FAUSTAUHAVEN bringen?",
+          "english_gloss": "Mr. Briney recognizes you and offers to sail to Dewford for the deliveries.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_347"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 347
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du hast meine PEEKO gerettet. Du musst einen BRIEF nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT bringen? Ich helfe dir.",
+          "english_gloss": "Mr. Briney recognizes you and offers to sail to Dewford for the deliveries.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_347"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 347
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Du bist also PEEKOS Retter! Wir schulden dir viel. Möchtest du mit mir segeln? Ich bringe dich gern mit dem BRIEF nach FAUSTAUHAVEN und danach mit dem Paket nach GRAPHITPORT.",
+          "english_gloss": "Mr. Briney recognizes you and offers to sail to Dewford for the deliveries.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_347"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 347
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.saildewford.348",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Nach FAUSTAUHAVEN! Anker lichten!",
+          "english_gloss": "Mr. Briney raises anchor and sets sail for Dewford.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_348"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 348
+          }
+        },
+        {
+          "id": "connected",
+          "text": "MR. BRACK: Wir fahren nach FAUSTAUHAVEN! PEEKO, wir legen ab!",
+          "english_gloss": "Mr. Briney raises anchor and sets sail for Dewford.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_348"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 348
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: FAUSTAUHAVEN, wir kommen! Anker lichten! PEEKO, mein Liebling, wir stechen in See!",
+          "english_gloss": "Mr. Briney raises anchor and sets sail for Dewford.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_348"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 348
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.deliverieswait.349",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Gut. Sag mir, wenn du segeln willst.",
+          "english_gloss": "Mr. Briney agrees to wait until you are ready to sail.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_349"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 349
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Die Lieferungen können warten? Dann sag mir, sobald du ablegen möchtest.",
+          "english_gloss": "Mr. Briney agrees to wait until you are ready to sail.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_349"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 349
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach so? Dann können deine Lieferungen also warten. Gib mir einfach Bescheid, sobald du in See stechen möchtest!",
+          "english_gloss": "Mr. Briney agrees to wait until you are ready to sail.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_349"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 349
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.letterandgoods.350",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein BRIEF nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT? Los!",
+          "english_gloss": "Mr. Briney offers to carry you first to Dewford for the letter and then toward Slateport.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_350"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 350
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du musst einen BRIEF nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT bringen. Zuerst segeln wir nach FAUSTAUHAVEN.",
+          "english_gloss": "Mr. Briney offers to carry you first to Dewford for the letter and then toward Slateport.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_350"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 350
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Aha, ich weiß genau, was du sagen willst! Ein BRIEF muss nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT. Kein Problem: Zuerst fahren wir nach FAUSTAUHAVEN!",
+          "english_gloss": "Mr. Briney offers to carry you first to Dewford for the letter and then toward Slateport.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_350"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 350
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.goodsonly.351",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein Paket für Kapitän BRIGG? Ich helfe!",
+          "english_gloss": "Mr. Briney offers passage toward Slateport to deliver Captain Stern's package.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_351"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 351
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du musst Kapitän BRIGG in GRAPHITPORT ein Paket bringen. Zuerst segeln wir nach FAUSTAUHAVEN.",
+          "english_gloss": "Mr. Briney offers passage toward Slateport to deliver Captain Stern's package.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_351"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 351
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Aha, ich weiß genau, was du sagen willst! Das Paket muss zu Kapitän BRIGG in GRAPHITPORT. Ich bin der richtige Mann dafür. Zuerst geht es nach FAUSTAUHAVEN!",
+          "english_gloss": "Mr. Briney offers passage toward Slateport to deliver Captain Stern's package.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_351"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 351
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.choosedestination.352",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wohin segeln wir?",
+          "english_gloss": "Mr. Briney asks where you want to sail.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_352"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 352
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Für dich fahre ich jederzeit aufs Meer. Wohin soll es gehen?",
+          "english_gloss": "Mr. Briney asks where you want to sail.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_352"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 352
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ahoi! Für dich steche ich jederzeit in See. Nun, mein Freund, wohin setzen wir Kurs?",
+          "english_gloss": "Mr. Briney asks where you want to sail.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_352"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 352
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.canceldestination.353",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Sag mir, wenn du segeln willst.",
+          "english_gloss": "Mr. Briney says to return whenever you want to sail.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_353"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 353
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PEEKO verdankt dir ihr Leben. Komm, sobald du ablegen möchtest.",
+          "english_gloss": "Mr. Briney says to return whenever you want to sail.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_353"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 353
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach so? Nun, PEEKO verdankt dir ihr Leben. Sag mir einfach Bescheid, sobald du wieder in See stechen möchtest!",
+          "english_gloss": "Mr. Briney says to return whenever you want to sail.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_353"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 353
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "briney_house.guide.peekohomecry.355",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "PEEKO: Pii!",
+          "english_gloss": "Peeko chirps happily inside Mr. Briney's house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.briney_house_355"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 355
+          }
+        },
+        {
+          "id": "connected",
+          "text": "PEEKO ruft fröhlich: Pii!",
+          "english_gloss": "Peeko chirps happily inside Mr. Briney's house.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.briney_house_355"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 355
+          }
+        },
+        {
+          "id": "natural",
+          "text": "PEEKO zwitschert neben MR. BRACK vergnügt: Pii!",
+          "english_gloss": "Peeko chirps happily inside Mr. Briney's house.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.briney_house_355"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 355
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.islandcommunity.356",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "FAUSTAUHAVEN ist eine kleine Insel. Neuigkeiten verbreiten sich hier schnell.",
+          "english_gloss": "Dewford is a small island where trends spread immediately.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_356"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 356
+          }
+        },
+        {
+          "id": "connected",
+          "text": "FAUSTAUHAVEN ist eine kleine Inselgemeinde. Ein neuer Trend ist hier sofort allen bekannt.",
+          "english_gloss": "Dewford is a small island where trends spread immediately.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_356"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 356
+          }
+        },
+        {
+          "id": "natural",
+          "text": "FAUSTAUHAVEN ist eine winzige Inselgemeinschaft. Sobald hier etwas angesagt ist, machen sofort alle mit.",
+          "english_gloss": "Dewford is a small island where trends spread immediately.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_356"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 356
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.townsign.357",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "FAUSTAUHAVEN: eine kleine Insel im blauen Meer.",
+          "english_gloss": "The sign identifies Dewford as a tiny island in the blue sea.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_357"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 357
+          }
+        },
+        {
+          "id": "connected",
+          "text": "FAUSTAUHAVEN ist eine kleine Insel mitten im blauen Meer.",
+          "english_gloss": "The sign identifies Dewford as a tiny island in the blue sea.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_357"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 357
+          }
+        },
+        {
+          "id": "natural",
+          "text": "FAUSTAUHAVEN: eine winzige Insel, umgeben vom endlosen blauen Meer.",
+          "english_gloss": "The sign identifies Dewford as a tiny island in the blue sea.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_357"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 357
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.gymsign.358",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ARENA VON FAUSTAUHAVEN. LEITER: KAMILLO.",
+          "english_gloss": "The Gym sign names Brawly as Dewford's Fighting-type leader.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_358"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 358
+          }
+        },
+        {
+          "id": "connected",
+          "text": "POKéMON-ARENA VON FAUSTAUHAVEN. LEITER KAMILLO - eine große Kampfwelle!",
+          "english_gloss": "The Gym sign names Brawly as Dewford's Fighting-type leader.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_358"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 358
+          }
+        },
+        {
+          "id": "natural",
+          "text": "POKéMON-ARENA VON FAUSTAUHAVEN. LEITER: KAMILLO. Eine mächtige Welle im Kampf!",
+          "english_gloss": "The Gym sign names Brawly as Dewford's Fighting-type leader.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_358"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 358
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.hallsign.359",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "FAUSTAUHAVEN-HALLE: Austausch von Neuigkeiten.",
+          "english_gloss": "Dewford Hall is the island's information exchange.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_359"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 359
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Die FAUSTAUHAVEN-HALLE ist der Ort, an dem alle Informationen austauschen.",
+          "english_gloss": "Dewford Hall is the island's information exchange.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_359"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 359
+          }
+        },
+        {
+          "id": "natural",
+          "text": "FAUSTAUHAVEN-HALLE: der zentrale Treffpunkt zum Informationsaustausch für alle Inselbewohner!",
+          "english_gloss": "Dewford Hall is the island's information exchange.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_359"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 359
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.landedwithletter.360",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wir sind in FAUSTAUHAVEN. Bring TROY den BRIEF.",
+          "english_gloss": "Mr. Briney lands in Dewford and reminds you to deliver Steven's letter.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_360"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 360
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wir sind in FAUSTAUHAVEN angekommen. Jetzt musst du TROY den BRIEF bringen.",
+          "english_gloss": "Mr. Briney lands in Dewford and reminds you to deliver Steven's letter.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_360"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 360
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ahoi! Wir sind in FAUSTAUHAVEN gelandet. Nun wirst du wohl den BRIEF an diesen jungen Mann namens TROY überbringen.",
+          "english_gloss": "Mr. Briney lands in Dewford and reminds you to deliver Steven's letter.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_360"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 360
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.returnprompt.361",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ist der BRIEF zugestellt? Zurück nach BLÜTENBURG?",
+          "english_gloss": "Mr. Briney asks whether the letter is delivered or you want to return to Petalburg.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_361"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 361
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Hast du den BRIEF schon zugestellt? Oder willst du nach BLÜTENBURG zurück?",
+          "english_gloss": "Mr. Briney asks whether the letter is delivered or you want to return to Petalburg.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_361"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 361
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Hast du deinen BRIEF schon abgeliefert? Oder möchtest du doch zurück nach BLÜTENBURG segeln?",
+          "english_gloss": "Mr. Briney asks whether the letter is delivered or you want to return to Petalburg.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_361"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 361
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.sailpetalburlgearly.362",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Nach BLÜTENBURG! Anker lichten!",
+          "english_gloss": "Mr. Briney sets sail back to Petalburg.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_362"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 362
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Also nach BLÜTENBURG! PEEKO, wir legen ab!",
+          "english_gloss": "Mr. Briney sets sail back to Petalburg.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_362"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 362
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Abgemacht, nach BLÜTENBURG! Anker lichten! PEEKO, mein Liebling, wir legen ab!",
+          "english_gloss": "Mr. Briney sets sail back to Petalburg.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_362"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 362
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.deliverfirst.363",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Bring erst den BRIEF. Ich warte.",
+          "english_gloss": "Mr. Briney waits while you deliver the letter.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_363"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 363
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Dann bring zuerst den BRIEF. Ich werde hier warten.",
+          "english_gloss": "Mr. Briney waits while you deliver the letter.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_363"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 363
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Dann geh und überbringe zuerst den BRIEF. Ich werde geduldig auf deine Rückkehr warten.",
+          "english_gloss": "Mr. Briney waits while you deliver the letter.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_363"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 363
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.landedgeneral.364",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wir sind in FAUSTAUHAVEN angekommen!",
+          "english_gloss": "Mr. Briney lands in Dewford and offers another voyage later.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_364"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 364
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wir sind in FAUSTAUHAVEN gelandet. Sag mir, wenn du wieder segeln willst.",
+          "english_gloss": "Mr. Briney lands in Dewford and offers another voyage later.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_364"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 364
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Ahoi! Wir haben in FAUSTAUHAVEN angelegt. Sag mir einfach, wenn du wieder in See stechen möchtest!",
+          "english_gloss": "Mr. Briney lands in Dewford and offers another voyage later.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_364"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 364
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.wherebound.365",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wohin fahren wir jetzt?",
+          "english_gloss": "Mr. Briney asks you to choose the boat's destination.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_365"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 365
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Für dich fahre ich jederzeit aufs Meer. Wohin soll es gehen?",
+          "english_gloss": "Mr. Briney asks you to choose the boat's destination.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_365"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 365
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Ahoi! Für dich steche ich jederzeit in See. Nun, mein Freund, wohin setzen wir Kurs?",
+          "english_gloss": "Mr. Briney asks you to choose the boat's destination.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_365"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 365
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.sailpetalburg.366",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Nach BLÜTENBURG! Anker lichten!",
+          "english_gloss": "Mr. Briney sets sail for Petalburg.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_366"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 366
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Also nach BLÜTENBURG! PEEKO, wir legen ab!",
+          "english_gloss": "Mr. Briney sets sail for Petalburg.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_366"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 366
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: BLÜTENBURG also? Anker lichten! PEEKO, mein Liebling, wir stechen in See!",
+          "english_gloss": "Mr. Briney sets sail for Petalburg.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_366"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 366
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.sailslateport.367",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Nach GRAPHITPORT! Anker lichten!",
+          "english_gloss": "Mr. Briney sets sail for Slateport.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_367"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 367
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Also nach GRAPHITPORT! PEEKO, wir legen ab!",
+          "english_gloss": "Mr. Briney sets sail for Slateport.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_367"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 367
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: GRAPHITPORT also? Anker lichten! PEEKO, mein Liebling, wir stechen in See!",
+          "english_gloss": "Mr. Briney sets sail for Slateport.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_367"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 367
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.cancelsail.368",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Sag mir, wenn du wieder segeln willst.",
+          "english_gloss": "Mr. Briney says to ask whenever another voyage is needed.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_368"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 368
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Sag mir einfach, wenn du wieder ablegen möchtest.",
+          "english_gloss": "Mr. Briney says to ask whenever another voyage is needed.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_368"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 368
+          }
+        },
+        {
+          "id": "natural",
+          "text": "MR. BRACK: Gib mir einfach Bescheid, wenn du wieder in See stechen möchtest.",
+          "english_gloss": "Mr. Briney says to ask whenever another voyage is needed.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_368"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 368
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.fishingprompt.369",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Hier kann man gut angeln. Willst du fischen?",
+          "english_gloss": "A fisherman asks whether you want to fish at Dewford's famous spot.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_369"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 369
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Das ist ein berühmter Angelplatz. Möchtest du jetzt angeln?",
+          "english_gloss": "A fisherman asks whether you want to fish at Dewford's famous spot.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_369"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 369
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Das hier ist ein berühmter Angelplatz. Juckt es dich schon in den Fingern, die Angel auszuwerfen?",
+          "english_gloss": "A fisherman asks whether you want to fish at Dewford's famous spot.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_369"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 369
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.rodgift.370",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Sehr gut! Ich gebe dir eine ANGEL.",
+          "english_gloss": "The fisherman likes your enthusiasm and gives you a fishing rod.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_370"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 370
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Deine Antwort gefällt mir! Ich schenke dir eine meiner ANGELN.",
+          "english_gloss": "The fisherman likes your enthusiasm and gives you a fishing rod.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_370"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 370
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Das ist die richtige Einstellung, das gefällt mir! Dafür schenke ich dir eine meiner ANGELN.",
+          "english_gloss": "The fisherman likes your enthusiasm and gives you a fishing rod.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_370"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 370
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.fishinglesson.371",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Schau aufs Wasser und benutze die ANGEL. Beißt etwas an, zieh!",
+          "english_gloss": "The fisherman explains how to face the water, use the rod, and time each pull.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_371"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 371
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Stell dich ans Wasser und benutze die ANGEL. Wenn ein Fisch anbeißt, zieh. Bei großen Fischen musst du gut timen.",
+          "english_gloss": "The fisherman explains how to face the water, use the rod, and time each pull.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_371"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 371
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Noch ein Rat: Schau zum Wasser und benutze die ANGEL. Konzentriere dich und zieh bei einem Biss. Für einen großen Fang brauchst du den richtigen Rhythmus.",
+          "english_gloss": "The fisherman explains how to face the water, use the rod, and time each pull.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_371"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 371
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.nofishing.372",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ach so? Das ist schade.",
+          "english_gloss": "The fisherman is disappointed that you do not want to fish.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_372"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 372
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Du möchtest nicht angeln? Das ist aber schade.",
+          "english_gloss": "The fisherman is disappointed that you do not want to fish.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_372"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 372
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ach so? Das Angeln lockt dich also noch nicht. Nun, das ist wirklich schade.",
+          "english_gloss": "The fisherman is disappointed that you do not want to fish.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_372"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 372
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.fishingcheck.373",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Wie läuft das Angeln?",
+          "english_gloss": "The fisherman asks how your fishing is going.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_373"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 373
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Hey! Wie läuft es mit dem Angeln?",
+          "english_gloss": "The fisherman asks how your fishing is going.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_373"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 373
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Hey, mein Freund! Wie läuft deine Angelei? Hast du Erfolg?",
+          "english_gloss": "The fisherman asks how your fishing is going.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_373"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 373
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.fishinggreat.374",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Klasse! Fang einen großen Fisch!",
+          "english_gloss": "The fisherman celebrates your success and encourages a big catch.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_374"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 374
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Wirklich? Großartig! Hol jetzt etwas richtig Großes heraus!",
+          "english_gloss": "The fisherman celebrates your success and encourages a big catch.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_374"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 374
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Das ist ja großartig! Mach weiter so und zieh einen richtig großen Fang an Land!",
+          "english_gloss": "The fisherman celebrates your success and encourages a big catch.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_374"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 374
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "dewford_town.guide.fishingretry.375",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Nicht traurig sein. Schau aufs Wasser und benutze die ANGEL.",
+          "english_gloss": "The fisherman encourages you and repeats his fishing instructions.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.dewford_town_375"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 375
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Gib nicht auf! Stell dich ans Wasser und benutze die ANGEL. Wenn etwas anbeißt, zieh im richtigen Moment.",
+          "english_gloss": "The fisherman encourages you and repeats his fishing instructions.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.dewford_town_375"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 375
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Lass den Kopf nicht hängen! Schau zum Wasser, benutze die ANGEL und konzentriere dich. Zieh beim Biss im richtigen Moment, besonders bei großen Fischen.",
+          "english_gloss": "The fisherman encourages you and repeats his fishing instructions.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.dewford_town_375"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 375
           }
         }
       ]

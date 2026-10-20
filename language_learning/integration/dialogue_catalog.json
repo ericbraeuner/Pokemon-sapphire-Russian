@@ -6986,6 +6986,586 @@
         "rusturf_tunnel",
         "trainer"
       ]
+    },
+    {
+      "id": "briney_house.guide.waitpeeko.346",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BD0E",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191A82",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyWaitPeeko"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 346
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.firstsailoffer.347",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BD0E",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191AAD",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyFirstSailOffer"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 347
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.saildewford.348",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BDAB",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191BFD",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineySailDewford"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 348
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.deliverieswait.349",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BD97",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191C57",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyDeliveriesWait"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 349
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.letterandgoods.350",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BD65",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191CC3",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyLetterAndGoods"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 350
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.goodsonly.351",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BD7E",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191DA6",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyGoodsOnly"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 351
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.choosedestination.352",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BD32",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191E80",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyChooseDestination"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 352
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.canceldestination.353",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BDA1",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191EDB",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyCancelDestination"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 353
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "briney_house.guide.peekohomecry.355",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route104_MrBrineysHouse/scripts.inc",
+        "symbol": "Route104_MrBrineysHouse_EventScript_15BDD1",
+        "base_text_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+        "base_text_symbol": "Route104_MrBrineysHouse_Text_191FB9",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "BrineyPeekoHomeCry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 355
+      },
+      "tags": [
+        "route104",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.islandcommunity.356",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_Woman",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_TinyIslandCommunity",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordIslandCommunity"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 356
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.townsign.357",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_TownSign",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_TownSign",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordTownSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 357
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.gymsign.358",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_GymSign",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_GymSign",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordGymSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 358
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.hallsign.359",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_HallSign",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_HallSign",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordHallSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 359
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.landedwithletter.360",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_Briney",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "Route104_Text_LandedInDewfordDeliverLetter",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordLandedWithLetter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 360
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.returnprompt.361",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_ReturnToPetalburgPrompt",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_SetSailBackToPetalburg",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordReturnPrompt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 361
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.sailpetalburlgearly.362",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_SailBackToPetalburg",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_PetalburgWereSettingSail2",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordSailPetalburgEarly"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 362
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.deliverfirst.363",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_ReturnToPetalburgPrompt",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_GoDeliverIllBeWaiting",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordDeliverFirst"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 363
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.landedgeneral.364",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_Briney",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "Route104_Text_BrineyLandedInDewford",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordLandedGeneral"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 364
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.wherebound.365",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_Briney",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_WhereAreWeBound",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordWhereBound"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 365
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.sailpetalburg.366",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_ChoosePetalburg",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_PetalburgWereSettingSail",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordSailPetalburg"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 366
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.sailslateport.367",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_ChooseSlateport",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_SlateportWereSettingSail",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordSailSlateport"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 367
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.cancelsail.368",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_CancelSailSelect",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_JustTellMeWhenYouNeedToSetSail",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordCancelSail"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 368
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.fishingprompt.369",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_OldRodFisherman",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_GettingItchToFish",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordFishingPrompt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 369
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.rodgift.370",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_GiveOldRod",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_GiveYouOneOfMyRods",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordRodGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 370
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.fishinglesson.371",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_GiveOldRod",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_ThrowInFishingAdvice",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordFishingLesson"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 371
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.nofishing.372",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_NotGettingItchToFish",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_ThatsTooBadThen",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordNoFishing"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 372
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.fishingcheck.373",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_HowsFishing",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_HowsYourFishing",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordFishingCheck"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 373
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.fishinggreat.374",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_FishingExcellent",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_GreatHaulInSomeBigOnes",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordFishingGreat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 374
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
+    },
+    {
+      "id": "dewford_town.guide.fishingretry.375",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown/scripts.inc",
+        "symbol": "DewfordTown_EventScript_FishingNotSoGood",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "DewfordTown_Text_FishingAdvice",
+        "note": "Adaptive translation preserves the original choice and travel flow.",
+        "authored_id": "DewfordFishingRetry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 375
+      },
+      "tags": [
+        "dewford",
+        "story"
+      ]
     }
   ]
 }

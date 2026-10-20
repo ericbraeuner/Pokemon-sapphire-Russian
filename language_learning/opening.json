@@ -15437,6 +15437,1311 @@
           ]
         ]
       }
+    },
+    {
+      "id": "BrineyWaitPeeko",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191A82",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ПИКО, подожди!"
+        ],
+        "A2": [
+          "МИСТЕР БРАЙНИ: Постой, ПИКО! Не так быстро!"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Погоди, малышка! Подожди меня, ПИКО!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PEEKO, warte!"
+        ],
+        "A2": [
+          "MR. BRACK: Halt, PEEKO! Nicht so schnell!"
+        ],
+        "natural": [
+          "MR. BRACK: Halt, mein Mädchen! Warte auf mich, PEEKO!"
+        ]
+      },
+      "english": [
+        "Mr. Briney calls for Peeko to slow down."
+      ],
+      "words": {
+        "ru": [
+          [
+            "подождать",
+            "to wait"
+          ]
+        ],
+        "de": [
+          [
+            "warten",
+            "to wait"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyFirstSailOffer",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191AAD",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ты спас ПИКО! Отвезти тебя в ДЬЮФОРД?"
+        ],
+        "A2": [
+          "Ты спас мою ПИКО. Тебе надо доставить ПИСЬМО в ДЬЮФОРД и посылку в СЛЕЙТПОРТ? Я помогу."
+        ],
+        "natural": [
+          "Так это ты спас мою дорогую ПИКО! Мы многим тебе обязаны. Хочешь плыть со мной? Я без труда доставлю тебя с ПИСЬМОМ в ДЬЮФОРД, а затем с посылкой в СЛЕЙТПОРТ."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast PEEKO gerettet! Soll ich dich nach FAUSTAUHAVEN bringen?"
+        ],
+        "A2": [
+          "Du hast meine PEEKO gerettet. Du musst einen BRIEF nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT bringen? Ich helfe dir."
+        ],
+        "natural": [
+          "Du bist also PEEKOS Retter! Wir schulden dir viel. Möchtest du mit mir segeln? Ich bringe dich gern mit dem BRIEF nach FAUSTAUHAVEN und danach mit dem Paket nach GRAPHITPORT."
+        ]
+      },
+      "english": [
+        "Mr. Briney recognizes you and offers to sail to Dewford for the deliveries."
+      ],
+      "words": {
+        "ru": [
+          [
+            "плыть",
+            "to sail"
+          ]
+        ],
+        "de": [
+          [
+            "segeln",
+            "to sail"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineySailDewford",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191BFD",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В ДЬЮФОРД! Поднять якорь!"
+        ],
+        "A2": [
+          "МИСТЕР БРАЙНИ: Отправляемся в ДЬЮФОРД! ПИКО, мы отплываем!"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: ДЬЮФОРД, встречай нас! Поднять якорь! ПИКО, моя дорогая, мы отправляемся в море!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nach FAUSTAUHAVEN! Anker lichten!"
+        ],
+        "A2": [
+          "MR. BRACK: Wir fahren nach FAUSTAUHAVEN! PEEKO, wir legen ab!"
+        ],
+        "natural": [
+          "MR. BRACK: FAUSTAUHAVEN, wir kommen! Anker lichten! PEEKO, mein Liebling, wir stechen in See!"
+        ]
+      },
+      "english": [
+        "Mr. Briney raises anchor and sets sail for Dewford."
+      ],
+      "words": {
+        "ru": [
+          [
+            "якорь",
+            "anchor"
+          ]
+        ],
+        "de": [
+          [
+            "der Anker",
+            "anchor"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyDeliveriesWait",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191C57",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Хорошо. Скажи, когда будешь готов плыть."
+        ],
+        "A2": [
+          "Доставки могут подождать? Тогда скажи мне, когда захочешь отплыть."
+        ],
+        "natural": [
+          "Вот как? Значит, доставки могут подождать. Просто дай мне знать, когда будешь готов отправиться в море!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gut. Sag mir, wenn du segeln willst."
+        ],
+        "A2": [
+          "Die Lieferungen können warten? Dann sag mir, sobald du ablegen möchtest."
+        ],
+        "natural": [
+          "Ach so? Dann können deine Lieferungen also warten. Gib mir einfach Bescheid, sobald du in See stechen möchtest!"
+        ]
+      },
+      "english": [
+        "Mr. Briney agrees to wait until you are ready to sail."
+      ],
+      "words": {
+        "ru": [
+          [
+            "готов",
+            "ready"
+          ]
+        ],
+        "de": [
+          [
+            "bereit",
+            "ready"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyLetterAndGoods",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191CC3",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ПИСЬМО в ДЬЮФОРД и посылка в СЛЕЙТПОРТ? Отплываем!"
+        ],
+        "A2": [
+          "Тебе надо доставить ПИСЬМО в ДЬЮФОРД и посылку в СЛЕЙТПОРТ. Сначала плывём в ДЬЮФОРД."
+        ],
+        "natural": [
+          "Ага, я всё понял! Тебе надо доставить ПИСЬМО в ДЬЮФОРД и посылку в СЛЕЙТПОРТ. Это не проблема: сначала отправимся в ДЬЮФОРД!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein BRIEF nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT? Los!"
+        ],
+        "A2": [
+          "Du musst einen BRIEF nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT bringen. Zuerst segeln wir nach FAUSTAUHAVEN."
+        ],
+        "natural": [
+          "Aha, ich weiß genau, was du sagen willst! Ein BRIEF muss nach FAUSTAUHAVEN und ein Paket nach GRAPHITPORT. Kein Problem: Zuerst fahren wir nach FAUSTAUHAVEN!"
+        ]
+      },
+      "english": [
+        "Mr. Briney offers to carry you first to Dewford for the letter and then toward Slateport."
+      ],
+      "words": {
+        "ru": [
+          [
+            "доставка",
+            "delivery"
+          ]
+        ],
+        "de": [
+          [
+            "die Lieferung",
+            "delivery"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyGoodsOnly",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191DA6",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Посылка капитану ШТЕРНУ? Я помогу!"
+        ],
+        "A2": [
+          "Тебе надо доставить посылку капитану ШТЕРНУ в СЛЕЙТПОРТ. Сначала плывём в ДЬЮФОРД."
+        ],
+        "natural": [
+          "Ага, я всё понял! Посылку надо доставить капитану ШТЕРНУ в СЛЕЙТПОРТ. Я как раз тот, кто тебе нужен. Сначала отправимся в ДЬЮФОРД!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Paket für Kapitän BRIGG? Ich helfe!"
+        ],
+        "A2": [
+          "Du musst Kapitän BRIGG in GRAPHITPORT ein Paket bringen. Zuerst segeln wir nach FAUSTAUHAVEN."
+        ],
+        "natural": [
+          "Aha, ich weiß genau, was du sagen willst! Das Paket muss zu Kapitän BRIGG in GRAPHITPORT. Ich bin der richtige Mann dafür. Zuerst geht es nach FAUSTAUHAVEN!"
+        ]
+      },
+      "english": [
+        "Mr. Briney offers passage toward Slateport to deliver Captain Stern's package."
+      ],
+      "words": {
+        "ru": [
+          [
+            "капитан",
+            "captain"
+          ]
+        ],
+        "de": [
+          [
+            "der Kapitän",
+            "captain"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyChooseDestination",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191E80",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Куда мы плывём?"
+        ],
+        "A2": [
+          "Для тебя я готов выйти в море в любое время. Куда направимся?"
+        ],
+        "natural": [
+          "Эй! Ради тебя я готов выйти в море когда угодно. Ну что, мой друг, куда держим курс?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wohin segeln wir?"
+        ],
+        "A2": [
+          "Für dich fahre ich jederzeit aufs Meer. Wohin soll es gehen?"
+        ],
+        "natural": [
+          "Ahoi! Für dich steche ich jederzeit in See. Nun, mein Freund, wohin setzen wir Kurs?"
+        ]
+      },
+      "english": [
+        "Mr. Briney asks where you want to sail."
+      ],
+      "words": {
+        "ru": [
+          [
+            "направление",
+            "destination"
+          ]
+        ],
+        "de": [
+          [
+            "das Ziel",
+            "destination"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyCancelDestination",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191EDB",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Скажи мне, когда захочешь плыть."
+        ],
+        "A2": [
+          "ПИКО обязана тебе жизнью. Приходи, когда захочешь отплыть."
+        ],
+        "natural": [
+          "Вот как? Что ж, ПИКО обязана тебе жизнью. Просто скажи мне, когда снова захочешь отправиться в море!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sag mir, wenn du segeln willst."
+        ],
+        "A2": [
+          "PEEKO verdankt dir ihr Leben. Komm, sobald du ablegen möchtest."
+        ],
+        "natural": [
+          "Ach so? Nun, PEEKO verdankt dir ihr Leben. Sag mir einfach Bescheid, sobald du wieder in See stechen möchtest!"
+        ]
+      },
+      "english": [
+        "Mr. Briney says to return whenever you want to sail."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вернуться",
+            "to return"
+          ]
+        ],
+        "de": [
+          [
+            "zurückkommen",
+            "to return"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "BrineyPeekoHomeCry",
+      "base_symbol": "Route104_MrBrineysHouse_Text_191FB9",
+      "source_path": "data/maps/Route104_MrBrineysHouse/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ПИКО: Пи-и!"
+        ],
+        "A2": [
+          "ПИКО радостно кричит: Пи-и!"
+        ],
+        "natural": [
+          "ПИКО весело щебечет рядом с МИСТЕРОМ БРАЙНИ: Пи-и!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "PEEKO: Pii!"
+        ],
+        "A2": [
+          "PEEKO ruft fröhlich: Pii!"
+        ],
+        "natural": [
+          "PEEKO zwitschert neben MR. BRACK vergnügt: Pii!"
+        ]
+      },
+      "english": [
+        "Peeko chirps happily inside Mr. Briney's house."
+      ],
+      "words": {
+        "ru": [
+          [
+            "щебетать",
+            "to chirp"
+          ]
+        ],
+        "de": [
+          [
+            "zwitschern",
+            "to chirp"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordIslandCommunity",
+      "base_symbol": "DewfordTown_Text_TinyIslandCommunity",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ДЬЮФОРД - маленький остров. Здесь все быстро узнают новости."
+        ],
+        "A2": [
+          "ДЬЮФОРД - маленькое островное поселение. Новая мода здесь сразу становится известной всем."
+        ],
+        "natural": [
+          "ДЬЮФОРД - крошечное островное сообщество. Стоит чему-то войти здесь в моду, и все тут же это подхватывают."
+        ]
+      },
+      "de": {
+        "A1": [
+          "FAUSTAUHAVEN ist eine kleine Insel. Neuigkeiten verbreiten sich hier schnell."
+        ],
+        "A2": [
+          "FAUSTAUHAVEN ist eine kleine Inselgemeinde. Ein neuer Trend ist hier sofort allen bekannt."
+        ],
+        "natural": [
+          "FAUSTAUHAVEN ist eine winzige Inselgemeinschaft. Sobald hier etwas angesagt ist, machen sofort alle mit."
+        ]
+      },
+      "english": [
+        "Dewford is a small island where trends spread immediately."
+      ],
+      "words": {
+        "ru": [
+          [
+            "остров",
+            "island"
+          ]
+        ],
+        "de": [
+          [
+            "die Insel",
+            "island"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordTownSign",
+      "base_symbol": "DewfordTown_Text_TownSign",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ДЬЮФОРД: маленький остров в синем море."
+        ],
+        "A2": [
+          "ДЬЮФОРД - маленький остров посреди синего моря."
+        ],
+        "natural": [
+          "ДЬЮФОРД: крошечный остров, окружённый бескрайним синим морем."
+        ]
+      },
+      "de": {
+        "A1": [
+          "FAUSTAUHAVEN: eine kleine Insel im blauen Meer."
+        ],
+        "A2": [
+          "FAUSTAUHAVEN ist eine kleine Insel mitten im blauen Meer."
+        ],
+        "natural": [
+          "FAUSTAUHAVEN: eine winzige Insel, umgeben vom endlosen blauen Meer."
+        ]
+      },
+      "english": [
+        "The sign identifies Dewford as a tiny island in the blue sea."
+      ],
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordGymSign",
+      "base_symbol": "DewfordTown_Text_GymSign",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ЗАЛ ДЬЮФОРДА. ЛИДЕР: БРОУЛИ."
+        ],
+        "A2": [
+          "ЗАЛ ПОКЕМОНОВ ДЬЮФОРДА. ЛИДЕР БРОУЛИ - большая волна боёв!"
+        ],
+        "natural": [
+          "ЗАЛ ПОКЕМОНОВ ДЬЮФОРДА. ЛИДЕР: БРОУЛИ. Большая волна в мире боевых ПОКЕМОНОВ!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "ARENA VON FAUSTAUHAVEN. LEITER: KAMILLO."
+        ],
+        "A2": [
+          "POKéMON-ARENA VON FAUSTAUHAVEN. LEITER KAMILLO - eine große Kampfwelle!"
+        ],
+        "natural": [
+          "POKéMON-ARENA VON FAUSTAUHAVEN. LEITER: KAMILLO. Eine mächtige Welle im Kampf!"
+        ]
+      },
+      "english": [
+        "The Gym sign names Brawly as Dewford's Fighting-type leader."
+      ],
+      "words": {
+        "ru": [
+          [
+            "лидер",
+            "leader"
+          ]
+        ],
+        "de": [
+          [
+            "der Leiter",
+            "leader"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordHallSign",
+      "base_symbol": "DewfordTown_Text_HallSign",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ЗАЛ ДЬЮФОРДА: обмен новостями."
+        ],
+        "A2": [
+          "ЗАЛ ДЬЮФОРДА - место, где все обмениваются информацией."
+        ],
+        "natural": [
+          "ЗАЛ ДЬЮФОРДА: главный центр обмена информацией для всех жителей острова!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "FAUSTAUHAVEN-HALLE: Austausch von Neuigkeiten."
+        ],
+        "A2": [
+          "Die FAUSTAUHAVEN-HALLE ist der Ort, an dem alle Informationen austauschen."
+        ],
+        "natural": [
+          "FAUSTAUHAVEN-HALLE: der zentrale Treffpunkt zum Informationsaustausch für alle Inselbewohner!"
+        ]
+      },
+      "english": [
+        "Dewford Hall is the island's information exchange."
+      ],
+      "words": {
+        "ru": [
+          [
+            "обмен",
+            "exchange"
+          ]
+        ],
+        "de": [
+          [
+            "der Austausch",
+            "exchange"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordLandedWithLetter",
+      "base_symbol": "Route104_Text_LandedInDewfordDeliverLetter",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мы в ДЬЮФОРДЕ. Отнеси ПИСЬМО СТИВЕНУ."
+        ],
+        "A2": [
+          "Мы прибыли в ДЬЮФОРД. Теперь тебе надо доставить ПИСЬМО СТИВЕНУ."
+        ],
+        "natural": [
+          "Эй! Мы высадились в ДЬЮФОРДЕ. Полагаю, теперь ты отправишься доставлять ПИСЬМО тому парню по имени СТИВЕН."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir sind in FAUSTAUHAVEN. Bring TROY den BRIEF."
+        ],
+        "A2": [
+          "Wir sind in FAUSTAUHAVEN angekommen. Jetzt musst du TROY den BRIEF bringen."
+        ],
+        "natural": [
+          "Ahoi! Wir sind in FAUSTAUHAVEN gelandet. Nun wirst du wohl den BRIEF an diesen jungen Mann namens TROY überbringen."
+        ]
+      },
+      "english": [
+        "Mr. Briney lands in Dewford and reminds you to deliver Steven's letter."
+      ],
+      "words": {
+        "ru": [
+          [
+            "письмо",
+            "letter"
+          ]
+        ],
+        "de": [
+          [
+            "der Brief",
+            "letter"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordReturnPrompt",
+      "base_symbol": "DewfordTown_Text_SetSailBackToPetalburg",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ПИСЬМО доставлено? Вернуться в ПЕТАЛБУРГ?"
+        ],
+        "A2": [
+          "Ты уже доставил ПИСЬМО? Или хочешь вернуться в ПЕТАЛБУРГ?"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Ты уже доставил ПИСЬМО? Или всё-таки собираешься отплыть обратно в ПЕТАЛБУРГ?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ist der BRIEF zugestellt? Zurück nach BLÜTENBURG?"
+        ],
+        "A2": [
+          "Hast du den BRIEF schon zugestellt? Oder willst du nach BLÜTENBURG zurück?"
+        ],
+        "natural": [
+          "MR. BRACK: Hast du deinen BRIEF schon abgeliefert? Oder möchtest du doch zurück nach BLÜTENBURG segeln?"
+        ]
+      },
+      "english": [
+        "Mr. Briney asks whether the letter is delivered or you want to return to Petalburg."
+      ],
+      "words": {
+        "ru": [
+          [
+            "обратно",
+            "back"
+          ]
+        ],
+        "de": [
+          [
+            "zurück",
+            "back"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordSailPetalburgEarly",
+      "base_symbol": "DewfordTown_Text_PetalburgWereSettingSail2",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В ПЕТАЛБУРГ! Поднять якорь!"
+        ],
+        "A2": [
+          "Значит, в ПЕТАЛБУРГ! ПИКО, мы отплываем!"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Решено, плывём в ПЕТАЛБУРГ! Поднять якорь! ПИКО, моя дорогая, мы отплываем!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nach BLÜTENBURG! Anker lichten!"
+        ],
+        "A2": [
+          "Also nach BLÜTENBURG! PEEKO, wir legen ab!"
+        ],
+        "natural": [
+          "MR. BRACK: Abgemacht, nach BLÜTENBURG! Anker lichten! PEEKO, mein Liebling, wir legen ab!"
+        ]
+      },
+      "english": [
+        "Mr. Briney sets sail back to Petalburg."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отплыть",
+            "to set sail"
+          ]
+        ],
+        "de": [
+          [
+            "ablegen",
+            "to set sail"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordDeliverFirst",
+      "base_symbol": "DewfordTown_Text_GoDeliverIllBeWaiting",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Иди доставь ПИСЬМО. Я подожду."
+        ],
+        "A2": [
+          "Тогда сначала доставь ПИСЬМО. Я буду ждать здесь."
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Тогда ступай и доставь ПИСЬМО. Я буду терпеливо ждать твоего возвращения."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bring erst den BRIEF. Ich warte."
+        ],
+        "A2": [
+          "Dann bring zuerst den BRIEF. Ich werde hier warten."
+        ],
+        "natural": [
+          "MR. BRACK: Dann geh und überbringe zuerst den BRIEF. Ich werde geduldig auf deine Rückkehr warten."
+        ]
+      },
+      "english": [
+        "Mr. Briney waits while you deliver the letter."
+      ],
+      "words": {
+        "ru": [
+          [
+            "терпеливо",
+            "patiently"
+          ]
+        ],
+        "de": [
+          [
+            "geduldig",
+            "patiently"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordLandedGeneral",
+      "base_symbol": "Route104_Text_BrineyLandedInDewford",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мы прибыли в ДЬЮФОРД!"
+        ],
+        "A2": [
+          "Мы высадились в ДЬЮФОРДЕ. Скажи, когда снова захочешь плыть."
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Эй! Мы причалили в ДЬЮФОРДЕ. Просто скажи мне, когда снова захочешь отправиться в море!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir sind in FAUSTAUHAVEN angekommen!"
+        ],
+        "A2": [
+          "Wir sind in FAUSTAUHAVEN gelandet. Sag mir, wenn du wieder segeln willst."
+        ],
+        "natural": [
+          "MR. BRACK: Ahoi! Wir haben in FAUSTAUHAVEN angelegt. Sag mir einfach, wenn du wieder in See stechen möchtest!"
+        ]
+      },
+      "english": [
+        "Mr. Briney lands in Dewford and offers another voyage later."
+      ],
+      "words": {
+        "ru": [
+          [
+            "причалить",
+            "to dock"
+          ]
+        ],
+        "de": [
+          [
+            "anlegen",
+            "to dock"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordWhereBound",
+      "base_symbol": "DewfordTown_Text_WhereAreWeBound",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Куда теперь плывём?"
+        ],
+        "A2": [
+          "Для тебя я готов выйти в море в любое время. Куда направимся?"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Эй! Ради тебя я готов выйти в море когда угодно. Ну что, мой друг, куда держим курс?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wohin fahren wir jetzt?"
+        ],
+        "A2": [
+          "Für dich fahre ich jederzeit aufs Meer. Wohin soll es gehen?"
+        ],
+        "natural": [
+          "MR. BRACK: Ahoi! Für dich steche ich jederzeit in See. Nun, mein Freund, wohin setzen wir Kurs?"
+        ]
+      },
+      "english": [
+        "Mr. Briney asks you to choose the boat's destination."
+      ],
+      "words": {
+        "ru": [
+          [
+            "курс",
+            "course"
+          ]
+        ],
+        "de": [
+          [
+            "der Kurs",
+            "course"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordSailPetalburg",
+      "base_symbol": "DewfordTown_Text_PetalburgWereSettingSail",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В ПЕТАЛБУРГ! Поднять якорь!"
+        ],
+        "A2": [
+          "Значит, в ПЕТАЛБУРГ! ПИКО, мы отплываем!"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: ПЕТАЛБУРГ, значит? Поднять якорь! ПИКО, моя дорогая, мы отправляемся!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nach BLÜTENBURG! Anker lichten!"
+        ],
+        "A2": [
+          "Also nach BLÜTENBURG! PEEKO, wir legen ab!"
+        ],
+        "natural": [
+          "MR. BRACK: BLÜTENBURG also? Anker lichten! PEEKO, mein Liebling, wir stechen in See!"
+        ]
+      },
+      "english": [
+        "Mr. Briney sets sail for Petalburg."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отправиться",
+            "to depart"
+          ]
+        ],
+        "de": [
+          [
+            "aufbrechen",
+            "to depart"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordSailSlateport",
+      "base_symbol": "DewfordTown_Text_SlateportWereSettingSail",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В СЛЕЙТПОРТ! Поднять якорь!"
+        ],
+        "A2": [
+          "Значит, в СЛЕЙТПОРТ! ПИКО, мы отплываем!"
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: СЛЕЙТПОРТ, значит? Поднять якорь! ПИКО, моя дорогая, мы отправляемся!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nach GRAPHITPORT! Anker lichten!"
+        ],
+        "A2": [
+          "Also nach GRAPHITPORT! PEEKO, wir legen ab!"
+        ],
+        "natural": [
+          "MR. BRACK: GRAPHITPORT also? Anker lichten! PEEKO, mein Liebling, wir stechen in See!"
+        ]
+      },
+      "english": [
+        "Mr. Briney sets sail for Slateport."
+      ],
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordCancelSail",
+      "base_symbol": "DewfordTown_Text_JustTellMeWhenYouNeedToSetSail",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Скажи, когда снова захочешь плыть."
+        ],
+        "A2": [
+          "Просто скажи мне, когда тебе снова понадобится отплыть."
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Просто дай мне знать, когда тебе снова понадобится отправиться в море."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sag mir, wenn du wieder segeln willst."
+        ],
+        "A2": [
+          "Sag mir einfach, wenn du wieder ablegen möchtest."
+        ],
+        "natural": [
+          "MR. BRACK: Gib mir einfach Bescheid, wenn du wieder in See stechen möchtest."
+        ]
+      },
+      "english": [
+        "Mr. Briney says to ask whenever another voyage is needed."
+      ],
+      "words": {
+        "ru": [
+          [
+            "снова",
+            "again"
+          ]
+        ],
+        "de": [
+          [
+            "wieder",
+            "again"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordFishingPrompt",
+      "base_symbol": "DewfordTown_Text_GettingItchToFish",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Здесь хорошая рыбалка. Хочешь ловить рыбу?"
+        ],
+        "A2": [
+          "Это известное место для рыбалки. Тебе уже хочется порыбачить?"
+        ],
+        "natural": [
+          "Это знаменитое место для рыбалки. Ну что, руки уже чешутся забросить удочку?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier kann man gut angeln. Willst du fischen?"
+        ],
+        "A2": [
+          "Das ist ein berühmter Angelplatz. Möchtest du jetzt angeln?"
+        ],
+        "natural": [
+          "Das hier ist ein berühmter Angelplatz. Juckt es dich schon in den Fingern, die Angel auszuwerfen?"
+        ]
+      },
+      "english": [
+        "A fisherman asks whether you want to fish at Dewford's famous spot."
+      ],
+      "words": {
+        "ru": [
+          [
+            "рыбалка",
+            "fishing"
+          ]
+        ],
+        "de": [
+          [
+            "das Angeln",
+            "fishing"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordRodGift",
+      "base_symbol": "DewfordTown_Text_GiveYouOneOfMyRods",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Отлично! Я дам тебе УДОЧКУ."
+        ],
+        "A2": [
+          "Мне нравится твой ответ! Я подарю тебе одну из моих УДОЧЕК."
+        ],
+        "natural": [
+          "Вот это правильный настрой, мне нравится! За такой ответ я подарю тебе одну из своих рыболовных УДОЧЕК."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sehr gut! Ich gebe dir eine ANGEL."
+        ],
+        "A2": [
+          "Deine Antwort gefällt mir! Ich schenke dir eine meiner ANGELN."
+        ],
+        "natural": [
+          "Das ist die richtige Einstellung, das gefällt mir! Dafür schenke ich dir eine meiner ANGELN."
+        ]
+      },
+      "english": [
+        "The fisherman likes your enthusiasm and gives you a fishing rod."
+      ],
+      "words": {
+        "ru": [
+          [
+            "удочка",
+            "fishing rod"
+          ]
+        ],
+        "de": [
+          [
+            "die Angel",
+            "fishing rod"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordFishingLesson",
+      "base_symbol": "DewfordTown_Text_ThrowInFishingAdvice",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Встань лицом к воде и используй УДОЧКУ. Клюёт - тяни!"
+        ],
+        "A2": [
+          "Повернись к воде и используй УДОЧКУ. Когда рыба клюнет, тяни. Большую рыбу надо тянуть вовремя."
+        ],
+        "natural": [
+          "А теперь совет: встань лицом к воде и используй УДОЧКУ. Сосредоточься и тяни, когда почувствуешь поклёвку. Крупный улов требует точного ритма."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Schau aufs Wasser und benutze die ANGEL. Beißt etwas an, zieh!"
+        ],
+        "A2": [
+          "Stell dich ans Wasser und benutze die ANGEL. Wenn ein Fisch anbeißt, zieh. Bei großen Fischen musst du gut timen."
+        ],
+        "natural": [
+          "Noch ein Rat: Schau zum Wasser und benutze die ANGEL. Konzentriere dich und zieh bei einem Biss. Für einen großen Fang brauchst du den richtigen Rhythmus."
+        ]
+      },
+      "english": [
+        "The fisherman explains how to face the water, use the rod, and time each pull."
+      ],
+      "words": {
+        "ru": [
+          [
+            "поклёвка",
+            "bite"
+          ]
+        ],
+        "de": [
+          [
+            "der Biss",
+            "bite"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordNoFishing",
+      "base_symbol": "DewfordTown_Text_ThatsTooBadThen",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Вот как? Очень жаль."
+        ],
+        "A2": [
+          "Не хочется рыбачить? Тогда очень жаль."
+        ],
+        "natural": [
+          "Вот оно как? Значит, рыбалка тебя пока не манит. Что ж, очень жаль."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ach so? Das ist schade."
+        ],
+        "A2": [
+          "Du möchtest nicht angeln? Das ist aber schade."
+        ],
+        "natural": [
+          "Ach so? Das Angeln lockt dich also noch nicht. Nun, das ist wirklich schade."
+        ]
+      },
+      "english": [
+        "The fisherman is disappointed that you do not want to fish."
+      ],
+      "words": {
+        "ru": [
+          [
+            "жаль",
+            "a pity"
+          ]
+        ],
+        "de": [
+          [
+            "schade",
+            "a pity"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordFishingCheck",
+      "base_symbol": "DewfordTown_Text_HowsYourFishing",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ну как рыбалка?"
+        ],
+        "A2": [
+          "Эй! Как идут дела с рыбалкой?"
+        ],
+        "natural": [
+          "Эй, приятель! Ну как поживает твоя рыбалка? Есть успехи?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie läuft das Angeln?"
+        ],
+        "A2": [
+          "Hey! Wie läuft es mit dem Angeln?"
+        ],
+        "natural": [
+          "Hey, mein Freund! Wie läuft deine Angelei? Hast du Erfolg?"
+        ]
+      },
+      "english": [
+        "The fisherman asks how your fishing is going."
+      ],
+      "words": {
+        "ru": [
+          [
+            "успех",
+            "success"
+          ]
+        ],
+        "de": [
+          [
+            "der Erfolg",
+            "success"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordFishingGreat",
+      "base_symbol": "DewfordTown_Text_GreatHaulInSomeBigOnes",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Отлично! Поймай большую рыбу!"
+        ],
+        "A2": [
+          "Правда? Здорово! Теперь вытащи что-нибудь крупное!"
+        ],
+        "natural": [
+          "Вот это да, замечательно! Продолжай в том же духе и вытащи настоящий крупный улов!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Klasse! Fang einen großen Fisch!"
+        ],
+        "A2": [
+          "Wirklich? Großartig! Hol jetzt etwas richtig Großes heraus!"
+        ],
+        "natural": [
+          "Das ist ja großartig! Mach weiter so und zieh einen richtig großen Fang an Land!"
+        ]
+      },
+      "english": [
+        "The fisherman celebrates your success and encourages a big catch."
+      ],
+      "words": {
+        "ru": [
+          [
+            "улов",
+            "catch"
+          ]
+        ],
+        "de": [
+          [
+            "der Fang",
+            "catch"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DewfordFishingRetry",
+      "base_symbol": "DewfordTown_Text_FishingAdvice",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Не грусти. Встань к воде и используй УДОЧКУ."
+        ],
+        "A2": [
+          "Не расстраивайся! Повернись к воде и используй УДОЧКУ. Когда клюнет, тяни вовремя."
+        ],
+        "natural": [
+          "Не падай духом! Встань лицом к воде, используй УДОЧКУ и сосредоточься. Почувствовав поклёвку, тяни в правильный момент, особенно с крупной рыбой."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nicht traurig sein. Schau aufs Wasser und benutze die ANGEL."
+        ],
+        "A2": [
+          "Gib nicht auf! Stell dich ans Wasser und benutze die ANGEL. Wenn etwas anbeißt, zieh im richtigen Moment."
+        ],
+        "natural": [
+          "Lass den Kopf nicht hängen! Schau zum Wasser, benutze die ANGEL und konzentriere dich. Zieh beim Biss im richtigen Moment, besonders bei großen Fischen."
+        ]
+      },
+      "english": [
+        "The fisherman encourages you and repeats his fishing instructions."
+      ],
+      "words": {
+        "ru": [
+          [
+            "не сдаваться",
+            "not to give up"
+          ]
+        ],
+        "de": [
+          [
+            "nicht aufgeben",
+            "not to give up"
+          ]
+        ]
+      }
     }
   ]
 }

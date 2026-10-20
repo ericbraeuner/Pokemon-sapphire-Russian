@@ -3026,6 +3026,94 @@
       "forms": [
         "витрина"
       ]
+    },
+    {
+      "id": "ru.route116_1",
+      "lemma": "копать",
+      "english": "to dig",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.workerrest.289",
+      "forms": [
+        "копать"
+      ]
+    },
+    {
+      "id": "ru.route116_2",
+      "lemma": "шум",
+      "english": "noise",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.workertunnel.290",
+      "forms": [
+        "шум"
+      ]
+    },
+    {
+      "id": "ru.route116_3",
+      "lemma": "работа",
+      "english": "work",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.workerrecovered.291",
+      "forms": [
+        "работа"
+      ]
+    },
+    {
+      "id": "ru.route116_4",
+      "lemma": "маршрут",
+      "english": "route",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.tunnelsign.292",
+      "forms": [
+        "маршрут"
+      ]
+    },
+    {
+      "id": "ru.route116_5",
+      "lemma": "проект",
+      "english": "project",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.projectsign.293",
+      "forms": [
+        "проект"
+      ]
+    },
+    {
+      "id": "ru.route116_6",
+      "lemma": "отдых",
+      "english": "rest",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.resthousesign.294",
+      "forms": [
+        "отдых"
+      ]
+    },
+    {
+      "id": "ru.route116_7",
+      "lemma": "эволюция",
+      "english": "evolution",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.evolutiontip.295",
+      "forms": [
+        "эволюция"
+      ]
+    },
+    {
+      "id": "ru.route116_8",
+      "lemma": "карман",
+      "english": "pocket",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.bagtip.296",
+      "forms": [
+        "карман"
+      ]
     }
   ],
   "grammar_notes": [
@@ -16183,6 +16271,430 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 288
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.workerrest.289",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Хочу копать туннель!",
+          "english_gloss": "The worker wants to continue digging.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 289
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Я хочу продолжить копать этот туннель!",
+          "english_gloss": "The worker wants to continue digging.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 289
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Р-р-р! Мне так хочется продолжить прокладывать туннель!",
+          "english_gloss": "The worker wants to continue digging.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 289
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.workertunnel.290",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Бандит выгнал меня из туннеля.",
+          "english_gloss": "The worker explains why loud tunneling is dangerous.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 290
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Бандит выгнал меня. Шум пугает покемонов в туннеле.",
+          "english_gloss": "The worker explains why loud tunneling is dangerous.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 290
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Какой-то бандит выгнал меня из туннеля. Мы не пользуемся тяжёлой техникой, потому что громкий шум пугает живущих там покемонов.",
+          "english_gloss": "The worker explains why loud tunneling is dangerous.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 290
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.workerrecovered.291",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Бандит ушёл. Можно снова копать!",
+          "english_gloss": "The worker celebrates the tunnel being safe again.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 291
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Бандит убежал из туннеля. Теперь я могу снова работать!",
+          "english_gloss": "The worker celebrates the tunnel being safe again.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 291
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Этот глупый бандит убежал из туннеля! Наконец-то я могу вернуться к работе.",
+          "english_gloss": "The worker celebrates the tunnel being safe again.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 291
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.tunnelsign.292",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "МАРШРУТ 116. РАСТБОРО - налево.",
+          "english_gloss": "The Route 116 sign points toward Rustboro.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 292
+          }
+        },
+        {
+          "id": "connected",
+          "text": "МАРШРУТ 116. На западе находится РАСТБОРО.",
+          "english_gloss": "The Route 116 sign points toward Rustboro.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 292
+          }
+        },
+        {
+          "id": "natural",
+          "text": "МАРШРУТ 116. На запад - город РАСТБОРО.",
+          "english_gloss": "The Route 116 sign points toward Rustboro.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 292
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.projectsign.293",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ТУННЕЛЬ РАСТУРФ. Стройка остановлена.",
+          "english_gloss": "A sign explains the canceled Rusturf Tunnel project.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 293
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ТУННЕЛЬ РАСТУРФ должен соединить два города. Проект остановлен.",
+          "english_gloss": "A sign explains the canceled Rusturf Tunnel project.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 293
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ТУННЕЛЬ РАСТУРФ должен был соединить РАСТБОРО и ВЕРДАНТУРФ, но строительство отменили.",
+          "english_gloss": "A sign explains the canceled Rusturf Tunnel project.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 293
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.resthousesign.294",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ДОМ ОТДЫХА ШАХТЁРОВ",
+          "english_gloss": "The sign identifies the tunnel workers' rest house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 294
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ДОМ ОТДЫХА ДЛЯ РАБОЧИХ ТУННЕЛЯ",
+          "english_gloss": "The sign identifies the tunnel workers' rest house.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 294
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ДОМ ОТДЫХА СТРОИТЕЛЕЙ ТУННЕЛЯ",
+          "english_gloss": "The sign identifies the tunnel workers' rest house.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 294
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.evolutiontip.295",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Нажми B при эволюции, чтобы остановить её.",
+          "english_gloss": "A Trainer Tips sign explains evolution cancellation.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 295
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Чтобы отменить эволюцию покемона, нажми кнопку B во время превращения.",
+          "english_gloss": "A Trainer Tips sign explains evolution cancellation.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 295
+          }
+        },
+        {
+          "id": "natural",
+          "text": "СОВЕТ ТРЕНЕРУ: нажми кнопку B, пока покемон эволюционирует, чтобы отменить превращение.",
+          "english_gloss": "A Trainer Tips sign explains evolution cancellation.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 295
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.bagtip.296",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "В СУМКЕ есть карманы для разных предметов.",
+          "english_gloss": "A Trainer Tips sign explains Bag pockets.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "ru.route116_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 296
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Предметы сами попадают в нужные карманы СУМКИ.",
+          "english_gloss": "A Trainer Tips sign explains Bag pockets.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "ru.route116_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 296
+          }
+        },
+        {
+          "id": "natural",
+          "text": "СОВЕТ ТРЕНЕРУ: СУМКА разделена на карманы, и каждый найденный предмет автоматически попадает в подходящий карман.",
+          "english_gloss": "A Trainer Tips sign explains Bag pockets.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "ru.route116_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 296
           }
         }
       ]

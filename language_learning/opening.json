@@ -12901,6 +12901,358 @@
           ]
         ]
       }
+    },
+    {
+      "id": "RouteWorkerRest",
+      "base_symbol": "Route116_Text_1703CF",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Хочу копать туннель!"
+        ],
+        "A2": [
+          "Я хочу продолжить копать этот туннель!"
+        ],
+        "natural": [
+          "Р-р-р! Мне так хочется продолжить прокладывать туннель!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich will den Tunnel graben!"
+        ],
+        "A2": [
+          "Ich möchte diesen Tunnel weitergraben!"
+        ],
+        "natural": [
+          "Rrraar! Ich möchte unbedingt weiter an diesem Tunnel graben!"
+        ]
+      },
+      "english": [
+        "The worker wants to continue digging."
+      ],
+      "words": {
+        "ru": [
+          [
+            "копать",
+            "to dig"
+          ]
+        ],
+        "de": [
+          [
+            "graben",
+            "to dig"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteWorkerTunnel",
+      "base_symbol": "Route116_Text_1703F7",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Бандит выгнал меня из туннеля."
+        ],
+        "A2": [
+          "Бандит выгнал меня. Шум пугает покемонов в туннеле."
+        ],
+        "natural": [
+          "Какой-то бандит выгнал меня из туннеля. Мы не пользуемся тяжёлой техникой, потому что громкий шум пугает живущих там покемонов."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Gauner warf mich aus dem Tunnel."
+        ],
+        "A2": [
+          "Ein Gauner warf mich hinaus. Lärm erschreckt die Pokémon im Tunnel."
+        ],
+        "natural": [
+          "Ein Gauner hat mich aus dem Tunnel geworfen. Wir benutzen keine schweren Maschinen, weil lauter Lärm die dort lebenden Pokémon erschreckt."
+        ]
+      },
+      "english": [
+        "The worker explains why loud tunneling is dangerous."
+      ],
+      "words": {
+        "ru": [
+          [
+            "шум",
+            "noise"
+          ]
+        ],
+        "de": [
+          [
+            "der Lärm",
+            "noise"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteWorkerRecovered",
+      "base_symbol": "Route116_Text_170556",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Бандит ушёл. Можно снова копать!"
+        ],
+        "A2": [
+          "Бандит убежал из туннеля. Теперь я могу снова работать!"
+        ],
+        "natural": [
+          "Этот глупый бандит убежал из туннеля! Наконец-то я могу вернуться к работе."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Gauner ist weg. Ich kann wieder graben!"
+        ],
+        "A2": [
+          "Der Gauner floh aus dem Tunnel. Jetzt kann ich wieder arbeiten!"
+        ],
+        "natural": [
+          "Dieser alberne Gauner ist aus dem Tunnel geflohen! Endlich kann ich wieder an die Arbeit gehen."
+        ]
+      },
+      "english": [
+        "The worker celebrates the tunnel being safe again."
+      ],
+      "words": {
+        "ru": [
+          [
+            "работа",
+            "work"
+          ]
+        ],
+        "de": [
+          [
+            "die Arbeit",
+            "work"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteTunnelSign",
+      "base_symbol": "Route116_Text_170A46",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "МАРШРУТ 116. РАСТБОРО - налево."
+        ],
+        "A2": [
+          "МАРШРУТ 116. На западе находится РАСТБОРО."
+        ],
+        "natural": [
+          "МАРШРУТ 116. На запад - город РАСТБОРО."
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 116. METAROST liegt links."
+        ],
+        "A2": [
+          "ROUTE 116. Im Westen liegt METAROST."
+        ],
+        "natural": [
+          "ROUTE 116. Nach Westen geht es nach METAROST CITY."
+        ]
+      },
+      "english": [
+        "The Route 116 sign points toward Rustboro."
+      ],
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteSignOne",
+      "base_symbol": "Route116_Text_170A60",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "ТУННЕЛЬ РАСТУРФ. Стройка остановлена."
+        ],
+        "A2": [
+          "ТУННЕЛЬ РАСТУРФ должен соединить два города. Проект остановлен."
+        ],
+        "natural": [
+          "ТУННЕЛЬ РАСТУРФ должен был соединить РАСТБОРО и ВЕРДАНТУРФ, но строительство отменили."
+        ]
+      },
+      "de": {
+        "A1": [
+          "METAFLURTUNNEL. Bau gestoppt."
+        ],
+        "A2": [
+          "Der METAFLURTUNNEL soll zwei Städte verbinden. Das Projekt wurde gestoppt."
+        ],
+        "natural": [
+          "Der METAFLURTUNNEL sollte METAROST und WIESENFLUR verbinden, doch das Bauprojekt wurde eingestellt."
+        ]
+      },
+      "english": [
+        "A sign explains the canceled Rusturf Tunnel project."
+      ],
+      "words": {
+        "ru": [
+          [
+            "проект",
+            "project"
+          ]
+        ],
+        "de": [
+          [
+            "das Projekt",
+            "project"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteRestHouseSign",
+      "base_symbol": "Route116_Text_170AB8",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "ДОМ ОТДЫХА ШАХТЁРОВ"
+        ],
+        "A2": [
+          "ДОМ ОТДЫХА ДЛЯ РАБОЧИХ ТУННЕЛЯ"
+        ],
+        "natural": [
+          "ДОМ ОТДЫХА СТРОИТЕЛЕЙ ТУННЕЛЯ"
+        ]
+      },
+      "de": {
+        "A1": [
+          "RASTHAUS DER TUNNELARBEITER"
+        ],
+        "A2": [
+          "RASTHAUS FÜR TUNNELARBEITER"
+        ],
+        "natural": [
+          "RASTHAUS DER TUNNELARBEITER"
+        ]
+      },
+      "english": [
+        "The sign identifies the tunnel workers' rest house."
+      ],
+      "words": {
+        "ru": [
+          [
+            "отдых",
+            "rest"
+          ]
+        ],
+        "de": [
+          [
+            "die Rast",
+            "rest"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteEvolutionTip",
+      "base_symbol": "Route116_Text_170ACE",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "Нажми B при эволюции, чтобы остановить её."
+        ],
+        "A2": [
+          "Чтобы отменить эволюцию покемона, нажми кнопку B во время превращения."
+        ],
+        "natural": [
+          "СОВЕТ ТРЕНЕРУ: нажми кнопку B, пока покемон эволюционирует, чтобы отменить превращение."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Drücke B während der Entwicklung, um sie zu stoppen."
+        ],
+        "A2": [
+          "Drücke während der Entwicklung eines Pokémon den B-Knopf, um sie abzubrechen."
+        ],
+        "natural": [
+          "TRAINERTIPP: Drücke den B-Knopf, während sich ein Pokémon entwickelt, um die Entwicklung abzubrechen."
+        ]
+      },
+      "english": [
+        "A Trainer Tips sign explains evolution cancellation."
+      ],
+      "words": {
+        "ru": [
+          [
+            "эволюция",
+            "evolution"
+          ]
+        ],
+        "de": [
+          [
+            "die Entwicklung",
+            "evolution"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "RouteBagTip",
+      "base_symbol": "Route116_Text_170B7D",
+      "source_path": "data/maps/Route116/text.inc",
+      "ru": {
+        "A1": [
+          "В СУМКЕ есть карманы для разных предметов."
+        ],
+        "A2": [
+          "Предметы сами попадают в нужные карманы СУМКИ."
+        ],
+        "natural": [
+          "СОВЕТ ТРЕНЕРУ: СУМКА разделена на карманы, и каждый найденный предмет автоматически попадает в подходящий карман."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der BEUTEL hat Taschen für verschiedene Items."
+        ],
+        "A2": [
+          "Items werden automatisch in die passende Tasche des BEUTELS gelegt."
+        ],
+        "natural": [
+          "TRAINERTIPP: Der BEUTEL ist in Taschen unterteilt. Jedes gefundene Item wird automatisch in die passende Tasche gelegt."
+        ]
+      },
+      "english": [
+        "A Trainer Tips sign explains Bag pockets."
+      ],
+      "words": {
+        "ru": [
+          [
+            "карман",
+            "pocket"
+          ]
+        ],
+        "de": [
+          [
+            "die Tasche",
+            "pocket"
+          ]
+        ]
+      }
     }
   ]
 }

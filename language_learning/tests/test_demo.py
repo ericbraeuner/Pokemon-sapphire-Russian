@@ -583,6 +583,7 @@ class LessonTests(unittest.TestCase):
                   'data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc',
                   'data/maps/Route101/scripts.inc', 'data/maps/Route102/scripts.inc',
                   'data/maps/Route103/scripts.inc', 'data/maps/Route104/scripts.inc',
+                  'data/maps/Route116/scripts.inc',
                   'data/maps/Route104_PrettyPetalFlowerShop/scripts.inc',
                   'data/maps/PetalburgWoods/scripts.inc',
                   'data/maps/RustboroCity/scripts.inc',

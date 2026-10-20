@@ -3307,6 +3307,101 @@
         "die Vitrine"
       ],
       "dictionary_form": "die Vitrine"
+    },
+    {
+      "id": "de.route116_1",
+      "lemma": "graben",
+      "english": "to dig",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.workerrest.289",
+      "forms": [
+        "graben"
+      ]
+    },
+    {
+      "id": "de.route116_2",
+      "lemma": "Lärm",
+      "english": "noise",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.workertunnel.290",
+      "forms": [
+        "der Lärm"
+      ],
+      "dictionary_form": "der Lärm"
+    },
+    {
+      "id": "de.route116_3",
+      "lemma": "Arbeit",
+      "english": "work",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.workerrecovered.291",
+      "forms": [
+        "die Arbeit"
+      ],
+      "dictionary_form": "die Arbeit"
+    },
+    {
+      "id": "de.route116_4",
+      "lemma": "Route",
+      "english": "route",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.tunnelsign.292",
+      "forms": [
+        "die Route"
+      ],
+      "dictionary_form": "die Route"
+    },
+    {
+      "id": "de.route116_5",
+      "lemma": "Projekt",
+      "english": "project",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.projectsign.293",
+      "forms": [
+        "das Projekt"
+      ],
+      "dictionary_form": "das Projekt"
+    },
+    {
+      "id": "de.route116_6",
+      "lemma": "Rast",
+      "english": "rest",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.resthousesign.294",
+      "forms": [
+        "die Rast"
+      ],
+      "dictionary_form": "die Rast"
+    },
+    {
+      "id": "de.route116_7",
+      "lemma": "Entwicklung",
+      "english": "evolution",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.evolutiontip.295",
+      "forms": [
+        "die Entwicklung"
+      ],
+      "dictionary_form": "die Entwicklung"
+    },
+    {
+      "id": "de.route116_8",
+      "lemma": "Tasche",
+      "english": "pocket",
+      "part_of_speech": "word",
+      "cefr": "A1",
+      "first_introduction": "route116.guide.bagtip.296",
+      "forms": [
+        "die Tasche"
+      ],
+      "dictionary_form": "die Tasche"
     }
   ],
   "grammar_notes": [
@@ -16467,6 +16562,430 @@
           "minimum_game_progress": {
             "chapter": "arrival",
             "sequence": 288
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.workerrest.289",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ich will den Tunnel graben!",
+          "english_gloss": "The worker wants to continue digging.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 289
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ich möchte diesen Tunnel weitergraben!",
+          "english_gloss": "The worker wants to continue digging.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 289
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Rrraar! Ich möchte unbedingt weiter an diesem Tunnel graben!",
+          "english_gloss": "The worker wants to continue digging.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_1"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 289
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.workertunnel.290",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Ein Gauner warf mich aus dem Tunnel.",
+          "english_gloss": "The worker explains why loud tunneling is dangerous.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 290
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Ein Gauner warf mich hinaus. Lärm erschreckt die Pokémon im Tunnel.",
+          "english_gloss": "The worker explains why loud tunneling is dangerous.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 290
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Ein Gauner hat mich aus dem Tunnel geworfen. Wir benutzen keine schweren Maschinen, weil lauter Lärm die dort lebenden Pokémon erschreckt.",
+          "english_gloss": "The worker explains why loud tunneling is dangerous.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_2"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 290
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.workerrecovered.291",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der Gauner ist weg. Ich kann wieder graben!",
+          "english_gloss": "The worker celebrates the tunnel being safe again.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 291
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der Gauner floh aus dem Tunnel. Jetzt kann ich wieder arbeiten!",
+          "english_gloss": "The worker celebrates the tunnel being safe again.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 291
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Dieser alberne Gauner ist aus dem Tunnel geflohen! Endlich kann ich wieder an die Arbeit gehen.",
+          "english_gloss": "The worker celebrates the tunnel being safe again.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_3"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 291
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.tunnelsign.292",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "ROUTE 116. METAROST liegt links.",
+          "english_gloss": "The Route 116 sign points toward Rustboro.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 292
+          }
+        },
+        {
+          "id": "connected",
+          "text": "ROUTE 116. Im Westen liegt METAROST.",
+          "english_gloss": "The Route 116 sign points toward Rustboro.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 292
+          }
+        },
+        {
+          "id": "natural",
+          "text": "ROUTE 116. Nach Westen geht es nach METAROST CITY.",
+          "english_gloss": "The Route 116 sign points toward Rustboro.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_4"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 292
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.projectsign.293",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "METAFLURTUNNEL. Bau gestoppt.",
+          "english_gloss": "A sign explains the canceled Rusturf Tunnel project.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 293
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Der METAFLURTUNNEL soll zwei Städte verbinden. Das Projekt wurde gestoppt.",
+          "english_gloss": "A sign explains the canceled Rusturf Tunnel project.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 293
+          }
+        },
+        {
+          "id": "natural",
+          "text": "Der METAFLURTUNNEL sollte METAROST und WIESENFLUR verbinden, doch das Bauprojekt wurde eingestellt.",
+          "english_gloss": "A sign explains the canceled Rusturf Tunnel project.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_5"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 293
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.resthousesign.294",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "RASTHAUS DER TUNNELARBEITER",
+          "english_gloss": "The sign identifies the tunnel workers' rest house.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 294
+          }
+        },
+        {
+          "id": "connected",
+          "text": "RASTHAUS FÜR TUNNELARBEITER",
+          "english_gloss": "The sign identifies the tunnel workers' rest house.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 294
+          }
+        },
+        {
+          "id": "natural",
+          "text": "RASTHAUS DER TUNNELARBEITER",
+          "english_gloss": "The sign identifies the tunnel workers' rest house.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_6"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 294
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.evolutiontip.295",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Drücke B während der Entwicklung, um sie zu stoppen.",
+          "english_gloss": "A Trainer Tips sign explains evolution cancellation.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 295
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Drücke während der Entwicklung eines Pokémon den B-Knopf, um sie abzubrechen.",
+          "english_gloss": "A Trainer Tips sign explains evolution cancellation.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 295
+          }
+        },
+        {
+          "id": "natural",
+          "text": "TRAINERTIPP: Drücke den B-Knopf, während sich ein Pokémon entwickelt, um die Entwicklung abzubrechen.",
+          "english_gloss": "A Trainer Tips sign explains evolution cancellation.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_7"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 295
+          }
+        }
+      ]
+    },
+    {
+      "dialogue_id": "route116.guide.bagtip.296",
+      "variants": [
+        {
+          "id": "simple",
+          "text": "Der BEUTEL hat Taschen für verschiedene Items.",
+          "english_gloss": "A Trainer Tips sign explains Bag pockets.",
+          "cefr": "A1",
+          "internal_difficulty": 5,
+          "vocabulary_ids": [
+            "de.route116_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 296
+          }
+        },
+        {
+          "id": "connected",
+          "text": "Items werden automatisch in die passende Tasche des BEUTELS gelegt.",
+          "english_gloss": "A Trainer Tips sign explains Bag pockets.",
+          "cefr": "A2",
+          "internal_difficulty": 20,
+          "vocabulary_ids": [
+            "de.route116_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 296
+          }
+        },
+        {
+          "id": "natural",
+          "text": "TRAINERTIPP: Der BEUTEL ist in Taschen unterteilt. Jedes gefundene Item wird automatisch in die passende Tasche gelegt.",
+          "english_gloss": "A Trainer Tips sign explains Bag pockets.",
+          "cefr": "B1",
+          "internal_difficulty": 40,
+          "vocabulary_ids": [
+            "de.route116_8"
+          ],
+          "grammar_note_ids": [],
+          "new_vocabulary_budget": 1,
+          "minimum_game_progress": {
+            "chapter": "arrival",
+            "sequence": 296
           }
         }
       ]

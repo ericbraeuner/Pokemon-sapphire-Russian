@@ -15,17 +15,29 @@ Route116_EventScript_150A49:: @ 8150A49
 	faceplayer
 	goto_if_set FLAG_RECOVERED_DEVON_GOODS, Route116_EventScript_150A67
 	goto_if_set FLAG_DEVON_GOODS_STOLEN, Route116_EventScript_150A71
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteWorkerRest
+	.else
 	msgbox Route116_Text_1703CF, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 Route116_EventScript_150A67:: @ 8150A67
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteWorkerRecovered
+	.else
 	msgbox Route116_Text_170556, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
 Route116_EventScript_150A71:: @ 8150A71
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteWorkerTunnel
+	.else
 	msgbox Route116_Text_1703F7, MSGBOX_DEFAULT
+	.endif
 	release
 	end
 
@@ -103,23 +115,43 @@ Route116_Movement_150B25:: @ 8150B25
 	step_end
 
 Route116_EventScript_150B30:: @ 8150B30
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteTunnelSign
+	.else
 	msgbox Route116_Text_170A46, MSGBOX_SIGN
+	.endif
 	end
 
 Route116_EventScript_150B39:: @ 8150B39
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteSignOne
+	.else
 	msgbox Route116_Text_170A60, MSGBOX_SIGN
+	.endif
 	end
 
 Route116_EventScript_150B42:: @ 8150B42
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteRestHouseSign
+	.else
 	msgbox Route116_Text_170AB8, MSGBOX_SIGN
+	.endif
 	end
 
 Route116_EventScript_150B4B:: @ 8150B4B
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteEvolutionTip
+	.else
 	msgbox Route116_Text_170ACE, MSGBOX_SIGN
+	.endif
 	end
 
 Route116_EventScript_150B54:: @ 8150B54
+	.ifdef LEARNER_DEMO
+	call LearnerOpening_RouteBagTip
+	.else
 	msgbox Route116_Text_170B7D, MSGBOX_SIGN
+	.endif
 	end
 
 Route116_EventScript_150B5D:: @ 8150B5D

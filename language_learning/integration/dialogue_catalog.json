@@ -5846,6 +5846,166 @@
         "rustboro",
         "devon"
       ]
+    },
+    {
+      "id": "route116.guide.workerrest.289",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150A49",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_1703CF",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteWorkerRest"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 289
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.workertunnel.290",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150A71",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_1703F7",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteWorkerTunnel"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 290
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.workerrecovered.291",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150A67",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170556",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteWorkerRecovered"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 291
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.tunnelsign.292",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B30",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170A46",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteTunnelSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 292
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.projectsign.293",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B39",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170A60",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteSignOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 293
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.resthousesign.294",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B42",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170AB8",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteRestHouseSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 294
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.evolutiontip.295",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B4B",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170ACE",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteEvolutionTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 295
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
+    },
+    {
+      "id": "route116.guide.bagtip.296",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route116/scripts.inc",
+        "symbol": "Route116_EventScript_150B54",
+        "base_text_path": "data/maps/Route116/text.inc",
+        "base_text_symbol": "Route116_Text_170B7D",
+        "note": "Adaptive wording preserves the original route interaction.",
+        "authored_id": "RouteBagTip"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 296
+      },
+      "tags": [
+        "route116",
+        "guide"
+      ]
     }
   ]
 }

@@ -3,6 +3,36 @@ import re
 import build_demo as demo
 
 
+def _template_width(text, mapping, glyphs, widths):
+    total = 0
+    for part in re.split(r'(\{[^}]+\})', text):
+        if part.startswith('{'):
+            total += widths[part[1:-1]]
+        else:
+            total += sum(len(glyphs[c][0]) + 1 if c in glyphs else 8 for c in part)
+    return total
+
+
+def _wrap_template(text, mapping, glyphs, widths, max_width=192):
+    lines = []
+    current = ''
+    for word in text.split():
+        if _template_width(word, mapping, glyphs, widths) > max_width:
+            raise ValueError(f'Template word exceeds message width: {word}')
+        candidate = f'{current} {word}' if current else word
+        if current and _template_width(candidate, mapping, glyphs, widths) > max_width:
+            lines.append(current)
+            current = word
+        else:
+            current = candidate
+    if current:
+        lines.append(current)
+    result = lines[0]
+    for index, line in enumerate(lines[1:], 1):
+        result += (r'\n' if index % 2 else r'\p') + line
+    return result
+
+
 def load():
     data = demo.validate.load(demo.ROOT / 'language_learning/opening.json')
     ids = set()
@@ -31,10 +61,27 @@ def load():
 
 
 def generate(russian, latin, glyphs):
+    import field_templates
+    field_entries = demo.validate.load(demo.ROOT / 'language_learning/field_templates.json')
     parts, scripts, shortcut_handlers, adaptive_table = [], [], [], []
-    def messages(label, paragraphs, mapping, font, dictionary=None, count_exposure=False):
+    def messages(label, paragraphs, mapping, font, dictionary=None, count_exposure=False,
+                 template_entry=None):
         labels = []
         for paragraph in paragraphs:
+            if '{' in paragraph:
+                if template_entry is None:
+                    raise ValueError('Runtime text token has no field-template metadata')
+                bitmap = glyphs if font == 0 else {}
+                widths = template_entry.get('widths', {})
+                wrapped = _wrap_template(paragraph, mapping, bitmap, widths,
+                                         template_entry.get('max_width', 192))
+                name = f'{label}_{len(labels)}'
+                parts.append(demo.assembly_bytes(name, field_templates.compile_text(
+                    wrapped, mapping, bitmap, font, widths,
+                    template_entry.get('max_width', 192),
+                    template_entry.get('buffer_lengths'))))
+                labels.append(name)
+                continue
             lines = demo.wrap(paragraph, mapping, glyphs if font == 0 else {})
             for offset in range(0, len(lines), 2):
                 name = f'{label}_{len(labels)}'
@@ -102,7 +149,9 @@ def generate(russian, latin, glyphs):
             for band in ('A1', 'A2', 'natural'):
                 label = f'{base}_{band}'
                 scripts.append(f'{label}:\n' + messages(label + 'Text', entry[tag][band], mapping, font,
-                                                        f'{base}_WordsDisplay', True) + f'\tgoto {base}_Menu\n')
+                                                        f'{base}_WordsDisplay', True,
+                                                        field_entries.get(entry['base_symbol']))
+                               + f'\tgoto {base}_Menu\n')
             scripts.append(f'{base}_Menu:\n\tclosemessage\n\tmultichoice 0, 0, MULTI_LEARNER_{tag.upper()}, 0\n'
                            f'\tcompare VAR_RESULT, 1\n\tgoto_if_eq {base}\n'
                            f'\tcompare VAR_RESULT, 2\n\tgoto_if_eq {base}_Hint\n'
@@ -127,8 +176,20 @@ def generate(russian, latin, glyphs):
                     label = f'{root}_{tag}_{band}AdaptiveText'
                     mapping = russian if tag == 'ru' else latin
                     font = 0 if tag == 'ru' else 3
-                    parts.append(demo.assembly_bytes(label, demo.message(
-                        entry[tag][band], mapping, glyphs if tag == 'ru' else {}, font)))
+                    text = entry[tag][band][0]
+                    bitmap = glyphs if tag == 'ru' else {}
+                    if '{' in text:
+                        field_entry = field_entries[entry['base_symbol']]
+                        widths = field_entry.get('widths', {})
+                        wrapped = _wrap_template(text, mapping, bitmap, widths,
+                                                 field_entry.get('max_width', 192))
+                        data = field_templates.compile_text(
+                            wrapped, mapping, bitmap, font, widths,
+                            field_entry.get('max_width', 192),
+                            field_entry.get('buffer_lengths'))
+                    else:
+                        data = demo.message(entry[tag][band], mapping, bitmap, font)
+                    parts.append(demo.assembly_bytes(label, data))
                     labels.append(label)
             adaptive_table.append(f'\t.4byte {entry["base_symbol"]}, ' + ', '.join(labels)
                                   + f'\n\t.2byte {context_id}, 0')

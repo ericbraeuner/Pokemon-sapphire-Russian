@@ -18812,6 +18812,2886 @@
           ]
         ]
       }
+    },
+    {
+      "id": "DewfordhallAllegedtrendnotauthentic",
+      "base_symbol": "DewfordTown_Hall_Text_AllegedTrendNotAuthentic",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Нет-нет."
+        ],
+        "A2": [
+          "Нет-нет. То {STR_VAR_1}, которое ты видел, ненастоящее."
+        ],
+        "natural": [
+          "Нет-нет. То {STR_VAR_1}, которое ты видел, ненастоящее. Подлинник гораздо ярче и приятнее. Просто поразительно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nein, nein."
+        ],
+        "A2": [
+          "Nein, nein. Dein angebliches {STR_VAR_1} ist nicht echt."
+        ],
+        "natural": [
+          "Nein, nein. Dein angebliches {STR_VAR_1} ist nicht echt. Das Original ist viel schärfer und zugleich angenehmer. Einfach erstaunlich!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallBirthoftrend",
+      "base_symbol": "DewfordTown_Hall_Text_BirthOfTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Название: РОЖДЕНИЕ {STR_VAR_1}."
+        ],
+        "A2": [
+          "Название: РОЖДЕНИЕ {STR_VAR_1}."
+        ],
+        "natural": [
+          "Название: РОЖДЕНИЕ {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Titel lautet: DIE GEBURT VON {STR_VAR_1}."
+        ],
+        "A2": [
+          "Der Titel lautet: DIE GEBURT VON {STR_VAR_1}."
+        ],
+        "natural": [
+          "Der Titel lautet: DIE GEBURT VON {STR_VAR_1}."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallBooksabouttrend",
+      "base_symbol": "DewfordTown_Hall_Text_BooksAboutTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "ХОРОШЕЕ И ПЛОХОЕ {STR_VAR_1}."
+        ],
+        "A2": [
+          "ХОРОШЕЕ И ПЛОХОЕ {STR_VAR_1}. СВЯЗЬ МЕЖДУ {STR_VAR_1} И ПОКЕМОНАМИ."
+        ],
+        "natural": [
+          "ХОРОШЕЕ И ПЛОХОЕ {STR_VAR_1}. СВЯЗЬ МЕЖДУ {STR_VAR_1} И ПОКЕМОНАМИ. ПОЛЕЗНОЕ {STR_VAR_1}. Полка набита книгами об этой теме."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "GUTES UND SCHLECHTES {STR_VAR_1}."
+        ],
+        "A2": [
+          "GUTES UND SCHLECHTES {STR_VAR_1}. DIE VERBINDUNG VON {STR_VAR_1} UND POKÉMON."
+        ],
+        "natural": [
+          "GUTES UND SCHLECHTES {STR_VAR_1}. DIE VERBINDUNG VON {STR_VAR_1} UND POKÉMON. NÜTZLICHES {STR_VAR_1}. Das Regal ist voller Bücher dazu."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallBrilliantindeed",
+      "base_symbol": "DewfordTown_Hall_Text_BrilliantIndeed",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Прекрасная идея!"
+        ],
+        "A2": [
+          "Прекрасная идея! Мы выясним, кто лучше всех знает {STR_VAR_1}."
+        ],
+        "natural": [
+          "Прекрасная идея! Мы выясним, кто лучше всех знает {STR_VAR_1}. С этого дня вся наша жизнь посвящена этой теме!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine großartige Idee!"
+        ],
+        "A2": [
+          "Eine großartige Idee! Wir finden heraus, wer {STR_VAR_1} am besten kennt."
+        ],
+        "natural": [
+          "Eine großartige Idee! Wir finden heraus, wer {STR_VAR_1} am besten kennt. Ab heute dreht sich unser Leben darum!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallCantimaginelifewithouttrend",
+      "base_symbol": "DewfordTown_Hall_Text_CantImagineLifeWithoutTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Что модно?"
+        ],
+        "A2": [
+          "Что модно? Конечно, {STR_VAR_1}!"
+        ],
+        "natural": [
+          "Что модно? Конечно, {STR_VAR_1}! Не представляю жизнь без этого!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was ist modern?"
+        ],
+        "A2": [
+          "Was ist modern? Natürlich {STR_VAR_1}!"
+        ],
+        "natural": [
+          "Was ist modern? Natürlich {STR_VAR_1}! Ein Leben ohne das ist unvorstellbar!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallCollecttrendmerchandise",
+      "base_symbol": "DewfordTown_Hall_Text_CollectTrendMerchandise",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Я собираю официальные товары {STR_VAR_1}: кукол, одежду и книги."
+        ],
+        "A2": [
+          "Я собираю официальные товары {STR_VAR_1}: кукол, одежду и книги. Хе-хе, всё моё!"
+        ],
+        "natural": [
+          "Я собираю официальные товары {STR_VAR_1}: кукол, одежду и книги. Хе-хе, всё моё! Ничем не поделюсь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sammle offizielle {STR_VAR_1}-Artikel: Puppen, Kleidung und Bücher."
+        ],
+        "A2": [
+          "Ich sammle offizielle {STR_VAR_1}-Artikel: Puppen, Kleidung und Bücher. Hehe, alles meins!"
+        ],
+        "natural": [
+          "Ich sammle offizielle {STR_VAR_1}-Artikel: Puppen, Kleidung und Bücher. Hehe, alles meins! Ich teile nichts!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallComposedtrendthemesong",
+      "base_symbol": "DewfordTown_Hall_Text_ComposedTrendThemeSong",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Послушай, я сочинил песню о {STR_VAR_1}."
+        ],
+        "A2": [
+          "Послушай, я сочинил песню о {STR_VAR_1}. Сейчас это очень популярно."
+        ],
+        "natural": [
+          "Послушай, я сочинил песню о {STR_VAR_1}. Сейчас это очень популярно. О, прекрасное {STR_VAR_1}!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hör zu, ich schrieb ein Lied über {STR_VAR_1}."
+        ],
+        "A2": [
+          "Hör zu, ich schrieb ein Lied über {STR_VAR_1}. Es ist gerade sehr beliebt."
+        ],
+        "natural": [
+          "Hör zu, ich schrieb ein Lied über {STR_VAR_1}. Es ist gerade sehr beliebt. Oh, wundervolles {STR_VAR_1}!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallDeeplinkbetweenxandy",
+      "base_symbol": "DewfordTown_Hall_Text_DeepLinkBetweenXAndY",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Я изучаю модную тему {STR_VAR_1}."
+        ],
+        "A2": [
+          "Я изучаю модную тему {STR_VAR_1}. Правда ли, что она тесно связана с {STR_VAR_2}?"
+        ],
+        "natural": [
+          "Я изучаю модную тему {STR_VAR_1}. Правда ли, что она тесно связана с {STR_VAR_2}?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich erforsche den Trend {STR_VAR_1}."
+        ],
+        "A2": [
+          "Ich erforsche den Trend {STR_VAR_1}. Ist er wirklich eng mit {STR_VAR_2} verbunden?"
+        ],
+        "natural": [
+          "Ich erforsche den Trend {STR_VAR_1}. Ist er wirklich eng mit {STR_VAR_2} verbunden?"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallGettingboredoftrend",
+      "base_symbol": "DewfordTown_Hall_Text_GettingBoredOfTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Сейчас модно {STR_VAR_1}!"
+        ],
+        "A2": [
+          "Сейчас модно {STR_VAR_1}! Но мне уже скучно."
+        ],
+        "natural": [
+          "Сейчас модно {STR_VAR_1}! Но мне уже скучно. Пора искать следующий хит."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jetzt ist {STR_VAR_1} modern!"
+        ],
+        "A2": [
+          "Jetzt ist {STR_VAR_1} modern! Doch mir wird langweilig."
+        ],
+        "natural": [
+          "Jetzt ist {STR_VAR_1} modern! Doch mir wird langweilig. Zeit für den nächsten Hit."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallGiveyousludgebomb",
+      "base_symbol": "DewfordTown_Hall_Text_GiveYouSludgeBomb",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Для меня БОМБА ГРЯЗИ - вершина моды."
+        ],
+        "A2": [
+          "Для меня БОМБА ГРЯЗИ - вершина моды. Ты о ней не знаешь?"
+        ],
+        "natural": [
+          "Для меня БОМБА ГРЯЗИ - вершина моды. Ты о ней не знаешь? Какая жалость. Я дам тебе одну."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Für mich ist MATSCHBOMBE der Gipfel der Mode."
+        ],
+        "A2": [
+          "Für mich ist MATSCHBOMBE der Gipfel der Mode. Du kennst sie nicht?"
+        ],
+        "natural": [
+          "Für mich ist MATSCHBOMBE der Gipfel der Mode. Du kennst sie nicht? Wie traurig. Ich gebe dir eine."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallIfweteamupwellbeinvincible",
+      "base_symbol": "DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Если мы объединимся, то станем непобедимы во всём, что касается {STR_VAR_1}!"
+        ],
+        "A2": [
+          "Если мы объединимся, то станем непобедимы во всём, что касается {STR_VAR_1}!"
+        ],
+        "natural": [
+          "Если мы объединимся, то станем непобедимы во всём, что касается {STR_VAR_1}!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn wir uns zusammentun, sind wir bei allem rund um {STR_VAR_1} unschlagbar!"
+        ],
+        "A2": [
+          "Wenn wir uns zusammentun, sind wir bei allem rund um {STR_VAR_1} unschlagbar!"
+        ],
+        "natural": [
+          "Wenn wir uns zusammentun, sind wir bei allem rund um {STR_VAR_1} unschlagbar!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallIstrendmorepopularacrosssea",
+      "base_symbol": "DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "А за морем {STR_VAR_1} ещё популярнее?"
+        ],
+        "A2": [
+          "А за морем {STR_VAR_1} ещё популярнее?"
+        ],
+        "natural": [
+          "А за морем {STR_VAR_1} ещё популярнее?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ist {STR_VAR_1} jenseits des Meeres noch beliebter?"
+        ],
+        "A2": [
+          "Ist {STR_VAR_1} jenseits des Meeres noch beliebter?"
+        ],
+        "natural": [
+          "Ist {STR_VAR_1} jenseits des Meeres noch beliebter?"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallLasttrend",
+      "base_symbol": "DewfordTown_Hall_Text_LastTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Название: ПОСЛЕДНЕЕ {STR_VAR_1}."
+        ],
+        "A2": [
+          "Название: ПОСЛЕДНЕЕ {STR_VAR_1}."
+        ],
+        "natural": [
+          "Название: ПОСЛЕДНЕЕ {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Titel lautet: DAS LETZTE {STR_VAR_1}."
+        ],
+        "A2": [
+          "Der Titel lautet: DAS LETZTE {STR_VAR_1}."
+        ],
+        "natural": [
+          "Der Titel lautet: DAS LETZTE {STR_VAR_1}."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallLovesludgebombbuttrendintoo",
+      "base_symbol": "DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Я люблю БОМБУ ГРЯЗИ."
+        ],
+        "A2": [
+          "Я люблю БОМБУ ГРЯЗИ. Но покемоны с движением {STR_VAR_1} тоже в моде."
+        ],
+        "natural": [
+          "Я люблю БОМБУ ГРЯЗИ. Но покемоны с движением {STR_VAR_1} тоже в моде."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich liebe MATSCHBOMBE."
+        ],
+        "A2": [
+          "Ich liebe MATSCHBOMBE. Doch Pokémon mit der Attacke {STR_VAR_1} sind ebenfalls modern."
+        ],
+        "natural": [
+          "Ich liebe MATSCHBOMBE. Doch Pokémon mit der Attacke {STR_VAR_1} sind ebenfalls modern."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallMyhunchwasright",
+      "base_symbol": "DewfordTown_Hall_Text_MyHunchWasRight",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Значит, я был прав!"
+        ],
+        "A2": [
+          "Значит, я был прав! Я ещё на шаг ближе к вершине моды!"
+        ],
+        "natural": [
+          "Значит, я был прав! Я ещё на шаг ближе к вершине моды!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Also hatte ich recht!"
+        ],
+        "A2": [
+          "Also hatte ich recht! Noch ein Schritt näher an der Spitze der Mode!"
+        ],
+        "natural": [
+          "Also hatte ich recht! Noch ein Schritt näher an der Spitze der Mode!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallNoteasytokeepup",
+      "base_symbol": "DewfordTown_Hall_Text_NotEasyToKeepUp",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Что?!"
+        ],
+        "A2": [
+          "Что?! Правда?"
+        ],
+        "natural": [
+          "Что?! Правда? В моём возрасте трудно следить за модой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?!"
+        ],
+        "A2": [
+          "Was?! Wirklich?"
+        ],
+        "natural": [
+          "Was?! Wirklich? In meinem Alter ist es schwer, Trends zu folgen!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallOrganizetrendparty",
+      "base_symbol": "DewfordTown_Hall_Text_OrganizeTrendParty",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Как я говорил, нам надо устроить на острове вечеринку {STR_VAR_1}."
+        ],
+        "A2": [
+          "Как я говорил, нам надо устроить на острове вечеринку {STR_VAR_1}."
+        ],
+        "natural": [
+          "Как я говорил, нам надо устроить на острове вечеринку {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie gesagt, wir sollten auf der Insel eine {STR_VAR_1}-Party veranstalten."
+        ],
+        "A2": [
+          "Wie gesagt, wir sollten auf der Insel eine {STR_VAR_1}-Party veranstalten."
+        ],
+        "natural": [
+          "Wie gesagt, wir sollten auf der Insel eine {STR_VAR_1}-Party veranstalten."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallSawtrendcoolestthing",
+      "base_symbol": "DewfordTown_Hall_Text_SawTrendCoolestThing",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Я видел {STR_VAR_1}!"
+        ],
+        "A2": [
+          "Я видел {STR_VAR_1}! Круто, да?"
+        ],
+        "natural": [
+          "Я видел {STR_VAR_1}! Круто, да? Самая модная и потрясающая вещь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sah {STR_VAR_1}!"
+        ],
+        "A2": [
+          "Ich sah {STR_VAR_1}! Cool, oder?"
+        ],
+        "natural": [
+          "Ich sah {STR_VAR_1}! Cool, oder? Das Modernste und Erstaunlichste überhaupt!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallTvshowabouttrend",
+      "base_symbol": "DewfordTown_Hall_Text_TVShowAboutTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Вся эта тема {STR_VAR_1}..."
+        ],
+        "A2": [
+          "Вся эта тема {STR_VAR_1}... Разве о ней нет телепередачи?"
+        ],
+        "natural": [
+          "Вся эта тема {STR_VAR_1}... Разве о ней нет телепередачи?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieses ganze Thema {STR_VAR_1}..."
+        ],
+        "A2": [
+          "Dieses ganze Thema {STR_VAR_1}... Gibt es darüber nicht eine Fernsehsendung?"
+        ],
+        "natural": [
+          "Dieses ganze Thema {STR_VAR_1}... Gibt es darüber nicht eine Fernsehsendung?"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallTeachingmonabouttrend",
+      "base_symbol": "DewfordTown_Hall_Text_TeachingMonAboutTrend",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Я рассказываю покемону о {STR_VAR_1}, но он плохо понимает."
+        ],
+        "A2": [
+          "Я рассказываю покемону о {STR_VAR_1}, но он плохо понимает. Наверное, это слишком сложно."
+        ],
+        "natural": [
+          "Я рассказываю покемону о {STR_VAR_1}, но он плохо понимает. Наверное, это слишком сложно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich erkläre meinem Pokémon {STR_VAR_1}, doch es versteht kaum etwas."
+        ],
+        "A2": [
+          "Ich erkläre meinem Pokémon {STR_VAR_1}, doch es versteht kaum etwas. Das ist wohl zu viel."
+        ],
+        "natural": [
+          "Ich erkläre meinem Pokémon {STR_VAR_1}, doch es versteht kaum etwas. Das ist wohl zu viel."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallTrendhasbecomepartoflife",
+      "base_symbol": "DewfordTown_Hall_Text_TrendHasBecomePartOfLife",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Разве {STR_VAR_1} уже не перестало быть просто модой и не стало частью нашей жизни?"
+        ],
+        "A2": [
+          "Разве {STR_VAR_1} уже не перестало быть просто модой и не стало частью нашей жизни?"
+        ],
+        "natural": [
+          "Разве {STR_VAR_1} уже не перестало быть просто модой и не стало частью нашей жизни?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ist {STR_VAR_1} nicht längst mehr als ein Trend und Teil unseres Alltags geworden?"
+        ],
+        "A2": [
+          "Ist {STR_VAR_1} nicht längst mehr als ein Trend und Teil unseres Alltags geworden?"
+        ],
+        "natural": [
+          "Ist {STR_VAR_1} nicht längst mehr als ein Trend und Teil unseres Alltags geworden?"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallTrendweighsheavilyonmind",
+      "base_symbol": "DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Правда, {STR_VAR_1} занимает все твои мысли днём и ночью."
+        ],
+        "A2": [
+          "Правда, {STR_VAR_1} занимает все твои мысли днём и ночью. Ты настоящий ПРОФЕССОР этой темы!"
+        ],
+        "natural": [
+          "Правда, {STR_VAR_1} занимает все твои мысли днём и ночью. Ты настоящий ПРОФЕССОР этой темы!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Tatsächlich beschäftigt dich {STR_VAR_1} Tag und Nacht."
+        ],
+        "A2": [
+          "Tatsächlich beschäftigt dich {STR_VAR_1} Tag und Nacht. Du bist ein echter PROFESSOR dieses Themas!"
+        ],
+        "natural": [
+          "Tatsächlich beschäftigt dich {STR_VAR_1} Tag und Nacht. Du bist ein echter PROFESSOR dieses Themas!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallTrendsscream",
+      "base_symbol": "DewfordTown_Hall_Text_TrendsScream",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Название: КРИК {STR_VAR_1}."
+        ],
+        "A2": [
+          "Название: КРИК {STR_VAR_1}."
+        ],
+        "natural": [
+          "Название: КРИК {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Titel lautet: DER SCHREI VON {STR_VAR_1}."
+        ],
+        "A2": [
+          "Der Titel lautet: DER SCHREI VON {STR_VAR_1}."
+        ],
+        "natural": [
+          "Der Titel lautet: DER SCHREI VON {STR_VAR_1}."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallTrendssmile",
+      "base_symbol": "DewfordTown_Hall_Text_TrendsSmile",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Название: УЛЫБКА {STR_VAR_1}."
+        ],
+        "A2": [
+          "Название: УЛЫБКА {STR_VAR_1}."
+        ],
+        "natural": [
+          "Название: УЛЫБКА {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Titel lautet: DAS LÄCHELN VON {STR_VAR_1}."
+        ],
+        "A2": [
+          "Der Titel lautet: DAS LÄCHELN VON {STR_VAR_1}."
+        ],
+        "natural": [
+          "Der Titel lautet: DAS LÄCHELN VON {STR_VAR_1}."
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallWellbetrendduo",
+      "base_symbol": "DewfordTown_Hall_Text_WellBeTrendDuo",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Точно, друг!"
+        ],
+        "A2": [
+          "Точно, друг! Мы станем дуэтом {STR_VAR_1}!"
+        ],
+        "natural": [
+          "Точно, друг! Мы станем дуэтом {STR_VAR_1}! Звучит здорово!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Genau, mein Freund!"
+        ],
+        "A2": [
+          "Genau, mein Freund! Wir werden das {STR_VAR_1}-DUO!"
+        ],
+        "natural": [
+          "Genau, mein Freund! Wir werden das {STR_VAR_1}-DUO! Klingt großartig!"
+        ]
+      }
+    },
+    {
+      "id": "DewfordhallWorkonyoursinging",
+      "base_symbol": "DewfordTown_Hall_Text_WorkOnYourSinging",
+      "source_path": "data/maps/DewfordTown_Hall/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Dewford resident talks about the island's current trend."
+      ],
+      "ru": {
+        "A1": [
+          "Друг, сначала тебе стоит поработать над пением, а уже потом браться за {STR_VAR_1}."
+        ],
+        "A2": [
+          "Друг, сначала тебе стоит поработать над пением, а уже потом браться за {STR_VAR_1}."
+        ],
+        "natural": [
+          "Друг, сначала тебе стоит поработать над пением, а уже потом браться за {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "мода",
+            "fashion"
+          ]
+        ],
+        "de": [
+          [
+            "der Trend",
+            "trend"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Freund, arbeite erst an deinem Gesang, bevor du dich an {STR_VAR_1} wagst."
+        ],
+        "A2": [
+          "Mein Freund, arbeite erst an deinem Gesang, bevor du dich an {STR_VAR_1} wagst."
+        ],
+        "natural": [
+          "Mein Freund, arbeite erst an deinem Gesang, bevor du dich an {STR_VAR_1} wagst."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightBFourZero",
+      "base_symbol": "Route105_Text_1B8B40",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Говорят, где-то здесь есть таинственный камень."
+        ],
+        "A2": [
+          "Говорят, где-то здесь есть таинственный камень. Вы что-нибудь о нём знаете?"
+        ],
+        "natural": [
+          "Говорят, где-то здесь есть таинственный камень. Вы что-нибудь о нём знаете?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier soll es einen geheimnisvollen Felsen geben."
+        ],
+        "A2": [
+          "Hier soll es einen geheimnisvollen Felsen geben. Weißt du etwas darüber?"
+        ],
+        "natural": [
+          "Hier soll es einen geheimnisvollen Felsen geben. Weißt du etwas darüber?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightBNineThree",
+      "base_symbol": "Route105_Text_1B8B93",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я слишком много думал о камне и забыл тренировать покемонов..."
+        ],
+        "A2": [
+          "Я слишком много думал о камне и забыл тренировать покемонов..."
+        ],
+        "natural": [
+          "Я слишком много думал о камне и забыл тренировать покемонов..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich dachte zu viel über den Felsen nach und vergaß, meine Pokémon zu trainieren..."
+        ],
+        "A2": [
+          "Ich dachte zu viel über den Felsen nach und vergaß, meine Pokémon zu trainieren..."
+        ],
+        "natural": [
+          "Ich dachte zu viel über den Felsen nach und vergaß, meine Pokémon zu trainieren..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightBde",
+      "base_symbol": "Route105_Text_1B8BDE",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я могу часами смотреть на красивый камень и не скучать."
+        ],
+        "A2": [
+          "Я могу часами смотреть на красивый камень и не скучать."
+        ],
+        "natural": [
+          "Я могу часами смотреть на красивый камень и не скучать."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich kann stundenlang einen schönen Felsen ansehen, ohne mich zu langweilen."
+        ],
+        "A2": [
+          "Ich kann stundenlang einen schönen Felsen ansehen, ohne mich zu langweilen."
+        ],
+        "natural": [
+          "Ich kann stundenlang einen schönen Felsen ansehen, ohne mich zu langweilen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightCTwoEight",
+      "base_symbol": "Route105_Text_1B8C28",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Фух!"
+        ],
+        "A2": [
+          "Фух! Я испугался, что ребёнок тонет."
+        ],
+        "natural": [
+          "Фух! Я испугался, что ребёнок тонет. Но с вами всё хорошо. Сразимся?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puh!"
+        ],
+        "A2": [
+          "Puh! Ich dachte, ein Kind ertrinkt."
+        ],
+        "natural": [
+          "Puh! Ich dachte, ein Kind ertrinkt. Aber dir geht es gut. Kämpfen wir?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightCNineNine",
+      "base_symbol": "Route105_Text_1B8C99",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Буль..."
+        ],
+        "A2": [
+          "Буль... Буль..."
+        ],
+        "natural": [
+          "Буль... Буль..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Blubb..."
+        ],
+        "A2": [
+          "Blubb... Blubb..."
+        ],
+        "natural": [
+          "Blubb... Blubb..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightCaNine",
+      "base_symbol": "Route105_Text_1B8CA9",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Если тонете, подайте сигнал: машите одной рукой в сторону берега."
+        ],
+        "A2": [
+          "Если тонете, подайте сигнал: машите одной рукой в сторону берега."
+        ],
+        "natural": [
+          "Если тонете, подайте сигнал: машите одной рукой в сторону берега."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn du ertrinkst, winke mit einem Arm zum Strand."
+        ],
+        "A2": [
+          "Wenn du ertrinkst, winke mit einem Arm zum Strand. Das ist das Notsignal."
+        ],
+        "natural": [
+          "Wenn du ertrinkst, winke mit einem Arm zum Strand. Das ist das Notsignal."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightCee",
+      "base_symbol": "Route105_Text_1B8CEE",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Плыть по глубокому синему морю..."
+        ],
+        "A2": [
+          "Плыть по глубокому синему морю... Это лучше всего!"
+        ],
+        "natural": [
+          "Плыть по глубокому синему морю... Это лучше всего!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Durch das tiefe blaue Meer zu schwimmen..."
+        ],
+        "A2": [
+          "Durch das tiefe blaue Meer zu schwimmen... Das ist das Größte!"
+        ],
+        "natural": [
+          "Durch das tiefe blaue Meer zu schwimmen... Das ist das Größte!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightDTwoThree",
+      "base_symbol": "Route105_Text_1B8D23",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграла..."
+        ],
+        "A2": [
+          "Я проиграла... Теперь мне грустно..."
+        ],
+        "natural": [
+          "Я проиграла... Теперь мне грустно..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren..."
+        ],
+        "A2": [
+          "Ich habe verloren... Jetzt bin ich traurig..."
+        ],
+        "natural": [
+          "Ich habe verloren... Jetzt bin ich traurig..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightDFourFive",
+      "base_symbol": "Route105_Text_1B8D45",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Почему море синее?"
+        ],
+        "A2": [
+          "Почему море синее? Я узнала это в музее Порт-Слейта, но забыла."
+        ],
+        "natural": [
+          "Почему море синее? Я узнала это в музее Порт-Слейта, но забыла."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Warum ist das Meer blau?"
+        ],
+        "A2": [
+          "Warum ist das Meer blau? Ich lernte es im Museum von Graphitport, habe es aber vergessen."
+        ],
+        "natural": [
+          "Warum ist das Meer blau? Ich lernte es im Museum von Graphitport, habe es aber vergessen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightDNineNine",
+      "base_symbol": "Route105_Text_1B8D99",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "В воде тело кажется легче."
+        ],
+        "A2": [
+          "В воде тело кажется легче. Будто я похудела!"
+        ],
+        "natural": [
+          "В воде тело кажется легче. Будто я похудела!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Wasser fühlt sich mein Körper leichter an."
+        ],
+        "A2": [
+          "Im Wasser fühlt sich mein Körper leichter an. Als wäre ich schlanker geworden!"
+        ],
+        "natural": [
+          "Im Wasser fühlt sich mein Körper leichter an. Als wäre ich schlanker geworden!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightDdd",
+      "base_symbol": "Route105_Text_1B8DDD",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я плыву..."
+        ],
+        "A2": [
+          "Я плыву..."
+        ],
+        "natural": [
+          "Я плыву..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich schwebe..."
+        ],
+        "A2": [
+          "Ich schwebe..."
+        ],
+        "natural": [
+          "Ich schwebe..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightDed",
+      "base_symbol": "Route105_Text_1B8DED",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "В воде вес тела уменьшается в десять раз."
+        ],
+        "A2": [
+          "В воде вес тела уменьшается в десять раз. Тогда я вешу..."
+        ],
+        "natural": [
+          "В воде вес тела уменьшается в десять раз. Тогда я вешу... Ой, не скажу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im Wasser wiegt der Körper nur ein Zehntel."
+        ],
+        "A2": [
+          "Im Wasser wiegt der Körper nur ein Zehntel. Dann wiege ich..."
+        ],
+        "natural": [
+          "Im Wasser wiegt der Körper nur ein Zehntel. Dann wiege ich... Oh, das verrate ich nicht!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightESixSix",
+      "base_symbol": "Route105_Text_1B8E66",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Синее небо, бескрайнее море..."
+        ],
+        "A2": [
+          "Синее небо, бескрайнее море... Как спокойно..."
+        ],
+        "natural": [
+          "Синее небо, бескрайнее море... Как спокойно..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der blaue Himmel, das weite Meer..."
+        ],
+        "A2": [
+          "Der blaue Himmel, das weite Meer... Wie friedlich..."
+        ],
+        "natural": [
+          "Der blaue Himmel, das weite Meer... Wie friedlich..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightEaZero",
+      "base_symbol": "Route105_Text_1B8EA0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграла, пока отдыхала!"
+        ],
+        "A2": [
+          "Я проиграла, пока отдыхала!"
+        ],
+        "natural": [
+          "Я проиграла, пока отдыхала!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe beim Entspannen verloren!"
+        ],
+        "A2": [
+          "Ich habe beim Entspannen verloren!"
+        ],
+        "natural": [
+          "Ich habe beim Entspannen verloren!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroFiveOneBEightEbd",
+      "base_symbol": "Route105_Text_1B8EBD",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 105 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Хочу, чтобы меня считали приятной и спокойной."
+        ],
+        "A2": [
+          "Хочу, чтобы меня считали приятной и спокойной. Хи-хи."
+        ],
+        "natural": [
+          "Хочу, чтобы меня считали приятной и спокойной. Хи-хи."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich möchte als angenehm und entspannend gelten."
+        ],
+        "A2": [
+          "Ich möchte als angenehm und entspannend gelten. Hihi."
+        ],
+        "natural": [
+          "Ich möchte als angenehm und entspannend gelten. Hihi."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineTwoSixB",
+      "base_symbol": "Route107_Text_1B926B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Зевок..."
+        ],
+        "A2": [
+          "Зевок... Наверное, я заснул, пока плыл по волнам."
+        ],
+        "natural": [
+          "Зевок... Наверное, я заснул, пока плыл по волнам."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gähn..."
+        ],
+        "A2": [
+          "Gähn... Ich bin wohl eingeschlafen, während ich auf den Wellen trieb."
+        ],
+        "natural": [
+          "Gähn... Ich bin wohl eingeschlafen, während ich auf den Wellen trieb."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineTwoBSeven",
+      "base_symbol": "Route107_Text_1B92B7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха, я проиграл..."
+        ],
+        "A2": [
+          "Ха-ха, я проиграл... Пожалуй, вздремну."
+        ],
+        "natural": [
+          "Ха-ха, я проиграл... Пожалуй, вздремну."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Haha, ich habe verloren..."
+        ],
+        "A2": [
+          "Haha, ich habe verloren... Ich mache wohl ein Nickerchen."
+        ],
+        "natural": [
+          "Haha, ich habe verloren... Ich mache wohl ein Nickerchen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineTwoESeven",
+      "base_symbol": "Route107_Text_1B92E7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Плыть, покачиваясь на волнах, всё равно что спать в мягкой удобной кровати."
+        ],
+        "A2": [
+          "Плыть, покачиваясь на волнах, всё равно что спать в мягкой удобной кровати."
+        ],
+        "natural": [
+          "Плыть, покачиваясь на волнах, всё равно что спать в мягкой удобной кровати."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf den Wellen zu treiben ist wie Schlafen in einem weichen, bequemen Bett."
+        ],
+        "A2": [
+          "Auf den Wellen zu treiben ist wie Schlafen in einem weichen, bequemen Bett."
+        ],
+        "natural": [
+          "Auf den Wellen zu treiben ist wie Schlafen in einem weichen, bequemen Bett."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineThreeThreeA",
+      "base_symbol": "Route107_Text_1B933A",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Море для меня как родной двор."
+        ],
+        "A2": [
+          "Море для меня как родной двор. Давайте сразимся!"
+        ],
+        "natural": [
+          "Море для меня как родной двор. Давайте сразимся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Meer ist für mich wie der eigene Garten."
+        ],
+        "A2": [
+          "Das Meer ist für mich wie der eigene Garten. Lass uns kämpfen!"
+        ],
+        "natural": [
+          "Das Meer ist für mich wie der eigene Garten. Lass uns kämpfen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineThreeSixFive",
+      "base_symbol": "Route107_Text_1B9365",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграл на своём поле..."
+        ],
+        "A2": [
+          "Я проиграл на своём поле... Какой шок!"
+        ],
+        "natural": [
+          "Я проиграл на своём поле... Какой шок!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe auf meinem Heimfeld verloren..."
+        ],
+        "A2": [
+          "Ich habe auf meinem Heimfeld verloren... Was für ein Schock!"
+        ],
+        "natural": [
+          "Ich habe auf meinem Heimfeld verloren... Was für ein Schock!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineThreeEightE",
+      "base_symbol": "Route107_Text_1B938E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я плыву по морю с сердцем, полным мечтаний..."
+        ],
+        "A2": [
+          "Я плыву по морю с сердцем, полным мечтаний... Это песня!"
+        ],
+        "natural": [
+          "Я плыву по морю с сердцем, полным мечтаний... Это песня! А теперь поплыву дальше."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich schwimme mit einem Herzen voller Träume durchs Meer..."
+        ],
+        "A2": [
+          "Ich schwimme mit einem Herzen voller Träume durchs Meer... Das ist ein Lied!"
+        ],
+        "natural": [
+          "Ich schwimme mit einem Herzen voller Träume durchs Meer... Das ist ein Lied! Nun schwimme ich weiter."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineThreeEb",
+      "base_symbol": "Route107_Text_1B93EB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Плавая в огромном море, мой покемон стал сильнее!"
+        ],
+        "A2": [
+          "Плавая в огромном море, мой покемон стал сильнее!"
+        ],
+        "natural": [
+          "Плавая в огромном море, мой покемон стал сильнее!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Beim Schwimmen im weiten Meer ist mein Pokémon stärker geworden!"
+        ],
+        "A2": [
+          "Beim Schwimmen im weiten Meer ist mein Pokémon stärker geworden!"
+        ],
+        "natural": [
+          "Beim Schwimmen im weiten Meer ist mein Pokémon stärker geworden!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFourTwoNine",
+      "base_symbol": "Route107_Text_1B9429",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Какой шок!"
+        ],
+        "A2": [
+          "Какой шок! Мой покемон стал сильнее, а я остался слабым тренером!"
+        ],
+        "natural": [
+          "Какой шок! Мой покемон стал сильнее, а я остался слабым тренером!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was für ein Schock!"
+        ],
+        "A2": [
+          "Was für ein Schock! Mein Pokémon wurde stärker, doch ich blieb ein schwacher Trainer!"
+        ],
+        "natural": [
+          "Was für ein Schock! Mein Pokémon wurde stärker, doch ich blieb ein schwacher Trainer!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFourSevenSeven",
+      "base_symbol": "Route107_Text_1B9477",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Опыт боя делает тренера сильнее."
+        ],
+        "A2": [
+          "Опыт боя делает тренера сильнее. Этому меня научили волны."
+        ],
+        "natural": [
+          "Опыт боя делает тренера сильнее. Этому меня научили волны."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Erfahrungen im Kampf machen Trainer stärker."
+        ],
+        "A2": [
+          "Erfahrungen im Kampf machen Trainer stärker. Das haben mich die Wellen gelehrt."
+        ],
+        "natural": [
+          "Erfahrungen im Kampf machen Trainer stärker. Das haben mich die Wellen gelehrt."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFourCEight",
+      "base_symbol": "Route107_Text_1B94C8",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Вы знаете маленький город Дьюфорд?"
+        ],
+        "A2": [
+          "Вы знаете маленький город Дьюфорд?"
+        ],
+        "natural": [
+          "Вы знаете маленький город Дьюфорд?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kennst du das kleine Dorf Faustauhaven?"
+        ],
+        "A2": [
+          "Kennst du das kleine Dorf Faustauhaven?"
+        ],
+        "natural": [
+          "Kennst du das kleine Dorf Faustauhaven?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFourFTwo",
+      "base_symbol": "Route107_Text_1B94F2",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Ненавижу это!"
+        ],
+        "A2": [
+          "Ненавижу это!"
+        ],
+        "natural": [
+          "Ненавижу это!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich hasse das!"
+        ],
+        "A2": [
+          "Ich hasse das!"
+        ],
+        "natural": [
+          "Ich hasse das!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFourFf",
+      "base_symbol": "Route107_Text_1B94FF",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "В зале Дьюфорда входит в моду странное выражение."
+        ],
+        "A2": [
+          "В зале Дьюфорда входит в моду странное выражение."
+        ],
+        "natural": [
+          "В зале Дьюфорда входит в моду странное выражение."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In der Halle von Faustauhaven wird ein seltsamer Spruch immer beliebter."
+        ],
+        "A2": [
+          "In der Halle von Faustauhaven wird ein seltsamer Spruch immer beliebter."
+        ],
+        "natural": [
+          "In der Halle von Faustauhaven wird ein seltsamer Spruch immer beliebter."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFiveThreeEight",
+      "base_symbol": "Route107_Text_1B9538",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Вы хотели со мной сразиться?"
+        ],
+        "A2": [
+          "Вы хотели со мной сразиться? Хорошо, я согласен!"
+        ],
+        "natural": [
+          "Вы хотели со мной сразиться? Хорошо, я согласен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du wolltest gegen mich kämpfen?"
+        ],
+        "A2": [
+          "Du wolltest gegen mich kämpfen? Gut, ich bin dabei!"
+        ],
+        "natural": [
+          "Du wolltest gegen mich kämpfen? Gut, ich bin dabei!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFiveSixB",
+      "base_symbol": "Route107_Text_1B956B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я оказался недостаточно хорош."
+        ],
+        "A2": [
+          "Я оказался недостаточно хорош."
+        ],
+        "natural": [
+          "Я оказался недостаточно хорош."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich war nicht gut genug."
+        ],
+        "A2": [
+          "Ich war nicht gut genug."
+        ],
+        "natural": [
+          "Ich war nicht gut genug."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFiveEightNine",
+      "base_symbol": "Route107_Text_1B9589",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Думаю, вы продолжите становиться сильнее."
+        ],
+        "A2": [
+          "Думаю, вы продолжите становиться сильнее. Я тоже постараюсь!"
+        ],
+        "natural": [
+          "Думаю, вы продолжите становиться сильнее. Я тоже постараюсь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du wirst bestimmt immer besser."
+        ],
+        "A2": [
+          "Du wirst bestimmt immer besser. Ich werde mich ebenfalls anstrengen!"
+        ],
+        "natural": [
+          "Du wirst bestimmt immer besser. Ich werde mich ebenfalls anstrengen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFiveCb",
+      "base_symbol": "Route107_Text_1B95CB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "ЛИЗА: Мы, сестра и брат, вызываем вас на бой!"
+        ],
+        "A2": [
+          "ЛИЗА: Мы, сестра и брат, вызываем вас на бой!"
+        ],
+        "natural": [
+          "ЛИЗА: Мы, сестра и брат, вызываем вас на бой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "LISA: Wir fordern dich als Schwester und Bruder heraus!"
+        ],
+        "A2": [
+          "LISA: Wir fordern dich als Schwester und Bruder heraus!"
+        ],
+        "natural": [
+          "LISA: Wir fordern dich als Schwester und Bruder heraus!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineFiveFb",
+      "base_symbol": "Route107_Text_1B95FB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "ЛИЗА: Потрясающе."
+        ],
+        "A2": [
+          "ЛИЗА: Потрясающе. Вы намного сильнее нас."
+        ],
+        "natural": [
+          "ЛИЗА: Потрясающе. Вы намного сильнее нас."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "LISA: Erstaunlich."
+        ],
+        "A2": [
+          "LISA: Erstaunlich. Du bist viel stärker als wir."
+        ],
+        "natural": [
+          "LISA: Erstaunlich. Du bist viel stärker als wir."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineSixThreeZero",
+      "base_symbol": "Route107_Text_1B9630",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "ЛИЗА: У вас есть друзья, которые ходят с вами на пляж?"
+        ],
+        "A2": [
+          "ЛИЗА: У вас есть друзья, которые ходят с вами на пляж?"
+        ],
+        "natural": [
+          "ЛИЗА: У вас есть друзья, которые ходят с вами на пляж?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "LISA: Hast du Freunde, die mit dir zum Strand gehen?"
+        ],
+        "A2": [
+          "LISA: Hast du Freunde, die mit dir zum Strand gehen?"
+        ],
+        "natural": [
+          "LISA: Hast du Freunde, die mit dir zum Strand gehen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineSixSevenTwo",
+      "base_symbol": "Route107_Text_1B9672",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "ЛИЗА: Хотите сразиться с нами?"
+        ],
+        "A2": [
+          "ЛИЗА: Хотите сразиться с нами? Приведите больше покемонов."
+        ],
+        "natural": [
+          "ЛИЗА: Хотите сразиться с нами? Приведите больше покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "LISA: Du willst gegen uns kämpfen?"
+        ],
+        "A2": [
+          "LISA: Du willst gegen uns kämpfen? Bring mehr Pokémon mit."
+        ],
+        "natural": [
+          "LISA: Du willst gegen uns kämpfen? Bring mehr Pokémon mit."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineSixAb",
+      "base_symbol": "Route107_Text_1B96AB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "РЭЙ: Мы с сестрой всегда сражаемся вместе."
+        ],
+        "A2": [
+          "РЭЙ: Мы с сестрой всегда сражаемся вместе. Я часто проигрываю, но вдвоём мы вас победим!"
+        ],
+        "natural": [
+          "РЭЙ: Мы с сестрой всегда сражаемся вместе. Я часто проигрываю, но вдвоём мы вас победим!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RAY: Meine Schwester und ich kämpfen immer gemeinsam."
+        ],
+        "A2": [
+          "RAY: Meine Schwester und ich kämpfen immer gemeinsam. Ich verliere oft, doch zu zweit besiegen wir dich!"
+        ],
+        "natural": [
+          "RAY: Meine Schwester und ich kämpfen immer gemeinsam. Ich verliere oft, doch zu zweit besiegen wir dich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineSevenZeroSeven",
+      "base_symbol": "Route107_Text_1B9707",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "РЭЙ: Ого, вы на совсем другом уровне!"
+        ],
+        "A2": [
+          "РЭЙ: Ого, вы на совсем другом уровне!"
+        ],
+        "natural": [
+          "РЭЙ: Ого, вы на совсем другом уровне!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RAY: Wow, du bist auf einem ganz anderen Niveau!"
+        ],
+        "A2": [
+          "RAY: Wow, du bist auf einem ganz anderen Niveau!"
+        ],
+        "natural": [
+          "RAY: Wow, du bist auf einem ganz anderen Niveau!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineSevenThreeFive",
+      "base_symbol": "Route107_Text_1B9735",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "РЭЙ: Сестра подарила мне покемона."
+        ],
+        "A2": [
+          "РЭЙ: Сестра подарила мне покемона. Я вырастил его, и теперь он мой верный партнёр!"
+        ],
+        "natural": [
+          "РЭЙ: Сестра подарила мне покемона. Я вырастил его, и теперь он мой верный партнёр!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RAY: Meine Schwester schenkte mir mein Pokémon."
+        ],
+        "A2": [
+          "RAY: Meine Schwester schenkte mir mein Pokémon. Ich zog es auf, und nun ist es mein treuer Partner!"
+        ],
+        "natural": [
+          "RAY: Meine Schwester schenkte mir mein Pokémon. Ich zog es auf, und nun ist es mein treuer Partner!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroSevenOneBNineSevenEightEight",
+      "base_symbol": "Route107_Text_1B9788",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 107 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "РЭЙ: Хотите сразиться с нами?"
+        ],
+        "A2": [
+          "РЭЙ: Хотите сразиться с нами? Приведите больше покемонов!"
+        ],
+        "natural": [
+          "РЭЙ: Хотите сразиться с нами? Приведите больше покемонов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RAY: Du willst gegen uns kämpfen?"
+        ],
+        "A2": [
+          "RAY: Du willst gegen uns kämpfen? Bring mehr Pokémon mit!"
+        ],
+        "natural": [
+          "RAY: Du willst gegen uns kämpfen? Bring mehr Pokémon mit!"
+        ]
+      }
     }
   ]
 }

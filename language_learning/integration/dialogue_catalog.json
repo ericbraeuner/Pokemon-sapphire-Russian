@@ -8486,6 +8486,1286 @@
         "route106",
         "trainer"
       ]
+    },
+    {
+      "id": "dewfordhall.trend.allegedtrendnotauthentic.423",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate1",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_AllegedTrendNotAuthentic",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallAllegedtrendnotauthentic"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 423
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.birthoftrend.424",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_BirthTitle",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_BirthOfTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallBirthoftrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 424
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.booksabouttrend.425",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_Bookshelf",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_BooksAboutTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallBooksabouttrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 425
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.brilliantindeed.426",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate3",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_BrilliantIndeed",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallBrilliantindeed"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 426
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.cantimaginelifewithouttrend.427",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_Girl",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_CantImagineLifeWithoutTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallCantimaginelifewithouttrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 427
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.collecttrendmerchandise.428",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_LittleBoy",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_CollectTrendMerchandise",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallCollecttrendmerchandise"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 428
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.composedtrendthemesong.429",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate2",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_ComposedTrendThemeSong",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallComposedtrendthemesong"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 429
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.deeplinkbetweenxandy.430",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_Man",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_DeepLinkBetweenXAndY",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallDeeplinkbetweenxandy"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 430
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.gettingboredoftrend.431",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_GirlBoredOfTrend",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_GettingBoredOfTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallGettingboredoftrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 431
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.giveyousludgebomb.432",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_SludgeBombMan",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_GiveYouSludgeBomb",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallGiveyousludgebomb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 432
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.ifweteamupwellbeinvincible.433",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate5",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallIfweteamupwellbeinvincible"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 433
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.istrendmorepopularacrosssea.434",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_Twin",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallIstrendmorepopularacrosssea"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 434
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.lasttrend.435",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_LastTitle",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_LastTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallLasttrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 435
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.lovesludgebombbuttrendintoo.436",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_ReceivedSludgeBomb",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallLovesludgebombbuttrendintoo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 436
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.myhunchwasright.437",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_ConfirmTrendLink",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_MyHunchWasRight",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallMyhunchwasright"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 437
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.noteasytokeepup.438",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_RejectTrendLink",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_NotEasyToKeepUp",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallNoteasytokeepup"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 438
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.organizetrendparty.439",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate3",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_OrganizeTrendParty",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallOrganizetrendparty"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 439
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.sawtrendcoolestthing.440",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate1",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_SawTrendCoolestThing",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallSawtrendcoolestthing"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 440
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.tvshowabouttrend.441",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_ExpertM",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_TVShowAboutTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallTvshowabouttrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 441
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.teachingmonabouttrend.442",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_Woman",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_TeachingMonAboutTrend",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallTeachingmonabouttrend"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 442
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.trendhasbecomepartoflife.443",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate4",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_TrendHasBecomePartOfLife",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallTrendhasbecomepartoflife"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 443
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.trendweighsheavilyonmind.444",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate4",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallTrendweighsheavilyonmind"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 444
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.trendsscream.445",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_ScreamTitle",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_TrendsScream",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallTrendsscream"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 445
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.trendssmile.446",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_SmileTitle",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_TrendsSmile",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallTrendssmile"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 446
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.wellbetrendduo.447",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate5",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_WellBeTrendDuo",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallWellbetrendduo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 447
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "dewfordhall.trend.workonyoursinging.448",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/DewfordTown_Hall/scripts.inc",
+        "symbol": "DewfordTown_Hall_EventScript_TrendDebate2",
+        "base_text_path": "data/maps/DewfordTown_Hall/text.inc",
+        "base_text_symbol": "DewfordTown_Hall_Text_WorkOnYourSinging",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DewfordhallWorkonyoursinging"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 448
+      },
+      "tags": [
+        "dewfordhall",
+        "trend"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8b40.449",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2BB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8B40",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightBFourZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 449
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8b93.450",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2BB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8B93",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightBNineThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 450
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8bde.451",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2BB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8BDE",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightBde"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 451
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8c28.452",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2D2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8C28",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightCTwoEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 452
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8c99.453",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2D2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8C99",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightCNineNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 453
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8ca9.454",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2D2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8CA9",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightCaNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 454
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8cee.455",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2E9",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8CEE",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightCee"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 455
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8d23.456",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2E9",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8D23",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightDTwoThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 456
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8d45.457",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F2E9",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8D45",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightDFourFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 457
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8d99.458",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F300",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8D99",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightDNineNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 458
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8ddd.459",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F300",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8DDD",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightDdd"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 459
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8ded.460",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F300",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8DED",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightDed"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 460
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8e66.461",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F317",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8E66",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightESixSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 461
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8ea0.462",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F317",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8EA0",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightEaZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 462
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route105.trainer.1b8ebd.463",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route105/scripts.inc",
+        "symbol": "Route105_EventScript_14F317",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route105_Text_1B8EBD",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroFiveOneBEightEbd"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 463
+      },
+      "tags": [
+        "route105",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b926b.464",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3BC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B926B",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineTwoSixB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 464
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b92b7.465",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3BC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B92B7",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineTwoBSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 465
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b92e7.466",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3BC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B92E7",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineTwoESeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 466
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b933a.467",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3D3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B933A",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineThreeThreeA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 467
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9365.468",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3D3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9365",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineThreeSixFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 468
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b938e.469",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3D3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B938E",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineThreeEightE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 469
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b93eb.470",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3FA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B93EB",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineThreeEb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 470
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9429.471",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3FA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9429",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFourTwoNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 471
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9477.472",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F3FA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9477",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFourSevenSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 472
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b94c8.473",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F411",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B94C8",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFourCEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 473
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b94f2.474",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F411",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B94F2",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFourFTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 474
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b94ff.475",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F411",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B94FF",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFourFf"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 475
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9538.476",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F428",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9538",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFiveThreeEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 476
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b956b.477",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F428",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B956B",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFiveSixB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 477
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9589.478",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F428",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9589",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFiveEightNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 478
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b95cb.479",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F43F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B95CB",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFiveCb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 479
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b95fb.480",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F43F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B95FB",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineFiveFb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 480
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9630.481",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F43F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9630",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineSixThreeZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 481
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9672.482",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F43F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9672",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineSixSevenTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 482
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b96ab.483",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F45A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B96AB",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineSixAb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 483
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9707.484",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F45A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9707",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineSevenZeroSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 484
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9735.485",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F45A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9735",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineSevenThreeFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 485
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route107.trainer.1b9788.486",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route107/scripts.inc",
+        "symbol": "Route107_EventScript_14F45A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route107_Text_1B9788",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "RouteOneZeroSevenOneBNineSevenEightEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 486
+      },
+      "tags": [
+        "route107",
+        "trainer"
+      ]
     }
   ]
 }

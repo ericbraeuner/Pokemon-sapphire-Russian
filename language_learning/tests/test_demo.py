@@ -591,9 +591,12 @@ class LessonTests(unittest.TestCase):
                   'data/maps/DewfordTown_House2/scripts.inc',
                   'data/maps/DewfordTown_PokemonCenter_1F/scripts.inc',
                   'data/maps/DewfordTown_Gym/scripts.inc',
+                  'data/maps/DewfordTown_Hall/scripts.inc',
                   'data/maps/GraniteCave_1F/scripts.inc',
                   'data/maps/GraniteCave_StevensRoom/scripts.inc',
+                  'data/maps/Route105/scripts.inc',
                   'data/maps/Route106/scripts.inc',
+                  'data/maps/Route107/scripts.inc',
                   'data/maps/Route104_PrettyPetalFlowerShop/scripts.inc',
                   'data/maps/PetalburgWoods/scripts.inc',
                   'data/maps/RustboroCity/scripts.inc',
@@ -642,6 +645,14 @@ class LessonTests(unittest.TestCase):
                 self.assertIn(f'{root}_{tag}_WordsDisplay:', assembly)
             self.assertIn(f'{root}_Dictionary:', assembly)
         self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
+
+    def test_adaptive_dewford_trends_preserve_runtime_words(self):
+        assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))
+        dialogues = opening.load()['dialogues']
+        hall = [entry for entry in dialogues if entry['base_symbol'].startswith('DewfordTown_Hall_Text_')]
+        self.assertTrue(hall)
+        self.assertTrue(all(entry.get('adaptive_translation') for entry in hall))
+        self.assertIn('0xFD, 0x02', assembly)
 
     def test_trainer_adaptive_translation_bridge_is_generated_and_hooked(self):
         assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))

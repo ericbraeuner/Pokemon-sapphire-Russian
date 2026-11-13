@@ -8066,6 +8066,426 @@
         "dewford",
         "gym"
       ]
+    },
+    {
+      "id": "granitecave_1f.story.flashgift.401",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/GraniteCave_1F/scripts.inc",
+        "symbol": "GraniteCave_1F_EventScript_15CBA7",
+        "base_text_path": "data/maps/GraniteCave_1F/text.inc",
+        "base_text_symbol": "GraniteCave_1F_Text_194917",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "GraniteFlashGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 401
+      },
+      "tags": [
+        "granitecave_1f",
+        "story"
+      ]
+    },
+    {
+      "id": "granitecave_1f.guide.flashinfo.402",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/GraniteCave_1F/scripts.inc",
+        "symbol": "GraniteCave_1F_EventScript_15CBA7",
+        "base_text_path": "data/maps/GraniteCave_1F/text.inc",
+        "base_text_symbol": "GraniteCave_1F_Text_194A3E",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "GraniteFlashInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 402
+      },
+      "tags": [
+        "granitecave_1f",
+        "guide"
+      ]
+    },
+    {
+      "id": "granitecave_stevensroom.story.stevenintroduction.403",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/GraniteCave_StevensRoom/scripts.inc",
+        "symbol": "GraniteCave_StevensRoom_EventScript_15CBFA",
+        "base_text_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+        "base_text_symbol": "GraniteCave_StevensRoom_Text_194AE5",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "StevenIntroduction"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 403
+      },
+      "tags": [
+        "granitecave_stevensroom",
+        "story"
+      ]
+    },
+    {
+      "id": "granitecave_stevensroom.story.steelwinggift.404",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/GraniteCave_StevensRoom/scripts.inc",
+        "symbol": "GraniteCave_StevensRoom_EventScript_15CBFA",
+        "base_text_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+        "base_text_symbol": "GraniteCave_StevensRoom_Text_194BDD",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "StevenSteelWingGift"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 404
+      },
+      "tags": [
+        "granitecave_stevensroom",
+        "story"
+      ]
+    },
+    {
+      "id": "granitecave_stevensroom.story.championprediction.405",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/GraniteCave_StevensRoom/scripts.inc",
+        "symbol": "GraniteCave_StevensRoom_EventScript_15CBFA",
+        "base_text_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+        "base_text_symbol": "GraniteCave_StevensRoom_Text_194C8D",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "StevenChampionPrediction"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 405
+      },
+      "tags": [
+        "granitecave_stevensroom",
+        "story"
+      ]
+    },
+    {
+      "id": "granitecave_stevensroom.story.stevenbagfull.406",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/GraniteCave_StevensRoom/scripts.inc",
+        "symbol": "GraniteCave_StevensRoom_EventScript_15CC83",
+        "base_text_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+        "base_text_symbol": "GraniteCave_StevensRoom_Text_194D43",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "StevenBagFull"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 406
+      },
+      "tags": [
+        "granitecave_stevensroom",
+        "story"
+      ]
+    },
+    {
+      "id": "route106.trainer.douglasintro.407",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F338",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B913D",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DouglasIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 407
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.douglasdefeat.408",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F338",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B917F",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DouglasDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 408
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.douglasafter.409",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F338",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B918A",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "DouglasAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 409
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.nicoleintro.410",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F34F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B91AC",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "NicoleIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 410
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.nicoledefeat.411",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F34F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B91F8",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "NicoleDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 411
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.nicoleafter.412",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F34F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B9222",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "NicoleAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 412
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.elliotintro.413",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F366",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B8EF0",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "ElliotIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 413
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.elliotdefeat.414",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F366",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B8F25",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "ElliotDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 414
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.elliotafter.415",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F366",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B8F55",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "ElliotAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 415
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.elliotrematchintro.416",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F38D",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B8FAC",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "ElliotRematchIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 416
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.elliotrematchdefeat.417",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F38D",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B8FF5",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "ElliotRematchDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 417
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.elliotrematchafter.418",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F38D",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B9011",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "ElliotRematchAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 418
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.nedintro.419",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F3A4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B9052",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "NedIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 419
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.neddefeat.420",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F3A4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B90D3",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "NedDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 420
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route106.trainer.nedafter.421",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route106/scripts.inc",
+        "symbol": "Route106_EventScript_14F3A4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route106_Text_1B910A",
+        "note": "Adaptive translation bridge preserves the original story or trainer flow.",
+        "authored_id": "NedAfter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 421
+      },
+      "tags": [
+        "route106",
+        "trainer"
+      ]
     }
   ]
 }

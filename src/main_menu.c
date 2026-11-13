@@ -712,10 +712,9 @@ void PrintPlayTime(void)
     AlignStringInMenuWindow(alignedPlayTime, playTime, 48, 1);
     Menu_PrintText(alignedPlayTime, 22, 3);
 #elif defined(GERMAN)
-    Menu_PrintTextPixelCoords(gMainMenuString_Time, 124, 24, TRUE);
+    Menu_PrintTextPixelCoords(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Time), 124, 24, TRUE);
     FormatPlayTime(playTime, gSaveBlock2.playTimeHours, gSaveBlock2.playTimeMinutes, 1);
-    // The nine-letter German label reaches farther right than "TIME". Keep
-    // the changing clock in its own final four-character column.
+    // Keep the changing clock in its own final four-character column.
     AlignStringInMenuWindow(alignedPlayTime, playTime, 32, 1);
     Menu_PrintText(alignedPlayTime, 25, 3);
 #endif
@@ -737,7 +736,7 @@ void PrintBadgeCount(void)
 #if defined(ENGLISH)
     Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Badges), 16, 5);
 #elif defined(GERMAN)
-    Menu_PrintTextPixelCoords(gMainMenuString_Badges, 124, 40, TRUE);
+    Menu_PrintTextPixelCoords(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Badges), 124, 40, TRUE);
 #endif
     ConvertIntToDecimalString(buffer, GetBadgeCount());
     Menu_PrintTextPixelCoords(buffer, 205, 40, 1);

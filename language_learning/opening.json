@@ -17867,6 +17867,951 @@
           ]
         ]
       }
+    },
+    {
+      "id": "GraniteFlashGift",
+      "base_symbol": "GraniteCave_1F_Text_194917",
+      "source_path": "data/maps/GraniteCave_1F/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Впереди темно. Возьми HM05 ВСПЫШКА."
+        ],
+        "A2": [
+          "В пещере впереди очень темно. СТИВЕН умеет пользоваться ВСПЫШКОЙ. Возьми эту HM05."
+        ],
+        "natural": [
+          "Впереди очень темно, исследовать пещеру трудно. СТИВЕН умеет использовать ВСПЫШКУ, так что справится. Мы, туристы, помогаем встречным. Возьми это."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vorn ist es dunkel. Nimm VM05 BLITZ."
+        ],
+        "A2": [
+          "Die Höhle vor dir ist sehr dunkel. TROY kann BLITZ benutzen. Nimm diese VM05."
+        ],
+        "natural": [
+          "Weiter vorn ist es sehr dunkel. TROY kann BLITZ einsetzen und kommt zurecht. Wir WANDERER helfen jedem, den wir treffen. Nimm das."
+        ]
+      },
+      "english": [
+        "A hiker gives you HM05 Flash to explore the dark cave."
+      ],
+      "words": {
+        "ru": [
+          [
+            "вспышка",
+            "flash"
+          ]
+        ],
+        "de": [
+          [
+            "der Blitz",
+            "flash"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "GraniteFlashInfo",
+      "base_symbol": "GraniteCave_1F_Text_194A3E",
+      "source_path": "data/maps/GraniteCave_1F/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "ВСПЫШКА освещает пещеры. Нужен ЗНАЧОК ДЬЮФОРДА."
+        ],
+        "A2": [
+          "Научи ПОКЕМОНА ВСПЫШКЕ, чтобы осветить пещеру. Вне боя нужен ЗНАЧОК ЗАЛА ДЬЮФОРДА."
+        ],
+        "natural": [
+          "Научи покемона скрытому движению ВСПЫШКА. Оно освещает тёмные пещеры. Для применения нужен ЗНАЧОК ЗАЛА ДЬЮФОРДА."
+        ]
+      },
+      "de": {
+        "A1": [
+          "BLITZ erhellt Höhlen. Du brauchst den ORDEN aus FAUSTAUHAVEN."
+        ],
+        "A2": [
+          "Bring einem POKéMON BLITZ bei, um die Höhle zu erhellen. Draußen brauchst du den ORDEN aus FAUSTAUHAVEN."
+        ],
+        "natural": [
+          "Lehre einem Pokémon die VM-Attacke BLITZ. Sie erhellt dunkle Höhlen. Dafür brauchst du den ORDEN der ARENA von FAUSTAUHAVEN."
+        ]
+      },
+      "english": [
+        "The hiker explains that Flash lights caves but requires Dewford Gym's badge."
+      ],
+      "words": {
+        "ru": [
+          [
+            "освещать",
+            "to illuminate"
+          ]
+        ],
+        "de": [
+          [
+            "erhellen",
+            "to illuminate"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StevenIntroduction",
+      "base_symbol": "GraniteCave_StevensRoom_Text_194AE5",
+      "source_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я СТИВЕН. Ты принёс мне ПИСЬМО?"
+        ],
+        "A2": [
+          "Меня зовут СТИВЕН. Я путешествую в поисках редких камней. Это ПИСЬМО для меня?"
+        ],
+        "natural": [
+          "Это устройство - ПОКЕНАВ. Он записывает результаты встреч тренеров. Простите, меня зовут СТИВЕН. Я путешествую в поисках редких камней. Что? ПИСЬМО для меня?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin TROY. Hast du einen BRIEF für mich?"
+        ],
+        "A2": [
+          "Ich heiße TROY und reise wegen seltener Steine umher. Ist dieser BRIEF für mich?"
+        ],
+        "natural": [
+          "Dieses Gerät ist ein POKÉNAV. Es zeichnet Begegnungen von Trainern auf. Verzeihung, ich heiße TROY. Ich reise auf der Suche nach seltenen Steinen. Was? Ein BRIEF für mich?"
+        ]
+      },
+      "english": [
+        "Steven introduces himself, notices the PokéNav, and accepts the letter."
+      ],
+      "words": {
+        "ru": [
+          [
+            "представиться",
+            "to introduce oneself"
+          ]
+        ],
+        "de": [
+          [
+            "sich vorstellen",
+            "to introduce oneself"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StevenSteelWingGift",
+      "base_symbol": "GraniteCave_StevensRoom_Text_194BDD",
+      "source_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Спасибо за ПИСЬМО. Возьми TM47 СТАЛЬНОЕ КРЫЛО."
+        ],
+        "A2": [
+          "Спасибо, что доставил ПИСЬМО. В награду я дам тебе TM47 с моим любимым приёмом СТАЛЬНОЕ КРЫЛО."
+        ],
+        "natural": [
+          "СТИВЕН: Спасибо. Ты проделал долгий путь ради письма. Я должен отблагодарить тебя. Возьми эту ТМ с моим любимым движением СТАЛЬНОЕ КРЫЛО."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Danke für den BRIEF. Nimm TM47 STAHLFLÜGEL."
+        ],
+        "A2": [
+          "Danke für die Lieferung des BRIEFS. Als Lohn gebe ich dir TM47 mit meiner Lieblingsattacke STAHLFLÜGEL."
+        ],
+        "natural": [
+          "TROY: Danke. Du hattest viel Mühe mit dem Brief. Dafür erhältst du diese TM mit meiner Lieblingsattacke STAHLFLÜGEL."
+        ]
+      },
+      "english": [
+        "Steven thanks you for the letter and gives TM47 Steel Wing."
+      ],
+      "words": {
+        "ru": [
+          [
+            "награда",
+            "reward"
+          ]
+        ],
+        "de": [
+          [
+            "die Belohnung",
+            "reward"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StevenChampionPrediction",
+      "base_symbol": "GraniteCave_StevensRoom_Text_194C8D",
+      "source_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Твои ПОКЕМОНЫ сильные. Ты можешь стать ЧЕМПИОНОМ."
+        ],
+        "A2": [
+          "Твои ПОКЕМОНЫ очень способные. Продолжай тренироваться, и однажды станешь ЧЕМПИОНОМ ЛИГИ."
+        ],
+        "natural": [
+          "СТИВЕН: Твои покемоны очень способны. Продолжай тренироваться, и однажды станешь ЧЕМПИОНОМ ЛИГИ ПОКЕМОНОВ. А мне пора идти."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Deine POKéMON sind stark. Du kannst CHAMPION werden."
+        ],
+        "A2": [
+          "Deine POKéMON sind sehr fähig. Trainiere weiter und du kannst eines Tages LIGA-CHAMPION werden."
+        ],
+        "natural": [
+          "TROY: Deine Pokémon sind sehr stark. Trainiere weiter, dann wirst du vielleicht eines Tages CHAMP der POKÉMON-LIGA. Ich muss weiter."
+        ]
+      },
+      "english": [
+        "Steven predicts that continued training could make you League Champion."
+      ],
+      "words": {
+        "ru": [
+          [
+            "способный",
+            "capable"
+          ]
+        ],
+        "de": [
+          [
+            "fähig",
+            "capable"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "StevenBagFull",
+      "base_symbol": "GraniteCave_StevensRoom_Text_194D43",
+      "source_path": "data/maps/GraniteCave_StevensRoom/text.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Твоя СУМКА полна. Для TM нет места."
+        ],
+        "A2": [
+          "О, твоя СУМКА полна. Жаль, но я пока не могу отдать тебе TM."
+        ],
+        "natural": [
+          "О, твоя СУМКА заполнена... Очень жаль."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein BEUTEL ist voll. Kein Platz für die TM."
+        ],
+        "A2": [
+          "Oh, dein BEUTEL ist voll. Schade, ich kann dir die TM noch nicht geben."
+        ],
+        "natural": [
+          "Oh, dein BEUTEL ist voll... Wie schade."
+        ]
+      },
+      "english": [
+        "Steven cannot give you TM47 because your Bag is full."
+      ],
+      "words": {
+        "ru": [
+          [
+            "полный",
+            "full"
+          ]
+        ],
+        "de": [
+          [
+            "voll",
+            "full"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DouglasIntro",
+      "base_symbol": "Route106_Text_1B913D",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я плохо бегаю, но в воде меня не поймать!"
+        ],
+        "A2": [
+          "Я неважно бегаю, зато в воде ты меня никогда не поймаешь!"
+        ],
+        "natural": [
+          "Ха-ха! Я плохо бегаю, но в воде меня не догнать!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich laufe schlecht, aber im Wasser fängst du mich nie!"
+        ],
+        "A2": [
+          "Ich bin ein schlechter Läufer, doch im Wasser kannst du mich niemals fangen!"
+        ],
+        "natural": [
+          "Haha! Ich laufe schlecht, aber im Wasser erwischst du mich nicht!"
+        ]
+      },
+      "english": [
+        "Swimmer Douglas boasts that nobody can catch him in the water."
+      ],
+      "words": {
+        "ru": [
+          [
+            "поймать",
+            "to catch"
+          ]
+        ],
+        "de": [
+          [
+            "fangen",
+            "to catch"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DouglasDefeat",
+      "base_symbol": "Route106_Text_1B917F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я сдаюсь!"
+        ],
+        "A2": [
+          "Ладно, ты победил. Я сдаюсь!"
+        ],
+        "natural": [
+          "Сдаюсь!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich gebe auf!"
+        ],
+        "A2": [
+          "Schon gut, du hast gewonnen. Ich gebe auf!"
+        ],
+        "natural": [
+          "Ich gebe auf!"
+        ]
+      },
+      "english": [
+        "Douglas gives up after losing."
+      ],
+      "words": {
+        "ru": [
+          [
+            "сдаться",
+            "to give up"
+          ]
+        ],
+        "de": [
+          [
+            "aufgeben",
+            "to give up"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "DouglasAfter",
+      "base_symbol": "Route106_Text_1B918A",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "В заплыве я бы не проиграл."
+        ],
+        "A2": [
+          "В бою я проиграл, но в гонке по плаванию точно победил бы."
+        ],
+        "natural": [
+          "В заплыве я бы не проиграл..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Beim Wettschwimmen würde ich nicht verlieren."
+        ],
+        "A2": [
+          "Den Kampf verlor ich, aber ein Wettschwimmen würde ich sicher gewinnen."
+        ],
+        "natural": [
+          "Bei einem Wettschwimmen hätte ich nicht verloren..."
+        ]
+      },
+      "english": [
+        "Douglas insists he would still win a swimming race."
+      ],
+      "words": {
+        "ru": [
+          [
+            "заплыв",
+            "swimming race"
+          ]
+        ],
+        "de": [
+          [
+            "das Wettschwimmen",
+            "swimming race"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NicoleIntro",
+      "base_symbol": "Route106_Text_1B91AC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Море - мой дом. Я не буду поддаваться!"
+        ],
+        "A2": [
+          "Море для меня как собственный двор. Я не стану щадить тебя только потому, что ты ребёнок."
+        ],
+        "natural": [
+          "Море - мой двор. Я не стану поддаваться только потому, что вы ребёнок!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Meer ist mein Zuhause. Ich schone dich nicht!"
+        ],
+        "A2": [
+          "Das Meer ist wie mein eigener Garten. Ich schone dich nicht, nur weil du ein Kind bist."
+        ],
+        "natural": [
+          "Das Meer ist mein Hinterhof. Ich schone dich nicht, nur weil du ein Kind bist!"
+        ]
+      },
+      "english": [
+        "Swimmer Nicole calls the sea her backyard and refuses to go easy on you."
+      ],
+      "words": {
+        "ru": [
+          [
+            "щадить",
+            "to go easy on"
+          ]
+        ],
+        "de": [
+          [
+            "schonen",
+            "to go easy on"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NicoleDefeat",
+      "base_symbol": "Route106_Text_1B91F8",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Ты случайно не поддавался мне?"
+        ],
+        "A2": [
+          "Может быть, ты нарочно сражался со мной не в полную силу?"
+        ],
+        "natural": [
+          "Вы случайно не поддавались мне?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hast du mich etwa geschont?"
+        ],
+        "A2": [
+          "Hast du vielleicht absichtlich nicht mit voller Kraft gegen mich gekämpft?"
+        ],
+        "natural": [
+          "Hast du mich vielleicht absichtlich geschont?"
+        ]
+      },
+      "english": [
+        "Nicole wonders whether you went easy on her."
+      ],
+      "words": {
+        "ru": [
+          [
+            "случайно",
+            "perhaps"
+          ]
+        ],
+        "de": [
+          [
+            "vielleicht",
+            "perhaps"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NicoleAfter",
+      "base_symbol": "Route106_Text_1B9222",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я люблю плыть по волнам. Попробуй!"
+        ],
+        "A2": [
+          "Мне нравится спокойно плыть вместе с волнами. Почему бы тебе тоже не попробовать?"
+        ],
+        "natural": [
+          "Плыть по волнам... Обожаю! Попробуйте и вы."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich treibe gern mit den Wellen. Probier es!"
+        ],
+        "A2": [
+          "Ich lasse mich gern entspannt von den Wellen treiben. Versuch es doch auch einmal!"
+        ],
+        "natural": [
+          "Mit den Wellen treiben... Ich liebe es! Versuch es auch."
+        ]
+      },
+      "english": [
+        "Nicole recommends relaxing and drifting with the waves."
+      ],
+      "words": {
+        "ru": [
+          [
+            "дрейфовать",
+            "to drift"
+          ]
+        ],
+        "de": [
+          [
+            "treiben",
+            "to drift"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ElliotIntro",
+      "base_symbol": "Route106_Text_1B8EF0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Где лучше рыбачить: в море или в реке?"
+        ],
+        "A2": [
+          "Что ты предпочитаешь: рыбалку в море или в ручье?"
+        ],
+        "natural": [
+          "Что вам больше нравится: рыбачить в море или в реке?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wo angelst du lieber: im Meer oder im Fluss?"
+        ],
+        "A2": [
+          "Was bevorzugst du: Angeln im Meer oder in einem Bach?"
+        ],
+        "natural": [
+          "Was magst du lieber: im Meer oder im Fluss zu angeln?"
+        ]
+      },
+      "english": [
+        "Fisherman Elliot asks whether you prefer sea or stream fishing."
+      ],
+      "words": {
+        "ru": [
+          [
+            "предпочитать",
+            "to prefer"
+          ]
+        ],
+        "de": [
+          [
+            "bevorzugen",
+            "to prefer"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ElliotDefeat",
+      "base_symbol": "Route106_Text_1B8F25",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я проиграл с размахом!"
+        ],
+        "A2": [
+          "Как на морской рыбалке, я проиграл по-настоящему грандиозно!"
+        ],
+        "natural": [
+          "Я проиграл так же зрелищно, как на морской рыбалке!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe eindrucksvoll verloren!"
+        ],
+        "A2": [
+          "Wie beim Hochseeangeln habe ich wirklich spektakulär verloren!"
+        ],
+        "natural": [
+          "Ich habe so spektakulär verloren wie beim Hochseeangeln!"
+        ]
+      },
+      "english": [
+        "Elliot says he lost as spectacularly as in deep-sea fishing."
+      ],
+      "words": {
+        "ru": [
+          [
+            "грандиозно",
+            "spectacularly"
+          ]
+        ],
+        "de": [
+          [
+            "spektakulär",
+            "spectacularly"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ElliotAfter",
+      "base_symbol": "Route106_Text_1B8F55",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Рыбалка прекрасна и в море, и в реке!"
+        ],
+        "A2": [
+          "Рыбачить замечательно и в море, и в ручье. Ты ведь согласен?"
+        ],
+        "natural": [
+          "Рыбалка прекрасна и в море, и в реке. Вы согласны?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Angeln ist im Meer und im Fluss großartig!"
+        ],
+        "A2": [
+          "Angeln ist sowohl im Meer als auch im Bach wunderbar. Du stimmst doch zu?"
+        ],
+        "natural": [
+          "Angeln ist im Meer und im Fluss großartig. Stimmst du mir zu?"
+        ]
+      },
+      "english": [
+        "Elliot says fishing is wonderful in both sea and stream."
+      ],
+      "words": {
+        "ru": [
+          [
+            "согласиться",
+            "to agree"
+          ]
+        ],
+        "de": [
+          [
+            "zustimmen",
+            "to agree"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ElliotRematchIntro",
+      "base_symbol": "Route106_Text_1B8FAC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я поймал много ПОКЕМОНОВ. Смотри наш бой!"
+        ],
+        "A2": [
+          "Я выловил много ПОКЕМОНОВ и теперь покажу тебе впечатляющий бой!"
+        ],
+        "natural": [
+          "Я поймал на удочку много покемонов. Сейчас покажу впечатляющий бой!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich fing viele POKéMON. Sieh unseren Kampf!"
+        ],
+        "A2": [
+          "Beim Angeln fing ich viele POKéMON. Jetzt zeige ich dir einen beeindruckenden Kampf!"
+        ],
+        "natural": [
+          "Ich habe viele Pokémon geangelt. Jetzt zeige ich dir einen eindrucksvollen Kampf!"
+        ]
+      },
+      "english": [
+        "Elliot shows the Pokémon he caught while fishing in a rematch."
+      ],
+      "words": {
+        "ru": [
+          [
+            "выловить",
+            "to fish up"
+          ]
+        ],
+        "de": [
+          [
+            "angeln",
+            "to fish up"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ElliotRematchDefeat",
+      "base_symbol": "Route106_Text_1B8FF5",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я снова проиграл с размахом!"
+        ],
+        "A2": [
+          "И на этот раз я снова проиграл поразительно громко!"
+        ],
+        "natural": [
+          "Я снова зрелищно проиграл!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe wieder eindrucksvoll verloren!"
+        ],
+        "A2": [
+          "Auch diesmal habe ich wieder erstaunlich spektakulär verloren!"
+        ],
+        "natural": [
+          "Ich habe wieder spektakulär verloren!"
+        ]
+      },
+      "english": [
+        "Elliot loses spectacularly again."
+      ],
+      "words": {
+        "ru": [
+          [
+            "снова",
+            "again"
+          ]
+        ],
+        "de": [
+          [
+            "wieder",
+            "again"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ElliotRematchAfter",
+      "base_symbol": "Route106_Text_1B9011",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Победа или поражение - ПОКЕМОНЫ всё равно лучшие!"
+        ],
+        "A2": [
+          "Неважно, выигрывают они или проигрывают: ПОКЕМОНЫ прекрасны!"
+        ],
+        "natural": [
+          "Победа или поражение, покемоны всё равно лучшие! Согласны?"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieg oder Niederlage - POKéMON sind immer großartig!"
+        ],
+        "A2": [
+          "Egal ob sie gewinnen oder verlieren: POKéMON sind einfach wunderbar!"
+        ],
+        "natural": [
+          "Ob Sieg oder Niederlage, Pokémon sind die Besten! Stimmst du zu?"
+        ]
+      },
+      "english": [
+        "Elliot says Pokémon are wonderful whether they win or lose."
+      ],
+      "words": {
+        "ru": [
+          [
+            "неважно",
+            "regardless"
+          ]
+        ],
+        "de": [
+          [
+            "egal",
+            "regardless"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NedIntro",
+      "base_symbol": "Route106_Text_1B9052",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Мне нельзя уходить. Вдруг клюнет большая рыба?"
+        ],
+        "A2": [
+          "Что, если большая рыба клюнет, пока меня нет? Поэтому я совсем не могу уйти."
+        ],
+        "natural": [
+          "Что делают рыбаки, когда нужно в уборную? Вдруг в этот момент клюнет большая рыба? Я не могу уйти..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich darf nicht weg. Was, wenn ein großer Fisch anbeißt?"
+        ],
+        "A2": [
+          "Was, wenn ein großer Fisch anbeißt, während ich weg bin? Deshalb kann ich einfach nicht gehen."
+        ],
+        "natural": [
+          "Was tun Angler, wenn sie zur Toilette müssen? Was, wenn dann ein großer Fisch anbeißt? Ich kann nicht gehen..."
+        ]
+      },
+      "english": [
+        "Fisherman Ned is afraid to leave in case a big fish bites."
+      ],
+      "words": {
+        "ru": [
+          [
+            "уходить",
+            "to leave"
+          ]
+        ],
+        "de": [
+          [
+            "weggehen",
+            "to leave"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NedDefeat",
+      "base_symbol": "Route106_Text_1B90D3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "Я проиграл, потому что мне срочно надо отойти."
+        ],
+        "A2": [
+          "Я проиграл, потому что всё это время пытался не уходить в туалет."
+        ],
+        "natural": [
+          "Я проиграл, потому что терплю и не иду в уборную..."
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verlor, weil ich dringend wegmuss."
+        ],
+        "A2": [
+          "Ich habe verloren, weil ich die ganze Zeit versuchte, nicht zur Toilette zu gehen."
+        ],
+        "natural": [
+          "Ich habe verloren, weil ich nicht zur Toilette gehe und es aushalte..."
+        ]
+      },
+      "english": [
+        "Ned blames his loss on urgently needing the washroom."
+      ],
+      "words": {
+        "ru": [
+          [
+            "срочно",
+            "urgently"
+          ]
+        ],
+        "de": [
+          [
+            "dringend",
+            "urgently"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "NedAfter",
+      "base_symbol": "Route106_Text_1B910A",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "ru": {
+        "A1": [
+          "О нет! Кажется, сейчас клюнет большая рыба!"
+        ],
+        "A2": [
+          "О нет, у меня такое чувство, что вот-вот попадётся что-нибудь крупное!"
+        ],
+        "natural": [
+          "О нет! У меня чувство, что сейчас клюнет огромная рыба!"
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh nein! Gleich beißt bestimmt ein großer Fisch an!"
+        ],
+        "A2": [
+          "Oh nein, ich habe das Gefühl, dass jeden Moment etwas Großes anbeißt!"
+        ],
+        "natural": [
+          "Oh nein! Ich habe das Gefühl, gleich beißt ein riesiger Fisch an!"
+        ]
+      },
+      "english": [
+        "Ned feels certain that a big fish is about to bite."
+      ],
+      "words": {
+        "ru": [
+          [
+            "чувство",
+            "feeling"
+          ]
+        ],
+        "de": [
+          [
+            "das Gefühl",
+            "feeling"
+          ]
+        ]
+      }
     }
   ]
 }

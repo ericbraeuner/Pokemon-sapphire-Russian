@@ -971,9 +971,12 @@ const u8 gBoardNotInstalledMessage[] = _("Das ‘1M Sub-circuit Board'\nist nich
 const u8 gBatteryDryMessage[] = _("Interne Batterie ist verbraucht.\nSpiel kann fortgesetzt werden.\pAber zeitbasierende Spiel-Events\nwerden nicht mehr initiiert.");
 
 // main menu text 2
-const u8 gMainMenuString_Player[] = _("SPIELER");
+// These labels share a narrow row with the saved name and clock value.
+// Keep the German fallbacks compact so they cannot run into those values
+// before the learner language stored in SaveBlock1 is available.
+const u8 gMainMenuString_Player[] = _("NAME");
 const u8 gMainMenuString_Pokedex[] = _("POKéDEX");
-const u8 gMainMenuString_Time[] = _("SPIELZEIT");
+const u8 gMainMenuString_Time[] = _("ZEIT");
 const u8 gMainMenuString_Badges[] = _("ORDEN");
 
 // birch text

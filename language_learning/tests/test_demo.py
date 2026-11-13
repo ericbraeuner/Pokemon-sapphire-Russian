@@ -591,6 +591,9 @@ class LessonTests(unittest.TestCase):
                   'data/maps/DewfordTown_House2/scripts.inc',
                   'data/maps/DewfordTown_PokemonCenter_1F/scripts.inc',
                   'data/maps/DewfordTown_Gym/scripts.inc',
+                  'data/maps/GraniteCave_1F/scripts.inc',
+                  'data/maps/GraniteCave_StevensRoom/scripts.inc',
+                  'data/maps/Route106/scripts.inc',
                   'data/maps/Route104_PrettyPetalFlowerShop/scripts.inc',
                   'data/maps/PetalburgWoods/scripts.inc',
                   'data/maps/RustboroCity/scripts.inc',
@@ -3086,6 +3089,9 @@ class LessonTests(unittest.TestCase):
         self.assertLessEqual(templates["gMainMenuString_Time"]["max_width"], 48)
         self.assertLessEqual(len(templates["gMainMenuString_Player"]["de"]), 4)
         self.assertLessEqual(len(templates["gMainMenuString_Time"]["de"]), 4)
+        strings = (demo.ROOT / 'src/strings.c').read_text(encoding='utf-8')
+        self.assertIn('gMainMenuString_Player[] = _("NAME")', strings)
+        self.assertIn('gMainMenuString_Time[] = _("ZEIT")', strings)
         main_menu = (demo.ROOT / 'src/main_menu.c').read_text()
         self.assertIn('text = Learner_Translate(text);', main_menu)
         self.assertIn('Menu_PrintText(alignedPlayTime, 25, 3);', main_menu)

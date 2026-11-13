@@ -23852,6 +23852,4191 @@
           "Wir sind TEAM {EVIL_TEAM}! Der BOSS will die Teile! Halt den Mund und gib sie her!"
         ]
       }
+    },
+    {
+      "id": "SlateportmuseumoneOneANineTwoSevenF",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A927F",
+      "source_path": "data/text/tv.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Вы любите покемонов?"
+        ],
+        "A2": [
+          "Вы любите покемонов? Я работаю на телевидении и собираю свежие истории о покемонах и тренерах."
+        ],
+        "natural": [
+          "Вы любите покемонов? Я работаю на телевидении и собираю свежие истории о покемонах и тренерах. Расскажете что-нибудь о себе?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Magst du Pokémon?"
+        ],
+        "A2": [
+          "Magst du Pokémon? Ich arbeite fürs Fernsehen und sammle neue Geschichten über Pokémon und Trainer."
+        ],
+        "natural": [
+          "Magst du Pokémon? Ich arbeite fürs Fernsehen und sammle neue Geschichten über Pokémon und Trainer. Erzählst du etwas über dich?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOneANineThreeFourC",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A934C",
+      "source_path": "data/text/tv.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Я собираю свежие истории о покемонах и тренерах."
+        ],
+        "A2": [
+          "Я собираю свежие истории о покемонах и тренерах. Расскажете что-нибудь о себе?"
+        ],
+        "natural": [
+          "Я собираю свежие истории о покемонах и тренерах. Расскажете что-нибудь о себе?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sammle neue Geschichten über Pokémon und Trainer."
+        ],
+        "A2": [
+          "Ich sammle neue Geschichten über Pokémon und Trainer. Erzählst du etwas über dich?"
+        ],
+        "natural": [
+          "Ich sammle neue Geschichten über Pokémon und Trainer. Erzählst du etwas über dich?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOneANineThreeDOne",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A93D1",
+      "source_path": "data/text/tv.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Спасибо!"
+        ],
+        "A2": [
+          "Спасибо! Расскажите о недавнем интересном случае с покемонами."
+        ],
+        "natural": [
+          "Спасибо! Расскажите о недавнем интересном случае с покемонами."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Danke!"
+        ],
+        "A2": [
+          "Danke! Erzähl von einem interessanten Erlebnis mit Pokémon aus letzter Zeit."
+        ],
+        "natural": [
+          "Danke! Erzähl von einem interessanten Erlebnis mit Pokémon aus letzter Zeit."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOneANineFourFourSix",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A9446",
+      "source_path": "data/text/tv.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Понятно..."
+        ],
+        "A2": [
+          "Понятно... Если появится интересная история, сообщите мне."
+        ],
+        "natural": [
+          "Понятно... Если появится интересная история, сообщите мне."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Verstehe..."
+        ],
+        "A2": [
+          "Verstehe... Wenn du eine interessante Geschichte erlebst, sag mir Bescheid."
+        ],
+        "natural": [
+          "Verstehe... Wenn du eine interessante Geschichte erlebst, sag mir Bescheid."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOneANineFourNineA",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A949A",
+      "source_path": "data/text/tv.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Какая вдохновляющая история!"
+        ],
+        "A2": [
+          "Какая вдохновляющая история! Я обязательно расскажу её по телевизору."
+        ],
+        "natural": [
+          "Какая вдохновляющая история! Я обязательно расскажу её по телевизору. Ждите эфира!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was für eine schöne Geschichte!"
+        ],
+        "A2": [
+          "Was für eine schöne Geschichte! Ich werde sie im Fernsehen erzählen."
+        ],
+        "natural": [
+          "Was für eine schöne Geschichte! Ich werde sie im Fernsehen erzählen. Freu dich auf die Sendung!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOneANineFiveTwoE",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A952E",
+      "source_path": "data/text/tv.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Хм..."
+        ],
+        "A2": [
+          "Хм... Получился хороший телесюжет."
+        ],
+        "natural": [
+          "Хм... Получился хороший телесюжет. Надо скорее его записать!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hm..."
+        ],
+        "A2": [
+          "Hm... Das ergibt einen guten TV-Bericht."
+        ],
+        "natural": [
+          "Hm... Das ergibt einen guten TV-Bericht. Ich muss ihn schnell aufschreiben!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneBeachsanddisplay",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Образец пляжного песка."
+        ],
+        "A2": [
+          "Образец пляжного песка. Реки несут горные камни, дробят и шлифуют их."
+        ],
+        "natural": [
+          "Образец пляжного песка. Реки несут горные камни, дробят и шлифуют их. Так зёрна становятся песком на пляжах."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Probe Strandsand."
+        ],
+        "A2": [
+          "Eine Probe Strandsand. Flüsse tragen Steine aus Bergen, zerkleinern und schleifen sie."
+        ],
+        "natural": [
+          "Eine Probe Strandsand. Flüsse tragen Steine aus Bergen, zerkleinern und schleifen sie. So werden Körner zu Sand am Strand."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneCanlearnfornefariousdeeds",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Знания отсюда пригодятся для злых дел..."
+        ],
+        "A2": [
+          "Знания отсюда пригодятся для злых дел..."
+        ],
+        "natural": [
+          "Знания отсюда пригодятся для злых дел..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Wissen hier hilft bei finsteren Taten..."
+        ],
+        "A2": [
+          "Das Wissen hier hilft bei finsteren Taten..."
+        ],
+        "natural": [
+          "Das Wissen hier hilft bei finsteren Taten..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneCatchupwithyourgroup",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Ты с той группой, что вошла раньше?"
+        ],
+        "A2": [
+          "Ты с той группой, что вошла раньше? Ты один опоздал."
+        ],
+        "natural": [
+          "Ты с той группой, что вошла раньше? Ты один опоздал. Скорее догони их!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gehörst du zu der Gruppe von vorhin?"
+        ],
+        "A2": [
+          "Gehörst du zu der Gruppe von vorhin? Nur du bist spät."
+        ],
+        "natural": [
+          "Gehörst du zu der Gruppe von vorhin? Nur du bist spät. Hol sie schnell ein!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneDepthmeasuringmachine",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Под стеклом вращается странная машина."
+        ],
+        "A2": [
+          "Под стеклом вращается странная машина. Наверное, она измеряет глубину..."
+        ],
+        "natural": [
+          "Под стеклом вращается странная машина. Наверное, она измеряет глубину..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unter Glas dreht sich eine seltsame Maschine."
+        ],
+        "A2": [
+          "Unter Glas dreht sich eine seltsame Maschine. Vielleicht misst sie die Tiefe..."
+        ],
+        "natural": [
+          "Unter Glas dreht sich eine seltsame Maschine. Vielleicht misst sie die Tiefe..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneDidnthavemoney",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "У меня не было 50 йен, пришлось долго уговаривать кассира."
+        ],
+        "A2": [
+          "У меня не было 50 йен, пришлось долго уговаривать кассира."
+        ],
+        "natural": [
+          "У меня не было 50 йен, пришлось долго уговаривать кассира."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich hatte keine 50 ¥ und brauchte lange, um an der Kasse vorbeizukommen."
+        ],
+        "A2": [
+          "Ich hatte keine 50 ¥ und brauchte lange, um an der Kasse vorbeizukommen."
+        ],
+        "natural": [
+          "Ich hatte keine 50 ¥ und brauchte lange, um an der Kasse vorbeizukommen."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneEvilteamexistforgoodofall",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_EvilTeamExistForGoodOfAll",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Мы, КОМАНДА {EVIL_TEAM}, служим общему благу!"
+        ],
+        "A2": [
+          "Мы, КОМАНДА {EVIL_TEAM}, служим общему благу!"
+        ],
+        "natural": [
+          "Мы, КОМАНДА {EVIL_TEAM}, служим общему благу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir von TEAM {EVIL_TEAM} handeln zum Wohl aller!"
+        ],
+        "A2": [
+          "Wir von TEAM {EVIL_TEAM} handeln zum Wohl aller!"
+        ],
+        "natural": [
+          "Wir von TEAM {EVIL_TEAM} handeln zum Wohl aller!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneFossildisplay",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_FossilDisplay",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Окаменелость с волнистыми гребнями."
+        ],
+        "A2": [
+          "Окаменелость с волнистыми гребнями. Течение оставляет на грунте борозды."
+        ],
+        "natural": [
+          "Окаменелость с волнистыми гребнями. Течение оставляет на грунте борозды. Окаменев, они называются рябью."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Fossil mit welligen Rillen."
+        ],
+        "A2": [
+          "Ein Fossil mit welligen Rillen. Strömendes Wasser formt kleine Furchen."
+        ],
+        "natural": [
+          "Ein Fossil mit welligen Rillen. Strömendes Wasser formt kleine Furchen. Versteinert heißen sie Rippelmarken."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneLearnaboutseaforbattling",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Хочу изучить море и применять знания в боях."
+        ],
+        "A2": [
+          "Хочу изучить море и применять знания в боях."
+        ],
+        "natural": [
+          "Хочу изучить море и применять знания в боях."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich will das Meer studieren und das Wissen im Kampf nutzen."
+        ],
+        "A2": [
+          "Ich will das Meer studieren und das Wissen im Kampf nutzen."
+        ],
+        "natural": [
+          "Ich will das Meer studieren und das Wissen im Kampf nutzen."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneMustbepokemonwedontknow",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Море бескрайнее и очень глубокое..."
+        ],
+        "A2": [
+          "Море бескрайнее и очень глубокое... Там наверняка есть неизвестные покемоны."
+        ],
+        "natural": [
+          "Море бескрайнее и очень глубокое... Там наверняка есть неизвестные покемоны."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Meer ist endlos und sehr tief..."
+        ],
+        "A2": [
+          "Das Meer ist endlos und sehr tief... Dort leben sicher unbekannte Pokémon."
+        ],
+        "natural": [
+          "Das Meer ist endlos und sehr tief... Dort leben sicher unbekannte Pokémon."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneNotenoughmoney",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Извини, похоже, у тебя недостаточно денег."
+        ],
+        "A2": [
+          "Извини, похоже, у тебя недостаточно денег."
+        ],
+        "natural": [
+          "Извини, похоже, у тебя недостаточно денег."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Tut mir leid, du hast wohl nicht genug Geld."
+        ],
+        "A2": [
+          "Tut mir leid, du hast wohl nicht genug Geld."
+        ],
+        "natural": [
+          "Tut mir leid, du hast wohl nicht genug Geld."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOceansoildisplay",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Образец грунта со дна моря."
+        ],
+        "A2": [
+          "Образец грунта со дна моря. Остатки жизни годами образуют осадочные слои."
+        ],
+        "natural": [
+          "Образец грунта со дна моря. Остатки жизни годами образуют осадочные слои. Их анализ раскрывает древнее прошлое."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Bodenprobe vom Meeresgrund."
+        ],
+        "A2": [
+          "Eine Bodenprobe vom Meeresgrund. Reste von Lebewesen bilden über Jahre Schichten."
+        ],
+        "natural": [
+          "Eine Bodenprobe vom Meeresgrund. Reste von Lebewesen bilden über Jahre Schichten. Ihre Analyse zeigt die ferne Vergangenheit."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOceanicminifactOne",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "ФАКТ О МОРЕ 1: Почему море синее?"
+        ],
+        "A2": [
+          "ФАКТ О МОРЕ 1: Почему море синее? Свет состоит из цветов."
+        ],
+        "natural": [
+          "ФАКТ О МОРЕ 1: Почему море синее? Свет состоит из цветов. В воде большинство цветов исчезает, а синий сохраняется."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEERESFAKT 1: Warum ist das Meer blau?"
+        ],
+        "A2": [
+          "MEERESFAKT 1: Warum ist das Meer blau? Licht besteht aus Farben."
+        ],
+        "natural": [
+          "MEERESFAKT 1: Warum ist das Meer blau? Licht besteht aus Farben. Im Wasser verblassen die meisten, doch Blau bleibt sichtbar."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOceanicminifactTwo",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "ФАКТ О МОРЕ 2: Почему море солёное?"
+        ],
+        "A2": [
+          "ФАКТ О МОРЕ 2: Почему море солёное? Дождь вымывает из камней ионы натрия и хлора и несёт их в море."
+        ],
+        "natural": [
+          "ФАКТ О МОРЕ 2: Почему море солёное? Дождь вымывает из камней ионы натрия и хлора и несёт их в море."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEERESFAKT 2: Warum ist das Meer salzig?"
+        ],
+        "A2": [
+          "MEERESFAKT 2: Warum ist das Meer salzig? Regen löst Natrium- und Chloridionen aus Gestein und trägt sie ins Meer."
+        ],
+        "natural": [
+          "MEERESFAKT 2: Warum ist das Meer salzig? Regen löst Natrium- und Chloridionen aus Gestein und trägt sie ins Meer."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOceanicminifactThree",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "ФАКТ О МОРЕ 3: Что больше, море или суша?"
+        ],
+        "A2": [
+          "ФАКТ О МОРЕ 3: Что больше, море или суша? Море покрывает около 70 процентов планеты, более чем вдвое превосходя сушу."
+        ],
+        "natural": [
+          "ФАКТ О МОРЕ 3: Что больше, море или суша? Море покрывает около 70 процентов планеты, более чем вдвое превосходя сушу."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEERESFAKT 3: Was ist größer, Meer oder Land?"
+        ],
+        "A2": [
+          "MEERESFAKT 3: Was ist größer, Meer oder Land? Das Meer bedeckt etwa 70 Prozent der Erde, mehr als doppelt so viel wie das Land."
+        ],
+        "natural": [
+          "MEERESFAKT 3: Was ist größer, Meer oder Land? Das Meer bedeckt etwa 70 Prozent der Erde, mehr als doppelt so viel wie das Land."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneOurbossisnthere",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Нам приказали собраться здесь, но наш главный БОСС почему-то не пришёл."
+        ],
+        "A2": [
+          "Нам приказали собраться здесь, но наш главный БОСС почему-то не пришёл."
+        ],
+        "natural": [
+          "Нам приказали собраться здесь, но наш главный БОСС почему-то не пришёл."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir sollten uns hier versammeln, aber unser wichtiger BOSS ist nicht da."
+        ],
+        "A2": [
+          "Wir sollten uns hier versammeln, aber unser wichtiger BOSS ist nicht da."
+        ],
+        "natural": [
+          "Wir sollten uns hier versammeln, aber unser wichtiger BOSS ist nicht da."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumonePleaseenjoyyourself",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Приятного посещения!"
+        ],
+        "A2": [
+          "Приятного посещения!"
+        ],
+        "natural": [
+          "Приятного посещения!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Viel Vergnügen!"
+        ],
+        "A2": [
+          "Viel Vergnügen!"
+        ],
+        "natural": [
+          "Viel Vergnügen!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneRemembermetakethis",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Ай!"
+        ],
+        "A2": [
+          "Ай! Что ты здесь делаешь?"
+        ],
+        "natural": [
+          "Ай! Что ты здесь делаешь? Я из КОМАНДЫ {EVIL_TEAM}, ты уже победил меня. Возьми это и прости меня!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ah!"
+        ],
+        "A2": [
+          "Ah! Was machst du hier?"
+        ],
+        "natural": [
+          "Ah! Was machst du hier? Ich bin von TEAM {EVIL_TEAM}; du hast mich schon besiegt. Nimm dies und verzeih mir!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneRustborobungled",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_RustboroBungled",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Если бы наши болваны не провалились в РАСТБОРО, нас бы здесь не было!"
+        ],
+        "A2": [
+          "Если бы наши болваны не провалились в РАСТБОРО, нас бы здесь не было!"
+        ],
+        "natural": [
+          "Если бы наши болваны не провалились в РАСТБОРО, нас бы здесь не было!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hätten unsere Trottel in METAROST nicht versagt, wären wir nicht hier!"
+        ],
+        "A2": [
+          "Hätten unsere Trottel in METAROST nicht versagt, wären wir nicht hier!"
+        ],
+        "natural": [
+          "Hätten unsere Trottel in METAROST nicht versagt, wären wir nicht hier!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneSternisrolemodel",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "При виде моря я прихожу в восторг!"
+        ],
+        "A2": [
+          "При виде моря я прихожу в восторг! Капитан СТЕРН - мой главный пример!"
+        ],
+        "natural": [
+          "При виде моря я прихожу в восторг! Капитан СТЕРН - мой главный пример!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Beim Anblick des Meeres werde ich ganz aufgeregt!"
+        ],
+        "A2": [
+          "Beim Anblick des Meeres werde ich ganz aufgeregt! KAPT."
+        ],
+        "natural": [
+          "Beim Anblick des Meeres werde ich ganz aufgeregt! KAPT. BRIGGS ist mein Vorbild!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneWantseapokemon",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Хочу морского покемона."
+        ],
+        "A2": [
+          "Хочу морского покемона. Наверное, его приятно и прохладно обнимать."
+        ],
+        "natural": [
+          "Хочу морского покемона. Наверное, его приятно и прохладно обнимать."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich möchte ein Meeres-Pokémon."
+        ],
+        "A2": [
+          "Ich möchte ein Meeres-Pokémon. Es fühlt sich beim Umarmen bestimmt kühl an."
+        ],
+        "natural": [
+          "Ich möchte ein Meeres-Pokémon. Es fühlt sich beim Umarmen bestimmt kühl an."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneWaterfallexperiment",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "В сосуде прыгает красный шар."
+        ],
+        "A2": [
+          "В сосуде прыгает красный шар. Его плавучесть имитирует ВОДОПАД."
+        ],
+        "natural": [
+          "В сосуде прыгает красный шар. Его плавучесть имитирует ВОДОПАД."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein roter Ball hüpft im Glas."
+        ],
+        "A2": [
+          "Ein roter Ball hüpft im Glas. Sein Auftrieb simuliert einen WASSERFALL."
+        ],
+        "natural": [
+          "Ein roter Ball hüpft im Glas. Sein Auftrieb simuliert einen WASSERFALL."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneWhirlpoolexperiment",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "В сосуде кружится синяя жидкость."
+        ],
+        "A2": [
+          "В сосуде кружится синяя жидкость. Опыт создаёт искусственный ВОДОВОРОТ с помощью ветра."
+        ],
+        "natural": [
+          "В сосуде кружится синяя жидкость. Опыт создаёт искусственный ВОДОВОРОТ с помощью ветра."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Blaue Flüssigkeit kreist im Glas."
+        ],
+        "A2": [
+          "Blaue Flüssigkeit kreist im Glas. Der Versuch erzeugt mit Wind einen künstlichen STRUDEL."
+        ],
+        "natural": [
+          "Blaue Flüssigkeit kreist im Glas. Der Versuch erzeugt mit Wind einen künstlichen STRUDEL."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneWouldstuffheremakemerich",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Если украсть экспонаты, я разбогатею?"
+        ],
+        "A2": [
+          "Если украсть экспонаты, я разбогатею?"
+        ],
+        "natural": [
+          "Если украсть экспонаты, я разбогатею?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Würde ich mit den Exponaten reich werden?"
+        ],
+        "A2": [
+          "Würde ich mit den Exponaten reich werden?"
+        ],
+        "natural": [
+          "Würde ich mit den Exponaten reich werden?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneWouldyouliketoenter",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Добро пожаловать в МУЗЕЙ ОКЕАНА."
+        ],
+        "A2": [
+          "Добро пожаловать в МУЗЕЙ ОКЕАНА. Вход стоит 50 йен."
+        ],
+        "natural": [
+          "Добро пожаловать в МУЗЕЙ ОКЕАНА. Вход стоит 50 йен. Войдёшь?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Willkommen im MEERESMUSEUM."
+        ],
+        "A2": [
+          "Willkommen im MEERESMUSEUM. Der Eintritt kostet 50 ¥."
+        ],
+        "natural": [
+          "Willkommen im MEERESMUSEUM. Der Eintritt kostet 50 ¥. Eintreten?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneYouhavetotakethis",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Ну же!"
+        ],
+        "A2": [
+          "Ну же! Возьми это и отпусти меня!"
+        ],
+        "natural": [
+          "Ну же! Возьми это и отпусти меня!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Komm schon!"
+        ],
+        "A2": [
+          "Komm schon! Nimm es und lass mich gehen!"
+        ],
+        "natural": [
+          "Komm schon! Nimm es und lass mich gehen!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumoneYouscrewedupourplans",
+      "base_symbol": "SlateportCity_OceanicMuseum_1F_Text_YouScrewedUpOurPlans",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A first-floor Oceanic Museum conversation or exhibit."
+      ],
+      "ru": {
+        "A1": [
+          "Ты разрушил наши планы!"
+        ],
+        "A2": [
+          "Ты разрушил наши планы! Я хотел что-нибудь украсть в возмещение, но..."
+        ],
+        "natural": [
+          "Ты разрушил наши планы! Я хотел что-нибудь украсть в возмещение, но... Погоди, однажды мы ещё поквитаемся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "музей",
+            "museum"
+          ]
+        ],
+        "de": [
+          [
+            "das Museum",
+            "museum"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast unsere Pläne ruiniert!"
+        ],
+        "A2": [
+          "Du hast unsere Pläne ruiniert! Ich wollte zum Ausgleich etwas stehlen, aber..."
+        ],
+        "natural": [
+          "Du hast unsere Pläne ruiniert! Ich wollte zum Ausgleich etwas stehlen, aber... Warte, eines Tages bekommst du es zurück!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityAmiontv",
+      "base_symbol": "SlateportCity_Text_AmIOnTV",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эй!"
+        ],
+        "A2": [
+          "Эй! Ты смотришь?"
+        ],
+        "natural": [
+          "Эй! Ты смотришь? Я в телевизоре?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey!"
+        ],
+        "A2": [
+          "Hey! Siehst du zu?"
+        ],
+        "natural": [
+          "Hey! Siehst du zu? Bin ich im Fernsehen?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityBigsmileforcamera",
+      "base_symbol": "SlateportCity_Text_BigSmileForCamera",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ТАЙ: Капитан СТЕРН, широко улыбнитесь в камеру!"
+        ],
+        "A2": [
+          "ТАЙ: Капитан СТЕРН, широко улыбнитесь в камеру!"
+        ],
+        "natural": [
+          "ТАЙ: Капитан СТЕРН, широко улыбнитесь в камеру!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TY: KAPT."
+        ],
+        "A2": [
+          "TY: KAPT. BRIGGS, bitte breit in die Kamera lächeln!"
+        ],
+        "natural": [
+          "TY: KAPT. BRIGGS, bitte breit in die Kamera lächeln!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityBossisbrilliant",
+      "base_symbol": "SlateportCity_Text_BossIsBrilliant",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Наш БОСС гений."
+        ],
+        "A2": [
+          "Наш БОСС гений. Зачем ему музей?"
+        ],
+        "natural": [
+          "Наш БОСС гений. Зачем ему музей?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unser BOSS ist brillant."
+        ],
+        "A2": [
+          "Unser BOSS ist brillant. Was will er im Museum?"
+        ],
+        "natural": [
+          "Unser BOSS ist brillant. Was will er im Museum?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityBushedhikingfrommauville",
+      "base_symbol": "SlateportCity_Text_BushedHikingFromMauville",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Уф, я устал."
+        ],
+        "A2": [
+          "Уф, я устал. Пришёл пешком из МОВИЛЯ, а этот город огромен."
+        ],
+        "natural": [
+          "Уф, я устал. Пришёл пешком из МОВИЛЯ, а этот город огромен. Лучше бы ехал на велике."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puh, ich bin müde."
+        ],
+        "A2": [
+          "Puh, ich bin müde. Ich kam zu Fuß aus MALVENFROH."
+        ],
+        "natural": [
+          "Puh, ich bin müde. Ich kam zu Fuß aus MALVENFROH. Bei der Größe wäre ein Rad besser."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityBuybrickssodecorwontgetdirty",
+      "base_symbol": "SlateportCity_Text_BuyBricksSoDecorWontGetDirty",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Куклы и подушки на полу пачкаются."
+        ],
+        "A2": [
+          "Куклы и подушки на полу пачкаются. Куплю кирпичи, чтобы ставить украшения на них."
+        ],
+        "natural": [
+          "Куклы и подушки на полу пачкаются. Куплю кирпичи, чтобы ставить украшения на них."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puppen und Kissen werden am Boden schmutzig."
+        ],
+        "A2": [
+          "Puppen und Kissen werden am Boden schmutzig. Ich kaufe Ziegel als Unterlage."
+        ],
+        "natural": [
+          "Puppen und Kissen werden am Boden schmutzig. Ich kaufe Ziegel als Unterlage."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityBuytoomuch",
+      "base_symbol": "SlateportCity_Text_BuyTooMuch",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Каждый раз здесь увлекаюсь и покупаю лишнее."
+        ],
+        "A2": [
+          "Каждый раз здесь увлекаюсь и покупаю лишнее."
+        ],
+        "natural": [
+          "Каждый раз здесь увлекаюсь и покупаю лишнее."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier lasse ich mich immer mitreißen und kaufe zu viel."
+        ],
+        "A2": [
+          "Hier lasse ich mich immer mitreißen und kaufe zu viel."
+        ],
+        "natural": [
+          "Hier lasse ich mich immer mitreißen und kaufe zu viel."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityCantchangetrademonname",
+      "base_symbol": "SlateportCity_Text_CantChangeTradeMonName",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Прозвище обменянного покемона изменить нельзя."
+        ],
+        "A2": [
+          "Прозвище обменянного покемона изменить нельзя. В нём заключена любовь первого тренера."
+        ],
+        "natural": [
+          "Прозвище обменянного покемона изменить нельзя. В нём заключена любовь первого тренера."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Den Namen eines ertauschten Pokémon kannst du nicht ändern."
+        ],
+        "A2": [
+          "Den Namen eines ertauschten Pokémon kannst du nicht ändern. Er trägt die Liebe des Trainers."
+        ],
+        "natural": [
+          "Den Namen eines ertauschten Pokémon kannst du nicht ändern. Er trägt die Liebe des Trainers."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityCaptsternbeinginterviewed",
+      "base_symbol": "SlateportCity_Text_CaptSternBeingInterviewed",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я надеялся увидеть звезду и взять автограф."
+        ],
+        "A2": [
+          "Я надеялся увидеть звезду и взять автограф. Но кого снимают?"
+        ],
+        "natural": [
+          "Я надеялся увидеть звезду и взять автограф. Но кого снимают? Это капитан СТЕРН?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich hoffte auf einen Star und ein Autogramm."
+        ],
+        "A2": [
+          "Ich hoffte auf einen Star und ein Autogramm. Doch wer wird interviewt?"
+        ],
+        "natural": [
+          "Ich hoffte auf einen Star und ein Autogramm. Doch wer wird interviewt? KAPT. BRIGGS?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityCaptaincomebackwithbigfish",
+      "base_symbol": "SlateportCity_Text_CaptainComeBackWithBigFish",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Что происходит?"
+        ],
+        "A2": [
+          "Что происходит? Капитан привёз со дна моря огромную рыбу?"
+        ],
+        "natural": [
+          "Что происходит? Капитан привёз со дна моря огромную рыбу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was ist los?"
+        ],
+        "A2": [
+          "Was ist los? Brachte der Kapitän einen großen Fisch vom Meeresgrund mit?"
+        ],
+        "natural": [
+          "Was ist los? Brachte der Kapitän einen großen Fisch vom Meeresgrund mit?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityCaptainsacelebrity",
+      "base_symbol": "SlateportCity_Text_CaptainsACelebrity",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Телевизионное интервью здесь!"
+        ],
+        "A2": [
+          "Телевизионное интервью здесь! Капитан - звезда!"
+        ],
+        "natural": [
+          "Телевизионное интервью здесь! Капитан - звезда!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein TV-Interview hier!"
+        ],
+        "A2": [
+          "Ein TV-Interview hier! Der Kapitän ist ein Star!"
+        ],
+        "natural": [
+          "Ein TV-Interview hier! Der Kapitän ist ein Star!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityCitysign",
+      "base_symbol": "SlateportCity_Text_CitySign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "СЛЕЙТПОРТ Порт, где пересекаются пути людей и покемонов."
+        ],
+        "A2": [
+          "СЛЕЙТПОРТ Порт, где пересекаются пути людей и покемонов."
+        ],
+        "natural": [
+          "СЛЕЙТПОРТ Порт, где пересекаются пути людей и покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "GRAPHITPORT CITY Der Hafen, wo sich Menschen und Pokémon begegnen."
+        ],
+        "A2": [
+          "GRAPHITPORT CITY Der Hafen, wo sich Menschen und Pokémon begegnen."
+        ],
+        "natural": [
+          "GRAPHITPORT CITY Der Hafen, wo sich Menschen und Pokémon begegnen."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityContesthallbuiltrecently",
+      "base_symbol": "SlateportCity_Text_ContestHallBuiltRecently",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Недавно в СЛЕЙТПОРТЕ открылся ЗАЛ КОНКУРСОВ."
+        ],
+        "A2": [
+          "Недавно в СЛЕЙТПОРТЕ открылся ЗАЛ КОНКУРСОВ. Я участвую, когда улучшу состояние покемона."
+        ],
+        "natural": [
+          "Недавно в СЛЕЙТПОРТЕ открылся ЗАЛ КОНКУРСОВ. Я участвую, когда улучшу состояние покемона."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In GRAPHITPORT öffnete eine WETTBEWERBSHALLE."
+        ],
+        "A2": [
+          "In GRAPHITPORT öffnete eine WETTBEWERBSHALLE. Ich trete an, wenn mein Pokémon besser wirkt."
+        ],
+        "natural": [
+          "In GRAPHITPORT öffnete eine WETTBEWERBSHALLE. Ich trete an, wenn mein Pokémon besser wirkt."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityContesthallsign",
+      "base_symbol": "SlateportCity_Text_ContestHallSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "КОНКУРСЫ ПОКЕМОНОВ РЕГИСТРАЦИЯ ВЫСШЕГО РАНГА Зажгите, тренеры покемонов!"
+        ],
+        "A2": [
+          "КОНКУРСЫ ПОКЕМОНОВ РЕГИСТРАЦИЯ ВЫСШЕГО РАНГА Зажгите, тренеры покемонов!"
+        ],
+        "natural": [
+          "КОНКУРСЫ ПОКЕМОНОВ РЕГИСТРАЦИЯ ВЫСШЕГО РАНГА Зажгите, тренеры покемонов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéMON-WETTBEWERB ANMELDUNG HYPER-KLASSE Gebt alles, Pokémon-Trainer!"
+        ],
+        "A2": [
+          "POKéMON-WETTBEWERB ANMELDUNG HYPER-KLASSE Gebt alles, Pokémon-Trainer!"
+        ],
+        "natural": [
+          "POKéMON-WETTBEWERB ANMELDUNG HYPER-KLASSE Gebt alles, Pokémon-Trainer!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityDoyouknowaboutberryblender",
+      "base_symbol": "SlateportCity_Text_DoYouKnowAboutBerryBlender",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Знаешь машину ЯГОДНЫЙ БЛЕНДЕР?"
+        ],
+        "A2": [
+          "Знаешь машину ЯГОДНЫЙ БЛЕНДЕР?"
+        ],
+        "natural": [
+          "Знаешь машину ЯГОДНЫЙ БЛЕНДЕР?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kennst du den BEERENMIXER?"
+        ],
+        "A2": [
+          "Kennst du den BEERENMIXER?"
+        ],
+        "natural": [
+          "Kennst du den BEERENMIXER?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityDontbuttin",
+      "base_symbol": "SlateportCity_Text_DontButtIn",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эй, ты!"
+        ],
+        "A2": [
+          "Эй, ты! Не лезь без очереди!"
+        ],
+        "natural": [
+          "Эй, ты! Не лезь без очереди!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey, du!"
+        ],
+        "A2": [
+          "Hey, du! Drängle dich nicht vor!"
+        ],
+        "natural": [
+          "Hey, du! Drängle dich nicht vor!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityEffortribbonlooksgoodonit",
+      "base_symbol": "SlateportCity_Text_EffortRibbonLooksGoodOnIt",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О!"
+        ],
+        "A2": [
+          "О! ЛЕНТА УСИЛИЙ отлично смотрится на {STR_VAR_1}!"
+        ],
+        "natural": [
+          "О! ЛЕНТА УСИЛИЙ отлично смотрится на {STR_VAR_1}!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Das FLEISSBAND steht {STR_VAR_1} gut!"
+        ],
+        "natural": [
+          "Oh! Das FLEISSBAND steht {STR_VAR_1} gut!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityEnergygurusellwhatyouneed",
+      "base_symbol": "SlateportCity_Text_EnergyGuruSellWhatYouNeed",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я ГУРУ ЭНЕРГИИ!"
+        ],
+        "A2": [
+          "Я ГУРУ ЭНЕРГИИ! Продам всё, что нужно!"
+        ],
+        "natural": [
+          "Я ГУРУ ЭНЕРГИИ! Продам всё, что нужно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin der ENERGIE-GURU!"
+        ],
+        "A2": [
+          "Ich bin der ENERGIE-GURU! Ich verkaufe dir, was du brauchst!"
+        ],
+        "natural": [
+          "Ich bin der ENERGIE-GURU! Ich verkaufe dir, was du brauchst!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityEveryonecallshimcaptstern",
+      "base_symbol": "SlateportCity_Text_EveryoneCallsHimCaptStern",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "СТЕРН построил музей и руководит подводной экспедицией."
+        ],
+        "A2": [
+          "СТЕРН построил музей и руководит подводной экспедицией. Поэтому его зовут капитаном."
+        ],
+        "natural": [
+          "СТЕРН построил музей и руководит подводной экспедицией. Поэтому его зовут капитаном."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRIGGS baute das Museum und leitet die Tiefsee-Forschung."
+        ],
+        "A2": [
+          "BRIGGS baute das Museum und leitet die Tiefsee-Forschung. Darum heißt er Kapitän."
+        ],
+        "natural": [
+          "BRIGGS baute das Museum und leitet die Tiefsee-Forschung. Darum heißt er Kapitän."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityEvilteamhaspolicy",
+      "base_symbol": "SlateportCity_Text_EvilTeamHasPolicy",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "КОМАНДА {EVIL_TEAM} собирается и расходится на месте операции по правилам."
+        ],
+        "A2": [
+          "КОМАНДА {EVIL_TEAM} собирается и расходится на месте операции по правилам."
+        ],
+        "natural": [
+          "КОМАНДА {EVIL_TEAM} собирается и расходится на месте операции по правилам."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TEAM {EVIL_TEAM} versammelt und zerstreut sich laut Vorschrift am Einsatzort."
+        ],
+        "A2": [
+          "TEAM {EVIL_TEAM} versammelt und zerstreut sich laut Vorschrift am Einsatzort."
+        ],
+        "natural": [
+          "TEAM {EVIL_TEAM} versammelt und zerstreut sich laut Vorschrift am Einsatzort."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityEvilteamwillassumecontrolofsubmarine",
+      "base_symbol": "SlateportCity_Text_EvilTeamWillAssumeControlOfSubmarine",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе..."
+        ],
+        "A2": [
+          "Хе-хе... Капитан СТЕРН?"
+        ],
+        "natural": [
+          "Хе-хе... Капитан СТЕРН? КОМАНДА {EVIL_TEAM} забирает вашу подлодку! Не возражайте и сотрудничайте. Смотрите, что мы задумали!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe..."
+        ],
+        "A2": [
+          "Hehe... KAPT."
+        ],
+        "natural": [
+          "Hehe... KAPT. BRIGGS? TEAM {EVIL_TEAM} übernimmt Ihr U-Boot! Kein Widerspruch, kooperieren Sie. Sehen Sie, was wir geplant haben!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityExplainberryblender",
+      "base_symbol": "SlateportCity_Text_ExplainBerryBlender",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Он делает конфеты-покеблоки."
+        ],
+        "A2": [
+          "Он делает конфеты-покеблоки. Хороший покеблок сильно улучшает состояние покемона."
+        ],
+        "natural": [
+          "Он делает конфеты-покеблоки. Хороший покеблок сильно улучшает состояние покемона."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Er macht Pokériegel."
+        ],
+        "A2": [
+          "Er macht Pokériegel. Ein guter Riegel verbessert den Zustand eines Pokémon stark."
+        ],
+        "natural": [
+          "Er macht Pokériegel. Ein guter Riegel verbessert den Zustand eines Pokémon stark."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityFasterspinbetterpokeblocks",
+      "base_symbol": "SlateportCity_Text_FasterSpinBetterPokeblocks",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Нужно работать вместе, чтобы он крутился быстрее."
+        ],
+        "A2": [
+          "Нужно работать вместе, чтобы он крутился быстрее. Чем быстрее, тем лучше покеблоки."
+        ],
+        "natural": [
+          "Нужно работать вместе, чтобы он крутился быстрее. Чем быстрее, тем лучше покеблоки."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Alle müssen zusammenarbeiten, damit er schneller dreht."
+        ],
+        "A2": [
+          "Alle müssen zusammenarbeiten, damit er schneller dreht. Mehr Tempo ergibt bessere Pokériegel."
+        ],
+        "natural": [
+          "Alle müssen zusammenarbeiten, damit er schneller dreht. Mehr Tempo ergibt bessere Pokériegel."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityFromharbortryingtotakesub",
+      "base_symbol": "SlateportCity_Text_FromHarborTryingToTakeSub",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Это из ПОРТА!"
+        ],
+        "A2": [
+          "Это из ПОРТА! Они пытаются угнать подлодку!"
+        ],
+        "natural": [
+          "Это из ПОРТА! Они пытаются угнать подлодку!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das kommt vom HAFEN!"
+        ],
+        "A2": [
+          "Das kommt vom HAFEN! Sie wollen das U-Boot stehlen!"
+        ],
+        "natural": [
+          "Das kommt vom HAFEN! Sie wollen das U-Boot stehlen!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityGabbywonderfulthanksforinterview",
+      "base_symbol": "SlateportCity_Text_GabbyWonderfulThanksForInterview",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ГАББИ: Прекрасно, капитан!"
+        ],
+        "A2": [
+          "ГАББИ: Прекрасно, капитан! Спасибо за время."
+        ],
+        "natural": [
+          "ГАББИ: Прекрасно, капитан! Спасибо за время. Надеемся снова услышать о новых открытиях!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "GABBY: Wunderbar, Kapitän!"
+        ],
+        "A2": [
+          "GABBY: Wunderbar, Kapitän! Danke für Ihre Zeit."
+        ],
+        "natural": [
+          "GABBY: Wunderbar, Kapitän! Danke für Ihre Zeit. Wir hoffen auf weitere Entdeckungen!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityGetnameratertohelpyou",
+      "base_symbol": "SlateportCity_Text_GetNameRaterToHelpYou",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Чтобы сменить прозвище покемона, обратись к ОЦЕНЩИКУ ИМЁН."
+        ],
+        "A2": [
+          "Чтобы сменить прозвище покемона, обратись к ОЦЕНЩИКУ ИМЁН."
+        ],
+        "natural": [
+          "Чтобы сменить прозвище покемона, обратись к ОЦЕНЩИКУ ИМЁН."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Für einen neuen Pokémon-Spitznamen brauchst du den NAMENSBEWERTER."
+        ],
+        "A2": [
+          "Für einen neuen Pokémon-Spitznamen brauchst du den NAMENSBEWERTER."
+        ],
+        "natural": [
+          "Für einen neuen Pokémon-Spitznamen brauchst du den NAMENSBEWERTER."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityGoforitlittleharder",
+      "base_symbol": "SlateportCity_Text_GoForItLittleHarder",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Надо постараться ещё."
+        ],
+        "A2": [
+          "Надо постараться ещё. Тогда я дам твоему покемону что-нибудь хорошее."
+        ],
+        "natural": [
+          "Надо постараться ещё. Тогда я дам твоему покемону что-нибудь хорошее."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du musst dich mehr anstrengen."
+        ],
+        "A2": [
+          "Du musst dich mehr anstrengen. Dann bekommt dein Pokémon etwas Schönes."
+        ],
+        "natural": [
+          "Du musst dich mehr anstrengen. Dann bekommt dein Pokémon etwas Schönes."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityGoingtocompeteinpokemoncontest",
+      "base_symbol": "SlateportCity_Text_GoingToCompeteInPokemonContest",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я так долго ждал КОНКУРСА ПОКЕМОНОВ!"
+        ],
+        "A2": [
+          "Я так долго ждал КОНКУРСА ПОКЕМОНОВ! Я участвую!"
+        ],
+        "natural": [
+          "Я так долго ждал КОНКУРСА ПОКЕМОНОВ! Я участвую! Но сперва надо поймать покемона."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich wartete so lange auf einen POKéMON- WETTBEWERB!"
+        ],
+        "A2": [
+          "Ich wartete so lange auf einen POKéMON- WETTBEWERB! Doch zuerst brauche ich Pokémon."
+        ],
+        "natural": [
+          "Ich wartete so lange auf einen POKéMON- WETTBEWERB! Doch zuerst brauche ich Pokémon."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityHarborferryunderconstruction",
+      "base_symbol": "SlateportCity_Text_HarborFerryUnderConstruction",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ПОРТ СЛЕЙТПОРТА Паром ПРИЛИВ строят на верфи."
+        ],
+        "A2": [
+          "ПОРТ СЛЕЙТПОРТА Паром ПРИЛИВ строят на верфи. Сообщение скоро начнётся."
+        ],
+        "natural": [
+          "ПОРТ СЛЕЙТПОРТА Паром ПРИЛИВ строят на верфи. Сообщение скоро начнётся."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HAFEN VON GRAPHITPORT Die M.S."
+        ],
+        "A2": [
+          "HAFEN VON GRAPHITPORT Die M.S. TIDE wird in der Werft gebaut."
+        ],
+        "natural": [
+          "HAFEN VON GRAPHITPORT Die M.S. TIDE wird in der Werft gebaut. Der Dienst beginnt bald."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityHarborsign",
+      "base_symbol": "SlateportCity_Text_HarborSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ПОРТ СЛЕЙТПОРТА Насладитесь круизом на пароме ПРИЛИВ."
+        ],
+        "A2": [
+          "ПОРТ СЛЕЙТПОРТА Насладитесь круизом на пароме ПРИЛИВ."
+        ],
+        "natural": [
+          "ПОРТ СЛЕЙТПОРТА Насладитесь круизом на пароме ПРИЛИВ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HAFEN VON GRAPHITPORT Genieße eine Fahrt mit der M.S."
+        ],
+        "A2": [
+          "HAFEN VON GRAPHITPORT Genieße eine Fahrt mit der M.S. TIDE."
+        ],
+        "natural": [
+          "HAFEN VON GRAPHITPORT Genieße eine Fahrt mit der M.S. TIDE."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityHowtownisbornandgrows",
+      "base_symbol": "SlateportCity_Text_HowTownIsBornAndGrows",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Чистая вода приносит богатый урожай."
+        ],
+        "A2": [
+          "Чистая вода приносит богатый урожай. Где собираются люди, появляется рынок."
+        ],
+        "natural": [
+          "Чистая вода приносит богатый урожай. Где собираются люди, появляется рынок. Так рождается и растёт город."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sauberes Wasser bringt reiche Ernten."
+        ],
+        "A2": [
+          "Sauberes Wasser bringt reiche Ernten. Wo Menschen zusammenkommen, entsteht ein Markt."
+        ],
+        "natural": [
+          "Sauberes Wasser bringt reiche Ernten. Wo Menschen zusammenkommen, entsteht ein Markt. So wird eine Stadt geboren und wächst."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityInterviewersocool",
+      "base_symbol": "SlateportCity_Text_InterviewerSoCool",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Журналистка такая крутая и красивая!"
+        ],
+        "A2": [
+          "Журналистка такая крутая и красивая! Вырасту и стану международным журналистом."
+        ],
+        "natural": [
+          "Журналистка такая крутая и красивая! Вырасту и стану международным журналистом."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Reporterin ist so cool und hübsch!"
+        ],
+        "A2": [
+          "Die Reporterin ist so cool und hübsch! Ich werde ein internationaler Journalist."
+        ],
+        "natural": [
+          "Die Reporterin ist so cool und hübsch! Ich werde ein internationaler Journalist."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityMarketsign",
+      "base_symbol": "SlateportCity_Text_MarketSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "РЫНОК СЛЕЙТПОРТА Уникальные товары, которых больше нигде нет!"
+        ],
+        "A2": [
+          "РЫНОК СЛЕЙТПОРТА Уникальные товары, которых больше нигде нет!"
+        ],
+        "natural": [
+          "РЫНОК СЛЕЙТПОРТА Уникальные товары, которых больше нигде нет!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MARKT VON GRAPHITPORT Einzigartige Waren nur hier!"
+        ],
+        "A2": [
+          "MARKT VON GRAPHITPORT Einzigartige Waren nur hier!"
+        ],
+        "natural": [
+          "MARKT VON GRAPHITPORT Einzigartige Waren nur hier!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityMostinvaluableexperience",
+      "base_symbol": "SlateportCity_Text_MostInvaluableExperience",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ГАББИ: Понимаю."
+        ],
+        "A2": [
+          "ГАББИ: Понимаю. Это был бесценный опыт..."
+        ],
+        "natural": [
+          "ГАББИ: Понимаю. Это был бесценный опыт..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "GABBY: Verstehe."
+        ],
+        "A2": [
+          "GABBY: Verstehe. Das war eine unschätzbare Erfahrung..."
+        ],
+        "natural": [
+          "GABBY: Verstehe. Das war eine unschätzbare Erfahrung..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityNameratershousesign",
+      "base_symbol": "SlateportCity_Text_NameRatersHouseSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ДОМ ОЦЕНЩИКА ИМЁН Оценка прозвищ покемонов."
+        ],
+        "A2": [
+          "ДОМ ОЦЕНЩИКА ИМЁН Оценка прозвищ покемонов."
+        ],
+        "natural": [
+          "ДОМ ОЦЕНЩИКА ИМЁН Оценка прозвищ покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HAUS DES NAMENSBEWERTERS Bewertung von Pokémon-Spitznamen."
+        ],
+        "A2": [
+          "HAUS DES NAMENSBEWERTERS Bewertung von Pokémon-Spitznamen."
+        ],
+        "natural": [
+          "HAUS DES NAMENSBEWERTERS Bewertung von Pokémon-Spitznamen."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityOceanicmuseumsign",
+      "base_symbol": "SlateportCity_Text_OceanicMuseumSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Бескрайнее море поддерживает всю жизнь."
+        ],
+        "A2": [
+          "Бескрайнее море поддерживает всю жизнь. МУЗЕЙ ОКЕАНА"
+        ],
+        "natural": [
+          "Бескрайнее море поддерживает всю жизнь. МУЗЕЙ ОКЕАНА"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das endlose Meer erhält alles Leben."
+        ],
+        "A2": [
+          "Das endlose Meer erhält alles Leben. MEERESMUSEUM"
+        ],
+        "natural": [
+          "Das endlose Meer erhält alles Leben. MEERESMUSEUM"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityOhplayerwemadediscovery",
+      "base_symbol": "SlateportCity_Text_OhPlayerWeMadeDiscovery",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О, {PLAYER}!"
+        ],
+        "A2": [
+          "О, {PLAYER}! Мы сделали огромное открытие: на МАРШРУТЕ 128 нашли подводную пещеру."
+        ],
+        "natural": [
+          "О, {PLAYER}! Мы сделали огромное открытие: на МАРШРУТЕ 128 нашли подводную пещеру. Возможно, там живёт давно вымерший покемон."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, {PLAYER}!"
+        ],
+        "A2": [
+          "Oh, {PLAYER}! Wir entdeckten auf ROUTE 128 eine Unterwasserhöhle."
+        ],
+        "natural": [
+          "Oh, {PLAYER}! Wir entdeckten auf ROUTE 128 eine Unterwasserhöhle. Vielleicht lebt dort ein längst ausgestorbenes Pokémon."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityOhyourpokemon",
+      "base_symbol": "SlateportCity_Text_OhYourPokemon",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О?"
+        ],
+        "A2": [
+          "О? Твой {STR_VAR_1}..."
+        ],
+        "natural": [
+          "О? Твой {STR_VAR_1}..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh?"
+        ],
+        "A2": [
+          "Oh? Dein {STR_VAR_1}..."
+        ],
+        "natural": [
+          "Oh? Dein {STR_VAR_1}..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityPleasecomewithme",
+      "base_symbol": "SlateportCity_Text_PleaseComeWithMe",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER}!"
+        ],
+        "A2": [
+          "{PLAYER}! Идём со мной!"
+        ],
+        "natural": [
+          "{PLAYER}! Идём со мной!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER}!"
+        ],
+        "A2": [
+          "{PLAYER}! Komm bitte mit!"
+        ],
+        "natural": [
+          "{PLAYER}! Komm bitte mit!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityPleasegiveitthiseffortribbon",
+      "base_symbol": "SlateportCity_Text_PleaseGiveItThisEffortRibbon",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Он великолепно старался!"
+        ],
+        "A2": [
+          "Он великолепно старался! В награду дай ему эту ЛЕНТУ УСИЛИЙ."
+        ],
+        "natural": [
+          "Он великолепно старался! В награду дай ему эту ЛЕНТУ УСИЛИЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Es hat sich großartig bemüht!"
+        ],
+        "A2": [
+          "Es hat sich großartig bemüht! Gib ihm als Belohnung dieses FLEISSBAND."
+        ],
+        "natural": [
+          "Es hat sich großartig bemüht! Gib ihm als Belohnung dieses FLEISSBAND."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityPokemonfanclubsign",
+      "base_symbol": "SlateportCity_Text_PokemonFanClubSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ФАН-КЛУБ ПОКЕМОНОВ Приглашаем всех поклонников!"
+        ],
+        "A2": [
+          "ФАН-КЛУБ ПОКЕМОНОВ Приглашаем всех поклонников!"
+        ],
+        "natural": [
+          "ФАН-КЛУБ ПОКЕМОНОВ Приглашаем всех поклонников!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéMON-FANKLUB Alle Pokémon-Fans willkommen!"
+        ],
+        "A2": [
+          "POKéMON-FANKLUB Alle Pokémon-Fans willkommen!"
+        ],
+        "natural": [
+          "POKéMON-FANKLUB Alle Pokémon-Fans willkommen!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityPuteffortribbononmon",
+      "base_symbol": "SlateportCity_Text_PutEffortRibbonOnMon",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} надевает ЛЕНТУ УСИЛИЙ на {STR_VAR_1}."
+        ],
+        "A2": [
+          "{PLAYER} надевает ЛЕНТУ УСИЛИЙ на {STR_VAR_1}."
+        ],
+        "natural": [
+          "{PLAYER} надевает ЛЕНТУ УСИЛИЙ на {STR_VAR_1}."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} gibt {STR_VAR_1} das FLEISSBAND."
+        ],
+        "A2": [
+          "{PLAYER} gibt {STR_VAR_1} das FLEISSBAND."
+        ],
+        "natural": [
+          "{PLAYER} gibt {STR_VAR_1} das FLEISSBAND."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityQuitpushing",
+      "base_symbol": "SlateportCity_Text_QuitPushing",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эй, не толкайся!"
+        ],
+        "A2": [
+          "Эй, не толкайся! Разве не видишь очередь?"
+        ],
+        "natural": [
+          "Эй, не толкайся! Разве не видишь очередь?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey, nicht drängeln!"
+        ],
+        "A2": [
+          "Hey, nicht drängeln! Siehst du die Schlange nicht?"
+        ],
+        "natural": [
+          "Hey, nicht drängeln! Siehst du die Schlange nicht?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityReceivedeffortribbon",
+      "base_symbol": "SlateportCity_Text_ReceivedEffortRibbon",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} получает ЛЕНТУ УСИЛИЙ."
+        ],
+        "A2": [
+          "{PLAYER} получает ЛЕНТУ УСИЛИЙ."
+        ],
+        "natural": [
+          "{PLAYER} получает ЛЕНТУ УСИЛИЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} erhält das FLEISSBAND."
+        ],
+        "A2": [
+          "{PLAYER} erhält das FLEISSBAND."
+        ],
+        "natural": [
+          "{PLAYER} erhält das FLEISSBAND."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityRemindsmeoflonglineforgames",
+      "base_symbol": "SlateportCity_Text_RemindsMeOfLongLineForGames",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Длинная очередь напоминает мне очереди за популярными играми..."
+        ],
+        "A2": [
+          "Длинная очередь напоминает мне очереди за популярными играми..."
+        ],
+        "natural": [
+          "Длинная очередь напоминает мне очереди за популярными играми..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die lange Schlange erinnert mich an den Andrang bei erfolgreichen Spielen..."
+        ],
+        "A2": [
+          "Die lange Schlange erinnert mich an den Andrang bei erfolgreichen Spielen..."
+        ],
+        "natural": [
+          "Die lange Schlange erinnert mich an den Andrang bei erfolgreichen Spielen..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySeaissowet",
+      "base_symbol": "SlateportCity_Text_SeaIsSoWet",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Море такое огромное..."
+        ],
+        "A2": [
+          "Море такое огромное... Может, оно создано из слёз покемонов?"
+        ],
+        "natural": [
+          "Море такое огромное... Может, оно создано из слёз покемонов?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Meer ist so riesig..."
+        ],
+        "A2": [
+          "Das Meer ist so riesig... Besteht es aus den Tränen der Pokémon?"
+        ],
+        "natural": [
+          "Das Meer ist so riesig... Besteht es aus den Tränen der Pokémon?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySeaweedfulloflife",
+      "base_symbol": "SlateportCity_Text_SeaweedFullOfLife",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Посмотри!"
+        ],
+        "A2": [
+          "Посмотри! Местные водоросли свежие и полны жизни."
+        ],
+        "natural": [
+          "Посмотри! Местные водоросли свежие и полны жизни. Кажется, они могут напасть!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieh nur!"
+        ],
+        "A2": [
+          "Sieh nur! Der Seetang hier ist frisch und lebendig."
+        ],
+        "natural": [
+          "Sieh nur! Der Seetang hier ist frisch und lebendig. Er könnte sogar angreifen!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityShouldtakeitall",
+      "base_symbol": "SlateportCity_Text_ShouldTakeItAll",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Если в музее есть нужное, надо забрать всё!"
+        ],
+        "A2": [
+          "Если в музее есть нужное, надо забрать всё!"
+        ],
+        "natural": [
+          "Если в музее есть нужное, надо забрать всё!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn wir etwas im Museum brauchen, nehmen wir alles!"
+        ],
+        "A2": [
+          "Wenn wir etwas im Museum brauchen, nehmen wir alles!"
+        ],
+        "natural": [
+          "Wenn wir etwas im Museum brauchen, nehmen wir alles!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySinkoldboats",
+      "base_symbol": "SlateportCity_Text_SinkOldBoats",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Старые корабли, уже не способные плавать, топят."
+        ],
+        "A2": [
+          "Старые корабли, уже не способные плавать, топят. Они становятся домом для покемонов."
+        ],
+        "natural": [
+          "Старые корабли, уже не способные плавать, топят. Они становятся домом для покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Alte, nicht mehr fahrbare Schiffe versenkt man."
+        ],
+        "A2": [
+          "Alte, nicht mehr fahrbare Schiffe versenkt man. Sie werden Lebensraum für Pokémon."
+        ],
+        "natural": [
+          "Alte, nicht mehr fahrbare Schiffe versenkt man. Sie werden Lebensraum für Pokémon."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySlateportwonderfulplace",
+      "base_symbol": "SlateportCity_Text_SlateportWonderfulPlace",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Покупки с запахом океана..."
+        ],
+        "A2": [
+          "Покупки с запахом океана... СЛЕЙТПОРТ - замечательное место!"
+        ],
+        "natural": [
+          "Покупки с запахом океана... СЛЕЙТПОРТ - замечательное место!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Einkaufen mit Meeresduft..."
+        ],
+        "A2": [
+          "Einkaufen mit Meeresduft... GRAPHITPORT ist ein wunderbarer Ort!"
+        ],
+        "natural": [
+          "Einkaufen mit Meeresduft... GRAPHITPORT ist ein wunderbarer Ort!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternmoveaheadwithexploration",
+      "base_symbol": "SlateportCity_Text_SternMoveAheadWithExploration",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН: Да, мы продолжим исследования."
+        ],
+        "A2": [
+          "Капитан СТЕРН: Да, мы продолжим исследования."
+        ],
+        "natural": [
+          "Капитан СТЕРН: Да, мы продолжим исследования."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS: Ja, wir setzen die Forschung fort."
+        ],
+        "natural": [
+          "KAPT. BRIGGS: Ja, wir setzen die Forschung fort."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternsaysdiscoveredsomething",
+      "base_symbol": "SlateportCity_Text_SternSaysDiscoveredSomething",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН говорит, что на дне что-то нашли."
+        ],
+        "A2": [
+          "Капитан СТЕРН говорит, что на дне что-то нашли. Интересно, что это?"
+        ],
+        "natural": [
+          "Капитан СТЕРН говорит, что на дне что-то нашли. Интересно, что это?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS sagt, sie fanden etwas am Meeresgrund."
+        ],
+        "natural": [
+          "KAPT. BRIGGS sagt, sie fanden etwas am Meeresgrund. Was könnte es sein?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternwhatwasallthat",
+      "base_symbol": "SlateportCity_Text_SternWhatWasAllThat",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН: Что это было?"
+        ],
+        "A2": [
+          "Капитан СТЕРН: Что это было? Будто кто-то говорил в мегафон..."
+        ],
+        "natural": [
+          "Капитан СТЕРН: Что это было? Будто кто-то говорил в мегафон... Откуда звук?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS: Was war das?"
+        ],
+        "natural": [
+          "KAPT. BRIGGS: Was war das? Es klang wie ein Megafon... Woher kam es?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternwhewfirstinterview",
+      "base_symbol": "SlateportCity_Text_SternWhewFirstInterview",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН: Уф..."
+        ],
+        "A2": [
+          "Капитан СТЕРН: Уф... Меня впервые снимали для ТВ."
+        ],
+        "natural": [
+          "Капитан СТЕРН: Уф... Меня впервые снимали для ТВ. Как волнующе."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS: Puh..."
+        ],
+        "natural": [
+          "KAPT. BRIGGS: Puh... Mein erstes Mal im Fernsehen. Das war nervenaufreibend."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternsshipyardferrycomplete",
+      "base_symbol": "SlateportCity_Text_SternsShipyardFerryComplete",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ВЕРФЬ СТЕРНА Посадка на паром ПРИЛИВ между СЛЕЙТПОРТОМ и ЛИЛИКОВОМ проходит в ПОРТУ."
+        ],
+        "A2": [
+          "ВЕРФЬ СТЕРНА Посадка на паром ПРИЛИВ между СЛЕЙТПОРТОМ и ЛИЛИКОВОМ проходит в ПОРТУ."
+        ],
+        "natural": [
+          "ВЕРФЬ СТЕРНА Посадка на паром ПРИЛИВ между СЛЕЙТПОРТОМ и ЛИЛИКОВОМ проходит в ПОРТУ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRIGGS' WERFT Die M.S."
+        ],
+        "A2": [
+          "BRIGGS' WERFT Die M.S. TIDE nach SEEGRASULB legt am HAFEN von GRAPHITPORT ab."
+        ],
+        "natural": [
+          "BRIGGS' WERFT Die M.S. TIDE nach SEEGRASULB legt am HAFEN von GRAPHITPORT ab."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternsshipyardnearscompletion",
+      "base_symbol": "SlateportCity_Text_SternsShipyardNearsCompletion",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ВЕРФЬ СТЕРНА Паром ПРИЛИВ для СЛЕЙТПОРТА и ЛИЛИКОВА почти готов."
+        ],
+        "A2": [
+          "ВЕРФЬ СТЕРНА Паром ПРИЛИВ для СЛЕЙТПОРТА и ЛИЛИКОВА почти готов."
+        ],
+        "natural": [
+          "ВЕРФЬ СТЕРНА Паром ПРИЛИВ для СЛЕЙТПОРТА и ЛИЛИКОВА почти готов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRIGGS' WERFT Die Fähre M.S."
+        ],
+        "A2": [
+          "BRIGGS' WERFT Die Fähre M.S. TIDE zwischen GRAPHITPORT und SEEGRASULB ist fast fertig."
+        ],
+        "natural": [
+          "BRIGGS' WERFT Die Fähre M.S. TIDE zwischen GRAPHITPORT und SEEGRASULB ist fast fertig."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcitySternsshipyardwantedsign",
+      "base_symbol": "SlateportCity_Text_SternsShipyardWantedSign",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ВЕРФЬ СТЕРНА Требуется моряк, способный пройти любое течение."
+        ],
+        "A2": [
+          "ВЕРФЬ СТЕРНА Требуется моряк, способный пройти любое течение."
+        ],
+        "natural": [
+          "ВЕРФЬ СТЕРНА Требуется моряк, способный пройти любое течение."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRIGGS' WERFT Gesucht: Seemann für jede Strömung."
+        ],
+        "A2": [
+          "BRIGGS' WERFT Gesucht: Seemann für jede Strömung."
+        ],
+        "natural": [
+          "BRIGGS' WERFT Gesucht: Seemann für jede Strömung."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityVisitedmuseumoften",
+      "base_symbol": "SlateportCity_Text_VisitedMuseumOften",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "В детстве я часто ходил в музей."
+        ],
+        "A2": [
+          "В детстве я часто ходил в музей. Экспонаты заставляли мечтать о тайнах моря."
+        ],
+        "natural": [
+          "В детстве я часто ходил в музей. Экспонаты заставляли мечтать о тайнах моря."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Als Kind besuchte ich oft das Museum."
+        ],
+        "A2": [
+          "Als Kind besuchte ich oft das Museum. Die Exponate ließen mich vom Meer träumen."
+        ],
+        "natural": [
+          "Als Kind besuchte ich oft das Museum. Die Exponate ließen mich vom Meer träumen."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityWhatslonglineoverthere",
+      "base_symbol": "SlateportCity_Text_WhatsLongLineOverThere",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Что там?"
+        ],
+        "A2": [
+          "Что там? Такая длинная очередь..."
+        ],
+        "natural": [
+          "Что там? Такая длинная очередь..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was ist dort?"
+        ],
+        "A2": [
+          "Was ist dort? Diese lange Schlange..."
+        ],
+        "natural": [
+          "Was ist dort? Diese lange Schlange..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityWhatsnewschemeiwonder",
+      "base_symbol": "SlateportCity_Text_WhatsNewSchemeIWonder",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Что за новый план?"
+        ],
+        "A2": [
+          "Что за новый план? БОСС страшен в гневе, лучше не ошибаться..."
+        ],
+        "natural": [
+          "Что за новый план? БОСС страшен в гневе, лучше не ошибаться..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was ist der neue Plan?"
+        ],
+        "A2": [
+          "Was ist der neue Plan? Der BOSS ist wütend sehr gruselig."
+        ],
+        "natural": [
+          "Was ist der neue Plan? Der BOSS ist wütend sehr gruselig. Ich darf nichts vermasseln..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityWhyareweliningup",
+      "base_symbol": "SlateportCity_Text_WhyAreWeLiningUp",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Зачем мы стоим в очереди и платим?"
+        ],
+        "A2": [
+          "Зачем мы стоим в очереди и платим? Просто ворвёмся внутрь!"
+        ],
+        "natural": [
+          "Зачем мы стоим в очереди и платим? Просто ворвёмся внутрь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Warum stehen wir an und zahlen?"
+        ],
+        "A2": [
+          "Warum stehen wir an und zahlen? Wir sollten einfach hineinmarschieren!"
+        ],
+        "natural": [
+          "Warum stehen wir an und zahlen? Wir sollten einfach hineinmarschieren!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportcityWonderiflighthousestartlespokemon",
+      "base_symbol": "SlateportCity_Text_WonderIfLighthouseStartlesPokemon",
+      "source_path": "data/maps/SlateportCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport resident, sign, service, or harbor story conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Свет маяка виден за десятки миль."
+        ],
+        "A2": [
+          "Свет маяка виден за десятки миль. Надеюсь, он не пугает морских покемонов."
+        ],
+        "natural": [
+          "Свет маяка виден за десятки миль. Надеюсь, он не пугает морских покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "порт",
+            "port"
+          ]
+        ],
+        "de": [
+          [
+            "der Hafen",
+            "port"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Leuchtfeuer reicht viele Meilen weit."
+        ],
+        "A2": [
+          "Das Leuchtfeuer reicht viele Meilen weit. Hoffentlich erschreckt es keine Meeres-Pokémon."
+        ],
+        "natural": [
+          "Das Leuchtfeuer reicht viele Meilen weit. Hoffentlich erschreckt es keine Meeres-Pokémon."
+        ]
+      }
     }
   ]
 }

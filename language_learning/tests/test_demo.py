@@ -598,6 +598,8 @@ class LessonTests(unittest.TestCase):
                   'data/maps/Route106/scripts.inc',
                   'data/maps/Route107/scripts.inc',
                   'data/maps/Route108/scripts.inc',
+                  'data/maps/SlateportCity/scripts.inc',
+                  'data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc',
                   'data/maps/SlateportCity_SternsShipyard_1F/scripts.inc',
                   'data/maps/SlateportCity_OceanicMuseum_2F/scripts.inc',
                   'data/maps/Route104_PrettyPetalFlowerShop/scripts.inc',

@@ -10726,6 +10726,1866 @@
         "slateportmuseum",
         "story"
       ]
+    },
+    {
+      "id": "slateportmuseumone.museum.1a927f.535",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_1ADEE0",
+        "base_text_path": "data/text/tv.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A927F",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOneANineTwoSevenF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 535
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.1a934c.536",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_1ADF25",
+        "base_text_path": "data/text/tv.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A934C",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOneANineThreeFourC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 536
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.1a93d1.537",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_1ADF44",
+        "base_text_path": "data/text/tv.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A93D1",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOneANineThreeDOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 537
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.1a9446.538",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_1ADF79",
+        "base_text_path": "data/text/tv.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A9446",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOneANineFourFourSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 538
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.1a949a.539",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_1ADF83",
+        "base_text_path": "data/text/tv.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A949A",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOneANineFourNineA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 539
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.1a952e.540",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/event_scripts.s",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_1ADF96",
+        "base_text_path": "data/text/tv.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_1A952E",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOneANineFiveTwoE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 540
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.beachsanddisplay.541",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_BeachSandDisplay",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_BeachSandDisplay",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneBeachsanddisplay"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 541
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.canlearnfornefariousdeeds.542",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt4",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneCanlearnfornefariousdeeds"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 542
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.catchupwithyourgroup.543",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_AllowEntranceAnyway",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneCatchupwithyourgroup"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 543
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.depthmeasuringmachine.544",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_DepthMeasuringMachine",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneDepthmeasuringmachine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 544
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.didnthavemoney.545",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt6",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneDidnthavemoney"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 545
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.evilteamexistforgoodofall.546",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt1",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_EvilTeamExistForGoodOfAll",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneEvilteamexistforgoodofall"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 546
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.fossildisplay.547",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_FossilDisplay",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_FossilDisplay",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneFossildisplay"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 547
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.learnaboutseaforbattling.548",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron1",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneLearnaboutseaforbattling"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 548
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.mustbepokemonwedontknow.549",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron3",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneMustbepokemonwedontknow"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 549
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.notenoughmoney.550",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_NotEnoughMoney",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneNotenoughmoney"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 550
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.oceansoildisplay.551",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_OceanSoilDisplay",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanSoilDisplay",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOceansoildisplay"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 551
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.oceanicminifact1.552",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_OceanicMinifact1",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact1",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOceanicminifactOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 552
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.oceanicminifact2.553",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_OceanicMinifact2",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact2",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOceanicminifactTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 553
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.oceanicminifact3.554",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_OceanicMinifact3",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_OceanicMinifact3",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOceanicminifactThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 554
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.ourbossisnthere.555",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt2",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneOurbossisnthere"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 555
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.pleaseenjoyyourself.556",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_EntranceAttendant",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumonePleaseenjoyyourself"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 556
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.remembermetakethis.557",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneRemembermetakethis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 557
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.rustborobungled.558",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt5",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_RustboroBungled",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneRustborobungled"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 558
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.sternisrolemodel.559",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron2",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneSternisrolemodel"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 559
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.wantseapokemon.560",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumPatron4",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneWantseapokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 560
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.waterfallexperiment.561",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_WaterfallExperiment",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_WaterfallExperiment",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneWaterfallexperiment"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 561
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.whirlpoolexperiment.562",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_WhirlpoolExperiment",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneWhirlpoolexperiment"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 562
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.wouldstuffheremakemerich.563",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_MuseumGrunt3",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneWouldstuffheremakemerich"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 563
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.wouldyouliketoenter.564",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_PayEntranceFee",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneWouldyouliketoenter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 564
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.youhavetotakethis.565",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_NoRoomForThief",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneYouhavetotakethis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 565
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportmuseumone.museum.youscrewedupourplans.566",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc",
+        "symbol": "SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt",
+        "base_text_path": "data/maps/SlateportCity_OceanicMuseum_1F/text.inc",
+        "base_text_symbol": "SlateportCity_OceanicMuseum_1F_Text_YouScrewedUpOurPlans",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportmuseumoneYouscrewedupourplans"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 566
+      },
+      "tags": [
+        "slateportmuseumone",
+        "museum"
+      ]
+    },
+    {
+      "id": "slateportcity.city.amiontv.567",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_FatManSternInterview",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_AmIOnTV",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityAmiontv"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 567
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.bigsmileforcamera.568",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Ty",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_BigSmileForCamera",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityBigsmileforcamera"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 568
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.bossisbrilliant.569",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt3",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_BossIsBrilliant",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityBossisbrilliant"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 569
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.bushedhikingfrommauville.570",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_FatMan",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_BushedHikingFromMauville",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityBushedhikingfrommauville"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 570
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.buybrickssodecorwontgetdirty.571",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_GirlSecretBase",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_BuyBricksSoDecorWontGetDirty",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityBuybrickssodecorwontgetdirty"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 571
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.buytoomuch.572",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_PokefanF",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_BuyTooMuch",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityBuytoomuch"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 572
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.cantchangetrademonname.573",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Woman2",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_CantChangeTradeMonName",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityCantchangetrademonname"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 573
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.captsternbeinginterviewed.574",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_OldWomanSternInterview",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_CaptSternBeingInterviewed",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityCaptsternbeinginterviewed"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 574
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.captaincomebackwithbigfish.575",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CookSternInterview",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_CaptainComeBackWithBigFish",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityCaptaincomebackwithbigfish"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 575
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.captainsacelebrity.576",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Man1SternInterview",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_CaptainsACelebrity",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityCaptainsacelebrity"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 576
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.citysign.577",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CitySign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_CitySign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityCitysign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 577
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.contesthallbuiltrecently.578",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Man2",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_ContestHallBuiltRecently",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityContesthallbuiltrecently"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 578
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.contesthallsign.579",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_ContestHallSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_ContestHallSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityContesthallsign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 579
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.doyouknowaboutberryblender.580",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_SchoolKid",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_DoYouKnowAboutBerryBlender",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityDoyouknowaboutberryblender"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 580
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.dontbuttin.581",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt6",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_DontButtIn",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityDontbuttin"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 581
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.effortribbonlooksgoodonit.582",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_MonHasEffortRibbon",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_EffortRibbonLooksGoodOnIt",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityEffortribbonlooksgoodonit"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 582
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.energygurusellwhatyouneed.583",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EnergyGuru",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_EnergyGuruSellWhatYouNeed",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityEnergygurusellwhatyouneed"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 583
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.everyonecallshimcaptstern.584",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Man1",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_EveryoneCallsHimCaptStern",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityEveryonecallshimcaptstern"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 584
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.evilteamhaspolicy.585",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt2",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_EvilTeamHasPolicy",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityEvilteamhaspolicy"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 585
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.evilteamwillassumecontrolofsubmarine.586",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_EvilTeamWillAssumeControlOfSubmarine",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityEvilteamwillassumecontrolofsubmarine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 586
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.explainberryblender.587",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_ExplainPokeblock",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_ExplainBerryBlender",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityExplainberryblender"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 587
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.fasterspinbetterpokeblocks.588",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_ExplainBerryBlender",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_FasterSpinBetterPokeblocks",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityFasterspinbetterpokeblocks"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 588
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.fromharbortryingtotakesub.589",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_FromHarborTryingToTakeSub",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityFromharbortryingtotakesub"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 589
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.gabbywonderfulthanksforinterview.590",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_GabbyWonderfulThanksForInterview",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityGabbywonderfulthanksforinterview"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 590
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.getnameratertohelpyou.591",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Maniac",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_GetNameRaterToHelpYou",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityGetnameratertohelpyou"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 591
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.goforitlittleharder.592",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_MonEVsNotMaxed",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_GoForItLittleHarder",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityGoforitlittleharder"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 592
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.goingtocompeteinpokemoncontest.593",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_RichBoy",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_GoingToCompeteInPokemonContest",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityGoingtocompeteinpokemoncontest"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 593
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.harborferryunderconstruction.594",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_HarborSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_HarborFerryUnderConstruction",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityHarborferryunderconstruction"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 594
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.harborsign.595",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_HarborSignFerryComplete",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_HarborSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityHarborsign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 595
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.howtownisbornandgrows.596",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_OldWoman",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_HowTownIsBornAndGrows",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityHowtownisbornandgrows"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 596
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.interviewersocool.597",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_GirlSternInterview",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_InterviewerSoCool",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityInterviewersocool"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 597
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.marketsign.598",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_MarketSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_MarketSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityMarketsign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 598
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.mostinvaluableexperience.599",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Gabby",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_MostInvaluableExperience",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityMostinvaluableexperience"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 599
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.nameratershousesign.600",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_NameRatersHouseSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_NameRatersHouseSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityNameratershousesign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 600
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.oceanicmuseumsign.601",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_OceanicMuseumSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_OceanicMuseumSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityOceanicmuseumsign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 601
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.ohplayerwemadediscovery.602",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_OhPlayerWeMadeDiscovery",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityOhplayerwemadediscovery"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 602
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.ohyourpokemon.603",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EffortRibbonWoman",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_OhYourPokemon",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityOhyourpokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 603
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.pleasecomewithme.604",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_PleaseComeWithMe",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityPleasecomewithme"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 604
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.pleasegiveitthiseffortribbon.605",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EffortRibbonWoman",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_PleaseGiveItThisEffortRibbon",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityPleasegiveitthiseffortribbon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 605
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.pokemonfanclubsign.606",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_PokemonFanClubSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_PokemonFanClubSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityPokemonfanclubsign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 606
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.puteffortribbononmon.607",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EffortRibbonWoman",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_PutEffortRibbonOnMon",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityPuteffortribbononmon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 607
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.quitpushing.608",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt1",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_QuitPushing",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityQuitpushing"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 608
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.receivedeffortribbon.609",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EffortRibbonWoman",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_ReceivedEffortRibbon",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityReceivedeffortribbon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 609
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.remindsmeoflonglineforgames.610",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt7",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_RemindsMeOfLongLineForGames",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityRemindsmeoflonglineforgames"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 610
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.seaissowet.611",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Sailor1",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SeaIsSoWet",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySeaissowet"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 611
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.seaweedfulloflife.612",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Cook",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SeaweedFullOfLife",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySeaweedfulloflife"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 612
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.shouldtakeitall.613",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt5",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_ShouldTakeItAll",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityShouldtakeitall"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 613
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sinkoldboats.614",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Sailor2",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SinkOldBoats",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySinkoldboats"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 614
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.slateportwonderfulplace.615",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Girl",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SlateportWonderfulPlace",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySlateportwonderfulplace"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 615
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternmoveaheadwithexploration.616",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternMoveAheadWithExploration",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternmoveaheadwithexploration"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 616
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternsaysdiscoveredsomething.617",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_RichBoySternInterview",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternSaysDiscoveredSomething",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternsaysdiscoveredsomething"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 617
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternwhatwasallthat.618",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternWhatWasAllThat",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternwhatwasallthat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 618
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternwhewfirstinterview.619",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_CaptStern",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternWhewFirstInterview",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternwhewfirstinterview"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 619
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternsshipyardferrycomplete.620",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_SternsShipyardFerryComplete",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternsShipyardFerryComplete",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternsshipyardferrycomplete"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 620
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternsshipyardnearscompletion.621",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_SternsShipyardNearsCompletion",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternsShipyardNearsCompletion",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternsshipyardnearscompletion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 621
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.sternsshipyardwantedsign.622",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_SternsShipyardSign",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_SternsShipyardWantedSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcitySternsshipyardwantedsign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 622
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.visitedmuseumoften.623",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Woman1EvilTeamGone",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_VisitedMuseumOften",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityVisitedmuseumoften"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 623
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.whatslonglineoverthere.624",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Woman1",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_WhatsLongLineOverThere",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityWhatslonglineoverthere"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 624
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.whatsnewschemeiwonder.625",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt4",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_WhatsNewSchemeIWonder",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityWhatsnewschemeiwonder"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 625
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.whyareweliningup.626",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_EvilTeamGrunt8",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_WhyAreWeLiningUp",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityWhyareweliningup"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 626
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
+    },
+    {
+      "id": "slateportcity.city.wonderiflighthousestartlespokemon.627",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/SlateportCity/scripts.inc",
+        "symbol": "SlateportCity_EventScript_Man3",
+        "base_text_path": "data/maps/SlateportCity/text.inc",
+        "base_text_symbol": "SlateportCity_Text_WonderIfLighthouseStartlesPokemon",
+        "note": "Adaptive translation bridge preserves the original story, choice, or service flow.",
+        "authored_id": "SlateportcityWonderiflighthousestartlespokemon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 627
+      },
+      "tags": [
+        "slateportcity",
+        "city"
+      ]
     }
   ]
 }

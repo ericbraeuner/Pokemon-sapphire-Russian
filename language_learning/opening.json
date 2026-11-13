@@ -21692,6 +21692,2166 @@
           "RAY: Du willst gegen uns kämpfen? Bring mehr Pokémon mit!"
         ]
       }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineSevenCThree",
+      "base_symbol": "Route108_Text_1B97C3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я мечтаю переплыть семь морей мира!"
+        ],
+        "A2": [
+          "Я мечтаю переплыть семь морей мира!"
+        ],
+        "natural": [
+          "Я мечтаю переплыть семь морей мира!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich träume davon, durch die sieben Weltmeere zu schwimmen!"
+        ],
+        "A2": [
+          "Ich träume davon, durch die sieben Weltmeere zu schwimmen!"
+        ],
+        "natural": [
+          "Ich träume davon, durch die sieben Weltmeere zu schwimmen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineSevenEf",
+      "base_symbol": "Route108_Text_1B97EF",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Так я не смогу переплыть семь морей..."
+        ],
+        "A2": [
+          "Так я не смогу переплыть семь морей..."
+        ],
+        "natural": [
+          "Так я не смогу переплыть семь морей..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "So werde ich die sieben Weltmeere nicht durchqueren..."
+        ],
+        "A2": [
+          "So werde ich die sieben Weltmeere nicht durchqueren..."
+        ],
+        "natural": [
+          "So werde ich die sieben Weltmeere nicht durchqueren..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineEightTwoThree",
+      "base_symbol": "Route108_Text_1B9823",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Играть с морскими покемонами - одно из лучших удовольствий плавания!"
+        ],
+        "A2": [
+          "Играть с морскими покемонами - одно из лучших удовольствий плавания!"
+        ],
+        "natural": [
+          "Играть с морскими покемонами - одно из лучших удовольствий плавания!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit Meeres-Pokémon zu spielen gehört zu den schönsten Seiten des Schwimmens!"
+        ],
+        "A2": [
+          "Mit Meeres-Pokémon zu spielen gehört zu den schönsten Seiten des Schwimmens!"
+        ],
+        "natural": [
+          "Mit Meeres-Pokémon zu spielen gehört zu den schönsten Seiten des Schwimmens!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineEightSixFour",
+      "base_symbol": "Route108_Text_1B9864",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Эй!"
+        ],
+        "A2": [
+          "Эй! Вы тоже направляетесь к заброшенному кораблю?"
+        ],
+        "natural": [
+          "Эй! Вы тоже направляетесь к заброшенному кораблю?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ahoi!"
+        ],
+        "A2": [
+          "Ahoi! Bist du auch auf dem Weg zum Schiffswrack?"
+        ],
+        "natural": [
+          "Ahoi! Bist du auch auf dem Weg zum Schiffswrack?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineEightNineF",
+      "base_symbol": "Route108_Text_1B989F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я тону!"
+        ],
+        "A2": [
+          "Я тону! Буль..."
+        ],
+        "natural": [
+          "Я тону! Буль... Буль..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sinke!"
+        ],
+        "A2": [
+          "Ich sinke! Blubb..."
+        ],
+        "natural": [
+          "Ich sinke! Blubb... Blubb..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineEightBc",
+      "base_symbol": "Route108_Text_1B98BC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Некоторые люди даже заходят внутрь заброшенного корабля."
+        ],
+        "A2": [
+          "Некоторые люди даже заходят внутрь заброшенного корабля."
+        ],
+        "natural": [
+          "Некоторые люди даже заходят внутрь заброшенного корабля."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Manche Menschen gehen sogar in das Schiffswrack hinein."
+        ],
+        "A2": [
+          "Manche Menschen gehen sogar in das Schiffswrack hinein."
+        ],
+        "natural": [
+          "Manche Menschen gehen sogar in das Schiffswrack hinein."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineEightEc",
+      "base_symbol": "Route108_Text_1B98EC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Мой лживый парень сказал, что я отлично выгляжу в купальнике..."
+        ],
+        "A2": [
+          "Мой лживый парень сказал, что я отлично выгляжу в купальнике..."
+        ],
+        "natural": [
+          "Мой лживый парень сказал, что я отлично выгляжу в купальнике..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein lügender Freund sagte, ich sähe im Bikini toll aus..."
+        ],
+        "A2": [
+          "Mein lügender Freund sagte, ich sähe im Bikini toll aus..."
+        ],
+        "natural": [
+          "Mein lügender Freund sagte, ich sähe im Bikini toll aus..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineNineTwoC",
+      "base_symbol": "Route108_Text_1B992C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Вот досада!"
+        ],
+        "A2": [
+          "Вот досада!"
+        ],
+        "natural": [
+          "Вот досада!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie gemein!"
+        ],
+        "A2": [
+          "Wie gemein!"
+        ],
+        "natural": [
+          "Wie gemein!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineNineThreeFive",
+      "base_symbol": "Route108_Text_1B9935",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Даже если это неправда, приятно слышать, что я отлично выгляжу."
+        ],
+        "A2": [
+          "Даже если это неправда, приятно слышать, что я отлично выгляжу. Девушки такие сложные..."
+        ],
+        "natural": [
+          "Даже если это неправда, приятно слышать, что я отлично выгляжу. Девушки такие сложные..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auch wenn es nicht stimmt, höre ich gern, dass ich toll aussehe."
+        ],
+        "A2": [
+          "Auch wenn es nicht stimmt, höre ich gern, dass ich toll aussehe. Mädchen sind kompliziert..."
+        ],
+        "natural": [
+          "Auch wenn es nicht stimmt, höre ich gern, dass ich toll aussehe. Mädchen sind kompliziert..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineNineEightSix",
+      "base_symbol": "Route108_Text_1B9986",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Я люблю море!"
+        ],
+        "A2": [
+          "Я люблю море! Когда плаваю, забываю обо всех заботах!"
+        ],
+        "natural": [
+          "Я люблю море! Когда плаваю, забываю обо всех заботах!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich liebe das Meer!"
+        ],
+        "A2": [
+          "Ich liebe das Meer! Beim Schwimmen vergesse ich alle Sorgen!"
+        ],
+        "natural": [
+          "Ich liebe das Meer! Beim Schwimmen vergesse ich alle Sorgen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineNineBb",
+      "base_symbol": "Route108_Text_1B99BB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Когда проигрываю бой, я ужасно нервничаю!"
+        ],
+        "A2": [
+          "Когда проигрываю бой, я ужасно нервничаю!"
+        ],
+        "natural": [
+          "Когда проигрываю бой, я ужасно нервничаю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn ich einen Kampf verliere, bin ich völlig gestresst!"
+        ],
+        "A2": [
+          "Wenn ich einen Kampf verliere, bin ich völlig gestresst!"
+        ],
+        "natural": [
+          "Wenn ich einen Kampf verliere, bin ich völlig gestresst!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroEightOneBNineNineENine",
+      "base_symbol": "Route108_Text_1B99E9",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 108 trainer talks about the sea and battling."
+      ],
+      "ru": {
+        "A1": [
+          "Снимайте напряжение плаванием!"
+        ],
+        "A2": [
+          "Снимайте напряжение плаванием! Это очень полезно!"
+        ],
+        "natural": [
+          "Снимайте напряжение плаванием! Это очень полезно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "море",
+            "sea"
+          ]
+        ],
+        "de": [
+          [
+            "das Meer",
+            "sea"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bau Stress durch Schwimmen ab!"
+        ],
+        "A2": [
+          "Bau Stress durch Schwimmen ab! Das ist sehr gesund!"
+        ],
+        "natural": [
+          "Bau Stress durch Schwimmen ab! Das ist sehr gesund!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardBrineyjoinedus",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "ДОК: Мистер БРАЙНИ помогает нам."
+        ],
+        "A2": [
+          "ДОК: Мистер БРАЙНИ помогает нам. Благодаря опытному моряку паром обретает форму."
+        ],
+        "natural": [
+          "ДОК: Мистер БРАЙНИ помогает нам. Благодаря опытному моряку паром обретает форму."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAI: MR."
+        ],
+        "A2": [
+          "KAI: MR. BRACK hilft uns."
+        ],
+        "natural": [
+          "KAI: MR. BRACK hilft uns. Dank des alten Seemanns nimmt die Fähre Gestalt an."
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardCantmakeheadsortails",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "Так, это сюда, а то туда..."
+        ],
+        "A2": [
+          "Так, это сюда, а то туда... Но куда идёт эта штука?"
+        ],
+        "natural": [
+          "Так, это сюда, а то туда... Но куда идёт эта штука? А та деталь? Ар-р! Ничего не понимаю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das hierhin und jenes dorthin..."
+        ],
+        "A2": [
+          "Das hierhin und jenes dorthin... Doch wohin gehört dieses Teil?"
+        ],
+        "natural": [
+          "Das hierhin und jenes dorthin... Doch wohin gehört dieses Teil? Und jenes? Argh! Ich verstehe gar nichts!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardCoulduseadvicefromveteran",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "ДОК: Строительство кораблей - искусство."
+        ],
+        "A2": [
+          "ДОК: Строительство кораблей - искусство. Одних расчётов мало."
+        ],
+        "natural": [
+          "ДОК: Строительство кораблей - искусство. Одних расчётов мало. Нужен совет моряка."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAI: Schiffbau ist eine Kunst."
+        ],
+        "A2": [
+          "KAI: Schiffbau ist eine Kunst. Rechnen allein reicht nicht."
+        ],
+        "natural": [
+          "KAI: Schiffbau ist eine Kunst. Rechnen allein reicht nicht. Ich brauche den Rat eines erfahrenen Seemanns."
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardCouldyoufindstern",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "ДОК: Куда ушёл капитан СТЕРН?"
+        ],
+        "A2": [
+          "ДОК: Куда ушёл капитан СТЕРН? Найди его и передай посылку."
+        ],
+        "natural": [
+          "ДОК: Куда ушёл капитан СТЕРН? Найди его и передай посылку."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAI: Wo ist KAPT."
+        ],
+        "A2": [
+          "KAI: Wo ist KAPT. BRIGGS?"
+        ],
+        "natural": [
+          "KAI: Wo ist KAPT. BRIGGS? Finde ihn und bring ihm das Paket."
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardDecidedtohelpdock",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "Мистер БРАЙНИ: {PLAYER}, давно не виделись!"
+        ],
+        "A2": [
+          "Мистер БРАЙНИ: {PLAYER}, давно не виделись! После нашей встречи я снова полон сил."
+        ],
+        "natural": [
+          "Мистер БРАЙНИ: {PLAYER}, давно не виделись! После нашей встречи я снова полон сил. Я помогаю ДОКУ строить большой паром. Его техника и мой опыт создадут отличный корабль!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MR."
+        ],
+        "A2": [
+          "MR. BRACK: {PLAYER}, lange nicht gesehen!"
+        ],
+        "natural": [
+          "MR. BRACK: {PLAYER}, lange nicht gesehen! Seit unserem Treffen bin ich wieder munter. Ich helfe KAI beim Bau einer großen Fähre. Seine Technik und meine Erfahrung schaffen sie!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardFerryisready",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_FerryIsReady",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "ДОК: Паром готов!"
+        ],
+        "A2": [
+          "ДОК: Паром готов! Новый ПРИЛИВ - чудо техники."
+        ],
+        "natural": [
+          "ДОК: Паром готов! Новый ПРИЛИВ - чудо техники. Но мы можем сделать ещё лучше: развитие технологий не заканчивается."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAI: Die Fähre ist fertig!"
+        ],
+        "A2": [
+          "KAI: Die Fähre ist fertig! Die M.S."
+        ],
+        "natural": [
+          "KAI: Die Fähre ist fertig! Die M.S. TIDE ist ein technisches Wunder. Doch wir können es noch besser. Technik steht nie still."
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardGetseasickeasily",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "Меня легко укачивает, поэтому я помогаю здесь."
+        ],
+        "A2": [
+          "Меня легко укачивает, поэтому я помогаю здесь."
+        ],
+        "natural": [
+          "Меня легко укачивает, поэтому я помогаю здесь."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich werde schnell seekrank und helfe daher hier."
+        ],
+        "A2": [
+          "Ich werde schnell seekrank und helfe daher hier."
+        ],
+        "natural": [
+          "Ich werde schnell seekrank und helfe daher hier."
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardMeetdockdelivertostern",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "Я ДОК."
+        ],
+        "A2": [
+          "Я ДОК. Капитан СТЕРН поручил мне проект парома."
+        ],
+        "natural": [
+          "Я ДОК. Капитан СТЕРН поручил мне проект парома. Это ГРУЗ ДЕВОН? Но капитан ушёл. Найди его и передай ему посылку."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin KAI."
+        ],
+        "A2": [
+          "Ich bin KAI. KAPT."
+        ],
+        "natural": [
+          "Ich bin KAI. KAPT. BRIGGS gab mir den Fährenentwurf. Sind das DEVON-WAREN? Der Kapitän ist fort. Finde ihn und bring ihm das Paket."
+        ]
+      }
+    },
+    {
+      "id": "SlateportshipyardSeaislikelivingthing",
+      "base_symbol": "SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing",
+      "source_path": "data/maps/SlateportCity_SternsShipyard_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Slateport shipyard worker discusses Captain Stern's expedition."
+      ],
+      "ru": {
+        "A1": [
+          "Времена года, погода и луна меняют облик моря."
+        ],
+        "A2": [
+          "Времена года, погода и луна меняют облик моря. Точно: море словно живое!"
+        ],
+        "natural": [
+          "Времена года, погода и луна меняют облик моря. Точно: море словно живое!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "корабль",
+            "ship"
+          ]
+        ],
+        "de": [
+          [
+            "das Schiff",
+            "ship"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jahreszeiten, Wetter und Mond verändern das Meer."
+        ],
+        "A2": [
+          "Jahreszeiten, Wetter und Mond verändern das Meer. Genau: Das Meer lebt!"
+        ],
+        "natural": [
+          "Jahreszeiten, Wetter und Mond verändern das Meer. Genau: Das Meer lebt!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumArchiewarning",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_ArchieWarning",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Я АРЧИ, глава КОМАНДЫ АКВА."
+        ],
+        "A2": [
+          "Я АРЧИ, глава КОМАНДЫ АКВА. Зачем ты мешаешь нашим благородным делам?"
+        ],
+        "natural": [
+          "Я АРЧИ, глава КОМАНДЫ АКВА. Зачем ты мешаешь нашим благородным делам? Вся жизнь зависит от моря, поэтому мы расширим его. Ты ещё слишком молод, чтобы понять. Помешаешь снова - пожалеешь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin ADRIAN von TEAM AQUA."
+        ],
+        "A2": [
+          "Ich bin ADRIAN von TEAM AQUA. Alles Leben braucht das Meer."
+        ],
+        "natural": [
+          "Ich bin ADRIAN von TEAM AQUA. Alles Leben braucht das Meer. Darum wollen wir es vergrößern. Du bist zu jung, um uns zu verstehen. Störst du uns wieder, bereust du es!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumBossgoingtobefurious",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Ох, какая катастрофа..."
+        ],
+        "A2": [
+          "Ох, какая катастрофа... БОСС будет в ярости."
+        ],
+        "natural": [
+          "Ох, какая катастрофа... БОСС будет в ярости."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh Mann, was für ein Desaster..."
+        ],
+        "A2": [
+          "Oh Mann, was für ein Desaster... Der BOSS tobt."
+        ],
+        "natural": [
+          "Oh Mann, was für ein Desaster... Der BOSS tobt."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumCametoseewhatstakingsolong",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Я пришёл узнать, почему вы так долго крадёте детали, а вас задержал ребёнок?"
+        ],
+        "A2": [
+          "Я пришёл узнать, почему вы так долго крадёте детали, а вас задержал ребёнок?"
+        ],
+        "natural": [
+          "Я пришёл узнать, почему вы так долго крадёте детали, а вас задержал ребёнок?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich wollte sehen, warum der Diebstahl so lange dauert."
+        ],
+        "A2": [
+          "Ich wollte sehen, warum der Diebstahl so lange dauert. Ein Kind hält euch auf?"
+        ],
+        "natural": [
+          "Ich wollte sehen, warum der Diebstahl so lange dauert. Ein Kind hält euch auf?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumDeepseawaterdisplay",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Экспозиция морских течений."
+        ],
+        "A2": [
+          "Экспозиция морских течений. У дна вода движется из-за разницы температуры и солёности."
+        ],
+        "natural": [
+          "Экспозиция морских течений. У дна вода движется из-за разницы температуры и солёности."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Schau über Meeresströmungen."
+        ],
+        "A2": [
+          "Eine Schau über Meeresströmungen. Am Grund fließt Wasser wegen Temperatur und Salzgehalt."
+        ],
+        "natural": [
+          "Eine Schau über Meeresströmungen. Am Grund fließt Wasser wegen Temperatur und Salzgehalt."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumDontruninmuseum",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Не смей бегать по МУЗЕЮ!"
+        ],
+        "A2": [
+          "Не смей бегать по МУЗЕЮ!"
+        ],
+        "natural": [
+          "Не смей бегать по МУЗЕЮ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Lauf bloß nicht im MUSEUM herum!"
+        ],
+        "A2": [
+          "Lauf bloß nicht im MUSEUM herum!"
+        ],
+        "natural": [
+          "Lauf bloß nicht im MUSEUM herum!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumGruntOneDefeat",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "А-а-а!"
+        ],
+        "A2": [
+          "А-а-а! Меня победил ребёнок!"
+        ],
+        "natural": [
+          "А-а-а! Меня победил ребёнок!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Aaaah!"
+        ],
+        "A2": [
+          "Aaaah! Ein Kind hat mich besiegt!"
+        ],
+        "natural": [
+          "Aaaah! Ein Kind hat mich besiegt!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumGruntTwoDefeat",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Что?!"
+        ],
+        "A2": [
+          "Что?! Я тоже проиграл!"
+        ],
+        "natural": [
+          "Что?! Я тоже проиграл!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?!"
+        ],
+        "A2": [
+          "Was?! Ich habe auch verloren!"
+        ],
+        "natural": [
+          "Was?! Ich habe auch verloren!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumHoennmodel",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_HoennModel",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "МОДЕЛЬ РЕГИОНА ХОЭНН."
+        ],
+        "A2": [
+          "МОДЕЛЬ РЕГИОНА ХОЭНН. Миниатюрная диорама."
+        ],
+        "natural": [
+          "МОДЕЛЬ РЕГИОНА ХОЭНН. Миниатюрная диорама. Где здесь ЛИТТЛРУТ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MODELL DER HOENN-REGION."
+        ],
+        "A2": [
+          "MODELL DER HOENN-REGION. Ein kleines Diorama."
+        ],
+        "natural": [
+          "MODELL DER HOENN-REGION. Ein kleines Diorama. Wo liegt hier WURZELHEIM?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumLetmetakecareofthis",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Хм, жалкий слабак!"
+        ],
+        "A2": [
+          "Хм, жалкий слабак! Я сам разберусь!"
+        ],
+        "natural": [
+          "Хм, жалкий слабак! Я сам разберусь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hmpf, jämmerlicher Schwächling!"
+        ],
+        "A2": [
+          "Hmpf, jämmerlicher Schwächling! Ich übernehme!"
+        ],
+        "natural": [
+          "Hmpf, jämmerlicher Schwächling! Ich übernehme!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumMaxiewarning",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_MaxieWarning",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Я МАКСИ, глава КОМАНДЫ МАГМА."
+        ],
+        "A2": [
+          "Я МАКСИ, глава КОМАНДЫ МАГМА. Зачем ты мешаешь нашим планам?"
+        ],
+        "natural": [
+          "Я МАКСИ, глава КОМАНДЫ МАГМА. Зачем ты мешаешь нашим планам? Вся жизнь существует на суше, поэтому мы расширим её. Ты ещё слишком молод, чтобы понять. Помешаешь снова - пощады не будет!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin MARC von TEAM MAGMA."
+        ],
+        "A2": [
+          "Ich bin MARC von TEAM MAGMA. Alles Leben braucht das Land."
+        ],
+        "natural": [
+          "Ich bin MARC von TEAM MAGMA. Alles Leben braucht das Land. Darum wollen wir es vergrößern. Du bist zu jung, um uns zu verstehen. Störst du uns wieder, gibt es keine Gnade!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumMeddlingkid",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_MeddlingKid",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Что теперь?"
+        ],
+        "A2": [
+          "Что теперь? Без деталей нам конец!"
+        ],
+        "natural": [
+          "Что теперь? Без деталей нам конец! Не думал, что помешает какой-то ребёнок!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was nun?"
+        ],
+        "A2": [
+          "Was nun? Ohne die Teile sind wir dran!"
+        ],
+        "natural": [
+          "Was nun? Ohne die Teile sind wir dran! Mit einem störenden Kind rechnete ich nicht!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumPressureexperiment",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_PressureExperiment",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Резиновый шар растёт и сжимается."
+        ],
+        "A2": [
+          "Резиновый шар растёт и сжимается. Вода создаёт давление: у поверхности оно слабое, а на огромной глубине достигает десятков тысяч тонн на малой площади."
+        ],
+        "natural": [
+          "Резиновый шар растёт и сжимается. Вода создаёт давление: у поверхности оно слабое, а на огромной глубине достигает десятков тысяч тонн на малой площади."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Gummiball wächst und schrumpft."
+        ],
+        "A2": [
+          "Ein Gummiball wächst und schrumpft. Wasser erzeugt Druck: nahe der Oberfläche ist er gering, in großer Tiefe lasten Zehntausende Tonnen auf kleiner Fläche."
+        ],
+        "natural": [
+          "Ein Gummiball wächst und schrumpft. Wasser erzeugt Druck: nahe der Oberfläche ist er gering, in großer Tiefe lasten Zehntausende Tonnen auf kleiner Fläche."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumRemindsmeofabandonedship",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Я видел здесь модель корабля."
+        ],
+        "A2": [
+          "Я видел здесь модель корабля. Она напомнила мне ЗАБРОШЕННЫЙ КОРАБЛЬ у ДЬЮФОРДА..."
+        ],
+        "natural": [
+          "Я видел здесь модель корабля. Она напомнила мне ЗАБРОШЕННЫЙ КОРАБЛЬ у ДЬЮФОРДА..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sah hier ein Schiffsmodell."
+        ],
+        "A2": [
+          "Ich sah hier ein Schiffsmodell. Es erinnerte mich an das SCHIFFSWRACK bei FAUSTAUHAVEN..."
+        ],
+        "natural": [
+          "Ich sah hier ein Schiffsmodell. Es erinnerte mich an das SCHIFFSWRACK bei FAUSTAUHAVEN..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSsannereplica",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "С.С."
+        ],
+        "A2": [
+          "С.С. АННА."
+        ],
+        "natural": [
+          "С.С. АННА. Модель роскошного лайнера, который плавает вокруг света."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "M.S."
+        ],
+        "A2": [
+          "M.S. ANNE."
+        ],
+        "natural": [
+          "M.S. ANNE. Modell eines Luxusliners, der die Welt umrundet."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSstidalreplica",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "ПАРОМ ПРИЛИВ."
+        ],
+        "A2": [
+          "ПАРОМ ПРИЛИВ. Масштабная модель корабля, который строят на верфи СТЕРНА."
+        ],
+        "natural": [
+          "ПАРОМ ПРИЛИВ. Масштабная модель корабля, который строят на верфи СТЕРНА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "DIE FÄHRE M.S."
+        ],
+        "A2": [
+          "DIE FÄHRE M.S. TIDE."
+        ],
+        "natural": [
+          "DIE FÄHRE M.S. TIDE. Modell des Schiffes, das in BRIGGS' WERFT gebaut wird."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSternivegottogo",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН: Ой, нельзя терять время!"
+        ],
+        "A2": [
+          "Капитан СТЕРН: Ой, нельзя терять время! Надо скоро отправляться в экспедицию на морское дно."
+        ],
+        "natural": [
+          "Капитан СТЕРН: Ой, нельзя терять время! Надо скоро отправляться в экспедицию на морское дно. Спасибо и до встречи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS: Keine Zeit zu verlieren!"
+        ],
+        "natural": [
+          "KAPT. BRIGGS: Keine Zeit zu verlieren! Wir müssen bald zur Expedition auf den Meeresgrund aufbrechen. Danke und bis dann!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSternthankyouforsavingus",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН: Ты {PLAYER}, верно?"
+        ],
+        "A2": [
+          "Капитан СТЕРН: Ты {PLAYER}, верно? Опасная ситуация!"
+        ],
+        "natural": [
+          "Капитан СТЕРН: Ты {PLAYER}, верно? Опасная ситуация! Спасибо, что спас нас. И ты даже принёс детали из ДЕВОН!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS: Du bist {PLAYER}, richtig?"
+        ],
+        "natural": [
+          "KAPT. BRIGGS: Du bist {PLAYER}, richtig? Das war gefährlich! Danke für die Rettung. Und du hast sogar die DEVON-Teile gebracht!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSternwhoareyou",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Капитан СТЕРН: Ч-что?"
+        ],
+        "A2": [
+          "Капитан СТЕРН: Ч-что? Кто вы такие?"
+        ],
+        "natural": [
+          "Капитан СТЕРН: Ч-что? Кто вы такие?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KAPT."
+        ],
+        "A2": [
+          "KAPT. BRIGGS: W-was?"
+        ],
+        "natural": [
+          "KAPT. BRIGGS: W-was? Wer seid ihr?"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSubmarinereplica",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "ПОДЛОДКА-ИССЛЕДОВАТЕЛЬ 1."
+        ],
+        "A2": [
+          "ПОДЛОДКА-ИССЛЕДОВАТЕЛЬ 1. Модель мощной подлодки для изучения морского дна."
+        ],
+        "natural": [
+          "ПОДЛОДКА-ИССЛЕДОВАТЕЛЬ 1. Модель мощной подлодки для изучения морского дна."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "U-BOOT 1."
+        ],
+        "A2": [
+          "U-BOOT 1. Modell eines leistungsfähigen U-Boots zur Erforschung des Meeresgrunds."
+        ],
+        "natural": [
+          "U-BOOT 1. Modell eines leistungsfähigen U-Boots zur Erforschung des Meeresgrunds."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSumbersiblereplica",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SumbersibleReplica",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "ПОГРУЖНАЯ КАПСУЛА."
+        ],
+        "A2": [
+          "ПОГРУЖНАЯ КАПСУЛА. Модель компактного беспилотного аппарата для морского дна."
+        ],
+        "natural": [
+          "ПОГРУЖНАЯ КАПСУЛА. Модель компактного беспилотного аппарата для морского дна."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TAUCHKAPSEL."
+        ],
+        "A2": [
+          "TAUCHKAPSEL. Modell einer kleinen, unbemannten Kapsel zur Erforschung des Meeresgrunds."
+        ],
+        "natural": [
+          "TAUCHKAPSEL. Modell einer kleinen, unbemannten Kapsel zur Erforschung des Meeresgrunds."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumSurfaceseawaterdisplay",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Экспозиция морских течений."
+        ],
+        "A2": [
+          "Экспозиция морских течений. У поверхности ветер приводит морскую воду в движение."
+        ],
+        "natural": [
+          "Экспозиция морских течений. У поверхности ветер приводит морскую воду в движение."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Schau über Meeresströmungen."
+        ],
+        "A2": [
+          "Eine Schau über Meeresströmungen. An der Oberfläche treibt der Wind das Wasser an."
+        ],
+        "natural": [
+          "Eine Schau über Meeresströmungen. An der Oberfläche treibt der Wind das Wasser an."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumThankyoufortheparts",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Ищешь СТЕРНА?"
+        ],
+        "A2": [
+          "Ищешь СТЕРНА? Это я."
+        ],
+        "natural": [
+          "Ищешь СТЕРНА? Это я. А, детали, которые я заказал у мистера СТОУНА из ДЕВОН! Спасибо! Теперь подготовим экспедицию."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Suchst du BRIGGS?"
+        ],
+        "A2": [
+          "Suchst du BRIGGS? Das bin ich."
+        ],
+        "natural": [
+          "Suchst du BRIGGS? Das bin ich. Ah, die Teile von MR. TRUMM bei DEVON! Vielen Dank! Nun können wir die Expedition vorbereiten."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumWanttoridesubmarine",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Ух ты, подлодка классная!"
+        ],
+        "A2": [
+          "Ух ты, подлодка классная! Хочу прокатиться!"
+        ],
+        "natural": [
+          "Ух ты, подлодка классная! Хочу прокатиться!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wow, das U-Boot ist toll!"
+        ],
+        "A2": [
+          "Wow, das U-Boot ist toll! Ich will mitfahren!"
+        ],
+        "natural": [
+          "Wow, das U-Boot ist toll! Ich will mitfahren!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumWaterqualitysampleOne",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "ОБРАЗЕЦ ВОДЫ КАНТО."
+        ],
+        "A2": [
+          "ОБРАЗЕЦ ВОДЫ КАНТО. Моря связаны, но вода в разных регионах отличается."
+        ],
+        "natural": [
+          "ОБРАЗЕЦ ВОДЫ КАНТО. Моря связаны, но вода в разных регионах отличается."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WASSERPROBE AUS KANTO."
+        ],
+        "A2": [
+          "WASSERPROBE AUS KANTO. Die Meere sind verbunden, doch das Wasser unterscheidet sich."
+        ],
+        "natural": [
+          "WASSERPROBE AUS KANTO. Die Meere sind verbunden, doch das Wasser unterscheidet sich."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumWaterqualitysampleTwo",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "ОБРАЗЕЦ ВОДЫ ДЖОТО."
+        ],
+        "A2": [
+          "ОБРАЗЕЦ ВОДЫ ДЖОТО. Возможно, солёность воды различается между регионами..."
+        ],
+        "natural": [
+          "ОБРАЗЕЦ ВОДЫ ДЖОТО. Возможно, солёность воды различается между регионами..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WASSERPROBE AUS JOHTO."
+        ],
+        "A2": [
+          "WASSERPROBE AUS JOHTO. Vielleicht ist der Salzgehalt je nach Region verschieden..."
+        ],
+        "natural": [
+          "WASSERPROBE AUS JOHTO. Vielleicht ist der Salzgehalt je nach Region verschieden..."
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumWelltakethoseparts",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе, стой!"
+        ],
+        "A2": [
+          "Хе-хе, стой! Мы заберём эти детали!"
+        ],
+        "natural": [
+          "Хе-хе, стой! Мы заберём эти детали!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe, halt!"
+        ],
+        "A2": [
+          "Hehe, halt! Wir nehmen diese Teile!"
+        ],
+        "natural": [
+          "Hehe, halt! Wir nehmen diese Teile!"
+        ]
+      }
+    },
+    {
+      "id": "SlateportmuseumWereevilteam",
+      "base_symbol": "SlateportCity_OceanicMuseum_2F_Text_WereEvilTeam",
+      "source_path": "data/maps/SlateportCity_OceanicMuseum_2F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "Captain Stern's museum encounter and the surrounding ocean exhibits."
+      ],
+      "ru": {
+        "A1": [
+          "Мы КОМАНДА {EVIL_TEAM}!"
+        ],
+        "A2": [
+          "Мы КОМАНДА {EVIL_TEAM}! БОСС хочет детали!"
+        ],
+        "natural": [
+          "Мы КОМАНДА {EVIL_TEAM}! БОСС хочет детали! Закрой рот и отдай их!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "деталь",
+            "part"
+          ]
+        ],
+        "de": [
+          [
+            "das Teil",
+            "part"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir sind TEAM {EVIL_TEAM}!"
+        ],
+        "A2": [
+          "Wir sind TEAM {EVIL_TEAM}! Der BOSS will die Teile!"
+        ],
+        "natural": [
+          "Wir sind TEAM {EVIL_TEAM}! Der BOSS will die Teile! Halt den Mund und gib sie her!"
+        ]
+      }
     }
   ]
 }

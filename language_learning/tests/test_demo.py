@@ -600,6 +600,7 @@ class LessonTests(unittest.TestCase):
                   'data/maps/Route108/scripts.inc',
                   'data/maps/Route109/scripts.inc',
                   'data/maps/Route109_SeashoreHouse/scripts.inc',
+                  'data/maps/Route110/scripts.inc',
                   'data/maps/SlateportCity/scripts.inc',
                   'data/maps/SlateportCity_OceanicMuseum_1F/scripts.inc',
                   'data/maps/SlateportCity_SternsShipyard_1F/scripts.inc',
@@ -2343,6 +2344,16 @@ class LessonTests(unittest.TestCase):
         symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
         self.assertEqual(39, len(symbols))
         self.assertTrue(symbols.issubset(templates))
+
+    def test_route_110_script_dialogue_is_fully_adaptive(self):
+        source = (demo.ROOT / 'data/maps/Route110/scripts.inc').read_text(errors='replace')
+        referenced = set(re.findall(r'Route110_Text_[A-Za-z0-9_]+', source))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(84, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
 
     def test_trick_house_shared_rooms_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

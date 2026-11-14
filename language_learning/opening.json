@@ -31322,6 +31322,3786 @@
           "Könnte mich eines meiner Pokémon übers Wasser tragen, bräuchte ich diesen Schwimmreifen nicht."
         ]
       }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixESixCZero",
+      "base_symbol": "Route110_Text_16E6C0",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Пока деятельность КОМАНДЫ {EVIL_TEAM} должна оставаться тайной."
+        ],
+        "A2": [
+          "Пока деятельность КОМАНДЫ {EVIL_TEAM} должна оставаться тайной."
+        ],
+        "natural": [
+          "Пока деятельность КОМАНДЫ {EVIL_TEAM} должна оставаться тайной."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Aktivitäten von TEAM {EVIL_TEAM} müssen vorerst geheim bleiben."
+        ],
+        "A2": [
+          "Die Aktivitäten von TEAM {EVIL_TEAM} müssen vorerst geheim bleiben."
+        ],
+        "natural": [
+          "Die Aktivitäten von TEAM {EVIL_TEAM} müssen vorerst geheim bleiben."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixESixFTwo",
+      "base_symbol": "Route110_Text_16E6F2",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хочу скорее попасть в СЛЕЙТПОРТ и устроить шум!"
+        ],
+        "A2": [
+          "Хочу скорее попасть в СЛЕЙТПОРТ и устроить шум!"
+        ],
+        "natural": [
+          "Хочу скорее попасть в СЛЕЙТПОРТ и устроить шум!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich will nach GRAPHITPORT und dort richtig Krach machen!"
+        ],
+        "A2": [
+          "Ich will nach GRAPHITPORT und dort richtig Krach machen!"
+        ],
+        "natural": [
+          "Ich will nach GRAPHITPORT und dort richtig Krach machen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixESevenTwoNine",
+      "base_symbol": "Route110_Text_16E729",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это моё первое задание после вступления в КОМАНДУ {EVIL_TEAM}."
+        ],
+        "A2": [
+          "Это моё первое задание после вступления в КОМАНДУ {EVIL_TEAM}. Я весь дрожу!"
+        ],
+        "natural": [
+          "Это моё первое задание после вступления в КОМАНДУ {EVIL_TEAM}. Я весь дрожу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist mein erster Auftrag bei TEAM {EVIL_TEAM}."
+        ],
+        "A2": [
+          "Das ist mein erster Auftrag bei TEAM {EVIL_TEAM}. Ich zittere vor Aufregung!"
+        ],
+        "natural": [
+          "Das ist mein erster Auftrag bei TEAM {EVIL_TEAM}. Ich zittere vor Aufregung!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixESevenSixA",
+      "base_symbol": "Route110_Text_16E76A",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Дела КОМАНДЫ {EVIL_TEAM} заставят всех улыбаться!"
+        ],
+        "A2": [
+          "Дела КОМАНДЫ {EVIL_TEAM} заставят всех улыбаться!"
+        ],
+        "natural": [
+          "Дела КОМАНДЫ {EVIL_TEAM} заставят всех улыбаться!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Pläne von TEAM {EVIL_TEAM} werden alle glücklich machen!"
+        ],
+        "A2": [
+          "Die Pläne von TEAM {EVIL_TEAM} werden alle glücklich machen!"
+        ],
+        "natural": [
+          "Die Pläne von TEAM {EVIL_TEAM} werden alle glücklich machen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEBTwoTwo",
+      "base_symbol": "Route110_Text_16EB22",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Как здорово было бы мчаться на ВЕЛОСИПЕДЕ по ВЕЛОДОРОГЕ!"
+        ],
+        "A2": [
+          "Как здорово было бы мчаться на ВЕЛОСИПЕДЕ по ВЕЛОДОРОГЕ!"
+        ],
+        "natural": [
+          "Как здорово было бы мчаться на ВЕЛОСИПЕДЕ по ВЕЛОДОРОГЕ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie toll wäre es, mit dem RAD über den RADWEG zu rasen!"
+        ],
+        "A2": [
+          "Wie toll wäre es, mit dem RAD über den RADWEG zu rasen!"
+        ],
+        "natural": [
+          "Wie toll wäre es, mit dem RAD über den RADWEG zu rasen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEBSixFive",
+      "base_symbol": "Route110_Text_16EB65",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Как тебе мои чёрные волосы, развевающиеся на ветру?"
+        ],
+        "A2": [
+          "Как тебе мои чёрные волосы, развевающиеся на ветру? Ради этого я их отрастил."
+        ],
+        "natural": [
+          "Как тебе мои чёрные волосы, развевающиеся на ветру? Ради этого я их отрастил."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie gefällt dir mein schwarzes Haar im Fahrtwind?"
+        ],
+        "A2": [
+          "Wie gefällt dir mein schwarzes Haar im Fahrtwind? Dafür ließ ich es wachsen."
+        ],
+        "natural": [
+          "Wie gefällt dir mein schwarzes Haar im Fahrtwind? Dafür ließ ich es wachsen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEBCNine",
+      "base_symbol": "Route110_Text_16EBC9",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О, это ВЕЛОСИПЕД РАЙДЕЛА!"
+        ],
+        "A2": [
+          "О, это ВЕЛОСИПЕД РАЙДЕЛА! На нём повсюду написано РАЙДЕЛ, РАЙДЕЛ, РАЙДЕЛ..."
+        ],
+        "natural": [
+          "О, это ВЕЛОСИПЕД РАЙДЕЛА! На нём повсюду написано РАЙДЕЛ, РАЙДЕЛ, РАЙДЕЛ... Катайтесь везде - это отличная реклама!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, das ist ein RAD von RADLAS!"
+        ],
+        "A2": [
+          "Oh, das ist ein RAD von RADLAS! Überall steht RADLAS, RADLAS, RADLAS..."
+        ],
+        "natural": [
+          "Oh, das ist ein RAD von RADLAS! Überall steht RADLAS, RADLAS, RADLAS... Fahr überall damit herum - das ist gute Werbung!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEDCFive",
+      "base_symbol": "Route110_Text_16EDC5",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Две дороги: верхняя и нижняя..."
+        ],
+        "A2": [
+          "Две дороги: верхняя и нижняя... Одна для людей, другая для покемонов."
+        ],
+        "natural": [
+          "Две дороги: верхняя и нижняя... Одна для людей, другая для покемонов. Наверное, так справедливо."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zwei Wege, einer oben und einer unten..."
+        ],
+        "A2": [
+          "Zwei Wege, einer oben und einer unten... Je einer für Menschen und Pokémon."
+        ],
+        "natural": [
+          "Zwei Wege, einer oben und einer unten... Je einer für Menschen und Pokémon. Das ist wohl gerecht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEEThreeZero",
+      "base_symbol": "Route110_Text_16EE30",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "У меня нет ВЕЛОСИПЕДА, поэтому спокойно пойду по нижней дороге."
+        ],
+        "A2": [
+          "У меня нет ВЕЛОСИПЕДА, поэтому спокойно пойду по нижней дороге."
+        ],
+        "natural": [
+          "У меня нет ВЕЛОСИПЕДА, поэтому спокойно пойду по нижней дороге."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe kein RAD, also spaziere ich gemütlich auf dem unteren Weg."
+        ],
+        "A2": [
+          "Ich habe kein RAD, also spaziere ich gemütlich auf dem unteren Weg."
+        ],
+        "natural": [
+          "Ich habe kein RAD, also spaziere ich gemütlich auf dem unteren Weg."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEESevenFour",
+      "base_symbol": "Route110_Text_16EE74",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Освоишь трюки - езда станет ещё веселее."
+        ],
+        "A2": [
+          "Освоишь трюки - езда станет ещё веселее. В некоторые места можно попасть только с помощью велотрюков."
+        ],
+        "natural": [
+          "Освоишь трюки - езда станет ещё веселее. В некоторые места можно попасть только с помощью велотрюков."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit Fahrtechniken macht Radfahren noch mehr Spaß."
+        ],
+        "A2": [
+          "Mit Fahrtechniken macht Radfahren noch mehr Spaß. Manche Orte erreichst du nur mit einem Radtrick."
+        ],
+        "natural": [
+          "Mit Fahrtechniken macht Radfahren noch mehr Spaß. Manche Orte erreichst du nur mit einem Radtrick."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEEFSix",
+      "base_symbol": "Route110_Text_16EEF6",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Что выбрать?"
+        ],
+        "A2": [
+          "Что выбрать? Помчаться в МОВИЛЛЬ по ВЕЛОДОРОГЕ или идти внизу и искать покемонов?"
+        ],
+        "natural": [
+          "Что выбрать? Помчаться в МОВИЛЛЬ по ВЕЛОДОРОГЕ или идти внизу и искать покемонов?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was wähle ich?"
+        ],
+        "A2": [
+          "Was wähle ich? Über den RADWEG nach MALVENFROH rasen oder unten Pokémon suchen?"
+        ],
+        "natural": [
+          "Was wähle ich? Über den RADWEG nach MALVENFROH rasen oder unten Pokémon suchen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFThreeEightOne",
+      "base_symbol": "Route110_Text_16F381",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 110 СЛЕЙТПОРТ"
+        ],
+        "A2": [
+          "МАРШРУТ 110 СЛЕЙТПОРТ"
+        ],
+        "natural": [
+          "МАРШРУТ 110 СЛЕЙТПОРТ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 110 GRAPHITPORT CITY"
+        ],
+        "A2": [
+          "ROUTE 110 GRAPHITPORT CITY"
+        ],
+        "natural": [
+          "ROUTE 110 GRAPHITPORT CITY"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFThreeNineC",
+      "base_symbol": "Route110_Text_16F39C",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПРИМОРСКАЯ ВЕЛОДОРОГА"
+        ],
+        "A2": [
+          "ПРИМОРСКАЯ ВЕЛОДОРОГА"
+        ],
+        "natural": [
+          "ПРИМОРСКАЯ ВЕЛОДОРОГА"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KÜSTEN-RADWEG"
+        ],
+        "A2": [
+          "KÜSTEN-RADWEG"
+        ],
+        "natural": [
+          "KÜSTEN-RADWEG"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFThreeBOne",
+      "base_symbol": "Route110_Text_16F3B1",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КОМАНДА {EVIL_TEAM} РУЛИТ!"
+        ],
+        "A2": [
+          "КОМАНДА {EVIL_TEAM} РУЛИТ! Кто-то нацарапал это на знаке..."
+        ],
+        "natural": [
+          "КОМАНДА {EVIL_TEAM} РУЛИТ! Кто-то нацарапал это на знаке..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TEAM {EVIL_TEAM} REGIERT!"
+        ],
+        "A2": [
+          "TEAM {EVIL_TEAM} REGIERT! Jemand hat das auf das Schild gekritzelt..."
+        ],
+        "natural": [
+          "TEAM {EVIL_TEAM} REGIERT! Jemand hat das auf das Schild gekritzelt..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFThreeENine",
+      "base_symbol": "Route110_Text_16F3E9",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 110 МАРШРУТ 103"
+        ],
+        "A2": [
+          "МАРШРУТ 110 МАРШРУТ 103"
+        ],
+        "natural": [
+          "МАРШРУТ 110 МАРШРУТ 103"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 110 ROUTE 103"
+        ],
+        "A2": [
+          "ROUTE 110 ROUTE 103"
+        ],
+        "natural": [
+          "ROUTE 110 ROUTE 103"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFThreeFF",
+      "base_symbol": "Route110_Text_16F3FF",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПРИМОРСКАЯ ПАРКОВКА"
+        ],
+        "A2": [
+          "ПРИМОРСКАЯ ПАРКОВКА"
+        ],
+        "natural": [
+          "ПРИМОРСКАЯ ПАРКОВКА"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KÜSTEN-PARKPLATZ"
+        ],
+        "A2": [
+          "KÜSTEN-PARKPLATZ"
+        ],
+        "natural": [
+          "KÜSTEN-PARKPLATZ"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFFourZeroF",
+      "base_symbol": "Route110_Text_16F40F",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 110 МОВИЛЛЬ"
+        ],
+        "A2": [
+          "МАРШРУТ 110 МОВИЛЛЬ"
+        ],
+        "natural": [
+          "МАРШРУТ 110 МОВИЛЛЬ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 110 MALVENFROH CITY"
+        ],
+        "A2": [
+          "ROUTE 110 MALVENFROH CITY"
+        ],
+        "natural": [
+          "ROUTE 110 MALVENFROH CITY"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFFourTwoNine",
+      "base_symbol": "Route110_Text_16F429",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СОВЕТЫ ТРЕНЕРА Паралич или сон делают врага беспомощным."
+        ],
+        "A2": [
+          "СОВЕТЫ ТРЕНЕРА Паралич или сон делают врага беспомощным. Это важная боевая тактика."
+        ],
+        "natural": [
+          "СОВЕТЫ ТРЕНЕРА Паралич или сон делают врага беспомощным. Это важная боевая тактика."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TRAINER-TIPPS Paralyse oder Schlaf machen Gegner wehrlos."
+        ],
+        "A2": [
+          "TRAINER-TIPPS Paralyse oder Schlaf machen Gegner wehrlos. Das ist eine wichtige Kampftechnik."
+        ],
+        "natural": [
+          "TRAINER-TIPPS Paralyse oder Schlaf machen Gegner wehrlos. Das ist eine wichtige Kampftechnik."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFFourAE",
+      "base_symbol": "Route110_Text_16F4AE",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СОВЕТЫ ТРЕНЕРА Предметы в СУМКЕ можно сортировать кнопкой SELECT."
+        ],
+        "A2": [
+          "СОВЕТЫ ТРЕНЕРА Предметы в СУМКЕ можно сортировать кнопкой SELECT."
+        ],
+        "natural": [
+          "СОВЕТЫ ТРЕНЕРА Предметы в СУМКЕ можно сортировать кнопкой SELECT."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TRAINER-TIPPS Items im BEUTEL lassen sich mit SELECT neu ordnen."
+        ],
+        "A2": [
+          "TRAINER-TIPPS Items im BEUTEL lassen sich mit SELECT neu ordnen."
+        ],
+        "natural": [
+          "TRAINER-TIPPS Items im BEUTEL lassen sich mit SELECT neu ordnen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFFourFSeven",
+      "base_symbol": "Route110_Text_16F4F7",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Три шага вверх и два вправо - там чудесный ДОМ ФОКУСОВ."
+        ],
+        "A2": [
+          "Три шага вверх и два вправо - там чудесный ДОМ ФОКУСОВ."
+        ],
+        "natural": [
+          "Три шага вверх и два вправо - там чудесный ДОМ ФОКУСОВ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Drei Schritte nach oben und zwei nach rechts führen zum wundersamen RÄTSELHAUS."
+        ],
+        "A2": [
+          "Drei Schritte nach oben und zwei nach rechts führen zum wundersamen RÄTSELHAUS."
+        ],
+        "natural": [
+          "Drei Schritte nach oben und zwei nach rechts führen zum wundersamen RÄTSELHAUS."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFFiveThreeA",
+      "base_symbol": "Route110_Text_16F53A",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЛУЧШИЙ РЕЗУЛЬТАТ Столкновения: {STR_VAR_1} Время: {STR_VAR_2}"
+        ],
+        "A2": [
+          "ЛУЧШИЙ РЕЗУЛЬТАТ Столкновения: {STR_VAR_1} Время: {STR_VAR_2}"
+        ],
+        "natural": [
+          "ЛУЧШИЙ РЕЗУЛЬТАТ Столкновения: {STR_VAR_1} Время: {STR_VAR_2}"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BESTER REKORD Zusammenstöße: {STR_VAR_1} Zeit: {STR_VAR_2}"
+        ],
+        "A2": [
+          "BESTER REKORD Zusammenstöße: {STR_VAR_1} Zeit: {STR_VAR_2}"
+        ],
+        "natural": [
+          "BESTER REKORD Zusammenstöße: {STR_VAR_1} Zeit: {STR_VAR_2}"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFFiveSevenC",
+      "base_symbol": "Route110_Text_16F57C",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЛУЧШИЙ РЕЗУЛЬТАТ Похоже, никто ещё не принял вызов."
+        ],
+        "A2": [
+          "ЛУЧШИЙ РЕЗУЛЬТАТ Похоже, никто ещё не принял вызов. Рекорда нет..."
+        ],
+        "natural": [
+          "ЛУЧШИЙ РЕЗУЛЬТАТ Похоже, никто ещё не принял вызов. Рекорда нет..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BESTER REKORD Offenbar nahm noch niemand die Herausforderung an."
+        ],
+        "A2": [
+          "BESTER REKORD Offenbar nahm noch niemand die Herausforderung an. Kein Rekord..."
+        ],
+        "natural": [
+          "BESTER REKORD Offenbar nahm noch niemand die Herausforderung an. Kein Rekord..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFTwoSixA",
+      "base_symbol": "Route110_Text_16F26A",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Независимо от результата жду новых попыток."
+        ],
+        "A2": [
+          "Независимо от результата жду новых попыток. Всегда стремись выше!"
+        ],
+        "natural": [
+          "Независимо от результата жду новых попыток. Всегда стремись выше!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unabhängig vom Ergebnis erwarte ich weitere Versuche."
+        ],
+        "A2": [
+          "Unabhängig vom Ergebnis erwarte ich weitere Versuche. Ziele immer höher!"
+        ],
+        "natural": [
+          "Unabhängig vom Ergebnis erwarte ich weitere Versuche. Ziele immer höher!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFOneDZero",
+      "base_symbol": "Route110_Text_16F1D0",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это ВЕЛОДОРОГА."
+        ],
+        "A2": [
+          "Это ВЕЛОДОРОГА. Если проехать от МОВИЛЛЯ до СЛЕЙТПОРТА на СКОРОСТНОМ ВЕЛОСИПЕДЕ, оценят время и число столкновений."
+        ],
+        "natural": [
+          "Это ВЕЛОДОРОГА. Если проехать от МОВИЛЛЯ до СЛЕЙТПОРТА на СКОРОСТНОМ ВЕЛОСИПЕДЕ, оценят время и число столкновений."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist der RADWEG."
+        ],
+        "A2": [
+          "Das ist der RADWEG. Fährst du mit dem EILRAD von MALVENFROH nach GRAPHITPORT, zählen Zeit und Zusammenstöße."
+        ],
+        "natural": [
+          "Das ist der RADWEG. Fährst du mit dem EILRAD von MALVENFROH nach GRAPHITPORT, zählen Zeit und Zusammenstöße."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFTwoCFour",
+      "base_symbol": "Route110_Text_16F2C4",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На ВЕЛОДОРОГЕ оценивают время и столкновения владельцев СКОРОСТНЫХ ВЕЛОСИПЕДОВ."
+        ],
+        "A2": [
+          "На ВЕЛОДОРОГЕ оценивают время и столкновения владельцев СКОРОСТНЫХ ВЕЛОСИПЕДОВ. ТРЮКОВОЙ ВЕЛОСИПЕД не участвует: на нём слишком легко поворачивать."
+        ],
+        "natural": [
+          "На ВЕЛОДОРОГЕ оценивают время и столкновения владельцев СКОРОСТНЫХ ВЕЛОСИПЕДОВ. ТРЮКОВОЙ ВЕЛОСИПЕД не участвует: на нём слишком легко поворачивать."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf dem RADWEG werden Zeit und Zusammenstöße mit dem EILRAD bewertet."
+        ],
+        "A2": [
+          "Auf dem RADWEG werden Zeit und Zusammenstöße mit dem EILRAD bewertet. Das KUNSTRAD zählt nicht, weil es sich zu leicht lenken lässt."
+        ],
+        "natural": [
+          "Auf dem RADWEG werden Zeit und Zusammenstöße mit dem EILRAD bewertet. Das KUNSTRAD zählt nicht, weil es sich zu leicht lenken lässt."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASixNineNine",
+      "base_symbol": "Route110_Text_1BA699",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я предвидел ваши намерения!"
+        ],
+        "A2": [
+          "Я предвидел ваши намерения! Я не могу проиграть!"
+        ],
+        "natural": [
+          "Я предвидел ваши намерения! Я не могу проиграть!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe deine Absichten vorausgesehen!"
+        ],
+        "A2": [
+          "Ich habe deine Absichten vorausgesehen! Ich kann unmöglich verlieren!"
+        ],
+        "natural": [
+          "Ich habe deine Absichten vorausgesehen! Ich kann unmöglich verlieren!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASixDTwo",
+      "base_symbol": "Route110_Text_1BA6D2",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я не сумел предсказать собственное поражение!"
+        ],
+        "A2": [
+          "Я не сумел предсказать собственное поражение!"
+        ],
+        "natural": [
+          "Я не сумел предсказать собственное поражение!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine eigene Niederlage konnte ich nicht vorhersagen!"
+        ],
+        "A2": [
+          "Meine eigene Niederlage konnte ich nicht vorhersagen!"
+        ],
+        "natural": [
+          "Meine eigene Niederlage konnte ich nicht vorhersagen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASixFEight",
+      "base_symbol": "Route110_Text_1BA6F8",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я вижу ваше будущее..."
+        ],
+        "A2": [
+          "Я вижу ваше будущее... Хм..."
+        ],
+        "natural": [
+          "Я вижу ваше будущее... Хм... Я вижу сияющий свет..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sehe deine Zukunft..."
+        ],
+        "A2": [
+          "Ich sehe deine Zukunft... Hm..."
+        ],
+        "natural": [
+          "Ich sehe deine Zukunft... Hm... Ich sehe ein strahlendes Licht..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASevenTwoD",
+      "base_symbol": "Route110_Text_1BA72D",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха-ха!"
+        ],
+        "A2": [
+          "Ха-ха-ха! Я ослеплю вас своими чудесами!"
+        ],
+        "natural": [
+          "Ха-ха-ха! Я ослеплю вас своими чудесами!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hahaha!"
+        ],
+        "A2": [
+          "Hahaha! Ich werde dich mit meinen Wundern blenden!"
+        ],
+        "natural": [
+          "Hahaha! Ich werde dich mit meinen Wundern blenden!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASevenFiveNine",
+      "base_symbol": "Route110_Text_1BA759",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я чудесным образом проиграл!"
+        ],
+        "A2": [
+          "Я чудесным образом проиграл!"
+        ],
+        "natural": [
+          "Я чудесным образом проиграл!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe auf wundersame Weise verloren!"
+        ],
+        "A2": [
+          "Ich habe auf wundersame Weise verloren!"
+        ],
+        "natural": [
+          "Ich habe auf wundersame Weise verloren!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASevenSixC",
+      "base_symbol": "Route110_Text_1BA76C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Вы победили лишь чудом!"
+        ],
+        "A2": [
+          "Вы победили лишь чудом! Не думайте, что будете побеждать всегда!"
+        ],
+        "natural": [
+          "Вы победили лишь чудом! Не думайте, что будете побеждать всегда!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast nur durch ein Wunder gewonnen!"
+        ],
+        "A2": [
+          "Du hast nur durch ein Wunder gewonnen! Glaub nicht, dass du immer siegst!"
+        ],
+        "natural": [
+          "Du hast nur durch ein Wunder gewonnen! Glaub nicht, dass du immer siegst!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASevenDTwo",
+      "base_symbol": "Route110_Text_1BA7D2",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Можно взглянуть на вашего покемона?"
+        ],
+        "A2": [
+          "Можно взглянуть на вашего покемона? Только один раз, пожалуйста!"
+        ],
+        "natural": [
+          "Можно взглянуть на вашего покемона? Только один раз, пожалуйста!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Darf ich dein Pokémon sehen?"
+        ],
+        "A2": [
+          "Darf ich dein Pokémon sehen? Nur einen Blick, bitte!"
+        ],
+        "natural": [
+          "Darf ich dein Pokémon sehen? Nur einen Blick, bitte!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAEightZeroThree",
+      "base_symbol": "Route110_Text_1BA803",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я хотел завершить свою коллекцию..."
+        ],
+        "A2": [
+          "Я хотел завершить свою коллекцию..."
+        ],
+        "natural": [
+          "Я хотел завершить свою коллекцию..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich wollte meine Sammlung vervollständigen..."
+        ],
+        "A2": [
+          "Ich wollte meine Sammlung vervollständigen..."
+        ],
+        "natural": [
+          "Ich wollte meine Sammlung vervollständigen..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAEightTwoNine",
+      "base_symbol": "Route110_Text_1BA829",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Когда вижу незнакомого покемона, во мне вспыхивает страсть коллекционера!"
+        ],
+        "A2": [
+          "Когда вижу незнакомого покемона, во мне вспыхивает страсть коллекционера!"
+        ],
+        "natural": [
+          "Когда вижу незнакомого покемона, во мне вспыхивает страсть коллекционера!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn ich ein unbekanntes Pokémon sehe, erwacht meine Sammelleidenschaft!"
+        ],
+        "A2": [
+          "Wenn ich ein unbekanntes Pokémon sehe, erwacht meine Sammelleidenschaft!"
+        ],
+        "natural": [
+          "Wenn ich ein unbekanntes Pokémon sehe, erwacht meine Sammelleidenschaft!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAEightSevenSeven",
+      "base_symbol": "Route110_Text_1BA877",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Привет!"
+        ],
+        "A2": [
+          "Привет! Поймали новых покемонов?"
+        ],
+        "natural": [
+          "Привет! Поймали новых покемонов? Можно взглянуть?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo!"
+        ],
+        "A2": [
+          "Hallo! Hast du neue Pokémon gefangen?"
+        ],
+        "natural": [
+          "Hallo! Hast du neue Pokémon gefangen? Darf ich sie sehen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAEightCD",
+      "base_symbol": "Route110_Text_1BA8CD",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ваш покемон..."
+        ],
+        "A2": [
+          "Ваш покемон... Я вам завидую."
+        ],
+        "natural": [
+          "Ваш покемон... Я вам завидую."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Pokémon..."
+        ],
+        "A2": [
+          "Dein Pokémon... Ich beneide dich."
+        ],
+        "natural": [
+          "Dein Pokémon... Ich beneide dich."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAEightENine",
+      "base_symbol": "Route110_Text_1BA8E9",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Как же я хочу собрать всех редких покемонов!"
+        ],
+        "A2": [
+          "Как же я хочу собрать всех редких покемонов!"
+        ],
+        "natural": [
+          "Как же я хочу собрать всех редких покемонов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie sehr ich doch alle seltenen Pokémon besitzen möchte!"
+        ],
+        "A2": [
+          "Wie sehr ich doch alle seltenen Pokémon besitzen möchte!"
+        ],
+        "natural": [
+          "Wie sehr ich doch alle seltenen Pokémon besitzen möchte!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBANineOneThree",
+      "base_symbol": "Route110_Text_1BA913",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эй!"
+        ],
+        "A2": [
+          "Эй! Не подкрадывайтесь сзади!"
+        ],
+        "natural": [
+          "Эй! Не подкрадывайтесь сзади!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey!"
+        ],
+        "A2": [
+          "Hey! Schleich dich nicht von hinten an!"
+        ],
+        "natural": [
+          "Hey! Schleich dich nicht von hinten an!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBANineThreeC",
+      "base_symbol": "Route110_Text_1BA93C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграл!"
+        ],
+        "A2": [
+          "Я проиграл! Вот досада!"
+        ],
+        "natural": [
+          "Я проиграл! Вот досада!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren!"
+        ],
+        "A2": [
+          "Ich habe verloren! Verflixt!"
+        ],
+        "natural": [
+          "Ich habe verloren! Verflixt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBANineFourA",
+      "base_symbol": "Route110_Text_1BA94A",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Рыбалка требует сосредоточенности."
+        ],
+        "A2": [
+          "Рыбалка требует сосредоточенности. Следите за поплавком."
+        ],
+        "natural": [
+          "Рыбалка требует сосредоточенности. Следите за поплавком."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Angeln verlangt Konzentration."
+        ],
+        "A2": [
+          "Angeln verlangt Konzentration. Behalte den Schwimmer im Auge."
+        ],
+        "natural": [
+          "Angeln verlangt Konzentration. Behalte den Schwimmer im Auge."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBATwoTwoC",
+      "base_symbol": "Route110_Text_1BA22C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эй, осторожнее!"
+        ],
+        "A2": [
+          "Эй, осторожнее! Похоже, вы не привыкли к велогонкам."
+        ],
+        "natural": [
+          "Эй, осторожнее! Похоже, вы не привыкли к велогонкам."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey, Vorsicht!"
+        ],
+        "A2": [
+          "Hey, Vorsicht! Du bist wohl nicht an Radrennen gewöhnt."
+        ],
+        "natural": [
+          "Hey, Vorsicht! Du bist wohl nicht an Radrennen gewöhnt."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBATwoSixFour",
+      "base_symbol": "Route110_Text_1BA264",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ой!"
+        ],
+        "A2": [
+          "Ой! Тормоза отказали!"
+        ],
+        "natural": [
+          "Ой! Тормоза отказали!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Meine Bremsen haben versagt!"
+        ],
+        "natural": [
+          "Oh! Meine Bremsen haben versagt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBATwoSevenC",
+      "base_symbol": "Route110_Text_1BA27C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Спущенные шины и плохие тормоза опасны."
+        ],
+        "A2": [
+          "Спущенные шины и плохие тормоза опасны. Проверяйте велосипед!"
+        ],
+        "natural": [
+          "Спущенные шины и плохие тормоза опасны. Проверяйте велосипед!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Platte Reifen und schlechte Bremsen sind gefährlich."
+        ],
+        "A2": [
+          "Platte Reifen und schlechte Bremsen sind gefährlich. Prüfe dein Fahrrad!"
+        ],
+        "natural": [
+          "Platte Reifen und schlechte Bremsen sind gefährlich. Prüfe dein Fahrrad!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBATwoDFour",
+      "base_symbol": "Route110_Text_1BA2D4",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эй!"
+        ],
+        "A2": [
+          "Эй! Сумеете угнаться за мной?"
+        ],
+        "natural": [
+          "Эй! Сумеете угнаться за мной?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey!"
+        ],
+        "A2": [
+          "Hey! Kannst du mit meinem Tempo mithalten?"
+        ],
+        "natural": [
+          "Hey! Kannst du mit meinem Tempo mithalten?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBATwoFC",
+      "base_symbol": "Route110_Text_1BA2FC",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Разбился и сгорел!"
+        ],
+        "A2": [
+          "Разбился и сгорел!"
+        ],
+        "natural": [
+          "Разбился и сгорел!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gestürzt und gescheitert!"
+        ],
+        "A2": [
+          "Gestürzt und gescheitert!"
+        ],
+        "natural": [
+          "Gestürzt und gescheitert!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAThreeZeroC",
+      "base_symbol": "Route110_Text_1BA30C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Одной скорости для победы мало."
+        ],
+        "A2": [
+          "Одной скорости для победы мало. Надо всё переосмыслить..."
+        ],
+        "natural": [
+          "Одной скорости для победы мало. Надо всё переосмыслить..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Geschwindigkeit allein reicht nicht zum Sieg."
+        ],
+        "A2": [
+          "Geschwindigkeit allein reicht nicht zum Sieg. Ich muss alles überdenken..."
+        ],
+        "natural": [
+          "Geschwindigkeit allein reicht nicht zum Sieg. Ich muss alles überdenken..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAThreeFiveTwo",
+      "base_symbol": "Route110_Text_1BA352",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не паникуйте, когда велосипед быстро едет!"
+        ],
+        "A2": [
+          "Не паникуйте, когда велосипед быстро едет!"
+        ],
+        "natural": [
+          "Не паникуйте, когда велосипед быстро едет!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Keine Panik, wenn das Fahrrad schnell fährt!"
+        ],
+        "A2": [
+          "Keine Panik, wenn das Fahrrad schnell fährt!"
+        ],
+        "natural": [
+          "Keine Panik, wenn das Fahrrad schnell fährt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAThreeSevenNine",
+      "base_symbol": "Route110_Text_1BA379",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "И в боях покемонов мне нельзя паниковать..."
+        ],
+        "A2": [
+          "И в боях покемонов мне нельзя паниковать..."
+        ],
+        "natural": [
+          "И в боях покемонов мне нельзя паниковать..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auch in Pokémon-Kämpfen darf ich nicht in Panik geraten..."
+        ],
+        "A2": [
+          "Auch in Pokémon-Kämpfen darf ich nicht in Panik geraten..."
+        ],
+        "natural": [
+          "Auch in Pokémon-Kämpfen darf ich nicht in Panik geraten..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAThreeAFive",
+      "base_symbol": "Route110_Text_1BA3A5",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не нужно паниковать и нервничать."
+        ],
+        "A2": [
+          "Не нужно паниковать и нервничать. Спокойнее, времени достаточно."
+        ],
+        "natural": [
+          "Не нужно паниковать и нервничать. Спокойнее, времени достаточно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kein Grund für Panik oder Stress."
+        ],
+        "A2": [
+          "Kein Grund für Panik oder Stress. Bleib ruhig, es ist genug Zeit."
+        ],
+        "natural": [
+          "Kein Grund für Panik oder Stress. Bleib ruhig, es ist genug Zeit."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAThreeEF",
+      "base_symbol": "Route110_Text_1BA3EF",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Вы не слишком торопитесь?"
+        ],
+        "A2": [
+          "Вы не слишком торопитесь? Сбавьте темп и сразитесь со мной."
+        ],
+        "natural": [
+          "Вы не слишком торопитесь? Сбавьте темп и сразитесь со мной."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bist du nicht etwas zu schnell?"
+        ],
+        "A2": [
+          "Bist du nicht etwas zu schnell? Fahr langsamer und kämpfe gegen mich."
+        ],
+        "natural": [
+          "Bist du nicht etwas zu schnell? Fahr langsamer und kämpfe gegen mich."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFourThreeTwo",
+      "base_symbol": "Route110_Text_1BA432",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я не паниковал, но всё равно проиграл..."
+        ],
+        "A2": [
+          "Я не паниковал, но всё равно проиграл..."
+        ],
+        "natural": [
+          "Я не паниковал, но всё равно проиграл..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich geriet nicht in Panik und verlor trotzdem..."
+        ],
+        "A2": [
+          "Ich geriet nicht in Panik und verlor trotzdem..."
+        ],
+        "natural": [
+          "Ich geriet nicht in Panik und verlor trotzdem..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFourFiveSix",
+      "base_symbol": "Route110_Text_1BA456",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не нужно паниковать и нервничать."
+        ],
+        "A2": [
+          "Не нужно паниковать и нервничать. Спокойнее, времени достаточно."
+        ],
+        "natural": [
+          "Не нужно паниковать и нервничать. Спокойнее, времени достаточно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kein Grund für Panik oder Stress."
+        ],
+        "A2": [
+          "Kein Grund für Panik oder Stress. Bleib ruhig, es ist genug Zeit."
+        ],
+        "natural": [
+          "Kein Grund für Panik oder Stress. Bleib ruhig, es ist genug Zeit."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFiveFF",
+      "base_symbol": "Route110_Text_1BA5FF",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я ехал без остановки."
+        ],
+        "A2": [
+          "Я ехал без остановки. Мои бёдра твёрдые как камень!"
+        ],
+        "natural": [
+          "Я ехал без остановки. Мои бёдра твёрдые как камень!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin ohne Pause gefahren."
+        ],
+        "A2": [
+          "Ich bin ohne Pause gefahren. Meine Oberschenkel sind hart wie Stein!"
+        ],
+        "natural": [
+          "Ich bin ohne Pause gefahren. Meine Oberschenkel sind hart wie Stein!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASixThreeC",
+      "base_symbol": "Route110_Text_1BA63C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Боюсь мышечных судорог..."
+        ],
+        "A2": [
+          "Боюсь мышечных судорог..."
+        ],
+        "natural": [
+          "Боюсь мышечных судорог..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich fürchte Muskelkrämpfe..."
+        ],
+        "A2": [
+          "Ich fürchte Muskelkrämpfe..."
+        ],
+        "natural": [
+          "Ich fürchte Muskelkrämpfe..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBASixFiveF",
+      "base_symbol": "Route110_Text_1BA65F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "У вас есть значки стадионов?"
+        ],
+        "A2": [
+          "У вас есть значки стадионов? Теперь понятно, почему вы так сильны!"
+        ],
+        "natural": [
+          "У вас есть значки стадионов? Теперь понятно, почему вы так сильны!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast Arenaorden?"
+        ],
+        "A2": [
+          "Du hast Arenaorden? Kein Wunder, dass du so stark bist!"
+        ],
+        "natural": [
+          "Du hast Arenaorden? Kein Wunder, dass du so stark bist!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFourAZero",
+      "base_symbol": "Route110_Text_1BA4A0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Триатлон невероятно сложен: надо плавать, ехать на велосипеде и бежать."
+        ],
+        "A2": [
+          "Триатлон невероятно сложен: надо плавать, ехать на велосипеде и бежать."
+        ],
+        "natural": [
+          "Триатлон невероятно сложен: надо плавать, ехать на велосипеде и бежать."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein Triathlon ist extrem schwer: Man muss schwimmen, Rad fahren und laufen."
+        ],
+        "A2": [
+          "Ein Triathlon ist extrem schwer: Man muss schwimmen, Rad fahren und laufen."
+        ],
+        "natural": [
+          "Ein Triathlon ist extrem schwer: Man muss schwimmen, Rad fahren und laufen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFiveZeroF",
+      "base_symbol": "Route110_Text_1BA50F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Бои покемонов тоже трудны!"
+        ],
+        "A2": [
+          "Бои покемонов тоже трудны!"
+        ],
+        "natural": [
+          "Бои покемонов тоже трудны!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon-Kämpfe sind ebenfalls schwer!"
+        ],
+        "A2": [
+          "Pokémon-Kämpfe sind ebenfalls schwer!"
+        ],
+        "natural": [
+          "Pokémon-Kämpfe sind ebenfalls schwer!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFiveTwoE",
+      "base_symbol": "Route110_Text_1BA52E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я устал и должен отдохнуть."
+        ],
+        "A2": [
+          "Я устал и должен отдохнуть. Полноценный отдых очень важен."
+        ],
+        "natural": [
+          "Я устал и должен отдохнуть. Полноценный отдых очень важен."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin erschöpft und brauche eine Pause."
+        ],
+        "A2": [
+          "Ich bin erschöpft und brauche eine Pause. Richtige Erholung ist sehr wichtig."
+        ],
+        "natural": [
+          "Ich bin erschöpft und brauche eine Pause. Richtige Erholung ist sehr wichtig."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFiveSevenThree",
+      "base_symbol": "Route110_Text_1BA573",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Разве сражаться на велосипеде не здорово?"
+        ],
+        "A2": [
+          "Разве сражаться на велосипеде не здорово?"
+        ],
+        "natural": [
+          "Разве сражаться на велосипеде не здорово?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ist ein Kampf beim Radfahren nicht toll?"
+        ],
+        "A2": [
+          "Ist ein Kampf beim Radfahren nicht toll?"
+        ],
+        "natural": [
+          "Ist ein Kampf beim Radfahren nicht toll?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFiveAOne",
+      "base_symbol": "Route110_Text_1BA5A1",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ого..."
+        ],
+        "A2": [
+          "Ого... Как можно быть таким сильным?"
+        ],
+        "natural": [
+          "Ого... Как можно быть таким сильным?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wow..."
+        ],
+        "A2": [
+          "Wow... Wie kannst du so stark sein?"
+        ],
+        "natural": [
+          "Wow... Wie kannst du so stark sein?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAFiveCFour",
+      "base_symbol": "Route110_Text_1BA5C4",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Вы пытались установить рекорд?"
+        ],
+        "A2": [
+          "Вы пытались установить рекорд? Простите, если задержал!"
+        ],
+        "natural": [
+          "Вы пытались установить рекорд? Простите, если задержал!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wolltest du einen Rekord aufstellen?"
+        ],
+        "A2": [
+          "Wolltest du einen Rekord aufstellen? Entschuldige, falls ich dich aufgehalten habe!"
+        ],
+        "natural": [
+          "Wolltest du einen Rekord aufstellen? Entschuldige, falls ich dich aufgehalten habe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBANineNineZero",
+      "base_symbol": "Route110_Text_1BA990",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха!"
+        ],
+        "A2": [
+          "Ха-ха! Я пойду куда угодно, чтобы показать своего прелестного покемона."
+        ],
+        "natural": [
+          "Ха-ха! Я пойду куда угодно, чтобы показать своего прелестного покемона."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Haha!"
+        ],
+        "A2": [
+          "Haha! Ich gehe überallhin, um mein reizendes Pokémon zu zeigen."
+        ],
+        "natural": [
+          "Haha! Ich gehe überallhin, um mein reizendes Pokémon zu zeigen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBANineDZero",
+      "base_symbol": "Route110_Text_1BA9D0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О боже, так не годится."
+        ],
+        "A2": [
+          "О боже, так не годится."
+        ],
+        "natural": [
+          "О боже, так не годится."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh je, so geht das nicht."
+        ],
+        "A2": [
+          "Oh je, so geht das nicht."
+        ],
+        "natural": [
+          "Oh je, so geht das nicht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBANineENine",
+      "base_symbol": "Route110_Text_1BA9E9",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Наверное, стоит готовить покемона к конкурсам, а не к боям."
+        ],
+        "A2": [
+          "Наверное, стоит готовить покемона к конкурсам, а не к боям."
+        ],
+        "natural": [
+          "Наверное, стоит готовить покемона к конкурсам, а не к боям."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vielleicht sollte ich mein Pokémon auf Wettbewerbe statt Kämpfe vorbereiten."
+        ],
+        "A2": [
+          "Vielleicht sollte ich mein Pokémon auf Wettbewerbe statt Kämpfe vorbereiten."
+        ],
+        "natural": [
+          "Vielleicht sollte ich mein Pokémon auf Wettbewerbe statt Kämpfe vorbereiten."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAATwoD",
+      "base_symbol": "Route110_Text_1BAA2D",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха!"
+        ],
+        "A2": [
+          "Ха-ха! Я с радостью буду показывать покемона сколько угодно!"
+        ],
+        "natural": [
+          "Ха-ха! Я с радостью буду показывать покемона сколько угодно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Haha!"
+        ],
+        "A2": [
+          "Haha! Ich zeige mein Pokémon so oft du möchtest!"
+        ],
+        "natural": [
+          "Haha! Ich zeige mein Pokémon so oft du möchtest!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAASevenSix",
+      "base_symbol": "Route110_Text_1BAA76",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О боже, так не годится."
+        ],
+        "A2": [
+          "О боже, так не годится."
+        ],
+        "natural": [
+          "О боже, так не годится."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh je, so geht das nicht."
+        ],
+        "A2": [
+          "Oh je, so geht das nicht."
+        ],
+        "natural": [
+          "Oh je, so geht das nicht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAAEightF",
+      "base_symbol": "Route110_Text_1BAA8F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Конкурсы прекрасны, но сражаться мне тоже нравится."
+        ],
+        "A2": [
+          "Конкурсы прекрасны, но сражаться мне тоже нравится."
+        ],
+        "natural": [
+          "Конкурсы прекрасны, но сражаться мне тоже нравится."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wettbewerbe sind schön, aber ich kämpfe ebenfalls gern."
+        ],
+        "A2": [
+          "Wettbewerbe sind schön, aber ich kämpfe ebenfalls gern."
+        ],
+        "natural": [
+          "Wettbewerbe sind schön, aber ich kämpfe ebenfalls gern."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAACThree",
+      "base_symbol": "Route110_Text_1BAAC3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я нашёл в здешней траве крутых покемонов!"
+        ],
+        "A2": [
+          "Я нашёл в здешней траве крутых покемонов!"
+        ],
+        "natural": [
+          "Я нашёл в здешней траве крутых покемонов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe im Gras hier coole Pokémon gefunden!"
+        ],
+        "A2": [
+          "Ich habe im Gras hier coole Pokémon gefunden!"
+        ],
+        "natural": [
+          "Ich habe im Gras hier coole Pokémon gefunden!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBAAFSeven",
+      "base_symbol": "Route110_Text_1BAAF7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Одной крутости для победы мало..."
+        ],
+        "A2": [
+          "Одной крутости для победы мало..."
+        ],
+        "natural": [
+          "Одной крутости для победы мало..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Coolsein allein reicht nicht zum Sieg..."
+        ],
+        "A2": [
+          "Coolsein allein reicht nicht zum Sieg..."
+        ],
+        "natural": [
+          "Coolsein allein reicht nicht zum Sieg..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneBABOneNine",
+      "base_symbol": "Route110_Text_1BAB19",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Трудно сражаться покемонами, которых только что поймал."
+        ],
+        "A2": [
+          "Трудно сражаться покемонами, которых только что поймал."
+        ],
+        "natural": [
+          "Трудно сражаться покемонами, которых только что поймал."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit gerade gefangenen Pokémon zu kämpfen ist schwierig."
+        ],
+        "A2": [
+          "Mit gerade gefangenen Pokémon zu kämpfen ist schwierig."
+        ],
+        "natural": [
+          "Mit gerade gefangenen Pokémon zu kämpfen ist schwierig."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEFSixFive",
+      "base_symbol": "Route110_Text_16EF65",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Столкновения: ..."
+        ],
+        "A2": [
+          "Столкновения: ... ..."
+        ],
+        "natural": [
+          "Столкновения: ... ... {STR_VAR_1}! Общее время: ... ... {STR_VAR_2}!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zusammenstöße: ..."
+        ],
+        "A2": [
+          "Zusammenstöße: ... ..."
+        ],
+        "natural": [
+          "Zusammenstöße: ... ... {STR_VAR_1}! Gesamtzeit: ... ... {STR_VAR_2}!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEFNineF",
+      "base_symbol": "Route110_Text_16EF9F",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Браво!"
+        ],
+        "A2": [
+          "Браво! Великолепно!"
+        ],
+        "natural": [
+          "Браво! Великолепно! Твоя любовь к велоспорту идёт из самого сердца. Ты потряс меня до глубины души!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bravo!"
+        ],
+        "A2": [
+          "Bravo! Großartig!"
+        ],
+        "natural": [
+          "Bravo! Großartig! Deine Liebe zum Radfahren kommt von Herzen. Du hast mich tief bewegt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFZeroOneTwo",
+      "base_symbol": "Route110_Text_16F012",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Твоя техника замечательна."
+        ],
+        "A2": [
+          "Твоя техника замечательна. Советую чуть сбавить скорость, чтобы избегать столкновений."
+        ],
+        "natural": [
+          "Твоя техника замечательна. Советую чуть сбавить скорость, чтобы избегать столкновений."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Deine Technik ist bemerkenswert."
+        ],
+        "A2": [
+          "Deine Technik ist bemerkenswert. Fahr etwas langsamer, um Zusammenstöße zu vermeiden."
+        ],
+        "natural": [
+          "Deine Technik ist bemerkenswert. Fahr etwas langsamer, um Zusammenstöße zu vermeiden."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFZeroSixNine",
+      "base_symbol": "Route110_Text_16F069",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Тебе ещё есть чему учиться."
+        ],
+        "A2": [
+          "Тебе ещё есть чему учиться. Но не забывай о чистой радости езды на велосипеде."
+        ],
+        "natural": [
+          "Тебе ещё есть чему учиться. Но не забывай о чистой радости езды на велосипеде."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du musst noch üben."
+        ],
+        "A2": [
+          "Du musst noch üben. Vergiss dabei nie die reine Freude am Radfahren."
+        ],
+        "natural": [
+          "Du musst noch üben. Vergiss dabei nie die reine Freude am Radfahren."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFZeroDZero",
+      "base_symbol": "Route110_Text_16F0D0",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Боже..."
+        ],
+        "A2": [
+          "Боже... Твоя езда почти пугает."
+        ],
+        "natural": [
+          "Боже... Твоя езда почти пугает. Тебе определённо нужно гораздо больше практики."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Güte..."
+        ],
+        "A2": [
+          "Meine Güte... Deine Fahrkunst ist fast beängstigend."
+        ],
+        "natural": [
+          "Meine Güte... Deine Fahrkunst ist fast beängstigend. Du brauchst viel mehr Übung."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixFOneThreeNine",
+      "base_symbol": "Route110_Text_16F139",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я потрясён..."
+        ],
+        "A2": [
+          "Я потрясён... Возможно, велоспорт не для тебя."
+        ],
+        "natural": [
+          "Я потрясён... Возможно, велоспорт не для тебя. Подумай, не вернуть ли ВЕЛОСИПЕД РАЙДЕЛУ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin entsetzt..."
+        ],
+        "A2": [
+          "Ich bin entsetzt... Radfahren liegt dir wohl nicht."
+        ],
+        "natural": [
+          "Ich bin entsetzt... Radfahren liegt dir wohl nicht. Vielleicht solltest du das RAD an RADLAS zurückgeben."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixESevenAOne",
+      "base_symbol": "Route110_Text_16E7A1",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЙ: Привет, {PLAYER}!"
+        ],
+        "A2": [
+          "МЭЙ: Привет, {PLAYER}! Давно не виделись!"
+        ],
+        "natural": [
+          "МЭЙ: Привет, {PLAYER}! Давно не виделись! Пока я искала новых покемонов, мои стали сильнее. Ну что, немного поборемся?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MAIKE: Hallo, {PLAYER}!"
+        ],
+        "A2": [
+          "MAIKE: Hallo, {PLAYER}! Lange nicht gesehen!"
+        ],
+        "natural": [
+          "MAIKE: Hallo, {PLAYER}! Lange nicht gesehen! Bei der Suche nach Pokémon wurden meine stärker. Wie wäre es mit einem kleinen Kampf?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEEightTwoSix",
+      "base_symbol": "Route110_Text_16E826",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ой!"
+        ],
+        "A2": [
+          "Ой! Ты лучше, чем я ожидала!"
+        ],
+        "natural": [
+          "Ой! Ты лучше, чем я ожидала!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hoppla!"
+        ],
+        "A2": [
+          "Hoppla! Du bist besser als erwartet!"
+        ],
+        "natural": [
+          "Hoppla! Du bist besser als erwartet!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEEightFourC",
+      "base_symbol": "Route110_Text_16E84C",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЙ: {PLAYER}, ты тоже усердно тренировался, да?"
+        ],
+        "A2": [
+          "МЭЙ: {PLAYER}, ты тоже усердно тренировался, да? Ты заслуживаешь награду."
+        ],
+        "natural": [
+          "МЭЙ: {PLAYER}, ты тоже усердно тренировался, да? Ты заслуживаешь награду. Это тебе от меня!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MAIKE: {PLAYER}, du hast trainiert, oder?"
+        ],
+        "A2": [
+          "MAIKE: {PLAYER}, du hast trainiert, oder? Du verdienst eine Belohnung."
+        ],
+        "natural": [
+          "MAIKE: {PLAYER}, du hast trainiert, oder? Du verdienst eine Belohnung. Die ist von mir!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEEightBThree",
+      "base_symbol": "Route110_Text_16E8B3",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЙ: Это ИСКАТЕЛЬ ПРЕДМЕТОВ."
+        ],
+        "A2": [
+          "МЭЙ: Это ИСКАТЕЛЬ ПРЕДМЕТОВ. Он подаёт звук рядом со скрытым предметом."
+        ],
+        "natural": [
+          "МЭЙ: Это ИСКАТЕЛЬ ПРЕДМЕТОВ. Он подаёт звук рядом со скрытым предметом. До встречи, {PLAYER}! В следующий раз тренируйся ещё усерднее!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MAIKE: Das ist ein ITEMRADAR."
+        ],
+        "A2": [
+          "MAIKE: Das ist ein ITEMRADAR. Es piept bei versteckten Items."
+        ],
+        "natural": [
+          "MAIKE: Das ist ein ITEMRADAR. Es piept bei versteckten Items. Bis bald, {PLAYER}! Trainiere bis dahin noch fleißiger!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixENineNineA",
+      "base_symbol": "Route110_Text_16E99A",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРЕНДАН: Привет, {PLAYER}."
+        ],
+        "A2": [
+          "БРЕНДАН: Привет, {PLAYER}. Вот ты где!"
+        ],
+        "natural": [
+          "БРЕНДАН: Привет, {PLAYER}. Вот ты где! Как дела? Ты тренировал своих покемонов? Сейчас проверю."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Brix: Hallo, {PLAYER}."
+        ],
+        "A2": [
+          "Brix: Hallo, {PLAYER}. Da bist du ja!"
+        ],
+        "natural": [
+          "Brix: Hallo, {PLAYER}. Da bist du ja! Wie läuft es? Hast du deine Pokémon trainiert? Ich prüfe das."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEAZeroF",
+      "base_symbol": "Route110_Text_16EA0F",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хм..."
+        ],
+        "A2": [
+          "Хм... Ты довольно силён."
+        ],
+        "natural": [
+          "Хм... Ты довольно силён."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hm..."
+        ],
+        "A2": [
+          "Hm... Du bist ziemlich gut."
+        ],
+        "natural": [
+          "Hm... Du bist ziemlich gut."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEATwoA",
+      "base_symbol": "Route110_Text_16EA2A",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРЕНДАН: {PLAYER}, ты тренировался, а я и не заметил..."
+        ],
+        "A2": [
+          "БРЕНДАН: {PLAYER}, ты тренировался, а я и не заметил... Неплохо!"
+        ],
+        "natural": [
+          "БРЕНДАН: {PLAYER}, ты тренировался, а я и не заметил... Неплохо! Держи это."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Brix: {PLAYER}, du hast heimlich trainiert..."
+        ],
+        "A2": [
+          "Brix: {PLAYER}, du hast heimlich trainiert... Nicht schlecht!"
+        ],
+        "natural": [
+          "Brix: {PLAYER}, du hast heimlich trainiert... Nicht schlecht! Nimm das hier."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroOneSixEASevenB",
+      "base_symbol": "Route110_Text_16EA7B",
+      "source_path": "data/maps/Route110/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 110 story, rival, cycling-road, visitor, sign, or record interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРЕНДАН: Это ИСКАТЕЛЬ ПРЕДМЕТОВ."
+        ],
+        "A2": [
+          "БРЕНДАН: Это ИСКАТЕЛЬ ПРЕДМЕТОВ. Он находит невидимые предметы и подаёт звук."
+        ],
+        "natural": [
+          "БРЕНДАН: Это ИСКАТЕЛЬ ПРЕДМЕТОВ. Он находит невидимые предметы и подаёт звук. А я пойду искать новых покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "дорога",
+            "road"
+          ]
+        ],
+        "de": [
+          [
+            "die Straße",
+            "road"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Brix: Das ist ein ITEMRADAR."
+        ],
+        "A2": [
+          "Brix: Das ist ein ITEMRADAR. Es findet unsichtbare Items und piept."
+        ],
+        "natural": [
+          "Brix: Das ist ein ITEMRADAR. Es findet unsichtbare Items und piept. Ich suche jetzt neue Pokémon."
+        ]
+      }
     }
   ]
 }

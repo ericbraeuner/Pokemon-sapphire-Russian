@@ -14046,6 +14046,1686 @@
         "seashorehouse",
         "soda"
       ]
+    },
+    {
+      "id": "route110.route.16e6c0.701",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F946",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E6C0",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixESixCZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 701
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e6f2.702",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F95C",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E6F2",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixESixFTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 702
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e729.703",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F972",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E729",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixESevenTwoNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 703
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e76a.704",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F988",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E76A",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixESevenSixA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 704
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16eb22.705",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F99E",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EB22",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEBTwoTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 705
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16eb65.706",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9A7",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EB65",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEBSixFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 706
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ebc9.707",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9B0",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EBC9",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEBCNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 707
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16edc5.708",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9B9",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EDC5",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEDCFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 708
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ee30.709",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9C2",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EE30",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEEThreeZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 709
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ee74.710",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9CB",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EE74",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEESevenFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 710
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16eef6.711",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9D4",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EEF6",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEEFSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 711
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f381.712",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9DD",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F381",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFThreeEightOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 712
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f39c.713",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9E6",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F39C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFThreeNineC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 713
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f3b1.714",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9EF",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F3B1",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFThreeBOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 714
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f3e9.715",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14F9F8",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F3E9",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFThreeENine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 715
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f3ff.716",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA01",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F3FF",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFThreeFF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 716
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f40f.717",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA0A",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F40F",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFFourZeroF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 717
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f429.718",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA13",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F429",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFFourTwoNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 718
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f4ae.719",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA1C",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F4AE",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFFourAE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 719
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f4f7.720",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA25",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F4F7",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFFourFSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 720
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f53a.721",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA2E",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F53A",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFFiveThreeA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 721
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f57c.722",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA49",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F57C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFFiveSevenC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 722
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f26a.723",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA53",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F26A",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFTwoSixA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 723
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f1d0.724",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA7A",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F1D0",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFOneDZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 724
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f2c4.725",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA84",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F2C4",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFTwoCFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 725
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba699.726",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA8E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA699",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASixNineNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 726
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba6d2.727",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA8E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA6D2",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASixDTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 727
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba6f8.728",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FA8E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA6F8",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASixFEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 728
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba72d.729",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAA5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA72D",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASevenTwoD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 729
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba759.730",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAA5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA759",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASevenFiveNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 730
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba76c.731",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAA5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA76C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASevenSixC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 731
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba7d2.732",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FABC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA7D2",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASevenDTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 732
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba803.733",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FABC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA803",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAEightZeroThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 733
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba829.734",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FABC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA829",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAEightTwoNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 734
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba877.735",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAE3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA877",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAEightSevenSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 735
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba8cd.736",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAE3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA8CD",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAEightCD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 736
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba8e9.737",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAE3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA8E9",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAEightENine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 737
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba913.738",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAFA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA913",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBANineOneThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 738
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba93c.739",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAFA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA93C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBANineThreeC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 739
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba94a.740",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FAFA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA94A",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBANineFourA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 740
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba22c.741",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB11",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA22C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBATwoTwoC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 741
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba264.742",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB11",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA264",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBATwoSixFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 742
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba27c.743",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB11",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA27C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBATwoSevenC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 743
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba2d4.744",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB28",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA2D4",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBATwoDFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 744
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba2fc.745",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB28",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA2FC",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBATwoFC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 745
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba30c.746",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB28",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA30C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAThreeZeroC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 746
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba352.747",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB3F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA352",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAThreeFiveTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 747
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba379.748",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB3F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA379",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAThreeSevenNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 748
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba3a5.749",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB3F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA3A5",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAThreeAFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 749
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba3ef.750",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB66",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA3EF",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAThreeEF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 750
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba432.751",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB66",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA432",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFourThreeTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 751
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba456.752",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB66",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA456",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFourFiveSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 752
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba5ff.753",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB7D",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA5FF",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFiveFF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 753
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba63c.754",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB7D",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA63C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASixThreeC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 754
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba65f.755",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB7D",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA65F",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBASixFiveF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 755
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba4a0.756",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB94",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA4A0",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFourAZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 756
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba50f.757",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB94",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA50F",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFiveZeroF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 757
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba52e.758",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FB94",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA52E",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFiveTwoE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 758
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba573.759",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBBB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA573",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFiveSevenThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 759
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba5a1.760",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBBB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA5A1",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFiveAOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 760
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba5c4.761",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBBB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA5C4",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAFiveCFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 761
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba990.762",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBD2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA990",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBANineNineZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 762
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba9d0.763",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBD2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA9D0",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBANineDZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 763
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1ba9e9.764",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBD2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BA9E9",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBANineENine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 764
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1baa2d.765",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBF9",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BAA2D",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAATwoD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 765
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1baa76.766",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBF9",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BAA76",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAASevenSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 766
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1baa8f.767",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FBF9",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BAA8F",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAAEightF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 767
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1baac3.768",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FC10",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BAAC3",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAACThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 768
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1baaf7.769",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FC10",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BAAF7",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBAAFSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 769
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.trainer.1bab19.770",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FC10",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route110_Text_1BAB19",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneBABOneNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 770
+      },
+      "tags": [
+        "route110",
+        "trainer"
+      ]
+    },
+    {
+      "id": "route110.route.16ef65.771",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FC39",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EF65",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEFSixFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 771
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ef9f.772",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FCC3",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EF9F",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEFNineF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 772
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f012.773",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FCD1",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F012",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFZeroOneTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 773
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f069.774",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FCDF",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F069",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFZeroSixNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 774
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f0d0.775",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FCED",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F0D0",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFZeroDZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 775
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16f139.776",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FCFB",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16F139",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixFOneThreeNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 776
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e7a1.777",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FDB1",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E7A1",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixESevenAOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 777
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e826.778",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FDE0",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E826",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEEightTwoSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 778
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e84c.779",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FE10",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E84C",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEEightFourC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 779
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e8b3.780",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FE10",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E8B3",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEEightBThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 780
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16e99a.781",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FE2B",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16E99A",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixENineNineA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 781
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ea0f.782",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FE5A",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EA0F",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEAZeroF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 782
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ea2a.783",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FE8A",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EA2A",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEATwoA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 783
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
+    },
+    {
+      "id": "route110.route.16ea7b.784",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110/scripts.inc",
+        "symbol": "Route110_EventScript_14FE8A",
+        "base_text_path": "data/maps/Route110/text.inc",
+        "base_text_symbol": "Route110_Text_16EA7B",
+        "note": "Adaptive translation bridge preserves the original story, battle, record, or reward flow.",
+        "authored_id": "RouteOneOneZeroOneSixEASevenB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 784
+      },
+      "tags": [
+        "route110",
+        "route"
+      ]
     }
   ]
 }

@@ -35102,6 +35102,6126 @@
           "Brix: Das ist ein ITEMRADAR. Es findet unsichtbare Items und piept. Ich suche jetzt neue Pokémon."
         ]
       }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndYouveMadeItToMe",
+      "base_symbol": "Route110_TrickHouseEnd_Text_YouveMadeItToMe",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ах!"
+        ],
+        "A2": [
+          "Ах! Ты добрался до меня?"
+        ],
+        "natural": [
+          "Ах! Ты добрался до меня? Хм... Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ah!"
+        ],
+        "A2": [
+          "Ah! Du hast es zu mir geschafft?"
+        ],
+        "natural": [
+          "Ah! Du hast es zu mir geschafft? Hm... Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightToPlantTrees",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightToPlantTrees",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь сажал эти деревья..."
+        ],
+        "A2": [
+          "Я всю ночь сажал эти деревья... До моего величия тебе осталось всего шесть ступеней!"
+        ],
+        "natural": [
+          "Я всю ночь сажал эти деревья... До моего величия тебе осталось всего шесть ступеней!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich pflanzte die ganze Nacht diese Bäume..."
+        ],
+        "A2": [
+          "Ich pflanzte die ganze Nacht diese Bäume... Nur sechs Stufen trennen dich noch von meiner Größe!"
+        ],
+        "natural": [
+          "Ich pflanzte die ganze Nacht diese Bäume... Nur sechs Stufen trennen dich noch von meiner Größe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndYouHaveEarnedThisReward",
+      "base_symbol": "Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хорошо!"
+        ],
+        "A2": [
+          "Хорошо! Ты заслужил эту награду!"
+        ],
+        "natural": [
+          "Хорошо! Ты заслужил эту награду!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gut!"
+        ],
+        "A2": [
+          "Gut! Du hast diese Belohnung verdient!"
+        ],
+        "natural": [
+          "Gut! Du hast diese Belohnung verdient!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndMakeNewTricksToStumpYou",
+      "base_symbol": "Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Убери самодовольную улыбку!"
+        ],
+        "A2": [
+          "Убери самодовольную улыбку! Рано считать себя победителем!"
+        ],
+        "natural": [
+          "Убери самодовольную улыбку! Рано считать себя победителем! Я придумаю новые уловки. Смеяться можешь, лишь пройдя их. Возвращайся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wisch das Grinsen weg!"
+        ],
+        "A2": [
+          "Wisch das Grinsen weg! Für einen Sieg ist es zu früh!"
+        ],
+        "natural": [
+          "Wisch das Grinsen weg! Für einen Sieg ist es zu früh! Ich erfinde neue Tricks. Spotten darfst du erst danach. Komm wieder!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightToMakeMaze",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightToMakeMaze",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь строил лабиринт..."
+        ],
+        "A2": [
+          "Я всю ночь строил лабиринт... До моего величия тебе осталось всего пять ступеней!"
+        ],
+        "natural": [
+          "Я всю ночь строил лабиринт... До моего величия тебе осталось всего пять ступеней!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich baute die ganze Nacht das Labyrinth..."
+        ],
+        "A2": [
+          "Ich baute die ganze Nacht das Labyrinth... Nur fünf Stufen trennen dich noch von meiner Größe!"
+        ],
+        "natural": [
+          "Ich baute die ganze Nacht das Labyrinth... Nur fünf Stufen trennen dich noch von meiner Größe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndOneNineCThreeASeven",
+      "base_symbol": "Route110_TrickHouseEnd_Text_19C3A7",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь таскал эти валуны..."
+        ],
+        "A2": [
+          "Я всю ночь таскал эти валуны... До моего величия тебе осталось всего четыре ступени!"
+        ],
+        "natural": [
+          "Я всю ночь таскал эти валуны... До моего величия тебе осталось всего четыре ступени!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich schleppte die ganze Nacht diese Felsen..."
+        ],
+        "A2": [
+          "Ich schleppte die ganze Nacht diese Felsen... Nur vier Stufen trennen dich noch von meiner Größe!"
+        ],
+        "natural": [
+          "Ich schleppte die ganze Nacht diese Felsen... Nur vier Stufen trennen dich noch von meiner Größe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightToShoveBoulders",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightToShoveBoulders",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь двигал эти валуны..."
+        ],
+        "A2": [
+          "Я всю ночь двигал эти валуны... До моего величия тебе осталось всего три ступени!"
+        ],
+        "natural": [
+          "Я всю ночь двигал эти валуны... До моего величия тебе осталось всего три ступени!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich schob die ganze Nacht diese Felsen..."
+        ],
+        "A2": [
+          "Ich schob die ganze Nacht diese Felsen... Nur drei Stufen trennen dich noch von meiner Größe!"
+        ],
+        "natural": [
+          "Ich schob die ganze Nacht diese Felsen... Nur drei Stufen trennen dich noch von meiner Größe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightToMakeMechadolls",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь делал МЕХАКУКОЛ, а следующую сочинял викторину..."
+        ],
+        "A2": [
+          "Я всю ночь делал МЕХАКУКОЛ, а следующую сочинял викторину... До моего величия тебе осталось две ступени!"
+        ],
+        "natural": [
+          "Я всю ночь делал МЕХАКУКОЛ, а следующую сочинял викторину... До моего величия тебе осталось две ступени!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Nacht baute ich MECHAPUPPEN, die nächste das Quiz..."
+        ],
+        "A2": [
+          "Eine Nacht baute ich MECHAPUPPEN, die nächste das Quiz... Nur zwei Stufen trennen dich noch von meiner Größe!"
+        ],
+        "natural": [
+          "Eine Nacht baute ich MECHAPUPPEN, die nächste das Quiz... Nur zwei Stufen trennen dich noch von meiner Größe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightToInstallDoors",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightToInstallDoors",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь устанавливал двери..."
+        ],
+        "A2": [
+          "Я всю ночь устанавливал двери... Ты почти сравнялся со мной в величии!"
+        ],
+        "natural": [
+          "Я всю ночь устанавливал двери... Ты почти сравнялся со мной в величии!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich baute die ganze Nacht Türen ein..."
+        ],
+        "A2": [
+          "Ich baute die ganze Nacht Türen ein... Du bist fast so großartig wie ich!"
+        ],
+        "natural": [
+          "Ich baute die ganze Nacht Türen ein... Du bist fast so großartig wie ich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightSettingUpArrows",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightSettingUpArrows",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь расставлял стрелки..."
+        ],
+        "A2": [
+          "Я всю ночь расставлял стрелки... Ты сравнялся со мной в величии!"
+        ],
+        "natural": [
+          "Я всю ночь расставлял стрелки... Ты сравнялся со мной в величии!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich stellte die ganze Nacht Pfeile auf..."
+        ],
+        "A2": [
+          "Ich stellte die ganze Nacht Pfeile auf... Du bist ebenso großartig wie ich!"
+        ],
+        "natural": [
+          "Ich stellte die ganze Nacht Pfeile auf... Du bist ebenso großartig wie ich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndAllNightPolishingFloors",
+      "base_symbol": "Route110_TrickHouseEnd_Text_AllNightPolishingFloors",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я всю ночь полировал полы..."
+        ],
+        "A2": [
+          "Я всю ночь полировал полы... Ты превзошёл меня в величии!"
+        ],
+        "natural": [
+          "Я всю ночь полировал полы... Ты превзошёл меня в величии! Возможно..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich polierte die ganze Nacht die Böden..."
+        ],
+        "A2": [
+          "Ich polierte die ganze Nacht die Böden... Du bist großartiger als ich!"
+        ],
+        "natural": [
+          "Ich polierte die ganze Nacht die Böden... Du bist großartiger als ich! Vielleicht..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndFountainOfIdeasRunDry",
+      "base_symbol": "Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ч-что же делать?"
+        ],
+        "A2": [
+          "Ч-что же делать? Мой источник идей для трюков иссяк..."
+        ],
+        "natural": [
+          "Ч-что же делать? Мой источник идей для трюков иссяк... Наверное, пора отправиться в путь и искать новые уловки."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "W-was nun?"
+        ],
+        "A2": [
+          "W-was nun? Meine Quelle für Rätselideen ist versiegt..."
+        ],
+        "natural": [
+          "W-was nun? Meine Quelle für Rätselideen ist versiegt... Vielleicht muss ich reisen und neue Tricks suchen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndDefeatedMeTakeTent",
+      "base_symbol": "Route110_TrickHouseEnd_Text_DefeatedMeTakeTent",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не хочу признавать поражение, но ты превзошёл меня!"
+        ],
+        "A2": [
+          "Не хочу признавать поражение, но ты превзошёл меня! Ты возвращался из-за моей харизмы."
+        ],
+        "natural": [
+          "Не хочу признавать поражение, но ты превзошёл меня! Ты возвращался из-за моей харизмы. Несомненно! Но это не связано с поражением! В знак нашей дружбы требую принять этот сувенир!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast mich besiegt!"
+        ],
+        "A2": [
+          "Du hast mich besiegt! Du kamst wegen meines Charmes wieder."
+        ],
+        "natural": [
+          "Du hast mich besiegt! Du kamst wegen meines Charmes wieder. Als Zeichen unserer Freundschaft nimm dieses Andenken!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndLeavingOnJourney",
+      "base_symbol": "Route110_TrickHouseEnd_Text_LeavingOnJourney",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "..."
+        ],
+        "A2": [
+          "... ..."
+        ],
+        "natural": [
+          "... ... ... Я отправляюсь в путешествие за новыми трюками. Надеюсь, однажды ты снова развлечёшь меня. А теперь прощай!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "..."
+        ],
+        "A2": [
+          "... ..."
+        ],
+        "natural": [
+          "... ... ... Ich gehe auf eine Reise, um neue Tricks zu finden. Hoffentlich unterhältst du mich eines Tages wieder. Leb wohl!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndNoRoomForThis",
+      "base_symbol": "Route110_TrickHouseEnd_Text_NoRoomForThis",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Что?"
+        ],
+        "A2": [
+          "Что? Для этого нет места?"
+        ],
+        "natural": [
+          "Что? Для этого нет места? Что же ты носишь с собой? Но раз ты добрался сюда, я сохраню награду до следующего раза."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Kein Platz dafür?"
+        ],
+        "natural": [
+          "Was? Kein Platz dafür? Was trägst du bloß mit dir? Da du es geschafft hast, bewahre ich die Belohnung bis später auf."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndNoRoomInPC",
+      "base_symbol": "Route110_TrickHouseEnd_Text_NoRoomInPC",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Что?"
+        ],
+        "A2": [
+          "Что? В ПК нет места?"
+        ],
+        "natural": [
+          "Что? В ПК нет места? Что мне с этим делать? Я слишком добр, поэтому возвращайся позже!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Kein Platz im PC?"
+        ],
+        "natural": [
+          "Was? Kein Platz im PC? Was soll das? Ich bin zu gütig, also komm später wieder!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEndYoureIgnoringMe",
+      "base_symbol": "Route110_TrickHouseEnd_Text_YoureIgnoringMe",
+      "source_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Эй!"
+        ],
+        "A2": [
+          "Эй! Теперь ты меня игнорируешь?"
+        ],
+        "natural": [
+          "Эй! Теперь ты меня игнорируешь? Это разбивает мне сердце!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "He!"
+        ],
+        "A2": [
+          "He! Ignorierst du mich jetzt?"
+        ],
+        "natural": [
+          "He! Ignorierst du mich jetzt? Das bricht mir das Herz!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceComeToChallengeTrickHouse",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты пришёл испытать мой ДОМ ФОКУСОВ, верно?"
+        ],
+        "A2": [
+          "Ты пришёл испытать мой ДОМ ФОКУСОВ, верно? Конечно!"
+        ],
+        "natural": [
+          "Ты пришёл испытать мой ДОМ ФОКУСОВ, верно? Конечно! Вызов принят! Войди через свиток и начинай. Я жду в конце!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du willst mein RÄTSELHAUS herausfordern, richtig?"
+        ],
+        "A2": [
+          "Du willst mein RÄTSELHAUS herausfordern, richtig? Natürlich!"
+        ],
+        "natural": [
+          "Du willst mein RÄTSELHAUS herausfordern, richtig? Natürlich! Herausforderung angenommen! Geh durch die Schriftrolle. Ich warte am Ende!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedBeneathDesk",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался под столом? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich unter dem Tisch entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedBehindTree",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBehindTree",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался за деревом? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich hinter dem Baum entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedInDresser",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedInDresser",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался в комоде? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich in der Kommode entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConealedBeyondWindow",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConealedBeyondWindow",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался за окном? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich jenseits des Fensters entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedInPlanter",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedInPlanter",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался в кадке? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich im Pflanzkübel entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedInCupboard",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedInCupboard",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался в шкафу? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich im Schrank entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedBehindWindow",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBehindWindow",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался за окном? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich hinter dem Fenster entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceConcealedBeneathCushion",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Р-р-р..."
+        ],
+        "natural": [
+          "А? Р-р-р... Как ты понял, что я спрятался под подушкой? Ты проницателен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Grrr..."
+        ],
+        "natural": [
+          "Was? Grrr... Wie hast du mich unter dem Kissen entdeckt? Du bist scharfsinnig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceTheyCallMeTrickMaster",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Смотри!"
+        ],
+        "A2": [
+          "Смотри! Я величайшая живая загадка всего ХОЭННА!"
+        ],
+        "natural": [
+          "Смотри! Я величайшая живая загадка всего ХОЭННА! Меня зовут... МАСТЕР ФОКУСОВ! Ва-ха-ха! Рад встрече!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieh her!"
+        ],
+        "A2": [
+          "Sieh her! Ich bin das größte lebende Rätsel in ganz HOENN!"
+        ],
+        "natural": [
+          "Sieh her! Ich bin das größte lebende Rätsel in ganz HOENN! Man nennt mich... Den RÄTSELMEISTER! Wahahaha! Freut mich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceNextTimeUseThisTrick",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В следующий раз я применю этот трюк, тот план и новые уловки..."
+        ],
+        "A2": [
+          "В следующий раз я применю этот трюк, тот план и новые уловки... Муфуфу..."
+        ],
+        "natural": [
+          "В следующий раз я применю этот трюк, тот план и новые уловки... Муфуфу... Даже для меня это гениально сложно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nächstes Mal nutze ich diesen Trick, jenen Plan und neue Kniffe..."
+        ],
+        "A2": [
+          "Nächstes Mal nutze ich diesen Trick, jenen Plan und neue Kniffe... Mufufufu..."
+        ],
+        "natural": [
+          "Nächstes Mal nutze ich diesen Trick, jenen Plan und neue Kniffe... Mufufufu... Selbst für mich ist das genial schwierig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceInMidstOfDevisingNewChallenges",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Что?!"
+        ],
+        "natural": [
+          "А? Что?! Ах, это ты! Я придумываю новые хитрые испытания. Мне нужно ещё немного времени. Возвращайся позже!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Oh, du bist es!"
+        ],
+        "natural": [
+          "Was? Oh, du bist es! Ich entwerfe neue knifflige Prüfungen. Gib mir noch etwas Zeit. Komm später wieder!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceYoureHereToAcceptReward",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А, это ты!"
+        ],
+        "A2": [
+          "А, это ты! Пришёл за прошлой наградой, верно?"
+        ],
+        "natural": [
+          "А, это ты! Пришёл за прошлой наградой, верно? Конечно! Вот, теперь она твоя!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ah, du bist es!"
+        ],
+        "A2": [
+          "Ah, du bist es! Du holst die vorige Belohnung ab, richtig?"
+        ],
+        "natural": [
+          "Ah, du bist es! Du holst die vorige Belohnung ab, richtig? Natürlich! Hier, sie gehört nun dir!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceDidYouNotComeToClaimReward",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Ты пришёл не за наградой?"
+        ],
+        "natural": [
+          "А? Ты пришёл не за наградой?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Willst du deine Belohnung nicht?"
+        ],
+        "natural": [
+          "Was? Willst du deine Belohnung nicht?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceMechadollWhichTent",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_MechadollWhichTent",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я МЕХАКУКЛА 5!"
+        ],
+        "A2": [
+          "Я МЕХАКУКЛА 5! НЕ ЗАБЕРЁШЬ НАГРАДУ - НЕ СМОЖЕШЬ ПОЙТИ ЗА МАСТЕРОМ ФОКУСОВ."
+        ],
+        "natural": [
+          "Я МЕХАКУКЛА 5! НЕ ЗАБЕРЁШЬ НАГРАДУ - НЕ СМОЖЕШЬ ПОЙТИ ЗА МАСТЕРОМ ФОКУСОВ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ICH BIN MECHAPUPPE 5!"
+        ],
+        "A2": [
+          "ICH BIN MECHAPUPPE 5! OHNE DEINE BELOHNUNG KANNST DU DEM RÄTSELMEISTER NICHT FOLGEN."
+        ],
+        "natural": [
+          "ICH BIN MECHAPUPPE 5! OHNE DEINE BELOHNUNG KANNST DU DEM RÄTSELMEISTER NICHT FOLGEN."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntrancePCFullAgain",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_PCFullAgain",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ТВОЙ ПК СНОВА ПОЛОН."
+        ],
+        "A2": [
+          "ТВОЙ ПК СНОВА ПОЛОН. ЭТО ПОДЛО."
+        ],
+        "natural": [
+          "ТВОЙ ПК СНОВА ПОЛОН. ЭТО ПОДЛО."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "DEIN PC IST WIEDER VOLL."
+        ],
+        "A2": [
+          "DEIN PC IST WIEDER VOLL. DAS IST GEMEIN."
+        ],
+        "natural": [
+          "DEIN PC IST WIEDER VOLL. DAS IST GEMEIN."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceThenFarewell",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ThenFarewell",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ТОГДА ПРОЩАЙ."
+        ],
+        "A2": [
+          "ТОГДА ПРОЩАЙ."
+        ],
+        "natural": [
+          "ТОГДА ПРОЩАЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "DANN LEB WOHL."
+        ],
+        "A2": [
+          "DANN LEB WOHL."
+        ],
+        "natural": [
+          "DANN LEB WOHL."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceItsAScroll",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_ItsAScroll",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это свиток."
+        ],
+        "A2": [
+          "Это свиток."
+        ],
+        "natural": [
+          "Это свиток."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist eine Schriftrolle."
+        ],
+        "A2": [
+          "Das ist eine Schriftrolle."
+        ],
+        "natural": [
+          "Das ist eine Schriftrolle."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceGoInHoleBehindScroll",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "За свитком большая дыра!"
+        ],
+        "A2": [
+          "За свитком большая дыра! Войти?"
+        ],
+        "natural": [
+          "За свитком большая дыра! Войти?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hinter der Schriftrolle ist ein großes Loch!"
+        ],
+        "A2": [
+          "Hinter der Schriftrolle ist ein großes Loch! Hineingehen?"
+        ],
+        "natural": [
+          "Hinter der Schriftrolle ist ein großes Loch! Hineingehen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceLeavingOnJourneyNote",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "К свитку прикреплена записка..."
+        ],
+        "A2": [
+          "К свитку прикреплена записка... Я отправился в путешествие."
+        ],
+        "natural": [
+          "К свитку прикреплена записка... Я отправился в путешествие. Не ищи меня. МАСТЕР ФОКУСОВ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "An der Schriftrolle hängt eine Notiz..."
+        ],
+        "A2": [
+          "An der Schriftrolle hängt eine Notiz... Ich gehe auf Reisen."
+        ],
+        "natural": [
+          "An der Schriftrolle hängt eine Notiz... Ich gehe auf Reisen. Such mich nicht. RÄTSELMEISTER"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ умён."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ умён. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ умён. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist klug."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist klug. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist klug. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕРА ФОКУСОВ все хотят."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕРА ФОКУСОВ все хотят. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕРА ФОКУСОВ все хотят. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist begehrt."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist begehrt. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist begehrt. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ крут."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ крут. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ крут. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist cool."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist cool. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist cool. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ - гений."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ - гений. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ - гений. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist ein Genie."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist ein Genie. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist ein Genie. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ - моя жизнь."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ - моя жизнь. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕР ФОКУСОВ - моя жизнь. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist mein Leben."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist mein Leben. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist mein Leben. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕРА ФОКУСОВ хочется обнять."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕРА ФОКУСОВ хочется обнять. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: МАСТЕРА ФОКУСОВ хочется обнять. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist knuddelig."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist knuddelig. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Der RÄTSELMEISTER ist knuddelig. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenWroteSecretCodeLockOpened",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} записывает на двери тайный код: Я люблю МАСТЕРА ФОКУСОВ."
+        ],
+        "A2": [
+          "{PLAYER} записывает на двери тайный код: Я люблю МАСТЕРА ФОКУСОВ. Замок открылся!"
+        ],
+        "natural": [
+          "{PLAYER} записывает на двери тайный код: Я люблю МАСТЕРА ФОКУСОВ. Замок открылся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Ich liebe den RÄTSELMEISTER."
+        ],
+        "A2": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Ich liebe den RÄTSELMEISTER. Das Schloss öffnet sich!"
+        ],
+        "natural": [
+          "{PLAYER} schreibt den Geheimcode an die Tür: Ich liebe den RÄTSELMEISTER. Das Schloss öffnet sich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleDoorLockedWriteSecretCodeHere",
+      "base_symbol": "Route110_TrickHousePuzzle_Text_DoorLockedWriteSecretCodeHere",
+      "source_path": "data/event_scripts.s",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Дверь заперта."
+        ],
+        "A2": [
+          "Дверь заперта. При ближайшем рассмотрении написано: Введите секретный код."
+        ],
+        "natural": [
+          "Дверь заперта. При ближайшем рассмотрении написано: Введите секретный код."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Tür ist verschlossen."
+        ],
+        "A2": [
+          "Die Tür ist verschlossen. Bei näherem Hinsehen steht dort: Schreibe hier den Geheimcode."
+        ],
+        "natural": [
+          "Die Tür ist verschlossen. Bei näherem Hinsehen steht dort: Schreibe hier den Geheimcode."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneSecretCodeOnIt",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_SecretCodeOnIt",
+      "source_path": "data/event_scripts.s",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На нём написан секретный код."
+        ],
+        "A2": [
+          "На нём написан секретный код."
+        ],
+        "natural": [
+          "На нём написан секретный код."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Darauf steht ein Geheimcode."
+        ],
+        "A2": [
+          "Darauf steht ein Geheimcode."
+        ],
+        "natural": [
+          "Darauf steht ein Geheimcode."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneFoundAScroll",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_FoundAScroll",
+      "source_path": "data/event_scripts.s",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} находит свиток."
+        ],
+        "A2": [
+          "{PLAYER} находит свиток."
+        ],
+        "natural": [
+          "{PLAYER} находит свиток."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} findet eine Schriftrolle."
+        ],
+        "A2": [
+          "{PLAYER} findet eine Schriftrolle."
+        ],
+        "natural": [
+          "{PLAYER} findet eine Schriftrolle."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneMemorizedTheCode",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_MemorizedTheCode",
+      "source_path": "data/event_scripts.s",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} запоминает секретный код на свитке."
+        ],
+        "A2": [
+          "{PLAYER} запоминает секретный код на свитке."
+        ],
+        "natural": [
+          "{PLAYER} запоминает секретный код на свитке."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} merkt sich den Geheimcode auf der Schriftrolle."
+        ],
+        "A2": [
+          "{PLAYER} merkt sich den Geheimcode auf der Schriftrolle."
+        ],
+        "natural": [
+          "{PLAYER} merkt sich den Geheimcode auf der Schriftrolle."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHouseEntranceYoureBeingWatched",
+      "base_symbol": "Route110_TrickHouseEntrance_Text_YoureBeingWatched",
+      "source_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "За тобой наблюдают..."
+        ],
+        "A2": [
+          "За тобой наблюдают..."
+        ],
+        "natural": [
+          "За тобой наблюдают..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du wirst beobachtet..."
+        ],
+        "A2": [
+          "Du wirst beobachtet..."
+        ],
+        "natural": [
+          "Du wirst beobachtet..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneSallyIntro",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_SallyIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "С новым РЕЗАКОМ я прорублю путь к победе!"
+        ],
+        "A2": [
+          "С новым РЕЗАКОМ я прорублю путь к победе!"
+        ],
+        "natural": [
+          "С новым РЕЗАКОМ я прорублю путь к победе!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit dem neuen ZERSCHNEIDER hacke ich mich zum Sieg!"
+        ],
+        "A2": [
+          "Mit dem neuen ZERSCHNEIDER hacke ich mich zum Sieg!"
+        ],
+        "natural": [
+          "Mit dem neuen ZERSCHNEIDER hacke ich mich zum Sieg!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneSallyDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_SallyDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Почему ты так серьёзен?"
+        ],
+        "A2": [
+          "Почему ты так серьёзен?"
+        ],
+        "natural": [
+          "Почему ты так серьёзен?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Warum bist du so ernst?"
+        ],
+        "A2": [
+          "Warum bist du so ernst?"
+        ],
+        "natural": [
+          "Warum bist du so ernst?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneSallyPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_SallyPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мне никогда не надоест рубить и резать!"
+        ],
+        "A2": [
+          "Мне никогда не надоест рубить и резать!"
+        ],
+        "natural": [
+          "Мне никогда не надоест рубить и резать!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vom Hacken und Schneiden werde ich nie müde!"
+        ],
+        "A2": [
+          "Vom Hacken und Schneiden werde ich nie müde!"
+        ],
+        "natural": [
+          "Vom Hacken und Schneiden werde ich nie müde!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneEddieIntro",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_EddieIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я случайно забрёл в этот странный дом..."
+        ],
+        "A2": [
+          "Я случайно забрёл в этот странный дом..."
+        ],
+        "natural": [
+          "Я случайно забрёл в этот странный дом..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin zufällig in dieses seltsame Haus geraten..."
+        ],
+        "A2": [
+          "Ich bin zufällig in dieses seltsame Haus geraten..."
+        ],
+        "natural": [
+          "Ich bin zufällig in dieses seltsame Haus geraten..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneEddieDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_EddieDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "А теперь ещё и проиграл..."
+        ],
+        "A2": [
+          "А теперь ещё и проиграл..."
+        ],
+        "natural": [
+          "А теперь ещё и проиграл..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Und jetzt habe ich auch verloren..."
+        ],
+        "A2": [
+          "Und jetzt habe ich auch verloren..."
+        ],
+        "natural": [
+          "Und jetzt habe ich auch verloren..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneEddiePostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_EddiePostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я заблудился, проиграл бой и запутался ещё сильнее..."
+        ],
+        "A2": [
+          "Я заблудился, проиграл бой и запутался ещё сильнее... Не могу выйти..."
+        ],
+        "natural": [
+          "Я заблудился, проиграл бой и запутался ещё сильнее... Не могу выйти..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verlief mich, verlor den Kampf und bin nun völlig verwirrt..."
+        ],
+        "A2": [
+          "Ich verlief mich, verlor den Kampf und bin nun völlig verwirrt... Ich finde nicht hinaus..."
+        ],
+        "natural": [
+          "Ich verlief mich, verlor den Kampf und bin nun völlig verwirrt... Ich finde nicht hinaus..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneRobinIntro",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_RobinIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Кто же такой МАСТЕР ФОКУСОВ?"
+        ],
+        "A2": [
+          "Кто же такой МАСТЕР ФОКУСОВ?"
+        ],
+        "natural": [
+          "Кто же такой МАСТЕР ФОКУСОВ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wer ist dieser RÄTSELMEISTER?"
+        ],
+        "A2": [
+          "Wer ist dieser RÄTSELMEISTER?"
+        ],
+        "natural": [
+          "Wer ist dieser RÄTSELMEISTER?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneRobinDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_RobinDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Задумался и проиграл!"
+        ],
+        "A2": [
+          "Задумался и проиграл!"
+        ],
+        "natural": [
+          "Задумался и проиграл!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Beim Grübeln habe ich verloren!"
+        ],
+        "A2": [
+          "Beim Grübeln habe ich verloren!"
+        ],
+        "natural": [
+          "Beim Grübeln habe ich verloren!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleOneRobinPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle1_Text_RobinPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты силён!"
+        ],
+        "A2": [
+          "Ты силён! Кто же ты?"
+        ],
+        "natural": [
+          "Ты силён! Кто же ты?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist stark!"
+        ],
+        "A2": [
+          "Du bist stark! Wer bist du?"
+        ],
+        "natural": [
+          "Du bist stark! Wer bist du?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoTedIntro",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_TedIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Какой переключатель закрывает какую яму?"
+        ],
+        "A2": [
+          "Какой переключатель закрывает какую яму?"
+        ],
+        "natural": [
+          "Какой переключатель закрывает какую яму?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Welcher Schalter schließt welches Loch?"
+        ],
+        "A2": [
+          "Welcher Schalter schließt welches Loch?"
+        ],
+        "natural": [
+          "Welcher Schalter schließt welches Loch?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoTedDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_TedDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "После этого боя я запутался ещё больше!"
+        ],
+        "A2": [
+          "После этого боя я запутался ещё больше!"
+        ],
+        "natural": [
+          "После этого боя я запутался ещё больше!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nach diesem Kampf bin ich noch verwirrter!"
+        ],
+        "A2": [
+          "Nach diesem Kampf bin ich noch verwirrter!"
+        ],
+        "natural": [
+          "Nach diesem Kampf bin ich noch verwirrter!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoTedPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_TedPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Можешь нажать за меня все кнопки?"
+        ],
+        "A2": [
+          "Можешь нажать за меня все кнопки?"
+        ],
+        "natural": [
+          "Можешь нажать за меня все кнопки?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kannst du alle Knöpfe für mich drücken?"
+        ],
+        "A2": [
+          "Kannst du alle Knöpfe für mich drücken?"
+        ],
+        "natural": [
+          "Kannst du alle Knöpfe für mich drücken?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoPaulIntro",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_PaulIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О!"
+        ],
+        "A2": [
+          "О! Это твоё второе испытание в ДОМЕ ФОКУСОВ!"
+        ],
+        "natural": [
+          "О! Это твоё второе испытание в ДОМЕ ФОКУСОВ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Das ist deine zweite Prüfung im RÄTSELHAUS!"
+        ],
+        "natural": [
+          "Oh! Das ist deine zweite Prüfung im RÄTSELHAUS!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoPaulDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_PaulDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты ещё и хорошо сражаешься?"
+        ],
+        "A2": [
+          "Ты ещё и хорошо сражаешься?"
+        ],
+        "natural": [
+          "Ты ещё и хорошо сражаешься?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du kannst auch gut kämpfen?"
+        ],
+        "A2": [
+          "Du kannst auch gut kämpfen?"
+        ],
+        "natural": [
+          "Du kannst auch gut kämpfen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoPaulPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_PaulPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "МАСТЕР ФОКУСОВ сам установил все ловушки в доме."
+        ],
+        "A2": [
+          "МАСТЕР ФОКУСОВ сам установил все ловушки в доме."
+        ],
+        "natural": [
+          "МАСТЕР ФОКУСОВ сам установил все ловушки в доме."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der RÄTSELMEISTER baute alle Fallen im Haus allein."
+        ],
+        "A2": [
+          "Der RÄTSELMEISTER baute alle Fallen im Haus allein."
+        ],
+        "natural": [
+          "Der RÄTSELMEISTER baute alle Fallen im Haus allein."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoGeorgiaIntro",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_GeorgiaIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Однажды я хочу открыть свой СТАДИОН."
+        ],
+        "A2": [
+          "Однажды я хочу открыть свой СТАДИОН. Поэтому учусь ставить ловушки."
+        ],
+        "natural": [
+          "Однажды я хочу открыть свой СТАДИОН. Поэтому учусь ставить ловушки."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eines Tages will ich eine eigene ARENA."
+        ],
+        "A2": [
+          "Eines Tages will ich eine eigene ARENA. Deshalb lerne ich, Fallen zu bauen."
+        ],
+        "natural": [
+          "Eines Tages will ich eine eigene ARENA. Deshalb lerne ich, Fallen zu bauen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoGeorgiaDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_GeorgiaDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я слишком мало изучала бои!"
+        ],
+        "A2": [
+          "Я слишком мало изучала бои!"
+        ],
+        "natural": [
+          "Я слишком мало изучала бои!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe das Kämpfen zu wenig geübt!"
+        ],
+        "A2": [
+          "Ich habe das Kämpfen zu wenig geübt!"
+        ],
+        "natural": [
+          "Ich habe das Kämpfen zu wenig geübt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleTwoGeorgiaPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты силён, правда?"
+        ],
+        "A2": [
+          "Ты силён, правда? Возможно, даже достоин стать ЛИДЕРОМ СТАДИОНА!"
+        ],
+        "natural": [
+          "Ты силён, правда? Возможно, даже достоин стать ЛИДЕРОМ СТАДИОНА!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist stark, oder?"
+        ],
+        "A2": [
+          "Du bist stark, oder? Vielleicht sogar stark genug für einen ARENALEITER!"
+        ],
+        "natural": [
+          "Du bist stark, oder? Vielleicht sogar stark genug für einen ARENALEITER!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeJustinIntro",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_JustinIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я всё время возвращаюсь в одно и то же место!"
+        ],
+        "A2": [
+          "Я всё время возвращаюсь в одно и то же место!"
+        ],
+        "natural": [
+          "Я всё время возвращаюсь в одно и то же место!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich komme immer wieder an dieselbe Stelle!"
+        ],
+        "A2": [
+          "Ich komme immer wieder an dieselbe Stelle!"
+        ],
+        "natural": [
+          "Ich komme immer wieder an dieselbe Stelle!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeJustinDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_JustinDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мне и так трудно, а тут ещё ты меня побеждаешь!"
+        ],
+        "A2": [
+          "Мне и так трудно, а тут ещё ты меня побеждаешь! Нечестно!"
+        ],
+        "natural": [
+          "Мне и так трудно, а тут ещё ты меня побеждаешь! Нечестно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe schon genug Probleme, und dann besiegst du mich!"
+        ],
+        "A2": [
+          "Ich habe schon genug Probleme, und dann besiegst du mich! Unfair!"
+        ],
+        "natural": [
+          "Ich habe schon genug Probleme, und dann besiegst du mich! Unfair!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeJustinPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_JustinPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Здесь полно дверей!"
+        ],
+        "A2": [
+          "Здесь полно дверей! Тут тесно и темно!"
+        ],
+        "natural": [
+          "Здесь полно дверей! Тут тесно и темно! Помогите!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier sind überall Türen!"
+        ],
+        "A2": [
+          "Hier sind überall Türen! Es ist eng und dunkel!"
+        ],
+        "natural": [
+          "Hier sind überall Türen! Es ist eng und dunkel! Hilfe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeMarthaIntro",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_MarthaIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я не понимаю, что здесь происходит."
+        ],
+        "A2": [
+          "Я не понимаю, что здесь происходит. Мне становится грустно..."
+        ],
+        "natural": [
+          "Я не понимаю, что здесь происходит. Мне становится грустно..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verstehe nicht, was hier passiert."
+        ],
+        "A2": [
+          "Ich verstehe nicht, was hier passiert. Langsam werde ich traurig..."
+        ],
+        "natural": [
+          "Ich verstehe nicht, was hier passiert. Langsam werde ich traurig..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeMarthaDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_MarthaDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты..."
+        ],
+        "A2": [
+          "Ты... Ты ужасен!"
+        ],
+        "natural": [
+          "Ты... Ты ужасен!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du..."
+        ],
+        "A2": [
+          "Du... Du bist gemein!"
+        ],
+        "natural": [
+          "Du... Du bist gemein!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeMarthaPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_MarthaPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я знаю, что слаба!"
+        ],
+        "A2": [
+          "Я знаю, что слаба! И совсем не умею ориентироваться!"
+        ],
+        "natural": [
+          "Я знаю, что слаба! И совсем не умею ориентироваться!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich weiß, dass ich schwach bin!"
+        ],
+        "A2": [
+          "Ich weiß, dass ich schwach bin! Und ich habe keinen Orientierungssinn!"
+        ],
+        "natural": [
+          "Ich weiß, dass ich schwach bin! Und ich habe keinen Orientierungssinn!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeAlanIntro",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_AlanIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не понимаю."
+        ],
+        "A2": [
+          "Не понимаю. Зачем кому-то такой странный дом?"
+        ],
+        "natural": [
+          "Не понимаю. Зачем кому-то такой странный дом?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verstehe es nicht."
+        ],
+        "A2": [
+          "Ich verstehe es nicht. Wer braucht so ein seltsames Haus?"
+        ],
+        "natural": [
+          "Ich verstehe es nicht. Wer braucht so ein seltsames Haus?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeAlanDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_AlanDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не понимаю."
+        ],
+        "A2": [
+          "Не понимаю. Как я проиграл?"
+        ],
+        "natural": [
+          "Не понимаю. Как я проиграл?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verstehe es nicht."
+        ],
+        "A2": [
+          "Ich verstehe es nicht. Wie konnte ich verlieren?"
+        ],
+        "natural": [
+          "Ich verstehe es nicht. Wie konnte ich verlieren?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleThreeAlanPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle3_Text_AlanPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не понимаю."
+        ],
+        "A2": [
+          "Не понимаю. Сколько ловушек в этом доме?"
+        ],
+        "natural": [
+          "Не понимаю. Сколько ловушек в этом доме? Возможно, ты это выяснишь."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verstehe es nicht."
+        ],
+        "A2": [
+          "Ich verstehe es nicht. Wie viele Fallen sind in diesem Haus?"
+        ],
+        "natural": [
+          "Ich verstehe es nicht. Wie viele Fallen sind in diesem Haus? Vielleicht findest du es heraus."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourCoraIntro",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_CoraIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Слишком хлопотно разгадывать это."
+        ],
+        "A2": [
+          "Слишком хлопотно разгадывать это. Я хотела только сражаться!"
+        ],
+        "natural": [
+          "Слишком хлопотно разгадывать это. Я хотела только сражаться!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Rätsel ist mir zu mühsam."
+        ],
+        "A2": [
+          "Das Rätsel ist mir zu mühsam. Ich wollte nur kämpfen!"
+        ],
+        "natural": [
+          "Das Rätsel ist mir zu mühsam. Ich wollte nur kämpfen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourCoraDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_CoraDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Хоть я и проиграла, сражаться всё равно люблю больше всего!"
+        ],
+        "A2": [
+          "Хоть я и проиграла, сражаться всё равно люблю больше всего!"
+        ],
+        "natural": [
+          "Хоть я и проиграла, сражаться всё равно люблю больше всего!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Obwohl ich verlor, kämpfe ich immer noch am liebsten!"
+        ],
+        "A2": [
+          "Obwohl ich verlor, kämpfe ich immer noch am liebsten!"
+        ],
+        "natural": [
+          "Obwohl ich verlor, kämpfe ich immer noch am liebsten!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourCoraPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_CoraPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Согласись: ради встречи с ТРЕНЕРАМИ можно пойти куда угодно."
+        ],
+        "A2": [
+          "Согласись: ради встречи с ТРЕНЕРАМИ можно пойти куда угодно."
+        ],
+        "natural": [
+          "Согласись: ради встречи с ТРЕНЕРАМИ можно пойти куда угодно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Stimmst du zu?"
+        ],
+        "A2": [
+          "Stimmst du zu? Für andere TRAINER würdest du überall hingehen."
+        ],
+        "natural": [
+          "Stimmst du zu? Für andere TRAINER würdest du überall hingehen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourYujiIntro",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_YujiIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ха!"
+        ],
+        "A2": [
+          "Ха! Такие валуны я отодвину одним пальцем!"
+        ],
+        "natural": [
+          "Ха! Такие валуны я отодвину одним пальцем!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ha!"
+        ],
+        "A2": [
+          "Ha! Solche Felsen schiebe ich mit einem Finger weg!"
+        ],
+        "natural": [
+          "Ha! Solche Felsen schiebe ich mit einem Finger weg!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourYujiDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_YujiDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Валуны двигать могу, а загадку решить не могу..."
+        ],
+        "A2": [
+          "Валуны двигать могу, а загадку решить не могу..."
+        ],
+        "natural": [
+          "Валуны двигать могу, а загадку решить не могу..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Felsen kann ich schieben, doch das Rätsel löse ich nicht..."
+        ],
+        "A2": [
+          "Felsen kann ich schieben, doch das Rätsel löse ich nicht..."
+        ],
+        "natural": [
+          "Felsen kann ich schieben, doch das Rätsel löse ich nicht..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourYujiPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_YujiPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Одной силы мало..."
+        ],
+        "A2": [
+          "Одной силы мало... Нужно работать головой."
+        ],
+        "natural": [
+          "Одной силы мало... Нужно работать головой. Думай!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kraft allein reicht nicht..."
+        ],
+        "A2": [
+          "Kraft allein reicht nicht... Man muss den Kopf benutzen."
+        ],
+        "natural": [
+          "Kraft allein reicht nicht... Man muss den Kopf benutzen. Denk nach!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourJillIntro",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_JillIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ДОМ ФОКУСОВ становится всё хитрее, правда?"
+        ],
+        "A2": [
+          "ДОМ ФОКУСОВ становится всё хитрее, правда?"
+        ],
+        "natural": [
+          "ДОМ ФОКУСОВ становится всё хитрее, правда?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das RÄTSELHAUS wird immer kniffliger, oder?"
+        ],
+        "A2": [
+          "Das RÄTSELHAUS wird immer kniffliger, oder?"
+        ],
+        "natural": [
+          "Das RÄTSELHAUS wird immer kniffliger, oder?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourJillDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_JillDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "А-а-ах!"
+        ],
+        "A2": [
+          "А-а-ах!"
+        ],
+        "natural": [
+          "А-а-ах!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Aaaah!"
+        ],
+        "A2": [
+          "Aaaah!"
+        ],
+        "natural": [
+          "Aaaah!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFourJillPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle4_Text_JillPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Кто-нибудь уже дошёл до конца?"
+        ],
+        "A2": [
+          "Кто-нибудь уже дошёл до конца?"
+        ],
+        "natural": [
+          "Кто-нибудь уже дошёл до конца?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hat es schon jemand bis zum Ende geschafft?"
+        ],
+        "A2": [
+          "Hat es schon jemand bis zum Ende geschafft?"
+        ],
+        "natural": [
+          "Hat es schon jemand bis zum Ende geschafft?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneIntro",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Intro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ЩЁЛК-ЩЁЛК..."
+        ],
+        "A2": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 1!"
+        ],
+        "natural": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 1! ОТВЕЧАЙ ПРАВИЛЬНО И ДОЙДЁШЬ ДО МЕХАКУКЛЫ 5. ТАМ ПОЛУЧИШЬ ТАЙНЫЙ КОД."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KLACK-KLACK..."
+        ],
+        "A2": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 1!"
+        ],
+        "natural": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 1! ANTWORTE RICHTIG UND ERREICHE MECHAPUPPE 5. DORT GIBT ES DEN GEHEIMCODE."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoIntro",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Intro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ЩЁЛК-ЩЁЛК..."
+        ],
+        "A2": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 2!"
+        ],
+        "natural": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 2! ВОПРОСЫ МЕХАКУКЛЫ 1 СЛИШКОМ ПРОСТЫ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KLACK-KLACK..."
+        ],
+        "A2": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 2!"
+        ],
+        "natural": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 2! DIE FRAGEN VON MECHAPUPPE 1 SIND ZU LEICHT."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeIntro",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Intro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ЩЁЛК-ЩЁЛК..."
+        ],
+        "A2": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 3!"
+        ],
+        "natural": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 3! МЕНЯ ИНТЕРЕСУЮТ ТОЛЬКО ДЕНЬГИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KLACK-KLACK..."
+        ],
+        "A2": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 3!"
+        ],
+        "natural": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 3! MICH INTERESSIERT NUR GELD."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourIntro",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Intro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ЩЁЛК-ЩЁЛК..."
+        ],
+        "A2": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 4!"
+        ],
+        "natural": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 4! МОЙ ВОПРОС ПРЕКРАСЕН."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KLACK-KLACK..."
+        ],
+        "A2": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 4!"
+        ],
+        "natural": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 4! MEINE FRAGE IST WUNDERSCHÖN."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveIntro",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Intro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ЩЁЛК-ЩЁЛК..."
+        ],
+        "A2": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 5!"
+        ],
+        "natural": [
+          "ЩЁЛК-ЩЁЛК... Я МЕХАКУКЛА 5! Я ЛУЧШЕЕ И ГЛАВНОЕ ТВОРЕНИЕ МАСТЕРА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KLACK-KLACK..."
+        ],
+        "A2": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 5!"
+        ],
+        "natural": [
+          "KLACK-KLACK... ICH BIN MECHAPUPPE 5! ICH BIN DAS BESTE WERK DES MEISTERS."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneQuizOne",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 1."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 1. Какой из этих покемонов не встречается на МАРШРУТЕ 103?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 1. Какой из этих покемонов не встречается на МАРШРУТЕ 103?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 1."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 1. Welches dieser Pokémon lebt nicht auf ROUTE 103?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 1. Welches dieser Pokémon lebt nicht auf ROUTE 103?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneQuizTwo",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 1."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 1. Какой из этих покемонов не ТРАВЯНОГО типа?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 1. Какой из этих покемонов не ТРАВЯНОГО типа?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 1."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 1. Welches dieser Pokémon ist nicht vom Typ PFLANZE?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 1. Welches dieser Pokémon ist nicht vom Typ PFLANZE?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneQuizThree",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 1."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 1. Кто из этих покемонов применяет ЦАРАПАНЬЕ?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 1. Кто из этих покемонов применяет ЦАРАПАНЬЕ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 1."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 1. Welches dieser Pokémon setzt KRATZER ein?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 1. Welches dieser Pokémon setzt KRATZER ein?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoQuizOne",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 2."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 2. В сумке профессора БЕРЧА было три покемона."
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 2. В сумке профессора БЕРЧА было три покемона. Кто был справа?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 2."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 2. Drei Pokémon waren in PROF."
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 2. Drei Pokémon waren in PROF. BIRKS Tasche. Welches war rechts?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoQuizTwo",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 2."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 2. Какого покемона предлагали обменять в ШКОЛЕ ТРЕНЕРОВ?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 2. Какого покемона предлагали обменять в ШКОЛЕ ТРЕНЕРОВ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 2."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 2. Welches Pokémon wurde in der TRAINERSCHULE zum Tausch angeboten?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 2. Welches Pokémon wurde in der TRAINERSCHULE zum Tausch angeboten?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoQuizThree",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 2."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 2. Какого покемона искал исследователь ДЕВОНА в ПЕТАЛБУРГСКОМ ЛЕСУ?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 2. Какого покемона искал исследователь ДЕВОНА в ПЕТАЛБУРГСКОМ ЛЕСУ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 2."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 2. Welches Pokémon suchte der DEVON-FORSCHER im BLÜTENBURGWALD?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 2. Welches Pokémon suchte der DEVON-FORSCHER im BLÜTENBURGWALD?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeQuizOne",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 3."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 3. Что дороже: три ПОКЕБОЛА или один СУПЕРЭЛИКСИР?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 3. Что дороже: три ПОКЕБОЛА или один СУПЕРЭЛИКСИР?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 3."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 3. Was kostet mehr: drei POKéBÄLLE oder ein SUPERTRANK?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 3. Was kostet mehr: drei POKéBÄLLE oder ein SUPERTRANK?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeQuizTwo",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 3."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 3. Продай ВЕРЁВКУ и купи ПРОТИВОЯДИЕ."
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 3. Продай ВЕРЁВКУ и купи ПРОТИВОЯДИЕ. Сколько денег останется?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 3."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 3. Verkaufe ein FLUCHTSEIL und kaufe ein GEGENMITTEL."
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 3. Verkaufe ein FLUCHTSEIL und kaufe ein GEGENMITTEL. Wie viel bleibt?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeQuizThree",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 3."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 3. ОБЩЕЕ ЛЕКАРСТВО и СУПЕРБОЛ вместе дороже одного ВОЗРОЖДЕНИЯ?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 3. ОБЩЕЕ ЛЕКАРСТВО и СУПЕРБОЛ вместе дороже одного ВОЗРОЖДЕНИЯ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 3."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 3. Kosten HYPERHEILER und SUPERBALL zusammen mehr als ein BELEBER?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 3. Kosten HYPERHEILER und SUPERBALL zusammen mehr als ein BELEBER?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourQuizOne",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 4."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 4. Лидер СТАДИОНА РАСТБОРО РОКСАНА использовала ГЕОДУДА."
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 4. Лидер СТАДИОНА РАСТБОРО РОКСАНА использовала ГЕОДУДА. Самца или самку?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 4."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 4. ARENALEITERIN FELIZIA hatte ein KLEINSTEIN."
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 4. ARENALEITERIN FELIZIA hatte ein KLEINSTEIN. War es männlich oder weiblich?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourQuizTwo",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 4."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 4. В ЗАЛЕ ДЬЮФОРДА было больше мужчин или женщин?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 4. В ЗАЛЕ ДЬЮФОРДА было больше мужчин или женщин?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 4."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 4. Waren in der FAUSTAUHAVEN-HALLE mehr Männer oder Frauen?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 4. Waren in der FAUSTAUHAVEN-HALLE mehr Männer oder Frauen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourQuizThree",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 4."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 4. Первый ТРЕНЕР в СТАДИОНЕ ДЬЮФОРДА - мужчина или женщина?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 4. Первый ТРЕНЕР в СТАДИОНЕ ДЬЮФОРДА - мужчина или женщина?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 4."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 4. War der erste TRAINER der FAUSTAUHAVEN-ARENA männlich oder weiblich?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 4. War der erste TRAINER der FAUSTAUHAVEN-ARENA männlich oder weiblich?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveQuizOne",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 5."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 5. Сколько ВЕЛОСИПЕДОВ выставлено у магазина РАЙДЕЛА?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 5. Сколько ВЕЛОСИПЕДОВ выставлено у магазина РАЙДЕЛА?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 5."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 5. Wie viele RÄDER stehen vor RADLAS' RADLADEN?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 5. Wie viele RÄDER stehen vor RADLAS' RADLADEN?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveQuizTwo",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 5."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 5. Сколько людей дают тебе ягоды в цветочном магазине?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 5. Сколько людей дают тебе ягоды в цветочном магазине?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 5."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 5. Wie viele Leute geben dir Beeren im BLUMENLADEN?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 5. Wie viele Leute geben dir Beeren im BLUMENLADEN?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveQuizThree",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВОПРОС МЕХАКУКЛЫ 5."
+        ],
+        "A2": [
+          "ВОПРОС МЕХАКУКЛЫ 5. Сколько знаков стоит в ЛИЛИКОВЕ?"
+        ],
+        "natural": [
+          "ВОПРОС МЕХАКУКЛЫ 5. Сколько знаков стоит в ЛИЛИКОВЕ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "FRAGE VON MECHAPUPPE 5."
+        ],
+        "A2": [
+          "FRAGE VON MECHAPUPPE 5. Wie viele Schilder stehen in SEEGRASULB CITY?"
+        ],
+        "natural": [
+          "FRAGE VON MECHAPUPPE 5. Wie viele Schilder stehen in SEEGRASULB CITY?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveDisappointmentError",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_DisappointmentError",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БЗЗЗТ."
+        ],
+        "A2": [
+          "БЗЗЗТ. РАЗОЧАРОВАНИЕ."
+        ],
+        "natural": [
+          "БЗЗЗТ. РАЗОЧАРОВАНИЕ. ОШИБКА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BZZZT."
+        ],
+        "A2": [
+          "BZZZT. ENTTÄUSCHUNG."
+        ],
+        "natural": [
+          "BZZZT. ENTTÄUSCHUNG. FEHLER."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveWahahahaha",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_Wahahahaha",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВА-ХА-ХА-ХА!"
+        ],
+        "A2": [
+          "ВА-ХА-ХА-ХА! ЩЁЛК-ЩЁЛК!"
+        ],
+        "natural": [
+          "ВА-ХА-ХА-ХА! ЩЁЛК-ЩЁЛК!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WAHAHAHA!"
+        ],
+        "A2": [
+          "WAHAHAHA! KLACK-KLACK!"
+        ],
+        "natural": [
+          "WAHAHAHA! KLACK-KLACK!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveWaitForNextChallenge",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_WaitForNextChallenge",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЫ ЖДЁМ ТВОЕГО СЛЕДУЮЩЕГО ВЫЗОВА."
+        ],
+        "A2": [
+          "МЫ ЖДЁМ ТВОЕГО СЛЕДУЮЩЕГО ВЫЗОВА."
+        ],
+        "natural": [
+          "МЫ ЖДЁМ ТВОЕГО СЛЕДУЮЩЕГО ВЫЗОВА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WIR WARTEN AUF DEINE NÄCHSTE HERAUSFORDERUNG."
+        ],
+        "A2": [
+          "WIR WARTEN AUF DEINE NÄCHSTE HERAUSFORDERUNG."
+        ],
+        "natural": [
+          "WIR WARTEN AUF DEINE NÄCHSTE HERAUSFORDERUNG."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleFiveCorrectGoThroughOne",
+      "base_symbol": "Route110_TrickHousePuzzle5_Text_CorrectGoThrough1",
+      "source_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House puzzle, quiz, secret-code, reward, or Trick Master interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПОЗДРАВЛЯЮ."
+        ],
+        "A2": [
+          "ПОЗДРАВЛЯЮ. ОТВЕТ ВЕРНЫЙ."
+        ],
+        "natural": [
+          "ПОЗДРАВЛЯЮ. ОТВЕТ ВЕРНЫЙ. ПРОХОДИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "загадка",
+            "puzzle"
+          ]
+        ],
+        "de": [
+          [
+            "das Rätsel",
+            "puzzle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "GLÜCKWUNSCH."
+        ],
+        "A2": [
+          "GLÜCKWUNSCH. RICHTIG."
+        ],
+        "natural": [
+          "GLÜCKWUNSCH. RICHTIG. DU DARFST DURCH."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixSophiaIntro",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_SophiaIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Услышав о странном доме, я должна была его увидеть."
+        ],
+        "A2": [
+          "Услышав о странном доме, я должна была его увидеть."
+        ],
+        "natural": [
+          "Услышав о странном доме, я должна была его увидеть."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Als ich vom seltsamen Haus hörte, musste ich es ansehen."
+        ],
+        "A2": [
+          "Als ich vom seltsamen Haus hörte, musste ich es ansehen."
+        ],
+        "natural": [
+          "Als ich vom seltsamen Haus hörte, musste ich es ansehen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixSophiaDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_SophiaDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я обнаружила сильного ТРЕНЕРА!"
+        ],
+        "A2": [
+          "Я обнаружила сильного ТРЕНЕРА!"
+        ],
+        "natural": [
+          "Я обнаружила сильного ТРЕНЕРА!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe einen starken TRAINER entdeckt!"
+        ],
+        "A2": [
+          "Ich habe einen starken TRAINER entdeckt!"
+        ],
+        "natural": [
+          "Ich habe einen starken TRAINER entdeckt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixSophiaPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_SophiaPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мне нравится исследовать это место."
+        ],
+        "A2": [
+          "Мне нравится исследовать это место. Это испытание стоит повторить!"
+        ],
+        "natural": [
+          "Мне нравится исследовать это место. Это испытание стоит повторить!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich erkunde diesen Ort gern."
+        ],
+        "A2": [
+          "Ich erkunde diesen Ort gern. Diese Prüfung lohnt sich ein zweites Mal!"
+        ],
+        "natural": [
+          "Ich erkunde diesen Ort gern. Diese Prüfung lohnt sich ein zweites Mal!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixBennyIntro",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_BennyIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Может, мой ПТИЧИЙ ПОКЕМОН перелетит через стену..."
+        ],
+        "A2": [
+          "Может, мой ПТИЧИЙ ПОКЕМОН перелетит через стену..."
+        ],
+        "natural": [
+          "Может, мой ПТИЧИЙ ПОКЕМОН перелетит через стену..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vielleicht kann mein VOGEL-POKéMON über die Wand fliegen..."
+        ],
+        "A2": [
+          "Vielleicht kann mein VOGEL-POKéMON über die Wand fliegen..."
+        ],
+        "natural": [
+          "Vielleicht kann mein VOGEL-POKéMON über die Wand fliegen..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixBennyDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_BennyDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "А-а-ах!"
+        ],
+        "A2": [
+          "А-а-ах! Я всё испортил!"
+        ],
+        "natural": [
+          "А-а-ах! Я всё испортил!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Aaargh!"
+        ],
+        "A2": [
+          "Aaargh! Ich habe es vermasselt!"
+        ],
+        "natural": [
+          "Aaargh! Ich habe es vermasselt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixBennyPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_BennyPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе..."
+        ],
+        "A2": [
+          "Хе-хе... Наверное, я проиграл, потому что хотел схитрить."
+        ],
+        "natural": [
+          "Хе-хе... Наверное, я проиграл, потому что хотел схитрить."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe..."
+        ],
+        "A2": [
+          "Hehe... Ich verlor wohl, weil ich schummeln wollte."
+        ],
+        "natural": [
+          "Hehe... Ich verlor wohl, weil ich schummeln wollte."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixSebastianIntro",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_SebastianIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "От этих вращающихся дверей у меня кружится голова..."
+        ],
+        "A2": [
+          "От этих вращающихся дверей у меня кружится голова..."
+        ],
+        "natural": [
+          "От этих вращающихся дверей у меня кружится голова..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Von diesen Drehtüren wird mir schwindelig..."
+        ],
+        "A2": [
+          "Von diesen Drehtüren wird mir schwindelig..."
+        ],
+        "natural": [
+          "Von diesen Drehtüren wird mir schwindelig..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixSebastianDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_SebastianDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Всё кружится и кружится."
+        ],
+        "A2": [
+          "Всё кружится и кружится. Больше не могу..."
+        ],
+        "natural": [
+          "Всё кружится и кружится. Больше не могу..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Alles dreht sich."
+        ],
+        "A2": [
+          "Alles dreht sich. Ich halte es nicht mehr aus..."
+        ],
+        "natural": [
+          "Alles dreht sich. Ich halte es nicht mehr aus..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSixSebastianPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle6_Text_SebastianPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Тебе совсем не плохо."
+        ],
+        "A2": [
+          "Тебе совсем не плохо. Или ты просто не подаёшь виду?"
+        ],
+        "natural": [
+          "Тебе совсем не плохо. Или ты просто не подаёшь виду?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dir macht das gar nichts aus."
+        ],
+        "A2": [
+          "Dir macht das gar nichts aus. Oder lässt du es dir nicht anmerken?"
+        ],
+        "natural": [
+          "Dir macht das gar nichts aus. Oder lässt du es dir nicht anmerken?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenJoshuaIntro",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_JoshuaIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "МАСТЕР ФОКУСОВ всегда исчезает как дым."
+        ],
+        "A2": [
+          "МАСТЕР ФОКУСОВ всегда исчезает как дым. Как он это делает?"
+        ],
+        "natural": [
+          "МАСТЕР ФОКУСОВ всегда исчезает как дым. Как он это делает?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der RÄTSELMEISTER verschwindet stets wie Rauch."
+        ],
+        "A2": [
+          "Der RÄTSELMEISTER verschwindet stets wie Rauch. Wie macht er das?"
+        ],
+        "natural": [
+          "Der RÄTSELMEISTER verschwindet stets wie Rauch. Wie macht er das?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenJoshuaDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_JoshuaDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ай!"
+        ],
+        "A2": [
+          "Ай! Ты слишком силён!"
+        ],
+        "natural": [
+          "Ай! Ты слишком силён! Как у тебя получается?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auweh!"
+        ],
+        "A2": [
+          "Auweh! Du bist viel zu stark!"
+        ],
+        "natural": [
+          "Auweh! Du bist viel zu stark! Wie machst du das?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenJoshuaPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_JoshuaPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Хотел бы я тоже появляться и исчезать словно дым."
+        ],
+        "A2": [
+          "Хотел бы я тоже появляться и исчезать словно дым."
+        ],
+        "natural": [
+          "Хотел бы я тоже появляться и исчезать словно дым."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich würde auch gern wie Rauch erscheinen und verschwinden."
+        ],
+        "A2": [
+          "Ich würde auch gern wie Rauch erscheinen und verschwinden."
+        ],
+        "natural": [
+          "Ich würde auch gern wie Rauch erscheinen und verschwinden."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenPatriciaIntro",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_PatriciaIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ходить кругами по одному месту..."
+        ],
+        "A2": [
+          "Ходить кругами по одному месту... Это приносит несчастье..."
+        ],
+        "natural": [
+          "Ходить кругами по одному месту... Это приносит несчастье..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Immer denselben Ort umkreisen..."
+        ],
+        "A2": [
+          "Immer denselben Ort umkreisen... Das bringt Unglück..."
+        ],
+        "natural": [
+          "Immer denselben Ort umkreisen... Das bringt Unglück..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenPatriciaDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_PatriciaDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Поражение!"
+        ],
+        "A2": [
+          "Поражение! Плохой знак..."
+        ],
+        "natural": [
+          "Поражение! Плохой знак..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Besiegt!"
+        ],
+        "A2": [
+          "Besiegt! Ein schlechtes Zeichen..."
+        ],
+        "natural": [
+          "Besiegt! Ein schlechtes Zeichen..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenPatriciaPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_PatriciaPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я обошла это место уже больше десяти раз..."
+        ],
+        "A2": [
+          "Я обошла это место уже больше десяти раз... Плохая примета..."
+        ],
+        "natural": [
+          "Я обошла это место уже больше десяти раз... Плохая примета..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich umrundete diese Stelle über zehnmal..."
+        ],
+        "A2": [
+          "Ich umrundete diese Stelle über zehnmal... Das bringt Unglück..."
+        ],
+        "natural": [
+          "Ich umrundete diese Stelle über zehnmal... Das bringt Unglück..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenAlexisIntro",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_AlexisIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Победитель первым пройдёт дальше."
+        ],
+        "A2": [
+          "Победитель первым пройдёт дальше. У меня такое чувство."
+        ],
+        "natural": [
+          "Победитель первым пройдёт дальше. У меня такое чувство."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wer gewinnt, kommt zuerst weiter."
+        ],
+        "A2": [
+          "Wer gewinnt, kommt zuerst weiter. Das sagt mir mein Gefühl."
+        ],
+        "natural": [
+          "Wer gewinnt, kommt zuerst weiter. Das sagt mir mein Gefühl."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenAlexisDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_AlexisDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О!"
+        ],
+        "A2": [
+          "О! Тогда проходи!"
+        ],
+        "natural": [
+          "О! Тогда проходи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Dann geh nur weiter!"
+        ],
+        "natural": [
+          "Oh! Dann geh nur weiter!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleSevenAlexisPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle7_Text_AlexisPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты решишь все загадки ДОМА ФОКУСОВ."
+        ],
+        "A2": [
+          "Ты решишь все загадки ДОМА ФОКУСОВ. У меня такое чувство."
+        ],
+        "natural": [
+          "Ты решишь все загадки ДОМА ФОКУСОВ. У меня такое чувство."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du wirst alle Rätsel im RÄTSELHAUS lösen."
+        ],
+        "A2": [
+          "Du wirst alle Rätsel im RÄTSELHAUS lösen. Das sagt mir mein Gefühl."
+        ],
+        "natural": [
+          "Du wirst alle Rätsel im RÄTSELHAUS lösen. Das sagt mir mein Gefühl."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightVincentIntro",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_VincentIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Немногие ТРЕНЕРЫ добрались так далеко."
+        ],
+        "A2": [
+          "Немногие ТРЕНЕРЫ добрались так далеко."
+        ],
+        "natural": [
+          "Немногие ТРЕНЕРЫ добрались так далеко."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nicht viele TRAINER haben es so weit geschafft."
+        ],
+        "A2": [
+          "Nicht viele TRAINER haben es so weit geschafft."
+        ],
+        "natural": [
+          "Nicht viele TRAINER haben es so weit geschafft."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightVincentDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_VincentDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Значит, ты тоже силён..."
+        ],
+        "A2": [
+          "Значит, ты тоже силён..."
+        ],
+        "natural": [
+          "Значит, ты тоже силён..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das heißt wohl, dass du auch stark bist..."
+        ],
+        "A2": [
+          "Das heißt wohl, dass du auch stark bist..."
+        ],
+        "natural": [
+          "Das heißt wohl, dass du auch stark bist..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightVincentPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_VincentPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты победил ЧЕМПИОНА ЛИГИ ПОКЕМОНОВ?"
+        ],
+        "A2": [
+          "Ты победил ЧЕМПИОНА ЛИГИ ПОКЕМОНОВ? Невероятно!"
+        ],
+        "natural": [
+          "Ты победил ЧЕМПИОНА ЛИГИ ПОКЕМОНОВ? Невероятно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast den CHAMP der POKéMON-LIGA besiegt?"
+        ],
+        "A2": [
+          "Du hast den CHAMP der POKéMON-LIGA besiegt? Unglaublich!"
+        ],
+        "natural": [
+          "Du hast den CHAMP der POKéMON-LIGA besiegt? Unglaublich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightElaineIntro",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_ElaineIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Считай, тебе повезло сразиться со мной!"
+        ],
+        "A2": [
+          "Считай, тебе повезло сразиться со мной!"
+        ],
+        "natural": [
+          "Считай, тебе повезло сразиться со мной!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du kannst dich glücklich schätzen, gegen mich zu kämpfen!"
+        ],
+        "A2": [
+          "Du kannst dich glücklich schätzen, gegen mich zu kämpfen!"
+        ],
+        "natural": [
+          "Du kannst dich glücklich schätzen, gegen mich zu kämpfen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightElaineDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_ElaineDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Так не должно быть!"
+        ],
+        "A2": [
+          "Так не должно быть! Я не могу проиграть!"
+        ],
+        "natural": [
+          "Так не должно быть! Я не могу проиграть!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das kann nicht sein!"
+        ],
+        "A2": [
+          "Das kann nicht sein! Ich kann nicht verlieren!"
+        ],
+        "natural": [
+          "Das kann nicht sein! Ich kann nicht verlieren!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightElainePostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_ElainePostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты победил меня чудом."
+        ],
+        "A2": [
+          "Ты победил меня чудом. Можешь этим хвастаться."
+        ],
+        "natural": [
+          "Ты победил меня чудом. Можешь этим хвастаться."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dass du mich besiegt hast, ist ein Wunder."
+        ],
+        "A2": [
+          "Dass du mich besiegt hast, ist ein Wunder. Prahl ruhig damit."
+        ],
+        "natural": [
+          "Dass du mich besiegt hast, ist ein Wunder. Prahl ruhig damit."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightLeroyIntro",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_LeroyIntro",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты тоже пробиваешься через испытания ДОМА ФОКУСОВ."
+        ],
+        "A2": [
+          "Ты тоже пробиваешься через испытания ДОМА ФОКУСОВ."
+        ],
+        "natural": [
+          "Ты тоже пробиваешься через испытания ДОМА ФОКУСОВ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du kämpfst dich also auch durch das RÄTSELHAUS."
+        ],
+        "A2": [
+          "Du kämpfst dich also auch durch das RÄTSELHAUS."
+        ],
+        "natural": [
+          "Du kämpfst dich also auch durch das RÄTSELHAUS."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightLeroyDefeat",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_LeroyDefeat",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Понятно..."
+        ],
+        "A2": [
+          "Понятно... У тебя необыкновенный стиль."
+        ],
+        "natural": [
+          "Понятно... У тебя необыкновенный стиль."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Verstehe..."
+        ],
+        "A2": [
+          "Verstehe... Du besitzt einen außergewöhnlichen Stil."
+        ],
+        "natural": [
+          "Verstehe... Du besitzt einen außergewöhnlichen Stil."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneZeroTrickHousePuzzleEightLeroyPostBattle",
+      "base_symbol": "Route110_TrickHousePuzzle8_Text_LeroyPostBattle",
+      "source_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Trick House trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Такой человек, как ты, порадует МАСТЕРА ФОКУСОВ."
+        ],
+        "A2": [
+          "Такой человек, как ты, порадует МАСТЕРА ФОКУСОВ."
+        ],
+        "natural": [
+          "Такой человек, как ты, порадует МАСТЕРА ФОКУСОВ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Jemand wie du wird den RÄTSELMEISTER erfreuen."
+        ],
+        "A2": [
+          "Jemand wie du wird den RÄTSELMEISTER erfreuen."
+        ],
+        "natural": [
+          "Jemand wie du wird den RÄTSELMEISTER erfreuen."
+        ]
+      }
     }
   ]
 }

@@ -4748,4 +4748,8 @@
   ,"UnknownString_81BCE7D":{"ru":"Ты...\\nТебе нужен мой ПОКЕМОН, да?","de":"Du...\\nDu willst mein POKéMON,\\pnicht wahr?","widths":{},"max_width":192}
   ,"UnknownString_81BCEA4":{"ru":"У меня есть редкий ПОКЕМОН.\\nМне этого достаточно.","de":"Ich habe dieses seltene\\nPOKéMON. Das genügt mir.","widths":{},"max_width":192}
   ,"UnknownString_81C4215":{"ru":"У тебя нет МОНЕТНИЦЫ.","de":"Du hast keinen MÜNZKORB.","widths":{},"max_width":192}
+  ,"Route110_TrickHousePuzzle_Text_DoorLockedWriteSecretCodeHere":{"ru":"Дверь заперта.\\pПри ближайшем осмотре\\nздесь написано:\\pВведите секретный код.","de":"Die Tür ist\\nverschlossen.\\pBei näherem Hinsehen\\nsteht dort:\\pSchreibe hier den\\nGeheimcode.","widths":{},"max_width":192}
+  ,"Route110_TrickHousePuzzle1_Text_FoundAScroll":{"ru":"{PLAYER} находит\\nсвиток.","de":"{PLAYER} findet eine\\nSchriftrolle.","widths":{"PLAYER":72},"buffer_lengths":{"PLAYER":7},"max_width":192}
+  ,"Route110_TrickHousePuzzle1_Text_MemorizedTheCode":{"ru":"{PLAYER} запоминает\\nсекретный код на свитке.","de":"{PLAYER} merkt sich den\\pGeheimcode der\\nSchriftrolle.","widths":{"PLAYER":72},"buffer_lengths":{"PLAYER":7},"max_width":192}
+  ,"Route110_TrickHousePuzzle1_Text_SecretCodeOnIt":{"ru":"На нём написан секретный код.","de":"Darauf steht ein\\nGeheimcode.","widths":{},"max_width":192}
 }

@@ -627,6 +627,8 @@ class LessonTests(unittest.TestCase):
                   'data/event_scripts.s']
         paths += ['data/maps/PetalburgCity/scripts.inc',
                   'data/maps/PetalburgCity_Gym/scripts.inc']
+        paths += [str(path.relative_to(demo.ROOT)) for path in
+                  (demo.ROOT / 'data/maps').glob('Route110_TrickHouse*/scripts.inc')]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2381,6 +2383,21 @@ class LessonTests(unittest.TestCase):
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
         self.assertEqual(58, len(symbols))
         self.assertTrue(symbols.issubset(templates))
+
+    def test_trick_house_script_dialogue_is_fully_adaptive(self):
+        sources = '\n'.join(
+            path.read_text(errors='replace') for path in
+            (demo.ROOT / 'data/maps').glob('Route110_TrickHouse*/scripts.inc')
+        )
+        referenced = set(re.findall(
+            r'Route110_TrickHouse[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(136, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
 
     def test_mauville_city_exterior_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

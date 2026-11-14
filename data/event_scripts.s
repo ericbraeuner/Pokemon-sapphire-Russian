@@ -691,7 +691,7 @@ Route110_TrickHousePuzzle1_Text_MemorizedTheCode:: @ 819C1CB
 Route110_TrickHousePuzzle1_Text_SecretCodeOnIt:: @ 819C1FF
 	.string "A secret code is written on it.$"
 
-Route110_TrickHousePuzzle_Text_DoorLockedWriteSecretCodeHere: @ 819C21F
+Route110_TrickHousePuzzle_Text_DoorLockedWriteSecretCodeHere:: @ 819C21F
 	.string "The door is locked.\p"
 	.string "...On closer inspection, this is written\n"
 	.string "on it: “Write the secret code here.”$"

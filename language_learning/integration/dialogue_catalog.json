@@ -15726,6 +15726,2726 @@
         "route110",
         "route"
       ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.youvemadeittome.785",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_TrickMaster",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_YouveMadeItToMe",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndYouveMadeItToMe"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 785
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnighttoplanttrees.786",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle1",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightToPlantTrees",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightToPlantTrees"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 786
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.youhaveearnedthisreward.787",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle1",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndYouHaveEarnedThisReward"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 787
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.makenewtrickstostumpyou.788",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle1",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndMakeNewTricksToStumpYou"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 788
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnighttomakemaze.789",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle2",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightToMakeMaze",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightToMakeMaze"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 789
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.19c3a7.790",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle3",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_19C3A7",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndOneNineCThreeASeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 790
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnighttoshoveboulders.791",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle4",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightToShoveBoulders",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightToShoveBoulders"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 791
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnighttomakemechadolls.792",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle5",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightToMakeMechadolls"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 792
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnighttoinstalldoors.793",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle6",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightToInstallDoors",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightToInstallDoors"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 793
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnightsettinguparrows.794",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle7",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightSettingUpArrows",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightSettingUpArrows"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 794
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.allnightpolishingfloors.795",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle8",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_AllNightPolishingFloors",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndAllNightPolishingFloors"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 795
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.fountainofideasrundry.796",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle8",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndFountainOfIdeasRunDry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 796
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhouseend.text.defeatedmetaketent.797",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle8",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_DefeatedMeTakeTent",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndDefeatedMeTakeTent"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 797
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.leavingonjourney.798",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle8",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_LeavingOnJourney",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndLeavingOnJourney"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 798
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.noroomforthis.799",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_BagFull",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_NoRoomForThis",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndNoRoomForThis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 799
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.noroominpc.800",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_NoRoomForTent",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_NoRoomInPC",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndNoRoomInPC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 800
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseend.text.youreignoringme.801",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEnd/scripts.inc",
+        "symbol": "Route110_TrickHouseEnd_EventScript_TrickMasterExitTrigger",
+        "base_text_path": "data/maps/Route110_TrickHouseEnd/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEnd_Text_YoureIgnoringMe",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEndYoureIgnoringMe"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 801
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.cometochallengetrickhouse.802",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_BeginChallenge",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceComeToChallengeTrickHouse"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 802
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedbeneathdesk.803",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundBeneathDesk",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedBeneathDesk"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 803
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedbehindtree.804",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundBehindTree",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBehindTree",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedBehindTree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 804
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedindresser.805",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundInDresser",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedInDresser",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedInDresser"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 805
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.conealedbeyondwindow.806",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundBeyondWindow",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConealedBeyondWindow",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConealedBeyondWindow"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 806
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedinplanter.807",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundInPlanter",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedInPlanter",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedInPlanter"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 807
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedincupboard.808",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundInCupboard",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedInCupboard",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedInCupboard"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 808
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedbehindwindow.809",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundBehindWindow",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBehindWindow",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedBehindWindow"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 809
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.concealedbeneathcushion.810",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_FoundBeneathCushion",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceConcealedBeneathCushion"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 810
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.theycallmetrickmaster.811",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_MeetTrickMaster",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceTheyCallMeTrickMaster"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 811
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.nexttimeusethistrick.812",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_StillMakingPuzzle",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceNextTimeUseThisTrick"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 812
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.inmidstofdevisingnewchallenges.813",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_StillMakingPuzzle",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceInMidstOfDevisingNewChallenges"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 813
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.youreheretoacceptreward.814",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_GiveReward",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceYoureHereToAcceptReward"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 814
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.didyounotcometoclaimreward.815",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_GivePuzzle1Reward",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceDidYouNotComeToClaimReward"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 815
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.mechadollwhichtent.816",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_MechadollReward",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_MechadollWhichTent",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceMechadollWhichTent"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 816
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.pcfullagain.817",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_MechadollReward",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_PCFullAgain",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntrancePCFullAgain"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 817
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.thenfarewell.818",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_ReceivedTent",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ThenFarewell",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceThenFarewell"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 818
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.itsascroll.819",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_ItsAScroll",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_ItsAScroll",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceItsAScroll"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 819
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.goinholebehindscroll.820",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_GoInHolePrompt",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceGoInHoleBehindScroll"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 820
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.leavingonjourneynote.821",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_LeftOnJourneyNote",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceLeavingOnJourneyNote"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 821
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle1.text.wrotesecretcodelockopened.822",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 822
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle2.text.wrotesecretcodelockopened.823",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 823
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle3.text.wrotesecretcodelockopened.824",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 824
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle4.text.wrotesecretcodelockopened.825",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 825
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.wrotesecretcodelockopened.826",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 826
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle6.text.wrotesecretcodelockopened.827",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 827
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle7.text.wrotesecretcodelockopened.828",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Door",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenWroteSecretCodeLockOpened"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 828
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle.text.doorlockedwritesecretcodehere.829",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle_EventScript_DoorLocked",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "Route110_TrickHousePuzzle_Text_DoorLockedWriteSecretCodeHere",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleDoorLockedWriteSecretCodeHere"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 829
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle1.text.secretcodeonit.830",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_ReadScrollAgain",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_SecretCodeOnIt",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneSecretCodeOnIt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 830
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle1.text.foundascroll.831",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_FoundScroll",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_FoundAScroll",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneFoundAScroll"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 831
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle1.text.memorizedthecode.832",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_FoundScroll",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_MemorizedTheCode",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneMemorizedTheCode"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 832
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhouseentrance.text.yourebeingwatched.833",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHouseEntrance/scripts.inc",
+        "symbol": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding",
+        "base_text_path": "data/maps/Route110_TrickHouseEntrance/text.inc",
+        "base_text_symbol": "Route110_TrickHouseEntrance_Text_YoureBeingWatched",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHouseEntranceYoureBeingWatched"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 833
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.sallyintro.834",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Sally",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_SallyIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneSallyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 834
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.sallydefeat.835",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Sally",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_SallyDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneSallyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 835
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.sallypostbattle.836",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Sally",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_SallyPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneSallyPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 836
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.eddieintro.837",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Eddie",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_EddieIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneEddieIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 837
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.eddiedefeat.838",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Eddie",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_EddieDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneEddieDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 838
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.eddiepostbattle.839",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Eddie",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_EddiePostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneEddiePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 839
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.robinintro.840",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Robin",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_RobinIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneRobinIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 840
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.robindefeat.841",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Robin",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_RobinDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneRobinDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 841
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle1.text.robinpostbattle.842",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle1/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle1_EventScript_Robin",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle1/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle1_Text_RobinPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleOneRobinPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 842
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.tedintro.843",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Ted",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_TedIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoTedIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 843
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.teddefeat.844",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Ted",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_TedDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoTedDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 844
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.tedpostbattle.845",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Ted",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_TedPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoTedPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 845
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.paulintro.846",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Paul",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_PaulIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoPaulIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 846
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.pauldefeat.847",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Paul",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_PaulDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoPaulDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 847
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.paulpostbattle.848",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Paul",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_PaulPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoPaulPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 848
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.georgiaintro.849",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Georgia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_GeorgiaIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoGeorgiaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 849
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.georgiadefeat.850",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Georgia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_GeorgiaDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoGeorgiaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 850
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle2.text.georgiapostbattle.851",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle2/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle2_EventScript_Georgia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle2/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleTwoGeorgiaPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 851
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.justinintro.852",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Justin",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_JustinIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeJustinIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 852
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.justindefeat.853",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Justin",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_JustinDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeJustinDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 853
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.justinpostbattle.854",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Justin",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_JustinPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeJustinPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 854
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.marthaintro.855",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Martha",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_MarthaIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeMarthaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 855
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.marthadefeat.856",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Martha",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_MarthaDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeMarthaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 856
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.marthapostbattle.857",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Martha",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_MarthaPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeMarthaPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 857
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.alanintro.858",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Alan",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_AlanIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeAlanIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 858
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.alandefeat.859",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Alan",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_AlanDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeAlanDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 859
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle3.text.alanpostbattle.860",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle3/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle3_EventScript_Alan",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle3/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle3_Text_AlanPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleThreeAlanPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 860
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.coraintro.861",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Cora",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_CoraIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourCoraIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 861
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.coradefeat.862",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Cora",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_CoraDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourCoraDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 862
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.corapostbattle.863",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Cora",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_CoraPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourCoraPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 863
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.yujiintro.864",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Yuji",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_YujiIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourYujiIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 864
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.yujidefeat.865",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Yuji",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_YujiDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourYujiDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 865
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.yujipostbattle.866",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Yuji",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_YujiPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourYujiPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 866
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.jillintro.867",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Jill",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_JillIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourJillIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 867
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.jilldefeat.868",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Jill",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_JillDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourJillDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 868
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle4.text.jillpostbattle.869",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle4/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle4_EventScript_Jill",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle4/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle4_Text_JillPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFourJillPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 869
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle5.text.mechadoll1intro.870",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Activate",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Intro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 870
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle5.text.mechadoll2intro.871",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Activate",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Intro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 871
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle5.text.mechadoll3intro.872",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Activate",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Intro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 872
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle5.text.mechadoll4intro.873",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Activate",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Intro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 873
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle5.text.mechadoll5intro.874",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5Activate",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Intro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 874
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll1quiz1.875",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz1",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneQuizOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 875
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll1quiz2.876",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz2",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneQuizTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 876
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll1quiz3.877",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Quiz3",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollOneQuizThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 877
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll2quiz1.878",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz1",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoQuizOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 878
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll2quiz2.879",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz2",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoQuizTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 879
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll2quiz3.880",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Quiz3",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollTwoQuizThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 880
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll3quiz1.881",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Quiz1",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeQuizOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 881
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll3quiz2.882",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Quiz2",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeQuizTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 882
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll3quiz3.883",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Quiz3",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollThreeQuizThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 883
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll4quiz1.884",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Quiz1",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourQuizOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 884
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll4quiz2.885",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Quiz2",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourQuizTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 885
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll4quiz3.886",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Quiz3",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFourQuizThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 886
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll5quiz1.887",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5Quiz1",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveQuizOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 887
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll5quiz2.888",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5Quiz2",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveQuizTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 888
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.mechadoll5quiz3.889",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5Quiz3",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveMechadollFiveQuizThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 889
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.disappointmenterror.890",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_DisappointmentError",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveDisappointmentError"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 890
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.wahahahaha.891",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_Wahahahaha",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveWahahahaha"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 891
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.waitfornextchallenge.892",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_WaitForNextChallenge",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveWaitForNextChallenge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 892
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.puzzle.route110.trickhousepuzzle5.text.correctgothrough1.893",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle5/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle5_EventScript_CorrectGoThrough",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle5/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle5_Text_CorrectGoThrough1",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleFiveCorrectGoThroughOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 893
+      },
+      "tags": [
+        "trickhouse",
+        "puzzle"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.sophiaintro.894",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Sophia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_SophiaIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixSophiaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 894
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.sophiadefeat.895",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Sophia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_SophiaDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixSophiaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 895
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.sophiapostbattle.896",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Sophia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_SophiaPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixSophiaPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 896
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.bennyintro.897",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Benny",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_BennyIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixBennyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 897
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.bennydefeat.898",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Benny",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_BennyDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixBennyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 898
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.bennypostbattle.899",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Benny",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_BennyPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixBennyPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 899
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.sebastianintro.900",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Sebastian",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_SebastianIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixSebastianIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 900
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.sebastiandefeat.901",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Sebastian",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_SebastianDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixSebastianDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 901
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle6.text.sebastianpostbattle.902",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle6/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle6_EventScript_Sebastian",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle6/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle6_Text_SebastianPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSixSebastianPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 902
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.joshuaintro.903",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Joshua",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_JoshuaIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenJoshuaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 903
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.joshuadefeat.904",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Joshua",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_JoshuaDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenJoshuaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 904
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.joshuapostbattle.905",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Joshua",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_JoshuaPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenJoshuaPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 905
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.patriciaintro.906",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Patricia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_PatriciaIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenPatriciaIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 906
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.patriciadefeat.907",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Patricia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_PatriciaDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenPatriciaDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 907
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.patriciapostbattle.908",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Patricia",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_PatriciaPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenPatriciaPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 908
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.alexisintro.909",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Alexis",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_AlexisIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenAlexisIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 909
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.alexisdefeat.910",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Alexis",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_AlexisDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenAlexisDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 910
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle7.text.alexispostbattle.911",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle7/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle7_EventScript_Alexis",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle7/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle7_Text_AlexisPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleSevenAlexisPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 911
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.vincentintro.912",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Vincent",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_VincentIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightVincentIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 912
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.vincentdefeat.913",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Vincent",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_VincentDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightVincentDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 913
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.vincentpostbattle.914",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Vincent",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_VincentPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightVincentPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 914
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.elaineintro.915",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Elaine",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_ElaineIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightElaineIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 915
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.elainedefeat.916",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Elaine",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_ElaineDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightElaineDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 916
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.elainepostbattle.917",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Elaine",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_ElainePostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightElainePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 917
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.leroyintro.918",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Leroy",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_LeroyIntro",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightLeroyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 918
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.leroydefeat.919",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Leroy",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_LeroyDefeat",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightLeroyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 919
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
+    },
+    {
+      "id": "trickhouse.trainer.route110.trickhousepuzzle8.text.leroypostbattle.920",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route110_TrickHousePuzzle8/scripts.inc",
+        "symbol": "Route110_TrickHousePuzzle8_EventScript_Leroy",
+        "base_text_path": "data/maps/Route110_TrickHousePuzzle8/text.inc",
+        "base_text_symbol": "Route110_TrickHousePuzzle8_Text_LeroyPostBattle",
+        "note": "Adaptive translation bridge preserves the original puzzle, battle, quiz, reward, and story flow.",
+        "authored_id": "RouteOneOneZeroTrickHousePuzzleEightLeroyPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 920
+      },
+      "tags": [
+        "trickhouse",
+        "trainer"
+      ]
     }
   ]
 }

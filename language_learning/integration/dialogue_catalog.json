@@ -18446,6 +18446,2326 @@
         "trickhouse",
         "trainer"
       ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.nursehurtmonbacktohealth.921",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Boy",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_NurseHurtMonBackToHealth",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityNurseHurtMonBackToHealth"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 921
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.allsortsofpeoplecomethrough.922",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Maniac",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_AllSortsOfPeopleComeThrough",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityAllSortsOfPeopleComeThrough"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 922
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.rydelverygenerous.923",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Woman",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_RydelVeryGenerous",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityRydelVeryGenerous"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 923
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.pokemoncanjumpyouonbike.924",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_RichBoy",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_PokemonCanJumpYouOnBike",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityPokemonCanJumpYouOnBike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 924
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.citysign.925",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_CitySign",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_CitySign",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityCitySign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 925
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.gymsign.926",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_GymSign",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_GymSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 926
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.text.bikeshopsign.927",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_BikeShopSign",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_BikeShopSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 927
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.text.gamecornersign.928",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_GameCornerSign",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_GameCornerSign",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 928
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.explaintv.929",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_SchoolKidM",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_ExplainTV",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityExplainTV"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 929
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.beencheckingouttv.930",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_TVExplained",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_BeenCheckingOutTV",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBeenCheckingOutTV"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 930
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.unclehestoopeppy.931",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_WallysUncle",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_UncleHesTooPeppy",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityUncleHesTooPeppy"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 931
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.unclecanyoubattlewally.932",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_UncleAskPlayerToBattleWally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_UncleCanYouBattleWally",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityUncleCanYouBattleWally"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 932
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallywanttochallengegym.933",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Wally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyWantToChallengeGym",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyWantToChallengeGym"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 933
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.uncleyourepushingit.934",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Wally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_UncleYourePushingIt",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityUncleYourePushingIt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 934
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallywecanbeatanyone.935",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Wally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyWeCanBeatAnyone",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyWeCanBeatAnyone"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 935
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallywillyoubattleme.936",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Wally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyWillYouBattleMe",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyWillYouBattleMe"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 936
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.unclevisitussometime.937",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_WallyAndUncleExitNorth",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_UncleVisitUsSometime",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityUncleVisitUsSometime"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 937
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallyhereicome.938",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_BattleWally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyHereICome",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyHereICome"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 938
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.text.wallydefeat.939",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_BattleWally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyDefeat",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 939
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallyillgobacktoverdanturf.940",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_BattleWally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyIllGoBackToVerdanturf",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyIllGoBackToVerdanturf"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 940
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.thankyounotenoughtobattle.941",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_BattleWally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_ThankYouNotEnoughToBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityThankYouNotEnoughToBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 941
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.unclenoneedtobedown.942",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_BattleWally",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_UncleNoNeedToBeDown",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityUncleNoNeedToBeDown"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 942
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallymyunclewontknowimstrong.943",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_DeclineWallyBattle",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyMyUncleWontKnowImStrong",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyMyUncleWontKnowImStrong"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 943
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wallypleasebattleme.944",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_WallyRequestBattleAgain",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WallyPleaseBattleMe",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWallyPleaseBattleMe"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 944
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wattsonneedfavortakekey.945",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Wattson",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WattsonNeedFavorTakeKey",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWattsonNeedFavorTakeKey"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 945
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wattsonwontbechallenge.946",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_Wattson",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WattsonWontBeChallenge",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWattsonWontBeChallenge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 946
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wattsonthankstaketm.947",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_CompletedNewMauville",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WattsonThanksTakeTM",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWattsonThanksTakeTM"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 947
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.text.wattsonyoungtakecharge.948",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity/scripts.inc",
+        "symbol": "MauvilleCity_EventScript_CompletedNewMauville",
+        "base_text_path": "data/maps/MauvilleCity/text.inc",
+        "base_text_symbol": "MauvilleCity_Text_WattsonYoungTakeCharge",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityWattsonYoungTakeCharge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 948
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.wattsonintro.949",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Wattson",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_WattsonIntro",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymWattsonIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 949
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.wattsondefeat.950",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Wattson",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_WattsonDefeat",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymWattsonDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 950
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.wattsonpostbattle.951",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Wattson",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_WattsonPostBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymWattsonPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 951
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.receiveddynamobadge.952",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_WattsonDefeated",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_ReceivedDynamoBadge",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymReceivedDynamoBadge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 952
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.explaindynamobadgetakethis.953",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_WattsonDefeated",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymExplainDynamoBadgeTakeThis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 953
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.explainshockwave.954",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_GiveShockWave",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_ExplainShockWave",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymExplainShockWave"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 954
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.wattsongoforthandendeavor.955",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_CompletedNewMauville",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymWattsonGoForthAndEndeavor"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 955
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.kirkintro.956",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Kirk",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_KirkIntro",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymKirkIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 956
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.kirkdefeat.957",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Kirk",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_KirkDefeat",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymKirkDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 957
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.kirkpostbattle.958",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Kirk",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_KirkPostBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymKirkPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 958
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.shawnintro.959",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Shawn",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_ShawnIntro",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymShawnIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 959
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.shawndefeat.960",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Shawn",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_ShawnDefeat",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymShawnDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 960
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.shawnpostbattle.961",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Shawn",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_ShawnPostBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymShawnPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 961
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.benintro.962",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Ben",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_BenIntro",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymBenIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 962
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.bendefeat.963",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Ben",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_BenDefeat",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymBenDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 963
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.benpostbattle.964",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Ben",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_BenPostBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymBenPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 964
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.vivianintro.965",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Vivian",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_VivianIntro",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymVivianIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 965
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.viviandefeat.966",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Vivian",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_VivianDefeat",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymVivianDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 966
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.trainer.mauvillecity.gym.text.vivianpostbattle.967",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_Vivian",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_VivianPostBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymVivianPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 967
+      },
+      "tags": [
+        "mauville",
+        "trainer"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.gymguideadvice.968",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_GymGuide",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_GymGuideAdvice",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymGymGuideAdvice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 968
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.gymguidepostvictory.969",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_GymGuidePostVictory",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_GymGuidePostVictory",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymGymGuidePostVictory"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 969
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.gymstatuecertified.970",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_GymStatueCertified",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_GymStatueCertified",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymGymStatueCertified"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 970
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.gym.mauvillecity.gym.text.gymstatue.971",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Gym/scripts.inc",
+        "symbol": "MauvilleCity_Gym_EventScript_GymStatue",
+        "base_text_path": "data/maps/MauvilleCity_Gym/text.inc",
+        "base_text_symbol": "MauvilleCity_Gym_Text_GymStatue",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGymGymStatue"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 971
+      },
+      "tags": [
+        "mauville",
+        "gym"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house1.text.takehmrocksmash.972",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House1/scripts.inc",
+        "symbol": "MauvilleCity_House1_EventScript_RockSmashHMMan",
+        "base_text_path": "data/maps/MauvilleCity_House1/text.inc",
+        "base_text_symbol": "MauvilleCity_House1_Text_TakeHMRockSmash",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseOneTakeHMRockSmash"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 972
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house1.text.explainrocksmash.973",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House1/scripts.inc",
+        "symbol": "MauvilleCity_House1_EventScript_RockSmashHMMan",
+        "base_text_path": "data/maps/MauvilleCity_House1/text.inc",
+        "base_text_symbol": "MauvilleCity_House1_Text_ExplainRockSmash",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseOneExplainRockSmash"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 973
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house1.text.moncanflyoutofsmashedrock.974",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House1/scripts.inc",
+        "symbol": "MauvilleCity_House1_EventScript_ReceivedRockSmash",
+        "base_text_path": "data/maps/MauvilleCity_House1/text.inc",
+        "base_text_symbol": "MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseOneMonCanFlyOutOfSmashedRock"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 974
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house2.text.buyharbormailatslateport.975",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House2/scripts.inc",
+        "symbol": "MauvilleCity_House2_EventScript_Woman",
+        "base_text_path": "data/maps/MauvilleCity_House2/text.inc",
+        "base_text_symbol": "MauvilleCity_House2_Text_BuyHarborMailAtSlateport",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseTwoBuyHarborMailAtSlateport"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 975
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house2.text.tradeharbormailforcoincase.976",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House2/scripts.inc",
+        "symbol": "MauvilleCity_House2_EventScript_AskToTradeForHarborMail",
+        "base_text_path": "data/maps/MauvilleCity_House2/text.inc",
+        "base_text_symbol": "MauvilleCity_House2_Text_TradeHarborMailForCoinCase",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseTwoTradeHarborMailForCoinCase"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 976
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house2.text.illtradeyoucoincase.977",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House2/scripts.inc",
+        "symbol": "MauvilleCity_House2_EventScript_AcceptTrade",
+        "base_text_path": "data/maps/MauvilleCity_House2/text.inc",
+        "base_text_symbol": "MauvilleCity_House2_Text_IllTradeYouCoinCase",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseTwoIllTradeYouCoinCase"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 977
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.house2.text.usecoincaseatgamecorner.978",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House2/scripts.inc",
+        "symbol": "MauvilleCity_House2_EventScript_ReceivedCoinCase",
+        "base_text_path": "data/maps/MauvilleCity_House2/text.inc",
+        "base_text_symbol": "MauvilleCity_House2_Text_UseCoinCaseAtGameCorner",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseTwoUseCoinCaseAtGameCorner"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 978
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.house2.text.thatsdisappointing.979",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_House2/scripts.inc",
+        "symbol": "MauvilleCity_House2_EventScript_DeclineTrade",
+        "base_text_path": "data/maps/MauvilleCity_House2/text.inc",
+        "base_text_symbol": "MauvilleCity_House2_Text_ThatsDisappointing",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityHouseTwoThatsDisappointing"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 979
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.mart.text.itemstotemporarilyelevatestats.980",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Mart/scripts.inc",
+        "symbol": "MauvilleCity_Mart_EventScript_ExpertM",
+        "base_text_path": "data/maps/MauvilleCity_Mart/text.inc",
+        "base_text_symbol": "MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityMartItemsToTemporarilyElevateStats"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 980
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.mart.text.decisionsdeterminebattle.981",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_Mart/scripts.inc",
+        "symbol": "MauvilleCity_Mart_EventScript_Man",
+        "base_text_path": "data/maps/MauvilleCity_Mart/text.inc",
+        "base_text_symbol": "MauvilleCity_Mart_Text_DecisionsDetermineBattle",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityMartDecisionsDetermineBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 981
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.pokemoncenter.1f.text.manovertheresaysweirdthings.982",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_PokemonCenter_1F/scripts.inc",
+        "symbol": "MauvilleCity_PokemonCenter_1F_EventScript_Woman1",
+        "base_text_path": "data/maps/MauvilleCity_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityPokemonCenterOneFManOverThereSaysWeirdThings"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 982
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.pokemoncenter.1f.text.mydataupdatedfromrecordcorner.983",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_PokemonCenter_1F/scripts.inc",
+        "symbol": "MauvilleCity_PokemonCenter_1F_EventScript_Woman2",
+        "base_text_path": "data/maps/MauvilleCity_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityPokemonCenterOneFMyDataUpdatedFromRecordCorner"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 983
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.city.mauvillecity.pokemoncenter.1f.text.recordcornersoundsfun.984",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_PokemonCenter_1F/scripts.inc",
+        "symbol": "MauvilleCity_PokemonCenter_1F_EventScript_Youngster",
+        "base_text_path": "data/maps/MauvilleCity_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityPokemonCenterOneFRecordCornerSoundsFun"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 984
+      },
+      "tags": [
+        "mauville",
+        "city"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.rydelgreeting.985",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_Rydel",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_RydelGreeting",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopRydelGreeting"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 985
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.didyoucomefromfaraway.986",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_Rydel",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_DidYouComeFromFarAway",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopDidYouComeFromFarAway"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 986
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.explainbikeschoosewhichone.987",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_ChooseBike",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopExplainBikesChooseWhichOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 987
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.guessyoudontneedbike.988",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_NotFar",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_GuessYouDontNeedBike",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopGuessYouDontNeedBike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 988
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.chosemachbike.989",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_GetMachBike",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_ChoseMachBike",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopChoseMachBike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 989
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.choseacrobike.990",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_GetAcroBike",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_ChoseAcroBike",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopChoseAcroBike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 990
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.comebacktoswitchbikes.991",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_ComeBackToSwitchBikes",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopComeBackToSwitchBikes"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 991
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.wanttoswitchbikes.992",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_AskSwitchBikes",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_WantToSwitchBikes",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopWantToSwitchBikes"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 992
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.illswitchbikes.993",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_SwitchBikes",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_IllSwitchBikes",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopIllSwitchBikes"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 993
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.ohyourbikeisinpc.994",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_SwitchBikes",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_OhYourBikeIsInPC",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopOhYourBikeIsInPC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 994
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.happyyoulikeit.995",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_KeepBike",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_HappyYouLikeIt",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopHappyYouLikeIt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 995
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.exchangedacroformach.996",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_SwitchAcroForMach",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_ExchangedAcroForMach",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopExchangedAcroForMach"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 996
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.exchangedmachforacro.997",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_SwitchMachForAcro",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_ExchangedMachForAcro",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopExchangedMachForAcro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 997
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.handbooksareinback.998",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_Assistant",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_HandbooksAreInBack",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopHandbooksAreInBack"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 998
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.machhandbookwhichpage.999",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_MachBikeHandbook",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_MachHandbookWhichPage",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopMachHandbookWhichPage"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 999
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.howtoridemachbike.1000",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_HowToRide",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_HowToRideMachBike",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopHowToRideMachBike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1000
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.howtoturnmachbike.1001",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_HowToTurn",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_HowToTurnMachBike",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopHowToTurnMachBike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1001
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.sandyslopes.1002",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_SandySlopes",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_SandySlopes",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopSandySlopes"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1002
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.acrohandbookwhichpage.1003",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_AcroBikeHandbook",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_AcroHandbookWhichPage",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopAcroHandbookWhichPage"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1003
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.wheelies.1004",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_Wheelies",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_Wheelies",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopWheelies"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1004
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.bunnyhops.1005",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_BunnyHops",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_BunnyHops",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopBunnyHops"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1005
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.bike_shop.mauvillecity.bikeshop.text.jumps.1006",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_BikeShop/scripts.inc",
+        "symbol": "MauvilleCity_BikeShop_EventScript_Jumps",
+        "base_text_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+        "base_text_symbol": "MauvilleCity_BikeShop_Text_Jumps",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityBikeShopJumps"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1006
+      },
+      "tags": [
+        "mauville",
+        "bike_shop"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.thisismauvillegamecorner.1007",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_CoinsClerk",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerThisIsMauvilleGameCorner"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1007
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.wereyoulookingforcoins.1008",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_CoinsClerk",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_WereYouLookingForCoins",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerWereYouLookingForCoins"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1008
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.thankyouhereareyourcoins.1009",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Buy50Coins",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerThankYouHereAreYourCoins"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1009
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.needcoincaseforcoins.1010",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_NeedCoinCase",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerNeedCoinCaseForCoins"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1010
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.donthaveenoughmoney.1011",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_NotEnoughMoney",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_DontHaveEnoughMoney",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerDontHaveEnoughMoney"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1011
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.dontneedcoinsthen.1012",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_CancelBuyCoins",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_DontNeedCoinsThen",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerDontNeedCoinsThen"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1012
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.coincaseisfull.1013",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_NoRoomForCoins",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_CoinCaseIsFull",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerCoinCaseIsFull"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1013
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.exchangecoinsforprizes.1014",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_PrizeCornerDolls",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerExchangeCoinsForPrizes"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1014
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.whichprize.1015",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_ChooseDollPrizeMessage",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_WhichPrize",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerWhichPrize"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1015
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.soyourchoiceisx.1016",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_ConfirmDollPrize",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_SoYourChoiceIsX",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerSoYourChoiceIsX"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1016
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.sendtoyourhomepc.1017",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_BuyTreeckoDoll",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_SendToYourHomePC",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerSendToYourHomePC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1017
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.notenoughcoins.1018",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForDoll",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_NotEnoughCoins",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerNotEnoughCoins"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1018
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.ohisthatso.1019",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_CancelDollSelect",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_OhIsThatSo",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerOhIsThatSo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1019
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.hereyougo.1020",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_BuyTMDoubleTeam",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_HereYouGo",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerHereYouGo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1020
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.coinsareneededtoplay.1021",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Woman2",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerCoinsAreNeededToPlay"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1021
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.rouletteonlyluck.1022",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Gentleman",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_RouletteOnlyLuck",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerRouletteOnlyLuck"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1022
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.gottwoofsamedollwantone.1023",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Girl",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerGotTwoOfSameDollWantOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1023
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.hereyougo2.1024",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_GiveTreeckoDoll",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_HereYouGo2",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerHereYouGoTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1024
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.youwantitbutnotnow.1025",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_NoRoomForStarterDoll",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_YouWantItButNotNow",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerYouWantItButNotNow"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1025
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.dontbenegative.1026",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_DeclineStarterDoll",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_DontBeNegative",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerDontBeNegative"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1026
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.cantwinjackpot.1027",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_ReceivedStarterDoll",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_CantWinJackpot",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerCantWinJackpot"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1027
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.needcoincasegonextdoor.1028",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_PokefanM",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerNeedCoinCaseGoNextDoor"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1028
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.luckonlylastsolongtakecoins.1029",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_TryGive20Coins",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerLuckOnlyLastSoLongTakeCoins"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1029
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.mauvillesomethingforeveryone.1030",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_PokefanMNormal",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerMauvilleSomethingForEveryone"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1030
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.roulettetablesdifferentrates.1031",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_OldMan",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerRouletteTablesDifferentRates"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1031
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.easytolosetrackoftime.1032",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Cook",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerEasyToLoseTrackOfTime"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1032
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.upto3coinscanbeused.1033",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Man",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerUpToThreeCoinsCanBeUsed"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1033
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.difficulttostopon7.1034",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Maniac",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_DifficultToStopOn7",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerDifficultToStopOnSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1034
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.heressomeslotsinfo.1035",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_Woman",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerHeresSomeSlotsInfo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1035
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
+    },
+    {
+      "id": "mauville.game_corner.mauvillecity.gamecorner.text.cantplaywithnocoincase.1036",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MauvilleCity_GameCorner/scripts.inc",
+        "symbol": "MauvilleCity_GameCorner_EventScript_NoCoinCase",
+        "base_text_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+        "base_text_symbol": "MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase",
+        "note": "Adaptive translation bridge preserves the original story, choice, battle, purchase, reward, and service flow.",
+        "authored_id": "MauvilleCityGameCornerCantPlayWithNoCoinCase"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1036
+      },
+      "tags": [
+        "mauville",
+        "game_corner"
+      ]
     }
   ]
 }

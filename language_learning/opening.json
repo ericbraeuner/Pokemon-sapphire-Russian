@@ -41222,6 +41222,5226 @@
           "Jemand wie du wird den RÄTSELMEISTER erfreuen."
         ]
       }
+    },
+    {
+      "id": "MauvilleCityNurseHurtMonBackToHealth",
+      "base_symbol": "MauvilleCity_Text_NurseHurtMonBackToHealth",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Бои покемонов - это здорово..."
+        ],
+        "A2": [
+          "Бои покемонов - это здорово... Но раненого покемона обязательно нужно вылечить."
+        ],
+        "natural": [
+          "Бои покемонов - это здорово... Но раненого покемона обязательно нужно вылечить."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon-Kämpfe sind toll..."
+        ],
+        "A2": [
+          "Pokémon-Kämpfe sind toll... Doch ein verletztes Pokémon musst du wieder heilen."
+        ],
+        "natural": [
+          "Pokémon-Kämpfe sind toll... Doch ein verletztes Pokémon musst du wieder heilen."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityAllSortsOfPeopleComeThrough",
+      "base_symbol": "MauvilleCity_Text_AllSortsOfPeopleComeThrough",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Дороги города идут на север, юг, восток и запад."
+        ],
+        "A2": [
+          "Дороги города идут на север, юг, восток и запад. Поэтому здесь бывают самые разные люди."
+        ],
+        "natural": [
+          "Дороги города идут на север, юг, восток и запад. Поэтому здесь бывают самые разные люди."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Straßen führen nach Norden, Süden, Osten und Westen."
+        ],
+        "A2": [
+          "Die Straßen führen nach Norden, Süden, Osten und Westen. Darum kommen viele verschiedene Leute vorbei."
+        ],
+        "natural": [
+          "Die Straßen führen nach Norden, Süden, Osten und Westen. Darum kommen viele verschiedene Leute vorbei."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityRydelVeryGenerous",
+      "base_symbol": "MauvilleCity_Text_RydelVeryGenerous",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты уже был в магазине ВЕЛОСИПЕДОВ РАЙДЕЛА?"
+        ],
+        "A2": [
+          "Ты уже был в магазине ВЕЛОСИПЕДОВ РАЙДЕЛА? Владелец РАЙДЕЛ очень щедр."
+        ],
+        "natural": [
+          "Ты уже был в магазине ВЕЛОСИПЕДОВ РАЙДЕЛА? Владелец РАЙДЕЛ очень щедр."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Warst du schon bei RADLAS' RADLADEN?"
+        ],
+        "A2": [
+          "Warst du schon bei RADLAS' RADLADEN? Der Besitzer RADLAS ist sehr großzügig."
+        ],
+        "natural": [
+          "Warst du schon bei RADLAS' RADLADEN? Der Besitzer RADLAS ist sehr großzügig."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityPokemonCanJumpYouOnBike",
+      "base_symbol": "MauvilleCity_Text_PokemonCanJumpYouOnBike",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Даже на ВЕЛОСИПЕДЕ можно неожиданно встретить дикого покемона."
+        ],
+        "A2": [
+          "Даже на ВЕЛОСИПЕДЕ можно неожиданно встретить дикого покемона."
+        ],
+        "natural": [
+          "Даже на ВЕЛОСИПЕДЕ можно неожиданно встретить дикого покемона."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Selbst auf dem RAD kann dich ein wildes Pokémon überraschen."
+        ],
+        "A2": [
+          "Selbst auf dem RAD kann dich ein wildes Pokémon überraschen."
+        ],
+        "natural": [
+          "Selbst auf dem RAD kann dich ein wildes Pokémon überraschen."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityCitySign",
+      "base_symbol": "MauvilleCity_Text_CitySign",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МОВИЛЛЬ Яркий и сияющий город веселья!"
+        ],
+        "A2": [
+          "МОВИЛЛЬ Яркий и сияющий город веселья!"
+        ],
+        "natural": [
+          "МОВИЛЛЬ Яркий и сияющий город веселья!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MALVENFROH CITY Die helle, glänzende Stadt voller Spaß!"
+        ],
+        "A2": [
+          "MALVENFROH CITY Die helle, glänzende Stadt voller Spaß!"
+        ],
+        "natural": [
+          "MALVENFROH CITY Die helle, glänzende Stadt voller Spaß!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymSign",
+      "base_symbol": "MauvilleCity_Text_GymSign",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ ЛИДЕР: ВАТТСОН Весёлый электрический человек!"
+        ],
+        "A2": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ ЛИДЕР: ВАТТСОН Весёлый электрический человек!"
+        ],
+        "natural": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ ЛИДЕР: ВАТТСОН Весёлый электрический человек!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéMON-ARENA MALVENFROH LEITER: WALTER Der fröhlich elektrisierende Mann!"
+        ],
+        "A2": [
+          "POKéMON-ARENA MALVENFROH LEITER: WALTER Der fröhlich elektrisierende Mann!"
+        ],
+        "natural": [
+          "POKéMON-ARENA MALVENFROH LEITER: WALTER Der fröhlich elektrisierende Mann!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopSign",
+      "base_symbol": "MauvilleCity_Text_BikeShopSign",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Гоняй по гравию и встряхни душу!"
+        ],
+        "A2": [
+          "Гоняй по гравию и встряхни душу! ВЕЛОСИПЕДЫ РАЙДЕЛА"
+        ],
+        "natural": [
+          "Гоняй по гравию и встряхни душу! ВЕЛОСИПЕДЫ РАЙДЕЛА"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Rase über Schotter und rüttle deine Seele wach!"
+        ],
+        "A2": [
+          "Rase über Schotter und rüttle deine Seele wach! RADLAS' RADLADEN"
+        ],
+        "natural": [
+          "Rase über Schotter und rüttle deine Seele wach! RADLAS' RADLADEN"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerSign",
+      "base_symbol": "MauvilleCity_Text_GameCornerSign",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Место для игр каждого!"
+        ],
+        "A2": [
+          "Место для игр каждого! ИГРОВОЙ УГОЛОК МОВИЛЛЯ"
+        ],
+        "natural": [
+          "Место для игр каждого! ИГРОВОЙ УГОЛОК МОВИЛЛЯ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Spielort für alle!"
+        ],
+        "A2": [
+          "Der Spielort für alle! SPIELHALLE MALVENFROH"
+        ],
+        "natural": [
+          "Der Spielort für alle! SPIELHALLE MALVENFROH"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityExplainTV",
+      "base_symbol": "MauvilleCity_Text_ExplainTV",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Привет!"
+        ],
+        "A2": [
+          "Привет! На ТВ появились новые передачи."
+        ],
+        "natural": [
+          "Привет! На ТВ появились новые передачи. Иногда там показывают друзей или даже тебя. Я тоже хочу на экран. Чаще смотри ТВ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo!"
+        ],
+        "A2": [
+          "Hallo! Im Fernsehen gibt es neue Sendungen."
+        ],
+        "natural": [
+          "Hallo! Im Fernsehen gibt es neue Sendungen. Manchmal siehst du Freunde oder dich. Ich will auch ins Fernsehen. Sieh nach!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBeenCheckingOutTV",
+      "base_symbol": "MauvilleCity_Text_BeenCheckingOutTV",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Привет!"
+        ],
+        "A2": [
+          "Привет! Ты проверяешь телевизоры?"
+        ],
+        "natural": [
+          "Привет! Ты проверяешь телевизоры?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo!"
+        ],
+        "A2": [
+          "Hallo! Hast du in letzter Zeit ferngesehen?"
+        ],
+        "natural": [
+          "Hallo! Hast du in letzter Zeit ferngesehen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityUncleHesTooPeppy",
+      "base_symbol": "MauvilleCity_Text_UncleHesTooPeppy",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ДЯДЯ: Благодаря покемонам мальчик стал бодрее..."
+        ],
+        "A2": [
+          "ДЯДЯ: Благодаря покемонам мальчик стал бодрее... Пожалуй, даже слишком."
+        ],
+        "natural": [
+          "ДЯДЯ: Благодаря покемонам мальчик стал бодрее... Пожалуй, даже слишком."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ONKEL: Durch Pokémon wurde der Junge lebhafter..."
+        ],
+        "A2": [
+          "ONKEL: Durch Pokémon wurde der Junge lebhafter... Vielleicht etwas zu lebhaft."
+        ],
+        "natural": [
+          "ONKEL: Durch Pokémon wurde der Junge lebhafter... Vielleicht etwas zu lebhaft."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityUncleCanYouBattleWally",
+      "base_symbol": "MauvilleCity_Text_UncleCanYouBattleWally",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ДЯДЯ: Ты {PLAYER}, верно?"
+        ],
+        "A2": [
+          "ДЯДЯ: Ты {PLAYER}, верно? Пожалуйста, сразись с УОЛЛИ один раз."
+        ],
+        "natural": [
+          "ДЯДЯ: Ты {PLAYER}, верно? Пожалуйста, сразись с УОЛЛИ один раз. Сейчас он не станет слушать доводы."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ONKEL: Du bist {PLAYER}, richtig?"
+        ],
+        "A2": [
+          "ONKEL: Du bist {PLAYER}, richtig? Bitte kämpfe einmal gegen HEIKO."
+        ],
+        "natural": [
+          "ONKEL: Du bist {PLAYER}, richtig? Bitte kämpfe einmal gegen HEIKO. Jetzt hört er auf keine Vernunft."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyWantToChallengeGym",
+      "base_symbol": "MauvilleCity_Text_WallyWantToChallengeGym",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Ну пожалуйста, дядя!"
+        ],
+        "A2": [
+          "УОЛЛИ: Ну пожалуйста, дядя! Я хочу бросить вызов СТАДИОНУ и проверить, насколько стал сильнее."
+        ],
+        "natural": [
+          "УОЛЛИ: Ну пожалуйста, дядя! Я хочу бросить вызов СТАДИОНУ и проверить, насколько стал сильнее."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Bitte, Onkel!"
+        ],
+        "A2": [
+          "HEIKO: Bitte, Onkel! Ich will die ARENA herausfordern und sehen, wie viel stärker ich bin."
+        ],
+        "natural": [
+          "HEIKO: Bitte, Onkel! Ich will die ARENA herausfordern und sehen, wie viel stärker ich bin."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityUncleYourePushingIt",
+      "base_symbol": "MauvilleCity_Text_UncleYourePushingIt",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ДЯДЯ: Постой, УОЛЛИ."
+        ],
+        "A2": [
+          "ДЯДЯ: Постой, УОЛЛИ. С покемонами ты стал гораздо сильнее."
+        ],
+        "natural": [
+          "ДЯДЯ: Постой, УОЛЛИ. С покемонами ты стал гораздо сильнее. Но не рано ли сразу бросать вызов СТАДИОНУ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ONKEL: Warte, HEIKO."
+        ],
+        "A2": [
+          "ONKEL: Warte, HEIKO. Mit Pokémon bist du viel stärker geworden."
+        ],
+        "natural": [
+          "ONKEL: Warte, HEIKO. Mit Pokémon bist du viel stärker geworden. Aber ist eine ARENA nicht noch zu viel?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyWeCanBeatAnyone",
+      "base_symbol": "MauvilleCity_Text_WallyWeCanBeatAnyone",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Ничуть!"
+        ],
+        "A2": [
+          "УОЛЛИ: Ничуть! Вместе с РАЛТСОМ мы победим кого угодно!"
+        ],
+        "natural": [
+          "УОЛЛИ: Ничуть! Вместе с РАЛТСОМ мы победим кого угодно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Keineswegs!"
+        ],
+        "A2": [
+          "HEIKO: Keineswegs! Zusammen mit TRASLA kann ich jeden besiegen!"
+        ],
+        "natural": [
+          "HEIKO: Keineswegs! Zusammen mit TRASLA kann ich jeden besiegen!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyWillYouBattleMe",
+      "base_symbol": "MauvilleCity_Text_WallyWillYouBattleMe",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Привет, {PLAYER}!"
+        ],
+        "A2": [
+          "УОЛЛИ: Привет, {PLAYER}! Я стал намного сильнее."
+        ],
+        "natural": [
+          "УОЛЛИ: Привет, {PLAYER}! Я стал намного сильнее. Хочу доказать это тебе и дяде. {PLAYER}, сразись со мной!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Hallo, {PLAYER}!"
+        ],
+        "A2": [
+          "HEIKO: Hallo, {PLAYER}! Ich bin viel stärker geworden."
+        ],
+        "natural": [
+          "HEIKO: Hallo, {PLAYER}! Ich bin viel stärker geworden. Das will ich dir und meinem Onkel beweisen. Kämpfe mit mir!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityUncleVisitUsSometime",
+      "base_symbol": "MauvilleCity_Text_UncleVisitUsSometime",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ДЯДЯ: {PLAYER}, так это ты помог УОЛЛИ поймать покемона."
+        ],
+        "A2": [
+          "ДЯДЯ: {PLAYER}, так это ты помог УОЛЛИ поймать покемона. Навести нас как-нибудь в ВЕРДАНТУРФЕ."
+        ],
+        "natural": [
+          "ДЯДЯ: {PLAYER}, так это ты помог УОЛЛИ поймать покемона. Навести нас как-нибудь в ВЕРДАНТУРФЕ. УОЛЛИ обрадуется."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ONKEL: {PLAYER}, du hast HEIKO also beim Pokémon-Fang geholfen."
+        ],
+        "A2": [
+          "ONKEL: {PLAYER}, du hast HEIKO also beim Pokémon-Fang geholfen. Besuch uns einmal in WIESENFLUR."
+        ],
+        "natural": [
+          "ONKEL: {PLAYER}, du hast HEIKO also beim Pokémon-Fang geholfen. Besuch uns einmal in WIESENFLUR. Er würde sich freuen."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyHereICome",
+      "base_symbol": "MauvilleCity_Text_WallyHereICome",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Спасибо, {PLAYER}."
+        ],
+        "A2": [
+          "УОЛЛИ: Спасибо, {PLAYER}. Ладно..."
+        ],
+        "natural": [
+          "УОЛЛИ: Спасибо, {PLAYER}. Ладно... Я начинаю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Danke, {PLAYER}."
+        ],
+        "A2": [
+          "HEIKO: Danke, {PLAYER}. Also..."
+        ],
+        "natural": [
+          "HEIKO: Danke, {PLAYER}. Also... Los geht's!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyDefeat",
+      "base_symbol": "MauvilleCity_Text_WallyDefeat",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: ..."
+        ],
+        "A2": [
+          "УОЛЛИ: ... ..."
+        ],
+        "natural": [
+          "УОЛЛИ: ... ... ... Я проиграл..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: ..."
+        ],
+        "A2": [
+          "HEIKO: ... ..."
+        ],
+        "natural": [
+          "HEIKO: ... ... ... Ich habe verloren..."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyIllGoBackToVerdanturf",
+      "base_symbol": "MauvilleCity_Text_WallyIllGoBackToVerdanturf",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Дядя..."
+        ],
+        "A2": [
+          "УОЛЛИ: Дядя... Я вернусь в ВЕРДАНТУРФ..."
+        ],
+        "natural": [
+          "УОЛЛИ: Дядя... Я вернусь в ВЕРДАНТУРФ..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Onkel..."
+        ],
+        "A2": [
+          "HEIKO: Onkel... Ich kehre nach WIESENFLUR zurück..."
+        ],
+        "natural": [
+          "HEIKO: Onkel... Ich kehre nach WIESENFLUR zurück..."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityThankYouNotEnoughToBattle",
+      "base_symbol": "MauvilleCity_Text_ThankYouNotEnoughToBattle",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER}, спасибо."
+        ],
+        "A2": [
+          "{PLAYER}, спасибо. Быть ТРЕНЕРОМ трудно."
+        ],
+        "natural": [
+          "{PLAYER}, спасибо. Быть ТРЕНЕРОМ трудно. Недостаточно просто иметь покемонов и отправлять их в бой. Настоящий ТРЕНЕР - это нечто большее."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER}, danke."
+        ],
+        "A2": [
+          "{PLAYER}, danke. TRAINER zu sein ist schwer."
+        ],
+        "natural": [
+          "{PLAYER}, danke. TRAINER zu sein ist schwer. Pokémon zu besitzen und kämpfen zu lassen reicht nicht. Ein echter TRAINER ist mehr."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityUncleNoNeedToBeDown",
+      "base_symbol": "MauvilleCity_Text_UncleNoNeedToBeDown",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ДЯДЯ: УОЛЛИ, не унывай."
+        ],
+        "A2": [
+          "ДЯДЯ: УОЛЛИ, не унывай. Ничто не мешает тебе становиться всё сильнее."
+        ],
+        "natural": [
+          "ДЯДЯ: УОЛЛИ, не унывай. Ничто не мешает тебе становиться всё сильнее. Пойдём домой. Все тебя ждут."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ONKEL: HEIKO, sei nicht traurig."
+        ],
+        "A2": [
+          "ONKEL: HEIKO, sei nicht traurig. Nichts hindert dich daran, immer stärker zu werden."
+        ],
+        "natural": [
+          "ONKEL: HEIKO, sei nicht traurig. Nichts hindert dich daran, immer stärker zu werden. Komm, wir gehen heim. Alle warten."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyMyUncleWontKnowImStrong",
+      "base_symbol": "MauvilleCity_Text_WallyMyUncleWontKnowImStrong",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: Ох..."
+        ],
+        "A2": [
+          "УОЛЛИ: Ох... Если ты не сразишься со мной, {PLAYER}, дядя не узнает, каким сильным я стал."
+        ],
+        "natural": [
+          "УОЛЛИ: Ох... Если ты не сразишься со мной, {PLAYER}, дядя не узнает, каким сильным я стал."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: Oh..."
+        ],
+        "A2": [
+          "HEIKO: Oh... Wenn du nicht gegen mich kämpfst, {PLAYER}, erkennt mein Onkel meine Stärke nicht."
+        ],
+        "natural": [
+          "HEIKO: Oh... Wenn du nicht gegen mich kämpfst, {PLAYER}, erkennt mein Onkel meine Stärke nicht."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWallyPleaseBattleMe",
+      "base_symbol": "MauvilleCity_Text_WallyPleaseBattleMe",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "УОЛЛИ: {PLAYER}, пожалуйста!"
+        ],
+        "A2": [
+          "УОЛЛИ: {PLAYER}, пожалуйста! Сразись со мной!"
+        ],
+        "natural": [
+          "УОЛЛИ: {PLAYER}, пожалуйста! Сразись со мной!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HEIKO: {PLAYER}, bitte!"
+        ],
+        "A2": [
+          "HEIKO: {PLAYER}, bitte! Kämpfe mit mir!"
+        ],
+        "natural": [
+          "HEIKO: {PLAYER}, bitte! Kämpfe mit mir!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWattsonNeedFavorTakeKey",
+      "base_symbol": "MauvilleCity_Text_WattsonNeedFavorTakeKey",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВАТТСОН: О, {PLAYER}!"
+        ],
+        "A2": [
+          "ВАТТСОН: О, {PLAYER}! Ты полон энергии!"
+        ],
+        "natural": [
+          "ВАТТСОН: О, {PLAYER}! Ты полон энергии! Ва-ха-ха! Мне нужна услуга. Под МОВИЛЛЕМ есть НОВЫЙ МОВИЛЛЬ. Генератор там вышел из-под контроля. Выключи его. Вот КЛЮЧ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WALTER: Oh, {PLAYER}!"
+        ],
+        "A2": [
+          "WALTER: Oh, {PLAYER}! Du steckst voller Energie!"
+        ],
+        "natural": [
+          "WALTER: Oh, {PLAYER}! Du steckst voller Energie! Wahaha! Ich brauche Hilfe. Unter MALVENFROH liegt NEU MALVENFROH. Der Generator spielt verrückt. Schalte ihn ab. Hier ist der SCHLÜSSEL."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWattsonWontBeChallenge",
+      "base_symbol": "MauvilleCity_Text_WattsonWontBeChallenge",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВАТТСОН: Не волнуйся, для тебя это легко."
+        ],
+        "A2": [
+          "ВАТТСОН: Не волнуйся, для тебя это легко. Вход в НОВЫЙ МОВИЛЛЬ недалеко от МАРШРУТА 110, нужно лишь немного проплыть."
+        ],
+        "natural": [
+          "ВАТТСОН: Не волнуйся, для тебя это легко. Вход в НОВЫЙ МОВИЛЛЬ недалеко от МАРШРУТА 110, нужно лишь немного проплыть. Я тебе доверяю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WALTER: Keine Sorge, das schaffst du leicht."
+        ],
+        "A2": [
+          "WALTER: Keine Sorge, das schaffst du leicht. Der Eingang zu NEU MALVENFROH liegt nahe ROUTE 110, nur kurz übers Wasser."
+        ],
+        "natural": [
+          "WALTER: Keine Sorge, das schaffst du leicht. Der Eingang zu NEU MALVENFROH liegt nahe ROUTE 110, nur kurz übers Wasser. Ich vertraue dir!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWattsonThanksTakeTM",
+      "base_symbol": "MauvilleCity_Text_WattsonThanksTakeTM",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВАТТСОН: Ва-ха-ха!"
+        ],
+        "A2": [
+          "ВАТТСОН: Ва-ха-ха! Я знал, что выбрал правильно, {PLAYER}!"
+        ],
+        "natural": [
+          "ВАТТСОН: Ва-ха-ха! Я знал, что выбрал правильно, {PLAYER}! В благодарность возьми ТМ с УДАРОМ МОЛНИИ. Ты заслужил!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WALTER: Wahaha!"
+        ],
+        "A2": [
+          "WALTER: Wahaha! Ich wusste, dass du richtig bist, {PLAYER}!"
+        ],
+        "natural": [
+          "WALTER: Wahaha! Ich wusste, dass du richtig bist, {PLAYER}! Als Dank erhältst du eine TM mit DONNERBLITZ. Du hast sie verdient!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityWattsonYoungTakeCharge",
+      "base_symbol": "MauvilleCity_Text_WattsonYoungTakeCharge",
+      "source_path": "data/maps/MauvilleCity/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВАТТСОН: Ва-ха-ха!"
+        ],
+        "A2": [
+          "ВАТТСОН: Ва-ха-ха! Как приятно видеть, что молодёжь берёт дело в свои руки!"
+        ],
+        "natural": [
+          "ВАТТСОН: Ва-ха-ха! Как приятно видеть, что молодёжь берёт дело в свои руки!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WALTER: Wahaha!"
+        ],
+        "A2": [
+          "WALTER: Wahaha! Es freut mich, wenn junge Leute Verantwortung übernehmen!"
+        ],
+        "natural": [
+          "WALTER: Wahaha! Es freut mich, wenn junge Leute Verantwortung übernehmen!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymWattsonIntro",
+      "base_symbol": "MauvilleCity_Gym_Text_WattsonIntro",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я отказался от перестройки города и занялся ловушками в СТАДИОНЕ."
+        ],
+        "A2": [
+          "Я отказался от перестройки города и занялся ловушками в СТАДИОНЕ. Что?"
+        ],
+        "natural": [
+          "Я отказался от перестройки города и занялся ловушками в СТАДИОНЕ. Что? Ты прошёл все мои двери? Ва-ха-ха! Забавно! Тогда я, ЛИДЕР ВАТТСОН, заряжу тебя током!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich gab meinen Stadtumbau auf und baute Fallen in die ARENA."
+        ],
+        "A2": [
+          "Ich gab meinen Stadtumbau auf und baute Fallen in die ARENA. Was?"
+        ],
+        "natural": [
+          "Ich gab meinen Stadtumbau auf und baute Fallen in die ARENA. Was? Du kamst durch alle Türen? Wahaha! Wie lustig! Dann wird dich LEITER WALTER elektrisieren!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymWattsonDefeat",
+      "base_symbol": "MauvilleCity_Gym_Text_WattsonDefeat",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ВАТТСОН: Ва-ха-ха!"
+        ],
+        "A2": [
+          "ВАТТСОН: Ва-ха-ха! Ладно, я проиграл!"
+        ],
+        "natural": [
+          "ВАТТСОН: Ва-ха-ха! Ладно, я проиграл! Ты подарил мне острые ощущения. Бери ЗНАЧОК!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WALTER: Wahaha!"
+        ],
+        "A2": [
+          "WALTER: Wahaha! Gut, ich verlor!"
+        ],
+        "natural": [
+          "WALTER: Wahaha! Gut, ich verlor! Du hast mich begeistert. Nimm diesen ORDEN!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymWattsonPostBattle",
+      "base_symbol": "MauvilleCity_Gym_Text_WattsonPostBattle",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Такой перспективный молодой ТРЕНЕР наполняет меня оптимизмом!"
+        ],
+        "A2": [
+          "Такой перспективный молодой ТРЕНЕР наполняет меня оптимизмом!"
+        ],
+        "natural": [
+          "Такой перспективный молодой ТРЕНЕР наполняет меня оптимизмом!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein vielversprechender junger TRAINER wie du erfüllt mich mit Zuversicht!"
+        ],
+        "A2": [
+          "Ein vielversprechender junger TRAINER wie du erfüllt mich mit Zuversicht!"
+        ],
+        "natural": [
+          "Ein vielversprechender junger TRAINER wie du erfüllt mich mit Zuversicht!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymReceivedDynamoBadge",
+      "base_symbol": "MauvilleCity_Gym_Text_ReceivedDynamoBadge",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} получает ЗНАЧОК ДИНАМО от ВАТТСОНА."
+        ],
+        "A2": [
+          "{PLAYER} получает ЗНАЧОК ДИНАМО от ВАТТСОНА."
+        ],
+        "natural": [
+          "{PLAYER} получает ЗНАЧОК ДИНАМО от ВАТТСОНА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} erhält den DYNAMO-ORDEN von WALTER."
+        ],
+        "A2": [
+          "{PLAYER} erhält den DYNAMO-ORDEN von WALTER."
+        ],
+        "natural": [
+          "{PLAYER} erhält den DYNAMO-ORDEN von WALTER."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymExplainDynamoBadgeTakeThis",
+      "base_symbol": "MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЗНАЧОК ДИНАМО позволяет применять РАЗБИВАНИЕ КАМНЕЙ вне боя и немного ускоряет покемонов."
+        ],
+        "A2": [
+          "ЗНАЧОК ДИНАМО позволяет применять РАЗБИВАНИЕ КАМНЕЙ вне боя и немного ускоряет покемонов. Хм..."
+        ],
+        "natural": [
+          "ЗНАЧОК ДИНАМО позволяет применять РАЗБИВАНИЕ КАМНЕЙ вне боя и немного ускоряет покемонов. Хм... Возьми ещё и это!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit dem DYNAMO-ORDEN kannst du ZERTRÜMMERER außerhalb des Kampfes nutzen."
+        ],
+        "A2": [
+          "Mit dem DYNAMO-ORDEN kannst du ZERTRÜMMERER außerhalb des Kampfes nutzen. Pokémon werden auch schneller."
+        ],
+        "natural": [
+          "Mit dem DYNAMO-ORDEN kannst du ZERTRÜMMERER außerhalb des Kampfes nutzen. Pokémon werden auch schneller. Hm... Nimm auch das!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymExplainShockWave",
+      "base_symbol": "MauvilleCity_Gym_Text_ExplainShockWave",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ТМ34 содержит ЭЛЕКТРОШОК."
+        ],
+        "A2": [
+          "ТМ34 содержит ЭЛЕКТРОШОК. Этот надёжный приём никогда не промахивается!"
+        ],
+        "natural": [
+          "ТМ34 содержит ЭЛЕКТРОШОК. Этот надёжный приём никогда не промахивается!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TM34 enthält SCHOCKWELLE."
+        ],
+        "A2": [
+          "TM34 enthält SCHOCKWELLE. Diese verlässliche Attacke verfehlt nie!"
+        ],
+        "natural": [
+          "TM34 enthält SCHOCKWELLE. Diese verlässliche Attacke verfehlt nie!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymWattsonGoForthAndEndeavor",
+      "base_symbol": "MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ва-ха-ха!"
+        ],
+        "A2": [
+          "Ва-ха-ха! Ступай и старайся, юный ТРЕНЕР!"
+        ],
+        "natural": [
+          "Ва-ха-ха! Ступай и старайся, юный ТРЕНЕР!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wahaha!"
+        ],
+        "A2": [
+          "Wahaha! Zieh los und gib dir Mühe, junger TRAINER!"
+        ],
+        "natural": [
+          "Wahaha! Zieh los und gib dir Mühe, junger TRAINER!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymKirkIntro",
+      "base_symbol": "MauvilleCity_Gym_Text_KirkIntro",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Моя электрическая душа разрушит твои мечты!"
+        ],
+        "A2": [
+          "Моя электрическая душа разрушит твои мечты! Йе-е!"
+        ],
+        "natural": [
+          "Моя электрическая душа разрушит твои мечты! Йе-е!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine elektrische Seele zertrümmert deine Träume!"
+        ],
+        "A2": [
+          "Meine elektrische Seele zertrümmert deine Träume! Yeah!"
+        ],
+        "natural": [
+          "Meine elektrische Seele zertrümmert deine Träume! Yeah!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymKirkDefeat",
+      "base_symbol": "MauvilleCity_Gym_Text_KirkDefeat",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это ток, усиление и электрический перегруз!"
+        ],
+        "A2": [
+          "Вот это ток, усиление и электрический перегруз!"
+        ],
+        "natural": [
+          "Вот это ток, усиление и электрический перегруз!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das war Strom, Verstärkung und elektrische Überladung!"
+        ],
+        "A2": [
+          "Das war Strom, Verstärkung und elektrische Überladung!"
+        ],
+        "natural": [
+          "Das war Strom, Verstärkung und elektrische Überladung!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymKirkPostBattle",
+      "base_symbol": "MauvilleCity_Gym_Text_KirkPostBattle",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Покемоны и рок - главное, чтобы от сердца!"
+        ],
+        "A2": [
+          "Покемоны и рок - главное, чтобы от сердца! Йе-е!"
+        ],
+        "natural": [
+          "Покемоны и рок - главное, чтобы от сердца! Йе-е!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon und Rock - Hauptsache mit Herz!"
+        ],
+        "A2": [
+          "Pokémon und Rock - Hauptsache mit Herz! Yeah!"
+        ],
+        "natural": [
+          "Pokémon und Rock - Hauptsache mit Herz! Yeah!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymShawnIntro",
+      "base_symbol": "MauvilleCity_Gym_Text_ShawnIntro",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я тренировался у ВАТТСОНА!"
+        ],
+        "A2": [
+          "Я тренировался у ВАТТСОНА! Так просто я не проиграю!"
+        ],
+        "natural": [
+          "Я тренировался у ВАТТСОНА! Так просто я не проиграю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich trainierte bei WALTER!"
+        ],
+        "A2": [
+          "Ich trainierte bei WALTER! So leicht verliere ich nicht!"
+        ],
+        "natural": [
+          "Ich trainierte bei WALTER! So leicht verliere ich nicht!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymShawnDefeat",
+      "base_symbol": "MauvilleCity_Gym_Text_ShawnDefeat",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Отключён и обесточен..."
+        ],
+        "A2": [
+          "Отключён и обесточен..."
+        ],
+        "natural": [
+          "Отключён и обесточен..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ausgesteckt und abgeschaltet..."
+        ],
+        "A2": [
+          "Ausgesteckt und abgeschaltet..."
+        ],
+        "natural": [
+          "Ausgesteckt und abgeschaltet..."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymShawnPostBattle",
+      "base_symbol": "MauvilleCity_Gym_Text_ShawnPostBattle",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Наш ЛИДЕР ВАТТСОН сражается уже очень давно."
+        ],
+        "A2": [
+          "Наш ЛИДЕР ВАТТСОН сражается уже очень давно. Даже до рождения твоего отца, крепкий старик!"
+        ],
+        "natural": [
+          "Наш ЛИДЕР ВАТТСОН сражается уже очень давно. Даже до рождения твоего отца, крепкий старик!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unser LEITER WALTER kämpft schon sehr lange."
+        ],
+        "A2": [
+          "Unser LEITER WALTER kämpft schon sehr lange. Sogar bevor dein Vater geboren wurde, der harte Alte!"
+        ],
+        "natural": [
+          "Unser LEITER WALTER kämpft schon sehr lange. Sogar bevor dein Vater geboren wurde, der harte Alte!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymBenIntro",
+      "base_symbol": "MauvilleCity_Gym_Text_BenIntro",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "В этом СТАДИОНЕ есть загадки!"
+        ],
+        "A2": [
+          "В этом СТАДИОНЕ есть загадки! Разве не весело?"
+        ],
+        "natural": [
+          "В этом СТАДИОНЕ есть загадки! Разве не весело?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diese ARENA hat Rätsel!"
+        ],
+        "A2": [
+          "Diese ARENA hat Rätsel! Macht das nicht Spaß?"
+        ],
+        "natural": [
+          "Diese ARENA hat Rätsel! Macht das nicht Spaß?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymBenDefeat",
+      "base_symbol": "MauvilleCity_Gym_Text_BenDefeat",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Проигрывать невесело..."
+        ],
+        "A2": [
+          "Проигрывать невесело..."
+        ],
+        "natural": [
+          "Проигрывать невесело..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Verlieren macht keinen Spaß..."
+        ],
+        "A2": [
+          "Verlieren macht keinen Spaß..."
+        ],
+        "natural": [
+          "Verlieren macht keinen Spaß..."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymBenPostBattle",
+      "base_symbol": "MauvilleCity_Gym_Text_BenPostBattle",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "ВАТТСОН любит устраивать маленькие ловушки с переключателями."
+        ],
+        "A2": [
+          "ВАТТСОН любит устраивать маленькие ловушки с переключателями."
+        ],
+        "natural": [
+          "ВАТТСОН любит устраивать маленькие ловушки с переключателями."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "WALTER baut gern kleine Fallen mit Schaltern."
+        ],
+        "A2": [
+          "WALTER baut gern kleine Fallen mit Schaltern."
+        ],
+        "natural": [
+          "WALTER baut gern kleine Fallen mit Schaltern."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymVivianIntro",
+      "base_symbol": "MauvilleCity_Gym_Text_VivianIntro",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Моё обаяние и приёмы покемонов тебя шокируют!"
+        ],
+        "A2": [
+          "Моё обаяние и приёмы покемонов тебя шокируют!"
+        ],
+        "natural": [
+          "Моё обаяние и приёмы покемонов тебя шокируют!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Charme und die Attacken meiner Pokémon schocken dich!"
+        ],
+        "A2": [
+          "Mein Charme und die Attacken meiner Pokémon schocken dich!"
+        ],
+        "natural": [
+          "Mein Charme und die Attacken meiner Pokémon schocken dich!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymVivianDefeat",
+      "base_symbol": "MauvilleCity_Gym_Text_VivianDefeat",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Твоя сила меня шокировала!"
+        ],
+        "A2": [
+          "Твоя сила меня шокировала!"
+        ],
+        "natural": [
+          "Твоя сила меня шокировала!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Deine Kraft hat mich geschockt!"
+        ],
+        "A2": [
+          "Deine Kraft hat mich geschockt!"
+        ],
+        "natural": [
+          "Deine Kraft hat mich geschockt!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymVivianPostBattle",
+      "base_symbol": "MauvilleCity_Gym_Text_VivianPostBattle",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Говорят, МОВИЛЛЬ основал ВАТТСОН."
+        ],
+        "A2": [
+          "Говорят, МОВИЛЛЬ основал ВАТТСОН. Он был ТРЕНЕРОМ задолго до нас."
+        ],
+        "natural": [
+          "Говорят, МОВИЛЛЬ основал ВАТТСОН. Он был ТРЕНЕРОМ задолго до нас. Наверное, знает очень многое!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Man sagt, WALTER gründete MALVENFROH."
+        ],
+        "A2": [
+          "Man sagt, WALTER gründete MALVENFROH. Er war lange vor uns TRAINER."
+        ],
+        "natural": [
+          "Man sagt, WALTER gründete MALVENFROH. Er war lange vor uns TRAINER. Er weiß bestimmt sehr viel!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymGymGuideAdvice",
+      "base_symbol": "MauvilleCity_Gym_Text_GymGuideAdvice",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Привет, будущий ЧЕМПИОН {PLAYER}!"
+        ],
+        "A2": [
+          "Привет, будущий ЧЕМПИОН {PLAYER}! ЛИДЕР ВАТТСОН использует ЭЛЕКТРИЧЕСКИХ покемонов."
+        ],
+        "natural": [
+          "Привет, будущий ЧЕМПИОН {PLAYER}! ЛИДЕР ВАТТСОН использует ЭЛЕКТРИЧЕСКИХ покемонов. ВОДНЫХ он поджарит! А ещё весь СТАДИОН полон дверей с переключателями. Вперёд!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo, künftiger CHAMP {PLAYER}!"
+        ],
+        "A2": [
+          "Hallo, künftiger CHAMP {PLAYER}! LEITER WALTER nutzt ELEKTRO-Pokémon."
+        ],
+        "natural": [
+          "Hallo, künftiger CHAMP {PLAYER}! LEITER WALTER nutzt ELEKTRO-Pokémon. WASSER-Pokémon brutzelt er! Die ARENA ist voller Schaltertüren. Los!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymGymGuidePostVictory",
+      "base_symbol": "MauvilleCity_Gym_Text_GymGuidePostVictory",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это напряжение!"
+        ],
+        "A2": [
+          "Вот это напряжение! Ты открыл дверь!"
+        ],
+        "natural": [
+          "Вот это напряжение! Ты открыл дверь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist elektrisierend!"
+        ],
+        "A2": [
+          "Du bist elektrisierend! Die Tür ist offen!"
+        ],
+        "natural": [
+          "Du bist elektrisierend! Die Tür ist offen!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymGymStatueCertified",
+      "base_symbol": "MauvilleCity_Gym_Text_GymStatueCertified",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ ПРИЗНАННЫЕ ТРЕНЕРЫ ВАТТСОНА: {PLAYER}"
+        ],
+        "A2": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ ПРИЗНАННЫЕ ТРЕНЕРЫ ВАТТСОНА: {PLAYER}"
+        ],
+        "natural": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ ПРИЗНАННЫЕ ТРЕНЕРЫ ВАТТСОНА: {PLAYER}"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéMON-ARENA MALVENFROH VON WALTER ANERKANNTE TRAINER: {PLAYER}"
+        ],
+        "A2": [
+          "POKéMON-ARENA MALVENFROH VON WALTER ANERKANNTE TRAINER: {PLAYER}"
+        ],
+        "natural": [
+          "POKéMON-ARENA MALVENFROH VON WALTER ANERKANNTE TRAINER: {PLAYER}"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGymGymStatue",
+      "base_symbol": "MauvilleCity_Gym_Text_GymStatue",
+      "source_path": "data/maps/MauvilleCity_Gym/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Gym guide, Wattson, badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ"
+        ],
+        "A2": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ"
+        ],
+        "natural": [
+          "СТАДИОН ПОКЕМОНОВ МОВИЛЛЯ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKéMON-ARENA MALVENFROH"
+        ],
+        "A2": [
+          "POKéMON-ARENA MALVENFROH"
+        ],
+        "natural": [
+          "POKéMON-ARENA MALVENFROH"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseOneTakeHMRockSmash",
+      "base_symbol": "MauvilleCity_House1_Text_TakeHMRockSmash",
+      "source_path": "data/maps/MauvilleCity_House1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ух ты, твои покемоны выглядят сильными."
+        ],
+        "A2": [
+          "Ух ты, твои покемоны выглядят сильными. Мне нравится!"
+        ],
+        "natural": [
+          "Ух ты, твои покемоны выглядят сильными. Мне нравится! Возьми эту СМ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wow, deine Pokémon sehen stark aus."
+        ],
+        "A2": [
+          "Wow, deine Pokémon sehen stark aus. Das gefällt mir!"
+        ],
+        "natural": [
+          "Wow, deine Pokémon sehen stark aus. Das gefällt mir! Nimm diese VM!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseOneExplainRockSmash",
+      "base_symbol": "MauvilleCity_House1_Text_ExplainRockSmash",
+      "source_path": "data/maps/MauvilleCity_House1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Эта СМ содержит РАЗБИВАНИЕ КАМНЕЙ."
+        ],
+        "A2": [
+          "Эта СМ содержит РАЗБИВАНИЕ КАМНЕЙ. Если валун преградит путь, разбей его этим приёмом!"
+        ],
+        "natural": [
+          "Эта СМ содержит РАЗБИВАНИЕ КАМНЕЙ. Если валун преградит путь, разбей его этим приёмом!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diese VM enthält ZERTRÜMMERER."
+        ],
+        "A2": [
+          "Diese VM enthält ZERTRÜMMERER. Versperrt ein Felsen den Weg, zerschmettere ihn damit!"
+        ],
+        "natural": [
+          "Diese VM enthält ZERTRÜMMERER. Versperrt ein Felsen den Weg, zerschmettere ihn damit!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseOneMonCanFlyOutOfSmashedRock",
+      "base_symbol": "MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock",
+      "source_path": "data/maps/MauvilleCity_House1/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Да, из разбитого камня может выскочить покемон."
+        ],
+        "A2": [
+          "Да, из разбитого камня может выскочить покемон."
+        ],
+        "natural": [
+          "Да, из разбитого камня может выскочить покемон."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ja, aus einem zertrümmerten Felsen kann ein Pokémon springen."
+        ],
+        "A2": [
+          "Ja, aus einem zertrümmerten Felsen kann ein Pokémon springen."
+        ],
+        "natural": [
+          "Ja, aus einem zertrümmerten Felsen kann ein Pokémon springen."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseTwoBuyHarborMailAtSlateport",
+      "base_symbol": "MauvilleCity_House2_Text_BuyHarborMailAtSlateport",
+      "source_path": "data/maps/MauvilleCity_House2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "С ВЕЛОСИПЕДОМ было бы легко съездить за покупками в СЛЕЙТПОРТ."
+        ],
+        "A2": [
+          "С ВЕЛОСИПЕДОМ было бы легко съездить за покупками в СЛЕЙТПОРТ. Там продают ПОРТОВУЮ ПОЧТУ..."
+        ],
+        "natural": [
+          "С ВЕЛОСИПЕДОМ было бы легко съездить за покупками в СЛЕЙТПОРТ. Там продают ПОРТОВУЮ ПОЧТУ..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit einem RAD könnte ich leicht in GRAPHITPORT einkaufen."
+        ],
+        "A2": [
+          "Mit einem RAD könnte ich leicht in GRAPHITPORT einkaufen. Dort gibt es HAFENBRIEF..."
+        ],
+        "natural": [
+          "Mit einem RAD könnte ich leicht in GRAPHITPORT einkaufen. Dort gibt es HAFENBRIEF..."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseTwoTradeHarborMailForCoinCase",
+      "base_symbol": "MauvilleCity_House2_Text_TradeHarborMailForCoinCase",
+      "source_path": "data/maps/MauvilleCity_House2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О!"
+        ],
+        "A2": [
+          "О! У тебя ПОРТОВАЯ ПОЧТА?"
+        ],
+        "natural": [
+          "О! У тебя ПОРТОВАЯ ПОЧТА? Обменяешь её на ФУТЛЯР ДЛЯ МОНЕТ?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Du hast einen HAFENBRIEF?"
+        ],
+        "natural": [
+          "Oh! Du hast einen HAFENBRIEF? Tauschst du ihn gegen ein MÜNZAMULETT?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseTwoIllTradeYouCoinCase",
+      "base_symbol": "MauvilleCity_House2_Text_IllTradeYouCoinCase",
+      "source_path": "data/maps/MauvilleCity_House2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О, я так рада!"
+        ],
+        "A2": [
+          "О, я так рада! Хорошо, отдам тебе ФУТЛЯР ДЛЯ МОНЕТ!"
+        ],
+        "natural": [
+          "О, я так рада! Хорошо, отдам тебе ФУТЛЯР ДЛЯ МОНЕТ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, ich freue mich!"
+        ],
+        "A2": [
+          "Oh, ich freue mich! Gut, du bekommst das MÜNZAMULETT!"
+        ],
+        "natural": [
+          "Oh, ich freue mich! Gut, du bekommst das MÜNZAMULETT!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseTwoUseCoinCaseAtGameCorner",
+      "base_symbol": "MauvilleCity_House2_Text_UseCoinCaseAtGameCorner",
+      "source_path": "data/maps/MauvilleCity_House2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ФУТЛЯР ДЛЯ МОНЕТ используют в ИГРОВОМ УГОЛКЕ."
+        ],
+        "A2": [
+          "ФУТЛЯР ДЛЯ МОНЕТ используют в ИГРОВОМ УГОЛКЕ."
+        ],
+        "natural": [
+          "ФУТЛЯР ДЛЯ МОНЕТ используют в ИГРОВОМ УГОЛКЕ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das MÜNZAMULETT brauchst du in der SPIELHALLE."
+        ],
+        "A2": [
+          "Das MÜNZAMULETT brauchst du in der SPIELHALLE."
+        ],
+        "natural": [
+          "Das MÜNZAMULETT brauchst du in der SPIELHALLE."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityHouseTwoThatsDisappointing",
+      "base_symbol": "MauvilleCity_House2_Text_ThatsDisappointing",
+      "source_path": "data/maps/MauvilleCity_House2/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Какая жалость."
+        ],
+        "A2": [
+          "Какая жалость. ФУТЛЯР ДЛЯ МОНЕТ нужен для ИГРОВОГО УГОЛКА."
+        ],
+        "natural": [
+          "Какая жалость. ФУТЛЯР ДЛЯ МОНЕТ нужен для ИГРОВОГО УГОЛКА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie schade."
+        ],
+        "A2": [
+          "Wie schade. Das MÜNZAMULETT brauchst du für die SPIELHALLE."
+        ],
+        "natural": [
+          "Wie schade. Das MÜNZAMULETT brauchst du für die SPIELHALLE."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityMartItemsToTemporarilyElevateStats",
+      "base_symbol": "MauvilleCity_Mart_Text_ItemsToTemporarilyElevateStats",
+      "source_path": "data/maps/MauvilleCity_Mart/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Некоторые предметы временно повышают параметры покемонов."
+        ],
+        "A2": [
+          "Некоторые предметы временно повышают параметры покемонов. В бою применяют ИКС-АТАКУ, ИКС-ЗАЩИТУ и другие."
+        ],
+        "natural": [
+          "Некоторые предметы временно повышают параметры покемонов. В бою применяют ИКС-АТАКУ, ИКС-ЗАЩИТУ и другие."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Manche Items erhöhen vorübergehend Pokémon-Werte."
+        ],
+        "A2": [
+          "Manche Items erhöhen vorübergehend Pokémon-Werte. Im Kampf nutzt man X-ANGRIFF, X-ABWEHR und weitere."
+        ],
+        "natural": [
+          "Manche Items erhöhen vorübergehend Pokémon-Werte. Im Kampf nutzt man X-ANGRIFF, X-ABWEHR und weitere."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityMartDecisionsDetermineBattle",
+      "base_symbol": "MauvilleCity_Mart_Text_DecisionsDetermineBattle",
+      "source_path": "data/maps/MauvilleCity_Mart/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Применить приём или предмет..."
+        ],
+        "A2": [
+          "Применить приём или предмет... Решения ТРЕНЕРА определяют исход боя."
+        ],
+        "natural": [
+          "Применить приём или предмет... Решения ТРЕНЕРА определяют исход боя."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eine Attacke oder ein Item nutzen..."
+        ],
+        "A2": [
+          "Eine Attacke oder ein Item nutzen... Die Entscheidungen des TRAINERS bestimmen den Kampf."
+        ],
+        "natural": [
+          "Eine Attacke oder ein Item nutzen... Die Entscheidungen des TRAINERS bestimmen den Kampf."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityPokemonCenterOneFManOverThereSaysWeirdThings",
+      "base_symbol": "MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings",
+      "source_path": "data/maps/MauvilleCity_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Тот мужчина говорит странные вещи!"
+        ],
+        "A2": [
+          "Тот мужчина говорит странные вещи! Он забавный, хоть и чудной."
+        ],
+        "natural": [
+          "Тот мужчина говорит странные вещи! Он забавный, хоть и чудной. Я его точно не забуду!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Mann dort sagt seltsame Dinge!"
+        ],
+        "A2": [
+          "Der Mann dort sagt seltsame Dinge! Er ist auf merkwürdige Art lustig."
+        ],
+        "natural": [
+          "Der Mann dort sagt seltsame Dinge! Er ist auf merkwürdige Art lustig. Ich vergesse ihn bestimmt nicht!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityPokemonCenterOneFMyDataUpdatedFromRecordCorner",
+      "base_symbol": "MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner",
+      "source_path": "data/maps/MauvilleCity_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В УГОЛКЕ РЕКОРДОВ обновились данные о моде в ДЬЮФОРДЕ."
+        ],
+        "A2": [
+          "В УГОЛКЕ РЕКОРДОВ обновились данные о моде в ДЬЮФОРДЕ. Теперь они такие же, как у моего друга!"
+        ],
+        "natural": [
+          "В УГОЛКЕ РЕКОРДОВ обновились данные о моде в ДЬЮФОРДЕ. Теперь они такие же, как у моего друга!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In der REKORDECKE wurden meine Trenddaten aus FAUSTAUHAVEN aktualisiert."
+        ],
+        "A2": [
+          "In der REKORDECKE wurden meine Trenddaten aus FAUSTAUHAVEN aktualisiert. Nun sind sie wie bei meinem Freund!"
+        ],
+        "natural": [
+          "In der REKORDECKE wurden meine Trenddaten aus FAUSTAUHAVEN aktualisiert. Nun sind sie wie bei meinem Freund!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityPokemonCenterOneFRecordCornerSoundsFun",
+      "base_symbol": "MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun",
+      "source_path": "data/maps/MauvilleCity_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville story, Wally, resident, shop, Pokémon Center, house, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Наверху ЦЕНТРА ПОКЕМОНОВ открылся УГОЛОК РЕКОРДОВ."
+        ],
+        "A2": [
+          "Наверху ЦЕНТРА ПОКЕМОНОВ открылся УГОЛОК РЕКОРДОВ. Не знаю, что это, но звучит весело."
+        ],
+        "natural": [
+          "Наверху ЦЕНТРА ПОКЕМОНОВ открылся УГОЛОК РЕКОРДОВ. Не знаю, что это, но звучит весело. Пойду посмотрю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "city"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "city"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oben im POKéMON-CENTER öffnete eine REKORDECKE."
+        ],
+        "A2": [
+          "Oben im POKéMON-CENTER öffnete eine REKORDECKE. Ich weiß nicht, was das ist, aber es klingt lustig."
+        ],
+        "natural": [
+          "Oben im POKéMON-CENTER öffnete eine REKORDECKE. Ich weiß nicht, was das ist, aber es klingt lustig. Ich sehe nach!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopRydelGreeting",
+      "base_symbol": "MauvilleCity_BikeShop_Text_RydelGreeting",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это да, какой энергичный покупатель!"
+        ],
+        "A2": [
+          "Вот это да, какой энергичный покупатель! Меня зовут РАЙДЕЛ, я владелец магазина велосипедов."
+        ],
+        "natural": [
+          "Вот это да, какой энергичный покупатель! Меня зовут РАЙДЕЛ, я владелец магазина велосипедов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieh an, ein energiegeladener Kunde!"
+        ],
+        "A2": [
+          "Sieh an, ein energiegeladener Kunde! Ich heiße RADLAS und besitze diesen RADLADEN."
+        ],
+        "natural": [
+          "Sieh an, ein energiegeladener Kunde! Ich heiße RADLAS und besitze diesen RADLADEN."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopDidYouComeFromFarAway",
+      "base_symbol": "MauvilleCity_BikeShop_Text_DidYouComeFromFarAway",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Твои БЕГОВЫЕ БОТИНКИ ужасно грязные."
+        ],
+        "A2": [
+          "РАЙДЕЛ: Твои БЕГОВЫЕ БОТИНКИ ужасно грязные. Ты пришёл издалека?"
+        ],
+        "natural": [
+          "РАЙДЕЛ: Твои БЕГОВЫЕ БОТИНКИ ужасно грязные. Ты пришёл издалека?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Deine TURBOTRETER sind sehr schmutzig."
+        ],
+        "A2": [
+          "RADLAS: Deine TURBOTRETER sind sehr schmutzig. Kommst du von weit her?"
+        ],
+        "natural": [
+          "RADLAS: Deine TURBOTRETER sind sehr schmutzig. Kommst du von weit her?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopExplainBikesChooseWhichOne",
+      "base_symbol": "MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Ты пришёл из ЛИТТЛРУТА?"
+        ],
+        "A2": [
+          "РАЙДЕЛ: Ты пришёл из ЛИТТЛРУТА? Это очень далеко!"
+        ],
+        "natural": [
+          "РАЙДЕЛ: Ты пришёл из ЛИТТЛРУТА? Это очень далеко! С моим ВЕЛОСИПЕДОМ легко добраться куда угодно. Я подарю тебе один! Есть два вида: СКОРОСТНОЙ для быстрой езды и ТРЮКОВОЙ для техники. Какой выберешь?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Du kommst aus WURZELHEIM?"
+        ],
+        "A2": [
+          "RADLAS: Du kommst aus WURZELHEIM? Das ist sehr weit!"
+        ],
+        "natural": [
+          "RADLAS: Du kommst aus WURZELHEIM? Das ist sehr weit! Mit meinem RAD erreichst du leicht jedes Ziel. Ich schenke dir eins! Es gibt das schnelle EILRAD und das technische KUNSTRAD. Welches wählst du?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopGuessYouDontNeedBike",
+      "base_symbol": "MauvilleCity_BikeShop_Text_GuessYouDontNeedBike",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Вот как?"
+        ],
+        "A2": [
+          "РАЙДЕЛ: Вот как? Тогда, наверное, мои ВЕЛОСИПЕДЫ тебе не нужны."
+        ],
+        "natural": [
+          "РАЙДЕЛ: Вот как? Тогда, наверное, мои ВЕЛОСИПЕДЫ тебе не нужны."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Ach so?"
+        ],
+        "A2": [
+          "RADLAS: Ach so? Dann brauchst du wohl keines meiner RÄDER."
+        ],
+        "natural": [
+          "RADLAS: Ach so? Dann brauchst du wohl keines meiner RÄDER."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopChoseMachBike",
+      "base_symbol": "MauvilleCity_BikeShop_Text_ChoseMachBike",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} выбирает СКОРОСТНОЙ ВЕЛОСИПЕД."
+        ],
+        "A2": [
+          "{PLAYER} выбирает СКОРОСТНОЙ ВЕЛОСИПЕД."
+        ],
+        "natural": [
+          "{PLAYER} выбирает СКОРОСТНОЙ ВЕЛОСИПЕД."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} wählt das EILRAD."
+        ],
+        "A2": [
+          "{PLAYER} wählt das EILRAD."
+        ],
+        "natural": [
+          "{PLAYER} wählt das EILRAD."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopChoseAcroBike",
+      "base_symbol": "MauvilleCity_BikeShop_Text_ChoseAcroBike",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} выбирает ТРЮКОВОЙ ВЕЛОСИПЕД."
+        ],
+        "A2": [
+          "{PLAYER} выбирает ТРЮКОВОЙ ВЕЛОСИПЕД."
+        ],
+        "natural": [
+          "{PLAYER} выбирает ТРЮКОВОЙ ВЕЛОСИПЕД."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} wählt das KUNSTRAD."
+        ],
+        "A2": [
+          "{PLAYER} wählt das KUNSTRAD."
+        ],
+        "natural": [
+          "{PLAYER} wählt das KUNSTRAD."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopComeBackToSwitchBikes",
+      "base_symbol": "MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Если захочешь сменить ВЕЛОСИПЕД, приходи ко мне!"
+        ],
+        "A2": [
+          "РАЙДЕЛ: Если захочешь сменить ВЕЛОСИПЕД, приходи ко мне!"
+        ],
+        "natural": [
+          "РАЙДЕЛ: Если захочешь сменить ВЕЛОСИПЕД, приходи ко мне!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Willst du dein RAD tauschen, komm einfach zu mir!"
+        ],
+        "A2": [
+          "RADLAS: Willst du dein RAD tauschen, komm einfach zu mir!"
+        ],
+        "natural": [
+          "RADLAS: Willst du dein RAD tauschen, komm einfach zu mir!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopWantToSwitchBikes",
+      "base_symbol": "MauvilleCity_BikeShop_Text_WantToSwitchBikes",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Хочешь сменить ВЕЛОСИПЕД?"
+        ],
+        "A2": [
+          "РАЙДЕЛ: Хочешь сменить ВЕЛОСИПЕД?"
+        ],
+        "natural": [
+          "РАЙДЕЛ: Хочешь сменить ВЕЛОСИПЕД?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Möchtest du dein RAD tauschen?"
+        ],
+        "A2": [
+          "RADLAS: Möchtest du dein RAD tauschen?"
+        ],
+        "natural": [
+          "RADLAS: Möchtest du dein RAD tauschen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopIllSwitchBikes",
+      "base_symbol": "MauvilleCity_BikeShop_Text_IllSwitchBikes",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Конечно!"
+        ],
+        "A2": [
+          "РАЙДЕЛ: Конечно! Я обменяю твой ВЕЛОСИПЕД!"
+        ],
+        "natural": [
+          "РАЙДЕЛ: Конечно! Я обменяю твой ВЕЛОСИПЕД!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Kein Problem!"
+        ],
+        "A2": [
+          "RADLAS: Kein Problem! Ich tausche dein RAD!"
+        ],
+        "natural": [
+          "RADLAS: Kein Problem! Ich tausche dein RAD!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopOhYourBikeIsInPC",
+      "base_symbol": "MauvilleCity_BikeShop_Text_OhYourBikeIsInPC",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Где ВЕЛОСИПЕД, который я дал?"
+        ],
+        "A2": [
+          "Где ВЕЛОСИПЕД, который я дал? Ах, ты положил его в ПК."
+        ],
+        "natural": [
+          "Где ВЕЛОСИПЕД, который я дал? Ах, ты положил его в ПК. Достань его, и я с радостью обменяю. Пусть ветер всегда дует тебе в спину!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wo ist das RAD von mir?"
+        ],
+        "A2": [
+          "Wo ist das RAD von mir? Ach, es liegt im PC."
+        ],
+        "natural": [
+          "Wo ist das RAD von mir? Ach, es liegt im PC. Hol es heraus, dann tausche ich es gern. Möge der Wind stets in deinem Rücken sein!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopHappyYouLikeIt",
+      "base_symbol": "MauvilleCity_BikeShop_Text_HappyYouLikeIt",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "РАЙДЕЛ: Отлично!"
+        ],
+        "A2": [
+          "РАЙДЕЛ: Отлично! Рад, что тебе нравится!"
+        ],
+        "natural": [
+          "РАЙДЕЛ: Отлично! Рад, что тебе нравится!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RADLAS: Sehr gut!"
+        ],
+        "A2": [
+          "RADLAS: Sehr gut! Schön, dass es dir gefällt!"
+        ],
+        "natural": [
+          "RADLAS: Sehr gut! Schön, dass es dir gefällt!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopExchangedAcroForMach",
+      "base_symbol": "MauvilleCity_BikeShop_Text_ExchangedAcroForMach",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} меняет ТРЮКОВОЙ ВЕЛОСИПЕД на СКОРОСТНОЙ."
+        ],
+        "A2": [
+          "{PLAYER} меняет ТРЮКОВОЙ ВЕЛОСИПЕД на СКОРОСТНОЙ."
+        ],
+        "natural": [
+          "{PLAYER} меняет ТРЮКОВОЙ ВЕЛОСИПЕД на СКОРОСТНОЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} tauscht das KUNSTRAD gegen das EILRAD."
+        ],
+        "A2": [
+          "{PLAYER} tauscht das KUNSTRAD gegen das EILRAD."
+        ],
+        "natural": [
+          "{PLAYER} tauscht das KUNSTRAD gegen das EILRAD."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopExchangedMachForAcro",
+      "base_symbol": "MauvilleCity_BikeShop_Text_ExchangedMachForAcro",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} меняет СКОРОСТНОЙ ВЕЛОСИПЕД на ТРЮКОВОЙ."
+        ],
+        "A2": [
+          "{PLAYER} меняет СКОРОСТНОЙ ВЕЛОСИПЕД на ТРЮКОВОЙ."
+        ],
+        "natural": [
+          "{PLAYER} меняет СКОРОСТНОЙ ВЕЛОСИПЕД на ТРЮКОВОЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} tauscht das EILRAD gegen das KUNSTRAD."
+        ],
+        "A2": [
+          "{PLAYER} tauscht das EILRAD gegen das KUNSTRAD."
+        ],
+        "natural": [
+          "{PLAYER} tauscht das EILRAD gegen das KUNSTRAD."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopHandbooksAreInBack",
+      "base_symbol": "MauvilleCity_BikeShop_Text_HandbooksAreInBack",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Работая здесь, я изучаю ВЕЛОСИПЕДЫ."
+        ],
+        "A2": [
+          "Работая здесь, я изучаю ВЕЛОСИПЕДЫ. Если нужен совет по езде, сзади лежат два справочника."
+        ],
+        "natural": [
+          "Работая здесь, я изучаю ВЕЛОСИПЕДЫ. Если нужен совет по езде, сзади лежат два справочника."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bei der Arbeit lerne ich über RÄDER."
+        ],
+        "A2": [
+          "Bei der Arbeit lerne ich über RÄDER. Brauchst du Fahrtipps, hinten liegen zwei Handbücher."
+        ],
+        "natural": [
+          "Bei der Arbeit lerne ich über RÄDER. Brauchst du Fahrtipps, hinten liegen zwei Handbücher."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopMachHandbookWhichPage",
+      "base_symbol": "MauvilleCity_BikeShop_Text_MachHandbookWhichPage",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это справочник по СКОРОСТНОМУ ВЕЛОСИПЕДУ."
+        ],
+        "A2": [
+          "Это справочник по СКОРОСТНОМУ ВЕЛОСИПЕДУ. Какую страницу читать?"
+        ],
+        "natural": [
+          "Это справочник по СКОРОСТНОМУ ВЕЛОСИПЕДУ. Какую страницу читать?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist das EILRAD-Handbuch."
+        ],
+        "A2": [
+          "Das ist das EILRAD-Handbuch. Welche Seite möchtest du lesen?"
+        ],
+        "natural": [
+          "Das ist das EILRAD-Handbuch. Welche Seite möchtest du lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopHowToRideMachBike",
+      "base_symbol": "MauvilleCity_BikeShop_Text_HowToRideMachBike",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ВЕЛОСИПЕД едет в направлении кнопки управления и постепенно ускоряется."
+        ],
+        "A2": [
+          "ВЕЛОСИПЕД едет в направлении кнопки управления и постепенно ускоряется. Отпусти кнопку, чтобы замедлиться и остановиться."
+        ],
+        "natural": [
+          "ВЕЛОСИПЕД едет в направлении кнопки управления и постепенно ускоряется. Отпусти кнопку, чтобы замедлиться и остановиться. Читать другую страницу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das RAD fährt in Richtung des Steuerkreuzes und wird schneller."
+        ],
+        "A2": [
+          "Das RAD fährt in Richtung des Steuerkreuzes und wird schneller. Lass es los, um abzubremsen."
+        ],
+        "natural": [
+          "Das RAD fährt in Richtung des Steuerkreuzes und wird schneller. Lass es los, um abzubremsen. Eine andere Seite lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopHowToTurnMachBike",
+      "base_symbol": "MauvilleCity_BikeShop_Text_HowToTurnMachBike",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СКОРОСТНОЙ ВЕЛОСИПЕД быстр, но медленно останавливается."
+        ],
+        "A2": [
+          "СКОРОСТНОЙ ВЕЛОСИПЕД быстр, но медленно останавливается. Перед поворотом отпусти кнопку и сбавь скорость."
+        ],
+        "natural": [
+          "СКОРОСТНОЙ ВЕЛОСИПЕД быстр, но медленно останавливается. Перед поворотом отпусти кнопку и сбавь скорость. Читать другую страницу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das EILRAD ist schnell, hält aber langsam an."
+        ],
+        "A2": [
+          "Das EILRAD ist schnell, hält aber langsam an. Lass vor der Kurve das Steuerkreuz los."
+        ],
+        "natural": [
+          "Das EILRAD ist schnell, hält aber langsam an. Lass vor der Kurve das Steuerkreuz los. Eine andere Seite lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopSandySlopes",
+      "base_symbol": "MauvilleCity_BikeShop_Text_SandySlopes",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "По всему ХОЭННУ есть песчаные склоны, на которые нельзя подняться пешком."
+        ],
+        "A2": [
+          "По всему ХОЭННУ есть песчаные склоны, на которые нельзя подняться пешком. СКОРОСТНОЙ ВЕЛОСИПЕД взлетит на них."
+        ],
+        "natural": [
+          "По всему ХОЭННУ есть песчаные склоны, на которые нельзя подняться пешком. СКОРОСТНОЙ ВЕЛОСИПЕД взлетит на них. Читать другую страницу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In HOENN gibt es sandige Hänge, die man zu Fuß nicht erklimmt."
+        ],
+        "A2": [
+          "In HOENN gibt es sandige Hänge, die man zu Fuß nicht erklimmt. Mit dem EILRAD rast du hinauf."
+        ],
+        "natural": [
+          "In HOENN gibt es sandige Hänge, die man zu Fuß nicht erklimmt. Mit dem EILRAD rast du hinauf. Eine andere Seite lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopAcroHandbookWhichPage",
+      "base_symbol": "MauvilleCity_BikeShop_Text_AcroHandbookWhichPage",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это справочник по ТРЮКОВОМУ ВЕЛОСИПЕДУ."
+        ],
+        "A2": [
+          "Это справочник по ТРЮКОВОМУ ВЕЛОСИПЕДУ. Какую страницу читать?"
+        ],
+        "natural": [
+          "Это справочник по ТРЮКОВОМУ ВЕЛОСИПЕДУ. Какую страницу читать?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist das KUNSTRAD-Handbuch."
+        ],
+        "A2": [
+          "Das ist das KUNSTRAD-Handbuch. Welche Seite möchtest du lesen?"
+        ],
+        "natural": [
+          "Das ist das KUNSTRAD-Handbuch. Welche Seite möchtest du lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopWheelies",
+      "base_symbol": "MauvilleCity_BikeShop_Text_Wheelies",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Во время езды нажми B, чтобы поднять переднее колесо."
+        ],
+        "A2": [
+          "Во время езды нажми B, чтобы поднять переднее колесо. Кнопками управления можно ехать так дальше."
+        ],
+        "natural": [
+          "Во время езды нажми B, чтобы поднять переднее колесо. Кнопками управления можно ехать так дальше. Это называется езда на заднем колесе. Читать другую страницу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Drücke beim Fahren B, um das Vorderrad zu heben."
+        ],
+        "A2": [
+          "Drücke beim Fahren B, um das Vorderrad zu heben. Mit dem Steuerkreuz fährst du so weiter."
+        ],
+        "natural": [
+          "Drücke beim Fahren B, um das Vorderrad zu heben. Mit dem Steuerkreuz fährst du so weiter. Das heißt Wheelie. Eine andere Seite lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopBunnyHops",
+      "base_symbol": "MauvilleCity_BikeShop_Text_BunnyHops",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Удерживай B, и ВЕЛОСИПЕД будет прыгать на месте."
+        ],
+        "A2": [
+          "Удерживай B, и ВЕЛОСИПЕД будет прыгать на месте. Это прыжок зайца."
+        ],
+        "natural": [
+          "Удерживай B, и ВЕЛОСИПЕД будет прыгать на месте. Это прыжок зайца. Можно прыгать и в движении. Читать другую страницу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Halte B, dann hüpft das RAD auf der Stelle."
+        ],
+        "A2": [
+          "Halte B, dann hüpft das RAD auf der Stelle. Das ist ein Hasensprung."
+        ],
+        "natural": [
+          "Halte B, dann hüpft das RAD auf der Stelle. Das ist ein Hasensprung. Du kannst auch hüpfend fahren. Eine andere Seite lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityBikeShopJumps",
+      "base_symbol": "MauvilleCity_BikeShop_Text_Jumps",
+      "source_path": "data/maps/MauvilleCity_BikeShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Bike Shop bicycle lesson, selection, or exchange interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Нажми B и кнопку направления одновременно, чтобы прыгнуть."
+        ],
+        "A2": [
+          "Нажми B и кнопку направления одновременно, чтобы прыгнуть. В сторону - боковой прыжок, назад - разворот в прыжке."
+        ],
+        "natural": [
+          "Нажми B и кнопку направления одновременно, чтобы прыгнуть. В сторону - боковой прыжок, назад - разворот в прыжке. Читать другую страницу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "велосипед",
+            "bicycle"
+          ]
+        ],
+        "de": [
+          [
+            "das Fahrrad",
+            "bicycle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Drücke B und eine Richtung zugleich, um zu springen."
+        ],
+        "A2": [
+          "Drücke B und eine Richtung zugleich, um zu springen. Seitlich springst du zur Seite, rückwärts drehst du um."
+        ],
+        "natural": [
+          "Drücke B und eine Richtung zugleich, um zu springen. Seitlich springst du zur Seite, rückwärts drehst du um. Eine andere Seite lesen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerThisIsMauvilleGameCorner",
+      "base_symbol": "MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это ИГРОВОЙ УГОЛОК МОВИЛЛЯ."
+        ],
+        "A2": [
+          "Это ИГРОВОЙ УГОЛОК МОВИЛЛЯ."
+        ],
+        "natural": [
+          "Это ИГРОВОЙ УГОЛОК МОВИЛЛЯ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dies ist die SPIELHALLE MALVENFROH."
+        ],
+        "A2": [
+          "Dies ist die SPIELHALLE MALVENFROH."
+        ],
+        "natural": [
+          "Dies ist die SPIELHALLE MALVENFROH."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerWereYouLookingForCoins",
+      "base_symbol": "MauvilleCity_GameCorner_Text_WereYouLookingForCoins",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Нужны МОНЕТЫ?"
+        ],
+        "A2": [
+          "Нужны МОНЕТЫ? 50 МОНЕТ стоят ¥1000."
+        ],
+        "natural": [
+          "Нужны МОНЕТЫ? 50 МОНЕТ стоят ¥1000. Купить?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Suchst du MÜNZEN?"
+        ],
+        "A2": [
+          "Suchst du MÜNZEN? 50 MÜNZEN kosten ¥1000."
+        ],
+        "natural": [
+          "Suchst du MÜNZEN? 50 MÜNZEN kosten ¥1000. Kaufen?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerThankYouHereAreYourCoins",
+      "base_symbol": "MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Большое спасибо!"
+        ],
+        "A2": [
+          "Большое спасибо! Вот твои МОНЕТЫ!"
+        ],
+        "natural": [
+          "Большое спасибо! Вот твои МОНЕТЫ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vielen Dank!"
+        ],
+        "A2": [
+          "Vielen Dank! Hier sind deine MÜNZEN!"
+        ],
+        "natural": [
+          "Vielen Dank! Hier sind deine MÜNZEN!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerNeedCoinCaseForCoins",
+      "base_symbol": "MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хочешь МОНЕТЫ для игр?"
+        ],
+        "A2": [
+          "Хочешь МОНЕТЫ для игр? Но у тебя нет ФУТЛЯРА ДЛЯ МОНЕТ."
+        ],
+        "natural": [
+          "Хочешь МОНЕТЫ для игр? Но у тебя нет ФУТЛЯРА ДЛЯ МОНЕТ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du möchtest MÜNZEN?"
+        ],
+        "A2": [
+          "Du möchtest MÜNZEN? Aber du hast kein MÜNZAMULETT dafür."
+        ],
+        "natural": [
+          "Du möchtest MÜNZEN? Aber du hast kein MÜNZAMULETT dafür."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerDontHaveEnoughMoney",
+      "base_symbol": "MauvilleCity_GameCorner_Text_DontHaveEnoughMoney",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Эм..."
+        ],
+        "A2": [
+          "Эм... Похоже, у тебя недостаточно денег..."
+        ],
+        "natural": [
+          "Эм... Похоже, у тебя недостаточно денег..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ähm..."
+        ],
+        "A2": [
+          "Ähm... Du hast wohl nicht genug Geld..."
+        ],
+        "natural": [
+          "Ähm... Du hast wohl nicht genug Geld..."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerDontNeedCoinsThen",
+      "base_symbol": "MauvilleCity_GameCorner_Text_DontNeedCoinsThen",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О..."
+        ],
+        "A2": [
+          "О... МОНЕТЫ не нужны?"
+        ],
+        "natural": [
+          "О... МОНЕТЫ не нужны? Удачи в путешествии!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh..."
+        ],
+        "A2": [
+          "Oh... Du brauchst keine MÜNZEN?"
+        ],
+        "natural": [
+          "Oh... Du brauchst keine MÜNZEN? Viel Glück auf deiner Reise!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerCoinCaseIsFull",
+      "base_symbol": "MauvilleCity_GameCorner_Text_CoinCaseIsFull",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О?"
+        ],
+        "A2": [
+          "О? Твой ФУТЛЯР ДЛЯ МОНЕТ полон."
+        ],
+        "natural": [
+          "О? Твой ФУТЛЯР ДЛЯ МОНЕТ полон."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh?"
+        ],
+        "A2": [
+          "Oh? Dein MÜNZAMULETT ist voll."
+        ],
+        "natural": [
+          "Oh? Dein MÜNZAMULETT ist voll."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerExchangeCoinsForPrizes",
+      "base_symbol": "MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Добро пожаловать."
+        ],
+        "A2": [
+          "Добро пожаловать. Здесь можно обменять МОНЕТЫ на призы."
+        ],
+        "natural": [
+          "Добро пожаловать. Здесь можно обменять МОНЕТЫ на призы."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Willkommen."
+        ],
+        "A2": [
+          "Willkommen. Hier kannst du MÜNZEN gegen Preise tauschen."
+        ],
+        "natural": [
+          "Willkommen. Hier kannst du MÜNZEN gegen Preise tauschen."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerWhichPrize",
+      "base_symbol": "MauvilleCity_GameCorner_Text_WhichPrize",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Какой приз тебе нужен?"
+        ],
+        "A2": [
+          "Какой приз тебе нужен?"
+        ],
+        "natural": [
+          "Какой приз тебе нужен?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Welchen Preis möchtest du?"
+        ],
+        "A2": [
+          "Welchen Preis möchtest du?"
+        ],
+        "natural": [
+          "Welchen Preis möchtest du?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerSoYourChoiceIsX",
+      "base_symbol": "MauvilleCity_GameCorner_Text_SoYourChoiceIsX",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты выбираешь {STR_VAR_1}?"
+        ],
+        "A2": [
+          "Ты выбираешь {STR_VAR_1}?"
+        ],
+        "natural": [
+          "Ты выбираешь {STR_VAR_1}?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du wählst {STR_VAR_1}?"
+        ],
+        "A2": [
+          "Du wählst {STR_VAR_1}?"
+        ],
+        "natural": [
+          "Du wählst {STR_VAR_1}?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerSendToYourHomePC",
+      "base_symbol": "MauvilleCity_GameCorner_Text_SendToYourHomePC",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Спасибо!"
+        ],
+        "A2": [
+          "Спасибо! Мы отправим приз на твой домашний ПК."
+        ],
+        "natural": [
+          "Спасибо! Мы отправим приз на твой домашний ПК."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Danke!"
+        ],
+        "A2": [
+          "Danke! Wir schicken den Preis an deinen PC zu Hause."
+        ],
+        "natural": [
+          "Danke! Wir schicken den Preis an deinen PC zu Hause."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerNotEnoughCoins",
+      "base_symbol": "MauvilleCity_GameCorner_Text_NotEnoughCoins",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "У тебя недостаточно МОНЕТ."
+        ],
+        "A2": [
+          "У тебя недостаточно МОНЕТ."
+        ],
+        "natural": [
+          "У тебя недостаточно МОНЕТ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast nicht genug MÜNZEN."
+        ],
+        "A2": [
+          "Du hast nicht genug MÜNZEN."
+        ],
+        "natural": [
+          "Du hast nicht genug MÜNZEN."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerOhIsThatSo",
+      "base_symbol": "MauvilleCity_GameCorner_Text_OhIsThatSo",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот как?"
+        ],
+        "A2": [
+          "Вот как? Сначала накопи МОНЕТЫ, а потом возвращайся."
+        ],
+        "natural": [
+          "Вот как? Сначала накопи МОНЕТЫ, а потом возвращайся."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ach so?"
+        ],
+        "A2": [
+          "Ach so? Spare erst MÜNZEN und komm dann wieder."
+        ],
+        "natural": [
+          "Ach so? Spare erst MÜNZEN und komm dann wieder."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerHereYouGo",
+      "base_symbol": "MauvilleCity_GameCorner_Text_HereYouGo",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Держи!"
+        ],
+        "A2": [
+          "Держи!"
+        ],
+        "natural": [
+          "Держи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bitte sehr!"
+        ],
+        "A2": [
+          "Bitte sehr!"
+        ],
+        "natural": [
+          "Bitte sehr!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerCoinsAreNeededToPlay",
+      "base_symbol": "MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Для игр в ИГРОВОМ УГОЛКЕ нужны МОНЕТЫ."
+        ],
+        "A2": [
+          "Для игр в ИГРОВОМ УГОЛКЕ нужны МОНЕТЫ."
+        ],
+        "natural": [
+          "Для игр в ИГРОВОМ УГОЛКЕ нужны МОНЕТЫ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zum Spielen in der SPIELHALLE brauchst du MÜNZEN."
+        ],
+        "A2": [
+          "Zum Spielen in der SPIELHALLE brauchst du MÜNZEN."
+        ],
+        "natural": [
+          "Zum Spielen in der SPIELHALLE brauchst du MÜNZEN."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerRouletteOnlyLuck",
+      "base_symbol": "MauvilleCity_GameCorner_Text_RouletteOnlyLuck",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Эта РУЛЕТКА довольно трудна."
+        ],
+        "A2": [
+          "Эта РУЛЕТКА довольно трудна. Победа или поражение зависят только от удачи."
+        ],
+        "natural": [
+          "Эта РУЛЕТКА довольно трудна. Победа или поражение зависят только от удачи."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieses ROULETTE ist anspruchsvoll."
+        ],
+        "A2": [
+          "Dieses ROULETTE ist anspruchsvoll. Sieg oder Niederlage hängen nur vom Glück ab."
+        ],
+        "natural": [
+          "Dieses ROULETTE ist anspruchsvoll. Sieg oder Niederlage hängen nur vom Glück ab."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerGotTwoOfSameDollWantOne",
+      "base_symbol": "MauvilleCity_GameCorner_Text_GotTwoOfSameDollWantOne",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я по ошибке взял две одинаковые КУКЛЫ."
+        ],
+        "A2": [
+          "Я по ошибке взял две одинаковые КУКЛЫ. Хочешь одну?"
+        ],
+        "natural": [
+          "Я по ошибке взял две одинаковые КУКЛЫ. Хочешь одну?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich nahm aus Versehen zwei gleiche PUPPEN."
+        ],
+        "A2": [
+          "Ich nahm aus Versehen zwei gleiche PUPPEN. Möchtest du eine?"
+        ],
+        "natural": [
+          "Ich nahm aus Versehen zwei gleiche PUPPEN. Möchtest du eine?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerHereYouGoTwo",
+      "base_symbol": "MauvilleCity_GameCorner_Text_HereYouGo2",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот, держи!"
+        ],
+        "A2": [
+          "Вот, держи!"
+        ],
+        "natural": [
+          "Вот, держи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier, bitte!"
+        ],
+        "A2": [
+          "Hier, bitte!"
+        ],
+        "natural": [
+          "Hier, bitte!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerYouWantItButNotNow",
+      "base_symbol": "MauvilleCity_GameCorner_Text_YouWantItButNotNow",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Что?"
+        ],
+        "A2": [
+          "Что? Хочешь, но не сейчас?"
+        ],
+        "natural": [
+          "Что? Хочешь, но не сейчас?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Du willst sie, aber nicht jetzt?"
+        ],
+        "natural": [
+          "Was? Du willst sie, aber nicht jetzt?"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerDontBeNegative",
+      "base_symbol": "MauvilleCity_GameCorner_Text_DontBeNegative",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Не будь таким мрачным!"
+        ],
+        "A2": [
+          "Не будь таким мрачным! Можешь взять это!"
+        ],
+        "natural": [
+          "Не будь таким мрачным! Можешь взять это!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sei nicht so negativ!"
+        ],
+        "A2": [
+          "Sei nicht so negativ! Du darfst sie haben!"
+        ],
+        "natural": [
+          "Sei nicht so negativ! Du darfst sie haben!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerCantWinJackpot",
+      "base_symbol": "MauvilleCity_GameCorner_Text_CantWinJackpot",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я хочу один приз, но никак не выиграю джекпот."
+        ],
+        "A2": [
+          "Я хочу один приз, но никак не выиграю джекпот."
+        ],
+        "natural": [
+          "Я хочу один приз, но никак не выиграю джекпот."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich möchte einen Preis, gewinne aber nie den Jackpot."
+        ],
+        "A2": [
+          "Ich möchte einen Preis, gewinne aber nie den Jackpot."
+        ],
+        "natural": [
+          "Ich möchte einen Preis, gewinne aber nie den Jackpot."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerNeedCoinCaseGoNextDoor",
+      "base_symbol": "MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Если хочешь играть, нужен ФУТЛЯР ДЛЯ МОНЕТ."
+        ],
+        "A2": [
+          "Если хочешь играть, нужен ФУТЛЯР ДЛЯ МОНЕТ. Кажется, он есть у девушки по соседству."
+        ],
+        "natural": [
+          "Если хочешь играть, нужен ФУТЛЯР ДЛЯ МОНЕТ. Кажется, он есть у девушки по соседству."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zum Spielen brauchst du ein MÜNZAMULETT."
+        ],
+        "A2": [
+          "Zum Spielen brauchst du ein MÜNZAMULETT. Die junge Frau nebenan hat wohl eins."
+        ],
+        "natural": [
+          "Zum Spielen brauchst du ein MÜNZAMULETT. Die junge Frau nebenan hat wohl eins."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerLuckOnlyLastSoLongTakeCoins",
+      "base_symbol": "MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Удача не вечна."
+        ],
+        "A2": [
+          "Удача не вечна. Для меня это слишком."
+        ],
+        "natural": [
+          "Удача не вечна. Для меня это слишком. Держи немного МОНЕТ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Glück hält nicht ewig."
+        ],
+        "A2": [
+          "Mein Glück hält nicht ewig. Das wird mir zu viel."
+        ],
+        "natural": [
+          "Mein Glück hält nicht ewig. Das wird mir zu viel. Nimm einige MÜNZEN!"
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerMauvilleSomethingForEveryone",
+      "base_symbol": "MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В МОВИЛЛЕ каждый найдёт что-то для себя."
+        ],
+        "A2": [
+          "В МОВИЛЛЕ каждый найдёт что-то для себя. Для меня это ИГРОВОЙ УГОЛОК."
+        ],
+        "natural": [
+          "В МОВИЛЛЕ каждый найдёт что-то для себя. Для меня это ИГРОВОЙ УГОЛОК."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In MALVENFROH findet jeder etwas."
+        ],
+        "A2": [
+          "In MALVENFROH findet jeder etwas. Für mich ist es die SPIELHALLE."
+        ],
+        "natural": [
+          "In MALVENFROH findet jeder etwas. Für mich ist es die SPIELHALLE."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerRouletteTablesDifferentRates",
+      "base_symbol": "MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "У столов РУЛЕТКИ разные ставки."
+        ],
+        "A2": [
+          "У столов РУЛЕТКИ разные ставки. Проверь число МОНЕТ перед выбором стола."
+        ],
+        "natural": [
+          "У столов РУЛЕТКИ разные ставки. Проверь число МОНЕТ перед выбором стола."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die ROULETTE-Tische haben verschiedene Einsätze."
+        ],
+        "A2": [
+          "Die ROULETTE-Tische haben verschiedene Einsätze. Prüfe deine MÜNZEN vor der Wahl."
+        ],
+        "natural": [
+          "Die ROULETTE-Tische haben verschiedene Einsätze. Prüfe deine MÜNZEN vor der Wahl."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerEasyToLoseTrackOfTime",
+      "base_symbol": "MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Здесь легко потерять счёт времени."
+        ],
+        "A2": [
+          "Здесь легко потерять счёт времени. Мне пора вернуться к работе."
+        ],
+        "natural": [
+          "Здесь легко потерять счёт времени. Мне пора вернуться к работе."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier vergisst man leicht die Zeit."
+        ],
+        "A2": [
+          "Hier vergisst man leicht die Zeit. Ich sollte zur Arbeit zurück."
+        ],
+        "natural": [
+          "Hier vergisst man leicht die Zeit. Ich sollte zur Arbeit zurück."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerUpToThreeCoinsCanBeUsed",
+      "base_symbol": "MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В ИГРОВОМ АВТОМАТЕ можно поставить до трёх МОНЕТ."
+        ],
+        "A2": [
+          "В ИГРОВОМ АВТОМАТЕ можно поставить до трёх МОНЕТ."
+        ],
+        "natural": [
+          "В ИГРОВОМ АВТОМАТЕ можно поставить до трёх МОНЕТ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Am AUTOMATEN kannst du bis zu drei MÜNZEN einsetzen."
+        ],
+        "A2": [
+          "Am AUTOMATEN kannst du bis zu drei MÜNZEN einsetzen."
+        ],
+        "natural": [
+          "Am AUTOMATEN kannst du bis zu drei MÜNZEN einsetzen."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerDifficultToStopOnSeven",
+      "base_symbol": "MauvilleCity_GameCorner_Text_DifficultToStopOn7",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Очень трудно остановить барабан точно на семёрке."
+        ],
+        "A2": [
+          "Очень трудно остановить барабан точно на семёрке. Если это случится во время бонуса, получишь дополнительные МОНЕТЫ."
+        ],
+        "natural": [
+          "Очень трудно остановить барабан точно на семёрке. Если это случится во время бонуса, получишь дополнительные МОНЕТЫ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Es ist schwer, die Walze genau auf der Sieben zu stoppen."
+        ],
+        "A2": [
+          "Es ist schwer, die Walze genau auf der Sieben zu stoppen. Gelingt es im Bonusspiel, erhältst du zusätzliche MÜNZEN."
+        ],
+        "natural": [
+          "Es ist schwer, die Walze genau auf der Sieben zu stoppen. Gelingt es im Bonusspiel, erhältst du zusätzliche MÜNZEN."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerHeresSomeSlotsInfo",
+      "base_symbol": "MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Совет по АВТОМАТАМ: чем больше молний накопишь, тем больше бонусных попыток."
+        ],
+        "A2": [
+          "Совет по АВТОМАТАМ: чем больше молний накопишь, тем больше бонусных попыток. При пяти попытках можно получить четыре обычных бонуса и большой приз в 660 МОНЕТ."
+        ],
+        "natural": [
+          "Совет по АВТОМАТАМ: чем больше молний накопишь, тем больше бонусных попыток. При пяти попытках можно получить четыре обычных бонуса и большой приз в 660 МОНЕТ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Tipp zu AUTOMATEN: Je mehr Blitze du sammelst, desto mehr Bonuschancen bekommst du."
+        ],
+        "A2": [
+          "Tipp zu AUTOMATEN: Je mehr Blitze du sammelst, desto mehr Bonuschancen bekommst du. Mit fünf Chancen sind vier normale Boni und ein Hauptpreis von 660 MÜNZEN möglich."
+        ],
+        "natural": [
+          "Tipp zu AUTOMATEN: Je mehr Blitze du sammelst, desto mehr Bonuschancen bekommst du. Mit fünf Chancen sind vier normale Boni und ein Hauptpreis von 660 MÜNZEN möglich."
+        ]
+      }
+    },
+    {
+      "id": "MauvilleCityGameCornerCantPlayWithNoCoinCase",
+      "base_symbol": "MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase",
+      "source_path": "data/maps/MauvilleCity_GameCorner/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mauville Game Corner visitor, coin, prize, slot, or roulette interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Без ФУТЛЯРА ДЛЯ МОНЕТ играть нельзя."
+        ],
+        "A2": [
+          "Без ФУТЛЯРА ДЛЯ МОНЕТ играть нельзя."
+        ],
+        "natural": [
+          "Без ФУТЛЯРА ДЛЯ МОНЕТ играть нельзя."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "игра",
+            "game"
+          ]
+        ],
+        "de": [
+          [
+            "das Spiel",
+            "game"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ohne MÜNZAMULETT kannst du nicht spielen."
+        ],
+        "A2": [
+          "Ohne MÜNZAMULETT kannst du nicht spielen."
+        ],
+        "natural": [
+          "Ohne MÜNZAMULETT kannst du nicht spielen."
+        ]
+      }
     }
   ]
 }

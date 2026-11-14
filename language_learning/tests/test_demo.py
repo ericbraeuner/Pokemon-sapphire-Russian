@@ -629,6 +629,11 @@ class LessonTests(unittest.TestCase):
                   'data/maps/PetalburgCity_Gym/scripts.inc']
         paths += [str(path.relative_to(demo.ROOT)) for path in
                   (demo.ROOT / 'data/maps').glob('Route110_TrickHouse*/scripts.inc')]
+        mauville_areas = ('MauvilleCity', 'MauvilleCity_Gym', 'MauvilleCity_House1',
+                          'MauvilleCity_House2', 'MauvilleCity_Mart',
+                          'MauvilleCity_PokemonCenter_1F', 'MauvilleCity_BikeShop',
+                          'MauvilleCity_GameCorner')
+        paths += [f'data/maps/{area}/scripts.inc' for area in mauville_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2432,6 +2437,25 @@ class LessonTests(unittest.TestCase):
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
         self.assertEqual(55, len(symbols))
         self.assertTrue(symbols.issubset(templates))
+
+    def test_mauville_first_arrival_dialogue_is_fully_adaptive(self):
+        areas = ('MauvilleCity', 'MauvilleCity_Gym', 'MauvilleCity_House1',
+                 'MauvilleCity_House2', 'MauvilleCity_Mart',
+                 'MauvilleCity_PokemonCenter_1F', 'MauvilleCity_BikeShop',
+                 'MauvilleCity_GameCorner')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'MauvilleCity[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(116, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
 
     def test_routes_111_and_112_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

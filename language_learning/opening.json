@@ -28037,6 +28037,3291 @@
           "Das Leuchtfeuer reicht viele Meilen weit. Hoffentlich erschreckt es keine Meeres-Pokémon."
         ]
       }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEZeroFNine",
+      "base_symbol": "Route109_Text_16E0F9",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРАЙНИ: Разве тебе не надо доставить груз ДЕВОНА?"
+        ],
+        "A2": [
+          "БРАЙНИ: Разве тебе не надо доставить груз ДЕВОНА? Или хочешь вернуться в ДЬЮФОРД?"
+        ],
+        "natural": [
+          "БРАЙНИ: Разве тебе не надо доставить груз ДЕВОНА? Или хочешь вернуться в ДЬЮФОРД?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRACK: Musst du nicht die DEVON-WAREN abliefern?"
+        ],
+        "A2": [
+          "BRACK: Musst du nicht die DEVON-WAREN abliefern? Oder willst du zurück nach FAUSTAUHAVEN?"
+        ],
+        "natural": [
+          "BRACK: Musst du nicht die DEVON-WAREN abliefern? Oder willst du zurück nach FAUSTAUHAVEN?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEOneFiveNine",
+      "base_symbol": "Route109_Text_16E159",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРАЙНИ: Тогда в ДЬЮФОРД!"
+        ],
+        "A2": [
+          "БРАЙНИ: Тогда в ДЬЮФОРД! Поднять якорь!"
+        ],
+        "natural": [
+          "БРАЙНИ: Тогда в ДЬЮФОРД! Поднять якорь! ПИКО, милая, отплываем!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRACK: Dann nach FAUSTAUHAVEN!"
+        ],
+        "A2": [
+          "BRACK: Dann nach FAUSTAUHAVEN! Anker hoch!"
+        ],
+        "natural": [
+          "BRACK: Dann nach FAUSTAUHAVEN! Anker hoch! PEPPI, wir legen ab!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEOneBOne",
+      "base_symbol": "Route109_Text_16E1B1",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРАЙНИ: Тогда доставь груз ДЕВОНА."
+        ],
+        "A2": [
+          "БРАЙНИ: Тогда доставь груз ДЕВОНА. Я подожду."
+        ],
+        "natural": [
+          "БРАЙНИ: Тогда доставь груз ДЕВОНА. Я подожду."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRACK: Dann liefere die DEVON-WAREN ab."
+        ],
+        "A2": [
+          "BRACK: Dann liefere die DEVON-WAREN ab. Ich warte hier."
+        ],
+        "natural": [
+          "BRACK: Dann liefere die DEVON-WAREN ab. Ich warte hier."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixETwoSixA",
+      "base_symbol": "Route109_Text_16E26A",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРАЙНИ: Ради тебя я выйду в море когда угодно!"
+        ],
+        "A2": [
+          "БРАЙНИ: Ради тебя я выйду в море когда угодно! Куда держим путь?"
+        ],
+        "natural": [
+          "БРАЙНИ: Ради тебя я выйду в море когда угодно! Куда держим путь?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRACK: Für dich fahre ich jederzeit aufs Meer!"
+        ],
+        "A2": [
+          "BRACK: Für dich fahre ich jederzeit aufs Meer! Wohin soll es gehen?"
+        ],
+        "natural": [
+          "BRACK: Für dich fahre ich jederzeit aufs Meer! Wohin soll es gehen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixETwoCFive",
+      "base_symbol": "Route109_Text_16E2C5",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРАЙНИ: Скажи, когда снова понадобится отплыть!"
+        ],
+        "A2": [
+          "БРАЙНИ: Скажи, когда снова понадобится отплыть!"
+        ],
+        "natural": [
+          "БРАЙНИ: Скажи, когда снова понадобится отплыть!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BRACK: Sag Bescheid, wenn du wieder ablegen willst!"
+        ],
+        "A2": [
+          "BRACK: Sag Bescheid, wenn du wieder ablegen willst!"
+        ],
+        "natural": [
+          "BRACK: Sag Bescheid, wenn du wieder ablegen willst!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEThreeZeroSeven",
+      "base_symbol": "Route109_Text_16E307",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Эй, ТРЕНЕРЫ!"
+        ],
+        "A2": [
+          "Эй, ТРЕНЕРЫ! Жарко вам или прохладно - отдохните у моего папы!"
+        ],
+        "natural": [
+          "Эй, ТРЕНЕРЫ! Жарко вам или прохладно - отдохните у моего папы!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hey, TRAINER!"
+        ],
+        "A2": [
+          "Hey, TRAINER! Ob heiß oder kühl - entspannt euch bei meinem Papa!"
+        ],
+        "natural": [
+          "Hey, TRAINER! Ob heiß oder kühl - entspannt euch bei meinem Papa!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEThreeFiveB",
+      "base_symbol": "Route109_Text_16E35B",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Малыши так быстро носятся..."
+        ],
+        "A2": [
+          "Малыши так быстро носятся... Нельзя отводить от них глаз."
+        ],
+        "natural": [
+          "Малыши так быстро носятся... Нельзя отводить от них глаз. Мой ребёнок с покемонами, так что всё должно быть хорошо, но..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kinder flitzen so schnell herum..."
+        ],
+        "A2": [
+          "Kinder flitzen so schnell herum... Man darf sie nie aus den Augen lassen."
+        ],
+        "natural": [
+          "Kinder flitzen so schnell herum... Man darf sie nie aus den Augen lassen. Meines ist bei seinen Pokémon, also sollte alles gut sein, aber..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEFourZeroFive",
+      "base_symbol": "Route109_Text_16E405",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мы очень долго строим песчаный замок."
+        ],
+        "A2": [
+          "Мы очень долго строим песчаный замок."
+        ],
+        "natural": [
+          "Мы очень долго строим песчаный замок."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unsere Sandburg braucht sehr lange."
+        ],
+        "A2": [
+          "Unsere Sandburg braucht sehr lange."
+        ],
+        "natural": [
+          "Unsere Sandburg braucht sehr lange."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEFourThreeThree",
+      "base_symbol": "Route109_Text_16E433",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Можешь взять это!"
+        ],
+        "A2": [
+          "Можешь взять это!"
+        ],
+        "natural": [
+          "Можешь взять это!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das darfst du haben!"
+        ],
+        "A2": [
+          "Das darfst du haben!"
+        ],
+        "natural": [
+          "Das darfst du haben!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEFourFourSix",
+      "base_symbol": "Route109_Text_16E446",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мы соберём весь песок с пляжа и построим огромный замок!"
+        ],
+        "A2": [
+          "Мы соберём весь песок с пляжа и построим огромный замок! Потом станем королём и королевой."
+        ],
+        "natural": [
+          "Мы соберём весь песок с пляжа и построим огромный замок! Потом станем королём и королевой. А ты будешь слугой."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir nehmen den ganzen Sand und bauen eine riesige Burg!"
+        ],
+        "A2": [
+          "Wir nehmen den ganzen Sand und bauen eine riesige Burg! Dann sind wir König und Königin."
+        ],
+        "natural": [
+          "Wir nehmen den ganzen Sand und bauen eine riesige Burg! Dann sind wir König und Königin. Du darfst unser Diener sein."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEFourDFive",
+      "base_symbol": "Route109_Text_16E4D5",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вода здесь чистая."
+        ],
+        "A2": [
+          "Вода здесь чистая. Иногда мой ЗИГЗАГУН собирает мусор на берегу."
+        ],
+        "natural": [
+          "Вода здесь чистая. Иногда мой ЗИГЗАГУН собирает мусор на берегу. Грязная вода становится дождём и попадает в реки, из которых мы пьём. Загрязнение моря однажды вернётся к нам."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das Wasser hier ist sauber."
+        ],
+        "A2": [
+          "Das Wasser hier ist sauber. Mein ZIGZACHS sammelt manchmal Müll am Ufer."
+        ],
+        "natural": [
+          "Das Wasser hier ist sauber. Mein ZIGZACHS sammelt manchmal Müll am Ufer. Schmutziges Wasser wird zu Regen und gelangt in unsere Flüsse. Wer das Meer verschmutzt, bekommt es später zurück."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEFiveCa",
+      "base_symbol": "Route109_Text_16E5CA",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЗИГЗАГУН: Гугу?"
+        ],
+        "A2": [
+          "ЗИГЗАГУН: Гугу?"
+        ],
+        "natural": [
+          "ЗИГЗАГУН: Гугу?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ZIGZACHS: Guguu?"
+        ],
+        "A2": [
+          "ZIGZACHS: Guguu?"
+        ],
+        "natural": [
+          "ZIGZACHS: Guguu?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixEFiveDc",
+      "base_symbol": "Route109_Text_16E5DC",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПЛЯЖНЫЙ ДОМИК Горячие бои на горячем песке!"
+        ],
+        "A2": [
+          "ПЛЯЖНЫЙ ДОМИК Горячие бои на горячем песке! Место для пылких ТРЕНЕРОВ!"
+        ],
+        "natural": [
+          "ПЛЯЖНЫЙ ДОМИК Горячие бои на горячем песке! Место для пылких ТРЕНЕРОВ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "STRANDHAUS Heiße Kämpfe im heißen Sand!"
+        ],
+        "A2": [
+          "STRANDHAUS Heiße Kämpfe im heißen Sand! Der Ort für feurige TRAINER!"
+        ],
+        "natural": [
+          "STRANDHAUS Heiße Kämpfe im heißen Sand! Der Ort für feurige TRAINER!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneSixESixTwoC",
+      "base_symbol": "Route109_Text_16E62C",
+      "source_path": "data/maps/Route109/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СОВЕТЫ ТРЕНЕРА У покемонов одного уровня параметры могут различаться."
+        ],
+        "A2": [
+          "СОВЕТЫ ТРЕНЕРА У покемонов одного уровня параметры могут различаться. Покемоны тренеров обычно сильнее диких покемонов."
+        ],
+        "natural": [
+          "СОВЕТЫ ТРЕНЕРА У покемонов одного уровня параметры могут различаться. Покемоны тренеров обычно сильнее диких покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TRAINER-TIPPS Pokémon gleichen Levels können verschiedene Werte haben."
+        ],
+        "A2": [
+          "TRAINER-TIPPS Pokémon gleichen Levels können verschiedene Werte haben. Trainierte Pokémon werden meist stärker als wilde Pokémon."
+        ],
+        "natural": [
+          "TRAINER-TIPPS Pokémon gleichen Levels können verschiedene Werte haben. Trainierte Pokémon werden meist stärker als wilde Pokémon."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineAOneC",
+      "base_symbol": "Route109_Text_1B9A1C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ха!"
+        ],
+        "A2": [
+          "Ха! Посмотрите на мой рельефный пресс!"
+        ],
+        "natural": [
+          "Ха! Посмотрите на мой рельефный пресс! Вот что значит форма!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ha!"
+        ],
+        "A2": [
+          "Ha! Sieh dir meine gemeißelten Bauchmuskeln an!"
+        ],
+        "natural": [
+          "Ha! Sieh dir meine gemeißelten Bauchmuskeln an! Das nennt man Form!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineAFiveNine",
+      "base_symbol": "Route109_Text_1B9A59",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ай!"
+        ],
+        "A2": [
+          "Ай! Полный провал!"
+        ],
+        "natural": [
+          "Ай! Полный провал!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Aua!"
+        ],
+        "A2": [
+          "Aua! Völlig versagt!"
+        ],
+        "natural": [
+          "Aua! Völlig versagt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineASixD",
+      "base_symbol": "Route109_Text_1B9A6D",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ха!"
+        ],
+        "A2": [
+          "Ха! Мой прекрасный пресс не имеет отношения к боям покемонов!"
+        ],
+        "natural": [
+          "Ха! Мой прекрасный пресс не имеет отношения к боям покемонов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ha!"
+        ],
+        "A2": [
+          "Ha! Meine tollen Bauchmuskeln haben nichts mit Pokémon-Kämpfen zu tun!"
+        ],
+        "natural": [
+          "Ha! Meine tollen Bauchmuskeln haben nichts mit Pokémon-Kämpfen zu tun!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineAad",
+      "base_symbol": "Route109_Text_1B9AAD",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вы хорошо защитились от солнца?"
+        ],
+        "A2": [
+          "Вы хорошо защитились от солнца?"
+        ],
+        "natural": [
+          "Вы хорошо защитились от солнца?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hast du dich gut vor der Sonne geschützt?"
+        ],
+        "A2": [
+          "Hast du dich gut vor der Sonne geschützt?"
+        ],
+        "natural": [
+          "Hast du dich gut vor der Sonne geschützt?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineAdNine",
+      "base_symbol": "Route109_Text_1B9AD9",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ай-ай-ай!"
+        ],
+        "A2": [
+          "Ай-ай-ай!"
+        ],
+        "natural": [
+          "Ай-ай-ай!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Au, au, au!"
+        ],
+        "A2": [
+          "Au, au, au!"
+        ],
+        "natural": [
+          "Au, au, au!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineAeb",
+      "base_symbol": "Route109_Text_1B9AEB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Щёки обгорают быстрее всего!"
+        ],
+        "A2": [
+          "Щёки обгорают быстрее всего!"
+        ],
+        "natural": [
+          "Щёки обгорают быстрее всего!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Wangen bekommen am schnellsten Sonnenbrand!"
+        ],
+        "A2": [
+          "Die Wangen bekommen am schnellsten Sonnenbrand!"
+        ],
+        "natural": [
+          "Die Wangen bekommen am schnellsten Sonnenbrand!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineBOneOne",
+      "base_symbol": "Route109_Text_1B9B11",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я бросал якорь в портах всего мира, но Порт-Слейт лучше всех."
+        ],
+        "A2": [
+          "Я бросал якорь в портах всего мира, но Порт-Слейт лучше всех."
+        ],
+        "natural": [
+          "Я бросал якорь в портах всего мира, но Порт-Слейт лучше всех."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich ankerte in Häfen auf der ganzen Welt, doch Graphitport ist der beste."
+        ],
+        "A2": [
+          "Ich ankerte in Häfen auf der ganzen Welt, doch Graphitport ist der beste."
+        ],
+        "natural": [
+          "Ich ankerte in Häfen auf der ganzen Welt, doch Graphitport ist der beste."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineBFiveSeven",
+      "base_symbol": "Route109_Text_1B9B57",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вы лучший!"
+        ],
+        "A2": [
+          "Вы лучший!"
+        ],
+        "natural": [
+          "Вы лучший!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist der Beste!"
+        ],
+        "A2": [
+          "Du bist der Beste!"
+        ],
+        "natural": [
+          "Du bist der Beste!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineBSixEight",
+      "base_symbol": "Route109_Text_1B9B68",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В лучшем порту оказался лучший тренер..."
+        ],
+        "A2": [
+          "В лучшем порту оказался лучший тренер..."
+        ],
+        "natural": [
+          "В лучшем порту оказался лучший тренер..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im besten Hafen fand ich den besten Trainer..."
+        ],
+        "A2": [
+          "Im besten Hafen fand ich den besten Trainer..."
+        ],
+        "natural": [
+          "Im besten Hafen fand ich den besten Trainer..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineBNineOne",
+      "base_symbol": "Route109_Text_1B9B91",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "У-у-урп..."
+        ],
+        "A2": [
+          "У-у-урп... Сразиться?"
+        ],
+        "natural": [
+          "У-у-урп... Сразиться? Со мной?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Uuurps..."
+        ],
+        "A2": [
+          "Uuurps... Kämpfen?"
+        ],
+        "natural": [
+          "Uuurps... Kämpfen? Gegen mich?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineBae",
+      "base_symbol": "Route109_Text_1B9BAE",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Урп..."
+        ],
+        "A2": [
+          "Урп... О-о-ох..."
+        ],
+        "natural": [
+          "Урп... О-о-ох... У-у-урп..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Uups..."
+        ],
+        "A2": [
+          "Uups... Ooooh..."
+        ],
+        "natural": [
+          "Uups... Ooooh... Uuurps..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineBdThree",
+      "base_symbol": "Route109_Text_1B9BD3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Обычно я сильнее!"
+        ],
+        "A2": [
+          "Обычно я сильнее! Просто меня ужасно укачало, хотя я моряк..."
+        ],
+        "natural": [
+          "Обычно я сильнее! Просто меня ужасно укачало, хотя я моряк..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Normalerweise bin ich stärker!"
+        ],
+        "A2": [
+          "Normalerweise bin ich stärker! Ich bin nur furchtbar seekrank, obwohl ich Seemann bin..."
+        ],
+        "natural": [
+          "Normalerweise bin ich stärker! Ich bin nur furchtbar seekrank, obwohl ich Seemann bin..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineCTwoThree",
+      "base_symbol": "Route109_Text_1B9C23",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я хочу пить..."
+        ],
+        "A2": [
+          "Я хочу пить... Выпил бы газировки в пляжном доме..."
+        ],
+        "natural": [
+          "Я хочу пить... Выпил бы газировки в пляжном доме..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe Durst..."
+        ],
+        "A2": [
+          "Ich habe Durst... Eine Limonade im Strandhaus wäre jetzt gut..."
+        ],
+        "natural": [
+          "Ich habe Durst... Eine Limonade im Strandhaus wäre jetzt gut..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineCSixFive",
+      "base_symbol": "Route109_Text_1B9C65",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ох..."
+        ],
+        "A2": [
+          "Ох..."
+        ],
+        "natural": [
+          "Ох..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Stöhn..."
+        ],
+        "A2": [
+          "Stöhn..."
+        ],
+        "natural": [
+          "Stöhn..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineCSixE",
+      "base_symbol": "Route109_Text_1B9C6E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я проголоделся..."
+        ],
+        "A2": [
+          "Я проголоделся... Мой круг похож на огромный пончик..."
+        ],
+        "natural": [
+          "Я проголоделся... Мой круг похож на огромный пончик..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe Hunger..."
+        ],
+        "A2": [
+          "Ich habe Hunger... Mein Schwimmreifen sieht wie ein riesiger Donut aus..."
+        ],
+        "natural": [
+          "Ich habe Hunger... Mein Schwimmreifen sieht wie ein riesiger Donut aus..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineCbThree",
+      "base_symbol": "Route109_Text_1B9CB3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я голоден, но сил на бой ещё хватит!"
+        ],
+        "A2": [
+          "Я голоден, но сил на бой ещё хватит!"
+        ],
+        "natural": [
+          "Я голоден, но сил на бой ещё хватит!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin hungrig, aber für einen Kampf reicht meine Kraft noch!"
+        ],
+        "A2": [
+          "Ich bin hungrig, aber für einen Kampf reicht meine Kraft noch!"
+        ],
+        "natural": [
+          "Ich bin hungrig, aber für einen Kampf reicht meine Kraft noch!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineCeb",
+      "base_symbol": "Route109_Text_1B9CEB",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграл..."
+        ],
+        "A2": [
+          "Я проиграл... Всё из-за голода..."
+        ],
+        "natural": [
+          "Я проиграл... Всё из-за голода..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren..."
+        ],
+        "A2": [
+          "Ich habe verloren... Das liegt am Hunger..."
+        ],
+        "natural": [
+          "Ich habe verloren... Das liegt am Hunger..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineDOneZero",
+      "base_symbol": "Route109_Text_1B9D10",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На пляже любая еда кажется вкуснее."
+        ],
+        "A2": [
+          "На пляже любая еда кажется вкуснее."
+        ],
+        "natural": [
+          "На пляже любая еда кажется вкуснее."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Am Strand schmeckt jedes Essen etwas besser."
+        ],
+        "A2": [
+          "Am Strand schmeckt jedes Essen etwas besser."
+        ],
+        "natural": [
+          "Am Strand schmeckt jedes Essen etwas besser."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineDFiveFour",
+      "base_symbol": "Route109_Text_1B9D54",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Разве пляжный зонт не похож на огромный цветок?"
+        ],
+        "A2": [
+          "Разве пляжный зонт не похож на огромный цветок?"
+        ],
+        "natural": [
+          "Разве пляжный зонт не похож на огромный цветок?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sieht ein Sonnenschirm nicht wie eine riesige Blume aus?"
+        ],
+        "A2": [
+          "Sieht ein Sonnenschirm nicht wie eine riesige Blume aus?"
+        ],
+        "natural": [
+          "Sieht ein Sonnenschirm nicht wie eine riesige Blume aus?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineDEightSeven",
+      "base_symbol": "Route109_Text_1B9D87",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мама!"
+        ],
+        "A2": [
+          "Мама!"
+        ],
+        "natural": [
+          "Мама!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama!"
+        ],
+        "A2": [
+          "Mama!"
+        ],
+        "natural": [
+          "Mama!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineDEightE",
+      "base_symbol": "Route109_Text_1B9D8E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "С неба пляж выглядит как огромный цветочный сад!"
+        ],
+        "A2": [
+          "С неба пляж выглядит как огромный цветочный сад!"
+        ],
+        "natural": [
+          "С неба пляж выглядит как огромный цветочный сад!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vom Himmel aus sieht der Strand wie ein riesiger Blumengarten aus!"
+        ],
+        "A2": [
+          "Vom Himmel aus sieht der Strand wie ein riesiger Blumengarten aus!"
+        ],
+        "natural": [
+          "Vom Himmel aus sieht der Strand wie ein riesiger Blumengarten aus!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineDdEight",
+      "base_symbol": "Route109_Text_1B9DD8",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На этот раз я вам не проиграю!"
+        ],
+        "A2": [
+          "На этот раз я вам не проиграю! Для этого у меня есть плавательный круг!"
+        ],
+        "natural": [
+          "На этот раз я вам не проиграю! Для этого у меня есть плавательный круг!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Diesmal verliere ich nicht gegen dich!"
+        ],
+        "A2": [
+          "Diesmal verliere ich nicht gegen dich! Dafür habe ich meinen Schwimmreifen!"
+        ],
+        "natural": [
+          "Diesmal verliere ich nicht gegen dich! Dafür habe ich meinen Schwimmreifen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineEOneSix",
+      "base_symbol": "Route109_Text_1B9E16",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мама!"
+        ],
+        "A2": [
+          "Мама!"
+        ],
+        "natural": [
+          "Мама!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama!"
+        ],
+        "A2": [
+          "Mama!"
+        ],
+        "natural": [
+          "Mama!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineEOneD",
+      "base_symbol": "Route109_Text_1B9E1D",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "С плавательным кругом мы с покемоном выглядим ещё милее!"
+        ],
+        "A2": [
+          "С плавательным кругом мы с покемоном выглядим ещё милее!"
+        ],
+        "natural": [
+          "С плавательным кругом мы с покемоном выглядим ещё милее!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit einem Schwimmreifen sehen mein Pokémon und ich noch niedlicher aus!"
+        ],
+        "A2": [
+          "Mit einem Schwimmreifen sehen mein Pokémon und ich noch niedlicher aus!"
+        ],
+        "natural": [
+          "Mit einem Schwimmreifen sehen mein Pokémon und ich noch niedlicher aus!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineESixZero",
+      "base_symbol": "Route109_Text_1B9E60",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Без круга я не умею плавать, но в бою покемонов не проиграю!"
+        ],
+        "A2": [
+          "Без круга я не умею плавать, но в бою покемонов не проиграю!"
+        ],
+        "natural": [
+          "Без круга я не умею плавать, но в бою покемонов не проиграю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ohne Reifen kann ich nicht schwimmen, doch im Pokémon-Kampf verliere ich nicht!"
+        ],
+        "A2": [
+          "Ohne Reifen kann ich nicht schwimmen, doch im Pokémon-Kampf verliere ich nicht!"
+        ],
+        "natural": [
+          "Ohne Reifen kann ich nicht schwimmen, doch im Pokémon-Kampf verliere ich nicht!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineEaOne",
+      "base_symbol": "Route109_Text_1B9EA1",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграла из-за плавательного круга?"
+        ],
+        "A2": [
+          "Я проиграла из-за плавательного круга?"
+        ],
+        "natural": [
+          "Я проиграла из-за плавательного круга?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Habe ich wegen des Schwimmreifens verloren?"
+        ],
+        "A2": [
+          "Habe ich wegen des Schwimmreifens verloren?"
+        ],
+        "natural": [
+          "Habe ich wegen des Schwimmreifens verloren?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineEca",
+      "base_symbol": "Route109_Text_1B9ECA",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мой плавательный круг - модный аксессуар."
+        ],
+        "A2": [
+          "Мой плавательный круг - модный аксессуар. Без него меня не увидят."
+        ],
+        "natural": [
+          "Мой плавательный круг - модный аксессуар. Без него меня не увидят."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Schwimmreifen ist ein Modeaccessoire."
+        ],
+        "A2": [
+          "Mein Schwimmreifen ist ein Modeaccessoire. Ohne ihn zeige ich mich nicht."
+        ],
+        "natural": [
+          "Mein Schwimmreifen ist ein Modeaccessoire. Ohne ihn zeige ich mich nicht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFZeroSeven",
+      "base_symbol": "Route109_Text_1B9F07",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Привет, большой тренер."
+        ],
+        "A2": [
+          "Привет, большой тренер. Сразитесь со мной?"
+        ],
+        "natural": [
+          "Привет, большой тренер. Сразитесь со мной?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo, großer Trainer."
+        ],
+        "A2": [
+          "Hallo, großer Trainer. Kämpfst du gegen mich?"
+        ],
+        "natural": [
+          "Hallo, großer Trainer. Kämpfst du gegen mich?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFThreeOne",
+      "base_symbol": "Route109_Text_1B9F31",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О, вы сильны."
+        ],
+        "A2": [
+          "О, вы сильны."
+        ],
+        "natural": [
+          "О, вы сильны."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, du bist stark."
+        ],
+        "A2": [
+          "Oh, du bist stark."
+        ],
+        "natural": [
+          "Oh, du bist stark."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFFourFour",
+      "base_symbol": "Route109_Text_1B9F44",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Как вы стали таким сильным?"
+        ],
+        "A2": [
+          "Как вы стали таким сильным?"
+        ],
+        "natural": [
+          "Как вы стали таким сильным?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie bist du so stark geworden?"
+        ],
+        "A2": [
+          "Wie bist du so stark geworden?"
+        ],
+        "natural": [
+          "Wie bist du so stark geworden?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFSixFive",
+      "base_symbol": "Route109_Text_1B9F65",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха!"
+        ],
+        "A2": [
+          "Ха-ха! Этот парень поймает огромную рыбу!"
+        ],
+        "natural": [
+          "Ха-ха! Этот парень поймает огромную рыбу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Haha!"
+        ],
+        "A2": [
+          "Haha! Dieser Kerl fängt einen riesigen Fisch!"
+        ],
+        "natural": [
+          "Haha! Dieser Kerl fängt einen riesigen Fisch!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFNineC",
+      "base_symbol": "Route109_Text_1B9F9C",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Этот парень только что упустил одну..."
+        ],
+        "A2": [
+          "Этот парень только что упустил одну..."
+        ],
+        "natural": [
+          "Этот парень только что упустил одну..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieser Kerl hat gerade einen verloren..."
+        ],
+        "A2": [
+          "Dieser Kerl hat gerade einen verloren..."
+        ],
+        "natural": [
+          "Dieser Kerl hat gerade einen verloren..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFbSeven",
+      "base_symbol": "Route109_Text_1B9FB7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Этот парень считает вас крупной добычей."
+        ],
+        "A2": [
+          "Этот парень считает вас крупной добычей. Нет, будущей крупной добычей!"
+        ],
+        "natural": [
+          "Этот парень считает вас крупной добычей. Нет, будущей крупной добычей!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieser Kerl hält dich für einen großen Fang."
+        ],
+        "A2": [
+          "Dieser Kerl hält dich für einen großen Fang. Nein, für einen zukünftigen großen Fang!"
+        ],
+        "natural": [
+          "Dieser Kerl hält dich für einen großen Fang. Nein, für einen zukünftigen großen Fang!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBNineFfSix",
+      "base_symbol": "Route109_Text_1B9FF6",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПОЛ: Вы портите настроение."
+        ],
+        "A2": [
+          "ПОЛ: Вы портите настроение. Не мешайте нашему драгоценному времени вдвоём."
+        ],
+        "natural": [
+          "ПОЛ: Вы портите настроение. Не мешайте нашему драгоценному времени вдвоём."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAUL: Du störst die Stimmung."
+        ],
+        "A2": [
+          "PAUL: Du störst die Stimmung. Unterbrich nicht unsere kostbare Zeit zu zweit."
+        ],
+        "natural": [
+          "PAUL: Du störst die Stimmung. Unterbrich nicht unsere kostbare Zeit zu zweit."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaZeroFiveTwo",
+      "base_symbol": "Route109_Text_1BA052",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПОЛ: Ладно, я сдаюсь."
+        ],
+        "A2": [
+          "ПОЛ: Ладно, я сдаюсь."
+        ],
+        "natural": [
+          "ПОЛ: Ладно, я сдаюсь."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAUL: Gut, ich gebe auf."
+        ],
+        "A2": [
+          "PAUL: Gut, ich gebe auf."
+        ],
+        "natural": [
+          "PAUL: Gut, ich gebe auf."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaZeroSixNine",
+      "base_symbol": "Route109_Text_1BA069",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПОЛ: Никому не говорите, что мы здесь."
+        ],
+        "A2": [
+          "ПОЛ: Никому не говорите, что мы здесь. Это наш личный мир для двоих!"
+        ],
+        "natural": [
+          "ПОЛ: Никому не говорите, что мы здесь. Это наш личный мир для двоих!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAUL: Sag niemandem, dass wir hier sind."
+        ],
+        "A2": [
+          "PAUL: Sag niemandem, dass wir hier sind. Das ist unsere private Welt zu zweit!"
+        ],
+        "natural": [
+          "PAUL: Sag niemandem, dass wir hier sind. Das ist unsere private Welt zu zweit!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaZeroBf",
+      "base_symbol": "Route109_Text_1BA0BF",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПОЛ: Мы безумно влюблены, поэтому наши покемоны сражаются вместе."
+        ],
+        "A2": [
+          "ПОЛ: Мы безумно влюблены, поэтому наши покемоны сражаются вместе."
+        ],
+        "natural": [
+          "ПОЛ: Мы безумно влюблены, поэтому наши покемоны сражаются вместе."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "PAUL: Wir sind tief verliebt, deshalb kämpfen unsere Pokémon gemeinsam."
+        ],
+        "A2": [
+          "PAUL: Wir sind tief verliebt, deshalb kämpfen unsere Pokémon gemeinsam."
+        ],
+        "natural": [
+          "PAUL: Wir sind tief verliebt, deshalb kämpfen unsere Pokémon gemeinsam."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaOneOneFour",
+      "base_symbol": "Route109_Text_1BA114",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЛ: Мы безумно влюблены."
+        ],
+        "A2": [
+          "МЭЛ: Мы безумно влюблены. Наш роман согревает весь Хоэнн!"
+        ],
+        "natural": [
+          "МЭЛ: Мы безумно влюблены. Наш роман согревает весь Хоэнн!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEL: Wir sind total verliebt."
+        ],
+        "A2": [
+          "MEL: Wir sind total verliebt. Unsere Romanze erwärmt ganz Hoenn!"
+        ],
+        "natural": [
+          "MEL: Wir sind total verliebt. Unsere Romanze erwärmt ganz Hoenn!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaOneFiveF",
+      "base_symbol": "Route109_Text_1BA15F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЛ: Мы проиграли по моей вине!"
+        ],
+        "A2": [
+          "МЭЛ: Мы проиграли по моей вине! Пол теперь меня возненавидит!"
+        ],
+        "natural": [
+          "МЭЛ: Мы проиграли по моей вине! Пол теперь меня возненавидит!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEL: Wir haben wegen mir verloren!"
+        ],
+        "A2": [
+          "MEL: Wir haben wegen mir verloren! Paul wird mich jetzt hassen!"
+        ],
+        "natural": [
+          "MEL: Wir haben wegen mir verloren! Paul wird mich jetzt hassen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaOneNineThree",
+      "base_symbol": "Route109_Text_1BA193",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЛ: Пол, ты сердишься на меня?"
+        ],
+        "A2": [
+          "МЭЛ: Пол, ты сердишься на меня? Пожалуйста, не сердись."
+        ],
+        "natural": [
+          "МЭЛ: Пол, ты сердишься на меня? Пожалуйста, не сердись."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEL: Paul, bist du böse auf mich?"
+        ],
+        "A2": [
+          "MEL: Paul, bist du böse auf mich? Bitte sei nicht böse."
+        ],
+        "natural": [
+          "MEL: Paul, bist du böse auf mich? Bitte sei nicht böse."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineOneBaOneDZero",
+      "base_symbol": "Route109_Text_1BA1D0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЛ: Мы глубоко и искренне влюблены, поэтому наши покемоны сражаются вместе."
+        ],
+        "A2": [
+          "МЭЛ: Мы глубоко и искренне влюблены, поэтому наши покемоны сражаются вместе."
+        ],
+        "natural": [
+          "МЭЛ: Мы глубоко и искренне влюблены, поэтому наши покемоны сражаются вместе."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MEL: Wir sind tief und wahrhaftig verliebt, deshalb kämpfen unsere Pokémon gemeinsam."
+        ],
+        "A2": [
+          "MEL: Wir sind tief und wahrhaftig verliebt, deshalb kämpfen unsere Pokémon gemeinsam."
+        ],
+        "natural": [
+          "MEL: Wir sind tief und wahrhaftig verliebt, deshalb kämpfen unsere Pokémon gemeinsam."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneZeroNineBrineylandedindewford",
+      "base_symbol": "Route109_Text_BrineyLandedInDewford",
+      "source_path": "data/maps/DewfordTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 109 beach visitor, trainer, sign, or item interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МИСТЕР БРАЙНИ: Мы прибыли в ДЬЮФОРД!"
+        ],
+        "A2": [
+          "МИСТЕР БРАЙНИ: Мы прибыли в ДЬЮФОРД! Скажи, когда захочешь снова отплыть."
+        ],
+        "natural": [
+          "МИСТЕР БРАЙНИ: Мы прибыли в ДЬЮФОРД! Скажи, когда захочешь снова отплыть."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "пляж",
+            "beach"
+          ]
+        ],
+        "de": [
+          [
+            "der Strand",
+            "beach"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MR."
+        ],
+        "A2": [
+          "MR. BRACK: Wir sind in FAUSTAUHAVEN!"
+        ],
+        "natural": [
+          "MR. BRACK: Wir sind in FAUSTAUHAVEN! Sag mir, wenn du wieder ablegen willst."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBFourDNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B4D9",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Я хозяин ПЛЯЖНОГО ДОМИКА."
+        ],
+        "A2": [
+          "Я хозяин ПЛЯЖНОГО ДОМИКА. Зови меня МИСТЕР МОРЕ!"
+        ],
+        "natural": [
+          "Я хозяин ПЛЯЖНОГО ДОМИКА. Зови меня МИСТЕР МОРЕ! Больше всего я люблю жаркие бои покемонов. Покажи свой пыл! Победи всех здешних ТРЕНЕРОВ, и я награжу тебя."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich besitze das STRANDHAUS."
+        ],
+        "A2": [
+          "Ich besitze das STRANDHAUS. Nenn mich MR."
+        ],
+        "natural": [
+          "Ich besitze das STRANDHAUS. Nenn mich MR. MEER! Ich liebe heiße Pokémon-Kämpfe. Zeig mir dein Feuer! Besiege alle TRAINER hier, dann belohne ich dich."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBFiveBNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B5B9",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Покажи мне жаркие бои!"
+        ],
+        "A2": [
+          "Покажи мне жаркие бои! Ради них я и открыл этот ПЛЯЖНЫЙ ДОМИК!"
+        ],
+        "natural": [
+          "Покажи мне жаркие бои! Ради них я и открыл этот ПЛЯЖНЫЙ ДОМИК!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zeig mir heiße Kämpfe!"
+        ],
+        "A2": [
+          "Zeig mir heiße Kämpfe! Nur deshalb betreibe ich dieses STRANDHAUS!"
+        ],
+        "natural": [
+          "Zeig mir heiße Kämpfe! Nur deshalb betreibe ich dieses STRANDHAUS!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBSixZeroNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B609",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это жар!"
+        ],
+        "A2": [
+          "Вот это жар! Бои пылали!"
+        ],
+        "natural": [
+          "Вот это жар! Бои пылали! Я в восторге! В награду за твой пыл возьми шесть бутылок ГАЗИРОВКИ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du glühst ja!"
+        ],
+        "A2": [
+          "Du glühst ja! Diese Kämpfe brannten!"
+        ],
+        "natural": [
+          "Du glühst ja! Diese Kämpfe brannten! Ich bin begeistert! Als Dank erhältst du sechs Flaschen TAFELWASSER!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBSixBe",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B6BE",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Ой, твоя СУМКА полна."
+        ],
+        "A2": [
+          "Ой, твоя СУМКА полна. Я пока сохраню напитки."
+        ],
+        "natural": [
+          "Ой, твоя СУМКА полна. Я пока сохраню напитки."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, dein BEUTEL ist voll."
+        ],
+        "A2": [
+          "Oh, dein BEUTEL ist voll. Ich bewahre die Getränke auf."
+        ],
+        "natural": [
+          "Oh, dein BEUTEL ist voll. Ich bewahre die Getränke auf."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBSevenZeroTwo",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B702",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Купишь ГАЗИРОВКУ?"
+        ],
+        "A2": [
+          "Купишь ГАЗИРОВКУ? Покемоны её любят!"
+        ],
+        "natural": [
+          "Купишь ГАЗИРОВКУ? Покемоны её любят! Всего ¥300 за бутылку! Покупай!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Möchtest du TAFELWASSER?"
+        ],
+        "A2": [
+          "Möchtest du TAFELWASSER? Pokémon lieben es!"
+        ],
+        "natural": [
+          "Möchtest du TAFELWASSER? Pokémon lieben es! Nur ¥300 pro Flasche! Kauf eins!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBSevenFourC",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B74C",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Держи!"
+        ],
+        "A2": [
+          "Держи!"
+        ],
+        "natural": [
+          "Держи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bitte sehr!"
+        ],
+        "A2": [
+          "Bitte sehr!"
+        ],
+        "natural": [
+          "Bitte sehr!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBSevenFiveNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B759",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "У тебя недостаточно денег."
+        ],
+        "A2": [
+          "У тебя недостаточно денег."
+        ],
+        "natural": [
+          "У тебя недостаточно денег."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast nicht genug Geld."
+        ],
+        "A2": [
+          "Du hast nicht genug Geld."
+        ],
+        "natural": [
+          "Du hast nicht genug Geld."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBSevenSevenThree",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B773",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Нет?"
+        ],
+        "A2": [
+          "Нет? Очень жаль."
+        ],
+        "natural": [
+          "Нет? Очень жаль."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Nein?"
+        ],
+        "A2": [
+          "Nein? Wie schade."
+        ],
+        "natural": [
+          "Nein? Wie schade."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBEightZeroNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B809",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Ищешь жаркий бой в открытом море?"
+        ],
+        "A2": [
+          "Ищешь жаркий бой в открытом море? Горячее меня ТРЕНЕРА не найти, приятель!"
+        ],
+        "natural": [
+          "Ищешь жаркий бой в открытом море? Горячее меня ТРЕНЕРА не найти, приятель!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Suchst du einen heißen Kampf auf hoher See?"
+        ],
+        "A2": [
+          "Suchst du einen heißen Kampf auf hoher See? Keiner ist feuriger als ich, Kamerad!"
+        ],
+        "natural": [
+          "Suchst du einen heißen Kampf auf hoher See? Keiner ist feuriger als ich, Kamerad!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBEightSixNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B869",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это был жаркий бой!"
+        ],
+        "A2": [
+          "Вот это был жаркий бой! Я принимаю поражение, приятель!"
+        ],
+        "natural": [
+          "Вот это был жаркий бой! Я принимаю поражение, приятель!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das war ein heißer Kampf!"
+        ],
+        "A2": [
+          "Das war ein heißer Kampf! Ich nehme die Niederlage an, Kamerad!"
+        ],
+        "natural": [
+          "Das war ein heißer Kampf! Ich nehme die Niederlage an, Kamerad!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBEightNineF",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B89F",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "В СЛЕЙТПОРТЕ я наслаждаюсь жаркими боями и ледяной ГАЗИРОВКОЙ!"
+        ],
+        "A2": [
+          "В СЛЕЙТПОРТЕ я наслаждаюсь жаркими боями и ледяной ГАЗИРОВКОЙ!"
+        ],
+        "natural": [
+          "В СЛЕЙТПОРТЕ я наслаждаюсь жаркими боями и ледяной ГАЗИРОВКОЙ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In GRAPHITPORT genieße ich heiße Kämpfe und eiskaltes TAFELWASSER!"
+        ],
+        "A2": [
+          "In GRAPHITPORT genieße ich heiße Kämpfe und eiskaltes TAFELWASSER!"
+        ],
+        "natural": [
+          "In GRAPHITPORT genieße ich heiße Kämpfe und eiskaltes TAFELWASSER!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBEightEFive",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B8E5",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Скучные бои не стоят усилий."
+        ],
+        "A2": [
+          "Скучные бои не стоят усилий. Только жаркие бои закаляют ТРЕНЕРОВ и покемонов!"
+        ],
+        "natural": [
+          "Скучные бои не стоят усилий. Только жаркие бои закаляют ТРЕНЕРОВ и покемонов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Langweilige Kämpfe lohnen sich nicht."
+        ],
+        "A2": [
+          "Langweilige Kämpfe lohnen sich nicht. Nur heiße Kämpfe härten TRAINER und Pokémon ab!"
+        ],
+        "natural": [
+          "Langweilige Kämpfe lohnen sich nicht. Nur heiße Kämpfe härten TRAINER und Pokémon ab!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBNineFourNine",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B949",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это жар!"
+        ],
+        "A2": [
+          "Вот это жар!"
+        ],
+        "natural": [
+          "Вот это жар!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das war heiß!"
+        ],
+        "A2": [
+          "Das war heiß!"
+        ],
+        "natural": [
+          "Das war heiß!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBNineFiveFive",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B955",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Уф, пить хочется."
+        ],
+        "A2": [
+          "Уф, пить хочется. Выпью-ка ГАЗИРОВКИ."
+        ],
+        "natural": [
+          "Уф, пить хочется. Выпью-ка ГАЗИРОВКИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puh, ich habe Durst."
+        ],
+        "A2": [
+          "Puh, ich habe Durst. Vielleicht trinke ich TAFELWASSER."
+        ],
+        "natural": [
+          "Puh, ich habe Durst. Vielleicht trinke ich TAFELWASSER."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBNineEightEight",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B988",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Я покажу, какие замечательные у меня покемоны."
+        ],
+        "A2": [
+          "Я покажу, какие замечательные у меня покемоны. Только не плачь!"
+        ],
+        "natural": [
+          "Я покажу, какие замечательные у меня покемоны. Только не плачь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich zeige dir, wie toll meine Pokémon sind."
+        ],
+        "A2": [
+          "Ich zeige dir, wie toll meine Pokémon sind. Aber weine nicht!"
+        ],
+        "natural": [
+          "Ich zeige dir, wie toll meine Pokémon sind. Aber weine nicht!"
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBNineCSeven",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B9C7",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "...Я проиграл, но плакать не буду..."
+        ],
+        "A2": [
+          "...Я проиграл, но плакать не буду..."
+        ],
+        "natural": [
+          "...Я проиграл, но плакать не буду..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "...Ich habe verloren, aber ich weine nicht..."
+        ],
+        "A2": [
+          "...Ich habe verloren, aber ich weine nicht..."
+        ],
+        "natural": [
+          "...Ich habe verloren, aber ich weine nicht..."
+        ]
+      }
+    },
+    {
+      "id": "SeashorehouseOneNineBNineEFive",
+      "base_symbol": "Route109_SeashoreHouse_Text_19B9E5",
+      "source_path": "data/maps/Route109_SeashoreHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "The Seashore House challenge, reward, or Soda Pop service."
+      ],
+      "ru": {
+        "A1": [
+          "Если бы один из моих покемонов умел возить меня по воде на спине, этот круг был бы не нужен."
+        ],
+        "A2": [
+          "Если бы один из моих покемонов умел возить меня по воде на спине, этот круг был бы не нужен."
+        ],
+        "natural": [
+          "Если бы один из моих покемонов умел возить меня по воде на спине, этот круг был бы не нужен."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лимонад",
+            "soda pop"
+          ]
+        ],
+        "de": [
+          [
+            "die Limonade",
+            "soda pop"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Könnte mich eines meiner Pokémon übers Wasser tragen, bräuchte ich diesen Schwimmreifen nicht."
+        ],
+        "A2": [
+          "Könnte mich eines meiner Pokémon übers Wasser tragen, bräuchte ich diesen Schwimmreifen nicht."
+        ],
+        "natural": [
+          "Könnte mich eines meiner Pokémon übers Wasser tragen, bräuchte ich diesen Schwimmreifen nicht."
+        ]
+      }
     }
   ]
 }

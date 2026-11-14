@@ -12586,6 +12586,1466 @@
         "slateportcity",
         "city"
       ]
+    },
+    {
+      "id": "route109.beach.16e0f9.628",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F691",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E0F9",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEZeroFNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 628
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e159.629",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F6E2",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E159",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEOneFiveNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 629
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e1b1.630",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F6F1",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E1B1",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEOneBOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 630
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e26a.631",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F6AF",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E26A",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixETwoSixA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 631
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e2c5.632",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F6FB",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E2C5",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixETwoCFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 632
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e307.633",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F705",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E307",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEThreeZeroSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 633
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e35b.634",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F776",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E35B",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEThreeFiveB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 634
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e405.635",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F70E",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E405",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEFourZeroFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 635
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e433.636",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F725",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E433",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEFourThreeThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 636
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e446.637",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F762",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E446",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEFourFourSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 637
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e4d5.638",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F77F",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E4D5",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEFourDFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 638
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e5ca.639",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F788",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E5CA",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEFiveCa"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 639
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e5dc.640",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F79B",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E5DC",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixEFiveDc"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 640
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.16e62c.641",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7A4",
+        "base_text_path": "data/maps/Route109/text.inc",
+        "base_text_symbol": "Route109_Text_16E62C",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneSixESixTwoC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 641
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9a1c.642",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7AD",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9A1C",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineAOneC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 642
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9a59.643",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7AD",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9A59",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineAFiveNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 643
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9a6d.644",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7AD",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9A6D",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineASixD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 644
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9aad.645",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7C4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9AAD",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineAad"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 645
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9ad9.646",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7C4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9AD9",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineAdNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 646
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9aeb.647",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7C4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9AEB",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineAeb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 647
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9b11.648",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7DB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9B11",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineBOneOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 648
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9b57.649",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7DB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9B57",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineBFiveSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 649
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9b68.650",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7DB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9B68",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineBSixEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 650
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9b91.651",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7F2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9B91",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineBNineOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 651
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9bae.652",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7F2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9BAE",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineBae"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 652
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9bd3.653",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F7F2",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9BD3",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineBdThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 653
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9c23.654",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F809",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9C23",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineCTwoThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 654
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9c65.655",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F809",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9C65",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineCSixFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 655
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9c6e.656",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F809",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9C6E",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineCSixE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 656
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9cb3.657",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F830",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9CB3",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineCbThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 657
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9ceb.658",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F830",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9CEB",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineCeb"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 658
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9d10.659",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F830",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9D10",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineDOneZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 659
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9d54.660",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F847",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9D54",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineDFiveFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 660
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9d87.661",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F847",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9D87",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineDEightSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 661
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9d8e.662",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F847",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9D8E",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineDEightE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 662
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9dd8.663",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F86E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9DD8",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineDdEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 663
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9e16.664",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F86E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9E16",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineEOneSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 664
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9e1d.665",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F86E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9E1D",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineEOneD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 665
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9e60.666",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F885",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9E60",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineESixZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 666
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9ea1.667",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F885",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9EA1",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineEaOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 667
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9eca.668",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F885",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9ECA",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineEca"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 668
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9f07.669",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F89C",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9F07",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFZeroSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 669
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9f31.670",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F89C",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9F31",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFThreeOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 670
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9f44.671",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F89C",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9F44",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFFourFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 671
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9f65.672",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8B3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9F65",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFSixFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 672
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9f9c.673",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8B3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9F9C",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFNineC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 673
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9fb7.674",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8B3",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9FB7",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFbSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 674
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1b9ff6.675",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8CA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1B9FF6",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBNineFfSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 675
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba052.676",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8CA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA052",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaZeroFiveTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 676
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba069.677",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8CA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA069",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaZeroSixNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 677
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba0bf.678",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8CA",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA0BF",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaZeroBf"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 678
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba114.679",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8E5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA114",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaOneOneFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 679
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba15f.680",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8E5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA15F",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaOneFiveF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 680
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba193.681",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8E5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA193",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaOneNineThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 681
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.1ba1d0.682",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F8E5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route109_Text_1BA1D0",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineOneBaOneDZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 682
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "route109.beach.brineylandedindewford.683",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109/scripts.inc",
+        "symbol": "Route109_EventScript_14F548",
+        "base_text_path": "data/maps/DewfordTown/text.inc",
+        "base_text_symbol": "Route109_Text_BrineyLandedInDewford",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "RouteOneZeroNineBrineylandedindewford"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 683
+      },
+      "tags": [
+        "route109",
+        "beach"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b4d9.684",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160DD4",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B4D9",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBFourDNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 684
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b5b9.685",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160DFE",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B5B9",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBFiveBNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 685
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b609.686",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160E08",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B609",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBSixZeroNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 686
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b6be.687",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160E2C",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B6BE",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBSixBe"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 687
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b702.688",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160E36",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B702",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBSevenZeroTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 688
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b74c.689",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160E5A",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B74C",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBSevenFourC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 689
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b759.690",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160E9E",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B759",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBSevenFiveNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 690
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b773.691",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160E36",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B773",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBSevenSevenThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 691
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b809.692",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160EB8",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B809",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBEightZeroNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 692
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b869.693",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160EB8",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B869",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBEightSixNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 693
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b89f.694",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160EB8",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B89F",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBEightNineF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 694
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b8e5.695",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160ED3",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B8E5",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBEightEFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 695
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b949.696",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160ED3",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B949",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBNineFourNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 696
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b955.697",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160ED3",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B955",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBNineFiveFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 697
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b988.698",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160EEE",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B988",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBNineEightEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 698
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b9c7.699",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160EEE",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B9C7",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBNineCSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 699
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
+    },
+    {
+      "id": "seashorehouse.soda.19b9e5.700",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route109_SeashoreHouse/scripts.inc",
+        "symbol": "Route109_SeashoreHouse_EventScript_160EEE",
+        "base_text_path": "data/maps/Route109_SeashoreHouse/text.inc",
+        "base_text_symbol": "Route109_SeashoreHouse_Text_19B9E5",
+        "note": "Adaptive translation bridge preserves the original battle, reward, choice, or service flow.",
+        "authored_id": "SeashorehouseOneNineBNineEFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 700
+      },
+      "tags": [
+        "seashorehouse",
+        "soda"
+      ]
     }
   ]
 }

@@ -24326,6 +24326,1106 @@
         "volcano",
         "jagged_pass"
       ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.maynicebadgestakethis.1215",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_MayGiveGoGoggles",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_MayNiceBadgesTakeThis",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownMayNiceBadgesTakeThis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1215
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.mayexplaingogoggleschallengedad.1216",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_MayGiveGoGoggles",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_MayExplainGoGogglesChallengeDad",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownMayExplainGoGogglesChallengeDad"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1216
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.brendannicebadgestakethis.1217",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_BrendanGiveGoGoggles",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_BrendanNiceBadgesTakeThis",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownBrendanNiceBadgesTakeThis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1217
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.brendanexplaingogoggleschallengedad.1218",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_BrendanGiveGoGoggles",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownBrendanExplainGoGogglesChallengeDad"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1218
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.text.hotspringsneverrundry.1219",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_ExpertM",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_HotSpringsNeverRunDry",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHotSpringsNeverRunDry"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1219
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.pokemonnippedbackside.1220",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_OldMan",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_PokemonNippedBackside",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownPokemonNippedBackside"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1220
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.text.batheinhotspringseveryday.1221",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_Twin",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_BatheInHotSpringsEveryDay",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownBatheInHotSpringsEveryDay"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1221
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.text.ifpokemoninhotsprings.1222",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_HotSpringsOldWoman1",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_IfPokemonInHotSprings",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownIfPokemonInHotSprings"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1222
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.text.hotspringsclaims.1223",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_HotSpringsOldWoman2",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_HotSpringsClaims",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHotSpringsClaims"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1223
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.text.ohyoulikehotsprings.1224",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_ExpertF",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_OhYouLikeHotSprings",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownOhYouLikeHotSprings"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1224
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.haveeggwillyoutakeit.1225",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_EggWoman",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_HaveEggWillYouTakeIt",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHaveEggWillYouTakeIt"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1225
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.hopeyoullwalkplentywithegg.1226",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_EggWoman",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHopeYoullWalkPlentyWithEgg"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1226
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.receivedtheegg.1227",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_EggWoman",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_ReceivedTheEgg",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownReceivedTheEgg"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1227
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.everysoofteneggfoundatdaycare.1228",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_ReceivedEgg",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownEverySoOftenEggFoundAtDayCare"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1228
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.noroomforthisegg.1229",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_NoRoomForEgg",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_NoRoomForThisEgg",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownNoRoomForThisEgg"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1229
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.asyouwishthen.1230",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_DeclineEgg",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_AsYouWishThen",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownAsYouWishThen"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1230
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.townsign.1231",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_TownSign",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_TownSign",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownTownSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1231
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.text.gymsign.1232",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_GymSign",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_GymSign",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1232
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.herb_shop.lavaridgetown.text.herbshopsign.1233",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown/scripts.inc",
+        "symbol": "LavaridgeTown_EventScript_GymSign",
+        "base_text_path": "data/maps/LavaridgeTown/text.inc",
+        "base_text_symbol": "LavaridgeTown_Text_HerbShopSign",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHerbShopSign"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1233
+      },
+      "tags": [
+        "lavaridge",
+        "herb_shop"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.flanneryintro.1234",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Flannery",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_FlanneryIntro",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFFlanneryIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1234
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.flannerydefeat.1235",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Flannery",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_FlanneryDefeat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFFlanneryDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1235
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.flannerypostbattle.1236",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Flannery",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_FlanneryPostBattle",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFFlanneryPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1236
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.receivedheatbadge.1237",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFReceivedHeatBadge"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1237
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.explainheatbadgetakethis.1238",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFExplainHeatBadgeTakeThis"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1238
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.explainoverheat.1239",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_GiveOverheat",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ExplainOverheat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFExplainOverheat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1239
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.coleintro.1240",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Cole",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ColeIntro",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFColeIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1240
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.coledefeat.1241",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Cole",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ColeDefeat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFColeDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1241
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.colepostbattle.1242",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Cole",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ColePostBattle",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFColePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1242
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.axleintro.1243",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Axle",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_AxleIntro",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFAxleIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1243
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.axledefeat.1244",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Axle",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_AxleDefeat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFAxleDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1244
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.axlepostbattle.1245",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Axle",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_AxlePostBattle",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFAxlePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1245
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.b1f.text.andyintro.1246",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Andy",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_B1F_Text_AndyIntro",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymBOneFAndyIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1246
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.b1f.text.andydefeat.1247",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Andy",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_B1F_Text_AndyDefeat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymBOneFAndyDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1247
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.b1f.text.andypostbattle.1248",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Andy",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_B1F_Text_AndyPostBattle",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymBOneFAndyPostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1248
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.sadieintro.1249",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Sadie",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_SadieIntro",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFSadieIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1249
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.sadiedefeat.1250",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Sadie",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_SadieDefeat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFSadieDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1250
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.sadiepostbattle.1251",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Sadie",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_SadiePostBattle",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFSadiePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1251
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.zaneintro.1252",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Zane",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ZaneIntro",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFZaneIntro"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1252
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.zanedefeat.1253",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Zane",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ZaneDefeat",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFZaneDefeat"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1253
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.trainer.lavaridgetown.gym.1f.text.zanepostbattle.1254",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_Zane",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_ZanePostBattle",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFZanePostBattle"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1254
+      },
+      "tags": [
+        "lavaridge",
+        "trainer"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.gymguideadvice.1255",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_GymGuide",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_GymGuideAdvice",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFGymGuideAdvice"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1255
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.gymguidepostvictory.1256",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_GymGuidePostVictory",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_GymGuidePostVictory",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFGymGuidePostVictory"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1256
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.gymstatuecertified.1257",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_GymStatueCertified",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_GymStatueCertified",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFGymStatueCertified"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1257
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.gym.lavaridgetown.gym.1f.text.gymstatue.1258",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Gym_1F/scripts.inc",
+        "symbol": "LavaridgeTown_Gym_1F_EventScript_GymStatue",
+        "base_text_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_Gym_1F_Text_GymStatue",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownGymOneFGymStatue"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1258
+      },
+      "tags": [
+        "lavaridge",
+        "gym"
+      ]
+    },
+    {
+      "id": "lavaridge.herb_shop.lavaridgetown.herbshop.text.welcometoherbshop.1259",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_HerbShop/scripts.inc",
+        "symbol": "LavaridgeTown_HerbShop_EventScript_Clerk",
+        "base_text_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+        "base_text_symbol": "LavaridgeTown_HerbShop_Text_WelcomeToHerbShop",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHerbShopWelcomeToHerbShop"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1259
+      },
+      "tags": [
+        "lavaridge",
+        "herb_shop"
+      ]
+    },
+    {
+      "id": "lavaridge.herb_shop.lavaridgetown.herbshop.text.herbalmedicineworksbutmonwilldislike.1260",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_HerbShop/scripts.inc",
+        "symbol": "LavaridgeTown_HerbShop_EventScript_ExpertM",
+        "base_text_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+        "base_text_symbol": "LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHerbShopHerbalMedicineWorksButMonWillDislike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1260
+      },
+      "tags": [
+        "lavaridge",
+        "herb_shop"
+      ]
+    },
+    {
+      "id": "lavaridge.herb_shop.lavaridgetown.herbshop.text.youvecometolookatherbalmedicine.1261",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_HerbShop/scripts.inc",
+        "symbol": "LavaridgeTown_HerbShop_EventScript_OldMan",
+        "base_text_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+        "base_text_symbol": "LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHerbShopYouveComeToLookAtHerbalMedicine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1261
+      },
+      "tags": [
+        "lavaridge",
+        "herb_shop"
+      ]
+    },
+    {
+      "id": "lavaridge.herb_shop.lavaridgetown.herbshop.text.explaincharcoal.1262",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_HerbShop/scripts.inc",
+        "symbol": "LavaridgeTown_HerbShop_EventScript_ExplainCharcoal",
+        "base_text_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+        "base_text_symbol": "LavaridgeTown_HerbShop_Text_ExplainCharcoal",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHerbShopExplainCharcoal"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1262
+      },
+      "tags": [
+        "lavaridge",
+        "herb_shop"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.house.text.wifewarmingegginhotsprings.1263",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_House/scripts.inc",
+        "symbol": "LavaridgeTown_House_EventScript_OldMan",
+        "base_text_path": "data/maps/LavaridgeTown_House/text.inc",
+        "base_text_symbol": "LavaridgeTown_House_Text_WifeWarmingEggInHotSprings",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHouseWifeWarmingEggInHotSprings"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1263
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.house.text.zigzagoon.1264",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_House/scripts.inc",
+        "symbol": "LavaridgeTown_House_EventScript_Zigzagoon",
+        "base_text_path": "data/maps/LavaridgeTown_House/text.inc",
+        "base_text_symbol": "LavaridgeTown_House_Text_Zigzagoon",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownHouseZigzagoon"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1264
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.mart.text.xspeedfirststrike.1265",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Mart/scripts.inc",
+        "symbol": "LavaridgeTown_Mart_EventScript_ExpertM",
+        "base_text_path": "data/maps/LavaridgeTown_Mart/text.inc",
+        "base_text_symbol": "LavaridgeTown_Mart_Text_XSpeedFirstStrike",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownMartXSpeedFirstStrike"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1265
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.mart.text.localspecialtyonmtchimney.1266",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_Mart/scripts.inc",
+        "symbol": "LavaridgeTown_Mart_EventScript_OldWoman",
+        "base_text_path": "data/maps/LavaridgeTown_Mart/text.inc",
+        "base_text_symbol": "LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownMartLocalSpecialtyOnMtChimney"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1266
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.hot_springs.lavaridgetown.pokemoncenter.1f.text.hotspringcaninvigorate.1267",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "LavaridgeTown_PokemonCenter_1F_EventScript_Youngster",
+        "base_text_path": "data/maps/LavaridgeTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownPokemonCenterOneFHotSpringCanInvigorate"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1267
+      },
+      "tags": [
+        "lavaridge",
+        "hot_springs"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.pokemoncenter.1f.text.trainerspokemonspendtimetogether.1268",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "LavaridgeTown_PokemonCenter_1F_EventScript_Woman",
+        "base_text_path": "data/maps/LavaridgeTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownPokemonCenterOneFTrainersPokemonSpendTimeTogether"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1268
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
+    },
+    {
+      "id": "lavaridge.town.lavaridgetown.pokemoncenter.1f.text.trainersshouldresttoo.1269",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/LavaridgeTown_PokemonCenter_1F/scripts.inc",
+        "symbol": "LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman",
+        "base_text_path": "data/maps/LavaridgeTown_PokemonCenter_1F/text.inc",
+        "base_text_symbol": "LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo",
+        "note": "Adaptive translation bridge preserves the original battle, badge, TM, HM, Egg, bike, choice, gift, purchase, and story flow.",
+        "authored_id": "LavaridgeTownPokemonCenterOneFTrainersShouldRestToo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1269
+      },
+      "tags": [
+        "lavaridge",
+        "town"
+      ]
     }
   ]
 }

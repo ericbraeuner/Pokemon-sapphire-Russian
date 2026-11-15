@@ -641,6 +641,11 @@ class LessonTests(unittest.TestCase):
         volcano_areas = ('MtChimney', 'MtChimney_CableCarStation',
                          'JaggedPass', 'FieryPath')
         paths += [f'data/maps/{area}/scripts.inc' for area in volcano_areas]
+        lavaridge_areas = ('LavaridgeTown', 'LavaridgeTown_Gym_1F',
+                           'LavaridgeTown_Gym_B1F', 'LavaridgeTown_HerbShop',
+                           'LavaridgeTown_House', 'LavaridgeTown_Mart',
+                           'LavaridgeTown_PokemonCenter_1F')
+        paths += [f'data/maps/{area}/scripts.inc' for area in lavaridge_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2512,6 +2517,25 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(75, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
+    def test_lavaridge_first_arrival_dialogue_is_fully_adaptive(self):
+        areas = ('LavaridgeTown', 'LavaridgeTown_Gym_1F',
+                 'LavaridgeTown_Gym_B1F', 'LavaridgeTown_HerbShop',
+                 'LavaridgeTown_House', 'LavaridgeTown_Mart',
+                 'LavaridgeTown_PokemonCenter_1F')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'LavaridgeTown[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(55, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = set()
@@ -3205,6 +3229,8 @@ class LessonTests(unittest.TestCase):
         strings = (demo.ROOT / 'src/strings.c').read_text(encoding='utf-8')
         self.assertIn('gMainMenuString_Player[] = _("NAME")', strings)
         self.assertIn('gMainMenuString_Time[] = _("ZEIT")', strings)
+        self.assertNotIn('gMainMenuString_Player[] = _("SPIELER")', strings)
+        self.assertNotIn('gMainMenuString_Time[] = _("SPIELZEIT")', strings)
         main_menu = (demo.ROOT / 'src/main_menu.c').read_text()
         self.assertIn('text = Learner_Translate(text);', main_menu)
         self.assertIn('Menu_PrintText(alignedPlayTime, 25, 3);', main_menu)

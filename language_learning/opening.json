@@ -54452,6 +54452,2481 @@
           "Ich sollte bei RADL RAINER in MALVENFROH ein KUNSTRAD holen..."
         ]
       }
+    },
+    {
+      "id": "LavaridgeTownMayNiceBadgesTakeThis",
+      "base_symbol": "LavaridgeTown_Text_MayNiceBadgesTakeThis",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЙ: {PLAYER}!"
+        ],
+        "A2": [
+          "МЭЙ: {PLAYER}! Давно не виделись!"
+        ],
+        "natural": [
+          "МЭЙ: {PLAYER}! Давно не виделись! Пока я была в источниках, ты получил ЗНАЧОК ЛАВАРИДЖА. Ты хорошо растишь покемонов. Возьми это."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MAIKE: {PLAYER}!"
+        ],
+        "A2": [
+          "MAIKE: {PLAYER}! Lange nicht gesehen!"
+        ],
+        "natural": [
+          "MAIKE: {PLAYER}! Lange nicht gesehen! Während ich badete, hast du den ORDEN gewonnen. Du trainierst gut. Nimm das."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownMayExplainGoGogglesChallengeDad",
+      "base_symbol": "LavaridgeTown_Text_MayExplainGoGogglesChallengeDad",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЭЙ: В ОЧКАХ ты пройдёшь пустыню у МАРШРУТА 111."
+        ],
+        "A2": [
+          "МЭЙ: В ОЧКАХ ты пройдёшь пустыню у МАРШРУТА 111. Ты усердно проходишь СТАДИОНЫ, чтобы не проиграть мне!"
+        ],
+        "natural": [
+          "МЭЙ: В ОЧКАХ ты пройдёшь пустыню у МАРШРУТА 111. Ты усердно проходишь СТАДИОНЫ, чтобы не проиграть мне! А я брошу вызов твоему папе в ПЕТАЛБУРГЕ. До встречи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "MAIKE: Mit der BRILLE kommst du durch die Wüste bei ROUTE 111."
+        ],
+        "A2": [
+          "MAIKE: Mit der BRILLE kommst du durch die Wüste bei ROUTE 111. Du kämpfst fleißig in ARENEN!"
+        ],
+        "natural": [
+          "MAIKE: Mit der BRILLE kommst du durch die Wüste bei ROUTE 111. Du kämpfst fleißig in ARENEN! Ich fordere deinen Vater in BLÜTENBURG heraus. Bis bald!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownBrendanNiceBadgesTakeThis",
+      "base_symbol": "LavaridgeTown_Text_BrendanNiceBadgesTakeThis",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРЕНДАН: {PLAYER}, давно не виделись."
+        ],
+        "A2": [
+          "БРЕНДАН: {PLAYER}, давно не виделись. Неплохая коллекция ЗНАЧКОВ."
+        ],
+        "natural": [
+          "БРЕНДАН: {PLAYER}, давно не виделись. Неплохая коллекция ЗНАЧКОВ. Возьми это."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BALTHASAR: {PLAYER}, lange nicht gesehen."
+        ],
+        "A2": [
+          "BALTHASAR: {PLAYER}, lange nicht gesehen. Schöne ORDEN-Sammlung."
+        ],
+        "natural": [
+          "BALTHASAR: {PLAYER}, lange nicht gesehen. Schöne ORDEN-Sammlung. Nimm das."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownBrendanExplainGoGogglesChallengeDad",
+      "base_symbol": "LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БРЕНДАН: Эти ОЧКИ нужны в пустыне у МАРШРУТА 111."
+        ],
+        "A2": [
+          "БРЕНДАН: Эти ОЧКИ нужны в пустыне у МАРШРУТА 111. Там живут особые покемоны."
+        ],
+        "natural": [
+          "БРЕНДАН: Эти ОЧКИ нужны в пустыне у МАРШРУТА 111. Там живут особые покемоны. Я хочу бросить вызов НОРМАНУ в ПЕТАЛБУРГЕ. Твой папа силён. До встречи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BALTHASAR: Die BRILLE brauchst du in der Wüste bei ROUTE 111."
+        ],
+        "A2": [
+          "BALTHASAR: Die BRILLE brauchst du in der Wüste bei ROUTE 111. Dort leben besondere Pokémon."
+        ],
+        "natural": [
+          "BALTHASAR: Die BRILLE brauchst du in der Wüste bei ROUTE 111. Dort leben besondere Pokémon. Ich fordere NORMAN in BLÜTENBURG heraus. Bis dann!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHotSpringsNeverRunDry",
+      "base_symbol": "LavaridgeTown_Text_HotSpringsNeverRunDry",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мы берём много горячей воды, но источник не иссякает."
+        ],
+        "A2": [
+          "Мы берём много горячей воды, но источник не иссякает. Волшебство!"
+        ],
+        "natural": [
+          "Мы берём много горячей воды, но источник не иссякает. Волшебство! Подземную воду нагревает магма, и она выходит наружу."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir entnehmen viel heißes Wasser, doch die Quelle versiegt nie."
+        ],
+        "A2": [
+          "Wir entnehmen viel heißes Wasser, doch die Quelle versiegt nie. Magma erhitzt Grundwasser, das dann aufsteigt."
+        ],
+        "natural": [
+          "Wir entnehmen viel heißes Wasser, doch die Quelle versiegt nie. Magma erhitzt Grundwasser, das dann aufsteigt."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownPokemonNippedBackside",
+      "base_symbol": "LavaridgeTown_Text_PokemonNippedBackside",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Лежать в горячем песке так тепло и приятно..."
+        ],
+        "A2": [
+          "Лежать в горячем песке так тепло и приятно... Ай!"
+        ],
+        "natural": [
+          "Лежать в горячем песке так тепло и приятно... Ай! Покемон укусил меня сзади!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Im heißen Sand ist es so warm und herrlich..."
+        ],
+        "A2": [
+          "Im heißen Sand ist es so warm und herrlich... Aua!"
+        ],
+        "natural": [
+          "Im heißen Sand ist es so warm und herrlich... Aua! Ein Pokémon biss mich in den Hintern!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownBatheInHotSpringsEveryDay",
+      "base_symbol": "LavaridgeTown_Text_BatheInHotSpringsEveryDay",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я купаюсь здесь каждый день."
+        ],
+        "A2": [
+          "Я купаюсь здесь каждый день. Хочу стать красивым и сильным лидером, как ФЛАННЕРИ."
+        ],
+        "natural": [
+          "Я купаюсь здесь каждый день. Хочу стать красивым и сильным лидером, как ФЛАННЕРИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bade täglich hier."
+        ],
+        "A2": [
+          "Ich bade täglich hier. Ich will schön und stark wie ARENALEITERIN FLAVIA werden."
+        ],
+        "natural": [
+          "Ich bade täglich hier. Ich will schön und stark wie ARENALEITERIN FLAVIA werden."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownIfPokemonInHotSprings",
+      "base_symbol": "LavaridgeTown_Text_IfPokemonInHotSprings",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Покемоны в источнике устроили бы странную ванну: электрическую, пузырьковую или даже лавовую."
+        ],
+        "A2": [
+          "Покемоны в источнике устроили бы странную ванну: электрическую, пузырьковую или даже лавовую."
+        ],
+        "natural": [
+          "Покемоны в источнике устроили бы странную ванну: электрическую, пузырьковую или даже лавовую."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon in der Quelle ergäben ein Elektro-, Sprudel- oder sogar Lavabad."
+        ],
+        "A2": [
+          "Pokémon in der Quelle ergäben ein Elektro-, Sprudel- oder sogar Lavabad."
+        ],
+        "natural": [
+          "Pokémon in der Quelle ergäben ein Elektro-, Sprudel- oder sogar Lavabad."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHotSpringsClaims",
+      "base_symbol": "LavaridgeTown_Text_HotSpringsClaims",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Говорят, источники успокаивают нервы, снимают боль, решают любовные проблемы и привлекают деньги."
+        ],
+        "A2": [
+          "Говорят, источники успокаивают нервы, снимают боль, решают любовные проблемы и привлекают деньги."
+        ],
+        "natural": [
+          "Говорят, источники успокаивают нервы, снимают боль, решают любовные проблемы и привлекают деньги."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Quellen sollen Nerven beruhigen, Schmerzen lindern, Liebesprobleme lösen und Geld anziehen."
+        ],
+        "A2": [
+          "Die Quellen sollen Nerven beruhigen, Schmerzen lindern, Liebesprobleme lösen und Geld anziehen."
+        ],
+        "natural": [
+          "Die Quellen sollen Nerven beruhigen, Schmerzen lindern, Liebesprobleme lösen und Geld anziehen."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownOhYouLikeHotSprings",
+      "base_symbol": "LavaridgeTown_Text_OhYouLikeHotSprings",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты любишь горячие источники?"
+        ],
+        "A2": [
+          "Ты любишь горячие источники? Удивительно для такого юного человека."
+        ],
+        "natural": [
+          "Ты любишь горячие источники? Удивительно для такого юного человека."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du magst heiße Quellen?"
+        ],
+        "A2": [
+          "Du magst heiße Quellen? Für dein Alter überraschend."
+        ],
+        "natural": [
+          "Du magst heiße Quellen? Für dein Alter überraschend."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHaveEggWillYouTakeIt",
+      "base_symbol": "LavaridgeTown_Text_HaveEggWillYouTakeIt",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "У меня есть ЯЙЦО."
+        ],
+        "A2": [
+          "У меня есть ЯЙЦО. Горячего песка для него мало."
+        ],
+        "natural": [
+          "У меня есть ЯЙЦО. Горячего песка для него мало. Говорят, ЯЙЦО надо носить вместе с покемонами. Ты тренер. Возьмёшь его и выведешь покемона?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe ein EI."
+        ],
+        "A2": [
+          "Ich habe ein EI. Heißer Sand genügt nicht."
+        ],
+        "natural": [
+          "Ich habe ein EI. Heißer Sand genügt nicht. Man soll es bei Pokémon tragen. Du bist Trainer. Möchtest du es ausbrüten?"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHopeYoullWalkPlentyWithEgg",
+      "base_symbol": "LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хорошо!"
+        ],
+        "A2": [
+          "Хорошо! Побольше ходи с этим ЯЙЦОМ!"
+        ],
+        "natural": [
+          "Хорошо! Побольше ходи с этим ЯЙЦОМ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Gut!"
+        ],
+        "A2": [
+          "Gut! Lauf viel mit diesem EI!"
+        ],
+        "natural": [
+          "Gut! Lauf viel mit diesem EI!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownReceivedTheEgg",
+      "base_symbol": "LavaridgeTown_Text_ReceivedTheEgg",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} получает ЯЙЦО."
+        ],
+        "A2": [
+          "{PLAYER} получает ЯЙЦО."
+        ],
+        "natural": [
+          "{PLAYER} получает ЯЙЦО."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} erhält das EI."
+        ],
+        "A2": [
+          "{PLAYER} erhält das EI."
+        ],
+        "natural": [
+          "{PLAYER} erhält das EI."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownEverySoOftenEggFoundAtDayCare",
+      "base_symbol": "LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Говорят, в ДЕТСКОМ САДУ иногда находят ЯЙЦО."
+        ],
+        "A2": [
+          "Говорят, в ДЕТСКОМ САДУ иногда находят ЯЙЦО."
+        ],
+        "natural": [
+          "Говорят, в ДЕТСКОМ САДУ иногда находят ЯЙЦО."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Man sagt, in der PENSION findet man manchmal ein EI."
+        ],
+        "A2": [
+          "Man sagt, in der PENSION findet man manchmal ein EI."
+        ],
+        "natural": [
+          "Man sagt, in der PENSION findet man manchmal ein EI."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownNoRoomForThisEgg",
+      "base_symbol": "LavaridgeTown_Text_NoRoomForThisEgg",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "У тебя слишком много покемонов."
+        ],
+        "A2": [
+          "У тебя слишком много покемонов. Для ЯЙЦА нет места."
+        ],
+        "natural": [
+          "У тебя слишком много покемонов. Для ЯЙЦА нет места."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast zu viele Pokémon."
+        ],
+        "A2": [
+          "Du hast zu viele Pokémon. Kein Platz für das EI."
+        ],
+        "natural": [
+          "Du hast zu viele Pokémon. Kein Platz für das EI."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownAsYouWishThen",
+      "base_symbol": "LavaridgeTown_Text_AsYouWishThen",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Как хочешь."
+        ],
+        "A2": [
+          "Как хочешь. Если передумаешь насчёт ЯЙЦА, я буду здесь."
+        ],
+        "natural": [
+          "Как хочешь. Если передумаешь насчёт ЯЙЦА, я буду здесь."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie du willst."
+        ],
+        "A2": [
+          "Wie du willst. Wenn du das EI doch ausbrüten möchtest, bin ich hier."
+        ],
+        "natural": [
+          "Wie du willst. Wenn du das EI doch ausbrüten möchtest, bin ich hier."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownTownSign",
+      "base_symbol": "LavaridgeTown_Text_TownSign",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЛАВАРИДЖ."
+        ],
+        "A2": [
+          "ЛАВАРИДЖ. ГОРЯЧИЕ ИСТОЧНИКИ ЦЕНТРА ПОКЕМОНОВ."
+        ],
+        "natural": [
+          "ЛАВАРИДЖ. ГОРЯЧИЕ ИСТОЧНИКИ ЦЕНТРА ПОКЕМОНОВ. Лучшее место для отдыха!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "BAD LAVASTADT."
+        ],
+        "A2": [
+          "BAD LAVASTADT. HEISSE QUELLEN AM POKÉMON-CENTER."
+        ],
+        "natural": [
+          "BAD LAVASTADT. HEISSE QUELLEN AM POKÉMON-CENTER. Ein Ort zum Entspannen!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymSign",
+      "base_symbol": "LavaridgeTown_Text_GymSign",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СТАДИОН ЛАВАРИДЖА."
+        ],
+        "A2": [
+          "СТАДИОН ЛАВАРИДЖА. ЛИДЕР: ФЛАННЕРИ."
+        ],
+        "natural": [
+          "СТАДИОН ЛАВАРИДЖА. ЛИДЕР: ФЛАННЕРИ. Пылающая страсть!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKÉMON-ARENA BAD LAVASTADT."
+        ],
+        "A2": [
+          "POKÉMON-ARENA BAD LAVASTADT. LEITERIN: FLAVIA."
+        ],
+        "natural": [
+          "POKÉMON-ARENA BAD LAVASTADT. LEITERIN: FLAVIA. Brennende Leidenschaft!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHerbShopSign",
+      "base_symbol": "LavaridgeTown_Text_HerbShopSign",
+      "source_path": "data/maps/LavaridgeTown/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Herb Shop medicine, Charcoal gift, or shopping interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЛАВКА ТРАВ."
+        ],
+        "A2": [
+          "ЛАВКА ТРАВ. Горький вкус - лучшее лечение!"
+        ],
+        "natural": [
+          "ЛАВКА ТРАВ. Горький вкус - лучшее лечение!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лекарство",
+            "medicine"
+          ]
+        ],
+        "de": [
+          [
+            "die Medizin",
+            "medicine"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "KRÄUTERLADEN."
+        ],
+        "A2": [
+          "KRÄUTERLADEN. Bitterer Geschmack, bessere Heilung!"
+        ],
+        "natural": [
+          "KRÄUTERLADEN. Bitterer Geschmack, bessere Heilung!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFFlanneryIntro",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_FlanneryIntro",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Добро пожаловать..."
+        ],
+        "A2": [
+          "Добро пожаловать... Нет!"
+        ],
+        "natural": [
+          "Добро пожаловать... Нет! Жалкий тренер, ты всё-таки добрался сюда! Я ФЛАННЕРИ, лидер этого СТАДИОНА! Не недооценивай меня. Я недавно стала лидером, но покажу огненные приёмы, унаследованные от деда!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Willkommen..."
+        ],
+        "A2": [
+          "Willkommen... Nein!"
+        ],
+        "natural": [
+          "Willkommen... Nein! Schwacher Trainer, du hast es geschafft! Ich bin FLAVIA, die ARENALEITERIN! Unterschätze mich nicht. Ich bin neu, doch zeige dir die Feuerkunst meines Großvaters!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFFlanneryDefeat",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_FlanneryDefeat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ох..."
+        ],
+        "A2": [
+          "Ох... Я слишком старалась."
+        ],
+        "natural": [
+          "Ох... Я слишком старалась. Я недавно стала лидером и пыталась быть не собой. Надо действовать естественно, иначе мои покемоны запутаются. Спасибо за урок. Ты заслужил это."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh..."
+        ],
+        "A2": [
+          "Oh... Ich strengte mich zu sehr an."
+        ],
+        "natural": [
+          "Oh... Ich strengte mich zu sehr an. Als neue LEITERIN spielte ich eine Rolle. Ich muss ich selbst sein, sonst verwirre ich meine Pokémon. Danke. Du verdienst dies."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFFlanneryPostBattle",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_FlanneryPostBattle",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Твоя сила кого-то напоминает..."
+        ],
+        "A2": [
+          "Твоя сила кого-то напоминает... Точно!"
+        ],
+        "natural": [
+          "Твоя сила кого-то напоминает... Точно! Ты сражаешься как НОРМАН, лидер ПЕТАЛБУРГА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Deine Kraft erinnert mich an jemanden..."
+        ],
+        "A2": [
+          "Deine Kraft erinnert mich an jemanden... Genau!"
+        ],
+        "natural": [
+          "Deine Kraft erinnert mich an jemanden... Genau! Du kämpfst wie NORMAN, Leiter von BLÜTENBURG."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFReceivedHeatBadge",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} получает ЗНАЧОК ЖАРА от ФЛАННЕРИ."
+        ],
+        "A2": [
+          "{PLAYER} получает ЗНАЧОК ЖАРА от ФЛАННЕРИ."
+        ],
+        "natural": [
+          "{PLAYER} получает ЗНАЧОК ЖАРА от ФЛАННЕРИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} erhält den HITZEORDEN von FLAVIA."
+        ],
+        "A2": [
+          "{PLAYER} erhält den HITZEORDEN von FLAVIA."
+        ],
+        "natural": [
+          "{PLAYER} erhält den HITZEORDEN von FLAVIA."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFExplainHeatBadgeTakeThis",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Со ЗНАЧКОМ ЖАРА покемоны до уровня 50 будут слушаться тебя."
+        ],
+        "A2": [
+          "Со ЗНАЧКОМ ЖАРА покемоны до уровня 50 будут слушаться тебя. Он позволяет применять СИЛУ вне боя."
+        ],
+        "natural": [
+          "Со ЗНАЧКОМ ЖАРА покемоны до уровня 50 будут слушаться тебя. Он позволяет применять СИЛУ вне боя. И возьми этот подарок!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit dem HITZEORDEN gehorchen Pokémon bis Level 50."
+        ],
+        "A2": [
+          "Mit dem HITZEORDEN gehorchen Pokémon bis Level 50. Außerdem kannst du STÄRKE außerhalb des Kampfs einsetzen."
+        ],
+        "natural": [
+          "Mit dem HITZEORDEN gehorchen Pokémon bis Level 50. Außerdem kannst du STÄRKE außerhalb des Kampfs einsetzen. Nimm auch dies!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFExplainOverheat",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ExplainOverheat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ТМ50 содержит ПЕРЕГРЕВ."
+        ],
+        "A2": [
+          "ТМ50 содержит ПЕРЕГРЕВ. Он наносит большой урон, но резко снижает специальную атаку пользователя."
+        ],
+        "natural": [
+          "ТМ50 содержит ПЕРЕГРЕВ. Он наносит большой урон, но резко снижает специальную атаку пользователя. Для долгих боёв не подходит."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TM50 enthält HITZEKOLLER."
+        ],
+        "A2": [
+          "TM50 enthält HITZEKOLLER. Die Attacke richtet viel Schaden an, senkt aber den Spezial-Angriff stark."
+        ],
+        "natural": [
+          "TM50 enthält HITZEKOLLER. Die Attacke richtet viel Schaden an, senkt aber den Spezial-Angriff stark. Für lange Kämpfe ungeeignet."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFColeIntro",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ColeIntro",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ай-ай-ай!"
+        ],
+        "A2": [
+          "Ай-ай-ай! Как же жарко!"
+        ],
+        "natural": [
+          "Ай-ай-ай! Как же жарко!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Au au au!"
+        ],
+        "A2": [
+          "Au au au! Ist das heiß!"
+        ],
+        "natural": [
+          "Au au au! Ist das heiß!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFColeDefeat",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ColeDefeat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Пот застилает мне глаза..."
+        ],
+        "A2": [
+          "Пот застилает мне глаза..."
+        ],
+        "natural": [
+          "Пот застилает мне глаза..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Schweiß blendet mich..."
+        ],
+        "A2": [
+          "Der Schweiß blendet mich..."
+        ],
+        "natural": [
+          "Der Schweiß blendet mich..."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFColePostBattle",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ColePostBattle",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Горячий песок улучшает кровообращение и помогает при боли в суставах."
+        ],
+        "A2": [
+          "Горячий песок улучшает кровообращение и помогает при боли в суставах."
+        ],
+        "natural": [
+          "Горячий песок улучшает кровообращение и помогает при боли в суставах."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Heißer Sand fördert den Kreislauf und hilft gegen Gelenkschmerzen."
+        ],
+        "A2": [
+          "Heißer Sand fördert den Kreislauf und hilft gegen Gelenkschmerzen."
+        ],
+        "natural": [
+          "Heißer Sand fördert den Kreislauf und hilft gegen Gelenkschmerzen."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFAxleIntro",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_AxleIntro",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я снимаю стресс."
+        ],
+        "A2": [
+          "Я снимаю стресс. Не добавляй мне нового!"
+        ],
+        "natural": [
+          "Я снимаю стресс. Не добавляй мне нового!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich baue Stress ab."
+        ],
+        "A2": [
+          "Ich baue Stress ab. Mach mir keinen neuen!"
+        ],
+        "natural": [
+          "Ich baue Stress ab. Mach mir keinen neuen!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFAxleDefeat",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_AxleDefeat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Надеюсь, ФЛАННЕРИ тебя поджарит!"
+        ],
+        "A2": [
+          "Надеюсь, ФЛАННЕРИ тебя поджарит!"
+        ],
+        "natural": [
+          "Надеюсь, ФЛАННЕРИ тебя поджарит!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hoffentlich röstet FLAVIA dich!"
+        ],
+        "A2": [
+          "Hoffentlich röstet FLAVIA dich!"
+        ],
+        "natural": [
+          "Hoffentlich röstet FLAVIA dich!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFAxlePostBattle",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_AxlePostBattle",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Фух..."
+        ],
+        "A2": [
+          "Фух... Если слишком долго лежать в горячем песке, выбьешься из сил."
+        ],
+        "natural": [
+          "Фух... Если слишком долго лежать в горячем песке, выбьешься из сил."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Puh..."
+        ],
+        "A2": [
+          "Puh... Zu lange im heißen Sand macht müde."
+        ],
+        "natural": [
+          "Puh... Zu lange im heißen Sand macht müde."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymBOneFAndyIntro",
+      "base_symbol": "LavaridgeTown_Gym_B1F_Text_AndyIntro",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты уже устал и хочешь отдохнуть в горячем песке?"
+        ],
+        "A2": [
+          "Ты уже устал и хочешь отдохнуть в горячем песке? Тренеру важно сохранять силу воли."
+        ],
+        "natural": [
+          "Ты уже устал и хочешь отдохнуть в горячем песке? Тренеру важно сохранять силу воли."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist müde und willst im heißen Sand ruhen?"
+        ],
+        "A2": [
+          "Du bist müde und willst im heißen Sand ruhen? Willenskraft ist für Trainer wichtig."
+        ],
+        "natural": [
+          "Du bist müde und willst im heißen Sand ruhen? Willenskraft ist für Trainer wichtig."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymBOneFAndyDefeat",
+      "base_symbol": "LavaridgeTown_Gym_B1F_Text_AndyDefeat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Играешь с огнём - обожжёшься..."
+        ],
+        "A2": [
+          "Играешь с огнём - обожжёшься..."
+        ],
+        "natural": [
+          "Играешь с огнём - обожжёшься..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wer mit Feuer spielt, verbrennt sich..."
+        ],
+        "A2": [
+          "Wer mit Feuer spielt, verbrennt sich..."
+        ],
+        "natural": [
+          "Wer mit Feuer spielt, verbrennt sich..."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymBOneFAndyPostBattle",
+      "base_symbol": "LavaridgeTown_Gym_B1F_Text_AndyPostBattle",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ты умелый."
+        ],
+        "A2": [
+          "Ты умелый. Но ФЛАННЕРИ сильна."
+        ],
+        "natural": [
+          "Ты умелый. Но ФЛАННЕРИ сильна. Будь осторожен, иначе обожжёшься."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist gut."
+        ],
+        "A2": [
+          "Du bist gut. Doch FLAVIA ist stark."
+        ],
+        "natural": [
+          "Du bist gut. Doch FLAVIA ist stark. Pass auf, sonst verbrennst du dich."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFSadieIntro",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_SadieIntro",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Эм..."
+        ],
+        "A2": [
+          "Эм... Хорошо, я с тобой сражусь."
+        ],
+        "natural": [
+          "Эм... Хорошо, я с тобой сражусь."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ähm..."
+        ],
+        "A2": [
+          "Ähm... Gut, ich kämpfe gegen dich."
+        ],
+        "natural": [
+          "Ähm... Gut, ich kämpfe gegen dich."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFSadieDefeat",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_SadieDefeat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Но ты слишком силён."
+        ],
+        "A2": [
+          "Но ты слишком силён."
+        ],
+        "natural": [
+          "Но ты слишком силён."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist zu stark."
+        ],
+        "A2": [
+          "Du bist zu stark."
+        ],
+        "natural": [
+          "Du bist zu stark."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFSadiePostBattle",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_SadiePostBattle",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я стану красивым и сильным тренером, как ФЛАННЕРИ."
+        ],
+        "A2": [
+          "Я стану красивым и сильным тренером, как ФЛАННЕРИ."
+        ],
+        "natural": [
+          "Я стану красивым и сильным тренером, как ФЛАННЕРИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich werde eine schöne und starke Trainerin wie FLAVIA."
+        ],
+        "A2": [
+          "Ich werde eine schöne und starke Trainerin wie FLAVIA."
+        ],
+        "natural": [
+          "Ich werde eine schöne und starke Trainerin wie FLAVIA."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFZaneIntro",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ZaneIntro",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Твои покемоны выдержат жар в 392 градуса?"
+        ],
+        "A2": [
+          "Твои покемоны выдержат жар в 392 градуса?"
+        ],
+        "natural": [
+          "Твои покемоны выдержат жар в 392 градуса?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Halten deine Pokémon 392 Grad Hitze aus?"
+        ],
+        "A2": [
+          "Halten deine Pokémon 392 Grad Hitze aus?"
+        ],
+        "natural": [
+          "Halten deine Pokémon 392 Grad Hitze aus?"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFZaneDefeat",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ZaneDefeat",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мой огонь был недостаточно жарким..."
+        ],
+        "A2": [
+          "Мой огонь был недостаточно жарким..."
+        ],
+        "natural": [
+          "Мой огонь был недостаточно жарким..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Feuer war nicht heiß genug..."
+        ],
+        "A2": [
+          "Mein Feuer war nicht heiß genug..."
+        ],
+        "natural": [
+          "Mein Feuer war nicht heiß genug..."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFZanePostBattle",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_ZanePostBattle",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym trainer introduction, defeat line, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Температура магмы - 392 градуса."
+        ],
+        "A2": [
+          "Температура магмы - 392 градуса. Раз твои покемоны победили, они легко выживут в магме."
+        ],
+        "natural": [
+          "Температура магмы - 392 градуса. Раз твои покемоны победили, они легко выживут в магме."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Magma ist 392 Grad heiß."
+        ],
+        "A2": [
+          "Magma ist 392 Grad heiß. Nach diesem Sieg überleben deine Pokémon darin sicher."
+        ],
+        "natural": [
+          "Magma ist 392 Grad heiß. Nach diesem Sieg überleben deine Pokémon darin sicher."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFGymGuideAdvice",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_GymGuideAdvice",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Привет, будущий ЧЕМПИОН {PLAYER}!"
+        ],
+        "A2": [
+          "Привет, будущий ЧЕМПИОН {PLAYER}! ФЛАННЕРИ использует огненных покемонов."
+        ],
+        "natural": [
+          "Привет, будущий ЧЕМПИОН {PLAYER}! ФЛАННЕРИ использует огненных покемонов. Её страсть жарче вулкана. Остуди её водой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo, künftiger CHAMP {PLAYER}!"
+        ],
+        "A2": [
+          "Hallo, künftiger CHAMP {PLAYER}! FLAVIA nutzt Feuer-Pokémon."
+        ],
+        "natural": [
+          "Hallo, künftiger CHAMP {PLAYER}! FLAVIA nutzt Feuer-Pokémon. Ihre Leidenschaft ist heißer als ein Vulkan. Kühl sie mit Wasser ab!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFGymGuidePostVictory",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_GymGuidePostVictory",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ух!"
+        ],
+        "A2": [
+          "Ух! Вот это был жаркий бой!"
+        ],
+        "natural": [
+          "Ух! Вот это был жаркий бой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wow!"
+        ],
+        "A2": [
+          "Wow! Das war ein heißer Kampf!"
+        ],
+        "natural": [
+          "Wow! Das war ein heißer Kampf!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFGymStatueCertified",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_GymStatueCertified",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СТАДИОН ЛАВАРИДЖА."
+        ],
+        "A2": [
+          "СТАДИОН ЛАВАРИДЖА. ПОБЕДИТЕЛИ ФЛАННЕРИ: {PLAYER}"
+        ],
+        "natural": [
+          "СТАДИОН ЛАВАРИДЖА. ПОБЕДИТЕЛИ ФЛАННЕРИ: {PLAYER}"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ARENA BAD LAVASTADT."
+        ],
+        "A2": [
+          "ARENA BAD LAVASTADT. SIEGER ÜBER FLAVIA: {PLAYER}"
+        ],
+        "natural": [
+          "ARENA BAD LAVASTADT. SIEGER ÜBER FLAVIA: {PLAYER}"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownGymOneFGymStatue",
+      "base_symbol": "LavaridgeTown_Gym_1F_Text_GymStatue",
+      "source_path": "data/maps/LavaridgeTown_Gym_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Gym guide, Flannery, Heat Badge, TM, or statue interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СТАДИОН ПОКЕМОНОВ ЛАВАРИДЖА"
+        ],
+        "A2": [
+          "СТАДИОН ПОКЕМОНОВ ЛАВАРИДЖА"
+        ],
+        "natural": [
+          "СТАДИОН ПОКЕМОНОВ ЛАВАРИДЖА"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "значок",
+            "badge"
+          ]
+        ],
+        "de": [
+          [
+            "der Orden",
+            "badge"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "POKÉMON-ARENA BAD LAVASTADT"
+        ],
+        "A2": [
+          "POKÉMON-ARENA BAD LAVASTADT"
+        ],
+        "natural": [
+          "POKÉMON-ARENA BAD LAVASTADT"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHerbShopWelcomeToHerbShop",
+      "base_symbol": "LavaridgeTown_HerbShop_Text_WelcomeToHerbShop",
+      "source_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Herb Shop medicine, Charcoal gift, or shopping interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Добро пожаловать в ЛАВКУ ТРАВ!"
+        ],
+        "A2": [
+          "Добро пожаловать в ЛАВКУ ТРАВ! Здесь эффективные и недорогие лекарства."
+        ],
+        "natural": [
+          "Добро пожаловать в ЛАВКУ ТРАВ! Здесь эффективные и недорогие лекарства."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лекарство",
+            "medicine"
+          ]
+        ],
+        "de": [
+          [
+            "die Medizin",
+            "medicine"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Willkommen im KRÄUTERLADEN!"
+        ],
+        "A2": [
+          "Willkommen im KRÄUTERLADEN! Hier gibt es wirksame, günstige Medizin."
+        ],
+        "natural": [
+          "Willkommen im KRÄUTERLADEN! Hier gibt es wirksame, günstige Medizin."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHerbShopHerbalMedicineWorksButMonWillDislike",
+      "base_symbol": "LavaridgeTown_HerbShop_Text_HerbalMedicineWorksButMonWillDislike",
+      "source_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Herb Shop medicine, Charcoal gift, or shopping interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Травы отлично лечат, но покемоны не любят их из-за ужасной горечи."
+        ],
+        "A2": [
+          "Травы отлично лечат, но покемоны не любят их из-за ужасной горечи."
+        ],
+        "natural": [
+          "Травы отлично лечат, но покемоны не любят их из-за ужасной горечи."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лекарство",
+            "medicine"
+          ]
+        ],
+        "de": [
+          [
+            "die Medizin",
+            "medicine"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kräutermedizin wirkt gut, doch Pokémon mögen ihren bitteren Geschmack nicht."
+        ],
+        "A2": [
+          "Kräutermedizin wirkt gut, doch Pokémon mögen ihren bitteren Geschmack nicht."
+        ],
+        "natural": [
+          "Kräutermedizin wirkt gut, doch Pokémon mögen ihren bitteren Geschmack nicht."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHerbShopYouveComeToLookAtHerbalMedicine",
+      "base_symbol": "LavaridgeTown_HerbShop_Text_YouveComeToLookAtHerbalMedicine",
+      "source_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Herb Shop medicine, Charcoal gift, or shopping interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты пришёл в ЛАВАРИДЖ за лечебными травами?"
+        ],
+        "A2": [
+          "Ты пришёл в ЛАВАРИДЖ за лечебными травами? Похвально!"
+        ],
+        "natural": [
+          "Ты пришёл в ЛАВАРИДЖ за лечебными травами? Похвально! Ты мне нравишься. Возьми это!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лекарство",
+            "medicine"
+          ]
+        ],
+        "de": [
+          [
+            "die Medizin",
+            "medicine"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du suchst in BAD LAVASTADT Kräutermedizin?"
+        ],
+        "A2": [
+          "Du suchst in BAD LAVASTADT Kräutermedizin? Lobenswert!"
+        ],
+        "natural": [
+          "Du suchst in BAD LAVASTADT Kräutermedizin? Lobenswert! Ich mag dich. Nimm das!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHerbShopExplainCharcoal",
+      "base_symbol": "LavaridgeTown_HerbShop_Text_ExplainCharcoal",
+      "source_path": "data/maps/LavaridgeTown_HerbShop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Herb Shop medicine, Charcoal gift, or shopping interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ДРЕВЕСНЫЙ УГОЛЬ используют в лекарствах."
+        ],
+        "A2": [
+          "ДРЕВЕСНЫЙ УГОЛЬ используют в лекарствах. Если покемон держит его, огненные приёмы становятся сильнее."
+        ],
+        "natural": [
+          "ДРЕВЕСНЫЙ УГОЛЬ используют в лекарствах. Если покемон держит его, огненные приёмы становятся сильнее."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "лекарство",
+            "medicine"
+          ]
+        ],
+        "de": [
+          [
+            "die Medizin",
+            "medicine"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "HOLZKOHLE dient als Medizin."
+        ],
+        "A2": [
+          "HOLZKOHLE dient als Medizin. Trägt ein Pokémon sie, werden Feuer-Attacken stärker."
+        ],
+        "natural": [
+          "HOLZKOHLE dient als Medizin. Trägt ein Pokémon sie, werden Feuer-Attacken stärker."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHouseWifeWarmingEggInHotSprings",
+      "base_symbol": "LavaridgeTown_House_Text_WifeWarmingEggInHotSprings",
+      "source_path": "data/maps/LavaridgeTown_House/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Моя жена греет ЯЙЦО в источнике."
+        ],
+        "A2": [
+          "Моя жена греет ЯЙЦО в источнике. Она оставила двух покемонов в ДЕТСКОМ САДУ, и там нашли это ЯЙЦО."
+        ],
+        "natural": [
+          "Моя жена греет ЯЙЦО в источнике. Она оставила двух покемонов в ДЕТСКОМ САДУ, и там нашли это ЯЙЦО."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Frau wärmt ein EI in der Quelle."
+        ],
+        "A2": [
+          "Meine Frau wärmt ein EI in der Quelle. Sie ließ zwei Pokémon in der PENSION, wo man dieses EI fand."
+        ],
+        "natural": [
+          "Meine Frau wärmt ein EI in der Quelle. Sie ließ zwei Pokémon in der PENSION, wo man dieses EI fand."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownHouseZigzagoon",
+      "base_symbol": "LavaridgeTown_House_Text_Zigzagoon",
+      "source_path": "data/maps/LavaridgeTown_House/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ЗИГЗАГУН: Пшу-у!"
+        ],
+        "A2": [
+          "ЗИГЗАГУН: Пшу-у!"
+        ],
+        "natural": [
+          "ЗИГЗАГУН: Пшу-у!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ZIGZACHS: Pschuu!"
+        ],
+        "A2": [
+          "ZIGZACHS: Pschuu!"
+        ],
+        "natural": [
+          "ZIGZACHS: Pschuu!"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownMartXSpeedFirstStrike",
+      "base_symbol": "LavaridgeTown_Mart_Text_XSpeedFirstStrike",
+      "source_path": "data/maps/LavaridgeTown_Mart/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СКОРОСТЬ X повышает скорость покемона в бою и помогает ударить первым."
+        ],
+        "A2": [
+          "СКОРОСТЬ X повышает скорость покемона в бою и помогает ударить первым."
+        ],
+        "natural": [
+          "СКОРОСТЬ X повышает скорость покемона в бою и помогает ударить первым."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "X-TEMPO erhöht das Tempo im Kampf und hilft, zuerst anzugreifen."
+        ],
+        "A2": [
+          "X-TEMPO erhöht das Tempo im Kampf und hilft, zuerst anzugreifen."
+        ],
+        "natural": [
+          "X-TEMPO erhöht das Tempo im Kampf und hilft, zuerst anzugreifen."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownMartLocalSpecialtyOnMtChimney",
+      "base_symbol": "LavaridgeTown_Mart_Text_LocalSpecialtyOnMtChimney",
+      "source_path": "data/maps/LavaridgeTown_Mart/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На вершине ВУЛКАНА ЧИМНИ продают особое местное лакомство."
+        ],
+        "A2": [
+          "На вершине ВУЛКАНА ЧИМНИ продают особое местное лакомство. Покемону оно понравится."
+        ],
+        "natural": [
+          "На вершине ВУЛКАНА ЧИМНИ продают особое местное лакомство. Покемону оно понравится."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf dem SCHLOTBERG gibt es eine Spezialität."
+        ],
+        "A2": [
+          "Auf dem SCHLOTBERG gibt es eine Spezialität. Dein Pokémon wird sie mögen."
+        ],
+        "natural": [
+          "Auf dem SCHLOTBERG gibt es eine Spezialität. Dein Pokémon wird sie mögen."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownPokemonCenterOneFHotSpringCanInvigorate",
+      "base_symbol": "LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate",
+      "source_path": "data/maps/LavaridgeTown_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge Hot Springs resident or bathing conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я дал покемону красный ПОКЕБЛОК, и он сразу стал круче."
+        ],
+        "A2": [
+          "Я дал покемону красный ПОКЕБЛОК, и он сразу стал круче. Может, мне тоже съесть один?"
+        ],
+        "natural": [
+          "Я дал покемону красный ПОКЕБЛОК, и он сразу стал круче. Может, мне тоже съесть один?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "источник",
+            "spring"
+          ]
+        ],
+        "de": [
+          [
+            "die heiße Quelle",
+            "spring"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Pokémon bekam einen roten POKÉRIEGEL und wirkt nun cooler."
+        ],
+        "A2": [
+          "Mein Pokémon bekam einen roten POKÉRIEGEL und wirkt nun cooler. Sollte ich auch einen essen?"
+        ],
+        "natural": [
+          "Mein Pokémon bekam einen roten POKÉRIEGEL und wirkt nun cooler. Sollte ich auch einen essen?"
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownPokemonCenterOneFTrainersPokemonSpendTimeTogether",
+      "base_symbol": "LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether",
+      "source_path": "data/maps/LavaridgeTown_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Покемоны сближаются с тренерами, когда проводят вместе много времени."
+        ],
+        "A2": [
+          "Покемоны сближаются с тренерами, когда проводят вместе много времени. Чем дольше, тем лучше."
+        ],
+        "natural": [
+          "Покемоны сближаются с тренерами, когда проводят вместе много времени. Чем дольше, тем лучше."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon kommen Trainern näher, wenn sie viel Zeit miteinander verbringen."
+        ],
+        "A2": [
+          "Pokémon kommen Trainern näher, wenn sie viel Zeit miteinander verbringen."
+        ],
+        "natural": [
+          "Pokémon kommen Trainern näher, wenn sie viel Zeit miteinander verbringen."
+        ]
+      }
+    },
+    {
+      "id": "LavaridgeTownPokemonCenterOneFTrainersShouldRestToo",
+      "base_symbol": "LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo",
+      "source_path": "data/maps/LavaridgeTown_PokemonCenter_1F/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Lavaridge resident, Egg gift, rival, house, Mart, Pokémon Center, or sign interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хо-хо!"
+        ],
+        "A2": [
+          "Хо-хо! Отсюда можно попасть к источникам."
+        ],
+        "natural": [
+          "Хо-хо! Отсюда можно попасть к источникам. Если покемоны отдыхают, тренерам тоже стоит."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "город",
+            "town"
+          ]
+        ],
+        "de": [
+          [
+            "die Stadt",
+            "town"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hoho!"
+        ],
+        "A2": [
+          "Hoho! Von hier geht es zu den Quellen."
+        ],
+        "natural": [
+          "Hoho! Von hier geht es zu den Quellen. Ruhen Pokémon, sollten Trainer es auch tun."
+        ]
+      }
     }
   ]
 }

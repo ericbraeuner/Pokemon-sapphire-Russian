@@ -49,7 +49,7 @@ help rate can conservatively select A2 after ten exposures. The saved difficulty
 remains the ceiling and is never changed by this adjustment. Every selection
 records both difficulty values and its reason so a wrapper can explain the choice.
 
-The adaptive packs now cover 1,036 authored early-game scenes: arriving
+The adaptive packs now cover 1,139 authored early-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -157,6 +157,11 @@ signs, both houses, the Mart, ordinary Pokémon Center visitors, every Bike Shop
 lesson and bicycle exchange, the full Game Corner coin and prize flow, and the
 entire Gym challenge. Purchases, choices, bike ownership, badges, TMs, HMs, and
 battle scripts remain native while their displayed text adapts in place.
+Routes 111 and 112 now extend that coverage through every roadside and mountain
+interaction, the complete Winstrate family challenge and reward, Old Lady's
+Rest Stop, Cable Car station, desert warnings, berry dialogue, interview events,
+rematches, and all local trainer battles. The shared sandstorm-blocking message,
+which previously sat outside the bilingual template catalogue, is translated too.
 Trainer introductions and defeat lines can now opt into the same generated
 variant table. The battle setup records the introduction context before the
 encounter and switches to the defeat context when combat begins, leaving the
@@ -185,14 +190,14 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` connects all 1,036 authored lessons to their
+`integration/dialogue_catalog.json` connects all 1,139 authored lessons to their
 real script hooks and original text symbols, including the shared moving-in
 scripts and Route 101 sign. Validation checks both ends of every connection.
 The normal game dialogue follows the extra lesson; important story instructions
 are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
-`opening.json` currently holds 1,036 source-symbol mappings,
+`opening.json` currently holds 1,139 source-symbol mappings,
 translations in three text bands, English help, and dictionary entries. This
 prototype bundle is validated during generation and tests; it is separate from
 the original language-pack/profile schema and does not update external profiles.

@@ -20766,6 +20766,2066 @@
         "mauville",
         "game_corner"
       ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fa54.1037",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150023",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FA54",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFAFiveFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1037
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16face.1038",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15005F",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FACE",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFACE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1038
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16faed.1039",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150069",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FAED",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFAED"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1039
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fb67.1040",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1500A5",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FB67",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFBSixSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1040
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.1c56f0.1041",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1500C5",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route111_Text_1C56F0",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneCFiveSixFZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1041
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.1c5781.1042",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1500C5",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route111_Text_1C5781",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneCFiveSevenEightOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1042
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.1c57d2.1043",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150100",
+        "base_text_path": "data/text/berries.inc",
+        "base_text_symbol": "Route111_Text_1C57D2",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneCFiveSevenDTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1043
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.1a0f93.1044",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150151",
+        "base_text_path": "data/event_scripts.s",
+        "base_text_symbol": "Route111_Text_1A0F93",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneAZeroFNineThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1044
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f705.1045",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501D1",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F705",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFSevenZeroFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1045
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f785.1046",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501D1",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F785",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFSevenEightFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1046
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f7b3.1047",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F7B3",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFSevenBThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1047
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f7d2.1048",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F7D2",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFSevenDTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1048
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f7ff.1049",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F7FF",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFSevenFF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1049
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f82d.1050",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F82D",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFEightTwoD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1050
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f8a6.1051",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F8A6",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFEightASix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1051
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f8d5.1052",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F8D5",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFEightDFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1052
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f90e.1053",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F90E",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFNineZeroE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1053
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f956.1054",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F956",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFNineFiveSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1054
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f96c.1055",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F96C",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFNineSixC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1055
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f991.1056",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F991",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFNineNineOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1056
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16f9ec.1057",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16F9EC",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFNineEC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1057
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fa22.1058",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1501F3",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FA22",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFATwoTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1058
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fc9c.1059",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15035F",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FC9C",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFCNineC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1059
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fcb6.1060",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150368",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FCB6",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFCBSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1060
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fcef.1061",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150371",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FCEF",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFCEF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1061
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fd05.1062",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15037A",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FD05",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFDZeroFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1062
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fd1b.1063",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150383",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FD1B",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFDOneB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1063
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fd55.1064",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15038C",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FD55",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFDFiveFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1064
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fb86.1065",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150395",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FB86",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFBEightSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1065
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.route111.route111.text.16fc3a.1066",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15039E",
+        "base_text_path": "data/maps/Route111/text.inc",
+        "base_text_symbol": "Route111_Text_16FC3A",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneSixFCThreeA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1066
+      },
+      "tags": [
+        "routes111_112",
+        "route111"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bab4b.1067",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503A7",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAB4B",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBABFourB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1067
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1babc7.1068",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503A7",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BABC7",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBABCSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1068
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bac10.1069",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503A7",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAC10",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBACOneZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1069
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bac60.1070",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503BE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAC60",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBACSixZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1070
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bacc5.1071",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503BE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BACC5",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBACCFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1071
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bacd8.1072",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503BE",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BACD8",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBACDEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1072
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bad4b.1073",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503D5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAD4B",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBADFourB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1073
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bada3.1074",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503D5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BADA3",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBADAThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1074
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1badc2.1075",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503D5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BADC2",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBADCTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1075
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bae24.1076",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503EC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAE24",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAETwoFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1076
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bae6e.1077",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503EC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAE6E",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAESixE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1077
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bae81.1078",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1503EC",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAE81",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAEEightOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1078
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1baec9.1079",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150403",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAEC9",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAECNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1079
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1baf14.1080",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150403",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAF14",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAFOneFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1080
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1baf5b.1081",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150403",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAF5B",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAFFiveB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1081
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bafc1.1082",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15042A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BAFC1",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBAFCOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1082
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb034.1083",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15042A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB034",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBZeroThreeFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1083
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb070.1084",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15042A",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB070",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBZeroSevenZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1084
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb111.1085",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150441",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB111",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBOneOneOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1085
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb140.1086",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150441",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB140",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBOneFourZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1086
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb15b.1087",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150441",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB15B",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBOneFiveB"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1087
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb199.1088",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150458",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB199",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBOneNineNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1088
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb1d8.1089",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150458",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB1D8",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBOneDEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1089
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb1f6.1090",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150458",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB1F6",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBOneFSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1090
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb250.1091",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15046F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB250",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBTwoFiveZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1091
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb27e.1092",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15046F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB27E",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBTwoSevenE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1092
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb290.1093",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_15046F",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB290",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBTwoNineZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1093
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb2e3.1094",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150486",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB2E3",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBTwoEThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1094
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb313.1095",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150486",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB313",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBThreeOneThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1095
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb33e.1096",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_150486",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB33E",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBThreeThreeE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1096
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb3a7.1097",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504AD",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB3A7",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBThreeASeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1097
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb3fa.1098",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504AD",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB3FA",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBThreeFA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1098
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb40e.1099",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504AD",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB40E",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFourZeroE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1099
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb44f.1100",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504C4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB44F",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFourFourF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1100
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb49f.1101",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504C4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB49F",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFourNineF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1101
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb4ce.1102",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504C4",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB4CE",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFourCE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1102
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb529.1103",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504EB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB529",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFiveTwoNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1103
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb5a2.1104",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504EB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB5A2",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFiveATwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1104
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route111.text.1bb5c1.1105",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111/scripts.inc",
+        "symbol": "Route111_EventScript_1504EB",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route111_Text_1BB5C1",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOneBBFiveCOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1105
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.rest_stop.route111.oldladysreststop.text.1923af.1106",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_OldLadysRestStop/scripts.inc",
+        "symbol": "Route111_OldLadysRestStop_EventScript_15BFDB",
+        "base_text_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+        "base_text_symbol": "Route111_OldLadysRestStop_Text_1923AF",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOldLadysRestStopOneNineTwoThreeAF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1106
+      },
+      "tags": [
+        "routes111_112",
+        "rest_stop"
+      ]
+    },
+    {
+      "id": "routes111_112.rest_stop.route111.oldladysreststop.text.192423.1107",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_OldLadysRestStop/scripts.inc",
+        "symbol": "Route111_OldLadysRestStop_EventScript_15BFFC",
+        "base_text_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+        "base_text_symbol": "Route111_OldLadysRestStop_Text_192423",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOldLadysRestStopOneNineTwoFourTwoThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1107
+      },
+      "tags": [
+        "routes111_112",
+        "rest_stop"
+      ]
+    },
+    {
+      "id": "routes111_112.rest_stop.route111.oldladysreststop.text.19244d.1108",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_OldLadysRestStop/scripts.inc",
+        "symbol": "Route111_OldLadysRestStop_EventScript_15BFFC",
+        "base_text_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+        "base_text_symbol": "Route111_OldLadysRestStop_Text_19244D",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOldLadysRestStopOneNineTwoFourFourD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1108
+      },
+      "tags": [
+        "routes111_112",
+        "rest_stop"
+      ]
+    },
+    {
+      "id": "routes111_112.rest_stop.route111.oldladysreststop.text.1924c6.1109",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_OldLadysRestStop/scripts.inc",
+        "symbol": "Route111_OldLadysRestStop_EventScript_15C029",
+        "base_text_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+        "base_text_symbol": "Route111_OldLadysRestStop_Text_1924C6",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneOldLadysRestStopOneNineTwoFourCSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1109
+      },
+      "tags": [
+        "routes111_112",
+        "rest_stop"
+      ]
+    },
+    {
+      "id": "routes111_112.winstrate.route111.winstratefamilyshouse.text.191fce.1110",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
+        "symbol": "Route111_WinstrateFamilysHouse_EventScript_15BF25",
+        "base_text_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+        "base_text_symbol": "Route111_WinstrateFamilysHouse_Text_191FCE",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneWinstrateFamilysHouseOneNineOneFCE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1110
+      },
+      "tags": [
+        "routes111_112",
+        "winstrate"
+      ]
+    },
+    {
+      "id": "routes111_112.winstrate.route111.winstratefamilyshouse.text.19208a.1111",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
+        "symbol": "Route111_WinstrateFamilysHouse_EventScript_15BF3A",
+        "base_text_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+        "base_text_symbol": "Route111_WinstrateFamilysHouse_Text_19208A",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoZeroEightA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1111
+      },
+      "tags": [
+        "routes111_112",
+        "winstrate"
+      ]
+    },
+    {
+      "id": "routes111_112.winstrate.route111.winstratefamilyshouse.text.19214d.1112",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
+        "symbol": "Route111_WinstrateFamilysHouse_EventScript_15BF72",
+        "base_text_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+        "base_text_symbol": "Route111_WinstrateFamilysHouse_Text_19214D",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoOneFourD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1112
+      },
+      "tags": [
+        "routes111_112",
+        "winstrate"
+      ]
+    },
+    {
+      "id": "routes111_112.winstrate.route111.winstratefamilyshouse.text.192190.1113",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
+        "symbol": "Route111_WinstrateFamilysHouse_EventScript_15BF80",
+        "base_text_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+        "base_text_symbol": "Route111_WinstrateFamilysHouse_Text_192190",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoOneNineZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1113
+      },
+      "tags": [
+        "routes111_112",
+        "winstrate"
+      ]
+    },
+    {
+      "id": "routes111_112.winstrate.route111.winstratefamilyshouse.text.192219.1114",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
+        "symbol": "Route111_WinstrateFamilysHouse_EventScript_15BF95",
+        "base_text_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+        "base_text_symbol": "Route111_WinstrateFamilysHouse_Text_192219",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoTwoOneNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1114
+      },
+      "tags": [
+        "routes111_112",
+        "winstrate"
+      ]
+    },
+    {
+      "id": "routes111_112.winstrate.route111.winstratefamilyshouse.text.192334.1115",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route111_WinstrateFamilysHouse/scripts.inc",
+        "symbol": "Route111_WinstrateFamilysHouse_EventScript_15BFB6",
+        "base_text_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+        "base_text_symbol": "Route111_WinstrateFamilysHouse_Text_192334",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoThreeThreeFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1115
+      },
+      "tags": [
+        "routes111_112",
+        "winstrate"
+      ]
+    },
+    {
+      "id": "routes111_112.route112.route112.text.16fdf0.1116",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150513",
+        "base_text_path": "data/maps/Route112/text.inc",
+        "base_text_symbol": "Route112_Text_16FDF0",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneSixFDFZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1116
+      },
+      "tags": [
+        "routes111_112",
+        "route112"
+      ]
+    },
+    {
+      "id": "routes111_112.route112.route112.text.16fe3e.1117",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_15051C",
+        "base_text_path": "data/maps/Route112/text.inc",
+        "base_text_symbol": "Route112_Text_16FE3E",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneSixFEThreeE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1117
+      },
+      "tags": [
+        "routes111_112",
+        "route112"
+      ]
+    },
+    {
+      "id": "routes111_112.route112.route112.text.16feed.1118",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150525",
+        "base_text_path": "data/maps/Route112/text.inc",
+        "base_text_symbol": "Route112_Text_16FEED",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneSixFEED"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1118
+      },
+      "tags": [
+        "routes111_112",
+        "route112"
+      ]
+    },
+    {
+      "id": "routes111_112.route112.route112.text.16ff19.1119",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_15052E",
+        "base_text_path": "data/maps/Route112/text.inc",
+        "base_text_symbol": "Route112_Text_16FF19",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneSixFFOneNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1119
+      },
+      "tags": [
+        "routes111_112",
+        "route112"
+      ]
+    },
+    {
+      "id": "routes111_112.route112.route112.text.16ff64.1120",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150537",
+        "base_text_path": "data/maps/Route112/text.inc",
+        "base_text_symbol": "Route112_Text_16FF64",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneSixFFSixFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1120
+      },
+      "tags": [
+        "routes111_112",
+        "route112"
+      ]
+    },
+    {
+      "id": "routes111_112.route112.route112.text.16fe7a.1121",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150540",
+        "base_text_path": "data/maps/Route112/text.inc",
+        "base_text_symbol": "Route112_Text_16FE7A",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneSixFESevenA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1121
+      },
+      "tags": [
+        "routes111_112",
+        "route112"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb619.1122",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150549",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB619",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSixOneNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1122
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb655.1123",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150549",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB655",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSixFiveFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1123
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb667.1124",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150549",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB667",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSixSixSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1124
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb6a0.1125",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150560",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB6A0",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSixAZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1125
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb707.1126",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150560",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB707",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSevenZeroSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1126
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb721.1127",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150560",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB721",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSevenTwoOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1127
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb7c7.1128",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150587",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB7C7",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBSevenCSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1128
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb801.1129",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150587",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB801",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBEightZeroOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1129
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb819.1130",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_150587",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB819",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBEightOneNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1130
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb893.1131",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_15059E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB893",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBEightNineThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1131
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb8b6.1132",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_15059E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB8B6",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBEightBSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1132
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb8be.1133",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_15059E",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB8BE",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBEightBE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1133
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb8f0.1134",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_1505B5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB8F0",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBEightFZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1134
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb942.1135",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_1505B5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB942",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBNineFourTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1135
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.trainer.route112.text.1bb958.1136",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112/scripts.inc",
+        "symbol": "Route112_EventScript_1505B5",
+        "base_text_path": "data/text/trainers.inc",
+        "base_text_symbol": "Route112_Text_1BB958",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoOneBBNineFiveEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1136
+      },
+      "tags": [
+        "routes111_112",
+        "trainer"
+      ]
+    },
+    {
+      "id": "routes111_112.cable_car.route112.cablecarstation.text.1924f5.1137",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112_CableCarStation/scripts.inc",
+        "symbol": "Route112_CableCarStation_EventScript_15C08C",
+        "base_text_path": "data/maps/Route112_CableCarStation/text.inc",
+        "base_text_symbol": "Route112_CableCarStation_Text_1924F5",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoCableCarStationOneNineTwoFourFFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1137
+      },
+      "tags": [
+        "routes111_112",
+        "cable_car"
+      ]
+    },
+    {
+      "id": "routes111_112.cable_car.route112.cablecarstation.text.1925a9.1138",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112_CableCarStation/scripts.inc",
+        "symbol": "Route112_CableCarStation_EventScript_15C0AD",
+        "base_text_path": "data/maps/MtChimney_CableCarStation/text.inc",
+        "base_text_symbol": "Route112_CableCarStation_Text_1925A9",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoCableCarStationOneNineTwoFiveANine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1138
+      },
+      "tags": [
+        "routes111_112",
+        "cable_car"
+      ]
+    },
+    {
+      "id": "routes111_112.cable_car.route112.cablecarstation.text.192548.1139",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/Route112_CableCarStation/scripts.inc",
+        "symbol": "Route112_CableCarStation_EventScript_15C0DC",
+        "base_text_path": "data/maps/Route112_CableCarStation/text.inc",
+        "base_text_symbol": "Route112_CableCarStation_Text_192548",
+        "note": "Adaptive translation bridge preserves the original story, battle, healing, choice, travel, interview, reward, and rematch flow.",
+        "authored_id": "RouteOneOneTwoCableCarStationOneNineTwoFiveFourEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1139
+      },
+      "tags": [
+        "routes111_112",
+        "cable_car"
+      ]
     }
   ]
 }

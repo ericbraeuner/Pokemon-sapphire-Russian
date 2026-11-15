@@ -634,6 +634,10 @@ class LessonTests(unittest.TestCase):
                           'MauvilleCity_PokemonCenter_1F', 'MauvilleCity_BikeShop',
                           'MauvilleCity_GameCorner')
         paths += [f'data/maps/{area}/scripts.inc' for area in mauville_areas]
+        route_111_112_areas = ('Route111', 'Route111_OldLadysRestStop',
+                               'Route111_WinstrateFamilysHouse', 'Route112',
+                               'Route112_CableCarStation')
+        paths += [f'data/maps/{area}/scripts.inc' for area in route_111_112_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2468,6 +2472,24 @@ class LessonTests(unittest.TestCase):
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
         self.assertEqual(45, len(symbols))
         self.assertTrue(symbols.issubset(templates))
+
+    def test_routes_111_and_112_corridor_is_fully_adaptive(self):
+        areas = ('Route111', 'Route111_OldLadysRestStop',
+                 'Route111_WinstrateFamilysHouse', 'Route112',
+                 'Route112_CableCarStation')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:Route111|Route112)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(103, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

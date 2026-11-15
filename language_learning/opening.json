@@ -46442,6 +46442,4641 @@
           "Ohne MÜNZAMULETT kannst du nicht spielen."
         ]
       }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFAFiveFour",
+      "base_symbol": "Route111_Text_16FA54",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Найден КОРНЕВОЙ ИСКОПАЕМЫЙ."
+        ],
+        "A2": [
+          "Найден КОРНЕВОЙ ИСКОПАЕМЫЙ. Если взять его, второй утонет в песке."
+        ],
+        "natural": [
+          "Найден КОРНЕВОЙ ИСКОПАЕМЫЙ. Если взять его, второй утонет в песке. Всё равно взять?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du findest das WURZELFOSSIL."
+        ],
+        "A2": [
+          "Du findest das WURZELFOSSIL. Nimmst du es, versinkt das andere im Sand."
+        ],
+        "natural": [
+          "Du findest das WURZELFOSSIL. Nimmst du es, versinkt das andere im Sand. Trotzdem nehmen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFACE",
+      "base_symbol": "Route111_Text_16FACE",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} оставляет КОРНЕВОЙ ИСКОПАЕМЫЙ."
+        ],
+        "A2": [
+          "{PLAYER} оставляет КОРНЕВОЙ ИСКОПАЕМЫЙ."
+        ],
+        "natural": [
+          "{PLAYER} оставляет КОРНЕВОЙ ИСКОПАЕМЫЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} lässt das WURZELFOSSIL liegen."
+        ],
+        "A2": [
+          "{PLAYER} lässt das WURZELFOSSIL liegen."
+        ],
+        "natural": [
+          "{PLAYER} lässt das WURZELFOSSIL liegen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFAED",
+      "base_symbol": "Route111_Text_16FAED",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Найден КОГТЕВОЙ ИСКОПАЕМЫЙ."
+        ],
+        "A2": [
+          "Найден КОГТЕВОЙ ИСКОПАЕМЫЙ. Если взять его, второй утонет в песке."
+        ],
+        "natural": [
+          "Найден КОГТЕВОЙ ИСКОПАЕМЫЙ. Если взять его, второй утонет в песке. Всё равно взять?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du findest das KLAUENFOSSIL."
+        ],
+        "A2": [
+          "Du findest das KLAUENFOSSIL. Nimmst du es, versinkt das andere im Sand."
+        ],
+        "natural": [
+          "Du findest das KLAUENFOSSIL. Nimmst du es, versinkt das andere im Sand. Trotzdem nehmen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFBSixSeven",
+      "base_symbol": "Route111_Text_16FB67",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} оставляет КОГТЕВОЙ ИСКОПАЕМЫЙ."
+        ],
+        "A2": [
+          "{PLAYER} оставляет КОГТЕВОЙ ИСКОПАЕМЫЙ."
+        ],
+        "natural": [
+          "{PLAYER} оставляет КОГТЕВОЙ ИСКОПАЕМЫЙ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} lässt das KLAUENFOSSIL liegen."
+        ],
+        "A2": [
+          "{PLAYER} lässt das KLAUENFOSSIL liegen."
+        ],
+        "natural": [
+          "{PLAYER} lässt das KLAUENFOSSIL liegen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneCFiveSixFZero",
+      "base_symbol": "Route111_Text_1C56F0",
+      "source_path": "data/text/berries.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я много поливал растения!"
+        ],
+        "A2": [
+          "Я много поливал растения! Расцвели цветы, а затем выросло много ЯГОД."
+        ],
+        "natural": [
+          "Я много поливал растения! Расцвели цветы, а затем выросло много ЯГОД. Возьми одну!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe die Pflanzen viel gegossen!"
+        ],
+        "A2": [
+          "Ich habe die Pflanzen viel gegossen! Blumen blühten und viele BEEREN wuchsen."
+        ],
+        "natural": [
+          "Ich habe die Pflanzen viel gegossen! Blumen blühten und viele BEEREN wuchsen. Nimm eine!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneCFiveSevenEightOne",
+      "base_symbol": "Route111_Text_1C5781",
+      "source_path": "data/text/berries.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я постараюсь сделать красные ПОКЕБЛОКИ!"
+        ],
+        "A2": [
+          "Я постараюсь сделать красные ПОКЕБЛОКИ! Надеюсь, ты тоже постараешься."
+        ],
+        "natural": [
+          "Я постараюсь сделать красные ПОКЕБЛОКИ! Надеюсь, ты тоже постараешься."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich versuche, rote POKÉRIEGEL zu machen!"
+        ],
+        "A2": [
+          "Ich versuche, rote POKÉRIEGEL zu machen! Gib du dir auch Mühe."
+        ],
+        "natural": [
+          "Ich versuche, rote POKÉRIEGEL zu machen! Gib du dir auch Mühe."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneCFiveSevenDTwo",
+      "base_symbol": "Route111_Text_1C57D2",
+      "source_path": "data/text/berries.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ягоды какого цвета искать сегодня?"
+        ],
+        "A2": [
+          "Ягоды какого цвета искать сегодня?"
+        ],
+        "natural": [
+          "Ягоды какого цвета искать сегодня?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Welche Beerenfarbe soll ich heute suchen?"
+        ],
+        "A2": [
+          "Welche Beerenfarbe soll ich heute suchen?"
+        ],
+        "natural": [
+          "Welche Beerenfarbe soll ich heute suchen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneAZeroFNineThree",
+      "base_symbol": "Route111_Text_1A0F93",
+      "source_path": "data/event_scripts.s",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Песчаная буря свирепа."
+        ],
+        "A2": [
+          "Песчаная буря свирепа. Дальше идти невозможно."
+        ],
+        "natural": [
+          "Песчаная буря свирепа. Дальше идти невозможно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der Sandsturm tobt."
+        ],
+        "A2": [
+          "Der Sandsturm tobt. Weiter geht es nicht."
+        ],
+        "natural": [
+          "Der Sandsturm tobt. Weiter geht es nicht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFSevenZeroFive",
+      "base_symbol": "Route111_Text_16F705",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Привет!"
+        ],
+        "A2": [
+          "Привет! Ты путешественник?"
+        ],
+        "natural": [
+          "Привет! Ты путешественник? Как насчёт четырёх боёв подряд со всей нашей семьёй?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hallo!"
+        ],
+        "A2": [
+          "Hallo! Du bist wohl Reisender."
+        ],
+        "natural": [
+          "Hallo! Du bist wohl Reisender. Wie wäre es mit vier Kämpfen nacheinander gegen unsere Familie?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFSevenEightFive",
+      "base_symbol": "Route111_Text_16F785",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот как?"
+        ],
+        "A2": [
+          "Вот как? Заходи, если передумаешь!"
+        ],
+        "natural": [
+          "Вот как? Заходи, если передумаешь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ach so?"
+        ],
+        "A2": [
+          "Ach so? Komm vorbei, wenn du es dir anders überlegst!"
+        ],
+        "natural": [
+          "Ach so? Komm vorbei, wenn du es dir anders überlegst!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFSevenBThree",
+      "base_symbol": "Route111_Text_16F7B3",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это настрой!"
+        ],
+        "A2": [
+          "Вот это настрой! Ты мне нравишься!"
+        ],
+        "natural": [
+          "Вот это настрой! Ты мне нравишься!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist der richtige Geist!"
+        ],
+        "A2": [
+          "Das ist der richtige Geist! Du gefällst mir!"
+        ],
+        "natural": [
+          "Das ist der richtige Geist! Du gefällst mir!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFSevenDTwo",
+      "base_symbol": "Route111_Text_16F7D2",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ай-я!"
+        ],
+        "A2": [
+          "Ай-я! Ты гораздо сильнее, чем я ожидал!"
+        ],
+        "natural": [
+          "Ай-я! Ты гораздо сильнее, чем я ожидал!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Aiya!"
+        ],
+        "A2": [
+          "Aiya! Du bist viel stärker als erwartet!"
+        ],
+        "natural": [
+          "Aiya! Du bist viel stärker als erwartet!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFSevenFF",
+      "base_symbol": "Route111_Text_16F7FF",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Эй, все сюда!"
+        ],
+        "A2": [
+          "Эй, все сюда! Я нашёл довольно сильного ТРЕНЕРА!"
+        ],
+        "natural": [
+          "Эй, все сюда! Я нашёл довольно сильного ТРЕНЕРА!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "He, alle her!"
+        ],
+        "A2": [
+          "He, alle her! Ich habe einen ziemlich starken TRAINER gefunden!"
+        ],
+        "natural": [
+          "He, alle her! Ich habe einen ziemlich starken TRAINER gefunden!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFEightTwoD",
+      "base_symbol": "Route111_Text_16F82D",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Боже, ты ещё совсем юн!"
+        ],
+        "A2": [
+          "Боже, ты ещё совсем юн! Но раз победил моего мужа, ты отличный ТРЕНЕР."
+        ],
+        "natural": [
+          "Боже, ты ещё совсем юн! Но раз победил моего мужа, ты отличный ТРЕНЕР. Теперь моя очередь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist noch so jung!"
+        ],
+        "A2": [
+          "Du bist noch so jung! Doch wer meinen Mann besiegt, ist ein guter TRAINER."
+        ],
+        "natural": [
+          "Du bist noch so jung! Doch wer meinen Mann besiegt, ist ein guter TRAINER. Jetzt bin ich dran!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFEightASix",
+      "base_symbol": "Route111_Text_16F8A6",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ох!"
+        ],
+        "A2": [
+          "Ох! Не могу поверить, насколько ты силён!"
+        ],
+        "natural": [
+          "Ох! Не могу поверить, насколько ты силён!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Ich kann kaum glauben, wie stark du bist!"
+        ],
+        "natural": [
+          "Oh! Ich kann kaum glauben, wie stark du bist!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFEightDFive",
+      "base_symbol": "Route111_Text_16F8D5",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Здесь сильный ТРЕНЕР!"
+        ],
+        "A2": [
+          "Здесь сильный ТРЕНЕР! Очень сильный!"
+        ],
+        "natural": [
+          "Здесь сильный ТРЕНЕР! Очень сильный!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hier ist ein starker TRAINER!"
+        ],
+        "A2": [
+          "Hier ist ein starker TRAINER! Wirklich sehr stark!"
+        ],
+        "natural": [
+          "Hier ist ein starker TRAINER! Wirklich sehr stark!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFNineZeroE",
+      "base_symbol": "Route111_Text_16F90E",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты сильнее мамы?"
+        ],
+        "A2": [
+          "Ты сильнее мамы? Ух ты!"
+        ],
+        "natural": [
+          "Ты сильнее мамы? Ух ты! Но я тоже сильна! Правда! Честно!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist stärker als Mama?"
+        ],
+        "A2": [
+          "Du bist stärker als Mama? Wow!"
+        ],
+        "natural": [
+          "Du bist stärker als Mama? Wow! Aber ich bin auch stark! Wirklich! Ehrlich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFNineFiveSix",
+      "base_symbol": "Route111_Text_16F956",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Что?"
+        ],
+        "A2": [
+          "Что? Я только что проиграла?"
+        ],
+        "natural": [
+          "Что? Я только что проиграла?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Habe ich gerade verloren?"
+        ],
+        "natural": [
+          "Was? Habe ich gerade verloren?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFNineSixC",
+      "base_symbol": "Route111_Text_16F96C",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Как противно..."
+        ],
+        "A2": [
+          "Как противно... Хнык..."
+        ],
+        "natural": [
+          "Как противно... Хнык... Бабушка!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie gemein..."
+        ],
+        "A2": [
+          "Wie gemein... Schluchz..."
+        ],
+        "natural": [
+          "Wie gemein... Schluchz... Oma!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFNineNineOne",
+      "base_symbol": "Route111_Text_16F991",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Как ты смеешь доводить мою внучку до слёз!"
+        ],
+        "A2": [
+          "Как ты смеешь доводить мою внучку до слёз! За это я тебя отшлёпаю."
+        ],
+        "natural": [
+          "Как ты смеешь доводить мою внучку до слёз! За это я тебя отшлёпаю. Готовься проиграть!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wie kannst du meine Enkelin zum Weinen bringen!"
+        ],
+        "A2": [
+          "Wie kannst du meine Enkelin zum Weinen bringen! Dafür versohle ich dich."
+        ],
+        "natural": [
+          "Wie kannst du meine Enkelin zum Weinen bringen! Dafür versohle ich dich. Mach dich aufs Verlieren gefasst!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFNineEC",
+      "base_symbol": "Route111_Text_16F9EC",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ква!"
+        ],
+        "A2": [
+          "Ква! Ты силён..."
+        ],
+        "natural": [
+          "Ква! Ты силён... Моя внучка была права..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kwah!"
+        ],
+        "A2": [
+          "Kwah! Du bist stark..."
+        ],
+        "natural": [
+          "Kwah! Du bist stark... Meine Enkelin hatte recht..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFATwoTwo",
+      "base_symbol": "Route111_Text_16FA22",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Если не спешишь, заходи к нам в гости."
+        ],
+        "A2": [
+          "Если не спешишь, заходи к нам в гости."
+        ],
+        "natural": [
+          "Если не спешишь, заходи к нам в гости."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn du Zeit hast, besuch uns eine Weile."
+        ],
+        "A2": [
+          "Wenn du Zeit hast, besuch uns eine Weile."
+        ],
+        "natural": [
+          "Wenn du Zeit hast, besuch uns eine Weile."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFCNineC",
+      "base_symbol": "Route111_Text_16FC9C",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 111 МОВИЛЛЬ"
+        ],
+        "A2": [
+          "МАРШРУТ 111 МОВИЛЛЬ"
+        ],
+        "natural": [
+          "МАРШРУТ 111 МОВИЛЛЬ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 111 MALVENFROH CITY"
+        ],
+        "A2": [
+          "ROUTE 111 MALVENFROH CITY"
+        ],
+        "natural": [
+          "ROUTE 111 MALVENFROH CITY"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFCBSix",
+      "base_symbol": "Route111_Text_16FCB6",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Сердца нашей семьи бьются как одно!"
+        ],
+        "A2": [
+          "Сердца нашей семьи бьются как одно! ДОМ СЕМЬИ ВИНСТРЕЙТ"
+        ],
+        "natural": [
+          "Сердца нашей семьи бьются как одно! ДОМ СЕМЬИ ВИНСТРЕЙТ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Unsere Herzen schlagen als eins!"
+        ],
+        "A2": [
+          "Unsere Herzen schlagen als eins! HAUS DER FAMILIE SIEGFRIED"
+        ],
+        "natural": [
+          "Unsere Herzen schlagen als eins! HAUS DER FAMILIE SIEGFRIED"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFCEF",
+      "base_symbol": "Route111_Text_16FCEF",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 111 МАРШРУТ 112"
+        ],
+        "A2": [
+          "МАРШРУТ 111 МАРШРУТ 112"
+        ],
+        "natural": [
+          "МАРШРУТ 111 МАРШРУТ 112"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 111 ROUTE 112"
+        ],
+        "A2": [
+          "ROUTE 111 ROUTE 112"
+        ],
+        "natural": [
+          "ROUTE 111 ROUTE 112"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFDZeroFive",
+      "base_symbol": "Route111_Text_16FD05",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 111 МАРШРУТ 113"
+        ],
+        "A2": [
+          "МАРШРУТ 111 МАРШРУТ 113"
+        ],
+        "natural": [
+          "МАРШРУТ 111 МАРШРУТ 113"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 111 ROUTE 113"
+        ],
+        "A2": [
+          "ROUTE 111 ROUTE 113"
+        ],
+        "natural": [
+          "ROUTE 111 ROUTE 113"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFDOneB",
+      "base_symbol": "Route111_Text_16FD1B",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПРИВАЛ СТАРУШКИ Заходи и дай отдых усталым костям."
+        ],
+        "A2": [
+          "ПРИВАЛ СТАРУШКИ Заходи и дай отдых усталым костям."
+        ],
+        "natural": [
+          "ПРИВАЛ СТАРУШКИ Заходи и дай отдых усталым костям."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "RASTHAUS DER ALTEN DAME Komm herein und ruh deine müden Knochen aus."
+        ],
+        "A2": [
+          "RASTHAUS DER ALTEN DAME Komm herein und ruh deine müden Knochen aus."
+        ],
+        "natural": [
+          "RASTHAUS DER ALTEN DAME Komm herein und ruh deine müden Knochen aus."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFDFiveFive",
+      "base_symbol": "Route111_Text_16FD55",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "СОВЕТЫ ТРЕНЕРА СП."
+        ],
+        "A2": [
+          "СОВЕТЫ ТРЕНЕРА СП. АТК означает ОСОБУЮ АТАКУ и показывает силу покемона."
+        ],
+        "natural": [
+          "СОВЕТЫ ТРЕНЕРА СП. АТК означает ОСОБУЮ АТАКУ и показывает силу покемона. СП. ЗАЩ означает ОСОБУЮ ЗАЩИТУ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TRAINER-TIPPS SPEZ."
+        ],
+        "A2": [
+          "TRAINER-TIPPS SPEZ. ANGR."
+        ],
+        "natural": [
+          "TRAINER-TIPPS SPEZ. ANGR. bedeutet SPEZIAL-ANGRIFF und zeigt Stärke. SPEZ. VER. bedeutet SPEZIAL-VERTEIDIGUNG."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFBEightSix",
+      "base_symbol": "Route111_Text_16FB86",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Без дальнейших тренировок побеждать станет трудно."
+        ],
+        "A2": [
+          "Без дальнейших тренировок побеждать станет трудно. Говорят, ЭЛИТНАЯ ЧЕТВЁРКА ЛИГИ ПОКЕМОНОВ намного сильнее любого ЛИДЕРА СТАДИОНА."
+        ],
+        "natural": [
+          "Без дальнейших тренировок побеждать станет трудно. Говорят, ЭЛИТНАЯ ЧЕТВЁРКА ЛИГИ ПОКЕМОНОВ намного сильнее любого ЛИДЕРА СТАДИОНА."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ohne weiteres Training wird das Gewinnen schwer."
+        ],
+        "A2": [
+          "Ohne weiteres Training wird das Gewinnen schwer. Die TOP VIER der POKéMON-LIGA sollen viel stärker als jeder ARENALEITER sein."
+        ],
+        "natural": [
+          "Ohne weiteres Training wird das Gewinnen schwer. Die TOP VIER der POKéMON-LIGA sollen viel stärker als jeder ARENALEITER sein."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneSixFCThreeA",
+      "base_symbol": "Route111_Text_16FC3A",
+      "source_path": "data/maps/Route111/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 resident, desert warning, interview, sign, or roadside interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я вызвал семью ВИНСТРЕЙТОВ, но четыре боя подряд слишком трудны..."
+        ],
+        "A2": [
+          "Я вызвал семью ВИНСТРЕЙТОВ, но четыре боя подряд слишком трудны... Они меня разгромили."
+        ],
+        "natural": [
+          "Я вызвал семью ВИНСТРЕЙТОВ, но четыре боя подряд слишком трудны... Они меня разгромили."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "маршрут",
+            "route"
+          ]
+        ],
+        "de": [
+          [
+            "die Route",
+            "route"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich forderte die Familie SIEGFRIED heraus, aber vier Kämpfe am Stück sind hart..."
+        ],
+        "A2": [
+          "Ich forderte die Familie SIEGFRIED heraus, aber vier Kämpfe am Stück sind hart... Sie machten mich fertig."
+        ],
+        "natural": [
+          "Ich forderte die Familie SIEGFRIED heraus, aber vier Kämpfe am Stück sind hart... Sie machten mich fertig."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBABFourB",
+      "base_symbol": "Route111_Text_1BAB4B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О, эти очки вам идут."
+        ],
+        "A2": [
+          "О, эти очки вам идут. Но мне они идут лучше."
+        ],
+        "natural": [
+          "О, эти очки вам идут. Но мне они идут лучше. Решим в бою!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, diese Wüstenbrille steht dir."
+        ],
+        "A2": [
+          "Oh, diese Wüstenbrille steht dir. Mir steht sie aber besser."
+        ],
+        "natural": [
+          "Oh, diese Wüstenbrille steht dir. Mir steht sie aber besser. Entscheiden wir es im Kampf!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBABCSeven",
+      "base_symbol": "Route111_Text_1BABC7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Из-за очков я не видел, что происходит по сторонам."
+        ],
+        "A2": [
+          "Из-за очков я не видел, что происходит по сторонам."
+        ],
+        "natural": [
+          "Из-за очков я не видел, что происходит по сторонам."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wegen der Brille sah ich nicht, was seitlich geschah."
+        ],
+        "A2": [
+          "Wegen der Brille sah ich nicht, was seitlich geschah."
+        ],
+        "natural": [
+          "Wegen der Brille sah ich nicht, was seitlich geschah."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBACOneZero",
+      "base_symbol": "Route111_Text_1BAC10",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "В этих очках можно пройти сквозь песчаную бурю."
+        ],
+        "A2": [
+          "В этих очках можно пройти сквозь песчаную бурю. Это радует!"
+        ],
+        "natural": [
+          "В этих очках можно пройти сквозь песчаную бурю. Это радует!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit dieser Brille kommt man durch Sandstürme."
+        ],
+        "A2": [
+          "Mit dieser Brille kommt man durch Sandstürme. Das macht mich froh!"
+        ],
+        "natural": [
+          "Mit dieser Brille kommt man durch Sandstürme. Das macht mich froh!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBACSixZero",
+      "base_symbol": "Route111_Text_1BAC60",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я устроил пикник в пустыне."
+        ],
+        "A2": [
+          "Я устроил пикник в пустыне. Здесь всегда найдётся тренер для боя!"
+        ],
+        "natural": [
+          "Я устроил пикник в пустыне. Здесь всегда найдётся тренер для боя!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich mache ein Picknick in der Wüste."
+        ],
+        "A2": [
+          "Ich mache ein Picknick in der Wüste. Hier findet man immer einen Trainer zum Kämpfen!"
+        ],
+        "natural": [
+          "Ich mache ein Picknick in der Wüste. Hier findet man immer einen Trainer zum Kämpfen!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBACCFive",
+      "base_symbol": "Route111_Text_1BACC5",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ох!"
+        ],
+        "A2": [
+          "Ох! Вы злой!"
+        ],
+        "natural": [
+          "Ох! Вы злой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh!"
+        ],
+        "A2": [
+          "Oh! Du bist gemein!"
+        ],
+        "natural": [
+          "Oh! Du bist gemein!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBACDEight",
+      "base_symbol": "Route111_Text_1BACD8",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "В песчаной буре следите за здоровьем покемона, иначе он потеряет сознание!"
+        ],
+        "A2": [
+          "В песчаной буре следите за здоровьем покемона, иначе он потеряет сознание!"
+        ],
+        "natural": [
+          "В песчаной буре следите за здоровьем покемона, иначе он потеряет сознание!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Achte im Sandsturm auf die KP deines Pokémon, sonst wird es kampfunfähig!"
+        ],
+        "A2": [
+          "Achte im Sandsturm auf die KP deines Pokémon, sonst wird es kampfunfähig!"
+        ],
+        "natural": [
+          "Achte im Sandsturm auf die KP deines Pokémon, sonst wird es kampfunfähig!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBADFourB",
+      "base_symbol": "Route111_Text_1BAD4B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "В этих очках я чувствую себя супергероем."
+        ],
+        "A2": [
+          "В этих очках я чувствую себя супергероем. Сейчас меня никто не победит!"
+        ],
+        "natural": [
+          "В этих очках я чувствую себя супергероем. Сейчас меня никто не победит!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit dieser Brille fühle ich mich wie ein Superheld."
+        ],
+        "A2": [
+          "Mit dieser Brille fühle ich mich wie ein Superheld. Jetzt besiegt mich niemand!"
+        ],
+        "natural": [
+          "Mit dieser Brille fühle ich mich wie ein Superheld. Jetzt besiegt mich niemand!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBADAThree",
+      "base_symbol": "Route111_Text_1BADA3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Одной силы духа недостаточно..."
+        ],
+        "A2": [
+          "Одной силы духа недостаточно..."
+        ],
+        "natural": [
+          "Одной силы духа недостаточно..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Kampfgeist allein reicht nicht..."
+        ],
+        "A2": [
+          "Kampfgeist allein reicht nicht..."
+        ],
+        "natural": [
+          "Kampfgeist allein reicht nicht..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBADCTwo",
+      "base_symbol": "Route111_Text_1BADC2",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Однажды я стану настоящим героем."
+        ],
+        "A2": [
+          "Однажды я стану настоящим героем. Буду усердно становиться сильнее вместе с покемоном."
+        ],
+        "natural": [
+          "Однажды я стану настоящим героем. Буду усердно становиться сильнее вместе с покемоном."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Eines Tages werde ich ein echter Held."
+        ],
+        "A2": [
+          "Eines Tages werde ich ein echter Held. Mein Pokémon und ich werden hart trainieren."
+        ],
+        "natural": [
+          "Eines Tages werde ich ein echter Held. Mein Pokémon und ich werden hart trainieren."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAETwoFour",
+      "base_symbol": "Route111_Text_1BAE24",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Говорят, в пустыне есть ископаемые."
+        ],
+        "A2": [
+          "Говорят, в пустыне есть ископаемые. Где же они?"
+        ],
+        "natural": [
+          "Говорят, в пустыне есть ископаемые. Где же они?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In der Wüste soll es Fossilien geben."
+        ],
+        "A2": [
+          "In der Wüste soll es Fossilien geben. Wo könnten sie sein?"
+        ],
+        "natural": [
+          "In der Wüste soll es Fossilien geben. Wo könnten sie sein?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAESixE",
+      "base_symbol": "Route111_Text_1BAE6E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мне немного не хватило..."
+        ],
+        "A2": [
+          "Мне немного не хватило..."
+        ],
+        "natural": [
+          "Мне немного не хватило..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Es hat knapp nicht gereicht..."
+        ],
+        "A2": [
+          "Es hat knapp nicht gereicht..."
+        ],
+        "natural": [
+          "Es hat knapp nicht gereicht..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAEEightOne",
+      "base_symbol": "Route111_Text_1BAE81",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Если в пустыне находят ископаемые, раньше здесь наверняка было море."
+        ],
+        "A2": [
+          "Если в пустыне находят ископаемые, раньше здесь наверняка было море."
+        ],
+        "natural": [
+          "Если в пустыне находят ископаемые, раньше здесь наверняка было море."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn man in der Wüste Fossilien findet, muss hier früher ein Meer gewesen sein."
+        ],
+        "A2": [
+          "Wenn man in der Wüste Fossilien findet, muss hier früher ein Meer gewesen sein."
+        ],
+        "natural": [
+          "Wenn man in der Wüste Fossilien findet, muss hier früher ein Meer gewesen sein."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAECNine",
+      "base_symbol": "Route111_Text_1BAEC9",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Тридцать лет я ищу древние руины!"
+        ],
+        "A2": [
+          "Тридцать лет я ищу древние руины! Вы хотите бросить мне вызов?"
+        ],
+        "natural": [
+          "Тридцать лет я ищу древние руины! Вы хотите бросить мне вызов?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Seit dreißig Jahren suche ich alte Ruinen!"
+        ],
+        "A2": [
+          "Seit dreißig Jahren suche ich alte Ruinen! Du willst mich herausfordern?"
+        ],
+        "natural": [
+          "Seit dreißig Jahren suche ich alte Ruinen! Du willst mich herausfordern?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAFOneFour",
+      "base_symbol": "Route111_Text_1BAF14",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я искал руины, но не искал сильных покемонов."
+        ],
+        "A2": [
+          "Я искал руины, но не искал сильных покемонов."
+        ],
+        "natural": [
+          "Я искал руины, но не искал сильных покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich suchte nach Ruinen, aber nicht nach starken Pokémon."
+        ],
+        "A2": [
+          "Ich suchte nach Ruinen, aber nicht nach starken Pokémon."
+        ],
+        "natural": [
+          "Ich suchte nach Ruinen, aber nicht nach starken Pokémon."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAFFiveB",
+      "base_symbol": "Route111_Text_1BAF5B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Тридцать лет я ищу древние руины!"
+        ],
+        "A2": [
+          "Тридцать лет я ищу древние руины! Или сорок?"
+        ],
+        "natural": [
+          "Тридцать лет я ищу древние руины! Или сорок? Сколько же?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Seit dreißig Jahren suche ich alte Ruinen!"
+        ],
+        "A2": [
+          "Seit dreißig Jahren suche ich alte Ruinen! Oder vierzig?"
+        ],
+        "natural": [
+          "Seit dreißig Jahren suche ich alte Ruinen! Oder vierzig? Wie lange war es?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBAFCOne",
+      "base_symbol": "Route111_Text_1BAFC1",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Тридцать лет я ищу руины!"
+        ],
+        "A2": [
+          "Тридцать лет я ищу руины! Или сорок?"
+        ],
+        "natural": [
+          "Тридцать лет я ищу руины! Или сорок? Неважно, вы бросаете мне вызов?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Seit dreißig Jahren suche ich Ruinen!"
+        ],
+        "A2": [
+          "Seit dreißig Jahren suche ich Ruinen! Oder vierzig?"
+        ],
+        "natural": [
+          "Seit dreißig Jahren suche ich Ruinen! Oder vierzig? Egal, forderst du mich heraus?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBZeroThreeFour",
+      "base_symbol": "Route111_Text_1BB034",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я не нашёл ни руин, ни сильных покемонов..."
+        ],
+        "A2": [
+          "Я не нашёл ни руин, ни сильных покемонов..."
+        ],
+        "natural": [
+          "Я не нашёл ни руин, ни сильных покемонов..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich fand weder Ruinen noch starke Pokémon..."
+        ],
+        "A2": [
+          "Ich fand weder Ruinen noch starke Pokémon..."
+        ],
+        "natural": [
+          "Ich fand weder Ruinen noch starke Pokémon..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBZeroSevenZero",
+      "base_symbol": "Route111_Text_1BB070",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я ищу руины тридцать лет."
+        ],
+        "A2": [
+          "Я ищу руины тридцать лет. Или сорок, а может, пятьдесят?"
+        ],
+        "natural": [
+          "Я ищу руины тридцать лет. Или сорок, а может, пятьдесят? Как давно это началось?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich suche seit dreißig Jahren Ruinen."
+        ],
+        "A2": [
+          "Ich suche seit dreißig Jahren Ruinen. Oder vierzig, vielleicht fünfzig?"
+        ],
+        "natural": [
+          "Ich suche seit dreißig Jahren Ruinen. Oder vierzig, vielleicht fünfzig? Wie lange mache ich das schon?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBOneOneOne",
+      "base_symbol": "Route111_Text_1BB111",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я полон энергии!"
+        ],
+        "A2": [
+          "Я полон энергии! И мой покемон тоже!"
+        ],
+        "natural": [
+          "Я полон энергии! И мой покемон тоже!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin voller Energie!"
+        ],
+        "A2": [
+          "Ich bin voller Energie! Mein Pokémon ebenfalls!"
+        ],
+        "natural": [
+          "Ich bin voller Energie! Mein Pokémon ebenfalls!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBOneFourZero",
+      "base_symbol": "Route111_Text_1BB140",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мой покемон лишился энергии..."
+        ],
+        "A2": [
+          "Мой покемон лишился энергии..."
+        ],
+        "natural": [
+          "Мой покемон лишился энергии..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Pokémon hat seine Energie verloren..."
+        ],
+        "A2": [
+          "Mein Pokémon hat seine Energie verloren..."
+        ],
+        "natural": [
+          "Mein Pokémon hat seine Energie verloren..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBOneFiveB",
+      "base_symbol": "Route111_Text_1BB15B",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Когда вижу энергичного тренера, не могу отвести взгляд."
+        ],
+        "A2": [
+          "Когда вижу энергичного тренера, не могу отвести взгляд."
+        ],
+        "natural": [
+          "Когда вижу энергичного тренера, не могу отвести взгляд."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wenn ich einen energiegeladenen Trainer sehe, muss ich hinsehen."
+        ],
+        "A2": [
+          "Wenn ich einen energiegeladenen Trainer sehe, muss ich hinsehen."
+        ],
+        "natural": [
+          "Wenn ich einen energiegeladenen Trainer sehe, muss ich hinsehen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBOneNineNine",
+      "base_symbol": "Route111_Text_1BB199",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Не знаю, куда вы идёте, но хотите сразиться?"
+        ],
+        "A2": [
+          "Не знаю, куда вы идёте, но хотите сразиться?"
+        ],
+        "natural": [
+          "Не знаю, куда вы идёте, но хотите сразиться?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich weiß nicht, wohin du gehst, aber möchtest du kämpfen?"
+        ],
+        "A2": [
+          "Ich weiß nicht, wohin du gehst, aber möchtest du kämpfen?"
+        ],
+        "natural": [
+          "Ich weiß nicht, wohin du gehst, aber möchtest du kämpfen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBOneDEight",
+      "base_symbol": "Route111_Text_1BB1D8",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ох, вы неприлично хороши!"
+        ],
+        "A2": [
+          "Ох, вы неприлично хороши!"
+        ],
+        "natural": [
+          "Ох, вы неприлично хороши!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, du bist unverschämt gut!"
+        ],
+        "A2": [
+          "Oh, du bist unverschämt gut!"
+        ],
+        "natural": [
+          "Oh, du bist unverschämt gut!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBOneFSix",
+      "base_symbol": "Route111_Text_1BB1F6",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Думаю пойти на гору Чимни, но и здесь прекрасный вид."
+        ],
+        "A2": [
+          "Думаю пойти на гору Чимни, но и здесь прекрасный вид."
+        ],
+        "natural": [
+          "Думаю пойти на гору Чимни, но и здесь прекрасный вид."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich überlege, zum Schlotberg zu gehen, doch auch hier ist die Aussicht schön."
+        ],
+        "A2": [
+          "Ich überlege, zum Schlotberg zu gehen, doch auch hier ist die Aussicht schön."
+        ],
+        "natural": [
+          "Ich überlege, zum Schlotberg zu gehen, doch auch hier ist die Aussicht schön."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBTwoFiveZero",
+      "base_symbol": "Route111_Text_1BB250",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Чтобы стать сильнее, я бросаю вызов каждому встречному!"
+        ],
+        "A2": [
+          "Чтобы стать сильнее, я бросаю вызов каждому встречному!"
+        ],
+        "natural": [
+          "Чтобы стать сильнее, я бросаю вызов каждому встречному!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Um stärker zu werden, fordere ich jeden heraus, den ich treffe!"
+        ],
+        "A2": [
+          "Um stärker zu werden, fordere ich jeden heraus, den ich treffe!"
+        ],
+        "natural": [
+          "Um stärker zu werden, fordere ich jeden heraus, den ich treffe!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBTwoSevenE",
+      "base_symbol": "Route111_Text_1BB27E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Сдаюсь!"
+        ],
+        "A2": [
+          "Сдаюсь!"
+        ],
+        "natural": [
+          "Сдаюсь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich gebe auf!"
+        ],
+        "A2": [
+          "Ich gebe auf!"
+        ],
+        "natural": [
+          "Ich gebe auf!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBTwoNineZero",
+      "base_symbol": "Route111_Text_1BB290",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Буду тренироваться, пока не смогу победить таких сильных тренеров, как вы."
+        ],
+        "A2": [
+          "Буду тренироваться, пока не смогу победить таких сильных тренеров, как вы."
+        ],
+        "natural": [
+          "Буду тренироваться, пока не смогу победить таких сильных тренеров, как вы."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich trainiere weiter, bis ich starke Trainer wie dich besiegen kann."
+        ],
+        "A2": [
+          "Ich trainiere weiter, bis ich starke Trainer wie dich besiegen kann."
+        ],
+        "natural": [
+          "Ich trainiere weiter, bis ich starke Trainer wie dich besiegen kann."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBTwoEThree",
+      "base_symbol": "Route111_Text_1BB2E3",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Покажите, насколько вы закалили своих покемонов."
+        ],
+        "A2": [
+          "Покажите, насколько вы закалили своих покемонов."
+        ],
+        "natural": [
+          "Покажите, насколько вы закалили своих покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Zeig mir, wie sehr du deine Pokémon gestählt hast."
+        ],
+        "A2": [
+          "Zeig mir, wie sehr du deine Pokémon gestählt hast."
+        ],
+        "natural": [
+          "Zeig mir, wie sehr du deine Pokémon gestählt hast."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBThreeOneThree",
+      "base_symbol": "Route111_Text_1BB313",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Вижу, вы серьёзно их закалили."
+        ],
+        "A2": [
+          "Вижу, вы серьёзно их закалили."
+        ],
+        "natural": [
+          "Вижу, вы серьёзно их закалили."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sehe, du hast sie stark gemacht."
+        ],
+        "A2": [
+          "Ich sehe, du hast sie stark gemacht."
+        ],
+        "natural": [
+          "Ich sehe, du hast sie stark gemacht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBThreeThreeE",
+      "base_symbol": "Route111_Text_1BB33E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Покемоны и тренеры учатся в боях."
+        ],
+        "A2": [
+          "Покемоны и тренеры учатся в боях. Главное - не сдаваться после поражения."
+        ],
+        "natural": [
+          "Покемоны и тренеры учатся в боях. Главное - не сдаваться после поражения."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Pokémon und Trainer lernen im Kampf."
+        ],
+        "A2": [
+          "Pokémon und Trainer lernen im Kampf. Wichtig ist, nach einer Niederlage nie aufzugeben."
+        ],
+        "natural": [
+          "Pokémon und Trainer lernen im Kampf. Wichtig ist, nach einer Niederlage nie aufzugeben."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBThreeASeven",
+      "base_symbol": "Route111_Text_1BB3A7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Мы тренируемся, чтобы выйти на новый уровень."
+        ],
+        "A2": [
+          "Мы тренируемся, чтобы выйти на новый уровень. Оставайтесь с нами!"
+        ],
+        "natural": [
+          "Мы тренируемся, чтобы выйти на новый уровень. Оставайтесь с нами!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir trainieren für die nächste Stufe."
+        ],
+        "A2": [
+          "Wir trainieren für die nächste Stufe. Bleib und trainiere mit uns!"
+        ],
+        "natural": [
+          "Wir trainieren für die nächste Stufe. Bleib und trainiere mit uns!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBThreeFA",
+      "base_symbol": "Route111_Text_1BB3FA",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О, вы неплохи!"
+        ],
+        "A2": [
+          "О, вы неплохи!"
+        ],
+        "natural": [
+          "О, вы неплохи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, du bist gut!"
+        ],
+        "A2": [
+          "Oh, du bist gut!"
+        ],
+        "natural": [
+          "Oh, du bist gut!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFourZeroE",
+      "base_symbol": "Route111_Text_1BB40E",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "С такой силой вам стоит стремиться в Лигу покемонов."
+        ],
+        "A2": [
+          "С такой силой вам стоит стремиться в Лигу покемонов."
+        ],
+        "natural": [
+          "С такой силой вам стоит стремиться в Лигу покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit dieser Stärke solltest du die Pokémon-Liga anstreben."
+        ],
+        "A2": [
+          "Mit dieser Stärke solltest du die Pokémon-Liga anstreben."
+        ],
+        "natural": [
+          "Mit dieser Stärke solltest du die Pokémon-Liga anstreben."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFourFourF",
+      "base_symbol": "Route111_Text_1BB44F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ваши покемоны выглядят серьёзными бойцами."
+        ],
+        "A2": [
+          "Ваши покемоны выглядят серьёзными бойцами. Приглашаю вас на бой."
+        ],
+        "natural": [
+          "Ваши покемоны выглядят серьёзными бойцами. Приглашаю вас на бой."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Deine Pokémon sehen wie ernsthafte Kämpfer aus."
+        ],
+        "A2": [
+          "Deine Pokémon sehen wie ernsthafte Kämpfer aus. Ich bitte um einen Kampf."
+        ],
+        "natural": [
+          "Deine Pokémon sehen wie ernsthafte Kämpfer aus. Ich bitte um einen Kampf."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFourNineF",
+      "base_symbol": "Route111_Text_1BB49F",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Они не только выглядят сильными, они и правда сильны!"
+        ],
+        "A2": [
+          "Они не только выглядят сильными, они и правда сильны!"
+        ],
+        "natural": [
+          "Они не только выглядят сильными, они и правда сильны!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sie sehen nicht nur stark aus, sie sind es wirklich!"
+        ],
+        "A2": [
+          "Sie sehen nicht nur stark aus, sie sind es wirklich!"
+        ],
+        "natural": [
+          "Sie sehen nicht nur stark aus, sie sind es wirklich!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFourCE",
+      "base_symbol": "Route111_Text_1BB4CE",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я усердно растил покемонов, но работы ещё очень много."
+        ],
+        "A2": [
+          "Я усердно растил покемонов, но работы ещё очень много."
+        ],
+        "natural": [
+          "Я усердно растил покемонов, но работы ещё очень много."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich zog meine Pokémon fleißig auf, doch es bleibt noch viel zu tun."
+        ],
+        "A2": [
+          "Ich zog meine Pokémon fleißig auf, doch es bleibt noch viel zu tun."
+        ],
+        "natural": [
+          "Ich zog meine Pokémon fleißig auf, doch es bleibt noch viel zu tun."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFiveTwoNine",
+      "base_symbol": "Route111_Text_1BB529",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Приёмы могут сделать покемона сильнее или слабее."
+        ],
+        "A2": [
+          "Приёмы могут сделать покемона сильнее или слабее. Какие приёмы знают ваши?"
+        ],
+        "natural": [
+          "Приёмы могут сделать покемона сильнее или слабее. Какие приёмы знают ваши?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Attacken können Pokémon stärken oder schwächen."
+        ],
+        "A2": [
+          "Attacken können Pokémon stärken oder schwächen. Welche kennen deine?"
+        ],
+        "natural": [
+          "Attacken können Pokémon stärken oder schwächen. Welche kennen deine?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFiveATwo",
+      "base_symbol": "Route111_Text_1BB5A2",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Вы научили их хорошим приёмам!"
+        ],
+        "A2": [
+          "Вы научили их хорошим приёмам!"
+        ],
+        "natural": [
+          "Вы научили их хорошим приёмам!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast ihnen gute Attacken beigebracht!"
+        ],
+        "A2": [
+          "Du hast ihnen gute Attacken beigebracht!"
+        ],
+        "natural": [
+          "Du hast ihnen gute Attacken beigebracht!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOneBBFiveCOne",
+      "base_symbol": "Route111_Text_1BB5C1",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Может, надо было задержать эволюцию, пока покемон не выучит лучшие приёмы..."
+        ],
+        "A2": [
+          "Может, надо было задержать эволюцию, пока покемон не выучит лучшие приёмы..."
+        ],
+        "natural": [
+          "Может, надо было задержать эволюцию, пока покемон не выучит лучшие приёмы..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vielleicht hätte ich die Entwicklung aufhalten sollen, bis mein Pokémon bessere Attacken lernt..."
+        ],
+        "A2": [
+          "Vielleicht hätte ich die Entwicklung aufhalten sollen, bis mein Pokémon bessere Attacken lernt..."
+        ],
+        "natural": [
+          "Vielleicht hätte ich die Entwicklung aufhalten sollen, bis mein Pokémon bessere Attacken lernt..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOldLadysRestStopOneNineTwoThreeAF",
+      "base_symbol": "Route111_OldLadysRestStop_Text_1923AF",
+      "source_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "An Old Lady's Rest Stop welcome, healing, or repeat-rest interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ох, твои покемоны устали?"
+        ],
+        "A2": [
+          "Ох, твои покемоны устали? Отдохни здесь."
+        ],
+        "natural": [
+          "Ох, твои покемоны устали? Отдохни здесь. Отличная мысль, так и сделай!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "отдых",
+            "rest"
+          ]
+        ],
+        "de": [
+          [
+            "die Pause",
+            "rest"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, deine Pokémon sind müde?"
+        ],
+        "A2": [
+          "Oh, deine Pokémon sind müde? Ruh dich hier aus."
+        ],
+        "natural": [
+          "Oh, deine Pokémon sind müde? Ruh dich hier aus. Eine gute Idee, tu das!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOldLadysRestStopOneNineTwoFourTwoThree",
+      "base_symbol": "Route111_OldLadysRestStop_Text_192423",
+      "source_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "An Old Lady's Rest Stop welcome, healing, or repeat-rest interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Верно."
+        ],
+        "A2": [
+          "Верно. Не спеши и отдыхай!"
+        ],
+        "natural": [
+          "Верно. Не спеши и отдыхай!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "отдых",
+            "rest"
+          ]
+        ],
+        "de": [
+          [
+            "die Pause",
+            "rest"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Genau."
+        ],
+        "A2": [
+          "Genau. Lass dir Zeit und ruh dich aus!"
+        ],
+        "natural": [
+          "Genau. Lass dir Zeit und ruh dich aus!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOldLadysRestStopOneNineTwoFourFourD",
+      "base_symbol": "Route111_OldLadysRestStop_Text_19244D",
+      "source_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "An Old Lady's Rest Stop welcome, healing, or repeat-rest interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ох, покемоны всё ещё устали?"
+        ],
+        "A2": [
+          "Ох, покемоны всё ещё устали? Отдохни ещё раз."
+        ],
+        "natural": [
+          "Ох, покемоны всё ещё устали? Отдохни ещё раз. Отличная мысль!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "отдых",
+            "rest"
+          ]
+        ],
+        "de": [
+          [
+            "die Pause",
+            "rest"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, sind deine Pokémon noch müde?"
+        ],
+        "A2": [
+          "Oh, sind deine Pokémon noch müde? Ruh dich noch einmal aus."
+        ],
+        "natural": [
+          "Oh, sind deine Pokémon noch müde? Ruh dich noch einmal aus. Eine gute Idee!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneOldLadysRestStopOneNineTwoFourCSix",
+      "base_symbol": "Route111_OldLadysRestStop_Text_1924C6",
+      "source_path": "data/maps/Route111_OldLadysRestStop/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "An Old Lady's Rest Stop welcome, healing, or repeat-rest interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот как?"
+        ],
+        "A2": [
+          "Вот как? Не стесняйся отдыхать."
+        ],
+        "natural": [
+          "Вот как? Не стесняйся отдыхать."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "отдых",
+            "rest"
+          ]
+        ],
+        "de": [
+          [
+            "die Pause",
+            "rest"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ach so?"
+        ],
+        "A2": [
+          "Ach so? Du brauchst dich nicht zu scheuen."
+        ],
+        "natural": [
+          "Ach so? Du brauchst dich nicht zu scheuen."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneWinstrateFamilysHouseOneNineOneFCE",
+      "base_symbol": "Route111_WinstrateFamilysHouse_Text_191FCE",
+      "source_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Winstrate family challenge, family conversation, or reward interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты первый ТРЕНЕР, который так искусно использует покемонов."
+        ],
+        "A2": [
+          "Ты первый ТРЕНЕР, который так искусно использует покемонов. Но мой сын сильнее тебя."
+        ],
+        "natural": [
+          "Ты первый ТРЕНЕР, который так искусно использует покемонов. Но мой сын сильнее тебя. Он даже бросил вызов ЛИГЕ ПОКЕМОНОВ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "семья",
+            "family"
+          ]
+        ],
+        "de": [
+          [
+            "die Familie",
+            "family"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist der erste TRAINER, der Pokémon so meisterhaft einsetzt."
+        ],
+        "A2": [
+          "Du bist der erste TRAINER, der Pokémon so meisterhaft einsetzt. Doch mein Sohn ist stärker."
+        ],
+        "natural": [
+          "Du bist der erste TRAINER, der Pokémon so meisterhaft einsetzt. Doch mein Sohn ist stärker. Er forderte sogar die POKéMON-LIGA heraus."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoZeroEightA",
+      "base_symbol": "Route111_WinstrateFamilysHouse_Text_19208A",
+      "source_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Winstrate family challenge, family conversation, or reward interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мы тренируем покемонов с БРАСЛЕТОМ МАЧО."
+        ],
+        "A2": [
+          "Мы тренируем покемонов с БРАСЛЕТОМ МАЧО. Ты победил всю семью, но мы хотим подарить его тебе."
+        ],
+        "natural": [
+          "Мы тренируем покемонов с БРАСЛЕТОМ МАЧО. Ты победил всю семью, но мы хотим подарить его тебе."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "семья",
+            "family"
+          ]
+        ],
+        "de": [
+          [
+            "die Familie",
+            "family"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wir trainieren Pokémon mit dem MACHOBAND."
+        ],
+        "A2": [
+          "Wir trainieren Pokémon mit dem MACHOBAND. Du hast die ganze Familie besiegt, doch wir möchten es dir schenken."
+        ],
+        "natural": [
+          "Wir trainieren Pokémon mit dem MACHOBAND. Du hast die ganze Familie besiegt, doch wir möchten es dir schenken."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoOneFourD",
+      "base_symbol": "Route111_WinstrateFamilysHouse_Text_19214D",
+      "source_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Winstrate family challenge, family conversation, or reward interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В боях покемонов мы очень страстны."
+        ],
+        "A2": [
+          "В боях покемонов мы очень страстны."
+        ],
+        "natural": [
+          "В боях покемонов мы очень страстны."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "семья",
+            "family"
+          ]
+        ],
+        "de": [
+          [
+            "die Familie",
+            "family"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bei Pokémon-Kämpfen sind wir sehr leidenschaftlich."
+        ],
+        "A2": [
+          "Bei Pokémon-Kämpfen sind wir sehr leidenschaftlich."
+        ],
+        "natural": [
+          "Bei Pokémon-Kämpfen sind wir sehr leidenschaftlich."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoOneNineZero",
+      "base_symbol": "Route111_WinstrateFamilysHouse_Text_192190",
+      "source_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Winstrate family challenge, family conversation, or reward interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мама сильнее папы."
+        ],
+        "A2": [
+          "Мама сильнее папы. Я сильнее мамы."
+        ],
+        "natural": [
+          "Мама сильнее папы. Я сильнее мамы. Бабушка сильнее меня! А старший брат сильнее даже бабушки."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "семья",
+            "family"
+          ]
+        ],
+        "de": [
+          [
+            "die Familie",
+            "family"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mama ist stärker als Papa."
+        ],
+        "A2": [
+          "Mama ist stärker als Papa. Ich bin stärker als Mama."
+        ],
+        "natural": [
+          "Mama ist stärker als Papa. Ich bin stärker als Mama. Oma ist stärker als ich! Mein Bruder ist sogar stärker als Oma."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoTwoOneNine",
+      "base_symbol": "Route111_WinstrateFamilysHouse_Text_192219",
+      "source_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Winstrate family challenge, family conversation, or reward interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты несомненно силён."
+        ],
+        "A2": [
+          "Ты несомненно силён. Но мой внук заставил бы тебя плакать."
+        ],
+        "natural": [
+          "Ты несомненно силён. Но мой внук заставил бы тебя плакать. Он сильнее всех знакомых нам ТРЕНЕРОВ и, возможно, уже стал ЧЕМПИОНОМ ЛИГИ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "семья",
+            "family"
+          ]
+        ],
+        "de": [
+          [
+            "die Familie",
+            "family"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du bist zweifellos stark."
+        ],
+        "A2": [
+          "Du bist zweifellos stark. Doch mein Enkel würde dich zum Weinen bringen."
+        ],
+        "natural": [
+          "Du bist zweifellos stark. Doch mein Enkel würde dich zum Weinen bringen. Er ist stärker als alle TRAINER, die wir kennen, und vielleicht schon LIGA-CHAMP."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneOneWinstrateFamilysHouseOneNineTwoThreeThreeFour",
+      "base_symbol": "Route111_WinstrateFamilysHouse_Text_192334",
+      "source_path": "data/maps/Route111_WinstrateFamilysHouse/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Winstrate family challenge, family conversation, or reward interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Мой внук наверняка уже сражается с ЧЕМПИОНОМ ЛИГИ ПОКЕМОНОВ."
+        ],
+        "A2": [
+          "Мой внук наверняка уже сражается с ЧЕМПИОНОМ ЛИГИ ПОКЕМОНОВ. Возможно, он уже сам ЧЕМПИОН!"
+        ],
+        "natural": [
+          "Мой внук наверняка уже сражается с ЧЕМПИОНОМ ЛИГИ ПОКЕМОНОВ. Возможно, он уже сам ЧЕМПИОН!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "семья",
+            "family"
+          ]
+        ],
+        "de": [
+          [
+            "die Familie",
+            "family"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mein Enkel fordert bestimmt den CHAMP der POKéMON-LIGA heraus."
+        ],
+        "A2": [
+          "Mein Enkel fordert bestimmt den CHAMP der POKéMON-LIGA heraus. Vielleicht ist er schon selbst CHAMP!"
+        ],
+        "natural": [
+          "Mein Enkel fordert bestimmt den CHAMP der POKéMON-LIGA heraus. Vielleicht ist er schon selbst CHAMP!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneSixFDFZero",
+      "base_symbol": "Route112_Text_16FDF0",
+      "source_path": "data/maps/Route112/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 112 resident, story, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ворчу..."
+        ],
+        "A2": [
+          "Ворчу... Что случилось с теми, кто пошёл в ФАЛЛАРБОР?"
+        ],
+        "natural": [
+          "Ворчу... Что случилось с теми, кто пошёл в ФАЛЛАРБОР? Они опаздывают..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "гора",
+            "mountain"
+          ]
+        ],
+        "de": [
+          [
+            "der Berg",
+            "mountain"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Grummel..."
+        ],
+        "A2": [
+          "Grummel... Was ist mit den anderen auf dem Weg nach LAUBWECHSELFELD?"
+        ],
+        "natural": [
+          "Grummel... Was ist mit den anderen auf dem Weg nach LAUBWECHSELFELD? Sie sind spät..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneSixFEThreeE",
+      "base_symbol": "Route112_Text_16FE3E",
+      "source_path": "data/maps/Route112/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 112 resident, story, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ворчу..."
+        ],
+        "A2": [
+          "Ворчу... Я тоже хочу подняться на КАНАТНОЙ ДОРОГЕ..."
+        ],
+        "natural": [
+          "Ворчу... Я тоже хочу подняться на КАНАТНОЙ ДОРОГЕ..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "гора",
+            "mountain"
+          ]
+        ],
+        "de": [
+          [
+            "der Berg",
+            "mountain"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Grummel..."
+        ],
+        "A2": [
+          "Grummel... Ich möchte auch mit der SEILBAHN hinauffahren..."
+        ],
+        "natural": [
+          "Grummel... Ich möchte auch mit der SEILBAHN hinauffahren..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneSixFEED",
+      "base_symbol": "Route112_Text_16FEED",
+      "source_path": "data/maps/Route112/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 112 resident, story, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КАНАТНАЯ ДОРОГА ГОРЫ ЧИМНИ Совсем рядом!"
+        ],
+        "A2": [
+          "КАНАТНАЯ ДОРОГА ГОРЫ ЧИМНИ Совсем рядом!"
+        ],
+        "natural": [
+          "КАНАТНАЯ ДОРОГА ГОРЫ ЧИМНИ Совсем рядом!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "гора",
+            "mountain"
+          ]
+        ],
+        "de": [
+          [
+            "der Berg",
+            "mountain"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "SEILBAHN AM SCHLOTBERG Nur einen kurzen Weg entfernt!"
+        ],
+        "A2": [
+          "SEILBAHN AM SCHLOTBERG Nur einen kurzen Weg entfernt!"
+        ],
+        "natural": [
+          "SEILBAHN AM SCHLOTBERG Nur einen kurzen Weg entfernt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneSixFFOneNine",
+      "base_symbol": "Route112_Text_16FF19",
+      "source_path": "data/maps/Route112/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 112 resident, story, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ГОРА ЧИМНИ В ЛАВАРИДЖ или на вершину езжайте по КАНАТНОЙ ДОРОГЕ."
+        ],
+        "A2": [
+          "ГОРА ЧИМНИ В ЛАВАРИДЖ или на вершину езжайте по КАНАТНОЙ ДОРОГЕ."
+        ],
+        "natural": [
+          "ГОРА ЧИМНИ В ЛАВАРИДЖ или на вершину езжайте по КАНАТНОЙ ДОРОГЕ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "гора",
+            "mountain"
+          ]
+        ],
+        "de": [
+          [
+            "der Berg",
+            "mountain"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "SCHLOTBERG Nach BAD LAVASTADT oder zum Gipfel geht es mit der SEILBAHN."
+        ],
+        "A2": [
+          "SCHLOTBERG Nach BAD LAVASTADT oder zum Gipfel geht es mit der SEILBAHN."
+        ],
+        "natural": [
+          "SCHLOTBERG Nach BAD LAVASTADT oder zum Gipfel geht es mit der SEILBAHN."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneSixFFSixFour",
+      "base_symbol": "Route112_Text_16FF64",
+      "source_path": "data/maps/Route112/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 112 resident, story, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МАРШРУТ 112 ЛАВАРИДЖ"
+        ],
+        "A2": [
+          "МАРШРУТ 112 ЛАВАРИДЖ"
+        ],
+        "natural": [
+          "МАРШРУТ 112 ЛАВАРИДЖ"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "гора",
+            "mountain"
+          ]
+        ],
+        "de": [
+          [
+            "der Berg",
+            "mountain"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "ROUTE 112 BAD LAVASTADT"
+        ],
+        "A2": [
+          "ROUTE 112 BAD LAVASTADT"
+        ],
+        "natural": [
+          "ROUTE 112 BAD LAVASTADT"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneSixFESevenA",
+      "base_symbol": "Route112_Text_16FE7A",
+      "source_path": "data/maps/Route112/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 112 resident, story, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я хочу в МОВИЛЛЬ, но если спрыгну с уступов, вернуться в ЛАВАРИДЖ будет нелегко."
+        ],
+        "A2": [
+          "Я хочу в МОВИЛЛЬ, но если спрыгну с уступов, вернуться в ЛАВАРИДЖ будет нелегко."
+        ],
+        "natural": [
+          "Я хочу в МОВИЛЛЬ, но если спрыгну с уступов, вернуться в ЛАВАРИДЖ будет нелегко."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "гора",
+            "mountain"
+          ]
+        ],
+        "de": [
+          [
+            "der Berg",
+            "mountain"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich will nach MALVENFROH, doch nach diesen Absätzen komme ich schwer nach BAD LAVASTADT zurück."
+        ],
+        "A2": [
+          "Ich will nach MALVENFROH, doch nach diesen Absätzen komme ich schwer nach BAD LAVASTADT zurück."
+        ],
+        "natural": [
+          "Ich will nach MALVENFROH, doch nach diesen Absätzen komme ich schwer nach BAD LAVASTADT zurück."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSixOneNine",
+      "base_symbol": "Route112_Text_1BB619",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха-ха!"
+        ],
+        "A2": [
+          "Ха-ха-ха! Как насчёт боя один на один?"
+        ],
+        "natural": [
+          "Ха-ха-ха! Как насчёт боя один на один?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hahaha!"
+        ],
+        "A2": [
+          "Hahaha! Wie wäre es mit einem Kampf unter uns beiden?"
+        ],
+        "natural": [
+          "Hahaha! Wie wäre es mit einem Kampf unter uns beiden?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSixFiveFive",
+      "base_symbol": "Route112_Text_1BB655",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграл!"
+        ],
+        "A2": [
+          "Я проиграл! Ха-ха-ха!"
+        ],
+        "natural": [
+          "Я проиграл! Ха-ха-ха!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich habe verloren!"
+        ],
+        "A2": [
+          "Ich habe verloren! Hahaha!"
+        ],
+        "natural": [
+          "Ich habe verloren! Hahaha!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSixSixSeven",
+      "base_symbol": "Route112_Text_1BB667",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ха-ха!"
+        ],
+        "A2": [
+          "Ха-ха! Что-то попало в нос!"
+        ],
+        "natural": [
+          "Ха-ха! Что-то попало в нос! Апчхи!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Haha!"
+        ],
+        "A2": [
+          "Haha! Etwas flog mir in die Nase!"
+        ],
+        "natural": [
+          "Haha! Etwas flog mir in die Nase! Hatschi!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSixAZero",
+      "base_symbol": "Route112_Text_1BB6A0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "От походов по горам мои ноги стали крепкими."
+        ],
+        "A2": [
+          "От походов по горам мои ноги стали крепкими. Они не подведут!"
+        ],
+        "natural": [
+          "От походов по горам мои ноги стали крепкими. Они не подведут!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Vom Bergwandern sind meine Beine kräftig."
+        ],
+        "A2": [
+          "Vom Bergwandern sind meine Beine kräftig. Sie geben nicht nach!"
+        ],
+        "natural": [
+          "Vom Bergwandern sind meine Beine kräftig. Sie geben nicht nach!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSevenZeroSeven",
+      "base_symbol": "Route112_Text_1BB707",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ой!"
+        ],
+        "A2": [
+          "Ой! Ноги свело судорогой!"
+        ],
+        "natural": [
+          "Ой! Ноги свело судорогой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Autsch!"
+        ],
+        "A2": [
+          "Autsch! Meine Beine haben einen Krampf!"
+        ],
+        "natural": [
+          "Autsch! Meine Beine haben einen Krampf!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSevenTwoOne",
+      "base_symbol": "Route112_Text_1BB721",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Ходите по горам с тяжёлым рюкзаком."
+        ],
+        "A2": [
+          "Ходите по горам с тяжёлым рюкзаком. Это приведёт тело в отличную форму."
+        ],
+        "natural": [
+          "Ходите по горам с тяжёлым рюкзаком. Это приведёт тело в отличную форму."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wandere mit schwerem Rucksack durch die Berge."
+        ],
+        "A2": [
+          "Wandere mit schwerem Rucksack durch die Berge. Das bringt den Körper in Topform."
+        ],
+        "natural": [
+          "Wandere mit schwerem Rucksack durch die Berge. Das bringt den Körper in Topform."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBSevenCSeven",
+      "base_symbol": "Route112_Text_1BB7C7",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я поддерживаю форму походами."
+        ],
+        "A2": [
+          "Я поддерживаю форму походами. Силы у меня в избытке!"
+        ],
+        "natural": [
+          "Я поддерживаю форму походами. Силы у меня в избытке!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich halte mich durch Wandern fit."
+        ],
+        "A2": [
+          "Ich halte mich durch Wandern fit. Kraft habe ich im Überfluss!"
+        ],
+        "natural": [
+          "Ich halte mich durch Wandern fit. Kraft habe ich im Überfluss!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBEightZeroOne",
+      "base_symbol": "Route112_Text_1BB801",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Меня превзошли в силе?"
+        ],
+        "A2": [
+          "Меня превзошли в силе?"
+        ],
+        "natural": [
+          "Меня превзошли в силе?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich wurde an Kraft übertroffen?"
+        ],
+        "A2": [
+          "Ich wurde an Kraft übertroffen?"
+        ],
+        "natural": [
+          "Ich wurde an Kraft übertroffen?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBEightOneNine",
+      "base_symbol": "Route112_Text_1BB819",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Говорят, на вершине горы Чимни есть сильные тренеры."
+        ],
+        "A2": [
+          "Говорят, на вершине горы Чимни есть сильные тренеры. Я поднимусь и брошу им вызов!"
+        ],
+        "natural": [
+          "Говорят, на вершине горы Чимни есть сильные тренеры. Я поднимусь и брошу им вызов!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf dem Schlotberg sollen starke Trainer sein."
+        ],
+        "A2": [
+          "Auf dem Schlotberg sollen starke Trainer sein. Ich steige hinauf und fordere sie heraus!"
+        ],
+        "natural": [
+          "Auf dem Schlotberg sollen starke Trainer sein. Ich steige hinauf und fordere sie heraus!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBEightNineThree",
+      "base_symbol": "Route112_Text_1BB893",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я сильный."
+        ],
+        "A2": [
+          "Я сильный. Даже если проиграю, не заплачу."
+        ],
+        "natural": [
+          "Я сильный. Даже если проиграю, не заплачу."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich bin stark."
+        ],
+        "A2": [
+          "Ich bin stark. Selbst wenn ich verliere, weine ich nicht."
+        ],
+        "natural": [
+          "Ich bin stark. Selbst wenn ich verliere, weine ich nicht."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBEightBSix",
+      "base_symbol": "Route112_Text_1BB8B6",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Уа-а-а!"
+        ],
+        "A2": [
+          "Уа-а-а!"
+        ],
+        "natural": [
+          "Уа-а-а!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wäääh!"
+        ],
+        "A2": [
+          "Wäääh!"
+        ],
+        "natural": [
+          "Wäääh!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBEightBE",
+      "base_symbol": "Route112_Text_1BB8BE",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Я плачу не потому, что скучаю по маме!"
+        ],
+        "A2": [
+          "Я плачу не потому, что скучаю по маме! Всхлип..."
+        ],
+        "natural": [
+          "Я плачу не потому, что скучаю по маме! Всхлип..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich weine nicht, weil ich Mama vermisse!"
+        ],
+        "A2": [
+          "Ich weine nicht, weil ich Mama vermisse! Schluchz..."
+        ],
+        "natural": [
+          "Ich weine nicht, weil ich Mama vermisse! Schluchz..."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBEightFZero",
+      "base_symbol": "Route112_Text_1BB8F0",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "На пикнике обязательно нужно петь!"
+        ],
+        "A2": [
+          "На пикнике обязательно нужно петь! Давайте споём вместе!"
+        ],
+        "natural": [
+          "На пикнике обязательно нужно петь! Давайте споём вместе!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bei einem Picknick muss man einfach singen!"
+        ],
+        "A2": [
+          "Bei einem Picknick muss man einfach singen! Sing mit mir!"
+        ],
+        "natural": [
+          "Bei einem Picknick muss man einfach singen! Sing mit mir!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBNineFourTwo",
+      "base_symbol": "Route112_Text_1BB942",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "О, вы так сильны!"
+        ],
+        "A2": [
+          "О, вы так сильны!"
+        ],
+        "natural": [
+          "О, вы так сильны!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh, du bist so stark!"
+        ],
+        "A2": [
+          "Oh, du bist so stark!"
+        ],
+        "natural": [
+          "Oh, du bist so stark!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoOneBBNineFiveEight",
+      "base_symbol": "Route112_Text_1BB958",
+      "source_path": "data/text/trainers.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Route 111 or Route 112 trainer introduction, defeat line, rematch, or follow-up conversation."
+      ],
+      "ru": {
+        "A1": [
+          "Неважно, хорошо ли вы поёте или сражаетесь."
+        ],
+        "A2": [
+          "Неважно, хорошо ли вы поёте или сражаетесь. Побеждает тот, кому веселее!"
+        ],
+        "natural": [
+          "Неважно, хорошо ли вы поёте или сражаетесь. Побеждает тот, кому веселее!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "бой",
+            "battle"
+          ]
+        ],
+        "de": [
+          [
+            "der Kampf",
+            "battle"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ob du gut singst oder kämpfst, ist egal."
+        ],
+        "A2": [
+          "Ob du gut singst oder kämpfst, ist egal. Wer am meisten Spaß hat, gewinnt!"
+        ],
+        "natural": [
+          "Ob du gut singst oder kämpfst, ist egal. Wer am meisten Spaß hat, gewinnt!"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoCableCarStationOneNineTwoFourFFive",
+      "base_symbol": "Route112_CableCarStation_Text_1924F5",
+      "source_path": "data/maps/Route112_CableCarStation/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Cable Car station visitor, Team Aqua obstruction, or travel interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КАНАТНАЯ ДОРОГА готова к подъёму."
+        ],
+        "A2": [
+          "КАНАТНАЯ ДОРОГА готова к подъёму. Поедешь?"
+        ],
+        "natural": [
+          "КАНАТНАЯ ДОРОГА готова к подъёму. Поедешь?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "канатная дорога",
+            "cable car"
+          ]
+        ],
+        "de": [
+          [
+            "die Seilbahn",
+            "cable car"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die SEILBAHN fährt nach oben."
+        ],
+        "A2": [
+          "Die SEILBAHN fährt nach oben. Möchtest du mitfahren?"
+        ],
+        "natural": [
+          "Die SEILBAHN fährt nach oben. Möchtest du mitfahren?"
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoCableCarStationOneNineTwoFiveANine",
+      "base_symbol": "Route112_CableCarStation_Text_1925A9",
+      "source_path": "data/maps/MtChimney_CableCarStation/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Cable Car station visitor, Team Aqua obstruction, or travel interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Проходи сюда."
+        ],
+        "A2": [
+          "Проходи сюда."
+        ],
+        "natural": [
+          "Проходи сюда."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "канатная дорога",
+            "cable car"
+          ]
+        ],
+        "de": [
+          [
+            "die Seilbahn",
+            "cable car"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bitte hier entlang."
+        ],
+        "A2": [
+          "Bitte hier entlang."
+        ],
+        "natural": [
+          "Bitte hier entlang."
+        ]
+      }
+    },
+    {
+      "id": "RouteOneOneTwoCableCarStationOneNineTwoFiveFourEight",
+      "base_symbol": "Route112_CableCarStation_Text_192548",
+      "source_path": "data/maps/Route112_CableCarStation/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Cable Car station visitor, Team Aqua obstruction, or travel interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Прокатись с нами в другой раз."
+        ],
+        "A2": [
+          "Прокатись с нами в другой раз."
+        ],
+        "natural": [
+          "Прокатись с нами в другой раз."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "канатная дорога",
+            "cable car"
+          ]
+        ],
+        "de": [
+          [
+            "die Seilbahn",
+            "cable car"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Fahr ein anderes Mal mit uns."
+        ],
+        "A2": [
+          "Fahr ein anderes Mal mit uns."
+        ],
+        "natural": [
+          "Fahr ein anderes Mal mit uns."
+        ]
+      }
     }
   ]
 }

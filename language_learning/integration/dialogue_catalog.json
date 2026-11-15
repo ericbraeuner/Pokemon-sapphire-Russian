@@ -25426,6 +25426,3666 @@
         "lavaridge",
         "town"
       ]
-    }
+    },
+{
+  "id": "fallarbor.contest.fallarbortown.contesthall.text.cantwineverywhere.1270",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestHall/scripts.inc",
+    "symbol": "FallarborTown_ContestHall_EventScript_CantWinEverywhere",
+    "base_text_path": "data/maps/FallarborTown_ContestHall/text.inc",
+    "base_text_symbol": "FallarborTown_ContestHall_Text_CantWinEverywhere",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestHallCantWinEverywhere"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1270
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contesthall.text.doallrightinpreliminary.1271",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestHall/scripts.inc",
+    "symbol": "FallarborTown_ContestHall_EventScript_DoAllRightInPreliminary",
+    "base_text_path": "data/maps/FallarborTown_ContestHall/text.inc",
+    "base_text_symbol": "FallarborTown_ContestHall_Text_DoAllRightInPreliminary",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestHallDoAllRightInPreliminary"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1271
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contesthall.text.monalltheseribbons.1272",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestHall/scripts.inc",
+    "symbol": "FallarborTown_ContestHall_EventScript_MonAllTheseRibbons",
+    "base_text_path": "data/maps/FallarborTown_ContestHall/text.inc",
+    "base_text_symbol": "FallarborTown_ContestHall_Text_MonAllTheseRibbons",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestHallMonAllTheseRibbons"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1272
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contesthall.text.superrankstage.1273",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestHall/scripts.inc",
+    "symbol": "FallarborTown_ContestHall_EventScript_SuperRankStage",
+    "base_text_path": "data/maps/FallarborTown_ContestHall/text.inc",
+    "base_text_symbol": "FallarborTown_ContestHall_Text_SuperRankStage",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestHallSuperRankStage"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1273
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contestlobby.text.areyoumakingpokeblock.1274",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestLobby/scripts.inc",
+    "symbol": "FallarborTown_ContestLobby_EventScript_Lass",
+    "base_text_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+    "base_text_symbol": "FallarborTown_ContestLobby_Text_AreYouMakingPokeblock",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestLobbyAreYouMakingPokeblock"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1274
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contestlobby.text.icreatesketches.1275",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestLobby/scripts.inc",
+    "symbol": "FallarborTown_ContestLobby_EventScript_SketchArtist",
+    "base_text_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+    "base_text_symbol": "FallarborTown_ContestLobby_Text_ICreateSketches",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestLobbyICreateSketches"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1275
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contestlobby.text.usedtohavesketch.1276",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestLobby/scripts.inc",
+    "symbol": "FallarborTown_ContestLobby_EventScript_Boy",
+    "base_text_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+    "base_text_symbol": "FallarborTown_ContestLobby_Text_UsedToHaveSketch",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestLobbyUsedToHaveSketch"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1276
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.contestlobby.text.yoursketchisup.1277",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_ContestLobby/scripts.inc",
+    "symbol": "FallarborTown_ContestLobby_EventScript_153AA9",
+    "base_text_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+    "base_text_symbol": "FallarborTown_ContestLobby_Text_YourSketchIsUp",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestLobbyYourSketchIsUp"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1277
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.cozmoissohappy.1278",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_CozmoIsHappy",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_CozmoIsSoHappy",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseCozmoIsSoHappy"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1278
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.meteor.fallarbortown.cozmoshouse.text.cozmowenttometeorfalls.1279",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_CozmosWife",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseCozmoWentToMeteorFalls"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1279
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.crushedwithdisappointment.1280",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_DeclineGiveMeteorite",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_CrushedWithDisappointment",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseCrushedWithDisappointment"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1280
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.feelsorryforcozmo.1281",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_CozmoIsSad",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_FeelSorryForCozmo",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseFeelSorryForCozmo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1281
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.isthatmeteoritemayihaveit.1282",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_NoticeMeteorite",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseIsThatMeteoriteMayIHaveIt"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1282
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.mayihavemeteorite.1283",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_AskForMeteorite",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_MayIHaveMeteorite",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseMayIHaveMeteorite"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1283
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.meteoritewillneverbeminenow.1284",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_ProfCozmo",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseMeteoriteWillNeverBeMineNow"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1284
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.pleaseusethistm.1285",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_PleaseUseThisTM",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHousePleaseUseThisTM"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1285
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.cozmoshouse.text.reallygoingtohelpmyresearch.1286",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House1/scripts.inc",
+    "symbol": "FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite",
+    "base_text_path": "data/maps/FallarborTown_House1/text.inc",
+    "base_text_symbol": "FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownCozmosHouseReallyGoingToHelpMyResearch"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1286
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.mart.text.decidingskittyevolve.1287",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_Mart/scripts.inc",
+    "symbol": "FallarborTown_Mart_EventScript_Woman",
+    "base_text_path": "data/maps/FallarborTown_Mart/text.inc",
+    "base_text_symbol": "FallarborTown_Mart_Text_DecidingSkittyEvolve",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMartDecidingSkittyEvolve"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1287
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.mart.text.sellnuggetifound.1288",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_Mart/scripts.inc",
+    "symbol": "FallarborTown_Mart_EventScript_PokefanM",
+    "base_text_path": "data/maps/FallarborTown_Mart/text.inc",
+    "base_text_symbol": "FallarborTown_Mart_Text_SellNuggetIFound",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMartSellNuggetIFound"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1288
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.mart.text.skitty.1289",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_Mart/scripts.inc",
+    "symbol": "FallarborTown_Mart_EventScript_Skitty",
+    "base_text_path": "data/maps/FallarborTown_Mart/text.inc",
+    "base_text_symbol": "FallarborTown_Mart_Text_Skitty",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMartSkitty"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1289
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.cantteachegg.1290",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_CantTeachEgg",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseCantTeachEgg"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1290
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.comebackwithheartscale.1291",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseComeBackWithHeartScale"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1291
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.donthavemovetoteachpokemon.1292",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_NoMoveToTeachMon",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseDontHaveMoveToTeachPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1292
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.handedoverheartscale.1293",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseHandedOverHeartScale"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1293
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.imthemovetutor.1294",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseImTheMoveTutor"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1294
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.teachwhichmove.1295",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseTeachWhichMove"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1295
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.thatsaheartscalewantmetoteachmove.1296",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseThatsAHeartScaleWantMeToTeachMove"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1296
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.moverelearnershouse.text.tutorwhichmon.1297",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_House2/scripts.inc",
+    "symbol": "FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon",
+    "base_text_path": "data/maps/FallarborTown_House2/text.inc",
+    "base_text_symbol": "FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveRelearnersHouseTutorWhichMon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1297
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.fossil.fallarbortown.pokemoncenter.1f.text.fossilmaniacedgeoftown.1298",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_PokemonCenter_1F/scripts.inc",
+    "symbol": "FallarborTown_PokemonCenter_1F_EventScript_Girl",
+    "base_text_path": "data/maps/FallarborTown_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownPokemonCenterOneFFossilManiacEdgeOfTown"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1298
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.storage.fallarbortown.pokemoncenter.1f.text.lanettegreeting.1299",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_PokemonCenter_1F/scripts.inc",
+    "symbol": "FallarborTown_PokemonCenter_1F_EventScript_Lanette",
+    "base_text_path": "data/maps/FallarborTown_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "FallarborTown_PokemonCenter_1F_Text_LanetteGreeting",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownPokemonCenterOneFLanetteGreeting"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1299
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.pokemoncenter.1f.text.planthardytrees.1300",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown_PokemonCenter_1F/scripts.inc",
+    "symbol": "FallarborTown_PokemonCenter_1F_EventScript_ExpertM",
+    "base_text_path": "data/maps/FallarborTown_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownPokemonCenterOneFPlantHardyTrees"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1300
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.azurill.1301",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_Azurill",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_Azurill",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownAzurill"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1301
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.contest.fallarbortown.text.contesthallsign.1302",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_ContestHallSign",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_ContestHallSign",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownContestHallSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1302
+  },
+  "tags": [
+    "fallarbor",
+    "contest"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.haveyouchallengedflannery.1303",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_Gentleman",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_HaveYouChallengedFlannery",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownHaveYouChallengedFlannery"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1303
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.movetutorsign.1304",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_MoveTutorSign",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_MoveTutorSign",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMoveTutorSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1304
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.mypreciousazurill.1305",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_Girl",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_MyPreciousAzurill",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownMyPreciousAzurill"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1305
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.regionknownformeteors.1306",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_ExpertMNormal",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_RegionKnownForMeteors",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownRegionKnownForMeteors"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1306
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.shadyfellowatlab.1307",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_ExpertM",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_ShadyFellowAtLab",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownShadyFellowAtLab"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1307
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.town.fallarbortown.text.townsign.1308",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FallarborTown/scripts.inc",
+    "symbol": "FallarborTown_EventScript_TownSign",
+    "base_text_path": "data/maps/FallarborTown/text.inc",
+    "base_text_symbol": "FallarborTown_Text_TownSign",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "FallarborTownTownSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1308
+  },
+  "tags": [
+    "fallarbor",
+    "town"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.193237.1309",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_193237",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeTwoThreeSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1309
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.193268.1310",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_193268",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeTwoSixEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1310
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.1932c5.1311",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_1932C5",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeTwoCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1311
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.193320.1312",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_193320",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeThreeTwoZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1312
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.1933ec.1313",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_1933EC",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeThreeEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1313
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.193584.1314",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_193584",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeFiveEightFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1314
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.193720.1315",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_193720",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeSevenTwoZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1315
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.193747.1316",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_193747",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeSevenFourSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1316
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.1937aa.1317",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C49C",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_1937AA",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeSevenAA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1317
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.1937eb.1318",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C656",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_1937EB",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeSevenEB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1318
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.1r.text.19396a.1319",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_1R/scripts.inc",
+    "symbol": "MeteorFalls_1F_1R_EventScript_15C66E",
+    "base_text_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_1R_Text_19396A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFOneROneNineThreeNineSixA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1319
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.1939c5.1320",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C679",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_1939C5",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeNineCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1320
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193a35.1321",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C679",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193A35",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeAThreeFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1321
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193a60.1322",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C679",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193A60",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeASixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1322
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193ab3.1323",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6A0",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193AB3",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeABThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1323
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193b21.1324",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6A0",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193B21",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeBTwoOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1324
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193b4c.1325",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6A0",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193B4C",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeBFourC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1325
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193bb7.1326",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6B7",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193BB7",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeBBSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1326
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193c10.1327",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6B7",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193C10",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeCOneZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1327
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193c35.1328",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6B7",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193C35",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeCThreeFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1328
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193c9f.1329",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6B7",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193C9F",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeCNineF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1329
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193d10.1330",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6FD",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193D10",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeDOneZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1330
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193d6e.1331",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6FD",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193D6E",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeDSixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1331
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193d9a.1332",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6FD",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193D9A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeDNineA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1332
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193dfb.1333",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6FD",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193DFB",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeDFB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1333
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193e75.1334",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6E2",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193E75",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeESevenFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1334
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193ece.1335",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6E2",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193ECE",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeECE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1335
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193ef3.1336",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6E2",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193EF3",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeEFThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1336
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193f59.1337",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C6E2",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193F59",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeFFiveNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1337
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.193fca.1338",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C728",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_193FCA",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineThreeFCA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1338
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.19403a.1339",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C728",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_19403A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineFourZeroThreeA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1339
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.194066.1340",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C728",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_194066",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineFourZeroSixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1340
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.meteor.meteorfalls.1f.2r.text.1940df.1341",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MeteorFalls_1F_2R/scripts.inc",
+    "symbol": "MeteorFalls_1F_2R_EventScript_15C728",
+    "base_text_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+    "base_text_symbol": "MeteorFalls_1F_2R_Text_1940DF",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "MeteorFallsOneFTwoROneNineFourZeroDF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1341
+  },
+  "tags": [
+    "fallarbor",
+    "meteor"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e4e6.1342",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163565",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E4E6",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEFourESix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1342
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e59b.1343",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163565",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E59B",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEFiveNineB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1343
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e65b.1344",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_1635B5",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E65B",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineESixFiveB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1344
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e697.1345",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163818",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E697",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineESixNineSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1345
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e757.1346",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_1635B5",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E757",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineESevenFiveSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1346
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e7cd.1347",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163660",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E7CD",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineESevenCD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1347
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e802.1348",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163845",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E802",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEEightZeroTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1348
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e827.1349",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163851",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E827",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEEightTwoSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1349
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e890.1350",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163830",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E890",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEEightNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1350
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e990.1351",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_16380E",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E990",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineENineNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1351
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19e9d7.1352",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_163851",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19E9D7",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineENineDSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1352
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19ea06.1353",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_1638B4",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19EA06",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEAZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1353
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19ea64.1354",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_1638C3",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19EA64",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEASixFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1354
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19eac1.1355",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_1635E4",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19EAC1",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEACOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1355
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.glassworkshop.text.19eb3b.1356",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113_GlassWorkshop/scripts.inc",
+    "symbol": "Route113_GlassWorkshop_EventScript_1639D6",
+    "base_text_path": "data/maps/Route113_GlassWorkshop/text.inc",
+    "base_text_symbol": "Route113_GlassWorkshop_Text_19EB3B",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeGlassWorkshopOneNineEBThreeB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1356
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.16ff7f.1357",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150605",
+    "base_text_path": "data/maps/Route113/text.inc",
+    "base_text_symbol": "Route113_Text_16FF7F",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneSixFFSevenF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1357
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.16ffee.1358",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_15060E",
+    "base_text_path": "data/maps/Route113/text.inc",
+    "base_text_symbol": "Route113_Text_16FFEE",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneSixFFEE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1358
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.170065.1359",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150617",
+    "base_text_path": "data/maps/Route113/text.inc",
+    "base_text_symbol": "Route113_Text_170065",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneSevenZeroZeroSixFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1359
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.17007b.1360",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150620",
+    "base_text_path": "data/maps/Route113/text.inc",
+    "base_text_symbol": "Route113_Text_17007B",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneSevenZeroZeroSevenB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1360
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.170096.1361",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150632",
+    "base_text_path": "data/maps/Route113/text.inc",
+    "base_text_symbol": "Route113_Text_170096",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneSevenZeroZeroNineSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1361
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.17011d.1362",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150629",
+    "base_text_path": "data/maps/Route113/text.inc",
+    "base_text_symbol": "Route113_Text_17011D",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneSevenZeroOneOneD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1362
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bb9ba.1363",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_15063B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BB9BA",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBNineBA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1363
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bb9e6.1364",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_15063B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BB9E6",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBNineESix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1364
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bb9fb.1365",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_15063B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BB9FB",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBNineFB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1365
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bba62.1366",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150652",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBA62",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBASixTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1366
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bba9b.1367",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150652",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBA9B",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBANineB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1367
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbab7.1368",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150652",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBAB7",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBABSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1368
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbb27.1369",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150669",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBB27",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBBTwoSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1369
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbb7a.1370",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150669",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBB7A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBBSevenA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1370
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbb9a.1371",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150669",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBB9A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBBNineA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1371
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbbce.1372",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150690",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBBCE",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBBCE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1372
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbc0d.1373",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150690",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBC0D",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBCZeroD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1373
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbc1c.1374",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150690",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBC1C",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBCOneC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1374
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbc59.1375",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506A7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBC59",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBCFiveNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1375
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbc90.1376",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506A7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBC90",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBCNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1376
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbcab.1377",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506A7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBCAB",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBCAB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1377
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbce6.1378",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506CE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBCE6",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBCESix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1378
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbd1d.1379",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506CE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBD1D",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBDOneD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1379
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbd38.1380",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506CE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBD38",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBDThreeEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1380
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbd92.1381",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506E5",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBD92",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBDNineTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1381
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbdc6.1382",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506E5",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBDC6",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBDCSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1382
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbe1d.1383",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506E5",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBE1D",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBEOneD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1383
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbe65.1384",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBE65",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBESixFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1384
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbea1.1385",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBEA1",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBEAOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1385
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbee4.1386",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBEE4",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBEEFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1386
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbf25.1387",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_1506FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBF25",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBFTwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1387
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbf62.1388",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150717",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBF62",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBFSixTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1388
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbf9d.1389",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150717",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBF9D",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBFNineD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1389
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bbfe2.1390",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150717",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BBFE2",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBBFETwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1390
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.ash.route113.text.1bc021.1391",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route113/scripts.inc",
+    "symbol": "Route113_EventScript_150717",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route113_Text_1BC021",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneThreeOneBCZeroTwoOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1391
+  },
+  "tags": [
+    "fallarbor",
+    "ash"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacshouse.text.1925e1.1392",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsHouse/scripts.inc",
+    "symbol": "Route114_FossilManiacsHouse_EventScript_15C1C3",
+    "base_text_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsHouse_Text_1925E1",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsHouseOneNineTwoFiveEOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1392
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacshouse.text.1926ae.1393",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsHouse/scripts.inc",
+    "symbol": "Route114_FossilManiacsHouse_EventScript_15C1F2",
+    "base_text_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsHouse_Text_1926AE",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsHouseOneNineTwoSixAE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1393
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacshouse.text.1926fa.1394",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsHouse/scripts.inc",
+    "symbol": "Route114_FossilManiacsHouse_EventScript_15C1FC",
+    "base_text_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsHouse_Text_1926FA",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsHouseOneNineTwoSixFA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1394
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacshouse.text.192729.1395",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsHouse/scripts.inc",
+    "symbol": "Route114_FossilManiacsHouse_EventScript_15C205",
+    "base_text_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsHouse_Text_192729",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsHouseOneNineTwoSevenTwoNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1395
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacstunnel.text.192795.1396",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsTunnel/scripts.inc",
+    "symbol": "Route114_FossilManiacsTunnel_EventScript_15C20F",
+    "base_text_path": "data/maps/Route114_FossilManiacsTunnel/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsTunnel_Text_192795",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsTunnelOneNineTwoSevenNineFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1396
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacstunnel.text.1928de.1397",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsTunnel/scripts.inc",
+    "symbol": "Route114_FossilManiacsTunnel_EventScript_15C244",
+    "base_text_path": "data/maps/Route114_FossilManiacsTunnel/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsTunnel_Text_1928DE",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsTunnelOneNineTwoEightDE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1397
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.fossil.route114.fossilmaniacstunnel.text.1929dc.1398",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_FossilManiacsTunnel/scripts.inc",
+    "symbol": "Route114_FossilManiacsTunnel_EventScript_15C24E",
+    "base_text_path": "data/maps/Route114_FossilManiacsTunnel/text.inc",
+    "base_text_symbol": "Route114_FossilManiacsTunnel_Text_1929DC",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourFossilManiacsTunnelOneNineTwoNineDC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1398
+  },
+  "tags": [
+    "fallarbor",
+    "fossil"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192a0d.1399",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C262",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192A0D",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoAZeroD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1399
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192acc.1400",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C28F",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192ACC",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoACC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1400
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192b4a.1401",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C299",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192B4A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoBFourA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1401
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192c01.1402",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C2B7",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192C01",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoCZeroOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1402
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192cb4.1403",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C2CC",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192CB4",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoCBFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1403
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192da9.1404",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C299",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192DA9",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoDANine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1404
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.storage.route114.lanetteshouse.text.192dc1.1405",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114_LanettesHouse/scripts.inc",
+    "symbol": "Route114_LanettesHouse_EventScript_15C2D5",
+    "base_text_path": "data/maps/Route114_LanettesHouse/text.inc",
+    "base_text_symbol": "Route114_LanettesHouse_Text_192DC1",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourLanettesHouseOneNineTwoDCOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1405
+  },
+  "tags": [
+    "fallarbor",
+    "storage"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.170154.1406",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150782",
+    "base_text_path": "data/maps/Route114/text.inc",
+    "base_text_symbol": "Route114_Text_170154",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneSevenZeroOneFiveFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1406
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1701c5.1407",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150782",
+    "base_text_path": "data/maps/Route114/text.inc",
+    "base_text_symbol": "Route114_Text_1701C5",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneSevenZeroOneCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1407
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1701f9.1408",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507C3",
+    "base_text_path": "data/maps/Route114/text.inc",
+    "base_text_symbol": "Route114_Text_1701F9",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneSevenZeroOneFNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1408
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.170206.1409",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507D6",
+    "base_text_path": "data/maps/Route114/text.inc",
+    "base_text_symbol": "Route114_Text_170206",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneSevenZeroTwoZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1409
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.17022e.1410",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507DF",
+    "base_text_path": "data/maps/Route114/text.inc",
+    "base_text_symbol": "Route114_Text_17022E",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneSevenZeroTwoTwoE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1410
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.170263.1411",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507E8",
+    "base_text_path": "data/maps/Route114/text.inc",
+    "base_text_symbol": "Route114_Text_170263",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneSevenZeroTwoSixThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1411
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc05b.1412",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507F1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC05B",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCZeroFiveB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1412
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc0b5.1413",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507F1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC0B5",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCZeroBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1413
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc0c3.1414",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1507F1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC0C3",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCZeroCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1414
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc125.1415",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150808",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC125",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCOneTwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1415
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc163.1416",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150808",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC163",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCOneSixThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1416
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc184.1417",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150808",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC184",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCOneEightFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1417
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc1c8.1418",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15081F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC1C8",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCOneCEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1418
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc23f.1419",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15081F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC23F",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCTwoThreeF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1419
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc24f.1420",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15081F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC24F",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCTwoFourF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1420
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc289.1421",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150836",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC289",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCTwoEightNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1421
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc2be.1422",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150836",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC2BE",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCTwoBE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1422
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc2c6.1423",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150836",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC2C6",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCTwoCSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1423
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc2f5.1424",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15084D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC2F5",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCTwoFFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1424
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc327.1425",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15084D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC327",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCThreeTwoSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1425
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc337.1426",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15084D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC337",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCThreeThreeSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1426
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc3b3.1427",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150874",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC3B3",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCThreeBThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1427
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc3e0.1428",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150874",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC3E0",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCThreeEZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1428
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc40f.1429",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150874",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC40F",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFourZeroF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1429
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc45a.1430",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15088B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC45A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFourFiveA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1430
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc499.1431",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15088B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC499",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFourNineNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1431
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc4b5.1432",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_15088B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC4B5",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFourBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1432
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc525.1433",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508B2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC525",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFiveTwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1433
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc559.1434",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508B2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC559",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFiveFiveNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1434
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc58c.1435",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508B2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC58C",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFiveEightC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1435
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc5fc.1436",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC5FC",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCFiveFC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1436
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc653.1437",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC653",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCSixFiveThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1437
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc679.1438",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC679",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCSixSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1438
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc6ec.1439",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508E0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC6EC",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCSixEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1439
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc750.1440",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508E0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC750",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCSevenFiveZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1440
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc78a.1441",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508E0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC78A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCSevenEightA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1441
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc7e3.1442",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508F7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC7E3",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCSevenEThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1442
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc834.1443",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508F7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC834",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCEightThreeFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1443
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc858.1444",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508F7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC858",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCEightFiveEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1444
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc88a.1445",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_1508F7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC88A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCEightEightA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1445
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc8d8.1446",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150912",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC8D8",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCEightDEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1446
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc8fb.1447",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150912",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC8FB",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCEightFB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1447
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc91e.1448",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150912",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC91E",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCNineOneE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1448
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1bc96a.1449",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150912",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route114_Text_1BC96A",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneBCNineSixA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1449
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1c5803.1450",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150733",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route114_Text_1C5803",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneCFiveEightZeroThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1450
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1c5861.1451",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150733",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route114_Text_1C5861",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneCFiveEightSixOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1451
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+},
+{
+  "id": "fallarbor.route.route114.text.1c5878.1452",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route114/scripts.inc",
+    "symbol": "Route114_EventScript_150778",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route114_Text_1C5878",
+    "note": "Adaptive translation bridge preserves the original battle, item, fossil, contest, choice, gift, and story flow.",
+    "authored_id": "RouteOneOneFourOneCFiveEightSevenEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1452
+  },
+  "tags": [
+    "fallarbor",
+    "route"
+  ]
+}
   ]
 }

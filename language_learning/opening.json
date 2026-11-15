@@ -56927,6 +56927,8241 @@
           "Hoho! Von hier geht es zu den Quellen. Ruhen Pokémon, sollten Trainer es auch tun."
         ]
       }
-    }
+    },
+{
+  "id": "FallarborTownContestHallCantWinEverywhere",
+  "base_symbol": "FallarborTown_ContestHall_Text_CantWinEverywhere",
+  "source_path": "data/maps/FallarborTown_ContestHall/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не могу победить лидеров..."
+    ],
+    "A2": [
+      "Не могу победить лидеров... Не могу выиграть конкурсы..."
+    ],
+    "natural": [
+      "Не могу победить лидеров... Не могу выиграть конкурсы... Столько старался, и всё напрасно..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Keine Leiter besiegt..."
+    ],
+    "A2": [
+      "Keine Leiter besiegt... Keinen Wettbewerb gewonnen..."
+    ],
+    "natural": [
+      "Keine Leiter besiegt... Keinen Wettbewerb gewonnen... Alle Mühe umsonst..."
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestHallDoAllRightInPreliminary",
+  "base_symbol": "FallarborTown_ContestHall_Text_DoAllRightInPreliminary",
+  "source_path": "data/maps/FallarborTown_ContestHall/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Первый раунд проходит хорошо, но в показе мы проигрываем."
+    ],
+    "A2": [
+      "Первый раунд проходит хорошо, но в показе мы проигрываем. Надо следить за тем, что делают соперники."
+    ],
+    "natural": [
+      "Первый раунд проходит хорошо, но в показе мы проигрываем. Надо следить за тем, что делают соперники."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Vorrunde läuft gut, der Auftritt misslingt."
+    ],
+    "A2": [
+      "Die Vorrunde läuft gut, der Auftritt misslingt. Ich muss die anderen Teilnehmer beobachten."
+    ],
+    "natural": [
+      "Die Vorrunde läuft gut, der Auftritt misslingt. Ich muss die anderen Teilnehmer beobachten."
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestHallMonAllTheseRibbons",
+  "base_symbol": "FallarborTown_ContestHall_Text_MonAllTheseRibbons",
+  "source_path": "data/maps/FallarborTown_ContestHall/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Смотри!"
+    ],
+    "A2": [
+      "Смотри! Мой покемон выиграл все эти ленты!"
+    ],
+    "natural": [
+      "Смотри! Мой покемон выиграл все эти ленты! Ленты твоих покемонов можно проверить в Покенаве."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh nur!"
+    ],
+    "A2": [
+      "Sieh nur! Mein Pokémon hat all diese Bänder gewonnen!"
+    ],
+    "natural": [
+      "Sieh nur! Mein Pokémon hat all diese Bänder gewonnen! Deine Bänder siehst du im PokéNav."
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestHallSuperRankStage",
+  "base_symbol": "FallarborTown_ContestHall_Text_SuperRankStage",
+  "source_path": "data/maps/FallarborTown_ContestHall/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КОНКУРС ПОКЕМОНОВ СУПЕРРАНГ"
+    ],
+    "A2": [
+      "КОНКУРС ПОКЕМОНОВ СУПЕРРАНГ"
+    ],
+    "natural": [
+      "КОНКУРС ПОКЕМОНОВ СУПЕРРАНГ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-WETTBEWERB SUPER-RANG"
+    ],
+    "A2": [
+      "POKÉMON-WETTBEWERB SUPER-RANG"
+    ],
+    "natural": [
+      "POKÉMON-WETTBEWERB SUPER-RANG"
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestLobbyAreYouMakingPokeblock",
+  "base_symbol": "FallarborTown_ContestLobby_Text_AreYouMakingPokeblock",
+  "source_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет!"
+    ],
+    "A2": [
+      "Привет! Делаешь покеблоки?"
+    ],
+    "natural": [
+      "Привет! Делаешь покеблоки? Приходи как-нибудь с запасом ягод."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo!"
+    ],
+    "A2": [
+      "Hallo! Machst du Pokériegel?"
+    ],
+    "natural": [
+      "Hallo! Machst du Pokériegel? Komm einmal mit vielen Beeren vorbei."
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestLobbyICreateSketches",
+  "base_symbol": "FallarborTown_ContestLobby_Text_ICreateSketches",
+  "source_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Видишь портрет победителя?"
+    ],
+    "A2": [
+      "Видишь портрет победителя? Я рисую такие портреты!"
+    ],
+    "natural": [
+      "Видишь портрет победителя? Я рисую такие портреты! Если твой покемон победит, я нарисую и его."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Siehst du das Bild?"
+    ],
+    "A2": [
+      "Siehst du das Bild? Ich zeichne die Sieger!"
+    ],
+    "natural": [
+      "Siehst du das Bild? Ich zeichne die Sieger! Gewinnt dein Pokémon, zeichne ich es gern."
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestLobbyUsedToHaveSketch",
+  "base_symbol": "FallarborTown_ContestLobby_Text_UsedToHaveSketch",
+  "source_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Раньше здесь висел портрет моего покемона, но его сменили."
+    ],
+    "A2": [
+      "Раньше здесь висел портрет моего покемона, но его сменили. Мы снова победим, и портрет вернётся!"
+    ],
+    "natural": [
+      "Раньше здесь висел портрет моего покемона, но его сменили. Мы снова победим, и портрет вернётся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier hing ein Bild meines Pokémon."
+    ],
+    "A2": [
+      "Hier hing ein Bild meines Pokémon. Nun wurde es ersetzt."
+    ],
+    "natural": [
+      "Hier hing ein Bild meines Pokémon. Nun wurde es ersetzt. Wir gewinnen erneut, dann kehrt unser Bild zurück!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestLobbyYourSketchIsUp",
+  "base_symbol": "FallarborTown_ContestLobby_Text_YourSketchIsUp",
+  "source_path": "data/maps/FallarborTown_ContestLobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Поздравляю!"
+    ],
+    "A2": [
+      "Поздравляю! Я повесил портрет твоего покемона."
+    ],
+    "natural": [
+      "Поздравляю! Я повесил портрет твоего покемона. Пусть все увидят!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Glückwunsch!"
+    ],
+    "A2": [
+      "Glückwunsch! Das Bild deines Pokémon hängt nun für alle hier!"
+    ],
+    "natural": [
+      "Glückwunsch! Das Bild deines Pokémon hängt nun für alle hier!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseCozmoIsSoHappy",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_CozmoIsSoHappy",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Посмотри на ПРОФ."
+    ],
+    "A2": [
+      "Посмотри на ПРОФ. КОЗМО..."
+    ],
+    "natural": [
+      "Посмотри на ПРОФ. КОЗМО... Он так счастлив! Как мило."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh PROF."
+    ],
+    "A2": [
+      "Sieh PROF. COSMO an..."
+    ],
+    "natural": [
+      "Sieh PROF. COSMO an... Er ist so glücklich! Wie süß."
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseCozmoWentToMeteorFalls",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО ушёл в МЕТЕОР-ФОЛЛС на МАРШРУТЕ 114 с людьми из КОМАНДЫ {EVIL_TEAM}."
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО ушёл в МЕТЕОР-ФОЛЛС на МАРШРУТЕ 114 с людьми из КОМАНДЫ {EVIL_TEAM}."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO ging mit Leuten von TEAM {EVIL_TEAM} zu den METEORFÄLLEN auf ROUTE 114."
+    ],
+    "natural": [
+      "PROF. COSMO ging mit Leuten von TEAM {EVIL_TEAM} zu den METEORFÄLLEN auf ROUTE 114."
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseCrushedWithDisappointment",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_CrushedWithDisappointment",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО: Ох..."
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО: Ох... Какое разочарование..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO: Oh..."
+    ],
+    "natural": [
+      "PROF. COSMO: Oh... Ich bin tief enttäuscht..."
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseFeelSorryForCozmo",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_FeelSorryForCozmo",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Бедный ПРОФ."
+    ],
+    "A2": [
+      "Бедный ПРОФ. КОЗМО..."
+    ],
+    "natural": [
+      "Бедный ПРОФ. КОЗМО... Он так подавлен. Мне его жаль."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Armer PROF."
+    ],
+    "A2": [
+      "Armer PROF. COSMO..."
+    ],
+    "natural": [
+      "Armer PROF. COSMO... Er ist so niedergeschlagen."
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseIsThatMeteoriteMayIHaveIt",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О!"
+    ],
+    "A2": [
+      "О! Что?"
+    ],
+    "natural": [
+      "О! Что? Этот предмет... Неужели это метеорит, который КОМАНДА {EVIL_TEAM} забрала в МЕТЕОР-ФОЛЛС? Можно мне его? Не бесплатно. Я обменяю его на эту ТМ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Dieser Gegenstand..."
+    ],
+    "natural": [
+      "Oh! Dieser Gegenstand... Ist das der Meteorit, den TEAM {EVIL_TEAM} aus den METEORFÄLLEN nahm? Darf ich ihn haben? Ich tausche ihn gegen diese TM!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseMayIHaveMeteorite",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_MayIHaveMeteorite",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО: Можно мне этот метеорит?"
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО: Можно мне этот метеорит? Не бесплатно. Я обменяю его на эту ТМ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO: Darf ich den Meteoriten haben?"
+    ],
+    "natural": [
+      "PROF. COSMO: Darf ich den Meteoriten haben? Nicht umsonst. Ich tausche ihn gegen diese TM!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseMeteoriteWillNeverBeMineNow",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО: Ох..."
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО: Ох... Зря я сказал КОМАНДЕ {EVIL_TEAM}, где искать метеориты... Теперь метеорит из МЕТЕОР-ФОЛЛС мне не достанется..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO: Oh..."
+    ],
+    "natural": [
+      "PROF. COSMO: Oh... Warum sagte ich TEAM {EVIL_TEAM}, wo sie Meteoriten finden? Der Meteorit aus den METEORFÄLLEN ist nun fort..."
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHousePleaseUseThisTM",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_PleaseUseThisTM",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО: Эта ТМ выражает мою благодарность."
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО: Эта ТМ выражает мою благодарность. Используй её!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO: Diese TM ist mein Dankeschön."
+    ],
+    "natural": [
+      "PROF. COSMO: Diese TM ist mein Dankeschön. Bitte nutze sie!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownCozmosHouseReallyGoingToHelpMyResearch",
+  "base_symbol": "FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch",
+  "source_path": "data/maps/FallarborTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО: Не верится!"
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО: Не верится! Это просто замечательно! Метеорит очень поможет моим исследованиям!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO: Unglaublich!"
+    ],
+    "natural": [
+      "PROF. COSMO: Unglaublich! Das ist wirklich großartig! Das hilft meiner Forschung ungemein!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownMartDecidingSkittyEvolve",
+  "base_symbol": "FallarborTown_Mart_Text_DecidingSkittyEvolve",
+  "source_path": "data/maps/FallarborTown_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не могу решить, развивать ли моего СКИТТИ."
+    ],
+    "A2": [
+      "Не могу решить, развивать ли моего СКИТТИ. Нужен лишь ЛУННЫЙ КАМЕНЬ, но выбор трудный..."
+    ],
+    "natural": [
+      "Не могу решить, развивать ли моего СКИТТИ. Нужен лишь ЛУННЫЙ КАМЕНЬ, но выбор трудный... Он станет сильнее, но будет выглядеть совсем иначе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich weiß nicht, ob mein ENECO sich entwickeln soll."
+    ],
+    "A2": [
+      "Ich weiß nicht, ob mein ENECO sich entwickeln soll. Ein MONDSTEIN genügt, doch die Entscheidung ist schwer..."
+    ],
+    "natural": [
+      "Ich weiß nicht, ob mein ENECO sich entwickeln soll. Ein MONDSTEIN genügt, doch die Entscheidung ist schwer... Es wird stärker, sieht aber ganz anders aus."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMartSellNuggetIFound",
+  "base_symbol": "FallarborTown_Mart_Text_SellNuggetIFound",
+  "source_path": "data/maps/FallarborTown_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я нашёл этот САМОРОДОК..."
+    ],
+    "A2": [
+      "Я нашёл этот САМОРОДОК... Другой пользы от него нет, так что придётся продать."
+    ],
+    "natural": [
+      "Я нашёл этот САМОРОДОК... Другой пользы от него нет, так что придётся продать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich fand dieses NUGGET..."
+    ],
+    "A2": [
+      "Ich fand dieses NUGGET... Da es sonst nichts nützt, werde ich es wohl verkaufen."
+    ],
+    "natural": [
+      "Ich fand dieses NUGGET... Da es sonst nichts nützt, werde ich es wohl verkaufen."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMartSkitty",
+  "base_symbol": "FallarborTown_Mart_Text_Skitty",
+  "source_path": "data/maps/FallarborTown_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СКИТТИ: Мияу?"
+    ],
+    "A2": [
+      "СКИТТИ: Мияу?"
+    ],
+    "natural": [
+      "СКИТТИ: Мияу?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ENECO: Miau?"
+    ],
+    "A2": [
+      "ENECO: Miau?"
+    ],
+    "natural": [
+      "ENECO: Miau?"
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseCantTeachEgg",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм?"
+    ],
+    "A2": [
+      "Хм? Я не могу обучить ЯЙЦО ни одному движению."
+    ],
+    "natural": [
+      "Хм? Я не могу обучить ЯЙЦО ни одному движению."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm?"
+    ],
+    "A2": [
+      "Hm? Einem EI kann ich keine Attacke beibringen."
+    ],
+    "natural": [
+      "Hm? Einem EI kann ich keine Attacke beibringen."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseComeBackWithHeartScale",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если покемону нужно движение, приходи с ЧЕШУЁЙ СЕРДЦА."
+    ],
+    "A2": [
+      "Если покемону нужно движение, приходи с ЧЕШУЁЙ СЕРДЦА."
+    ],
+    "natural": [
+      "Если покемону нужно движение, приходи с ЧЕШУЁЙ СЕРДЦА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Braucht dein Pokémon eine Attacke, bring eine HERZSCHUPPE."
+    ],
+    "A2": [
+      "Braucht dein Pokémon eine Attacke, bring eine HERZSCHUPPE."
+    ],
+    "natural": [
+      "Braucht dein Pokémon eine Attacke, bring eine HERZSCHUPPE."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseDontHaveMoveToTeachPokemon",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Прости..."
+    ],
+    "A2": [
+      "Прости... Похоже, я не могу обучить этого покемона движениям."
+    ],
+    "natural": [
+      "Прости... Похоже, я не могу обучить этого покемона движениям."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Tut mir leid..."
+    ],
+    "A2": [
+      "Tut mir leid... Ich kann diesem Pokémon wohl keine Attacke beibringen."
+    ],
+    "natural": [
+      "Tut mir leid... Ich kann diesem Pokémon wohl keine Attacke beibringen."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseHandedOverHeartScale",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} отдаёт одну ЧЕШУЮ СЕРДЦА."
+    ],
+    "A2": [
+      "{PLAYER} отдаёт одну ЧЕШУЮ СЕРДЦА."
+    ],
+    "natural": [
+      "{PLAYER} отдаёт одну ЧЕШУЮ СЕРДЦА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} gibt eine HERZSCHUPPE ab."
+    ],
+    "A2": [
+      "{PLAYER} gibt eine HERZSCHUPPE ab."
+    ],
+    "natural": [
+      "{PLAYER} gibt eine HERZSCHUPPE ab."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseImTheMoveTutor",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я УЧИТЕЛЬ ДВИЖЕНИЙ."
+    ],
+    "A2": [
+      "Я УЧИТЕЛЬ ДВИЖЕНИЙ. Я знаю все движения покемонов и могу обучить им снова."
+    ],
+    "natural": [
+      "Я УЧИТЕЛЬ ДВИЖЕНИЙ. Я знаю все движения покемонов и могу обучить им снова. За обучение я беру ЧЕШУЮ СЕРДЦА. Я их собираю."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin der ATTACKEN-HELFER."
+    ],
+    "A2": [
+      "Ich bin der ATTACKEN-HELFER. Ich kenne alle Attacken, die Pokémon lernen können."
+    ],
+    "natural": [
+      "Ich bin der ATTACKEN-HELFER. Ich kenne alle Attacken, die Pokémon lernen können. Für eine HERZSCHUPPE bringe ich deinem Pokémon eine bei."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseTeachWhichMove",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какому движению обучить?"
+    ],
+    "A2": [
+      "Какому движению обучить?"
+    ],
+    "natural": [
+      "Какому движению обучить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welche Attacke soll es lernen?"
+    ],
+    "A2": [
+      "Welche Attacke soll es lernen?"
+    ],
+    "natural": [
+      "Welche Attacke soll es lernen?"
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseThatsAHeartScaleWantMeToTeachMove",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О!"
+    ],
+    "A2": [
+      "О! Настоящая ЧЕШУЯ СЕРДЦА!"
+    ],
+    "natural": [
+      "О! Настоящая ЧЕШУЯ СЕРДЦА! Хочешь, чтобы я обучил покемона движению?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Eine echte HERZSCHUPPE!"
+    ],
+    "natural": [
+      "Oh! Eine echte HERZSCHUPPE! Soll ich deinem Pokémon eine Attacke beibringen?"
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveRelearnersHouseTutorWhichMon",
+  "base_symbol": "FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon",
+  "source_path": "data/maps/FallarborTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какого покемона обучить?"
+    ],
+    "A2": [
+      "Какого покемона обучить?"
+    ],
+    "natural": [
+      "Какого покемона обучить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welches Pokémon soll lernen?"
+    ],
+    "A2": [
+      "Welches Pokémon soll lernen?"
+    ],
+    "natural": [
+      "Welches Pokémon soll lernen?"
+    ]
+  }
+},
+{
+  "id": "FallarborTownPokemonCenterOneFFossilManiacEdgeOfTown",
+  "base_symbol": "FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown",
+  "source_path": "data/maps/FallarborTown_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как выглядели покемоны много лет назад?"
+    ],
+    "A2": [
+      "Как выглядели покемоны много лет назад? Может, ЧУДАК С ОКАМЕНЕЛОСТЯМИ на окраине знает."
+    ],
+    "natural": [
+      "Как выглядели покемоны много лет назад? Может, ЧУДАК С ОКАМЕНЕЛОСТЯМИ на окраине знает."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie sahen Pokémon vor sehr langer Zeit aus?"
+    ],
+    "A2": [
+      "Wie sahen Pokémon vor sehr langer Zeit aus? Vielleicht weiß es der FOSSILIENMANIAC am Ortsrand."
+    ],
+    "natural": [
+      "Wie sahen Pokémon vor sehr langer Zeit aus? Vielleicht weiß es der FOSSILIENMANIAC am Ortsrand."
+    ]
+  }
+},
+{
+  "id": "FallarborTownPokemonCenterOneFLanetteGreeting",
+  "base_symbol": "FallarborTown_PokemonCenter_1F_Text_LanetteGreeting",
+  "source_path": "data/maps/FallarborTown_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет!"
+    ],
+    "A2": [
+      "Привет! Ты {PLAYER}, верно?"
+    ],
+    "natural": [
+      "Привет! Ты {PLAYER}, верно? Я ЛАНЕТТ. Я создала систему хранения покемонов. Рада, что ты ей пользуешься! Загляни ко мне на МАРШРУТ 114."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo!"
+    ],
+    "A2": [
+      "Hallo! Du bist {PLAYER}, oder?"
+    ],
+    "natural": [
+      "Hallo! Du bist {PLAYER}, oder? Ich bin LANETTE und entwickelte das Pokémon-Lagerungssystem. Schön, dass du es benutzt! Besuch mich auf ROUTE 114."
+    ]
+  }
+},
+{
+  "id": "FallarborTownPokemonCenterOneFPlantHardyTrees",
+  "base_symbol": "FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees",
+  "source_path": "data/maps/FallarborTown_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На полях ФАЛЛАРБОРА сажают выносливые деревья, растущие даже в вулканическом пепле."
+    ],
+    "A2": [
+      "На полях ФАЛЛАРБОРА сажают выносливые деревья, растущие даже в вулканическом пепле."
+    ],
+    "natural": [
+      "На полях ФАЛЛАРБОРА сажают выносливые деревья, растущие даже в вулканическом пепле."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf den Feldern pflanzen wir robuste Bäume, die selbst in Vulkanasche gedeihen."
+    ],
+    "A2": [
+      "Auf den Feldern pflanzen wir robuste Bäume, die selbst in Vulkanasche gedeihen."
+    ],
+    "natural": [
+      "Auf den Feldern pflanzen wir robuste Bäume, die selbst in Vulkanasche gedeihen."
+    ]
+  }
+},
+{
+  "id": "FallarborTownAzurill",
+  "base_symbol": "FallarborTown_Text_Azurill",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЗУРИЛЛ: Ру-ри-лу-у!"
+    ],
+    "A2": [
+      "АЗУРИЛЛ: Ру-ри-лу-у!"
+    ],
+    "natural": [
+      "АЗУРИЛЛ: Ру-ри-лу-у!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "AZURILL: Ruuriluuu!"
+    ],
+    "A2": [
+      "AZURILL: Ruuriluuu!"
+    ],
+    "natural": [
+      "AZURILL: Ruuriluuu!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownContestHallSign",
+  "base_symbol": "FallarborTown_Text_ContestHallSign",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КОНКУРС ПОКЕМОНОВ РЕГИСТРАЦИЯ: СУПЕРРАНГ Покори мир покемонов!"
+    ],
+    "A2": [
+      "КОНКУРС ПОКЕМОНОВ РЕГИСТРАЦИЯ: СУПЕРРАНГ Покори мир покемонов!"
+    ],
+    "natural": [
+      "КОНКУРС ПОКЕМОНОВ РЕГИСТРАЦИЯ: СУПЕРРАНГ Покори мир покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "конкурс",
+        "contest"
+      ]
+    ],
+    "de": [
+      [
+        "der Wettbewerb",
+        "contest"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-WETTBEWERB ANMELDUNG: SUPER-RANG Auf zur Pokémon-Bühne!"
+    ],
+    "A2": [
+      "POKÉMON-WETTBEWERB ANMELDUNG: SUPER-RANG Auf zur Pokémon-Bühne!"
+    ],
+    "natural": [
+      "POKÉMON-WETTBEWERB ANMELDUNG: SUPER-RANG Auf zur Pokémon-Bühne!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownHaveYouChallengedFlannery",
+  "base_symbol": "FallarborTown_Text_HaveYouChallengedFlannery",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты уже бросал вызов ФЛАННЕРИ, лидеру ЛАВАРИДЖА?"
+    ],
+    "A2": [
+      "Ты уже бросал вызов ФЛАННЕРИ, лидеру ЛАВАРИДЖА? Её дед был знаменит."
+    ],
+    "natural": [
+      "Ты уже бросал вызов ФЛАННЕРИ, лидеру ЛАВАРИДЖА? Её дед был знаменит. Он входил в ЭЛИТНУЮ ЧЕТВЁРКУ. ФЛАННЕРИ и сама станет великим тренером."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du FLAVIA, die Leiterin von BAD LAVASTADT, gefordert?"
+    ],
+    "A2": [
+      "Hast du FLAVIA, die Leiterin von BAD LAVASTADT, gefordert? Ihr Großvater gehörte einst den TOP VIER an."
+    ],
+    "natural": [
+      "Hast du FLAVIA, die Leiterin von BAD LAVASTADT, gefordert? Ihr Großvater gehörte einst den TOP VIER an. Auch FLAVIA wird sicher eine große Trainerin."
+    ]
+  }
+},
+{
+  "id": "FallarborTownMoveTutorSign",
+  "base_symbol": "FallarborTown_Text_MoveTutorSign",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДОМ УЧИТЕЛЯ ДВИЖЕНИЙ Обучение новым движениям"
+    ],
+    "A2": [
+      "ДОМ УЧИТЕЛЯ ДВИЖЕНИЙ Обучение новым движениям"
+    ],
+    "natural": [
+      "ДОМ УЧИТЕЛЯ ДВИЖЕНИЙ Обучение новым движениям"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAUS DES ATTACKEN-HELFERS Pokémon lernen Attacken"
+    ],
+    "A2": [
+      "HAUS DES ATTACKEN-HELFERS Pokémon lernen Attacken"
+    ],
+    "natural": [
+      "HAUS DES ATTACKEN-HELFERS Pokémon lernen Attacken"
+    ]
+  }
+},
+{
+  "id": "FallarborTownMyPreciousAzurill",
+  "base_symbol": "FallarborTown_Text_MyPreciousAzurill",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Смотри!"
+    ],
+    "A2": [
+      "Смотри! Это мой любимый АЗУРИЛЛ!"
+    ],
+    "natural": [
+      "Смотри! Это мой любимый АЗУРИЛЛ! Он гладкий, мягкий и пушистый!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh nur!"
+    ],
+    "A2": [
+      "Sieh nur! Mein geliebtes AZURILL!"
+    ],
+    "natural": [
+      "Sieh nur! Mein geliebtes AZURILL! Es ist glatt, weich und flauschig!"
+    ]
+  }
+},
+{
+  "id": "FallarborTownRegionKnownForMeteors",
+  "base_symbol": "FallarborTown_Text_RegionKnownForMeteors",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этот край издавна известен метеоритами."
+    ],
+    "A2": [
+      "Этот край издавна известен метеоритами. Говорят, МЕТЕОР-ФОЛЛС возник от падения метеорита."
+    ],
+    "natural": [
+      "Этот край издавна известен метеоритами. Говорят, МЕТЕОР-ФОЛЛС возник от падения метеорита."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seit jeher kennt man diese Gegend für Meteoriten."
+    ],
+    "A2": [
+      "Seit jeher kennt man diese Gegend für Meteoriten. Ein Meteorit schuf wohl die METEORFÄLLE."
+    ],
+    "natural": [
+      "Seit jeher kennt man diese Gegend für Meteoriten. Ein Meteorit schuf wohl die METEORFÄLLE."
+    ]
+  }
+},
+{
+  "id": "FallarborTownShadyFellowAtLab",
+  "base_symbol": "FallarborTown_Text_ShadyFellowAtLab",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что нового?"
+    ],
+    "A2": [
+      "Что нового? Я видел подозрительного типа возле лаборатории профессора КОЗМО."
+    ],
+    "natural": [
+      "Что нового? Я видел подозрительного типа возле лаборатории профессора КОЗМО."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was gibt's?"
+    ],
+    "A2": [
+      "Was gibt's? Ein finsterer Mann war bei PROF."
+    ],
+    "natural": [
+      "Was gibt's? Ein finsterer Mann war bei PROF. COSMOs Labor."
+    ]
+  }
+},
+{
+  "id": "FallarborTownTownSign",
+  "base_symbol": "FallarborTown_Text_TownSign",
+  "source_path": "data/maps/FallarborTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fallarbor resident, service, Contest Hall, house, Mart, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ФАЛЛАРБОР Фермерский городок с садами"
+    ],
+    "A2": [
+      "ФАЛЛАРБОР Фермерский городок с садами"
+    ],
+    "natural": [
+      "ФАЛЛАРБОР Фермерский городок с садами"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LAUBWECHSELFELD Bauerndorf mit kleinen Gärten"
+    ],
+    "A2": [
+      "LAUBWECHSELFELD Bauerndorf mit kleinen Gärten"
+    ],
+    "natural": [
+      "LAUBWECHSELFELD Bauerndorf mit kleinen Gärten"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeTwoThreeSeven",
+  "base_symbol": "MeteorFalls_1F_1R_Text_193237",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хе-хе-хе!"
+    ],
+    "A2": [
+      "Хе-хе-хе! С этим МЕТЕОРИТОМ ВУЛКАН ЧИМНИ скоро..."
+    ],
+    "natural": [
+      "Хе-хе-хе! С этим МЕТЕОРИТОМ ВУЛКАН ЧИМНИ скоро..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hehehe!"
+    ],
+    "A2": [
+      "Hehehe! Mit diesem METEORITEN wird der SCHLOTBERG bald..."
+    ],
+    "natural": [
+      "Hehehe! Mit diesem METEORITEN wird der SCHLOTBERG bald..."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeTwoSixEight",
+  "base_symbol": "MeteorFalls_1F_1R_Text_193268",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А?"
+    ],
+    "A2": [
+      "А? Не знаю, кто ты, но не мешай КОМАНДЕ {EVIL_TEAM}, иначе пощады не будет!"
+    ],
+    "natural": [
+      "А? Не знаю, кто ты, но не мешай КОМАНДЕ {EVIL_TEAM}, иначе пощады не будет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hä?"
+    ],
+    "A2": [
+      "Hä? Wer du auch bist: Stell dich TEAM {EVIL_TEAM} nicht in den Weg!"
+    ],
+    "natural": [
+      "Hä? Wer du auch bist: Stell dich TEAM {EVIL_TEAM} nicht in den Weg! Sonst gibt es keine Gnade!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeTwoCFive",
+  "base_symbol": "MeteorFalls_1F_1R_Text_1932C5",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Стойте, КОМАНДА {EVIL_TEAM}!"
+    ],
+    "A2": [
+      "Стойте, КОМАНДА {EVIL_TEAM}! Мы, КОМАНДА {GOOD_TEAM}, не дадим вам творить зло!"
+    ],
+    "natural": [
+      "Стойте, КОМАНДА {EVIL_TEAM}! Мы, КОМАНДА {GOOD_TEAM}, не дадим вам творить зло!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Halt, TEAM {EVIL_TEAM}!"
+    ],
+    "A2": [
+      "Halt, TEAM {EVIL_TEAM}! Wir von TEAM {GOOD_TEAM} lassen euch damit nicht davonkommen!"
+    ],
+    "natural": [
+      "Halt, TEAM {EVIL_TEAM}! Wir von TEAM {GOOD_TEAM} lassen euch damit nicht davonkommen!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeThreeTwoZero",
+  "base_symbol": "MeteorFalls_1F_1R_Text_193320",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хе-хе!"
+    ],
+    "A2": [
+      "Хе-хе! Даже КОМАНДА {GOOD_TEAM} пришла!"
+    ],
+    "natural": [
+      "Хе-хе! Даже КОМАНДА {GOOD_TEAM} пришла! Но возиться со всеми вами нет времени. Неважно! МЕТЕОРИТ у нас. Теперь на ВУЛКАН ЧИМНИ! До встречи, глупцы из КОМАНДЫ {GOOD_TEAM}!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hehe!"
+    ],
+    "A2": [
+      "Hehe! Sogar TEAM {GOOD_TEAM} ist hier!"
+    ],
+    "natural": [
+      "Hehe! Sogar TEAM {GOOD_TEAM} ist hier! Für euch alle fehlt uns die Zeit. Egal! Wir haben den METEORITEN. Auf zum SCHLOTBERG! Bis dann, ihr Narren von TEAM {GOOD_TEAM}!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeThreeEC",
+  "base_symbol": "MeteorFalls_1F_1R_Text_1933EC",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А ты кто?"
+    ],
+    "A2": [
+      "А ты кто? Значит, ты {PLAYER}."
+    ],
+    "natural": [
+      "А ты кто? Значит, ты {PLAYER}. Я МАКСИ, глава КОМАНДЫ МАГМА. Я мешаю опасным планам АКВА. Они хотят расширить море и угрожают всем нам. Мы любим сушу. КОМАНДА АКВА - наш заклятый враг!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist {PLAYER}."
+    ],
+    "A2": [
+      "Du bist {PLAYER}. Ich bin MARC, Chef von TEAM MAGMA."
+    ],
+    "natural": [
+      "Du bist {PLAYER}. Ich bin MARC, Chef von TEAM MAGMA. TEAM AQUA will das Meer vergrößern und bedroht uns. Wir lieben Land. AQUA ist unser Feind!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeFiveEightFour",
+  "base_symbol": "MeteorFalls_1F_1R_Text_193584",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кто ты?"
+    ],
+    "A2": [
+      "Кто ты? Значит, ты {PLAYER}."
+    ],
+    "natural": [
+      "Кто ты? Значит, ты {PLAYER}. Я АРЧИ, глава КОМАНДЫ АКВА. Я мешаю опасным планам МАГМА. Они хотят расширить сушу и угрожают всем нам. Мы любим море. КОМАНДА МАГМА - наш заклятый враг!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist {PLAYER}."
+    ],
+    "A2": [
+      "Du bist {PLAYER}. Ich bin ADRIAN, Chef von TEAM AQUA."
+    ],
+    "natural": [
+      "Du bist {PLAYER}. Ich bin ADRIAN, Chef von TEAM AQUA. TEAM MAGMA will das Land vergrößern und bedroht uns. Wir lieben das Meer. MAGMA ist unser Feind!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeSevenTwoZero",
+  "base_symbol": "MeteorFalls_1F_1R_Text_193720",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{GOOD_LEADER}, надо преследовать КОМАНДУ {EVIL_TEAM}..."
+    ],
+    "A2": [
+      "{GOOD_LEADER}, надо преследовать КОМАНДУ {EVIL_TEAM}..."
+    ],
+    "natural": [
+      "{GOOD_LEADER}, надо преследовать КОМАНДУ {EVIL_TEAM}..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{GOOD_LEADER}, wir müssen TEAM {EVIL_TEAM} verfolgen..."
+    ],
+    "A2": [
+      "{GOOD_LEADER}, wir müssen TEAM {EVIL_TEAM} verfolgen..."
+    ],
+    "natural": [
+      "{GOOD_LEADER}, wir müssen TEAM {EVIL_TEAM} verfolgen..."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeSevenFourSeven",
+  "base_symbol": "MeteorFalls_1F_1R_Text_193747",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{GOOD_LEADER}: Да, скорее!"
+    ],
+    "A2": [
+      "{GOOD_LEADER}: Да, скорее! Неизвестно, что КОМАНДА {EVIL_TEAM} сделает на ВУЛКАНЕ ЧИМНИ!"
+    ],
+    "natural": [
+      "{GOOD_LEADER}: Да, скорее! Неизвестно, что КОМАНДА {EVIL_TEAM} сделает на ВУЛКАНЕ ЧИМНИ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{GOOD_LEADER}: Ja, schnell!"
+    ],
+    "A2": [
+      "{GOOD_LEADER}: Ja, schnell! Wer weiß, was TEAM {EVIL_TEAM} am SCHLOTBERG vorhat!"
+    ],
+    "natural": [
+      "{GOOD_LEADER}: Ja, schnell! Wer weiß, was TEAM {EVIL_TEAM} am SCHLOTBERG vorhat!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeSevenAA",
+  "base_symbol": "MeteorFalls_1F_1R_Text_1937AA",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{GOOD_LEADER}: {PLAYER}, следи и ты за КОМАНДОЙ {EVIL_TEAM}."
+    ],
+    "A2": [
+      "{GOOD_LEADER}: {PLAYER}, следи и ты за КОМАНДОЙ {EVIL_TEAM}. До встречи!"
+    ],
+    "natural": [
+      "{GOOD_LEADER}: {PLAYER}, следи и ты за КОМАНДОЙ {EVIL_TEAM}. До встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{GOOD_LEADER}: {PLAYER}, behalte auch du TEAM {EVIL_TEAM} im Auge."
+    ],
+    "A2": [
+      "{GOOD_LEADER}: {PLAYER}, behalte auch du TEAM {EVIL_TEAM} im Auge. Leb wohl!"
+    ],
+    "natural": [
+      "{GOOD_LEADER}: {PLAYER}, behalte auch du TEAM {EVIL_TEAM} im Auge. Leb wohl!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeSevenEB",
+  "base_symbol": "MeteorFalls_1F_1R_Text_1937EB",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ПРОФ."
+    ],
+    "A2": [
+      "Я ПРОФ. КОЗМО из ФАЛЛАРБОРА."
+    ],
+    "natural": [
+      "Я ПРОФ. КОЗМО из ФАЛЛАРБОРА. КОМАНДА {EVIL_TEAM} заставила меня провести их в МЕТЕОР-ФОЛЛС. Они обещали метеориты, но обманули. Что они сделают с МЕТЕОРИТОМ на ВУЛКАНЕ ЧИМНИ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin PROF."
+    ],
+    "A2": [
+      "Ich bin PROF. COSMO."
+    ],
+    "natural": [
+      "Ich bin PROF. COSMO. TEAM {EVIL_TEAM} zwang mich, sie zu den METEORFÄLLEN zu führen. Sie versprachen Meteoriten, betrogen mich aber. Was tun sie damit am SCHLOTBERG?"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFOneROneNineThreeNineSixA",
+  "base_symbol": "MeteorFalls_1F_1R_Text_19396A",
+  "source_path": "data/maps/MeteorFalls_1F_1R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ."
+    ],
+    "A2": [
+      "ПРОФ. КОЗМО: Эта КОМАНДА {EVIL_TEAM}..."
+    ],
+    "natural": [
+      "ПРОФ. КОЗМО: Эта КОМАНДА {EVIL_TEAM}... Что они сделают с МЕТЕОРИТОМ на ВУЛКАНЕ ЧИМНИ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF."
+    ],
+    "A2": [
+      "PROF. COSMO: Dieses TEAM {EVIL_TEAM}..."
+    ],
+    "natural": [
+      "PROF. COSMO: Dieses TEAM {EVIL_TEAM}... Was tun sie mit dem METEORITEN am SCHLOTBERG?"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeNineCFive",
+  "base_symbol": "MeteorFalls_1F_2R_Text_1939C5",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь тренируются мастера ДРАКОНОВ."
+    ],
+    "A2": [
+      "Здесь тренируются мастера ДРАКОНОВ. Сюда приходит даже ЧЕМПИОН."
+    ],
+    "natural": [
+      "Здесь тренируются мастера ДРАКОНОВ. Сюда приходит даже ЧЕМПИОН. Теперь понимаешь, что это за место?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier trainieren wir DRACHEN-Trainer."
+    ],
+    "A2": [
+      "Hier trainieren wir DRACHEN-Trainer. Selbst der CHAMP besucht uns."
+    ],
+    "natural": [
+      "Hier trainieren wir DRACHEN-Trainer. Selbst der CHAMP besucht uns. Nun erkennst du diesen Ort?"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeAThreeFive",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193A35",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух!"
+    ],
+    "A2": [
+      "Ух! Не ожидал такой силы!"
+    ],
+    "natural": [
+      "Ух! Не ожидал такой силы!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Uff!"
+    ],
+    "A2": [
+      "Uff! Mit dieser Stärke rechnete ich nicht!"
+    ],
+    "natural": [
+      "Uff! Mit dieser Stärke rechnete ich nicht!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeASixZero",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193A60",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Путь впереди долог и суров."
+    ],
+    "A2": [
+      "Путь впереди долог и суров. Когда мы с покемоном станем лучшими?"
+    ],
+    "natural": [
+      "Путь впереди долог и суров. Когда мы с покемоном станем лучшими?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Weg bleibt lang und hart."
+    ],
+    "A2": [
+      "Der Weg bleibt lang und hart. Wann werden mein Pokémon und ich die Besten sein?"
+    ],
+    "natural": [
+      "Der Weg bleibt lang und hart. Wann werden mein Pokémon und ich die Besten sein?"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeABThree",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193AB3",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С нашей встречи мы усердно тренировались ради первого места."
+    ],
+    "A2": [
+      "С нашей встречи мы усердно тренировались ради первого места. Проверь, насколько мы стали сильнее!"
+    ],
+    "natural": [
+      "С нашей встречи мы усердно тренировались ради первого места. Проверь, насколько мы стали сильнее!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seit unserem Treffen trainierten wir hart für Platz eins."
+    ],
+    "A2": [
+      "Seit unserem Treffen trainierten wir hart für Platz eins. Prüfe, wie stark wir nun sind!"
+    ],
+    "natural": [
+      "Seit unserem Treffen trainierten wir hart für Platz eins. Prüfe, wie stark wir nun sind!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeBTwoOne",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193B21",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух!"
+    ],
+    "A2": [
+      "Ух! Не ожидал такой силы!"
+    ],
+    "natural": [
+      "Ух! Не ожидал такой силы!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Uff!"
+    ],
+    "A2": [
+      "Uff! Mit dieser Stärke rechnete ich nicht!"
+    ],
+    "natural": [
+      "Uff! Mit dieser Stärke rechnete ich nicht!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeBFourC",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193B4C",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты явно продолжал тренировки."
+    ],
+    "A2": [
+      "Ты явно продолжал тренировки. Пока ты силён, я тоже смогу стать сильнее!"
+    ],
+    "natural": [
+      "Ты явно продолжал тренировки. Пока ты силён, я тоже смогу стать сильнее!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast dein Pokémon gut trainiert."
+    ],
+    "A2": [
+      "Du hast dein Pokémon gut trainiert. Solange du stark bleibst, kann auch ich stärker werden!"
+    ],
+    "natural": [
+      "Du hast dein Pokémon gut trainiert. Solange du stark bleibst, kann auch ich stärker werden!"
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeBBSeven",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193BB7",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Мы всегда сражались вдвоём и уверены в себе."
+    ],
+    "A2": [
+      "ДЖОН: Мы всегда сражались вдвоём и уверены в себе."
+    ],
+    "natural": [
+      "ДЖОН: Мы всегда сражались вдвоём и уверены в себе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Wir kämpfen immer zu zweit und vertrauen auf uns."
+    ],
+    "A2": [
+      "JOHN: Wir kämpfen immer zu zweit und vertrauen auf uns."
+    ],
+    "natural": [
+      "JOHN: Wir kämpfen immer zu zweit und vertrauen auf uns."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeCOneZero",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193C10",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Ох..."
+    ],
+    "A2": [
+      "ДЖОН: Ох... Мы проиграли, дорогая."
+    ],
+    "natural": [
+      "ДЖОН: Ох... Мы проиграли, дорогая."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Oh..."
+    ],
+    "A2": [
+      "JOHN: Oh... Wir haben verloren, meine Liebe."
+    ],
+    "natural": [
+      "JOHN: Oh... Wir haben verloren, meine Liebe."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeCThreeFive",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193C35",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Мы женаты пятьдесят лет."
+    ],
+    "A2": [
+      "ДЖОН: Мы женаты пятьдесят лет. А я всё ещё ни разу не победил свою жену в бою."
+    ],
+    "natural": [
+      "ДЖОН: Мы женаты пятьдесят лет. А я всё ещё ни разу не победил свою жену в бою."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Wir sind seit fünfzig Jahren verheiratet."
+    ],
+    "A2": [
+      "JOHN: Wir sind seit fünfzig Jahren verheiratet. Noch nie besiegte ich meine Frau in einem Kampf."
+    ],
+    "natural": [
+      "JOHN: Wir sind seit fünfzig Jahren verheiratet. Noch nie besiegte ich meine Frau in einem Kampf."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeCNineF",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193C9F",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Какой юный тренер!"
+    ],
+    "A2": [
+      "ДЖОН: Какой юный тренер! Хочешь сразиться с нами?"
+    ],
+    "natural": [
+      "ДЖОН: Какой юный тренер! Хочешь сразиться с нами? Тогда вернись с большим числом покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Ein so junger Trainer!"
+    ],
+    "A2": [
+      "JOHN: Ein so junger Trainer! Willst du gegen uns kämpfen, komm mit mehr Pokémon zurück."
+    ],
+    "natural": [
+      "JOHN: Ein so junger Trainer! Willst du gegen uns kämpfen, komm mit mehr Pokémon zurück."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeDOneZero",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193D10",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Мы женаты пятьдесят лет."
+    ],
+    "A2": [
+      "ДЖЕЙ: Мы женаты пятьдесят лет. Нашу супружескую связь ничто не разорвёт."
+    ],
+    "natural": [
+      "ДЖЕЙ: Мы женаты пятьдесят лет. Нашу супружескую связь ничто не разорвёт."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Wir sind seit fünfzig Jahren verheiratet."
+    ],
+    "A2": [
+      "JAY: Wir sind seit fünfzig Jahren verheiratet. Unser Band kann nichts zerreißen."
+    ],
+    "natural": [
+      "JAY: Wir sind seit fünfzig Jahren verheiratet. Unser Band kann nichts zerreißen."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeDSixE",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193D6E",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Ох..."
+    ],
+    "A2": [
+      "ДЖЕЙ: Ох... Мы проиграли, дорогой."
+    ],
+    "natural": [
+      "ДЖЕЙ: Ох... Мы проиграли, дорогой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Oh..."
+    ],
+    "A2": [
+      "JAY: Oh... Wir haben verloren, mein Lieber."
+    ],
+    "natural": [
+      "JAY: Oh... Wir haben verloren, mein Lieber."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeDNineA",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193D9A",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Пятьдесят лет брака..."
+    ],
+    "A2": [
+      "ДЖЕЙ: Пятьдесят лет брака... Все споры мы решали боями покемонов."
+    ],
+    "natural": [
+      "ДЖЕЙ: Пятьдесят лет брака... Все споры мы решали боями покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Fünfzig Jahre Ehe..."
+    ],
+    "A2": [
+      "JAY: Fünfzig Jahre Ehe... Jeden Streit klärten wir mit einem Pokémon-Kampf."
+    ],
+    "natural": [
+      "JAY: Fünfzig Jahre Ehe... Jeden Streit klärten wir mit einem Pokémon-Kampf."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeDFB",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193DFB",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Какой юный тренер!"
+    ],
+    "A2": [
+      "ДЖЕЙ: Какой юный тренер! Для боя с нами вернись с большим числом покемонов."
+    ],
+    "natural": [
+      "ДЖЕЙ: Какой юный тренер! Для боя с нами вернись с большим числом покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Ein so junger Trainer!"
+    ],
+    "A2": [
+      "JAY: Ein so junger Trainer! Für einen Kampf mit uns brauchst du mehr Pokémon."
+    ],
+    "natural": [
+      "JAY: Ein so junger Trainer! Für einen Kampf mit uns brauchst du mehr Pokémon."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeESevenFive",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193E75",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Мы всегда сражались вдвоём и уверены в себе."
+    ],
+    "A2": [
+      "ДЖОН: Мы всегда сражались вдвоём и уверены в себе."
+    ],
+    "natural": [
+      "ДЖОН: Мы всегда сражались вдвоём и уверены в себе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Wir kämpfen immer zu zweit und vertrauen auf uns."
+    ],
+    "A2": [
+      "JOHN: Wir kämpfen immer zu zweit und vertrauen auf uns."
+    ],
+    "natural": [
+      "JOHN: Wir kämpfen immer zu zweit und vertrauen auf uns."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeECE",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193ECE",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Ох..."
+    ],
+    "A2": [
+      "ДЖОН: Ох... Мы проиграли, дорогая."
+    ],
+    "natural": [
+      "ДЖОН: Ох... Мы проиграли, дорогая."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Oh..."
+    ],
+    "A2": [
+      "JOHN: Oh... Wir haben verloren, meine Liebe."
+    ],
+    "natural": [
+      "JOHN: Oh... Wir haben verloren, meine Liebe."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeEFThree",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193EF3",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Пятьдесят лет брака..."
+    ],
+    "A2": [
+      "ДЖОН: Пятьдесят лет брака... Мы с женой сражались каждый день."
+    ],
+    "natural": [
+      "ДЖОН: Пятьдесят лет брака... Мы с женой сражались каждый день."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Fünfzig Jahre Ehe..."
+    ],
+    "A2": [
+      "JOHN: Fünfzig Jahre Ehe... Meine Frau und ich kämpften Tag für Tag."
+    ],
+    "natural": [
+      "JOHN: Fünfzig Jahre Ehe... Meine Frau und ich kämpften Tag für Tag."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeFFiveNine",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193F59",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОН: Какой юный тренер!"
+    ],
+    "A2": [
+      "ДЖОН: Какой юный тренер! Хочешь сразиться с нами?"
+    ],
+    "natural": [
+      "ДЖОН: Какой юный тренер! Хочешь сразиться с нами? Тогда вернись с большим числом покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOHN: Ein so junger Trainer!"
+    ],
+    "A2": [
+      "JOHN: Ein so junger Trainer! Willst du gegen uns kämpfen, komm mit mehr Pokémon zurück."
+    ],
+    "natural": [
+      "JOHN: Ein so junger Trainer! Willst du gegen uns kämpfen, komm mit mehr Pokémon zurück."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineThreeFCA",
+  "base_symbol": "MeteorFalls_1F_2R_Text_193FCA",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Мы женаты пятьдесят лет."
+    ],
+    "A2": [
+      "ДЖЕЙ: Мы женаты пятьдесят лет. Всё это время мы поддерживали друг друга и стали сильнее."
+    ],
+    "natural": [
+      "ДЖЕЙ: Мы женаты пятьдесят лет. Всё это время мы поддерживали друг друга и стали сильнее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Wir sind seit fünfzig Jahren verheiratet."
+    ],
+    "A2": [
+      "JAY: Wir sind seit fünfzig Jahren verheiratet. Wir stärkten uns all die Jahre gegenseitig."
+    ],
+    "natural": [
+      "JAY: Wir sind seit fünfzig Jahren verheiratet. Wir stärkten uns all die Jahre gegenseitig."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineFourZeroThreeA",
+  "base_symbol": "MeteorFalls_1F_2R_Text_19403A",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Ох..."
+    ],
+    "A2": [
+      "ДЖЕЙ: Ох... Мы проиграли, дорогой."
+    ],
+    "natural": [
+      "ДЖЕЙ: Ох... Мы проиграли, дорогой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Oh..."
+    ],
+    "A2": [
+      "JAY: Oh... Wir haben verloren, mein Lieber."
+    ],
+    "natural": [
+      "JAY: Oh... Wir haben verloren, mein Lieber."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineFourZeroSixSix",
+  "base_symbol": "MeteorFalls_1F_2R_Text_194066",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Пятьдесят лет брака..."
+    ],
+    "A2": [
+      "ДЖЕЙ: Пятьдесят лет брака... Многое случилось."
+    ],
+    "natural": [
+      "ДЖЕЙ: Пятьдесят лет брака... Многое случилось. Надеюсь, впереди нас ждёт ещё много счастливых воспоминаний."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Fünfzig Jahre Ehe..."
+    ],
+    "A2": [
+      "JAY: Fünfzig Jahre Ehe... Viel ist geschehen."
+    ],
+    "natural": [
+      "JAY: Fünfzig Jahre Ehe... Viel ist geschehen. Hoffentlich schaffen wir noch viele glückliche Erinnerungen."
+    ]
+  }
+},
+{
+  "id": "MeteorFallsOneFTwoROneNineFourZeroDF",
+  "base_symbol": "MeteorFalls_1F_2R_Text_1940DF",
+  "source_path": "data/maps/MeteorFalls_1F_2R/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Meteor Falls story event, trainer encounter, or cave interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖЕЙ: Какой юный тренер!"
+    ],
+    "A2": [
+      "ДЖЕЙ: Какой юный тренер! Для боя с нами вернись с большим числом покемонов."
+    ],
+    "natural": [
+      "ДЖЕЙ: Какой юный тренер! Для боя с нами вернись с большим числом покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "метеорит",
+        "meteorite"
+      ]
+    ],
+    "de": [
+      [
+        "der Meteorit",
+        "meteorite"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JAY: Ein so junger Trainer!"
+    ],
+    "A2": [
+      "JAY: Ein so junger Trainer! Für einen Kampf mit uns brauchst du mehr Pokémon."
+    ],
+    "natural": [
+      "JAY: Ein so junger Trainer! Für einen Kampf mit uns brauchst du mehr Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEFourESix",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E4E6",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Всё вокруг покрыто пеплом, пых-пых!"
+    ],
+    "A2": [
+      "Всё вокруг покрыто пеплом, пых-пых! У меня особый талант, пых-пых."
+    ],
+    "natural": [
+      "Всё вокруг покрыто пеплом, пых-пых! У меня особый талант, пых-пых. Я делаю из пепла стекло и создаю предметы, пых-пых. Собирай пепел этим, пых-пых!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Alles ist voller Vulkanasche, schnauf!"
+    ],
+    "A2": [
+      "Alles ist voller Vulkanasche, schnauf! Ich habe eine Gabe, schnauf."
+    ],
+    "natural": [
+      "Alles ist voller Vulkanasche, schnauf! Ich habe eine Gabe, schnauf. Aus Asche mache ich Glas und Gegenstände, schnauf. Sammle damit Asche, schnauf!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEFiveNineB",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E59B",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Возьми МЕШОК ДЛЯ ПЕПЛА и ходи по кучам пепла, пых-пых."
+    ],
+    "A2": [
+      "Возьми МЕШОК ДЛЯ ПЕПЛА и ходи по кучам пепла, пых-пых. Мешок наполнится пеплом."
+    ],
+    "natural": [
+      "Возьми МЕШОК ДЛЯ ПЕПЛА и ходи по кучам пепла, пых-пых. Мешок наполнится пеплом. Когда соберёшь достаточно, возвращайся, пых-пых."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nimm den ASCHEBEUTEL und lauf durch Aschehaufen, schnauf."
+    ],
+    "A2": [
+      "Nimm den ASCHEBEUTEL und lauf durch Aschehaufen, schnauf. Er füllt sich mit Vulkanasche."
+    ],
+    "natural": [
+      "Nimm den ASCHEBEUTEL und lauf durch Aschehaufen, schnauf. Er füllt sich mit Vulkanasche. Hast du genug gesammelt, komm wieder, schnauf."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineESixFiveB",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E65B",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Собрал пепел, пых-пых?"
+    ],
+    "A2": [
+      "Собрал пепел, пых-пых? Покажи, пых-пых."
+    ],
+    "natural": [
+      "Собрал пепел, пых-пых? Покажи, пых-пых."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du Asche gesammelt, schnauf?"
+    ],
+    "A2": [
+      "Hast du Asche gesammelt, schnauf? Zeig mal, schnauf."
+    ],
+    "natural": [
+      "Hast du Asche gesammelt, schnauf? Zeig mal, schnauf."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineESixNineSeven",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E697",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм..."
+    ],
+    "A2": [
+      "Хм... Пепла мало, пых-пых."
+    ],
+    "natural": [
+      "Хм... Пепла мало, пых-пых. Стекла не получится. Нужно пройти ещё столько шагов для СИНЕЙ ФЛЕЙТЫ: {STR_VAR_1}."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm..."
+    ],
+    "A2": [
+      "Hm... Zu wenig Asche, schnauf."
+    ],
+    "natural": [
+      "Hm... Zu wenig Asche, schnauf. So kann ich kein Glas machen. Schritte bis zur BLAUEN FLÖTE: {STR_VAR_1}."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineESevenFiveSeven",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E757",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О!"
+    ],
+    "A2": [
+      "О! Сколько пепла, пых-пых!"
+    ],
+    "natural": [
+      "О! Сколько пепла, пых-пых! Я сделаю стеклянный предмет. Какой выберешь, пых-пых?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! So viel Asche, schnauf!"
+    ],
+    "natural": [
+      "Oh! So viel Asche, schnauf! Ich mache dir einen Glasartikel. Welchen möchtest du?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineESevenCD",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E7CD",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{STR_VAR_1}, пых-пых?"
+    ],
+    "A2": [
+      "{STR_VAR_1}, пых-пых? Точно его?"
+    ],
+    "natural": [
+      "{STR_VAR_1}, пых-пых? Точно его?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{STR_VAR_1}, schnauf?"
+    ],
+    "A2": [
+      "{STR_VAR_1}, schnauf? Soll es dieser sein?"
+    ],
+    "natural": [
+      "{STR_VAR_1}, schnauf? Soll es dieser sein?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEEightZeroTwo",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E802",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что выберешь, пых-пых?"
+    ],
+    "A2": [
+      "Что выберешь, пых-пых?"
+    ],
+    "natural": [
+      "Что выберешь, пых-пых?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welchen möchtest du, schnauf?"
+    ],
+    "A2": [
+      "Welchen möchtest du, schnauf?"
+    ],
+    "natural": [
+      "Welchen möchtest du, schnauf?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEEightTwoSeven",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E827",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Значит, {STR_VAR_1}, пых-пых!"
+    ],
+    "A2": [
+      "Значит, {STR_VAR_1}, пых-пых! Хорошо, я сделаю его."
+    ],
+    "natural": [
+      "Значит, {STR_VAR_1}, пых-пых! Хорошо, я сделаю его. Подожди немного, пых-пых."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Also {STR_VAR_1}, schnauf!"
+    ],
+    "A2": [
+      "Also {STR_VAR_1}, schnauf! Gut, ich fertige ihn an."
+    ],
+    "natural": [
+      "Also {STR_VAR_1}, schnauf! Gut, ich fertige ihn an. Warte kurz, schnauf."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEEightNineZero",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E890",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{STR_VAR_1}, пых-пых?"
+    ],
+    "A2": [
+      "{STR_VAR_1}, пых-пых? Для него не хватает пепла."
+    ],
+    "natural": [
+      "{STR_VAR_1}, пых-пых? Для него не хватает пепла. Нужно пройти по пеплу ещё столько шагов: {STR_VAR_2}. Какой другой предмет сделать?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{STR_VAR_1}, schnauf?"
+    ],
+    "A2": [
+      "{STR_VAR_1}, schnauf? Dafür reicht die Asche nicht."
+    ],
+    "natural": [
+      "{STR_VAR_1}, schnauf? Dafür reicht die Asche nicht. Noch nötige Schritte durch die Asche: {STR_VAR_2}. Welchen anderen Artikel?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineENineNineZero",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E990",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты собрал столько пепла, но ничего не хочешь, пых-пых?"
+    ],
+    "A2": [
+      "Ты собрал столько пепла, но ничего не хочешь, пых-пых?"
+    ],
+    "natural": [
+      "Ты собрал столько пепла, но ничего не хочешь, пых-пых?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "So viel Asche gesammelt, aber du möchtest nichts, schnauf?"
+    ],
+    "A2": [
+      "So viel Asche gesammelt, aber du möchtest nichts, schnauf?"
+    ],
+    "natural": [
+      "So viel Asche gesammelt, aber du möchtest nichts, schnauf?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineENineDSeven",
+  "base_symbol": "Route113_GlassWorkshop_Text_19E9D7",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Готово: {STR_VAR_1}."
+    ],
+    "A2": [
+      "Готово: {STR_VAR_1}. Забирай, пых-пых."
+    ],
+    "natural": [
+      "Готово: {STR_VAR_1}. Забирай, пых-пых."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein Artikel ist fertig: {STR_VAR_1}."
+    ],
+    "A2": [
+      "Dein Artikel ist fertig: {STR_VAR_1}. Nimm ihn, schnauf."
+    ],
+    "natural": [
+      "Dein Artikel ist fertig: {STR_VAR_1}. Nimm ihn, schnauf."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEAZeroSix",
+  "base_symbol": "Route113_GlassWorkshop_Text_19EA06",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О?"
+    ],
+    "A2": [
+      "О? В СУМКЕ нет места."
+    ],
+    "natural": [
+      "О? В СУМКЕ нет места. Я сохраню предмет. Возвращайся позже, пых-пых."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh?"
+    ],
+    "A2": [
+      "Oh? Kein Platz im BEUTEL."
+    ],
+    "natural": [
+      "Oh? Kein Platz im BEUTEL. Ich bewahre ihn auf. Komm später wieder, schnauf."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEASixFour",
+  "base_symbol": "Route113_GlassWorkshop_Text_19EA64",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О?"
+    ],
+    "A2": [
+      "О? В ПК нет места."
+    ],
+    "natural": [
+      "О? В ПК нет места. Я сохраню предмет. Возвращайся позже, пых-пых."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh?"
+    ],
+    "A2": [
+      "Oh? Kein Platz im PC."
+    ],
+    "natural": [
+      "Oh? Kein Platz im PC. Ich bewahre ihn auf. Komm später wieder, schnauf."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEACOne",
+  "base_symbol": "Route113_GlassWorkshop_Text_19EAC1",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что?"
+    ],
+    "A2": [
+      "Что? У тебя нет МЕШКА ДЛЯ ПЕПЛА, пых-пых."
+    ],
+    "natural": [
+      "Что? У тебя нет МЕШКА ДЛЯ ПЕПЛА, пых-пых. Носи его с собой, чтобы собирать пепел."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was?"
+    ],
+    "A2": [
+      "Was? Du hast den ASCHEBEUTEL nicht dabei, schnauf."
+    ],
+    "natural": [
+      "Was? Du hast den ASCHEBEUTEL nicht dabei, schnauf. Du brauchst ihn, um Asche zu sammeln."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeGlassWorkshopOneNineEBThreeB",
+  "base_symbol": "Route113_GlassWorkshop_Text_19EB3B",
+  "source_path": "data/maps/Route113_GlassWorkshop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Весело дуть в стеклянную флейту, пока мой босс говорит."
+    ],
+    "A2": [
+      "Весело дуть в стеклянную флейту, пока мой босс говорит. Пых-пых!"
+    ],
+    "natural": [
+      "Весело дуть в стеклянную флейту, пока мой босс говорит. Пых-пых! Фу-фу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich spiele gern Glasflöte, während mein Chef redet."
+    ],
+    "A2": [
+      "Ich spiele gern Glasflöte, während mein Chef redet. Pust-pust!"
+    ],
+    "natural": [
+      "Ich spiele gern Glasflöte, während mein Chef redet. Pust-pust! Tuuut-tuuut!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneSixFFSevenF",
+  "base_symbol": "Route113_Text_16FF7F",
+  "source_path": "data/maps/Route113/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ха-ха!"
+    ],
+    "A2": [
+      "Ха-ха! Современные технологии творят чудеса!"
+    ],
+    "natural": [
+      "Ха-ха! Современные технологии творят чудеса! Из вулканического пепла можно делать стекло."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Haha!"
+    ],
+    "A2": [
+      "Haha! Technik ist wunderbar!"
+    ],
+    "natural": [
+      "Haha! Technik ist wunderbar! Aus dieser Vulkanasche kann man Glas herstellen."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneSixFFEE",
+  "base_symbol": "Route113_Text_16FFEE",
+  "source_path": "data/maps/Route113/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Весело ходить по пеплу на земле и траве."
+    ],
+    "A2": [
+      "Весело ходить по пеплу на земле и траве. Видно, где ты прошёл."
+    ],
+    "natural": [
+      "Весело ходить по пеплу на земле и траве. Видно, где ты прошёл. Здорово!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es macht Spaß, durch die Asche auf Boden und Gras zu laufen."
+    ],
+    "A2": [
+      "Es macht Spaß, durch die Asche auf Boden und Gras zu laufen. Man sieht jede eigene Spur!"
+    ],
+    "natural": [
+      "Es macht Spaß, durch die Asche auf Boden und Gras zu laufen. Man sieht jede eigene Spur!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneSevenZeroZeroSixFive",
+  "base_symbol": "Route113_Text_170065",
+  "source_path": "data/maps/Route113/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАРШРУТ 113 К МАРШРУТУ 111"
+    ],
+    "A2": [
+      "МАРШРУТ 113 К МАРШРУТУ 111"
+    ],
+    "natural": [
+      "МАРШРУТ 113 К МАРШРУТУ 111"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ROUTE 113 ZU ROUTE 111"
+    ],
+    "A2": [
+      "ROUTE 113 ZU ROUTE 111"
+    ],
+    "natural": [
+      "ROUTE 113 ZU ROUTE 111"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneSevenZeroZeroSevenB",
+  "base_symbol": "Route113_Text_17007B",
+  "source_path": "data/maps/Route113/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАРШРУТ 113 К ФАЛЛАРБОРУ"
+    ],
+    "A2": [
+      "МАРШРУТ 113 К ФАЛЛАРБОРУ"
+    ],
+    "natural": [
+      "МАРШРУТ 113 К ФАЛЛАРБОРУ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ROUTE 113 NACH LAUBWECHSELFELD"
+    ],
+    "A2": [
+      "ROUTE 113 NACH LAUBWECHSELFELD"
+    ],
+    "natural": [
+      "ROUTE 113 NACH LAUBWECHSELFELD"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneSevenZeroZeroNineSix",
+  "base_symbol": "Route113_Text_170096",
+  "source_path": "data/maps/Route113/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СОВЕТ ТРЕНЕРУ Можно назначить один КЛЮЧЕВОЙ ПРЕДМЕТ из СУМКИ на SELECT."
+    ],
+    "A2": [
+      "СОВЕТ ТРЕНЕРУ Можно назначить один КЛЮЧЕВОЙ ПРЕДМЕТ из СУМКИ на SELECT. Нажми SELECT, чтобы быстро использовать его."
+    ],
+    "natural": [
+      "СОВЕТ ТРЕНЕРУ Можно назначить один КЛЮЧЕВОЙ ПРЕДМЕТ из СУМКИ на SELECT. Нажми SELECT, чтобы быстро использовать его."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TRAINER-TIPP Du kannst ein BASIS-ITEM im BEUTEL auf SELECT legen."
+    ],
+    "A2": [
+      "TRAINER-TIPP Du kannst ein BASIS-ITEM im BEUTEL auf SELECT legen. Drücke SELECT, um es schnell zu benutzen."
+    ],
+    "natural": [
+      "TRAINER-TIPP Du kannst ein BASIS-ITEM im BEUTEL auf SELECT legen. Drücke SELECT, um es schnell zu benutzen."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneSevenZeroOneOneD",
+  "base_symbol": "Route113_Text_17011D",
+  "source_path": "data/maps/Route113/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТЕКОЛЬНАЯ МАСТЕРСКАЯ Предметы из вулканического пепла"
+    ],
+    "A2": [
+      "СТЕКОЛЬНАЯ МАСТЕРСКАЯ Предметы из вулканического пепла"
+    ],
+    "natural": [
+      "СТЕКОЛЬНАЯ МАСТЕРСКАЯ Предметы из вулканического пепла"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "GLASWERKSTATT Glaswaren aus Vulkanasche"
+    ],
+    "A2": [
+      "GLASWERKSTATT Glaswaren aus Vulkanasche"
+    ],
+    "natural": [
+      "GLASWERKSTATT Glaswaren aus Vulkanasche"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBNineBA",
+  "base_symbol": "Route113_Text_1BB9BA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Угадаете, почему здесь так прохладно?"
+    ],
+    "A2": [
+      "Угадаете, почему здесь так прохладно?"
+    ],
+    "natural": [
+      "Угадаете, почему здесь так прохладно?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kannst du erraten, warum es hier so kühl ist?"
+    ],
+    "A2": [
+      "Kannst du erraten, warum es hier so kühl ist?"
+    ],
+    "natural": [
+      "Kannst du erraten, warum es hier so kühl ist?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBNineESix",
+  "base_symbol": "Route113_Text_1BB9E6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Фу!"
+    ],
+    "A2": [
+      "Фу! Как воняет!"
+    ],
+    "natural": [
+      "Фу! Как воняет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pfui!"
+    ],
+    "A2": [
+      "Pfui! Das stinkt!"
+    ],
+    "natural": [
+      "Pfui! Das stinkt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBNineFB",
+  "base_symbol": "Route113_Text_1BB9FB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вулканический пепел закрывает солнце, поэтому здесь прохладно."
+    ],
+    "A2": [
+      "Вулканический пепел закрывает солнце, поэтому здесь прохладно. Я не выношу жару!"
+    ],
+    "natural": [
+      "Вулканический пепел закрывает солнце, поэтому здесь прохладно. Я не выношу жару!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vulkanasche verdeckt die Sonne, daher ist es kühl."
+    ],
+    "A2": [
+      "Vulkanasche verdeckt die Sonne, daher ist es kühl. Ich vertrage keine Hitze!"
+    ],
+    "natural": [
+      "Vulkanasche verdeckt die Sonne, daher ist es kühl. Ich vertrage keine Hitze!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBASixTwo",
+  "base_symbol": "Route113_Text_1BBA62",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Извержение вулкана доказывает, что земля жива."
+    ],
+    "A2": [
+      "Извержение вулкана доказывает, что земля жива."
+    ],
+    "natural": [
+      "Извержение вулкана доказывает, что земля жива."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Vulkanausbruch beweist, dass die Erde lebt."
+    ],
+    "A2": [
+      "Der Vulkanausbruch beweist, dass die Erde lebt."
+    ],
+    "natural": [
+      "Der Vulkanausbruch beweist, dass die Erde lebt."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBANineB",
+  "base_symbol": "Route113_Text_1BBA9B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот это сила!"
+    ],
+    "A2": [
+      "Вот это сила!"
+    ],
+    "natural": [
+      "Вот это сила!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was für eine Stärke!"
+    ],
+    "A2": [
+      "Was für eine Stärke!"
+    ],
+    "natural": [
+      "Was für eine Stärke!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBABSeven",
+  "base_symbol": "Route113_Text_1BBAB7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ай!"
+    ],
+    "A2": [
+      "Ай! Пепел попал в ресницы!"
+    ],
+    "natural": [
+      "Ай! Пепел попал в ресницы! Поняли шутку? Ладно, простите..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aua!"
+    ],
+    "A2": [
+      "Aua! Asche ist in meinen Wimpern!"
+    ],
+    "natural": [
+      "Aua! Asche ist in meinen Wimpern! Verstanden? Gut, entschuldige..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBBTwoSeven",
+  "base_symbol": "Route113_Text_1BBB27",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этим зонтом я защищаю своего дорогого Нумела от грязного вулканического пепла."
+    ],
+    "A2": [
+      "Этим зонтом я защищаю своего дорогого Нумела от грязного вулканического пепла."
+    ],
+    "natural": [
+      "Этим зонтом я защищаю своего дорогого Нумела от грязного вулканического пепла."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit diesem Schirm schütze ich mein liebes Numel vor der schmutzigen Vulkanasche."
+    ],
+    "A2": [
+      "Mit diesem Schirm schütze ich mein liebes Numel vor der schmutzigen Vulkanasche."
+    ],
+    "natural": [
+      "Mit diesem Schirm schütze ich mein liebes Numel vor der schmutzigen Vulkanasche."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBBSevenA",
+  "base_symbol": "Route113_Text_1BBB7A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Фух..."
+    ],
+    "A2": [
+      "Фух... Я совсем выдохся..."
+    ],
+    "natural": [
+      "Фух... Я совсем выдохся..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Puh..."
+    ],
+    "A2": [
+      "Puh... Ich bin völlig erschöpft..."
+    ],
+    "natural": [
+      "Puh... Ich bin völlig erschöpft..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBBNineA",
+  "base_symbol": "Route113_Text_1BBB9A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вы очень хороши."
+    ],
+    "A2": [
+      "Вы очень хороши. Я впечатлён!"
+    ],
+    "natural": [
+      "Вы очень хороши. Я впечатлён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist sehr gut."
+    ],
+    "A2": [
+      "Du bist sehr gut. Ich bin beeindruckt!"
+    ],
+    "natural": [
+      "Du bist sehr gut. Ich bin beeindruckt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBBCE",
+  "base_symbol": "Route113_Text_1BBBCE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здравствуйте, давно не виделись."
+    ],
+    "A2": [
+      "Здравствуйте, давно не виделись. Можно пригласить вас на бой?"
+    ],
+    "natural": [
+      "Здравствуйте, давно не виделись. Можно пригласить вас на бой?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, lange nicht gesehen."
+    ],
+    "A2": [
+      "Hallo, lange nicht gesehen. Darf ich dich zu einem Kampf einladen?"
+    ],
+    "natural": [
+      "Hallo, lange nicht gesehen. Darf ich dich zu einem Kampf einladen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBCZeroD",
+  "base_symbol": "Route113_Text_1BBC0D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О, превосходно!"
+    ],
+    "A2": [
+      "О, превосходно!"
+    ],
+    "natural": [
+      "О, превосходно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh, großartig!"
+    ],
+    "A2": [
+      "Oh, großartig!"
+    ],
+    "natural": [
+      "Oh, großartig!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBCOneC",
+  "base_symbol": "Route113_Text_1BBC1C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вы всё ещё очень хороши."
+    ],
+    "A2": [
+      "Вы всё ещё очень хороши. Я впечатлён!"
+    ],
+    "natural": [
+      "Вы всё ещё очень хороши. Я впечатлён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist noch immer sehr gut."
+    ],
+    "A2": [
+      "Du bist noch immer sehr gut. Ich bin beeindruckt!"
+    ],
+    "natural": [
+      "Du bist noch immer sehr gut. Ich bin beeindruckt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBCFiveNine",
+  "base_symbol": "Route113_Text_1BBC59",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я выпрыгиваю из пепла!"
+    ],
+    "A2": [
+      "Я выпрыгиваю из пепла! Хия!"
+    ],
+    "natural": [
+      "Я выпрыгиваю из пепла! Хия! Бросаю вам вызов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aus der Asche springe ich hervor!"
+    ],
+    "A2": [
+      "Aus der Asche springe ich hervor! Hija!"
+    ],
+    "natural": [
+      "Aus der Asche springe ich hervor! Hija! Ich fordere dich heraus!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBCNineZero",
+  "base_symbol": "Route113_Text_1BBC90",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С честью признаю поражение!"
+    ],
+    "A2": [
+      "С честью признаю поражение!"
+    ],
+    "natural": [
+      "С честью признаю поражение!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit Ehre gestehe ich meine Niederlage ein!"
+    ],
+    "A2": [
+      "Mit Ehre gestehe ich meine Niederlage ein!"
+    ],
+    "natural": [
+      "Mit Ehre gestehe ich meine Niederlage ein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBCAB",
+  "base_symbol": "Route113_Text_1BBCAB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне нужно улучшить искусство маскировки."
+    ],
+    "A2": [
+      "Мне нужно улучшить искусство маскировки. Прощайте."
+    ],
+    "natural": [
+      "Мне нужно улучшить искусство маскировки. Прощайте."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich muss die Kunst der Tarnung verbessern."
+    ],
+    "A2": [
+      "Ich muss die Kunst der Tarnung verbessern. Leb wohl."
+    ],
+    "natural": [
+      "Ich muss die Kunst der Tarnung verbessern. Leb wohl."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBCESix",
+  "base_symbol": "Route113_Text_1BBCE6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я выпрыгиваю из пепла!"
+    ],
+    "A2": [
+      "Я выпрыгиваю из пепла! Хия!"
+    ],
+    "natural": [
+      "Я выпрыгиваю из пепла! Хия! Бросаю вам вызов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aus der Asche springe ich hervor!"
+    ],
+    "A2": [
+      "Aus der Asche springe ich hervor! Hija!"
+    ],
+    "natural": [
+      "Aus der Asche springe ich hervor! Hija! Ich fordere dich heraus!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBDOneD",
+  "base_symbol": "Route113_Text_1BBD1D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С честью признаю поражение!"
+    ],
+    "A2": [
+      "С честью признаю поражение!"
+    ],
+    "natural": [
+      "С честью признаю поражение!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit Ehre gestehe ich meine Niederlage ein!"
+    ],
+    "A2": [
+      "Mit Ehre gestehe ich meine Niederlage ein!"
+    ],
+    "natural": [
+      "Mit Ehre gestehe ich meine Niederlage ein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBDThreeEight",
+  "base_symbol": "Route113_Text_1BBD38",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя идеальная маскировка подвела из-за слабых боевых навыков."
+    ],
+    "A2": [
+      "Моя идеальная маскировка подвела из-за слабых боевых навыков. Прощайте."
+    ],
+    "natural": [
+      "Моя идеальная маскировка подвела из-за слабых боевых навыков. Прощайте."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine perfekte Tarnung scheiterte an unreifen Kampfkünsten."
+    ],
+    "A2": [
+      "Meine perfekte Tarnung scheiterte an unreifen Kampfkünsten. Leb wohl."
+    ],
+    "natural": [
+      "Meine perfekte Tarnung scheiterte an unreifen Kampfkünsten. Leb wohl."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBDNineTwo",
+  "base_symbol": "Route113_Text_1BBD92",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Спасибо, что нашли меня!"
+    ],
+    "A2": [
+      "Спасибо, что нашли меня! Но сражаться всё равно придётся!"
+    ],
+    "natural": [
+      "Спасибо, что нашли меня! Но сражаться всё равно придётся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Danke, dass du mich gefunden hast!"
+    ],
+    "A2": [
+      "Danke, dass du mich gefunden hast! Trotzdem müssen wir kämpfen!"
+    ],
+    "natural": [
+      "Danke, dass du mich gefunden hast! Trotzdem müssen wir kämpfen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBDCSix",
+  "base_symbol": "Route113_Text_1BBDC6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я применю ниндзюцу: Плащ вихря вулканического пепла!"
+    ],
+    "A2": [
+      "Я применю ниндзюцу: Плащ вихря вулканического пепла! Что?"
+    ],
+    "natural": [
+      "Я применю ниндзюцу: Плащ вихря вулканического пепла! Что? Уже всё?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich nutze Ninjutsu: Mantel des Vulkanaschewirbels!"
+    ],
+    "A2": [
+      "Ich nutze Ninjutsu: Mantel des Vulkanaschewirbels! Was?"
+    ],
+    "natural": [
+      "Ich nutze Ninjutsu: Mantel des Vulkanaschewirbels! Was? Schon vorbei?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBEOneD",
+  "base_symbol": "Route113_Text_1BBE1D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаете, что плохо в укрытии?"
+    ],
+    "A2": [
+      "Знаете, что плохо в укрытии? Одиноко, если никто не приходит."
+    ],
+    "natural": [
+      "Знаете, что плохо в укрытии? Одиноко, если никто не приходит."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Weißt du, was am Verstecken schlecht ist?"
+    ],
+    "A2": [
+      "Weißt du, was am Verstecken schlecht ist? Es ist einsam, wenn niemand kommt."
+    ],
+    "natural": [
+      "Weißt du, was am Verstecken schlecht ist? Es ist einsam, wenn niemand kommt."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBESixFive",
+  "base_symbol": "Route113_Text_1BBE65",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТОРИ: Мы обе собираем пепел и сражаемся покемонами."
+    ],
+    "A2": [
+      "ТОРИ: Мы обе собираем пепел и сражаемся покемонами."
+    ],
+    "natural": [
+      "ТОРИ: Мы обе собираем пепел и сражаемся покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TORI: Wir beide sammeln Asche und kämpfen mit Pokémon."
+    ],
+    "A2": [
+      "TORI: Wir beide sammeln Asche und kämpfen mit Pokémon."
+    ],
+    "natural": [
+      "TORI: Wir beide sammeln Asche und kämpfen mit Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBEAOne",
+  "base_symbol": "Route113_Text_1BBEA1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТОРИ: Мы проиграли..."
+    ],
+    "A2": [
+      "ТОРИ: Мы проиграли... Скучно, пойду собирать ещё пепел."
+    ],
+    "natural": [
+      "ТОРИ: Мы проиграли... Скучно, пойду собирать ещё пепел."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TORI: Wir haben verloren..."
+    ],
+    "A2": [
+      "TORI: Wir haben verloren... Langweilig, ich sammle mehr Asche."
+    ],
+    "natural": [
+      "TORI: Wir haben verloren... Langweilig, ich sammle mehr Asche."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBEEFour",
+  "base_symbol": "Route113_Text_1BBEE4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТОРИ: Сколько у нас пепла?"
+    ],
+    "A2": [
+      "ТОРИ: Сколько у нас пепла? Надеюсь, хватит на белую флейту."
+    ],
+    "natural": [
+      "ТОРИ: Сколько у нас пепла? Надеюсь, хватит на белую флейту."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TORI: Wie viel Asche haben wir?"
+    ],
+    "A2": [
+      "TORI: Wie viel Asche haben wir? Hoffentlich genug für eine Weiße Flöte."
+    ],
+    "natural": [
+      "TORI: Wie viel Asche haben wir? Hoffentlich genug für eine Weiße Flöte."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBFTwoFive",
+  "base_symbol": "Route113_Text_1BBF25",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТОРИ: Мы хотим бой два на два."
+    ],
+    "A2": [
+      "ТОРИ: Мы хотим бой два на два. Иначе проиграем!"
+    ],
+    "natural": [
+      "ТОРИ: Мы хотим бой два на два. Иначе проиграем!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TORI: Wir wollen zwei gegen zwei kämpfen."
+    ],
+    "A2": [
+      "TORI: Wir wollen zwei gegen zwei kämpfen. Sonst verlieren wir!"
+    ],
+    "natural": [
+      "TORI: Wir wollen zwei gegen zwei kämpfen. Sonst verlieren wir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBFSixTwo",
+  "base_symbol": "Route113_Text_1BBF62",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТИА: Мы обе собираем пепел и сражаемся покемонами."
+    ],
+    "A2": [
+      "ТИА: Мы обе собираем пепел и сражаемся покемонами."
+    ],
+    "natural": [
+      "ТИА: Мы обе собираем пепел и сражаемся покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TIA: Wir beide sammeln Asche und kämpfen mit Pokémon."
+    ],
+    "A2": [
+      "TIA: Wir beide sammeln Asche und kämpfen mit Pokémon."
+    ],
+    "natural": [
+      "TIA: Wir beide sammeln Asche und kämpfen mit Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBFNineD",
+  "base_symbol": "Route113_Text_1BBF9D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТИА: Мы не победили..."
+    ],
+    "A2": [
+      "ТИА: Мы не победили... Скучно, соберу ещё пепла."
+    ],
+    "natural": [
+      "ТИА: Мы не победили... Скучно, соберу ещё пепла."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TIA: Wir konnten nicht gewinnen..."
+    ],
+    "A2": [
+      "TIA: Wir konnten nicht gewinnen... Langweilig, ich sammle mehr Asche."
+    ],
+    "natural": [
+      "TIA: Wir konnten nicht gewinnen... Langweilig, ich sammle mehr Asche."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBBFETwo",
+  "base_symbol": "Route113_Text_1BBFE2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТИА: У нас много пепла!"
+    ],
+    "A2": [
+      "ТИА: У нас много пепла! Думаю, хватит на белую флейту!"
+    ],
+    "natural": [
+      "ТИА: У нас много пепла! Думаю, хватит на белую флейту!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TIA: Wir haben viel Asche!"
+    ],
+    "A2": [
+      "TIA: Wir haben viel Asche! Bestimmt genug für eine Weiße Flöte!"
+    ],
+    "natural": [
+      "TIA: Wir haben viel Asche! Bestimmt genug für eine Weiße Flöte!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneThreeOneBCZeroTwoOne",
+  "base_symbol": "Route113_Text_1BC021",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 113 trainer, ash-field, Glass Workshop, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТИА: Мы хотим бой два на два."
+    ],
+    "A2": [
+      "ТИА: Мы хотим бой два на два. Иначе не победим!"
+    ],
+    "natural": [
+      "ТИА: Мы хотим бой два на два. Иначе не победим!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пепел",
+        "ash"
+      ]
+    ],
+    "de": [
+      [
+        "die Asche",
+        "ash"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TIA: Wir wollen zwei gegen zwei kämpfen."
+    ],
+    "A2": [
+      "TIA: Wir wollen zwei gegen zwei kämpfen. Sonst gewinnen wir nicht!"
+    ],
+    "natural": [
+      "TIA: Wir wollen zwei gegen zwei kämpfen. Sonst gewinnen wir nicht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsHouseOneNineTwoFiveEOne",
+  "base_symbol": "Route114_FossilManiacsHouse_Text_1925E1",
+  "source_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой брат - ЧУДАК С ОКАМЕНЕЛОСТЯМИ."
+    ],
+    "A2": [
+      "Мой брат - ЧУДАК С ОКАМЕНЕЛОСТЯМИ. Он добрый и любит ископаемые и туннели."
+    ],
+    "natural": [
+      "Мой брат - ЧУДАК С ОКАМЕНЕЛОСТЯМИ. Он добрый и любит ископаемые и туннели. Он сам вырыл этот ход. Возьми это и тоже сможешь использовать КОПАНИЕ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Bruder ist der FOSSILIENMANIAC."
+    ],
+    "A2": [
+      "Mein Bruder ist der FOSSILIENMANIAC. Er liebt Fossilien und gräbt gern."
+    ],
+    "natural": [
+      "Mein Bruder ist der FOSSILIENMANIAC. Er liebt Fossilien und gräbt gern. Diesen Gang grub er allein. Nimm das. Damit kannst auch du SCHAUFLER einsetzen."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsHouseOneNineTwoSixAE",
+  "base_symbol": "Route114_FossilManiacsHouse_Text_1926AE",
+  "source_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если покемон применит КОПАНИЕ в пещере, ты вернёшься ко входу."
+    ],
+    "A2": [
+      "Если покемон применит КОПАНИЕ в пещере, ты вернёшься ко входу."
+    ],
+    "natural": [
+      "Если покемон применит КОПАНИЕ в пещере, ты вернёшься ко входу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Setzt ein Pokémon SCHAUFLER in einer Höhle ein, geht es zum Eingang zurück."
+    ],
+    "A2": [
+      "Setzt ein Pokémon SCHAUFLER in einer Höhle ein, geht es zum Eingang zurück."
+    ],
+    "natural": [
+      "Setzt ein Pokémon SCHAUFLER in einer Höhle ein, geht es zum Eingang zurück."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsHouseOneNineTwoSixFA",
+  "base_symbol": "Route114_FossilManiacsHouse_Text_1926FA",
+  "source_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В витрине лежат камни необычной формы."
+    ],
+    "A2": [
+      "В витрине лежат камни необычной формы."
+    ],
+    "natural": [
+      "В витрине лежат камни необычной формы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Vitrine ist voller seltsam geformter Steine."
+    ],
+    "A2": [
+      "Die Vitrine ist voller seltsam geformter Steine."
+    ],
+    "natural": [
+      "Die Vitrine ist voller seltsam geformter Steine."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsHouseOneNineTwoSevenTwoNine",
+  "base_symbol": "Route114_FossilManiacsHouse_Text_192729",
+  "source_path": "data/maps/Route114_FossilManiacsHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СОСТАВ СЛОЁВ..."
+    ],
+    "A2": [
+      "СОСТАВ СЛОЁВ... КАК ДОЖДЬ МЕНЯЕТ ЗЕМЛЮ..."
+    ],
+    "natural": [
+      "СОСТАВ СЛОЁВ... КАК ДОЖДЬ МЕНЯЕТ ЗЕМЛЮ... КАМНИ, ПОЧВА И СКАЛЫ... Полки забиты книгами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "AUFBAU DER SCHICHTEN..."
+    ],
+    "A2": [
+      "AUFBAU DER SCHICHTEN... WIE REGEN LAND FORMT..."
+    ],
+    "natural": [
+      "AUFBAU DER SCHICHTEN... WIE REGEN LAND FORMT... STEINE, BODEN UND FELS... Das Regal ist voller Bücher."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsTunnelOneNineTwoSevenNineFive",
+  "base_symbol": "Route114_FossilManiacsTunnel_Text_192795",
+  "source_path": "data/maps/Route114_FossilManiacsTunnel/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ЧУДАК С ОКАМЕНЕЛОСТЯМИ."
+    ],
+    "A2": [
+      "Я ЧУДАК С ОКАМЕНЕЛОСТЯМИ. Я добрый и люблю ископаемые."
+    ],
+    "natural": [
+      "Я ЧУДАК С ОКАМЕНЕЛОСТЯМИ. Я добрый и люблю ископаемые. Хочешь окаменелость? Все здешние принадлежат мне. Тебе не дам. Ищи в пустыне на МАРШРУТЕ 111. После бурь ископаемые иногда появляются на поверхности."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich liebe Fossilien."
+    ],
+    "A2": [
+      "Ich liebe Fossilien. Alle Fossilien hier gehören mir."
+    ],
+    "natural": [
+      "Ich liebe Fossilien. Alle Fossilien hier gehören mir. Willst du eines, suche in der Wüste auf ROUTE 111. Nach Sandstürmen erscheinen sie manchmal oben."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsTunnelOneNineTwoEightDE",
+  "base_symbol": "Route114_FossilManiacsTunnel_Text_1928DE",
+  "source_path": "data/maps/Route114_FossilManiacsTunnel/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты нашёл ОКАМЕНЕЛОСТЬ?"
+    ],
+    "A2": [
+      "Ты нашёл ОКАМЕНЕЛОСТЬ? Как чудесно..."
+    ],
+    "natural": [
+      "Ты нашёл ОКАМЕНЕЛОСТЬ? Как чудесно... Как мечта... Что ты будешь с ней делать? Говорят, в ДЕВОНЕ оживляют покемонов из окаменелостей. Я слишком люблю свои, чтобы делать с ними такое."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast ein FOSSIL gefunden?"
+    ],
+    "A2": [
+      "Du hast ein FOSSIL gefunden? Wie schön..."
+    ],
+    "natural": [
+      "Du hast ein FOSSIL gefunden? Wie schön... Traumhaft... Was wirst du damit tun? DEVON soll Pokémon aus Fossilien wiederbeleben. Ich liebe meine zu sehr, um so etwas zu tun."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourFossilManiacsTunnelOneNineTwoNineDC",
+  "base_symbol": "Route114_FossilManiacsTunnel_Text_1929DC",
+  "source_path": "data/maps/Route114_FossilManiacsTunnel/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ОКАМЕНЕЛОСТИ прекрасны..."
+    ],
+    "A2": [
+      "ОКАМЕНЕЛОСТИ прекрасны... Как мечта..."
+    ],
+    "natural": [
+      "ОКАМЕНЕЛОСТИ прекрасны... Как мечта..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ископаемое",
+        "fossil"
+      ]
+    ],
+    "de": [
+      [
+        "das Fossil",
+        "fossil"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "FOSSILIEN sind wundervoll..."
+    ],
+    "A2": [
+      "FOSSILIEN sind wundervoll... Einfach traumhaft..."
+    ],
+    "natural": [
+      "FOSSILIEN sind wundervoll... Einfach traumhaft..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoAZeroD",
+  "base_symbol": "Route114_LanettesHouse_Text_192A0D",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛАНЕТТ: О, {PLAYER}!"
+    ],
+    "A2": [
+      "ЛАНЕТТ: О, {PLAYER}! Прости за беспорядок."
+    ],
+    "natural": [
+      "ЛАНЕТТ: О, {PLAYER}! Прости за беспорядок. Когда я увлечена работой, всё вот так. Мне неловко... Сохрани это в тайне, а я дам тебе подарок."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LANETTE: Oh, {PLAYER}!"
+    ],
+    "A2": [
+      "LANETTE: Oh, {PLAYER}! Verzeih das Chaos."
+    ],
+    "natural": [
+      "LANETTE: Oh, {PLAYER}! Verzeih das Chaos. Bei meiner Forschung wird es immer so. Wie peinlich... Behalte es für dich und nimm dafür dies."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoACC",
+  "base_symbol": "Route114_LanettesHouse_Text_192ACC",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Совет по моей системе хранения: распределяй ЯЩИКИ так, чтобы сразу видеть, кто где хранится."
+    ],
+    "A2": [
+      "Совет по моей системе хранения: распределяй ЯЩИКИ так, чтобы сразу видеть, кто где хранится."
+    ],
+    "natural": [
+      "Совет по моей системе хранения: распределяй ЯЩИКИ так, чтобы сразу видеть, кто где хранится."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Tipp zu meinem Lagersystem: Ordne die BOXEN so, dass du weißt, welches Pokémon wo ist."
+    ],
+    "A2": [
+      "Ein Tipp zu meinem Lagersystem: Ordne die BOXEN so, dass du weißt, welches Pokémon wo ist."
+    ],
+    "natural": [
+      "Ein Tipp zu meinem Lagersystem: Ordne die BOXEN so, dass du weißt, welches Pokémon wo ist."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoBFourA",
+  "base_symbol": "Route114_LanettesHouse_Text_192B4A",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Заметки ЛАНЕТТ о ЯЩИКАХ."
+    ],
+    "A2": [
+      "Заметки ЛАНЕТТ о ЯЩИКАХ. Каждый ЯЩИК вмещает 30 покемонов."
+    ],
+    "natural": [
+      "Заметки ЛАНЕТТ о ЯЩИКАХ. Каждый ЯЩИК вмещает 30 покемонов. Один тренер может хранить в ПК 420 покемонов. Читать дальше?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LANETTES Notizen über BOXEN."
+    ],
+    "A2": [
+      "LANETTES Notizen über BOXEN. Jede BOX fasst 30 Pokémon."
+    ],
+    "natural": [
+      "LANETTES Notizen über BOXEN. Jede BOX fasst 30 Pokémon. Ein Trainer kann 420 Pokémon im PC lagern. Weiterlesen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoCZeroOne",
+  "base_symbol": "Route114_LanettesHouse_Text_192C01",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нужны метки, чтобы проще сортировать покемонов."
+    ],
+    "A2": [
+      "Нужны метки, чтобы проще сортировать покемонов. Имя и фон каждого ЯЩИКА можно будет менять."
+    ],
+    "natural": [
+      "Нужны метки, чтобы проще сортировать покемонов. Имя и фон каждого ЯЩИКА можно будет менять. Читать дальше?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Markierungen sollen Pokémon leichter sortierbar machen."
+    ],
+    "A2": [
+      "Markierungen sollen Pokémon leichter sortierbar machen. Name und Hintergrund jeder BOX werden änderbar."
+    ],
+    "natural": [
+      "Markierungen sollen Pokémon leichter sortierbar machen. Name und Hintergrund jeder BOX werden änderbar. Weiterlesen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoCBFour",
+  "base_symbol": "Route114_LanettesHouse_Text_192CB4",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покемон отправляется в последний просмотренный ЯЩИК."
+    ],
+    "A2": [
+      "Покемон отправляется в последний просмотренный ЯЩИК. Если он полон, покемон попадает в следующий."
+    ],
+    "natural": [
+      "Покемон отправляется в последний просмотренный ЯЩИК. Если он полон, покемон попадает в следующий. Просмотр ЯЩИКА автоматически выбирает его для хранения."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Pokémon kommt in die zuletzt geöffnete BOX."
+    ],
+    "A2": [
+      "Ein Pokémon kommt in die zuletzt geöffnete BOX. Ist sie voll, kommt es in die nächste BOX."
+    ],
+    "natural": [
+      "Ein Pokémon kommt in die zuletzt geöffnete BOX. Ist sie voll, kommt es in die nächste BOX. Das Öffnen wählt die BOX automatisch als Ziel."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoDANine",
+  "base_symbol": "Route114_LanettesHouse_Text_192DA9",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} закрывает блокнот."
+    ],
+    "A2": [
+      "{PLAYER} закрывает блокнот."
+    ],
+    "natural": [
+      "{PLAYER} закрывает блокнот."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} schließt das Notizbuch."
+    ],
+    "A2": [
+      "{PLAYER} schließt das Notizbuch."
+    ],
+    "natural": [
+      "{PLAYER} schließt das Notizbuch."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourLanettesHouseOneNineTwoDCOne",
+  "base_symbol": "Route114_LanettesHouse_Text_192DC1",
+  "source_path": "data/maps/Route114_LanettesHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На ПК открыто письмо."
+    ],
+    "A2": [
+      "На ПК открыто письмо. Твоя система хранения удобнее моей."
+    ],
+    "natural": [
+      "На ПК открыто письмо. Твоя система хранения удобнее моей. В ней много понятных и полезных функций. Я горжусь тем, что участвовал в её разработке. Продолжай изучать системы хранения. От БИЛЛА"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "коробка",
+        "storage box"
+      ]
+    ],
+    "de": [
+      [
+        "die Box",
+        "storage box"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "E-Mail von BILL: Dein System ist einfacher und nützlicher als meines."
+    ],
+    "A2": [
+      "E-Mail von BILL: Dein System ist einfacher und nützlicher als meines. Ich bin stolz, geholfen zu haben."
+    ],
+    "natural": [
+      "E-Mail von BILL: Dein System ist einfacher und nützlicher als meines. Ich bin stolz, geholfen zu haben. Forsche weiter!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneSevenZeroOneFiveFour",
+  "base_symbol": "Route114_Text_170154",
+  "source_path": "data/maps/Route114/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой покемон только и делает, что РЫЧИТ..."
+    ],
+    "A2": [
+      "Мой покемон только и делает, что РЫЧИТ... Никто не подходит."
+    ],
+    "natural": [
+      "Мой покемон только и делает, что РЫЧИТ... Никто не подходит. Вздох... Забери эту ТМ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Pokémon BRÜLLT nur..."
+    ],
+    "A2": [
+      "Mein Pokémon BRÜLLT nur... Niemand kommt in meine Nähe."
+    ],
+    "natural": [
+      "Mein Pokémon BRÜLLT nur... Niemand kommt in meine Nähe. Seufz... Bitte nimm diese TM."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneSevenZeroOneCFive",
+  "base_symbol": "Route114_Text_1701C5",
+  "source_path": "data/maps/Route114/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТМ05 содержит РЫК."
+    ],
+    "A2": [
+      "ТМ05 содержит РЫК. Он обращает покемонов в бегство."
+    ],
+    "natural": [
+      "ТМ05 содержит РЫК. Он обращает покемонов в бегство."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TM05 enthält BRÜLLER."
+    ],
+    "A2": [
+      "TM05 enthält BRÜLLER. Er jagt Pokémon in die Flucht."
+    ],
+    "natural": [
+      "TM05 enthält BRÜLLER. Er jagt Pokémon in die Flucht."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneSevenZeroOneFNine",
+  "base_symbol": "Route114_Text_1701F9",
+  "source_path": "data/maps/Route114/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Гав!"
+    ],
+    "A2": [
+      "Гав! Гав-гав!"
+    ],
+    "natural": [
+      "Гав! Гав-гав!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wuff!"
+    ],
+    "A2": [
+      "Wuff! Wauwau!"
+    ],
+    "natural": [
+      "Wuff! Wauwau!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneSevenZeroTwoZeroSix",
+  "base_symbol": "Route114_Text_170206",
+  "source_path": "data/maps/Route114/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МЕТЕОР-ФОЛЛС ПРОХОД В РАСТБОРО"
+    ],
+    "A2": [
+      "МЕТЕОР-ФОЛЛС ПРОХОД В РАСТБОРО"
+    ],
+    "natural": [
+      "МЕТЕОР-ФОЛЛС ПРОХОД В РАСТБОРО"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "METEORFÄLLE DURCHGANG NACH METAROST"
+    ],
+    "A2": [
+      "METEORFÄLLE DURCHGANG NACH METAROST"
+    ],
+    "natural": [
+      "METEORFÄLLE DURCHGANG NACH METAROST"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneSevenZeroTwoTwoE",
+  "base_symbol": "Route114_Text_17022E",
+  "source_path": "data/maps/Route114/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДОМ ЧУДАКА С ОКАМЕНЕЛОСТЯМИ Окаменелости принимаются!"
+    ],
+    "A2": [
+      "ДОМ ЧУДАКА С ОКАМЕНЕЛОСТЯМИ Окаменелости принимаются!"
+    ],
+    "natural": [
+      "ДОМ ЧУДАКА С ОКАМЕНЕЛОСТЯМИ Окаменелости принимаются!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAUS DES FOSSILIENMANIACs Fossilien willkommen!"
+    ],
+    "A2": [
+      "HAUS DES FOSSILIENMANIACs Fossilien willkommen!"
+    ],
+    "natural": [
+      "HAUS DES FOSSILIENMANIACs Fossilien willkommen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneSevenZeroTwoSixThree",
+  "base_symbol": "Route114_Text_170263",
+  "source_path": "data/maps/Route114/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДОМ ЛАНЕТТ"
+    ],
+    "A2": [
+      "ДОМ ЛАНЕТТ"
+    ],
+    "natural": [
+      "ДОМ ЛАНЕТТ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LANETTES HAUS"
+    ],
+    "A2": [
+      "LANETTES HAUS"
+    ],
+    "natural": [
+      "LANETTES HAUS"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCZeroFiveB",
+  "base_symbol": "Route114_Text_1BC05B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Йодль-эй-хи-хо!"
+    ],
+    "A2": [
+      "Йодль-эй-хи-хо! Здесь нет эха, поэтому вы должны ответить тем же!"
+    ],
+    "natural": [
+      "Йодль-эй-хи-хо! Здесь нет эха, поэтому вы должны ответить тем же!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Holleri-du-dö!"
+    ],
+    "A2": [
+      "Holleri-du-dö! Hier gibt es kein Echo, also musst du zurückrufen!"
+    ],
+    "natural": [
+      "Holleri-du-dö! Hier gibt es kein Echo, also musst du zurückrufen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCZeroBFive",
+  "base_symbol": "Route114_Text_1BC0B5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Йодль-эй-хи-хо!"
+    ],
+    "A2": [
+      "Йодль-эй-хи-хо!"
+    ],
+    "natural": [
+      "Йодль-эй-хи-хо!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Holleri-du-dö!"
+    ],
+    "A2": [
+      "Holleri-du-dö!"
+    ],
+    "natural": [
+      "Holleri-du-dö!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCZeroCThree",
+  "base_symbol": "Route114_Text_1BC0C3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В детстве я думал, что кто-то копирует меня и отвечает: Йодль-эй-хи-хо!"
+    ],
+    "A2": [
+      "В детстве я думал, что кто-то копирует меня и отвечает: Йодль-эй-хи-хо!"
+    ],
+    "natural": [
+      "В детстве я думал, что кто-то копирует меня и отвечает: Йодль-эй-хи-хо!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als Kind dachte ich, jemand kopiere mich und rufe Holleri-du-dö zurück!"
+    ],
+    "A2": [
+      "Als Kind dachte ich, jemand kopiere mich und rufe Holleri-du-dö zurück!"
+    ],
+    "natural": [
+      "Als Kind dachte ich, jemand kopiere mich und rufe Holleri-du-dö zurück!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCOneTwoFive",
+  "base_symbol": "Route114_Text_1BC125",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Без подготовки в горы лучше не ходить!"
+    ],
+    "A2": [
+      "Без подготовки в горы лучше не ходить!"
+    ],
+    "natural": [
+      "Без подготовки в горы лучше не ходить!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ohne Vorbereitung solltest du nicht in die Berge gehen!"
+    ],
+    "A2": [
+      "Ohne Vorbereitung solltest du nicht in die Berge gehen!"
+    ],
+    "natural": [
+      "Ohne Vorbereitung solltest du nicht in die Berge gehen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCOneSixThree",
+  "base_symbol": "Route114_Text_1BC163",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Горы не прощают ошибок..."
+    ],
+    "A2": [
+      "Горы не прощают ошибок..."
+    ],
+    "natural": [
+      "Горы не прощают ошибок..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Berge verzeihen keine Fehler..."
+    ],
+    "A2": [
+      "Die Berge verzeihen keine Fehler..."
+    ],
+    "natural": [
+      "Die Berge verzeihen keine Fehler..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCOneEightFour",
+  "base_symbol": "Route114_Text_1BC184",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Зимой горы смертельно опасны из-за метелей и лавин."
+    ],
+    "A2": [
+      "Зимой горы смертельно опасны из-за метелей и лавин."
+    ],
+    "natural": [
+      "Зимой горы смертельно опасны из-за метелей и лавин."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Winter sind Berge wegen Schneestürmen und Lawinen tödlich."
+    ],
+    "A2": [
+      "Im Winter sind Berge wegen Schneestürmen und Lawinen tödlich."
+    ],
+    "natural": [
+      "Im Winter sind Berge wegen Schneestürmen und Lawinen tödlich."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCOneCEight",
+  "base_symbol": "Route114_Text_1BC1C8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В походе можно рыбачить, жарить сладости и рассказывать страшилки."
+    ],
+    "A2": [
+      "В походе можно рыбачить, жарить сладости и рассказывать страшилки. Но лучше всего бои покемонов!"
+    ],
+    "natural": [
+      "В походе можно рыбачить, жарить сладости и рассказывать страшилки. Но лучше всего бои покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Camping kann man angeln, Süßes rösten und Gruselgeschichten erzählen."
+    ],
+    "A2": [
+      "Beim Camping kann man angeln, Süßes rösten und Gruselgeschichten erzählen. Am besten sind Pokémon-Kämpfe!"
+    ],
+    "natural": [
+      "Beim Camping kann man angeln, Süßes rösten und Gruselgeschichten erzählen. Am besten sind Pokémon-Kämpfe!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCTwoThreeF",
+  "base_symbol": "Route114_Text_1BC23F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Слишком сильны!"
+    ],
+    "A2": [
+      "Слишком сильны!"
+    ],
+    "natural": [
+      "Слишком сильны!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Viel zu stark!"
+    ],
+    "A2": [
+      "Viel zu stark!"
+    ],
+    "natural": [
+      "Viel zu stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCTwoFourF",
+  "base_symbol": "Route114_Text_1BC24F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здорово ходить в поход вместе с покемоном."
+    ],
+    "A2": [
+      "Здорово ходить в поход вместе с покемоном."
+    ],
+    "natural": [
+      "Здорово ходить в поход вместе с покемоном."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es ist toll, mit meinem Pokémon zu campen."
+    ],
+    "A2": [
+      "Es ist toll, mit meinem Pokémon zu campen."
+    ],
+    "natural": [
+      "Es ist toll, mit meinem Pokémon zu campen."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCTwoEightNine",
+  "base_symbol": "Route114_Text_1BC289",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "После еды нужна разминка."
+    ],
+    "A2": [
+      "После еды нужна разминка. Давайте сразимся!"
+    ],
+    "natural": [
+      "После еды нужна разминка. Давайте сразимся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nach dem Essen brauche ich Bewegung."
+    ],
+    "A2": [
+      "Nach dem Essen brauche ich Bewegung. Kämpfen wir!"
+    ],
+    "natural": [
+      "Nach dem Essen brauche ich Bewegung. Kämpfen wir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCTwoBE",
+  "base_symbol": "Route114_Text_1BC2BE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О нет!"
+    ],
+    "A2": [
+      "О нет!"
+    ],
+    "natural": [
+      "О нет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh nein!"
+    ],
+    "A2": [
+      "Oh nein!"
+    ],
+    "natural": [
+      "Oh nein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCTwoCSix",
+  "base_symbol": "Route114_Text_1BC2C6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я вкусно поел и теперь засыпаю..."
+    ],
+    "A2": [
+      "Я вкусно поел и теперь засыпаю..."
+    ],
+    "natural": [
+      "Я вкусно поел и теперь засыпаю..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe lecker gegessen und werde nun schläfrig..."
+    ],
+    "A2": [
+      "Ich habe lecker gegessen und werde nun schläfrig..."
+    ],
+    "natural": [
+      "Ich habe lecker gegessen und werde nun schläfrig..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCTwoFFive",
+  "base_symbol": "Route114_Text_1BC2F5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Уфуфу..."
+    ],
+    "A2": [
+      "Уфуфу... Хотите сразиться с моим покемоном?"
+    ],
+    "natural": [
+      "Уфуфу... Хотите сразиться с моим покемоном?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ufufufu..."
+    ],
+    "A2": [
+      "Ufufufu... Möchtest du gegen mein Pokémon kämpfen?"
+    ],
+    "natural": [
+      "Ufufufu... Möchtest du gegen mein Pokémon kämpfen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCThreeTwoSeven",
+  "base_symbol": "Route114_Text_1BC327",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "М-мой покемон..."
+    ],
+    "A2": [
+      "М-мой покемон..."
+    ],
+    "natural": [
+      "М-мой покемон..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "M-mein Pokémon..."
+    ],
+    "A2": [
+      "M-mein Pokémon..."
+    ],
+    "natural": [
+      "M-mein Pokémon..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCThreeThreeSeven",
+  "base_symbol": "Route114_Text_1BC337",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Огромное твёрдое тело, большие рога и острые клыки..."
+    ],
+    "A2": [
+      "Огромное твёрдое тело, большие рога и острые клыки... Хотелось бы такого покемона."
+    ],
+    "natural": [
+      "Огромное твёрдое тело, большие рога и острые клыки... Хотелось бы такого покемона."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein riesiger harter Körper, große Hörner und scharfe Zähne..."
+    ],
+    "A2": [
+      "Ein riesiger harter Körper, große Hörner und scharfe Zähne... So ein Pokémon hätte ich gern."
+    ],
+    "natural": [
+      "Ein riesiger harter Körper, große Hörner und scharfe Zähne... So ein Pokémon hätte ich gern."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCThreeBThree",
+  "base_symbol": "Route114_Text_1BC3B3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Уфуфу..."
+    ],
+    "A2": [
+      "Уфуфу... Сразитесь с моим покемоном..."
+    ],
+    "natural": [
+      "Уфуфу... Сразитесь с моим покемоном..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ufufufu..."
+    ],
+    "A2": [
+      "Ufufufu... Kämpfe gegen mein Pokémon..."
+    ],
+    "natural": [
+      "Ufufufu... Kämpfe gegen mein Pokémon..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCThreeEZero",
+  "base_symbol": "Route114_Text_1BC3E0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как мне повезло увидеть вашего покемона..."
+    ],
+    "A2": [
+      "Как мне повезло увидеть вашего покемона..."
+    ],
+    "natural": [
+      "Как мне повезло увидеть вашего покемона..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was für ein Glück, dein Pokémon zu sehen..."
+    ],
+    "A2": [
+      "Was für ein Glück, dein Pokémon zu sehen..."
+    ],
+    "natural": [
+      "Was für ein Glück, dein Pokémon zu sehen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFourZeroF",
+  "base_symbol": "Route114_Text_1BC40F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Уфуфу..."
+    ],
+    "A2": [
+      "Уфуфу... Когда вижу бой покемонов, меня бросает в дрожь..."
+    ],
+    "natural": [
+      "Уфуфу... Когда вижу бой покемонов, меня бросает в дрожь..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ufufufu..."
+    ],
+    "A2": [
+      "Ufufufu... Wenn ich Pokémon kämpfen sehe, zittere ich am ganzen Körper..."
+    ],
+    "natural": [
+      "Ufufufu... Wenn ich Pokémon kämpfen sehe, zittere ich am ganzen Körper..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFourFiveA",
+  "base_symbol": "Route114_Text_1BC45A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Разводя костёр, держите рядом воду."
+    ],
+    "A2": [
+      "Разводя костёр, держите рядом воду."
+    ],
+    "natural": [
+      "Разводя костёр, держите рядом воду."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Halte beim Lagerfeuer immer Wasser bereit."
+    ],
+    "A2": [
+      "Halte beim Lagerfeuer immer Wasser bereit."
+    ],
+    "natural": [
+      "Halte beim Lagerfeuer immer Wasser bereit."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFourNineNine",
+  "base_symbol": "Route114_Text_1BC499",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Спасибо, что потушили мой огонь!"
+    ],
+    "A2": [
+      "Спасибо, что потушили мой огонь!"
+    ],
+    "natural": [
+      "Спасибо, что потушили мой огонь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Danke, dass du mein Feuer gelöscht hast!"
+    ],
+    "A2": [
+      "Danke, dass du mein Feuer gelöscht hast!"
+    ],
+    "natural": [
+      "Danke, dass du mein Feuer gelöscht hast!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFourBFive",
+  "base_symbol": "Route114_Text_1BC4B5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С огнём в лесу нужно быть осторожным."
+    ],
+    "A2": [
+      "С огнём в лесу нужно быть осторожным. Никогда не недооценивайте его силу."
+    ],
+    "natural": [
+      "С огнём в лесу нужно быть осторожным. Никогда не недооценивайте его силу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit Feuer im Wald muss man vorsichtig sein."
+    ],
+    "A2": [
+      "Mit Feuer im Wald muss man vorsichtig sein. Unterschätze seine Kraft nie."
+    ],
+    "natural": [
+      "Mit Feuer im Wald muss man vorsichtig sein. Unterschätze seine Kraft nie."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFiveTwoFive",
+  "base_symbol": "Route114_Text_1BC525",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Теперь вы держите воду рядом с костром?"
+    ],
+    "A2": [
+      "Теперь вы держите воду рядом с костром?"
+    ],
+    "natural": [
+      "Теперь вы держите воду рядом с костром?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hältst du nun Wasser beim Lagerfeuer bereit?"
+    ],
+    "A2": [
+      "Hältst du nun Wasser beim Lagerfeuer bereit?"
+    ],
+    "natural": [
+      "Hältst du nun Wasser beim Lagerfeuer bereit?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFiveFiveNine",
+  "base_symbol": "Route114_Text_1BC559",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня окатили водой, прежде чем я разгорелся."
+    ],
+    "A2": [
+      "Меня окатили водой, прежде чем я разгорелся."
+    ],
+    "natural": [
+      "Меня окатили водой, прежде чем я разгорелся."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich wurde gelöscht, bevor ich aufflammen konnte."
+    ],
+    "A2": [
+      "Ich wurde gelöscht, bevor ich aufflammen konnte."
+    ],
+    "natural": [
+      "Ich wurde gelöscht, bevor ich aufflammen konnte."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFiveEightC",
+  "base_symbol": "Route114_Text_1BC58C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С огнём в лесу нужно быть осторожным."
+    ],
+    "A2": [
+      "С огнём в лесу нужно быть осторожным. Никогда не недооценивайте его силу."
+    ],
+    "natural": [
+      "С огнём в лесу нужно быть осторожным. Никогда не недооценивайте его силу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit Feuer im Wald muss man vorsichtig sein."
+    ],
+    "A2": [
+      "Mit Feuer im Wald muss man vorsichtig sein. Unterschätze seine Kraft nie."
+    ],
+    "natural": [
+      "Mit Feuer im Wald muss man vorsichtig sein. Unterschätze seine Kraft nie."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCFiveFC",
+  "base_symbol": "Route114_Text_1BC5FC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В рыбалке у вас не было бы шансов."
+    ],
+    "A2": [
+      "В рыбалке у вас не было бы шансов. Выпускайте покемонов!"
+    ],
+    "natural": [
+      "В рыбалке у вас не было бы шансов. Выпускайте покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Angeln hättest du keine Chance."
+    ],
+    "A2": [
+      "Beim Angeln hättest du keine Chance. Schick deine Pokémon los!"
+    ],
+    "natural": [
+      "Beim Angeln hättest du keine Chance. Schick deine Pokémon los!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCSixFiveThree",
+  "base_symbol": "Route114_Text_1BC653",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если бы мы рыбачили, я бы победил..."
+    ],
+    "A2": [
+      "Если бы мы рыбачили, я бы победил..."
+    ],
+    "natural": [
+      "Если бы мы рыбачили, я бы победил..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Angeln hätte ich gewonnen..."
+    ],
+    "A2": [
+      "Beim Angeln hätte ich gewonnen..."
+    ],
+    "natural": [
+      "Beim Angeln hätte ich gewonnen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCSixSevenNine",
+  "base_symbol": "Route114_Text_1BC679",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Попытаю удачу у Метеоритного водопада."
+    ],
+    "A2": [
+      "Попытаю удачу у Метеоритного водопада. Там наверняка водится крупная рыба."
+    ],
+    "natural": [
+      "Попытаю удачу у Метеоритного водопада. Там наверняка водится крупная рыба."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich versuche mein Glück an den Meteorfällen."
+    ],
+    "A2": [
+      "Ich versuche mein Glück an den Meteorfällen. Dort gibt es bestimmt einen großen Fang."
+    ],
+    "natural": [
+      "Ich versuche mein Glück an den Meteorfällen. Dort gibt es bestimmt einen großen Fang."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCSixEC",
+  "base_symbol": "Route114_Text_1BC6EC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Люблю рыбачить и сражаться."
+    ],
+    "A2": [
+      "Люблю рыбачить и сражаться. Если меня вызывают, я готов даже во время рыбалки."
+    ],
+    "natural": [
+      "Люблю рыбачить и сражаться. Если меня вызывают, я готов даже во время рыбалки."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich angle und kämpfe gern."
+    ],
+    "A2": [
+      "Ich angle und kämpfe gern. Bei einer Herausforderung bin ich selbst beim Angeln dabei."
+    ],
+    "natural": [
+      "Ich angle und kämpfe gern. Bei einer Herausforderung bin ich selbst beim Angeln dabei."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCSevenFiveZero",
+  "base_symbol": "Route114_Text_1BC750",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я люблю сражаться, но это не значит, что умею..."
+    ],
+    "A2": [
+      "Я люблю сражаться, но это не значит, что умею..."
+    ],
+    "natural": [
+      "Я люблю сражаться, но это не значит, что умею..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kämpfe gern, doch das heißt nicht, dass ich gut darin bin..."
+    ],
+    "A2": [
+      "Ich kämpfe gern, doch das heißt nicht, dass ich gut darin bin..."
+    ],
+    "natural": [
+      "Ich kämpfe gern, doch das heißt nicht, dass ich gut darin bin..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCSevenEightA",
+  "base_symbol": "Route114_Text_1BC78A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В этот раз получится!"
+    ],
+    "A2": [
+      "В этот раз получится! Я всегда так думаю и не могу бросить ни рыбалку, ни покемонов."
+    ],
+    "natural": [
+      "В этот раз получится! Я всегда так думаю и не могу бросить ни рыбалку, ни покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Diesmal klappt es!"
+    ],
+    "A2": [
+      "Diesmal klappt es! Das denke ich immer und kann weder Angeln noch Pokémon aufgeben."
+    ],
+    "natural": [
+      "Diesmal klappt es! Das denke ich immer und kann weder Angeln noch Pokémon aufgeben."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCSevenEThree",
+  "base_symbol": "Route114_Text_1BC7E3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТАЙРА: Хорошо, я в настроении."
+    ],
+    "A2": [
+      "ТАЙРА: Хорошо, я в настроении. Немного расскажу вам о покемонах."
+    ],
+    "natural": [
+      "ТАЙРА: Хорошо, я в настроении. Немного расскажу вам о покемонах."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TYRA: Gut, ich bin in Stimmung."
+    ],
+    "A2": [
+      "TYRA: Gut, ich bin in Stimmung. Ich bringe dir etwas über Pokémon bei."
+    ],
+    "natural": [
+      "TYRA: Gut, ich bin in Stimmung. Ich bringe dir etwas über Pokémon bei."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCEightThreeFour",
+  "base_symbol": "Route114_Text_1BC834",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТАЙРА: Какой удивительный стиль боя!"
+    ],
+    "A2": [
+      "ТАЙРА: Какой удивительный стиль боя!"
+    ],
+    "natural": [
+      "ТАЙРА: Какой удивительный стиль боя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TYRA: Was für ein erstaunlicher Kampfstil!"
+    ],
+    "A2": [
+      "TYRA: Was für ein erstaunlicher Kampfstil!"
+    ],
+    "natural": [
+      "TYRA: Was für ein erstaunlicher Kampfstil!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCEightFiveEight",
+  "base_symbol": "Route114_Text_1BC858",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТАЙРА: Я обучала свою младшую ученицу Айви покемонам."
+    ],
+    "A2": [
+      "ТАЙРА: Я обучала свою младшую ученицу Айви покемонам."
+    ],
+    "natural": [
+      "ТАЙРА: Я обучала свою младшую ученицу Айви покемонам."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TYRA: Ich brachte meiner jüngeren Schülerin Ivy etwas über Pokémon bei."
+    ],
+    "A2": [
+      "TYRA: Ich brachte meiner jüngeren Schülerin Ivy etwas über Pokémon bei."
+    ],
+    "natural": [
+      "TYRA: Ich brachte meiner jüngeren Schülerin Ivy etwas über Pokémon bei."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCEightEightA",
+  "base_symbol": "Route114_Text_1BC88A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТАЙРА: Хи-хи..."
+    ],
+    "A2": [
+      "ТАЙРА: Хи-хи... Для боя с нами одного покемона мало!"
+    ],
+    "natural": [
+      "ТАЙРА: Хи-хи... Для боя с нами одного покемона мало!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TYRA: Hihi..."
+    ],
+    "A2": [
+      "TYRA: Hihi... Für einen Kampf gegen uns reicht ein Pokémon nicht!"
+    ],
+    "natural": [
+      "TYRA: Hihi... Für einen Kampf gegen uns reicht ein Pokémon nicht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCEightDEight",
+  "base_symbol": "Route114_Text_1BC8D8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙВИ: Кто научил вас всему о покемонах?"
+    ],
+    "A2": [
+      "АЙВИ: Кто научил вас всему о покемонах?"
+    ],
+    "natural": [
+      "АЙВИ: Кто научил вас всему о покемонах?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IVY: Wer hat dir alles über Pokémon beigebracht?"
+    ],
+    "A2": [
+      "IVY: Wer hat dir alles über Pokémon beigebracht?"
+    ],
+    "natural": [
+      "IVY: Wer hat dir alles über Pokémon beigebracht?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCEightFB",
+  "base_symbol": "Route114_Text_1BC8FB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙВИ: Какой удивительный стиль боя!"
+    ],
+    "A2": [
+      "АЙВИ: Какой удивительный стиль боя!"
+    ],
+    "natural": [
+      "АЙВИ: Какой удивительный стиль боя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IVY: Was für ein erstaunlicher Kampfstil!"
+    ],
+    "A2": [
+      "IVY: Was für ein erstaunlicher Kampfstil!"
+    ],
+    "natural": [
+      "IVY: Was für ein erstaunlicher Kampfstil!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCNineOneE",
+  "base_symbol": "Route114_Text_1BC91E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙВИ: Я начала тренироваться благодаря наставнице Тайре!"
+    ],
+    "A2": [
+      "АЙВИ: Я начала тренироваться благодаря наставнице Тайре!"
+    ],
+    "natural": [
+      "АЙВИ: Я начала тренироваться благодаря наставнице Тайре!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IVY: Dank meiner Mentorin Tyra begann ich, Pokémon zu trainieren!"
+    ],
+    "A2": [
+      "IVY: Dank meiner Mentorin Tyra begann ich, Pokémon zu trainieren!"
+    ],
+    "natural": [
+      "IVY: Dank meiner Mentorin Tyra begann ich, Pokémon zu trainieren!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneBCNineSixA",
+  "base_symbol": "Route114_Text_1BC96A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙВИ: У вас только один покемон?"
+    ],
+    "A2": [
+      "АЙВИ: У вас только один покемон? Наверное, ему одиноко."
+    ],
+    "natural": [
+      "АЙВИ: У вас только один покемон? Наверное, ему одиноко."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IVY: Du hast nur ein Pokémon?"
+    ],
+    "A2": [
+      "IVY: Du hast nur ein Pokémon? Es fühlt sich bestimmt einsam."
+    ],
+    "natural": [
+      "IVY: Du hast nur ein Pokémon? Es fühlt sich bestimmt einsam."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneCFiveEightZeroThree",
+  "base_symbol": "Route114_Text_1C5803",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я собираю ЯГОДЫ, чтобы победить в КОНКУРСЕ ПОКЕМОНОВ."
+    ],
+    "A2": [
+      "Я собираю ЯГОДЫ, чтобы победить в КОНКУРСЕ ПОКЕМОНОВ. Хочешь, поделюсь одной?"
+    ],
+    "natural": [
+      "Я собираю ЯГОДЫ, чтобы победить в КОНКУРСЕ ПОКЕМОНОВ. Хочешь, поделюсь одной?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich sammle BEEREN für einen POKÉMON-WETTBEWERB."
+    ],
+    "A2": [
+      "Ich sammle BEEREN für einen POKÉMON-WETTBEWERB. Möchtest du eine?"
+    ],
+    "natural": [
+      "Ich sammle BEEREN für einen POKÉMON-WETTBEWERB. Möchtest du eine?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneCFiveEightSixOne",
+  "base_symbol": "Route114_Text_1C5861",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "И тебе удачи!"
+    ],
+    "A2": [
+      "И тебе удачи!"
+    ],
+    "natural": [
+      "И тебе удачи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dir auch viel Glück!"
+    ],
+    "A2": [
+      "Dir auch viel Glück!"
+    ],
+    "natural": [
+      "Dir auch viel Glück!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneFourOneCFiveEightSevenEight",
+  "base_symbol": "Route114_Text_1C5878",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 114 resident, trainer, fossil, storage, house, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какие ЯГОДЫ посадить?"
+    ],
+    "A2": [
+      "Какие ЯГОДЫ посадить? Какого цвета сделать ПОКЕБЛОКИ?"
+    ],
+    "natural": [
+      "Какие ЯГОДЫ посадить? Какого цвета сделать ПОКЕБЛОКИ? Даже такие раздумья по-своему веселы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welche BEEREN pflanze ich?"
+    ],
+    "A2": [
+      "Welche BEEREN pflanze ich? Welche Farbe sollen die POKÉRIEGEL haben?"
+    ],
+    "natural": [
+      "Welche BEEREN pflanze ich? Welche Farbe sollen die POKÉRIEGEL haben? Selbst das Grübeln macht Spaß."
+    ]
+  }
+}
   ]
 }

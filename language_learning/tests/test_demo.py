@@ -646,6 +646,14 @@ class LessonTests(unittest.TestCase):
                            'LavaridgeTown_House', 'LavaridgeTown_Mart',
                            'LavaridgeTown_PokemonCenter_1F')
         paths += [f'data/maps/{area}/scripts.inc' for area in lavaridge_areas]
+        fallarbor_areas = ('Route113', 'Route113_GlassWorkshop', 'FallarborTown',
+                           'FallarborTown_House1', 'FallarborTown_House2',
+                           'FallarborTown_Mart', 'FallarborTown_PokemonCenter_1F',
+                           'FallarborTown_ContestLobby', 'FallarborTown_ContestHall',
+                           'Route114', 'Route114_FossilManiacsHouse',
+                           'Route114_FossilManiacsTunnel', 'Route114_LanettesHouse',
+                           'MeteorFalls_1F_1R', 'MeteorFalls_1F_2R')
+        paths += [f'data/maps/{area}/scripts.inc' for area in fallarbor_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2534,6 +2542,29 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(55, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_fallarbor_story_corridor_is_fully_adaptive(self):
+        areas = ('Route113', 'Route113_GlassWorkshop', 'FallarborTown',
+                 'FallarborTown_House1', 'FallarborTown_House2',
+                 'FallarborTown_Mart', 'FallarborTown_PokemonCenter_1F',
+                 'FallarborTown_ContestLobby', 'FallarborTown_ContestHall',
+                 'Route114', 'Route114_FossilManiacsHouse',
+                 'Route114_FossilManiacsTunnel', 'Route114_LanettesHouse',
+                 'MeteorFalls_1F_1R', 'MeteorFalls_1F_2R')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:Route113|FallarborTown|Route114|MeteorFalls)'
+            r'[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(183, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

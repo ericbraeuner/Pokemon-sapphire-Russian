@@ -22826,6 +22826,1506 @@
         "routes111_112",
         "cable_car"
       ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195760.1140",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15CF95",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195760",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveSevenSixZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1140
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1957a9.1141",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15CF95",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_1957A9",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveSevenANine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1141
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1957f7.1142",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D00B",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_1957F7",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveSevenFSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1142
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1957ba.1143",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D018",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_1957BA",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveSevenBA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1143
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b36f1.1144",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D0F5",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B36F1",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeSixFOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1144
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b40ea.1145",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D0F5",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B40EA",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBFourZeroEA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1145
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b372e.1146",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D0FE",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B372E",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeSevenTwoE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1146
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b4128.1147",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D0FE",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B4128",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBFourOneTwoEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1147
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3778.1148",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D107",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3778",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeSevenSevenEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1148
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b416e.1149",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D107",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B416E",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBFourOneSixE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1149
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3168.1150",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D110",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3168",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeOneSixEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1150
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b31ea.1151",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D110",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B31EA",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeOneEA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1151
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3239.1152",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D110",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3239",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeTwoThreeNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1152
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3b36.1153",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D110",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3B36",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeBThreeSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1153
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3bb8.1154",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D110",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3BB8",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeBBEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1154
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3c07.1155",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D110",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3C07",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeCZeroSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1155
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b32c8.1156",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D127",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B32C8",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeTwoCEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1156
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b336e.1157",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D127",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B336E",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeThreeSixE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1157
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b338d.1158",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D127",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B338D",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeThreeEightD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1158
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3c96.1159",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D127",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3C96",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeCNineSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1159
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3d1e.1160",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D127",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3D1E",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeDOneE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1160
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3d3d.1161",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D127",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3D3D",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeDThreeD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1161
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b33ea.1162",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D13E",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B33EA",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeThreeEA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1162
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3d9a.1163",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D13E",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3D9A",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeDNineA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1163
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3427.1164",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D13E",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3427",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeFourTwoSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1164
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3dd6.1165",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D13E",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3DD6",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeDDSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1165
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3446.1166",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D150",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3446",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeFourFourSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1166
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3df5.1167",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D150",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3DF5",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeDFFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1167
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3470.1168",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D159",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3470",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeFourSevenZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1168
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3e1f.1169",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D159",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3E1F",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeEOneF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1169
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b34c6.1170",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D162",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B34C6",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeFourCSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1170
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3e7a.1171",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D162",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3E7A",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeESevenA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1171
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3503.1172",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D16B",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3503",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeFiveZeroThree"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1172
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b3eba.1173",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D16B",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B3EBA",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeEBA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1173
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b37b4.1174",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D174",
+        "base_text_path": "data/text/aqua_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B37B4",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBThreeSevenBFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1174
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1b41b0.1175",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D174",
+        "base_text_path": "data/text/magma_chimney.inc",
+        "base_text_symbol": "MtChimney_Text_1B41B0",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneBFourOneBZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1175
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195870.1176",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D17D",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195870",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveEightSevenZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1176
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1958c6.1177",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D17D",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_1958C6",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveEightCSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1177
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1958fc.1178",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1BC",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_1958FC",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveEightFC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1178
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195920.1179",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1C6",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195920",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveNineTwoZero"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1179
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195806.1180",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1D0",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195806",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveEightZeroSix"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1180
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.19595c.1181",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1DA",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_19595C",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveNineFiveC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1181
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.19597f.1182",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1E3",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_19597F",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveNineSevenF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1182
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.1959d8.1183",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1E3",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_1959D8",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveNineDEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1183
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195a04.1184",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D1E3",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195A04",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveAZeroFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1184
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195a45.1185",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D20A",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195A45",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveAFourFive"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1185
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195aad.1186",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D20A",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195AAD",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveAAD"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1186
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195ad9.1187",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D20A",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195AD9",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveADNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1187
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195b1c.1188",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D221",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195B1C",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveBOneC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1188
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195b5f.1189",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D221",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195B5F",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveBFiveF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1189
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195b84.1190",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D221",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195B84",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveBEightFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1190
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195bb2.1191",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D238",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195BB2",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveBBTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1191
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195bf9.1192",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D238",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195BF9",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveBFNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1192
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195c31.1193",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D238",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195C31",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveCThreeOne"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1193
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195cd8.1194",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D24F",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195CD8",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveCDEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1194
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195d2f.1195",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D24F",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195D2F",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveDTwoF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1195
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.summit.mtchimney.text.195d5c.1196",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney/scripts.inc",
+        "symbol": "MtChimney_EventScript_15D24F",
+        "base_text_path": "data/maps/MtChimney/text.inc",
+        "base_text_symbol": "MtChimney_Text_195D5C",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyOneNineFiveDFiveC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1196
+      },
+      "tags": [
+        "volcano",
+        "summit"
+      ]
+    },
+    {
+      "id": "volcano.cable_car.mtchimney.cablecarstation.text.19256a.1197",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney_CableCarStation/scripts.inc",
+        "symbol": "MtChimney_CableCarStation_EventScript_15C14B",
+        "base_text_path": "data/maps/MtChimney_CableCarStation/text.inc",
+        "base_text_symbol": "MtChimney_CableCarStation_Text_19256A",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyCableCarStationOneNineTwoFiveSixA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1197
+      },
+      "tags": [
+        "volcano",
+        "cable_car"
+      ]
+    },
+    {
+      "id": "volcano.cable_car.mtchimney.cablecarstation.text.1925a9.1198",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney_CableCarStation/scripts.inc",
+        "symbol": "MtChimney_CableCarStation_EventScript_15C16C",
+        "base_text_path": "data/maps/MtChimney_CableCarStation/text.inc",
+        "base_text_symbol": "MtChimney_CableCarStation_Text_1925A9",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyCableCarStationOneNineTwoFiveANine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1198
+      },
+      "tags": [
+        "volcano",
+        "cable_car"
+      ]
+    },
+    {
+      "id": "volcano.cable_car.mtchimney.cablecarstation.text.1925bf.1199",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/MtChimney_CableCarStation/scripts.inc",
+        "symbol": "MtChimney_CableCarStation_EventScript_15C19B",
+        "base_text_path": "data/maps/MtChimney_CableCarStation/text.inc",
+        "base_text_symbol": "MtChimney_CableCarStation_Text_1925BF",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "MtChimneyCableCarStationOneNineTwoFiveBF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1199
+      },
+      "tags": [
+        "volcano",
+        "cable_car"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195dac.1200",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D285",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195DAC",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveDAC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1200
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195e27.1201",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D285",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195E27",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveETwoSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1201
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195e3e.1202",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D285",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195E3E",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveEThreeE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1202
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195e9e.1203",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D29C",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195E9E",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveENineE"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1203
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195edf.1204",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D29C",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195EDF",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveEDF"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1204
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195f04.1205",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D29C",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195F04",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveFZeroFour"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1205
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195f58.1206",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D2C3",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195F58",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveFFiveEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1206
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195f8c.1207",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D2C3",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195F8C",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveFEightC"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1207
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195fb9.1208",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D2C3",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195FB9",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveFBNine"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1208
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.195ff2.1209",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D2DA",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_195FF2",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineFiveFFTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1209
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.196032.1210",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D2DA",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_196032",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineSixZeroThreeTwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1210
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.196077.1211",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D2DA",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_196077",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineSixZeroSevenSeven"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1211
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.1960aa.1212",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D301",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_1960AA",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineSixZeroAA"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1212
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.1960e2.1213",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D301",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_1960E2",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineSixZeroETwo"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1213
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
+    },
+    {
+      "id": "volcano.jagged_pass.jaggedpass.text.196118.1214",
+      "source": {
+        "kind": "script_hook",
+        "path": "data/maps/JaggedPass/scripts.inc",
+        "symbol": "JaggedPass_EventScript_15D301",
+        "base_text_path": "data/maps/JaggedPass/text.inc",
+        "base_text_symbol": "JaggedPass_Text_196118",
+        "note": "Adaptive translation bridge preserves the original battle, meteorite, travel, reward, and story flow.",
+        "authored_id": "JaggedPassOneNineSixOneOneEight"
+      },
+      "progress": {
+        "chapter": "arrival",
+        "sequence": 1214
+      },
+      "tags": [
+        "volcano",
+        "jagged_pass"
+      ]
     }
   ]
 }

@@ -638,6 +638,9 @@ class LessonTests(unittest.TestCase):
                                'Route111_WinstrateFamilysHouse', 'Route112',
                                'Route112_CableCarStation')
         paths += [f'data/maps/{area}/scripts.inc' for area in route_111_112_areas]
+        volcano_areas = ('MtChimney', 'MtChimney_CableCarStation',
+                         'JaggedPass', 'FieryPath')
+        paths += [f'data/maps/{area}/scripts.inc' for area in volcano_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2489,6 +2492,24 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(103, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_volcanic_story_corridor_is_fully_adaptive(self):
+        areas = ('MtChimney', 'MtChimney_CableCarStation',
+                 'JaggedPass', 'FieryPath')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:MtChimney|JaggedPass|FieryPath)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(75, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

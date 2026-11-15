@@ -51077,6 +51077,3381 @@
           "Fahr ein anderes Mal mit uns."
         ]
       }
+    },
+    {
+      "id": "MtChimneyOneNineFiveSevenSixZero",
+      "base_symbol": "MtChimney_Text_195760",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "ПЕЧЕНЬЕ ЛАВА - местное лакомство ВУЛКАНА ЧИМНИ."
+        ],
+        "A2": [
+          "ПЕЧЕНЬЕ ЛАВА - местное лакомство ВУЛКАНА ЧИМНИ. Одно стоит ¥200."
+        ],
+        "natural": [
+          "ПЕЧЕНЬЕ ЛАВА - местное лакомство ВУЛКАНА ЧИМНИ. Одно стоит ¥200."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "LAVAKEKSE sind eine Spezialität des SCHLOTBERGS."
+        ],
+        "A2": [
+          "LAVAKEKSE sind eine Spezialität des SCHLOTBERGS. Einer kostet ¥200."
+        ],
+        "natural": [
+          "LAVAKEKSE sind eine Spezialität des SCHLOTBERGS. Einer kostet ¥200."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveSevenANine",
+      "base_symbol": "MtChimney_Text_1957A9",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Спасибо, дорогой!"
+        ],
+        "A2": [
+          "Спасибо, дорогой!"
+        ],
+        "natural": [
+          "Спасибо, дорогой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Danke, mein Schatz!"
+        ],
+        "A2": [
+          "Danke, mein Schatz!"
+        ],
+        "natural": [
+          "Danke, mein Schatz!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveSevenFSeven",
+      "base_symbol": "MtChimney_Text_1957F7",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ну ладно."
+        ],
+        "A2": [
+          "Ну ладно."
+        ],
+        "natural": [
+          "Ну ладно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Na gut."
+        ],
+        "A2": [
+          "Na gut."
+        ],
+        "natural": [
+          "Na gut."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveSevenBA",
+      "base_symbol": "MtChimney_Text_1957BA",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ох!"
+        ],
+        "A2": [
+          "Ох! Без денег ничего не купишь."
+        ],
+        "natural": [
+          "Ох! Без денег ничего не купишь."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh je!"
+        ],
+        "A2": [
+          "Oh je! Ohne Geld kannst du nichts kaufen."
+        ],
+        "natural": [
+          "Oh je! Ohne Geld kannst du nichts kaufen."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeSixFOne",
+      "base_symbol": "MtChimney_Text_1B36F1",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Чёрт..."
+        ],
+        "A2": [
+          "Чёрт... КОМАНДА АКВА превосходит нас числом!"
+        ],
+        "natural": [
+          "Чёрт... КОМАНДА АКВА превосходит нас числом!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mist..."
+        ],
+        "A2": [
+          "Mist... TEAM AQUA ist uns zahlenmäßig überlegen!"
+        ],
+        "natural": [
+          "Mist... TEAM AQUA ist uns zahlenmäßig überlegen!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBFourZeroEA",
+      "base_symbol": "MtChimney_Text_1B40EA",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Чёрт..."
+        ],
+        "A2": [
+          "Чёрт... Их больше!"
+        ],
+        "natural": [
+          "Чёрт... Их больше! Мы не справляемся!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mist..."
+        ],
+        "A2": [
+          "Mist... Sie sind in Überzahl!"
+        ],
+        "natural": [
+          "Mist... Sie sind in Überzahl! Wir halten nicht mit!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeSevenTwoE",
+      "base_symbol": "MtChimney_Text_1B372E",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Если море расширится, людям и покемонам останется меньше мест для жизни!"
+        ],
+        "A2": [
+          "Если море расширится, людям и покемонам останется меньше мест для жизни!"
+        ],
+        "natural": [
+          "Если море расширится, людям и покемонам останется меньше мест для жизни!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wächst das Meer, bleibt weniger Lebensraum für Menschen und Pokémon!"
+        ],
+        "A2": [
+          "Wächst das Meer, bleibt weniger Lebensraum für Menschen und Pokémon!"
+        ],
+        "natural": [
+          "Wächst das Meer, bleibt weniger Lebensraum für Menschen und Pokémon!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBFourOneTwoEight",
+      "base_symbol": "MtChimney_Text_1B4128",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Если суши станет больше, водным покемонам негде жить!"
+        ],
+        "A2": [
+          "Если суши станет больше, водным покемонам негде жить!"
+        ],
+        "natural": [
+          "Если суши станет больше, водным покемонам негде жить!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mehr Land lässt weniger Raum für WASSER-POKéMON!"
+        ],
+        "A2": [
+          "Mehr Land lässt weniger Raum für WASSER-POKéMON!"
+        ],
+        "natural": [
+          "Mehr Land lässt weniger Raum für WASSER-POKéMON!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeSevenSevenEight",
+      "base_symbol": "MtChimney_Text_1B3778",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КОМАНДА АКВА хочет расширить море..."
+        ],
+        "A2": [
+          "КОМАНДА АКВА хочет расширить море... Безумие!"
+        ],
+        "natural": [
+          "КОМАНДА АКВА хочет расширить море... Безумие!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TEAM AQUA will das Meer vergrößern..."
+        ],
+        "A2": [
+          "TEAM AQUA will das Meer vergrößern... Irrsinn!"
+        ],
+        "natural": [
+          "TEAM AQUA will das Meer vergrößern... Irrsinn!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBFourOneSixE",
+      "base_symbol": "MtChimney_Text_1B416E",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КОМАНДА МАГМА хочет расширить материк..."
+        ],
+        "A2": [
+          "КОМАНДА МАГМА хочет расширить материк... Безумие!"
+        ],
+        "natural": [
+          "КОМАНДА МАГМА хочет расширить материк... Безумие!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TEAM MAGMA will die Landmasse vergrößern..."
+        ],
+        "A2": [
+          "TEAM MAGMA will die Landmasse vergrößern... Irrsinn!"
+        ],
+        "natural": [
+          "TEAM MAGMA will die Landmasse vergrößern... Irrsinn!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeOneSixEight",
+      "base_symbol": "MtChimney_Text_1B3168",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе!"
+        ],
+        "A2": [
+          "Хе-хе! Ты всё-таки добрался сюда, но опоздал."
+        ],
+        "natural": [
+          "Хе-хе! Ты всё-таки добрался сюда, но опоздал. МЕТЕОРИТ из МЕТЕОР-ФОЛЛС уже у босса!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe!"
+        ],
+        "A2": [
+          "Hehe! Du bist hier, aber zu spät."
+        ],
+        "natural": [
+          "Hehe! Du bist hier, aber zu spät. Der BOSS hat schon den METEORITEN aus den METEORFÄLLEN!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeOneEA",
+      "base_symbol": "MtChimney_Text_1B31EA",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе..."
+        ],
+        "A2": [
+          "Хе-хе... Я проиграл."
+        ],
+        "natural": [
+          "Хе-хе... Я проиграл. Хорошо, что не сразился с тобой в МЕТЕОР-ФОЛЛС."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe..."
+        ],
+        "A2": [
+          "Hehe... Ich verlor."
+        ],
+        "natural": [
+          "Hehe... Ich verlor. Gut, dass wir nicht schon bei den METEORFÄLLEN kämpften."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeTwoThreeNine",
+      "base_symbol": "MtChimney_Text_1B3239",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты победил меня, но против босса шансов нет!"
+        ],
+        "A2": [
+          "Ты победил меня, но против босса шансов нет! Уходи, пока не получил взбучку!"
+        ],
+        "natural": [
+          "Ты победил меня, но против босса шансов нет! Уходи, пока не получил взбучку!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du hast mich besiegt, doch gegen den BOSS hast du keine Chance!"
+        ],
+        "A2": [
+          "Du hast mich besiegt, doch gegen den BOSS hast du keine Chance! Geh, solange du kannst!"
+        ],
+        "natural": [
+          "Du hast mich besiegt, doch gegen den BOSS hast du keine Chance! Geh, solange du kannst!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeBThreeSix",
+      "base_symbol": "MtChimney_Text_1B3B36",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе!"
+        ],
+        "A2": [
+          "Хе-хе! Ты всё-таки добрался сюда!"
+        ],
+        "natural": [
+          "Хе-хе! Ты всё-таки добрался сюда! Но слишком поздно! МЕТЕОРИТ уже у БОССА!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe!"
+        ],
+        "A2": [
+          "Hehe! Du bist wirklich hier!"
+        ],
+        "natural": [
+          "Hehe! Du bist wirklich hier! Doch zu spät! Der BOSS hat den METEORITEN!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeBBEight",
+      "base_symbol": "MtChimney_Text_1B3BB8",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе..."
+        ],
+        "A2": [
+          "Хе-хе... Я проиграл..."
+        ],
+        "natural": [
+          "Хе-хе... Я проиграл... Хорошо, что не сразился с тобой у Метеоритного водопада."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe..."
+        ],
+        "A2": [
+          "Hehe... Ich verlor..."
+        ],
+        "natural": [
+          "Hehe... Ich verlor... Gut, dass ich bei den Meteorfällen nicht kämpfte."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeCZeroSeven",
+      "base_symbol": "MtChimney_Text_1B3C07",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Хе-хе!"
+        ],
+        "A2": [
+          "Хе-хе! Ты победил меня, но против БОССА тебе не выстоять!"
+        ],
+        "natural": [
+          "Хе-хе! Ты победил меня, но против БОССА тебе не выстоять! Уходи, пока не получил!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hehe!"
+        ],
+        "A2": [
+          "Hehe! Mich besiegt, doch gegen den BOSS hast du keine Chance!"
+        ],
+        "natural": [
+          "Hehe! Mich besiegt, doch gegen den BOSS hast du keine Chance! Geh, solange du kannst!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeTwoCEight",
+      "base_symbol": "MtChimney_Text_1B32C8",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КОМАНДА АКВА трудится ради всех."
+        ],
+        "A2": [
+          "КОМАНДА АКВА трудится ради всех. Больше воды порадует водных покемонов и даст людям места для плавания!"
+        ],
+        "natural": [
+          "КОМАНДА АКВА трудится ради всех. Больше воды порадует водных покемонов и даст людям места для плавания!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TEAM AQUA arbeitet für alle."
+        ],
+        "A2": [
+          "TEAM AQUA arbeitet für alle. Mehr Wasser freut Wasser-Pokémon und schafft Badeplätze!"
+        ],
+        "natural": [
+          "TEAM AQUA arbeitet für alle. Mehr Wasser freut Wasser-Pokémon und schafft Badeplätze!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeThreeSixE",
+      "base_symbol": "MtChimney_Text_1B336E",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Что?"
+        ],
+        "A2": [
+          "Что? Как это я проиграл?"
+        ],
+        "natural": [
+          "Что? Как это я проиграл?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was?"
+        ],
+        "A2": [
+          "Was? Wie konnte ich verlieren?"
+        ],
+        "natural": [
+          "Was? Wie konnte ich verlieren?"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeThreeEightD",
+      "base_symbol": "MtChimney_Text_1B338D",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Босс говорит, что это осчастливит всех."
+        ],
+        "A2": [
+          "Босс говорит, что это осчастливит всех. Почему же нам постоянно мешают?"
+        ],
+        "natural": [
+          "Босс говорит, что это осчастливит всех. Почему же нам постоянно мешают?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der BOSS sagt, es macht alle glücklich."
+        ],
+        "A2": [
+          "Der BOSS sagt, es macht alle glücklich. Warum stellt man sich uns in den Weg?"
+        ],
+        "natural": [
+          "Der BOSS sagt, es macht alle glücklich. Warum stellt man sich uns in den Weg?"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeCNineSix",
+      "base_symbol": "MtChimney_Text_1B3C96",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КОМАНДА МАГМА трудится ради всех."
+        ],
+        "A2": [
+          "КОМАНДА МАГМА трудится ради всех. Больше земли - больше мест для жизни."
+        ],
+        "natural": [
+          "КОМАНДА МАГМА трудится ради всех. Больше земли - больше мест для жизни. Все будут счастливы!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "TEAM MAGMA arbeitet für alle."
+        ],
+        "A2": [
+          "TEAM MAGMA arbeitet für alle. Mehr Land, mehr Platz zum Leben."
+        ],
+        "natural": [
+          "TEAM MAGMA arbeitet für alle. Mehr Land, mehr Platz zum Leben. Alle sind froh!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeDOneE",
+      "base_symbol": "MtChimney_Text_1B3D1E",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "А?"
+        ],
+        "A2": [
+          "А? Как это я проиграл?"
+        ],
+        "natural": [
+          "А? Как это я проиграл?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Hä?"
+        ],
+        "A2": [
+          "Hä? Wie konnte ich verlieren?"
+        ],
+        "natural": [
+          "Hä? Wie konnte ich verlieren?"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeDThreeD",
+      "base_symbol": "MtChimney_Text_1B3D3D",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "БОСС говорит: все станут счастливы."
+        ],
+        "A2": [
+          "БОСС говорит: все станут счастливы. Почему же нам мешают?"
+        ],
+        "natural": [
+          "БОСС говорит: все станут счастливы. Почему же нам мешают?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der BOSS sagt: Alle werden glücklich."
+        ],
+        "A2": [
+          "Der BOSS sagt: Alle werden glücklich. Warum stört man uns dann?"
+        ],
+        "natural": [
+          "Der BOSS sagt: Alle werden glücklich. Warum stört man uns dann?"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeThreeEA",
+      "base_symbol": "MtChimney_Text_1B33EA",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Проклятая КОМАНДА МАГМА вечно рушит наши планы!"
+        ],
+        "A2": [
+          "Проклятая КОМАНДА МАГМА вечно рушит наши планы!"
+        ],
+        "natural": [
+          "Проклятая КОМАНДА МАГМА вечно рушит наши планы!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieses lästige TEAM MAGMA stört ständig unsere Pläne!"
+        ],
+        "A2": [
+          "Dieses lästige TEAM MAGMA stört ständig unsere Pläne!"
+        ],
+        "natural": [
+          "Dieses lästige TEAM MAGMA stört ständig unsere Pläne!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeDNineA",
+      "base_symbol": "MtChimney_Text_1B3D9A",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Проклятая КОМАНДА АКВА..."
+        ],
+        "A2": [
+          "Проклятая КОМАНДА АКВА... Вечно мешает нашим планам!"
+        ],
+        "natural": [
+          "Проклятая КОМАНДА АКВА... Вечно мешает нашим планам!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dieses lästige TEAM AQUA..."
+        ],
+        "A2": [
+          "Dieses lästige TEAM AQUA... Es stört ständig unsere Pläne!"
+        ],
+        "natural": [
+          "Dieses lästige TEAM AQUA... Es stört ständig unsere Pläne!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeFourTwoSeven",
+      "base_symbol": "MtChimney_Text_1B3427",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В МЕТЕОРИТАХ скрыта невероятная сила!"
+        ],
+        "A2": [
+          "В МЕТЕОРИТАХ скрыта невероятная сила!"
+        ],
+        "natural": [
+          "В МЕТЕОРИТАХ скрыта невероятная сила!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "METEORITEN bergen unglaubliche Kraft!"
+        ],
+        "A2": [
+          "METEORITEN bergen unglaubliche Kraft!"
+        ],
+        "natural": [
+          "METEORITEN bergen unglaubliche Kraft!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeDDSix",
+      "base_symbol": "MtChimney_Text_1B3DD6",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "В МЕТЕОРИТАХ скрыта невероятная сила!"
+        ],
+        "A2": [
+          "В МЕТЕОРИТАХ скрыта невероятная сила!"
+        ],
+        "natural": [
+          "В МЕТЕОРИТАХ скрыта невероятная сила!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "METEORITEN bergen unglaubliche Kraft!"
+        ],
+        "A2": [
+          "METEORITEN bergen unglaubliche Kraft!"
+        ],
+        "natural": [
+          "METEORITEN bergen unglaubliche Kraft!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeFourFourSix",
+      "base_symbol": "MtChimney_Text_1B3446",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вперёд!"
+        ],
+        "A2": [
+          "Вперёд! Раздави КОМАНДУ МАГМА и расширь море!"
+        ],
+        "natural": [
+          "Вперёд! Раздави КОМАНДУ МАГМА и расширь море!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Los!"
+        ],
+        "A2": [
+          "Los! Besiege TEAM MAGMA und erweitere das Meer!"
+        ],
+        "natural": [
+          "Los! Besiege TEAM MAGMA und erweitere das Meer!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeDFFive",
+      "base_symbol": "MtChimney_Text_1B3DF5",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вперёд!"
+        ],
+        "A2": [
+          "Вперёд! Разгромим АКВА!"
+        ],
+        "natural": [
+          "Вперёд! Разгромим АКВА! Расширим землю!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Los!"
+        ],
+        "A2": [
+          "Los! Besiegt TEAM AQUA!"
+        ],
+        "natural": [
+          "Los! Besiegt TEAM AQUA! Vergrößert das Land!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeFourSevenZero",
+      "base_symbol": "MtChimney_Text_1B3470",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Не мешай нам."
+        ],
+        "A2": [
+          "Не мешай нам. Мы расширяем море ради всеобщего блага!"
+        ],
+        "natural": [
+          "Не мешай нам. Мы расширяем море ради всеобщего блага!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Stör uns nicht."
+        ],
+        "A2": [
+          "Stör uns nicht. Wir vergrößern das Meer zum Wohl aller!"
+        ],
+        "natural": [
+          "Stör uns nicht. Wir vergrößern das Meer zum Wohl aller!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeEOneF",
+      "base_symbol": "MtChimney_Text_1B3E1F",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Не мешай нам!"
+        ],
+        "A2": [
+          "Не мешай нам! Мы расширяем землю ради всеобщего блага!"
+        ],
+        "natural": [
+          "Не мешай нам! Мы расширяем землю ради всеобщего блага!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Stör uns nicht!"
+        ],
+        "A2": [
+          "Stör uns nicht! Wir vergrößern das Land zum Wohl aller!"
+        ],
+        "natural": [
+          "Stör uns nicht! Wir vergrößern das Land zum Wohl aller!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeFourCSix",
+      "base_symbol": "MtChimney_Text_1B34C6",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Да!"
+        ],
+        "A2": [
+          "Да! Смой их водой!"
+        ],
+        "natural": [
+          "Да! Смой их водой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ja!"
+        ],
+        "A2": [
+          "Ja! Spül sie weg!"
+        ],
+        "natural": [
+          "Ja! Spül sie weg!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeESevenA",
+      "base_symbol": "MtChimney_Text_1B3E7A",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Да!"
+        ],
+        "A2": [
+          "Да! Окати их огнём!"
+        ],
+        "natural": [
+          "Да! Окати их огнём!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ja!"
+        ],
+        "A2": [
+          "Ja! Überschütte sie mit Feuer!"
+        ],
+        "natural": [
+          "Ja! Überschütte sie mit Feuer!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeFiveZeroThree",
+      "base_symbol": "MtChimney_Text_1B3503",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Бу-ша-а!"
+        ],
+        "A2": [
+          "Бу-ша-а!"
+        ],
+        "natural": [
+          "Бу-ша-а!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Wuschaa!"
+        ],
+        "A2": [
+          "Wuschaa!"
+        ],
+        "natural": [
+          "Wuschaa!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeEBA",
+      "base_symbol": "MtChimney_Text_1B3EBA",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Буф!"
+        ],
+        "A2": [
+          "Буф!"
+        ],
+        "natural": [
+          "Буф!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bufoh!"
+        ],
+        "A2": [
+          "Bufoh!"
+        ],
+        "natural": [
+          "Bufoh!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBThreeSevenBFour",
+      "base_symbol": "MtChimney_Text_1B37B4",
+      "source_path": "data/text/aqua_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Бу-фо!"
+        ],
+        "A2": [
+          "Бу-фо!"
+        ],
+        "natural": [
+          "Бу-фо!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Buffo!"
+        ],
+        "A2": [
+          "Buffo!"
+        ],
+        "natural": [
+          "Buffo!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneBFourOneBZero",
+      "base_symbol": "MtChimney_Text_1B41B0",
+      "source_path": "data/text/magma_chimney.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Буша!"
+        ],
+        "A2": [
+          "Буша!"
+        ],
+        "natural": [
+          "Буша!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bushaa!"
+        ],
+        "A2": [
+          "Bushaa!"
+        ],
+        "natural": [
+          "Bushaa!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveEightSevenZero",
+      "base_symbol": "MtChimney_Text_195870",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЕТЕОРИТ установлен в загадочной машине."
+        ],
+        "A2": [
+          "МЕТЕОРИТ установлен в загадочной машине. Вынуть его?"
+        ],
+        "natural": [
+          "МЕТЕОРИТ установлен в загадочной машине. Вынуть его?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein METEORIT steckt in einer seltsamen Maschine."
+        ],
+        "A2": [
+          "Ein METEORIT steckt in einer seltsamen Maschine. Herausnehmen?"
+        ],
+        "natural": [
+          "Ein METEORIT steckt in einer seltsamen Maschine. Herausnehmen?"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveEightCSix",
+      "base_symbol": "MtChimney_Text_1958C6",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} вынимает МЕТЕОРИТ из машины."
+        ],
+        "A2": [
+          "{PLAYER} вынимает МЕТЕОРИТ из машины."
+        ],
+        "natural": [
+          "{PLAYER} вынимает МЕТЕОРИТ из машины."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} nimmt den METEORITEN aus der Maschine."
+        ],
+        "A2": [
+          "{PLAYER} nimmt den METEORITEN aus der Maschine."
+        ],
+        "natural": [
+          "{PLAYER} nimmt den METEORITEN aus der Maschine."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveEightFC",
+      "base_symbol": "MtChimney_Text_1958FC",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "{PLAYER} оставляет МЕТЕОРИТ на месте."
+        ],
+        "A2": [
+          "{PLAYER} оставляет МЕТЕОРИТ на месте."
+        ],
+        "natural": [
+          "{PLAYER} оставляет МЕТЕОРИТ на месте."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "{PLAYER} lässt den METEORITEN liegen."
+        ],
+        "A2": [
+          "{PLAYER} lässt den METEORITEN liegen."
+        ],
+        "natural": [
+          "{PLAYER} lässt den METEORITEN liegen."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveNineTwoZero",
+      "base_symbol": "MtChimney_Text_195920",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Загадочная машина никак не реагирует."
+        ],
+        "A2": [
+          "Загадочная машина никак не реагирует."
+        ],
+        "natural": [
+          "Загадочная машина никак не реагирует."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die seltsame Maschine reagiert nicht."
+        ],
+        "A2": [
+          "Die seltsame Maschine reagiert nicht."
+        ],
+        "natural": [
+          "Die seltsame Maschine reagiert nicht."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveEightZeroSix",
+      "base_symbol": "MtChimney_Text_195806",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "МЕТЕОРИТ установлен в загадочной машине."
+        ],
+        "A2": [
+          "МЕТЕОРИТ установлен в загадочной машине. Она накапливает в нём энергию."
+        ],
+        "natural": [
+          "МЕТЕОРИТ установлен в загадочной машине. Она накапливает в нём энергию."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ein METEORIT steckt in einer seltsamen Maschine."
+        ],
+        "A2": [
+          "Ein METEORIT steckt in einer seltsamen Maschine. Sie speichert Energie darin."
+        ],
+        "natural": [
+          "Ein METEORIT steckt in einer seltsamen Maschine. Sie speichert Energie darin."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveNineFiveC",
+      "base_symbol": "MtChimney_Text_19595C",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КАМЕНИСТАЯ ТРОПА."
+        ],
+        "A2": [
+          "КАМЕНИСТАЯ ТРОПА. ВПЕРЕДИ ЛАВАРИДЖ."
+        ],
+        "natural": [
+          "КАМЕНИСТАЯ ТРОПА. ВПЕРЕДИ ЛАВАРИДЖ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "STEILPASS."
+        ],
+        "A2": [
+          "STEILPASS. VORAUS: BAD LAVASTADT."
+        ],
+        "natural": [
+          "STEILPASS. VORAUS: BAD LAVASTADT."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveNineSevenF",
+      "base_symbol": "MtChimney_Text_19597F",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я отдохнула в горячих источниках и снова полна сил!"
+        ],
+        "A2": [
+          "Я отдохнула в горячих источниках и снова полна сил!"
+        ],
+        "natural": [
+          "Я отдохнула в горячих источниках и снова полна сил!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich erholte mich in den heißen Quellen und bin wieder stark!"
+        ],
+        "A2": [
+          "Ich erholte mich in den heißen Quellen und bin wieder stark!"
+        ],
+        "natural": [
+          "Ich erholte mich in den heißen Quellen und bin wieder stark!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveNineDEight",
+      "base_symbol": "MtChimney_Text_1959D8",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это да!"
+        ],
+        "A2": [
+          "Вот это да! Ну и сила!"
+        ],
+        "natural": [
+          "Вот это да! Ну и сила!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Güte!"
+        ],
+        "A2": [
+          "Meine Güte! Bist du stark!"
+        ],
+        "natural": [
+          "Meine Güte! Bist du stark!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveAZeroFour",
+      "base_symbol": "MtChimney_Text_195A04",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграла."
+        ],
+        "A2": [
+          "Я проиграла. Теперь меня не назовёшь ЭКСПЕРТОМ."
+        ],
+        "natural": [
+          "Я проиграла. Теперь меня не назовёшь ЭКСПЕРТОМ."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verlor."
+        ],
+        "A2": [
+          "Ich verlor. Nun bin ich wohl keine EXPERTIN mehr."
+        ],
+        "natural": [
+          "Ich verlor. Nun bin ich wohl keine EXPERTIN mehr."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveAFourFive",
+      "base_symbol": "MtChimney_Text_195A45",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Если твоё сердце едино с сердцами покемонов, вы добьётесь великого."
+        ],
+        "A2": [
+          "Если твоё сердце едино с сердцами покемонов, вы добьётесь великого."
+        ],
+        "natural": [
+          "Если твоё сердце едино с сердцами покемонов, вы добьётесь великого."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Sind dein Herz und die Herzen deiner Pokémon eins, erreicht ihr Großes."
+        ],
+        "A2": [
+          "Sind dein Herz und die Herzen deiner Pokémon eins, erreicht ihr Großes."
+        ],
+        "natural": [
+          "Sind dein Herz und die Herzen deiner Pokémon eins, erreicht ihr Großes."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveAAD",
+      "base_symbol": "MtChimney_Text_195AAD",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Вот это да!"
+        ],
+        "A2": [
+          "Вот это да! Ну и сила!"
+        ],
+        "natural": [
+          "Вот это да! Ну и сила!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Meine Güte!"
+        ],
+        "A2": [
+          "Meine Güte! Bist du stark!"
+        ],
+        "natural": [
+          "Meine Güte! Bist du stark!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveADNine",
+      "base_symbol": "MtChimney_Text_195AD9",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Похоже, твоё сердце стало едино с сердцами покемонов."
+        ],
+        "A2": [
+          "Похоже, твоё сердце стало едино с сердцами покемонов."
+        ],
+        "natural": [
+          "Похоже, твоё сердце стало едино с сердцами покемонов."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Dein Herz scheint mit den Herzen deiner Pokémon vereint."
+        ],
+        "A2": [
+          "Dein Herz scheint mit den Herzen deiner Pokémon vereint."
+        ],
+        "natural": [
+          "Dein Herz scheint mit den Herzen deiner Pokémon vereint."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveBOneC",
+      "base_symbol": "MtChimney_Text_195B1C",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Во мне пылает огонь!"
+        ],
+        "A2": [
+          "Во мне пылает огонь! Мне нужен бой!"
+        ],
+        "natural": [
+          "Во мне пылает огонь! Мне нужен бой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "In mir brennt ein Feuer!"
+        ],
+        "A2": [
+          "In mir brennt ein Feuer! Ich muss kämpfen!"
+        ],
+        "natural": [
+          "In mir brennt ein Feuer! Ich muss kämpfen!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveBFiveF",
+      "base_symbol": "MtChimney_Text_195B5F",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ух, какой жаркий бой!"
+        ],
+        "A2": [
+          "Ух, какой жаркий бой!"
+        ],
+        "natural": [
+          "Ух, какой жаркий бой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Was für ein heißer Kampf!"
+        ],
+        "A2": [
+          "Was für ein heißer Kampf!"
+        ],
+        "natural": [
+          "Was für ein heißer Kampf!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveBEightFour",
+      "base_symbol": "MtChimney_Text_195B84",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Жар ВУЛКАНА ЧИМНИ разжигает мой огонь!"
+        ],
+        "A2": [
+          "Жар ВУЛКАНА ЧИМНИ разжигает мой огонь!"
+        ],
+        "natural": [
+          "Жар ВУЛКАНА ЧИМНИ разжигает мой огонь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Hitze des SCHLOTBERGS entfacht mein Feuer!"
+        ],
+        "A2": [
+          "Die Hitze des SCHLOTBERGS entfacht mein Feuer!"
+        ],
+        "natural": [
+          "Die Hitze des SCHLOTBERGS entfacht mein Feuer!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveBBTwo",
+      "base_symbol": "MtChimney_Text_195BB2",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я наконец добрался до ВУЛКАНА ЧИМНИ."
+        ],
+        "A2": [
+          "Я наконец добрался до ВУЛКАНА ЧИМНИ. Хочу устроить бой!"
+        ],
+        "natural": [
+          "Я наконец добрался до ВУЛКАНА ЧИМНИ. Хочу устроить бой!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Endlich bin ich am SCHLOTBERG."
+        ],
+        "A2": [
+          "Endlich bin ich am SCHLOTBERG. Jetzt will ich kämpfen!"
+        ],
+        "natural": [
+          "Endlich bin ich am SCHLOTBERG. Jetzt will ich kämpfen!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveBFNine",
+      "base_symbol": "MtChimney_Text_195BF9",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ты сражаешься словно извержение ВУЛКАНА ЧИМНИ!"
+        ],
+        "A2": [
+          "Ты сражаешься словно извержение ВУЛКАНА ЧИМНИ!"
+        ],
+        "natural": [
+          "Ты сражаешься словно извержение ВУЛКАНА ЧИМНИ!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Du kämpfst wie ein Ausbruch des SCHLOTBERGS!"
+        ],
+        "A2": [
+          "Du kämpfst wie ein Ausbruch des SCHLOTBERGS!"
+        ],
+        "natural": [
+          "Du kämpfst wie ein Ausbruch des SCHLOTBERGS!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveCThreeOne",
+      "base_symbol": "MtChimney_Text_195C31",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я наконец здесь."
+        ],
+        "A2": [
+          "Я наконец здесь. Одного осмотра мало."
+        ],
+        "natural": [
+          "Я наконец здесь. Одного осмотра мало. Хочу сражаться и купить ПЕЧЕНЬЕ в подарок."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Endlich bin ich hier."
+        ],
+        "A2": [
+          "Endlich bin ich hier. Ich will kämpfen und LAVAKEKSE als Andenken kaufen."
+        ],
+        "natural": [
+          "Endlich bin ich hier. Ich will kämpfen und LAVAKEKSE als Andenken kaufen."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveCDEight",
+      "base_symbol": "MtChimney_Text_195CD8",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "После горячих источников я чувствую себя прекрасно."
+        ],
+        "A2": [
+          "После горячих источников я чувствую себя прекрасно. Я точно побежу!"
+        ],
+        "natural": [
+          "После горячих источников я чувствую себя прекрасно. Я точно побежу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Seit dem heißen Bad fühle ich mich großartig."
+        ],
+        "A2": [
+          "Seit dem heißen Bad fühle ich mich großartig. Ich gewinne bestimmt!"
+        ],
+        "natural": [
+          "Seit dem heißen Bad fühle ich mich großartig. Ich gewinne bestimmt!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveDTwoF",
+      "base_symbol": "MtChimney_Text_195D2F",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Ай!"
+        ],
+        "A2": [
+          "Ай! Вне воды мне уже холодно."
+        ],
+        "natural": [
+          "Ай! Вне воды мне уже холодно."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Autsch!"
+        ],
+        "A2": [
+          "Autsch! Außerhalb des Wassers friere ich."
+        ],
+        "natural": [
+          "Autsch! Außerhalb des Wassers friere ich."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyOneNineFiveDFiveC",
+      "base_symbol": "MtChimney_Text_195D5C",
+      "source_path": "data/maps/MtChimney/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney summit, meteorite, Team Aqua/Magma, battle, or story interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Надо снова окунуться в горячий источник."
+        ],
+        "A2": [
+          "Надо снова окунуться в горячий источник. Со мной?"
+        ],
+        "natural": [
+          "Надо снова окунуться в горячий источник. Со мной? Шучу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "вулкан",
+            "volcano"
+          ]
+        ],
+        "de": [
+          [
+            "der Vulkan",
+            "volcano"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich muss wieder in die heiße Quelle."
+        ],
+        "A2": [
+          "Ich muss wieder in die heiße Quelle. Kommst du mit?"
+        ],
+        "natural": [
+          "Ich muss wieder in die heiße Quelle. Kommst du mit? Nur Spaß!"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyCableCarStationOneNineTwoFiveSixA",
+      "base_symbol": "MtChimney_CableCarStation_Text_19256A",
+      "source_path": "data/maps/MtChimney_CableCarStation/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney Cable Car station visitor or travel interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КАНАТНАЯ ДОРОГА готова к спуску."
+        ],
+        "A2": [
+          "КАНАТНАЯ ДОРОГА готова к спуску. Поедешь?"
+        ],
+        "natural": [
+          "КАНАТНАЯ ДОРОГА готова к спуску. Поедешь?"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "канатная дорога",
+            "cable car"
+          ]
+        ],
+        "de": [
+          [
+            "die Seilbahn",
+            "cable car"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die SEILBAHN fährt hinab."
+        ],
+        "A2": [
+          "Die SEILBAHN fährt hinab. Möchtest du mitfahren?"
+        ],
+        "natural": [
+          "Die SEILBAHN fährt hinab. Möchtest du mitfahren?"
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyCableCarStationOneNineTwoFiveANine",
+      "base_symbol": "MtChimney_CableCarStation_Text_1925A9",
+      "source_path": "data/maps/MtChimney_CableCarStation/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney Cable Car station visitor or travel interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Проходи сюда."
+        ],
+        "A2": [
+          "Проходи сюда."
+        ],
+        "natural": [
+          "Проходи сюда."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "канатная дорога",
+            "cable car"
+          ]
+        ],
+        "de": [
+          [
+            "die Seilbahn",
+            "cable car"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Bitte hier entlang."
+        ],
+        "A2": [
+          "Bitte hier entlang."
+        ],
+        "natural": [
+          "Bitte hier entlang."
+        ]
+      }
+    },
+    {
+      "id": "MtChimneyCableCarStationOneNineTwoFiveBF",
+      "base_symbol": "MtChimney_CableCarStation_Text_1925BF",
+      "source_path": "data/maps/MtChimney_CableCarStation/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Mt. Chimney Cable Car station visitor or travel interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Приходи прокатиться в другой раз."
+        ],
+        "A2": [
+          "Приходи прокатиться в другой раз."
+        ],
+        "natural": [
+          "Приходи прокатиться в другой раз."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "канатная дорога",
+            "cable car"
+          ]
+        ],
+        "de": [
+          [
+            "die Seilbahn",
+            "cable car"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Fahr ein anderes Mal mit uns."
+        ],
+        "A2": [
+          "Fahr ein anderes Mal mit uns."
+        ],
+        "natural": [
+          "Fahr ein anderes Mal mit uns."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveDAC",
+      "base_symbol": "JaggedPass_Text_195DAC",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "КАМЕНИСТАЯ ТРОПА ВУЛКАНА ЧИМНИ..."
+        ],
+        "A2": [
+          "КАМЕНИСТАЯ ТРОПА ВУЛКАНА ЧИМНИ... Вот какой должна быть гора!"
+        ],
+        "natural": [
+          "КАМЕНИСТАЯ ТРОПА ВУЛКАНА ЧИМНИ... Вот какой должна быть гора! Эти кочки волнуют мою душу!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der STEILPASS am SCHLOTBERG..."
+        ],
+        "A2": [
+          "Der STEILPASS am SCHLOTBERG... So muss ein Berg sein!"
+        ],
+        "natural": [
+          "Der STEILPASS am SCHLOTBERG... So muss ein Berg sein! Diese Unebenheiten bewegen meine Seele!"
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveETwoSeven",
+      "base_symbol": "JaggedPass_Text_195E27",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Поражение оставило горечь!"
+        ],
+        "A2": [
+          "Поражение оставило горечь!"
+        ],
+        "natural": [
+          "Поражение оставило горечь!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Die Niederlage war bitter!"
+        ],
+        "A2": [
+          "Die Niederlage war bitter!"
+        ],
+        "natural": [
+          "Die Niederlage war bitter!"
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveEThreeE",
+      "base_symbol": "JaggedPass_Text_195E3E",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Да, в бою я проиграл."
+        ],
+        "A2": [
+          "Да, в бою я проиграл. Но в любви к горам я сильнее тебя!"
+        ],
+        "natural": [
+          "Да, в бою я проиграл. Но в любви к горам я сильнее тебя!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ja, den Kampf verlor ich."
+        ],
+        "A2": [
+          "Ja, den Kampf verlor ich. Doch Berge liebe ich mehr als du!"
+        ],
+        "natural": [
+          "Ja, den Kampf verlor ich. Doch Berge liebe ich mehr als du!"
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveENineE",
+      "base_symbol": "JaggedPass_Text_195E9E",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Это не лёгкая прогулка."
+        ],
+        "A2": [
+          "Это не лёгкая прогулка. Для пикника место не подходит."
+        ],
+        "natural": [
+          "Это не лёгкая прогулка. Для пикника место не подходит."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Das ist keine leichte Wanderung und kein Ort für ein Picknick."
+        ],
+        "A2": [
+          "Das ist keine leichte Wanderung und kein Ort für ein Picknick."
+        ],
+        "natural": [
+          "Das ist keine leichte Wanderung und kein Ort für ein Picknick."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveEDF",
+      "base_symbol": "JaggedPass_Text_195EDF",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "О нет!"
+        ],
+        "A2": [
+          "О нет! Земля слишком неровная..."
+        ],
+        "natural": [
+          "О нет! Земля слишком неровная..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Oh nein!"
+        ],
+        "A2": [
+          "Oh nein! Der Boden ist zu uneben..."
+        ],
+        "natural": [
+          "Oh nein! Der Boden ist zu uneben..."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveFZeroFour",
+      "base_symbol": "JaggedPass_Text_195F04",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Знаешь?"
+        ],
+        "A2": [
+          "Знаешь? Некоторые умельцы ездят по этой неровной тропе на велосипеде."
+        ],
+        "natural": [
+          "Знаешь? Некоторые умельцы ездят по этой неровной тропе на велосипеде."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Manche fahren geschickt mit dem Fahrrad über diesen holprigen Pass."
+        ],
+        "A2": [
+          "Manche fahren geschickt mit dem Fahrrad über diesen holprigen Pass."
+        ],
+        "natural": [
+          "Manche fahren geschickt mit dem Fahrrad über diesen holprigen Pass."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveFFiveEight",
+      "base_symbol": "JaggedPass_Text_195F58",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Пикник хорош везде."
+        ],
+        "A2": [
+          "Пикник хорош везде. Как и покемоны!"
+        ],
+        "natural": [
+          "Пикник хорош везде. Как и покемоны!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Picknicks machen überall Spaß."
+        ],
+        "A2": [
+          "Picknicks machen überall Spaß. Genau wie Pokémon!"
+        ],
+        "natural": [
+          "Picknicks machen überall Spaß. Genau wie Pokémon!"
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveFEightC",
+      "base_symbol": "JaggedPass_Text_195F8C",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я проиграла только из-за неровной земли!"
+        ],
+        "A2": [
+          "Я проиграла только из-за неровной земли!"
+        ],
+        "natural": [
+          "Я проиграла только из-за неровной земли!"
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich verlor nur wegen des holprigen Bodens!"
+        ],
+        "A2": [
+          "Ich verlor nur wegen des holprigen Bodens!"
+        ],
+        "natural": [
+          "Ich verlor nur wegen des holprigen Bodens!"
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveFBNine",
+      "base_symbol": "JaggedPass_Text_195FB9",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Забуду поражение и буду наслаждаться прогулкой."
+        ],
+        "A2": [
+          "Забуду поражение и буду наслаждаться прогулкой."
+        ],
+        "natural": [
+          "Забуду поражение и буду наслаждаться прогулкой."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich vergesse die Niederlage und genieße die Wanderung."
+        ],
+        "A2": [
+          "Ich vergesse die Niederlage und genieße die Wanderung."
+        ],
+        "natural": [
+          "Ich vergesse die Niederlage und genieße die Wanderung."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineFiveFFTwo",
+      "base_symbol": "JaggedPass_Text_195FF2",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "По КАМЕНИСТОЙ ТРОПЕ трудно идти."
+        ],
+        "A2": [
+          "По КАМЕНИСТОЙ ТРОПЕ трудно идти. Зато здесь хорошо тренироваться."
+        ],
+        "natural": [
+          "По КАМЕНИСТОЙ ТРОПЕ трудно идти. Зато здесь хорошо тренироваться."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Der STEILPASS ist schwer zu begehen, aber gut fürs Training."
+        ],
+        "A2": [
+          "Der STEILPASS ist schwer zu begehen, aber gut fürs Training."
+        ],
+        "natural": [
+          "Der STEILPASS ist schwer zu begehen, aber gut fürs Training."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineSixZeroThreeTwo",
+      "base_symbol": "JaggedPass_Text_196032",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Всё закончилось, пока мы искали надёжную опору..."
+        ],
+        "A2": [
+          "Всё закончилось, пока мы искали надёжную опору..."
+        ],
+        "natural": [
+          "Всё закончилось, пока мы искали надёжную опору..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Alles war vorbei, während wir noch sicheren Halt suchten..."
+        ],
+        "A2": [
+          "Alles war vorbei, während wir noch sicheren Halt suchten..."
+        ],
+        "natural": [
+          "Alles war vorbei, während wir noch sicheren Halt suchten..."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineSixZeroSevenSeven",
+      "base_symbol": "JaggedPass_Text_196077",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На АКРОБАЙКЕ я смог бы перепрыгивать уступы."
+        ],
+        "A2": [
+          "На АКРОБАЙКЕ я смог бы перепрыгивать уступы."
+        ],
+        "natural": [
+          "На АКРОБАЙКЕ я смог бы перепрыгивать уступы."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Mit einem KUNSTRAD könnte ich über Absätze springen."
+        ],
+        "A2": [
+          "Mit einem KUNSTRAD könnte ich über Absätze springen."
+        ],
+        "natural": [
+          "Mit einem KUNSTRAD könnte ich über Absätze springen."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineSixZeroAA",
+      "base_symbol": "JaggedPass_Text_1960AA",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Я привык к кочкам и теперь пою во время подъёма."
+        ],
+        "A2": [
+          "Я привык к кочкам и теперь пою во время подъёма."
+        ],
+        "natural": [
+          "Я привык к кочкам и теперь пою во время подъёма."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich gewöhnte mich an die Unebenheiten und singe beim Klettern."
+        ],
+        "A2": [
+          "Ich gewöhnte mich an die Unebenheiten und singe beim Klettern."
+        ],
+        "natural": [
+          "Ich gewöhnte mich an die Unebenheiten und singe beim Klettern."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineSixZeroETwo",
+      "base_symbol": "JaggedPass_Text_1960E2",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "На такой неровной земле всё ещё трудно сражаться..."
+        ],
+        "A2": [
+          "На такой неровной земле всё ещё трудно сражаться..."
+        ],
+        "natural": [
+          "На такой неровной земле всё ещё трудно сражаться..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Auf diesem holprigen Boden ist Kämpfen noch immer schwer..."
+        ],
+        "A2": [
+          "Auf diesem holprigen Boden ist Kämpfen noch immer schwer..."
+        ],
+        "natural": [
+          "Auf diesem holprigen Boden ist Kämpfen noch immer schwer..."
+        ]
+      }
+    },
+    {
+      "id": "JaggedPassOneNineSixOneOneEight",
+      "base_symbol": "JaggedPass_Text_196118",
+      "source_path": "data/maps/JaggedPass/text.inc",
+      "adaptive_translation": true,
+      "english": [
+        "A Jagged Pass resident, Team Magma encounter, sign, or mountain-path interaction."
+      ],
+      "ru": {
+        "A1": [
+          "Надо взять АКРОБАЙК у РАЙДЕЛА в МОВИЛЛЕ..."
+        ],
+        "A2": [
+          "Надо взять АКРОБАЙК у РАЙДЕЛА в МОВИЛЛЕ..."
+        ],
+        "natural": [
+          "Надо взять АКРОБАЙК у РАЙДЕЛА в МОВИЛЛЕ..."
+        ]
+      },
+      "words": {
+        "ru": [
+          [
+            "склон",
+            "slope"
+          ]
+        ],
+        "de": [
+          [
+            "der Hang",
+            "slope"
+          ]
+        ]
+      },
+      "de": {
+        "A1": [
+          "Ich sollte bei RADL RAINER in MALVENFROH ein KUNSTRAD holen..."
+        ],
+        "A2": [
+          "Ich sollte bei RADL RAINER in MALVENFROH ein KUNSTRAD holen..."
+        ],
+        "natural": [
+          "Ich sollte bei RADL RAINER in MALVENFROH ein KUNSTRAD holen..."
+        ]
+      }
     }
   ]
 }

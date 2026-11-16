@@ -657,6 +657,10 @@ class LessonTests(unittest.TestCase):
                            'Route114_FossilManiacsTunnel', 'Route114_LanettesHouse',
                            'MeteorFalls_1F_1R', 'MeteorFalls_1F_2R')
         paths += [f'data/maps/{area}/scripts.inc' for area in fallarbor_areas]
+        weather_areas = ('Route118', 'Route119', 'Route119_House',
+                         'Route119_WeatherInstitute_1F',
+                         'Route119_WeatherInstitute_2F')
+        paths += [f'data/maps/{area}/scripts.inc' for area in weather_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2591,6 +2595,23 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(98, len(referenced))
         self.assertTrue(referenced.issubset(covered))
         self.assertEqual(85, len(referenced & bridged))
+
+    def test_routes_118_119_and_weather_story_are_fully_adaptive(self):
+        areas = ('Route118', 'Route119', 'Route119_House',
+                 'Route119_WeatherInstitute_1F', 'Route119_WeatherInstitute_2F')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:Route118|Route119)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(124, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

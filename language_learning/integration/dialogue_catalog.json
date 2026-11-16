@@ -30786,6 +30786,2486 @@
     "petalburg",
     "wally"
   ]
+},
+{
+  "id": "weather.route.route118.text.170d66.1538",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151004",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170D66",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroDSixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1538
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.170f12.1539",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F34",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170F12",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroFOneTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1539
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.170f46.1540",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F5E",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170F46",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroFFourSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1540
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.170f7e.1541",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F5E",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170F7E",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroFSevenE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1541
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.170fb0.1542",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F7F",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170FB0",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroFBZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1542
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.170fc8.1543",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F89",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170FC8",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroFCEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1543
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.170ffe.1544",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F93",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_170FFE",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenZeroFFE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1544
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.17108b.1545",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150F9C",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_17108B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenOneZeroEightB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1545
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1710a5.1546",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_150FA5",
+    "base_text_path": "data/maps/Route118/text.inc",
+    "base_text_symbol": "Route118_Text_1710A5",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneSevenOneZeroAFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1546
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1bdff4.1547",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_15108F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BDFF4",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBDFFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1547
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be03c.1548",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_15108F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE03C",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEZeroThreeC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1548
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be05e.1549",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_15108F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE05E",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEZeroFiveE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1549
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be0ab.1550",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510B6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE0AB",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEZeroAB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1550
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be0d3.1551",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510B6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE0D3",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEZeroDThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1551
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be104.1552",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510B6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE104",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEOneZeroFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1552
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be148.1553",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151139",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE148",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEOneFourEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1553
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be188.1554",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151139",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE188",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEOneEightEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1554
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be19d.1555",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151139",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE19D",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEOneNineD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1555
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be1d7.1556",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151150",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE1D7",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEOneDSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1556
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be1f5.1557",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151150",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE1F5",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEOneFFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1557
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be20d.1558",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151150",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE20D",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBETwoZeroD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1558
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be24a.1559",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510CD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE24A",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBETwoFourA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1559
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be291.1560",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510CD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE291",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBETwoNineOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1560
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be2be.1561",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510CD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE2BE",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBETwoBE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1561
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be318.1562",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510E4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE318",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEThreeOneEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1562
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be385.1563",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510E4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE385",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEThreeEightFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1563
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be39c.1564",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510E4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE39C",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEThreeNineC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1564
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be3e8.1565",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510FB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE3E8",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEThreeEEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1565
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be406.1566",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510FB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE406",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEFourZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1566
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be413.1567",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_1510FB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE413",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEFourOneThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1567
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be489.1568",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151122",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE489",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEFourEightNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1568
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be4cc.1569",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151122",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE4CC",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEFourCC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1569
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route118.text.1be4d9.1570",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route118/scripts.inc",
+    "symbol": "Route118_EventScript_151122",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route118_Text_1BE4D9",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneEightOneBEFourDNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1570
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.house.route119.house.text.19f371.1571",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_House/scripts.inc",
+    "symbol": "Route119_House_EventScript_163DDE",
+    "base_text_path": "data/maps/Route119_House/text.inc",
+    "base_text_symbol": "Route119_House_Text_19F371",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineHouseOneNineFThreeSevenOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1571
+  },
+  "tags": [
+    "weather_corridor",
+    "house"
+  ]
+},
+{
+  "id": "weather.house.route119.house.text.19f406.1572",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_House/scripts.inc",
+    "symbol": "Route119_House_EventScript_163DE7",
+    "base_text_path": "data/maps/Route119_House/text.inc",
+    "base_text_symbol": "Route119_House_Text_19F406",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineHouseOneNineFFourZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1572
+  },
+  "tags": [
+    "weather_corridor",
+    "house"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1710bb.1573",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15125E",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_1710BB",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneZeroBB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1573
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171156.1574",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15128D",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171156",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneOneFiveSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1574
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1711b1.1575",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1512BD",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_1711B1",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneOneBOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1575
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171214.1576",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1512BD",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171214",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneTwoOneFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1576
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171358.1577",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1512D8",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171358",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneThreeFiveEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1577
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1713e2.1578",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151307",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_1713E2",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneThreeETwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1578
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.17140b.1579",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151337",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_17140B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneFourZeroB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1579
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171475.1580",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151337",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171475",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneFourSevenFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1580
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171520.1581",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515C5",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171520",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneFiveTwoZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1581
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.17157c.1582",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515DC",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_17157C",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneFiveSevenC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1582
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1715d7.1583",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515F3",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_1715D7",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneFiveDSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1583
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171698.1584",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15141A",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171698",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneSixNineEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1584
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1716f4.1585",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515FC",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_1716F4",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneSixFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1585
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171749.1586",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151423",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171749",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneSevenFourNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1586
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171762.1587",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15142C",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171762",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneSevenSixTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1587
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.171774.1588",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151605",
+    "base_text_path": "data/maps/Route119/text.inc",
+    "base_text_symbol": "Route119_Text_171774",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneSevenOneSevenSevenFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1588
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be521.1589",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151435",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE521",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFiveTwoOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1589
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be54f.1590",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151435",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE54F",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFiveFourF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1590
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be561.1591",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151435",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE561",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFiveSixOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1591
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be5a4.1592",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15144C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE5A4",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFiveAFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1592
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be5df.1593",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15144C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE5DF",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFiveDF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1593
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be5f8.1594",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15144C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE5F8",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFiveFEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1594
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be632.1595",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151463",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE632",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESixThreeTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1595
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be67b.1596",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151463",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE67B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESixSevenB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1596
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be695.1597",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151463",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE695",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESixNineFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1597
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be6ea.1598",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15147A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE6EA",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESixEA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1598
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be729.1599",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15147A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE729",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESevenTwoNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1599
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be748.1600",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15147A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE748",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESevenFourEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1600
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be784.1601",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151491",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE784",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESevenEightFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1601
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be7d3.1602",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151491",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE7D3",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESevenDThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1602
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be7e9.1603",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151491",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE7E9",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBESevenENine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1603
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be82f.1604",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514A8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE82F",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEightTwoF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1604
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be88d.1605",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514A8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE88D",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEightEightD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1605
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be89a.1606",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514A8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE89A",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEightNineA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1606
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be8bb.1607",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514BF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE8BB",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEightBB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1607
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be90e.1608",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514BF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE90E",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBENineZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1608
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be937.1609",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514BF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE937",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBENineThreeSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1609
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be98d.1610",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514E6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE98D",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBENineEightD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1610
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be9d0.1611",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514E6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE9D0",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBENineDZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1611
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1be9e8.1612",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514E6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BE9E8",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBENineEEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1612
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bea3a.1613",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514FD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEA3A",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEAThreeA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1613
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bea88.1614",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514FD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEA88",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEAEightEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1614
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1beab3.1615",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1514FD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEAB3",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEABThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1615
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1beb22.1616",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151524",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEB22",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEBTwoTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1616
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1beb49.1617",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151524",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEB49",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEBFourNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1617
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1beb68.1618",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151524",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEB68",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEBSixEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1618
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bebc0.1619",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15153B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEBC0",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEBCZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1619
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bec1c.1620",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15153B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEC1C",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBECOneC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1620
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bec2a.1621",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_15153B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEC2A",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBECTwoA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1621
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bec5e.1622",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151552",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEC5E",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBECFiveE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1622
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bec9a.1623",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151552",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEC9A",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBECNineA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1623
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1becb1.1624",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151552",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BECB1",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBECBOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1624
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1becf1.1625",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151569",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BECF1",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBECFOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1625
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bed4c.1626",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151569",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BED4C",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEDFourC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1626
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bed5c.1627",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151569",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BED5C",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEDFiveC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1627
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bedb6.1628",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151580",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEDB6",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEDBSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1628
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bedec.1629",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151580",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEDEC",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEDEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1629
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bee06.1630",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151580",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEE06",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1630
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bee2d.1631",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151597",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEE2D",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEETwoD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1631
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bee4b.1632",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151597",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEE4B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEFourB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1632
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bee66.1633",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_151597",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEE66",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEESixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1633
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1beed0.1634",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEED0",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEEDZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1634
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bef37.1635",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEF37",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFThreeSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1635
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.route.route119.text.1bef67.1636",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119/scripts.inc",
+    "symbol": "Route119_EventScript_1515AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route119_Text_1BEF67",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineOneBEFSixSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1636
+  },
+  "tags": [
+    "weather_corridor",
+    "route"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19eb8a.1637",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C94",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EB8A",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineEBEightA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1637
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ebee.1638",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C94",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EBEE",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineEBEE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1638
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ec0e.1639",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C94",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EC0E",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineECZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1639
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ec6b.1640",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163CAB",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EC6B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineECSixB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1640
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ec89.1641",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163CAB",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EC89",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineECEightNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1641
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ec97.1642",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163CAB",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EC97",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineECNineSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1642
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ecf4.1643",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C67",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19ECF4",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineECFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1643
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ed22.1644",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C4D",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19ED22",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineEDTwoTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1644
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ed6b.1645",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C71",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19ED6B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineEDSixB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1645
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ee25.1646",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C7A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EE25",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineEETwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1646
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.1f.text.19ee8b.1647",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_1F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_1F_EventScript_163C83",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_1F_Text_19EE8B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteOneFOneNineEEEightB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1647
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19eeaf.1648",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163CFC",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19EEAF",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineEEAF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1648
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19ef1b.1649",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163CFC",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19EF1B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFOneB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1649
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19ef3e.1650",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163CFC",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19EF3E",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFThreeE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1650
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19efa3.1651",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D13",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19EFA3",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1651
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19efdd.1652",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D13",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19EFDD",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFDD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1652
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19efe9.1653",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D13",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19EFE9",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFENine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1653
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f042.1654",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D2A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F042",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFZeroFourTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1654
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f0f4.1655",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D2A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F0F4",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFZeroFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1655
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f11b.1656",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D2A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F11B",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFOneOneB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1656
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f1cf.1657",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D7A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F1CF",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFOneCF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1657
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f231.1658",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163DB4",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F231",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoThreeOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1658
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f267.1659",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D7A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F267",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoSixSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1659
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f27d.1660",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163D7A",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F27D",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoSevenD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1660
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
+},
+{
+  "id": "weather.weather.route119.weatherinstitute.2f.text.19f2fe.1661",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route119_WeatherInstitute_2F/scripts.inc",
+    "symbol": "Route119_WeatherInstitute_2F_EventScript_163DBE",
+    "base_text_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+    "base_text_symbol": "Route119_WeatherInstitute_2F_Text_19F2FE",
+    "note": "Adaptive translation preserves the original battle, rival, gift, choice, institute, reward, and story flow.",
+    "authored_id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoFE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1661
+  },
+  "tags": [
+    "weather_corridor",
+    "weather"
+  ]
 }
   ]
 }

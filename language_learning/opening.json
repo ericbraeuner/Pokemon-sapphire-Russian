@@ -68987,6 +68987,5586 @@
       "Du trafst HEIKO in PRACHTPOLIS? Mach keine Scherze, {PLAYER}. Er ist gesünder, könnte aber nicht allein so weit gehen."
     ]
   }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroDSixSix",
+  "base_symbol": "Route118_Text_170D66",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Привет!"
+    ],
+    "A2": [
+      "СТИВЕН: Привет! Ты тренер из ДЬЮФОРДА."
+    ],
+    "natural": [
+      "СТИВЕН: Привет! Ты тренер из ДЬЮФОРДА. Значит, тебя зовут {PLAYER}. В мире много покемонов разных типов. Ты растишь разные типы или только один? Прости, мне не следует спрашивать. До встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Hallo!"
+    ],
+    "A2": [
+      "TROY: Hallo! Du bist der Trainer aus FAUSTAUHAVEN."
+    ],
+    "natural": [
+      "TROY: Hallo! Du bist der Trainer aus FAUSTAUHAVEN. Also {PLAYER}. Es gibt viele Pokémon-Typen. Trainierst du verschiedene oder nur einen? Verzeih die Frage. Bis bald!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroFOneTwo",
+  "base_symbol": "Route118_Text_170F12",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм!"
+    ],
+    "A2": [
+      "Хм! ХОРОШАЯ УДОЧКА и правда хороша!"
+    ],
+    "natural": [
+      "Хм! ХОРОШАЯ УДОЧКА и правда хороша! Согласен?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm!"
+    ],
+    "A2": [
+      "Hm! Die PROFIANGEL ist wirklich gut!"
+    ],
+    "natural": [
+      "Hm! Die PROFIANGEL ist wirklich gut! Findest du nicht?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroFFourSix",
+  "base_symbol": "Route118_Text_170F46",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы думаем одинаково!"
+    ],
+    "A2": [
+      "Мы думаем одинаково! Возьми эту ХОРОШУЮ УДОЧКУ!"
+    ],
+    "natural": [
+      "Мы думаем одинаково! Возьми эту ХОРОШУЮ УДОЧКУ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir denken gleich!"
+    ],
+    "A2": [
+      "Wir denken gleich! Nimm diese PROFIANGEL!"
+    ],
+    "natural": [
+      "Wir denken gleich! Nimm diese PROFIANGEL!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroFSevenE",
+  "base_symbol": "Route118_Text_170F7E",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Увидишь воду - попробуй порыбачить."
+    ],
+    "A2": [
+      "Увидишь воду - попробуй порыбачить."
+    ],
+    "natural": [
+      "Увидишь воду - попробуй порыбачить."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Siehst du Wasser, versuch dein Glück beim Angeln."
+    ],
+    "A2": [
+      "Siehst du Wasser, versuch dein Glück beim Angeln."
+    ],
+    "natural": [
+      "Siehst du Wasser, versuch dein Glück beim Angeln."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroFBZero",
+  "base_symbol": "Route118_Text_170FB0",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не любишь рыбачить?"
+    ],
+    "A2": [
+      "Не любишь рыбачить?"
+    ],
+    "natural": [
+      "Не любишь рыбачить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Angelst du nicht gern?"
+    ],
+    "A2": [
+      "Angelst du nicht gern?"
+    ],
+    "natural": [
+      "Angelst du nicht gern?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroFCEight",
+  "base_symbol": "Route118_Text_170FC8",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лови разных покемонов ХОРОШЕЙ УДОЧКОЙ."
+    ],
+    "A2": [
+      "Лови разных покемонов ХОРОШЕЙ УДОЧКОЙ."
+    ],
+    "natural": [
+      "Лови разных покемонов ХОРОШЕЙ УДОЧКОЙ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Fange viele Pokémon mit der PROFIANGEL."
+    ],
+    "A2": [
+      "Fange viele Pokémon mit der PROFIANGEL."
+    ],
+    "natural": [
+      "Fange viele Pokémon mit der PROFIANGEL."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenZeroFFE",
+  "base_symbol": "Route118_Text_170FFE",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Даже без лодки можно пересекать реки и моря на покемоне с СЁРФИНГОМ."
+    ],
+    "A2": [
+      "Даже без лодки можно пересекать реки и моря на покемоне с СЁРФИНГОМ. Покемоны помогают во многом!"
+    ],
+    "natural": [
+      "Даже без лодки можно пересекать реки и моря на покемоне с СЁРФИНГОМ. Покемоны помогают во многом!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auch ohne Boot überquerst du Flüsse und Meere mit einem Pokémon, das SURFER kann."
+    ],
+    "A2": [
+      "Auch ohne Boot überquerst du Flüsse und Meere mit einem Pokémon, das SURFER kann. Pokémon helfen sehr!"
+    ],
+    "natural": [
+      "Auch ohne Boot überquerst du Flüsse und Meere mit einem Pokémon, das SURFER kann. Pokémon helfen sehr!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenOneZeroEightB",
+  "base_symbol": "Route118_Text_17108B",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАРШРУТ 118."
+    ],
+    "A2": [
+      "МАРШРУТ 118. К МОВИЛЛЮ."
+    ],
+    "natural": [
+      "МАРШРУТ 118. К МОВИЛЛЮ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ROUTE 118."
+    ],
+    "A2": [
+      "ROUTE 118. NACH MALVENFROH."
+    ],
+    "natural": [
+      "ROUTE 118. NACH MALVENFROH."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneSevenOneZeroAFive",
+  "base_symbol": "Route118_Text_1710A5",
+  "source_path": "data/maps/Route118/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАРШРУТ 118."
+    ],
+    "A2": [
+      "МАРШРУТ 118. К МАРШРУТУ 119."
+    ],
+    "natural": [
+      "МАРШРУТ 118. К МАРШРУТУ 119."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ROUTE 118."
+    ],
+    "A2": [
+      "ROUTE 118. ZU ROUTE 119."
+    ],
+    "natural": [
+      "ROUTE 118. ZU ROUTE 119."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBDFFFour",
+  "base_symbol": "Route118_Text_1BDFF4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Аромат цветов обладает волшебной силой."
+    ],
+    "A2": [
+      "Аромат цветов обладает волшебной силой. Он очищает тело и душу."
+    ],
+    "natural": [
+      "Аромат цветов обладает волшебной силой. Он очищает тело и душу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Duft von Blumen hat magische Kraft."
+    ],
+    "A2": [
+      "Der Duft von Blumen hat magische Kraft. Er reinigt Körper und Seele."
+    ],
+    "natural": [
+      "Der Duft von Blumen hat magische Kraft. Er reinigt Körper und Seele."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEZeroThreeC",
+  "base_symbol": "Route118_Text_1BE03C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох ты."
+    ],
+    "A2": [
+      "Ох ты. Кажется, я проиграла."
+    ],
+    "natural": [
+      "Ох ты. Кажется, я проиграла."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oje."
+    ],
+    "A2": [
+      "Oje. Offenbar habe ich verloren."
+    ],
+    "natural": [
+      "Oje. Offenbar habe ich verloren."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEZeroFiveE",
+  "base_symbol": "Route118_Text_1BE05E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Цветы, покемоны..."
+    ],
+    "A2": [
+      "Цветы, покемоны... Я люблю всё, что приятно пахнет."
+    ],
+    "natural": [
+      "Цветы, покемоны... Я люблю всё, что приятно пахнет. А вонючее... Нет, спасибо."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Blumen, Pokémon..."
+    ],
+    "A2": [
+      "Blumen, Pokémon... Ich liebe alles, was gut riecht."
+    ],
+    "natural": [
+      "Blumen, Pokémon... Ich liebe alles, was gut riecht. Stinkendes... Nein, danke."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEZeroAB",
+  "base_symbol": "Route118_Text_1BE0AB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тебя привлёк сюда сладкий аромат?"
+    ],
+    "A2": [
+      "Тебя привлёк сюда сладкий аромат?"
+    ],
+    "natural": [
+      "Тебя привлёк сюда сладкий аромат?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hat dich der süße Duft angelockt?"
+    ],
+    "A2": [
+      "Hat dich der süße Duft angelockt?"
+    ],
+    "natural": [
+      "Hat dich der süße Duft angelockt?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEZeroDThree",
+  "base_symbol": "Route118_Text_1BE0D3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сила аромата..."
+    ],
+    "A2": [
+      "Сила аромата... Похоже, она почти не помогла."
+    ],
+    "natural": [
+      "Сила аромата... Похоже, она почти не помогла."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Kraft des Duftes..."
+    ],
+    "A2": [
+      "Die Kraft des Duftes... Sie hat wohl kaum geholfen."
+    ],
+    "natural": [
+      "Die Kraft des Duftes... Sie hat wohl kaum geholfen."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEOneZeroFour",
+  "base_symbol": "Route118_Text_1BE104",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если правильно использовать сладкий аромат, он привлечёт покемонов."
+    ],
+    "A2": [
+      "Если правильно использовать сладкий аромат, он привлечёт покемонов."
+    ],
+    "natural": [
+      "Если правильно использовать сладкий аромат, он привлечёт покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn du süßen Duft richtig einsetzt, lockt er Pokémon an."
+    ],
+    "A2": [
+      "Wenn du süßen Duft richtig einsetzt, lockt er Pokémon an."
+    ],
+    "natural": [
+      "Wenn du süßen Duft richtig einsetzt, lockt er Pokémon an."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEOneFourEight",
+  "base_symbol": "Route118_Text_1BE148",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покемоны-птицы, изящно летящие по небу..."
+    ],
+    "A2": [
+      "Покемоны-птицы, изящно летящие по небу... Они лучшие!"
+    ],
+    "natural": [
+      "Покемоны-птицы, изящно летящие по небу... Они лучшие!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vogel-Pokémon, die elegant am Himmel fliegen..."
+    ],
+    "A2": [
+      "Vogel-Pokémon, die elegant am Himmel fliegen... Sie sind die Besten!"
+    ],
+    "natural": [
+      "Vogel-Pokémon, die elegant am Himmel fliegen... Sie sind die Besten!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEOneEightEight",
+  "base_symbol": "Route118_Text_1BE188",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох..."
+    ],
+    "A2": [
+      "Ох... Я разбился..."
+    ],
+    "natural": [
+      "Ох... Я разбился..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Uff..."
+    ],
+    "A2": [
+      "Uff... Ich bin abgestürzt..."
+    ],
+    "natural": [
+      "Uff... Ich bin abgestürzt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEOneNineD",
+  "base_symbol": "Route118_Text_1BE19D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя отличные покемоны."
+    ],
+    "A2": [
+      "У тебя отличные покемоны. Мне придётся лучше тренировать своих."
+    ],
+    "natural": [
+      "У тебя отличные покемоны. Мне придётся лучше тренировать своих."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast tolle Pokémon."
+    ],
+    "A2": [
+      "Du hast tolle Pokémon. Ich muss meine besser trainieren."
+    ],
+    "natural": [
+      "Du hast tolle Pokémon. Ich muss meine besser trainieren."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEOneDSeven",
+  "base_symbol": "Route118_Text_1BE1D7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Взлетайте, мои покемоны-птицы!"
+    ],
+    "A2": [
+      "Взлетайте, мои покемоны-птицы!"
+    ],
+    "natural": [
+      "Взлетайте, мои покемоны-птицы!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hebt ab, meine Vogel-Pokémon!"
+    ],
+    "A2": [
+      "Hebt ab, meine Vogel-Pokémon!"
+    ],
+    "natural": [
+      "Hebt ab, meine Vogel-Pokémon!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEOneFFive",
+  "base_symbol": "Route118_Text_1BE1F5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Они и правда взлетели..."
+    ],
+    "A2": [
+      "Они и правда взлетели..."
+    ],
+    "natural": [
+      "Они и правда взлетели..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sie sind wirklich abgehoben..."
+    ],
+    "A2": [
+      "Sie sind wirklich abgehoben..."
+    ],
+    "natural": [
+      "Sie sind wirklich abgehoben..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBETwoZeroD",
+  "base_symbol": "Route118_Text_1BE20D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если бы они стали сильнее, то могли бы летать свободнее..."
+    ],
+    "A2": [
+      "Если бы они стали сильнее, то могли бы летать свободнее..."
+    ],
+    "natural": [
+      "Если бы они стали сильнее, то могли бы летать свободнее..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wären sie stärker, könnten sie freier fliegen..."
+    ],
+    "A2": [
+      "Wären sie stärker, könnten sie freier fliegen..."
+    ],
+    "natural": [
+      "Wären sie stärker, könnten sie freier fliegen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBETwoFourA",
+  "base_symbol": "Route118_Text_1BE24A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я рыбак, но ещё и тренер."
+    ],
+    "A2": [
+      "Я рыбак, но ещё и тренер. Я выращиваю пойманных покемонов."
+    ],
+    "natural": [
+      "Я рыбак, но ещё и тренер. Я выращиваю пойманных покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin Angler und Trainer."
+    ],
+    "A2": [
+      "Ich bin Angler und Trainer. Ich ziehe meine gefangenen Pokémon groß."
+    ],
+    "natural": [
+      "Ich bin Angler und Trainer. Ich ziehe meine gefangenen Pokémon groß."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBETwoNineOne",
+  "base_symbol": "Route118_Text_1BE291",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я думал, мои тренировки идут неплохо..."
+    ],
+    "A2": [
+      "Я думал, мои тренировки идут неплохо..."
+    ],
+    "natural": [
+      "Я думал, мои тренировки идут неплохо..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich dachte, mein Training liefe ganz gut..."
+    ],
+    "A2": [
+      "Ich dachte, mein Training liefe ganz gut..."
+    ],
+    "natural": [
+      "Ich dachte, mein Training liefe ganz gut..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBETwoBE",
+  "base_symbol": "Route118_Text_1BE2BE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не смог победить, тренируя покемонов во время рыбалки..."
+    ],
+    "A2": [
+      "Я не смог победить, тренируя покемонов во время рыбалки... Неужели я всё делал вполсилы?"
+    ],
+    "natural": [
+      "Я не смог победить, тренируя покемонов во время рыбалки... Неужели я всё делал вполсилы?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich konnte nicht gewinnen, während ich beim Angeln trainierte..."
+    ],
+    "A2": [
+      "Ich konnte nicht gewinnen, während ich beim Angeln trainierte... War ich nur halb bei der Sache?"
+    ],
+    "natural": [
+      "Ich konnte nicht gewinnen, während ich beim Angeln trainierte... War ich nur halb bei der Sache?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEThreeOneEight",
+  "base_symbol": "Route118_Text_1BE318",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Для рыбака главное - снасти."
+    ],
+    "A2": [
+      "Для рыбака главное - снасти. А тренеру, конечно, нужны покемоны и сердце!"
+    ],
+    "natural": [
+      "Для рыбака главное - снасти. А тренеру, конечно, нужны покемоны и сердце!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Für Angler zählt die Ausrüstung."
+    ],
+    "A2": [
+      "Für Angler zählt die Ausrüstung. Trainer brauchen natürlich Pokémon und Herz!"
+    ],
+    "natural": [
+      "Für Angler zählt die Ausrüstung. Trainer brauchen natürlich Pokémon und Herz!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEThreeEightFive",
+  "base_symbol": "Route118_Text_1BE385",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня победили силой духа?"
+    ],
+    "A2": [
+      "Меня победили силой духа?"
+    ],
+    "natural": [
+      "Меня победили силой духа?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Kampfgeist wurde besiegt?"
+    ],
+    "A2": [
+      "Mein Kampfgeist wurde besiegt?"
+    ],
+    "natural": [
+      "Mein Kampfgeist wurde besiegt?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEThreeNineC",
+  "base_symbol": "Route118_Text_1BE39C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если подумать, рыбалка - это битва между рыбаком и покемоном."
+    ],
+    "A2": [
+      "Если подумать, рыбалка - это битва между рыбаком и покемоном."
+    ],
+    "natural": [
+      "Если подумать, рыбалка - это битва между рыбаком и покемоном."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eigentlich ist Angeln ein Kampf zwischen einem Angler und einem Pokémon."
+    ],
+    "A2": [
+      "Eigentlich ist Angeln ein Kampf zwischen einem Angler und einem Pokémon."
+    ],
+    "natural": [
+      "Eigentlich ist Angeln ein Kampf zwischen einem Angler und einem Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEThreeEEight",
+  "base_symbol": "Route118_Text_1BE3E8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пусть моя мелодия потрясёт твою душу!"
+    ],
+    "A2": [
+      "Пусть моя мелодия потрясёт твою душу!"
+    ],
+    "natural": [
+      "Пусть моя мелодия потрясёт твою душу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Lass meine Melodie deine Seele rocken!"
+    ],
+    "A2": [
+      "Lass meine Melodie deine Seele rocken!"
+    ],
+    "natural": [
+      "Lass meine Melodie deine Seele rocken!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEFourZeroSix",
+  "base_symbol": "Route118_Text_1BE406",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ла-лалала..."
+    ],
+    "A2": [
+      "Ла-лалала..."
+    ],
+    "natural": [
+      "Ла-лалала..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "La-lalala..."
+    ],
+    "A2": [
+      "La-lalala..."
+    ],
+    "natural": [
+      "La-lalala..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEFourOneThree",
+  "base_symbol": "Route118_Text_1BE413",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Электрогитара не всегда должна шуметь..."
+    ],
+    "A2": [
+      "Электрогитара не всегда должна шуметь... На ней можно сыграть мелодию, трогающую сердце..."
+    ],
+    "natural": [
+      "Электрогитара не всегда должна шуметь... На ней можно сыграть мелодию, трогающую сердце..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eine E-Gitarre muss nicht immer laut sein..."
+    ],
+    "A2": [
+      "Eine E-Gitarre muss nicht immer laut sein... Man kann ihr eine bewegende Melodie entlocken..."
+    ],
+    "natural": [
+      "Eine E-Gitarre muss nicht immer laut sein... Man kann ihr eine bewegende Melodie entlocken..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEFourEightNine",
+  "base_symbol": "Route118_Text_1BE489",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мелодия моих покемонов и моя..."
+    ],
+    "A2": [
+      "Мелодия моих покемонов и моя... Позволь нам донести её до твоей души."
+    ],
+    "natural": [
+      "Мелодия моих покемонов и моя... Позволь нам донести её до твоей души."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eine Melodie von meinen Pokémon und mir..."
+    ],
+    "A2": [
+      "Eine Melodie von meinen Pokémon und mir... Lass sie deine Seele erreichen."
+    ],
+    "natural": [
+      "Eine Melodie von meinen Pokémon und mir... Lass sie deine Seele erreichen."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEFourCC",
+  "base_symbol": "Route118_Text_1BE4CC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ла-лалала..."
+    ],
+    "A2": [
+      "Ла-лалала..."
+    ],
+    "natural": [
+      "Ла-лалала..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "La-lalala..."
+    ],
+    "A2": [
+      "La-lalala..."
+    ],
+    "natural": [
+      "La-lalala..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneEightOneBEFourDNine",
+  "base_symbol": "Route118_Text_1BE4D9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Когда я играю, мои чувства должны дойти до тебя через электрогитару..."
+    ],
+    "A2": [
+      "Когда я играю, мои чувства должны дойти до тебя через электрогитару..."
+    ],
+    "natural": [
+      "Когда я играю, мои чувства должны дойти до тебя через электрогитару..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn ich spiele, sollen dich meine Gefühle durch die E-Gitarre erreichen..."
+    ],
+    "A2": [
+      "Wenn ich spiele, sollen dich meine Gefühle durch die E-Gitarre erreichen..."
+    ],
+    "natural": [
+      "Wenn ich spiele, sollen dich meine Gefühle durch die E-Gitarre erreichen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineHouseOneNineFThreeSevenOne",
+  "base_symbol": "Route119_House_Text_19F371",
+  "source_path": "data/maps/Route119_House/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я слышал о ПЕЩЕРЕ ПРОИСХОЖДЕНИЯ."
+    ],
+    "A2": [
+      "Я слышал о ПЕЩЕРЕ ПРОИСХОЖДЕНИЯ. Говорят, там возрождаются духи покемонов."
+    ],
+    "natural": [
+      "Я слышал о ПЕЩЕРЕ ПРОИСХОЖДЕНИЯ. Говорят, там возрождаются духи покемонов. Разве такое возможно?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дом",
+        "house"
+      ]
+    ],
+    "de": [
+      [
+        "das Haus",
+        "house"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich hörte von der URZEITHÖHLE."
+    ],
+    "A2": [
+      "Ich hörte von der URZEITHÖHLE. Dort sollen Geister von Pokémon wiederbelebt werden."
+    ],
+    "natural": [
+      "Ich hörte von der URZEITHÖHLE. Dort sollen Geister von Pokémon wiederbelebt werden. Kann das stimmen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineHouseOneNineFFourZeroSix",
+  "base_symbol": "Route119_House_Text_19F406",
+  "source_path": "data/maps/Route119_House/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВИНГАЛЛ: Пи-хё?"
+    ],
+    "A2": [
+      "ВИНГАЛЛ: Пи-хё?"
+    ],
+    "natural": [
+      "ВИНГАЛЛ: Пи-хё?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дом",
+        "house"
+      ]
+    ],
+    "de": [
+      [
+        "das Haus",
+        "house"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WINGULL: Pihjo?"
+    ],
+    "A2": [
+      "WINGULL: Pihjo?"
+    ],
+    "natural": [
+      "WINGULL: Pihjo?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneZeroBB",
+  "base_symbol": "Route119_Text_1710BB",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МЭЙ: {PLAYER}!"
+    ],
+    "A2": [
+      "МЭЙ: {PLAYER}! Я тебя искала!"
+    ],
+    "natural": [
+      "МЭЙ: {PLAYER}! Я тебя искала! Насколько ты стал сильнее? Сейчас проверю. Покемоны готовы? Конечно! Вперёд!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAIKE: {PLAYER}!"
+    ],
+    "A2": [
+      "MAIKE: {PLAYER}! Ich suchte dich!"
+    ],
+    "natural": [
+      "MAIKE: {PLAYER}! Ich suchte dich! Wie stark bist du geworden? Ich prüfe es. Deine Pokémon sind bereit? Natürlich! Los!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneOneFiveSix",
+  "base_symbol": "Route119_Text_171156",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ах!"
+    ],
+    "A2": [
+      "Ах! {PLAYER}, ты силён!"
+    ],
+    "natural": [
+      "Ах! {PLAYER}, ты силён! Я боялась, что тренировки даются тебе трудно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ah!"
+    ],
+    "A2": [
+      "Ah! {PLAYER}, du bist stark!"
+    ],
+    "natural": [
+      "Ah! {PLAYER}, du bist stark! Ich sorgte mich, dass dein Training schlecht läuft."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneOneBOne",
+  "base_symbol": "Route119_Text_1711B1",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МЭЙ: Зря я волновалась!"
+    ],
+    "A2": [
+      "МЭЙ: Зря я волновалась! Продолжай в том же духе."
+    ],
+    "natural": [
+      "МЭЙ: Зря я волновалась! Продолжай в том же духе. И вот тебе подарок."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAIKE: Meine Sorge war umsonst!"
+    ],
+    "A2": [
+      "MAIKE: Meine Sorge war umsonst! Mach weiter so."
+    ],
+    "natural": [
+      "MAIKE: Meine Sorge war umsonst! Mach weiter so. Hier ist ein Geschenk."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneTwoOneFour",
+  "base_symbol": "Route119_Text_171214",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МЭЙ: ПОЛЁТ мгновенно доставит тебя в посещённый город."
+    ],
+    "A2": [
+      "МЭЙ: ПОЛЁТ мгновенно доставит тебя в посещённый город. Но нужен ЗНАЧОК ФОРТРИ."
+    ],
+    "natural": [
+      "МЭЙ: ПОЛЁТ мгновенно доставит тебя в посещённый город. Но нужен ЗНАЧОК ФОРТРИ. Не забудь. Навести маму в ЛИТТЛРУТЕ, она волнуется. До встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAIKE: FLIEGEN bringt dich sofort in besuchte Städte."
+    ],
+    "A2": [
+      "MAIKE: FLIEGEN bringt dich sofort in besuchte Städte. Dafür brauchst du den BAUMHAUSEN-ORDEN."
+    ],
+    "natural": [
+      "MAIKE: FLIEGEN bringt dich sofort in besuchte Städte. Dafür brauchst du den BAUMHAUSEN-ORDEN. Vergiss es nicht. Besuch deine besorgte Mutter in WURZELHEIM. Bis bald!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneThreeFiveEight",
+  "base_symbol": "Route119_Text_171358",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "БРЕНДАН: {PLAYER}!"
+    ],
+    "A2": [
+      "БРЕНДАН: {PLAYER}! Ты здесь искал покемонов?"
+    ],
+    "natural": [
+      "БРЕНДАН: {PLAYER}! Ты здесь искал покемонов? Посмотрим, насколько ты хорош. Я проверю тебя в бою!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BALTHASAR: {PLAYER}!"
+    ],
+    "A2": [
+      "BALTHASAR: {PLAYER}! Suchst du hier Pokémon?"
+    ],
+    "natural": [
+      "BALTHASAR: {PLAYER}! Suchst du hier Pokémon? Mal sehen, wie gut du bist. Ich prüfe dich im Kampf!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneThreeETwo",
+  "base_symbol": "Route119_Text_1713E2",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм..."
+    ],
+    "A2": [
+      "Хм... Ты стал довольно неплох."
+    ],
+    "natural": [
+      "Хм... Ты стал довольно неплох."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm..."
+    ],
+    "A2": [
+      "Hm... Du bist ziemlich gut geworden."
+    ],
+    "natural": [
+      "Hm... Du bist ziemlich gut geworden."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneFourZeroB",
+  "base_symbol": "Route119_Text_17140B",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "БРЕНДАН: Теперь ты можешь искать покемонов где угодно."
+    ],
+    "A2": [
+      "БРЕНДАН: Теперь ты можешь искать покемонов где угодно. Возьми это и попробуй."
+    ],
+    "natural": [
+      "БРЕНДАН: Теперь ты можешь искать покемонов где угодно. Возьми это и попробуй."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BALTHASAR: Du kannst nun überall Pokémon suchen."
+    ],
+    "A2": [
+      "BALTHASAR: Du kannst nun überall Pokémon suchen. Nimm das und probier es aus."
+    ],
+    "natural": [
+      "BALTHASAR: Du kannst nun überall Pokémon suchen. Nimm das und probier es aus."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneFourSevenFive",
+  "base_symbol": "Route119_Text_171475",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "БРЕНДАН: ПОЛЁТ доставит тебя в посещённый город."
+    ],
+    "A2": [
+      "БРЕНДАН: ПОЛЁТ доставит тебя в посещённый город. Для этого нужен ЗНАЧОК ФОРТРИ."
+    ],
+    "natural": [
+      "БРЕНДАН: ПОЛЁТ доставит тебя в посещённый город. Для этого нужен ЗНАЧОК ФОРТРИ. А мне пора идти."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BALTHASAR: FLIEGEN bringt dich in besuchte Städte."
+    ],
+    "A2": [
+      "BALTHASAR: FLIEGEN bringt dich in besuchte Städte. Dafür brauchst du den BAUMHAUSEN-ORDEN."
+    ],
+    "natural": [
+      "BALTHASAR: FLIEGEN bringt dich in besuchte Städte. Dafür brauchst du den BAUMHAUSEN-ORDEN. Ich muss weiter."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneFiveTwoZero",
+  "base_symbol": "Route119_Text_171520",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы стоим на страже."
+    ],
+    "A2": [
+      "Мы стоим на страже. Не подходи к ИНСТИТУТУ ПОГОДЫ, там опасно."
+    ],
+    "natural": [
+      "Мы стоим на страже. Не подходи к ИНСТИТУТУ ПОГОДЫ, там опасно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir halten Wache."
+    ],
+    "A2": [
+      "Wir halten Wache. Bleib dem WETTERINSTITUT fern."
+    ],
+    "natural": [
+      "Wir halten Wache. Bleib dem WETTERINSTITUT fern. Es ist gefährlich."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneFiveSevenC",
+  "base_symbol": "Route119_Text_17157C",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Стоять на страже скучно."
+    ],
+    "A2": [
+      "Стоять на страже скучно. Не подходи к ИНСТИТУТУ ПОГОДЫ."
+    ],
+    "natural": [
+      "Стоять на страже скучно. Не подходи к ИНСТИТУТУ ПОГОДЫ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wachdienst ist langweilig."
+    ],
+    "A2": [
+      "Wachdienst ist langweilig. Geh nicht zum WETTERINSTITUT."
+    ],
+    "natural": [
+      "Wachdienst ist langweilig. Geh nicht zum WETTERINSTITUT."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneFiveDSeven",
+  "base_symbol": "Route119_Text_1715D7",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я думал, для ПОЛЁТА надо поймать стаю птиц и держаться за них."
+    ],
+    "A2": [
+      "Я думал, для ПОЛЁТА надо поймать стаю птиц и держаться за них. Оказывается, есть СМ ПОЛЁТ!"
+    ],
+    "natural": [
+      "Я думал, для ПОЛЁТА надо поймать стаю птиц и держаться за них. Оказывается, есть СМ ПОЛЁТ! Жаль, что не знал раньше."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich dachte, zum FLIEGEN müsse man sich an einen Vogelschwarm hängen."
+    ],
+    "A2": [
+      "Ich dachte, zum FLIEGEN müsse man sich an einen Vogelschwarm hängen. Dabei gibt es die VM FLIEGEN!"
+    ],
+    "natural": [
+      "Ich dachte, zum FLIEGEN müsse man sich an einen Vogelschwarm hängen. Dabei gibt es die VM FLIEGEN! Hätte ich das früher gewusst."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneSixNineEight",
+  "base_symbol": "Route119_Text_171698",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не выйдет..."
+    ],
+    "A2": [
+      "Не выйдет... Высокая трава цепляется за колёса."
+    ],
+    "natural": [
+      "Не выйдет... Высокая трава цепляется за колёса. Здесь нельзя ехать на велосипеде."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Keine Chance..."
+    ],
+    "A2": [
+      "Keine Chance... Hohes Gras fängt die Reifen."
+    ],
+    "natural": [
+      "Keine Chance... Hohes Gras fängt die Reifen. Hier kann man nicht Rad fahren."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneSixFFour",
+  "base_symbol": "Route119_Text_1716F4",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Может твой покемон применить ТАЙНУЮ СИЛУ на куче травы и создать ТАЙНУЮ БАЗУ?"
+    ],
+    "A2": [
+      "Может твой покемон применить ТАЙНУЮ СИЛУ на куче травы и создать ТАЙНУЮ БАЗУ?"
+    ],
+    "natural": [
+      "Может твой покемон применить ТАЙНУЮ СИЛУ на куче травы и создать ТАЙНУЮ БАЗУ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kann dein Pokémon GEHEIMPOWER am Gras einsetzen und eine GEHEIMBASIS bauen?"
+    ],
+    "A2": [
+      "Kann dein Pokémon GEHEIMPOWER am Gras einsetzen und eine GEHEIMBASIS bauen?"
+    ],
+    "natural": [
+      "Kann dein Pokémon GEHEIMPOWER am Gras einsetzen und eine GEHEIMBASIS bauen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneSevenFourNine",
+  "base_symbol": "Route119_Text_171749",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАРШРУТ 119."
+    ],
+    "A2": [
+      "МАРШРУТ 119. К ФОРТРИ."
+    ],
+    "natural": [
+      "МАРШРУТ 119. К ФОРТРИ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ROUTE 119."
+    ],
+    "A2": [
+      "ROUTE 119. NACH BAUMHAUSEN."
+    ],
+    "natural": [
+      "ROUTE 119. NACH BAUMHAUSEN."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneSevenSixTwo",
+  "base_symbol": "Route119_Text_171762",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ИНСТИТУТ ПОГОДЫ"
+    ],
+    "A2": [
+      "ИНСТИТУТ ПОГОДЫ"
+    ],
+    "natural": [
+      "ИНСТИТУТ ПОГОДЫ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WETTERINSTITUT"
+    ],
+    "A2": [
+      "WETTERINSTITUT"
+    ],
+    "natural": [
+      "WETTERINSTITUT"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneSevenOneSevenSevenFour",
+  "base_symbol": "Route119_Text_171774",
+  "source_path": "data/maps/Route119/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СОВЕТ ТРЕНЕРУ."
+    ],
+    "A2": [
+      "СОВЕТ ТРЕНЕРУ. В ТАЙНОЙ БАЗЕ можно разместить до 16 украшений и предметов мебели."
+    ],
+    "natural": [
+      "СОВЕТ ТРЕНЕРУ. В ТАЙНОЙ БАЗЕ можно разместить до 16 украшений и предметов мебели. Выбери любимые и создай свою базу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TRAINER-TIPP."
+    ],
+    "A2": [
+      "TRAINER-TIPP. In einer GEHEIMBASIS stehen bis zu 16 Deko- und Möbelstücke."
+    ],
+    "natural": [
+      "TRAINER-TIPP. In einer GEHEIMBASIS stehen bis zu 16 Deko- und Möbelstücke. Wähle deine Favoriten und gestalte deine Basis."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFiveTwoOne",
+  "base_symbol": "Route119_Text_1BE521",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы - кружок подражателей!"
+    ],
+    "A2": [
+      "Мы - кружок подражателей! Мы повторяем всё за тобой!"
+    ],
+    "natural": [
+      "Мы - кружок подражателей! Мы повторяем всё за тобой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir sind der Nachahmerkreis!"
+    ],
+    "A2": [
+      "Wir sind der Nachahmerkreis! Wir machen alles nach, was du tust!"
+    ],
+    "natural": [
+      "Wir sind der Nachahmerkreis! Wir machen alles nach, was du tust!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFiveFourF",
+  "base_symbol": "Route119_Text_1BE54F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой!"
+    ],
+    "A2": [
+      "Ой! Я проиграл!"
+    ],
+    "natural": [
+      "Ой! Я проиграл!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla!"
+    ],
+    "A2": [
+      "Hoppla! Ich habe verloren!"
+    ],
+    "natural": [
+      "Hoppla! Ich habe verloren!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFiveSixOne",
+  "base_symbol": "Route119_Text_1BE561",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что хорошего в подражании?"
+    ],
+    "A2": [
+      "Что хорошего в подражании? Хе-хе-хе..."
+    ],
+    "natural": [
+      "Что хорошего в подражании? Хе-хе-хе... Тебе никогда не понять..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was ist so toll am Nachahmen?"
+    ],
+    "A2": [
+      "Was ist so toll am Nachahmen? Hihihi..."
+    ],
+    "natural": [
+      "Was ist so toll am Nachahmen? Hihihi... Du wirst es nie verstehen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFiveAFour",
+  "base_symbol": "Route119_Text_1BE5A4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот мы и встретились!"
+    ],
+    "A2": [
+      "Вот мы и встретились! Мои покемоны-жуки составят тебе компанию!"
+    ],
+    "natural": [
+      "Вот мы и встретились! Мои покемоны-жуки составят тебе компанию!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Endlich treffen wir uns!"
+    ],
+    "A2": [
+      "Endlich treffen wir uns! Meine Käfer-Pokémon leisten dir Gesellschaft!"
+    ],
+    "natural": [
+      "Endlich treffen wir uns! Meine Käfer-Pokémon leisten dir Gesellschaft!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFiveDF",
+  "base_symbol": "Route119_Text_1BE5DF",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лучше бы мы не встречались..."
+    ],
+    "A2": [
+      "Лучше бы мы не встречались..."
+    ],
+    "natural": [
+      "Лучше бы мы не встречались..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wären wir uns bloß nie begegnet..."
+    ],
+    "A2": [
+      "Wären wir uns bloß nie begegnet..."
+    ],
+    "natural": [
+      "Wären wir uns bloß nie begegnet..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFiveFEight",
+  "base_symbol": "Route119_Text_1BE5F8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хочу ещё немного тебе подражать."
+    ],
+    "A2": [
+      "Я хочу ещё немного тебе подражать. Можешь скорее сделать шаг?"
+    ],
+    "natural": [
+      "Я хочу ещё немного тебе подражать. Можешь скорее сделать шаг?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich möchte dich weiter nachahmen."
+    ],
+    "A2": [
+      "Ich möchte dich weiter nachahmen. Kannst du dich endlich bewegen?"
+    ],
+    "natural": [
+      "Ich möchte dich weiter nachahmen. Kannst du dich endlich bewegen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESixThreeTwo",
+  "base_symbol": "Route119_Text_1BE632",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если ты шагаешь вперёд, мы тоже."
+    ],
+    "A2": [
+      "Если ты шагаешь вперёд, мы тоже. Если ты поворачиваешь направо, мы тоже..."
+    ],
+    "natural": [
+      "Если ты шагаешь вперёд, мы тоже. Если ты поворачиваешь направо, мы тоже..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gehst du vorwärts, tun wir es auch."
+    ],
+    "A2": [
+      "Gehst du vorwärts, tun wir es auch. Drehst du dich rechts, tun wir es auch..."
+    ],
+    "natural": [
+      "Gehst du vorwärts, tun wir es auch. Drehst du dich rechts, tun wir es auch..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESixSevenB",
+  "base_symbol": "Route119_Text_1BE67B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Но если ты победишь, я проиграю..."
+    ],
+    "A2": [
+      "Но если ты победишь, я проиграю..."
+    ],
+    "natural": [
+      "Но если ты победишь, я проиграю..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aber wenn du gewinnst, verliere ich..."
+    ],
+    "A2": [
+      "Aber wenn du gewinnst, verliere ich..."
+    ],
+    "natural": [
+      "Aber wenn du gewinnst, verliere ich..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESixNineFive",
+  "base_symbol": "Route119_Text_1BE695",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не могу повторить твою победу."
+    ],
+    "A2": [
+      "Я не могу повторить твою победу. Это просто невозможно..."
+    ],
+    "natural": [
+      "Я не могу повторить твою победу. Это просто невозможно... Как же меня это злит..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deinen Sieg kann ich nicht nachahmen."
+    ],
+    "A2": [
+      "Deinen Sieg kann ich nicht nachahmen. Das ist unmöglich..."
+    ],
+    "natural": [
+      "Deinen Sieg kann ich nicht nachahmen. Das ist unmöglich... Das macht mich rasend..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESixEA",
+  "base_symbol": "Route119_Text_1BE6EA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Да, ты наконец меня поймал!"
+    ],
+    "A2": [
+      "Да, ты наконец меня поймал! Или ты пытался меня избежать?"
+    ],
+    "natural": [
+      "Да, ты наконец меня поймал! Или ты пытался меня избежать?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ja, du hast mich endlich erwischt!"
+    ],
+    "A2": [
+      "Ja, du hast mich endlich erwischt! Oder wolltest du mir ausweichen?"
+    ],
+    "natural": [
+      "Ja, du hast mich endlich erwischt! Oder wolltest du mir ausweichen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESevenTwoNine",
+  "base_symbol": "Route119_Text_1BE729",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух, отличный был бой!"
+    ],
+    "A2": [
+      "Ух, отличный был бой!"
+    ],
+    "natural": [
+      "Ух, отличный был бой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hui, das war ein toller Kampf!"
+    ],
+    "A2": [
+      "Hui, das war ein toller Kampf!"
+    ],
+    "natural": [
+      "Hui, das war ein toller Kampf!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESevenFourEight",
+  "base_symbol": "Route119_Text_1BE748",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы - кружок подражателей!"
+    ],
+    "A2": [
+      "Мы - кружок подражателей! Надеюсь, тебе понравилось наше выступление."
+    ],
+    "natural": [
+      "Мы - кружок подражателей! Надеюсь, тебе понравилось наше выступление."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir sind der Nachahmerkreis!"
+    ],
+    "A2": [
+      "Wir sind der Nachahmerkreis! Hoffentlich gefiel dir unsere Vorstellung."
+    ],
+    "natural": [
+      "Wir sind der Nachahmerkreis! Hoffentlich gefiel dir unsere Vorstellung."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESevenEightFour",
+  "base_symbol": "Route119_Text_1BE784",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты не знаешь, кто я, верно?"
+    ],
+    "A2": [
+      "Ты не знаешь, кто я, верно? Но я тоже тебя не знаю."
+    ],
+    "natural": [
+      "Ты не знаешь, кто я, верно? Но я тоже тебя не знаю. Значит, сразимся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du weißt nicht, wer ich bin?"
+    ],
+    "A2": [
+      "Du weißt nicht, wer ich bin? Ich kenne dich auch nicht."
+    ],
+    "natural": [
+      "Du weißt nicht, wer ich bin? Ich kenne dich auch nicht. Also kämpfen wir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESevenDThree",
+  "base_symbol": "Route119_Text_1BE7D3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты довольно силён!"
+    ],
+    "A2": [
+      "Ты довольно силён!"
+    ],
+    "natural": [
+      "Ты довольно силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist ziemlich stark!"
+    ],
+    "A2": [
+      "Du bist ziemlich stark!"
+    ],
+    "natural": [
+      "Du bist ziemlich stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBESevenENine",
+  "base_symbol": "Route119_Text_1BE7E9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пока ты не уйдёшь, мы продолжим повторять каждое твоё движение."
+    ],
+    "A2": [
+      "Пока ты не уйдёшь, мы продолжим повторять каждое твоё движение."
+    ],
+    "natural": [
+      "Пока ты не уйдёшь, мы продолжим повторять каждое твоё движение."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bis du fortgehst, ahmen wir weiterhin jede deiner Bewegungen nach."
+    ],
+    "A2": [
+      "Bis du fortgehst, ahmen wir weiterhin jede deiner Bewegungen nach."
+    ],
+    "natural": [
+      "Bis du fortgehst, ahmen wir weiterhin jede deiner Bewegungen nach."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEightTwoF",
+  "base_symbol": "Route119_Text_1BE82F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кружок подражателей основали любители подражать."
+    ],
+    "A2": [
+      "Кружок подражателей основали любители подражать. Битва начинается в миг нашей встречи!"
+    ],
+    "natural": [
+      "Кружок подражателей основали любители подражать. Битва начинается в миг нашей встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Nachahmerkreis besteht aus Leuten, die gern nachahmen."
+    ],
+    "A2": [
+      "Der Nachahmerkreis besteht aus Leuten, die gern nachahmen. Beim Treffen beginnt sofort ein Kampf!"
+    ],
+    "natural": [
+      "Der Nachahmerkreis besteht aus Leuten, die gern nachahmen. Beim Treffen beginnt sofort ein Kampf!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEightEightD",
+  "base_symbol": "Route119_Text_1BE88D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я сдаюсь!"
+    ],
+    "A2": [
+      "Я сдаюсь!"
+    ],
+    "natural": [
+      "Я сдаюсь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich ergebe mich!"
+    ],
+    "A2": [
+      "Ich ergebe mich!"
+    ],
+    "natural": [
+      "Ich ergebe mich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEightNineA",
+  "base_symbol": "Route119_Text_1BE89A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не хочешь вступить в наш кружок подражателей?"
+    ],
+    "A2": [
+      "Не хочешь вступить в наш кружок подражателей?"
+    ],
+    "natural": [
+      "Не хочешь вступить в наш кружок подражателей?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willst du unserem Nachahmerkreis beitreten?"
+    ],
+    "A2": [
+      "Willst du unserem Nachahmerkreis beitreten?"
+    ],
+    "natural": [
+      "Willst du unserem Nachahmerkreis beitreten?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEightBB",
+  "base_symbol": "Route119_Text_1BE8BB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У кого есть знания и навыки выживания?"
+    ],
+    "A2": [
+      "У кого есть знания и навыки выживания? Конечно, у рейнджеров покемонов!"
+    ],
+    "natural": [
+      "У кого есть знания и навыки выживания? Конечно, у рейнджеров покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wer kennt sich mit Überleben aus?"
+    ],
+    "A2": [
+      "Wer kennt sich mit Überleben aus? Natürlich die Pokémon-Ranger!"
+    ],
+    "natural": [
+      "Wer kennt sich mit Überleben aus? Natürlich die Pokémon-Ranger!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBENineZeroE",
+  "base_symbol": "Route119_Text_1BE90E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне не хватило знаний о покемонах..."
+    ],
+    "A2": [
+      "Мне не хватило знаний о покемонах..."
+    ],
+    "natural": [
+      "Мне не хватило знаний о покемонах..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mir fehlte das nötige Pokémon-Wissen..."
+    ],
+    "A2": [
+      "Mir fehlte das nötige Pokémon-Wissen..."
+    ],
+    "natural": [
+      "Mir fehlte das nötige Pokémon-Wissen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBENineThreeSeven",
+  "base_symbol": "Route119_Text_1BE937",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Уйти от цивилизации и пробудить дикий дух внутри!"
+    ],
+    "A2": [
+      "Уйти от цивилизации и пробудить дикий дух внутри! Вот наша цель."
+    ],
+    "natural": [
+      "Уйти от цивилизации и пробудить дикий дух внутри! Вот наша цель."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Zivilisation verlassen und den wilden Geist wecken!"
+    ],
+    "A2": [
+      "Die Zivilisation verlassen und den wilden Geist wecken! Das ist unser Ziel."
+    ],
+    "natural": [
+      "Die Zivilisation verlassen und den wilden Geist wecken! Das ist unser Ziel."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBENineEightD",
+  "base_symbol": "Route119_Text_1BE98D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Рядом с покемонами я вновь обрету свой дикий дух."
+    ],
+    "A2": [
+      "Рядом с покемонами я вновь обрету свой дикий дух."
+    ],
+    "natural": [
+      "Рядом с покемонами я вновь обрету свой дикий дух."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "An der Seite von Pokémon werde ich meinen wilden Geist wiederfinden."
+    ],
+    "A2": [
+      "An der Seite von Pokémon werde ich meinen wilden Geist wiederfinden."
+    ],
+    "natural": [
+      "An der Seite von Pokémon werde ich meinen wilden Geist wiederfinden."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBENineDZero",
+  "base_symbol": "Route119_Text_1BE9D0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты по-прежнему силён!"
+    ],
+    "A2": [
+      "Ты по-прежнему силён!"
+    ],
+    "natural": [
+      "Ты по-прежнему силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist stark geblieben!"
+    ],
+    "A2": [
+      "Du bist stark geblieben!"
+    ],
+    "natural": [
+      "Du bist stark geblieben!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBENineEEight",
+  "base_symbol": "Route119_Text_1BE9E8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Верь в своих покемонов."
+    ],
+    "A2": [
+      "Верь в своих покемонов. Верь в себя."
+    ],
+    "natural": [
+      "Верь в своих покемонов. Верь в себя. И дорога откроется перед тобой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Glaube an deine Pokémon."
+    ],
+    "A2": [
+      "Glaube an deine Pokémon. Glaube an dich."
+    ],
+    "natural": [
+      "Glaube an deine Pokémon. Glaube an dich. Dann zeigt sich dir der Weg."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEAThreeA",
+  "base_symbol": "Route119_Text_1BEA3A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О?"
+    ],
+    "A2": [
+      "О? Взгляни на себя."
+    ],
+    "natural": [
+      "О? Взгляни на себя. Для путешественника у тебя удивительно мало вещей."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh?"
+    ],
+    "A2": [
+      "Oh? Sieh dich an."
+    ],
+    "natural": [
+      "Oh? Sieh dich an. Für einen Abenteurer reist du erstaunlich leicht."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEAEightEight",
+  "base_symbol": "Route119_Text_1BEA88",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Без подготовки случаются несчастья!"
+    ],
+    "A2": [
+      "Без подготовки случаются несчастья!"
+    ],
+    "natural": [
+      "Без подготовки случаются несчастья!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ohne Vorbereitung passieren Unfälle!"
+    ],
+    "A2": [
+      "Ohne Vorbereitung passieren Unfälle!"
+    ],
+    "natural": [
+      "Ohne Vorbereitung passieren Unfälle!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEABThree",
+  "base_symbol": "Route119_Text_1BEAB3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты путешествуешь налегке, но имеешь всё нужное."
+    ],
+    "A2": [
+      "Ты путешествуешь налегке, но имеешь всё нужное. И тело, и дух у тебя готовы."
+    ],
+    "natural": [
+      "Ты путешествуешь налегке, но имеешь всё нужное. И тело, и дух у тебя готовы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du reist leicht, hast aber alles Nötige."
+    ],
+    "A2": [
+      "Du reist leicht, hast aber alles Nötige. Körperlich und geistig bist du bereit."
+    ],
+    "natural": [
+      "Du reist leicht, hast aber alles Nötige. Körperlich und geistig bist du bereit."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEBTwoTwo",
+  "base_symbol": "Route119_Text_1BEB22",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как проходит твоё путешествие с покемонами?"
+    ],
+    "A2": [
+      "Как проходит твоё путешествие с покемонами?"
+    ],
+    "natural": [
+      "Как проходит твоё путешествие с покемонами?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie läuft deine Reise mit Pokémon?"
+    ],
+    "A2": [
+      "Wie läuft deine Reise mit Pokémon?"
+    ],
+    "natural": [
+      "Wie läuft deine Reise mit Pokémon?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEBFourNine",
+  "base_symbol": "Route119_Text_1BEB49",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне всё ещё чего-то не хватает..."
+    ],
+    "A2": [
+      "Мне всё ещё чего-то не хватает..."
+    ],
+    "natural": [
+      "Мне всё ещё чего-то не хватает..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mir fehlt noch immer etwas..."
+    ],
+    "A2": [
+      "Mir fehlt noch immer etwas..."
+    ],
+    "natural": [
+      "Mir fehlt noch immer etwas..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEBSixEight",
+  "base_symbol": "Route119_Text_1BEB68",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как тренер полагается на покемонов, так и покемоны полагаются на тренера."
+    ],
+    "A2": [
+      "Как тренер полагается на покемонов, так и покемоны полагаются на тренера."
+    ],
+    "natural": [
+      "Как тренер полагается на покемонов, так и покемоны полагаются на тренера."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie du dich als Trainer auf Pokémon verlässt, verlassen sie sich auf dich."
+    ],
+    "A2": [
+      "Wie du dich als Trainer auf Pokémon verlässt, verlassen sie sich auf dich."
+    ],
+    "natural": [
+      "Wie du dich als Trainer auf Pokémon verlässt, verlassen sie sich auf dich."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEBCZero",
+  "base_symbol": "Route119_Text_1BEBC0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Бескрайнее небо таит безграничные надежды!"
+    ],
+    "A2": [
+      "Бескрайнее небо таит безграничные надежды! Ничто не сравнится с восторгом полёта!"
+    ],
+    "natural": [
+      "Бескрайнее небо таит безграничные надежды! Ничто не сравнится с восторгом полёта!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der weite Himmel birgt grenzenlose Hoffnung!"
+    ],
+    "A2": [
+      "Der weite Himmel birgt grenzenlose Hoffnung! Nichts gleicht dem Rausch des Fliegens!"
+    ],
+    "natural": [
+      "Der weite Himmel birgt grenzenlose Hoffnung! Nichts gleicht dem Rausch des Fliegens!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBECOneC",
+  "base_symbol": "Route119_Text_1BEC1C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я повержен!"
+    ],
+    "A2": [
+      "Я повержен!"
+    ],
+    "natural": [
+      "Я повержен!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Völlig besiegt!"
+    ],
+    "A2": [
+      "Völlig besiegt!"
+    ],
+    "natural": [
+      "Völlig besiegt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBECTwoA",
+  "base_symbol": "Route119_Text_1BEC2A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мои покемоны-птицы воплотили мою мечту о полёте!"
+    ],
+    "A2": [
+      "Мои покемоны-птицы воплотили мою мечту о полёте!"
+    ],
+    "natural": [
+      "Мои покемоны-птицы воплотили мою мечту о полёте!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Vogel-Pokémon erfüllten meinen Traum vom Fliegen!"
+    ],
+    "A2": [
+      "Meine Vogel-Pokémon erfüllten meinen Traum vom Fliegen!"
+    ],
+    "natural": [
+      "Meine Vogel-Pokémon erfüllten meinen Traum vom Fliegen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBECFiveE",
+  "base_symbol": "Route119_Text_1BEC5E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я покажу истинный потенциал мой и моих покемонов-птиц!"
+    ],
+    "A2": [
+      "Я покажу истинный потенциал мой и моих покемонов-птиц!"
+    ],
+    "natural": [
+      "Я покажу истинный потенциал мой и моих покемонов-птиц!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich zeige dir das wahre Potenzial meiner Vogel-Pokémon und mir!"
+    ],
+    "A2": [
+      "Ich zeige dir das wahre Potenzial meiner Vogel-Pokémon und mir!"
+    ],
+    "natural": [
+      "Ich zeige dir das wahre Potenzial meiner Vogel-Pokémon und mir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBECNineA",
+  "base_symbol": "Route119_Text_1BEC9A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нам не хватило потенциала..."
+    ],
+    "A2": [
+      "Нам не хватило потенциала..."
+    ],
+    "natural": [
+      "Нам не хватило потенциала..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unser Potenzial reichte nicht..."
+    ],
+    "A2": [
+      "Unser Potenzial reichte nicht..."
+    ],
+    "natural": [
+      "Unser Potenzial reichte nicht..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBECBOne",
+  "base_symbol": "Route119_Text_1BECB1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С самого детства я всегда восхищался покемонами-птицами..."
+    ],
+    "A2": [
+      "С самого детства я всегда восхищался покемонами-птицами..."
+    ],
+    "natural": [
+      "С самого детства я всегда восхищался покемонами-птицами..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Schon als Kind bewunderte ich Vogel-Pokémon..."
+    ],
+    "A2": [
+      "Schon als Kind bewunderte ich Vogel-Pokémon..."
+    ],
+    "natural": [
+      "Schon als Kind bewunderte ich Vogel-Pokémon..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBECFOne",
+  "base_symbol": "Route119_Text_1BECF1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Таиться в тенях и жить во тьме..."
+    ],
+    "A2": [
+      "Таиться в тенях и жить во тьме... Такова моя судьба."
+    ],
+    "natural": [
+      "Таиться в тенях и жить во тьме... Такова моя судьба. Я выхожу, чтобы бросить тебе вызов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Schatten lauern und in Dunkelheit leben..."
+    ],
+    "A2": [
+      "Im Schatten lauern und in Dunkelheit leben... Das ist mein Schicksal."
+    ],
+    "natural": [
+      "Im Schatten lauern und in Dunkelheit leben... Das ist mein Schicksal. Ich fordere dich heraus!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEDFourC",
+  "base_symbol": "Route119_Text_1BED4C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Признаю поражение!"
+    ],
+    "A2": [
+      "Признаю поражение!"
+    ],
+    "natural": [
+      "Признаю поражение!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich gestehe meine Niederlage ein!"
+    ],
+    "A2": [
+      "Ich gestehe meine Niederlage ein!"
+    ],
+    "natural": [
+      "Ich gestehe meine Niederlage ein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEDFiveC",
+  "base_symbol": "Route119_Text_1BED5C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Побеждённые тихо отступают обратно в тени."
+    ],
+    "A2": [
+      "Побеждённые тихо отступают обратно в тени. Это тоже судьба..."
+    ],
+    "natural": [
+      "Побеждённые тихо отступают обратно в тени. Это тоже судьба..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Besiegte ziehen sich still in die Schatten zurück."
+    ],
+    "A2": [
+      "Besiegte ziehen sich still in die Schatten zurück. Auch das ist Schicksal..."
+    ],
+    "natural": [
+      "Besiegte ziehen sich still in die Schatten zurück. Auch das ist Schicksal..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEDBSix",
+  "base_symbol": "Route119_Text_1BEDB6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если потеряешь бдительность, будет больно!"
+    ],
+    "A2": [
+      "Если потеряешь бдительность, будет больно!"
+    ],
+    "natural": [
+      "Если потеряешь бдительность, будет больно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn du nicht aufpasst, wird es schmerzhaft!"
+    ],
+    "A2": [
+      "Wenn du nicht aufpasst, wird es schmerzhaft!"
+    ],
+    "natural": [
+      "Wenn du nicht aufpasst, wird es schmerzhaft!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEDEC",
+  "base_symbol": "Route119_Text_1BEDEC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты на удивление хорош!"
+    ],
+    "A2": [
+      "Ты на удивление хорош!"
+    ],
+    "natural": [
+      "Ты на удивление хорош!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist überraschend gut!"
+    ],
+    "A2": [
+      "Du bist überraschend gut!"
+    ],
+    "natural": [
+      "Du bist überraschend gut!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEZeroSix",
+  "base_symbol": "Route119_Text_1BEE06",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя внезапная атака провалилась..."
+    ],
+    "A2": [
+      "Моя внезапная атака провалилась..."
+    ],
+    "natural": [
+      "Моя внезапная атака провалилась..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Überraschungsangriff ist gescheitert..."
+    ],
+    "A2": [
+      "Mein Überraschungsangriff ist gescheitert..."
+    ],
+    "natural": [
+      "Mein Überraschungsangriff ist gescheitert..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEETwoD",
+  "base_symbol": "Route119_Text_1BEE2D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Чтобы спрятать дерево, используй лес!"
+    ],
+    "A2": [
+      "Чтобы спрятать дерево, используй лес!"
+    ],
+    "natural": [
+      "Чтобы спрятать дерево, используй лес!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willst du einen Baum verstecken, nutze einen Wald!"
+    ],
+    "A2": [
+      "Willst du einen Baum verstecken, nutze einen Wald!"
+    ],
+    "natural": [
+      "Willst du einen Baum verstecken, nutze einen Wald!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEFourB",
+  "base_symbol": "Route119_Text_1BEE4B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я преклоняюсь перед твоим превосходством."
+    ],
+    "A2": [
+      "Я преклоняюсь перед твоим превосходством."
+    ],
+    "natural": [
+      "Я преклоняюсь перед твоим превосходством."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich verneige mich vor deiner Überlegenheit."
+    ],
+    "A2": [
+      "Ich verneige mich vor deiner Überlegenheit."
+    ],
+    "natural": [
+      "Ich verneige mich vor deiner Überlegenheit."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEESixSix",
+  "base_symbol": "Route119_Text_1BEE66",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Чтобы спрятать дерево, используй лес!"
+    ],
+    "A2": [
+      "Чтобы спрятать дерево, используй лес! Чтобы спрятать покемона, используй покемона!"
+    ],
+    "natural": [
+      "Чтобы спрятать дерево, используй лес! Чтобы спрятать покемона, используй покемона! Глубокого смысла тут нет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verstecke einen Baum im Wald!"
+    ],
+    "A2": [
+      "Verstecke einen Baum im Wald! Verstecke ein Pokémon unter Pokémon!"
+    ],
+    "natural": [
+      "Verstecke einen Baum im Wald! Verstecke ein Pokémon unter Pokémon! Tiefere Bedeutung hat das nicht."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEEDZero",
+  "base_symbol": "Route119_Text_1BEED0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты заговорил со мной..."
+    ],
+    "A2": [
+      "Ты заговорил со мной... Значит, хочешь сразиться!"
+    ],
+    "natural": [
+      "Ты заговорил со мной... Значит, хочешь сразиться! Ладно! Испытаю покемонов, пойманных во время сёрфинга!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast mich angesprochen..."
+    ],
+    "A2": [
+      "Du hast mich angesprochen... Du willst kämpfen!"
+    ],
+    "natural": [
+      "Du hast mich angesprochen... Du willst kämpfen! Gut! Ich teste die beim Surfen gefangenen Pokémon!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFThreeSeven",
+  "base_symbol": "Route119_Text_1BEF37",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я понятия не имею, что нужно для победы."
+    ],
+    "A2": [
+      "Я понятия не имею, что нужно для победы."
+    ],
+    "natural": [
+      "Я понятия не имею, что нужно для победы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe keine Ahnung, was man zum Siegen braucht."
+    ],
+    "A2": [
+      "Ich habe keine Ahnung, was man zum Siegen braucht."
+    ],
+    "natural": [
+      "Ich habe keine Ahnung, was man zum Siegen braucht."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineOneBEFSixSeven",
+  "base_symbol": "Route119_Text_1BEF67",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 118 or 119 trainer, resident, house, sign, fishing, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Плыть на покемоне..."
+    ],
+    "A2": [
+      "Плыть на покемоне... А потом рыбачить с его спины..."
+    ],
+    "natural": [
+      "Плыть на покемоне... А потом рыбачить с его спины... Это неописуемо роскошный миг!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf meinem Pokémon surfen..."
+    ],
+    "A2": [
+      "Auf meinem Pokémon surfen... Dann von seinem Rücken angeln..."
+    ],
+    "natural": [
+      "Auf meinem Pokémon surfen... Dann von seinem Rücken angeln... Ein unbeschreiblich herrlicher Moment!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineEBEightA",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EB8A",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Босса заинтересовали здешние исследования, поэтому он послал нас."
+    ],
+    "A2": [
+      "Босса заинтересовали здешние исследования, поэтому он послал нас. Не вмешивайся!"
+    ],
+    "natural": [
+      "Босса заинтересовали здешние исследования, поэтому он послал нас. Не вмешивайся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der BOSS interessiert sich für die Forschung hier und schickte uns."
+    ],
+    "A2": [
+      "Der BOSS interessiert sich für die Forschung hier und schickte uns. Misch dich nicht ein!"
+    ],
+    "natural": [
+      "Der BOSS interessiert sich für die Forschung hier und schickte uns. Misch dich nicht ein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineEBEE",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EBEE",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Проклятье..."
+    ],
+    "A2": [
+      "Проклятье... Меня победил ребёнок..."
+    ],
+    "natural": [
+      "Проклятье... Меня победил ребёнок..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mist..."
+    ],
+    "A2": [
+      "Mist... Ein Kind hat mich besiegt..."
+    ],
+    "natural": [
+      "Mist... Ein Kind hat mich besiegt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineECZeroE",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EC0E",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Наш босс всё знает."
+    ],
+    "A2": [
+      "Наш босс всё знает. А я простой рядовой."
+    ],
+    "natural": [
+      "Наш босс всё знает. А я простой рядовой. Откуда мне знать, что он задумал?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unser BOSS weiß alles."
+    ],
+    "A2": [
+      "Unser BOSS weiß alles. Ich bin nur ein Rüpel."
+    ],
+    "natural": [
+      "Unser BOSS weiß alles. Ich bin nur ein Rüpel. Woher soll ich seine Pläne kennen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineECSixB",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EC6B",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что ребёнок здесь делает?"
+    ],
+    "A2": [
+      "Что ребёнок здесь делает?"
+    ],
+    "natural": [
+      "Что ребёнок здесь делает?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was macht ein Kind hier?"
+    ],
+    "A2": [
+      "Was macht ein Kind hier?"
+    ],
+    "natural": [
+      "Was macht ein Kind hier?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineECEightNine",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EC89",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что?"
+    ],
+    "A2": [
+      "Что? Я проиграл?!"
+    ],
+    "natural": [
+      "Что? Я проиграл?!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was?"
+    ],
+    "A2": [
+      "Was? Ich habe verloren?!"
+    ],
+    "natural": [
+      "Was? Ich habe verloren?!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineECNineSeven",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EC97",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О нет..."
+    ],
+    "A2": [
+      "О нет... Мне достанется за проигрыш ребёнку."
+    ],
+    "natural": [
+      "О нет... Мне достанется за проигрыш ребёнку. Лучше посплю на кровати."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh nein..."
+    ],
+    "A2": [
+      "Oh nein... Für die Niederlage gegen ein Kind bekomme ich Ärger."
+    ],
+    "natural": [
+      "Oh nein... Für die Niederlage gegen ein Kind bekomme ich Ärger. Ich schlafe lieber im Bett."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineECFFour",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19ECF4",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пока я спал, все ушли наверх!"
+    ],
+    "A2": [
+      "Пока я спал, все ушли наверх!"
+    ],
+    "natural": [
+      "Пока я спал, все ушли наверх!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Während ich schlief, gingen alle nach oben!"
+    ],
+    "A2": [
+      "Während ich schlief, gingen alle nach oben!"
+    ],
+    "natural": [
+      "Während ich schlief, gingen alle nach oben!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineEDTwoTwo",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19ED22",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты очень силён!"
+    ],
+    "A2": [
+      "Ты очень силён! Хотел бы я стать таким тренером, как ты!"
+    ],
+    "natural": [
+      "Ты очень силён! Хотел бы я стать таким тренером, как ты!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist sehr stark!"
+    ],
+    "A2": [
+      "Du bist sehr stark! Ich wäre gern ein Trainer wie du!"
+    ],
+    "natural": [
+      "Du bist sehr stark! Ich wäre gern ein Trainer wie du!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineEDSixB",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19ED6B",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Профессор любит дождь."
+    ],
+    "A2": [
+      "Профессор любит дождь. Но долгий дождь приносит людям беду."
+    ],
+    "natural": [
+      "Профессор любит дождь. Но долгий дождь приносит людям беду. Поэтому он изучает, как использовать дождь с пользой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Professor liebt Regen."
+    ],
+    "A2": [
+      "Der Professor liebt Regen. Doch Dauerregen schadet Menschen."
+    ],
+    "natural": [
+      "Der Professor liebt Regen. Doch Dauerregen schadet Menschen. Darum erforscht er, wie Regen nützlich sein kann."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineEETwoFive",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EE25",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет!"
+    ],
+    "A2": [
+      "Привет! Ты спас нас!"
+    ],
+    "natural": [
+      "Привет! Ты спас нас! Только я не понимаю, что задумала КОМАНДА {EVIL_TEAM}."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo!"
+    ],
+    "A2": [
+      "Hallo! Du hast uns gerettet!"
+    ],
+    "natural": [
+      "Hallo! Du hast uns gerettet! Ich verstehe nur nicht, was TEAM {EVIL_TEAM} vorhatte."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteOneFOneNineEEEightB",
+  "base_symbol": "Route119_WeatherInstitute_1F_Text_19EE8B",
+  "source_path": "data/maps/Route119_WeatherInstitute_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь кровать."
+    ],
+    "A2": [
+      "Здесь кровать. Отдохнуть?"
+    ],
+    "natural": [
+      "Здесь кровать. Отдохнуть?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier ist ein Bett."
+    ],
+    "A2": [
+      "Hier ist ein Bett. Ausruhen?"
+    ],
+    "natural": [
+      "Hier ist ein Bett. Ausruhen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineEEAF",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19EEAF",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ИНСТИТУТ создал покемона, связанного с погодой."
+    ],
+    "A2": [
+      "ИНСТИТУТ создал покемона, связанного с погодой. Мы пришли забрать его!"
+    ],
+    "natural": [
+      "ИНСТИТУТ создал покемона, связанного с погодой. Мы пришли забрать его!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das INSTITUT schuf ein Pokémon, das mit dem Wetter verbunden ist."
+    ],
+    "A2": [
+      "Das INSTITUT schuf ein Pokémon, das mit dem Wetter verbunden ist. Wir holen es uns!"
+    ],
+    "natural": [
+      "Das INSTITUT schuf ein Pokémon, das mit dem Wetter verbunden ist. Wir holen es uns!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFOneB",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19EF1B",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Наш план рушит ребёнок?"
+    ],
+    "A2": [
+      "Наш план рушит ребёнок?"
+    ],
+    "natural": [
+      "Наш план рушит ребёнок?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Kind durchkreuzt unseren Plan?"
+    ],
+    "A2": [
+      "Ein Kind durchkreuzt unseren Plan?"
+    ],
+    "natural": [
+      "Ein Kind durchkreuzt unseren Plan?"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFThreeE",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19EF3E",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если этот покемон управляет погодой, он точно нужен КОМАНДЕ {EVIL_TEAM}!"
+    ],
+    "A2": [
+      "Если этот покемон управляет погодой, он точно нужен КОМАНДЕ {EVIL_TEAM}!"
+    ],
+    "natural": [
+      "Если этот покемон управляет погодой, он точно нужен КОМАНДЕ {EVIL_TEAM}!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kann dieses Pokémon das Wetter lenken, braucht TEAM {EVIL_TEAM} es unbedingt!"
+    ],
+    "A2": [
+      "Kann dieses Pokémon das Wetter lenken, braucht TEAM {EVIL_TEAM} es unbedingt!"
+    ],
+    "natural": [
+      "Kann dieses Pokémon das Wetter lenken, braucht TEAM {EVIL_TEAM} es unbedingt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFAThree",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19EFA3",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы КОМАНДА {EVIL_TEAM}!"
+    ],
+    "A2": [
+      "Мы КОМАНДА {EVIL_TEAM}! Мы появляемся там, где находят редкости!"
+    ],
+    "natural": [
+      "Мы КОМАНДА {EVIL_TEAM}! Мы появляемся там, где находят редкости!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir sind TEAM {EVIL_TEAM}!"
+    ],
+    "A2": [
+      "Wir sind TEAM {EVIL_TEAM}! Wo etwas Seltenes ist, tauchen wir auf!"
+    ],
+    "natural": [
+      "Wir sind TEAM {EVIL_TEAM}! Wo etwas Seltenes ist, tauchen wir auf!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFDD",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19EFDD",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты меня достал!"
+    ],
+    "A2": [
+      "Ты меня достал!"
+    ],
+    "natural": [
+      "Ты меня достал!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast mich erwischt!"
+    ],
+    "A2": [
+      "Du hast mich erwischt!"
+    ],
+    "natural": [
+      "Du hast mich erwischt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineEFENine",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19EFE9",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты не представляешь, к чему стремится КОМАНДА {EVIL_TEAM}!"
+    ],
+    "A2": [
+      "Ты не представляешь, к чему стремится КОМАНДА {EVIL_TEAM}! Не мешай нам!"
+    ],
+    "natural": [
+      "Ты не представляешь, к чему стремится КОМАНДА {EVIL_TEAM}! Не мешай нам!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du ahnst nicht, welches Ziel TEAM {EVIL_TEAM} verfolgt!"
+    ],
+    "A2": [
+      "Du ahnst nicht, welches Ziel TEAM {EVIL_TEAM} verfolgt! Geh uns aus dem Weg!"
+    ],
+    "natural": [
+      "Du ahnst nicht, welches Ziel TEAM {EVIL_TEAM} verfolgt! Geh uns aus dem Weg!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFZeroFourTwo",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F042",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! Решил вмешаться в дела КОМАНДЫ {EVIL_TEAM}?"
+    ],
+    "natural": [
+      "А-ха-ха! Решил вмешаться в дела КОМАНДЫ {EVIL_TEAM}? Ты бесстрашный, глупый или всё сразу! Сейчас я тебя раздавлю!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha!"
+    ],
+    "A2": [
+      "Ahahaha! Du mischst dich in TEAM {EVIL_TEAM}s Pläne ein?"
+    ],
+    "natural": [
+      "Ahahaha! Du mischst dich in TEAM {EVIL_TEAM}s Pläne ein? Du bist furchtlos, dumm oder beides! Ich mache dich fertig!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFZeroFFour",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F0F4",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! До чего же ты силён!"
+    ],
+    "natural": [
+      "А-ха-ха! До чего же ты силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha!"
+    ],
+    "A2": [
+      "Ahahaha! Du bist ekelhaft stark!"
+    ],
+    "natural": [
+      "Ahahaha! Du bist ekelhaft stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFOneOneB",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F11B",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! Нам неожиданно помешали."
+    ],
+    "natural": [
+      "А-ха-ха! Нам неожиданно помешали. Придётся отступить. Но КОМАНДА {EVIL_TEAM} ещё вернётся с другими планами! Не забывай!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha!"
+    ],
+    "A2": [
+      "Ahahaha! Man hat uns gestört."
+    ],
+    "natural": [
+      "Ahahaha! Man hat uns gestört. Wir ziehen uns zurück. Doch TEAM {EVIL_TEAM} kommt mit anderen Plänen wieder! Vergiss das nicht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFOneCF",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F1CF",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Спасибо!"
+    ],
+    "A2": [
+      "Спасибо! Ты спас нас."
+    ],
+    "natural": [
+      "Спасибо! Ты спас нас. В благодарность возьми этого покемона."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Danke!"
+    ],
+    "A2": [
+      "Danke! Du hast uns gerettet."
+    ],
+    "natural": [
+      "Danke! Du hast uns gerettet. Nimm als Dank dieses Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoThreeOne",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F231",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, у тебя нет места для этого покемона."
+    ],
+    "A2": [
+      "Похоже, у тебя нет места для этого покемона."
+    ],
+    "natural": [
+      "Похоже, у тебя нет места для этого покемона."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast wohl keinen Platz für dieses Pokémon."
+    ],
+    "A2": [
+      "Du hast wohl keinen Platz für dieses Pokémon."
+    ],
+    "natural": [
+      "Du hast wohl keinen Platz für dieses Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoSixSeven",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F267",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает КАСТФОРМА!"
+    ],
+    "A2": [
+      "{PLAYER} получает КАСТФОРМА!"
+    ],
+    "natural": [
+      "{PLAYER} получает КАСТФОРМА!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält FORMEO!"
+    ],
+    "A2": [
+      "{PLAYER} erhält FORMEO!"
+    ],
+    "natural": [
+      "{PLAYER} erhält FORMEO!"
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoSevenD",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F27D",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этот покемон меняет форму в зависимости от погоды."
+    ],
+    "A2": [
+      "Этот покемон меняет форму в зависимости от погоды. В ИНСТИТУТЕ их много, так что забирай."
+    ],
+    "natural": [
+      "Этот покемон меняет форму в зависимости от погоды. В ИНСТИТУТЕ их много, так что забирай."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieses Pokémon ändert je nach Wetter seine Form."
+    ],
+    "A2": [
+      "Dieses Pokémon ändert je nach Wetter seine Form. Im INSTITUT gibt es viele."
+    ],
+    "natural": [
+      "Dieses Pokémon ändert je nach Wetter seine Form. Im INSTITUT gibt es viele. Nimm es ruhig."
+    ]
+  }
+},
+{
+  "id": "RouteOneOneNineWeatherInstituteTwoFOneNineFTwoFE",
+  "base_symbol": "Route119_WeatherInstitute_2F_Text_19F2FE",
+  "source_path": "data/maps/Route119_WeatherInstitute_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Weather Institute story, battle, scientist, reward, or exhibit interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я много лет изучаю дождь, но мысль, что люди могут свободно менять погоду, нелепа."
+    ],
+    "A2": [
+      "Я много лет изучаю дождь, но мысль, что люди могут свободно менять погоду, нелепа."
+    ],
+    "natural": [
+      "Я много лет изучаю дождь, но мысль, что люди могут свободно менять погоду, нелепа."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погода",
+        "weather"
+      ]
+    ],
+    "de": [
+      [
+        "das Wetter",
+        "weather"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich erforsche Regen seit Jahren."
+    ],
+    "A2": [
+      "Ich erforsche Regen seit Jahren. Doch die Idee, Menschen könnten das Wetter frei ändern, ist absurd."
+    ],
+    "natural": [
+      "Ich erforsche Regen seit Jahren. Doch die Idee, Menschen könnten das Wetter frei ändern, ist absurd."
+    ]
+  }
 }
   ]
 }

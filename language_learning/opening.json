@@ -65162,6 +65162,3831 @@
       "Welche BEEREN pflanze ich? Welche Farbe sollen die POKÉRIEGEL haben? Selbst das Grübeln macht Spaß."
     ]
   }
+},
+{
+  "id": "PetalburgCityGymBerkeDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_BerkeDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твоя сила..."
+    ],
+    "A2": [
+      "Твоя сила... настоящая."
+    ],
+    "natural": [
+      "Твоя сила... настоящая."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Kraft..."
+    ],
+    "A2": [
+      "Deine Kraft... ist echt."
+    ],
+    "natural": [
+      "Deine Kraft... ist echt."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymBerkeIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_BerkeIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не стану щадить тебя только потому, что ты ребёнок лидера."
+    ],
+    "A2": [
+      "Я не стану щадить тебя только потому, что ты ребёнок лидера. Покажу ужас критического удара!"
+    ],
+    "natural": [
+      "Я не стану щадить тебя только потому, что ты ребёнок лидера. Покажу ужас критического удара!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich schone dich nicht, nur weil du das Kind des Leiters bist."
+    ],
+    "A2": [
+      "Ich schone dich nicht, nur weil du das Kind des Leiters bist. Spüre einen Volltreffer!"
+    ],
+    "natural": [
+      "Ich schone dich nicht, nur weil du das Kind des Leiters bist. Spüre einen Volltreffer!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymBerkePostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_BerkePostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С тех пор как твой отец стал лидером, тренеры ПЕТАЛБУРГА стали намного сильнее."
+    ],
+    "A2": [
+      "С тех пор как твой отец стал лидером, тренеры ПЕТАЛБУРГА стали намного сильнее."
+    ],
+    "natural": [
+      "С тех пор как твой отец стал лидером, тренеры ПЕТАЛБУРГА стали намного сильнее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seit dein Vater Leiter ist, wurden BLÜTENBURGs Trainer viel stärker."
+    ],
+    "A2": [
+      "Seit dein Vater Leiter ist, wurden BLÜTENBURGs Trainer viel stärker."
+    ],
+    "natural": [
+      "Seit dein Vater Leiter ist, wurden BLÜTENBURGs Trainer viel stärker."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymBerkePostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_BerkePostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твой отец очень силён и достоин уважения."
+    ],
+    "A2": [
+      "Твой отец очень силён и достоин уважения. В тебе тот же свет."
+    ],
+    "natural": [
+      "Твой отец очень силён и достоин уважения. В тебе тот же свет. Надеюсь, ваш бой будет великолепен!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein Vater ist stark und verdient Respekt."
+    ],
+    "A2": [
+      "Dein Vater ist stark und verdient Respekt. In dir sehe ich dasselbe Leuchten."
+    ],
+    "natural": [
+      "Dein Vater ist stark und verdient Respekt. In dir sehe ich dasselbe Leuchten. Hoffentlich wird euer Kampf großartig!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymDadGoingToKeepTraining",
+  "base_symbol": "PetalburgCity_Gym_Text_DadGoingToKeepTraining",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: {PLAYER}, иногда навещай маму."
+    ],
+    "A2": [
+      "ПАПА: {PLAYER}, иногда навещай маму. Я останусь здесь и удвою тренировки."
+    ],
+    "natural": [
+      "ПАПА: {PLAYER}, иногда навещай маму. Я останусь здесь и удвою тренировки. Как тренер, я должен отыграться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: {PLAYER}, besuche ab und zu Mama."
+    ],
+    "A2": [
+      "PAPA: {PLAYER}, besuche ab und zu Mama. Ich bleibe hier und trainiere doppelt."
+    ],
+    "natural": [
+      "PAPA: {PLAYER}, besuche ab und zu Mama. Ich bleibe hier und trainiere doppelt. Als Trainer will ich Revanche!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymDadHappyAndSad",
+  "base_symbol": "PetalburgCity_Gym_Text_DadHappyAndSad",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: Как лидер я очень расстроен."
+    ],
+    "A2": [
+      "ПАПА: Как лидер я очень расстроен. Но как отец одновременно рад и немного печален."
+    ],
+    "natural": [
+      "ПАПА: Как лидер я очень расстроен. Но как отец одновременно рад и немного печален. Странное чувство."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Als Leiter bin ich enttäuscht."
+    ],
+    "A2": [
+      "PAPA: Als Leiter bin ich enttäuscht. Als Vater bin ich froh und etwas traurig zugleich."
+    ],
+    "natural": [
+      "PAPA: Als Leiter bin ich enttäuscht. Als Vater bin ich froh und etwas traurig zugleich. Ein seltsames Gefühl."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymDadNoAmountOfTrainingIsEnough",
+  "base_symbol": "PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: {PLAYER}, как дела?"
+    ],
+    "A2": [
+      "ПАПА: {PLAYER}, как дела? Мир покемонов глубок."
+    ],
+    "natural": [
+      "ПАПА: {PLAYER}, как дела? Мир покемонов глубок. Мне кажется, тренировок никогда не бывает достаточно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: {PLAYER}, wie läuft es?"
+    ],
+    "A2": [
+      "PAPA: {PLAYER}, wie läuft es? Die Welt der Pokémon ist tief."
+    ],
+    "natural": [
+      "PAPA: {PLAYER}, wie läuft es? Die Welt der Pokémon ist tief. Man kann wohl nie genug trainieren."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymDoorAppearsLocked",
+  "base_symbol": "PetalburgCity_Gym_Text_DoorAppearsLocked",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эта дверь пока заперта."
+    ],
+    "A2": [
+      "Эта дверь пока заперта."
+    ],
+    "natural": [
+      "Эта дверь пока заперта."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Diese Tür ist noch verschlossen."
+    ],
+    "A2": [
+      "Diese Tür ist noch verschlossen."
+    ],
+    "natural": [
+      "Diese Tür ist noch verschlossen."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterAccuracyRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterAccuracyRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА ТОЧНОСТИ."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА ТОЧНОСТИ. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА ТОЧНОСТИ. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: TREFFER-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: TREFFER-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: TREFFER-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterDefenseRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterDefenseRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА ЗАЩИТЫ."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА ЗАЩИТЫ. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА ЗАЩИТЫ. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: ABWEHR-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: ABWEHR-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: ABWEHR-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterGymLeadersRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterGymLeadersRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КОМНАТА ЛИДЕРА."
+    ],
+    "A2": [
+      "КОМНАТА ЛИДЕРА. Сам увидишь, какие покемоны ждут впереди."
+    ],
+    "natural": [
+      "КОМНАТА ЛИДЕРА. Сам увидишь, какие покемоны ждут впереди. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RAUM DES LEITERS."
+    ],
+    "A2": [
+      "RAUM DES LEITERS. Finde selbst heraus, welche Pokémon warten."
+    ],
+    "natural": [
+      "RAUM DES LEITERS. Finde selbst heraus, welche Pokémon warten. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterOHKORoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterOHKORoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА НОКАУТА."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА НОКАУТА. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА НОКАУТА. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: K.O.-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: K.O.-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: K.O.-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterRecoveryRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterRecoveryRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА ЛЕЧЕНИЯ."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА ЛЕЧЕНИЯ. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА ЛЕЧЕНИЯ. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: HEILUNGS-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: HEILUNGS-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: HEILUNGS-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterSpeedRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterSpeedRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА СКОРОСТИ."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА СКОРОСТИ. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА СКОРОСТИ. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: TEMPO-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: TEMPO-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: TEMPO-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterStrengthRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterStrengthRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА СИЛЫ."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА СИЛЫ. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА СИЛЫ. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: KRAFT-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: KRAFT-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: KRAFT-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymEnterZeroReductionRoom",
+  "base_symbol": "PetalburgCity_Gym_Text_EnterZeroReductionRoom",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На табличке: КОМНАТА БЕЗ СНИЖЕНИЯ."
+    ],
+    "A2": [
+      "На табличке: КОМНАТА БЕЗ СНИЖЕНИЯ. Войти?"
+    ],
+    "natural": [
+      "На табличке: КОМНАТА БЕЗ СНИЖЕНИЯ. Войти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf dem Schild: SENKUNGSSTOPP-RAUM."
+    ],
+    "A2": [
+      "Auf dem Schild: SENKUNGSSTOPP-RAUM. Eintreten?"
+    ],
+    "natural": [
+      "Auf dem Schild: SENKUNGSSTOPP-RAUM. Eintreten?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymExplainBalanceBadgeTakeThis",
+  "base_symbol": "PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: ЗНАЧОК повышает защиту твоих покемонов и позволяет применять СЁРФИНГ вне боя."
+    ],
+    "A2": [
+      "ПАПА: ЗНАЧОК повышает защиту твоих покемонов и позволяет применять СЁРФИНГ вне боя. А это мой подарок."
+    ],
+    "natural": [
+      "ПАПА: ЗНАЧОК повышает защиту твоих покемонов и позволяет применять СЁРФИНГ вне боя. А это мой подарок. Используй его правильно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Der ORDEN erhöht die Verteidigung deiner Pokémon und erlaubt SURFER außerhalb des Kampfs."
+    ],
+    "A2": [
+      "PAPA: Der ORDEN erhöht die Verteidigung deiner Pokémon und erlaubt SURFER außerhalb des Kampfs. Dies ist mein Geschenk."
+    ],
+    "natural": [
+      "PAPA: Der ORDEN erhöht die Verteidigung deiner Pokémon und erlaubt SURFER außerhalb des Kampfs. Dies ist mein Geschenk. Nutze es gut."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymExplainFacade",
+  "base_symbol": "PetalburgCity_Gym_Text_ExplainFacade",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: ТМ42 содержит ФАСАД."
+    ],
+    "A2": [
+      "ПАПА: ТМ42 содержит ФАСАД. Его сила удваивается, если покемон отравлен, парализован или обожжён."
+    ],
+    "natural": [
+      "ПАПА: ТМ42 содержит ФАСАД. Его сила удваивается, если покемон отравлен, парализован или обожжён. Так беду можно обратить в преимущество."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: TM42 enthält FASSADE."
+    ],
+    "A2": [
+      "PAPA: TM42 enthält FASSADE. Ihre Kraft verdoppelt sich bei Gift, Paralyse oder Verbrennung."
+    ],
+    "natural": [
+      "PAPA: TM42 enthält FASSADE. Ihre Kraft verdoppelt sich bei Gift, Paralyse oder Verbrennung. So wird ein Nachteil zum Vorteil."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGeorgeDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_GeorgeDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не успел восстановить ОЗ..."
+    ],
+    "A2": [
+      "Я не успел восстановить ОЗ... Какая сила!"
+    ],
+    "natural": [
+      "Я не успел восстановить ОЗ... Какая сила!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich konnte nicht genug KP heilen..."
+    ],
+    "A2": [
+      "Ich konnte nicht genug KP heilen... Welche Kraft!"
+    ],
+    "natural": [
+      "Ich konnte nicht genug KP heilen... Welche Kraft!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGeorgeIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_GeorgeIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Представь: ты почти победил, и противник восстанавливает ОЗ."
+    ],
+    "A2": [
+      "Представь: ты почти победил, и противник восстанавливает ОЗ. Как ужасно!"
+    ],
+    "natural": [
+      "Представь: ты почти победил, и противник восстанавливает ОЗ. Как ужасно! Сейчас покажу это чувство."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Stell dir vor: Du gewinnst fast, dann heilt der Gegner KP."
+    ],
+    "A2": [
+      "Stell dir vor: Du gewinnst fast, dann heilt der Gegner KP. Wie schrecklich!"
+    ],
+    "natural": [
+      "Stell dir vor: Du gewinnst fast, dann heilt der Gegner KP. Wie schrecklich! Ich zeige dir dieses Gefühl."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGeorgePostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_GeorgePostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я продолжу тренироваться на СТАДИОНАХ и однажды стану лидером."
+    ],
+    "A2": [
+      "Я продолжу тренироваться на СТАДИОНАХ и однажды стану лидером."
+    ],
+    "natural": [
+      "Я продолжу тренироваться на СТАДИОНАХ и однажды стану лидером."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich trainiere weiter in ARENEN und werde eines Tages Leiter."
+    ],
+    "A2": [
+      "Ich trainiere weiter in ARENEN und werde eines Tages Leiter."
+    ],
+    "natural": [
+      "Ich trainiere weiter in ARENEN und werde eines Tages Leiter."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGeorgePostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_GeorgePostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ожидал силы от ребёнка лидера."
+    ],
+    "A2": [
+      "Я ожидал силы от ребёнка лидера. Но умение приходит лишь с трудом."
+    ],
+    "natural": [
+      "Я ожидал силы от ребёнка лидера. Но умение приходит лишь с трудом. Моих усилий не хватило. Дальше КОМНАТА НОКАУТА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vom Kind des Leiters erwartete ich Stärke."
+    ],
+    "A2": [
+      "Vom Kind des Leiters erwartete ich Stärke. Doch Können kommt durch Arbeit."
+    ],
+    "natural": [
+      "Vom Kind des Leiters erwartete ich Stärke. Doch Können kommt durch Arbeit. Meine reichte nicht. Weiter zum K.O.-Raum!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGiveEnigmaBerry",
+  "base_symbol": "PetalburgCity_Gym_Text_GiveEnigmaBerry",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: Привет, {PLAYER}!"
+    ],
+    "A2": [
+      "ПАПА: Привет, {PLAYER}! Я получил очень редкую ЯГОДУ."
+    ],
+    "natural": [
+      "ПАПА: Привет, {PLAYER}! Я получил очень редкую ЯГОДУ. Возьми её."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Hallo, {PLAYER}!"
+    ],
+    "A2": [
+      "PAPA: Hallo, {PLAYER}! Ich bekam eine sehr seltene BEERE."
+    ],
+    "natural": [
+      "PAPA: Hallo, {PLAYER}! Ich bekam eine sehr seltene BEERE. Du sollst sie haben."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGymGuideAdvice",
+  "base_symbol": "PetalburgCity_Gym_Text_GymGuideAdvice",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, будущий ЧЕМПИОН {PLAYER}!"
+    ],
+    "A2": [
+      "Привет, будущий ЧЕМПИОН {PLAYER}! Двери открываются после побед над тренерами."
+    ],
+    "natural": [
+      "Привет, будущий ЧЕМПИОН {PLAYER}! Двери открываются после побед над тренерами. Они используют разные предметы. Слева КОМНАТА СКОРОСТИ, справа КОМНАТА ТОЧНОСТИ. Названия написаны на дверях. Выбирай!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, künftiger CHAMP {PLAYER}!"
+    ],
+    "A2": [
+      "Hallo, künftiger CHAMP {PLAYER}! Türen öffnen sich nach Siegen."
+    ],
+    "natural": [
+      "Hallo, künftiger CHAMP {PLAYER}! Türen öffnen sich nach Siegen. Die Trainer nutzen Items. Links ist der TEMPO-, rechts der TREFFER-Raum. Namen stehen an den Türen. Wähle!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGymGuidePostVictory",
+  "base_symbol": "PetalburgCity_Gym_Text_GymGuidePostVictory",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER}!"
+    ],
+    "A2": [
+      "{PLAYER}! Ты победил даже собственного отца!"
+    ],
+    "natural": [
+      "{PLAYER}! Ты победил даже собственного отца! Вот это поворот!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER}!"
+    ],
+    "A2": [
+      "{PLAYER}! Du hast sogar deinen Vater besiegt!"
+    ],
+    "natural": [
+      "{PLAYER}! Du hast sogar deinen Vater besiegt! Was für eine Wendung!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGymStatue",
+  "base_symbol": "PetalburgCity_Gym_Text_GymStatue",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ ПЕТАЛБУРГА"
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ ПЕТАЛБУРГА"
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ ПЕТАЛБУРГА"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA BLÜTENBURG"
+    ],
+    "A2": [
+      "POKÉMON-ARENA BLÜTENBURG"
+    ],
+    "natural": [
+      "POKÉMON-ARENA BLÜTENBURG"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymGymStatueCertified",
+  "base_symbol": "PetalburgCity_Gym_Text_GymStatueCertified",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПЕТАЛБУРГА."
+    ],
+    "A2": [
+      "СТАДИОН ПЕТАЛБУРГА. ПОБЕДИТЕЛИ НОРМАНА: {PLAYER}"
+    ],
+    "natural": [
+      "СТАДИОН ПЕТАЛБУРГА. ПОБЕДИТЕЛИ НОРМАНА: {PLAYER}"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ARENA BLÜTENBURG."
+    ],
+    "A2": [
+      "ARENA BLÜTENBURG. SIEGER ÜBER NORMAN: {PLAYER}"
+    ],
+    "natural": [
+      "ARENA BLÜTENBURG. SIEGER ÜBER NORMAN: {PLAYER}"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymJodiPostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_JodiPostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сделать покемона сильнее хорошо."
+    ],
+    "A2": [
+      "Сделать покемона сильнее хорошо. Но победителя определяют чувства тренера к покемону."
+    ],
+    "natural": [
+      "Сделать покемона сильнее хорошо. Но победителя определяют чувства тренера к покемону."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pokémon zu stärken ist gut."
+    ],
+    "A2": [
+      "Pokémon zu stärken ist gut. Doch die Gefühle des Trainers entscheiden den Sieg."
+    ],
+    "natural": [
+      "Pokémon zu stärken ist gut. Doch die Gefühle des Trainers entscheiden den Sieg."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymJodiPostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_JodiPostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты управляешь покемонами как твой отец."
+    ],
+    "A2": [
+      "Ты управляешь покемонами как твой отец. Проходи!"
+    ],
+    "natural": [
+      "Ты управляешь покемонами как твой отец. Проходи! Лидер ждёт тебя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du führst Pokémon wie dein Vater."
+    ],
+    "A2": [
+      "Du führst Pokémon wie dein Vater. Geh weiter!"
+    ],
+    "natural": [
+      "Du führst Pokémon wie dein Vater. Geh weiter! Der Leiter wartet!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymJodyDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_JodyDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Но я выложился полностью!"
+    ],
+    "A2": [
+      "Но я выложился полностью!"
+    ],
+    "natural": [
+      "Но я выложился полностью!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aber ich gab alles!"
+    ],
+    "A2": [
+      "Aber ich gab alles!"
+    ],
+    "natural": [
+      "Aber ich gab alles!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymJodyIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_JodyIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лидер велел нам сражаться в полную силу и победить тебя, даже если ты его ребёнок!"
+    ],
+    "A2": [
+      "Лидер велел нам сражаться в полную силу и победить тебя, даже если ты его ребёнок!"
+    ],
+    "natural": [
+      "Лидер велел нам сражаться в полную силу и победить тебя, даже если ты его ребёнок!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Leiter befahl uns, alles zu geben und dich zu besiegen, auch wenn du sein Kind bist!"
+    ],
+    "A2": [
+      "Der Leiter befahl uns, alles zu geben und dich zu besiegen, auch wenn du sein Kind bist!"
+    ],
+    "natural": [
+      "Der Leiter befahl uns, alles zu geben und dich zu besiegen, auch wenn du sein Kind bist!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymLoriDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_LoriDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нашей защиты не хватило..."
+    ],
+    "A2": [
+      "Нашей защиты не хватило..."
+    ],
+    "natural": [
+      "Нашей защиты не хватило..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unsere Abwehr genügte nicht..."
+    ],
+    "A2": [
+      "Unsere Abwehr genügte nicht..."
+    ],
+    "natural": [
+      "Unsere Abwehr genügte nicht..."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymLoriIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_LoriIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Чем выше ЗАЩИТА, тем безрассуднее я могу атаковать."
+    ],
+    "A2": [
+      "Чем выше ЗАЩИТА, тем безрассуднее я могу атаковать."
+    ],
+    "natural": [
+      "Чем выше ЗАЩИТА, тем безрассуднее я могу атаковать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Je höher die ABWEHR, desto wilder kann ich angreifen."
+    ],
+    "A2": [
+      "Je höher die ABWEHR, desto wilder kann ich angreifen."
+    ],
+    "natural": [
+      "Je höher die ABWEHR, desto wilder kann ich angreifen."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymLoriPostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_LoriPostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет!"
+    ],
+    "A2": [
+      "Привет! Уже пробовал СЁРФИНГ?"
+    ],
+    "natural": [
+      "Привет! Уже пробовал СЁРФИНГ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo!"
+    ],
+    "A2": [
+      "Hallo! Hast du SURFER schon benutzt?"
+    ],
+    "natural": [
+      "Hallo! Hast du SURFER schon benutzt?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymLoriPostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_LoriPostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты преподал мне урок."
+    ],
+    "A2": [
+      "Ты преподал мне урок. Слева КОМНАТА СИЛЫ, справа КОМНАТА НОКАУТА."
+    ],
+    "natural": [
+      "Ты преподал мне урок. Слева КОМНАТА СИЛЫ, справа КОМНАТА НОКАУТА. В обеих сильные атакующие тренеры."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast mich etwas gelehrt."
+    ],
+    "A2": [
+      "Du hast mich etwas gelehrt. Links ist der KRAFT-, rechts der K.O.-Raum."
+    ],
+    "natural": [
+      "Du hast mich etwas gelehrt. Links ist der KRAFT-, rechts der K.O.-Raum. In beiden warten starke Angreifer."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymMaryDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_MaryDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты оказался лучше меня..."
+    ],
+    "A2": [
+      "Ты оказался лучше меня..."
+    ],
+    "natural": [
+      "Ты оказался лучше меня..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du warst besser als ich..."
+    ],
+    "A2": [
+      "Du warst besser als ich..."
+    ],
+    "natural": [
+      "Du warst besser als ich..."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymMaryIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_MaryIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хи-хи..."
+    ],
+    "A2": [
+      "Хи-хи... Это КОМНАТА ТОЧНОСТИ."
+    ],
+    "natural": [
+      "Хи-хи... Это КОМНАТА ТОЧНОСТИ. Когда все удары попадают, становится страшно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hihi..."
+    ],
+    "A2": [
+      "Hihi... Dies ist der TREFFER-Raum."
+    ],
+    "natural": [
+      "Hihi... Dies ist der TREFFER-Raum. Wenn jeder Angriff trifft, wird es übel."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymMaryPostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_MaryPostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаешь нашу цель?"
+    ],
+    "A2": [
+      "Знаешь нашу цель? Мы хотим стать единым целым со своими покемонами."
+    ],
+    "natural": [
+      "Знаешь нашу цель? Мы хотим стать единым целым со своими покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kennst du unser Ziel?"
+    ],
+    "A2": [
+      "Kennst du unser Ziel? Wir wollen Seelenpartner unserer Pokémon werden."
+    ],
+    "natural": [
+      "Kennst du unser Ziel? Wir wollen Seelenpartner unserer Pokémon werden."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymMaryPostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_MaryPostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Впереди ещё сильнее."
+    ],
+    "A2": [
+      "Впереди ещё сильнее. Слева КОМНАТА ЗАЩИТЫ, справа КОМНАТА ЛЕЧЕНИЯ."
+    ],
+    "natural": [
+      "Впереди ещё сильнее. Слева КОМНАТА ЗАЩИТЫ, справа КОМНАТА ЛЕЧЕНИЯ. Везде проверят силу атаки."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Noch Stärkere warten."
+    ],
+    "A2": [
+      "Noch Stärkere warten. Links ist der ABWEHR-, rechts der HEILUNGS-Raum."
+    ],
+    "natural": [
+      "Noch Stärkere warten. Links ist der ABWEHR-, rechts der HEILUNGS-Raum. Beide prüfen deine Angriffskraft."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymNormanDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_NormanDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я..."
+    ],
+    "A2": [
+      "Я... не верю..."
+    ],
+    "natural": [
+      "Я... не верю... Я проиграл тебе, {PLAYER}? Но правила есть правила. Возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich..."
+    ],
+    "A2": [
+      "Ich... kann es nicht glauben..."
+    ],
+    "natural": [
+      "Ich... kann es nicht glauben... Ich verlor gegen {PLAYER}? Doch Regeln sind Regeln. Nimm das."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymNormanGoToDewford",
+  "base_symbol": "PetalburgCity_Gym_Text_NormanGoToDewford",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: Ты победил лидера РАСТБОРО."
+    ],
+    "A2": [
+      "ПАПА: Ты победил лидера РАСТБОРО. Но есть тренеры сильнее."
+    ],
+    "natural": [
+      "ПАПА: Ты победил лидера РАСТБОРО. Но есть тренеры сильнее. В ДЬЮФОРДЕ живёт лидер БРОЛИ. Брось ему вызов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Du besiegtest METAROSTs Leiterin."
+    ],
+    "A2": [
+      "PAPA: Du besiegtest METAROSTs Leiterin. Doch stärkere Trainer warten."
+    ],
+    "natural": [
+      "PAPA: Du besiegtest METAROSTs Leiterin. Doch stärkere Trainer warten. In FAUSTAUHAVEN ist KAMILLO. Fordere ihn heraus."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymNormanGoToRustboro",
+  "base_symbol": "PetalburgCity_Gym_Text_NormanGoToRustboro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: Иди на СТАДИОН РАСТБОРО."
+    ],
+    "A2": [
+      "ПАПА: Иди на СТАДИОН РАСТБОРО. С новичком мне сражаться незачем."
+    ],
+    "natural": [
+      "ПАПА: Иди на СТАДИОН РАСТБОРО. С новичком мне сражаться незачем. Я приму твой вызов, когда покажешь четыре ЗНАЧКА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Geh zur ARENA in METAROST."
+    ],
+    "A2": [
+      "PAPA: Geh zur ARENA in METAROST. Gegen Anfänger kämpfe ich nicht."
+    ],
+    "natural": [
+      "PAPA: Geh zur ARENA in METAROST. Gegen Anfänger kämpfe ich nicht. Zeig mir vier ORDEN, dann nehme ich deine Herausforderung an."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymNormanIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_NormanIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: У тебя четыре ЗНАЧКА."
+    ],
+    "A2": [
+      "ПАПА: У тебя четыре ЗНАЧКА. Как и обещал, мы сразимся."
+    ],
+    "natural": [
+      "ПАПА: У тебя четыре ЗНАЧКА. Как и обещал, мы сразимся. Я счастлив провести настоящий бой со своим ребёнком. Но бой есть бой! Как лидер, я сделаю всё ради победы. Покажи максимум!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Du hast vier ORDEN."
+    ],
+    "A2": [
+      "PAPA: Du hast vier ORDEN. Wie versprochen kämpfen wir."
+    ],
+    "natural": [
+      "PAPA: Du hast vier ORDEN. Wie versprochen kämpfen wir. Ich freue mich auf einen echten Kampf mit meinem Kind. Doch Kampf ist Kampf! Als Leiter gebe ich alles. Du auch!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymParkerDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_ParkerDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Характеристики не снизились, но я всё равно проиграл..."
+    ],
+    "A2": [
+      "Характеристики не снизились, но я всё равно проиграл..."
+    ],
+    "natural": [
+      "Характеристики не снизились, но я всё равно проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Werte blieben gleich, doch ich verlor trotzdem..."
+    ],
+    "A2": [
+      "Die Werte blieben gleich, doch ich verlor trotzdem..."
+    ],
+    "natural": [
+      "Die Werte blieben gleich, doch ich verlor trotzdem..."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymParkerIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_ParkerIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не трать время на снижение характеристик моего покемона!"
+    ],
+    "A2": [
+      "Не трать время на снижение характеристик моего покемона!"
+    ],
+    "natural": [
+      "Не трать время на снижение характеристик моего покемона!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verschwende keine Zeit damit, die Werte meines Pokémon zu senken!"
+    ],
+    "A2": [
+      "Verschwende keine Zeit damit, die Werte meines Pokémon zu senken!"
+    ],
+    "natural": [
+      "Verschwende keine Zeit damit, die Werte meines Pokémon zu senken!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymParkerPostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_ParkerPostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "После твоей победы над лидером тренировки стали намного тяжелее."
+    ],
+    "A2": [
+      "После твоей победы над лидером тренировки стали намного тяжелее."
+    ],
+    "natural": [
+      "После твоей победы над лидером тренировки стали намного тяжелее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seit deinem Sieg über den Leiter ist das Training viel härter."
+    ],
+    "A2": [
+      "Seit deinem Sieg über den Leiter ist das Training viel härter."
+    ],
+    "natural": [
+      "Seit deinem Sieg über den Leiter ist das Training viel härter."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymParkerPostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_ParkerPostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дальше КОМНАТА СИЛЫ."
+    ],
+    "A2": [
+      "Дальше КОМНАТА СИЛЫ. Выдержишь грубую мощь?"
+    ],
+    "natural": [
+      "Дальше КОМНАТА СИЛЫ. Выдержишь грубую мощь?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als Nächstes kommt der KRAFT-Raum."
+    ],
+    "A2": [
+      "Als Nächstes kommt der KRAFT-Raum. Hältst du rohe Gewalt aus?"
+    ],
+    "natural": [
+      "Als Nächstes kommt der KRAFT-Raum. Hältst du rohe Gewalt aus?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymRandallDefeat",
+  "base_symbol": "PetalburgCity_Gym_Text_RandallDefeat",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Великолепный бой!"
+    ],
+    "A2": [
+      "Великолепный бой!"
+    ],
+    "natural": [
+      "Великолепный бой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein großartiger Kampf!"
+    ],
+    "A2": [
+      "Ein großartiger Kampf!"
+    ],
+    "natural": [
+      "Ein großartiger Kampf!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymRandallIntro",
+  "base_symbol": "PetalburgCity_Gym_Text_RandallIntro",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Атаковать раньше противника - уже огромное преимущество."
+    ],
+    "A2": [
+      "Атаковать раньше противника - уже огромное преимущество. Согласен?"
+    ],
+    "natural": [
+      "Атаковать раньше противника - уже огромное преимущество. Согласен?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vor dem Gegner anzugreifen ist schon ein großer Vorteil."
+    ],
+    "A2": [
+      "Vor dem Gegner anzugreifen ist schon ein großer Vorteil. Oder?"
+    ],
+    "natural": [
+      "Vor dem Gegner anzugreifen ist schon ein großer Vorteil. Oder?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymRandallPostBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_RandallPostBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Неважно, кого ты победил и кому проиграл: всегда тренируй себя и покемонов."
+    ],
+    "A2": [
+      "Неважно, кого ты победил и кому проиграл: всегда тренируй себя и покемонов. Так поступает настоящий лидер."
+    ],
+    "natural": [
+      "Неважно, кого ты победил и кому проиграл: всегда тренируй себя и покемонов. Так поступает настоящий лидер."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Egal, wen du besiegst oder gegen wen du verlierst: Trainiere stets dich und deine Pokémon."
+    ],
+    "A2": [
+      "Egal, wen du besiegst oder gegen wen du verlierst: Trainiere stets dich und deine Pokémon. So handelt ein Leiter."
+    ],
+    "natural": [
+      "Egal, wen du besiegst oder gegen wen du verlierst: Trainiere stets dich und deine Pokémon. So handelt ein Leiter."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymRandallPostBattle",
+  "base_symbol": "PetalburgCity_Gym_Text_RandallPostBattle",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Иди дальше."
+    ],
+    "A2": [
+      "Иди дальше. Слева КОМНАТА БЕЗ СНИЖЕНИЯ, справа КОМНАТА ЗАЩИТЫ."
+    ],
+    "natural": [
+      "Иди дальше. Слева КОМНАТА БЕЗ СНИЖЕНИЯ, справа КОМНАТА ЗАЩИТЫ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Weiter geht es."
+    ],
+    "A2": [
+      "Weiter geht es. Links ist der SENKUNGSSTOPP-, rechts der ABWEHR-Raum."
+    ],
+    "natural": [
+      "Weiter geht es. Links ist der SENKUNGSSTOPP-, rechts der ABWEHR-Raum."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymReceivedBalanceBadge",
+  "base_symbol": "PetalburgCity_Gym_Text_ReceivedBalanceBadge",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает ЗНАЧОК БАЛАНСА от ПАПЫ!"
+    ],
+    "A2": [
+      "{PLAYER} получает ЗНАЧОК БАЛАНСА от ПАПЫ!"
+    ],
+    "natural": [
+      "{PLAYER} получает ЗНАЧОК БАЛАНСА от ПАПЫ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält den BALANCEORDEN von PAPA!"
+    ],
+    "A2": [
+      "{PLAYER} erhält den BALANCEORDEN von PAPA!"
+    ],
+    "natural": [
+      "{PLAYER} erhält den BALANCEORDEN von PAPA!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymWallysParentsHaveGiftForYou",
+  "base_symbol": "PetalburgCity_Gym_Text_WallysParentsHaveGiftForYou",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: Родители УОЛЛИ заходили."
+    ],
+    "A2": [
+      "ПАПА: Родители УОЛЛИ заходили. Они хотят кое-что подарить тебе, {PLAYER}."
+    ],
+    "natural": [
+      "ПАПА: Родители УОЛЛИ заходили. Они хотят кое-что подарить тебе, {PLAYER}."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: HEIKOs Eltern waren hier."
+    ],
+    "A2": [
+      "PAPA: HEIKOs Eltern waren hier. Sie möchten dir etwas geben, {PLAYER}."
+    ],
+    "natural": [
+      "PAPA: HEIKOs Eltern waren hier. Sie möchten dir etwas geben, {PLAYER}."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymYouHaveGottenStronger",
+  "base_symbol": "PetalburgCity_Gym_Text_YouHaveGottenStronger",
+  "source_path": "data/maps/PetalburgCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: {PLAYER}, ты стал сильнее."
+    ],
+    "A2": [
+      "ПАПА: {PLAYER}, ты стал сильнее. Это видно по твоим ЗНАЧКАМ."
+    ],
+    "natural": [
+      "ПАПА: {PLAYER}, ты стал сильнее. Это видно по твоим ЗНАЧКАМ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: {PLAYER}, du bist stärker geworden."
+    ],
+    "A2": [
+      "PAPA: {PLAYER}, du bist stärker geworden. Deine ORDEN beweisen es."
+    ],
+    "natural": [
+      "PAPA: {PLAYER}, du bist stärker geworden. Deine ORDEN beweisen es."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityHouseOneGoOnAdventure",
+  "base_symbol": "PetalburgCity_House1_Text_GoOnAdventure",
+  "source_path": "data/maps/PetalburgCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочу отправиться в путь с покемонами: ползти по мокрой траве, взбираться на горы, пересекать бурные моря и бродить по тёмным пещерам."
+    ],
+    "A2": [
+      "Хочу отправиться в путь с покемонами: ползти по мокрой траве, взбираться на горы, пересекать бурные моря и бродить по тёмным пещерам. Даже скучать по дому."
+    ],
+    "natural": [
+      "Хочу отправиться в путь с покемонами: ползти по мокрой траве, взбираться на горы, пересекать бурные моря и бродить по тёмным пещерам. Даже скучать по дому. Путешествовать чудесно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich möchte mit Pokémon reisen: durch nasses Gras, über Berge, wilde Meere und dunkle Höhlen."
+    ],
+    "A2": [
+      "Ich möchte mit Pokémon reisen: durch nasses Gras, über Berge, wilde Meere und dunkle Höhlen. Selbst Heimweh gehört dazu."
+    ],
+    "natural": [
+      "Ich möchte mit Pokémon reisen: durch nasses Gras, über Berge, wilde Meere und dunkle Höhlen. Selbst Heimweh gehört dazu. Reisen muss herrlich sein!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityHouseOneTravelingIsWonderful",
+  "base_symbol": "PetalburgCity_House1_Text_TravelingIsWonderful",
+  "source_path": "data/maps/PetalburgCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Путешествия прекрасны!"
+    ],
+    "A2": [
+      "Путешествия прекрасны! В молодости я странствовал по морям и горам."
+    ],
+    "natural": [
+      "Путешествия прекрасны! В молодости я странствовал по морям и горам."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Reisen ist wunderbar!"
+    ],
+    "A2": [
+      "Reisen ist wunderbar! In meiner Jugend zog ich über Meere und Berge."
+    ],
+    "natural": [
+      "Reisen ist wunderbar! In meiner Jugend zog ich über Meere und Berge."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityHouseTwoBattledNormanOnce",
+  "base_symbol": "PetalburgCity_House2_Text_BattledNormanOnce",
+  "source_path": "data/maps/PetalburgCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Однажды я сражался с НОРМАНОМ, но он был слишком силён."
+    ],
+    "A2": [
+      "Однажды я сражался с НОРМАНОМ, но он был слишком силён. Чувствуется, что он живёт ради покемонов."
+    ],
+    "natural": [
+      "Однажды я сражался с НОРМАНОМ, но он был слишком силён. Чувствуется, что он живёт ради покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kämpfte einmal gegen NORMAN, doch er war viel zu stark."
+    ],
+    "A2": [
+      "Ich kämpfte einmal gegen NORMAN, doch er war viel zu stark. Er lebt wohl für Pokémon."
+    ],
+    "natural": [
+      "Ich kämpfte einmal gegen NORMAN, doch er war viel zu stark. Er lebt wohl für Pokémon."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityHouseTwoNormanBecameGymLeader",
+  "base_symbol": "PetalburgCity_House2_Text_NormanBecameGymLeader",
+  "source_path": "data/maps/PetalburgCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "НОРМАН стал новым лидером города."
+    ],
+    "A2": [
+      "НОРМАН стал новым лидером города. Кажется, он перевёз семью из региона ДЖОТО."
+    ],
+    "natural": [
+      "НОРМАН стал новым лидером города. Кажется, он перевёз семью из региона ДЖОТО."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "NORMAN wurde unser neuer ARENALEITER."
+    ],
+    "A2": [
+      "NORMAN wurde unser neuer ARENALEITER. Seine Familie kam wohl aus JOHTO."
+    ],
+    "natural": [
+      "NORMAN wurde unser neuer ARENALEITER. Seine Familie kam wohl aus JOHTO."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityMartRepelIsUseful",
+  "base_symbol": "PetalburgCity_Mart_Text_RepelIsUseful",
+  "source_path": "data/maps/PetalburgCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Используешь РЕПЕЛЛЕНТ?"
+    ],
+    "A2": [
+      "Используешь РЕПЕЛЛЕНТ? Он отпугивает покемонов и полезен, когда спешишь."
+    ],
+    "natural": [
+      "Используешь РЕПЕЛЛЕНТ? Он отпугивает покемонов и полезен, когда спешишь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "предмет",
+        "item"
+      ]
+    ],
+    "de": [
+      [
+        "der Gegenstand",
+        "item"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nutzt du SCHUTZ?"
+    ],
+    "A2": [
+      "Nutzt du SCHUTZ? Er hält Pokémon fern und hilft, wenn du es eilig hast."
+    ],
+    "natural": [
+      "Nutzt du SCHUTZ? Er hält Pokémon fern und hilft, wenn du es eilig hast."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityMartTakeSomeAntidotesWithYou",
+  "base_symbol": "PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou",
+  "source_path": "data/maps/PetalburgCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя есть ПРОТИВОЯДИЕ?"
+    ],
+    "A2": [
+      "У тебя есть ПРОТИВОЯДИЕ? Отравленный покемон теряет ОЗ при ходьбе, пока не упадёт."
+    ],
+    "natural": [
+      "У тебя есть ПРОТИВОЯДИЕ? Отравленный покемон теряет ОЗ при ходьбе, пока не упадёт. Носи лекарство с собой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "предмет",
+        "item"
+      ]
+    ],
+    "de": [
+      [
+        "der Gegenstand",
+        "item"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du ein GEGENGIFT?"
+    ],
+    "A2": [
+      "Hast du ein GEGENGIFT? Ein vergiftetes Pokémon verliert beim Laufen KP, bis es umfällt."
+    ],
+    "natural": [
+      "Hast du ein GEGENGIFT? Ein vergiftetes Pokémon verliert beim Laufen KP, bis es umfällt. Nimm Medizin mit."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityMartWeakWillGrowStronger",
+  "base_symbol": "PetalburgCity_Mart_Text_WeakWillGrowStronger",
+  "source_path": "data/maps/PetalburgCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Даже слабый покемон станет сильнее."
+    ],
+    "A2": [
+      "Даже слабый покемон станет сильнее. Главное - любовь к своему покемону!"
+    ],
+    "natural": [
+      "Даже слабый покемон станет сильнее. Главное - любовь к своему покемону!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "предмет",
+        "item"
+      ]
+    ],
+    "de": [
+      [
+        "der Gegenstand",
+        "item"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auch ein schwaches Pokémon wird stärker."
+    ],
+    "A2": [
+      "Auch ein schwaches Pokémon wird stärker. Das Wichtigste ist die Liebe zu ihm!"
+    ],
+    "natural": [
+      "Auch ein schwaches Pokémon wird stärker. Das Wichtigste ist die Liebe zu ihm!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityPokemonCenterOneFManyTypesOfPokemon",
+  "base_symbol": "PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon",
+  "source_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У покемонов много типов."
+    ],
+    "A2": [
+      "У покемонов много типов. У каждого есть сильные и слабые стороны."
+    ],
+    "natural": [
+      "У покемонов много типов. У каждого есть сильные и слабые стороны. Из-за типов бой может стать лёгким или трудным."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "покемон",
+        "Pokémon"
+      ]
+    ],
+    "de": [
+      [
+        "das Pokémon",
+        "Pokémon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pokémon haben viele Typen mit Stärken und Schwächen."
+    ],
+    "A2": [
+      "Pokémon haben viele Typen mit Stärken und Schwächen. Dadurch kann ein Kampf leicht oder schwer werden."
+    ],
+    "natural": [
+      "Pokémon haben viele Typen mit Stärken und Schwächen. Dadurch kann ein Kampf leicht oder schwer werden."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityPokemonCenterOneFMudkipIsWaterType",
+  "base_symbol": "PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType",
+  "source_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Например, твой МАДКИП водного типа."
+    ],
+    "A2": [
+      "Например, твой МАДКИП водного типа. Он силён против огня, но слаб против травы и электричества."
+    ],
+    "natural": [
+      "Например, твой МАДКИП водного типа. Он силён против огня, но слаб против травы и электричества."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "покемон",
+        "Pokémon"
+      ]
+    ],
+    "de": [
+      [
+        "das Pokémon",
+        "Pokémon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein HYDROPI ist vom Typ Wasser."
+    ],
+    "A2": [
+      "Dein HYDROPI ist vom Typ Wasser. Es ist stark gegen Feuer, aber schwach gegen Pflanze und Elektro."
+    ],
+    "natural": [
+      "Dein HYDROPI ist vom Typ Wasser. Es ist stark gegen Feuer, aber schwach gegen Pflanze und Elektro."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityPokemonCenterOneFOranBerryRegainedHP",
+  "base_symbol": "PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP",
+  "source_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой покемон съел ЯГОДУ ОРАН и восстановил ОЗ!"
+    ],
+    "A2": [
+      "Мой покемон съел ЯГОДУ ОРАН и восстановил ОЗ!"
+    ],
+    "natural": [
+      "Мой покемон съел ЯГОДУ ОРАН и восстановил ОЗ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "покемон",
+        "Pokémon"
+      ]
+    ],
+    "de": [
+      [
+        "das Pokémon",
+        "Pokémon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Pokémon aß eine SINELBEERE und erhielt KP zurück!"
+    ],
+    "A2": [
+      "Mein Pokémon aß eine SINELBEERE und erhielt KP zurück!"
+    ],
+    "natural": [
+      "Mein Pokémon aß eine SINELBEERE und erhielt KP zurück!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityPokemonCenterOneFPCStorageSystem",
+  "base_symbol": "PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem",
+  "source_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кто создал систему хранения покемонов на ПК, должно быть, научный волшебник!"
+    ],
+    "A2": [
+      "Кто создал систему хранения покемонов на ПК, должно быть, научный волшебник!"
+    ],
+    "natural": [
+      "Кто создал систему хранения покемонов на ПК, должно быть, научный волшебник!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "покемон",
+        "Pokémon"
+      ]
+    ],
+    "de": [
+      [
+        "das Pokémon",
+        "Pokémon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wer das Pokémon-Lagersystem im PC erfand, muss ein Wissenschaftsgenie sein!"
+    ],
+    "A2": [
+      "Wer das Pokémon-Lagersystem im PC erfand, muss ein Wissenschaftsgenie sein!"
+    ],
+    "natural": [
+      "Wer das Pokémon-Lagersystem im PC erfand, muss ein Wissenschaftsgenie sein!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityPokemonCenterOneFTorchicIsFireType",
+  "base_symbol": "PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType",
+  "source_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Например, твой ТОРЧИК огненного типа."
+    ],
+    "A2": [
+      "Например, твой ТОРЧИК огненного типа. Он силён против травы и жуков, но слаб против воды."
+    ],
+    "natural": [
+      "Например, твой ТОРЧИК огненного типа. Он силён против травы и жуков, но слаб против воды."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "покемон",
+        "Pokémon"
+      ]
+    ],
+    "de": [
+      [
+        "das Pokémon",
+        "Pokémon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein FLEMMLI ist vom Typ Feuer."
+    ],
+    "A2": [
+      "Dein FLEMMLI ist vom Typ Feuer. Es ist stark gegen Pflanze und Käfer, aber schwach gegen Wasser."
+    ],
+    "natural": [
+      "Dein FLEMMLI ist vom Typ Feuer. Es ist stark gegen Pflanze und Käfer, aber schwach gegen Wasser."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityPokemonCenterOneFTreeckoIsGrassType",
+  "base_symbol": "PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType",
+  "source_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Например, твой ТРИКО травяного типа."
+    ],
+    "A2": [
+      "Например, твой ТРИКО травяного типа. Он силён против воды и земли, но слаб против огня."
+    ],
+    "natural": [
+      "Например, твой ТРИКО травяного типа. Он силён против воды и земли, но слаб против огня."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "покемон",
+        "Pokémon"
+      ]
+    ],
+    "de": [
+      [
+        "das Pokémon",
+        "Pokémon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein GECKARBOR ist vom Typ Pflanze."
+    ],
+    "A2": [
+      "Dein GECKARBOR ist vom Typ Pflanze. Es ist stark gegen Wasser und Boden, aber schwach gegen Feuer."
+    ],
+    "natural": [
+      "Dein GECKARBOR ist vom Typ Pflanze. Es ist stark gegen Wasser und Boden, aber schwach gegen Feuer."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityAreYouRookieTrainer",
+  "base_symbol": "PetalburgCity_Text_AreYouRookieTrainer",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет!"
+    ],
+    "A2": [
+      "Привет! Ты начинающий тренер?"
+    ],
+    "natural": [
+      "Привет! Ты начинающий тренер? Знаешь, что делают тренеры в новом городе? Сначала смотрят, какой здесь СТАДИОН."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo!"
+    ],
+    "A2": [
+      "Hallo! Bist du ein neuer Trainer?"
+    ],
+    "natural": [
+      "Hallo! Bist du ein neuer Trainer? Weißt du, was Trainer in einer neuen Stadt tun? Zuerst sehen sie sich die ARENA an."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityCitySign",
+  "base_symbol": "PetalburgCity_Text_CitySign",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПЕТАЛБУРГ."
+    ],
+    "A2": [
+      "ПЕТАЛБУРГ. Где люди живут в согласии с природой."
+    ],
+    "natural": [
+      "ПЕТАЛБУРГ. Где люди живут в согласии с природой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BLÜTENBURG."
+    ],
+    "A2": [
+      "BLÜTENBURG. Wo Menschen und Natur zusammenleben."
+    ],
+    "natural": [
+      "BLÜTENBURG. Wo Menschen und Natur zusammenleben."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityFullPartyExplanation",
+  "base_symbol": "PetalburgCity_Text_FullPartyExplanation",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если у тебя шесть покемонов и ты поймаешь ещё одного, его автоматически отправят в ЯЩИК через ПК."
+    ],
+    "A2": [
+      "Если у тебя шесть покемонов и ты поймаешь ещё одного, его автоматически отправят в ЯЩИК через ПК."
+    ],
+    "natural": [
+      "Если у тебя шесть покемонов и ты поймаешь ещё одного, его автоматически отправят в ЯЩИК через ПК."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du sechs Pokémon und fängst noch eines, wird es automatisch per PC in eine BOX geschickt."
+    ],
+    "A2": [
+      "Hast du sechs Pokémon und fängst noch eines, wird es automatisch per PC in eine BOX geschickt."
+    ],
+    "natural": [
+      "Hast du sechs Pokémon und fängst noch eines, wird es automatisch per PC in eine BOX geschickt."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityGymSign",
+  "base_symbol": "PetalburgCity_Text_GymSign",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ ПЕТАЛБУРГА."
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ ПЕТАЛБУРГА. ЛИДЕР: НОРМАН."
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ ПЕТАЛБУРГА. ЛИДЕР: НОРМАН. Человек в погоне за силой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA BLÜTENBURG."
+    ],
+    "A2": [
+      "POKÉMON-ARENA BLÜTENBURG. LEITER: NORMAN."
+    ],
+    "natural": [
+      "POKÉMON-ARENA BLÜTENBURG. LEITER: NORMAN. Ein Mann auf der Suche nach Kraft!"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityThisIsGymSign",
+  "base_symbol": "PetalburgCity_Text_ThisIsGymSign",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это знак СТАДИОНА."
+    ],
+    "A2": [
+      "Это знак СТАДИОНА. Ищи такой, когда нужен СТАДИОН."
+    ],
+    "natural": [
+      "Это знак СТАДИОНА. Ищи такой, когда нужен СТАДИОН."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist ein ARENA-Schild."
+    ],
+    "A2": [
+      "Das ist ein ARENA-Schild. Achte darauf, wenn du eine ARENA suchst."
+    ],
+    "natural": [
+      "Das ist ein ARENA-Schild. Achte darauf, wenn du eine ARENA suchst."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityThisIsPetalburgGym",
+  "base_symbol": "PetalburgCity_Text_ThisIsPetalburgGym",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg Gym room, trainer, Norman battle, badge, TM, or post-victory interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот СТАДИОН ПЕТАЛБУРГА."
+    ],
+    "A2": [
+      "Вот СТАДИОН ПЕТАЛБУРГА."
+    ],
+    "natural": [
+      "Вот СТАДИОН ПЕТАЛБУРГА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist die ARENA von BLÜTENBURG."
+    ],
+    "A2": [
+      "Das ist die ARENA von BLÜTENBURG."
+    ],
+    "natural": [
+      "Das ist die ARENA von BLÜTENBURG."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallyHouseSign",
+  "base_symbol": "PetalburgCity_Text_WallyHouseSign",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДОМ УОЛЛИ"
+    ],
+    "A2": [
+      "ДОМ УОЛЛИ"
+    ],
+    "natural": [
+      "ДОМ УОЛЛИ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKOS HAUS"
+    ],
+    "A2": [
+      "HEIKOS HAUS"
+    ],
+    "natural": [
+      "HEIKOS HAUS"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWaterReflection",
+  "base_symbol": "PetalburgCity_Text_WaterReflection",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В воде отражается моё лицо."
+    ],
+    "A2": [
+      "В воде отражается моё лицо. Это сияющая улыбка надежды или мрачный взгляд, борющийся со страхом?"
+    ],
+    "natural": [
+      "В воде отражается моё лицо. Это сияющая улыбка надежды или мрачный взгляд, борющийся со страхом? А что отражает твоё лицо?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "town"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "town"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Gesicht spiegelt sich im Wasser."
+    ],
+    "A2": [
+      "Mein Gesicht spiegelt sich im Wasser. Ist es ein hoffnungsvolles Lächeln oder ein Blick voller Angst?"
+    ],
+    "natural": [
+      "Mein Gesicht spiegelt sich im Wasser. Ist es ein hoffnungsvolles Lächeln oder ein Blick voller Angst? Was zeigt dein Gesicht?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWhereIsWally",
+  "base_symbol": "PetalburgCity_Text_WhereIsWally",
+  "source_path": "data/maps/PetalburgCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Petalburg resident, house, Mart, Pokémon Center, water, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Куда ушёл наш УОЛЛИ?"
+    ],
+    "A2": [
+      "Куда ушёл наш УОЛЛИ? Скоро нам уезжать в ВЕРДАНТУРФ..."
+    ],
+    "natural": [
+      "Куда ушёл наш УОЛЛИ? Скоро нам уезжать в ВЕРДАНТУРФ..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wo ist unser HEIKO?"
+    ],
+    "A2": [
+      "Wo ist unser HEIKO? Wir müssen bald nach WIESENFLUR aufbrechen..."
+    ],
+    "natural": [
+      "Wo ist unser HEIKO? Wir müssen bald nach WIESENFLUR aufbrechen..."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseHusbandHasSomethingForYou",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_HusbandHasSomethingForYou",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, {PLAYER}!"
+    ],
+    "A2": [
+      "Привет, {PLAYER}! Мы хотим кое-что тебе подарить."
+    ],
+    "natural": [
+      "Привет, {PLAYER}! Мы хотим кое-что тебе подарить. Подарок у моего мужа, поговори с ним."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, {PLAYER}!"
+    ],
+    "A2": [
+      "Hallo, {PLAYER}! Wir möchten dir etwas geben."
+    ],
+    "natural": [
+      "Hallo, {PLAYER}! Wir möchten dir etwas geben. Mein Mann hat es. Sprich bitte mit ihm."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseSurfGoAllSortsOfPlaces",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если покемон умеет СЁРФИНГ, ты сможешь попасть во множество мест."
+    ],
+    "A2": [
+      "Если покемон умеет СЁРФИНГ, ты сможешь попасть во множество мест."
+    ],
+    "natural": [
+      "Если покемон умеет СЁРФИНГ, ты сможешь попасть во множество мест."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit SURFER erreicht dein Pokémon viele neue Orte."
+    ],
+    "A2": [
+      "Mit SURFER erreicht dein Pokémon viele neue Orte."
+    ],
+    "natural": [
+      "Mit SURFER erreicht dein Pokémon viele neue Orte."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseThanksForPlayingWithWally",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты, должно быть, {PLAYER}."
+    ],
+    "A2": [
+      "Ты, должно быть, {PLAYER}. Спасибо, что помог УОЛЛИ."
+    ],
+    "natural": [
+      "Ты, должно быть, {PLAYER}. Спасибо, что помог УОЛЛИ. Он с детства был слаб и болен, поэтому мы отправили его к родным в ВЕРДАНТУРФ, где воздух чище. Он уже ушёл. Интересно, где он сейчас?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist wohl {PLAYER}."
+    ],
+    "A2": [
+      "Du bist wohl {PLAYER}. Danke für deine Hilfe bei HEIKO."
+    ],
+    "natural": [
+      "Du bist wohl {PLAYER}. Danke für deine Hilfe bei HEIKO. Er war seit seiner Kindheit krank, daher ging er zu Verwandten nach WIESENFLUR. Dort ist die Luft besser. Wo mag er jetzt sein?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseWallyHasBecomeHealthy",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_WallyHasBecomeHealthy",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, {PLAYER}!"
+    ],
+    "A2": [
+      "Привет, {PLAYER}! В ВЕРДАНТУРФЕ УОЛЛИ стал здоровее."
+    ],
+    "natural": [
+      "Привет, {PLAYER}! В ВЕРДАНТУРФЕ УОЛЛИ стал здоровее. Ты помог ему поймать покемона и сделал его счастливым. Я тоже рад, что у него такой друг. Возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, {PLAYER}!"
+    ],
+    "A2": [
+      "Hallo, {PLAYER}! In WIESENFLUR wurde HEIKO gesund."
+    ],
+    "natural": [
+      "Hallo, {PLAYER}! In WIESENFLUR wurde HEIKO gesund. Du halfst ihm, ein Pokémon zu fangen, und machtest ihn glücklich. Ich bin froh, dass er so einen Freund hat. Nimm das."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseWallyIsComingHomeSoon",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛИ скоро вернётся домой."
+    ],
+    "A2": [
+      "УОЛЛИ скоро вернётся домой. Я очень жду его."
+    ],
+    "natural": [
+      "УОЛЛИ скоро вернётся домой. Я очень жду его."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKO kommt bald nach Hause."
+    ],
+    "A2": [
+      "HEIKO kommt bald nach Hause. Ich freue mich darauf."
+    ],
+    "natural": [
+      "HEIKO kommt bald nach Hause. Ich freue mich darauf."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseWallyLeftWithoutTelling",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не говори мужу, но УОЛЛИ ушёл из ВЕРДАНТУРФА, никому не сказав."
+    ],
+    "A2": [
+      "Не говори мужу, но УОЛЛИ ушёл из ВЕРДАНТУРФА, никому не сказав. Он хрупкий, но очень решительный."
+    ],
+    "natural": [
+      "Не говори мужу, но УОЛЛИ ушёл из ВЕРДАНТУРФА, никому не сказав. Он хрупкий, но очень решительный. Верю, что однажды он вернётся целым."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sag es meinem Mann nicht, aber HEIKO verließ WIESENFLUR heimlich."
+    ],
+    "A2": [
+      "Sag es meinem Mann nicht, aber HEIKO verließ WIESENFLUR heimlich. Er ist schwach, doch sehr willensstark."
+    ],
+    "natural": [
+      "Sag es meinem Mann nicht, aber HEIKO verließ WIESENFLUR heimlich. Er ist schwach, doch sehr willensstark. Sicher kehrt er gesund zurück."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseWallyWasReallyHappy",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_WallyWasReallyHappy",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛИ был так счастлив, рассказывая, как поймал покемона."
+    ],
+    "A2": [
+      "УОЛЛИ был так счастлив, рассказывая, как поймал покемона. Давно я не видел его улыбки."
+    ],
+    "natural": [
+      "УОЛЛИ был так счастлив, рассказывая, как поймал покемона. Давно я не видел его улыбки."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKO war so glücklich, als er vom Fang erzählte."
+    ],
+    "A2": [
+      "HEIKO war so glücklich, als er vom Fang erzählte. Lange sah ich ihn nicht so lächeln."
+    ],
+    "natural": [
+      "HEIKO war so glücklich, als er vom Fang erzählte. Lange sah ich ihn nicht so lächeln."
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseWonderHowWallyIsDoing",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Интересно, как там наш УОЛЛИ?"
+    ],
+    "A2": [
+      "Интересно, как там наш УОЛЛИ?"
+    ],
+    "natural": [
+      "Интересно, как там наш УОЛЛИ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie es unserem HEIKO wohl geht?"
+    ],
+    "A2": [
+      "Wie es unserem HEIKO wohl geht?"
+    ],
+    "natural": [
+      "Wie es unserem HEIKO wohl geht?"
+    ]
+  }
+},
+{
+  "id": "PetalburgCityWallysHouseYouMetWallyInEverGrandeCity",
+  "base_symbol": "PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity",
+  "source_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Wally family follow-up or Surf handoff interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты встретил УОЛЛИ в ЭВЕР-ГРАНДЕ?"
+    ],
+    "A2": [
+      "Ты встретил УОЛЛИ в ЭВЕР-ГРАНДЕ? Не шути, {PLAYER}."
+    ],
+    "natural": [
+      "Ты встретил УОЛЛИ в ЭВЕР-ГРАНДЕ? Не шути, {PLAYER}. Он поправился, но не мог один уйти так далеко."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "семья",
+        "family"
+      ]
+    ],
+    "de": [
+      [
+        "die Familie",
+        "family"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du trafst HEIKO in PRACHTPOLIS?"
+    ],
+    "A2": [
+      "Du trafst HEIKO in PRACHTPOLIS? Mach keine Scherze, {PLAYER}."
+    ],
+    "natural": [
+      "Du trafst HEIKO in PRACHTPOLIS? Mach keine Scherze, {PLAYER}. Er ist gesünder, könnte aber nicht allein so weit gehen."
+    ]
+  }
 }
   ]
 }

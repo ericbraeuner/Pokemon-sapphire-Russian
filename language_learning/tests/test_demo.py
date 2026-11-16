@@ -625,8 +625,11 @@ class LessonTests(unittest.TestCase):
                   'data/maps/RustboroCity_Mart/scripts.inc',
                   'data/maps/RustboroCity_PokemonCenter_1F/scripts.inc',
                   'data/event_scripts.s']
-        paths += ['data/maps/PetalburgCity/scripts.inc',
-                  'data/maps/PetalburgCity_Gym/scripts.inc']
+        petalburg_areas = ('PetalburgCity', 'PetalburgCity_Gym',
+                           'PetalburgCity_House1', 'PetalburgCity_House2',
+                           'PetalburgCity_Mart', 'PetalburgCity_PokemonCenter_1F',
+                           'PetalburgCity_WallysHouse')
+        paths += [f'data/maps/{area}/scripts.inc' for area in petalburg_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in
                   (demo.ROOT / 'data/maps').glob('Route110_TrickHouse*/scripts.inc')]
         mauville_areas = ('MauvilleCity', 'MauvilleCity_Gym', 'MauvilleCity_House1',
@@ -2566,6 +2569,28 @@ class LessonTests(unittest.TestCase):
         }
         self.assertEqual(183, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
+
+    def test_petalburg_return_is_fully_adaptive(self):
+        areas = ('PetalburgCity', 'PetalburgCity_Gym',
+                 'PetalburgCity_House1', 'PetalburgCity_House2',
+                 'PetalburgCity_Mart', 'PetalburgCity_PokemonCenter_1F',
+                 'PetalburgCity_WallysHouse')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'PetalburgCity[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        entries = opening.load()['dialogues']
+        covered = {entry['base_symbol'] for entry in entries}
+        bridged = {
+            entry['base_symbol'] for entry in entries
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(98, len(referenced))
+        self.assertTrue(referenced.issubset(covered))
+        self.assertEqual(85, len(referenced & bridged))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

@@ -29086,6 +29086,1706 @@
     "fallarbor",
     "route"
   ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.berkedefeat.1453",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Berke",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_BerkeDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymBerkeDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1453
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.berkeintro.1454",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Berke",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_BerkeIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymBerkeIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1454
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.berkepostbadge.1455",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_BerkePostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_BerkePostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymBerkePostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1455
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.berkepostbattle.1456",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Berke",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_BerkePostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymBerkePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1456
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.dadgoingtokeeptraining.1457",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanPostBattle",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_DadGoingToKeepTraining",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymDadGoingToKeepTraining"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1457
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.dadhappyandsad.1458",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GiveFacade2",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_DadHappyAndSad",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymDadHappyAndSad"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1458
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.dadnoamountoftrainingisenough.1459",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymDadNoAmountOfTrainingIsEnough"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1459
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.doorappearslocked.1460",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_DoorLocked",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_DoorAppearsLocked",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymDoorAppearsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1460
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enteraccuracyroom.1461",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_AccuracyRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterAccuracyRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterAccuracyRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1461
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enterdefenseroom.1462",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_LeftDefenseRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterDefenseRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterDefenseRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1462
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.entergymleadersroom.1463",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_LeftGymLeadersRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterGymLeadersRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterGymLeadersRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1463
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enterohkoroom.1464",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_LeftOHKORoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterOHKORoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterOHKORoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1464
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enterrecoveryroom.1465",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_RecoveryRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterRecoveryRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterRecoveryRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1465
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enterspeedroom.1466",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_SpeedRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterSpeedRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterSpeedRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1466
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enterstrengthroom.1467",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_LeftStrengthRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterStrengthRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterStrengthRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1467
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.enterzeroreductionroom.1468",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_ZeroReductionRoomDoor",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_EnterZeroReductionRoom",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymEnterZeroReductionRoom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1468
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.explainbalancebadgetakethis.1469",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanBattle",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymExplainBalanceBadgeTakeThis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1469
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.explainfacade.1470",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GiveFacade2",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ExplainFacade",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymExplainFacade"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1470
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.georgedefeat.1471",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_George",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GeorgeDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGeorgeDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1471
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.georgeintro.1472",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_George",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GeorgeIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGeorgeIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1472
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.georgepostbadge.1473",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GeorgePostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GeorgePostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGeorgePostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1473
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.georgepostbattle.1474",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_George",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GeorgePostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGeorgePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1474
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.giveenigmaberry.1475",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_ShouldGiveEnigmaBerry",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GiveEnigmaBerry",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGiveEnigmaBerry"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1475
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.gymguideadvice.1476",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GymGuide",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GymGuideAdvice",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGymGuideAdvice"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1476
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.gymguidepostvictory.1477",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GymGuidePostVictory",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GymGuidePostVictory",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGymGuidePostVictory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1477
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.gymstatue.1478",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GymStatue",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GymStatue",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGymStatue"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1478
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.gymstatuecertified.1479",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GymStatueCertified",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_GymStatueCertified",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymGymStatueCertified"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1479
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.jodipostbadge.1480",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_JodyPostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_JodiPostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymJodiPostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1480
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.jodipostbattle.1481",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Jody",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_JodiPostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymJodiPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1481
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.jodydefeat.1482",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Jody",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_JodyDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymJodyDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1482
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.jodyintro.1483",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Jody",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_JodyIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymJodyIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1483
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.loridefeat.1484",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Lori",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_LoriDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymLoriDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1484
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.loriintro.1485",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Lori",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_LoriIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymLoriIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1485
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.loripostbadge.1486",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_LoriPostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_LoriPostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymLoriPostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1486
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.loripostbattle.1487",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Lori",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_LoriPostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymLoriPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1487
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.marydefeat.1488",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Mary",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_MaryDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymMaryDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1488
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.maryintro.1489",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Mary",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_MaryIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymMaryIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1489
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.marypostbadge.1490",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_MaryPostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_MaryPostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymMaryPostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1490
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.marypostbattle.1491",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Mary",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_MaryPostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymMaryPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1491
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.normandefeat.1492",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanBattle",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_NormanDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymNormanDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1492
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.normangotodewford.1493",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanOneBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_NormanGoToDewford",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymNormanGoToDewford"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1493
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.normangotorustboro.1494",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanNoBadges",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_NormanGoToRustboro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymNormanGoToRustboro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1494
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.normanintro.1495",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanBattle",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_NormanIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymNormanIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1495
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.parkerdefeat.1496",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Parker",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ParkerDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymParkerDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1496
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.parkerintro.1497",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Parker",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ParkerIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymParkerIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1497
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.parkerpostbadge.1498",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_ParkerPostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ParkerPostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymParkerPostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1498
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.parkerpostbattle.1499",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Parker",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ParkerPostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymParkerPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1499
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.randalldefeat.1500",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Randall",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_RandallDefeat",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymRandallDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1500
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.randallintro.1501",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Randall",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_RandallIntro",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymRandallIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1501
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.randallpostbadge.1502",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_RandallPostBadge",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_RandallPostBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymRandallPostBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1502
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.trainer.petalburgcity.gym.text.randallpostbattle.1503",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_Randall",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_RandallPostBattle",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymRandallPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1503
+  },
+  "tags": [
+    "petalburg",
+    "trainer"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.receivedbalancebadge.1504",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanBattle",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_ReceivedBalanceBadge",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymReceivedBalanceBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1504
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.wallysparentshavegiftforyou.1505",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_GiveFacade2",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_WallysParentsHaveGiftForYou",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymWallysParentsHaveGiftForYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1505
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.gym.text.youhavegottenstronger.1506",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Gym/scripts.inc",
+    "symbol": "PetalburgCity_Gym_EventScript_NormanTwoBadges",
+    "base_text_path": "data/maps/PetalburgCity_Gym/text.inc",
+    "base_text_symbol": "PetalburgCity_Gym_Text_YouHaveGottenStronger",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymYouHaveGottenStronger"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1506
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.house1.text.goonadventure.1507",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_House1/scripts.inc",
+    "symbol": "PetalburgCity_House1_EventScript_Woman",
+    "base_text_path": "data/maps/PetalburgCity_House1/text.inc",
+    "base_text_symbol": "PetalburgCity_House1_Text_GoOnAdventure",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityHouseOneGoOnAdventure"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1507
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.house1.text.travelingiswonderful.1508",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_House1/scripts.inc",
+    "symbol": "PetalburgCity_House1_EventScript_Man",
+    "base_text_path": "data/maps/PetalburgCity_House1/text.inc",
+    "base_text_symbol": "PetalburgCity_House1_Text_TravelingIsWonderful",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityHouseOneTravelingIsWonderful"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1508
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.house2.text.battlednormanonce.1509",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_House2/scripts.inc",
+    "symbol": "PetalburgCity_House2_EventScript_SchoolKid",
+    "base_text_path": "data/maps/PetalburgCity_House2/text.inc",
+    "base_text_symbol": "PetalburgCity_House2_Text_BattledNormanOnce",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityHouseTwoBattledNormanOnce"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1509
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.house2.text.normanbecamegymleader.1510",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_House2/scripts.inc",
+    "symbol": "PetalburgCity_House2_EventScript_Woman",
+    "base_text_path": "data/maps/PetalburgCity_House2/text.inc",
+    "base_text_symbol": "PetalburgCity_House2_Text_NormanBecameGymLeader",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityHouseTwoNormanBecameGymLeader"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1510
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.mart.petalburgcity.mart.text.repelisuseful.1511",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Mart/scripts.inc",
+    "symbol": "PetalburgCity_Mart_EventScript_Boy",
+    "base_text_path": "data/maps/PetalburgCity_Mart/text.inc",
+    "base_text_symbol": "PetalburgCity_Mart_Text_RepelIsUseful",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityMartRepelIsUseful"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1511
+  },
+  "tags": [
+    "petalburg",
+    "mart"
+  ]
+},
+{
+  "id": "petalburg.mart.petalburgcity.mart.text.takesomeantidoteswithyou.1512",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Mart/scripts.inc",
+    "symbol": "PetalburgCity_Mart_EventScript_Man",
+    "base_text_path": "data/maps/PetalburgCity_Mart/text.inc",
+    "base_text_symbol": "PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityMartTakeSomeAntidotesWithYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1512
+  },
+  "tags": [
+    "petalburg",
+    "mart"
+  ]
+},
+{
+  "id": "petalburg.mart.petalburgcity.mart.text.weakwillgrowstronger.1513",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_Mart/scripts.inc",
+    "symbol": "PetalburgCity_Mart_EventScript_Woman",
+    "base_text_path": "data/maps/PetalburgCity_Mart/text.inc",
+    "base_text_symbol": "PetalburgCity_Mart_Text_WeakWillGrowStronger",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityMartWeakWillGrowStronger"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1513
+  },
+  "tags": [
+    "petalburg",
+    "mart"
+  ]
+},
+{
+  "id": "petalburg.center.petalburgcity.pokemoncenter.1f.text.manytypesofpokemon.1514",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "PetalburgCity_PokemonCenter_1F_EventScript_Woman",
+    "base_text_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PetalburgCity_PokemonCenter_1F_Text_ManyTypesOfPokemon",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityPokemonCenterOneFManyTypesOfPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1514
+  },
+  "tags": [
+    "petalburg",
+    "center"
+  ]
+},
+{
+  "id": "petalburg.center.petalburgcity.pokemoncenter.1f.text.mudkipiswatertype.1515",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "PetalburgCity_PokemonCenter_1F_EventScript_SayMudkipType",
+    "base_text_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityPokemonCenterOneFMudkipIsWaterType"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1515
+  },
+  "tags": [
+    "petalburg",
+    "center"
+  ]
+},
+{
+  "id": "petalburg.center.petalburgcity.pokemoncenter.1f.text.oranberryregainedhp.1516",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "PetalburgCity_PokemonCenter_1F_EventScript_Youngster",
+    "base_text_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PetalburgCity_PokemonCenter_1F_Text_OranBerryRegainedHP",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityPokemonCenterOneFOranBerryRegainedHP"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1516
+  },
+  "tags": [
+    "petalburg",
+    "center"
+  ]
+},
+{
+  "id": "petalburg.center.petalburgcity.pokemoncenter.1f.text.pcstoragesystem.1517",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "PetalburgCity_PokemonCenter_1F_EventScript_FatMan",
+    "base_text_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PetalburgCity_PokemonCenter_1F_Text_PCStorageSystem",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityPokemonCenterOneFPCStorageSystem"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1517
+  },
+  "tags": [
+    "petalburg",
+    "center"
+  ]
+},
+{
+  "id": "petalburg.center.petalburgcity.pokemoncenter.1f.text.torchicisfiretype.1518",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "PetalburgCity_PokemonCenter_1F_EventScript_SayTorchicType",
+    "base_text_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PetalburgCity_PokemonCenter_1F_Text_TorchicIsFireType",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityPokemonCenterOneFTorchicIsFireType"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1518
+  },
+  "tags": [
+    "petalburg",
+    "center"
+  ]
+},
+{
+  "id": "petalburg.center.petalburgcity.pokemoncenter.1f.text.treeckoisgrasstype.1519",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "PetalburgCity_PokemonCenter_1F_EventScript_SayTreeckoType",
+    "base_text_path": "data/maps/PetalburgCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PetalburgCity_PokemonCenter_1F_Text_TreeckoIsGrassType",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityPokemonCenterOneFTreeckoIsGrassType"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1519
+  },
+  "tags": [
+    "petalburg",
+    "center"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.text.areyourookietrainer.1520",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_ShowGymToPlayer",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_AreYouRookieTrainer",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityAreYouRookieTrainer"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1520
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.text.citysign.1521",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_CitySign",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_CitySign",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityCitySign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1521
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.text.fullpartyexplanation.1522",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_Gentleman",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_FullPartyExplanation",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityFullPartyExplanation"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1522
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.text.gymsign.1523",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_GymSign",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_GymSign",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityGymSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1523
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.text.thisisgymsign.1524",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_ShowGymToPlayer",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_ThisIsGymSign",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityThisIsGymSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1524
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.gym.petalburgcity.text.thisispetalburggym.1525",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_ShowGymToPlayer",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_ThisIsPetalburgGym",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityThisIsPetalburgGym"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1525
+  },
+  "tags": [
+    "petalburg",
+    "gym"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.text.wallyhousesign.1526",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_WallyHouseSign",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_WallyHouseSign",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallyHouseSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1526
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.town.petalburgcity.text.waterreflection.1527",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_Boy",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_WaterReflection",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWaterReflection"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1527
+  },
+  "tags": [
+    "petalburg",
+    "town"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.text.whereiswally.1528",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity/scripts.inc",
+    "symbol": "PetalburgCity_EventScript_WallysMom",
+    "base_text_path": "data/maps/PetalburgCity/text.inc",
+    "base_text_symbol": "PetalburgCity_Text_WhereIsWally",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWhereIsWally"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1528
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.husbandhassomethingforyou.1529",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_HusbandHasGiftForYou",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_HusbandHasSomethingForYou",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseHusbandHasSomethingForYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1529
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.surfgoallsortsofplaces.1530",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_GiveHMSurf",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseSurfGoAllSortsOfPlaces"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1530
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.thanksforplayingwithwally.1531",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_WallysDad",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseThanksForPlayingWithWally"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1531
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.wallyhasbecomehealthy.1532",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_GiveHMSurf",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_WallyHasBecomeHealthy",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseWallyHasBecomeHealthy"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1532
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.wallyiscominghomesoon.1533",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_ReceievedHMSurf",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseWallyIsComingHomeSoon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1533
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.wallyleftwithouttelling.1534",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_ReceivedHMSurf",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseWallyLeftWithoutTelling"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1534
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.wallywasreallyhappy.1535",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_WallysMom",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_WallyWasReallyHappy",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseWallyWasReallyHappy"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1535
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.wonderhowwallyisdoing.1536",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_PlayedWithWally",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseWonderHowWallyIsDoing"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1536
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
+},
+{
+  "id": "petalburg.wally.petalburgcity.wallyshouse.text.youmetwallyinevergrandecity.1537",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PetalburgCity_WallysHouse/scripts.inc",
+    "symbol": "PetalburgCity_WallysHouse_EventScript_DefeatedWallyInVictoryRoad",
+    "base_text_path": "data/maps/PetalburgCity_WallysHouse/text.inc",
+    "base_text_symbol": "PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity",
+    "note": "Adaptive translation preserves the original battle, room, badge, TM, HM, item, choice, gift, and story flow.",
+    "authored_id": "PetalburgCityWallysHouseYouMetWallyInEverGrandeCity"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1537
+  },
+  "tags": [
+    "petalburg",
+    "wally"
+  ]
 }
   ]
 }

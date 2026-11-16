@@ -49,7 +49,7 @@ help rate can conservatively select A2 after ten exposures. The saved difficulty
 remains the ceiling and is never changed by this adjustment. Every selection
 records both difficulty values and its reason so a wrapper can explain the choice.
 
-The adaptive packs now cover 1,661 authored early- and mid-game scenes: arriving
+The adaptive packs now cover 1,781 authored early- and mid-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -186,6 +186,11 @@ resident, sign, fishing exchange, and house interaction, Steven's introduction,
 the complete Weather Institute takeover and reward sequence, and both rival
 branches. Battles, Castform, the Itemfinder/Fly rewards, choices, and story flags
 remain native while their displayed dialogue adapts.
+Fortree and Route 120 are complete as well: every city resident, house, trade,
+shop, Pokémon Center conversation and sign, the entire Gym and Winona reward
+sequence, every Route 120 trainer, and Steven's Devon Scope event now adapt in
+place. The Gym puzzle, battles, trades, badge, TM, Devon Scope, gifts, and story
+flags are unchanged.
 Trainer introductions and defeat lines can now opt into the same generated
 variant table. The battle setup records the introduction context before the
 encounter and switches to the defeat context when combat begins, leaving the
@@ -214,14 +219,14 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` connects all 1,661 authored lessons to their
+`integration/dialogue_catalog.json` connects all 1,781 authored lessons to their
 real script hooks and original text symbols, including the shared moving-in
 scripts and Route 101 sign. Validation checks both ends of every connection.
 The normal game dialogue follows the extra lesson; important story instructions
 are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
-`opening.json` currently holds 1,661 source-symbol mappings,
+`opening.json` currently holds 1,781 source-symbol mappings,
 translations in three text bands, English help, and dictionary entries. This
 prototype bundle is validated during generation and tests; it is separate from
 the original language-pack/profile schema and does not update external profiles.

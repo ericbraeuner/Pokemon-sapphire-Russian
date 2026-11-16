@@ -33266,6 +33266,2406 @@
     "weather_corridor",
     "weather"
   ]
+},
+{
+  "id": "fortree.decor.fortreecity.decorationshop.text.buyingdeskfordolls.1662",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_DecorationShop/scripts.inc",
+    "symbol": "FortreeCity_DecorationShop_EventScript_Girl",
+    "base_text_path": "data/maps/FortreeCity_DecorationShop/text.inc",
+    "base_text_symbol": "FortreeCity_DecorationShop_Text_BuyingDeskForDolls",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityDecorationShopBuyingDeskForDolls"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1662
+  },
+  "tags": [
+    "fortree",
+    "decor"
+  ]
+},
+{
+  "id": "fortree.decor.fortreecity.decorationshop.text.merchandisesenttopc.1663",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_DecorationShop/scripts.inc",
+    "symbol": "FortreeCity_DecorationShop_EventScript_PokefanM",
+    "base_text_path": "data/maps/FortreeCity_DecorationShop/text.inc",
+    "base_text_symbol": "FortreeCity_DecorationShop_Text_MerchandiseSentToPC",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityDecorationShopMerchandiseSentToPC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1663
+  },
+  "tags": [
+    "fortree",
+    "decor"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.explainaerialace.1664",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_GiveAerialAce2",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_ExplainAerialAce",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymExplainAerialAce"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1664
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.explainfeatherbadgetakethis.1665",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_WinonaDefeated",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymExplainFeatherBadgeTakeThis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1665
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.gymguideadvice.1666",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_GymGuide",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_GymGuideAdvice",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymGymGuideAdvice"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1666
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.gymguidepostvictory.1667",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_GymGuidePostVictory",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_GymGuidePostVictory",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymGymGuidePostVictory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1667
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.gymstatue.1668",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_GymStatue",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_GymStatue",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymGymStatue"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1668
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.gymstatuecertified.1669",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_GymStatueCertified",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_GymStatueCertified",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymGymStatueCertified"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1669
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.jareddefeat.1670",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Jared",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_JaredDefeat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymJaredDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1670
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.jaredintro.1671",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Jared",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_JaredIntro",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymJaredIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1671
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.jaredpostbattle.1672",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Jared",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_JaredPostBattle",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymJaredPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1672
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.kyleedefeat.1673",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Kylee",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_KyleeDefeat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymKyleeDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1673
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.kyleeintro.1674",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Kylee",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_KyleeIntro",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymKyleeIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1674
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.kyleepostbattle.1675",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Kylee",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_KyleePostBattle",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymKyleePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1675
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.gym.text.receivedfeatherbadge.1676",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_WinonaDefeated",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_ReceivedFeatherBadge",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymReceivedFeatherBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1676
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.terrelldefeat.1677",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Terrell",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_TerrellDefeat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymTerrellDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1677
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.terrellintro.1678",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Terrell",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_TerrellIntro",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymTerrellIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1678
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.terrellpostbattle.1679",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Terrell",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_TerrellPostBattle",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymTerrellPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1679
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.willdefeat.1680",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Will",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_WillDefeat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymWillDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1680
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.willintro.1681",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Will",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_WillIntro",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymWillIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1681
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.willpostbattle.1682",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Will",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_WillPostBattle",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymWillPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1682
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.winonadefeat.1683",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Winona",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_WinonaDefeat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymWinonaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1683
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.winonaintro.1684",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Winona",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_WinonaIntro",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymWinonaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1684
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.trainer.fortreecity.gym.text.winonapostbattle.1685",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Gym/scripts.inc",
+    "symbol": "FortreeCity_Gym_EventScript_Winona",
+    "base_text_path": "data/maps/FortreeCity_Gym/text.inc",
+    "base_text_symbol": "FortreeCity_Gym_Text_WinonaPostBattle",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymWinonaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1685
+  },
+  "tags": [
+    "fortree",
+    "trainer"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.changeyourmindseeme.1686",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_DeclineTrade",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_ChangeYourMindSeeMe",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOneChangeYourMindSeeMe"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1686
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.pleasebenicetomon.1687",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_Trader",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_PleaseBeNiceToMon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOnePleaseBeNiceToMon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1687
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.promisetotakegoodcareofmon.1688",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_TradeCompleted",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_PromiseToTakeGoodCareOfMon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOnePromiseToTakeGoodCareOfMon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1688
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.thatmonisntamon.1689",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_NotRequestedMon",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_ThatMonIsntAMon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOneThatMonIsntAMon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1689
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.tradingmemorieswithothers.1690",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_ExpertF",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_TradingMemoriesWithOthers",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOneTradingMemoriesWithOthers"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1690
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.wouldyoutradeit.1691",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_Trader",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_WouldYouTradeIt",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOneWouldYouTradeIt"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1691
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house1.text.zigzagoon.1692",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House1/scripts.inc",
+    "symbol": "FortreeCity_House1_EventScript_Zigzagoon",
+    "base_text_path": "data/maps/FortreeCity_House1/text.inc",
+    "base_text_symbol": "FortreeCity_House1_Text_Zigzagoon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseOneZigzagoon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1692
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.coininwhichhand.1693",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_HiddenPowerGiver",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_CoinInWhichHand",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoCoinInWhichHand"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1693
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.correcttryagainwhichhand.1694",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_HiddenPowerGiver",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_CorrectTryAgainWhichHand",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoCorrectTryAgainWhichHand"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1694
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.correcttryagainwhichhand2.1695",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_HiddenPowerGiver",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_CorrectTryAgainWhichHand2",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoCorrectTryAgainWhichHandTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1695
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.explainhiddenpower.1696",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_HiddenPowerGiver",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_ExplainHiddenPower",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoExplainHiddenPower"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1696
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.hiddenpowersarousedbynature.1697",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_Greeting",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_HiddenPowersArousedByNature",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoHiddenPowersArousedByNature"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1697
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.youguessedwrong.1698",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_WrongGuess",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_YouGuessedWrong",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoYouGuessedWrong"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1698
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house2.text.yourhiddenpowerhasawoken.1699",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House2/scripts.inc",
+    "symbol": "FortreeCity_House2_EventScript_HiddenPowerGiver",
+    "base_text_path": "data/maps/FortreeCity_House2/text.inc",
+    "base_text_symbol": "FortreeCity_House2_Text_YourHiddenPowerHasAwoken",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseTwoYourHiddenPowerHasAwoken"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1699
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.scope.fortreecity.house3.text.metstevenhadamazingpokemon.1700",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House3/scripts.inc",
+    "symbol": "FortreeCity_House3_EventScript_Maniac",
+    "base_text_path": "data/maps/FortreeCity_House3/text.inc",
+    "base_text_symbol": "FortreeCity_House3_Text_MetStevenHadAmazingPokemon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseThreeMetStevenHadAmazingPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1700
+  },
+  "tags": [
+    "fortree",
+    "scope"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house3.text.ohyouhavepokedex.1701",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House3/scripts.inc",
+    "symbol": "FortreeCity_House3_EventScript_SchoolKidM",
+    "base_text_path": "data/maps/FortreeCity_House3/text.inc",
+    "base_text_symbol": "FortreeCity_House3_Text_OhYouHavePokedex",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseThreeOhYouHavePokedex"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1701
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house4.text.askedwingulltorunerrand.1702",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House4/scripts.inc",
+    "symbol": "FortreeCity_House4_EventScript_WingullOnErrand",
+    "base_text_path": "data/maps/FortreeCity_House4/text.inc",
+    "base_text_symbol": "FortreeCity_House4_Text_AskedWingullToRunErrand",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFourAskedWingullToRunErrand"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1702
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house4.text.bringsworldclosertogether.1703",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House4/scripts.inc",
+    "symbol": "FortreeCity_House4_EventScript_Woman",
+    "base_text_path": "data/maps/FortreeCity_House4/text.inc",
+    "base_text_symbol": "FortreeCity_House4_Text_BringsWorldCloserTogether",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFourBringsWorldCloserTogether"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1703
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house4.text.friendsfarawaythankstowingull.1704",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House4/scripts.inc",
+    "symbol": "FortreeCity_House4_EventScript_ReceivedMentalHerb",
+    "base_text_path": "data/maps/FortreeCity_House4/text.inc",
+    "base_text_symbol": "FortreeCity_House4_Text_FriendsFarAwayThanksToWingull",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFourFriendsFarAwayThanksToWingull"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1704
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house4.text.gobirdpokemon.1705",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House4/scripts.inc",
+    "symbol": "FortreeCity_House4_EventScript_Boy",
+    "base_text_path": "data/maps/FortreeCity_House4/text.inc",
+    "base_text_symbol": "FortreeCity_House4_Text_GoBirdPokemon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFourGoBirdPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1705
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house4.text.welcomewingulltakementalherb.1706",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House4/scripts.inc",
+    "symbol": "FortreeCity_House4_EventScript_WingullReturned",
+    "base_text_path": "data/maps/FortreeCity_House4/text.inc",
+    "base_text_symbol": "FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFourWelcomeWingullTakeMentalHerb"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1706
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house4.text.wingull.1707",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House4/scripts.inc",
+    "symbol": "FortreeCity_House4_EventScript_Wingull",
+    "base_text_path": "data/maps/FortreeCity_House4/text.inc",
+    "base_text_symbol": "FortreeCity_House4_Text_Wingull",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFourWingull"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1707
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house5.text.adaptedtonature.1708",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House5/scripts.inc",
+    "symbol": "FortreeCity_House5_EventScript_Man",
+    "base_text_path": "data/maps/FortreeCity_House5/text.inc",
+    "base_text_symbol": "FortreeCity_House5_Text_AdaptedToNature",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFiveAdaptedToNature"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1708
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house5.text.treehousesaregreat.1709",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House5/scripts.inc",
+    "symbol": "FortreeCity_House5_EventScript_PokefanF",
+    "base_text_path": "data/maps/FortreeCity_House5/text.inc",
+    "base_text_symbol": "FortreeCity_House5_Text_TreeHousesAreGreat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFiveTreeHousesAreGreat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1709
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.house5.text.zigzagoon.1710",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_House5/scripts.inc",
+    "symbol": "FortreeCity_House5_EventScript_Zigzagoon",
+    "base_text_path": "data/maps/FortreeCity_House5/text.inc",
+    "base_text_symbol": "FortreeCity_House5_Text_Zigzagoon",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityHouseFiveZigzagoon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1710
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.mart.text.rarecandymakesmongrow.1711",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Mart/scripts.inc",
+    "symbol": "FortreeCity_Mart_EventScript_Boy",
+    "base_text_path": "data/maps/FortreeCity_Mart/text.inc",
+    "base_text_symbol": "FortreeCity_Mart_Text_RareCandyMakesMonGrow",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityMartRareCandyMakesMonGrow"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1711
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.mart.text.stockuponitems.1712",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Mart/scripts.inc",
+    "symbol": "FortreeCity_Mart_EventScript_Girl",
+    "base_text_path": "data/maps/FortreeCity_Mart/text.inc",
+    "base_text_symbol": "FortreeCity_Mart_Text_StockUpOnItems",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityMartStockUpOnItems"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1712
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.mart.text.superrepelbetter.1713",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_Mart/scripts.inc",
+    "symbol": "FortreeCity_Mart_EventScript_Woman",
+    "base_text_path": "data/maps/FortreeCity_Mart/text.inc",
+    "base_text_symbol": "FortreeCity_Mart_Text_SuperRepelBetter",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityMartSuperRepelBetter"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1713
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.pokemoncenter.1f.text.doyouknowaboutpokenav.1714",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "FortreeCity_PokemonCenter_1F_EventScript_Boy",
+    "base_text_path": "data/maps/FortreeCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityPokemonCenterOneFDoYouKnowAboutPokenav"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1714
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.pokemoncenter.1f.text.gotosafarizone.1715",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "FortreeCity_PokemonCenter_1F_EventScript_Gentleman",
+    "base_text_path": "data/maps/FortreeCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "FortreeCity_PokemonCenter_1F_Text_GoToSafariZone",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityPokemonCenterOneFGoToSafariZone"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1715
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.pokemoncenter.1f.text.recordcornerisneat.1716",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "FortreeCity_PokemonCenter_1F_EventScript_Man",
+    "base_text_path": "data/maps/FortreeCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityPokemonCenterOneFRecordCornerIsNeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1716
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.bugpokemoncomethroughwindow.1717",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_Boy",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_BugPokemonComeThroughWindow",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityBugPokemonComeThroughWindow"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1717
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.citysign.1718",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_CitySign",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_CitySign",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityCitySign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1718
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.everyonehealthyandlively.1719",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_OldMan",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_EveryoneHealthyAndLively",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityEveryoneHealthyAndLively"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1719
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.text.gymsign.1720",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_GymSign",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_GymSign",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityGymSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1720
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.pokemonthatevolvewhentraded.1721",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_GameboyKid",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_PokemonThatEvolveWhenTraded",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityPokemonThatEvolveWhenTraded"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1721
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.gym.fortreecity.text.somethingblockinggym.1722",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_Woman",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_SomethingBlockingGym",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCitySomethingBlockingGym"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1722
+  },
+  "tags": [
+    "fortree",
+    "gym"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.somethingunseeable.1723",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_Kecleon",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_SomethingUnseeable",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCitySomethingUnseeable"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1723
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.thistimeillbeatwinona.1724",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_WomanGymAccessible",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_ThisTimeIllBeatWinona",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityThisTimeIllBeatWinona"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1724
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.treesgrowbydrinkingrainwater.1725",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_Girl",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_TreesGrowByDrinkingRainwater",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityTreesGrowByDrinkingRainwater"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1725
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.scope.fortreecity.text.unseeableusedevonscope.1726",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_AskUseDevonScope",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_UnseeableUseDevonScope",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityUnseeableUseDevonScope"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1726
+  },
+  "tags": [
+    "fortree",
+    "scope"
+  ]
+},
+{
+  "id": "fortree.scope.fortreecity.text.useddevonscopepokemonfled.1727",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_UseDevonScope",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_UsedDevonScopePokemonFled",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityUsedDevonScopePokemonFled"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1727
+  },
+  "tags": [
+    "fortree",
+    "scope"
+  ]
+},
+{
+  "id": "fortree.city.fortreecity.text.yousmellsinged.1728",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/FortreeCity/scripts.inc",
+    "symbol": "FortreeCity_EventScript_Man",
+    "base_text_path": "data/maps/FortreeCity/text.inc",
+    "base_text_symbol": "FortreeCity_Text_YouSmellSinged",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "FortreeCityYouSmellSinged"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1728
+  },
+  "tags": [
+    "fortree",
+    "city"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.171827.1729",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151853",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_171827",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneEightTwoSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1729
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.17193d.1730",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151877",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_17193D",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneNineThreeD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1730
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.17196f.1731",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151884",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_17196F",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneNineSixF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1731
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1719a0.1732",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_15189D",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_1719A0",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneNineAZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1732
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1719d4.1733",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_15189D",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_1719D4",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneNineDFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1733
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.171a40.1734",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151908",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_171A40",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneAFourZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1734
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.171b0e.1735",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151908",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_171B0E",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneBZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1735
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.171c5e.1736",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519A1",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_171C5E",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneCFiveE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1736
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.171c77.1737",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519AA",
+    "base_text_path": "data/maps/Route120/text.inc",
+    "base_text_symbol": "Route120_Text_171C77",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneSevenOneCSevenSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1737
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1befc8.1738",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519B3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BEFC8",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBEFCEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1738
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf000.1739",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519B3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF000",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFZeroZeroZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1739
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf015.1740",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519B3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF015",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFZeroOneFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1740
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf07e.1741",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519CA",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF07E",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFZeroSevenE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1741
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf0a5.1742",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519CA",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF0A5",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFZeroAFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1742
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf0c3.1743",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519CA",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF0C3",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFZeroCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1743
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf0fa.1744",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519F1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF0FA",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFZeroFA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1744
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf131.1745",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519F1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF131",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFOneThreeOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1745
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf154.1746",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_1519F1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF154",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFOneFiveFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1746
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf193.1747",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A08",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF193",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFOneNineThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1747
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf1d4.1748",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A08",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF1D4",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFOneDFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1748
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf215.1749",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A08",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF215",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFTwoOneFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1749
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf26e.1750",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A1F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF26E",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFTwoSixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1750
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf2d2.1751",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A1F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF2D2",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFTwoDTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1751
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf2ea.1752",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A1F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF2EA",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFTwoEA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1752
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf32b.1753",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A36",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF32B",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFThreeTwoB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1753
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf36b.1754",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A36",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF36B",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFThreeSixB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1754
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf38d.1755",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A36",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF38D",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFThreeEightD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1755
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf3d0.1756",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A5D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF3D0",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFThreeDZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1756
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf416.1757",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A5D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF416",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFourOneSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1757
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf43e.1758",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A5D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF43E",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFourThreeE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1758
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf4a0.1759",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A74",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF4A0",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFourAZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1759
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf504.1760",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A74",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF504",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFiveZeroFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1760
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf51f.1761",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A74",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF51F",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFiveOneF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1761
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf560.1762",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A8B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF560",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFiveSixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1762
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf5d6.1763",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A8B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF5D6",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFiveDSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1763
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf5f4.1764",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151A8B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF5F4",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFFiveFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1764
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf65b.1765",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AA2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF65B",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFSixFiveB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1765
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf6a4.1766",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AA2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF6A4",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFSixAFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1766
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf6d0.1767",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AA2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF6D0",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFSixDZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1767
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf728.1768",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AB9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF728",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFSevenTwoEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1768
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf78c.1769",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AB9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF78C",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFSevenEightC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1769
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf7b2.1770",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AB9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF7B2",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFSevenBTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1770
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf80b.1771",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AD0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF80B",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFEightZeroB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1771
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf852.1772",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AD0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF852",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFEightFiveTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1772
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf891.1773",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AD0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF891",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFEightNineOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1773
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf8c5.1774",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AE7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF8C5",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFEightCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1774
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf920.1775",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AE7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF920",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFNineTwoZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1775
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1bf946.1776",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151AE7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route120_Text_1BF946",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneBFNineFourSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1776
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1c58f1.1777",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151739",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route120_Text_1C58F1",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneCFiveEightFOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1777
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1c5979.1778",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151841",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route120_Text_1C5979",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneCFiveNineSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1778
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1c59b5.1779",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_15184A",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route120_Text_1C59B5",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneCFiveNineBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1779
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1c5a0b.1780",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151813",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route120_Text_1C5A0B",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneCFiveAZeroB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1780
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
+},
+{
+  "id": "fortree.route.route120.text.1c5a4d.1781",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route120/scripts.inc",
+    "symbol": "Route120_EventScript_151837",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route120_Text_1C5A4D",
+    "note": "Adaptive translation preserves the original battle, Gym puzzle, badge, TM, trade, scope, gift, and story flow.",
+    "authored_id": "RouteOneTwoZeroOneCFiveAFourD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1781
+  },
+  "tags": [
+    "fortree",
+    "route"
+  ]
 }
   ]
 }

@@ -74567,6 +74567,5406 @@
       "Ich erforsche Regen seit Jahren. Doch die Idee, Menschen könnten das Wetter frei ändern, ist absurd."
     ]
   }
+},
+{
+  "id": "FortreeCityDecorationShopBuyingDeskForDolls",
+  "base_symbol": "FortreeCity_DecorationShop_Text_BuyingDeskForDolls",
+  "source_path": "data/maps/FortreeCity_DecorationShop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Куплю красивый стол и поставлю на него кукол."
+    ],
+    "A2": [
+      "Куплю красивый стол и поставлю на него кукол. Иначе в ТАЙНОЙ БАЗЕ они испачкаются или получат занозы."
+    ],
+    "natural": [
+      "Куплю красивый стол и поставлю на него кукол. Иначе в ТАЙНОЙ БАЗЕ они испачкаются или получат занозы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "украшение",
+        "decoration"
+      ]
+    ],
+    "de": [
+      [
+        "die Dekoration",
+        "decoration"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kaufe einen schönen Tisch für meine PUPPEN."
+    ],
+    "A2": [
+      "Ich kaufe einen schönen Tisch für meine PUPPEN. Sonst werden sie in der GEHEIMBASIS schmutzig oder bekommen Splitter."
+    ],
+    "natural": [
+      "Ich kaufe einen schönen Tisch für meine PUPPEN. Sonst werden sie in der GEHEIMBASIS schmutzig oder bekommen Splitter."
+    ]
+  }
+},
+{
+  "id": "FortreeCityDecorationShopMerchandiseSentToPC",
+  "base_symbol": "FortreeCity_DecorationShop_Text_MerchandiseSentToPC",
+  "source_path": "data/maps/FortreeCity_DecorationShop/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Купленный здесь товар отправляют на твой ПК."
+    ],
+    "A2": [
+      "Купленный здесь товар отправляют на твой ПК. Чудесно!"
+    ],
+    "natural": [
+      "Купленный здесь товар отправляют на твой ПК. Чудесно! Вот бы меня тоже так доставляли домой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "украшение",
+        "decoration"
+      ]
+    ],
+    "de": [
+      [
+        "die Dekoration",
+        "decoration"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gekaufte Waren gehen an deinen PC."
+    ],
+    "A2": [
+      "Gekaufte Waren gehen an deinen PC. Toll!"
+    ],
+    "natural": [
+      "Gekaufte Waren gehen an deinen PC. Toll! Man sollte auch mich so nach Hause liefern."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymExplainAerialAce",
+  "base_symbol": "FortreeCity_Gym_Text_ExplainAerialAce",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТМ40 содержит ВОЗДУШНОГО АСА."
+    ],
+    "A2": [
+      "ТМ40 содержит ВОЗДУШНОГО АСА. От его скорости не увернуться."
+    ],
+    "natural": [
+      "ТМ40 содержит ВОЗДУШНОГО АСА. От его скорости не увернуться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TM40 enthält AERO-ASS."
+    ],
+    "A2": [
+      "TM40 enthält AERO-ASS. Seiner Geschwindigkeit kann niemand ausweichen."
+    ],
+    "natural": [
+      "TM40 enthält AERO-ASS. Seiner Geschwindigkeit kann niemand ausweichen."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymExplainFeatherBadgeTakeThis",
+  "base_symbol": "FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Со ЗНАЧКОМ ПЕРА покемоны до уровня 70 будут слушаться."
+    ],
+    "A2": [
+      "Со ЗНАЧКОМ ПЕРА покемоны до уровня 70 будут слушаться. Также можно применять ПОЛЁТ вне боя."
+    ],
+    "natural": [
+      "Со ЗНАЧКОМ ПЕРА покемоны до уровня 70 будут слушаться. Также можно применять ПОЛЁТ вне боя. И прими мой подарок."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit dem FEDERORDEN gehorchen Pokémon bis Level 70."
+    ],
+    "A2": [
+      "Mit dem FEDERORDEN gehorchen Pokémon bis Level 70. Außerdem kannst du FLIEGEN außerhalb des Kampfs einsetzen."
+    ],
+    "natural": [
+      "Mit dem FEDERORDEN gehorchen Pokémon bis Level 70. Außerdem kannst du FLIEGEN außerhalb des Kampfs einsetzen. Nimm auch mein Geschenk."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymGymGuideAdvice",
+  "base_symbol": "FortreeCity_Gym_Text_GymGuideAdvice",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, будущий ЧЕМПИОН {PLAYER}!"
+    ],
+    "A2": [
+      "Привет, будущий ЧЕМПИОН {PLAYER}! ВАЙНОНА - мастер летающих покемонов."
+    ],
+    "natural": [
+      "Привет, будущий ЧЕМПИОН {PLAYER}! ВАЙНОНА - мастер летающих покемонов. Она ждёт за вращающимися дверями. Вперёд!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, künftiger CHAMP {PLAYER}!"
+    ],
+    "A2": [
+      "Hallo, künftiger CHAMP {PLAYER}! WASSILI meistert Flug-Pokémon."
+    ],
+    "natural": [
+      "Hallo, künftiger CHAMP {PLAYER}! WASSILI meistert Flug-Pokémon. Sie wartet hinter den Drehtüren. Los!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymGymGuidePostVictory",
+  "base_symbol": "FortreeCity_Gym_Text_GymGuidePostVictory",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты сделал это!"
+    ],
+    "A2": [
+      "Ты сделал это! Ты взлетел!"
+    ],
+    "natural": [
+      "Ты сделал это! Ты взлетел!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Geschafft!"
+    ],
+    "A2": [
+      "Geschafft! Du bist abgehoben!"
+    ],
+    "natural": [
+      "Geschafft! Du bist abgehoben!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymGymStatue",
+  "base_symbol": "FortreeCity_Gym_Text_GymStatue",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ ФОРТРИ"
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ ФОРТРИ"
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ ФОРТРИ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA BAUMHAUSEN"
+    ],
+    "A2": [
+      "POKÉMON-ARENA BAUMHAUSEN"
+    ],
+    "natural": [
+      "POKÉMON-ARENA BAUMHAUSEN"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymGymStatueCertified",
+  "base_symbol": "FortreeCity_Gym_Text_GymStatueCertified",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ФОРТРИ."
+    ],
+    "A2": [
+      "СТАДИОН ФОРТРИ. ПОБЕДИТЕЛИ ВАЙНОНЫ: {PLAYER}"
+    ],
+    "natural": [
+      "СТАДИОН ФОРТРИ. ПОБЕДИТЕЛИ ВАЙНОНЫ: {PLAYER}"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ARENA BAUMHAUSEN."
+    ],
+    "A2": [
+      "ARENA BAUMHAUSEN. SIEGER ÜBER WASSILI: {PLAYER}"
+    ],
+    "natural": [
+      "ARENA BAUMHAUSEN. SIEGER ÜBER WASSILI: {PLAYER}"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymJaredDefeat",
+  "base_symbol": "FortreeCity_Gym_Text_JaredDefeat",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты..."
+    ],
+    "A2": [
+      "Ты... силён..."
+    ],
+    "natural": [
+      "Ты... силён..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du..."
+    ],
+    "A2": [
+      "Du... bist stark..."
+    ],
+    "natural": [
+      "Du... bist stark..."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymJaredIntro",
+  "base_symbol": "FortreeCity_Gym_Text_JaredIntro",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Узри изящный стиль боя птиц!"
+    ],
+    "A2": [
+      "Узри изящный стиль боя птиц!"
+    ],
+    "natural": [
+      "Узри изящный стиль боя птиц!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh den eleganten Kampfstil der Vogel-Pokémon!"
+    ],
+    "A2": [
+      "Sieh den eleganten Kampfstil der Vogel-Pokémon!"
+    ],
+    "natural": [
+      "Sieh den eleganten Kampfstil der Vogel-Pokémon!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymJaredPostBattle",
+  "base_symbol": "FortreeCity_Gym_Text_JaredPostBattle",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тренеру нужен ум, чтобы справляться с неожиданностями."
+    ],
+    "A2": [
+      "Тренеру нужен ум, чтобы справляться с неожиданностями. Хватит ли его, чтобы добраться до лидера?"
+    ],
+    "natural": [
+      "Тренеру нужен ум, чтобы справляться с неожиданностями. Хватит ли его, чтобы добраться до лидера?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Trainer braucht Verstand für Überraschungen."
+    ],
+    "A2": [
+      "Ein Trainer braucht Verstand für Überraschungen. Reicht deiner bis zur Leiterin?"
+    ],
+    "natural": [
+      "Ein Trainer braucht Verstand für Überraschungen. Reicht deiner bis zur Leiterin?"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymKyleeDefeat",
+  "base_symbol": "FortreeCity_Gym_Text_KyleeDefeat",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня победили..."
+    ],
+    "A2": [
+      "Меня победили..."
+    ],
+    "natural": [
+      "Меня победили..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich wurde besiegt..."
+    ],
+    "A2": [
+      "Ich wurde besiegt..."
+    ],
+    "natural": [
+      "Ich wurde besiegt..."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymKyleeIntro",
+  "base_symbol": "FortreeCity_Gym_Text_KyleeIntro",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня лично учила ВАЙНОНА!"
+    ],
+    "A2": [
+      "Меня лично учила ВАЙНОНА! Так просто меня не победить!"
+    ],
+    "natural": [
+      "Меня лично учила ВАЙНОНА! Так просто меня не победить!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WASSILI trainierte mich persönlich!"
+    ],
+    "A2": [
+      "WASSILI trainierte mich persönlich! Mich besiegst du nicht leicht!"
+    ],
+    "natural": [
+      "WASSILI trainierte mich persönlich! Mich besiegst du nicht leicht!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymKyleePostBattle",
+  "base_symbol": "FortreeCity_Gym_Text_KyleePostBattle",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Благодаря ВАЙНОНЕ жители ФОРТРИ живут без страха."
+    ],
+    "A2": [
+      "Благодаря ВАЙНОНЕ жители ФОРТРИ живут без страха."
+    ],
+    "natural": [
+      "Благодаря ВАЙНОНЕ жители ФОРТРИ живут без страха."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dank WASSILI leben die Menschen in BAUMHAUSEN ohne Angst."
+    ],
+    "A2": [
+      "Dank WASSILI leben die Menschen in BAUMHAUSEN ohne Angst."
+    ],
+    "natural": [
+      "Dank WASSILI leben die Menschen in BAUMHAUSEN ohne Angst."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymReceivedFeatherBadge",
+  "base_symbol": "FortreeCity_Gym_Text_ReceivedFeatherBadge",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает ЗНАЧОК ПЕРА от ВАЙНОНЫ."
+    ],
+    "A2": [
+      "{PLAYER} получает ЗНАЧОК ПЕРА от ВАЙНОНЫ."
+    ],
+    "natural": [
+      "{PLAYER} получает ЗНАЧОК ПЕРА от ВАЙНОНЫ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält den FEDERORDEN von WASSILI."
+    ],
+    "A2": [
+      "{PLAYER} erhält den FEDERORDEN von WASSILI."
+    ],
+    "natural": [
+      "{PLAYER} erhält den FEDERORDEN von WASSILI."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymTerrellDefeat",
+  "base_symbol": "FortreeCity_Gym_Text_TerrellDefeat",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВАЙНОНА, я..."
+    ],
+    "A2": [
+      "ВАЙНОНА, я... проиграл!"
+    ],
+    "natural": [
+      "ВАЙНОНА, я... проиграл!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WASSILI, ich..."
+    ],
+    "A2": [
+      "WASSILI, ich... habe verloren!"
+    ],
+    "natural": [
+      "WASSILI, ich... habe verloren!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymTerrellIntro",
+  "base_symbol": "FortreeCity_Gym_Text_TerrellIntro",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВАЙНОНЕ незачем иметь с тобой дело."
+    ],
+    "A2": [
+      "ВАЙНОНЕ незачем иметь с тобой дело. Тебе хватит и меня!"
+    ],
+    "natural": [
+      "ВАЙНОНЕ незачем иметь с тобой дело. Тебе хватит и меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WASSILI muss sich nicht mit dir abgeben."
+    ],
+    "A2": [
+      "WASSILI muss sich nicht mit dir abgeben. Ich genüge völlig!"
+    ],
+    "natural": [
+      "WASSILI muss sich nicht mit dir abgeben. Ich genüge völlig!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymTerrellPostBattle",
+  "base_symbol": "FortreeCity_Gym_Text_TerrellPostBattle",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВАЙНОНА милая и сильная."
+    ],
+    "A2": [
+      "ВАЙНОНА милая и сильная. Она идеальный лидер!"
+    ],
+    "natural": [
+      "ВАЙНОНА милая и сильная. Она идеальный лидер!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WASSILI ist süß und stark."
+    ],
+    "A2": [
+      "WASSILI ist süß und stark. Sie ist die perfekte Leiterin!"
+    ],
+    "natural": [
+      "WASSILI ist süß und stark. Sie ist die perfekte Leiterin!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymWillDefeat",
+  "base_symbol": "FortreeCity_Gym_Text_WillDefeat",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это бремя оказалось слишком тяжёлым..."
+    ],
+    "A2": [
+      "Это бремя оказалось слишком тяжёлым..."
+    ],
+    "natural": [
+      "Это бремя оказалось слишком тяжёлым..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Diese Last war zu schwer für mich..."
+    ],
+    "A2": [
+      "Diese Last war zu schwer für mich..."
+    ],
+    "natural": [
+      "Diese Last war zu schwer für mich..."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymWillIntro",
+  "base_symbol": "FortreeCity_Gym_Text_WillIntro",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Любители птиц стремятся попасть сюда."
+    ],
+    "A2": [
+      "Любители птиц стремятся попасть сюда. Как член СТАДИОНА ФОРТРИ я не могу проиграть!"
+    ],
+    "natural": [
+      "Любители птиц стремятся попасть сюда. Как член СТАДИОНА ФОРТРИ я не могу проиграть!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vogelfreunde wollen hierher."
+    ],
+    "A2": [
+      "Vogelfreunde wollen hierher. Als Mitglied der BAUMHAUSEN-ARENA darf ich nicht verlieren!"
+    ],
+    "natural": [
+      "Vogelfreunde wollen hierher. Als Mitglied der BAUMHAUSEN-ARENA darf ich nicht verlieren!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymWillPostBattle",
+  "base_symbol": "FortreeCity_Gym_Text_WillPostBattle",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мир огромен и полон сильных тренеров."
+    ],
+    "A2": [
+      "Мир огромен и полон сильных тренеров. Я продолжу тренироваться."
+    ],
+    "natural": [
+      "Мир огромен и полон сильных тренеров. Я продолжу тренироваться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Welt ist groß und voller starker Trainer."
+    ],
+    "A2": [
+      "Die Welt ist groß und voller starker Trainer. Ich trainiere weiter."
+    ],
+    "natural": [
+      "Die Welt ist groß und voller starker Trainer. Ich trainiere weiter."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymWinonaDefeat",
+  "base_symbol": "FortreeCity_Gym_Text_WinonaDefeat",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ещё не видела тренера, управляющего покемонами изящнее меня."
+    ],
+    "A2": [
+      "Я ещё не видела тренера, управляющего покемонами изящнее меня. В знак твоего мастерства вручаю ЗНАЧОК."
+    ],
+    "natural": [
+      "Я ещё не видела тренера, управляющего покемонами изящнее меня. В знак твоего мастерства вручаю ЗНАЧОК."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nie sah ich einen Trainer, der Pokémon anmutiger führt als ich."
+    ],
+    "A2": [
+      "Nie sah ich einen Trainer, der Pokémon anmutiger führt als ich. Für dein Können erhältst du diesen ORDEN."
+    ],
+    "natural": [
+      "Nie sah ich einen Trainer, der Pokémon anmutiger führt als ich. Für dein Können erhältst du diesen ORDEN."
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymWinonaIntro",
+  "base_symbol": "FortreeCity_Gym_Text_WinonaIntro",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ВАЙНОНА, лидер СТАДИОНА ФОРТРИ."
+    ],
+    "A2": [
+      "Я ВАЙНОНА, лидер СТАДИОНА ФОРТРИ. Я стала единым целым с птицами и парила в небе."
+    ],
+    "natural": [
+      "Я ВАЙНОНА, лидер СТАДИОНА ФОРТРИ. Я стала единым целым с птицами и парила в небе. В любых боях мы побеждали изящно. Узри наш воздушный танец!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin WASSILI, Leiterin der BAUMHAUSEN-ARENA."
+    ],
+    "A2": [
+      "Ich bin WASSILI, Leiterin der BAUMHAUSEN-ARENA. Mit Vogel-Pokémon flog ich durch den Himmel."
+    ],
+    "natural": [
+      "Ich bin WASSILI, Leiterin der BAUMHAUSEN-ARENA. Mit Vogel-Pokémon flog ich durch den Himmel. Jeden Kampf gewannen wir mit Anmut. Sieh unseren Lufttanz!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymWinonaPostBattle",
+  "base_symbol": "FortreeCity_Gym_Text_WinonaPostBattle",
+  "source_path": "data/maps/FortreeCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хоть я проиграла, останусь предана птицам."
+    ],
+    "A2": [
+      "Хоть я проиграла, останусь предана птицам."
+    ],
+    "natural": [
+      "Хоть я проиграла, останусь предана птицам."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Obwohl ich verlor, bleibe ich Vogel-Pokémon treu."
+    ],
+    "A2": [
+      "Obwohl ich verlor, bleibe ich Vogel-Pokémon treu."
+    ],
+    "natural": [
+      "Obwohl ich verlor, bleibe ich Vogel-Pokémon treu."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOneChangeYourMindSeeMe",
+  "base_symbol": "FortreeCity_House1_Text_ChangeYourMindSeeMe",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошо."
+    ],
+    "A2": [
+      "Хорошо. Если передумаешь, приходи."
+    ],
+    "natural": [
+      "Хорошо. Если передумаешь, приходи. Я буду ждать!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gut."
+    ],
+    "A2": [
+      "Gut. Wenn du es dir anders überlegst, komm wieder."
+    ],
+    "natural": [
+      "Gut. Wenn du es dir anders überlegst, komm wieder. Ich warte!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOnePleaseBeNiceToMon",
+  "base_symbol": "FortreeCity_House1_Text_PleaseBeNiceToMon",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Спасибо!"
+    ],
+    "A2": [
+      "Спасибо! Я буду беречь твоего {STR_VAR_1}, а ты береги моего {STR_VAR_2}!"
+    ],
+    "natural": [
+      "Спасибо! Я буду беречь твоего {STR_VAR_1}, а ты береги моего {STR_VAR_2}!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Danke!"
+    ],
+    "A2": [
+      "Danke! Ich passe auf dein {STR_VAR_1} auf."
+    ],
+    "natural": [
+      "Danke! Ich passe auf dein {STR_VAR_1} auf. Sei bitte gut zu meinem {STR_VAR_2}!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOnePromiseToTakeGoodCareOfMon",
+  "base_symbol": "FortreeCity_House1_Text_PromiseToTakeGoodCareOfMon",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Спасибо за обмен!"
+    ],
+    "A2": [
+      "Спасибо за обмен! Я очень хотел этого покемона и буду хорошо о нём заботиться!"
+    ],
+    "natural": [
+      "Спасибо за обмен! Я очень хотел этого покемона и буду хорошо о нём заботиться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Danke für den Tausch!"
+    ],
+    "A2": [
+      "Danke für den Tausch! Ich wollte dieses Pokémon sehr und passe gut auf es auf!"
+    ],
+    "natural": [
+      "Danke für den Tausch! Ich wollte dieses Pokémon sehr und passe gut auf es auf!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOneThatMonIsntAMon",
+  "base_symbol": "FortreeCity_House1_Text_ThatMonIsntAMon",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Постой!"
+    ],
+    "A2": [
+      "Постой! Этот покемон не {STR_VAR_1}."
+    ],
+    "natural": [
+      "Постой! Этот покемон не {STR_VAR_1}. Видимо, ты не хочешь меняться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Moment!"
+    ],
+    "A2": [
+      "Moment! Dieses Pokémon ist kein {STR_VAR_1}."
+    ],
+    "natural": [
+      "Moment! Dieses Pokémon ist kein {STR_VAR_1}. Du willst wohl nicht tauschen."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOneTradingMemoriesWithOthers",
+  "base_symbol": "FortreeCity_House1_Text_TradingMemoriesWithOthers",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Обмен покемонами похож на обмен собственными воспоминаниями с другими людьми."
+    ],
+    "A2": [
+      "Обмен покемонами похож на обмен собственными воспоминаниями с другими людьми."
+    ],
+    "natural": [
+      "Обмен покемонами похож на обмен собственными воспоминаниями с другими людьми."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pokémon zu tauschen ist wie eigene Erinnerungen mit anderen zu teilen."
+    ],
+    "A2": [
+      "Pokémon zu tauschen ist wie eigene Erinnerungen mit anderen zu teilen."
+    ],
+    "natural": [
+      "Pokémon zu tauschen ist wie eigene Erinnerungen mit anderen zu teilen."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOneWouldYouTradeIt",
+  "base_symbol": "FortreeCity_House1_Text_WouldYouTradeIt",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ищу покемона: {STR_VAR_1}."
+    ],
+    "A2": [
+      "Я ищу покемона: {STR_VAR_1}. У тебя есть такой?"
+    ],
+    "natural": [
+      "Я ищу покемона: {STR_VAR_1}. У тебя есть такой? Обменяешь его на моего {STR_VAR_2}?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich suche ein {STR_VAR_1}."
+    ],
+    "A2": [
+      "Ich suche ein {STR_VAR_1}. Hast du eines?"
+    ],
+    "natural": [
+      "Ich suche ein {STR_VAR_1}. Hast du eines? Tauschst du es gegen mein {STR_VAR_2}?"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseOneZigzagoon",
+  "base_symbol": "FortreeCity_House1_Text_Zigzagoon",
+  "source_path": "data/maps/FortreeCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЗИГЗАГУН: Гу-мо-мо?"
+    ],
+    "A2": [
+      "ЗИГЗАГУН: Гу-мо-мо?"
+    ],
+    "natural": [
+      "ЗИГЗАГУН: Гу-мо-мо?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ZIGZACHS: Gumomo?"
+    ],
+    "A2": [
+      "ZIGZACHS: Gumomo?"
+    ],
+    "natural": [
+      "ZIGZACHS: Gumomo?"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoCoinInWhichHand",
+  "base_symbol": "FortreeCity_House2_Text_CoinInWhichHand",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Посмотрим, пробудилась ли твоя скрытая сила."
+    ],
+    "A2": [
+      "Посмотрим, пробудилась ли твоя скрытая сила. В какой руке монета: правой или левой?"
+    ],
+    "natural": [
+      "Посмотрим, пробудилась ли твоя скрытая сила. В какой руке монета: правой или левой?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mal sehen, ob deine verborgene Kraft erwacht ist."
+    ],
+    "A2": [
+      "Mal sehen, ob deine verborgene Kraft erwacht ist. In welcher Hand ist die Münze: rechts oder links?"
+    ],
+    "natural": [
+      "Mal sehen, ob deine verborgene Kraft erwacht ist. In welcher Hand ist die Münze: rechts oder links?"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoCorrectTryAgainWhichHand",
+  "base_symbol": "FortreeCity_House2_Text_CorrectTryAgainWhichHand",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Верно!"
+    ],
+    "A2": [
+      "Верно! Попробуем снова."
+    ],
+    "natural": [
+      "Верно! Попробуем снова. В какой руке монета: правой или левой?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Richtig!"
+    ],
+    "A2": [
+      "Richtig! Noch einmal."
+    ],
+    "natural": [
+      "Richtig! Noch einmal. In welcher Hand ist die Münze: rechts oder links?"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoCorrectTryAgainWhichHandTwo",
+  "base_symbol": "FortreeCity_House2_Text_CorrectTryAgainWhichHand2",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Снова верно!"
+    ],
+    "A2": [
+      "Снова верно! Последний раз."
+    ],
+    "natural": [
+      "Снова верно! Последний раз. В какой руке монета? Выбирай!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wieder richtig!"
+    ],
+    "A2": [
+      "Wieder richtig! Ein letztes Mal."
+    ],
+    "natural": [
+      "Wieder richtig! Ein letztes Mal. In welcher Hand ist die Münze? Wähle!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoExplainHiddenPower",
+  "base_symbol": "FortreeCity_House2_Text_ExplainHiddenPower",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СКРЫТАЯ СИЛА меняется в зависимости от покемона."
+    ],
+    "A2": [
+      "СКРЫТАЯ СИЛА меняется в зависимости от покемона."
+    ],
+    "natural": [
+      "СКРЫТАЯ СИЛА меняется в зависимости от покемона."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KRAFTRESERVE ändert sich je nach Pokémon."
+    ],
+    "A2": [
+      "KRAFTRESERVE ändert sich je nach Pokémon."
+    ],
+    "natural": [
+      "KRAFTRESERVE ändert sich je nach Pokémon."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoHiddenPowersArousedByNature",
+  "base_symbol": "FortreeCity_House2_Text_HiddenPowersArousedByNature",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Люди и покемоны пробуждают скрытые силы, живя среди природы."
+    ],
+    "A2": [
+      "Люди и покемоны пробуждают скрытые силы, живя среди природы."
+    ],
+    "natural": [
+      "Люди и покемоны пробуждают скрытые силы, живя среди природы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Menschen und Pokémon wecken verborgene Kräfte durch ein Leben in der Natur."
+    ],
+    "A2": [
+      "Menschen und Pokémon wecken verborgene Kräfte durch ein Leben in der Natur."
+    ],
+    "natural": [
+      "Menschen und Pokémon wecken verborgene Kräfte durch ein Leben in der Natur."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoYouGuessedWrong",
+  "base_symbol": "FortreeCity_House2_Text_YouGuessedWrong",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Жаль, ответ неверный."
+    ],
+    "A2": [
+      "Жаль, ответ неверный."
+    ],
+    "natural": [
+      "Жаль, ответ неверный."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Schade, falsch geraten."
+    ],
+    "A2": [
+      "Schade, falsch geraten."
+    ],
+    "natural": [
+      "Schade, falsch geraten."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseTwoYourHiddenPowerHasAwoken",
+  "base_symbol": "FortreeCity_House2_Text_YourHiddenPowerHasAwoken",
+  "source_path": "data/maps/FortreeCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Прекрасно!"
+    ],
+    "A2": [
+      "Прекрасно! Твоя скрытая сила пробудилась."
+    ],
+    "natural": [
+      "Прекрасно! Твоя скрытая сила пробудилась. Возьми это и пробуди силу своего покемона."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Großartig!"
+    ],
+    "A2": [
+      "Großartig! Deine verborgene Kraft ist erwacht."
+    ],
+    "natural": [
+      "Großartig! Deine verborgene Kraft ist erwacht. Nimm dies und wecke die Kraft deines Pokémon."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseThreeMetStevenHadAmazingPokemon",
+  "base_symbol": "FortreeCity_House3_Text_MetStevenHadAmazingPokemon",
+  "source_path": "data/maps/FortreeCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Говоря о ПОКЕДЕКСЕ: я встретил СТИВЕНА, когда искал редкие камни."
+    ],
+    "A2": [
+      "Говоря о ПОКЕДЕКСЕ: я встретил СТИВЕНА, когда искал редкие камни. Его редкие покемоны были невероятно сильны."
+    ],
+    "natural": [
+      "Говоря о ПОКЕДЕКСЕ: я встретил СТИВЕНА, когда искал редкие камни. Его редкие покемоны были невероятно сильны. Возможно, он сильнее местного лидера."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "прибор",
+        "device"
+      ]
+    ],
+    "de": [
+      [
+        "das Gerät",
+        "device"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Zum POKÉDEX: Bei der Suche nach seltenen Steinen traf ich TROY."
+    ],
+    "A2": [
+      "Zum POKÉDEX: Bei der Suche nach seltenen Steinen traf ich TROY. Seine seltenen Pokémon waren unglaublich stark."
+    ],
+    "natural": [
+      "Zum POKÉDEX: Bei der Suche nach seltenen Steinen traf ich TROY. Seine seltenen Pokémon waren unglaublich stark. Vielleicht ist er stärker als die Leiterin."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseThreeOhYouHavePokedex",
+  "base_symbol": "FortreeCity_House3_Text_OhYouHavePokedex",
+  "source_path": "data/maps/FortreeCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что это у тебя?"
+    ],
+    "A2": [
+      "Что это у тебя? ПОКЕДЕКС?"
+    ],
+    "natural": [
+      "Что это у тебя? ПОКЕДЕКС? Потрясающе!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was hast du da?"
+    ],
+    "A2": [
+      "Was hast du da? Einen POKÉDEX?"
+    ],
+    "natural": [
+      "Was hast du da? Einen POKÉDEX? Großartig!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFourAskedWingullToRunErrand",
+  "base_symbol": "FortreeCity_House4_Text_AskedWingullToRunErrand",
+  "source_path": "data/maps/FortreeCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хе-хе, я отправил ВИНГАЛЛА с поручением."
+    ],
+    "A2": [
+      "Хе-хе, я отправил ВИНГАЛЛА с поручением."
+    ],
+    "natural": [
+      "Хе-хе, я отправил ВИНГАЛЛА с поручением."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hehe, ich schickte WINGULL auf einen Botengang."
+    ],
+    "A2": [
+      "Hehe, ich schickte WINGULL auf einen Botengang."
+    ],
+    "natural": [
+      "Hehe, ich schickte WINGULL auf einen Botengang."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFourBringsWorldCloserTogether",
+  "base_symbol": "FortreeCity_House4_Text_BringsWorldCloserTogether",
+  "source_path": "data/maps/FortreeCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Благодаря покемонам люди находят больше друзей."
+    ],
+    "A2": [
+      "Благодаря покемонам люди находят больше друзей. Так мир становится ближе."
+    ],
+    "natural": [
+      "Благодаря покемонам люди находят больше друзей. Так мир становится ближе. Это прекрасно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Durch Pokémon finden Menschen mehr Freunde."
+    ],
+    "A2": [
+      "Durch Pokémon finden Menschen mehr Freunde. So rückt die Welt zusammen."
+    ],
+    "natural": [
+      "Durch Pokémon finden Menschen mehr Freunde. So rückt die Welt zusammen. Wunderbar!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFourFriendsFarAwayThanksToWingull",
+  "base_symbol": "FortreeCity_House4_Text_FriendsFarAwayThanksToWingull",
+  "source_path": "data/maps/FortreeCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Благодаря ВИНГАЛЛУ у меня есть друзья далеко отсюда."
+    ],
+    "A2": [
+      "Благодаря ВИНГАЛЛУ у меня есть друзья далеко отсюда."
+    ],
+    "natural": [
+      "Благодаря ВИНГАЛЛУ у меня есть друзья далеко отсюда."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dank WINGULL habe ich weit entfernte Freunde."
+    ],
+    "A2": [
+      "Dank WINGULL habe ich weit entfernte Freunde."
+    ],
+    "natural": [
+      "Dank WINGULL habe ich weit entfernte Freunde."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFourGoBirdPokemon",
+  "base_symbol": "FortreeCity_House4_Text_GoBirdPokemon",
+  "source_path": "data/maps/FortreeCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лети, покемон-птица!"
+    ],
+    "A2": [
+      "Лети, покемон-птица!"
+    ],
+    "natural": [
+      "Лети, покемон-птица!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Los, Vogel-Pokémon!"
+    ],
+    "A2": [
+      "Los, Vogel-Pokémon!"
+    ],
+    "natural": [
+      "Los, Vogel-Pokémon!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFourWelcomeWingullTakeMentalHerb",
+  "base_symbol": "FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb",
+  "source_path": "data/maps/FortreeCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С возвращением, ВИНГАЛЛ!"
+    ],
+    "A2": [
+      "С возвращением, ВИНГАЛЛ! Что ты принёс?"
+    ],
+    "natural": [
+      "С возвращением, ВИНГАЛЛ! Что ты принёс? МЕНТАЛЬНУЮ ТРАВУ? Наверное, подобрал где-то. Я не тренер, так что бери её."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen zurück, WINGULL!"
+    ],
+    "A2": [
+      "Willkommen zurück, WINGULL! Was trägst du?"
+    ],
+    "natural": [
+      "Willkommen zurück, WINGULL! Was trägst du? Ein MENTALKRAUT? Wohl irgendwo gefunden. Ich bin kein Trainer, also nimm es."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFourWingull",
+  "base_symbol": "FortreeCity_House4_Text_Wingull",
+  "source_path": "data/maps/FortreeCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВИНГАЛЛ: Пи-хё!"
+    ],
+    "A2": [
+      "ВИНГАЛЛ: Пи-хё!"
+    ],
+    "natural": [
+      "ВИНГАЛЛ: Пи-хё!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WINGULL: Pihjo!"
+    ],
+    "A2": [
+      "WINGULL: Pihjo!"
+    ],
+    "natural": [
+      "WINGULL: Pihjo!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFiveAdaptedToNature",
+  "base_symbol": "FortreeCity_House5_Text_AdaptedToNature",
+  "source_path": "data/maps/FortreeCity_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покемоны и люди приспособились к природе."
+    ],
+    "A2": [
+      "Покемоны и люди приспособились к природе. Не нужно заставлять природу подчиняться нашим желаниям."
+    ],
+    "natural": [
+      "Покемоны и люди приспособились к природе. Не нужно заставлять природу подчиняться нашим желаниям."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pokémon und Menschen passten sich der Natur an."
+    ],
+    "A2": [
+      "Pokémon und Menschen passten sich der Natur an. Wir müssen die Natur nicht unseren Wünschen unterwerfen."
+    ],
+    "natural": [
+      "Pokémon und Menschen passten sich der Natur an. Wir müssen die Natur nicht unseren Wünschen unterwerfen."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFiveTreeHousesAreGreat",
+  "base_symbol": "FortreeCity_House5_Text_TreeHousesAreGreat",
+  "source_path": "data/maps/FortreeCity_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дома на деревьях ФОРТРИ прекрасны!"
+    ],
+    "A2": [
+      "Дома на деревьях ФОРТРИ прекрасны! Это лучший город для совместной жизни с покемонами."
+    ],
+    "natural": [
+      "Дома на деревьях ФОРТРИ прекрасны! Это лучший город для совместной жизни с покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BAUMHAUSENs Baumhäuser sind toll!"
+    ],
+    "A2": [
+      "BAUMHAUSENs Baumhäuser sind toll! Dies ist die beste Stadt zum Leben mit Pokémon."
+    ],
+    "natural": [
+      "BAUMHAUSENs Baumhäuser sind toll! Dies ist die beste Stadt zum Leben mit Pokémon."
+    ]
+  }
+},
+{
+  "id": "FortreeCityHouseFiveZigzagoon",
+  "base_symbol": "FortreeCity_House5_Text_Zigzagoon",
+  "source_path": "data/maps/FortreeCity_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЗИГЗАГУН: Бу-фу!"
+    ],
+    "A2": [
+      "ЗИГЗАГУН: Бу-фу!"
+    ],
+    "natural": [
+      "ЗИГЗАГУН: Бу-фу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ZIGZACHS: Bufuu!"
+    ],
+    "A2": [
+      "ZIGZACHS: Bufuu!"
+    ],
+    "natural": [
+      "ZIGZACHS: Bufuu!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityMartRareCandyMakesMonGrow",
+  "base_symbol": "FortreeCity_Mart_Text_RareCandyMakesMonGrow",
+  "source_path": "data/maps/FortreeCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РЕДКАЯ КОНФЕТА сразу повышает уровень покемона на один."
+    ],
+    "A2": [
+      "РЕДКАЯ КОНФЕТА сразу повышает уровень покемона на один."
+    ],
+    "natural": [
+      "РЕДКАЯ КОНФЕТА сразу повышает уровень покемона на один."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein SONDERBONBON erhöht sofort den Level eines Pokémon."
+    ],
+    "A2": [
+      "Ein SONDERBONBON erhöht sofort den Level eines Pokémon."
+    ],
+    "natural": [
+      "Ein SONDERBONBON erhöht sofort den Level eines Pokémon."
+    ]
+  }
+},
+{
+  "id": "FortreeCityMartStockUpOnItems",
+  "base_symbol": "FortreeCity_Mart_Text_StockUpOnItems",
+  "source_path": "data/maps/FortreeCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я всегда покупаю больше предметов, чем нужно."
+    ],
+    "A2": [
+      "Я всегда покупаю больше предметов, чем нужно. Никогда не знаешь, что случится."
+    ],
+    "natural": [
+      "Я всегда покупаю больше предметов, чем нужно. Никогда не знаешь, что случится. Лучше перестраховаться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kaufe immer mehr Items als nötig."
+    ],
+    "A2": [
+      "Ich kaufe immer mehr Items als nötig. Man weiß nie, was passiert."
+    ],
+    "natural": [
+      "Ich kaufe immer mehr Items als nötig. Man weiß nie, was passiert. Sicher ist sicher!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityMartSuperRepelBetter",
+  "base_symbol": "FortreeCity_Mart_Text_SuperRepelBetter",
+  "source_path": "data/maps/FortreeCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СУПЕРРЕПЕЛЛЕНТ действует долго и лучше обычного РЕПЕЛЛЕНТА."
+    ],
+    "A2": [
+      "СУПЕРРЕПЕЛЛЕНТ действует долго и лучше обычного РЕПЕЛЛЕНТА."
+    ],
+    "natural": [
+      "СУПЕРРЕПЕЛЛЕНТ действует долго и лучше обычного РЕПЕЛЛЕНТА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SUPERSCHUTZ wirkt lange und ist besser als normaler SCHUTZ."
+    ],
+    "A2": [
+      "SUPERSCHUTZ wirkt lange und ist besser als normaler SCHUTZ."
+    ],
+    "natural": [
+      "SUPERSCHUTZ wirkt lange und ist besser als normaler SCHUTZ."
+    ]
+  }
+},
+{
+  "id": "FortreeCityPokemonCenterOneFDoYouKnowAboutPokenav",
+  "base_symbol": "FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav",
+  "source_path": "data/maps/FortreeCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя такой же ПОКЕНАВ!"
+    ],
+    "A2": [
+      "У тебя такой же ПОКЕНАВ! В ГЛАЗАХ ТРЕНЕРА видно, кто хочет реванш."
+    ],
+    "natural": [
+      "У тебя такой же ПОКЕНАВ! В ГЛАЗАХ ТРЕНЕРА видно, кто хочет реванш. Отличная работа ДЕВОНА!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast denselben POKéNAV!"
+    ],
+    "A2": [
+      "Du hast denselben POKéNAV! TRAINER-AUGEN zeigt, wer Revanche will."
+    ],
+    "natural": [
+      "Du hast denselben POKéNAV! TRAINER-AUGEN zeigt, wer Revanche will. Tolle Arbeit von DEVON!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityPokemonCenterOneFGoToSafariZone",
+  "base_symbol": "FortreeCity_PokemonCenter_1F_Text_GoToSafariZone",
+  "source_path": "data/maps/FortreeCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Работаешь над ПОКЕДЕКСОМ?"
+    ],
+    "A2": [
+      "Работаешь над ПОКЕДЕКСОМ? Советую посетить ЗОНУ САФАРИ."
+    ],
+    "natural": [
+      "Работаешь над ПОКЕДЕКСОМ? Советую посетить ЗОНУ САФАРИ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Arbeitest du am POKÉDEX?"
+    ],
+    "A2": [
+      "Arbeitest du am POKÉDEX? Besuche die SAFARI-ZONE."
+    ],
+    "natural": [
+      "Arbeitest du am POKÉDEX? Besuche die SAFARI-ZONE."
+    ]
+  }
+},
+{
+  "id": "FortreeCityPokemonCenterOneFRecordCornerIsNeat",
+  "base_symbol": "FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat",
+  "source_path": "data/maps/FortreeCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пробовал УГОЛОК ЗАПИСЕЙ?"
+    ],
+    "A2": [
+      "Пробовал УГОЛОК ЗАПИСЕЙ? Он смешивает записи тренеров."
+    ],
+    "natural": [
+      "Пробовал УГОЛОК ЗАПИСЕЙ? Он смешивает записи тренеров. Не знаю как, но это интересно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Warst du in der DATENTAUSCH-ECKE?"
+    ],
+    "A2": [
+      "Warst du in der DATENTAUSCH-ECKE? Sie mischt Trainerdaten."
+    ],
+    "natural": [
+      "Warst du in der DATENTAUSCH-ECKE? Sie mischt Trainerdaten. Ich weiß nicht wie, aber es ist spannend!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityBugPokemonComeThroughWindow",
+  "base_symbol": "FortreeCity_Text_BugPokemonComeThroughWindow",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Жить на деревьях неплохо."
+    ],
+    "A2": [
+      "Жить на деревьях неплохо. Но иногда в окна залетают покемоны-жуки."
+    ],
+    "natural": [
+      "Жить на деревьях неплохо. Но иногда в окна залетают покемоны-жуки. Это пугает."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In Bäumen zu wohnen ist schön."
+    ],
+    "A2": [
+      "In Bäumen zu wohnen ist schön. Doch manchmal kommen Käfer-Pokémon durchs Fenster."
+    ],
+    "natural": [
+      "In Bäumen zu wohnen ist schön. Doch manchmal kommen Käfer-Pokémon durchs Fenster. Das erschreckt."
+    ]
+  }
+},
+{
+  "id": "FortreeCityCitySign",
+  "base_symbol": "FortreeCity_Text_CitySign",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ФОРТРИ."
+    ],
+    "A2": [
+      "ФОРТРИ. Город в кронах деревьев, живущий с природой."
+    ],
+    "natural": [
+      "ФОРТРИ. Город в кронах деревьев, живущий с природой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BAUMHAUSEN."
+    ],
+    "A2": [
+      "BAUMHAUSEN. Die Stadt in Baumkronen, die mit der Natur lebt."
+    ],
+    "natural": [
+      "BAUMHAUSEN. Die Stadt in Baumkronen, die mit der Natur lebt."
+    ]
+  }
+},
+{
+  "id": "FortreeCityEveryoneHealthyAndLively",
+  "base_symbol": "FortreeCity_Text_EveryoneHealthyAndLively",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Город состоит из домов на деревьях."
+    ],
+    "A2": [
+      "Город состоит из домов на деревьях. Наверное, поэтому все здесь здоровы и бодры."
+    ],
+    "natural": [
+      "Город состоит из домов на деревьях. Наверное, поэтому все здесь здоровы и бодры. Я будто помолодел на тридцать лет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Stadt besteht aus Baumhäusern."
+    ],
+    "A2": [
+      "Die Stadt besteht aus Baumhäusern. Darum sind alle gesund und munter."
+    ],
+    "natural": [
+      "Die Stadt besteht aus Baumhäusern. Darum sind alle gesund und munter. Selbst ich fühle mich dreißig Jahre jünger!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityGymSign",
+  "base_symbol": "FortreeCity_Text_GymSign",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ ФОРТРИ."
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ ФОРТРИ. ЛИДЕР: ВАЙНОНА."
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ ФОРТРИ. ЛИДЕР: ВАЙНОНА. Повелительница птиц взлетает в мир!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA BAUMHAUSEN."
+    ],
+    "A2": [
+      "POKÉMON-ARENA BAUMHAUSEN. LEITERIN: WASSILI."
+    ],
+    "natural": [
+      "POKÉMON-ARENA BAUMHAUSEN. LEITERIN: WASSILI. Die Vogelmeisterin erhebt sich in die Welt!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityPokemonThatEvolveWhenTraded",
+  "base_symbol": "FortreeCity_Text_PokemonThatEvolveWhenTraded",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Некоторые покемоны развиваются при обмене через кабель связи."
+    ],
+    "A2": [
+      "Некоторые покемоны развиваются при обмене через кабель связи."
+    ],
+    "natural": [
+      "Некоторые покемоны развиваются при обмене через кабель связи."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Manche Pokémon entwickeln sich beim Tausch über ein Linkkabel."
+    ],
+    "A2": [
+      "Manche Pokémon entwickeln sich beim Tausch über ein Linkkabel."
+    ],
+    "natural": [
+      "Manche Pokémon entwickeln sich beim Tausch über ein Linkkabel."
+    ]
+  }
+},
+{
+  "id": "FortreeCitySomethingBlockingGym",
+  "base_symbol": "FortreeCity_Text_SomethingBlockingGym",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree Gym trainer, puzzle, Winona battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочу на СТАДИОН, но путь что-то преграждает."
+    ],
+    "A2": [
+      "Хочу на СТАДИОН, но путь что-то преграждает. А я столько тренировался на МАРШРУТЕ 120."
+    ],
+    "natural": [
+      "Хочу на СТАДИОН, но путь что-то преграждает. А я столько тренировался на МАРШРУТЕ 120."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will zur ARENA, doch etwas blockiert den Weg."
+    ],
+    "A2": [
+      "Ich will zur ARENA, doch etwas blockiert den Weg. Dabei trainierte ich so viel auf ROUTE 120."
+    ],
+    "natural": [
+      "Ich will zur ARENA, doch etwas blockiert den Weg. Dabei trainierte ich so viel auf ROUTE 120."
+    ]
+  }
+},
+{
+  "id": "FortreeCitySomethingUnseeable",
+  "base_symbol": "FortreeCity_Text_SomethingUnseeable",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Невидимое препятствие преграждает путь."
+    ],
+    "A2": [
+      "Невидимое препятствие преграждает путь."
+    ],
+    "natural": [
+      "Невидимое препятствие преграждает путь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein unsichtbares Hindernis ist im Weg."
+    ],
+    "A2": [
+      "Ein unsichtbares Hindernis ist im Weg."
+    ],
+    "natural": [
+      "Ein unsichtbares Hindernis ist im Weg."
+    ]
+  }
+},
+{
+  "id": "FortreeCityThisTimeIllBeatWinona",
+  "base_symbol": "FortreeCity_Text_ThisTimeIllBeatWinona",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Со мной мой лучший покемон."
+    ],
+    "A2": [
+      "Со мной мой лучший покемон. На этот раз я одолею ВАЙНОНУ!"
+    ],
+    "natural": [
+      "Со мной мой лучший покемон. На этот раз я одолею ВАЙНОНУ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein bestes Pokémon ist dabei."
+    ],
+    "A2": [
+      "Mein bestes Pokémon ist dabei. Diesmal besiege ich WASSILI!"
+    ],
+    "natural": [
+      "Mein bestes Pokémon ist dabei. Diesmal besiege ich WASSILI!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityTreesGrowByDrinkingRainwater",
+  "base_symbol": "FortreeCity_Text_TreesGrowByDrinkingRainwater",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Земля впитывает дождь, деревья пьют эту воду."
+    ],
+    "A2": [
+      "Земля впитывает дождь, деревья пьют эту воду. ФОРТРИ существует благодаря воде и почве."
+    ],
+    "natural": [
+      "Земля впитывает дождь, деревья пьют эту воду. ФОРТРИ существует благодаря воде и почве."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Boden nimmt Regen auf, die Bäume trinken ihn."
+    ],
+    "A2": [
+      "Der Boden nimmt Regen auf, die Bäume trinken ihn. BAUMHAUSEN besteht dank Wasser und Erde."
+    ],
+    "natural": [
+      "Der Boden nimmt Regen auf, die Bäume trinken ihn. BAUMHAUSEN besteht dank Wasser und Erde."
+    ]
+  }
+},
+{
+  "id": "FortreeCityUnseeableUseDevonScope",
+  "base_symbol": "FortreeCity_Text_UnseeableUseDevonScope",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Невидимое препятствие преграждает путь."
+    ],
+    "A2": [
+      "Невидимое препятствие преграждает путь. Использовать ДЕВОН-СФЕРУ?"
+    ],
+    "natural": [
+      "Невидимое препятствие преграждает путь. Использовать ДЕВОН-СФЕРУ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "прибор",
+        "device"
+      ]
+    ],
+    "de": [
+      [
+        "das Gerät",
+        "device"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein unsichtbares Hindernis ist im Weg."
+    ],
+    "A2": [
+      "Ein unsichtbares Hindernis ist im Weg. DEVON-SCOPE benutzen?"
+    ],
+    "natural": [
+      "Ein unsichtbares Hindernis ist im Weg. DEVON-SCOPE benutzen?"
+    ]
+  }
+},
+{
+  "id": "FortreeCityUsedDevonScopePokemonFled",
+  "base_symbol": "FortreeCity_Text_UsedDevonScopePokemonFled",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} использует ДЕВОН-СФЕРУ."
+    ],
+    "A2": [
+      "{PLAYER} использует ДЕВОН-СФЕРУ. Невидимый покемон становится видимым и в испуге убегает!"
+    ],
+    "natural": [
+      "{PLAYER} использует ДЕВОН-СФЕРУ. Невидимый покемон становится видимым и в испуге убегает!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "прибор",
+        "device"
+      ]
+    ],
+    "de": [
+      [
+        "das Gerät",
+        "device"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} benutzt den DEVON-SCOPE."
+    ],
+    "A2": [
+      "{PLAYER} benutzt den DEVON-SCOPE. Ein unsichtbares Pokémon wird sichtbar und flieht erschrocken!"
+    ],
+    "natural": [
+      "{PLAYER} benutzt den DEVON-SCOPE. Ein unsichtbares Pokémon wird sichtbar und flieht erschrocken!"
+    ]
+  }
+},
+{
+  "id": "FortreeCityYouSmellSinged",
+  "base_symbol": "FortreeCity_Text_YouSmellSinged",
+  "source_path": "data/maps/FortreeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Fortree city resident, house, service, trade, shop, Center, or sign interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм..."
+    ],
+    "A2": [
+      "Хм... От тебя пахнет гарью."
+    ],
+    "natural": [
+      "Хм... От тебя пахнет гарью. Ты был у вулкана?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm..."
+    ],
+    "A2": [
+      "Hm... Du riechst versengt."
+    ],
+    "natural": [
+      "Hm... Du riechst versengt. Warst du an einem Vulkan?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneEightTwoSeven",
+  "base_symbol": "Route120_Text_171827",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, давно не виделись."
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, давно не виделись. Здесь есть невидимое препятствие."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, давно не виделись. Здесь есть невидимое препятствие. Вместо объяснений я покажу устройство. Так интереснее. Твои покемоны готовы к бою?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, lange nicht gesehen."
+    ],
+    "A2": [
+      "TROY: {PLAYER}, lange nicht gesehen. Hier ist ein unsichtbares Hindernis."
+    ],
+    "natural": [
+      "TROY: {PLAYER}, lange nicht gesehen. Hier ist ein unsichtbares Hindernis. Statt es zu erklären, zeige ich dir ein Gerät. Spannender so. Sind deine Pokémon kampfbereit?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneNineThreeD",
+  "base_symbol": "Route120_Text_17193D",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Нет?"
+    ],
+    "A2": [
+      "СТИВЕН: Нет? Я подожду, пока ты подготовишься."
+    ],
+    "natural": [
+      "СТИВЕН: Нет? Я подожду, пока ты подготовишься."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Nein?"
+    ],
+    "A2": [
+      "TROY: Nein? Ich warte, bis du bereit bist."
+    ],
+    "natural": [
+      "TROY: Nein? Ich warte, bis du bereit bist."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneNineSixF",
+  "base_symbol": "Route120_Text_17196F",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, твои покемоны готовы к бою?"
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, твои покемоны готовы к бою?"
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, твои покемоны готовы к бою?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, sind deine Pokémon kampfbereit?"
+    ],
+    "A2": [
+      "TROY: {PLAYER}, sind deine Pokémon kampfbereit?"
+    ],
+    "natural": [
+      "TROY: {PLAYER}, sind deine Pokémon kampfbereit?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneNineAZero",
+  "base_symbol": "Route120_Text_1719A0",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, покажи свою истинную силу тренера!"
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, покажи свою истинную силу тренера!"
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, покажи свою истинную силу тренера!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, zeig deine wahre Kraft als Trainer!"
+    ],
+    "A2": [
+      "TROY: {PLAYER}, zeig deine wahre Kraft als Trainer!"
+    ],
+    "natural": [
+      "TROY: {PLAYER}, zeig deine wahre Kraft als Trainer!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneNineDFour",
+  "base_symbol": "Route120_Text_1719D4",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН использует ДЕВОН-СФЕРУ."
+    ],
+    "A2": [
+      "СТИВЕН использует ДЕВОН-СФЕРУ. Невидимый покемон становится видимым и нападает!"
+    ],
+    "natural": [
+      "СТИВЕН использует ДЕВОН-СФЕРУ. Невидимый покемон становится видимым и нападает!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY benutzt den DEVON-SCOPE."
+    ],
+    "A2": [
+      "TROY benutzt den DEVON-SCOPE. Ein unsichtbares Pokémon wird sichtbar und greift an!"
+    ],
+    "natural": [
+      "TROY benutzt den DEVON-SCOPE. Ein unsichtbares Pokémon wird sichtbar und greift an!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneAFourZero",
+  "base_symbol": "Route120_Text_171A40",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Интересный стиль боя."
+    ],
+    "A2": [
+      "СТИВЕН: Интересный стиль боя. Твои покемоны заметно выросли со встречи в ДЬЮФОРДЕ."
+    ],
+    "natural": [
+      "СТИВЕН: Интересный стиль боя. Твои покемоны заметно выросли со встречи в ДЬЮФОРДЕ. Возьми ДЕВОН-СФЕРУ. Возможно, есть и другие скрытые покемоны."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Dein Kampfstil ist interessant."
+    ],
+    "A2": [
+      "TROY: Dein Kampfstil ist interessant. Deine Pokémon wuchsen seit FAUSTAUHAVEN."
+    ],
+    "natural": [
+      "TROY: Dein Kampfstil ist interessant. Deine Pokémon wuchsen seit FAUSTAUHAVEN. Nimm den DEVON-SCOPE. Vielleicht gibt es weitere versteckte Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneBZeroE",
+  "base_symbol": "Route120_Text_171B0E",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, мне нравится видеть покемонов и тренеров, которые стараются вместе."
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, мне нравится видеть покемонов и тренеров, которые стараются вместе. У тебя всё отлично."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, мне нравится видеть покемонов и тренеров, которые стараются вместе. У тебя всё отлично. До встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, ich sehe gern Pokémon und Trainer, die gemeinsam wachsen."
+    ],
+    "A2": [
+      "TROY: {PLAYER}, ich sehe gern Pokémon und Trainer, die gemeinsam wachsen. Du machst das großartig."
+    ],
+    "natural": [
+      "TROY: {PLAYER}, ich sehe gern Pokémon und Trainer, die gemeinsam wachsen. Du machst das großartig. Bis bald!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneCFiveE",
+  "base_symbol": "Route120_Text_171C5E",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАРШРУТ 120."
+    ],
+    "A2": [
+      "МАРШРУТ 120. К ФОРТРИ."
+    ],
+    "natural": [
+      "МАРШРУТ 120. К ФОРТРИ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ROUTE 120."
+    ],
+    "A2": [
+      "ROUTE 120. NACH BAUMHAUSEN."
+    ],
+    "natural": [
+      "ROUTE 120. NACH BAUMHAUSEN."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneSevenOneCSevenSeven",
+  "base_symbol": "Route120_Text_171C77",
+  "source_path": "data/maps/Route120/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "К МАРШРУТУ 121."
+    ],
+    "A2": [
+      "К МАРШРУТУ 121. К МАРШРУТУ 120."
+    ],
+    "natural": [
+      "К МАРШРУТУ 121. К МАРШРУТУ 120."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ZU ROUTE 121."
+    ],
+    "A2": [
+      "ZU ROUTE 121. ZU ROUTE 120."
+    ],
+    "natural": [
+      "ZU ROUTE 121. ZU ROUTE 120."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBEFCEight",
+  "base_symbol": "Route120_Text_1BEFC8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя есть приёмы, способные поразить летящего покемона?"
+    ],
+    "A2": [
+      "У тебя есть приёмы, способные поразить летящего покемона?"
+    ],
+    "natural": [
+      "У тебя есть приёмы, способные поразить летящего покемона?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du Attacken, die ein fliegendes Pokémon treffen können?"
+    ],
+    "A2": [
+      "Hast du Attacken, die ein fliegendes Pokémon treffen können?"
+    ],
+    "natural": [
+      "Hast du Attacken, die ein fliegendes Pokémon treffen können?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFZeroZeroZero",
+  "base_symbol": "Route120_Text_1BF000",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты взлетел выше меня!"
+    ],
+    "A2": [
+      "Ты взлетел выше меня!"
+    ],
+    "natural": [
+      "Ты взлетел выше меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist über mich hinweggeflogen!"
+    ],
+    "A2": [
+      "Du bist über mich hinweggeflogen!"
+    ],
+    "natural": [
+      "Du bist über mich hinweggeflogen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFZeroOneFive",
+  "base_symbol": "Route120_Text_1BF015",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Приём Полёт удобен, правда?"
+    ],
+    "A2": [
+      "Приём Полёт удобен, правда? Пока покемон летит, почти никакой приём его не достанет."
+    ],
+    "natural": [
+      "Приём Полёт удобен, правда? Пока покемон летит, почти никакой приём его не достанет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Attacke Fliegen ist praktisch, oder?"
+    ],
+    "A2": [
+      "Die Attacke Fliegen ist praktisch, oder? In der Luft trifft das Pokémon fast keine Attacke."
+    ],
+    "natural": [
+      "Die Attacke Fliegen ist praktisch, oder? In der Luft trifft das Pokémon fast keine Attacke."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFZeroSevenE",
+  "base_symbol": "Route120_Text_1BF07E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой покемон силён!"
+    ],
+    "A2": [
+      "Мой покемон силён! А твой?"
+    ],
+    "natural": [
+      "Мой покемон силён! А твой?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Pokémon ist stark!"
+    ],
+    "A2": [
+      "Mein Pokémon ist stark! Und deins?"
+    ],
+    "natural": [
+      "Mein Pokémon ist stark! Und deins?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFZeroAFive",
+  "base_symbol": "Route120_Text_1BF0A5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твои покемоны оказались сильнее..."
+    ],
+    "A2": [
+      "Твои покемоны оказались сильнее..."
+    ],
+    "natural": [
+      "Твои покемоны оказались сильнее..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Pokémon waren stärker..."
+    ],
+    "A2": [
+      "Deine Pokémon waren stärker..."
+    ],
+    "natural": [
+      "Deine Pokémon waren stärker..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFZeroCThree",
+  "base_symbol": "Route120_Text_1BF0C3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На покемона, который растёт постепенно, всегда можно положиться."
+    ],
+    "A2": [
+      "На покемона, который растёт постепенно, всегда можно положиться."
+    ],
+    "natural": [
+      "На покемона, который растёт постепенно, всегда можно положиться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf ein Pokémon, das stetig wächst, kann man sich verlassen."
+    ],
+    "A2": [
+      "Auf ein Pokémon, das stetig wächst, kann man sich verlassen."
+    ],
+    "natural": [
+      "Auf ein Pokémon, das stetig wächst, kann man sich verlassen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFZeroFA",
+  "base_symbol": "Route120_Text_1BF0FA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На покемона, который растёт постепенно, всегда можно положиться."
+    ],
+    "A2": [
+      "На покемона, который растёт постепенно, всегда можно положиться."
+    ],
+    "natural": [
+      "На покемона, который растёт постепенно, всегда можно положиться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf ein Pokémon, das stetig wächst, kann man sich verlassen."
+    ],
+    "A2": [
+      "Auf ein Pokémon, das stetig wächst, kann man sich verlassen."
+    ],
+    "natural": [
+      "Auf ein Pokémon, das stetig wächst, kann man sich verlassen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFOneThreeOne",
+  "base_symbol": "Route120_Text_1BF131",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твои покемоны и правда сильны."
+    ],
+    "A2": [
+      "Твои покемоны и правда сильны."
+    ],
+    "natural": [
+      "Твои покемоны и правда сильны."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Pokémon sind wirklich stark."
+    ],
+    "A2": [
+      "Deine Pokémon sind wirklich stark."
+    ],
+    "natural": [
+      "Deine Pokémon sind wirklich stark."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFOneFiveFour",
+  "base_symbol": "Route120_Text_1BF154",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мои покемоны становятся сильнее."
+    ],
+    "A2": [
+      "Мои покемоны становятся сильнее. Я тоже должен стать сильнее."
+    ],
+    "natural": [
+      "Мои покемоны становятся сильнее. Я тоже должен стать сильнее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Pokémon werden stärker."
+    ],
+    "A2": [
+      "Meine Pokémon werden stärker. Auch ich muss stärker werden."
+    ],
+    "natural": [
+      "Meine Pokémon werden stärker. Auch ich muss stärker werden."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFOneNineThree",
+  "base_symbol": "Route120_Text_1BF193",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проверю, годятся ли твои покемоны для жизни на природе."
+    ],
+    "A2": [
+      "Я проверю, годятся ли твои покемоны для жизни на природе."
+    ],
+    "natural": [
+      "Я проверю, годятся ли твои покемоны для жизни на природе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich prüfe, ob deine Pokémon für die Wildnis geeignet sind."
+    ],
+    "A2": [
+      "Ich prüfe, ob deine Pokémon für die Wildnis geeignet sind."
+    ],
+    "natural": [
+      "Ich prüfe, ob deine Pokémon für die Wildnis geeignet sind."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFOneDFour",
+  "base_symbol": "Route120_Text_1BF1D4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С такими сильными покемонами спасать тебя не придётся!"
+    ],
+    "A2": [
+      "С такими сильными покемонами спасать тебя не придётся!"
+    ],
+    "natural": [
+      "С такими сильными покемонами спасать тебя не придётся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit so starken Pokémon brauchst du sicher keine Rettung!"
+    ],
+    "A2": [
+      "Mit so starken Pokémon brauchst du sicher keine Rettung!"
+    ],
+    "natural": [
+      "Mit so starken Pokémon brauchst du sicher keine Rettung!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFTwoOneFive",
+  "base_symbol": "Route120_Text_1BF215",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Путешествовать с покемонами, куда пожелает сердце..."
+    ],
+    "A2": [
+      "Путешествовать с покемонами, куда пожелает сердце... В этом радость тренера."
+    ],
+    "natural": [
+      "Путешествовать с покемонами, куда пожелает сердце... В этом радость тренера."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit Pokémon überallhin reisen, wohin das Herz will..."
+    ],
+    "A2": [
+      "Mit Pokémon überallhin reisen, wohin das Herz will... Das ist die Freude eines Trainers."
+    ],
+    "natural": [
+      "Mit Pokémon überallhin reisen, wohin das Herz will... Das ist die Freude eines Trainers."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFTwoSixE",
+  "base_symbol": "Route120_Text_1BF26E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как твоя физическая форма?"
+    ],
+    "A2": [
+      "Как твоя физическая форма? Без подготовки в опасной ситуации придётся туго."
+    ],
+    "natural": [
+      "Как твоя физическая форма? Без подготовки в опасной ситуации придётся туго."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie fit bist du?"
+    ],
+    "A2": [
+      "Wie fit bist du? Ohne Fitness wird eine gefährliche Lage sehr hart."
+    ],
+    "natural": [
+      "Wie fit bist du? Ohne Fitness wird eine gefährliche Lage sehr hart."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFTwoDTwo",
+  "base_symbol": "Route120_Text_1BF2D2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я в отличной форме, но..."
+    ],
+    "A2": [
+      "Я в отличной форме, но..."
+    ],
+    "natural": [
+      "Я в отличной форме, но..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin völlig fit, aber..."
+    ],
+    "A2": [
+      "Ich bin völlig fit, aber..."
+    ],
+    "natural": [
+      "Ich bin völlig fit, aber..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFTwoEA",
+  "base_symbol": "Route120_Text_1BF2EA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тренировки входят в мой распорядок."
+    ],
+    "A2": [
+      "Тренировки входят в мой распорядок. Я всегда бегаю со своими покемонами."
+    ],
+    "natural": [
+      "Тренировки входят в мой распорядок. Я всегда бегаю со своими покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Fitnesstraining gehört zu meinem Alltag."
+    ],
+    "A2": [
+      "Fitnesstraining gehört zu meinem Alltag. Ich laufe immer mit meinen Pokémon."
+    ],
+    "natural": [
+      "Fitnesstraining gehört zu meinem Alltag. Ich laufe immer mit meinen Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFThreeTwoB",
+  "base_symbol": "Route120_Text_1BF32B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Хочешь сразиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Willst du kämpfen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFThreeSixB",
+  "base_symbol": "Route120_Text_1BF36B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Я проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Ich habe verloren..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFThreeEightD",
+  "base_symbol": "Route120_Text_1BF38D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Я постараюсь сильнее..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Ich werde mich mehr bemühen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFThreeDZero",
+  "base_symbol": "Route120_Text_1BF3D0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Хочешь снова сразиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Willst du wieder kämpfen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFourOneSix",
+  "base_symbol": "Route120_Text_1BF416",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Я снова проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Ich habe wieder verloren..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFourThreeE",
+  "base_symbol": "Route120_Text_1BF43E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Я постараюсь сильнее... Ради моих дорогих покемонов-жуков..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... Ich bemühe mich mehr... Für meine geliebten Käfer-Pokémon..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFourAZero",
+  "base_symbol": "Route120_Text_1BF4A0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У покемонов много особых способностей."
+    ],
+    "A2": [
+      "У покемонов много особых способностей. Хочешь стать первоклассным тренером - изучай их."
+    ],
+    "natural": [
+      "У покемонов много особых способностей. Хочешь стать первоклассным тренером - изучай их."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pokémon haben viele Fähigkeiten."
+    ],
+    "A2": [
+      "Pokémon haben viele Fähigkeiten. Willst du ein erstklassiger Trainer werden, lerne sie kennen."
+    ],
+    "natural": [
+      "Pokémon haben viele Fähigkeiten. Willst du ein erstklassiger Trainer werden, lerne sie kennen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFiveZeroFour",
+  "base_symbol": "Route120_Text_1BF504",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сразу видно, что ты думаешь."
+    ],
+    "A2": [
+      "Сразу видно, что ты думаешь."
+    ],
+    "natural": [
+      "Сразу видно, что ты думаешь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du denkst offensichtlich nach."
+    ],
+    "A2": [
+      "Du denkst offensichtlich nach."
+    ],
+    "natural": [
+      "Du denkst offensichtlich nach."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFiveOneF",
+  "base_symbol": "Route120_Text_1BF51F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Особые способности покемонов меняют стиль боя."
+    ],
+    "A2": [
+      "Особые способности покемонов меняют стиль боя."
+    ],
+    "natural": [
+      "Особые способности покемонов меняют стиль боя."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Fähigkeiten von Pokémon verändern den Kampfstil."
+    ],
+    "A2": [
+      "Die Fähigkeiten von Pokémon verändern den Kampfstil."
+    ],
+    "natural": [
+      "Die Fähigkeiten von Pokémon verändern den Kampfstil."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFiveSixZero",
+  "base_symbol": "Route120_Text_1BF560",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кто ты?"
+    ],
+    "A2": [
+      "Кто ты? Возможно, ты ищешь древние руины, которые, по легенде, могут существовать?"
+    ],
+    "natural": [
+      "Кто ты? Возможно, ты ищешь древние руины, которые, по легенде, могут существовать?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wer bist du?"
+    ],
+    "A2": [
+      "Wer bist du? Suchst du etwa die alten Ruinen, die laut Legende existieren könnten?"
+    ],
+    "natural": [
+      "Wer bist du? Suchst du etwa die alten Ruinen, die laut Legende existieren könnten?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFiveDSix",
+  "base_symbol": "Route120_Text_1BF5D6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какой позорный провал..."
+    ],
+    "A2": [
+      "Какой позорный провал..."
+    ],
+    "natural": [
+      "Какой позорный провал..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was für ein beschämender Rückschlag..."
+    ],
+    "A2": [
+      "Was für ein beschämender Rückschlag..."
+    ],
+    "natural": [
+      "Was für ein beschämender Rückschlag..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFFiveFFour",
+  "base_symbol": "Route120_Text_1BF5F4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Та огромная скала..."
+    ],
+    "A2": [
+      "Та огромная скала... Хочется верить, что в ней и правда древние руины."
+    ],
+    "natural": [
+      "Та огромная скала... Хочется верить, что в ней и правда древние руины. Но входа не видно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieser riesige Fels..."
+    ],
+    "A2": [
+      "Dieser riesige Fels... Vielleicht birgt er wirklich alte Ruinen."
+    ],
+    "natural": [
+      "Dieser riesige Fels... Vielleicht birgt er wirklich alte Ruinen. Doch ich sehe keinen Eingang."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFSixFiveB",
+  "base_symbol": "Route120_Text_1BF65B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Почему я ношу этот зонтик?"
+    ],
+    "A2": [
+      "Почему я ношу этот зонтик? Расскажу, если победишь меня."
+    ],
+    "natural": [
+      "Почему я ношу этот зонтик? Расскажу, если победишь меня."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Warum trage ich diesen Sonnenschirm?"
+    ],
+    "A2": [
+      "Warum trage ich diesen Sonnenschirm? Ich sage es dir, wenn du mich besiegst."
+    ],
+    "natural": [
+      "Warum trage ich diesen Sonnenschirm? Ich sage es dir, wenn du mich besiegst."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFSixAFour",
+  "base_symbol": "Route120_Text_1BF6A4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Зонтик не защищает от атак покемонов..."
+    ],
+    "A2": [
+      "Зонтик не защищает от атак покемонов..."
+    ],
+    "natural": [
+      "Зонтик не защищает от атак покемонов..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Sonnenschirm schützt nicht vor Pokémon-Attacken..."
+    ],
+    "A2": [
+      "Ein Sonnenschirm schützt nicht vor Pokémon-Attacken..."
+    ],
+    "natural": [
+      "Ein Sonnenschirm schützt nicht vor Pokémon-Attacken..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFSixDZero",
+  "base_symbol": "Route120_Text_1BF6D0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я думаю, яркое солнце вредно моим покемонам."
+    ],
+    "A2": [
+      "Я думаю, яркое солнце вредно моим покемонам. Поэтому укрываю их зонтиком."
+    ],
+    "natural": [
+      "Я думаю, яркое солнце вредно моим покемонам. Поэтому укрываю их зонтиком."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Starke Sonne ist wohl schlecht für meine Pokémon."
+    ],
+    "A2": [
+      "Starke Sonne ist wohl schlecht für meine Pokémon. Darum schütze ich sie mit meinem Schirm."
+    ],
+    "natural": [
+      "Starke Sonne ist wohl schlecht für meine Pokémon. Darum schütze ich sie mit meinem Schirm."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFSevenTwoEight",
+  "base_symbol": "Route120_Text_1BF728",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я, покемоны и мой зонтик..."
+    ],
+    "A2": [
+      "Я, покемоны и мой зонтик... Если хоть чего-то не будет, прекрасная картина разрушится."
+    ],
+    "natural": [
+      "Я, покемоны и мой зонтик... Если хоть чего-то не будет, прекрасная картина разрушится."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich, Pokémon und mein Sonnenschirm..."
+    ],
+    "A2": [
+      "Ich, Pokémon und mein Sonnenschirm... Fehlt nur eines, ist das schöne Bild ruiniert."
+    ],
+    "natural": [
+      "Ich, Pokémon und mein Sonnenschirm... Fehlt nur eines, ist das schöne Bild ruiniert."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFSevenEightC",
+  "base_symbol": "Route120_Text_1BF78C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты полностью разрушил мою красоту..."
+    ],
+    "A2": [
+      "Ты полностью разрушил мою красоту..."
+    ],
+    "natural": [
+      "Ты полностью разрушил мою красоту..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast meine Schönheit völlig ruiniert..."
+    ],
+    "A2": [
+      "Du hast meine Schönheit völlig ruiniert..."
+    ],
+    "natural": [
+      "Du hast meine Schönheit völlig ruiniert..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFSevenBTwo",
+  "base_symbol": "Route120_Text_1BF7B2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Зонтик тебе совсем не подходит."
+    ],
+    "A2": [
+      "Зонтик тебе совсем не подходит. Такая вещь будет лишь мешать."
+    ],
+    "natural": [
+      "Зонтик тебе совсем не подходит. Такая вещь будет лишь мешать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Sonnenschirm passt gar nicht zu dir."
+    ],
+    "A2": [
+      "Ein Sonnenschirm passt gar nicht zu dir. So etwas wäre nur im Weg."
+    ],
+    "natural": [
+      "Ein Sonnenschirm passt gar nicht zu dir. So etwas wäre nur im Weg."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFEightZeroB",
+  "base_symbol": "Route120_Text_1BF80B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я изучу движения покемонов и создам новые техники ниндзя."
+    ],
+    "A2": [
+      "Я изучу движения покемонов и создам новые техники ниндзя."
+    ],
+    "natural": [
+      "Я изучу движения покемонов и создам новые техники ниндзя."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich übernehme die Bewegungen von Pokémon und erschaffe neue Ninjatechniken."
+    ],
+    "A2": [
+      "Ich übernehme die Bewegungen von Pokémon und erschaffe neue Ninjatechniken."
+    ],
+    "natural": [
+      "Ich übernehme die Bewegungen von Pokémon und erschaffe neue Ninjatechniken."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFEightFiveTwo",
+  "base_symbol": "Route120_Text_1BF852",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Создание новых техник ниндзя остаётся далёкой мечтой..."
+    ],
+    "A2": [
+      "Создание новых техник ниндзя остаётся далёкой мечтой..."
+    ],
+    "natural": [
+      "Создание новых техник ниндзя остаётся далёкой мечтой..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Neue Ninjatechniken zu erschaffen bleibt ein ferner Traum..."
+    ],
+    "A2": [
+      "Neue Ninjatechniken zu erschaffen bleibt ein ferner Traum..."
+    ],
+    "natural": [
+      "Neue Ninjatechniken zu erschaffen bleibt ein ferner Traum..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFEightNineOne",
+  "base_symbol": "Route120_Text_1BF891",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Возможно, мне стоит стать учеником мастера ниндзя."
+    ],
+    "A2": [
+      "Возможно, мне стоит стать учеником мастера ниндзя."
+    ],
+    "natural": [
+      "Возможно, мне стоит стать учеником мастера ниндзя."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vielleicht sollte ich bei einem Ninja-Meister in die Lehre gehen."
+    ],
+    "A2": [
+      "Vielleicht sollte ich bei einem Ninja-Meister in die Lehre gehen."
+    ],
+    "natural": [
+      "Vielleicht sollte ich bei einem Ninja-Meister in die Lehre gehen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFEightCFive",
+  "base_symbol": "Route120_Text_1BF8C5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы, ниндзя, прячемся под маскировочными плащами."
+    ],
+    "A2": [
+      "Мы, ниндзя, прячемся под маскировочными плащами. Спорим, ты не знал, где я!"
+    ],
+    "natural": [
+      "Мы, ниндзя, прячемся под маскировочными плащами. Спорим, ты не знал, где я!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir Ninja verbergen uns unter Tarnmänteln."
+    ],
+    "A2": [
+      "Wir Ninja verbergen uns unter Tarnmänteln. Du wusstest sicher nicht, wo ich war!"
+    ],
+    "natural": [
+      "Wir Ninja verbergen uns unter Tarnmänteln. Du wusstest sicher nicht, wo ich war!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFNineTwoZero",
+  "base_symbol": "Route120_Text_1BF920",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл!"
+    ],
+    "A2": [
+      "Я проиграл! Надо замаскировать свой позор!"
+    ],
+    "natural": [
+      "Я проиграл! Надо замаскировать свой позор!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe verloren!"
+    ],
+    "A2": [
+      "Ich habe verloren! Ich sollte meine Schande tarnen!"
+    ],
+    "natural": [
+      "Ich habe verloren! Ich sollte meine Schande tarnen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneBFNineFourSix",
+  "base_symbol": "Route120_Text_1BF946",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Все наши маскировочные плащи сделаны вручную."
+    ],
+    "A2": [
+      "Все наши маскировочные плащи сделаны вручную."
+    ],
+    "natural": [
+      "Все наши маскировочные плащи сделаны вручную."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unsere Tarnmäntel sind alle handgefertigt."
+    ],
+    "A2": [
+      "Unsere Tarnmäntel sind alle handgefertigt."
+    ],
+    "natural": [
+      "Unsere Tarnmäntel sind alle handgefertigt."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneCFiveEightFOne",
+  "base_symbol": "Route120_Text_1C58F1",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Встряхнёшь коробку - выскакивает ПОКЕБЛОК, и покемон ловит и съедает его."
+    ],
+    "A2": [
+      "Встряхнёшь коробку - выскакивает ПОКЕБЛОК, и покемон ловит и съедает его. Это проявление любви, правда?"
+    ],
+    "natural": [
+      "Встряхнёшь коробку - выскакивает ПОКЕБЛОК, и покемон ловит и съедает его. Это проявление любви, правда?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Man schüttelt die Box, ein POKÉRIEGEL springt heraus, und ein Pokémon fängt und frisst ihn."
+    ],
+    "A2": [
+      "Man schüttelt die Box, ein POKÉRIEGEL springt heraus, und ein Pokémon fängt und frisst ihn. Ein Zeichen der Liebe, oder?"
+    ],
+    "natural": [
+      "Man schüttelt die Box, ein POKÉRIEGEL springt heraus, und ein Pokémon fängt und frisst ihn. Ein Zeichen der Liebe, oder?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneCFiveNineSevenNine",
+  "base_symbol": "Route120_Text_1C5979",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Да-да, ты понимаешь меня."
+    ],
+    "A2": [
+      "Да-да, ты понимаешь меня. Возьми это."
+    ],
+    "natural": [
+      "Да-да, ты понимаешь меня. Возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ja, du verstehst mich."
+    ],
+    "A2": [
+      "Ja, du verstehst mich. Nimm das."
+    ],
+    "natural": [
+      "Ja, du verstehst mich. Nimm das."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneCFiveNineBFive",
+  "base_symbol": "Route120_Text_1C59B5",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Важно иметь собственное мнение..."
+    ],
+    "A2": [
+      "Важно иметь собственное мнение... Возьми это."
+    ],
+    "natural": [
+      "Важно иметь собственное мнение... Возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eine eigene Meinung ist wichtig..."
+    ],
+    "A2": [
+      "Eine eigene Meinung ist wichtig... Nimm das."
+    ],
+    "natural": [
+      "Eine eigene Meinung ist wichtig... Nimm das."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneCFiveAZeroB",
+  "base_symbol": "Route120_Text_1C5A0B",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эта ЯГОДА редкая."
+    ],
+    "A2": [
+      "Эта ЯГОДА редкая. Выращивай её с любовью."
+    ],
+    "natural": [
+      "Эта ЯГОДА редкая. Выращивай её с любовью."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Diese BEERE ist selten."
+    ],
+    "A2": [
+      "Diese BEERE ist selten. Zieh sie liebevoll auf."
+    ],
+    "natural": [
+      "Diese BEERE ist selten. Zieh sie liebevoll auf."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoZeroOneCFiveAFourD",
+  "base_symbol": "Route120_Text_1C5A4D",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 120 trainer, resident, sign, Devon Scope, Steven, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я получу ещё ЯГОД у МАСТЕРА ЯГОД."
+    ],
+    "A2": [
+      "Я получу ещё ЯГОД у МАСТЕРА ЯГОД."
+    ],
+    "natural": [
+      "Я получу ещё ЯГОД у МАСТЕРА ЯГОД."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim BEERENMEISTER bekomme ich weitere BEEREN."
+    ],
+    "A2": [
+      "Beim BEERENMEISTER bekomme ich weitere BEEREN."
+    ],
+    "natural": [
+      "Beim BEERENMEISTER bekomme ich weitere BEEREN."
+    ]
+  }
 }
   ]
 }

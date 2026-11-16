@@ -661,6 +661,13 @@ class LessonTests(unittest.TestCase):
                          'Route119_WeatherInstitute_1F',
                          'Route119_WeatherInstitute_2F')
         paths += [f'data/maps/{area}/scripts.inc' for area in weather_areas]
+        fortree_areas = ('FortreeCity', 'FortreeCity_DecorationShop',
+                         'FortreeCity_Gym', 'FortreeCity_House1',
+                         'FortreeCity_House2', 'FortreeCity_House3',
+                         'FortreeCity_House4', 'FortreeCity_House5',
+                         'FortreeCity_Mart', 'FortreeCity_PokemonCenter_1F',
+                         'Route120')
+        paths += [f'data/maps/{area}/scripts.inc' for area in fortree_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2611,6 +2618,25 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(124, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_fortree_and_route_120_are_fully_adaptive(self):
+        areas = ('FortreeCity', 'FortreeCity_DecorationShop', 'FortreeCity_Gym',
+                 'FortreeCity_House1', 'FortreeCity_House2', 'FortreeCity_House3',
+                 'FortreeCity_House4', 'FortreeCity_House5', 'FortreeCity_Mart',
+                 'FortreeCity_PokemonCenter_1F', 'Route120')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:FortreeCity|Route120)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(120, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

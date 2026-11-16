@@ -79967,6 +79967,6891 @@
       "Beim BEERENMEISTER bekomme ich weitere BEEREN."
     ]
   }
+},
+{
+  "id": "MtPyreOneFOneNineSixOneFiveOne",
+  "base_symbol": "MtPyre_1F_Text_196151",
+  "source_path": "data/maps/MtPyre_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "По склонам горы Пайр бродят разные существа..."
+    ],
+    "A2": [
+      "По склонам горы Пайр бродят разные существа... Неизвестно, что случится."
+    ],
+    "natural": [
+      "По склонам горы Пайр бродят разные существа... Неизвестно, что случится. Возьми это для защиты."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Viele Wesen streifen über den Pyroberg..."
+    ],
+    "A2": [
+      "Viele Wesen streifen über den Pyroberg... Man weiß nie, was geschieht."
+    ],
+    "natural": [
+      "Viele Wesen streifen über den Pyroberg... Man weiß nie, was geschieht. Nimm dies zu deinem Schutz."
+    ]
+  }
+},
+{
+  "id": "MtPyreOneFOneNineSixOneCE",
+  "base_symbol": "MtPyre_1F_Text_1961CE",
+  "source_path": "data/maps/MtPyre_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дай покемону Чистый Амулет."
+    ],
+    "A2": [
+      "Дай покемону Чистый Амулет. Он поможет отпугнуть диких покемонов."
+    ],
+    "natural": [
+      "Дай покемону Чистый Амулет. Он поможет отпугнуть диких покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gib einem Pokémon den Schutzanhänger."
+    ],
+    "A2": [
+      "Gib einem Pokémon den Schutzanhänger. Er hält wilde Pokémon fern."
+    ],
+    "natural": [
+      "Gib einem Pokémon den Schutzanhänger. Er hält wilde Pokémon fern."
+    ]
+  }
+},
+{
+  "id": "MtPyreOneFOneNineSixTwoOneEight",
+  "base_symbol": "MtPyre_1F_Text_196218",
+  "source_path": "data/maps/MtPyre_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты пришёл почтить духов ушедших покемонов?"
+    ],
+    "A2": [
+      "Ты пришёл почтить духов ушедших покемонов? Ты очень любишь своих покемонов."
+    ],
+    "natural": [
+      "Ты пришёл почтить духов ушедших покемонов? Ты очень любишь своих покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ehrst du die Seelen verstorbener Pokémon?"
+    ],
+    "A2": [
+      "Ehrst du die Seelen verstorbener Pokémon? Du sorgst gut für deine Pokémon."
+    ],
+    "natural": [
+      "Ehrst du die Seelen verstorbener Pokémon? Du sorgst gut für deine Pokémon."
+    ]
+  }
+},
+{
+  "id": "MtPyreOneFOneNineSixTwoEightThree",
+  "base_symbol": "MtPyre_1F_Text_196283",
+  "source_path": "data/maps/MtPyre_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь покоится мой Зигзагун."
+    ],
+    "A2": [
+      "Здесь покоится мой Зигзагун. Я так им дорожил..."
+    ],
+    "natural": [
+      "Здесь покоится мой Зигзагун. Я так им дорожил..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier ruht mein Zigzachs."
+    ],
+    "A2": [
+      "Hier ruht mein Zigzachs. Ich liebte es sehr..."
+    ],
+    "natural": [
+      "Hier ruht mein Zigzachs. Ich liebte es sehr..."
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixTwoCSix",
+  "base_symbol": "MtPyre_2F_Text_1962C6",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛЮК: Мы пришли сюда на спор."
+    ],
+    "A2": [
+      "ЛЮК: Мы пришли сюда на спор. Если покажу ей свою крутизну, она влюбится!"
+    ],
+    "natural": [
+      "ЛЮК: Мы пришли сюда на спор. Если покажу ей свою крутизну, она влюбится! Я побью тебя и покажу ей, какой я крутой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LUKE: Wir sind wegen einer Mutprobe hier."
+    ],
+    "A2": [
+      "LUKE: Wir sind wegen einer Mutprobe hier. Wenn ich cool wirke, verliebt sie sich in mich!"
+    ],
+    "natural": [
+      "LUKE: Wir sind wegen einer Mutprobe hier. Wenn ich cool wirke, verliebt sie sich in mich! Ich besiege dich und zeige es!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixThreeFiveEight",
+  "base_symbol": "MtPyre_2F_Text_196358",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛЮК: Ой!"
+    ],
+    "A2": [
+      "ЛЮК: Ой!"
+    ],
+    "natural": [
+      "ЛЮК: Ой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LUKE: Hoppla!"
+    ],
+    "A2": [
+      "LUKE: Hoppla!"
+    ],
+    "natural": [
+      "LUKE: Hoppla!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixThreeSixEight",
+  "base_symbol": "MtPyre_2F_Text_196368",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛЮК: Мы проиграли, ну и что!"
+    ],
+    "A2": [
+      "ЛЮК: Мы проиграли, ну и что! Я рядом с тобой."
+    ],
+    "natural": [
+      "ЛЮК: Мы проиграли, ну и что! Я рядом с тобой. Мы пройдём это испытание!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LUKE: Verloren, na und?"
+    ],
+    "A2": [
+      "LUKE: Verloren, na und? Ich bin bei dir."
+    ],
+    "natural": [
+      "LUKE: Verloren, na und? Ich bin bei dir. Wir bestehen die Mutprobe!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixThreeCB",
+  "base_symbol": "MtPyre_2F_Text_1963CB",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛЮК: Хочешь сразиться - приведи больше покемонов."
+    ],
+    "A2": [
+      "ЛЮК: Хочешь сразиться - приведи больше покемонов. Иначе я не смогу блеснуть перед своей девушкой!"
+    ],
+    "natural": [
+      "ЛЮК: Хочешь сразиться - приведи больше покемонов. Иначе я не смогу блеснуть перед своей девушкой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LUKE: Bring mehr Pokémon, wenn du kämpfen willst."
+    ],
+    "A2": [
+      "LUKE: Bring mehr Pokémon, wenn du kämpfen willst. Sonst kann ich vor meiner Freundin nicht angeben!"
+    ],
+    "natural": [
+      "LUKE: Bring mehr Pokémon, wenn du kämpfen willst. Sonst kann ich vor meiner Freundin nicht angeben!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixFourFourNine",
+  "base_symbol": "MtPyre_2F_Text_196449",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЕЗ: Я пришла на спор со своим парнем."
+    ],
+    "A2": [
+      "ДЕЗ: Я пришла на спор со своим парнем. Очень страшно, но он рядом."
+    ],
+    "natural": [
+      "ДЕЗ: Я пришла на спор со своим парнем. Очень страшно, но он рядом. Пусть победит тебя и покажет, какой он крутой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "DEZ: Ich kam mit meinem Freund zur Mutprobe."
+    ],
+    "A2": [
+      "DEZ: Ich kam mit meinem Freund zur Mutprobe. Es ist gruselig, doch er ist da."
+    ],
+    "natural": [
+      "DEZ: Ich kam mit meinem Freund zur Mutprobe. Es ist gruselig, doch er ist da. Er besiegt dich und wirkt cool!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixFourEB",
+  "base_symbol": "MtPyre_2F_Text_1964EB",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЕЗ: А-а-а!"
+    ],
+    "A2": [
+      "ДЕЗ: А-а-а! Мне страшно!"
+    ],
+    "natural": [
+      "ДЕЗ: А-а-а! Мне страшно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "DEZ: Aaaah!"
+    ],
+    "A2": [
+      "DEZ: Aaaah! Ich habe Angst!"
+    ],
+    "natural": [
+      "DEZ: Aaaah! Ich habe Angst!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixFiveZeroFour",
+  "base_symbol": "MtPyre_2F_Text_196504",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЕЗ: Мы любим друг друга, так что поражение не важно!"
+    ],
+    "A2": [
+      "ДЕЗ: Мы любим друг друга, так что поражение не важно!"
+    ],
+    "natural": [
+      "ДЕЗ: Мы любим друг друга, так что поражение не важно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "DEZ: Wir sind verliebt."
+    ],
+    "A2": [
+      "DEZ: Wir sind verliebt. Eine Niederlage ist egal!"
+    ],
+    "natural": [
+      "DEZ: Wir sind verliebt. Eine Niederlage ist egal!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixFiveThreeNine",
+  "base_symbol": "MtPyre_2F_Text_196539",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЕЗ: Для боя с нами приведи хотя бы двух покемонов."
+    ],
+    "A2": [
+      "ДЕЗ: Для боя с нами приведи хотя бы двух покемонов. Мой парень силён."
+    ],
+    "natural": [
+      "ДЕЗ: Для боя с нами приведи хотя бы двух покемонов. Мой парень силён. Одного покемона недостаточно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "DEZ: Bring mindestens zwei Pokémon für den Kampf."
+    ],
+    "A2": [
+      "DEZ: Bring mindestens zwei Pokémon für den Kampf. Mein Freund ist stark."
+    ],
+    "natural": [
+      "DEZ: Bring mindestens zwei Pokémon für den Kampf. Mein Freund ist stark. Eines reicht nicht!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixFiveBB",
+  "base_symbol": "MtPyre_2F_Text_1965BB",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Воспоминания о моей милой Скитти наполняют глаза слезами."
+    ],
+    "A2": [
+      "Воспоминания о моей милой Скитти наполняют глаза слезами."
+    ],
+    "natural": [
+      "Воспоминания о моей милой Скитти наполняют глаза слезами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Erinnerung an mein Skitty treibt mir Tränen in die Augen."
+    ],
+    "A2": [
+      "Die Erinnerung an mein Skitty treibt mir Tränen in die Augen."
+    ],
+    "natural": [
+      "Die Erinnerung an mein Skitty treibt mir Tränen in die Augen."
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixSixZeroZero",
+  "base_symbol": "MtPyre_2F_Text_196600",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой, больно..."
+    ],
+    "A2": [
+      "Ой, больно... Здесь повсюду дыры в полу."
+    ],
+    "natural": [
+      "Ой, больно... Здесь повсюду дыры в полу. Я не заметил и свалился с верхнего этажа."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aua..."
+    ],
+    "A2": [
+      "Aua... Überall sind Löcher im Boden."
+    ],
+    "natural": [
+      "Aua... Überall sind Löcher im Boden. Ich sah keines und fiel vom Stockwerk darüber."
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixSixSevenFour",
+  "base_symbol": "MtPyre_2F_Text_196674",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эй!"
+    ],
+    "A2": [
+      "Эй! Ищешь покемонов?"
+    ],
+    "natural": [
+      "Эй! Ищешь покемонов? Ты пришёл после меня! Нахал!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "He!"
+    ],
+    "A2": [
+      "He! Suchst du Pokémon?"
+    ],
+    "natural": [
+      "He! Suchst du Pokémon? Du kamst nach mir! Frechheit!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixSixBE",
+  "base_symbol": "MtPyre_2F_Text_1966BE",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-а-а!"
+    ],
+    "A2": [
+      "А-а-а! Прости меня, прошу!"
+    ],
+    "natural": [
+      "А-а-а! Прости меня, прошу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aaaah!"
+    ],
+    "A2": [
+      "Aaaah! Bitte verzeih mir!"
+    ],
+    "natural": [
+      "Aaaah! Bitte verzeih mir!"
+    ]
+  }
+},
+{
+  "id": "MtPyreTwoFOneNineSixSixESeven",
+  "base_symbol": "MtPyre_2F_Text_1966E7",
+  "source_path": "data/maps/MtPyre_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Люди здесь бывают редко, поэтому я искал редких покемонов."
+    ],
+    "A2": [
+      "Люди здесь бывают редко, поэтому я искал редких покемонов."
+    ],
+    "natural": [
+      "Люди здесь бывают редко, поэтому я искал редких покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kaum jemand kommt hierher."
+    ],
+    "A2": [
+      "Kaum jemand kommt hierher. Darum suchte ich seltene Pokémon."
+    ],
+    "natural": [
+      "Kaum jemand kommt hierher. Darum suchte ich seltene Pokémon."
+    ]
+  }
+},
+{
+  "id": "MtPyreThreeFOneNineSixSevenTwoB",
+  "base_symbol": "MtPyre_3F_Text_19672B",
+  "source_path": "data/maps/MtPyre_3F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Атмосфера горы усилила мою духовную силу!"
+    ],
+    "A2": [
+      "Атмосфера горы усилила мою духовную силу! Неужели ребёнок вроде тебя мечтает победить?"
+    ],
+    "natural": [
+      "Атмосфера горы усилила мою духовную силу! Неужели ребёнок вроде тебя мечтает победить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Bergluft stärkte meine Psi-Kraft!"
+    ],
+    "A2": [
+      "Die Bergluft stärkte meine Psi-Kraft! Ein Kind wie du träumt vom Sieg?"
+    ],
+    "natural": [
+      "Die Bergluft stärkte meine Psi-Kraft! Ein Kind wie du träumt vom Sieg?"
+    ]
+  }
+},
+{
+  "id": "MtPyreThreeFOneNineSixSevenNineD",
+  "base_symbol": "MtPyre_3F_Text_19679D",
+  "source_path": "data/maps/MtPyre_3F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я тону в жалости к себе..."
+    ],
+    "A2": [
+      "Я тону в жалости к себе..."
+    ],
+    "natural": [
+      "Я тону в жалости к себе..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich versinke in Selbstmitleid..."
+    ],
+    "A2": [
+      "Ich versinke in Selbstmitleid..."
+    ],
+    "natural": [
+      "Ich versinke in Selbstmitleid..."
+    ]
+  }
+},
+{
+  "id": "MtPyreThreeFOneNineSixSevenBFive",
+  "base_symbol": "MtPyre_3F_Text_1967B5",
+  "source_path": "data/maps/MtPyre_3F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя духовная сила выросла в несколько раз, но..."
+    ],
+    "A2": [
+      "Моя духовная сила выросла в несколько раз, но..."
+    ],
+    "natural": [
+      "Моя духовная сила выросла в несколько раз, но..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Psi-Kraft ist stark gewachsen, aber..."
+    ],
+    "A2": [
+      "Meine Psi-Kraft ist stark gewachsen, aber..."
+    ],
+    "natural": [
+      "Meine Psi-Kraft ist stark gewachsen, aber..."
+    ]
+  }
+},
+{
+  "id": "MtPyreThreeFOneNineSixSevenEF",
+  "base_symbol": "MtPyre_3F_Text_1967EF",
+  "source_path": "data/maps/MtPyre_3F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! Детям здесь не место, особенно тебе!"
+    ],
+    "natural": [
+      "А-ха-ха! Детям здесь не место, особенно тебе!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hahaha!"
+    ],
+    "A2": [
+      "Hahaha! Kinder gehören nicht hierher, besonders du!"
+    ],
+    "natural": [
+      "Hahaha! Kinder gehören nicht hierher, besonders du!"
+    ]
+  }
+},
+{
+  "id": "MtPyreThreeFOneNineSixEightTwoB",
+  "base_symbol": "MtPyre_3F_Text_19682B",
+  "source_path": "data/maps/MtPyre_3F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл без вопросов..."
+    ],
+    "A2": [
+      "Я проиграл без вопросов..."
+    ],
+    "natural": [
+      "Я проиграл без вопросов..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich verlor eindeutig..."
+    ],
+    "A2": [
+      "Ich verlor eindeutig..."
+    ],
+    "natural": [
+      "Ich verlor eindeutig..."
+    ]
+  }
+},
+{
+  "id": "MtPyreThreeFOneNineSixEightFourTwo",
+  "base_symbol": "MtPyre_3F_Text_196842",
+  "source_path": "data/maps/MtPyre_3F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Значит, я ещё мало тренировался..."
+    ],
+    "A2": [
+      "Значит, я ещё мало тренировался... Нужно продолжать путь к вершине."
+    ],
+    "natural": [
+      "Значит, я ещё мало тренировался... Нужно продолжать путь к вершине. Вперёд!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Training reicht noch nicht..."
+    ],
+    "A2": [
+      "Mein Training reicht noch nicht... Ich arbeite weiter bis zum Gipfel."
+    ],
+    "natural": [
+      "Mein Training reicht noch nicht... Ich arbeite weiter bis zum Gipfel. Los geht's!"
+    ]
+  }
+},
+{
+  "id": "MtPyreFourFOneNineSixEightASix",
+  "base_symbol": "MtPyre_4F_Text_1968A6",
+  "source_path": "data/maps/MtPyre_4F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Учитель..."
+    ],
+    "A2": [
+      "Учитель... Следи за моими успехами!"
+    ],
+    "natural": [
+      "Учитель... Следи за моими успехами!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meister..."
+    ],
+    "A2": [
+      "Meister... Wache über meinen Fortschritt!"
+    ],
+    "natural": [
+      "Meister... Wache über meinen Fortschritt!"
+    ]
+  }
+},
+{
+  "id": "MtPyreFourFOneNineSixEightDZero",
+  "base_symbol": "MtPyre_4F_Text_1968D0",
+  "source_path": "data/maps/MtPyre_4F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Учитель..."
+    ],
+    "A2": [
+      "Учитель... Прости меня!"
+    ],
+    "natural": [
+      "Учитель... Прости меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meister..."
+    ],
+    "A2": [
+      "Meister... Bitte vergib mir!"
+    ],
+    "natural": [
+      "Meister... Bitte vergib mir!"
+    ]
+  }
+},
+{
+  "id": "MtPyreFourFOneNineSixEightEE",
+  "base_symbol": "MtPyre_4F_Text_1968EE",
+  "source_path": "data/maps/MtPyre_4F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пока я не стану лучше, мой учитель не обретёт покоя..."
+    ],
+    "A2": [
+      "Пока я не стану лучше, мой учитель не обретёт покоя..."
+    ],
+    "natural": [
+      "Пока я не стану лучше, мой учитель не обретёт покоя..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bis ich besser werde, findet mein Meister keine Ruhe..."
+    ],
+    "A2": [
+      "Bis ich besser werde, findet mein Meister keine Ruhe..."
+    ],
+    "natural": [
+      "Bis ich besser werde, findet mein Meister keine Ruhe..."
+    ]
+  }
+},
+{
+  "id": "MtPyreFiveFOneNineSixNineThreeNine",
+  "base_symbol": "MtPyre_5F_Text_196939",
+  "source_path": "data/maps/MtPyre_5F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я люблю всё ужасное..."
+    ],
+    "A2": [
+      "Я люблю всё ужасное... Здесь я дрожу от страха..."
+    ],
+    "natural": [
+      "Я люблю всё ужасное... Здесь я дрожу от страха..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich liebe alles Gruselige..."
+    ],
+    "A2": [
+      "Ich liebe alles Gruselige... Hier zittere ich vor Angst..."
+    ],
+    "natural": [
+      "Ich liebe alles Gruselige... Hier zittere ich vor Angst..."
+    ]
+  }
+},
+{
+  "id": "MtPyreFiveFOneNineSixNineNineSeven",
+  "base_symbol": "MtPyre_5F_Text_196997",
+  "source_path": "data/maps/MtPyre_5F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не люблю проигрывать..."
+    ],
+    "A2": [
+      "Я не люблю проигрывать..."
+    ],
+    "natural": [
+      "Я не люблю проигрывать..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verlieren mag ich nicht..."
+    ],
+    "A2": [
+      "Verlieren mag ich nicht..."
+    ],
+    "natural": [
+      "Verlieren mag ich nicht..."
+    ]
+  }
+},
+{
+  "id": "MtPyreFiveFOneNineSixNineAC",
+  "base_symbol": "MtPyre_5F_Text_1969AC",
+  "source_path": "data/maps/MtPyre_5F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочу видеть страшные вещи..."
+    ],
+    "A2": [
+      "Хочу видеть страшные вещи... Не могу уйти."
+    ],
+    "natural": [
+      "Хочу видеть страшные вещи... Не могу уйти. Останься со мной?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will Schreckliches sehen..."
+    ],
+    "A2": [
+      "Ich will Schreckliches sehen... Ich kann nicht gehen."
+    ],
+    "natural": [
+      "Ich will Schreckliches sehen... Ich kann nicht gehen. Bleibst du bei mir?"
+    ]
+  }
+},
+{
+  "id": "MtPyreSixFOneNineSixNineFE",
+  "base_symbol": "MtPyre_6F_Text_1969FE",
+  "source_path": "data/maps/MtPyre_6F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь в меня вливается странная сила..."
+    ],
+    "A2": [
+      "Здесь в меня вливается странная сила..."
+    ],
+    "natural": [
+      "Здесь в меня вливается странная сила..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier fließt eine seltsame Kraft in mich..."
+    ],
+    "A2": [
+      "Hier fließt eine seltsame Kraft in mich..."
+    ],
+    "natural": [
+      "Hier fließt eine seltsame Kraft in mich..."
+    ]
+  }
+},
+{
+  "id": "MtPyreSixFOneNineSixAThreeZero",
+  "base_symbol": "MtPyre_6F_Text_196A30",
+  "source_path": "data/maps/MtPyre_6F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сила уходит..."
+    ],
+    "A2": [
+      "Сила уходит..."
+    ],
+    "natural": [
+      "Сила уходит..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Kraft schwindet..."
+    ],
+    "A2": [
+      "Die Kraft schwindet..."
+    ],
+    "natural": [
+      "Die Kraft schwindet..."
+    ]
+  }
+},
+{
+  "id": "MtPyreSixFOneNineSixAFourC",
+  "base_symbol": "MtPyre_6F_Text_196A4C",
+  "source_path": "data/maps/MtPyre_6F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Возможно, сила идёт от духов покемонов, спящих здесь..."
+    ],
+    "A2": [
+      "Возможно, сила идёт от духов покемонов, спящих здесь..."
+    ],
+    "natural": [
+      "Возможно, сила идёт от духов покемонов, спящих здесь..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Kraft kommt vielleicht von ruhenden Pokémon-Seelen..."
+    ],
+    "A2": [
+      "Die Kraft kommt vielleicht von ruhenden Pokémon-Seelen..."
+    ],
+    "natural": [
+      "Die Kraft kommt vielleicht von ruhenden Pokémon-Seelen..."
+    ]
+  }
+},
+{
+  "id": "MtPyreSixFOneNineSixANineFive",
+  "base_symbol": "MtPyre_6F_Text_196A95",
+  "source_path": "data/maps/MtPyre_6F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Позади тебя..."
+    ],
+    "A2": [
+      "Позади тебя... Что это?.."
+    ],
+    "natural": [
+      "Позади тебя... Что это?.."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hinter dir..."
+    ],
+    "A2": [
+      "Hinter dir... Was ist das?"
+    ],
+    "natural": [
+      "Hinter dir... Was ist das?"
+    ]
+  }
+},
+{
+  "id": "MtPyreSixFOneNineSixABOne",
+  "base_symbol": "MtPyre_6F_Text_196AB1",
+  "source_path": "data/maps/MtPyre_6F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что-то исчезло..."
+    ],
+    "A2": [
+      "Что-то исчезло..."
+    ],
+    "natural": [
+      "Что-то исчезло..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Etwas ist verblasst..."
+    ],
+    "A2": [
+      "Etwas ist verblasst..."
+    ],
+    "natural": [
+      "Etwas ist verblasst..."
+    ]
+  }
+},
+{
+  "id": "MtPyreSixFOneNineSixACNine",
+  "base_symbol": "MtPyre_6F_Text_196AC9",
+  "source_path": "data/maps/MtPyre_6F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre memorial, trainer, resident, item, or floor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покемоны, покоящиеся здесь..."
+    ],
+    "A2": [
+      "Покемоны, покоящиеся здесь... Иногда они играют..."
+    ],
+    "natural": [
+      "Покемоны, покоящиеся здесь... Иногда они играют..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "память",
+        "memory"
+      ]
+    ],
+    "de": [
+      [
+        "die Erinnerung",
+        "memory"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Pokémon ruhen hier..."
+    ],
+    "A2": [
+      "Die Pokémon ruhen hier... Manchmal spielen sie..."
+    ],
+    "natural": [
+      "Die Pokémon ruhen hier... Manchmal spielen sie..."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBFiveEEC",
+  "base_symbol": "MtPyre_Summit_Text_1B5EEC",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАКСИ: Опять ты..."
+    ],
+    "A2": [
+      "МАКСИ: Опять ты... Ты часто мешал, но сейчас опоздал."
+    ],
+    "natural": [
+      "МАКСИ: Опять ты... Ты часто мешал, но сейчас опоздал. СИНИЙ ШАР теперь мой! Наконец мой план осуществится. Команда, в Порт-Слейт!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MARC: Du schon wieder..."
+    ],
+    "A2": [
+      "MARC: Du schon wieder... Du störtest oft, doch diesmal kommst du zu spät."
+    ],
+    "natural": [
+      "MARC: Du schon wieder... Du störtest oft, doch diesmal kommst du zu spät. Der BLAUE EDELSTEIN gehört jetzt mir! Mein Plan wird wahr. Team, nach Graphitport!"
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBFiveFESix",
+  "base_symbol": "MtPyre_Summit_Text_1B5FE6",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О нет..."
+    ],
+    "A2": [
+      "О нет... Они забрали СИНИЙ ШАР!"
+    ],
+    "natural": [
+      "О нет... Они забрали СИНИЙ ШАР! КРАСНЫЙ и СИНИЙ ШАРЫ нельзя разделять. Возьми КРАСНЫЙ ШАР. Верни второй у того злодея!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh nein..."
+    ],
+    "A2": [
+      "Oh nein... Sie nahmen den BLAUEN STEIN!"
+    ],
+    "natural": [
+      "Oh nein... Sie nahmen den BLAUEN STEIN! ROT und BLAU dürfen nie getrennt sein. Nimm den ROTEN STEIN. Hol den anderen zurück!"
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixZeroFNine",
+  "base_symbol": "MtPyre_Summit_Text_1B60F9",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твой КРАСНЫЙ ШАР и украденный СИНИЙ ШАР..."
+    ],
+    "A2": [
+      "Твой КРАСНЫЙ ШАР и украденный СИНИЙ ШАР... Им нельзя быть порознь, иначе случится беда."
+    ],
+    "natural": [
+      "Твой КРАСНЫЙ ШАР и украденный СИНИЙ ШАР... Им нельзя быть порознь, иначе случится беда."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein ROTER und der gestohlene BLAUE STEIN..."
+    ],
+    "A2": [
+      "Dein ROTER und der gestohlene BLAUE STEIN... Sie dürfen nie getrennt sein, sonst droht Unheil."
+    ],
+    "natural": [
+      "Dein ROTER und der gestohlene BLAUE STEIN... Sie dürfen nie getrennt sein, sonst droht Unheil."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixOneSevenB",
+  "base_symbol": "MtPyre_Summit_Text_1B617B",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Значит, ГРОУДОН пробудился..."
+    ],
+    "A2": [
+      "Значит, ГРОУДОН пробудился... КРАСНЫЙ ШАР усмиряет его."
+    ],
+    "natural": [
+      "Значит, ГРОУДОН пробудился... КРАСНЫЙ ШАР усмиряет его. Его нашли в ПЕЩЕРЕ ИСТОКА. Между ними есть связь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Also erwachte GROUDON..."
+    ],
+    "A2": [
+      "Also erwachte GROUDON... Der ROTE STEIN beruhigt es."
+    ],
+    "natural": [
+      "Also erwachte GROUDON... Der ROTE STEIN beruhigt es. Er lag in der URZEITHÖHLE. Beides hängt zusammen."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixTwoEightThree",
+  "base_symbol": "MtPyre_Summit_Text_1B6283",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тот человек вернул СИНИЙ ШАР."
+    ],
+    "A2": [
+      "Тот человек вернул СИНИЙ ШАР. Ты тоже вернёшь КРАСНЫЙ ШАР на его место?"
+    ],
+    "natural": [
+      "Тот человек вернул СИНИЙ ШАР. Ты тоже вернёшь КРАСНЫЙ ШАР на его место?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Mann gab BLAU zurück."
+    ],
+    "A2": [
+      "Der Mann gab BLAU zurück. Bringst du auch den ROTEN STEIN an seinen Platz?"
+    ],
+    "natural": [
+      "Der Mann gab BLAU zurück. Bringst du auch den ROTEN STEIN an seinen Platz?"
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixTwoESeven",
+  "base_symbol": "MtPyre_Summit_Text_1B62E7",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что?!"
+    ],
+    "A2": [
+      "Что?! Без равновесия неизвестно, что произойдёт."
+    ],
+    "natural": [
+      "Что?! Без равновесия неизвестно, что произойдёт. Верни КРАСНЫЙ ШАР на место, хорошо?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was?!"
+    ],
+    "A2": [
+      "Was?! Ohne Gleichgewicht kann alles geschehen."
+    ],
+    "natural": [
+      "Was?! Ohne Gleichgewicht kann alles geschehen. Bring den ROTEN STEIN zurück, ja?"
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixThreeNineC",
+  "base_symbol": "MtPyre_Summit_Text_1B639C",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Да..."
+    ],
+    "A2": [
+      "Да... Оба ШАРА должны оставаться здесь."
+    ],
+    "natural": [
+      "Да... Оба ШАРА должны оставаться здесь. Так будет лучше для всего ХОЭННА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ja..."
+    ],
+    "A2": [
+      "Ja... Beide STEINE müssen hier bleiben."
+    ],
+    "natural": [
+      "Ja... Beide STEINE müssen hier bleiben. So ist es gut für ganz HOENN."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixThreeFEight",
+  "base_symbol": "MtPyre_Summit_Text_1B63F8",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ГРОУДОН - дух земли в облике покемона."
+    ],
+    "A2": [
+      "ГРОУДОН - дух земли в облике покемона. Как люди и покемоны, сама земля жива."
+    ],
+    "natural": [
+      "ГРОУДОН - дух земли в облике покемона. Как люди и покемоны, сама земля жива."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "GROUDON ist der Geist des Landes als Pokémon."
+    ],
+    "A2": [
+      "GROUDON ist der Geist des Landes als Pokémon. Wie Menschen und Pokémon ist das Land lebendig."
+    ],
+    "natural": [
+      "GROUDON ist der Geist des Landes als Pokémon. Wie Menschen und Pokémon ist das Land lebendig."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixFourBThree",
+  "base_symbol": "MtPyre_Summit_Text_1B64B3",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На ГОРЕ ПОГРЕБЕНИЯ покоятся духи ушедших покемонов."
+    ],
+    "A2": [
+      "На ГОРЕ ПОГРЕБЕНИЯ покоятся духи ушедших покемонов. Отсюда виден весь ХОЭНН."
+    ],
+    "natural": [
+      "На ГОРЕ ПОГРЕБЕНИЯ покоятся духи ушедших покемонов. Отсюда виден весь ХОЭНН. Послушаешь древнюю легенду?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Am PYROBERG ruhen die Geister verstorbener Pokémon."
+    ],
+    "A2": [
+      "Am PYROBERG ruhen die Geister verstorbener Pokémon. Von hier sieht man ganz HOENN."
+    ],
+    "natural": [
+      "Am PYROBERG ruhen die Geister verstorbener Pokémon. Von hier sieht man ganz HOENN. Willst du die alte Sage hören?"
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixFiveDSix",
+  "base_symbol": "MtPyre_Summit_Text_1B65D6",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Давным-давно покемоны суши и моря вступили в бой."
+    ],
+    "A2": [
+      "Давным-давно покемоны суши и моря вступили в бой. Один создавал материки, другой - океаны."
+    ],
+    "natural": [
+      "Давным-давно покемоны суши и моря вступили в бой. Один создавал материки, другой - океаны. Бури и огонь охватили мир. КРАСНЫЙ и СИНИЙ ШАРЫ усмирили обоих. Они ушли глубоко под землю."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vor langer Zeit kämpften Land und Meer gegeneinander."
+    ],
+    "A2": [
+      "Vor langer Zeit kämpften Land und Meer gegeneinander. Eines schuf Kontinente, das andere die Ozeane."
+    ],
+    "natural": [
+      "Vor langer Zeit kämpften Land und Meer gegeneinander. Eines schuf Kontinente, das andere die Ozeane. Sturm und Feuer bedeckten alles. ROT und BLAU beruhigten beide. Sie verschwanden tief unter der Erde."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixEightTwoThree",
+  "base_symbol": "MtPyre_Summit_Text_1B6823",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Понятно..."
+    ],
+    "A2": [
+      "Понятно... Что ж, пусть будет так."
+    ],
+    "natural": [
+      "Понятно... Что ж, пусть будет так."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verstehe..."
+    ],
+    "A2": [
+      "Verstehe... Nun, auch das ist gut."
+    ],
+    "natural": [
+      "Verstehe... Nun, auch das ist gut."
+    ]
+  }
+},
+{
+  "id": "MtPyreSummitOneBSixEightFourEight",
+  "base_symbol": "MtPyre_Summit_Text_1B6848",
+  "source_path": "data/text/magma_summit.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Mt. Pyre summit Team Aqua/Magma story, battle, orb, or elder interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МАКСИ: Ты остановил ГРОУДОНА..."
+    ],
+    "A2": [
+      "МАКСИ: Ты остановил ГРОУДОНА... Теперь я понял: людям нельзя управлять сушей и морем."
+    ],
+    "natural": [
+      "МАКСИ: Ты остановил ГРОУДОНА... Теперь я понял: людям нельзя управлять сушей и морем. Я верну СИНИЙ ШАР. Вряд ли мы встретимся вновь. Прощай."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сфера",
+        "orb"
+      ]
+    ],
+    "de": [
+      [
+        "die Kugel",
+        "orb"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MARC: Du stopptest GROUDON..."
+    ],
+    "A2": [
+      "MARC: Du stopptest GROUDON... Nun weiß ich: Menschen dürfen Land und Meer nicht lenken."
+    ],
+    "natural": [
+      "MARC: Du stopptest GROUDON... Nun weiß ich: Menschen dürfen Land und Meer nicht lenken. Ich gebe BLAU zurück. Wir sehen uns wohl nie wieder. Leb wohl."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeFiveDZero",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C35D0",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Добро пожаловать в ЗОНУ САФАРИ!"
+    ],
+    "A2": [
+      "Добро пожаловать в ЗОНУ САФАРИ! Здесь живут редкие для ХОЭННА дикие покемоны."
+    ],
+    "natural": [
+      "Добро пожаловать в ЗОНУ САФАРИ! Здесь живут редкие для ХОЭННА дикие покемоны. Тренеры могут ловить их и оставлять себе. Наслаждайся сафари!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen in der SAFARIZONE!"
+    ],
+    "A2": [
+      "Willkommen in der SAFARIZONE! Hier leben in HOENN seltene wilde Pokémon."
+    ],
+    "natural": [
+      "Willkommen in der SAFARIZONE! Hier leben in HOENN seltene wilde Pokémon. Trainer dürfen sie fangen und behalten. Viel Spaß!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeSevenZeroFour",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C3704",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Добро пожаловать в ЗОНУ САФАРИ!"
+    ],
+    "A2": [
+      "Добро пожаловать в ЗОНУ САФАРИ! Ты здесь впервые?"
+    ],
+    "natural": [
+      "Добро пожаловать в ЗОНУ САФАРИ! Ты здесь впервые?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen in der SAFARIZONE!"
+    ],
+    "A2": [
+      "Willkommen in der SAFARIZONE! Bist du zum ersten Mal hier?"
+    ],
+    "natural": [
+      "Willkommen in der SAFARIZONE! Bist du zum ersten Mal hier?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeSevenThreeC",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C373C",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Заходи и наслаждайся ЗОНОЙ САФАРИ!"
+    ],
+    "A2": [
+      "Заходи и наслаждайся ЗОНОЙ САФАРИ!"
+    ],
+    "natural": [
+      "Заходи и наслаждайся ЗОНОЙ САФАРИ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Komm herein und genieße die SAFARIZONE!"
+    ],
+    "A2": [
+      "Komm herein und genieße die SAFARIZONE!"
+    ],
+    "natural": [
+      "Komm herein und genieße die SAFARIZONE!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeSevenFiveF",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C375F",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "При входе ты получишь 30 САФАРИ-БОЛОВ."
+    ],
+    "A2": [
+      "При входе ты получишь 30 САФАРИ-БОЛОВ. Игра закончится, когда они кончатся или ты пройдёшь 500 шагов."
+    ],
+    "natural": [
+      "При входе ты получишь 30 САФАРИ-БОЛОВ. Игра закончится, когда они кончатся или ты пройдёшь 500 шагов. Наслаждайся ЗОНОЙ САФАРИ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Eintritt bekommst du 30 SAFARIBÄLLE."
+    ],
+    "A2": [
+      "Beim Eintritt bekommst du 30 SAFARIBÄLLE. Das Spiel endet, wenn sie aufgebraucht sind oder du 500 Schritte gehst."
+    ],
+    "natural": [
+      "Beim Eintritt bekommst du 30 SAFARIBÄLLE. Das Spiel endet, wenn sie aufgebraucht sind oder du 500 Schritte gehst. Viel Spaß!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightThreeTwo",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C3832",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Добро пожаловать в ЗОНУ САФАРИ!"
+    ],
+    "A2": [
+      "Добро пожаловать в ЗОНУ САФАРИ! Лови сколько хочешь за ¥500."
+    ],
+    "natural": [
+      "Добро пожаловать в ЗОНУ САФАРИ! Лови сколько хочешь за ¥500. Будешь играть?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen in der SAFARIZONE!"
+    ],
+    "A2": [
+      "Willkommen in der SAFARIZONE! Fange für ¥500 so viel du kannst."
+    ],
+    "natural": [
+      "Willkommen in der SAFARIZONE! Fange für ¥500 so viel du kannst. Möchtest du spielen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightNineFive",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C3895",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошо."
+    ],
+    "A2": [
+      "Хорошо. Сыграй в другой раз!"
+    ],
+    "natural": [
+      "Хорошо. Сыграй в другой раз!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gut."
+    ],
+    "A2": [
+      "Gut. Spiel ein anderes Mal!"
+    ],
+    "natural": [
+      "Gut. Spiel ein anderes Mal!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightBFive",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C38B5",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя недостаточно денег."
+    ],
+    "A2": [
+      "У тебя недостаточно денег. Извини."
+    ],
+    "natural": [
+      "У тебя недостаточно денег. Извини."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast nicht genug Geld."
+    ],
+    "A2": [
+      "Du hast nicht genug Geld. Tut mir leid."
+    ],
+    "natural": [
+      "Du hast nicht genug Geld. Tut mir leid."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightDNine",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C38D9",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С тебя ¥500."
+    ],
+    "A2": [
+      "С тебя ¥500."
+    ],
+    "natural": [
+      "С тебя ¥500."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das macht ¥500."
+    ],
+    "A2": [
+      "Das macht ¥500."
+    ],
+    "natural": [
+      "Das macht ¥500."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightFFour",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C38F4",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот твои САФАРИ-БОЛЫ."
+    ],
+    "A2": [
+      "Вот твои САФАРИ-БОЛЫ."
+    ],
+    "natural": [
+      "Вот твои САФАРИ-БОЛЫ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier sind deine SAFARIBÄLLE."
+    ],
+    "A2": [
+      "Hier sind deine SAFARIBÄLLE."
+    ],
+    "natural": [
+      "Hier sind deine SAFARIBÄLLE."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineOneZero",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C3910",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает 30 САФАРИ-БОЛОВ."
+    ],
+    "A2": [
+      "{PLAYER} получает 30 САФАРИ-БОЛОВ."
+    ],
+    "natural": [
+      "{PLAYER} получает 30 САФАРИ-БОЛОВ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält 30 SAFARIBÄLLE."
+    ],
+    "A2": [
+      "{PLAYER} erhält 30 SAFARIBÄLLE."
+    ],
+    "natural": [
+      "{PLAYER} erhält 30 SAFARIBÄLLE."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineTwoD",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C392D",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы сообщим, когда игра закончится."
+    ],
+    "A2": [
+      "Мы сообщим, когда игра закончится. А пока наслаждайся дикой природой!"
+    ],
+    "natural": [
+      "Мы сообщим, когда игра закончится. А пока наслаждайся дикой природой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir sagen dir, wenn das Spiel vorbei ist."
+    ],
+    "A2": [
+      "Wir sagen dir, wenn das Spiel vorbei ist. Bis dahin viel Spaß in der Wildnis!"
+    ],
+    "natural": [
+      "Wir sagen dir, wenn das Spiel vorbei ist. Bis dahin viel Spaß in der Wildnis!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineAThree",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C39A3",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Извини!"
+    ],
+    "A2": [
+      "Извини! Твой ЯЩИК ПК заполнен."
+    ],
+    "natural": [
+      "Извини! Твой ЯЩИК ПК заполнен."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Entschuldigung!"
+    ],
+    "A2": [
+      "Entschuldigung! Deine PC-BOX ist voll."
+    ],
+    "natural": [
+      "Entschuldigung! Deine PC-BOX ist voll."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineCThree",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C39C3",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя нет КОРОБКИ ПОКЕБЛОКОВ."
+    ],
+    "A2": [
+      "У тебя нет КОРОБКИ ПОКЕБЛОКОВ. С ПОКЕБЛОКАМИ сафари будет удачнее."
+    ],
+    "natural": [
+      "У тебя нет КОРОБКИ ПОКЕБЛОКОВ. С ПОКЕБЛОКАМИ сафари будет удачнее. Возвращайся с коробкой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast keine POKÉRIEGELBOX."
+    ],
+    "A2": [
+      "Du hast keine POKÉRIEGELBOX. Mit POKÉRIEGELN wird die Safari erfolgreicher."
+    ],
+    "natural": [
+      "Du hast keine POKÉRIEGELBOX. Mit POKÉRIEGELN wird die Safari erfolgreicher. Komm mit einer Box zurück."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEFourB",
+  "base_symbol": "Route121_SafariZoneEntrance_Text_1C3E4B",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СОВЕТ ДЛЯ САФАРИ!"
+    ],
+    "A2": [
+      "СОВЕТ ДЛЯ САФАРИ! Бросай ПОКЕБЛОКИ диким покемонам, чтобы они реже убегали."
+    ],
+    "natural": [
+      "СОВЕТ ДЛЯ САФАРИ! Бросай ПОКЕБЛОКИ диким покемонам, чтобы они реже убегали."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAFARI-TIPP!"
+    ],
+    "A2": [
+      "SAFARI-TIPP! Wirf wilden Pokémon POKÉRIEGEL zu, damit sie seltener fliehen."
+    ],
+    "natural": [
+      "SAFARI-TIPP! Wirf wilden Pokémon POKÉRIEGEL zu, damit sie seltener fliehen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneSevenOneCEightF",
+  "base_symbol": "Route121_Text_171C8F",
+  "source_path": "data/maps/Route121/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошо!"
+    ],
+    "A2": [
+      "Хорошо! Выдвигаемся к горе Пайр!"
+    ],
+    "natural": [
+      "Хорошо! Выдвигаемся к горе Пайр!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gut!"
+    ],
+    "A2": [
+      "Gut! Auf zum Pyroberg!"
+    ],
+    "natural": [
+      "Gut! Auf zum Pyroberg!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneSevenOneCBFour",
+  "base_symbol": "Route121_Text_171CB4",
+  "source_path": "data/maps/Route121/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Впереди возвышается гора Пайр..."
+    ],
+    "A2": [
+      "Впереди возвышается гора Пайр... Это памятник духам ушедших покемонов..."
+    ],
+    "natural": [
+      "Впереди возвышается гора Пайр... Это памятник духам ушедших покемонов..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vor uns liegt der Pyroberg..."
+    ],
+    "A2": [
+      "Vor uns liegt der Pyroberg... Ein Denkmal für die Seelen verstorbener Pokémon..."
+    ],
+    "natural": [
+      "Vor uns liegt der Pyroberg... Ein Denkmal für die Seelen verstorbener Pokémon..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneSevenOneDZeroC",
+  "base_symbol": "Route121_Text_171D0C",
+  "source_path": "data/maps/Route121/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПРИСТАНЬ ГОРЫ ПАЙР Знак старый и потёртый."
+    ],
+    "A2": [
+      "ПРИСТАНЬ ГОРЫ ПАЙР Знак старый и потёртый. Слова едва различимы..."
+    ],
+    "natural": [
+      "ПРИСТАНЬ ГОРЫ ПАЙР Знак старый и потёртый. Слова едва различимы..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PYROBERG-ANLEGER Das Schild ist alt."
+    ],
+    "A2": [
+      "PYROBERG-ANLEGER Das Schild ist alt. Die Worte sind kaum lesbar..."
+    ],
+    "natural": [
+      "PYROBERG-ANLEGER Das Schild ist alt. Die Worte sind kaum lesbar..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneSevenOneDFiveB",
+  "base_symbol": "Route121_Text_171D5B",
+  "source_path": "data/maps/Route121/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЗДЕСЬ РЕДКИЕ ПОКЕМОНЫ!"
+    ],
+    "A2": [
+      "ЗДЕСЬ РЕДКИЕ ПОКЕМОНЫ! ЗОНА САФАРИ"
+    ],
+    "natural": [
+      "ЗДЕСЬ РЕДКИЕ ПОКЕМОНЫ! ЗОНА САФАРИ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SELTENE POKÉMON!"
+    ],
+    "A2": [
+      "SELTENE POKÉMON! SAFARI-ZONE"
+    ],
+    "natural": [
+      "SELTENE POKÉMON! SAFARI-ZONE"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFNineSixE",
+  "base_symbol": "Route121_Text_1BF96E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Поиграешь с моими восхитительно милыми покемонами?"
+    ],
+    "A2": [
+      "Поиграешь с моими восхитительно милыми покемонами?"
+    ],
+    "natural": [
+      "Поиграешь с моими восхитительно милыми покемонами?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Spielst du mit meinen entzückend hübschen Pokémon?"
+    ],
+    "A2": [
+      "Spielst du mit meinen entzückend hübschen Pokémon?"
+    ],
+    "natural": [
+      "Spielst du mit meinen entzückend hübschen Pokémon?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFNineAOne",
+  "base_symbol": "Route121_Text_1BF9A1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не это имела в виду!"
+    ],
+    "A2": [
+      "Я не это имела в виду!"
+    ],
+    "natural": [
+      "Я не это имела в виду!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "So hatte ich das nicht gemeint!"
+    ],
+    "A2": [
+      "So hatte ich das nicht gemeint!"
+    ],
+    "natural": [
+      "So hatte ich das nicht gemeint!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFNineBA",
+  "base_symbol": "Route121_Text_1BF9BA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я иду на конкурс в Лиликове."
+    ],
+    "A2": [
+      "Я иду на конкурс в Лиликове. Мои покемоны без труда победят в мастер-классе."
+    ],
+    "natural": [
+      "Я иду на конкурс в Лиликове. Мои покемоны без труда победят в мастер-классе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich gehe zu einem Wettbewerb in Seegrasulb."
+    ],
+    "A2": [
+      "Ich gehe zu einem Wettbewerb in Seegrasulb. Meine Pokémon schaffen die Meisterklasse leicht."
+    ],
+    "natural": [
+      "Ich gehe zu einem Wettbewerb in Seegrasulb. Meine Pokémon schaffen die Meisterklasse leicht."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFAOneB",
+  "base_symbol": "Route121_Text_1BFA1B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Со своими покемонами я объездил весь мир."
+    ],
+    "A2": [
+      "Со своими покемонами я объездил весь мир. Можно сказать, я уверен в своих силах."
+    ],
+    "natural": [
+      "Со своими покемонами я объездил весь мир. Можно сказать, я уверен в своих силах."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit meinen Pokémon bereiste ich die ganze Welt."
+    ],
+    "A2": [
+      "Mit meinen Pokémon bereiste ich die ganze Welt. Man könnte sagen, ich bin recht zuversichtlich."
+    ],
+    "natural": [
+      "Mit meinen Pokémon bereiste ich die ganze Welt. Man könnte sagen, ich bin recht zuversichtlich."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFAEightC",
+  "base_symbol": "Route121_Text_1BFA8C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ах, хорошо сыграно."
+    ],
+    "A2": [
+      "Ах, хорошо сыграно."
+    ],
+    "natural": [
+      "Ах, хорошо сыграно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ah, gut gespielt."
+    ],
+    "A2": [
+      "Ah, gut gespielt."
+    ],
+    "natural": [
+      "Ah, gut gespielt."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFANineD",
+  "base_symbol": "Route121_Text_1BFA9D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хотел бы снова объехать весь мир со своими покемонами."
+    ],
+    "A2": [
+      "Я хотел бы снова объехать весь мир со своими покемонами."
+    ],
+    "natural": [
+      "Я хотел бы снова объехать весь мир со своими покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich möchte mit meinen Pokémon noch einmal die Welt umrunden."
+    ],
+    "A2": [
+      "Ich möchte mit meinen Pokémon noch einmal die Welt umrunden."
+    ],
+    "natural": [
+      "Ich möchte mit meinen Pokémon noch einmal die Welt umrunden."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFADA",
+  "base_symbol": "Route121_Text_1BFADA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Со своими покемонами я объездил весь мир."
+    ],
+    "A2": [
+      "Со своими покемонами я объездил весь мир. Можно сказать, я уверен в своих силах."
+    ],
+    "natural": [
+      "Со своими покемонами я объездил весь мир. Можно сказать, я уверен в своих силах."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit meinen Pokémon bereiste ich die ganze Welt."
+    ],
+    "A2": [
+      "Mit meinen Pokémon bereiste ich die ganze Welt. Man könnte sagen, ich bin recht zuversichtlich."
+    ],
+    "natural": [
+      "Mit meinen Pokémon bereiste ich die ganze Welt. Man könnte sagen, ich bin recht zuversichtlich."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFBFourB",
+  "base_symbol": "Route121_Text_1BFB4B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ах, хорошо сыграно."
+    ],
+    "A2": [
+      "Ах, хорошо сыграно."
+    ],
+    "natural": [
+      "Ах, хорошо сыграно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ah, gut gespielt."
+    ],
+    "A2": [
+      "Ah, gut gespielt."
+    ],
+    "natural": [
+      "Ah, gut gespielt."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFBFiveC",
+  "base_symbol": "Route121_Text_1BFB5C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты и твои покемоны..."
+    ],
+    "A2": [
+      "Ты и твои покемоны... Ваше совместное мастерство сочтут выдающимся даже за морем."
+    ],
+    "natural": [
+      "Ты и твои покемоны... Ваше совместное мастерство сочтут выдающимся даже за морем."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du und deine Pokémon..."
+    ],
+    "A2": [
+      "Du und deine Pokémon... Euer gemeinsames Können gilt selbst im Ausland als stark."
+    ],
+    "natural": [
+      "Du und deine Pokémon... Euer gemeinsames Können gilt selbst im Ausland als stark."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFBBFour",
+  "base_symbol": "Route121_Text_1BFBB4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В мире есть силы, недоступные нашему пониманию..."
+    ],
+    "A2": [
+      "В мире есть силы, недоступные нашему пониманию..."
+    ],
+    "natural": [
+      "В мире есть силы, недоступные нашему пониманию..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auf der Welt gibt es Kräfte jenseits unseres Verständnisses..."
+    ],
+    "A2": [
+      "Auf der Welt gibt es Kräfte jenseits unseres Verständnisses..."
+    ],
+    "natural": [
+      "Auf der Welt gibt es Kräfte jenseits unseres Verständnisses..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFBEE",
+  "base_symbol": "Route121_Text_1BFBEE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл..."
+    ],
+    "A2": [
+      "Я проиграл..."
+    ],
+    "natural": [
+      "Я проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe verloren..."
+    ],
+    "A2": [
+      "Ich habe verloren..."
+    ],
+    "natural": [
+      "Ich habe verloren..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFBFD",
+  "base_symbol": "Route121_Text_1BFBFD",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Гора Пайр..."
+    ],
+    "A2": [
+      "Гора Пайр... Там действует таинственная сила..."
+    ],
+    "natural": [
+      "Гора Пайр... Там действует таинственная сила..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Pyroberg..."
+    ],
+    "A2": [
+      "Der Pyroberg... Dort wirkt eine geheimnisvolle Kraft..."
+    ],
+    "natural": [
+      "Der Pyroberg... Dort wirkt eine geheimnisvolle Kraft..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFCThreeSix",
+  "base_symbol": "Route121_Text_1BFC36",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КЕЙТ: Вместе нам ничего не страшно!"
+    ],
+    "A2": [
+      "КЕЙТ: Вместе нам ничего не страшно! Покажем, какие мы сильные!"
+    ],
+    "natural": [
+      "КЕЙТ: Вместе нам ничего не страшно! Покажем, какие мы сильные!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KATE: Gemeinsam fürchten wir nichts!"
+    ],
+    "A2": [
+      "KATE: Gemeinsam fürchten wir nichts! Wir zeigen dir, wie stark wir sind!"
+    ],
+    "natural": [
+      "KATE: Gemeinsam fürchten wir nichts! Wir zeigen dir, wie stark wir sind!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFCSevenA",
+  "base_symbol": "Route121_Text_1BFC7A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КЕЙТ: Я опозорилась перед младшей напарницей..."
+    ],
+    "A2": [
+      "КЕЙТ: Я опозорилась перед младшей напарницей..."
+    ],
+    "natural": [
+      "КЕЙТ: Я опозорилась перед младшей напарницей..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KATE: Ich habe mich vor meiner jüngeren Partnerin blamiert..."
+    ],
+    "A2": [
+      "KATE: Ich habe mich vor meiner jüngeren Partnerin blamiert..."
+    ],
+    "natural": [
+      "KATE: Ich habe mich vor meiner jüngeren Partnerin blamiert..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFCBThree",
+  "base_symbol": "Route121_Text_1BFCB3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КЕЙТ: Когда на меня полагаются, мне хочется выглядеть круто перед ними..."
+    ],
+    "A2": [
+      "КЕЙТ: Когда на меня полагаются, мне хочется выглядеть круто перед ними..."
+    ],
+    "natural": [
+      "КЕЙТ: Когда на меня полагаются, мне хочется выглядеть круто перед ними..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KATE: Wenn sich jemand auf mich verlässt, will ich vor ihm cool wirken..."
+    ],
+    "A2": [
+      "KATE: Wenn sich jemand auf mich verlässt, will ich vor ihm cool wirken..."
+    ],
+    "natural": [
+      "KATE: Wenn sich jemand auf mich verlässt, will ich vor ihm cool wirken..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFDZeroEight",
+  "base_symbol": "Route121_Text_1BFD08",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КЕЙТ: Если у тебя только один покемон, мы не можем сразиться."
+    ],
+    "A2": [
+      "КЕЙТ: Если у тебя только один покемон, мы не можем сразиться. Это было бы нечестно."
+    ],
+    "natural": [
+      "КЕЙТ: Если у тебя только один покемон, мы не можем сразиться. Это было бы нечестно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KATE: Mit nur einem Pokémon können wir nicht kämpfen."
+    ],
+    "A2": [
+      "KATE: Mit nur einem Pokémon können wir nicht kämpfen. Das wäre unfair."
+    ],
+    "natural": [
+      "KATE: Mit nur einem Pokémon können wir nicht kämpfen. Das wäre unfair."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFDSixZero",
+  "base_symbol": "Route121_Text_1BFD60",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОЙ: Вместе нам ничего не страшно!"
+    ],
+    "A2": [
+      "ДЖОЙ: Вместе нам ничего не страшно! Покажем, какие мы сильные!"
+    ],
+    "natural": [
+      "ДЖОЙ: Вместе нам ничего не страшно! Покажем, какие мы сильные!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOY: Gemeinsam fürchten wir nichts!"
+    ],
+    "A2": [
+      "JOY: Gemeinsam fürchten wir nichts! Wir zeigen dir, wie stark wir sind!"
+    ],
+    "natural": [
+      "JOY: Gemeinsam fürchten wir nichts! Wir zeigen dir, wie stark wir sind!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFDAThree",
+  "base_symbol": "Route121_Text_1BFDA3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОЙ: Прости меня, Кейт!"
+    ],
+    "A2": [
+      "ДЖОЙ: Прости меня, Кейт!"
+    ],
+    "natural": [
+      "ДЖОЙ: Прости меня, Кейт!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOY: Bitte verzeih mir, Kate!"
+    ],
+    "A2": [
+      "JOY: Bitte verzeih mir, Kate!"
+    ],
+    "natural": [
+      "JOY: Bitte verzeih mir, Kate!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFDCOne",
+  "base_symbol": "Route121_Text_1BFDC1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОЙ: Хе-хе, придётся снова тренироваться с Кейт, моей старшей напарницей."
+    ],
+    "A2": [
+      "ДЖОЙ: Хе-хе, придётся снова тренироваться с Кейт, моей старшей напарницей."
+    ],
+    "natural": [
+      "ДЖОЙ: Хе-хе, придётся снова тренироваться с Кейт, моей старшей напарницей."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOY: Hehe, ich muss wieder mit Kate, meiner älteren Partnerin, trainieren."
+    ],
+    "A2": [
+      "JOY: Hehe, ich muss wieder mit Kate, meiner älteren Partnerin, trainieren."
+    ],
+    "natural": [
+      "JOY: Hehe, ich muss wieder mit Kate, meiner älteren Partnerin, trainieren."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFEZeroD",
+  "base_symbol": "Route121_Text_1BFE0D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЖОЙ: Чтобы бросить нам вызов, тебе нужны хотя бы два покемона!"
+    ],
+    "A2": [
+      "ДЖОЙ: Чтобы бросить нам вызов, тебе нужны хотя бы два покемона!"
+    ],
+    "natural": [
+      "ДЖОЙ: Чтобы бросить нам вызов, тебе нужны хотя бы два покемона!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "JOY: Du brauchst mindestens zwei Pokémon, um uns herauszufordern!"
+    ],
+    "A2": [
+      "JOY: Du brauchst mindestens zwei Pokémon, um uns herauszufordern!"
+    ],
+    "natural": [
+      "JOY: Du brauchst mindestens zwei Pokémon, um uns herauszufordern!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFEFiveOne",
+  "base_symbol": "Route121_Text_1BFE51",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Стой!"
+    ],
+    "A2": [
+      "Стой! Хорошенько взгляни на моих драгоценных покемонов!"
+    ],
+    "natural": [
+      "Стой! Хорошенько взгляни на моих драгоценных покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Halt!"
+    ],
+    "A2": [
+      "Halt! Sieh dir meine kostbaren Pokémon gut an!"
+    ],
+    "natural": [
+      "Halt! Sieh dir meine kostbaren Pokémon gut an!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFEEightZero",
+  "base_symbol": "Route121_Text_1BFE80",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как ты смеешь!"
+    ],
+    "A2": [
+      "Как ты смеешь! Не воспринимай это так серьёзно!"
+    ],
+    "natural": [
+      "Как ты смеешь! Не воспринимай это так серьёзно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie kannst du nur!"
+    ],
+    "A2": [
+      "Wie kannst du nur! Nimm es doch nicht so ernst!"
+    ],
+    "natural": [
+      "Wie kannst du nur! Nimm es doch nicht so ernst!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFEAE",
+  "base_symbol": "Route121_Text_1BFEAE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Может, пойду ловить новых покемонов в Сафари."
+    ],
+    "A2": [
+      "Может, пойду ловить новых покемонов в Сафари."
+    ],
+    "natural": [
+      "Может, пойду ловить новых покемонов в Сафари."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vielleicht fange ich in der Safari-Zone weitere Pokémon."
+    ],
+    "A2": [
+      "Vielleicht fange ich in der Safari-Zone weitere Pokémon."
+    ],
+    "natural": [
+      "Vielleicht fange ich in der Safari-Zone weitere Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFEDE",
+  "base_symbol": "Route121_Text_1BFEDE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мои драгоценные покемоны выросли!"
+    ],
+    "A2": [
+      "Мои драгоценные покемоны выросли! Посмотри хорошенько!"
+    ],
+    "natural": [
+      "Мои драгоценные покемоны выросли! Посмотри хорошенько!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine kostbaren Pokémon sind gewachsen!"
+    ],
+    "A2": [
+      "Meine kostbaren Pokémon sind gewachsen! Sieh genau hin!"
+    ],
+    "natural": [
+      "Meine kostbaren Pokémon sind gewachsen! Sieh genau hin!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFFZeroA",
+  "base_symbol": "Route121_Text_1BFF0A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как ты смеешь!"
+    ],
+    "A2": [
+      "Как ты смеешь! Ты всё ещё не даёшь мне поблажки!"
+    ],
+    "natural": [
+      "Как ты смеешь! Ты всё ещё не даёшь мне поблажки!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie kannst du nur!"
+    ],
+    "A2": [
+      "Wie kannst du nur! Du hältst dich noch immer nicht zurück!"
+    ],
+    "natural": [
+      "Wie kannst du nur! Du hältst dich noch immer nicht zurück!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoOneOneBFFThreeA",
+  "base_symbol": "Route121_Text_1BFF3A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Может, пойду ловить новых покемонов в Сафари."
+    ],
+    "A2": [
+      "Может, пойду ловить новых покемонов в Сафари."
+    ],
+    "natural": [
+      "Может, пойду ловить новых покемонов в Сафари."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vielleicht fange ich in der Safari-Zone weitere Pokémon."
+    ],
+    "A2": [
+      "Vielleicht fange ich in der Safari-Zone weitere Pokémon."
+    ],
+    "natural": [
+      "Vielleicht fange ich in der Safari-Zone weitere Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveBCFour",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5BC4",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Зови меня МАСТЕРОМ ЯГОД."
+    ],
+    "A2": [
+      "Зови меня МАСТЕРОМ ЯГОД. Я мечтаю наполнить мир цветами, поэтому выращиваю ЯГОДЫ и раздаю их."
+    ],
+    "natural": [
+      "Зови меня МАСТЕРОМ ЯГОД. Я мечтаю наполнить мир цветами, поэтому выращиваю ЯГОДЫ и раздаю их. Ты заслужил одну!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nenn mich BEERENMEISTER."
+    ],
+    "A2": [
+      "Nenn mich BEERENMEISTER. Ich will die Welt mit Blumen füllen, darum ziehe und verteile ich BEEREN."
+    ],
+    "natural": [
+      "Nenn mich BEERENMEISTER. Ich will die Welt mit Blumen füllen, darum ziehe und verteile ich BEEREN. Du verdienst eine!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveCSixSix",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5C66",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Зачем жадничать?"
+    ],
+    "A2": [
+      "Зачем жадничать? Возьми ещё одну!"
+    ],
+    "natural": [
+      "Зачем жадничать? Возьми ещё одну!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Warum geizen?"
+    ],
+    "A2": [
+      "Warum geizen? Nimm noch eine!"
+    ],
+    "natural": [
+      "Warum geizen? Nimm noch eine!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveCEightThree",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5C83",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Посети магазин МИЛЫЙ ЛЕПЕСТОК возле РАСТБОРО."
+    ],
+    "A2": [
+      "Посети магазин МИЛЫЙ ЛЕПЕСТОК возле РАСТБОРО. Пусть мир наполнится цветами!"
+    ],
+    "natural": [
+      "Посети магазин МИЛЫЙ ЛЕПЕСТОК возле РАСТБОРО. Пусть мир наполнится цветами!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Besuche den Laden BLÜTENZAUBER bei METAROST."
+    ],
+    "A2": [
+      "Besuche den Laden BLÜTENZAUBER bei METAROST. Mögen Blumen die Welt füllen!"
+    ],
+    "natural": [
+      "Besuche den Laden BLÜTENZAUBER bei METAROST. Mögen Blumen die Welt füllen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveCDC",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5CDC",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "На сегодня всё."
+    ],
+    "A2": [
+      "На сегодня всё. Приходи в другой день."
+    ],
+    "natural": [
+      "На сегодня всё. Приходи в другой день. Пусть мир наполнится цветами!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Für heute ist Schluss."
+    ],
+    "A2": [
+      "Für heute ist Schluss. Komm an einem anderen Tag."
+    ],
+    "natural": [
+      "Für heute ist Schluss. Komm an einem anderen Tag. Mögen Blumen die Welt füllen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveDTwoFour",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5D24",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой муж лучше всех выращивает ЯГОДЫ."
+    ],
+    "A2": [
+      "Мой муж лучше всех выращивает ЯГОДЫ. Я горжусь им."
+    ],
+    "natural": [
+      "Мой муж лучше всех выращивает ЯГОДЫ. Я горжусь им. Ты слышал недавно хорошую поговорку?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Mann zieht die besten BEEREN der Welt."
+    ],
+    "A2": [
+      "Mein Mann zieht die besten BEEREN der Welt. Ich bin stolz auf ihn."
+    ],
+    "natural": [
+      "Mein Mann zieht die besten BEEREN der Welt. Ich bin stolz auf ihn. Kennst du einen guten Spruch?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveDCOne",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5DC1",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какая замечательная и вдохновляющая поговорка!"
+    ],
+    "A2": [
+      "Какая замечательная и вдохновляющая поговорка! Возьми это."
+    ],
+    "natural": [
+      "Какая замечательная и вдохновляющая поговорка! Возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was für ein bemerkenswerter, inspirierender Spruch!"
+    ],
+    "A2": [
+      "Was für ein bemerkenswerter, inspirierender Spruch! Nimm das."
+    ],
+    "natural": [
+      "Was für ein bemerkenswerter, inspirierender Spruch! Nimm das."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveEZeroE",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5E0E",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошая поговорка!"
+    ],
+    "A2": [
+      "Хорошая поговорка! Ты удивительный."
+    ],
+    "natural": [
+      "Хорошая поговорка! Ты удивительный. Возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein guter Spruch!"
+    ],
+    "A2": [
+      "Ein guter Spruch! Du bist erstaunlich."
+    ],
+    "natural": [
+      "Ein guter Spruch! Du bist erstaunlich. Nimm das."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveEFiveNine",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5E59",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Наши четверо внуков должны превзойти моего мужа."
+    ],
+    "A2": [
+      "Наши четверо внуков должны превзойти моего мужа. В моей жизни всегда есть радость!"
+    ],
+    "natural": [
+      "Наши четверо внуков должны превзойти моего мужа. В моей жизни всегда есть радость!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unsere vier Enkel sollen meinen Mann übertreffen."
+    ],
+    "A2": [
+      "Unsere vier Enkel sollen meinen Mann übertreffen. Mein Leben ist immer voller Freude!"
+    ],
+    "natural": [
+      "Unsere vier Enkel sollen meinen Mann übertreffen. Mein Leben ist immer voller Freude!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeBerryMastersHouseOneCFiveECZero",
+  "base_symbol": "Route123_BerryMastersHouse_Text_1C5EC0",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ах..."
+    ],
+    "A2": [
+      "Ах..."
+    ],
+    "natural": [
+      "Ах..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ягода",
+        "berry"
+      ]
+    ],
+    "de": [
+      [
+        "die Beere",
+        "berry"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ach..."
+    ],
+    "A2": [
+      "Ach..."
+    ],
+    "natural": [
+      "Ach..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneSevenOneDEightThree",
+  "base_symbol": "Route123_Text_171D83",
+  "source_path": "data/maps/Route123/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я обожаю травяных покемонов!"
+    ],
+    "A2": [
+      "Я обожаю травяных покемонов! У тебя есть такие?"
+    ],
+    "natural": [
+      "Я обожаю травяных покемонов! У тебя есть такие?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich liebe Pflanzen-Pokémon!"
+    ],
+    "A2": [
+      "Ich liebe Pflanzen-Pokémon! Hast du welche?"
+    ],
+    "natural": [
+      "Ich liebe Pflanzen-Pokémon! Hast du welche?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneSevenOneDCTwo",
+  "base_symbol": "Route123_Text_171DC2",
+  "source_path": "data/maps/Route123/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты тоже любишь травяных покемонов?"
+    ],
+    "A2": [
+      "Ты тоже любишь травяных покемонов? Я так рада!"
+    ],
+    "natural": [
+      "Ты тоже любишь травяных покемонов? Я так рада! Возьми это в знак дружбы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du magst auch Pflanzen-Pokémon?"
+    ],
+    "A2": [
+      "Du magst auch Pflanzen-Pokémon? Wie schön!"
+    ],
+    "natural": [
+      "Du magst auch Pflanzen-Pokémon? Wie schön! Nimm dies als Zeichen unserer Freundschaft."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneSevenOneEThreeFour",
+  "base_symbol": "Route123_Text_171E34",
+  "source_path": "data/maps/Route123/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проверяю деревья вместе с травяным покемоном, словно врач деревьев."
+    ],
+    "A2": [
+      "Я проверяю деревья вместе с травяным покемоном, словно врач деревьев."
+    ],
+    "natural": [
+      "Я проверяю деревья вместе с травяным покемоном, словно врач деревьев."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich untersuche Bäume mit meinem Pflanzen-Pokémon, wie ein Baumdoktor."
+    ],
+    "A2": [
+      "Ich untersuche Bäume mit meinem Pflanzen-Pokémon, wie ein Baumdoktor."
+    ],
+    "natural": [
+      "Ich untersuche Bäume mit meinem Pflanzen-Pokémon, wie ein Baumdoktor."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneSevenOneESevenSix",
+  "base_symbol": "Route123_Text_171E76",
+  "source_path": "data/maps/Route123/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "К МАРШРУТУ 123."
+    ],
+    "A2": [
+      "К МАРШРУТУ 123. К МАРШРУТУ 118."
+    ],
+    "natural": [
+      "К МАРШРУТУ 123. К МАРШРУТУ 118."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ZU ROUTE 123."
+    ],
+    "A2": [
+      "ZU ROUTE 123. ZU ROUTE 118."
+    ],
+    "natural": [
+      "ZU ROUTE 123. ZU ROUTE 118."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneSevenOneEEightE",
+  "base_symbol": "Route123_Text_171E8E",
+  "source_path": "data/maps/Route123/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "К ГОРЕ ПАЙР."
+    ],
+    "A2": [
+      "К ГОРЕ ПАЙР. Слабонервным вход запрещён."
+    ],
+    "natural": [
+      "К ГОРЕ ПАЙР. Слабонервным вход запрещён."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ZUM PYROBERG."
+    ],
+    "A2": [
+      "ZUM PYROBERG. Nichts für schwache Nerven."
+    ],
+    "natural": [
+      "ZUM PYROBERG. Nichts für schwache Nerven."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneSevenOneEBC",
+  "base_symbol": "Route123_Text_171EBC",
+  "source_path": "data/maps/Route123/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДОМ МАСТЕРА ЯГОД"
+    ],
+    "A2": [
+      "ДОМ МАСТЕРА ЯГОД"
+    ],
+    "natural": [
+      "ДОМ МАСТЕРА ЯГОД"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAUS DES BEERENMEISTERS"
+    ],
+    "A2": [
+      "HAUS DES BEERENMEISTERS"
+    ],
+    "natural": [
+      "HAUS DES BEERENMEISTERS"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneBFFSixA",
+  "base_symbol": "Route123_Text_1BFF6A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочешь узнать, насколько ты силён?"
+    ],
+    "A2": [
+      "Хочешь узнать, насколько ты силён? Я тебя проверю!"
+    ],
+    "natural": [
+      "Хочешь узнать, насколько ты силён? Я тебя проверю!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willst du wissen, wie stark du bist?"
+    ],
+    "A2": [
+      "Willst du wissen, wie stark du bist? Ich prüfe dich!"
+    ],
+    "natural": [
+      "Willst du wissen, wie stark du bist? Ich prüfe dich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneBFFATwo",
+  "base_symbol": "Route123_Text_1BFFA2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты прошёл испытание блестяще!"
+    ],
+    "A2": [
+      "Ты прошёл испытание блестяще!"
+    ],
+    "natural": [
+      "Ты прошёл испытание блестяще!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast die Prüfung glänzend bestanden!"
+    ],
+    "A2": [
+      "Du hast die Prüfung glänzend bestanden!"
+    ],
+    "natural": [
+      "Du hast die Prüfung glänzend bestanden!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneBFFCOne",
+  "base_symbol": "Route123_Text_1BFFC1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Победить даже меня..."
+    ],
+    "A2": [
+      "Победить даже меня... Твоя сила великолепна!"
+    ],
+    "natural": [
+      "Победить даже меня... Твоя сила великолепна!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sogar mich zu besiegen..."
+    ],
+    "A2": [
+      "Sogar mich zu besiegen... Deine Stärke ist erstaunlich!"
+    ],
+    "natural": [
+      "Sogar mich zu besiegen... Deine Stärke ist erstaunlich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneBFFFZero",
+  "base_symbol": "Route123_Text_1BFFF0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, у тебя много значков залов."
+    ],
+    "A2": [
+      "Похоже, у тебя много значков залов. Проверим, действительно ли ты их достоин!"
+    ],
+    "natural": [
+      "Похоже, у тебя много значков залов. Проверим, действительно ли ты их достоин!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast wohl viele Arenaorden."
+    ],
+    "A2": [
+      "Du hast wohl viele Arenaorden. Mal sehen, ob du sie wirklich verdienst!"
+    ],
+    "natural": [
+      "Du hast wohl viele Arenaorden. Mal sehen, ob du sie wirklich verdienst!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroZeroFiveSeven",
+  "base_symbol": "Route123_Text_1C0057",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О да, ты их достоин!"
+    ],
+    "A2": [
+      "О да, ты их достоин!"
+    ],
+    "natural": [
+      "О да, ты их достоин!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh ja, du bist ihrer würdig!"
+    ],
+    "A2": [
+      "Oh ja, du bist ihrer würdig!"
+    ],
+    "natural": [
+      "Oh ja, du bist ihrer würdig!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroZeroSevenFive",
+  "base_symbol": "Route123_Text_1C0075",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В этом бою ты достойно представил свои значки!"
+    ],
+    "A2": [
+      "В этом бою ты достойно представил свои значки!"
+    ],
+    "natural": [
+      "В этом бою ты достойно представил свои значки!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In diesem Kampf hast du deinen Orden Ehre gemacht!"
+    ],
+    "A2": [
+      "In diesem Kampf hast du deinen Orden Ehre gemacht!"
+    ],
+    "natural": [
+      "In diesem Kampf hast du deinen Orden Ehre gemacht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroZeroNineE",
+  "base_symbol": "Route123_Text_1C009E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Говорят, хорошие времена наполнены приятными ароматами."
+    ],
+    "A2": [
+      "Говорят, хорошие времена наполнены приятными ароматами."
+    ],
+    "natural": [
+      "Говорят, хорошие времена наполнены приятными ароматами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Man sagt, gute Zeiten seien voller angenehmer Düfte."
+    ],
+    "A2": [
+      "Man sagt, gute Zeiten seien voller angenehmer Düfte."
+    ],
+    "natural": [
+      "Man sagt, gute Zeiten seien voller angenehmer Düfte."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroZeroDFour",
+  "base_symbol": "Route123_Text_1C00D4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох..."
+    ],
+    "A2": [
+      "Ох... Я чувствую горький запах несчастья..."
+    ],
+    "natural": [
+      "Ох... Я чувствую горький запах несчастья..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh..."
+    ],
+    "A2": [
+      "Oh... Ich rieche den bitteren Duft des Elends..."
+    ],
+    "natural": [
+      "Oh... Ich rieche den bitteren Duft des Elends..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroOneZeroZero",
+  "base_symbol": "Route123_Text_1C0100",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сад мастера ягод полон бодрящих ароматов."
+    ],
+    "A2": [
+      "Сад мастера ягод полон бодрящих ароматов."
+    ],
+    "natural": [
+      "Сад мастера ягод полон бодрящих ароматов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Garten des Beerenmeisters ist voller belebender Düfte."
+    ],
+    "A2": [
+      "Der Garten des Beerenmeisters ist voller belebender Düfte."
+    ],
+    "natural": [
+      "Der Garten des Beerenmeisters ist voller belebender Düfte."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroOneThreeF",
+  "base_symbol": "Route123_Text_1C013F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сила экстрасенса - в воле."
+    ],
+    "A2": [
+      "Сила экстрасенса - в воле. Я приказал себе никому не проигрывать."
+    ],
+    "natural": [
+      "Сила экстрасенса - в воле. Я приказал себе никому не проигрывать. Это делает меня сильным!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als Medium zählt Willenskraft."
+    ],
+    "A2": [
+      "Als Medium zählt Willenskraft. Ich will niemandem unterliegen."
+    ],
+    "natural": [
+      "Als Medium zählt Willenskraft. Ich will niemandem unterliegen. Das macht mich stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroOneAThree",
+  "base_symbol": "Route123_Text_1C01A3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне грустно..."
+    ],
+    "A2": [
+      "Мне грустно..."
+    ],
+    "natural": [
+      "Мне грустно..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin traurig..."
+    ],
+    "A2": [
+      "Ich bin traurig..."
+    ],
+    "natural": [
+      "Ich bin traurig..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroOneBOne",
+  "base_symbol": "Route123_Text_1C01B1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сила экстрасенса - в воле."
+    ],
+    "A2": [
+      "Сила экстрасенса - в воле. Я думал, что не проиграю тебе..."
+    ],
+    "natural": [
+      "Сила экстрасенса - в воле. Я думал, что не проиграю тебе..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als Medium zählt Willenskraft."
+    ],
+    "A2": [
+      "Als Medium zählt Willenskraft. Ich dachte, ich würde dir nicht unterliegen..."
+    ],
+    "natural": [
+      "Als Medium zählt Willenskraft. Ich dachte, ich würde dir nicht unterliegen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroOneFNine",
+  "base_symbol": "Route123_Text_1C01F9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я убедил себя, что больше не проиграю."
+    ],
+    "A2": [
+      "Я убедил себя, что больше не проиграю. Это делает меня сильным!"
+    ],
+    "natural": [
+      "Я убедил себя, что больше не проиграю. Это делает меня сильным!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe mich überzeugt, nie mehr zu verlieren."
+    ],
+    "A2": [
+      "Ich habe mich überzeugt, nie mehr zu verlieren. Das macht mich stark!"
+    ],
+    "natural": [
+      "Ich habe mich überzeugt, nie mehr zu verlieren. Das macht mich stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroTwoFourZero",
+  "base_symbol": "Route123_Text_1C0240",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне грустно..."
+    ],
+    "A2": [
+      "Мне грустно..."
+    ],
+    "natural": [
+      "Мне грустно..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin traurig..."
+    ],
+    "A2": [
+      "Ich bin traurig..."
+    ],
+    "natural": [
+      "Ich bin traurig..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroTwoFourE",
+  "base_symbol": "Route123_Text_1C024E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне стоит тренироваться на горе Пайр..."
+    ],
+    "A2": [
+      "Мне стоит тренироваться на горе Пайр... Так я тебя никогда не одолею..."
+    ],
+    "natural": [
+      "Мне стоит тренироваться на горе Пайр... Так я тебя никогда не одолею..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich sollte am Pyroberg trainieren..."
+    ],
+    "A2": [
+      "Ich sollte am Pyroberg trainieren... So werde ich dich nie besiegen..."
+    ],
+    "natural": [
+      "Ich sollte am Pyroberg trainieren... So werde ich dich nie besiegen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroTwoEightC",
+  "base_symbol": "Route123_Text_1C028C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не радуйся слишком сильно, если у покемонов появились психические силы."
+    ],
+    "A2": [
+      "Не радуйся слишком сильно, если у покемонов появились психические силы. Их нужно отточить."
+    ],
+    "natural": [
+      "Не радуйся слишком сильно, если у покемонов появились психические силы. Их нужно отточить."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Freue dich nicht zu früh über Psychokräfte deiner Pokémon."
+    ],
+    "A2": [
+      "Freue dich nicht zu früh über Psychokräfte deiner Pokémon. Du musst diese Kräfte verfeinern."
+    ],
+    "natural": [
+      "Freue dich nicht zu früh über Psychokräfte deiner Pokémon. Du musst diese Kräfte verfeinern."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroThreeZeroThree",
+  "base_symbol": "Route123_Text_1C0303",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Поразительно!"
+    ],
+    "A2": [
+      "Поразительно!"
+    ],
+    "natural": [
+      "Поразительно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Erstaunlich!"
+    ],
+    "A2": [
+      "Erstaunlich!"
+    ],
+    "natural": [
+      "Erstaunlich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroThreeZeroF",
+  "base_symbol": "Route123_Text_1C030F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У всех нас есть психические силы."
+    ],
+    "A2": [
+      "У всех нас есть психические силы. Мы лишь забыли, как ими пользоваться."
+    ],
+    "natural": [
+      "У всех нас есть психические силы. Мы лишь забыли, как ими пользоваться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir alle haben Psychokräfte."
+    ],
+    "A2": [
+      "Wir alle haben Psychokräfte. Wir haben nur vergessen, sie zu benutzen."
+    ],
+    "natural": [
+      "Wir alle haben Psychokräfte. Wir haben nur vergessen, sie zu benutzen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroThreeFiveOne",
+  "base_symbol": "Route123_Text_1C0351",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты пробудил в себе психические силы?"
+    ],
+    "A2": [
+      "Ты пробудил в себе психические силы?"
+    ],
+    "natural": [
+      "Ты пробудил в себе психические силы?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du die Psychokräfte in dir geweckt?"
+    ],
+    "A2": [
+      "Hast du die Psychokräfte in dir geweckt?"
+    ],
+    "natural": [
+      "Hast du die Psychokräfte in dir geweckt?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroThreeEightZero",
+  "base_symbol": "Route123_Text_1C0380",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Поразительно!"
+    ],
+    "A2": [
+      "Поразительно!"
+    ],
+    "natural": [
+      "Поразительно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Erstaunlich!"
+    ],
+    "A2": [
+      "Erstaunlich!"
+    ],
+    "natural": [
+      "Erstaunlich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroThreeEightC",
+  "base_symbol": "Route123_Text_1C038C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твоя власть над покемонами..."
+    ],
+    "A2": [
+      "Твоя власть над покемонами... Возможно, это тоже психическая сила."
+    ],
+    "natural": [
+      "Твоя власть над покемонами... Возможно, это тоже психическая сила."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Kraft mit Pokémon..."
+    ],
+    "A2": [
+      "Deine Kraft mit Pokémon... Vielleicht ist auch das eine Psychokraft."
+    ],
+    "natural": [
+      "Deine Kraft mit Pokémon... Vielleicht ist auch das eine Psychokraft."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroThreeCB",
+  "base_symbol": "Route123_Text_1C03CB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МИУ: Привет, тренер."
+    ],
+    "A2": [
+      "МИУ: Привет, тренер. Надеюсь, твои покемоны не заплачут после поражения."
+    ],
+    "natural": [
+      "МИУ: Привет, тренер. Надеюсь, твои покемоны не заплачут после поражения."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MIU: Hallo, Trainer."
+    ],
+    "A2": [
+      "MIU: Hallo, Trainer. Hoffentlich weinen deine Pokémon nicht, wenn sie verlieren."
+    ],
+    "natural": [
+      "MIU: Hallo, Trainer. Hoffentlich weinen deine Pokémon nicht, wenn sie verlieren."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFourZeroE",
+  "base_symbol": "Route123_Text_1C040E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МИУ: Ой, мы проиграли."
+    ],
+    "A2": [
+      "МИУ: Ой, мы проиграли."
+    ],
+    "natural": [
+      "МИУ: Ой, мы проиграли."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MIU: Oh, wir haben verloren."
+    ],
+    "A2": [
+      "MIU: Oh, wir haben verloren."
+    ],
+    "natural": [
+      "MIU: Oh, wir haben verloren."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFourTwoThree",
+  "base_symbol": "Route123_Text_1C0423",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МИУ: Тренер, твои покемоны сильны, потому что вы друзья."
+    ],
+    "A2": [
+      "МИУ: Тренер, твои покемоны сильны, потому что вы друзья."
+    ],
+    "natural": [
+      "МИУ: Тренер, твои покемоны сильны, потому что вы друзья."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MIU: Trainer, deine Pokémon sind stark, weil ihr Freunde seid."
+    ],
+    "A2": [
+      "MIU: Trainer, deine Pokémon sind stark, weil ihr Freunde seid."
+    ],
+    "natural": [
+      "MIU: Trainer, deine Pokémon sind stark, weil ihr Freunde seid."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFourSixTwo",
+  "base_symbol": "Route123_Text_1C0462",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МИУ: Сражаться неинтересно, если у тебя нет двух покемонов."
+    ],
+    "A2": [
+      "МИУ: Сражаться неинтересно, если у тебя нет двух покемонов."
+    ],
+    "natural": [
+      "МИУ: Сражаться неинтересно, если у тебя нет двух покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MIU: Ein Kampf macht keinen Spaß, wenn du keine zwei Pokémon hast."
+    ],
+    "A2": [
+      "MIU: Ein Kampf macht keinen Spaß, wenn du keine zwei Pokémon hast."
+    ],
+    "natural": [
+      "MIU: Ein Kampf macht keinen Spaß, wenn du keine zwei Pokémon hast."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFourNineC",
+  "base_symbol": "Route123_Text_1C049C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЮКИ: Хорошо!"
+    ],
+    "A2": [
+      "ЮКИ: Хорошо! Мы победим покемонов этого тренера!"
+    ],
+    "natural": [
+      "ЮКИ: Хорошо! Мы победим покемонов этого тренера!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "YUKI: Gut!"
+    ],
+    "A2": [
+      "YUKI: Gut! Wir besiegen die Pokémon dieses Trainers!"
+    ],
+    "natural": [
+      "YUKI: Gut! Wir besiegen die Pokémon dieses Trainers!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFourCD",
+  "base_symbol": "Route123_Text_1C04CD",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЮКИ: Ой, мы проиграли."
+    ],
+    "A2": [
+      "ЮКИ: Ой, мы проиграли."
+    ],
+    "natural": [
+      "ЮКИ: Ой, мы проиграли."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "YUKI: Oh, wir haben verloren."
+    ],
+    "A2": [
+      "YUKI: Oh, wir haben verloren."
+    ],
+    "natural": [
+      "YUKI: Oh, wir haben verloren."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFourEThree",
+  "base_symbol": "Route123_Text_1C04E3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЮКИ: Почему ты так силён?"
+    ],
+    "A2": [
+      "ЮКИ: Почему ты так силён? Мы ещё никогда не проигрывали."
+    ],
+    "natural": [
+      "ЮКИ: Почему ты так силён? Мы ещё никогда не проигрывали."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "YUKI: Warum bist du so stark?"
+    ],
+    "A2": [
+      "YUKI: Warum bist du so stark? Wir haben noch nie verloren."
+    ],
+    "natural": [
+      "YUKI: Warum bist du so stark? Wir haben noch nie verloren."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFiveOneNine",
+  "base_symbol": "Route123_Text_1C0519",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЮКИ: Сражаться неинтересно, если у тебя нет двух покемонов."
+    ],
+    "A2": [
+      "ЮКИ: Сражаться неинтересно, если у тебя нет двух покемонов."
+    ],
+    "natural": [
+      "ЮКИ: Сражаться неинтересно, если у тебя нет двух покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "YUKI: Ein Kampf macht keinen Spaß, wenn du keine zwei Pokémon hast."
+    ],
+    "A2": [
+      "YUKI: Ein Kampf macht keinen Spaß, wenn du keine zwei Pokémon hast."
+    ],
+    "natural": [
+      "YUKI: Ein Kampf macht keinen Spaß, wenn du keine zwei Pokémon hast."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFiveFiveFour",
+  "base_symbol": "Route123_Text_1C0554",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Гора Пайр..."
+    ],
+    "A2": [
+      "Гора Пайр... Там покоятся души покемонов..."
+    ],
+    "natural": [
+      "Гора Пайр... Там покоятся души покемонов... Уснут ли твои покемоны?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Pyroberg..."
+    ],
+    "A2": [
+      "Der Pyroberg... Dort ruhen die Seelen der Pokémon..."
+    ],
+    "natural": [
+      "Der Pyroberg... Dort ruhen die Seelen der Pokémon... Werden deine Pokémon ruhen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFiveNineF",
+  "base_symbol": "Route123_Text_1C059F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Переполнен жизненной силой..."
+    ],
+    "A2": [
+      "Переполнен жизненной силой..."
+    ],
+    "natural": [
+      "Переполнен жизненной силой..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Von Lebenskraft erfüllt..."
+    ],
+    "A2": [
+      "Von Lebenskraft erfüllt..."
+    ],
+    "natural": [
+      "Von Lebenskraft erfüllt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoThreeOneCZeroFiveBC",
+  "base_symbol": "Route123_Text_1C05BC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 121-123 trainer, resident, Berry Master, gift, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Гора Пайр..."
+    ],
+    "A2": [
+      "Гора Пайр... Там покоятся души покемонов..."
+    ],
+    "natural": [
+      "Гора Пайр... Там покоятся души покемонов... Наверное, она полна силы, успокаивающей души..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "маршрут",
+        "route"
+      ]
+    ],
+    "de": [
+      [
+        "die Route",
+        "route"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Pyroberg..."
+    ],
+    "A2": [
+      "Der Pyroberg... Dort ruhen Pokémon-Seelen..."
+    ],
+    "natural": [
+      "Der Pyroberg... Dort ruhen Pokémon-Seelen... Er muss voller Kraft sein, die Seelen beruhigt..."
+    ]
+  }
+},
+{
+  "id": "SafariZoneNortheastOneCThreeDOneNine",
+  "base_symbol": "SafariZone_Northeast_Text_1C3D19",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ищу ВОДНЫХ покемонов, которых не встретишь в ХОЭННЕ."
+    ],
+    "A2": [
+      "Я ищу ВОДНЫХ покемонов, которых не встретишь в ХОЭННЕ. Где здесь озеро?"
+    ],
+    "natural": [
+      "Я ищу ВОДНЫХ покемонов, которых не встретишь в ХОЭННЕ. Где здесь озеро?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich suche WASSER-Pokémon, die man in HOENN nicht sieht."
+    ],
+    "A2": [
+      "Ich suche WASSER-Pokémon, die man in HOENN nicht sieht. Wo ist der See?"
+    ],
+    "natural": [
+      "Ich suche WASSER-Pokémon, die man in HOENN nicht sieht. Wo ist der See?"
+    ]
+  }
+},
+{
+  "id": "SafariZoneNortheastOneCThreeDEightZero",
+  "base_symbol": "SafariZone_Northeast_Text_1C3D80",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я поймаю здесь много редких покемонов и обменяю их с друзьями!"
+    ],
+    "A2": [
+      "Я поймаю здесь много редких покемонов и обменяю их с друзьями!"
+    ],
+    "natural": [
+      "Я поймаю здесь много редких покемонов и обменяю их с друзьями!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich fange hier viele seltene Pokémon und tausche sie mit Freunden!"
+    ],
+    "A2": [
+      "Ich fange hier viele seltene Pokémon und tausche sie mit Freunden!"
+    ],
+    "natural": [
+      "Ich fange hier viele seltene Pokémon und tausche sie mit Freunden!"
+    ]
+  }
+},
+{
+  "id": "SafariZoneNorthwestOneCThreeCAE",
+  "base_symbol": "SafariZone_Northwest_Text_1C3CAE",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Фух..."
+    ],
+    "A2": [
+      "Фух... Я добрался сюда, но совсем выдохся."
+    ],
+    "natural": [
+      "Фух... Я добрался сюда, но совсем выдохся. Нет сил ловить покемонов..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Keuch..."
+    ],
+    "A2": [
+      "Keuch... Ich habe es hergeschafft, bin aber völlig erschöpft."
+    ],
+    "natural": [
+      "Keuch... Ich habe es hergeschafft, bin aber völlig erschöpft. Keine Kraft zum Fangen..."
+    ]
+  }
+},
+{
+  "id": "SafariZoneRestHouseOneCThreeECNine",
+  "base_symbol": "SafariZone_RestHouse_Text_1C3EC9",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У меня нет ПОКЕБЛОКОВ, но я поймал много покемонов."
+    ],
+    "A2": [
+      "У меня нет ПОКЕБЛОКОВ, но я поймал много покемонов. Подойди ближе перед броском САФАРИ-БОЛА, и шансы вырастут."
+    ],
+    "natural": [
+      "У меня нет ПОКЕБЛОКОВ, но я поймал много покемонов. Подойди ближе перед броском САФАРИ-БОЛА, и шансы вырастут."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe keine POKÉRIEGEL, fing aber viele Pokémon."
+    ],
+    "A2": [
+      "Ich habe keine POKÉRIEGEL, fing aber viele Pokémon. Geh näher heran, bevor du den SAFARIBALL wirfst, dann steigen die Chancen."
+    ],
+    "natural": [
+      "Ich habe keine POKÉRIEGEL, fing aber viele Pokémon. Geh näher heran, bevor du den SAFARIBALL wirfst, dann steigen die Chancen."
+    ]
+  }
+},
+{
+  "id": "SafariZoneRestHouseOneCThreeFSevenOne",
+  "base_symbol": "SafariZone_RestHouse_Text_1C3F71",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПОКЕБЛОКИ мешают диким покемонам убегать."
+    ],
+    "A2": [
+      "ПОКЕБЛОКИ мешают диким покемонам убегать. Но для покемонов, которые и так редко бегут, они мало полезны."
+    ],
+    "natural": [
+      "ПОКЕБЛОКИ мешают диким покемонам убегать. Но для покемонов, которые и так редко бегут, они мало полезны."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉRIEGEL hindern wilde Pokémon an der Flucht."
+    ],
+    "A2": [
+      "POKÉRIEGEL hindern wilde Pokémon an der Flucht. Bei Pokémon, die ohnehin selten fliehen, helfen sie kaum."
+    ],
+    "natural": [
+      "POKÉRIEGEL hindern wilde Pokémon an der Flucht. Bei Pokémon, die ohnehin selten fliehen, helfen sie kaum."
+    ]
+  }
+},
+{
+  "id": "SafariZoneRestHouseOneCThreeFFFour",
+  "base_symbol": "SafariZone_RestHouse_Text_1C3FF4",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Положи ПОКЕБЛОК в КОРМУШКУ, и он привлечёт покемонов."
+    ],
+    "A2": [
+      "Положи ПОКЕБЛОК в КОРМУШКУ, и он привлечёт покемонов. Определённый вкус привлекает покемонов со схожим характером."
+    ],
+    "natural": [
+      "Положи ПОКЕБЛОК в КОРМУШКУ, и он привлечёт покемонов. Определённый вкус привлекает покемонов со схожим характером."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein POKÉRIEGEL im FUTTERSPENDER lockt Pokémon an."
+    ],
+    "A2": [
+      "Ein POKÉRIEGEL im FUTTERSPENDER lockt Pokémon an. Ein bestimmter Geschmack zieht Pokémon mit ähnlichem Wesen an."
+    ],
+    "natural": [
+      "Ein POKÉRIEGEL im FUTTERSPENDER lockt Pokémon an. Ein bestimmter Geschmack zieht Pokémon mit ähnlichem Wesen an."
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeAFiveSix",
+  "base_symbol": "SafariZone_Southeast_Text_1C3A56",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя ещё есть время."
+    ],
+    "A2": [
+      "У тебя ещё есть время. Выйти из ЗОНЫ САФАРИ сейчас?"
+    ],
+    "natural": [
+      "У тебя ещё есть время. Выйти из ЗОНЫ САФАРИ сейчас?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast noch Zeit."
+    ],
+    "A2": [
+      "Du hast noch Zeit. Möchtest du die SAFARIZONE jetzt verlassen?"
+    ],
+    "natural": [
+      "Du hast noch Zeit. Möchtest du die SAFARIZONE jetzt verlassen?"
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeANineC",
+  "base_symbol": "SafariZone_Southeast_Text_1C3A9C",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Наслаждайся остатком дикого приключения!"
+    ],
+    "A2": [
+      "Наслаждайся остатком дикого приключения!"
+    ],
+    "natural": [
+      "Наслаждайся остатком дикого приключения!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Genieße den Rest deines wilden Abenteuers!"
+    ],
+    "A2": [
+      "Genieße den Rest deines wilden Abenteuers!"
+    ],
+    "natural": [
+      "Genieße den Rest deines wilden Abenteuers!"
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeACA",
+  "base_symbol": "SafariZone_Southeast_Text_1C3ACA",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошо."
+    ],
+    "A2": [
+      "Хорошо. Я заберу оставшиеся САФАРИ-БОЛЫ."
+    ],
+    "natural": [
+      "Хорошо. Я заберу оставшиеся САФАРИ-БОЛЫ. Спасибо за игру. До встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gut."
+    ],
+    "A2": [
+      "Gut. Ich nehme die übrigen SAFARIBÄLLE zurück."
+    ],
+    "natural": [
+      "Gut. Ich nehme die übrigen SAFARIBÄLLE zurück. Danke fürs Spielen. Bis bald!"
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeBTwoD",
+  "base_symbol": "SafariZone_Southeast_Text_1C3B2D",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Удачи!"
+    ],
+    "A2": [
+      "Удачи! Если что-то понадобится, скажи мне."
+    ],
+    "natural": [
+      "Удачи! Если что-то понадобится, скажи мне."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Viel Glück!"
+    ],
+    "A2": [
+      "Viel Glück! Wenn du etwas brauchst, sag mir Bescheid."
+    ],
+    "natural": [
+      "Viel Glück! Wenn du etwas brauchst, sag mir Bescheid."
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeBSevenOne",
+  "base_symbol": "SafariZone_Southeast_Text_1C3B71",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаешь?"
+    ],
+    "A2": [
+      "Знаешь? Положи ПОКЕБЛОК в квадратную кормушку, и покемоны соберутся вокруг."
+    ],
+    "natural": [
+      "Знаешь? Положи ПОКЕБЛОК в квадратную кормушку, и покемоны соберутся вокруг."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wusstest du?"
+    ],
+    "A2": [
+      "Wusstest du? Leg einen POKÉRIEGEL in den viereckigen Futterspender, dann kommen Pokémon herbei."
+    ],
+    "natural": [
+      "Wusstest du? Leg einen POKÉRIEGEL in den viereckigen Futterspender, dann kommen Pokémon herbei."
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeBBD",
+  "base_symbol": "SafariZone_Southeast_Text_1C3BBD",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хочу идти дальше, но забыл ВЕЛОСИПЕД."
+    ],
+    "A2": [
+      "Я хочу идти дальше, но забыл ВЕЛОСИПЕД. Наверное, в дальних местах живут редкие покемоны."
+    ],
+    "natural": [
+      "Я хочу идти дальше, но забыл ВЕЛОСИПЕД. Наверное, в дальних местах живут редкие покемоны."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will weiter, habe aber mein FAHRRAD vergessen."
+    ],
+    "A2": [
+      "Ich will weiter, habe aber mein FAHRRAD vergessen. In abgelegenen Gebieten leben bestimmt seltene Pokémon."
+    ],
+    "natural": [
+      "Ich will weiter, habe aber mein FAHRRAD vergessen. In abgelegenen Gebieten leben bestimmt seltene Pokémon."
+    ]
+  }
+},
+{
+  "id": "SafariZoneSoutheastOneCThreeDCE",
+  "base_symbol": "SafariZone_Southeast_Text_1C3DCE",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я положил ПОКЕБЛОК в кормушку, но он исчез."
+    ],
+    "A2": [
+      "Я положил ПОКЕБЛОК в кормушку, но он исчез. Наверное, покемон съел его незаметно."
+    ],
+    "natural": [
+      "Я положил ПОКЕБЛОК в кормушку, но он исчез. Наверное, покемон съел его незаметно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich legte einen POKÉRIEGEL in den Futterspender, doch er verschwand."
+    ],
+    "A2": [
+      "Ich legte einen POKÉRIEGEL in den Futterspender, doch er verschwand. Ein Pokémon hat ihn wohl unbemerkt gefressen."
+    ],
+    "natural": [
+      "Ich legte einen POKÉRIEGEL in den Futterspender, doch er verschwand. Ein Pokémon hat ihn wohl unbemerkt gefressen."
+    ]
+  }
+},
+{
+  "id": "SafariZoneSouthwestOneCThreeCThreeNine",
+  "base_symbol": "SafariZone_Southwest_Text_1C3C39",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Иногда покемон игнорирует брошенный ПОКЕБЛОК."
+    ],
+    "A2": [
+      "Иногда покемон игнорирует брошенный ПОКЕБЛОК. Наверное, у покемонов разные вкусы."
+    ],
+    "natural": [
+      "Иногда покемон игнорирует брошенный ПОКЕБЛОК. Наверное, у покемонов разные вкусы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Manchmal ignoriert ein Pokémon einen geworfenen POKÉRIEGEL."
+    ],
+    "A2": [
+      "Manchmal ignoriert ein Pokémon einen geworfenen POKÉRIEGEL. Pokémon haben wohl verschiedene Vorlieben."
+    ],
+    "natural": [
+      "Manchmal ignoriert ein Pokémon einen geworfenen POKÉRIEGEL. Pokémon haben wohl verschiedene Vorlieben."
+    ]
+  }
+},
+{
+  "id": "SafariZoneSouthwestOneCThreeEAThree",
+  "base_symbol": "SafariZone_Southwest_Text_1C3EA3",
+  "source_path": "data/text/safari_zone.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Safari Zone entrance, area, rest-house, rule, or visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дай отдых усталым ногам."
+    ],
+    "A2": [
+      "Дай отдых усталым ногам. ДОМ ОТДЫХА."
+    ],
+    "natural": [
+      "Дай отдых усталым ногам. ДОМ ОТДЫХА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сафари",
+        "safari"
+      ]
+    ],
+    "de": [
+      [
+        "die Safari",
+        "safari"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Erholung für müde Füße."
+    ],
+    "A2": [
+      "Erholung für müde Füße. RASTHAUS."
+    ],
+    "natural": [
+      "Erholung für müde Füße. RASTHAUS."
+    ]
+  }
 }
   ]
 }

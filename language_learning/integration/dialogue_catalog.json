@@ -35666,6 +35666,3066 @@
     "fortree",
     "route"
   ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.1f.text.196151.1782",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_1F/scripts.inc",
+    "symbol": "MtPyre_1F_EventScript_15D323",
+    "base_text_path": "data/maps/MtPyre_1F/text.inc",
+    "base_text_symbol": "MtPyre_1F_Text_196151",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreOneFOneNineSixOneFiveOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1782
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.1f.text.1961ce.1783",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_1F/scripts.inc",
+    "symbol": "MtPyre_1F_EventScript_15D352",
+    "base_text_path": "data/maps/MtPyre_1F/text.inc",
+    "base_text_symbol": "MtPyre_1F_Text_1961CE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreOneFOneNineSixOneCE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1783
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.1f.text.196218.1784",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_1F/scripts.inc",
+    "symbol": "MtPyre_1F_EventScript_15D35C",
+    "base_text_path": "data/maps/MtPyre_1F/text.inc",
+    "base_text_symbol": "MtPyre_1F_Text_196218",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreOneFOneNineSixTwoOneEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1784
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.1f.text.196283.1785",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_1F/scripts.inc",
+    "symbol": "MtPyre_1F_EventScript_15D365",
+    "base_text_path": "data/maps/MtPyre_1F/text.inc",
+    "base_text_symbol": "MtPyre_1F_Text_196283",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreOneFOneNineSixTwoEightThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1785
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.1962c6.1786",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3B2",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_1962C6",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixTwoCSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1786
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196358.1787",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3B2",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196358",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixThreeFiveEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1787
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196368.1788",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3B2",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196368",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixThreeSixEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1788
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.1963cb.1789",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3B2",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_1963CB",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixThreeCB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1789
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196449.1790",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3CD",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196449",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixFourFourNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1790
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.1964eb.1791",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3CD",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_1964EB",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixFourEB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1791
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196504.1792",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3CD",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196504",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixFiveZeroFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1792
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196539.1793",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D3CD",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196539",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixFiveThreeNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1793
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.1965bb.1794",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D389",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_1965BB",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixFiveBB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1794
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196600.1795",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D392",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196600",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixSixZeroZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1795
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.196674.1796",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D39B",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_196674",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixSixSevenFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1796
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.1966be.1797",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D39B",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_1966BE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixSixBE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1797
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.2f.text.1966e7.1798",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_2F/scripts.inc",
+    "symbol": "MtPyre_2F_EventScript_15D39B",
+    "base_text_path": "data/maps/MtPyre_2F/text.inc",
+    "base_text_symbol": "MtPyre_2F_Text_1966E7",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreTwoFOneNineSixSixESeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1798
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.3f.text.19672b.1799",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_3F/scripts.inc",
+    "symbol": "MtPyre_3F_EventScript_15D3E9",
+    "base_text_path": "data/maps/MtPyre_3F/text.inc",
+    "base_text_symbol": "MtPyre_3F_Text_19672B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreThreeFOneNineSixSevenTwoB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1799
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.3f.text.19679d.1800",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_3F/scripts.inc",
+    "symbol": "MtPyre_3F_EventScript_15D3E9",
+    "base_text_path": "data/maps/MtPyre_3F/text.inc",
+    "base_text_symbol": "MtPyre_3F_Text_19679D",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreThreeFOneNineSixSevenNineD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1800
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.3f.text.1967b5.1801",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_3F/scripts.inc",
+    "symbol": "MtPyre_3F_EventScript_15D3E9",
+    "base_text_path": "data/maps/MtPyre_3F/text.inc",
+    "base_text_symbol": "MtPyre_3F_Text_1967B5",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreThreeFOneNineSixSevenBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1801
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.3f.text.1967ef.1802",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_3F/scripts.inc",
+    "symbol": "MtPyre_3F_EventScript_15D400",
+    "base_text_path": "data/maps/MtPyre_3F/text.inc",
+    "base_text_symbol": "MtPyre_3F_Text_1967EF",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreThreeFOneNineSixSevenEF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1802
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.3f.text.19682b.1803",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_3F/scripts.inc",
+    "symbol": "MtPyre_3F_EventScript_15D400",
+    "base_text_path": "data/maps/MtPyre_3F/text.inc",
+    "base_text_symbol": "MtPyre_3F_Text_19682B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreThreeFOneNineSixEightTwoB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1803
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.3f.text.196842.1804",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_3F/scripts.inc",
+    "symbol": "MtPyre_3F_EventScript_15D400",
+    "base_text_path": "data/maps/MtPyre_3F/text.inc",
+    "base_text_symbol": "MtPyre_3F_Text_196842",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreThreeFOneNineSixEightFourTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1804
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.4f.text.1968a6.1805",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_4F/scripts.inc",
+    "symbol": "MtPyre_4F_EventScript_15D418",
+    "base_text_path": "data/maps/MtPyre_4F/text.inc",
+    "base_text_symbol": "MtPyre_4F_Text_1968A6",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreFourFOneNineSixEightASix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1805
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.4f.text.1968d0.1806",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_4F/scripts.inc",
+    "symbol": "MtPyre_4F_EventScript_15D418",
+    "base_text_path": "data/maps/MtPyre_4F/text.inc",
+    "base_text_symbol": "MtPyre_4F_Text_1968D0",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreFourFOneNineSixEightDZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1806
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.4f.text.1968ee.1807",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_4F/scripts.inc",
+    "symbol": "MtPyre_4F_EventScript_15D418",
+    "base_text_path": "data/maps/MtPyre_4F/text.inc",
+    "base_text_symbol": "MtPyre_4F_Text_1968EE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreFourFOneNineSixEightEE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1807
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.5f.text.196939.1808",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_5F/scripts.inc",
+    "symbol": "MtPyre_5F_EventScript_15D430",
+    "base_text_path": "data/maps/MtPyre_5F/text.inc",
+    "base_text_symbol": "MtPyre_5F_Text_196939",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreFiveFOneNineSixNineThreeNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1808
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.5f.text.196997.1809",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_5F/scripts.inc",
+    "symbol": "MtPyre_5F_EventScript_15D430",
+    "base_text_path": "data/maps/MtPyre_5F/text.inc",
+    "base_text_symbol": "MtPyre_5F_Text_196997",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreFiveFOneNineSixNineNineSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1809
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.5f.text.1969ac.1810",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_5F/scripts.inc",
+    "symbol": "MtPyre_5F_EventScript_15D430",
+    "base_text_path": "data/maps/MtPyre_5F/text.inc",
+    "base_text_symbol": "MtPyre_5F_Text_1969AC",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreFiveFOneNineSixNineAC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1810
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.6f.text.1969fe.1811",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_6F/scripts.inc",
+    "symbol": "MtPyre_6F_EventScript_15D448",
+    "base_text_path": "data/maps/MtPyre_6F/text.inc",
+    "base_text_symbol": "MtPyre_6F_Text_1969FE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSixFOneNineSixNineFE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1811
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.6f.text.196a30.1812",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_6F/scripts.inc",
+    "symbol": "MtPyre_6F_EventScript_15D448",
+    "base_text_path": "data/maps/MtPyre_6F/text.inc",
+    "base_text_symbol": "MtPyre_6F_Text_196A30",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSixFOneNineSixAThreeZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1812
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.6f.text.196a4c.1813",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_6F/scripts.inc",
+    "symbol": "MtPyre_6F_EventScript_15D448",
+    "base_text_path": "data/maps/MtPyre_6F/text.inc",
+    "base_text_symbol": "MtPyre_6F_Text_196A4C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSixFOneNineSixAFourC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1813
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.6f.text.196a95.1814",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_6F/scripts.inc",
+    "symbol": "MtPyre_6F_EventScript_15D46F",
+    "base_text_path": "data/maps/MtPyre_6F/text.inc",
+    "base_text_symbol": "MtPyre_6F_Text_196A95",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSixFOneNineSixANineFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1814
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.6f.text.196ab1.1815",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_6F/scripts.inc",
+    "symbol": "MtPyre_6F_EventScript_15D46F",
+    "base_text_path": "data/maps/MtPyre_6F/text.inc",
+    "base_text_symbol": "MtPyre_6F_Text_196AB1",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSixFOneNineSixABOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1815
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.memorial.mtpyre.6f.text.196ac9.1816",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_6F/scripts.inc",
+    "symbol": "MtPyre_6F_EventScript_15D46F",
+    "base_text_path": "data/maps/MtPyre_6F/text.inc",
+    "base_text_symbol": "MtPyre_6F_Text_196AC9",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSixFOneNineSixACNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1816
+  },
+  "tags": [
+    "mt_pyre",
+    "memorial"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b5eec.1817",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D4E1",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B5EEC",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBFiveEEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1817
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b5fe6.1818",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D4E1",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B5FE6",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBFiveFESix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1818
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b60f9.1819",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D623",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B60F9",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixZeroFNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1819
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b617b.1820",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D6BA",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B617B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixOneSevenB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1820
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b6283.1821",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D64A",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B6283",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixTwoEightThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1821
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b62e7.1822",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D69B",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B62E7",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixTwoESeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1822
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b639c.1823",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D669",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B639C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixThreeNineC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1823
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b63f8.1824",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D6C4",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B63F8",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixThreeFEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1824
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b64b3.1825",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D5EF",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B64B3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixFourBThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1825
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b65d6.1826",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D611",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B65D6",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixFiveDSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1826
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b6823.1827",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D61A",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B6823",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixEightTwoThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1827
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.story.mtpyre.summit.text.1b6848.1828",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MtPyre_Summit/scripts.inc",
+    "symbol": "MtPyre_Summit_EventScript_15D6F2",
+    "base_text_path": "data/text/magma_summit.inc",
+    "base_text_symbol": "MtPyre_Summit_Text_1B6848",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "MtPyreSummitOneBSixEightFourEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1828
+  },
+  "tags": [
+    "mt_pyre",
+    "story"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c35d0.1829",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C351",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C35D0",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeFiveDZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1829
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c3704.1830",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C35A",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C3704",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeSevenZeroFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1830
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c373c.1831",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C35A",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C373C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeSevenThreeC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1831
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c375f.1832",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C379",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C375F",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeSevenFiveF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1832
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c3832.1833",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C383",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C3832",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightThreeTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1833
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c3895.1834",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C383",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C3895",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightNineFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1834
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c38b5.1835",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C45E",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C38B5",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1835
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c38d9.1836",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C3B3",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C38D9",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightDNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1836
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c38f4.1837",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C3B3",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C38F4",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEightFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1837
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c3910.1838",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C3B3",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C3910",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineOneZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1838
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c392d.1839",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C3B3",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C392D",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineTwoD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1839
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c39a3.1840",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C425",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C39A3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1840
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c39c3.1841",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C450",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C39C3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeNineCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1841
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.route121.safarizoneentrance.text.1c3e4b.1842",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121_SafariZoneEntrance/scripts.inc",
+    "symbol": "Route121_SafariZoneEntrance_EventScript_15C487",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "Route121_SafariZoneEntrance_Text_1C3E4B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneSafariZoneEntranceOneCThreeEFourB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1842
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.171c8f.1843",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B25",
+    "base_text_path": "data/maps/Route121/text.inc",
+    "base_text_symbol": "Route121_Text_171C8F",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneSevenOneCEightF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1843
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.171cb4.1844",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B0A",
+    "base_text_path": "data/maps/Route121/text.inc",
+    "base_text_symbol": "Route121_Text_171CB4",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneSevenOneCBFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1844
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.171d0c.1845",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B13",
+    "base_text_path": "data/maps/Route121/text.inc",
+    "base_text_symbol": "Route121_Text_171D0C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneSevenOneDZeroC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1845
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.171d5b.1846",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B1C",
+    "base_text_path": "data/maps/Route121/text.inc",
+    "base_text_symbol": "Route121_Text_171D5B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneSevenOneDFiveB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1846
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bf96e.1847",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B72",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BF96E",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFNineSixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1847
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bf9a1.1848",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B72",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BF9A1",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFNineAOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1848
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bf9ba.1849",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B72",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BF9BA",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFNineBA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1849
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfa1b.1850",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B89",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFA1B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFAOneB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1850
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfa8c.1851",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B89",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFA8C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFAEightC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1851
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfa9d.1852",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151B89",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFA9D",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFANineD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1852
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfada.1853",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BB0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFADA",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFADA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1853
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfb4b.1854",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BB0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFB4B",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFBFourB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1854
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfb5c.1855",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BB0",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFB5C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFBFiveC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1855
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfbb4.1856",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BC7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFBB4",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFBBFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1856
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfbee.1857",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BC7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFBEE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFBEE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1857
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfbfd.1858",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BC7",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFBFD",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFBFD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1858
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfc36.1859",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BDE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFC36",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFCThreeSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1859
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfc7a.1860",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BDE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFC7A",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFCSevenA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1860
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfcb3.1861",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BDE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFCB3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFCBThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1861
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfd08.1862",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BDE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFD08",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFDZeroEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1862
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfd60.1863",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BF9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFD60",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFDSixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1863
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfda3.1864",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BF9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFDA3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFDAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1864
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfdc1.1865",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BF9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFDC1",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFDCOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1865
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfe0d.1866",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151BF9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFE0D",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFEZeroD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1866
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfe51.1867",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151C14",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFE51",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFEFiveOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1867
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfe80.1868",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151C14",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFE80",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFEEightZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1868
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfeae.1869",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151C14",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFEAE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFEAE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1869
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bfede.1870",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151C3B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFEDE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFEDE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1870
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bff0a.1871",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151C3B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFF0A",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFFZeroA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1871
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route121.text.1bff3a.1872",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route121/scripts.inc",
+    "symbol": "Route121_EventScript_151C3B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route121_Text_1BFF3A",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoOneOneBFFThreeA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1872
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5bc4.1873",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_1639E9",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5BC4",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveBCFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1873
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5c66.1874",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_1639E9",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5C66",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveCSixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1874
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5c83.1875",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_1639E9",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5C83",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveCEightThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1875
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5cdc.1876",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_163A5A",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5CDC",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveCDC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1876
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5d24.1877",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_163A64",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5D24",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveDTwoFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1877
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5dc1.1878",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_163B1E",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5DC1",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveDCOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1878
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5e0e.1879",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_163AF0",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5E0E",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveEZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1879
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5e59.1880",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_163A9B",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5E59",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveEFiveNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1880
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.berry.route123.berrymastershouse.text.1c5ec0.1881",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123_BerryMastersHouse/scripts.inc",
+    "symbol": "Route123_BerryMastersHouse_EventScript_163A9B",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "Route123_BerryMastersHouse_Text_1C5EC0",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeBerryMastersHouseOneCFiveECZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1881
+  },
+  "tags": [
+    "mt_pyre",
+    "berry"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.171d83.1882",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151C5D",
+    "base_text_path": "data/maps/Route123/text.inc",
+    "base_text_symbol": "Route123_Text_171D83",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneSevenOneDEightThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1882
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.171dc2.1883",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151C5D",
+    "base_text_path": "data/maps/Route123/text.inc",
+    "base_text_symbol": "Route123_Text_171DC2",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneSevenOneDCTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1883
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.171e34.1884",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151C5D",
+    "base_text_path": "data/maps/Route123/text.inc",
+    "base_text_symbol": "Route123_Text_171E34",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneSevenOneEThreeFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1884
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.171e76.1885",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CB6",
+    "base_text_path": "data/maps/Route123/text.inc",
+    "base_text_symbol": "Route123_Text_171E76",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneSevenOneESevenSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1885
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.171e8e.1886",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CBF",
+    "base_text_path": "data/maps/Route123/text.inc",
+    "base_text_symbol": "Route123_Text_171E8E",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneSevenOneEEightE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1886
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.171ebc.1887",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CC8",
+    "base_text_path": "data/maps/Route123/text.inc",
+    "base_text_symbol": "Route123_Text_171EBC",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneSevenOneEBC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1887
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1bff6a.1888",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CD1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1BFF6A",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneBFFSixA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1888
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1bffa2.1889",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CD1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1BFFA2",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneBFFATwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1889
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1bffc1.1890",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CD1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1BFFC1",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneBFFCOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1890
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1bfff0.1891",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CE8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1BFFF0",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneBFFFZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1891
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0057.1892",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CE8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0057",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroZeroFiveSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1892
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0075.1893",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CE8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0075",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroZeroSevenFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1893
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c009e.1894",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CFF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C009E",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroZeroNineE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1894
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c00d4.1895",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CFF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C00D4",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroZeroDFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1895
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0100.1896",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151CFF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0100",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroOneZeroZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1896
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c013f.1897",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D16",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C013F",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroOneThreeF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1897
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c01a3.1898",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D16",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C01A3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroOneAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1898
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c01b1.1899",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D16",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C01B1",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroOneBOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1899
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c01f9.1900",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D3D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C01F9",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroOneFNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1900
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0240.1901",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D3D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0240",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroTwoFourZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1901
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c024e.1902",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D3D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C024E",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroTwoFourE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1902
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c028c.1903",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D54",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C028C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroTwoEightC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1903
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0303.1904",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D54",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0303",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroThreeZeroThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1904
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c030f.1905",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D54",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C030F",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroThreeZeroF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1905
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0351.1906",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D7B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0351",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroThreeFiveOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1906
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0380.1907",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D7B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0380",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroThreeEightZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1907
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c038c.1908",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D7B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C038C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroThreeEightC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1908
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c03cb.1909",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C03CB",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroThreeCB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1909
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c040e.1910",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C040E",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFourZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1910
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0423.1911",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0423",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFourTwoThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1911
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0462.1912",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151D92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0462",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFourSixTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1912
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c049c.1913",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DAD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C049C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFourNineC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1913
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c04cd.1914",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DAD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C04CD",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFourCD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1914
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c04e3.1915",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DAD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C04E3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFourEThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1915
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0519.1916",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DAD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0519",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFiveOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1916
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c0554.1917",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C0554",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFiveFiveFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1917
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c059f.1918",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C059F",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFiveNineF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1918
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.route.route123.text.1c05bc.1919",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route123/scripts.inc",
+    "symbol": "Route123_EventScript_151DC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route123_Text_1C05BC",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "RouteOneTwoThreeOneCZeroFiveBC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1919
+  },
+  "tags": [
+    "mt_pyre",
+    "route"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.northeast.text.1c3d19.1920",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Northeast/scripts.inc",
+    "symbol": "SafariZone_Northeast_EventScript_160011",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Northeast_Text_1C3D19",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneNortheastOneCThreeDOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1920
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.northeast.text.1c3d80.1921",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Northeast/scripts.inc",
+    "symbol": "SafariZone_Northeast_EventScript_16001A",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Northeast_Text_1C3D80",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneNortheastOneCThreeDEightZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1921
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.northwest.text.1c3cae.1922",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Northwest/scripts.inc",
+    "symbol": "SafariZone_Northwest_EventScript_160007",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Northwest_Text_1C3CAE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneNorthwestOneCThreeCAE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1922
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.resthouse.text.1c3ec9.1923",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_RestHouse/scripts.inc",
+    "symbol": "SafariZone_RestHouse_EventScript_160C2F",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_RestHouse_Text_1C3EC9",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneRestHouseOneCThreeECNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1923
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.resthouse.text.1c3f71.1924",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_RestHouse/scripts.inc",
+    "symbol": "SafariZone_RestHouse_EventScript_160C38",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_RestHouse_Text_1C3F71",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneRestHouseOneCThreeFSevenOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1924
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.resthouse.text.1c3ff4.1925",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_RestHouse/scripts.inc",
+    "symbol": "SafariZone_RestHouse_EventScript_160C41",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_RestHouse_Text_1C3FF4",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneRestHouseOneCThreeFFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1925
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3a56.1926",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_1600A7",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3A56",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeAFiveSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1926
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3a9c.1927",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_1600A7",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3A9C",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeANineC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1927
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3aca.1928",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_1600E0",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3ACA",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeACA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1928
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3b2d.1929",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_1600D1",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3B2D",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeBTwoD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1929
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3b71.1930",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_16008C",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3B71",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeBSevenOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1930
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3bbd.1931",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_160095",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3BBD",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeBBD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1931
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southeast.text.1c3dce.1932",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southeast/scripts.inc",
+    "symbol": "SafariZone_Southeast_EventScript_16009E",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southeast_Text_1C3DCE",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSoutheastOneCThreeDCE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1932
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southwest.text.1c3c39.1933",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southwest/scripts.inc",
+    "symbol": "SafariZone_Southwest_EventScript_160024",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southwest_Text_1C3C39",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSouthwestOneCThreeCThreeNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1933
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
+},
+{
+  "id": "mtpyre.safari.safarizone.southwest.text.1c3ea3.1934",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SafariZone_Southwest/scripts.inc",
+    "symbol": "SafariZone_Southwest_EventScript_16002D",
+    "base_text_path": "data/text/safari_zone.inc",
+    "base_text_symbol": "SafariZone_Southwest_Text_1C3EA3",
+    "note": "Adaptive translation preserves the original battle, Safari, berry, gift, orb, item, and story flow.",
+    "authored_id": "SafariZoneSouthwestOneCThreeEAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 1934
+  },
+  "tags": [
+    "mt_pyre",
+    "safari"
+  ]
 }
   ]
 }

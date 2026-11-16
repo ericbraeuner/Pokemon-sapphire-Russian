@@ -668,6 +668,14 @@ class LessonTests(unittest.TestCase):
                          'FortreeCity_Mart', 'FortreeCity_PokemonCenter_1F',
                          'Route120')
         paths += [f'data/maps/{area}/scripts.inc' for area in fortree_areas]
+        mt_pyre_areas = ('Route121', 'Route121_SafariZoneEntrance', 'Route122',
+                         'Route123', 'Route123_BerryMastersHouse', 'MtPyre_1F',
+                         'MtPyre_2F', 'MtPyre_3F', 'MtPyre_4F', 'MtPyre_5F',
+                         'MtPyre_6F', 'MtPyre_Exterior', 'MtPyre_Summit',
+                         'SafariZone_Northeast', 'SafariZone_Northwest',
+                         'SafariZone_RestHouse', 'SafariZone_Southeast',
+                         'SafariZone_Southwest')
+        paths += [f'data/maps/{area}/scripts.inc' for area in mt_pyre_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2637,6 +2645,28 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(120, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_routes_121_123_safari_and_mt_pyre_are_fully_adaptive(self):
+        areas = ('Route121', 'Route121_SafariZoneEntrance', 'Route122', 'Route123',
+                 'Route123_BerryMastersHouse', 'MtPyre_1F', 'MtPyre_2F',
+                 'MtPyre_3F', 'MtPyre_4F', 'MtPyre_5F', 'MtPyre_6F',
+                 'MtPyre_Exterior', 'MtPyre_Summit', 'SafariZone_Northeast',
+                 'SafariZone_Northwest', 'SafariZone_RestHouse',
+                 'SafariZone_Southeast', 'SafariZone_Southwest')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:Route12[123]|MtPyre|SafariZone)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(153, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

@@ -49,7 +49,7 @@ help rate can conservatively select A2 after ten exposures. The saved difficulty
 remains the ceiling and is never changed by this adjustment. Every selection
 records both difficulty values and its reason so a wrapper can explain the choice.
 
-The adaptive packs now cover 1,781 authored early- and mid-game scenes: arriving
+The adaptive packs now cover 1,934 authored early- and mid-game scenes: arriving
 in town, Mom's welcome and moving instructions, the room reminder, setting the
 clock, inspecting the finished room, and the complete introductory TV sequence
 through Mom's next-door direction. Coverage also includes the bedroom GameCube,
@@ -191,6 +191,11 @@ shop, Pokémon Center conversation and sign, the entire Gym and Winona reward
 sequence, every Route 120 trainer, and Steven's Devon Scope event now adapt in
 place. The Gym puzzle, battles, trades, badge, TM, Devon Scope, gifts, and story
 flags are unchanged.
+Routes 121-123, the Safari Zone, and Mt. Pyre now follow the same contract:
+every trainer and roadside interaction, the Berry Master's complete gift flow,
+Safari entrance and interior visitors, all six memorial floors, and the summit
+Team Aqua/Magma orb sequence adapt in place while preserving battles, Safari
+rules, berries, gifts, items, orbs, and story flags.
 Trainer introductions and defeat lines can now opt into the same generated
 variant table. The battle setup records the introduction context before the
 encounter and switches to the defeat context when combat begins, leaving the
@@ -219,20 +224,20 @@ fields to allow schema evolution.
 
 ## Build and font integration points
 
-`integration/dialogue_catalog.json` connects all 1,781 authored lessons to their
+`integration/dialogue_catalog.json` connects all 1,934 authored lessons to their
 real script hooks and original text symbols, including the shared moving-in
 scripts and Route 101 sign. Validation checks both ends of every connection.
 The normal game dialogue follows the extra lesson; important story instructions
 are not replaced.
 
 `tools/build_demo.py` and `tools/opening.py` generate ignored assembly.
-`opening.json` currently holds 1,781 source-symbol mappings,
+`opening.json` currently holds 1,934 source-symbol mappings,
 translations in three text bands, English help, and dictionary entries. This
 prototype bundle is validated during generation and tests; it is separate from
 the original language-pack/profile schema and does not update external profiles.
 
 Language, CEFR level, mode, the active/requested dialogue dictionary, and two
-saturating learning counters use reserved persistent variables 0x40F0–0x40F6.
+saturating learning counters use reserved persistent variables 0x40F0-0x40F6.
 New-game setup runs before Birch. Pending choices live in a dedicated four-byte
 EWRAM allocation until NewGameInitData finishes clearing save variables, then
 are copied once into those variables. Continue does not run setup or reset them.
@@ -245,7 +250,7 @@ the interrupted page. Text without curated vocabulary remains unaffected.
 Secret Base, Abandoned Ship, Dewford, Granite Cave, Slateport, and field messages. Its central wait handler shows the glossary,
 replays the original message with its live names and quantities, and then resumes
 the original event script. Each entry receives a stable context in the range
-`0x1000`–`0x109F`, following its append-only catalogue order; do not reorder
+`0x1000`-`0x109F`, following its append-only catalogue order; do not reorder
 existing entries when adding vocabulary.
 `tools/context_catalog.py` resolves those IDs and all authored-dialogue IDs
 to stable, language-specific vocabulary records. It can print the live catalogue

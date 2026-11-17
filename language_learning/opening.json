@@ -123842,6 +123842,1761 @@
       "In der Wand ist ein großes Loch."
     ]
   }
+},
+{
+  "id": "AbandonedShipCaptainsOfficeNoSuccessFindingScanner",
+  "base_symbol": "AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner",
+  "source_path": "data/maps/AbandonedShip_CaptainsOffice/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship Scanner search, discovery, or delivery interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я исследую корабль по поручению КАПИТАНА ШТЕРНА."
+    ],
+    "A2": [
+      "Я исследую корабль по поручению КАПИТАНА ШТЕРНА. Он просил найти СКАНЕР, но пока безуспешно."
+    ],
+    "natural": [
+      "Я исследую корабль по поручению КАПИТАНА ШТЕРНА. Он просил найти СКАНЕР, но пока безуспешно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сканер",
+        "scanner"
+      ]
+    ],
+    "de": [
+      [
+        "der Scanner",
+        "scanner"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich untersuche das Schiff für KAPT."
+    ],
+    "A2": [
+      "Ich untersuche das Schiff für KAPT. BRIGGS."
+    ],
+    "natural": [
+      "Ich untersuche das Schiff für KAPT. BRIGGS. Er bat mich, einen SCANNER zu finden, bisher ohne Erfolg."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCaptainsOfficeOhCanYouDeliverScanner",
+  "base_symbol": "AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner",
+  "source_path": "data/maps/AbandonedShip_CaptainsOffice/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship Scanner search, discovery, or delivery interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О!"
+    ],
+    "A2": [
+      "О! Это СКАНЕР!"
+    ],
+    "natural": [
+      "О! Это СКАНЕР! Можешь доставить его КАПИТАНУ ШТЕРНУ? Я продолжу исследовать корабль."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сканер",
+        "scanner"
+      ]
+    ],
+    "de": [
+      [
+        "der Scanner",
+        "scanner"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Das ist ein SCANNER!"
+    ],
+    "natural": [
+      "Oh! Das ist ein SCANNER! Kannst du ihn KAPT. BRIGGS bringen? Ich untersuche das Schiff weiter."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCaptainsOfficeThisIsSSCactus",
+  "base_symbol": "AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus",
+  "source_path": "data/maps/AbandonedShip_CaptainsOffice/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship Scanner search, discovery, or delivery interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этот корабль называется С.С."
+    ],
+    "A2": [
+      "Этот корабль называется С.С. КАКТУС."
+    ],
+    "natural": [
+      "Этот корабль называется С.С. КАКТУС. Похоже, он из другой эпохи."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сканер",
+        "scanner"
+      ]
+    ],
+    "de": [
+      [
+        "der Scanner",
+        "scanner"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieses Schiff heißt M.S."
+    ],
+    "A2": [
+      "Dieses Schiff heißt M.S. CACTUS."
+    ],
+    "natural": [
+      "Dieses Schiff heißt M.S. CACTUS. Es scheint aus einer früheren Zeit zu stammen."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsOneFIsntItFunHere",
+  "base_symbol": "AbandonedShip_Corridors_1F_Text_IsntItFunHere",
+  "source_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship explorer, cabin, deck, underwater, trash, or atmosphere interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь весело, правда?"
+    ],
+    "A2": [
+      "Здесь весело, правда? Одно пребывание тут меня будоражит!"
+    ],
+    "natural": [
+      "Здесь весело, правда? Одно пребывание тут меня будоражит!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "корабль",
+        "ship"
+      ]
+    ],
+    "de": [
+      [
+        "das Schiff",
+        "ship"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier macht es Spaß, oder?"
+    ],
+    "A2": [
+      "Hier macht es Spaß, oder? Schon dieser Ort ist aufregend!"
+    ],
+    "natural": [
+      "Hier macht es Spaß, oder? Schon dieser Ort ist aufregend!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsOneFCharlieIntro",
+  "base_symbol": "AbandonedShip_Corridors_1F_Text_CharlieIntro",
+  "source_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что смешного в том, что я взял на корабль плавательный круг?"
+    ],
+    "A2": [
+      "Что смешного в том, что я взял на корабль плавательный круг?"
+    ],
+    "natural": [
+      "Что смешного в том, что я взял на корабль плавательный круг?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was ist so lustig daran, dass ich einen Schwimmreifen an Bord habe?"
+    ],
+    "A2": [
+      "Was ist so lustig daran, dass ich einen Schwimmreifen an Bord habe?"
+    ],
+    "natural": [
+      "Was ist so lustig daran, dass ich einen Schwimmreifen an Bord habe?"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsOneFCharlieDefeat",
+  "base_symbol": "AbandonedShip_Corridors_1F_Text_CharlieDefeat",
+  "source_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ого, ты меня разгромил!"
+    ],
+    "A2": [
+      "Ого, ты меня разгромил!"
+    ],
+    "natural": [
+      "Ого, ты меня разгромил!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wow, du hast mich überwältigt!"
+    ],
+    "A2": [
+      "Wow, du hast mich überwältigt!"
+    ],
+    "natural": [
+      "Wow, du hast mich überwältigt!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsOneFCharliePostBattle",
+  "base_symbol": "AbandonedShip_Corridors_1F_Text_CharliePostBattle",
+  "source_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нелегко бросать ПОКЕБОЛЫ, держась за плавательный круг!"
+    ],
+    "A2": [
+      "Нелегко бросать ПОКЕБОЛЫ, держась за плавательный круг!"
+    ],
+    "natural": [
+      "Нелегко бросать ПОКЕБОЛЫ, держась за плавательный круг!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es ist nicht leicht, POKÉBÄLLE zu werfen und zugleich den Schwimmreifen festzuhalten!"
+    ],
+    "A2": [
+      "Es ist nicht leicht, POKÉBÄLLE zu werfen und zugleich den Schwimmreifen festzuhalten!"
+    ],
+    "natural": [
+      "Es ist nicht leicht, POKÉBÄLLE zu werfen und zugleich den Schwimmreifen festzuhalten!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsBOneFYayItsAShip",
+  "base_symbol": "AbandonedShip_Corridors_B1F_Text_YayItsAShip",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship explorer, cabin, deck, underwater, trash, or atmosphere interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ура!"
+    ],
+    "A2": [
+      "Ура! Это корабль!"
+    ],
+    "natural": [
+      "Ура! Это корабль!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "корабль",
+        "ship"
+      ]
+    ],
+    "de": [
+      [
+        "das Schiff",
+        "ship"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Juhu!"
+    ],
+    "A2": [
+      "Juhu! Ein Schiff!"
+    ],
+    "natural": [
+      "Juhu! Ein Schiff!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsBOneFInsertedStorageKey",
+  "base_symbol": "AbandonedShip_Corridors_B1F_Text_InsertedStorageKey",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} вставляет КЛЮЧ ОТ СКЛАДА."
+    ],
+    "A2": [
+      "{PLAYER} вставляет КЛЮЧ ОТ СКЛАДА. Ключ застрял, но дверь открылась."
+    ],
+    "natural": [
+      "{PLAYER} вставляет КЛЮЧ ОТ СКЛАДА. Ключ застрял, но дверь открылась."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} steckt den LAGERSCHLÜSSEL ins Schloss."
+    ],
+    "A2": [
+      "{PLAYER} steckt den LAGERSCHLÜSSEL ins Schloss. Der Schlüssel klemmt, doch die Tür öffnet sich."
+    ],
+    "natural": [
+      "{PLAYER} steckt den LAGERSCHLÜSSEL ins Schloss. Der Schlüssel klemmt, doch die Tür öffnet sich."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsBOneFDoorIsLocked",
+  "base_symbol": "AbandonedShip_Corridors_B1F_Text_DoorIsLocked",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь заперта."
+    ],
+    "A2": [
+      "Дверь заперта. На ней написано: СКЛАД."
+    ],
+    "natural": [
+      "Дверь заперта. На ней написано: СКЛАД."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist verschlossen."
+    ],
+    "A2": [
+      "Die Tür ist verschlossen. Darauf steht: LAGER."
+    ],
+    "natural": [
+      "Die Tür ist verschlossen. Darauf steht: LAGER."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipTheDoorIsOpen",
+  "base_symbol": "AbandonedShip_Text_TheDoorIsOpen",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь открыта."
+    ],
+    "A2": [
+      "Дверь открыта."
+    ],
+    "natural": [
+      "Дверь открыта."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist offen."
+    ],
+    "A2": [
+      "Die Tür ist offen."
+    ],
+    "natural": [
+      "Die Tür ist offen."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsBOneFDuncanIntro",
+  "base_symbol": "AbandonedShip_Corridors_B1F_Text_DuncanIntro",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы, МОРЯКИ, всегда берём покемонов в море."
+    ],
+    "A2": [
+      "Мы, МОРЯКИ, всегда берём покемонов в море. Быстро сразимся?"
+    ],
+    "natural": [
+      "Мы, МОРЯКИ, всегда берём покемонов в море. Быстро сразимся?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir MATROSEN nehmen unsere Pokémon immer mit aufs Meer."
+    ],
+    "A2": [
+      "Wir MATROSEN nehmen unsere Pokémon immer mit aufs Meer. Lust auf einen kurzen Kampf?"
+    ],
+    "natural": [
+      "Wir MATROSEN nehmen unsere Pokémon immer mit aufs Meer. Lust auf einen kurzen Kampf?"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsBOneFDuncanDefeat",
+  "base_symbol": "AbandonedShip_Corridors_B1F_Text_DuncanDefeat",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой, я потоплен!"
+    ],
+    "A2": [
+      "Ой, я потоплен!"
+    ],
+    "natural": [
+      "Ой, я потоплен!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla, ich bin gesunken!"
+    ],
+    "A2": [
+      "Hoppla, ich bin gesunken!"
+    ],
+    "natural": [
+      "Hoppla, ich bin gesunken!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipCorridorsBOneFDuncanPostBattle",
+  "base_symbol": "AbandonedShip_Corridors_B1F_Text_DuncanPostBattle",
+  "source_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дно корабля затонуло."
+    ],
+    "A2": [
+      "Дно корабля затонуло. Покемон, умеющий нырять, помог бы нам пройти дальше."
+    ],
+    "natural": [
+      "Дно корабля затонуло. Покемон, умеющий нырять, помог бы нам пройти дальше."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Schiffsboden liegt unter Wasser."
+    ],
+    "A2": [
+      "Der Schiffsboden liegt unter Wasser. Mit einem Pokémon, das tauchen kann, kämen wir weiter."
+    ],
+    "natural": [
+      "Der Schiffsboden liegt unter Wasser. Mit einem Pokémon, das tauchen kann, kämen wir weiter."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipHiddenFloorCorridorsInsertedKey",
+  "base_symbol": "AbandonedShip_HiddenFloorCorridors_Text_InsertedKey",
+  "source_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} вставляет и поворачивает КЛЮЧ."
+    ],
+    "A2": [
+      "{PLAYER} вставляет и поворачивает КЛЮЧ. Ключ застрял, но дверь открылась."
+    ],
+    "natural": [
+      "{PLAYER} вставляет и поворачивает КЛЮЧ. Ключ застрял, но дверь открылась."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} steckt den SCHLÜSSEL ein und dreht ihn."
+    ],
+    "A2": [
+      "{PLAYER} steckt den SCHLÜSSEL ein und dreht ihn. Er klemmt, doch die Tür öffnet sich."
+    ],
+    "natural": [
+      "{PLAYER} steckt den SCHLÜSSEL ein und dreht ihn. Er klemmt, doch die Tür öffnet sich."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipHiddenFloorCorridorsRmOneDoorIsLocked",
+  "base_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked",
+  "source_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь заперта."
+    ],
+    "A2": [
+      "Дверь заперта. На ней написано: КОМНАТА 1."
+    ],
+    "natural": [
+      "Дверь заперта. На ней написано: КОМНАТА 1."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist verschlossen."
+    ],
+    "A2": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 1."
+    ],
+    "natural": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 1."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipHiddenFloorCorridorsRmTwoDoorIsLocked",
+  "base_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked",
+  "source_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь заперта."
+    ],
+    "A2": [
+      "Дверь заперта. На ней написано: КОМНАТА 2."
+    ],
+    "natural": [
+      "Дверь заперта. На ней написано: КОМНАТА 2."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist verschlossen."
+    ],
+    "A2": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 2."
+    ],
+    "natural": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 2."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipHiddenFloorCorridorsRmFourDoorIsLocked",
+  "base_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked",
+  "source_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь заперта."
+    ],
+    "A2": [
+      "Дверь заперта. На ней написано: КОМНАТА 4."
+    ],
+    "natural": [
+      "Дверь заперта. На ней написано: КОМНАТА 4."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist verschlossen."
+    ],
+    "A2": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 4."
+    ],
+    "natural": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 4."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipHiddenFloorCorridorsRmSixDoorIsLocked",
+  "base_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked",
+  "source_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship locked-door, room-key, or storage-key interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь заперта."
+    ],
+    "A2": [
+      "Дверь заперта. На ней написано: КОМНАТА 6."
+    ],
+    "natural": [
+      "Дверь заперта. На ней написано: КОМНАТА 6."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ключ",
+        "key"
+      ]
+    ],
+    "de": [
+      [
+        "der Schlüssel",
+        "key"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist verschlossen."
+    ],
+    "A2": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 6."
+    ],
+    "natural": [
+      "Die Tür ist verschlossen. Darauf steht: RAUM 6."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipHiddenFloorRoomsBrightShinyTrash",
+  "base_symbol": "AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash",
+  "source_path": "data/maps/AbandonedShip_HiddenFloorRooms/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship explorer, cabin, deck, underwater, trash, or atmosphere interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ярко блестит!"
+    ],
+    "A2": [
+      "Ярко блестит! Но это всего лишь мусор..."
+    ],
+    "natural": [
+      "Ярко блестит! Но это всего лишь мусор..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "корабль",
+        "ship"
+      ]
+    ],
+    "de": [
+      [
+        "das Schiff",
+        "ship"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es glänzt hell!"
+    ],
+    "A2": [
+      "Es glänzt hell! Doch es ist nur Müll..."
+    ],
+    "natural": [
+      "Es glänzt hell! Doch es ist nur Müll..."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalIntro",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalIntro",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: Мы искали сокровища и нашли ТРЕНЕРА!"
+    ],
+    "A2": [
+      "ХЭЛ: Мы искали сокровища и нашли ТРЕНЕРА!"
+    ],
+    "natural": [
+      "ХЭЛ: Мы искали сокровища и нашли ТРЕНЕРА!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Wir suchten Schätze und fanden einen TRAINER!"
+    ],
+    "A2": [
+      "HAL: Wir suchten Schätze und fanden einen TRAINER!"
+    ],
+    "natural": [
+      "HAL: Wir suchten Schätze und fanden einen TRAINER!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalDefeat",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalDefeat",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: Даже вместе мы не смогли победить..."
+    ],
+    "A2": [
+      "ХЭЛ: Даже вместе мы не смогли победить..."
+    ],
+    "natural": [
+      "ХЭЛ: Даже вместе мы не смогли победить..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Selbst gemeinsam konnten wir nicht gewinnen..."
+    ],
+    "A2": [
+      "HAL: Selbst gemeinsam konnten wir nicht gewinnen..."
+    ],
+    "natural": [
+      "HAL: Selbst gemeinsam konnten wir nicht gewinnen..."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalNeedTwoPokemon",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalNeedTwoPokemon",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: У тебя нет даже двух покемонов."
+    ],
+    "A2": [
+      "ХЭЛ: У тебя нет даже двух покемонов. Так нас не победить."
+    ],
+    "natural": [
+      "ХЭЛ: У тебя нет даже двух покемонов. Так нас не победить."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Du hast nicht einmal zwei Pokémon."
+    ],
+    "A2": [
+      "HAL: Du hast nicht einmal zwei Pokémon. So kannst du uns nicht besiegen."
+    ],
+    "natural": [
+      "HAL: Du hast nicht einmal zwei Pokémon. So kannst du uns nicht besiegen."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalPostBattle",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalPostBattle",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: Мы не находим сокровищ."
+    ],
+    "A2": [
+      "ХЭЛ: Мы не находим сокровищ. Может, их уже кто-то забрал?"
+    ],
+    "natural": [
+      "ХЭЛ: Мы не находим сокровищ. Может, их уже кто-то забрал?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Wir finden keine Schätze."
+    ],
+    "A2": [
+      "HAL: Wir finden keine Schätze. Hat sie schon jemand mitgenommen?"
+    ],
+    "natural": [
+      "HAL: Wir finden keine Schätze. Hat sie schon jemand mitgenommen?"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalRematchIntro",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchIntro",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: Мы всё это время искали сокровища."
+    ],
+    "A2": [
+      "ХЭЛ: Мы всё это время искали сокровища. Наши покемоны стали сильнее."
+    ],
+    "natural": [
+      "ХЭЛ: Мы всё это время искали сокровища. Наши покемоны стали сильнее. Сейчас покажем!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Wir suchten die ganze Zeit nach Schätzen."
+    ],
+    "A2": [
+      "HAL: Wir suchten die ganze Zeit nach Schätzen. Unsere Pokémon wurden stärker."
+    ],
+    "natural": [
+      "HAL: Wir suchten die ganze Zeit nach Schätzen. Unsere Pokémon wurden stärker. Wir zeigen es dir!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalRematchDefeat",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchDefeat",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: Ты силён как всегда!"
+    ],
+    "A2": [
+      "ХЭЛ: Ты силён как всегда!"
+    ],
+    "natural": [
+      "ХЭЛ: Ты силён как всегда!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Du bist stark wie immer!"
+    ],
+    "A2": [
+      "HAL: Du bist stark wie immer!"
+    ],
+    "natural": [
+      "HAL: Du bist stark wie immer!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalRematchNeedTwoPokemon",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchNeedTwoPokemon",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: У тебя нет даже двух покемонов."
+    ],
+    "A2": [
+      "ХЭЛ: У тебя нет даже двух покемонов. Так нас не победить."
+    ],
+    "natural": [
+      "ХЭЛ: У тебя нет даже двух покемонов. Так нас не победить."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Du hast nicht einmal zwei Pokémon."
+    ],
+    "A2": [
+      "HAL: Du hast nicht einmal zwei Pokémon. So kannst du uns nicht besiegen."
+    ],
+    "natural": [
+      "HAL: Du hast nicht einmal zwei Pokémon. So kannst du uns nicht besiegen."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFHalRematchPostBattle",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchPostBattle",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ХЭЛ: Сокровищ нет, в боях проигрываем..."
+    ],
+    "A2": [
+      "ХЭЛ: Сокровищ нет, в боях проигрываем... Я хочу домой, но она рассердится, если я скажу."
+    ],
+    "natural": [
+      "ХЭЛ: Сокровищ нет, в боях проигрываем... Я хочу домой, но она рассердится, если я скажу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAL: Keine Schätze, und Kämpfe verlieren wir auch..."
+    ],
+    "A2": [
+      "HAL: Keine Schätze, und Kämpfe verlieren wir auch... Ich will heim, doch sie wird wütend, wenn ich es sage."
+    ],
+    "natural": [
+      "HAL: Keine Schätze, und Kämpfe verlieren wir auch... Ich will heim, doch sie wird wütend, wenn ich es sage."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisIntro",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisIntro",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: Мы искали сокровища, а нашли только ТРЕНЕРА."
+    ],
+    "A2": [
+      "ЛОИС: Мы искали сокровища, а нашли только ТРЕНЕРА."
+    ],
+    "natural": [
+      "ЛОИС: Мы искали сокровища, а нашли только ТРЕНЕРА."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Wir suchten Schätze und fanden nur einen TRAINER."
+    ],
+    "A2": [
+      "LOIS: Wir suchten Schätze und fanden nur einen TRAINER."
+    ],
+    "natural": [
+      "LOIS: Wir suchten Schätze und fanden nur einen TRAINER."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisDefeat",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisDefeat",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: Ого, ты сильный!"
+    ],
+    "A2": [
+      "ЛОИС: Ого, ты сильный!"
+    ],
+    "natural": [
+      "ЛОИС: Ого, ты сильный!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Wow, du bist stark!"
+    ],
+    "A2": [
+      "LOIS: Wow, du bist stark!"
+    ],
+    "natural": [
+      "LOIS: Wow, du bist stark!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisNeedTwoPokemon",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisNeedTwoPokemon",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: У тебя нет двух покемонов?"
+    ],
+    "A2": [
+      "ЛОИС: У тебя нет двух покемонов? Тогда сразимся в другой раз!"
+    ],
+    "natural": [
+      "ЛОИС: У тебя нет двух покемонов? Тогда сразимся в другой раз!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Du hast keine zwei Pokémon?"
+    ],
+    "A2": [
+      "LOIS: Du hast keine zwei Pokémon? Dann kämpfen wir ein anderes Mal!"
+    ],
+    "natural": [
+      "LOIS: Du hast keine zwei Pokémon? Dann kämpfen wir ein anderes Mal!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisPostBattle",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisPostBattle",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: Где же спрятаны сокровища?"
+    ],
+    "A2": [
+      "ЛОИС: Где же спрятаны сокровища? Я уже знаю, что куплю, когда найду их!"
+    ],
+    "natural": [
+      "ЛОИС: Где же спрятаны сокровища? Я уже знаю, что куплю, когда найду их!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Wo sind die Schätze versteckt?"
+    ],
+    "A2": [
+      "LOIS: Wo sind die Schätze versteckt? Ich weiß schon, was ich kaufen werde!"
+    ],
+    "natural": [
+      "LOIS: Wo sind die Schätze versteckt? Ich weiß schon, was ich kaufen werde!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisRematchIntro",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchIntro",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: Привет, снова встретились!"
+    ],
+    "A2": [
+      "ЛОИС: Привет, снова встретились! Ты тоже не бросил поиски."
+    ],
+    "natural": [
+      "ЛОИС: Привет, снова встретились! Ты тоже не бросил поиски. Давай сразимся, и проигравший прекратит искать!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Hallo, wir treffen uns wieder!"
+    ],
+    "A2": [
+      "LOIS: Hallo, wir treffen uns wieder! Du suchst ebenfalls weiter."
+    ],
+    "natural": [
+      "LOIS: Hallo, wir treffen uns wieder! Du suchst ebenfalls weiter. Kämpfen wir, und der Verlierer gibt die Suche auf!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisRematchDefeat",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchDefeat",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: Ох, мы снова проиграли..."
+    ],
+    "A2": [
+      "ЛОИС: Ох, мы снова проиграли..."
+    ],
+    "natural": [
+      "ЛОИС: Ох, мы снова проиграли..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Oh, wir haben wieder verloren..."
+    ],
+    "A2": [
+      "LOIS: Oh, wir haben wieder verloren..."
+    ],
+    "natural": [
+      "LOIS: Oh, wir haben wieder verloren..."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisRematchNeedTwoPokemon",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchNeedTwoPokemon",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: У тебя нет двух покемонов?"
+    ],
+    "A2": [
+      "ЛОИС: У тебя нет двух покемонов? Тогда сразимся в другой раз!"
+    ],
+    "natural": [
+      "ЛОИС: У тебя нет двух покемонов? Тогда сразимся в другой раз!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Du hast keine zwei Pokémon?"
+    ],
+    "A2": [
+      "LOIS: Du hast keine zwei Pokémon? Dann kämpfen wir ein anderes Mal!"
+    ],
+    "natural": [
+      "LOIS: Du hast keine zwei Pokémon? Dann kämpfen wir ein anderes Mal!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoOneFLoisRematchPostBattle",
+  "base_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchPostBattle",
+  "source_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship trainer introduction, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЛОИС: Мы ещё потренируем покемонов."
+    ],
+    "A2": [
+      "ЛОИС: Мы ещё потренируем покемонов. Домой не вернёмся, пока не найдём сокровища!"
+    ],
+    "natural": [
+      "ЛОИС: Мы ещё потренируем покемонов. Домой не вернёмся, пока не найдём сокровища!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "LOIS: Wir trainieren unsere Pokémon weiter."
+    ],
+    "A2": [
+      "LOIS: Wir trainieren unsere Pokémon weiter. Wir gehen erst heim, wenn wir die Schätze finden!"
+    ],
+    "natural": [
+      "LOIS: Wir trainieren unsere Pokémon weiter. Wir gehen erst heim, wenn wir die Schätze finden!"
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsTwoBOneFPerfectPlaceToGoExploring",
+  "base_symbol": "AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring",
+  "source_path": "data/maps/AbandonedShip_Rooms2_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship explorer, cabin, deck, underwater, trash, or atmosphere interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Идеальное место для исследований!"
+    ],
+    "A2": [
+      "Идеальное место для исследований! Здесь так интересно."
+    ],
+    "natural": [
+      "Идеальное место для исследований! Здесь так интересно. Наверняка на борту есть удивительные сокровища."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "корабль",
+        "ship"
+      ]
+    ],
+    "de": [
+      [
+        "das Schiff",
+        "ship"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein perfekter Ort zum Erkunden!"
+    ],
+    "A2": [
+      "Ein perfekter Ort zum Erkunden! Hier ist es aufregend."
+    ],
+    "natural": [
+      "Ein perfekter Ort zum Erkunden! Hier ist es aufregend. Bestimmt gibt es an Bord erstaunliche Schätze."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsOneFTakingALookAround",
+  "base_symbol": "AbandonedShip_Rooms_1F_Text_TakingALookAround",
+  "source_path": "data/maps/AbandonedShip_Rooms_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship explorer, cabin, deck, underwater, trash, or atmosphere interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Такие корабли редки, поэтому я осматриваюсь."
+    ],
+    "A2": [
+      "Такие корабли редки, поэтому я осматриваюсь. Хм..."
+    ],
+    "natural": [
+      "Такие корабли редки, поэтому я осматриваюсь. Хм... Кажется, здесь есть и другие каюты."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "корабль",
+        "ship"
+      ]
+    ],
+    "de": [
+      [
+        "das Schiff",
+        "ship"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Solche Schiffe sind selten, darum sehe ich mich um."
+    ],
+    "A2": [
+      "Solche Schiffe sind selten, darum sehe ich mich um. Hm..."
+    ],
+    "natural": [
+      "Solche Schiffe sind selten, darum sehe ich mich um. Hm... Es scheint weitere Kabinen zu geben."
+    ]
+  }
+},
+{
+  "id": "AbandonedShipRoomsBOneFGettingQueasy",
+  "base_symbol": "AbandonedShip_Rooms_B1F_Text_GettingQueasy",
+  "source_path": "data/maps/AbandonedShip_Rooms_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Abandoned Ship explorer, cabin, deck, underwater, trash, or atmosphere interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У-у..."
+    ],
+    "A2": [
+      "У-у... Меня тошнит уже от одного пребывания на корабле."
+    ],
+    "natural": [
+      "У-у... Меня тошнит уже от одного пребывания на корабле. А он ведь даже не движется..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "корабль",
+        "ship"
+      ]
+    ],
+    "de": [
+      [
+        "das Schiff",
+        "ship"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Uah..."
+    ],
+    "A2": [
+      "Uah... Schon an Bord wird mir übel."
+    ],
+    "natural": [
+      "Uah... Schon an Bord wird mir übel. Dabei bewegt sich das Schiff nicht einmal..."
+    ]
+  }
 }
   ]
 }

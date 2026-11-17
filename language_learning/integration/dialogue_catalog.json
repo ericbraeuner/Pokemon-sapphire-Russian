@@ -55166,6 +55166,786 @@
     "pacifidlog",
     "sealed"
   ]
+},
+{
+  "id": "abandonedship.scanner.abandonedship.captainsoffice.text.nosuccessfindingscanner.2757",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_CaptainsOffice/scripts.inc",
+    "symbol": "AbandonedShip_CaptainsOffice_EventScript_CaptSternAide",
+    "base_text_path": "data/maps/AbandonedShip_CaptainsOffice/text.inc",
+    "base_text_symbol": "AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCaptainsOfficeNoSuccessFindingScanner"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2757
+  },
+  "tags": [
+    "abandoned_ship",
+    "scanner"
+  ]
+},
+{
+  "id": "abandonedship.scanner.abandonedship.captainsoffice.text.ohcanyoudeliverscanner.2758",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_CaptainsOffice/scripts.inc",
+    "symbol": "AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner",
+    "base_text_path": "data/maps/AbandonedShip_CaptainsOffice/text.inc",
+    "base_text_symbol": "AbandonedShip_CaptainsOffice_Text_OhCanYouDeliverScanner",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCaptainsOfficeOhCanYouDeliverScanner"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2758
+  },
+  "tags": [
+    "abandoned_ship",
+    "scanner"
+  ]
+},
+{
+  "id": "abandonedship.scanner.abandonedship.captainsoffice.text.thisissscactus.2759",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_CaptainsOffice/scripts.inc",
+    "symbol": "AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus",
+    "base_text_path": "data/maps/AbandonedShip_CaptainsOffice/text.inc",
+    "base_text_symbol": "AbandonedShip_CaptainsOffice_Text_ThisIsSSCactus",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCaptainsOfficeThisIsSSCactus"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2759
+  },
+  "tags": [
+    "abandoned_ship",
+    "scanner"
+  ]
+},
+{
+  "id": "abandonedship.ship.abandonedship.corridors.1f.text.isntitfunhere.2760",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_1F_EventScript_Youngster",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_1F_Text_IsntItFunHere",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsOneFIsntItFunHere"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2760
+  },
+  "tags": [
+    "abandoned_ship",
+    "ship"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.corridors.1f.text.charlieintro.2761",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_1F_EventScript_Charlie",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_1F_Text_CharlieIntro",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsOneFCharlieIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2761
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.corridors.1f.text.charliedefeat.2762",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_1F_EventScript_Charlie",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_1F_Text_CharlieDefeat",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsOneFCharlieDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2762
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.corridors.1f.text.charliepostbattle.2763",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_1F_EventScript_Charlie",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_1F_Text_CharliePostBattle",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsOneFCharliePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2763
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.ship.abandonedship.corridors.b1f.text.yayitsaship.2764",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_TuberM",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_B1F_Text_YayItsAShip",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsBOneFYayItsAShip"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2764
+  },
+  "tags": [
+    "abandoned_ship",
+    "ship"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.corridors.b1f.text.insertedstoragekey.2765",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_StorageRoomDoor",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_B1F_Text_InsertedStorageKey",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsBOneFInsertedStorageKey"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2765
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.corridors.b1f.text.doorislocked.2766",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_DoorIsLocked",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_B1F_Text_DoorIsLocked",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsBOneFDoorIsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2766
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.text.thedoorisopen.2767",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_DoorIsUnlocked",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Text_TheDoorIsOpen",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipTheDoorIsOpen"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2767
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.corridors.b1f.text.duncanintro.2768",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_Duncan",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_B1F_Text_DuncanIntro",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsBOneFDuncanIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2768
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.corridors.b1f.text.duncandefeat.2769",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_Duncan",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_B1F_Text_DuncanDefeat",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsBOneFDuncanDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2769
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.corridors.b1f.text.duncanpostbattle.2770",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Corridors_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Corridors_B1F_EventScript_Duncan",
+    "base_text_path": "data/maps/AbandonedShip_Corridors_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Corridors_B1F_Text_DuncanPostBattle",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipCorridorsBOneFDuncanPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2770
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.hiddenfloorcorridors.text.insertedkey.2771",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
+    "symbol": "AbandonedShip_HiddenFloorCorridors_EventScript_Room1Door",
+    "base_text_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+    "base_text_symbol": "AbandonedShip_HiddenFloorCorridors_Text_InsertedKey",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipHiddenFloorCorridorsInsertedKey"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2771
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.hiddenfloorcorridors.text.rm1doorislocked.2772",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
+    "symbol": "AbandonedShip_HiddenFloorCorridors_EventScript_Rm1IsLocked",
+    "base_text_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+    "base_text_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipHiddenFloorCorridorsRmOneDoorIsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2772
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.hiddenfloorcorridors.text.rm2doorislocked.2773",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
+    "symbol": "AbandonedShip_HiddenFloorCorridors_EventScript_Rm2IsLocked",
+    "base_text_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+    "base_text_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipHiddenFloorCorridorsRmTwoDoorIsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2773
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.hiddenfloorcorridors.text.rm4doorislocked.2774",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
+    "symbol": "AbandonedShip_HiddenFloorCorridors_EventScript_Rm4IsLocked",
+    "base_text_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+    "base_text_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipHiddenFloorCorridorsRmFourDoorIsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2774
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.key.abandonedship.hiddenfloorcorridors.text.rm6doorislocked.2775",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_HiddenFloorCorridors/scripts.inc",
+    "symbol": "AbandonedShip_HiddenFloorCorridors_EventScript_Rm6IsLocked",
+    "base_text_path": "data/maps/AbandonedShip_HiddenFloorCorridors/text.inc",
+    "base_text_symbol": "AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipHiddenFloorCorridorsRmSixDoorIsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2775
+  },
+  "tags": [
+    "abandoned_ship",
+    "key"
+  ]
+},
+{
+  "id": "abandonedship.ship.abandonedship.hiddenfloorrooms.text.brightshinytrash.2776",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_HiddenFloorRooms/scripts.inc",
+    "symbol": "AbandonedShip_HiddenFloorRooms_EventScript_Trash",
+    "base_text_path": "data/maps/AbandonedShip_HiddenFloorRooms/text.inc",
+    "base_text_symbol": "AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipHiddenFloorRoomsBrightShinyTrash"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2776
+  },
+  "tags": [
+    "abandoned_ship",
+    "ship"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halintro.2777",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Hal",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalIntro",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2777
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.haldefeat.2778",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Hal",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalDefeat",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2778
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halneedtwopokemon.2779",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Hal",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalNeedTwoPokemon",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalNeedTwoPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2779
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halpostbattle.2780",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Hal",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalPostBattle",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2780
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halrematchintro.2781",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_HalRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchIntro",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalRematchIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2781
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halrematchdefeat.2782",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_HalRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchDefeat",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalRematchDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2782
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halrematchneedtwopokemon.2783",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_HalRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchNeedTwoPokemon",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalRematchNeedTwoPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2783
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.halrematchpostbattle.2784",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_HalRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_HalRematchPostBattle",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFHalRematchPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2784
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisintro.2785",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Lois",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisIntro",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2785
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisdefeat.2786",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Lois",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisDefeat",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2786
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisneedtwopokemon.2787",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Lois",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisNeedTwoPokemon",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisNeedTwoPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2787
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loispostbattle.2788",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_Lois",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisPostBattle",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2788
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisrematchintro.2789",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_LoisRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchIntro",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisRematchIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2789
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisrematchdefeat.2790",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_LoisRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchDefeat",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisRematchDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2790
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisrematchneedtwopokemon.2791",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_LoisRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchNeedTwoPokemon",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisRematchNeedTwoPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2791
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.trainer.abandonedship.rooms2.1f.text.loisrematchpostbattle.2792",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_1F_EventScript_LoisRematch",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_1F_Text_LoisRematchPostBattle",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoOneFLoisRematchPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2792
+  },
+  "tags": [
+    "abandoned_ship",
+    "trainer"
+  ]
+},
+{
+  "id": "abandonedship.ship.abandonedship.rooms2.b1f.text.perfectplacetogoexploring.2793",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms2_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms2_B1F_EventScript_Camper",
+    "base_text_path": "data/maps/AbandonedShip_Rooms2_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms2_B1F_Text_PerfectPlaceToGoExploring",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsTwoBOneFPerfectPlaceToGoExploring"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2793
+  },
+  "tags": [
+    "abandoned_ship",
+    "ship"
+  ]
+},
+{
+  "id": "abandonedship.ship.abandonedship.rooms.1f.text.takingalookaround.2794",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms_1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms_1F_EventScript_Gentleman",
+    "base_text_path": "data/maps/AbandonedShip_Rooms_1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms_1F_Text_TakingALookAround",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsOneFTakingALookAround"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2794
+  },
+  "tags": [
+    "abandoned_ship",
+    "ship"
+  ]
+},
+{
+  "id": "abandonedship.ship.abandonedship.rooms.b1f.text.gettingqueasy.2795",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/AbandonedShip_Rooms_B1F/scripts.inc",
+    "symbol": "AbandonedShip_Rooms_B1F_EventScript_FatMan",
+    "base_text_path": "data/maps/AbandonedShip_Rooms_B1F/text.inc",
+    "base_text_symbol": "AbandonedShip_Rooms_B1F_Text_GettingQueasy",
+    "note": "Adaptive translation preserves trainer battles, rematches, Dive access, room and storage keys, Scanner progression, items, doors, and event flags.",
+    "authored_id": "AbandonedShipRoomsBOneFGettingQueasy"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2795
+  },
+  "tags": [
+    "abandoned_ship",
+    "ship"
+  ]
 }
   ]
 }

@@ -734,6 +734,8 @@ class LessonTests(unittest.TestCase):
                             'PacifidlogTown_PokemonCenter_1F',
                             'SealedChamber_InnerRoom', 'SealedChamber_OuterRoom')
         paths += [f'data/maps/{area}/scripts.inc' for area in pacifidlog_areas]
+        paths += [str(path.relative_to(demo.ROOT)) for path in
+                  (demo.ROOT / 'data/maps').glob('AbandonedShip*/scripts.inc')]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2897,6 +2899,21 @@ class LessonTests(unittest.TestCase):
                          templates['SealedChamber_OuterRoom_Text_1A13BE']['de'])
         self.assertEqual('В стене большая дыра.',
                          templates['SealedChamber_OuterRoom_Text_1A13BE']['ru'])
+
+    def test_abandoned_ship_is_fully_adaptive(self):
+        sources = '\n'.join(
+            path.read_text(errors='replace')
+            for path in sorted((demo.ROOT / 'data/maps').glob('AbandonedShip*/scripts.inc'))
+        )
+        referenced = set(re.findall(
+            r'AbandonedShip[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(39, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

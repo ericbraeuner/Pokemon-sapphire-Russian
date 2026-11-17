@@ -7,7 +7,14 @@ def _template_width(text, mapping, glyphs, widths):
     total = 0
     for part in re.split(r'(\{[^}]+\})', text):
         if part.startswith('{'):
-            total += widths[part[1:-1]]
+            token = part[1:-1]
+            if token == 'PAUSE_UNTIL_PRESS' or token.startswith(
+                    ('PAUSE ', 'CLEAR ', 'CLEAR_TO ', 'PALETTE ', 'PLAY_SE ')):
+                continue
+            if token == 'POKEBLOCK':
+                total += 40
+                continue
+            total += widths[token]
         else:
             total += sum(len(glyphs[c][0]) + 1 if c in glyphs else 8 for c in part)
     return total

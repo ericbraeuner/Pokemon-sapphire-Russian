@@ -676,6 +676,25 @@ class LessonTests(unittest.TestCase):
                          'SafariZone_RestHouse', 'SafariZone_Southeast',
                          'SafariZone_Southwest')
         paths += [f'data/maps/{area}/scripts.inc' for area in mt_pyre_areas]
+        lilycove_areas = ('AquaHideout_1F', 'AquaHideout_B1F', 'AquaHideout_B2F',
+                          'LilycoveCity', 'LilycoveCity_ContestHall',
+                          'LilycoveCity_ContestLobby', 'LilycoveCity_CoveLilyMotel_1F',
+                          'LilycoveCity_CoveLilyMotel_2F',
+                          'LilycoveCity_DepartmentStore_1F',
+                          'LilycoveCity_DepartmentStore_2F',
+                          'LilycoveCity_DepartmentStore_3F',
+                          'LilycoveCity_DepartmentStore_4F',
+                          'LilycoveCity_DepartmentStore_5F',
+                          'LilycoveCity_DepartmentStoreElevator',
+                          'LilycoveCity_DepartmentStoreRooftop', 'LilycoveCity_Harbor',
+                          'LilycoveCity_House1', 'LilycoveCity_House2',
+                          'LilycoveCity_House3', 'LilycoveCity_House4',
+                          'LilycoveCity_LilycoveMuseum_1F',
+                          'LilycoveCity_LilycoveMuseum_2F',
+                          'LilycoveCity_MoveDeletersHouse',
+                          'LilycoveCity_PokemonCenter_1F',
+                          'LilycoveCity_PokemonTrainerFanClub')
+        paths += [f'data/maps/{area}/scripts.inc' for area in lilycove_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2669,6 +2688,34 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(153, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
+    def test_lilycove_and_aqua_hideout_are_fully_adaptive(self):
+        areas = ('AquaHideout_1F', 'AquaHideout_B1F', 'AquaHideout_B2F',
+                 'LilycoveCity', 'LilycoveCity_ContestHall',
+                 'LilycoveCity_ContestLobby', 'LilycoveCity_CoveLilyMotel_1F',
+                 'LilycoveCity_CoveLilyMotel_2F', 'LilycoveCity_DepartmentStore_1F',
+                 'LilycoveCity_DepartmentStore_2F', 'LilycoveCity_DepartmentStore_3F',
+                 'LilycoveCity_DepartmentStore_4F', 'LilycoveCity_DepartmentStore_5F',
+                 'LilycoveCity_DepartmentStoreElevator',
+                 'LilycoveCity_DepartmentStoreRooftop', 'LilycoveCity_Harbor',
+                 'LilycoveCity_House1', 'LilycoveCity_House2', 'LilycoveCity_House3',
+                 'LilycoveCity_House4', 'LilycoveCity_LilycoveMuseum_1F',
+                 'LilycoveCity_LilycoveMuseum_2F', 'LilycoveCity_MoveDeletersHouse',
+                 'LilycoveCity_PokemonCenter_1F', 'LilycoveCity_PokemonTrainerFanClub')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:LilycoveCity|AquaHideout)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(320, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = set()
@@ -3191,10 +3238,15 @@ class LessonTests(unittest.TestCase):
                                                 self.glyphs, 0, {}, 192)
         pokeblock = field_templates.compile_text('{POKEBLOCK}', self.russian,
                                                  self.glyphs, 0, {}, 192)
+        pause = field_templates.compile_text('{PAUSE 0x39}', self.latin,
+                                             {}, 3, {}, 192)
         self.assertIn([0xFC, 0x13, 0x72],
                       [clear_to[i:i + 3] for i in range(len(clear_to) - 2)])
         self.assertIn([0x55, 0x56, 0x57, 0x58, 0x59],
                       [pokeblock[i:i + 5] for i in range(len(pokeblock) - 4)])
+        self.assertIn([0xFC, 8, 0x39],
+                      [pause[i:i + 3] for i in range(len(pause) - 2)])
+        self.assertEqual(0, opening._template_width('{PAUSE 0x39}', self.latin, {}, {}))
 
     def test_trainer_card_and_battle_records_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

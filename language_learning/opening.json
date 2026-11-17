@@ -108317,6 +108317,5271 @@
       "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
     ]
   }
+},
+{
+  "id": "RouteOneTwoFiveOneCZeroFCF",
+  "base_symbol": "Route125_Text_1C0FCF",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я услышал твоё приближение и решил подождать!"
+    ],
+    "A2": [
+      "Я услышал твоё приближение и решил подождать!"
+    ],
+    "natural": [
+      "Я услышал твоё приближение и решил подождать!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich hörte dich kommen und wartete auf dich!"
+    ],
+    "A2": [
+      "Ich hörte dich kommen und wartete auf dich!"
+    ],
+    "natural": [
+      "Ich hörte dich kommen und wartete auf dich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroZeroTwo",
+  "base_symbol": "Route125_Text_1C1002",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Прошу мира!"
+    ],
+    "A2": [
+      "Прошу мира!"
+    ],
+    "natural": [
+      "Прошу мира!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bitte um Frieden!"
+    ],
+    "A2": [
+      "Ich bitte um Frieden!"
+    ],
+    "natural": [
+      "Ich bitte um Frieden!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroOneThree",
+  "base_symbol": "Route125_Text_1C1013",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В воде звук распространяется быстрее, чем в воздухе."
+    ],
+    "A2": [
+      "В воде звук распространяется быстрее, чем в воздухе."
+    ],
+    "natural": [
+      "В воде звук распространяется быстрее, чем в воздухе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Wasser breitet sich Schall schneller aus als in der Luft."
+    ],
+    "A2": [
+      "Im Wasser breitet sich Schall schneller aus als in der Luft."
+    ],
+    "natural": [
+      "Im Wasser breitet sich Schall schneller aus als in der Luft."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroFourB",
+  "base_symbol": "Route125_Text_1C104B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эй, привет!"
+    ],
+    "A2": [
+      "Эй, привет! Зацени моих славных покемонов!"
+    ],
+    "natural": [
+      "Эй, привет! Зацени моих славных покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "He, hallo!"
+    ],
+    "A2": [
+      "He, hallo! Sieh dir meine tollen Pokémon an!"
+    ],
+    "natural": [
+      "He, hallo! Sieh dir meine tollen Pokémon an!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroSevenThree",
+  "base_symbol": "Route125_Text_1C1073",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я барахтался..."
+    ],
+    "A2": [
+      "Я барахтался..."
+    ],
+    "natural": [
+      "Я барахтался..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin gestrauchelt..."
+    ],
+    "A2": [
+      "Ich bin gestrauchelt..."
+    ],
+    "natural": [
+      "Ich bin gestrauchelt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroEightThree",
+  "base_symbol": "Route125_Text_1C1083",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Очарование Хорси меня покорило, и я тоже начал плавать."
+    ],
+    "A2": [
+      "Очарование Хорси меня покорило, и я тоже начал плавать."
+    ],
+    "natural": [
+      "Очарование Хорси меня покорило, и я тоже начал плавать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seeper hat mich so bezaubert, dass auch ich zu schwimmen begann."
+    ],
+    "A2": [
+      "Seeper hat mich so bezaubert, dass auch ich zu schwimmen begann."
+    ],
+    "natural": [
+      "Seeper hat mich so bezaubert, dass auch ich zu schwimmen begann."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroCThree",
+  "base_symbol": "Route125_Text_1C10C3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я устал плавать."
+    ],
+    "A2": [
+      "Я устал плавать. Хочешь со мной сразиться?"
+    ],
+    "natural": [
+      "Я устал плавать. Хочешь со мной сразиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin das Schwimmen leid."
+    ],
+    "A2": [
+      "Ich bin das Schwimmen leid. Kämpfst du gegen mich?"
+    ],
+    "natural": [
+      "Ich bin das Schwimmen leid. Kämpfst du gegen mich?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneZeroFB",
+  "base_symbol": "Route125_Text_1C10FB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С тобой не справиться!"
+    ],
+    "A2": [
+      "С тобой не справиться!"
+    ],
+    "natural": [
+      "С тобой не справиться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist einfach zu viel!"
+    ],
+    "A2": [
+      "Du bist einfach zu viel!"
+    ],
+    "natural": [
+      "Du bist einfach zu viel!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneOneZeroC",
+  "base_symbol": "Route125_Text_1C110C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Фух..."
+    ],
+    "A2": [
+      "Фух... В какой стороне Моссдип?"
+    ],
+    "natural": [
+      "Фух... В какой стороне Моссдип?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Puh..."
+    ],
+    "A2": [
+      "Puh... Wo liegt Moosbach City?"
+    ],
+    "natural": [
+      "Puh... Wo liegt Moosbach City?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneOneThreeSix",
+  "base_symbol": "Route125_Text_1C1136",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочешь сразиться с покемонами водного типа, которых я вырастил?"
+    ],
+    "A2": [
+      "Хочешь сразиться с покемонами водного типа, которых я вырастил?"
+    ],
+    "natural": [
+      "Хочешь сразиться с покемонами водного типа, которых я вырастил?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Möchtest du gegen meine großgezogenen Wasser-Pokémon antreten?"
+    ],
+    "A2": [
+      "Möchtest du gegen meine großgezogenen Wasser-Pokémon antreten?"
+    ],
+    "natural": [
+      "Möchtest du gegen meine großgezogenen Wasser-Pokémon antreten?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneOneSevenFive",
+  "base_symbol": "Route125_Text_1C1175",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл..."
+    ],
+    "A2": [
+      "Я проиграл..."
+    ],
+    "natural": [
+      "Я проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe verloren..."
+    ],
+    "A2": [
+      "Ich habe verloren..."
+    ],
+    "natural": [
+      "Ich habe verloren..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneOneSevenF",
+  "base_symbol": "Route125_Text_1C117F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твоя сила..."
+    ],
+    "A2": [
+      "Твоя сила... Ты настоящий мастер."
+    ],
+    "natural": [
+      "Твоя сила... Ты настоящий мастер. Я поражён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Kraft..."
+    ],
+    "A2": [
+      "Deine Kraft... Du bist ein wahrer Könner."
+    ],
+    "natural": [
+      "Deine Kraft... Du bist ein wahrer Könner. Ich bin beeindruckt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneOneAF",
+  "base_symbol": "Route125_Text_1C11AF",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эй!"
+    ],
+    "A2": [
+      "Эй! Я могучий, крепкий моряк!"
+    ],
+    "natural": [
+      "Эй! Я могучий, крепкий моряк! Я бороздил моря всего мира!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahoi!"
+    ],
+    "A2": [
+      "Ahoi! Ich bin ein kräftiger, harter Matrose!"
+    ],
+    "natural": [
+      "Ahoi! Ich bin ein kräftiger, harter Matrose! Ich durchquerte alle Meere!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneOneED",
+  "base_symbol": "Route125_Text_1C11ED",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Гр-р-р!"
+    ],
+    "A2": [
+      "Гр-р-р! Я не смог победить!"
+    ],
+    "natural": [
+      "Гр-р-р! Я не смог победить!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Grroaar!"
+    ],
+    "A2": [
+      "Grroaar! Ich konnte nicht gewinnen!"
+    ],
+    "natural": [
+      "Grroaar! Ich konnte nicht gewinnen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneTwoZeroEight",
+  "base_symbol": "Route125_Text_1C1208",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В Прибрежной пещере бывают приливы и отливы."
+    ],
+    "A2": [
+      "В Прибрежной пещере бывают приливы и отливы. От прилива до отлива около шести часов."
+    ],
+    "natural": [
+      "В Прибрежной пещере бывают приливы и отливы. От прилива до отлива около шести часов. Ты знал?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In der Küstenhöhle steigt und fällt die Flut."
+    ],
+    "A2": [
+      "In der Küstenhöhle steigt und fällt die Flut. Von Flut bis Ebbe sind es etwa sechs Stunden."
+    ],
+    "natural": [
+      "In der Küstenhöhle steigt und fällt die Flut. Von Flut bis Ebbe sind es etwa sechs Stunden. Gewusst?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneTwoEightTwo",
+  "base_symbol": "Route125_Text_1C1282",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пришло время отплатить тебе!"
+    ],
+    "A2": [
+      "Пришло время отплатить тебе! Давай сразимся!"
+    ],
+    "natural": [
+      "Пришло время отплатить тебе! Давай сразимся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Höchste Zeit, es dir heimzuzahlen!"
+    ],
+    "A2": [
+      "Höchste Zeit, es dir heimzuzahlen! Komm, wir kämpfen!"
+    ],
+    "natural": [
+      "Höchste Zeit, es dir heimzuzahlen! Komm, wir kämpfen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneTwoCFive",
+  "base_symbol": "Route125_Text_1C12C5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не смог победить!"
+    ],
+    "A2": [
+      "Я не смог победить! Никак не смог!"
+    ],
+    "natural": [
+      "Я не смог победить! Никак не смог!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich konnte nicht gewinnen!"
+    ],
+    "A2": [
+      "Ich konnte nicht gewinnen! Überhaupt nicht!"
+    ],
+    "natural": [
+      "Ich konnte nicht gewinnen! Überhaupt nicht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneTwoEE",
+  "base_symbol": "Route125_Text_1C12EE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В Прибрежной пещере из-за прилива одни места доступны, а другие нет."
+    ],
+    "A2": [
+      "В Прибрежной пещере из-за прилива одни места доступны, а другие нет. Между приливом и отливом около шести часов."
+    ],
+    "natural": [
+      "В Прибрежной пещере из-за прилива одни места доступны, а другие нет. Между приливом и отливом около шести часов. Не забудь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In der Küstenhöhle sind Orte je nach Gezeiten erreichbar."
+    ],
+    "A2": [
+      "In der Küstenhöhle sind Orte je nach Gezeiten erreichbar. Von Flut bis Ebbe sind es sechs Stunden."
+    ],
+    "natural": [
+      "In der Küstenhöhle sind Orte je nach Gezeiten erreichbar. Von Flut bis Ebbe sind es sechs Stunden. Nicht vergessen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneThreeAOne",
+  "base_symbol": "Route125_Text_1C13A1",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КИМ: В Прибрежной пещере живёт забавный старик."
+    ],
+    "A2": [
+      "КИМ: В Прибрежной пещере живёт забавный старик. Мне так сказали."
+    ],
+    "natural": [
+      "КИМ: В Прибрежной пещере живёт забавный старик. Мне так сказали. Ты тоже идёшь к нему?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KIM: In der Küstenhöhle lebt ein lustiger alter Mann."
+    ],
+    "A2": [
+      "KIM: In der Küstenhöhle lebt ein lustiger alter Mann. Das hörte ich."
+    ],
+    "natural": [
+      "KIM: In der Küstenhöhle lebt ein lustiger alter Mann. Das hörte ich. Willst du auch zu ihm?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneThreeFF",
+  "base_symbol": "Route125_Text_1C13FF",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КИМ: Я думала, мы победим."
+    ],
+    "A2": [
+      "КИМ: Я думала, мы победим."
+    ],
+    "natural": [
+      "КИМ: Я думала, мы победим."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KIM: Ich dachte, wir würden gewinnen."
+    ],
+    "A2": [
+      "KIM: Ich dachte, wir würden gewinnen."
+    ],
+    "natural": [
+      "KIM: Ich dachte, wir würden gewinnen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneFourSixE",
+  "base_symbol": "Route125_Text_1C146E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КИМ: Нет, нет, нет!"
+    ],
+    "A2": [
+      "КИМ: Нет, нет, нет! Тебе нужны два покемона, иначе ничего не выйдет!"
+    ],
+    "natural": [
+      "КИМ: Нет, нет, нет! Тебе нужны два покемона, иначе ничего не выйдет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KIM: Nein, nein, nein!"
+    ],
+    "A2": [
+      "KIM: Nein, nein, nein! Du brauchst zwei Pokémon, sonst geht es nicht!"
+    ],
+    "natural": [
+      "KIM: Nein, nein, nein! Du brauchst zwei Pokémon, sonst geht es nicht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneFourOneC",
+  "base_symbol": "Route125_Text_1C141C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КИМ: В Прибрежной пещере живёт забавный старик, верно?"
+    ],
+    "A2": [
+      "КИМ: В Прибрежной пещере живёт забавный старик, верно? Пойдём к нему, Айрис!"
+    ],
+    "natural": [
+      "КИМ: В Прибрежной пещере живёт забавный старик, верно? Пойдём к нему, Айрис!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KIM: In der Küstenhöhle lebt ein lustiger alter Mann, oder?"
+    ],
+    "A2": [
+      "KIM: In der Küstenhöhle lebt ein lustiger alter Mann, oder? Besuchen wir ihn, IRIS!"
+    ],
+    "natural": [
+      "KIM: In der Küstenhöhle lebt ein lustiger alter Mann, oder? Besuchen wir ihn, IRIS!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneFourAB",
+  "base_symbol": "Route125_Text_1C14AB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙРИС: Ким, скажешь, что мы здесь ищем?"
+    ],
+    "A2": [
+      "АЙРИС: Ким, скажешь, что мы здесь ищем?"
+    ],
+    "natural": [
+      "АЙРИС: Ким, скажешь, что мы здесь ищем?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IRIS: KIM, sagst du mir, wonach wir hier suchen?"
+    ],
+    "A2": [
+      "IRIS: KIM, sagst du mir, wonach wir hier suchen?"
+    ],
+    "natural": [
+      "IRIS: KIM, sagst du mir, wonach wir hier suchen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneFourESeven",
+  "base_symbol": "Route125_Text_1C14E7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙРИС: О, мы были довольно близки."
+    ],
+    "A2": [
+      "АЙРИС: О, мы были довольно близки."
+    ],
+    "natural": [
+      "АЙРИС: О, мы были довольно близки."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IRIS: Oh, es war ziemlich knapp."
+    ],
+    "A2": [
+      "IRIS: Oh, es war ziemlich knapp."
+    ],
+    "natural": [
+      "IRIS: Oh, es war ziemlich knapp."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneFiveFourF",
+  "base_symbol": "Route125_Text_1C154F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙРИС: О, мы никогда не станем сражаться вдвоём против одного."
+    ],
+    "A2": [
+      "АЙРИС: О, мы никогда не станем сражаться вдвоём против одного."
+    ],
+    "natural": [
+      "АЙРИС: О, мы никогда не станем сражаться вдвоём против одного."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IRIS: Oh, wir würden niemals zwei gegen einen kämpfen."
+    ],
+    "A2": [
+      "IRIS: Oh, wir würden niemals zwei gegen einen kämpfen."
+    ],
+    "natural": [
+      "IRIS: Oh, wir würden niemals zwei gegen einen kämpfen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFiveOneCOneFiveZeroEight",
+  "base_symbol": "Route125_Text_1C1508",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЙРИС: Ким, мы правда пойдём в Прибрежную пещеру?"
+    ],
+    "A2": [
+      "АЙРИС: Ким, мы правда пойдём в Прибрежную пещеру? Мы же промокнем."
+    ],
+    "natural": [
+      "АЙРИС: Ким, мы правда пойдём в Прибрежную пещеру? Мы же промокнем."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IRIS: KIM, gehen wir wirklich in die Küstenhöhle?"
+    ],
+    "A2": [
+      "IRIS: KIM, gehen wir wirklich in die Küstenhöhle? Wir werden ganz nass."
+    ],
+    "natural": [
+      "IRIS: KIM, gehen wir wirklich in die Küstenhöhle? Wir werden ganz nass."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneFiveNineZero",
+  "base_symbol": "Route126_Text_1C1590",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Плавание тренирует всё тело!"
+    ],
+    "A2": [
+      "Плавание тренирует всё тело! Ты будешь в форме!"
+    ],
+    "natural": [
+      "Плавание тренирует всё тело! Ты будешь в форме!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Schwimmen trainiert den ganzen Körper!"
+    ],
+    "A2": [
+      "Schwimmen trainiert den ganzen Körper! So wirst du fit!"
+    ],
+    "natural": [
+      "Schwimmen trainiert den ganzen Körper! So wirst du fit!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneFiveCThree",
+  "base_symbol": "Route126_Text_1C15C3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Признаю!"
+    ],
+    "A2": [
+      "Признаю! Ты победил!"
+    ],
+    "natural": [
+      "Признаю! Ты победил!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich gebe es zu!"
+    ],
+    "A2": [
+      "Ich gebe es zu! Du gewinnst!"
+    ],
+    "natural": [
+      "Ich gebe es zu! Du gewinnst!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneFiveDEight",
+  "base_symbol": "Route126_Text_1C15D8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Благодаря ежедневному плаванию..."
+    ],
+    "A2": [
+      "Благодаря ежедневному плаванию... Смотри!"
+    ],
+    "natural": [
+      "Благодаря ежедневному плаванию... Смотри! Полюбуйся этим телосложением!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dank meines täglichen Schwimmens..."
+    ],
+    "A2": [
+      "Dank meines täglichen Schwimmens... Sieh!"
+    ],
+    "natural": [
+      "Dank meines täglichen Schwimmens... Sieh! Bestaune diesen Körper!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSixTwoSeven",
+  "base_symbol": "Route126_Text_1C1627",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эта высокая белая каменная гора - город Сутополис."
+    ],
+    "A2": [
+      "Эта высокая белая каменная гора - город Сутополис."
+    ],
+    "natural": [
+      "Эта высокая белая каменная гора - город Сутополис."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieser hohe weiße Felsberg ist Xeneroville."
+    ],
+    "A2": [
+      "Dieser hohe weiße Felsberg ist Xeneroville."
+    ],
+    "natural": [
+      "Dieser hohe weiße Felsberg ist Xeneroville."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSixSixZero",
+  "base_symbol": "Route126_Text_1C1660",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня одолели?"
+    ],
+    "A2": [
+      "Меня одолели?"
+    ],
+    "natural": [
+      "Меня одолели?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich wurde besiegt?"
+    ],
+    "A2": [
+      "Ich wurde besiegt?"
+    ],
+    "natural": [
+      "Ich wurde besiegt?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSixSixF",
+  "base_symbol": "Route126_Text_1C166F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не могу найти вход в Сутополис."
+    ],
+    "A2": [
+      "Я не могу найти вход в Сутополис. Где же он?"
+    ],
+    "natural": [
+      "Я не могу найти вход в Сутополис. Где же он?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich finde den Eingang nach Xeneroville nicht."
+    ],
+    "A2": [
+      "Ich finde den Eingang nach Xeneroville nicht. Wo kann er sein?"
+    ],
+    "natural": [
+      "Ich finde den Eingang nach Xeneroville nicht. Wo kann er sein?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSixAB",
+  "base_symbol": "Route126_Text_1C16AB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Уфуфуфу!"
+    ],
+    "A2": [
+      "Уфуфуфу! Я русалка!"
+    ],
+    "natural": [
+      "Уфуфуфу! Я русалка!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ufufufufu!"
+    ],
+    "A2": [
+      "Ufufufufu! Ich bin eine Meerjungfrau!"
+    ],
+    "natural": [
+      "Ufufufufu! Ich bin eine Meerjungfrau!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSixCFive",
+  "base_symbol": "Route126_Text_1C16C5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя мечта лопнула, словно пузырь!"
+    ],
+    "A2": [
+      "Моя мечта лопнула, словно пузырь! Буль-буль-буль..."
+    ],
+    "natural": [
+      "Моя мечта лопнула, словно пузырь! Буль-буль-буль..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Fantasie zerplatzte wie eine Blase!"
+    ],
+    "A2": [
+      "Meine Fantasie zerplatzte wie eine Blase! Blubb, blubb, blubb..."
+    ],
+    "natural": [
+      "Meine Fantasie zerplatzte wie eine Blase! Blubb, blubb, blubb..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSevenZeroTwo",
+  "base_symbol": "Route126_Text_1C1702",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты меня разгромил..."
+    ],
+    "A2": [
+      "Ты меня разгромил... Хочу исчезнуть в волне отчаяния..."
+    ],
+    "natural": [
+      "Ты меня разгромил... Хочу исчезнуть в волне отчаяния..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast mich vernichtend geschlagen..."
+    ],
+    "A2": [
+      "Du hast mich vernichtend geschlagen... Ich will in einer Welle der Verzweiflung verschwinden..."
+    ],
+    "natural": [
+      "Du hast mich vernichtend geschlagen... Ich will in einer Welle der Verzweiflung verschwinden..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSevenFourOne",
+  "base_symbol": "Route126_Text_1C1741",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, малыш!"
+    ],
+    "A2": [
+      "Привет, малыш! Хочешь со мной сразиться?"
+    ],
+    "natural": [
+      "Привет, малыш! Хочешь со мной сразиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, Kleiner!"
+    ],
+    "A2": [
+      "Hallo, Kleiner! Willst du gegen mich kämpfen?"
+    ],
+    "natural": [
+      "Hallo, Kleiner! Willst du gegen mich kämpfen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSevenSixSix",
+  "base_symbol": "Route126_Text_1C1766",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О не-е-ет!"
+    ],
+    "A2": [
+      "О не-е-ет!"
+    ],
+    "natural": [
+      "О не-е-ет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh neeeein!"
+    ],
+    "A2": [
+      "Oh neeeein!"
+    ],
+    "natural": [
+      "Oh neeeein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSixOneCOneSevenSevenThree",
+  "base_symbol": "Route126_Text_1C1773",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я люблю вот так резвиться с покемонами в море!"
+    ],
+    "A2": [
+      "Я люблю вот так резвиться с покемонами в море!"
+    ],
+    "natural": [
+      "Я люблю вот так резвиться с покемонами в море!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich liebe es, so mit Pokémon im Meer herumzutollen!"
+    ],
+    "A2": [
+      "Ich liebe es, so mit Pokémon im Meer herumzutollen!"
+    ],
+    "natural": [
+      "Ich liebe es, so mit Pokémon im Meer herumzutollen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneSevenAEight",
+  "base_symbol": "Route127_Text_1C17A8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я вижу по твоему лицу."
+    ],
+    "A2": [
+      "Я вижу по твоему лицу. Ты хочешь бросить мне вызов."
+    ],
+    "natural": [
+      "Я вижу по твоему лицу. Ты хочешь бросить мне вызов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich sehe es dir an."
+    ],
+    "A2": [
+      "Ich sehe es dir an. Du willst mich herausfordern."
+    ],
+    "natural": [
+      "Ich sehe es dir an. Du willst mich herausfordern."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneSevenDD",
+  "base_symbol": "Route127_Text_1C17DD",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ававававава..."
+    ],
+    "A2": [
+      "Ававававава..."
+    ],
+    "natural": [
+      "Ававававава..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Awawawawawa..."
+    ],
+    "A2": [
+      "Awawawawawa..."
+    ],
+    "natural": [
+      "Awawawawawa..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneSevenEC",
+  "base_symbol": "Route127_Text_1C17EC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошо сыгранный бой дарит мне свежесть и спокойствие."
+    ],
+    "A2": [
+      "Хорошо сыгранный бой дарит мне свежесть и спокойствие."
+    ],
+    "natural": [
+      "Хорошо сыгранный бой дарит мне свежесть и спокойствие."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein gut geführter Kampf lässt mich erfrischt und gelassen zurück."
+    ],
+    "A2": [
+      "Ein gut geführter Kampf lässt mich erfrischt und gelassen zurück."
+    ],
+    "natural": [
+      "Ein gut geführter Kampf lässt mich erfrischt und gelassen zurück."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneEightTwoEight",
+  "base_symbol": "Route127_Text_1C1828",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя есть соперник, которому особенно не хочется проигрывать?"
+    ],
+    "A2": [
+      "У тебя есть соперник, которому особенно не хочется проигрывать?"
+    ],
+    "natural": [
+      "У тебя есть соперник, которому особенно не хочется проигрывать?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du einen Rivalen, gegen den du besonders ungern verlierst?"
+    ],
+    "A2": [
+      "Hast du einen Rivalen, gegen den du besonders ungern verlierst?"
+    ],
+    "natural": [
+      "Hast du einen Rivalen, gegen den du besonders ungern verlierst?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneEightSixZero",
+  "base_symbol": "Route127_Text_1C1860",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ар-р-р!"
+    ],
+    "A2": [
+      "Ар-р-р! Ненавижу проигрывать!"
+    ],
+    "natural": [
+      "Ар-р-р! Ненавижу проигрывать!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Arrrgh!"
+    ],
+    "A2": [
+      "Arrrgh! Ich hasse es zu verlieren!"
+    ],
+    "natural": [
+      "Arrrgh! Ich hasse es zu verlieren!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneEightSevenSeven",
+  "base_symbol": "Route127_Text_1C1877",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Когда есть соперник, разве не хочется постоянно становиться лучше?"
+    ],
+    "A2": [
+      "Когда есть соперник, разве не хочется постоянно становиться лучше?"
+    ],
+    "natural": [
+      "Когда есть соперник, разве не хочется постоянно становиться лучше?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hat man einen Rivalen, will man dann nicht immer besser werden?"
+    ],
+    "A2": [
+      "Hat man einen Rivalen, will man dann nicht immer besser werden?"
+    ],
+    "natural": [
+      "Hat man einen Rivalen, will man dann nicht immer besser werden?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneEightCC",
+  "base_symbol": "Route127_Text_1C18CC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Благодаря рыбалке я достиг безмятежного спокойствия..."
+    ],
+    "A2": [
+      "Благодаря рыбалке я достиг безмятежного спокойствия... Позволь показать..."
+    ],
+    "natural": [
+      "Благодаря рыбалке я достиг безмятежного спокойствия... Позволь показать..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Durch Angeln erreichte ich heitere Gelassenheit..."
+    ],
+    "A2": [
+      "Durch Angeln erreichte ich heitere Gelassenheit... Lass es mich zeigen..."
+    ],
+    "natural": [
+      "Durch Angeln erreichte ich heitere Gelassenheit... Lass es mich zeigen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneNineThreeZero",
+  "base_symbol": "Route127_Text_1C1930",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хоть я и проиграл, моё сердце остаётся спокойным..."
+    ],
+    "A2": [
+      "Хоть я и проиграл, моё сердце остаётся спокойным..."
+    ],
+    "natural": [
+      "Хоть я и проиграл, моё сердце остаётся спокойным..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Obwohl ich verlor, bleibt mein Herz ruhig..."
+    ],
+    "A2": [
+      "Obwohl ich verlor, bleibt mein Herz ruhig..."
+    ],
+    "natural": [
+      "Obwohl ich verlor, bleibt mein Herz ruhig..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneNineFiveD",
+  "base_symbol": "Route127_Text_1C195D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Неважно, что я ничего не ловлю."
+    ],
+    "A2": [
+      "Неважно, что я ничего не ловлю. Леска остаётся в воде..."
+    ],
+    "natural": [
+      "Неважно, что я ничего не ловлю. Леска остаётся в воде..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es ist gleich, dass ich nichts fange."
+    ],
+    "A2": [
+      "Es ist gleich, dass ich nichts fange. Die Leine bleibt im Wasser..."
+    ],
+    "natural": [
+      "Es ist gleich, dass ich nichts fange. Die Leine bleibt im Wasser..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneNineAThree",
+  "base_symbol": "Route127_Text_1C19A3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой!"
+    ],
+    "A2": [
+      "Ой! Неужели я подцепил плывущего покемона?"
+    ],
+    "natural": [
+      "Ой! Неужели я подцепил плывущего покемона?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla!"
+    ],
+    "A2": [
+      "Hoppla! Habe ich etwa ein surfendes Pokémon am Haken?"
+    ],
+    "natural": [
+      "Hoppla! Habe ich etwa ein surfendes Pokémon am Haken?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneNineDSix",
+  "base_symbol": "Route127_Text_1C19D6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне не угнаться!"
+    ],
+    "A2": [
+      "Мне не угнаться!"
+    ],
+    "natural": [
+      "Мне не угнаться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kann nicht mithalten!"
+    ],
+    "A2": [
+      "Ich kann nicht mithalten!"
+    ],
+    "natural": [
+      "Ich kann nicht mithalten!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneNineESeven",
+  "base_symbol": "Route127_Text_1C19E7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твои покемоны выглядят сильными."
+    ],
+    "A2": [
+      "Твои покемоны выглядят сильными. Вот была бы морока, попадись они на крючок!"
+    ],
+    "natural": [
+      "Твои покемоны выглядят сильными. Вот была бы морока, попадись они на крючок!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Pokémon sehen stark aus."
+    ],
+    "A2": [
+      "Deine Pokémon sehen stark aus. Am Haken wären sie eine echte Herausforderung!"
+    ],
+    "natural": [
+      "Deine Pokémon sehen stark aus. Am Haken wären sie eine echte Herausforderung!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneATwoE",
+  "base_symbol": "Route127_Text_1C1A2E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ну, привет!"
+    ],
+    "A2": [
+      "Ну, привет! Это схватка поклонника покемонов и фаната рыбалки!"
+    ],
+    "natural": [
+      "Ну, привет! Это схватка поклонника покемонов и фаната рыбалки!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Na hallo!"
+    ],
+    "A2": [
+      "Na hallo! Das ist ein Duell zwischen Pokémon-Fan und Angelfreund!"
+    ],
+    "natural": [
+      "Na hallo! Das ist ein Duell zwischen Pokémon-Fan und Angelfreund!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneASevenThree",
+  "base_symbol": "Route127_Text_1C1A73",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет!"
+    ],
+    "A2": [
+      "Нет! Леска совсем запуталась!"
+    ],
+    "natural": [
+      "Нет! Леска совсем запуталась! Веселье окончено!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nein!"
+    ],
+    "A2": [
+      "Nein! Meine Leine ist völlig verheddert!"
+    ],
+    "natural": [
+      "Nein! Meine Leine ist völlig verheddert! Die Party ist vorbei!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneAAZero",
+  "base_symbol": "Route127_Text_1C1AA0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя леска танцует!"
+    ],
+    "A2": [
+      "Моя леска танцует! Танго путаницы!"
+    ],
+    "natural": [
+      "Моя леска танцует! Танго путаницы! Ха-ха, вот узел!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Angelschnur tanzt!"
+    ],
+    "A2": [
+      "Meine Angelschnur tanzt! Das Verhedder-Tango!"
+    ],
+    "natural": [
+      "Meine Angelschnur tanzt! Das Verhedder-Tango! Haha, was für ein Knoten!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneAETwo",
+  "base_symbol": "Route127_Text_1C1AE2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я применю здесь всё, чему научился в зале Дьюфорда."
+    ],
+    "A2": [
+      "Я применю здесь всё, чему научился в зале Дьюфорда."
+    ],
+    "natural": [
+      "Я применю здесь всё, чему научился в зале Дьюфорда."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was ich in der Arena von Faustauhaven lernte, setze ich hier ein."
+    ],
+    "A2": [
+      "Was ich in der Arena von Faustauhaven lernte, setze ich hier ein."
+    ],
+    "natural": [
+      "Was ich in der Arena von Faustauhaven lernte, setze ich hier ein."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneBTwoA",
+  "base_symbol": "Route127_Text_1C1B2A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня смыло!"
+    ],
+    "A2": [
+      "Меня смыло!"
+    ],
+    "natural": [
+      "Меня смыло!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich wurde hinweggespült!"
+    ],
+    "A2": [
+      "Ich wurde hinweggespült!"
+    ],
+    "natural": [
+      "Ich wurde hinweggespült!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneBThreeNine",
+  "base_symbol": "Route127_Text_1C1B39",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Говорят, Броули, лидер зала Дьюфорда, тренировался в Канто с парнем по имени Бруно."
+    ],
+    "A2": [
+      "Говорят, Броули, лидер зала Дьюфорда, тренировался в Канто с парнем по имени Бруно."
+    ],
+    "natural": [
+      "Говорят, Броули, лидер зала Дьюфорда, тренировался в Канто с парнем по имени Бруно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kamillo, der Arenaleiter von Faustauhaven, trainierte wohl mit Bruno aus Kanto."
+    ],
+    "A2": [
+      "Kamillo, der Arenaleiter von Faustauhaven, trainierte wohl mit Bruno aus Kanto."
+    ],
+    "natural": [
+      "Kamillo, der Arenaleiter von Faustauhaven, trainierte wohl mit Bruno aus Kanto."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneBNineTwo",
+  "base_symbol": "Route127_Text_1C1B92",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У покемонов-птиц отличное зрение."
+    ],
+    "A2": [
+      "У покемонов-птиц отличное зрение. Они замечают добычу с огромной высоты."
+    ],
+    "natural": [
+      "У покемонов-птиц отличное зрение. Они замечают добычу с огромной высоты."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vogel-Pokémon sehen hervorragend."
+    ],
+    "A2": [
+      "Vogel-Pokémon sehen hervorragend. Sie entdecken Beute aus großer Höhe."
+    ],
+    "natural": [
+      "Vogel-Pokémon sehen hervorragend. Sie entdecken Beute aus großer Höhe."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneBDNine",
+  "base_symbol": "Route127_Text_1C1BD9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Фух..."
+    ],
+    "A2": [
+      "Фух... Я сдаюсь."
+    ],
+    "natural": [
+      "Фух... Я сдаюсь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Puh..."
+    ],
+    "A2": [
+      "Puh... Ich gebe auf."
+    ],
+    "natural": [
+      "Puh... Ich gebe auf."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoSevenOneCOneBEC",
+  "base_symbol": "Route127_Text_1C1BEC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В здешнем море много мест для ныряния."
+    ],
+    "A2": [
+      "В здешнем море много мест для ныряния. С воздуха их легко заметить по более тёмному цвету."
+    ],
+    "natural": [
+      "В здешнем море много мест для ныряния. С воздуха их легко заметить по более тёмному цвету."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Meer gibt es viele Tauchstellen."
+    ],
+    "A2": [
+      "Im Meer gibt es viele Tauchstellen. Aus der Luft erkennt man sie leicht an ihrer dunkleren Farbe."
+    ],
+    "natural": [
+      "Im Meer gibt es viele Tauchstellen. Aus der Luft erkennt man sie leicht an ihrer dunkleren Farbe."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenOneEEZero",
+  "base_symbol": "Route128_Text_171EE0",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{EVIL_LEADER}: Что случилось..."
+    ],
+    "A2": [
+      "{EVIL_LEADER}: Что случилось... Что это за ужасная картина?"
+    ],
+    "natural": [
+      "{EVIL_LEADER}: Что случилось... Что это за ужасная картина? Неужели я совершил страшную ошибку?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{EVIL_LEADER}: Was ist geschehen..."
+    ],
+    "A2": [
+      "{EVIL_LEADER}: Was ist geschehen... Was ist das für ein Grauen?"
+    ],
+    "natural": [
+      "{EVIL_LEADER}: Was ist geschehen... Was ist das für ein Grauen? Habe ich einen furchtbaren Fehler gemacht?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenOneFThreeFive",
+  "base_symbol": "Route128_Text_171F35",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я..."
+    ],
+    "A2": [
+      "Я... Я лишь хотел..."
+    ],
+    "natural": [
+      "Я... Я лишь хотел..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich..."
+    ],
+    "A2": [
+      "Ich... Ich wollte doch nur..."
+    ],
+    "natural": [
+      "Ich... Ich wollte doch nur..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenOneFFourB",
+  "base_symbol": "Route128_Text_171F4B",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{GOOD_LEADER}: Теперь ты понимаешь, {EVIL_LEADER}?"
+    ],
+    "A2": [
+      "{GOOD_LEADER}: Теперь ты понимаешь, {EVIL_LEADER}? Видишь, к какой катастрофе привела твоя мечта?"
+    ],
+    "natural": [
+      "{GOOD_LEADER}: Теперь ты понимаешь, {EVIL_LEADER}? Видишь, к какой катастрофе привела твоя мечта? Нужно спешить, пока всё не вышло из-под контроля!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{GOOD_LEADER}: Verstehst du nun, {EVIL_LEADER}?"
+    ],
+    "A2": [
+      "{GOOD_LEADER}: Verstehst du nun, {EVIL_LEADER}? Siehst du, welche Katastrophe dein Traum brachte?"
+    ],
+    "natural": [
+      "{GOOD_LEADER}: Verstehst du nun, {EVIL_LEADER}? Siehst du, welche Katastrophe dein Traum brachte? Wir müssen handeln, bevor alles außer Kontrolle gerät!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenTwoZeroZeroEight",
+  "base_symbol": "Route128_Text_172008",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{GOOD_LEADER}: {PLAYER}..."
+    ],
+    "A2": [
+      "{GOOD_LEADER}: {PLAYER}... Мы, команда {GOOD_TEAM}, преследовали команду {EVIL_TEAM}, чтобы это остановить."
+    ],
+    "natural": [
+      "{GOOD_LEADER}: {PLAYER}... Мы, команда {GOOD_TEAM}, преследовали команду {EVIL_TEAM}, чтобы это остановить. Ты очень помог, но теперь всё зашло слишком далеко. Оставь это нам и уходи отсюда!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{GOOD_LEADER}: {PLAYER}..."
+    ],
+    "A2": [
+      "{GOOD_LEADER}: {PLAYER}... Wir von Team {GOOD_TEAM} verfolgten Team {EVIL_TEAM}, um dies zu verhindern."
+    ],
+    "natural": [
+      "{GOOD_LEADER}: {PLAYER}... Wir von Team {GOOD_TEAM} verfolgten Team {EVIL_TEAM}, um dies zu verhindern. Du hast geholfen, doch nun ist es zu gefährlich. Überlass es uns und geh!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenTwoOneZeroB",
+  "base_symbol": "Route128_Text_17210B",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{GOOD_LEADER}: Невероятно..."
+    ],
+    "A2": [
+      "{GOOD_LEADER}: Невероятно... Древнейший покемон..."
+    ],
+    "natural": [
+      "{GOOD_LEADER}: Невероятно... Древнейший покемон... Его сила нарушила равновесие природы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{GOOD_LEADER}: Unglaublich..."
+    ],
+    "A2": [
+      "{GOOD_LEADER}: Unglaublich... Ein uraltes Pokémon..."
+    ],
+    "natural": [
+      "{GOOD_LEADER}: Unglaublich... Ein uraltes Pokémon... Seine Kraft störte das Gleichgewicht der Natur."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenTwoOneEightOne",
+  "base_symbol": "Route128_Text_172181",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}!"
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}! Что происходит?"
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}! Что происходит?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}!"
+    ],
+    "A2": [
+      "TROY: {PLAYER}! Was geschieht hier?"
+    ],
+    "natural": [
+      "TROY: {PLAYER}! Was geschieht hier?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenTwoOneATwo",
+  "base_symbol": "Route128_Text_1721A2",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это ужасно..."
+    ],
+    "A2": [
+      "Это ужасно... Если дождь не прекратится, весь мир затопит."
+    ],
+    "natural": [
+      "Это ужасно... Если дождь не прекратится, весь мир затопит. Тучи идут от Соотополиса. Что там происходит? Ответы нужно искать там."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist furchtbar..."
+    ],
+    "A2": [
+      "Das ist furchtbar... Hört der Regen nicht auf, wird die Welt überflutet."
+    ],
+    "natural": [
+      "Das ist furchtbar... Hört der Regen nicht auf, wird die Welt überflutet. Die Wolken kommen aus Xeneroville. Dort müssen wir Antworten suchen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenTwoTwoAOne",
+  "base_symbol": "Route128_Text_1722A1",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это ужасно..."
+    ],
+    "A2": [
+      "Это ужасно... Если жара не прекратится, весь мир высохнет."
+    ],
+    "natural": [
+      "Это ужасно... Если жара не прекратится, весь мир высохнет. Палящее солнце стоит над Соотополисом. Ответы нужно искать там."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist furchtbar..."
+    ],
+    "A2": [
+      "Das ist furchtbar... Hört die Hitze nicht auf, verdorrt die ganze Welt."
+    ],
+    "natural": [
+      "Das ist furchtbar... Hört die Hitze nicht auf, verdorrt die ganze Welt. Die Sonne brennt über Xeneroville. Dort müssen wir Antworten suchen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneSevenTwoThreeBE",
+  "base_symbol": "Route128_Text_1723BE",
+  "source_path": "data/maps/Route128/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER}..."
+    ],
+    "A2": [
+      "{PLAYER}... Не знаю, что ты задумал, но не рискуй зря."
+    ],
+    "natural": [
+      "{PLAYER}... Не знаю, что ты задумал, но не рискуй зря. Я отправляюсь в Соотополис."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER}..."
+    ],
+    "A2": [
+      "{PLAYER}... Was du auch vorhast, sei nicht leichtsinnig."
+    ],
+    "natural": [
+      "{PLAYER}... Was du auch vorhast, sei nicht leichtsinnig. Ich gehe nach Xeneroville."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneCSixSeven",
+  "base_symbol": "Route128_Text_1C1C67",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "До Эвер-Гранде ещё очень далеко..."
+    ],
+    "A2": [
+      "До Эвер-Гранде ещё очень далеко..."
+    ],
+    "natural": [
+      "До Эвер-Гранде ещё очень далеко..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Prachtpolis City ist noch sehr weit entfernt..."
+    ],
+    "A2": [
+      "Prachtpolis City ist noch sehr weit entfernt..."
+    ],
+    "natural": [
+      "Prachtpolis City ist noch sehr weit entfernt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneCNineFive",
+  "base_symbol": "Route128_Text_1C1C95",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя первая победа, похоже, тоже далеко..."
+    ],
+    "A2": [
+      "Моя первая победа, похоже, тоже далеко..."
+    ],
+    "natural": [
+      "Моя первая победа, похоже, тоже далеко..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auch mein erster Sieg scheint weit entfernt..."
+    ],
+    "A2": [
+      "Auch mein erster Sieg scheint weit entfernt..."
+    ],
+    "natural": [
+      "Auch mein erster Sieg scheint weit entfernt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneCCThree",
+  "base_symbol": "Route128_Text_1C1CC3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Всю жизнь я только проигрывал, но никогда не сдамся!"
+    ],
+    "A2": [
+      "Всю жизнь я только проигрывал, но никогда не сдамся!"
+    ],
+    "natural": [
+      "Всю жизнь я только проигрывал, но никогда не сдамся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein ganzes Leben verlor ich, doch ich werde niemals aufgeben!"
+    ],
+    "A2": [
+      "Mein ganzes Leben verlor ich, doch ich werde niemals aufgeben!"
+    ],
+    "natural": [
+      "Mein ganzes Leben verlor ich, doch ich werde niemals aufgeben!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneDZeroTwo",
+  "base_symbol": "Route128_Text_1C1D02",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ещё полон сил."
+    ],
+    "A2": [
+      "Я ещё полон сил. Продолжу плыть до Эвер-Гранде."
+    ],
+    "natural": [
+      "Я ещё полон сил. Продолжу плыть до Эвер-Гранде."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich fühle mich noch gut."
+    ],
+    "A2": [
+      "Ich fühle mich noch gut. Ich schwimme weiter bis Prachtpolis City."
+    ],
+    "natural": [
+      "Ich fühle mich noch gut. Ich schwimme weiter bis Prachtpolis City."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneDFourFive",
+  "base_symbol": "Route128_Text_1C1D45",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне ещё предстоит вкусить первую победу..."
+    ],
+    "A2": [
+      "Мне ещё предстоит вкусить первую победу..."
+    ],
+    "natural": [
+      "Мне ещё предстоит вкусить первую победу..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meinen ersten Sieg habe ich noch nicht erlebt..."
+    ],
+    "A2": [
+      "Meinen ersten Sieg habe ich noch nicht erlebt..."
+    ],
+    "natural": [
+      "Meinen ersten Sieg habe ich noch nicht erlebt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneDSixB",
+  "base_symbol": "Route128_Text_1C1D6B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Когда-нибудь я доберусь до Эвер-Гранде, где когда-нибудь смогу победить..."
+    ],
+    "A2": [
+      "Когда-нибудь я доберусь до Эвер-Гранде, где когда-нибудь смогу победить..."
+    ],
+    "natural": [
+      "Когда-нибудь я доберусь до Эвер-Гранде, где когда-нибудь смогу победить..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Irgendwann erreiche ich Prachtpolis City, wo ich irgendwann gewinnen kann..."
+    ],
+    "A2": [
+      "Irgendwann erreiche ich Prachtpolis City, wo ich irgendwann gewinnen kann..."
+    ],
+    "natural": [
+      "Irgendwann erreiche ich Prachtpolis City, wo ich irgendwann gewinnen kann..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneDBZero",
+  "base_symbol": "Route128_Text_1C1DB0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В триатлоне нужно плыть, ехать на велосипеде и бежать марафон."
+    ],
+    "A2": [
+      "В триатлоне нужно плыть, ехать на велосипеде и бежать марафон. Это изнурительная гонка из трёх этапов."
+    ],
+    "natural": [
+      "В триатлоне нужно плыть, ехать на велосипеде и бежать марафон. Это изнурительная гонка из трёх этапов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Triathlon schwimmt man, fährt Rad und läuft Marathon."
+    ],
+    "A2": [
+      "Beim Triathlon schwimmt man, fährt Rad und läuft Marathon. Ein harter Wettkampf aus drei Disziplinen."
+    ],
+    "natural": [
+      "Beim Triathlon schwimmt man, fährt Rad und läuft Marathon. Ein harter Wettkampf aus drei Disziplinen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneETwoFive",
+  "base_symbol": "Route128_Text_1C1E25",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Битва покемонов тоже изнурительна..."
+    ],
+    "A2": [
+      "Битва покемонов тоже изнурительна..."
+    ],
+    "natural": [
+      "Битва покемонов тоже изнурительна..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Pokémon-Kampf ist auch zermürbend..."
+    ],
+    "A2": [
+      "Ein Pokémon-Kampf ist auch zermürbend..."
+    ],
+    "natural": [
+      "Ein Pokémon-Kampf ist auch zermürbend..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneEFourA",
+  "base_symbol": "Route128_Text_1C1E4A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Теперь мне нужно ехать на велосипеде, но..."
+    ],
+    "A2": [
+      "Теперь мне нужно ехать на велосипеде, но... Я уже готов сдаться..."
+    ],
+    "natural": [
+      "Теперь мне нужно ехать на велосипеде, но... Я уже готов сдаться..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als Nächstes muss ich Rad fahren, aber..."
+    ],
+    "A2": [
+      "Als Nächstes muss ich Rad fahren, aber... Ich will schon aufgeben..."
+    ],
+    "natural": [
+      "Als Nächstes muss ich Rad fahren, aber... Ich will schon aufgeben..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneENineZero",
+  "base_symbol": "Route128_Text_1C1E90",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Триатлон долог."
+    ],
+    "A2": [
+      "Триатлон долог. Но путь к званию чемпиона покемонов, наверное, тоже долгий и тяжёлый."
+    ],
+    "natural": [
+      "Триатлон долог. Но путь к званию чемпиона покемонов, наверное, тоже долгий и тяжёлый."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Triathlon ist lang."
+    ],
+    "A2": [
+      "Ein Triathlon ist lang. Doch auch der Weg zum Pokémon-Champ ist wohl lang und beschwerlich."
+    ],
+    "natural": [
+      "Ein Triathlon ist lang. Doch auch der Weg zum Pokémon-Champ ist wohl lang und beschwerlich."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneEFA",
+  "base_symbol": "Route128_Text_1C1EFA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Битва покемонов и правда сурова и беспощадна..."
+    ],
+    "A2": [
+      "Битва покемонов и правда сурова и беспощадна..."
+    ],
+    "natural": [
+      "Битва покемонов и правда сурова и беспощадна..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Pokémon-Kampf ist wirklich hart und erbarmungslos..."
+    ],
+    "A2": [
+      "Ein Pokémon-Kampf ist wirklich hart und erbarmungslos..."
+    ],
+    "natural": [
+      "Ein Pokémon-Kampf ist wirklich hart und erbarmungslos..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneFTwoE",
+  "base_symbol": "Route128_Text_1C1F2E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тебе стоит серьёзно подумать об испытаниях на Дороге Победы."
+    ],
+    "A2": [
+      "Тебе стоит серьёзно подумать об испытаниях на Дороге Победы."
+    ],
+    "natural": [
+      "Тебе стоит серьёзно подумать об испытаниях на Дороге Победы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du solltest dir die Prüfungen der Siegesstraße gut überlegen."
+    ],
+    "A2": [
+      "Du solltest dir die Prüfungen der Siegesstraße gut überlegen."
+    ],
+    "natural": [
+      "Du solltest dir die Prüfungen der Siegesstraße gut überlegen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneFSixD",
+  "base_symbol": "Route128_Text_1C1F6D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы так упорно готовились бросить вызов Лиге Покемонов..."
+    ],
+    "A2": [
+      "Мы так упорно готовились бросить вызов Лиге Покемонов... Сейчас нельзя проигрывать!"
+    ],
+    "natural": [
+      "Мы так упорно готовились бросить вызов Лиге Покемонов... Сейчас нельзя проигрывать!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir arbeiteten hart auf die Pokémon-Liga hin..."
+    ],
+    "A2": [
+      "Wir arbeiteten hart auf die Pokémon-Liga hin... Jetzt dürfen wir nicht verlieren!"
+    ],
+    "natural": [
+      "Wir arbeiteten hart auf die Pokémon-Liga hin... Jetzt dürfen wir nicht verlieren!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneFCC",
+  "base_symbol": "Route128_Text_1C1FCC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох!"
+    ],
+    "A2": [
+      "Ох! Как это могло случиться?!"
+    ],
+    "natural": [
+      "Ох! Как это могло случиться?!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Wie konnte das geschehen?!"
+    ],
+    "natural": [
+      "Oh! Wie konnte das geschehen?!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCOneFEEight",
+  "base_symbol": "Route128_Text_1C1FE8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "После всего, что я сделал, чтобы сюда попасть, одна неудача меня не остановит."
+    ],
+    "A2": [
+      "После всего, что я сделал, чтобы сюда попасть, одна неудача меня не остановит."
+    ],
+    "natural": [
+      "После всего, что я сделал, чтобы сюда попасть, одна неудача меня не остановит."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nach allem, was ich tat, um herzukommen, gebe ich nach einem Rückschlag nicht auf."
+    ],
+    "A2": [
+      "Nach allem, was ich tat, um herzukommen, gebe ich nach einem Rückschlag nicht auf."
+    ],
+    "natural": [
+      "Nach allem, was ich tat, um herzukommen, gebe ich nach einem Rückschlag nicht auf."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCTwoZeroTwoC",
+  "base_symbol": "Route128_Text_1C202C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет тренера сильнее меня!"
+    ],
+    "A2": [
+      "Нет тренера сильнее меня!"
+    ],
+    "natural": [
+      "Нет тренера сильнее меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kein Trainer ist stärker als ich!"
+    ],
+    "A2": [
+      "Kein Trainer ist stärker als ich!"
+    ],
+    "natural": [
+      "Kein Trainer ist stärker als ich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCTwoZeroFiveOne",
+  "base_symbol": "Route128_Text_1C2051",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не может быть!"
+    ],
+    "A2": [
+      "Не может быть!"
+    ],
+    "natural": [
+      "Не может быть!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das kann nicht sein!"
+    ],
+    "A2": [
+      "Das kann nicht sein!"
+    ],
+    "natural": [
+      "Das kann nicht sein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCTwoZeroSixZero",
+  "base_symbol": "Route128_Text_1C2060",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Наверное, нет тренера сильнее тебя!"
+    ],
+    "A2": [
+      "Наверное, нет тренера сильнее тебя!"
+    ],
+    "natural": [
+      "Наверное, нет тренера сильнее тебя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wahrscheinlich gibt es keinen stärkeren Trainer als dich!"
+    ],
+    "A2": [
+      "Wahrscheinlich gibt es keinen stärkeren Trainer als dich!"
+    ],
+    "natural": [
+      "Wahrscheinlich gibt es keinen stärkeren Trainer als dich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCTwoZeroNineZero",
+  "base_symbol": "Route128_Text_1C2090",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хочу посетить Эвер-Гранде, поэтому поймал покемона с приёмом Водопад, чтобы подняться по водопаду."
+    ],
+    "A2": [
+      "Я хочу посетить Эвер-Гранде, поэтому поймал покемона с приёмом Водопад, чтобы подняться по водопаду."
+    ],
+    "natural": [
+      "Я хочу посетить Эвер-Гранде, поэтому поймал покемона с приёмом Водопад, чтобы подняться по водопаду."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will Prachtpolis besuchen."
+    ],
+    "A2": [
+      "Ich will Prachtpolis besuchen. Darum fing ich ein Pokémon mit Kaskade, um den Wasserfall zu erklimmen."
+    ],
+    "natural": [
+      "Ich will Prachtpolis besuchen. Darum fing ich ein Pokémon mit Kaskade, um den Wasserfall zu erklimmen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCTwoZeroFC",
+  "base_symbol": "Route128_Text_1C20FC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я пал духом!"
+    ],
+    "A2": [
+      "Я пал духом!"
+    ],
+    "natural": [
+      "Я пал духом!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin niedergeschlagen!"
+    ],
+    "A2": [
+      "Ich bin niedergeschlagen!"
+    ],
+    "natural": [
+      "Ich bin niedergeschlagen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoEightOneCTwoOneZeroD",
+  "base_symbol": "Route128_Text_1C210D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 125-128 swimmer, trainer, sign, fishing, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот досада!"
+    ],
+    "A2": [
+      "Вот досада! Мой покемон знает Водопад, но у меня нет значка зала Сутополиса!"
+    ],
+    "natural": [
+      "Вот досада! Мой покемон знает Водопад, но у меня нет значка зала Сутополиса!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "море",
+        "sea"
+      ]
+    ],
+    "de": [
+      [
+        "das Meer",
+        "sea"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ach, so ein Mist!"
+    ],
+    "A2": [
+      "Ach, so ein Mist! Mein Pokémon kann Kaskade, aber mir fehlt der Orden von Xeneroville!"
+    ],
+    "natural": [
+      "Ach, so ein Mist! Mein Pokémon kann Kaskade, aber mir fehlt der Orden von Xeneroville!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomOneOneNineSevenFourBA",
+  "base_symbol": "SeafloorCavern_Room1_Text_1974BA",
+  "source_path": "data/maps/SeafloorCavern_Room1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дети нам здесь не нужны!"
+    ],
+    "A2": [
+      "Дети нам здесь не нужны! Иди уже домой!"
+    ],
+    "natural": [
+      "Дети нам здесь не нужны! Иди уже домой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir brauchen hier keine Kinder!"
+    ],
+    "A2": [
+      "Wir brauchen hier keine Kinder! Geh endlich nach Hause!"
+    ],
+    "natural": [
+      "Wir brauchen hier keine Kinder! Geh endlich nach Hause!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomOneOneNineSevenFourEA",
+  "base_symbol": "SeafloorCavern_Room1_Text_1974EA",
+  "source_path": "data/maps/SeafloorCavern_Room1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хочу домой..."
+    ],
+    "A2": [
+      "Я хочу домой..."
+    ],
+    "natural": [
+      "Я хочу домой..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will nach Hause..."
+    ],
+    "A2": [
+      "Ich will nach Hause..."
+    ],
+    "natural": [
+      "Ich will nach Hause..."
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomOneOneNineSevenFourFF",
+  "base_symbol": "SeafloorCavern_Room1_Text_1974FF",
+  "source_path": "data/maps/SeafloorCavern_Room1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочу повышение, чтобы командовать рядовыми..."
+    ],
+    "A2": [
+      "Хочу повышение, чтобы командовать рядовыми..."
+    ],
+    "natural": [
+      "Хочу повышение, чтобы командовать рядовыми..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will befördert werden und die Rüpel herumkommandieren..."
+    ],
+    "A2": [
+      "Ich will befördert werden und die Rüpel herumkommandieren..."
+    ],
+    "natural": [
+      "Ich will befördert werden und die Rüpel herumkommandieren..."
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomOneOneNineSevenFiveThreeC",
+  "base_symbol": "SeafloorCavern_Room1_Text_19753C",
+  "source_path": "data/maps/SeafloorCavern_Room1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В подлодке так тесно."
+    ],
+    "A2": [
+      "В подлодке так тесно. У меня всё болит!"
+    ],
+    "natural": [
+      "В подлодке так тесно. У меня всё болит!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im U-Boot ist es winzig."
+    ],
+    "A2": [
+      "Im U-Boot ist es winzig. Mir tut alles weh!"
+    ],
+    "natural": [
+      "Im U-Boot ist es winzig. Mir tut alles weh!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomOneOneNineSevenFiveSevenThree",
+  "base_symbol": "SeafloorCavern_Room1_Text_197573",
+  "source_path": "data/maps/SeafloorCavern_Room1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "От поражения всё болит!"
+    ],
+    "A2": [
+      "От поражения всё болит!"
+    ],
+    "natural": [
+      "От поражения всё болит!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Niederlage tut weh!"
+    ],
+    "A2": [
+      "Die Niederlage tut weh!"
+    ],
+    "natural": [
+      "Die Niederlage tut weh!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomOneOneNineSevenFiveEightNine",
+  "base_symbol": "SeafloorCavern_Room1_Text_197589",
+  "source_path": "data/maps/SeafloorCavern_Room1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Угнанная подлодка ужасно неудобна."
+    ],
+    "A2": [
+      "Угнанная подлодка ужасно неудобна. Там слишком тесно!"
+    ],
+    "natural": [
+      "Угнанная подлодка ужасно неудобна. Там слишком тесно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das gestohlene U-Boot fährt sich furchtbar."
+    ],
+    "A2": [
+      "Das gestohlene U-Boot fährt sich furchtbar. Es ist viel zu eng!"
+    ],
+    "natural": [
+      "Das gestohlene U-Boot fährt sich furchtbar. Es ist viel zu eng!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomThreeOneNineSevenFiveDC",
+  "base_symbol": "SeafloorCavern_Room3_Text_1975DC",
+  "source_path": "data/maps/SeafloorCavern_Room3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! Как ты добрался сюда без подлодки?"
+    ],
+    "natural": [
+      "А-ха-ха! Как ты добрался сюда без подлодки? Впечатляет! Но мешать нам нельзя. И пора расплатиться за Институт погоды! Приготовься испытать боль!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha!"
+    ],
+    "A2": [
+      "Ahahaha! Wie kamst du ohne U-Boot hierher?"
+    ],
+    "natural": [
+      "Ahahaha! Wie kamst du ohne U-Boot hierher? Beeindruckend! Doch du darfst uns nicht stören. Für das Wetterinstitut gibt es Rache! Mach dich auf Schmerzen gefasst!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomThreeOneNineSevenSixFThree",
+  "base_symbol": "SeafloorCavern_Room3_Text_1976F3",
+  "source_path": "data/maps/SeafloorCavern_Room3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! Ай!"
+    ],
+    "natural": [
+      "А-ха-ха! Ай!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha!"
+    ],
+    "A2": [
+      "Ahahaha! Aua!"
+    ],
+    "natural": [
+      "Ahahaha! Aua!"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomThreeOneNineSevenSevenZeroFour",
+  "base_symbol": "SeafloorCavern_Room3_Text_197704",
+  "source_path": "data/maps/SeafloorCavern_Room3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха!"
+    ],
+    "A2": [
+      "А-ха-ха! Ты ужасно силён."
+    ],
+    "natural": [
+      "А-ха-ха! Ты ужасно силён. Жаль, что ты не из команды {EVIL_TEAM}. Ты бы увидел прекрасный мир, обещанный нашим боссом..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha!"
+    ],
+    "A2": [
+      "Ahahaha! Du bist unglaublich stark."
+    ],
+    "natural": [
+      "Ahahaha! Du bist unglaublich stark. Schade, dass du nicht zu Team {EVIL_TEAM} gehörst. Du hättest die tolle Welt unseres Bosses erlebt..."
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomFourOneNineSevenSevenBNine",
+  "base_symbol": "SeafloorCavern_Room4_Text_1977B9",
+  "source_path": "data/maps/SeafloorCavern_Room4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кто ты?"
+    ],
+    "A2": [
+      "Кто ты? Откуда ты вошёл?"
+    ],
+    "natural": [
+      "Кто ты? Откуда ты вошёл?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wer bist du?"
+    ],
+    "A2": [
+      "Wer bist du? Wo kamst du herein?"
+    ],
+    "natural": [
+      "Wer bist du? Wo kamst du herein?"
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomFourOneNineSevenSevenETwo",
+  "base_symbol": "SeafloorCavern_Room4_Text_1977E2",
+  "source_path": "data/maps/SeafloorCavern_Room4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Проиграл..."
+    ],
+    "A2": [
+      "Проиграл..."
+    ],
+    "natural": [
+      "Проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verloren..."
+    ],
+    "A2": [
+      "Verloren..."
+    ],
+    "natural": [
+      "Verloren..."
+    ]
+  }
+},
+{
+  "id": "SeafloorCavernRoomFourOneNineSevenSevenED",
+  "base_symbol": "SeafloorCavern_Room4_Text_1977ED",
+  "source_path": "data/maps/SeafloorCavern_Room4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern explorer, puzzle, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не могу найти выход!"
+    ],
+    "A2": [
+      "Не могу найти выход! Я не боюсь, не подумай!"
+    ],
+    "natural": [
+      "Не могу найти выход! Я не боюсь, не подумай!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cavern"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cavern"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich finde den Ausgang nicht!"
+    ],
+    "A2": [
+      "Ich finde den Ausgang nicht! Ich habe keine Angst, versteh das nicht falsch!"
+    ],
+    "natural": [
+      "Ich finde den Ausgang nicht! Ich habe keine Angst, versteh das nicht falsch!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourOneBEight",
+  "base_symbol": "UnknownString_81B41B8",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Стой!"
+    ],
+    "A2": [
+      "АРЧИ: Стой!"
+    ],
+    "natural": [
+      "АРЧИ: Стой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Halt!"
+    ],
+    "A2": [
+      "ADRIAN: Halt!"
+    ],
+    "natural": [
+      "ADRIAN: Halt!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourOneDFive",
+  "base_symbol": "UnknownString_81B41D5",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Хе-хе..."
+    ],
+    "A2": [
+      "АРЧИ: Хе-хе... Так это всё-таки ты."
+    ],
+    "natural": [
+      "АРЧИ: Хе-хе... Так это всё-таки ты."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Hehe..."
+    ],
+    "A2": [
+      "ADRIAN: Hehe... Du bist es also."
+    ],
+    "natural": [
+      "ADRIAN: Hehe... Du bist es also."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourTwoZeroOne",
+  "base_symbol": "UnknownString_81B4201",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Смотри!"
+    ],
+    "A2": [
+      "АРЧИ: Смотри! Как прекрасен спящий древний покемон КАЙОГР!"
+    ],
+    "natural": [
+      "АРЧИ: Смотри! Как прекрасен спящий древний покемон КАЙОГР! Я так долго ждал этого дня..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Sieh nur!"
+    ],
+    "A2": [
+      "ADRIAN: Sieh nur! Wie schön das uralte Pokémon KYOGRE schläft!"
+    ],
+    "natural": [
+      "ADRIAN: Sieh nur! Wie schön das uralte Pokémon KYOGRE schläft! Ich wartete so lange auf diesen Tag..."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourTwoEightNine",
+  "base_symbol": "UnknownString_81B4289",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Удивительно, что ты добрался сюда."
+    ],
+    "A2": [
+      "АРЧИ: Удивительно, что ты добрался сюда. Но теперь всё кончено."
+    ],
+    "natural": [
+      "АРЧИ: Удивительно, что ты добрался сюда. Но теперь всё кончено. Ради моей мечты ты должен исчезнуть!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Erstaunlich, dass du bis hierher kamst."
+    ],
+    "A2": [
+      "ADRIAN: Erstaunlich, dass du bis hierher kamst. Doch jetzt ist Schluss."
+    ],
+    "natural": [
+      "ADRIAN: Erstaunlich, dass du bis hierher kamst. Doch jetzt ist Schluss. Für meinen Traum musst du verschwinden!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourThreeOneNine",
+  "base_symbol": "UnknownString_81B4319",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "Я..."
+    ],
+    "A2": [
+      "Я... Я снова проиграл?"
+    ],
+    "natural": [
+      "Я... Я снова проиграл?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich..."
+    ],
+    "A2": [
+      "Ich... Schon wieder verloren?"
+    ],
+    "natural": [
+      "Ich... Schon wieder verloren?"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourThreeTwoC",
+  "base_symbol": "UnknownString_81B432C",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Хе-хе..."
+    ],
+    "A2": [
+      "АРЧИ: Хе-хе... Признаю, ты очень силён."
+    ],
+    "natural": [
+      "АРЧИ: Хе-хе... Признаю, ты очень силён. Но у меня есть КРАСНЫЙ ШАР! С ним я разбужу КАЙОГРА..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Hehe..."
+    ],
+    "A2": [
+      "ADRIAN: Hehe... Du bist wirklich stark."
+    ],
+    "natural": [
+      "ADRIAN: Hehe... Du bist wirklich stark. Doch ich habe ROT! Damit erwecke ich KYOGRE..."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourThreeCFour",
+  "base_symbol": "UnknownString_81B43C4",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "КРАСНЫЙ ШАР внезапно засиял сам по себе!"
+    ],
+    "A2": [
+      "КРАСНЫЙ ШАР внезапно засиял сам по себе!"
+    ],
+    "natural": [
+      "КРАСНЫЙ ШАР внезапно засиял сам по себе!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der ROTE STEIN leuchtet plötzlich von selbst!"
+    ],
+    "A2": [
+      "Der ROTE STEIN leuchtet plötzlich von selbst!"
+    ],
+    "natural": [
+      "Der ROTE STEIN leuchtet plötzlich von selbst!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourThreeFTwo",
+  "base_symbol": "UnknownString_81B43F2",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Что?!"
+    ],
+    "A2": [
+      "АРЧИ: Что?! Я ничего не делал."
+    ],
+    "natural": [
+      "АРЧИ: Что?! Я ничего не делал. Почему ШАР засиял? Куда исчез КАЙОГР?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Was?!"
+    ],
+    "A2": [
+      "ADRIAN: Was?! Ich tat doch nichts."
+    ],
+    "natural": [
+      "ADRIAN: Was?! Ich tat doch nichts. Warum leuchtet der STEIN? Wo ist KYOGRE?"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourFourFourThree",
+  "base_symbol": "UnknownString_81B4443",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Хм?"
+    ],
+    "A2": [
+      "АРЧИ: Хм? Сообщение от наших людей снаружи..."
+    ],
+    "natural": [
+      "АРЧИ: Хм? Сообщение от наших людей снаружи..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Hm?"
+    ],
+    "A2": [
+      "ADRIAN: Hm? Eine Nachricht von den Leuten draußen..."
+    ],
+    "natural": [
+      "ADRIAN: Hm? Eine Nachricht von den Leuten draußen..."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourFourSevenA",
+  "base_symbol": "UnknownString_81B447A",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Что случилось?"
+    ],
+    "A2": [
+      "АРЧИ: Что случилось? Сильный дождь?"
+    ],
+    "natural": [
+      "АРЧИ: Что случилось? Сильный дождь? Хорошо, так и должно быть. Мы разбудили КАЙОГРА, чтобы расширить море. Что?! Дождь гораздо сильнее? Вы в опасности? Наблюдайте за обстановкой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Was ist los?"
+    ],
+    "A2": [
+      "ADRIAN: Was ist los? Starker Regen?"
+    ],
+    "natural": [
+      "ADRIAN: Was ist los? Starker Regen? Gut, so sollte es sein. KYOGRE soll das Meer vergrößern. Was?! Viel stärker als geplant? Ihr seid in Gefahr? Beobachtet die Lage!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourFiveCSix",
+  "base_symbol": "UnknownString_81B45C6",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Что-то не так..."
+    ],
+    "A2": [
+      "АРЧИ: Что-то не так... КРАСНЫЙ ШАР должен был управлять КАЙОГРОМ."
+    ],
+    "natural": [
+      "АРЧИ: Что-то не так... КРАСНЫЙ ШАР должен был управлять КАЙОГРОМ. Почему он исчез? Почему?!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Etwas stimmt nicht..."
+    ],
+    "A2": [
+      "ADRIAN: Etwas stimmt nicht... ROT sollte KYOGRE erwecken und beherrschen."
+    ],
+    "natural": [
+      "ADRIAN: Etwas stimmt nicht... ROT sollte KYOGRE erwecken und beherrschen. Warum verschwand es? Warum?!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourSixFourD",
+  "base_symbol": "UnknownString_81B464D",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "МАКСИ: Что ты наделал?"
+    ],
+    "A2": [
+      "МАКСИ: Что ты наделал? АРЧИ, ты разбудил КАЙОГРА!"
+    ],
+    "natural": [
+      "МАКСИ: Что ты наделал? АРЧИ, ты разбудил КАЙОГРА! Если ливень не прекратится, мир уйдёт под воду."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MARC: Was hast du getan?"
+    ],
+    "A2": [
+      "MARC: Was hast du getan? ADRIAN, du hast KYOGRE erweckt!"
+    ],
+    "natural": [
+      "MARC: Was hast du getan? ADRIAN, du hast KYOGRE erweckt! Hört der Regen nie auf, versinkt die Welt."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourSevenTwoThree",
+  "base_symbol": "UnknownString_81B4723",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "АРЧИ: Что ты говоришь?"
+    ],
+    "A2": [
+      "АРЧИ: Что ты говоришь? КРАСНЫЙ ШАР должен позволить мне управлять КАЙОГРОМ..."
+    ],
+    "natural": [
+      "АРЧИ: Что ты говоришь? КРАСНЫЙ ШАР должен позволить мне управлять КАЙОГРОМ..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "ADRIAN: Was sagst du?"
+    ],
+    "A2": [
+      "ADRIAN: Was sagst du? Der ROTE STEIN sollte mir Kontrolle über KYOGRE geben..."
+    ],
+    "natural": [
+      "ADRIAN: Was sagst du? Der ROTE STEIN sollte mir Kontrolle über KYOGRE geben..."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourSevenEightSix",
+  "base_symbol": "UnknownString_81B4786",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "МАКСИ: Некогда спорить!"
+    ],
+    "A2": [
+      "МАКСИ: Некогда спорить! Выйди и посмотри сам!"
+    ],
+    "natural": [
+      "МАКСИ: Некогда спорить! Выйди и посмотри сам! Разве такого мира ты хотел?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MARC: Keine Zeit zum Streiten!"
+    ],
+    "A2": [
+      "MARC: Keine Zeit zum Streiten! Geh hinaus und sieh selbst!"
+    ],
+    "natural": [
+      "MARC: Keine Zeit zum Streiten! Geh hinaus und sieh selbst! Ist das wirklich die Welt, die du wolltest?"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourEightOneEight",
+  "base_symbol": "UnknownString_81B4818",
+  "source_path": "data/text/aqua_awakening.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Seafloor Cavern climax line involving Archie, Kyogre, the Red Orb, or the spreading storm."
+  ],
+  "ru": {
+    "A1": [
+      "МАКСИ: {PLAYER}, тебе тоже надо уходить!"
+    ],
+    "A2": [
+      "МАКСИ: {PLAYER}, тебе тоже надо уходить!"
+    ],
+    "natural": [
+      "МАКСИ: {PLAYER}, тебе тоже надо уходить!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пробуждение",
+        "awakening"
+      ]
+    ],
+    "de": [
+      [
+        "das Erwachen",
+        "awakening"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MARC: {PLAYER}, du musst auch hier raus!"
+    ],
+    "A2": [
+      "MARC: {PLAYER}, du musst auch hier raus!"
+    ],
+    "natural": [
+      "MARC: {PLAYER}, du musst auch hier raus!"
+    ]
+  }
+},
+{
+  "id": "UnderwaterSeafloorCavernOneNineSevenFourThreeFive",
+  "base_symbol": "Underwater_SeafloorCavern_Text_197435",
+  "source_path": "data/maps/Underwater_SeafloorCavern/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An underwater submarine clue at the entrance to Seafloor Cavern."
+  ],
+  "ru": {
+    "A1": [
+      "На корпусе написано: ПОДЛОДКА ИССЛЕДОВАТЕЛЬ 1."
+    ],
+    "A2": [
+      "На корпусе написано: ПОДЛОДКА ИССЛЕДОВАТЕЛЬ 1. Это подлодка, которую КОМАНДА {EVIL_TEAM} украла в СЛЕЙТПОРТЕ!"
+    ],
+    "natural": [
+      "На корпусе написано: ПОДЛОДКА ИССЛЕДОВАТЕЛЬ 1. Это подлодка, которую КОМАНДА {EVIL_TEAM} украла в СЛЕЙТПОРТЕ! Видимо, КОМАНДА {EVIL_TEAM} высадилась здесь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "подлодка",
+        "submarine"
+      ]
+    ],
+    "de": [
+      [
+        "das U-Boot",
+        "submarine"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Am Rumpf steht: FORSCHUNGS-U-BOOT 1."
+    ],
+    "A2": [
+      "Am Rumpf steht: FORSCHUNGS-U-BOOT 1. Das ist das U-Boot, das TEAM {EVIL_TEAM} in GRAPHITPORT gestohlen hat!"
+    ],
+    "natural": [
+      "Am Rumpf steht: FORSCHUNGS-U-BOOT 1. Das ist das U-Boot, das TEAM {EVIL_TEAM} in GRAPHITPORT gestohlen hat! TEAM {EVIL_TEAM} ging wohl hier an Land."
+    ]
+  }
 }
   ]
 }

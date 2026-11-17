@@ -713,6 +713,11 @@ class LessonTests(unittest.TestCase):
                           'ShoalCave_LowTideLowerRoom',
                           'ShoalCave_LowTideStairsRoom')
         paths += [f'data/maps/{area}/scripts.inc' for area in mossdeep_areas]
+        ocean_areas = ('Route125', 'Route126', 'Route127', 'Route128',
+                       'SeafloorCavern_Room1', 'SeafloorCavern_Room3',
+                       'SeafloorCavern_Room4', 'SeafloorCavern_Room9',
+                       'Underwater_SeafloorCavern')
+        paths += [f'data/maps/{area}/scripts.inc' for area in ocean_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2772,6 +2777,40 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(157, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_routes_125_128_and_sapphire_seafloor_story_are_fully_adaptive(self):
+        route_sources = '\n'.join(
+            (demo.ROOT / f'data/maps/Route{route}/scripts.inc').read_text(errors='replace')
+            for route in range(125, 129)
+        )
+        cavern_sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in ('SeafloorCavern_Room1', 'SeafloorCavern_Room3',
+                         'SeafloorCavern_Room4')
+        )
+        climax_source = (
+            demo.ROOT / 'data/maps/SeafloorCavern_Room9/scripts.inc'
+        ).read_text(errors='replace')
+        underwater_source = (
+            demo.ROOT / 'data/maps/Underwater_SeafloorCavern/scripts.inc'
+        ).read_text(errors='replace')
+        referenced = set(re.findall(
+            r'Route12[5-8][A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', route_sources
+        ))
+        referenced.update(re.findall(
+            r'SeafloorCavern_Room[134][A-Za-z0-9_]*_Text_[A-Za-z0-9_]+',
+            cavern_sources
+        ))
+        referenced.update(re.findall(r'UnknownString_81B[0-9A-F]+', climax_source))
+        referenced.update(re.findall(
+            r'Underwater_SeafloorCavern_Text_[A-Za-z0-9_]+', underwater_source
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(117, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

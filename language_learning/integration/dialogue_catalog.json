@@ -48266,6 +48266,2346 @@
     "mossdeep",
     "shoal"
   ]
+},
+{
+  "id": "ocean.route.route125.text.1c0fcf.2412",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F2E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C0FCF",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCZeroFCF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2412
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1002.2413",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F2E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1002",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroZeroTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2413
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1013.2414",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F2E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1013",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroOneThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2414
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c104b.2415",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F45",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C104B",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroFourB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2415
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1073.2416",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F45",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1073",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroSevenThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2416
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1083.2417",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F45",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1083",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroEightThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2417
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c10c3.2418",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F5C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C10C3",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2418
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c10fb.2419",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F5C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C10FB",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneZeroFB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2419
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c110c.2420",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F5C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C110C",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneOneZeroC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2420
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1136.2421",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F73",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1136",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneOneThreeSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2421
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1175.2422",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F73",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1175",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneOneSevenFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2422
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c117f.2423",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F73",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C117F",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneOneSevenF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2423
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c11af.2424",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F8A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C11AF",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneOneAF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2424
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c11ed.2425",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F8A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C11ED",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneOneED"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2425
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1208.2426",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151F8A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1208",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneTwoZeroEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2426
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1282.2427",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FB1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1282",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneTwoEightTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2427
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c12c5.2428",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FB1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C12C5",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneTwoCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2428
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c12ee.2429",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FB1",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C12EE",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneTwoEE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2429
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c13a1.2430",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C13A1",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneThreeAOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2430
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c13ff.2431",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C13FF",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneThreeFF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2431
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c146e.2432",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C146E",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneFourSixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2432
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c141c.2433",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FC8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C141C",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneFourOneC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2433
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c14ab.2434",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FE3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C14AB",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneFourAB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2434
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c14e7.2435",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FE3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C14E7",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneFourESeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2435
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c154f.2436",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FE3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C154F",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneFiveFourF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2436
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route125.text.1c1508.2437",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route125/scripts.inc",
+    "symbol": "Route125_EventScript_151FE3",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route125_Text_1C1508",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoFiveOneCOneFiveZeroEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2437
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1590.2438",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_15200E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1590",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneFiveNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2438
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c15c3.2439",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_15200E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C15C3",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneFiveCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2439
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c15d8.2440",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_15200E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C15D8",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneFiveDEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2440
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1627.2441",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_152025",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1627",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSixTwoSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2441
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1660.2442",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_152025",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1660",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSixSixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2442
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c166f.2443",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_152025",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C166F",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSixSixF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2443
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c16ab.2444",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_15203C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C16AB",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSixAB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2444
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c16c5.2445",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_15203C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C16C5",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSixCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2445
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1702.2446",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_15203C",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1702",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSevenZeroTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2446
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1741.2447",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_152053",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1741",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSevenFourOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2447
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1766.2448",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_152053",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1766",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSevenSixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2448
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route126.text.1c1773.2449",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route126/scripts.inc",
+    "symbol": "Route126_EventScript_152053",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route126_Text_1C1773",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSixOneCOneSevenSevenThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2449
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c17a8.2450",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_15207A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C17A8",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneSevenAEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2450
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c17dd.2451",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_15207A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C17DD",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneSevenDD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2451
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c17ec.2452",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_15207A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C17EC",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneSevenEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2452
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1828.2453",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_152091",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1828",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneEightTwoEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2453
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1860.2454",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_152091",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1860",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneEightSixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2454
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1877.2455",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_152091",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1877",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneEightSevenSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2455
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c18cc.2456",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520A8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C18CC",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneEightCC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2456
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1930.2457",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520A8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1930",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneNineThreeZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2457
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c195d.2458",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520A8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C195D",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneNineFiveD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2458
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c19a3.2459",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520BF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C19A3",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneNineAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2459
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c19d6.2460",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520BF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C19D6",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneNineDSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2460
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c19e7.2461",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520BF",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C19E7",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneNineESeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2461
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1a2e.2462",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520D6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1A2E",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneATwoE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2462
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1a73.2463",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520D6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1A73",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneASevenThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2463
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1aa0.2464",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520D6",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1AA0",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneAAZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2464
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1ae2.2465",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520ED",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1AE2",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneAETwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2465
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1b2a.2466",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520ED",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1B2A",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneBTwoA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2466
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1b39.2467",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_1520ED",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1B39",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneBThreeNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2467
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1b92.2468",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_152104",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1B92",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneBNineTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2468
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1bd9.2469",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_152104",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1BD9",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneBDNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2469
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route127.text.1c1bec.2470",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route127/scripts.inc",
+    "symbol": "Route127_EventScript_152104",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route127_Text_1C1BEC",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoSevenOneCOneBEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2470
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.171ee0.2471",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_171EE0",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenOneEEZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2471
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.171f35.2472",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_171F35",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenOneFThreeFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2472
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.171f4b.2473",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_171F4B",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenOneFFourB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2473
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.172008.2474",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_172008",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenTwoZeroZeroEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2474
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.17210b.2475",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_17210B",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenTwoOneZeroB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2475
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.172181.2476",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_172181",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenTwoOneEightOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2476
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1721a2.2477",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_1721A2",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenTwoOneATwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2477
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1722a1.2478",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_1722A1",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenTwoTwoAOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2478
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1723be.2479",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15213F",
+    "base_text_path": "data/maps/Route128/text.inc",
+    "base_text_symbol": "Route128_Text_1723BE",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneSevenTwoThreeBE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2479
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1c67.2480",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522A4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1C67",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneCSixSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2480
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1c95.2481",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522A4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1C95",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneCNineFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2481
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1cc3.2482",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522A4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1CC3",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneCCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2482
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1d02.2483",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522CB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1D02",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneDZeroTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2483
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1d45.2484",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522CB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1D45",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneDFourFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2484
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1d6b.2485",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522CB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1D6B",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneDSixB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2485
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1db0.2486",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522E2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1DB0",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneDBZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2486
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1e25.2487",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522E2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1E25",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneETwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2487
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1e4a.2488",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_1522E2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1E4A",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneEFourA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2488
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1e90.2489",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152309",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1E90",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneENineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2489
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1efa.2490",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152309",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1EFA",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneEFA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2490
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1f2e.2491",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152309",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1F2E",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneFTwoE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2491
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1f6d.2492",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152320",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1F6D",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneFSixD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2492
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1fcc.2493",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152320",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1FCC",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneFCC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2493
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c1fe8.2494",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152320",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C1FE8",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCOneFEEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2494
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c202c.2495",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152337",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C202C",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCTwoZeroTwoC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2495
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c2051.2496",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152337",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C2051",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCTwoZeroFiveOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2496
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c2060.2497",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_152337",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C2060",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCTwoZeroSixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2497
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c2090.2498",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15234E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C2090",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCTwoZeroNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2498
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c20fc.2499",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15234E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C20FC",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCTwoZeroFC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2499
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.route.route128.text.1c210d.2500",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route128/scripts.inc",
+    "symbol": "Route128_EventScript_15234E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route128_Text_1C210D",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "RouteOneTwoEightOneCTwoOneZeroD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2500
+  },
+  "tags": [
+    "ocean",
+    "route"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room1.text.1974ba.2501",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
+    "symbol": "SeafloorCavern_Room1_EventScript_15DA6D",
+    "base_text_path": "data/maps/SeafloorCavern_Room1/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room1_Text_1974BA",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomOneOneNineSevenFourBA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2501
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room1.text.1974ea.2502",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
+    "symbol": "SeafloorCavern_Room1_EventScript_15DA6D",
+    "base_text_path": "data/maps/SeafloorCavern_Room1/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room1_Text_1974EA",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomOneOneNineSevenFourEA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2502
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room1.text.1974ff.2503",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
+    "symbol": "SeafloorCavern_Room1_EventScript_15DA6D",
+    "base_text_path": "data/maps/SeafloorCavern_Room1/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room1_Text_1974FF",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomOneOneNineSevenFourFF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2503
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room1.text.19753c.2504",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
+    "symbol": "SeafloorCavern_Room1_EventScript_15DA84",
+    "base_text_path": "data/maps/SeafloorCavern_Room1/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room1_Text_19753C",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomOneOneNineSevenFiveThreeC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2504
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room1.text.197573.2505",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
+    "symbol": "SeafloorCavern_Room1_EventScript_15DA84",
+    "base_text_path": "data/maps/SeafloorCavern_Room1/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room1_Text_197573",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomOneOneNineSevenFiveSevenThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2505
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room1.text.197589.2506",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room1/scripts.inc",
+    "symbol": "SeafloorCavern_Room1_EventScript_15DA84",
+    "base_text_path": "data/maps/SeafloorCavern_Room1/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room1_Text_197589",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomOneOneNineSevenFiveEightNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2506
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room3.text.1975dc.2507",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room3/scripts.inc",
+    "symbol": "SeafloorCavern_Room3_EventScript_15DAA8",
+    "base_text_path": "data/maps/SeafloorCavern_Room3/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room3_Text_1975DC",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomThreeOneNineSevenFiveDC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2507
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room3.text.1976f3.2508",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room3/scripts.inc",
+    "symbol": "SeafloorCavern_Room3_EventScript_15DAA8",
+    "base_text_path": "data/maps/SeafloorCavern_Room3/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room3_Text_1976F3",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomThreeOneNineSevenSixFThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2508
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room3.text.197704.2509",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room3/scripts.inc",
+    "symbol": "SeafloorCavern_Room3_EventScript_15DAA8",
+    "base_text_path": "data/maps/SeafloorCavern_Room3/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room3_Text_197704",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomThreeOneNineSevenSevenZeroFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2509
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room4.text.1977b9.2510",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room4/scripts.inc",
+    "symbol": "SeafloorCavern_Room4_EventScript_15DACB",
+    "base_text_path": "data/maps/SeafloorCavern_Room4/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room4_Text_1977B9",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomFourOneNineSevenSevenBNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2510
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room4.text.1977e2.2511",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room4/scripts.inc",
+    "symbol": "SeafloorCavern_Room4_EventScript_15DACB",
+    "base_text_path": "data/maps/SeafloorCavern_Room4/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room4_Text_1977E2",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomFourOneNineSevenSevenETwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2511
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.cavern.seafloorcavern.room4.text.1977ed.2512",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room4/scripts.inc",
+    "symbol": "SeafloorCavern_Room4_EventScript_15DACB",
+    "base_text_path": "data/maps/SeafloorCavern_Room4/text.inc",
+    "base_text_symbol": "SeafloorCavern_Room4_Text_1977ED",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "SeafloorCavernRoomFourOneNineSevenSevenED"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2512
+  },
+  "tags": [
+    "ocean",
+    "cavern"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b41b8.2513",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B41B8",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourOneBEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2513
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b41d5.2514",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B41D5",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourOneDFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2514
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4201.2515",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4201",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourTwoZeroOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2515
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4289.2516",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4289",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourTwoEightNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2516
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4319.2517",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4319",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourThreeOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2517
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b432c.2518",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B432C",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourThreeTwoC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2518
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b43c4.2519",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B43C4",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourThreeCFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2519
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b43f2.2520",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B43F2",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourThreeFTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2520
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4443.2521",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4443",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourFourFourThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2521
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b447a.2522",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B447A",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourFourSevenA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2522
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b45c6.2523",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B45C6",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourFiveCSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2523
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b464d.2524",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B464D",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourSixFourD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2524
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4723.2525",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4723",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourSevenTwoThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2525
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4786.2526",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4786",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourSevenEightSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2526
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.awakening.unknownstring.81b4818.2527",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SeafloorCavern_Room9/scripts.inc",
+    "symbol": "SeafloorCavern_Room9_EventScript_15DAFA",
+    "base_text_path": "data/text/aqua_awakening.inc",
+    "base_text_symbol": "UnknownString_81B4818",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourEightOneEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2527
+  },
+  "tags": [
+    "ocean",
+    "awakening"
+  ]
+},
+{
+  "id": "ocean.dive.underwater.seafloorcavern.text.197435.2528",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Underwater_SeafloorCavern/scripts.inc",
+    "symbol": "Underwater_SeafloorCavern_EventScript_15DA3F",
+    "base_text_path": "data/maps/Underwater_SeafloorCavern/text.inc",
+    "base_text_symbol": "Underwater_SeafloorCavern_Text_197435",
+    "note": "Adaptive translation preserves the original trainer battles, rematches, Dive access, Strength/current puzzles, legendary awakening, weather transition, items, and story flags.",
+    "authored_id": "UnderwaterSeafloorCavernOneNineSevenFourThreeFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2528
+  },
+  "tags": [
+    "ocean",
+    "dive"
+  ]
 }
   ]
 }

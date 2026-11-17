@@ -113582,6 +113582,5046 @@
       "Am Rumpf steht: FORSCHUNGS-U-BOOT 1. Das ist das U-Boot, das TEAM {EVIL_TEAM} in GRAPHITPORT gestohlen hat! TEAM {EVIL_TEAM} ging wohl hier an Land."
     ]
   }
+},
+{
+  "id": "SootopolisCityCaveOfOriginPleaseLeave",
+  "base_symbol": "SootopolisCity_Text_CaveOfOriginPleaseLeave",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Cave of Origin, Blue Orb, Kyogre, or legendary-resolution interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кто ты?"
+    ],
+    "A2": [
+      "Кто ты? Это Пещера истока."
+    ],
+    "natural": [
+      "Кто ты? Это Пещера истока. Говорят, здесь возрождаются души покемонов, успокоенные на горе Пайр. Пожалуйста, уйди."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "легенда",
+        "legend"
+      ]
+    ],
+    "de": [
+      [
+        "die Legende",
+        "legend"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wer bist du?"
+    ],
+    "A2": [
+      "Wer bist du? Dies ist die Urzeithöhle."
+    ],
+    "natural": [
+      "Wer bist du? Dies ist die Urzeithöhle. Hier sollen die am Pyroberg beruhigten Pokémon-Seelen neu erwachen. Bitte geh."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityAllLifeStartsAtTheCave",
+  "base_symbol": "SootopolisCity_Text_AllLifeStartsAtTheCave",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вся жизнь начинается в Пещере истока и заканчивается на горе Пайр..."
+    ],
+    "A2": [
+      "Вся жизнь начинается в Пещере истока и заканчивается на горе Пайр... Откуда приходят люди и покемоны?"
+    ],
+    "natural": [
+      "Вся жизнь начинается в Пещере истока и заканчивается на горе Пайр... Откуда приходят люди и покемоны? Куда мы направляемся?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Alles Leben beginnt in der Urzeithöhle und endet am Pyroberg..."
+    ],
+    "A2": [
+      "Alles Leben beginnt in der Urzeithöhle und endet am Pyroberg... Woher kommen Menschen und Pokémon?"
+    ],
+    "natural": [
+      "Alles Leben beginnt in der Urzeithöhle und endet am Pyroberg... Woher kommen Menschen und Pokémon? Wohin gehen wir?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityTheLegendWasTrue",
+  "base_symbol": "SootopolisCity_Text_TheLegendWasTrue",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Легенда старика с горы Пайр оказалась правдой."
+    ],
+    "A2": [
+      "Легенда старика с горы Пайр оказалась правдой."
+    ],
+    "natural": [
+      "Легенда старика с горы Пайр оказалась правдой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Legende des Alten vom Pyroberg war wahr."
+    ],
+    "A2": [
+      "Die Legende des Alten vom Pyroberg war wahr."
+    ],
+    "natural": [
+      "Die Legende des Alten vom Pyroberg war wahr."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityNaturalBalanceIsShifting",
+  "base_symbol": "SootopolisCity_Text_NaturalBalanceIsShifting",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Природное равновесие Хоэнна сильно меняется..."
+    ],
+    "A2": [
+      "Природное равновесие Хоэнна сильно меняется..."
+    ],
+    "natural": [
+      "Природное равновесие Хоэнна сильно меняется..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoenns natürliches Gleichgewicht verschiebt sich gewaltig..."
+    ],
+    "A2": [
+      "Hoenns natürliches Gleichgewicht verschiebt sich gewaltig..."
+    ],
+    "natural": [
+      "Hoenns natürliches Gleichgewicht verschiebt sich gewaltig..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityNameIsKiriHaveOneOfThese",
+  "base_symbol": "SootopolisCity_Text_NameIsKiriHaveOneOfThese",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, как тебя зовут?"
+    ],
+    "A2": [
+      "Привет, как тебя зовут? Красивое имя!"
+    ],
+    "natural": [
+      "Привет, как тебя зовут? Красивое имя! Я КИРИ. Родители дали мне это имя, желая здоровья и доброты. Возьми одну из этих ягод."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, wie heißt du?"
+    ],
+    "A2": [
+      "Hallo, wie heißt du? Ein schöner Name!"
+    ],
+    "natural": [
+      "Hallo, wie heißt du? Ein schöner Name! Ich bin KIRI. Meine Eltern wählten den Namen als Wunsch für Gesundheit und Güte. Nimm eine dieser Beeren."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGiveYouThisBerryToo",
+  "base_symbol": "SootopolisCity_Text_GiveYouThisBerryToo",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КИРИ даст тебе и эту ЯГОДУ!"
+    ],
+    "A2": [
+      "КИРИ даст тебе и эту ЯГОДУ! Она мне очень нравится!"
+    ],
+    "natural": [
+      "КИРИ даст тебе и эту ЯГОДУ! Она мне очень нравится!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KIRI gibt dir auch diese BEERE!"
+    ],
+    "A2": [
+      "KIRI gibt dir auch diese BEERE! Ich mag sie sehr!"
+    ],
+    "natural": [
+      "KIRI gibt dir auch diese BEERE! Ich mag sie sehr!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityWhatKindOfWishInYourName",
+  "base_symbol": "SootopolisCity_Text_WhatKindOfWishInYourName",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Интересно, какое пожелание скрыто в твоём имени."
+    ],
+    "A2": [
+      "Интересно, какое пожелание скрыто в твоём имени."
+    ],
+    "natural": [
+      "Интересно, какое пожелание скрыто в твоём имени."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welcher Wunsch steckt wohl in deinem Namen?"
+    ],
+    "A2": [
+      "Welcher Wunsch steckt wohl in deinem Namen?"
+    ],
+    "natural": [
+      "Welcher Wunsch steckt wohl in deinem Namen?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityKiriBornInSeasons",
+  "base_symbol": "SootopolisCity_Text_KiriBornInSeasons",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Весна, лето, осень и зима."
+    ],
+    "A2": [
+      "Весна, лето, осень и зима. Рождённые весной любят весну, а рождённые летом - лето?"
+    ],
+    "natural": [
+      "Весна, лето, осень и зима. Рождённые весной любят весну, а рождённые летом - лето?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Frühling, Sommer, Herbst und Winter."
+    ],
+    "A2": [
+      "Frühling, Sommer, Herbst und Winter. Mögen im Frühling Geborene den Frühling und Sommerkinder den Sommer?"
+    ],
+    "natural": [
+      "Frühling, Sommer, Herbst und Winter. Mögen im Frühling Geborene den Frühling und Sommerkinder den Sommer?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityOhDoesntMatter",
+  "base_symbol": "SootopolisCity_Text_OhDoesntMatter",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О..."
+    ],
+    "A2": [
+      "О... Неважно..."
+    ],
+    "natural": [
+      "О... Неважно... Я так много хочу узнать..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh..."
+    ],
+    "A2": [
+      "Oh... Schon gut..."
+    ],
+    "natural": [
+      "Oh... Schon gut... Ich möchte so viel wissen..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityThenILoveAutumn",
+  "base_symbol": "SootopolisCity_Text_ThenILoveAutumn",
+  "source_path": "data/text/berries.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тогда КИРИ родилась осенью, поэтому любит осень!"
+    ],
+    "A2": [
+      "Тогда КИРИ родилась осенью, поэтому любит осень! А какое время года любишь ты?"
+    ],
+    "natural": [
+      "Тогда КИРИ родилась осенью, поэтому любит осень! А какое время года любишь ты?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dann wurde KIRI im Herbst geboren und liebt den Herbst!"
+    ],
+    "A2": [
+      "Dann wurde KIRI im Herbst geboren und liebt den Herbst! Welche Jahreszeit magst du?"
+    ],
+    "natural": [
+      "Dann wurde KIRI im Herbst geboren und liebt den Herbst! Welche Jahreszeit magst du?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityYoureGoingToChallengeWallace",
+  "base_symbol": "SootopolisCity_Text_YoureGoingToChallengeWallace",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дай угадаю: ты бросишь вызов Уоллесу?"
+    ],
+    "A2": [
+      "Дай угадаю: ты бросишь вызов Уоллесу? Правда?"
+    ],
+    "natural": [
+      "Дай угадаю: ты бросишь вызов Уоллесу? Правда? Какая смелость!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Lass mich raten: Du forderst Wassili heraus?"
+    ],
+    "A2": [
+      "Lass mich raten: Du forderst Wassili heraus? Wirklich?"
+    ],
+    "natural": [
+      "Lass mich raten: Du forderst Wassili heraus? Wirklich? Du bist sehr mutig!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityBecomeYourFan",
+  "base_symbol": "SootopolisCity_Text_BecomeYourFan",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дай угадаю: ты победил Уоллеса!"
+    ],
+    "A2": [
+      "Дай угадаю: ты победил Уоллеса! Правда?"
+    ],
+    "natural": [
+      "Дай угадаю: ты победил Уоллеса! Правда? Может, я стану твоим фанатом!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Lass mich raten: Du hast Wassili besiegt!"
+    ],
+    "A2": [
+      "Lass mich raten: Du hast Wassili besiegt! Wirklich?"
+    ],
+    "natural": [
+      "Lass mich raten: Du hast Wassili besiegt! Wirklich? Vielleicht werde ich dein Fan!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityNoOrdinaryTouristOne",
+  "base_symbol": "SootopolisCity_Text_NoOrdinaryTourist1",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм!"
+    ],
+    "A2": [
+      "Хм! Ты добрался до Соотополиса?"
+    ],
+    "natural": [
+      "Хм! Ты добрался до Соотополиса? Ты не обычный турист. Но и необычным это тебя не делает."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm!"
+    ],
+    "A2": [
+      "Hm! Du kamst bis Xeneroville?"
+    ],
+    "natural": [
+      "Hm! Du kamst bis Xeneroville? Du bist kein gewöhnlicher Tourist. Außergewöhnlich macht dich das auch nicht."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityNoOrdinaryTouristTwo",
+  "base_symbol": "SootopolisCity_Text_NoOrdinaryTourist2",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм!"
+    ],
+    "A2": [
+      "Хм! Ты добрался до Соотополиса?"
+    ],
+    "natural": [
+      "Хм! Ты добрался до Соотополиса? Ты не обычный турист. Но и необычным это тебя не делает."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm!"
+    ],
+    "A2": [
+      "Hm! Du kamst bis Xeneroville?"
+    ],
+    "natural": [
+      "Hm! Du kamst bis Xeneroville? Du bist kein gewöhnlicher Tourist. Außergewöhnlich macht dich das auch nicht."
+    ]
+  }
+},
+{
+  "id": "SootopolisCitySootopolisSkyBeautiful",
+  "base_symbol": "SootopolisCity_Text_SootopolisSkyBeautiful",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Соотополис возник в кратере вулкана."
+    ],
+    "A2": [
+      "Соотополис возник в кратере вулкана. Подними взгляд: край кратера окружает круг неба."
+    ],
+    "natural": [
+      "Соотополис возник в кратере вулкана. Подними взгляд: край кратера окружает круг неба. Именно поэтому наше небо так прекрасно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Xeneroville entstand im Vulkankrater."
+    ],
+    "A2": [
+      "Xeneroville entstand im Vulkankrater. Blick hinauf: Der Kraterrand rahmt einen Kreis aus Himmel."
+    ],
+    "natural": [
+      "Xeneroville entstand im Vulkankrater. Blick hinauf: Der Kraterrand rahmt einen Kreis aus Himmel. Darum ist unser Himmel so schön."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityNightSkyFavoriteScenery",
+  "base_symbol": "SootopolisCity_Text_NightSkyFavoriteScenery",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Круг ночного неба в рамке вулканического кратера..."
+    ],
+    "A2": [
+      "Круг ночного неба в рамке вулканического кратера... В нём звёзды мерцают, словно живые."
+    ],
+    "natural": [
+      "Круг ночного неба в рамке вулканического кратера... В нём звёзды мерцают, словно живые. Это мой любимый вид."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Kreis aus Nachthimmel im Rahmen des Vulkankraters..."
+    ],
+    "A2": [
+      "Ein Kreis aus Nachthimmel im Rahmen des Vulkankraters... Darin funkeln Sterne wie lebendig."
+    ],
+    "natural": [
+      "Ein Kreis aus Nachthimmel im Rahmen des Vulkankraters... Darin funkeln Sterne wie lebendig. Das ist mein liebster Ausblick."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityWonderWhatWorldIsLike",
+  "base_symbol": "SootopolisCity_Text_WonderWhatWorldIsLike",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я никогда не покидал этот город."
+    ],
+    "A2": [
+      "Я никогда не покидал этот город. Интересно, каков мир за этим круглым небом?"
+    ],
+    "natural": [
+      "Я никогда не покидал этот город. Интересно, каков мир за этим круглым небом?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich war noch nie außerhalb der Stadt."
+    ],
+    "A2": [
+      "Ich war noch nie außerhalb der Stadt. Wie ist wohl die Welt jenseits dieses runden Himmels?"
+    ],
+    "natural": [
+      "Ich war noch nie außerhalb der Stadt. Wie ist wohl die Welt jenseits dieses runden Himmels?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityWhereIsMyHouse",
+  "base_symbol": "SootopolisCity_Text_WhereIsMyHouse",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А?"
+    ],
+    "A2": [
+      "А? Где мой дом?"
+    ],
+    "natural": [
+      "А? Где мой дом?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hä?"
+    ],
+    "A2": [
+      "Hä? Wo ist mein Haus?"
+    ],
+    "natural": [
+      "Hä? Wo ist mein Haus?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityPhysicallyFitLivingHere",
+  "base_symbol": "SootopolisCity_Text_PhysicallyFitLivingHere",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нырять в море, постоянно ходить по лестницам..."
+    ],
+    "A2": [
+      "Нырять в море, постоянно ходить по лестницам... Жизнь здесь делает тебя сильным."
+    ],
+    "natural": [
+      "Нырять в море, постоянно ходить по лестницам... Жизнь здесь делает тебя сильным."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Meer tauchen, ständig Treppen steigen..."
+    ],
+    "A2": [
+      "Im Meer tauchen, ständig Treppen steigen... Wer hier lebt, wird fit."
+    ],
+    "natural": [
+      "Im Meer tauchen, ständig Treppen steigen... Wer hier lebt, wird fit."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymSign",
+  "base_symbol": "SootopolisCity_Text_GymSign",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ СОOTОПОЛИСА ЛИДЕР: УОЛЛЕС Художник и поклонник воды."
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ СОOTОПОЛИСА ЛИДЕР: УОЛЛЕС Художник и поклонник воды."
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ СОOTОПОЛИСА ЛИДЕР: УОЛЛЕС Художник и поклонник воды."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA XENEROVILLE LEITER: WASSILI Künstler und Liebhaber des Wassers."
+    ],
+    "A2": [
+      "POKÉMON-ARENA XENEROVILLE LEITER: WASSILI Künstler und Liebhaber des Wassers."
+    ],
+    "natural": [
+      "POKÉMON-ARENA XENEROVILLE LEITER: WASSILI Künstler und Liebhaber des Wassers."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityCitySign",
+  "base_symbol": "SootopolisCity_Text_CitySign",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СООТОПОЛИС Мистический город, где дремлет история."
+    ],
+    "A2": [
+      "СООТОПОЛИС Мистический город, где дремлет история."
+    ],
+    "natural": [
+      "СООТОПОЛИС Мистический город, где дремлет история."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "XENEROVILLE Die mystische Stadt, in der Geschichte schlummert."
+    ],
+    "A2": [
+      "XENEROVILLE Die mystische Stadt, in der Geschichte schlummert."
+    ],
+    "natural": [
+      "XENEROVILLE Die mystische Stadt, in der Geschichte schlummert."
+    ]
+  }
+},
+{
+  "id": "ClosedSootopolisDoorText",
+  "base_symbol": "ClosedSootopolisDoorText",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дверь закрыта."
+    ],
+    "A2": [
+      "Дверь закрыта."
+    ],
+    "natural": [
+      "Дверь закрыта."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür ist geschlossen."
+    ],
+    "A2": [
+      "Die Tür ist geschlossen."
+    ],
+    "natural": [
+      "Die Tür ist geschlossen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityYouCameInRainstorm",
+  "base_symbol": "SootopolisCity_Text_YouCameInRainstorm",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, ты тоже пришёл, несмотря на страшный ливень?"
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, ты тоже пришёл, несмотря на страшный ливень? Выслушай моего друга."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, ты тоже пришёл, несмотря на страшный ливень? Выслушай моего друга."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, du bist trotz des schlimmen Regens gekommen?"
+    ],
+    "A2": [
+      "TROY: {PLAYER}, du bist trotz des schlimmen Regens gekommen? Hör bitte meinem Freund zu."
+    ],
+    "natural": [
+      "TROY: {PLAYER}, du bist trotz des schlimmen Regens gekommen? Hör bitte meinem Freund zu."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMyNameIsWallaceDownpour",
+  "base_symbol": "SootopolisCity_Text_MyNameIsWallaceDownpour",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня зовут Уоллес."
+    ],
+    "A2": [
+      "Меня зовут Уоллес. Я лидер этого города и хранитель Пещеры истока."
+    ],
+    "natural": [
+      "Меня зовут Уоллес. Я лидер этого города и хранитель Пещеры истока. Ливень вызван силой, исходящей из пещеры."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich heiße Wassili, bin Arenaleiter und Hüter der Urzeithöhle."
+    ],
+    "A2": [
+      "Ich heiße Wassili, bin Arenaleiter und Hüter der Urzeithöhle. Der Regen stammt von einer Kraft aus der Höhle."
+    ],
+    "natural": [
+      "Ich heiße Wassili, bin Arenaleiter und Hüter der Urzeithöhle. Der Regen stammt von einer Kraft aus der Höhle."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityThatIsTheBlueOrb",
+  "base_symbol": "SootopolisCity_Text_ThatIsTheBlueOrb",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это..."
+    ],
+    "A2": [
+      "Это... Синяя сфера."
+    ],
+    "natural": [
+      "Это... Синяя сфера. Понятно. Иди за мной."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das..."
+    ],
+    "A2": [
+      "Das... Das ist die Blaue Kugel."
+    ],
+    "natural": [
+      "Das... Das ist die Blaue Kugel. Ich verstehe. Folge mir."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityPeopleNeedRainToLive",
+  "base_symbol": "SootopolisCity_Text_PeopleNeedRainToLive",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Этот дождь..."
+    ],
+    "A2": [
+      "СТИВЕН: Этот дождь... Людям и покемонам нужна вода."
+    ],
+    "natural": [
+      "СТИВЕН: Этот дождь... Людям и покемонам нужна вода. Но почему он так пугает? Тучи над Соотополисом вскоре накроют весь Хоэнн. Если это случится..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Dieser Regen..."
+    ],
+    "A2": [
+      "TROY: Dieser Regen... Menschen und Pokémon brauchen Wasser."
+    ],
+    "natural": [
+      "TROY: Dieser Regen... Menschen und Pokémon brauchen Wasser. Doch warum macht er solche Angst? Die Wolken werden bald ganz Hoenn bedecken. Wenn das geschieht..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityCaveOfOriginWithBlueOrb",
+  "base_symbol": "SootopolisCity_Text_CaveOfOriginWithBlueOrb",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Cave of Origin, Blue Orb, Kyogre, or legendary-resolution interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛЕС: Впереди Пещера истока."
+    ],
+    "A2": [
+      "УОЛЛЕС: Впереди Пещера истока. Жителям Соотополиса вход запрещён."
+    ],
+    "natural": [
+      "УОЛЛЕС: Впереди Пещера истока. Жителям Соотополиса вход запрещён. Но ты должен войти вместе с Синей сферой, что бы ни ждало внутри."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "легенда",
+        "legend"
+      ]
+    ],
+    "de": [
+      [
+        "die Legende",
+        "legend"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WASSILI: Vor uns liegt die Urzeithöhle."
+    ],
+    "A2": [
+      "WASSILI: Vor uns liegt die Urzeithöhle. Einwohner dürfen sie nicht betreten."
+    ],
+    "natural": [
+      "WASSILI: Vor uns liegt die Urzeithöhle. Einwohner dürfen sie nicht betreten. Doch du musst mit der Blauen Kugel hinein, was auch immer dich erwartet."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityNeverExpectedHoldingBlueOrb",
+  "base_symbol": "SootopolisCity_Text_NeverExpectedHoldingBlueOrb",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, не ожидал увидеть у тебя Синюю сферу."
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, не ожидал увидеть у тебя Синюю сферу. С покемонами ты справишься, что бы ни случилось."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, не ожидал увидеть у тебя Синюю сферу. С покемонами ты справишься, что бы ни случилось. Я уверен!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, die Blaue Kugel bei dir zu sehen überrascht mich."
+    ],
+    "A2": [
+      "TROY: {PLAYER}, die Blaue Kugel bei dir zu sehen überrascht mich. Mit deinen Pokémon schaffst du alles."
+    ],
+    "natural": [
+      "TROY: {PLAYER}, die Blaue Kugel bei dir zu sehen überrascht mich. Mit deinen Pokémon schaffst du alles. Davon bin ich überzeugt!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityYouMustGoWithBlueOrb",
+  "base_symbol": "SootopolisCity_Text_YouMustGoWithBlueOrb",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛЕС: Ты должен войти с Синей сферой, что бы ни ждало внутри пещеры."
+    ],
+    "A2": [
+      "УОЛЛЕС: Ты должен войти с Синей сферой, что бы ни ждало внутри пещеры."
+    ],
+    "natural": [
+      "УОЛЛЕС: Ты должен войти с Синей сферой, что бы ни ждало внутри пещеры."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WASSILI: Du musst mit der Blauen Kugel hinein, was auch immer dort wartet."
+    ],
+    "A2": [
+      "WASSILI: Du musst mit der Blauen Kugel hinein, was auch immer dort wartet."
+    ],
+    "natural": [
+      "WASSILI: Du musst mit der Blauen Kugel hinein, was auch immer dort wartet."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityYoullBeOkaySapphire",
+  "base_symbol": "SootopolisCity_Text_YoullBeOkaySapphire",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: С покемонами ты справишься, что бы ни случилось."
+    ],
+    "A2": [
+      "СТИВЕН: С покемонами ты справишься, что бы ни случилось. Я уверен!"
+    ],
+    "natural": [
+      "СТИВЕН: С покемонами ты справишься, что бы ни случилось. Я уверен!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Mit deinen Pokémon schaffst du alles."
+    ],
+    "A2": [
+      "TROY: Mit deinen Pokémon schaffst du alles. Davon bin ich überzeugt!"
+    ],
+    "natural": [
+      "TROY: Mit deinen Pokémon schaffst du alles. Davon bin ich überzeugt!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityWeOweItAllToYou",
+  "base_symbol": "SootopolisCity_Text_WeOweItAllToYou",
+  "source_path": "data/maps/SootopolisCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}, мы обязаны тебе всем."
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}, мы обязаны тебе всем. Небо снова нормально, и Уоллес благодарит тебя."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}, мы обязаны тебе всем. Небо снова нормально, и Уоллес благодарит тебя. Он ждёт внутри. Уоллес силён, но теперь ты ему ровня. Сделай всё возможное!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}, wir verdanken dir alles."
+    ],
+    "A2": [
+      "TROY: {PLAYER}, wir verdanken dir alles. Der Himmel ist wieder normal, und Wassili dankt dir."
+    ],
+    "natural": [
+      "TROY: {PLAYER}, wir verdanken dir alles. Der Himmel ist wieder normal, und Wassili dankt dir. Er wartet drinnen. Er ist stark, doch nun bist du ihm ebenbürtig. Viel Glück!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFWallaceIntro",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_WallaceIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я Уоллес, лидер Соотополиса."
+    ],
+    "A2": [
+      "Я Уоллес, лидер Соотополиса. В тебе есть нечто особенное."
+    ],
+    "natural": [
+      "Я Уоллес, лидер Соотополиса. В тебе есть нечто особенное. Наш бой покажет, что было в Пещере истока. Покажи силу своих покемонов! Мы ответим искусством воды!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin Wassili, Leiter von Xeneroville."
+    ],
+    "A2": [
+      "Ich bin Wassili, Leiter von Xeneroville. Du bist besonders."
+    ],
+    "natural": [
+      "Ich bin Wassili, Leiter von Xeneroville. Du bist besonders. Unser Kampf zeigt, was in der Urzeithöhle geschah. Zeige die Kraft deiner Pokémon! Wir antworten mit Wasserkunst!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFWallaceDefeat",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_WallaceDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Браво."
+    ],
+    "A2": [
+      "Браво. Теперь я вижу твоё истинное величие как тренера."
+    ],
+    "natural": [
+      "Браво. Теперь я вижу твоё истинное величие как тренера. Я рад встрече с тобой и покемонами. Ты достоин Значка Дождя. Прими его."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bravo."
+    ],
+    "A2": [
+      "Bravo. Nun erkenne ich deine wahre Größe als Trainer."
+    ],
+    "natural": [
+      "Bravo. Nun erkenne ich deine wahre Größe als Trainer. Die Begegnung mit dir und deinen Pokémon freut mich. Du verdienst den Schauerorden."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFWallacePostBattle",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_WallacePostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Собравшие все значки Хоэнна должны идти к главной цели - Лиге покемонов."
+    ],
+    "A2": [
+      "Собравшие все значки Хоэнна должны идти к главной цели - Лиге покемонов. Отправляйся на крайний восток Хоэнна, на остров Эвер-Гранде."
+    ],
+    "natural": [
+      "Собравшие все значки Хоэнна должны идти к главной цели - Лиге покемонов. Отправляйся на крайний восток Хоэнна, на остров Эвер-Гранде. Лига находится там."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit allen Orden Hoenns wartet das höchste Ziel: die Pokémon-Liga."
+    ],
+    "A2": [
+      "Mit allen Orden Hoenns wartet das höchste Ziel: die Pokémon-Liga. Reise ganz in den Osten zur Insel Prachtpolis."
+    ],
+    "natural": [
+      "Mit allen Orden Hoenns wartet das höchste Ziel: die Pokémon-Liga. Reise ganz in den Osten zur Insel Prachtpolis. Dort befindet sich die Liga."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFReceivedRainBadge",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_ReceivedRainBadge",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает Значок Дождя от Уоллеса."
+    ],
+    "A2": [
+      "{PLAYER} получает Значок Дождя от Уоллеса."
+    ],
+    "natural": [
+      "{PLAYER} получает Значок Дождя от Уоллеса."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält den Schauerorden von Wassili."
+    ],
+    "A2": [
+      "{PLAYER} erhält den Schauerorden von Wassili."
+    ],
+    "natural": [
+      "{PLAYER} erhält den Schauerorden von Wassili."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFExplainRainBadgeTakeThis",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этот значок заставит всех покемонов полностью слушаться тебя."
+    ],
+    "A2": [
+      "Этот значок заставит всех покемонов полностью слушаться тебя. Он также позволяет применять Водопад вне битвы."
+    ],
+    "natural": [
+      "Этот значок заставит всех покемонов полностью слушаться тебя. Он также позволяет применять Водопад вне битвы. А на память о нашем бое возьми это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieser Orden lässt alle Pokémon deinen Befehlen folgen."
+    ],
+    "A2": [
+      "Dieser Orden lässt alle Pokémon deinen Befehlen folgen. Er erlaubt Kaskade außerhalb des Kampfes."
+    ],
+    "natural": [
+      "Dieser Orden lässt alle Pokémon deinen Befehlen folgen. Er erlaubt Kaskade außerhalb des Kampfes. Als Erinnerung an unseren Kampf nimm dies."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFExplainWaterPulse",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_ExplainWaterPulse",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В этой ТМ находится Водный импульс."
+    ],
+    "A2": [
+      "В этой ТМ находится Водный импульс. Его ультразвуковые волны иногда сбивают цель с толку."
+    ],
+    "natural": [
+      "В этой ТМ находится Водный импульс. Его ультразвуковые волны иногда сбивают цель с толку."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Diese TM enthält Aquawelle."
+    ],
+    "A2": [
+      "Diese TM enthält Aquawelle. Ihre Ultraschallwellen verwirren das Ziel manchmal."
+    ],
+    "natural": [
+      "Diese TM enthält Aquawelle. Ihre Ultraschallwellen verwirren das Ziel manchmal."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFGoGetFortreeBadge",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_GoGetFortreeBadge",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В Хоэнне остался один значок."
+    ],
+    "A2": [
+      "В Хоэнне остался один значок. Чтобы вызвать Лигу, получи его на стадионе Фортри."
+    ],
+    "natural": [
+      "В Хоэнне остался один значок. Чтобы вызвать Лигу, получи его на стадионе Фортри."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Orden in Hoenn fehlt noch."
+    ],
+    "A2": [
+      "Ein Orden in Hoenn fehlt noch. Für die Liga musst du ihn in Baumhausen holen."
+    ],
+    "natural": [
+      "Ein Orden in Hoenn fehlt noch. Für die Liga musst du ihn in Baumhausen holen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFGymGuideAdvice",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_GymGuideAdvice",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, будущий чемпион {PLAYER}!"
+    ],
+    "A2": [
+      "Привет, будущий чемпион {PLAYER}! Лидер Уоллес - мастер водных покемонов."
+    ],
+    "natural": [
+      "Привет, будущий чемпион {PLAYER}! Лидер Уоллес - мастер водных покемонов. До него ведёт ледяной пол. Это весь мой совет. Дальше справляйся сам!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, künftiger Champ {PLAYER}!"
+    ],
+    "A2": [
+      "Hallo, künftiger Champ {PLAYER}! Leiter Wassili meistert Wasser-Pokémon."
+    ],
+    "natural": [
+      "Hallo, künftiger Champ {PLAYER}! Leiter Wassili meistert Wasser-Pokémon. Ein Eisboden versperrt den Weg. Mehr Rat habe ich nicht. Den Rest musst du selbst schaffen!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFGymGuidePostVictory",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_GymGuidePostVictory",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух ты!"
+    ],
+    "A2": [
+      "Ух ты! Ты победил даже Уоллеса, лучшего в Хоэнне!"
+    ],
+    "natural": [
+      "Ух ты! Ты победил даже Уоллеса, лучшего в Хоэнне! Проверь карточку тренера. Со всеми значками ты готов к Лиге покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wow!"
+    ],
+    "A2": [
+      "Wow! Du hast sogar Wassili besiegt, Hoenns angeblich Besten!"
+    ],
+    "natural": [
+      "Wow! Du hast sogar Wassili besiegt, Hoenns angeblich Besten! Prüfe deinen Trainerpass. Mit allen Orden bist du bereit für die Liga!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFGymStatueCertified",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_GymStatueCertified",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ СООТОПОЛИСА ПРИЗНАННЫЕ ТРЕНЕРЫ УОЛЛЕСА: {PLAYER}"
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ СООТОПОЛИСА ПРИЗНАННЫЕ ТРЕНЕРЫ УОЛЛЕСА: {PLAYER}"
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ СООТОПОЛИСА ПРИЗНАННЫЕ ТРЕНЕРЫ УОЛЛЕСА: {PLAYER}"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA XENEROVILLE WASSILIS ANERKANNTE TRAINER: {PLAYER}"
+    ],
+    "A2": [
+      "POKÉMON-ARENA XENEROVILLE WASSILIS ANERKANNTE TRAINER: {PLAYER}"
+    ],
+    "natural": [
+      "POKÉMON-ARENA XENEROVILLE WASSILIS ANERKANNTE TRAINER: {PLAYER}"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFGymStatue",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_GymStatue",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ СООТОПОЛИСА"
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ СООТОПОЛИСА"
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ СООТОПОЛИСА"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA XENEROVILLE"
+    ],
+    "A2": [
+      "POKÉMON-ARENA XENEROVILLE"
+    ],
+    "natural": [
+      "POKÉMON-ARENA XENEROVILLE"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFAndreaIntro",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_AndreaIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покажу приёмы, которым научилась у лидера Уоллеса!"
+    ],
+    "A2": [
+      "Покажу приёмы, которым научилась у лидера Уоллеса!"
+    ],
+    "natural": [
+      "Покажу приёмы, которым научилась у лидера Уоллеса!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich zeige dir die Techniken, die ich von Wassili lernte!"
+    ],
+    "A2": [
+      "Ich zeige dir die Techniken, die ich von Wassili lernte!"
+    ],
+    "natural": [
+      "Ich zeige dir die Techniken, die ich von Wassili lernte!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFAndreaDefeat",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_AndreaDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Прости меня, Уоллес..."
+    ],
+    "A2": [
+      "Прости меня, Уоллес..."
+    ],
+    "natural": [
+      "Прости меня, Уоллес..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verzeih mir, Wassili..."
+    ],
+    "A2": [
+      "Verzeih mir, Wassili..."
+    ],
+    "natural": [
+      "Verzeih mir, Wassili..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFAndreaPostBattle",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_AndreaPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Посмотри, что будет, если разбить все плитки пола."
+    ],
+    "A2": [
+      "Посмотри, что будет, если разбить все плитки пола."
+    ],
+    "natural": [
+      "Посмотри, что будет, если разбить все плитки пола."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh, was geschieht, wenn alle Bodenplatten brechen."
+    ],
+    "A2": [
+      "Sieh, was geschieht, wenn alle Bodenplatten brechen."
+    ],
+    "natural": [
+      "Sieh, was geschieht, wenn alle Bodenplatten brechen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFCrissyIntro",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_CrissyIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты дошёл сюда, но Уоллеса не увидишь, если проиграешь мне!"
+    ],
+    "A2": [
+      "Ты дошёл сюда, но Уоллеса не увидишь, если проиграешь мне!"
+    ],
+    "natural": [
+      "Ты дошёл сюда, но Уоллеса не увидишь, если проиграешь мне!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du kamst so weit, doch Wassili siehst du nicht, wenn du gegen mich verlierst!"
+    ],
+    "A2": [
+      "Du kamst so weit, doch Wassili siehst du nicht, wenn du gegen mich verlierst!"
+    ],
+    "natural": [
+      "Du kamst so weit, doch Wassili siehst du nicht, wenn du gegen mich verlierst!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFCrissyDefeat",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_CrissyDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты силён!"
+    ],
+    "A2": [
+      "Ты силён! Милый вид меня обманул!"
+    ],
+    "natural": [
+      "Ты силён! Милый вид меня обманул!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist stark!"
+    ],
+    "A2": [
+      "Du bist stark! Dein süßes Aussehen täuschte mich!"
+    ],
+    "natural": [
+      "Du bist stark! Dein süßes Aussehen täuschte mich!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFCrissyPostBattle",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_CrissyPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Возможно, Уоллес не сразит тебя одним ударом."
+    ],
+    "A2": [
+      "Возможно, Уоллес не сразит тебя одним ударом."
+    ],
+    "natural": [
+      "Возможно, Уоллес не сразит тебя одним ударом."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vielleicht besiegt Wassili dich nicht mit einem Treffer."
+    ],
+    "A2": [
+      "Vielleicht besiegt Wassili dich nicht mit einem Treffer."
+    ],
+    "natural": [
+      "Vielleicht besiegt Wassili dich nicht mit einem Treffer."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFBriannaIntro",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_BriannaIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Красота боя Уоллеса вдохновила меня стать тренером."
+    ],
+    "A2": [
+      "Красота боя Уоллеса вдохновила меня стать тренером."
+    ],
+    "natural": [
+      "Красота боя Уоллеса вдохновила меня стать тренером."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Schönheit von Wasilis Kämpfen brachte mich dazu, Trainer zu werden."
+    ],
+    "A2": [
+      "Die Schönheit von Wasilis Kämpfen brachte mich dazu, Trainer zu werden."
+    ],
+    "natural": [
+      "Die Schönheit von Wasilis Kämpfen brachte mich dazu, Trainer zu werden."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFBriannaDefeat",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_BriannaDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твой бой был прекраснее моего..."
+    ],
+    "A2": [
+      "Твой бой был прекраснее моего..."
+    ],
+    "natural": [
+      "Твой бой был прекраснее моего..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein Kampf war schöner als meiner..."
+    ],
+    "A2": [
+      "Dein Kampf war schöner als meiner..."
+    ],
+    "natural": [
+      "Dein Kampf war schöner als meiner..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFBriannaPostBattle",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_BriannaPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твоя грация в бою великолепна."
+    ],
+    "A2": [
+      "Твоя грация в бою великолепна. Какое счастье, что я встретила покемонов."
+    ],
+    "natural": [
+      "Твоя грация в бою великолепна. Какое счастье, что я встретила покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Anmut im Kampf ist wundervoll."
+    ],
+    "A2": [
+      "Deine Anmut im Kampf ist wundervoll. Wie glücklich ich über Pokémon bin."
+    ],
+    "natural": [
+      "Deine Anmut im Kampf ist wundervoll. Wie glücklich ich über Pokémon bin."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFConnieIntro",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_ConnieIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я покажу, насколько суровы бывают битвы."
+    ],
+    "A2": [
+      "Я покажу, насколько суровы бывают битвы."
+    ],
+    "natural": [
+      "Я покажу, насколько суровы бывают битвы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich zeige dir, wie hart Kämpfe sind."
+    ],
+    "A2": [
+      "Ich zeige dir, wie hart Kämpfe sind."
+    ],
+    "natural": [
+      "Ich zeige dir, wie hart Kämpfe sind."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFConnieDefeat",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_ConnieDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох."
+    ],
+    "A2": [
+      "Ох. Ты силён."
+    ],
+    "natural": [
+      "Ох. Ты силён."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh."
+    ],
+    "A2": [
+      "Oh. Du bist stark."
+    ],
+    "natural": [
+      "Oh. Du bist stark."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymBOneFConniePostBattle",
+  "base_symbol": "SootopolisCity_Gym_B1F_Text_ConniePostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Подскажу: чтобы дойти до Уоллеса, наступи на каждую плитку ровно раз."
+    ],
+    "A2": [
+      "Подскажу: чтобы дойти до Уоллеса, наступи на каждую плитку ровно раз."
+    ],
+    "natural": [
+      "Подскажу: чтобы дойти до Уоллеса, наступи на каждую плитку ровно раз."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Tipp: Um Wassili zu erreichen, betrete jede Platte genau einmal."
+    ],
+    "A2": [
+      "Ein Tipp: Um Wassili zu erreichen, betrete jede Platte genau einmal."
+    ],
+    "natural": [
+      "Ein Tipp: Um Wassili zu erreichen, betrete jede Platte genau einmal."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFBridgetIntro",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_BridgetIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Стадион высшего уровня в Хоэнне - стадион Соотополиса."
+    ],
+    "A2": [
+      "Стадион высшего уровня в Хоэнне - стадион Соотополиса."
+    ],
+    "natural": [
+      "Стадион высшего уровня в Хоэнне - стадион Соотополиса."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die höchstklassige Arena Hoenns ist die Arena von Xeneroville."
+    ],
+    "A2": [
+      "Die höchstklassige Arena Hoenns ist die Arena von Xeneroville."
+    ],
+    "natural": [
+      "Die höchstklassige Arena Hoenns ist die Arena von Xeneroville."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFBridgetDefeat",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_BridgetDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какой высокий уровень!"
+    ],
+    "A2": [
+      "Какой высокий уровень!"
+    ],
+    "natural": [
+      "Какой высокий уровень!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welch hohes Niveau!"
+    ],
+    "A2": [
+      "Welch hohes Niveau!"
+    ],
+    "natural": [
+      "Welch hohes Niveau!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFBridgetPostBattle",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_BridgetPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не довольствуйся сильным стадионом."
+    ],
+    "A2": [
+      "Не довольствуйся сильным стадионом. Тренировки в других местах сделают тебя сильнее и будут веселее."
+    ],
+    "natural": [
+      "Не довольствуйся сильным стадионом. Тренировки в других местах сделают тебя сильнее и будут веселее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gib dich nicht mit einer starken Arena zufrieden."
+    ],
+    "A2": [
+      "Gib dich nicht mit einer starken Arena zufrieden. Training anderswo macht dich stärker und bringt mehr Spaß."
+    ],
+    "natural": [
+      "Gib dich nicht mit einer starken Arena zufrieden. Training anderswo macht dich stärker und bringt mehr Spaß."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFOliviaIntro",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_OliviaIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я тренируюсь вместе с Уоллесом."
+    ],
+    "A2": [
+      "Я тренируюсь вместе с Уоллесом. Не думай, что меня легко победить."
+    ],
+    "natural": [
+      "Я тренируюсь вместе с Уоллесом. Не думай, что меня легко победить."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich trainiere mit Wassili."
+    ],
+    "A2": [
+      "Ich trainiere mit Wassili. Glaube nicht, dass ich leicht zu besiegen bin."
+    ],
+    "natural": [
+      "Ich trainiere mit Wassili. Glaube nicht, dass ich leicht zu besiegen bin."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFOliviaDefeat",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_OliviaDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Меня просто смело..."
+    ],
+    "A2": [
+      "Меня просто смело..."
+    ],
+    "natural": [
+      "Меня просто смело..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast mich umgehauen..."
+    ],
+    "A2": [
+      "Du hast mich umgehauen..."
+    ],
+    "natural": [
+      "Du hast mich umgehauen..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFOliviaPostBattle",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_OliviaPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В тебе есть потенциал."
+    ],
+    "A2": [
+      "В тебе есть потенциал. Останься и тренируйся с нами."
+    ],
+    "natural": [
+      "В тебе есть потенциал. Останься и тренируйся с нами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast Potenzial."
+    ],
+    "A2": [
+      "Du hast Potenzial. Bleib und trainiere mit uns."
+    ],
+    "natural": [
+      "Du hast Potenzial. Bleib und trainiere mit uns."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFTiffanyIntro",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_TiffanyIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Грациозно скользить по льду, не пересекая линий..."
+    ],
+    "A2": [
+      "Грациозно скользить по льду, не пересекая линий... Какое изящное выступление!"
+    ],
+    "natural": [
+      "Грациозно скользить по льду, не пересекая линий... Какое изящное выступление!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Anmutig über das Eis gleiten, ohne Linien zu kreuzen..."
+    ],
+    "A2": [
+      "Anmutig über das Eis gleiten, ohne Linien zu kreuzen... Welch elegante Vorstellung!"
+    ],
+    "natural": [
+      "Anmutig über das Eis gleiten, ohne Linien zu kreuzen... Welch elegante Vorstellung!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFTiffanyDefeat",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_TiffanyDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ну, прошу прощения?!"
+    ],
+    "A2": [
+      "Ну, прошу прощения?!"
+    ],
+    "natural": [
+      "Ну, прошу прощения?!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie bitte?!"
+    ],
+    "A2": [
+      "Wie bitte?!"
+    ],
+    "natural": [
+      "Wie bitte?!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFTiffanyPostBattle",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_TiffanyPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сила тренера никак не зависит от его возраста."
+    ],
+    "A2": [
+      "Сила тренера никак не зависит от его возраста."
+    ],
+    "natural": [
+      "Сила тренера никак не зависит от его возраста."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Stärke eines Trainers hat nichts mit seinem Alter zu tun."
+    ],
+    "A2": [
+      "Die Stärke eines Trainers hat nichts mit seinem Alter zu tun."
+    ],
+    "natural": [
+      "Die Stärke eines Trainers hat nichts mit seinem Alter zu tun."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFMarissaIntro",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_MarissaIntro",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "С покемонами время летит, не успеешь сказать ой!"
+    ],
+    "A2": [
+      "С покемонами время летит, не успеешь сказать ой!"
+    ],
+    "natural": [
+      "С покемонами время летит, не успеешь сказать ой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mit Pokémon vergeht die Zeit, ehe man Hoppla sagen kann!"
+    ],
+    "A2": [
+      "Mit Pokémon vergeht die Zeit, ehe man Hoppla sagen kann!"
+    ],
+    "natural": [
+      "Mit Pokémon vergeht die Zeit, ehe man Hoppla sagen kann!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFMarissaDefeat",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_MarissaDefeat",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой!"
+    ],
+    "A2": [
+      "Ой!"
+    ],
+    "natural": [
+      "Ой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla!"
+    ],
+    "A2": [
+      "Hoppla!"
+    ],
+    "natural": [
+      "Hoppla!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityGymOneFMarissaPostBattle",
+  "base_symbol": "SootopolisCity_Gym_1F_Text_MarissaPostBattle",
+  "source_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Gym trainer, puzzle, badge, TM, or Wallace interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хотела бы я забывать о безнадёжном, прежде чем скажу ой!"
+    ],
+    "A2": [
+      "Хотела бы я забывать о безнадёжном, прежде чем скажу ой!"
+    ],
+    "natural": [
+      "Хотела бы я забывать о безнадёжном, прежде чем скажу ой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Könnte ich Verlorenes nur vergessen, bevor ich Hoppla sage!"
+    ],
+    "A2": [
+      "Könnte ich Verlorenes nur vergessen, bevor ich Hoppla sage!"
+    ],
+    "natural": [
+      "Könnte ich Verlorenes nur vergessen, bevor ich Hoppla sage!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseOneDevelopedThisTM",
+  "base_symbol": "SootopolisCity_House1_Text_DevelopedThisTM",
+  "source_path": "data/maps/SootopolisCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тридцать лет я оттачивал своё мастерство в Соотополисе."
+    ],
+    "A2": [
+      "Тридцать лет я оттачивал своё мастерство в Соотополисе. Я создал сокрушительную ТМ и завещаю её тебе!"
+    ],
+    "natural": [
+      "Тридцать лет я оттачивал своё мастерство в Соотополисе. Я создал сокрушительную ТМ и завещаю её тебе!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dreißig Jahre schärfte ich meine Fähigkeiten in Xeneroville."
+    ],
+    "A2": [
+      "Dreißig Jahre schärfte ich meine Fähigkeiten in Xeneroville. Ich entwickelte eine gewaltige TM und vermache sie dir!"
+    ],
+    "natural": [
+      "Dreißig Jahre schärfte ich meine Fähigkeiten in Xeneroville. Ich entwickelte eine gewaltige TM und vermache sie dir!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseOneExplainBrickBreak",
+  "base_symbol": "SootopolisCity_House1_Text_ExplainBrickBreak",
+  "source_path": "data/maps/SootopolisCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В ТМ31 находится Кирпичный удар!"
+    ],
+    "A2": [
+      "В ТМ31 находится Кирпичный удар! Приём настолько ужасен, что не описать."
+    ],
+    "natural": [
+      "В ТМ31 находится Кирпичный удар! Приём настолько ужасен, что не описать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TM31 enthält Durchbruch!"
+    ],
+    "A2": [
+      "TM31 enthält Durchbruch! Die Attacke ist so furchtbar, dass Worte fehlen."
+    ],
+    "natural": [
+      "TM31 enthält Durchbruch! Die Attacke ist so furchtbar, dass Worte fehlen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseOneKecleon",
+  "base_symbol": "SootopolisCity_House1_Text_Kecleon",
+  "source_path": "data/maps/SootopolisCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КЕКЛЕОН: Пуу пухья."
+    ],
+    "A2": [
+      "КЕКЛЕОН: Пуу пухья."
+    ],
+    "natural": [
+      "КЕКЛЕОН: Пуу пухья."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KECLEON: Puu puhyaah."
+    ],
+    "A2": [
+      "KECLEON: Puu puhyaah."
+    ],
+    "natural": [
+      "KECLEON: Puu puhyaah."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseTwoDidYouKnowAboutMtPyreOrbs",
+  "base_symbol": "SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs",
+  "source_path": "data/maps/SootopolisCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Гора Пайр..."
+    ],
+    "A2": [
+      "Гора Пайр... На её вершине рядом лежат две сферы."
+    ],
+    "natural": [
+      "Гора Пайр... На её вершине рядом лежат две сферы. Ты знал?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Pyroberg..."
+    ],
+    "A2": [
+      "Der Pyroberg... Auf seinem Gipfel liegen zwei Kugeln nebeneinander."
+    ],
+    "natural": [
+      "Der Pyroberg... Auf seinem Gipfel liegen zwei Kugeln nebeneinander. Wusstest du das?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseTwoYesTwoOrbsSideBySide",
+  "base_symbol": "SootopolisCity_House2_Text_YesTwoOrbsSideBySide",
+  "source_path": "data/maps/SootopolisCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Да, две сферы рядом..."
+    ],
+    "A2": [
+      "Да, две сферы рядом... Их вид вместе почему-то успокаивает..."
+    ],
+    "natural": [
+      "Да, две сферы рядом... Их вид вместе почему-то успокаивает..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ja, zwei Kugeln nebeneinander..."
+    ],
+    "A2": [
+      "Ja, zwei Kugeln nebeneinander... Ihr gemeinsamer Anblick beruhigt mich."
+    ],
+    "natural": [
+      "Ja, zwei Kugeln nebeneinander... Ihr gemeinsamer Anblick beruhigt mich."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseTwoOughtToVisitAndSee",
+  "base_symbol": "SootopolisCity_House2_Text_OughtToVisitAndSee",
+  "source_path": "data/maps/SootopolisCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот как?"
+    ],
+    "A2": [
+      "Вот как? Возможно, тебе стоит самому сходить и увидеть..."
+    ],
+    "natural": [
+      "Вот как? Возможно, тебе стоит самому сходить и увидеть..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ach so?"
+    ],
+    "A2": [
+      "Ach so? Vielleicht solltest du sie selbst besuchen und ansehen..."
+    ],
+    "natural": [
+      "Ach so? Vielleicht solltest du sie selbst besuchen und ansehen..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseThreeWallaceHasManyFansDoYou",
+  "base_symbol": "SootopolisCity_House3_Text_WallaceHasManyFansDoYou",
+  "source_path": "data/maps/SootopolisCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты тренер покемонов, верно?"
+    ],
+    "A2": [
+      "Ты тренер покемонов, верно? У лидера Соотополиса Уоллеса много фанатов."
+    ],
+    "natural": [
+      "Ты тренер покемонов, верно? У лидера Соотополиса Уоллеса много фанатов. А у тебя есть?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist Pokémon-Trainer, oder?"
+    ],
+    "A2": [
+      "Du bist Pokémon-Trainer, oder? Der Arenaleiter Wassili hat viele Fans."
+    ],
+    "natural": [
+      "Du bist Pokémon-Trainer, oder? Der Arenaleiter Wassili hat viele Fans. Hast du auch welche?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseThreeLonesomeTryWorkingHarder",
+  "base_symbol": "SootopolisCity_House3_Text_LonesomeTryWorkingHarder",
+  "source_path": "data/maps/SootopolisCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох..."
+    ],
+    "A2": [
+      "Ох... Немного одиноко."
+    ],
+    "natural": [
+      "Ох... Немного одиноко. Постарайся лучше, чтобы обрести поклонников."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oje..."
+    ],
+    "A2": [
+      "Oje... Das ist etwas einsam."
+    ],
+    "natural": [
+      "Oje... Das ist etwas einsam. Bemühe dich mehr, um Fans zu gewinnen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseThreeYouMustBePrettyStrong",
+  "base_symbol": "SootopolisCity_House3_Text_YouMustBePrettyStrong",
+  "source_path": "data/maps/SootopolisCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тогда ты, должно быть, очень силён."
+    ],
+    "A2": [
+      "Тогда ты, должно быть, очень силён."
+    ],
+    "natural": [
+      "Тогда ты, должно быть, очень силён."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dann musst du ziemlich stark sein."
+    ],
+    "A2": [
+      "Dann musst du ziemlich stark sein."
+    ],
+    "natural": [
+      "Dann musst du ziemlich stark sein."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseThreeTrainerFanClubWasWild",
+  "base_symbol": "SootopolisCity_House3_Text_TrainerFanClubWasWild",
+  "source_path": "data/maps/SootopolisCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Преданные фанаты приезжают даже из Канто и Джото."
+    ],
+    "A2": [
+      "Преданные фанаты приезжают даже из Канто и Джото. В клубе фанатов тренеров Лиликова было настоящее безумие!"
+    ],
+    "natural": [
+      "Преданные фанаты приезжают даже из Канто и Джото. В клубе фанатов тренеров Лиликова было настоящее безумие!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Treue Fans kommen sogar aus Kanto und Johto."
+    ],
+    "A2": [
+      "Treue Fans kommen sogar aus Kanto und Johto. Im Trainer-Fanclub von Seegrasulb war es wirklich wild!"
+    ],
+    "natural": [
+      "Treue Fans kommen sogar aus Kanto und Johto. Im Trainer-Fanclub von Seegrasulb war es wirklich wild!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseFourAncientTreasuresWaitingInSea",
+  "base_symbol": "SootopolisCity_House4_Text_AncientTreasuresWaitingInSea",
+  "source_path": "data/maps/SootopolisCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Послушай, расскажу кое-что хорошее."
+    ],
+    "A2": [
+      "Послушай, расскажу кое-что хорошее. Говорят, в здешнем море есть древние руины."
+    ],
+    "natural": [
+      "Послушай, расскажу кое-что хорошее. Говорят, в здешнем море есть древние руины. Там могут ждать сокровища."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hör zu, ich verrate dir etwas Gutes."
+    ],
+    "A2": [
+      "Hör zu, ich verrate dir etwas Gutes. Im Meer soll eine uralte Ruine liegen."
+    ],
+    "natural": [
+      "Hör zu, ich verrate dir etwas Gutes. Im Meer soll eine uralte Ruine liegen. Dort könnten Schätze warten."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseFourStrollUnderwaterWithPokemon",
+  "base_symbol": "SootopolisCity_House4_Text_StrollUnderwaterWithPokemon",
+  "source_path": "data/maps/SootopolisCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Древние сокровища..."
+    ],
+    "A2": [
+      "Древние сокровища... Хорошо бы, если бы они существовали."
+    ],
+    "natural": [
+      "Древние сокровища... Хорошо бы, если бы они существовали. Но и без них чудесно гулять под водой со своим покемоном."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Uralte Schätze..."
+    ],
+    "A2": [
+      "Uralte Schätze... Schön, wenn es sie gäbe."
+    ],
+    "natural": [
+      "Uralte Schätze... Schön, wenn es sie gäbe. Doch auch ohne sie wäre ein Spaziergang unter Wasser mit meinem Pokémon toll."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseFourAzumarill",
+  "base_symbol": "SootopolisCity_House4_Text_Azumarill",
+  "source_path": "data/maps/SootopolisCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЗУМАРИЛЛ: Марурии."
+    ],
+    "A2": [
+      "АЗУМАРИЛЛ: Марурии."
+    ],
+    "natural": [
+      "АЗУМАРИЛЛ: Марурии."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "AZUMARILL: Marurii."
+    ],
+    "A2": [
+      "AZUMARILL: Marurii."
+    ],
+    "natural": [
+      "AZUMARILL: Marurii."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseFiveSootopolisMtPyreConnection",
+  "base_symbol": "SootopolisCity_House5_Text_SootopolisMtPyreConnection",
+  "source_path": "data/maps/SootopolisCity_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, Соотополис связан с горой Пайр."
+    ],
+    "A2": [
+      "Похоже, Соотополис связан с горой Пайр. Мы с друзьями изучали это в моей прежней лаборатории."
+    ],
+    "natural": [
+      "Похоже, Соотополис связан с горой Пайр. Мы с друзьями изучали это в моей прежней лаборатории."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Xeneroville und der Pyroberg scheinen verbunden zu sein."
+    ],
+    "A2": [
+      "Xeneroville und der Pyroberg scheinen verbunden zu sein. Meine Freunde und ich erforschten das in meinem früheren Labor."
+    ],
+    "natural": [
+      "Xeneroville und der Pyroberg scheinen verbunden zu sein. Meine Freunde und ich erforschten das in meinem früheren Labor."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseFiveBrotherUsedToStudySea",
+  "base_symbol": "SootopolisCity_House5_Text_BrotherUsedToStudySea",
+  "source_path": "data/maps/SootopolisCity_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой старший брат когда-то изучал море."
+    ],
+    "A2": [
+      "Мой старший брат когда-то изучал море."
+    ],
+    "natural": [
+      "Мой старший брат когда-то изучал море."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein großer Bruder erforschte einst das Meer."
+    ],
+    "A2": [
+      "Mein großer Bruder erforschte einst das Meer."
+    ],
+    "natural": [
+      "Mein großer Bruder erforschte einst das Meer."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSixFirstGuestInWhileTakeDoll",
+  "base_symbol": "SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll",
+  "source_path": "data/maps/SootopolisCity_House6/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет!"
+    ],
+    "A2": [
+      "Привет! Ты наш первый гость за долгое время."
+    ],
+    "natural": [
+      "Привет! Ты наш первый гость за долгое время. Ты скрасил мой день, поэтому я подарю тебе большую куклу Вэйлмера."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo!"
+    ],
+    "A2": [
+      "Hallo! Du bist seit Langem unser erster Gast."
+    ],
+    "natural": [
+      "Hallo! Du bist seit Langem unser erster Gast. Du hast meinen Tag erhellt. Dafür bekommst du eine große Wailmer-Puppe."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSixTakeGoodCareOfIt",
+  "base_symbol": "SootopolisCity_House6_Text_TakeGoodCareOfIt",
+  "source_path": "data/maps/SootopolisCity_House6/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Береги её!"
+    ],
+    "A2": [
+      "Береги её!"
+    ],
+    "natural": [
+      "Береги её!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Pass gut auf sie auf!"
+    ],
+    "A2": [
+      "Pass gut auf sie auf!"
+    ],
+    "natural": [
+      "Pass gut auf sie auf!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSixDontWantThisDoll",
+  "base_symbol": "SootopolisCity_House6_Text_DontWantThisDoll",
+  "source_path": "data/maps/SootopolisCity_House6/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты уверен?"
+    ],
+    "A2": [
+      "Ты уверен? Не хочешь эту куклу?"
+    ],
+    "natural": [
+      "Ты уверен? Не хочешь эту куклу?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bist du sicher?"
+    ],
+    "A2": [
+      "Bist du sicher? Willst du diese Puppe nicht?"
+    ],
+    "natural": [
+      "Bist du sicher? Willst du diese Puppe nicht?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSixLovePlushDolls",
+  "base_symbol": "SootopolisCity_House6_Text_LovePlushDolls",
+  "source_path": "data/maps/SootopolisCity_House6/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я обожаю плюшевые куклы!"
+    ],
+    "A2": [
+      "Я обожаю плюшевые куклы!"
+    ],
+    "natural": [
+      "Я обожаю плюшевые куклы!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich liebe Plüschpuppen!"
+    ],
+    "A2": [
+      "Ich liebe Plüschpuppen!"
+    ],
+    "natural": [
+      "Ich liebe Plüschpuppen!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSixIllHoldItForYou",
+  "base_symbol": "SootopolisCity_House6_Text_IllHoldItForYou",
+  "source_path": "data/maps/SootopolisCity_House6/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочешь её, но не сейчас?"
+    ],
+    "A2": [
+      "Хочешь её, но не сейчас? Хорошо, я пока подержу её у себя."
+    ],
+    "natural": [
+      "Хочешь её, но не сейчас? Хорошо, я пока подержу её у себя."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du willst sie, aber nicht jetzt?"
+    ],
+    "A2": [
+      "Du willst sie, aber nicht jetzt? Gut, ich bewahre sie für dich auf."
+    ],
+    "natural": [
+      "Du willst sie, aber nicht jetzt? Gut, ich bewahre sie für dich auf."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSevenCityFromEruptedVolcano",
+  "base_symbol": "SootopolisCity_House7_Text_CityFromEruptedVolcano",
+  "source_path": "data/maps/SootopolisCity_House7/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Подводный вулкан извергся и поднялся со дна."
+    ],
+    "A2": [
+      "Подводный вулкан извергся и поднялся со дна. Его кратер вышел из моря и наполнился дождевой водой."
+    ],
+    "natural": [
+      "Подводный вулкан извергся и поднялся со дна. Его кратер вышел из моря и наполнился дождевой водой. Так возник Соотополис."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Unterwasservulkan brach aus und stieg aus der Tiefe."
+    ],
+    "A2": [
+      "Ein Unterwasservulkan brach aus und stieg aus der Tiefe. Sein Krater ragte aus dem Meer und füllte sich mit Regen."
+    ],
+    "natural": [
+      "Ein Unterwasservulkan brach aus und stieg aus der Tiefe. Sein Krater ragte aus dem Meer und füllte sich mit Regen. So entstand Xeneroville."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseSevenCaveMadeToKeepSomething",
+  "base_symbol": "SootopolisCity_House7_Text_CaveMadeToKeepSomething",
+  "source_path": "data/maps/SootopolisCity_House7/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пещера связывает Соотополис с внешним миром..."
+    ],
+    "A2": [
+      "Пещера связывает Соотополис с внешним миром... Будто её создали, чтобы не выпускать что-то наружу."
+    ],
+    "natural": [
+      "Пещера связывает Соотополис с внешним миром... Будто её создали, чтобы не выпускать что-то наружу. Или мне кажется?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Höhle verbindet Xeneroville mit der Außenwelt..."
+    ],
+    "A2": [
+      "Die Höhle verbindet Xeneroville mit der Außenwelt... Als wäre sie gebaut, um etwas drinnen zu halten."
+    ],
+    "natural": [
+      "Die Höhle verbindet Xeneroville mit der Außenwelt... Als wäre sie gebaut, um etwas drinnen zu halten. Oder bilde ich mir das ein?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHousePleaseShowMeBigShroomish",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_PleaseShowMeBigShroomish",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаешь покемона Шрумиша?"
+    ],
+    "A2": [
+      "Знаешь покемона Шрумиша? В Соотополисе он почти не встречается."
+    ],
+    "natural": [
+      "Знаешь покемона Шрумиша? В Соотополисе он почти не встречается. Я обожаю больших Шрумишей! Чем больше, тем лучше. Младший брат говорит, что Барбоуч крупнее. Глупости! У тебя есть Шрумиш? Пожалуйста, покажи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kennst du Knilz?"
+    ],
+    "A2": [
+      "Kennst du Knilz? In Xeneroville sieht man es fast nie."
+    ],
+    "natural": [
+      "Kennst du Knilz? In Xeneroville sieht man es fast nie. Ich liebe große Knilz! Je größer, desto besser. Mein Bruder sagt, Schmerbe sei größer. Unsinn! Hast du ein Knilz? Bitte zeig es mir!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseDontHaveBigShroomish",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_DontHaveBigShroomish",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет большого Шрумиша?"
+    ],
+    "A2": [
+      "Нет большого Шрумиша? Жаль..."
+    ],
+    "natural": [
+      "Нет большого Шрумиша? Жаль... Найдёшь крупного - обязательно покажи."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast kein großes Knilz?"
+    ],
+    "A2": [
+      "Du hast kein großes Knilz? Schade..."
+    ],
+    "natural": [
+      "Du hast kein großes Knilz? Schade... Findest du eins, zeig es mir bitte."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseThatsNotShroomish",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_ThatsNotShroomish",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О, это нечто..."
+    ],
+    "A2": [
+      "О, это нечто... Но это не Шрумиш!"
+    ],
+    "natural": [
+      "О, это нечто... Но это не Шрумиш!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh, das ist beachtlich..."
+    ],
+    "A2": [
+      "Oh, das ist beachtlich... Aber kein Knilz!"
+    ],
+    "natural": [
+      "Oh, das ist beachtlich... Aber kein Knilz!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseSeenBiggerShroomish",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_SeenBiggerShroomish",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{STR_VAR_2} дюймов?"
+    ],
+    "A2": [
+      "{STR_VAR_2} дюймов? Хм..."
+    ],
+    "natural": [
+      "{STR_VAR_2} дюймов? Хм... Я видел Шрумиша покрупнее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{STR_VAR_2} Zoll?"
+    ],
+    "A2": [
+      "{STR_VAR_2} Zoll? Hm..."
+    ],
+    "natural": [
+      "{STR_VAR_2} Zoll? Hm... Ich habe ein größeres Knilz gesehen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseGoshMightBeBiggerThanBarboach",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_GoshMightBeBiggerThanBarboach",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{STR_VAR_2} дюймов!"
+    ],
+    "A2": [
+      "{STR_VAR_2} дюймов! Вот это великан!"
+    ],
+    "natural": [
+      "{STR_VAR_2} дюймов! Вот это великан! Он может побить огромного Барбоуча, которого видел брат. Спасибо! Вот награда."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{STR_VAR_2} Zoll!"
+    ],
+    "A2": [
+      "{STR_VAR_2} Zoll! Das ist groß!"
+    ],
+    "natural": [
+      "{STR_VAR_2} Zoll! Das ist groß! Es schlägt vielleicht das riesige Schmerbe meines Bruders. Danke fürs Zeigen! Hier ist dein Lohn."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseBagCrammedFullOne",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_BagCrammedFull1",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А?"
+    ],
+    "A2": [
+      "А? Твоя сумка набита до отказа."
+    ],
+    "natural": [
+      "А? Твоя сумка набита до отказа."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hä?"
+    ],
+    "A2": [
+      "Hä? Dein Beutel ist randvoll."
+    ],
+    "natural": [
+      "Hä? Dein Beutel ist randvoll."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHousePleaseShowMeBigBarboach",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_PleaseShowMeBigBarboach",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаешь Барбоуча?"
+    ],
+    "A2": [
+      "Знаешь Барбоуча? В Соотополисе он редок."
+    ],
+    "natural": [
+      "Знаешь Барбоуча? В Соотополисе он редок. Я обожаю больших Барбоучей! Старший брат говорит, что Шрумиш крупнее. Неправда! У тебя есть Барбоуч? Пожалуйста, покажи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kennst du Schmerbe?"
+    ],
+    "A2": [
+      "Kennst du Schmerbe? In Xeneroville ist es selten."
+    ],
+    "natural": [
+      "Kennst du Schmerbe? In Xeneroville ist es selten. Ich liebe große Schmerbe! Mein Bruder sagt, Knilz sei größer. Das stimmt nicht! Hast du ein Schmerbe? Bitte zeig es!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseDontHaveBigBarboach",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_DontHaveBigBarboach",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет большого Барбоуча?"
+    ],
+    "A2": [
+      "Нет большого Барбоуча? Какая жалость..."
+    ],
+    "natural": [
+      "Нет большого Барбоуча? Какая жалость... Найдёшь крупного - покажи мне!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kein großes Schmerbe?"
+    ],
+    "A2": [
+      "Kein großes Schmerbe? Wie schade..."
+    ],
+    "natural": [
+      "Kein großes Schmerbe? Wie schade... Findest du eins, zeig es mir!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseThatsNotBarboach",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_ThatsNotBarboach",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот это да!"
+    ],
+    "A2": [
+      "Вот это да! Но это не Барбоуч!"
+    ],
+    "natural": [
+      "Вот это да! Но это не Барбоуч!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist beachtlich!"
+    ],
+    "A2": [
+      "Das ist beachtlich! Aber kein Schmerbe!"
+    ],
+    "natural": [
+      "Das ist beachtlich! Aber kein Schmerbe!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseSeenBiggerBarboach",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_SeenBiggerBarboach",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{STR_VAR_2} дюймов?"
+    ],
+    "A2": [
+      "{STR_VAR_2} дюймов? Хм..."
+    ],
+    "natural": [
+      "{STR_VAR_2} дюймов? Хм... Я видел Барбоуча покрупнее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{STR_VAR_2} Zoll?"
+    ],
+    "A2": [
+      "{STR_VAR_2} Zoll? Hm..."
+    ],
+    "natural": [
+      "{STR_VAR_2} Zoll? Hm... Ich habe ein größeres Schmerbe gesehen."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseWowMightBeBiggerThanBarboach",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_WowMightBeBiggerThanBarboach",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{STR_VAR_2} дюймов!"
+    ],
+    "A2": [
+      "{STR_VAR_2} дюймов! Вот это размер!"
+    ],
+    "natural": [
+      "{STR_VAR_2} дюймов! Вот это размер! Он может быть больше огромного Шрумиша, которого видел брат. Спасибо! Вот награда."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{STR_VAR_2} Zoll!"
+    ],
+    "A2": [
+      "{STR_VAR_2} Zoll! Das ist riesig!"
+    ],
+    "natural": [
+      "{STR_VAR_2} Zoll! Das ist riesig! Es ist vielleicht größer als das Knilz meines Bruders. Danke fürs Zeigen! Hier ist dein Lohn."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityHouseEightBagIsFull",
+  "base_symbol": "SootopolisCity_House8_Text_BagIsFull",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой, похоже, твоя сумка полна."
+    ],
+    "A2": [
+      "Ой, похоже, твоя сумка полна."
+    ],
+    "natural": [
+      "Ой, похоже, твоя сумка полна."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla, dein Beutel ist wohl voll."
+    ],
+    "A2": [
+      "Hoppla, dein Beutel ist wohl voll."
+    ],
+    "natural": [
+      "Hoppla, dein Beutel ist wohl voll."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseBiggestShroomishInHistory",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_BiggestShroomishInHistory",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Крупнейший Шрумиш в истории!"
+    ],
+    "A2": [
+      "Крупнейший Шрумиш в истории! Гигант {STR_VAR_2} ростом {STR_VAR_3} дюймов!"
+    ],
+    "natural": [
+      "Крупнейший Шрумиш в истории! Гигант {STR_VAR_2} ростом {STR_VAR_3} дюймов! Шрумиш больше Барбоуча, как я и мечтал!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das größte Knilz aller Zeiten!"
+    ],
+    "A2": [
+      "Das größte Knilz aller Zeiten! {STR_VAR_2}s Riese mit {STR_VAR_3} Zoll!"
+    ],
+    "natural": [
+      "Das größte Knilz aller Zeiten! {STR_VAR_2}s Riese mit {STR_VAR_3} Zoll! Ein Knilz größer als Schmerbe!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMonSizeRecordHouseBiggestBarboachInHistory",
+  "base_symbol": "SootopolisCity_MonSizeRecordHouse_Text_BiggestBarboachInHistory",
+  "source_path": "data/maps/SootopolisCity_House8/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis Pokémon size-record and reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Крупнейший Барбоуч в истории!"
+    ],
+    "A2": [
+      "Крупнейший Барбоуч в истории! Колосс {STR_VAR_2} ростом {STR_VAR_3} дюймов!"
+    ],
+    "natural": [
+      "Крупнейший Барбоуч в истории! Колосс {STR_VAR_2} ростом {STR_VAR_3} дюймов! Барбоуч больше Шрумиша, как я и мечтал!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "размер",
+        "size"
+      ]
+    ],
+    "de": [
+      [
+        "die Größe",
+        "size"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das größte Schmerbe aller Zeiten!"
+    ],
+    "A2": [
+      "Das größte Schmerbe aller Zeiten! {STR_VAR_2}s Koloss mit {STR_VAR_3} Zoll!"
+    ],
+    "natural": [
+      "Das größte Schmerbe aller Zeiten! {STR_VAR_2}s Koloss mit {STR_VAR_3} Zoll! Ein Schmerbe größer als Knilz!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMartTooScaryOutside",
+  "base_symbol": "SootopolisCity_Mart_Text_TooScaryOutside",
+  "source_path": "data/maps/SootopolisCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что..."
+    ],
+    "A2": [
+      "Что... Что происходит?"
+    ],
+    "natural": [
+      "Что... Что происходит?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was..."
+    ],
+    "A2": [
+      "Was... Was geschieht hier?"
+    ],
+    "natural": [
+      "Was... Was geschieht hier?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMartPPUpIsGreat",
+  "base_symbol": "SootopolisCity_Mart_Text_PPUpIsGreat",
+  "source_path": "data/maps/SootopolisCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПП Плюс великолепен!"
+    ],
+    "A2": [
+      "ПП Плюс великолепен! Он повышает ОД приёма покемона."
+    ],
+    "natural": [
+      "ПП Плюс великолепен! Он повышает ОД приёма покемона."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "AP-Plus ist großartig!"
+    ],
+    "A2": [
+      "AP-Plus ist großartig! Es erhöht die AP einer Pokémon-Attacke."
+    ],
+    "natural": [
+      "AP-Plus ist großartig! Es erhöht die AP einer Pokémon-Attacke."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMartDidSomethingAwaken",
+  "base_symbol": "SootopolisCity_Mart_Text_DidSomethingAwaken",
+  "source_path": "data/maps/SootopolisCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эта погода..."
+    ],
+    "A2": [
+      "Эта погода... Что-то пробудилось?"
+    ],
+    "natural": [
+      "Эта погода... Что-то пробудилось?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieses Wetter..."
+    ],
+    "A2": [
+      "Dieses Wetter... Ist etwas erwacht?"
+    ],
+    "natural": [
+      "Dieses Wetter... Ist etwas erwacht?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityMartFullRestoreItemOfDreams",
+  "base_symbol": "SootopolisCity_Mart_Text_FullRestoreItemOfDreams",
+  "source_path": "data/maps/SootopolisCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаешь Полное восстановление?"
+    ],
+    "A2": [
+      "Знаешь Полное восстановление? Оно полностью лечит ОЗ и все проблемы с состоянием."
+    ],
+    "natural": [
+      "Знаешь Полное восстановление? Оно полностью лечит ОЗ и все проблемы с состоянием. Настоящий предмет мечты!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kennst du Top-Genesung?"
+    ],
+    "A2": [
+      "Kennst du Top-Genesung? Sie füllt KP ganz auf und heilt alle Statusprobleme."
+    ],
+    "natural": [
+      "Kennst du Top-Genesung? Sie füllt KP ganz auf und heilt alle Statusprobleme. Ein Traum von Item!"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityPokemonCenterOneFEveryoneTakenRefuge",
+  "base_symbol": "SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge",
+  "source_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Все горожане укрылись по домам и не выходят."
+    ],
+    "A2": [
+      "Все горожане укрылись по домам и не выходят. Эта погода..."
+    ],
+    "natural": [
+      "Все горожане укрылись по домам и не выходят. Эта погода... Предвестник чего-то?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Alle Einwohner haben sich zu Hause versteckt."
+    ],
+    "A2": [
+      "Alle Einwohner haben sich zu Hause versteckt. Dieses Wetter..."
+    ],
+    "natural": [
+      "Alle Einwohner haben sich zu Hause versteckt. Dieses Wetter... Ist es ein Vorzeichen?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityPokemonCenterOneFWallaceToughestInHoenn",
+  "base_symbol": "SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn",
+  "source_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Уоллес, лидер города, - могучий тренер."
+    ],
+    "A2": [
+      "Уоллес, лидер города, - могучий тренер. Говорят, он лучший во всём Хоэнне."
+    ],
+    "natural": [
+      "Уоллес, лидер города, - могучий тренер. Говорят, он лучший во всём Хоэнне. Но Элитная четвёрка ещё сильнее. Насколько же они сильны?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wassili, der Arenaleiter, ist mächtig."
+    ],
+    "A2": [
+      "Wassili, der Arenaleiter, ist mächtig. Man nennt ihn den Besten in Hoenn."
+    ],
+    "natural": [
+      "Wassili, der Arenaleiter, ist mächtig. Man nennt ihn den Besten in Hoenn. Doch die Top Vier sollen noch stärker sein. Wie stark sind sie wohl?"
+    ]
+  }
+},
+{
+  "id": "SootopolisCityPokemonCenterOneFImReallyScared",
+  "base_symbol": "SootopolisCity_PokemonCenter_1F_Text_ImReallyScared",
+  "source_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis storm, shelter, Blue Orb, Steven, or Wallace story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не знаю почему..."
+    ],
+    "A2": [
+      "Не знаю почему... Но мне очень страшно..."
+    ],
+    "natural": [
+      "Не знаю почему... Но мне очень страшно..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "ливень",
+        "downpour"
+      ]
+    ],
+    "de": [
+      [
+        "der Regenguss",
+        "downpour"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich weiß nicht, warum..."
+    ],
+    "A2": [
+      "Ich weiß nicht, warum... Aber ich habe wirklich Angst..."
+    ],
+    "natural": [
+      "Ich weiß nicht, warum... Aber ich habe wirklich Angst..."
+    ]
+  }
+},
+{
+  "id": "SootopolisCityPokemonCenterOneFAlwaysBeFriendsWithPokemon",
+  "base_symbol": "SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon",
+  "source_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Sootopolis resident, house, shop, sign, item, gift, or city interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что бы, где бы и когда бы ни случилось, я всегда буду другом покемонов."
+    ],
+    "A2": [
+      "Что бы, где бы и когда бы ни случилось, я всегда буду другом покемонов. Ведь с покемонами весело!"
+    ],
+    "natural": [
+      "Что бы, где бы и когда бы ни случилось, я всегда буду другом покемонов. Ведь с покемонами весело!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was, wann und wo auch geschieht, ich bleibe immer Freund der Pokémon."
+    ],
+    "A2": [
+      "Was, wann und wo auch geschieht, ich bleibe immer Freund der Pokémon. Denn mit Pokémon macht es Spaß!"
+    ],
+    "natural": [
+      "Was, wann und wo auch geschieht, ich bleibe immer Freund der Pokémon. Denn mit Pokémon macht es Spaß!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourFZeroThree",
+  "base_symbol": "UnknownString_81B4F03",
+  "source_path": "data/text/aqua_settled.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Cave of Origin, Blue Orb, Kyogre, or legendary-resolution interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СИНИЙ ШАР {PLAYER} внезапно засиял!"
+    ],
+    "A2": [
+      "СИНИЙ ШАР {PLAYER} внезапно засиял!"
+    ],
+    "natural": [
+      "СИНИЙ ШАР {PLAYER} внезапно засиял!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "легенда",
+        "legend"
+      ]
+    ],
+    "de": [
+      [
+        "die Legende",
+        "legend"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der BLAUE STEIN von {PLAYER} leuchtet plötzlich!"
+    ],
+    "A2": [
+      "Der BLAUE STEIN von {PLAYER} leuchtet plötzlich!"
+    ],
+    "natural": [
+      "Der BLAUE STEIN von {PLAYER} leuchtet plötzlich!"
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneBFourFTwoNine",
+  "base_symbol": "UnknownString_81B4F29",
+  "source_path": "data/text/aqua_settled.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Cave of Origin, Blue Orb, Kyogre, or legendary-resolution interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КАЙОГР, похоже, снова погрузился в сон..."
+    ],
+    "A2": [
+      "КАЙОГР, похоже, снова погрузился в сон..."
+    ],
+    "natural": [
+      "КАЙОГР, похоже, снова погрузился в сон..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "легенда",
+        "legend"
+      ]
+    ],
+    "de": [
+      [
+        "die Legende",
+        "legend"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "KYOGRE scheint wieder eingeschlafen zu sein..."
+    ],
+    "A2": [
+      "KYOGRE scheint wieder eingeschlafen zu sein..."
+    ],
+    "natural": [
+      "KYOGRE scheint wieder eingeschlafen zu sein..."
+    ]
+  }
 }
   ]
 }

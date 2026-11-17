@@ -1,4 +1,4 @@
-ClosedSootopolisDoorText: @ 8169690
+ClosedSootopolisDoorText:: @ 8169690
 	.string "The door is closed.$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:: @ 81696A4

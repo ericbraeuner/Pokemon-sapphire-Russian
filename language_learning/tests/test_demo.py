@@ -718,6 +718,14 @@ class LessonTests(unittest.TestCase):
                        'SeafloorCavern_Room4', 'SeafloorCavern_Room9',
                        'Underwater_SeafloorCavern')
         paths += [f'data/maps/{area}/scripts.inc' for area in ocean_areas]
+        sootopolis_areas = ('SootopolisCity', 'SootopolisCity_Gym_1F',
+                            'SootopolisCity_Gym_B1F', 'SootopolisCity_House1',
+                            'SootopolisCity_House2', 'SootopolisCity_House3',
+                            'SootopolisCity_House4', 'SootopolisCity_House5',
+                            'SootopolisCity_House6', 'SootopolisCity_House7',
+                            'SootopolisCity_House8', 'SootopolisCity_Mart',
+                            'SootopolisCity_PokemonCenter_1F', 'CaveOfOrigin_B4F')
+        paths += [f'data/maps/{area}/scripts.inc' for area in sootopolis_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2812,6 +2820,48 @@ class LessonTests(unittest.TestCase):
         }
         self.assertEqual(117, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
+
+    def test_sapphire_sootopolis_and_cave_of_origin_are_fully_adaptive(self):
+        areas = ('SootopolisCity', 'SootopolisCity_Gym_1F',
+                 'SootopolisCity_Gym_B1F', 'SootopolisCity_House1',
+                 'SootopolisCity_House2', 'SootopolisCity_House3',
+                 'SootopolisCity_House4', 'SootopolisCity_House5',
+                 'SootopolisCity_House6', 'SootopolisCity_House7',
+                 'SootopolisCity_House8', 'SootopolisCity_Mart',
+                 'SootopolisCity_PokemonCenter_1F')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:SootopolisCity[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+|ClosedSootopolisDoorText)',
+            sources
+        ))
+        ruby_only = {
+            'SootopolisCity_Text_YouCameInScorchingSun',
+            'SootopolisCity_Text_MyNameIsWallaceSunshine',
+            'SootopolisCity_Text_ThatIsTheRedOrb',
+            'SootopolisCity_Text_PeopleNeedSunlightToLive',
+            'SootopolisCity_Text_CaveOfOriginWithRedOrb',
+            'SootopolisCity_Text_NeverExpectedHoldingRedOrb',
+            'SootopolisCity_Text_YouMustGoWithRedOrb',
+            'SootopolisCity_Text_YoullBeOkayRuby',
+        }
+        referenced.difference_update(ruby_only)
+        cave_source = (
+            demo.ROOT / 'data/maps/CaveOfOrigin_B4F/scripts.inc'
+        ).read_text(errors='replace')
+        referenced.update(re.findall(r'UnknownString_81B4F[0-9A-F]+', cave_source))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(112, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+        sootopolis_text = (
+            demo.ROOT / 'data/maps/SootopolisCity/text.inc'
+        ).read_text(errors='replace')
+        self.assertIn('ClosedSootopolisDoorText::', sootopolis_text)
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

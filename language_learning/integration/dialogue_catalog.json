@@ -50606,6 +50606,2246 @@
     "ocean",
     "dive"
   ]
+},
+{
+  "id": "sootopolis.origin.sootopoliscity.text.caveoforiginpleaseleave.2529",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_CaveOfOriginExpert",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_CaveOfOriginPleaseLeave",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityCaveOfOriginPleaseLeave"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2529
+  },
+  "tags": [
+    "sootopolis",
+    "origin"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.alllifestartsatthecave.2530",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_CaveOfOriginExpertPostLegendary",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_AllLifeStartsAtTheCave",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityAllLifeStartsAtTheCave"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2530
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.thelegendwastrue.2531",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_CaveEntranceWoman1",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_TheLegendWasTrue",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityTheLegendWasTrue"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2531
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.naturalbalanceisshifting.2532",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_CaveEntranceWoman2",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_NaturalBalanceIsShifting",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityNaturalBalanceIsShifting"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2532
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.nameiskirihaveoneofthese.2533",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_KiriGiveBerry",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "SootopolisCity_Text_NameIsKiriHaveOneOfThese",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityNameIsKiriHaveOneOfThese"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2533
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.giveyouthisberrytoo.2534",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_KiriGiveBerry",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "SootopolisCity_Text_GiveYouThisBerryToo",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGiveYouThisBerryToo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2534
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.whatkindofwishinyourname.2535",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_GiveFigyBerry",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "SootopolisCity_Text_WhatKindOfWishInYourName",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityWhatKindOfWishInYourName"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2535
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.kiriborninseasons.2536",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_KiriReceivedBerry",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "SootopolisCity_Text_KiriBornInSeasons",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityKiriBornInSeasons"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2536
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.ohdoesntmatter.2537",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_KiriReceivedBerry",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "SootopolisCity_Text_OhDoesntMatter",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityOhDoesntMatter"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2537
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.theniloveautumn.2538",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_KiriLikeSeasonBornIn",
+    "base_text_path": "data/text/berries.inc",
+    "base_text_symbol": "SootopolisCity_Text_ThenILoveAutumn",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityThenILoveAutumn"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2538
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.youregoingtochallengewallace.2539",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Woman2",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_YoureGoingToChallengeWallace",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityYoureGoingToChallengeWallace"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2539
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.becomeyourfan.2540",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Woman2PostGym",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_BecomeYourFan",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityBecomeYourFan"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2540
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.noordinarytourist1.2541",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Man1",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_NoOrdinaryTourist1",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityNoOrdinaryTouristOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2541
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.noordinarytourist2.2542",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Man1PostLegendary",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_NoOrdinaryTourist2",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityNoOrdinaryTouristTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2542
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.sootopolisskybeautiful.2543",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Woman1",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_SootopolisSkyBeautiful",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCitySootopolisSkyBeautiful"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2543
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.nightskyfavoritescenery.2544",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Woman1PostLegendary",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_NightSkyFavoriteScenery",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityNightSkyFavoriteScenery"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2544
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.wonderwhatworldislike.2545",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Boy1",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_WonderWhatWorldIsLike",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityWonderWhatWorldIsLike"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2545
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.whereismyhouse.2546",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Boy1PostLegendary",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_WhereIsMyHouse",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityWhereIsMyHouse"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2546
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.physicallyfitlivinghere.2547",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_Boy1Normal",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_PhysicallyFitLivingHere",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityPhysicallyFitLivingHere"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2547
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.text.gymsign.2548",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_GymSign",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_GymSign",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2548
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.citysign.2549",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_CitySign",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_CitySign",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityCitySign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2549
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.closedsootopolisdoortext.2550",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "ClosedSootopolisDoorScript",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "ClosedSootopolisDoorText",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "ClosedSootopolisDoorText"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2550
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.text.youcameinrainstorm.2551",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_LeadPlayerCaveOfOrigin",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_YouCameInRainstorm",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityYouCameInRainstorm"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2551
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.text.mynameiswallacedownpour.2552",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_LeadPlayerCaveOfOrigin",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_MyNameIsWallaceDownpour",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMyNameIsWallaceDownpour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2552
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.text.thatistheblueorb.2553",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_LeadPlayerCaveOfOrigin",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_ThatIsTheBlueOrb",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityThatIsTheBlueOrb"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2553
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.text.peopleneedraintolive.2554",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_LeadPlayerCaveOfOrigin",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_PeopleNeedRainToLive",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityPeopleNeedRainToLive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2554
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.origin.sootopoliscity.text.caveoforiginwithblueorb.2555",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_LeadPlayerCaveOfOrigin",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_CaveOfOriginWithBlueOrb",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityCaveOfOriginWithBlueOrb"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2555
+  },
+  "tags": [
+    "sootopolis",
+    "origin"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.text.neverexpectedholdingblueorb.2556",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_LeadPlayerCaveOfOrigin",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_NeverExpectedHoldingBlueOrb",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityNeverExpectedHoldingBlueOrb"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2556
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.text.youmustgowithblueorb.2557",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_YouMustGoWithOrb",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_YouMustGoWithBlueOrb",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityYouMustGoWithBlueOrb"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2557
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.youllbeokaysapphire.2558",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_YoullBeOkay",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_YoullBeOkaySapphire",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityYoullBeOkaySapphire"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2558
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.text.weoweitalltoyou.2559",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity/scripts.inc",
+    "symbol": "SootopolisCity_EventScript_14D4AD",
+    "base_text_path": "data/maps/SootopolisCity/text.inc",
+    "base_text_symbol": "SootopolisCity_Text_WeOweItAllToYou",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityWeOweItAllToYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2559
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.wallaceintro.2560",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_Wallace",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_WallaceIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFWallaceIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2560
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.wallacedefeat.2561",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_Wallace",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_WallaceDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFWallaceDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2561
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.wallacepostbattle.2562",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_Wallace",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_WallacePostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFWallacePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2562
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.receivedrainbadge.2563",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_WallaceDefeated",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_ReceivedRainBadge",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFReceivedRainBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2563
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.explainrainbadgetakethis.2564",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_WallaceDefeated",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFExplainRainBadgeTakeThis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2564
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.explainwaterpulse.2565",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_ExplainWaterPulse",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFExplainWaterPulse"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2565
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.gogetfortreebadge.2566",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_GoGetFortreeBadge",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_GoGetFortreeBadge",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFGoGetFortreeBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2566
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.gymguideadvice.2567",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_GymGuide",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_GymGuideAdvice",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFGymGuideAdvice"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2567
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.gymguidepostvictory.2568",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_GymGuidePostVictory",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_GymGuidePostVictory",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFGymGuidePostVictory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2568
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.gymstatuecertified.2569",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_GymStatueCertified",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_GymStatueCertified",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFGymStatueCertified"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2569
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.gymstatue.2570",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_1F_EventScript_GymStatue",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_GymStatue",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFGymStatue"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2570
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.andreaintro.2571",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Andrea",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_AndreaIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFAndreaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2571
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.andreadefeat.2572",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Andrea",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_AndreaDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFAndreaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2572
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.andreapostbattle.2573",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Andrea",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_AndreaPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFAndreaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2573
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.crissyintro.2574",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Crissy",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_CrissyIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFCrissyIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2574
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.crissydefeat.2575",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Crissy",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_CrissyDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFCrissyDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2575
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.crissypostbattle.2576",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Crissy",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_CrissyPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFCrissyPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2576
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.briannaintro.2577",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Brianna",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_BriannaIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFBriannaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2577
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.briannadefeat.2578",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Brianna",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_BriannaDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFBriannaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2578
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.briannapostbattle.2579",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Brianna",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_BriannaPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFBriannaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2579
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.connieintro.2580",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Connie",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_ConnieIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFConnieIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2580
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.conniedefeat.2581",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Connie",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_ConnieDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFConnieDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2581
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.b1f.text.conniepostbattle.2582",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Connie",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_B1F_Text_ConniePostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymBOneFConniePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2582
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.bridgetintro.2583",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Bridget",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_BridgetIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFBridgetIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2583
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.bridgetdefeat.2584",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Bridget",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_BridgetDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFBridgetDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2584
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.bridgetpostbattle.2585",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Bridget",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_BridgetPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFBridgetPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2585
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.oliviaintro.2586",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Olivia",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_OliviaIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFOliviaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2586
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.oliviadefeat.2587",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Olivia",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_OliviaDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFOliviaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2587
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.oliviapostbattle.2588",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Olivia",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_OliviaPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFOliviaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2588
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.tiffanyintro.2589",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Tiffany",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_TiffanyIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFTiffanyIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2589
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.tiffanydefeat.2590",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Tiffany",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_TiffanyDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFTiffanyDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2590
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.tiffanypostbattle.2591",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Tiffany",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_TiffanyPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFTiffanyPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2591
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.marissaintro.2592",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Marissa",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_MarissaIntro",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFMarissaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2592
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.marissadefeat.2593",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Marissa",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_MarissaDefeat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFMarissaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2593
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.gym.sootopoliscity.gym.1f.text.marissapostbattle.2594",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Gym_B1F/scripts.inc",
+    "symbol": "SootopolisCity_Gym_B1F_EventScript_Marissa",
+    "base_text_path": "data/maps/SootopolisCity_Gym_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_Gym_1F_Text_MarissaPostBattle",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityGymOneFMarissaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2594
+  },
+  "tags": [
+    "sootopolis",
+    "gym"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house1.text.developedthistm.2595",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House1/scripts.inc",
+    "symbol": "SootopolisCity_House1_EventScript_BrickBreakBlackBelt",
+    "base_text_path": "data/maps/SootopolisCity_House1/text.inc",
+    "base_text_symbol": "SootopolisCity_House1_Text_DevelopedThisTM",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseOneDevelopedThisTM"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2595
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house1.text.explainbrickbreak.2596",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House1/scripts.inc",
+    "symbol": "SootopolisCity_House1_EventScript_BrickBreakBlackBelt",
+    "base_text_path": "data/maps/SootopolisCity_House1/text.inc",
+    "base_text_symbol": "SootopolisCity_House1_Text_ExplainBrickBreak",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseOneExplainBrickBreak"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2596
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house1.text.kecleon.2597",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House1/scripts.inc",
+    "symbol": "SootopolisCity_House1_EventScript_Kecleon",
+    "base_text_path": "data/maps/SootopolisCity_House1/text.inc",
+    "base_text_symbol": "SootopolisCity_House1_Text_Kecleon",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseOneKecleon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2597
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house2.text.didyouknowaboutmtpyreorbs.2598",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House2/scripts.inc",
+    "symbol": "SootopolisCity_House2_EventScript_ExpertF",
+    "base_text_path": "data/maps/SootopolisCity_House2/text.inc",
+    "base_text_symbol": "SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseTwoDidYouKnowAboutMtPyreOrbs"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2598
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house2.text.yestwoorbssidebyside.2599",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House2/scripts.inc",
+    "symbol": "SootopolisCity_House2_EventScript_KnowAboutOrbs",
+    "base_text_path": "data/maps/SootopolisCity_House2/text.inc",
+    "base_text_symbol": "SootopolisCity_House2_Text_YesTwoOrbsSideBySide",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseTwoYesTwoOrbsSideBySide"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2599
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house2.text.oughttovisitandsee.2600",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House2/scripts.inc",
+    "symbol": "SootopolisCity_House2_EventScript_DontKnowAboutOrbs",
+    "base_text_path": "data/maps/SootopolisCity_House2/text.inc",
+    "base_text_symbol": "SootopolisCity_House2_Text_OughtToVisitAndSee",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseTwoOughtToVisitAndSee"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2600
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house3.text.wallacehasmanyfansdoyou.2601",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House3/scripts.inc",
+    "symbol": "SootopolisCity_House3_EventScript_Woman",
+    "base_text_path": "data/maps/SootopolisCity_House3/text.inc",
+    "base_text_symbol": "SootopolisCity_House3_Text_WallaceHasManyFansDoYou",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseThreeWallaceHasManyFansDoYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2601
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house3.text.lonesometryworkingharder.2602",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House3/scripts.inc",
+    "symbol": "SootopolisCity_House3_EventScript_Woman",
+    "base_text_path": "data/maps/SootopolisCity_House3/text.inc",
+    "base_text_symbol": "SootopolisCity_House3_Text_LonesomeTryWorkingHarder",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseThreeLonesomeTryWorkingHarder"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2602
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house3.text.youmustbeprettystrong.2603",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House3/scripts.inc",
+    "symbol": "SootopolisCity_House3_EventScript_HaveFans",
+    "base_text_path": "data/maps/SootopolisCity_House3/text.inc",
+    "base_text_symbol": "SootopolisCity_House3_Text_YouMustBePrettyStrong",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseThreeYouMustBePrettyStrong"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2603
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.house3.text.trainerfanclubwaswild.2604",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House3/scripts.inc",
+    "symbol": "SootopolisCity_House3_EventScript_Girl",
+    "base_text_path": "data/maps/SootopolisCity_House3/text.inc",
+    "base_text_symbol": "SootopolisCity_House3_Text_TrainerFanClubWasWild",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseThreeTrainerFanClubWasWild"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2604
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house4.text.ancienttreasureswaitinginsea.2605",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House4/scripts.inc",
+    "symbol": "SootopolisCity_House4_EventScript_Man",
+    "base_text_path": "data/maps/SootopolisCity_House4/text.inc",
+    "base_text_symbol": "SootopolisCity_House4_Text_AncientTreasuresWaitingInSea",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseFourAncientTreasuresWaitingInSea"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2605
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house4.text.strollunderwaterwithpokemon.2606",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House4/scripts.inc",
+    "symbol": "SootopolisCity_House4_EventScript_Woman",
+    "base_text_path": "data/maps/SootopolisCity_House4/text.inc",
+    "base_text_symbol": "SootopolisCity_House4_Text_StrollUnderwaterWithPokemon",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseFourStrollUnderwaterWithPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2606
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house4.text.azumarill.2607",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House4/scripts.inc",
+    "symbol": "SootopolisCity_House4_EventScript_Azumarill",
+    "base_text_path": "data/maps/SootopolisCity_House4/text.inc",
+    "base_text_symbol": "SootopolisCity_House4_Text_Azumarill",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseFourAzumarill"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2607
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house5.text.sootopolismtpyreconnection.2608",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House5/scripts.inc",
+    "symbol": "SootopolisCity_House5_EventScript_Maniac",
+    "base_text_path": "data/maps/SootopolisCity_House5/text.inc",
+    "base_text_symbol": "SootopolisCity_House5_Text_SootopolisMtPyreConnection",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseFiveSootopolisMtPyreConnection"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2608
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house5.text.brotherusedtostudysea.2609",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House5/scripts.inc",
+    "symbol": "SootopolisCity_House5_EventScript_Girl",
+    "base_text_path": "data/maps/SootopolisCity_House5/text.inc",
+    "base_text_symbol": "SootopolisCity_House5_Text_BrotherUsedToStudySea",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseFiveBrotherUsedToStudySea"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2609
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house6.text.firstguestinwhiletakedoll.2610",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House6/scripts.inc",
+    "symbol": "SootopolisCity_House6_EventScript_Woman",
+    "base_text_path": "data/maps/SootopolisCity_House6/text.inc",
+    "base_text_symbol": "SootopolisCity_House6_Text_FirstGuestInWhileTakeDoll",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSixFirstGuestInWhileTakeDoll"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2610
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house6.text.takegoodcareofit.2611",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House6/scripts.inc",
+    "symbol": "SootopolisCity_House6_EventScript_Woman",
+    "base_text_path": "data/maps/SootopolisCity_House6/text.inc",
+    "base_text_symbol": "SootopolisCity_House6_Text_TakeGoodCareOfIt",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSixTakeGoodCareOfIt"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2611
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house6.text.dontwantthisdoll.2612",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House6/scripts.inc",
+    "symbol": "SootopolisCity_House6_EventScript_DeclineWailmerDoll",
+    "base_text_path": "data/maps/SootopolisCity_House6/text.inc",
+    "base_text_symbol": "SootopolisCity_House6_Text_DontWantThisDoll",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSixDontWantThisDoll"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2612
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house6.text.loveplushdolls.2613",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House6/scripts.inc",
+    "symbol": "SootopolisCity_House6_EventScript_ReceivedWailmerDoll",
+    "base_text_path": "data/maps/SootopolisCity_House6/text.inc",
+    "base_text_symbol": "SootopolisCity_House6_Text_LovePlushDolls",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSixLovePlushDolls"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2613
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house6.text.illholditforyou.2614",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House6/scripts.inc",
+    "symbol": "SootopolisCity_House6_EventScript_NoRoomForWailmerDoll",
+    "base_text_path": "data/maps/SootopolisCity_House6/text.inc",
+    "base_text_symbol": "SootopolisCity_House6_Text_IllHoldItForYou",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSixIllHoldItForYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2614
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house7.text.cityfromeruptedvolcano.2615",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House7/scripts.inc",
+    "symbol": "SootopolisCity_House7_EventScript_OldMan",
+    "base_text_path": "data/maps/SootopolisCity_House7/text.inc",
+    "base_text_symbol": "SootopolisCity_House7_Text_CityFromEruptedVolcano",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSevenCityFromEruptedVolcano"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2615
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house7.text.cavemadetokeepsomething.2616",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House7/scripts.inc",
+    "symbol": "SootopolisCity_House7_EventScript_PokefanF",
+    "base_text_path": "data/maps/SootopolisCity_House7/text.inc",
+    "base_text_symbol": "SootopolisCity_House7_Text_CaveMadeToKeepSomething",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseSevenCaveMadeToKeepSomething"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2616
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.pleaseshowmebigshroomish.2617",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_ShroomishBrother",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_PleaseShowMeBigShroomish",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHousePleaseShowMeBigShroomish"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2617
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.donthavebigshroomish.2618",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_CancelShowShroomish",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_DontHaveBigShroomish",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseDontHaveBigShroomish"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2618
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.thatsnotshroomish.2619",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_NotShroomish",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_ThatsNotShroomish",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseThatsNotShroomish"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2619
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.seenbiggershroomish.2620",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_SmallShroomish",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_SeenBiggerShroomish",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseSeenBiggerShroomish"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2620
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.goshmightbebiggerthanbarboach.2621",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_BigShroomish",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_GoshMightBeBiggerThanBarboach",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseGoshMightBeBiggerThanBarboach"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2621
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.bagcrammedfull1.2622",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_NoRoomForElixir1",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_BagCrammedFull1",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseBagCrammedFullOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2622
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.pleaseshowmebigbarboach.2623",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_BarboachBrother",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_PleaseShowMeBigBarboach",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHousePleaseShowMeBigBarboach"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2623
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.donthavebigbarboach.2624",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_CancelShowBarboach",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_DontHaveBigBarboach",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseDontHaveBigBarboach"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2624
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.thatsnotbarboach.2625",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_NotBarboach",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_ThatsNotBarboach",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseThatsNotBarboach"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2625
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.seenbiggerbarboach.2626",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_SmallBarboach",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_SeenBiggerBarboach",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseSeenBiggerBarboach"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2626
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.wowmightbebiggerthanbarboach.2627",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_BigBarboach",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_WowMightBeBiggerThanBarboach",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseWowMightBeBiggerThanBarboach"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2627
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.house8.text.bagisfull.2628",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_NoRoomForElixir2",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_House8_Text_BagIsFull",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityHouseEightBagIsFull"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2628
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.biggestshroomishinhistory.2629",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_ShroomishSizeRecord",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_BiggestShroomishInHistory",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseBiggestShroomishInHistory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2629
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.record.sootopoliscity.monsizerecordhouse.text.biggestbarboachinhistory.2630",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_House8/scripts.inc",
+    "symbol": "SootopolisCity_MonSizeRecordHouse_EventScript_BarboachSizeRecord",
+    "base_text_path": "data/maps/SootopolisCity_House8/text.inc",
+    "base_text_symbol": "SootopolisCity_MonSizeRecordHouse_Text_BiggestBarboachInHistory",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMonSizeRecordHouseBiggestBarboachInHistory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2630
+  },
+  "tags": [
+    "sootopolis",
+    "record"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.mart.text.tooscaryoutside.2631",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Mart/scripts.inc",
+    "symbol": "SootopolisCity_Mart_EventScript_FatMan",
+    "base_text_path": "data/maps/SootopolisCity_Mart/text.inc",
+    "base_text_symbol": "SootopolisCity_Mart_Text_TooScaryOutside",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMartTooScaryOutside"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2631
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.mart.text.ppupisgreat.2632",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Mart/scripts.inc",
+    "symbol": "SootopolisCity_Mart_EventScript_FatManNoLegendary",
+    "base_text_path": "data/maps/SootopolisCity_Mart/text.inc",
+    "base_text_symbol": "SootopolisCity_Mart_Text_PPUpIsGreat",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMartPPUpIsGreat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2632
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.mart.text.didsomethingawaken.2633",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Mart/scripts.inc",
+    "symbol": "SootopolisCity_Mart_EventScript_Gentleman",
+    "base_text_path": "data/maps/SootopolisCity_Mart/text.inc",
+    "base_text_symbol": "SootopolisCity_Mart_Text_DidSomethingAwaken",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMartDidSomethingAwaken"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2633
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.mart.text.fullrestoreitemofdreams.2634",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_Mart/scripts.inc",
+    "symbol": "SootopolisCity_Mart_EventScript_GentlemanNoLegendary",
+    "base_text_path": "data/maps/SootopolisCity_Mart/text.inc",
+    "base_text_symbol": "SootopolisCity_Mart_Text_FullRestoreItemOfDreams",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityMartFullRestoreItemOfDreams"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2634
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.pokemoncenter.1f.text.everyonetakenrefuge.2635",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "SootopolisCity_PokemonCenter_1F_EventScript_Gentleman",
+    "base_text_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityPokemonCenterOneFEveryoneTakenRefuge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2635
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.pokemoncenter.1f.text.wallacetoughestinhoenn.2636",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "SootopolisCity_PokemonCenter_1F_EventScript_GentlemanNoLegendary",
+    "base_text_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityPokemonCenterOneFWallaceToughestInHoenn"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2636
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.storm.sootopoliscity.pokemoncenter.1f.text.imreallyscared.2637",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "SootopolisCity_PokemonCenter_1F_EventScript_Woman",
+    "base_text_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_PokemonCenter_1F_Text_ImReallyScared",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityPokemonCenterOneFImReallyScared"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2637
+  },
+  "tags": [
+    "sootopolis",
+    "storm"
+  ]
+},
+{
+  "id": "sootopolis.city.sootopoliscity.pokemoncenter.1f.text.alwaysbefriendswithpokemon.2638",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SootopolisCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendary",
+    "base_text_path": "data/maps/SootopolisCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "SootopolisCityPokemonCenterOneFAlwaysBeFriendsWithPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2638
+  },
+  "tags": [
+    "sootopolis",
+    "city"
+  ]
+},
+{
+  "id": "sootopolis.origin.unknownstring.81b4f03.2639",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/CaveOfOrigin_B4F/scripts.inc",
+    "symbol": "CaveOfOrigin_B4F_EventScript_15DDD7",
+    "base_text_path": "data/text/aqua_settled.inc",
+    "base_text_symbol": "UnknownString_81B4F03",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourFZeroThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2639
+  },
+  "tags": [
+    "sootopolis",
+    "origin"
+  ]
+},
+{
+  "id": "sootopolis.origin.unknownstring.81b4f29.2640",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/CaveOfOrigin_B4F/scripts.inc",
+    "symbol": "CaveOfOrigin_B4F_EventScript_15DE73",
+    "base_text_path": "data/text/aqua_settled.inc",
+    "base_text_symbol": "UnknownString_81B4F29",
+    "note": "Adaptive translation preserves the storm, Cave of Origin access, legendary battle, Gym puzzle, trainer battles, badge, TM, gifts, records, rewards, choices, and story flags.",
+    "authored_id": "UnknownStringEightOneBFourFTwoNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2640
+  },
+  "tags": [
+    "sootopolis",
+    "origin"
+  ]
 }
   ]
 }

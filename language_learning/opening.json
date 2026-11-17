@@ -101252,6 +101252,7071 @@
       "Los, Wailmer! Spring aus dem Wasser!"
     ]
   }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFBattleLost",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_BattleLost",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ах, тебе не повезло!"
+    ],
+    "A2": [
+      "Ах, тебе не повезло! Но бой был хорош."
+    ],
+    "natural": [
+      "Ах, тебе не повезло! Но бой был хорош. Надеюсь, в следующий раз ты победишь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ach, wie schade für dich!"
+    ],
+    "A2": [
+      "Ach, wie schade für dich! Doch es war ein guter Kampf."
+    ],
+    "natural": [
+      "Ach, wie schade für dich! Doch es war ein guter Kampf. Hoffentlich gewinnst du nächstes Mal."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFBattleTie",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_BattleTie",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Итак, ничья."
+    ],
+    "A2": [
+      "Итак, ничья. Блестящий бой, в котором никто не уступил ни шагу!"
+    ],
+    "natural": [
+      "Итак, ничья. Блестящий бой, в котором никто не уступил ни шагу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Also ein Unentschieden."
+    ],
+    "A2": [
+      "Also ein Unentschieden. Ein großartiger Kampf, bei dem keiner einen Schritt nachgab!"
+    ],
+    "natural": [
+      "Also ein Unentschieden. Ein großartiger Kampf, bei dem keiner einen Schritt nachgab!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFBattleWon",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_BattleWon",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это было великолепно!"
+    ],
+    "A2": [
+      "Это было великолепно! Словно я снова увидел себя в молодости!"
+    ],
+    "natural": [
+      "Это было великолепно! Словно я снова увидел себя в молодости!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das war ausgezeichnet!"
+    ],
+    "A2": [
+      "Das war ausgezeichnet! Als hätte ich mich selbst in meiner Jugend gesehen!"
+    ],
+    "natural": [
+      "Das war ausgezeichnet! Als hätte ich mich selbst in meiner Jugend gesehen!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFChallengeVisitingTrainer",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_ChallengeVisitingTrainer",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тренер по имени {STR_VAR_1} сейчас у меня в гостях."
+    ],
+    "A2": [
+      "Тренер по имени {STR_VAR_1} сейчас у меня в гостях. Хочешь вызвать {STR_VAR_1} на бой?"
+    ],
+    "natural": [
+      "Тренер по имени {STR_VAR_1} сейчас у меня в гостях. Хочешь вызвать {STR_VAR_1} на бой?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Trainer namens {STR_VAR_1} ist bei mir zu Besuch."
+    ],
+    "A2": [
+      "Ein Trainer namens {STR_VAR_1} ist bei mir zu Besuch. Möchtest du {STR_VAR_1} herausfordern?"
+    ],
+    "natural": [
+      "Ein Trainer namens {STR_VAR_1} ist bei mir zu Besuch. Möchtest du {STR_VAR_1} herausfordern?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFDoorIsLocked",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_DoorIsLocked",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, дверь заперта."
+    ],
+    "A2": [
+      "Похоже, дверь заперта."
+    ],
+    "natural": [
+      "Похоже, дверь заперта."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Tür scheint verschlossen."
+    ],
+    "A2": [
+      "Die Tür scheint verschlossen."
+    ],
+    "natural": [
+      "Die Tür scheint verschlossen."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFHopeToSeeAGoodMatch",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_HopeToSeeAGoodMatch",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Надеюсь увидеть хороший бой!"
+    ],
+    "A2": [
+      "Надеюсь увидеть хороший бой!"
+    ],
+    "natural": [
+      "Надеюсь увидеть хороший бой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich hoffe auf einen guten Kampf!"
+    ],
+    "A2": [
+      "Ich hoffe auf einen guten Kampf!"
+    ],
+    "natural": [
+      "Ich hoffe auf einen guten Kampf!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFKeepItToAThreeOnThree",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_KeepItToA3On3",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О, отлично!"
+    ],
+    "A2": [
+      "О, отлично! Но мой дом не слишком прочный."
+    ],
+    "natural": [
+      "О, отлично! Но мой дом не слишком прочный. Можно ограничиться битвой трое на трое?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh, sehr gut!"
+    ],
+    "A2": [
+      "Oh, sehr gut! Mein Haus ist aber nicht sehr stabil."
+    ],
+    "natural": [
+      "Oh, sehr gut! Mein Haus ist aber nicht sehr stabil. Könntet ihr nur drei gegen drei kämpfen?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFMatchEndedUpDraw",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_MatchEndedUpDraw",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Бой завершился ничьей."
+    ],
+    "A2": [
+      "Бой завершился ничьей."
+    ],
+    "natural": [
+      "Бой завершился ничьей."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Kampf endete unentschieden."
+    ],
+    "A2": [
+      "Der Kampf endete unentschieden."
+    ],
+    "natural": [
+      "Der Kampf endete unentschieden."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFOldManGreeting",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_OldManGreeting",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В молодости я путешествовал по миру как тренер покемонов."
+    ],
+    "A2": [
+      "В молодости я путешествовал по миру как тренер покемонов. Теперь я старик, и мне остаётся лишь смотреть на битвы молодых тренеров."
+    ],
+    "natural": [
+      "В молодости я путешествовал по миру как тренер покемонов. Теперь я старик, и мне остаётся лишь смотреть на битвы молодых тренеров."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als junger Mann bereiste ich die Welt als Pokémon-Trainer."
+    ],
+    "A2": [
+      "Als junger Mann bereiste ich die Welt als Pokémon-Trainer. Nun bin ich alt und sehe nur noch gern jungen Trainern beim Kämpfen zu."
+    ],
+    "natural": [
+      "Als junger Mann bereiste ich die Welt als Pokémon-Trainer. Nun bin ich alt und sehe nur noch gern jungen Trainern beim Kämpfen zu."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFSaveYourProgress",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_SaveYourProgress",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Перед битвой вам следует сохранить игру."
+    ],
+    "A2": [
+      "Перед битвой вам следует сохранить игру."
+    ],
+    "natural": [
+      "Перед битвой вам следует сохранить игру."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vor eurem Kampf solltet ihr den Spielstand sichern."
+    ],
+    "A2": [
+      "Vor eurem Kampf solltet ihr den Spielstand sichern."
+    ],
+    "natural": [
+      "Vor eurem Kampf solltet ihr den Spielstand sichern."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGameCornerBOneFYouWontBattle",
+  "base_symbol": "MossdeepCity_GameCorner_B1F_Text_YouWontBattle",
+  "source_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не будешь сражаться?"
+    ],
+    "A2": [
+      "Не будешь сражаться? Жаль, что я не увижу вашу битву..."
+    ],
+    "natural": [
+      "Не будешь сражаться? Жаль, что я не увижу вашу битву..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "игра",
+        "game"
+      ]
+    ],
+    "de": [
+      [
+        "das Spiel",
+        "game"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du kämpfst nicht?"
+    ],
+    "A2": [
+      "Du kämpfst nicht? Schade, dass ich euren Kampf nicht sehe..."
+    ],
+    "natural": [
+      "Du kämpfst nicht? Schade, dass ich euren Kampf nicht sehe..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymExplainCalmMind",
+  "base_symbol": "MossdeepCity_Gym_Text_ExplainCalmMind",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТЕЙТ: В ТМ04 находится..."
+    ],
+    "A2": [
+      "ТЕЙТ: В ТМ04 находится... ЛИЗА: Спокойный разум!"
+    ],
+    "natural": [
+      "ТЕЙТ: В ТМ04 находится... ЛИЗА: Спокойный разум! ТЕЙТ: Он повышает спец. атаку... ЛИЗА: И спец. защиту! ТЕЙТ: Идеальный приём... ЛИЗА: Для психических покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BEN: In TM04 steckt..."
+    ],
+    "A2": [
+      "BEN: In TM04 steckt... SVENJA: Gedankengut!"
+    ],
+    "natural": [
+      "BEN: In TM04 steckt... SVENJA: Gedankengut! BEN: Es erhöht Spezial-Angriff... SVENJA: Und Spezial-Verteidigung! BEN: Perfekt geeignet... SVENJA: Für Psycho-Pokémon!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymExplainMindBadgeTakeThis",
+  "base_symbol": "MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТЕЙТ: Значок Разума усиливает спец."
+    ],
+    "A2": [
+      "ТЕЙТ: Значок Разума усиливает спец. атаку и спец."
+    ],
+    "natural": [
+      "ТЕЙТ: Значок Разума усиливает спец. атаку и спец. защиту покемонов. ЛИЗА: Он позволяет применять Погружение вне битвы. ТЕЙТ: Возьми ещё и это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BEN: Der Mentalorden stärkt Spezial- Angriff und Spezial-Verteidigung."
+    ],
+    "A2": [
+      "BEN: Der Mentalorden stärkt Spezial- Angriff und Spezial-Verteidigung. SVENJA: Taucher ist nun außerhalb des Kampfes möglich."
+    ],
+    "natural": [
+      "BEN: Der Mentalorden stärkt Spezial- Angriff und Spezial-Verteidigung. SVENJA: Taucher ist nun außerhalb des Kampfes möglich. BEN: Nimm außerdem dies."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymFritzDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_FritzDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "И мои навыки битвы тоже расстроились!"
+    ],
+    "A2": [
+      "И мои навыки битвы тоже расстроились!"
+    ],
+    "natural": [
+      "И мои навыки битвы тоже расстроились!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auch mein Kampfkönnen ist aus dem Takt!"
+    ],
+    "A2": [
+      "Auch mein Kampfkönnen ist aus dem Takt!"
+    ],
+    "natural": [
+      "Auch mein Kampfkönnen ist aus dem Takt!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymFritzIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_FritzIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хе-хе..."
+    ],
+    "A2": [
+      "Хе-хе... Смотри, я подниму покебол силой мысли!"
+    ],
+    "natural": [
+      "Хе-хе... Смотри, я подниму покебол силой мысли! У-у-у-у! ... ... ... Иногда настрой сбивается..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hehe..."
+    ],
+    "A2": [
+      "Hehe... Sieh zu, wie ich den Pokéball mit Gedanken schweben lasse!"
+    ],
+    "natural": [
+      "Hehe... Sieh zu, wie ich den Pokéball mit Gedanken schweben lasse! Uuuaaar! ... ... ... Manchmal bin ich nicht im Takt..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymFritzPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_FritzPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покебол слишком тяжёл для мысли."
+    ],
+    "A2": [
+      "Покебол слишком тяжёл для мысли. Но вот этот комок пыли..."
+    ],
+    "natural": [
+      "Покебол слишком тяжёл для мысли. Но вот этот комок пыли... У-у-у-у! ... ... ... Я не жульничаю! Я на него не дул!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Pokéball war zu schwer."
+    ],
+    "A2": [
+      "Der Pokéball war zu schwer. Doch dieses Staubknäuel..."
+    ],
+    "natural": [
+      "Der Pokéball war zu schwer. Doch dieses Staubknäuel... Uuuh! ... ... ... Ich schummle nicht! Ich pustete nicht!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymGymGuideAdvice",
+  "base_symbol": "MossdeepCity_Gym_Text_GymGuideAdvice",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, будущий чемпион {PLAYER}!"
+    ],
+    "A2": [
+      "Привет, будущий чемпион {PLAYER}! Лидеры используют психических покемонов."
+    ],
+    "natural": [
+      "Привет, будущий чемпион {PLAYER}! Лидеры используют психических покемонов. Бойцы и ядовитые покемоны здесь уязвимы. Жди сильных совместных атак. Для победы покажи связь со своими покемонами!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, künftiger Champ {PLAYER}!"
+    ],
+    "A2": [
+      "Hallo, künftiger Champ {PLAYER}! Die Leiter nutzen Psycho-Pokémon."
+    ],
+    "natural": [
+      "Hallo, künftiger Champ {PLAYER}! Die Leiter nutzen Psycho-Pokémon. Kampf und Gift sind hier verwundbar. Erwarte starke Kombi-Attacken. Zeige für den Sieg die Bindung zu deinen Pokémon!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymGymGuidePostVictory",
+  "base_symbol": "MossdeepCity_Gym_Text_GymGuidePostVictory",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух ты, потрясающе!"
+    ],
+    "A2": [
+      "Ух ты, потрясающе! Ты отличный тренер!"
+    ],
+    "natural": [
+      "Ух ты, потрясающе! Ты отличный тренер!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wow, erstaunlich!"
+    ],
+    "A2": [
+      "Wow, erstaunlich! Du bist ein großartiger Trainer!"
+    ],
+    "natural": [
+      "Wow, erstaunlich! Du bist ein großartiger Trainer!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymGymStatue",
+  "base_symbol": "MossdeepCity_Gym_Text_GymStatue",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ МОССДИПА"
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ МОССДИПА"
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ МОССДИПА"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA MOOSBACH CITY"
+    ],
+    "A2": [
+      "POKÉMON-ARENA MOOSBACH CITY"
+    ],
+    "natural": [
+      "POKÉMON-ARENA MOOSBACH CITY"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymGymStatueCertified",
+  "base_symbol": "MossdeepCity_Gym_Text_GymStatueCertified",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН ПОКЕМОНОВ МОССДИПА ПРИЗНАННЫЕ ТРЕНЕРЫ ЛИЗЫ И ТЕЙТА: {PLAYER}"
+    ],
+    "A2": [
+      "СТАДИОН ПОКЕМОНОВ МОССДИПА ПРИЗНАННЫЕ ТРЕНЕРЫ ЛИЗЫ И ТЕЙТА: {PLAYER}"
+    ],
+    "natural": [
+      "СТАДИОН ПОКЕМОНОВ МОССДИПА ПРИЗНАННЫЕ ТРЕНЕРЫ ЛИЗЫ И ТЕЙТА: {PLAYER}"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA MOOSBACH CITY ANERKANNTE TRAINER VON BEN UND SVENJA: {PLAYER}"
+    ],
+    "A2": [
+      "POKÉMON-ARENA MOOSBACH CITY ANERKANNTE TRAINER VON BEN UND SVENJA: {PLAYER}"
+    ],
+    "natural": [
+      "POKÉMON-ARENA MOOSBACH CITY ANERKANNTE TRAINER VON BEN UND SVENJA: {PLAYER}"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymHannahDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_HannahDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты слишком силён!"
+    ],
+    "A2": [
+      "Ты слишком силён!"
+    ],
+    "natural": [
+      "Ты слишком силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist einfach zu stark!"
+    ],
+    "A2": [
+      "Du bist einfach zu stark!"
+    ],
+    "natural": [
+      "Du bist einfach zu stark!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymHannahIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_HannahIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Проиграв мне, не вини себя."
+    ],
+    "A2": [
+      "Проиграв мне, не вини себя. Ты не слаб - это я слишком сильна!"
+    ],
+    "natural": [
+      "Проиграв мне, не вини себя. Ты не слаб - это я слишком сильна!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sei nach deiner Niederlage nicht zu hart zu dir."
+    ],
+    "A2": [
+      "Sei nach deiner Niederlage nicht zu hart zu dir. Ich bin nur zu stark!"
+    ],
+    "natural": [
+      "Sei nach deiner Niederlage nicht zu hart zu dir. Ich bin nur zu stark!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymHannahPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_HannahPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не стану унывать из-за поражения."
+    ],
+    "A2": [
+      "Я не стану унывать из-за поражения. Нужно лишь усерднее тренироваться."
+    ],
+    "natural": [
+      "Я не стану унывать из-за поражения. Нужно лишь усерднее тренироваться. Позитивный настрой - моя сила!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich lasse mich von der Niederlage nicht entmutigen."
+    ],
+    "A2": [
+      "Ich lasse mich von der Niederlage nicht entmutigen. Ich trainiere mehr."
+    ],
+    "natural": [
+      "Ich lasse mich von der Niederlage nicht entmutigen. Ich trainiere mehr. Positives Denken ist meine Stärke!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymMauraDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_MauraDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты прошёл великий путь!"
+    ],
+    "A2": [
+      "Ты прошёл великий путь!"
+    ],
+    "natural": [
+      "Ты прошёл великий путь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du gingst einen großartigen Weg!"
+    ],
+    "A2": [
+      "Du gingst einen großartigen Weg!"
+    ],
+    "natural": [
+      "Du gingst einen großartigen Weg!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymMauraIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_MauraIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пройденные тобой дороги..."
+    ],
+    "A2": [
+      "Пройденные тобой дороги... Всё, что ты пережил..."
+    ],
+    "natural": [
+      "Пройденные тобой дороги... Всё, что ты пережил... Покажи мне всё, чему научился!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine zurückgelegten Wege..."
+    ],
+    "A2": [
+      "Deine zurückgelegten Wege... Deine Erfahrungen..."
+    ],
+    "natural": [
+      "Deine zurückgelegten Wege... Deine Erfahrungen... Zeig mir alles, was du gelernt hast!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymMauraPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_MauraPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Усердно трудившихся ждёт светлое будущее."
+    ],
+    "A2": [
+      "Усердно трудившихся ждёт светлое будущее. Ленивых в конце ждёт лишь отчаяние."
+    ],
+    "natural": [
+      "Усердно трудившихся ждёт светлое будущее. Ленивых в конце ждёт лишь отчаяние. Что посеешь, то и пожнёшь..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Fleißige erwartet eine helle Zukunft."
+    ],
+    "A2": [
+      "Fleißige erwartet eine helle Zukunft. Auf Müßige wartet nur Verzweiflung."
+    ],
+    "natural": [
+      "Fleißige erwartet eine helle Zukunft. Auf Müßige wartet nur Verzweiflung. Wie man sät, so erntet man..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymPrestonDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_PrestonDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл!"
+    ],
+    "A2": [
+      "Я проиграл! Нужно снова закалить дух!"
+    ],
+    "natural": [
+      "Я проиграл! Нужно снова закалить дух!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verloren!"
+    ],
+    "A2": [
+      "Verloren! Ich muss meinen Geist erneut stählen!"
+    ],
+    "natural": [
+      "Verloren! Ich muss meinen Geist erneut stählen!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymPrestonIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_PrestonIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В битве всё решает сила духа!"
+    ],
+    "A2": [
+      "В битве всё решает сила духа! Слабые духом не победят!"
+    ],
+    "natural": [
+      "В битве всё решает сила духа! Слабые духом не победят!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Kampf entscheidet Willenskraft!"
+    ],
+    "A2": [
+      "Im Kampf entscheidet Willenskraft! Schwache Geister siegen nie!"
+    ],
+    "natural": [
+      "Im Kampf entscheidet Willenskraft! Schwache Geister siegen nie!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymPrestonPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_PrestonPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нерешительные проигрывают."
+    ],
+    "A2": [
+      "Нерешительные проигрывают. Это моё предупреждение."
+    ],
+    "natural": [
+      "Нерешительные проигрывают. Это моё предупреждение."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unentschlossene verlieren."
+    ],
+    "A2": [
+      "Unentschlossene verlieren. Das ist meine Warnung."
+    ],
+    "natural": [
+      "Unentschlossene verlieren. Das ist meine Warnung."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymReceivedMindBadge",
+  "base_symbol": "MossdeepCity_Gym_Text_ReceivedMindBadge",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает Значок Разума от Лизы и Тейта."
+    ],
+    "A2": [
+      "{PLAYER} получает Значок Разума от Лизы и Тейта."
+    ],
+    "natural": [
+      "{PLAYER} получает Значок Разума от Лизы и Тейта."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält den Mentalorden von Ben und Svenja."
+    ],
+    "A2": [
+      "{PLAYER} erhält den Mentalorden von Ben und Svenja."
+    ],
+    "natural": [
+      "{PLAYER} erhält den Mentalorden von Ben und Svenja."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymSamanthaDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_SamanthaDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я сдаюсь!"
+    ],
+    "A2": [
+      "Я сдаюсь!"
+    ],
+    "natural": [
+      "Я сдаюсь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich ergebe mich!"
+    ],
+    "A2": [
+      "Ich ergebe mich!"
+    ],
+    "natural": [
+      "Ich ergebe mich!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymSamanthaIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_SamanthaIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я вижу..."
+    ],
+    "A2": [
+      "Я вижу... Твоё будущее..."
+    ],
+    "natural": [
+      "Я вижу... Твоё будущее... Победишь меня - я расскажу его!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich sehe es..."
+    ],
+    "A2": [
+      "Ich sehe es... Deine Zukunft..."
+    ],
+    "natural": [
+      "Ich sehe es... Deine Zukunft... Besiege mich, dann erzähle ich sie!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymSamanthaPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_SamanthaPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тебя ждёт невероятно напряжённая битва с лидерами..."
+    ],
+    "A2": [
+      "Тебя ждёт невероятно напряжённая битва с лидерами... А результат я тебе не скажу!"
+    ],
+    "natural": [
+      "Тебя ждёт невероятно напряжённая битва с лидерами... А результат я тебе не скажу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein ungeheuer harter Kampf mit den Arenaleitern erwartet dich..."
+    ],
+    "A2": [
+      "Ein ungeheuer harter Kampf mit den Arenaleitern erwartet dich... Das Ergebnis verrate ich nicht!"
+    ],
+    "natural": [
+      "Ein ungeheuer harter Kampf mit den Arenaleitern erwartet dich... Das Ergebnis verrate ich nicht!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymTateAndLizaDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_TateAndLizaDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТЕЙТ: Что?!"
+    ],
+    "A2": [
+      "ТЕЙТ: Что?! Наш дуэт..."
+    ],
+    "natural": [
+      "ТЕЙТ: Что?! Наш дуэт... ЛИЗА: Разбит! ТЕЙТ: Ты победил... ЛИЗА: Прими это в знак признания."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BEN: Was?!"
+    ],
+    "A2": [
+      "BEN: Was?! Unser Team..."
+    ],
+    "natural": [
+      "BEN: Was?! Unser Team... SVENJA: Wurde besiegt! BEN: Du hast gewonnen... SVENJA: Nimm dies als Anerkennung."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymTateAndLizaIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_TateAndLizaIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТЕЙТ: Хе-хе..."
+    ],
+    "A2": [
+      "ТЕЙТ: Хе-хе... Удивлён?"
+    ],
+    "natural": [
+      "ТЕЙТ: Хе-хе... Удивлён? ЛИЗА: Хи-хи... Удивлён? ТЕЙТ: Лидеров двое! ЛИЗА: Мы близнецы! ТЕЙТ: Нам не нужны слова... ЛИЗА: Мы читаем мысли друг друга! ТЕЙТ: Наш дуэт... ЛИЗА: Сумеешь победить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BEN: Überrascht?"
+    ],
+    "A2": [
+      "BEN: Überrascht? SVENJA: Zwillinge!"
+    ],
+    "natural": [
+      "BEN: Überrascht? SVENJA: Zwillinge! Keine Worte nötig. Wir lesen Gedanken! Unser Team... Besiegst du es?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymTateAndLizaNeedTwoMons",
+  "base_symbol": "MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТЕЙТ: Хе-хе..."
+    ],
+    "A2": [
+      "ТЕЙТ: Хе-хе... Удивлён?"
+    ],
+    "natural": [
+      "ТЕЙТ: Хе-хе... Удивлён? ЛИЗА: Лидеров двое! ТЕЙТ: Ой, у тебя только один... ЛИЗА: Покемон, способный сражаться. ТЕЙТ: Так нельзя начать бой! ЛИЗА: Приведи ещё покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BEN: Hehe..."
+    ],
+    "A2": [
+      "BEN: Hehe... Überrascht?"
+    ],
+    "natural": [
+      "BEN: Hehe... Überrascht? SVENJA: Es gibt zwei Leiter! BEN: Du hast nur ein... SVENJA: Kampffähiges Pokémon. BEN: So können wir nicht kämpfen! SVENJA: Bring weitere Pokémon mit."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymTateAndLizaPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_TateAndLizaPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ТЕЙТ: Твоя связь с покемонами сильнее нашей связи близнецов."
+    ],
+    "A2": [
+      "ТЕЙТ: Твоя связь с покемонами сильнее нашей связи близнецов. ЛИЗА: Ты станешь ещё сильнее!"
+    ],
+    "natural": [
+      "ТЕЙТ: Твоя связь с покемонами сильнее нашей связи близнецов. ЛИЗА: Ты станешь ещё сильнее! Мы сражались с тобой и знаем это."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BEN: Deine Bindung zu den Pokémon ist stärker als unsere als Zwillinge."
+    ],
+    "A2": [
+      "BEN: Deine Bindung zu den Pokémon ist stärker als unsere als Zwillinge. SVENJA: Du wirst noch stärker!"
+    ],
+    "natural": [
+      "BEN: Deine Bindung zu den Pokémon ist stärker als unsere als Zwillinge. SVENJA: Du wirst noch stärker! Das wissen wir nach unserem Kampf."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymVirgilDefeat",
+  "base_symbol": "MossdeepCity_Gym_Text_VirgilDefeat",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя выдающийся талант!"
+    ],
+    "A2": [
+      "У тебя выдающийся талант!"
+    ],
+    "natural": [
+      "У тебя выдающийся талант!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du besitzt erstaunliches Talent!"
+    ],
+    "A2": [
+      "Du besitzt erstaunliches Talent!"
+    ],
+    "natural": [
+      "Du besitzt erstaunliches Talent!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymVirgilIntro",
+  "base_symbol": "MossdeepCity_Gym_Text_VirgilIntro",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покажи мне свой талант!"
+    ],
+    "A2": [
+      "Покажи мне свой талант!"
+    ],
+    "natural": [
+      "Покажи мне свой талант!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Zeig mir dein Talent!"
+    ],
+    "A2": [
+      "Zeig mir dein Talent!"
+    ],
+    "natural": [
+      "Zeig mir dein Talent!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymVirgilPostBattle",
+  "base_symbol": "MossdeepCity_Gym_Text_VirgilPostBattle",
+  "source_path": "data/maps/MossdeepCity_Gym/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если в мире есть гении, то это наши лидеры!"
+    ],
+    "A2": [
+      "Если в мире есть гении, то это наши лидеры! Но ты, возможно, ещё талантливее..."
+    ],
+    "natural": [
+      "Если в мире есть гении, то это наши лидеры! Но ты, возможно, ещё талантливее..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "бой",
+        "battle"
+      ]
+    ],
+    "de": [
+      [
+        "der Kampf",
+        "battle"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn es Genies gibt, dann sind es unsere Arenaleiter!"
+    ],
+    "A2": [
+      "Wenn es Genies gibt, dann sind es unsere Arenaleiter! Doch vielleicht bist du begabter..."
+    ],
+    "natural": [
+      "Wenn es Genies gibt, dann sind es unsere Arenaleiter! Doch vielleicht bist du begabter..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseOneDoesntLikeOrDislikePokeblocks",
+  "base_symbol": "MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks",
+  "source_path": "data/maps/MossdeepCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, ему не нравятся и не не нравятся никакие покеблоки."
+    ],
+    "A2": [
+      "Похоже, ему не нравятся и не не нравятся никакие покеблоки."
+    ],
+    "natural": [
+      "Похоже, ему не нравятся и не не нравятся никакие покеблоки."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es scheint keine Pokériegel zu mögen oder abzulehnen."
+    ],
+    "A2": [
+      "Es scheint keine Pokériegel zu mögen oder abzulehnen."
+    ],
+    "natural": [
+      "Es scheint keine Pokériegel zu mögen oder abzulehnen."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseOneHmmYourPokemon",
+  "base_symbol": "MossdeepCity_House1_Text_HmmYourPokemon",
+  "source_path": "data/maps/MossdeepCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм!"
+    ],
+    "A2": [
+      "Хм! Твой {STR_VAR_1}..."
+    ],
+    "natural": [
+      "Хм! Твой {STR_VAR_1}..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm!"
+    ],
+    "A2": [
+      "Hm! Dein {STR_VAR_1}..."
+    ],
+    "natural": [
+      "Hm! Dein {STR_VAR_1}..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseOneHusbandCanTellPokeblockMonLikes",
+  "base_symbol": "MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes",
+  "source_path": "data/maps/MossdeepCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой муж сразу видит, какие покеблоки нравятся покемону."
+    ],
+    "A2": [
+      "Мой муж сразу видит, какие покеблоки нравятся покемону."
+    ],
+    "natural": [
+      "Мой муж сразу видит, какие покеблоки нравятся покемону."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Mann sieht sofort, welche Pokériegel ein Pokémon mag."
+    ],
+    "A2": [
+      "Mein Mann sieht sofort, welche Pokériegel ein Pokémon mag."
+    ],
+    "natural": [
+      "Mein Mann sieht sofort, welche Pokériegel ein Pokémon mag."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseOneItLikesXPokeblocks",
+  "base_symbol": "MossdeepCity_House1_Text_ItLikesXPokeblocks",
+  "source_path": "data/maps/MossdeepCity_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ему нравятся {STR_VAR_1}, верно?"
+    ],
+    "A2": [
+      "Ему нравятся {STR_VAR_1}, верно? Нет, я уверен!"
+    ],
+    "natural": [
+      "Ему нравятся {STR_VAR_1}, верно? Нет, я уверен! Ему точно нравятся {STR_VAR_1}!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es mag {STR_VAR_1}, stimmt's?"
+    ],
+    "A2": [
+      "Es mag {STR_VAR_1}, stimmt's? Nein, ich bin sicher!"
+    ],
+    "natural": [
+      "Es mag {STR_VAR_1}, stimmt's? Nein, ich bin sicher! Es mag {STR_VAR_1} ganz bestimmt!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseTwoPokemonCarriesMailBackAndForth",
+  "base_symbol": "MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth",
+  "source_path": "data/maps/MossdeepCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не могу увидеть друга в Фортри, но мой покемон носит наши письма туда и обратно."
+    ],
+    "A2": [
+      "Я не могу увидеть друга в Фортри, но мой покемон носит наши письма туда и обратно. Хоть мы врозь, мне не одиноко."
+    ],
+    "natural": [
+      "Я не могу увидеть друга в Фортри, но мой покемон носит наши письма туда и обратно. Хоть мы врозь, мне не одиноко."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich sehe meinen Freund in Baumhausen nicht, doch mein Pokémon trägt unsere Briefe hin und her."
+    ],
+    "A2": [
+      "Ich sehe meinen Freund in Baumhausen nicht, doch mein Pokémon trägt unsere Briefe hin und her. Trotz der Entfernung bin ich nicht einsam."
+    ],
+    "natural": [
+      "Ich sehe meinen Freund in Baumhausen nicht, doch mein Pokémon trägt unsere Briefe hin und her. Trotz der Entfernung bin ich nicht einsam."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseTwoSisterMailsBoyfriendInFortree",
+  "base_symbol": "MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree",
+  "source_path": "data/maps/MossdeepCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя младшая сестра пишет парню из Фортри."
+    ],
+    "A2": [
+      "Моя младшая сестра пишет парню из Фортри. Я ей совсем не завидую."
+    ],
+    "natural": [
+      "Моя младшая сестра пишет парню из Фортри. Я ей совсем не завидую."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine kleine Schwester tauscht Briefe mit ihrem Freund in Baumhausen."
+    ],
+    "A2": [
+      "Meine kleine Schwester tauscht Briefe mit ihrem Freund in Baumhausen. Ich beneide sie überhaupt nicht."
+    ],
+    "natural": [
+      "Meine kleine Schwester tauscht Briefe mit ihrem Freund in Baumhausen. Ich beneide sie überhaupt nicht."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseTwoWingull",
+  "base_symbol": "MossdeepCity_House2_Text_Wingull",
+  "source_path": "data/maps/MossdeepCity_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВИНГАЛЛ: Пийо!"
+    ],
+    "A2": [
+      "ВИНГАЛЛ: Пийо!"
+    ],
+    "natural": [
+      "ВИНГАЛЛ: Пийо!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WINGULL: Pihyoh!"
+    ],
+    "A2": [
+      "WINGULL: Pihyoh!"
+    ],
+    "natural": [
+      "WINGULL: Pihyoh!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseThreeDontYouLikeToFish",
+  "base_symbol": "MossdeepCity_House3_Text_DontYouLikeToFish",
+  "source_path": "data/maps/MossdeepCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А?"
+    ],
+    "A2": [
+      "А? Ты не любишь рыбачить?"
+    ],
+    "natural": [
+      "А? Ты не любишь рыбачить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hä?"
+    ],
+    "A2": [
+      "Hä? Angelst du nicht gern?"
+    ],
+    "natural": [
+      "Hä? Angelst du nicht gern?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseThreeGoAfterSeafloorPokemon",
+  "base_symbol": "MossdeepCity_House3_Text_GoAfterSeafloorPokemon",
+  "source_path": "data/maps/MossdeepCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лови покемонов морского дна своей Суперудочкой."
+    ],
+    "A2": [
+      "Лови покемонов морского дна своей Суперудочкой."
+    ],
+    "natural": [
+      "Лови покемонов морского дна своей Суперудочкой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Fange mit der Superangel die Pokémon vom Meeresgrund."
+    ],
+    "A2": [
+      "Fange mit der Superangel die Pokémon vom Meeresgrund."
+    ],
+    "natural": [
+      "Fange mit der Superangel die Pokémon vom Meeresgrund."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseThreeSuperRodIsSuper",
+  "base_symbol": "MossdeepCity_House3_Text_SuperRodIsSuper",
+  "source_path": "data/maps/MossdeepCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот именно!"
+    ],
+    "A2": [
+      "Вот именно! Суперудочка и впрямь супер!"
+    ],
+    "natural": [
+      "Вот именно! Суперудочка и впрямь супер!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ganz genau!"
+    ],
+    "A2": [
+      "Ganz genau! Die Superangel ist wirklich super!"
+    ],
+    "natural": [
+      "Ganz genau! Die Superangel ist wirklich super!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseThreeTryDroppingRodInWater",
+  "base_symbol": "MossdeepCity_House3_Text_TryDroppingRodInWater",
+  "source_path": "data/maps/MossdeepCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Увидишь воду - забрось удочку и посмотри, кто клюнет!"
+    ],
+    "A2": [
+      "Увидишь воду - забрось удочку и посмотри, кто клюнет!"
+    ],
+    "natural": [
+      "Увидишь воду - забрось удочку и посмотри, кто клюнет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Siehst du Wasser, wirf deine Angel aus und schau, was anbeißt!"
+    ],
+    "A2": [
+      "Siehst du Wasser, wirf deine Angel aus und schau, was anbeißt!"
+    ],
+    "natural": [
+      "Siehst du Wasser, wirf deine Angel aus und schau, was anbeißt!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseThreeYouWantSuperRod",
+  "base_symbol": "MossdeepCity_House3_Text_YouWantSuperRod",
+  "source_path": "data/maps/MossdeepCity_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, тренер!"
+    ],
+    "A2": [
+      "Привет, тренер! Суперудочка и впрямь супер!"
+    ],
+    "natural": [
+      "Привет, тренер! Суперудочка и впрямь супер! Что ни говори, она ловит даже покемонов с морского дна! Ну как? Хочешь её, правда?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, Trainer!"
+    ],
+    "A2": [
+      "Hallo, Trainer! Die Superangel ist wirklich super!"
+    ],
+    "natural": [
+      "Hallo, Trainer! Die Superangel ist wirklich super! Damit fängt man sogar Pokémon vom Meeresgrund! Na, möchtest du sie haben?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseFourBrotherLikesToFindBases",
+  "base_symbol": "MossdeepCity_House4_Text_BrotherLikesToFindBases",
+  "source_path": "data/maps/MossdeepCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой младший брат любит искать чужие секретные базы."
+    ],
+    "A2": [
+      "Мой младший брат любит искать чужие секретные базы."
+    ],
+    "natural": [
+      "Мой младший брат любит искать чужие секретные базы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein kleiner Bruder sucht gern die Geheimbasen anderer."
+    ],
+    "A2": [
+      "Mein kleiner Bruder sucht gern die Geheimbasen anderer."
+    ],
+    "natural": [
+      "Mein kleiner Bruder sucht gern die Geheimbasen anderer."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseFourBrotherLikesToVisitBasesAndBattle",
+  "base_symbol": "MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle",
+  "source_path": "data/maps/MossdeepCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мой младший брат любит ходить на чужие секретные базы и устраивать битвы покемонов."
+    ],
+    "A2": [
+      "Мой младший брат любит ходить на чужие секретные базы и устраивать битвы покемонов."
+    ],
+    "natural": [
+      "Мой младший брат любит ходить на чужие секретные базы и устраивать битвы покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein kleiner Bruder besucht gern fremde Geheimbasen und kämpft dort mit Pokémon."
+    ],
+    "A2": [
+      "Mein kleiner Bruder besucht gern fremde Geheimbasen und kämpft dort mit Pokémon."
+    ],
+    "natural": [
+      "Mein kleiner Bruder besucht gern fremde Geheimbasen und kämpft dort mit Pokémon."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseFourDelcatty",
+  "base_symbol": "MossdeepCity_House4_Text_Delcatty",
+  "source_path": "data/maps/MossdeepCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДЕЛКАТТИ: Миян?"
+    ],
+    "A2": [
+      "ДЕЛКАТТИ: Миян?"
+    ],
+    "natural": [
+      "ДЕЛКАТТИ: Миян?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "DELCATTY: Miyaan?"
+    ],
+    "A2": [
+      "DELCATTY: Miyaan?"
+    ],
+    "natural": [
+      "DELCATTY: Miyaan?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseFourMakeSecretBase",
+  "base_symbol": "MossdeepCity_House4_Text_MakeSecretBase",
+  "source_path": "data/maps/MossdeepCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Устрой где-нибудь секретную базу."
+    ],
+    "A2": [
+      "Устрой где-нибудь секретную базу. Я её найду!"
+    ],
+    "natural": [
+      "Устрой где-нибудь секретную базу. Я её найду!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Baue irgendwo eine Geheimbasis."
+    ],
+    "A2": [
+      "Baue irgendwo eine Geheimbasis. Ich werde sie finden!"
+    ],
+    "natural": [
+      "Baue irgendwo eine Geheimbasis. Ich werde sie finden!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityHouseFourYouMadeSecretBaseNearX",
+  "base_symbol": "MossdeepCity_House4_Text_YouMadeSecretBaseNearX",
+  "source_path": "data/maps/MossdeepCity_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это ты устроил секретную базу в месте {STR_VAR_1}?"
+    ],
+    "A2": [
+      "Это ты устроил секретную базу в месте {STR_VAR_1}?"
+    ],
+    "natural": [
+      "Это ты устроил секретную базу в месте {STR_VAR_1}?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du bei {STR_VAR_1} eine Geheimbasis gebaut?"
+    ],
+    "A2": [
+      "Hast du bei {STR_VAR_1} eine Geheimbasis gebaut?"
+    ],
+    "natural": [
+      "Hast du bei {STR_VAR_1} eine Geheimbasis gebaut?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityMartMaxRepelLastsLongest",
+  "base_symbol": "MossdeepCity_Mart_Text_MaxRepelLastsLongest",
+  "source_path": "data/maps/MossdeepCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Макс."
+    ],
+    "A2": [
+      "Макс. отпугиватель не подпускает слабых покемонов."
+    ],
+    "natural": [
+      "Макс. отпугиватель не подпускает слабых покемонов. Из всех отпугивающих спреев он действует дольше всего."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Top-Schutz hält alle schwachen Pokémon fern."
+    ],
+    "A2": [
+      "Top-Schutz hält alle schwachen Pokémon fern. Von allen Schutz-Sprays wirkt er am längsten."
+    ],
+    "natural": [
+      "Top-Schutz hält alle schwachen Pokémon fern. Von allen Schutz-Sprays wirkt er am längsten."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityMartNetAndDiveBallsRare",
+  "base_symbol": "MossdeepCity_Mart_Text_NetAndDiveBallsRare",
+  "source_path": "data/maps/MossdeepCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сетбол и Дайвбол - редкие покеболы из Моссдипа."
+    ],
+    "A2": [
+      "Сетбол и Дайвбол - редкие покеболы из Моссдипа. Сетбол хорош против насекомых и водных покемонов."
+    ],
+    "natural": [
+      "Сетбол и Дайвбол - редкие покеболы из Моссдипа. Сетбол хорош против насекомых и водных покемонов. Дайвбол лучше всего работает на покемонах морского дна."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Netzball und Tauchball sind seltene Bälle aus Moosbach."
+    ],
+    "A2": [
+      "Netzball und Tauchball sind seltene Bälle aus Moosbach. Netzball wirkt gut bei Käfer- und Wasser-Pokémon."
+    ],
+    "natural": [
+      "Netzball und Tauchball sind seltene Bälle aus Moosbach. Netzball wirkt gut bei Käfer- und Wasser-Pokémon. Tauchball wirkt am besten bei Pokémon am Meeresgrund."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityMartReviveIsFantastic",
+  "base_symbol": "MossdeepCity_Mart_Text_ReviveIsFantastic",
+  "source_path": "data/maps/MossdeepCity_Mart/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Оживление - отличная вещь!"
+    ],
+    "A2": [
+      "Оживление - отличная вещь! Дай его потерявшему сознание покемону, и он поднимется."
+    ],
+    "natural": [
+      "Оживление - отличная вещь! Дай его потерявшему сознание покемону, и он поднимется. Но будь внимателен: Оживление не восстанавливает ОД приёмов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beleber ist fantastisch!"
+    ],
+    "A2": [
+      "Beleber ist fantastisch! Gib ihn einem besiegten Pokémon, dann steht es wieder auf."
+    ],
+    "natural": [
+      "Beleber ist fantastisch! Gib ihn einem besiegten Pokémon, dann steht es wieder auf. Doch Beleber füllt verbrauchte AP der Attacken nicht auf."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityPokemonCenterOneFAbilitiesMightChangeMoves",
+  "base_symbol": "MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves",
+  "source_path": "data/maps/MossdeepCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Из-за особых способностей покемонов некоторые приёмы могут измениться или не сработать."
+    ],
+    "A2": [
+      "Из-за особых способностей покемонов некоторые приёмы могут измениться или не сработать."
+    ],
+    "natural": [
+      "Из-за особых способностей покемонов некоторые приёмы могут измениться или не сработать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Je nach Fähigkeit eines Pokémon können Attacken sich ändern oder ganz wirkungslos sein."
+    ],
+    "A2": [
+      "Je nach Fähigkeit eines Pokémon können Attacken sich ändern oder ganz wirkungslos sein."
+    ],
+    "natural": [
+      "Je nach Fähigkeit eines Pokémon können Attacken sich ändern oder ganz wirkungslos sein."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityPokemonCenterOneFGymLeaderDuoFormidable",
+  "base_symbol": "MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable",
+  "source_path": "data/maps/MossdeepCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лидеры местного стадиона - грозный дуэт."
+    ],
+    "A2": [
+      "Лидеры местного стадиона - грозный дуэт. Их совместные атаки просто..."
+    ],
+    "natural": [
+      "Лидеры местного стадиона - грозный дуэт. Их совместные атаки просто... великолепны, вот!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Arenaleiter dieser Stadt sind ein starkes Duo."
+    ],
+    "A2": [
+      "Die Arenaleiter dieser Stadt sind ein starkes Duo. Ihre Kombi-Attacken sind einfach großartig und wow!"
+    ],
+    "natural": [
+      "Die Arenaleiter dieser Stadt sind ein starkes Duo. Ihre Kombi-Attacken sind einfach großartig und wow!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityPokemonCenterTwoFOneEightDSixFFive",
+  "base_symbol": "MossdeepCity_PokemonCenter_2F_Text_18D6F5",
+  "source_path": "data/maps/MossdeepCity_PokemonCenter_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если я выиграю много битв по связи и покажу своё мастерство, у меня могут появиться фанаты!"
+    ],
+    "A2": [
+      "Если я выиграю много битв по связи и покажу своё мастерство, у меня могут появиться фанаты!"
+    ],
+    "natural": [
+      "Если я выиграю много битв по связи и покажу своё мастерство, у меня могут появиться фанаты!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn ich viele Link-Kämpfe gewinne und mein Können zeige, bekomme ich vielleicht Fans!"
+    ],
+    "A2": [
+      "Wenn ich viele Link-Kämpfe gewinne und mein Können zeige, bekomme ich vielleicht Fans!"
+    ],
+    "natural": [
+      "Wenn ich viele Link-Kämpfe gewinne und mein Können zeige, bekomme ich vielleicht Fans!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFDidPokemonComeFromSpace",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Некоторые считают, что покемоны пришли из космоса."
+    ],
+    "A2": [
+      "Некоторые считают, что покемоны пришли из космоса. Возможно ли?"
+    ],
+    "natural": [
+      "Некоторые считают, что покемоны пришли из космоса. Возможно ли?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Manche behaupten, Pokémon kämen aus dem All."
+    ],
+    "A2": [
+      "Manche behaupten, Pokémon kämen aus dem All. Kann das stimmen?"
+    ],
+    "natural": [
+      "Manche behaupten, Pokémon kämen aus dem All. Kann das stimmen?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFFoundThisYouCanHaveIt",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я гулял по пляжу и нашёл это."
+    ],
+    "A2": [
+      "Я гулял по пляжу и нашёл это. Мне оно не нужно, так что можешь забрать."
+    ],
+    "natural": [
+      "Я гулял по пляжу и нашёл это. Мне оно не нужно, так что можешь забрать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Strandspaziergang fand ich das hier."
+    ],
+    "A2": [
+      "Beim Strandspaziergang fand ich das hier. Ich brauche es nicht, also kannst du es haben."
+    ],
+    "natural": [
+      "Beim Strandspaziergang fand ich das hier. Ich brauche es nicht, also kannst du es haben."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFHoennFamousForMeteorShowers",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Регион Хоэнн давно славится метеоритными дождями."
+    ],
+    "A2": [
+      "Регион Хоэнн давно славится метеоритными дождями."
+    ],
+    "natural": [
+      "Регион Хоэнн давно славится метеоритными дождями."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoenn ist seit Langem für seine Meteorschauer bekannt."
+    ],
+    "A2": [
+      "Hoenn ist seit Langem für seine Meteorschauer bekannt."
+    ],
+    "natural": [
+      "Hoenn ist seit Langem für seine Meteorschauer bekannt."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFRocketLaunchDemandsPerfection",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Запуск ракеты требует точности."
+    ],
+    "A2": [
+      "Запуск ракеты требует точности. Даже один процент ошибки недопустим."
+    ],
+    "natural": [
+      "Запуск ракеты требует точности. Даже один процент ошибки недопустим. Если один процент плох, он всё погубит. Но мы не сдаёмся. Эта мечта вечна."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Raketenstart verlangt Genauigkeit."
+    ],
+    "A2": [
+      "Ein Raketenstart verlangt Genauigkeit. Schon ein Prozent Fehler ist unzulässig."
+    ],
+    "natural": [
+      "Ein Raketenstart verlangt Genauigkeit. Schon ein Prozent Fehler ist unzulässig. Ein schlechtes Prozent macht alles zunichte. Doch wir geben nicht auf. Der Traum endet nie."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFRocketLaunchImminent",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Запуск ракеты уже близко!"
+    ],
+    "A2": [
+      "Запуск ракеты уже близко!"
+    ],
+    "natural": [
+      "Запуск ракеты уже близко!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Raketenstart steht bevor!"
+    ],
+    "A2": [
+      "Der Raketenstart steht bevor!"
+    ],
+    "natural": [
+      "Der Raketenstart steht bevor!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFRocketsBoggleMyMind",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Огромная глыба металла пронзает небо и летит в космос..."
+    ],
+    "A2": [
+      "Огромная глыба металла пронзает небо и летит в космос... Уму непостижимо!"
+    ],
+    "natural": [
+      "Огромная глыба металла пронзает небо и летит в космос... Уму непостижимо!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein riesiger Metallklotz schießt durch den Himmel ins All..."
+    ],
+    "A2": [
+      "Ein riesiger Metallklotz schießt durch den Himmel ins All... Das übersteigt meinen Verstand!"
+    ],
+    "natural": [
+      "Ein riesiger Metallklotz schießt durch den Himmel ins All... Das übersteigt meinen Verstand!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterOneFSuccessfulLaunchNumber",
+  "base_symbol": "MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ракета успешно стартовала!"
+    ],
+    "A2": [
+      "Ракета успешно стартовала! Это успешный запуск номер {STR_VAR_1}!"
+    ],
+    "natural": [
+      "Ракета успешно стартовала! Это успешный запуск номер {STR_VAR_1}!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Rakete ist sicher gestartet!"
+    ],
+    "A2": [
+      "Die Rakete ist sicher gestartet! Das war erfolgreicher Start Nr."
+    ],
+    "natural": [
+      "Die Rakete ist sicher gestartet! Das war erfolgreicher Start Nr. {STR_VAR_1}!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterTwoFMossdeepIdealForRockets",
+  "base_symbol": "MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В Моссдипе обычно солнечно, а ветер устойчив."
+    ],
+    "A2": [
+      "В Моссдипе обычно солнечно, а ветер устойчив. Это идеальное место для запуска ракет."
+    ],
+    "natural": [
+      "В Моссдипе обычно солнечно, а ветер устойчив. Это идеальное место для запуска ракет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In Moosbach ist es meist sonnig, und die Winde sind stabil."
+    ],
+    "A2": [
+      "In Moosbach ist es meist sonnig, und die Winde sind stabil. Ein idealer Ort für Raketenstarts."
+    ],
+    "natural": [
+      "In Moosbach ist es meist sonnig, und die Winde sind stabil. Ein idealer Ort für Raketenstarts."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterTwoFWishOrdinaryPeopleCouldGoIntoSpace",
+  "base_symbol": "MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Надеюсь, однажды обычные люди смогут летать в космос..."
+    ],
+    "A2": [
+      "Надеюсь, однажды обычные люди смогут летать в космос..."
+    ],
+    "natural": [
+      "Надеюсь, однажды обычные люди смогут летать в космос..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoffentlich können normale Leute eines Tages ins All fliegen..."
+    ],
+    "A2": [
+      "Hoffentlich können normale Leute eines Tages ins All fliegen..."
+    ],
+    "natural": [
+      "Hoffentlich können normale Leute eines Tages ins All fliegen..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterTwoFWouldveLikedToBeAstronaut",
+  "base_symbol": "MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut",
+  "source_path": "data/maps/MossdeepCity_SpaceCenter_2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Будь я немного моложе, я бы хотел стать космонавтом..."
+    ],
+    "A2": [
+      "Будь я немного моложе, я бы хотел стать космонавтом... Нет..."
+    ],
+    "natural": [
+      "Будь я немного моложе, я бы хотел стать космонавтом... Нет... Ещё не поздно! Я могу и обязательно попробую!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wäre ich nur etwas jünger, wäre ich gern Astronaut geworden..."
+    ],
+    "A2": [
+      "Wäre ich nur etwas jünger, wäre ich gern Astronaut geworden... Nein..."
+    ],
+    "natural": [
+      "Wäre ich nur etwas jünger, wäre ich gern Astronaut geworden... Nein... Es ist nicht zu spät! Ich kann es versuchen und werde es!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseCollectionOfRareRocks",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_CollectionOfRareRocks",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Коллекция редких камней, собранная Стивеном."
+    ],
+    "A2": [
+      "Коллекция редких камней, собранная Стивеном."
+    ],
+    "natural": [
+      "Коллекция редких камней, собранная Стивеном."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eine Sammlung seltener Steine, die Troy zusammengetragen hat."
+    ],
+    "A2": [
+      "Eine Sammlung seltener Steine, die Troy zusammengetragen hat."
+    ],
+    "natural": [
+      "Eine Sammlung seltener Steine, die Troy zusammengetragen hat."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseExplainDive",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_ExplainDive",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Во время Сёрфа ты увидишь тёмные участки воды."
+    ],
+    "A2": [
+      "СТИВЕН: Во время Сёрфа ты увидишь тёмные участки воды. Примени там Погружение и опустишься на морское дно."
+    ],
+    "natural": [
+      "СТИВЕН: Во время Сёрфа ты увидишь тёмные участки воды. Примени там Погружение и опустишься на морское дно. Чтобы подняться, примени его снова. Но всплыть можно не везде."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Beim Surfen siehst du dunkle Wasserstellen."
+    ],
+    "A2": [
+      "TROY: Beim Surfen siehst du dunkle Wasserstellen. Setze dort Taucher ein, um zum Meeresgrund zu sinken."
+    ],
+    "natural": [
+      "TROY: Beim Surfen siehst du dunkle Wasserstellen. Setze dort Taucher ein, um zum Meeresgrund zu sinken. Zum Auftauchen nutze ihn erneut. Das geht aber nicht überall."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseLeftPokeBallWhereItWas",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} оставляет покебол на месте."
+    ],
+    "A2": [
+      "{PLAYER} оставляет покебол на месте."
+    ],
+    "natural": [
+      "{PLAYER} оставляет покебол на месте."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} lässt den Pokéball liegen."
+    ],
+    "A2": [
+      "{PLAYER} lässt den Pokéball liegen."
+    ],
+    "natural": [
+      "{PLAYER} lässt den Pokéball liegen."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseLetterFromSteven",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_LetterFromSteven",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Письмо для {PLAYER}."
+    ],
+    "A2": [
+      "Письмо для {PLAYER}. Я отправился в путь, чтобы тренироваться и понять себя."
+    ],
+    "natural": [
+      "Письмо для {PLAYER}. Я отправился в путь, чтобы тренироваться и понять себя. Возьми покебол со стола. В нём мой любимый Белдум. Надеюсь, мы ещё встретимся. СТИВЕН"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Brief an {PLAYER}."
+    ],
+    "A2": [
+      "Brief an {PLAYER}. Ich bin unterwegs, um zu trainieren und mich zu finden."
+    ],
+    "natural": [
+      "Brief an {PLAYER}. Ich bin unterwegs, um zu trainieren und mich zu finden. Nimm den Pokéball vom Tisch. Darin ist mein Tanhel. Hoffentlich sehen wir uns wieder. TROY"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseLetterFromStevenWithDive",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_LetterFromStevenWithDive",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Письмо для {PLAYER}."
+    ],
+    "A2": [
+      "Письмо для {PLAYER}. Я отправился в путь, чтобы тренироваться и понять себя."
+    ],
+    "natural": [
+      "Письмо для {PLAYER}. Я отправился в путь, чтобы тренироваться и понять себя. Возьми покебол со стола. В нём мой любимый Белдум. Также возьми СМ Погружение. Надеюсь, мы ещё встретимся. СТИВЕН"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Brief an {PLAYER}."
+    ],
+    "A2": [
+      "Brief an {PLAYER}. Ich reise und trainiere."
+    ],
+    "natural": [
+      "Brief an {PLAYER}. Ich reise und trainiere. Vorerst bleibe ich fort. Nimm Ball und Tanhel. Nimm auch VM Taucher. Wir sehen uns wieder. TROY"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseNoSpaceForAnotherMon",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Для ещё одного покемона нет места."
+    ],
+    "A2": [
+      "Для ещё одного покемона нет места."
+    ],
+    "natural": [
+      "Для ещё одного покемона нет места."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kein Platz für ein weiteres Pokémon."
+    ],
+    "A2": [
+      "Kein Platz für ein weiteres Pokémon."
+    ],
+    "natural": [
+      "Kein Platz für ein weiteres Pokémon."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseObtainedBeldum",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_ObtainedBeldum",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает Белдума."
+    ],
+    "A2": [
+      "{PLAYER} получает Белдума."
+    ],
+    "natural": [
+      "{PLAYER} получает Белдума."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält Tanhel."
+    ],
+    "A2": [
+      "{PLAYER} erhält Tanhel."
+    ],
+    "natural": [
+      "{PLAYER} erhält Tanhel."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseTakeBallContainingBeldum",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} осматривает покебол."
+    ],
+    "A2": [
+      "{PLAYER} осматривает покебол. Внутри находится покемон Белдум."
+    ],
+    "natural": [
+      "{PLAYER} осматривает покебол. Внутри находится покемон Белдум. Взять покебол?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} prüft den Pokéball."
+    ],
+    "A2": [
+      "{PLAYER} prüft den Pokéball. Darin ist das Pokémon Tanhel."
+    ],
+    "natural": [
+      "{PLAYER} prüft den Pokéball. Darin ist das Pokémon Tanhel. Pokéball nehmen?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseUnderwateCavernBetweenMossdeepSootopolis",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Между Моссдипом и Соотополисом есть подводная пещера."
+    ],
+    "A2": [
+      "СТИВЕН: Между Моссдипом и Соотополисом есть подводная пещера. Та самая, которую капитан Штерн нашёл на подлодке."
+    ],
+    "natural": [
+      "СТИВЕН: Между Моссдипом и Соотополисом есть подводная пещера. Та самая, которую капитан Штерн нашёл на подлодке. Подводная пещера... Там могут быть редкие камни. Стоит нырнуть..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Zwischen Moosbach und Xeneroville liegt eine Unterwasserhöhle."
+    ],
+    "A2": [
+      "TROY: Zwischen Moosbach und Xeneroville liegt eine Unterwasserhöhle. Kapitän Brigg fand sie mit seinem U-Boot."
+    ],
+    "natural": [
+      "TROY: Zwischen Moosbach und Xeneroville liegt eine Unterwasserhöhle. Kapitän Brigg fand sie mit seinem U-Boot. Eine Unterwasserhöhle... Dort sind vielleicht seltene Steine. Ich sollte tauchen..."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityStevensHouseYouveEarnedHMDive",
+  "base_symbol": "MossdeepCity_StevensHouse_Text_YouveEarnedHMDive",
+  "source_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Steven house, Dive HM, Beldum, letter, or postgame gift interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}?"
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}? Да, это мой дом."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}? Да, это мой дом. Немного неловко, что здесь так пусто. Вот, возьми эту СМ. В ней Погружение. Мой покемон его уже знает."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "погружение",
+        "dive"
+      ]
+    ],
+    "de": [
+      [
+        "das Tauchen",
+        "dive"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}?"
+    ],
+    "A2": [
+      "TROY: {PLAYER}? Ja, das ist mein Haus."
+    ],
+    "natural": [
+      "TROY: {PLAYER}? Ja, das ist mein Haus. Die Leere ist mir etwas peinlich. Hier, nimm diese VM. Sie enthält Taucher. Mein Pokémon kennt ihn schon."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityCitySign",
+  "base_symbol": "MossdeepCity_Text_CitySign",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "МОССДИП Наш девиз: люби покемонов!"
+    ],
+    "A2": [
+      "МОССДИП Наш девиз: люби покемонов!"
+    ],
+    "natural": [
+      "МОССДИП Наш девиз: люби покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MOOSBACH CITY Unser Motto: Pokémon lieben!"
+    ],
+    "A2": [
+      "MOOSBACH CITY Unser Motto: Pokémon lieben!"
+    ],
+    "natural": [
+      "MOOSBACH CITY Unser Motto: Pokémon lieben!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityCollectingRocks",
+  "base_symbol": "MossdeepCity_Text_CollectingRocks",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Неужели собирать камни так весело?"
+    ],
+    "A2": [
+      "Неужели собирать камни так весело? Не понимаю."
+    ],
+    "natural": [
+      "Неужели собирать камни так весело? Не понимаю."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Macht Steinesammeln wirklich so viel Spaß?"
+    ],
+    "A2": [
+      "Macht Steinesammeln wirklich so viel Spaß? Verstehe ich nicht."
+    ],
+    "natural": [
+      "Macht Steinesammeln wirklich so viel Spaß? Verstehe ich nicht."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityGymSign",
+  "base_symbol": "MossdeepCity_Text_GymSign",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Gym trainer, puzzle, leader battle, badge, TM, or reward interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СТАДИОН МОССДИПА ЛИДЕРЫ: ЛИЗА И ТЕЙТ Мистическое сочетание!"
+    ],
+    "A2": [
+      "СТАДИОН МОССДИПА ЛИДЕРЫ: ЛИЗА И ТЕЙТ Мистическое сочетание!"
+    ],
+    "natural": [
+      "СТАДИОН МОССДИПА ЛИДЕРЫ: ЛИЗА И ТЕЙТ Мистическое сочетание!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "значок",
+        "badge"
+      ]
+    ],
+    "de": [
+      [
+        "der Orden",
+        "badge"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "POKÉMON-ARENA MOOSBACH CITY LEITER: BEN & SVENJA Die mystische Kombination!"
+    ],
+    "A2": [
+      "POKÉMON-ARENA MOOSBACH CITY LEITER: BEN & SVENJA Die mystische Kombination!"
+    ],
+    "natural": [
+      "POKÉMON-ARENA MOOSBACH CITY LEITER: BEN & SVENJA Die mystische Kombination!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityItsAWhiteRock",
+  "base_symbol": "MossdeepCity_Text_ItsAWhiteRock",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это белый камень."
+    ],
+    "A2": [
+      "Это белый камень."
+    ],
+    "natural": [
+      "Это белый камень."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es ist ein weißer Stein."
+    ],
+    "A2": [
+      "Es ist ein weißer Stein."
+    ],
+    "natural": [
+      "Es ist ein weißer Stein."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityLifeNeedsSeaToLive",
+  "base_symbol": "MossdeepCity_Text_LifeNeedsSeaToLive",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Всему живому нужно море, даже если оно живёт на суше."
+    ],
+    "A2": [
+      "Всему живому нужно море, даже если оно живёт на суше. Пройдя свой путь, жизнь становится почвой и возвращается на землю."
+    ],
+    "natural": [
+      "Всему живому нужно море, даже если оно живёт на суше. Пройдя свой путь, жизнь становится почвой и возвращается на землю. А море всегда связано с сушей. Как этот самый берег."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Alles Leben braucht das Meer, auch wenn es an Land wohnt."
+    ],
+    "A2": [
+      "Alles Leben braucht das Meer, auch wenn es an Land wohnt. Am Ende wird Leben zu Erde und kehrt zum Land zurück."
+    ],
+    "natural": [
+      "Alles Leben braucht das Meer, auch wenn es an Land wohnt. Am Ende wird Leben zu Erde und kehrt zum Land zurück. Und das Meer bleibt stets mit dem Land verbunden. Wie genau diese Küste hier."
+    ]
+  }
+},
+{
+  "id": "MossdeepCityNiceIfWorldCoveredByFlowers",
+  "base_symbol": "MossdeepCity_Text_NiceIfWorldCoveredByFlowers",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Разве не здорово было бы, если бы весь мир покрывали растения и цветы, как этот остров?"
+    ],
+    "A2": [
+      "Разве не здорово было бы, если бы весь мир покрывали растения и цветы, как этот остров?"
+    ],
+    "natural": [
+      "Разве не здорово было бы, если бы весь мир покрывали растения и цветы, как этот остров?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wäre es nicht schön, wenn die ganze Welt voller Pflanzen und Blumen wie diese Insel wäre?"
+    ],
+    "A2": [
+      "Wäre es nicht schön, wenn die ganze Welt voller Pflanzen und Blumen wie diese Insel wäre?"
+    ],
+    "natural": [
+      "Wäre es nicht schön, wenn die ganze Welt voller Pflanzen und Blumen wie diese Insel wäre?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterLaunchingRockets",
+  "base_symbol": "MossdeepCity_Text_SpaceCenterLaunchingRockets",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Космический центр острова запускает огромные ракеты."
+    ],
+    "A2": [
+      "Космический центр острова запускает огромные ракеты."
+    ],
+    "natural": [
+      "Космический центр острова запускает огромные ракеты."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das Raumfahrtzentrum der Insel startet riesige Raketen."
+    ],
+    "A2": [
+      "Das Raumfahrtzentrum der Insel startet riesige Raketen."
+    ],
+    "natural": [
+      "Das Raumfahrtzentrum der Insel startet riesige Raketen."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpaceCenterSign",
+  "base_symbol": "MossdeepCity_Text_SpaceCenterSign",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "КОСМИЧЕСКИЙ ЦЕНТР МОССДИПА Ближе всего к космосу."
+    ],
+    "A2": [
+      "КОСМИЧЕСКИЙ ЦЕНТР МОССДИПА Ближе всего к космосу."
+    ],
+    "natural": [
+      "КОСМИЧЕСКИЙ ЦЕНТР МОССДИПА Ближе всего к космосу."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RAUMFAHRTZENTRUM MOOSBACH Dem Weltraum ganz nah."
+    ],
+    "A2": [
+      "RAUMFAHRTZENTRUM MOOSBACH Dem Weltraum ganz nah."
+    ],
+    "natural": [
+      "RAUMFAHRTZENTRUM MOOSBACH Dem Weltraum ganz nah."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySpecialSpaceCenterRock",
+  "base_symbol": "MossdeepCity_Text_SpecialSpaceCenterRock",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Mossdeep Space Center scientist, launch, Team Aqua/Magma, battle, or story interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этот камень много значит для людей из Космического центра."
+    ],
+    "A2": [
+      "Этот камень много значит для людей из Космического центра. Его поставили здесь, желая ракетам безопасного полёта."
+    ],
+    "natural": [
+      "Этот камень много значит для людей из Космического центра. Его поставили здесь, желая ракетам безопасного полёта. На чём ты загадываешь желания? На звезде? Я использую Ленту желаний."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "космос",
+        "space"
+      ]
+    ],
+    "de": [
+      [
+        "der Weltraum",
+        "space"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieser Stein bedeutet den Leuten im Raumfahrtzentrum viel."
+    ],
+    "A2": [
+      "Dieser Stein bedeutet den Leuten im Raumfahrtzentrum viel. Er soll den Raketen einen sicheren Flug wünschen."
+    ],
+    "natural": [
+      "Dieser Stein bedeutet den Leuten im Raumfahrtzentrum viel. Er soll den Raketen einen sicheren Flug wünschen. Woran wünschst du dir etwas? An einem Stern? Ich nehme einen Wunsch-Anhänger."
+    ]
+  }
+},
+{
+  "id": "MossdeepCitySurfExhilarating",
+  "base_symbol": "MossdeepCity_Text_SurfExhilarating",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Плыть на корабле приятно."
+    ],
+    "A2": [
+      "Плыть на корабле приятно. Но пересечь море с покемоном, используя Сёрф..."
+    ],
+    "natural": [
+      "Плыть на корабле приятно. Но пересечь море с покемоном, используя Сёрф... Вот это захватывающее путешествие! Согласен, юноша?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eine Schiffsreise ist schön."
+    ],
+    "A2": [
+      "Eine Schiffsreise ist schön. Doch mit einem Pokémon und Surfer übers Meer..."
+    ],
+    "natural": [
+      "Eine Schiffsreise ist schön. Doch mit einem Pokémon und Surfer übers Meer... Das ist eine aufregende Reise! Findest du nicht, Junge?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityWailmerDisappeared",
+  "base_symbol": "MossdeepCity_Text_WailmerDisappeared",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Друзья из Лиликова сказали, что стая Вэйлмеров исчезла."
+    ],
+    "A2": [
+      "Друзья из Лиликова сказали, что стая Вэйлмеров исчезла. Интересно, что там случилось?"
+    ],
+    "natural": [
+      "Друзья из Лиликова сказали, что стая Вэйлмеров исчезла. Интересно, что там случилось?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Freunde aus Seegrasulb sagen, die Wailmer-Herde sei weg."
+    ],
+    "A2": [
+      "Freunde aus Seegrasulb sagen, die Wailmer-Herde sei weg. Was dort wohl passiert ist?"
+    ],
+    "natural": [
+      "Freunde aus Seegrasulb sagen, die Wailmer-Herde sei weg. Was dort wohl passiert ist?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityWailmerWatching",
+  "base_symbol": "MossdeepCity_Text_WailmerWatching",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У Моссдипа водятся дикие Вэйлмеры."
+    ],
+    "A2": [
+      "У Моссдипа водятся дикие Вэйлмеры. Это называется..."
+    ],
+    "natural": [
+      "У Моссдипа водятся дикие Вэйлмеры. Это называется... Э-э... Как же там... Вэйл, вэйл, вэйл... Наблюдение за Вэйлмерами!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bei Moosbach City sieht man wilde Wailmer."
+    ],
+    "A2": [
+      "Bei Moosbach City sieht man wilde Wailmer. Das nennt man, äh..."
+    ],
+    "natural": [
+      "Bei Moosbach City sieht man wilde Wailmer. Das nennt man, äh... Wie war das noch? Wail, Wail, Wail... Wailmer-Beobachtung!"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityWantKingsRockStevenGaveMe",
+  "base_symbol": "MossdeepCity_Text_WantKingsRockStevenGaveMe",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне это дал Стивен, но я не знаю, зачем оно нужно."
+    ],
+    "A2": [
+      "Мне это дал Стивен, но я не знаю, зачем оно нужно. Кажется, это Королевский камень."
+    ],
+    "natural": [
+      "Мне это дал Стивен, но я не знаю, зачем оно нужно. Кажется, это Королевский камень. Хочешь его?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das gab mir Troy, doch ich weiß nicht, wozu es gut ist."
+    ],
+    "A2": [
+      "Das gab mir Troy, doch ich weiß nicht, wozu es gut ist. Es heißt wohl King-Stein."
+    ],
+    "natural": [
+      "Das gab mir Troy, doch ich weiß nicht, wozu es gut ist. Es heißt wohl King-Stein. Willst du ihn?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityWhatToDoWithWeirdRock",
+  "base_symbol": "MossdeepCity_Text_WhatToDoWithWeirdRock",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот и ты так думаешь!"
+    ],
+    "A2": [
+      "Вот и ты так думаешь! Что делать со странным камнем?"
+    ],
+    "natural": [
+      "Вот и ты так думаешь! Что делать со странным камнем?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du denkst das also auch!"
+    ],
+    "A2": [
+      "Du denkst das also auch! Was macht man mit so einem seltsamen Stein?"
+    ],
+    "natural": [
+      "Du denkst das also auch! Was macht man mit so einem seltsamen Stein?"
+    ]
+  }
+},
+{
+  "id": "MossdeepCityYouCanKeepIt",
+  "base_symbol": "MossdeepCity_Text_YouCanKeepIt",
+  "source_path": "data/maps/MossdeepCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Зачем он тебе?"
+    ],
+    "A2": [
+      "Зачем он тебе? Странный ты."
+    ],
+    "natural": [
+      "Зачем он тебе? Странный ты. Можешь оставить его, только не говори Стивену."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Warum willst du ihn?"
+    ],
+    "A2": [
+      "Warum willst du ihn? Du bist seltsam."
+    ],
+    "natural": [
+      "Warum willst du ihn? Du bist seltsam. Behalte ihn, aber sag Troy nichts davon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFourOneSix",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F416",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ОХОТНИК ЗА ПОДВОДНЫМИ СОКРОВИЩАМИ!"
+    ],
+    "A2": [
+      "Я ОХОТНИК ЗА ПОДВОДНЫМИ СОКРОВИЩАМИ! Я ныряю глубоко и собираю сокровища со дна моря."
+    ],
+    "natural": [
+      "Я ОХОТНИК ЗА ПОДВОДНЫМИ СОКРОВИЩАМИ! Я ныряю глубоко и собираю сокровища со дна моря."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin der TAUCHENDE SCHATZSUCHER!"
+    ],
+    "A2": [
+      "Ich bin der TAUCHENDE SCHATZSUCHER! Ich tauche tief und sammle Schätze vom Meeresgrund."
+    ],
+    "natural": [
+      "Ich bin der TAUCHENDE SCHATZSUCHER! Ich tauche tief und sammle Schätze vom Meeresgrund."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFourEightF",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F48F",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Скажи, ты видел ОСКОЛКИ древних орудий?"
+    ],
+    "A2": [
+      "Скажи, ты видел ОСКОЛКИ древних орудий?"
+    ],
+    "natural": [
+      "Скажи, ты видел ОСКОЛКИ древних орудий?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hast du SCHERBEN antiker Werkzeuge gesehen?"
+    ],
+    "A2": [
+      "Hast du SCHERBEN antiker Werkzeuge gesehen?"
+    ],
+    "natural": [
+      "Hast du SCHERBEN antiker Werkzeuge gesehen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFourDOne",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F4D1",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя нет сокровищ для меня..."
+    ],
+    "A2": [
+      "У тебя нет сокровищ для меня... Найдёшь ОСКОЛОК, например КРАСНЫЙ, обменяй его у меня!"
+    ],
+    "natural": [
+      "У тебя нет сокровищ для меня... Найдёшь ОСКОЛОК, например КРАСНЫЙ, обменяй его у меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast keine Schätze für mich..."
+    ],
+    "A2": [
+      "Du hast keine Schätze für mich... Findest du eine SCHERBE, etwa eine ROTE, tausch sie bei mir!"
+    ],
+    "natural": [
+      "Du hast keine Schätze für mich... Findest du eine SCHERBE, etwa eine ROTE, tausch sie bei mir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFiveFourFour",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F544",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О, погоди!"
+    ],
+    "A2": [
+      "О, погоди! Это же ОСКОЛОК!"
+    ],
+    "natural": [
+      "О, погоди! Это же ОСКОЛОК! Их-то я и ищу! Давай обменяемся! Я дам тебе что-нибудь хорошее!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh, warte!"
+    ],
+    "A2": [
+      "Oh, warte! Das ist eine SCHERBE!"
+    ],
+    "natural": [
+      "Oh, warte! Das ist eine SCHERBE! Die suche ich! Tausch sie mit mir! Dafür bekommst du etwas Gutes!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFiveCFive",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F5C5",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Что хочешь обменять?"
+    ],
+    "A2": [
+      "Что хочешь обменять?"
+    ],
+    "natural": [
+      "Что хочешь обменять?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was möchtest du tauschen?"
+    ],
+    "A2": [
+      "Was möchtest du tauschen?"
+    ],
+    "natural": [
+      "Was möchtest du tauschen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFiveEZero",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F5E0",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Обменяешь {STR_VAR_1} на {STR_VAR_2}?"
+    ],
+    "A2": [
+      "Обменяешь {STR_VAR_1} на {STR_VAR_2}?"
+    ],
+    "natural": [
+      "Обменяешь {STR_VAR_1} на {STR_VAR_2}?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Tauschst du {STR_VAR_1} gegen {STR_VAR_2}?"
+    ],
+    "A2": [
+      "Tauschst du {STR_VAR_1} gegen {STR_VAR_2}?"
+    ],
+    "natural": [
+      "Tauschst du {STR_VAR_1} gegen {STR_VAR_2}?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixZeroSix",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F606",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "По рукам!"
+    ],
+    "A2": [
+      "По рукам! Используй это с умом!"
+    ],
+    "natural": [
+      "По рукам! Используй это с умом!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Abgemacht!"
+    ],
+    "A2": [
+      "Abgemacht! Setze es klug ein!"
+    ],
+    "natural": [
+      "Abgemacht! Setze es klug ein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixTwoNine",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F629",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хочешь обменять что-нибудь ещё?"
+    ],
+    "A2": [
+      "Хочешь обменять что-нибудь ещё?"
+    ],
+    "natural": [
+      "Хочешь обменять что-нибудь ещё?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Möchtest du noch etwas tauschen?"
+    ],
+    "A2": [
+      "Möchtest du noch etwas tauschen?"
+    ],
+    "natural": [
+      "Möchtest du noch etwas tauschen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixFourE",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F64E",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой, твоя СУМКА полна."
+    ],
+    "A2": [
+      "Ой, твоя СУМКА полна. Освободи место, друг!"
+    ],
+    "natural": [
+      "Ой, твоя СУМКА полна. Освободи место, друг!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla, dein BEUTEL ist voll."
+    ],
+    "A2": [
+      "Hoppla, dein BEUTEL ist voll. Mach etwas Platz, Freund!"
+    ],
+    "natural": [
+      "Hoppla, dein BEUTEL ist voll. Mach etwas Platz, Freund!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixEightSix",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F686",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет?"
+    ],
+    "A2": [
+      "Нет? Очень жаль."
+    ],
+    "natural": [
+      "Нет? Очень жаль. Передумаешь - возвращайся."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nein?"
+    ],
+    "A2": [
+      "Nein? Wie schade."
+    ],
+    "natural": [
+      "Nein? Wie schade. Komm wieder, falls du es dir anders überlegst."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixCFive",
+  "base_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F6C5",
+  "source_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нужно Получишь КРАСНЫЙ ОСК."
+    ],
+    "A2": [
+      "Нужно Получишь КРАСНЫЙ ОСК. КАМЕНЬ ОГНЯ Нужно Получишь ЖЁЛТЫЙ ОСК."
+    ],
+    "natural": [
+      "Нужно Получишь КРАСНЫЙ ОСК. КАМЕНЬ ОГНЯ Нужно Получишь ЖЁЛТЫЙ ОСК. ГРОМ-КАМЕНЬ Нужно Получишь СИНИЙ ОСК. КАМЕНЬ ВОДЫ Нужно Получишь ЗЕЛЁНЫЙ ОСК. ЛИСТ-КАМЕНЬ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "сокровище",
+        "treasure"
+      ]
+    ],
+    "de": [
+      [
+        "der Schatz",
+        "treasure"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gesucht Tauschobjekt ROTE SCHERBE FEUERSTEIN Gesucht Tauschobjekt GELBE SCHERBE DONNERSTEIN Gesucht Tauschobjekt BLAUE SCHERBE WASSERSTEIN Gesucht Tauschobjekt GRÜNE SCHERBE BLATTSTEIN"
+    ],
+    "A2": [
+      "Gesucht Tauschobjekt ROTE SCHERBE FEUERSTEIN Gesucht Tauschobjekt GELBE SCHERBE DONNERSTEIN Gesucht Tauschobjekt BLAUE SCHERBE WASSERSTEIN Gesucht Tauschobjekt GRÜNE SCHERBE BLATTSTEIN"
+    ],
+    "natural": [
+      "Gesucht Tauschobjekt ROTE SCHERBE FEUERSTEIN Gesucht Tauschobjekt GELBE SCHERBE DONNERSTEIN Gesucht Tauschobjekt BLAUE SCHERBE WASSERSTEIN Gesucht Tauschobjekt GRÜNE SCHERBE BLATTSTEIN"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneSevenOneEDOne",
+  "base_symbol": "Route124_Text_171ED1",
+  "source_path": "data/maps/Route124/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ДОМ ОХОТНИКА"
+    ],
+    "A2": [
+      "ДОМ ОХОТНИКА"
+    ],
+    "natural": [
+      "ДОМ ОХОТНИКА"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HAUS DES SCHATZSUCHERS"
+    ],
+    "A2": [
+      "HAUS DES SCHATZSUCHERS"
+    ],
+    "natural": [
+      "HAUS DES SCHATZSUCHERS"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSixTwoFour",
+  "base_symbol": "Route124_Text_1C0624",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эй, ты заблудился в море?"
+    ],
+    "A2": [
+      "Эй, ты заблудился в море? Победишь моих покемонов - я стану твоим лоцманом."
+    ],
+    "natural": [
+      "Эй, ты заблудился в море? Победишь моих покемонов - я стану твоим лоцманом."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "He, hast du dich auf See verirrt?"
+    ],
+    "A2": [
+      "He, hast du dich auf See verirrt? Besiegst du meine Pokémon, bin ich dein Lotse."
+    ],
+    "natural": [
+      "He, hast du dich auf See verirrt? Besiegst du meine Pokémon, bin ich dein Lotse."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSixSevenFive",
+  "base_symbol": "Route124_Text_1C0675",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В бою я потерял ориентир!"
+    ],
+    "A2": [
+      "В бою я потерял ориентир!"
+    ],
+    "natural": [
+      "В бою я потерял ориентир!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im Kampf verlor ich die Orientierung!"
+    ],
+    "A2": [
+      "Im Kampf verlor ich die Orientierung!"
+    ],
+    "natural": [
+      "Im Kampf verlor ich die Orientierung!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSixNineThree",
+  "base_symbol": "Route124_Text_1C0693",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Многие теряются в море."
+    ],
+    "A2": [
+      "Многие теряются в море. Если ты из таких, смотри карту в Покенаве."
+    ],
+    "natural": [
+      "Многие теряются в море. Если ты из таких, смотри карту в Покенаве."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Viele verlieren auf See die Orientierung."
+    ],
+    "A2": [
+      "Viele verlieren auf See die Orientierung. Dann nutze die Karte im PokéNav."
+    ],
+    "natural": [
+      "Viele verlieren auf See die Orientierung. Dann nutze die Karte im PokéNav."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSixFSeven",
+  "base_symbol": "Route124_Text_1C06F7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм!"
+    ],
+    "A2": [
+      "Хм! Ты едешь на покемоне вместо того, чтобы плыть самому..."
+    ],
+    "natural": [
+      "Хм! Ты едешь на покемоне вместо того, чтобы плыть самому... Завидую!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm!"
+    ],
+    "A2": [
+      "Hm! Du reitest auf einem Pokémon, statt selbst zu schwimmen..."
+    ],
+    "natural": [
+      "Hm! Du reitest auf einem Pokémon, statt selbst zu schwimmen... Wie beneidenswert!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSevenFourOne",
+  "base_symbol": "Route124_Text_1C0741",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох!"
+    ],
+    "A2": [
+      "Ох! Я не могу..."
+    ],
+    "natural": [
+      "Ох! Я не могу..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Ich kann nicht..."
+    ],
+    "natural": [
+      "Oh! Ich kann nicht..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSevenFiveZero",
+  "base_symbol": "Route124_Text_1C0750",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я замерзаю..."
+    ],
+    "A2": [
+      "Я замерзаю... Слишком долго пробыл в воде..."
+    ],
+    "natural": [
+      "Я замерзаю... Слишком долго пробыл в воде... Хотел бы и я ездить на покемоне, как ты..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mir wird kalt..."
+    ],
+    "A2": [
+      "Mir wird kalt... Ich war zu lange im Wasser..."
+    ],
+    "natural": [
+      "Mir wird kalt... Ich war zu lange im Wasser... Könnte ich doch wie du auf einem Pokémon reiten..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSevenBFour",
+  "base_symbol": "Route124_Text_1C07B4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если просто лежать на воде, покемоны подплывают поиграть."
+    ],
+    "A2": [
+      "Если просто лежать на воде, покемоны подплывают поиграть."
+    ],
+    "natural": [
+      "Если просто лежать на воде, покемоны подплывают поиграть."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn man so im Meer treibt, kommen Pokémon zum Spielen vorbei."
+    ],
+    "A2": [
+      "Wenn man so im Meer treibt, kommen Pokémon zum Spielen vorbei."
+    ],
+    "natural": [
+      "Wenn man so im Meer treibt, kommen Pokémon zum Spielen vorbei."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroSevenFNine",
+  "base_symbol": "Route124_Text_1C07F9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох..."
+    ],
+    "A2": [
+      "Ох... Потерялся в море..."
+    ],
+    "natural": [
+      "Ох... Потерялся в море..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh..."
+    ],
+    "A2": [
+      "Oh... Auf See verirrt..."
+    ],
+    "natural": [
+      "Oh... Auf See verirrt..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEightZeroE",
+  "base_symbol": "Route124_Text_1C080E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Плавая, я заметил: одни покемоны нападают, другие лишь смотрят."
+    ],
+    "A2": [
+      "Плавая, я заметил: одни покемоны нападают, другие лишь смотрят. Видимо, у каждого свой характер."
+    ],
+    "natural": [
+      "Плавая, я заметил: одни покемоны нападают, другие лишь смотрят. Видимо, у каждого свой характер."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Beim Schwimmen bemerkte ich: Manche Pokémon greifen an, andere schauen nur."
+    ],
+    "A2": [
+      "Beim Schwimmen bemerkte ich: Manche Pokémon greifen an, andere schauen nur. Jedes hat seinen Charakter."
+    ],
+    "natural": [
+      "Beim Schwimmen bemerkte ich: Manche Pokémon greifen an, andere schauen nur. Jedes hat seinen Charakter."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEightEightEight",
+  "base_symbol": "Route124_Text_1C0888",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если просто лежать на воде, тренеры вызывают тебя на бой!"
+    ],
+    "A2": [
+      "Если просто лежать на воде, тренеры вызывают тебя на бой!"
+    ],
+    "natural": [
+      "Если просто лежать на воде, тренеры вызывают тебя на бой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn man so im Meer treibt, fordern Trainer einen heraus!"
+    ],
+    "A2": [
+      "Wenn man so im Meer treibt, fordern Trainer einen heraus!"
+    ],
+    "natural": [
+      "Wenn man so im Meer treibt, fordern Trainer einen heraus!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEightCEight",
+  "base_symbol": "Route124_Text_1C08C8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Странно..."
+    ],
+    "A2": [
+      "Странно... Я снова проиграл..."
+    ],
+    "natural": [
+      "Странно... Я снова проиграл..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seltsam..."
+    ],
+    "A2": [
+      "Seltsam... Ich habe wieder verloren..."
+    ],
+    "natural": [
+      "Seltsam... Ich habe wieder verloren..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEightEA",
+  "base_symbol": "Route124_Text_1C08EA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это совсем не к делу, но, может, я навещу Дом Загадок."
+    ],
+    "A2": [
+      "Это совсем не к делу, но, может, я навещу Дом Загадок."
+    ],
+    "natural": [
+      "Это совсем не к делу, но, может, я навещу Дом Загадок."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das hat nichts damit zu tun, aber vielleicht besuche ich das Rätselhaus."
+    ],
+    "A2": [
+      "Das hat nichts damit zu tun, aber vielleicht besuche ich das Rätselhaus."
+    ],
+    "natural": [
+      "Das hat nichts damit zu tun, aber vielleicht besuche ich das Rätselhaus."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroNineThreeSix",
+  "base_symbol": "Route124_Text_1C0936",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мне надоело плавать..."
+    ],
+    "A2": [
+      "Мне надоело плавать... Как насчёт боя?"
+    ],
+    "natural": [
+      "Мне надоело плавать... Как насчёт боя?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe genug vom Schwimmen..."
+    ],
+    "A2": [
+      "Ich habe genug vom Schwimmen... Wie wäre es mit einem Kampf?"
+    ],
+    "natural": [
+      "Ich habe genug vom Schwimmen... Wie wäre es mit einem Kampf?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroNineSixB",
+  "base_symbol": "Route124_Text_1C096B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я и не знал, что ты настолько силён!"
+    ],
+    "A2": [
+      "Я и не знал, что ты настолько силён!"
+    ],
+    "natural": [
+      "Я и не знал, что ты настолько силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich wusste nicht, dass du so stark bist!"
+    ],
+    "A2": [
+      "Ich wusste nicht, dass du so stark bist!"
+    ],
+    "natural": [
+      "Ich wusste nicht, dass du so stark bist!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroNineNineFour",
+  "base_symbol": "Route124_Text_1C0994",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Все твои усилия наверняка и сделали тебя таким сильным."
+    ],
+    "A2": [
+      "Все твои усилия наверняка и сделали тебя таким сильным."
+    ],
+    "natural": [
+      "Все твои усилия наверняка и сделали тебя таким сильным."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "All deine Mühe hat dich sicher so stark gemacht."
+    ],
+    "A2": [
+      "All deine Mühe hat dich sicher so stark gemacht."
+    ],
+    "natural": [
+      "All deine Mühe hat dich sicher so stark gemacht."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroNineCE",
+  "base_symbol": "Route124_Text_1C09CE",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хе-хе-хе..."
+    ],
+    "A2": [
+      "Хе-хе-хе... Я ныряю глубоко под воду, чтобы уйти в глубокое укрытие."
+    ],
+    "natural": [
+      "Хе-хе-хе... Я ныряю глубоко под воду, чтобы уйти в глубокое укрытие. Глубины - моя стихия!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hihihi..."
+    ],
+    "A2": [
+      "Hihihi... Ich tauche tief, um tief in Deckung zu gehen."
+    ],
+    "natural": [
+      "Hihihi... Ich tauche tief, um tief in Deckung zu gehen. In Tiefen bin ich unschlagbar!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroATwoF",
+  "base_symbol": "Route124_Text_1C0A2F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Буль-буль-буль..."
+    ],
+    "A2": [
+      "Буль-буль-буль... Я тону..."
+    ],
+    "natural": [
+      "Буль-буль-буль... Я тону..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Blubb, blubb, blubb..."
+    ],
+    "A2": [
+      "Blubb, blubb, blubb... Ich sinke..."
+    ],
+    "natural": [
+      "Blubb, blubb, blubb... Ich sinke..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroAFiveTwo",
+  "base_symbol": "Route124_Text_1C0A52",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я слышал из надёжного источника, что здесь есть место для Ныряния."
+    ],
+    "A2": [
+      "Я слышал из надёжного источника, что здесь есть место для Ныряния. Снова тянет на глубину..."
+    ],
+    "natural": [
+      "Я слышал из надёжного источника, что здесь есть место для Ныряния. Снова тянет на глубину..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich hörte aus sicherer Quelle, dass man hier Tauchen kann."
+    ],
+    "A2": [
+      "Ich hörte aus sicherer Quelle, dass man hier Tauchen kann. Mich zieht es wieder in die Tiefe..."
+    ],
+    "natural": [
+      "Ich hörte aus sicherer Quelle, dass man hier Tauchen kann. Mich zieht es wieder in die Tiefe..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroABD",
+  "base_symbol": "Route124_Text_1C0ABD",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: Эх..."
+    ],
+    "A2": [
+      "РИТА: Эх... Я в море, но кто рядом?"
+    ],
+    "natural": [
+      "РИТА: Эх... Я в море, но кто рядом? Младший брат! Давай сразимся, чтобы не думать об этом!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: Seufz..."
+    ],
+    "A2": [
+      "RITA: Seufz... Ich bin am Meer, doch wer ist bei mir?"
+    ],
+    "natural": [
+      "RITA: Seufz... Ich bin am Meer, doch wer ist bei mir? Mein kleiner Bruder! Kämpfen wir zur Ablenkung!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroBThreeSix",
+  "base_symbol": "Route124_Text_1C0B36",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: СЭМ!"
+    ],
+    "A2": [
+      "РИТА: СЭМ! Мы проиграли из-за тебя!"
+    ],
+    "natural": [
+      "РИТА: СЭМ! Мы проиграли из-за тебя! Позже тебе достанется!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: SAM!"
+    ],
+    "A2": [
+      "RITA: SAM! Wegen dir haben wir verloren!"
+    ],
+    "natural": [
+      "RITA: SAM! Wegen dir haben wir verloren! Später bist du dran!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroBSevenTwo",
+  "base_symbol": "Route124_Text_1C0B72",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: Эх..."
+    ],
+    "A2": [
+      "РИТА: Эх... Если бы рядом был не младший брат, а милый парень..."
+    ],
+    "natural": [
+      "РИТА: Эх... Если бы рядом был не младший брат, а милый парень..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: Seufz..."
+    ],
+    "A2": [
+      "RITA: Seufz... Wäre neben mir nur ein netter Freund statt meines kleinen Bruders..."
+    ],
+    "natural": [
+      "RITA: Seufz... Wäre neben mir nur ein netter Freund statt meines kleinen Bruders..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroBCEight",
+  "base_symbol": "Route124_Text_1C0BC8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: Хочешь сразиться с нами?"
+    ],
+    "A2": [
+      "РИТА: Хочешь сразиться с нами? Только если у тебя есть ещё покемоны."
+    ],
+    "natural": [
+      "РИТА: Хочешь сразиться с нами? Только если у тебя есть ещё покемоны."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: Du willst gegen uns kämpfen?"
+    ],
+    "A2": [
+      "RITA: Du willst gegen uns kämpfen? Nicht ohne weitere Pokémon."
+    ],
+    "natural": [
+      "RITA: Du willst gegen uns kämpfen? Nicht ohne weitere Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroCZeroE",
+  "base_symbol": "Route124_Text_1C0C0E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Моя старшая сестра отлично сражается!"
+    ],
+    "A2": [
+      "СЭМ: Моя старшая сестра отлично сражается! Не плачь, когда проиграешь!"
+    ],
+    "natural": [
+      "СЭМ: Моя старшая сестра отлично сражается! Не плачь, когда проиграешь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Meine große Schwester kämpft toll!"
+    ],
+    "A2": [
+      "SAM: Meine große Schwester kämpft toll! Weine nicht, wenn du verlierst!"
+    ],
+    "natural": [
+      "SAM: Meine große Schwester kämpft toll! Weine nicht, wenn du verlierst!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroCFourF",
+  "base_symbol": "Route124_Text_1C0C4F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Ой..."
+    ],
+    "A2": [
+      "СЭМ: Ой... Старшая сестра меня отругает..."
+    ],
+    "natural": [
+      "СЭМ: Ой... Старшая сестра меня отругает..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Oh..."
+    ],
+    "A2": [
+      "SAM: Oh... Meine große Schwester wird mich ausschimpfen..."
+    ],
+    "natural": [
+      "SAM: Oh... Meine große Schwester wird mich ausschimpfen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroCSevenF",
+  "base_symbol": "Route124_Text_1C0C7F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Старшая сестра очень страшная, когда злится."
+    ],
+    "A2": [
+      "СЭМ: Старшая сестра очень страшная, когда злится. Поэтому у неё нет парня."
+    ],
+    "natural": [
+      "СЭМ: Старшая сестра очень страшная, когда злится. Поэтому у неё нет парня."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Meine große Schwester ist wütend sehr unheimlich."
+    ],
+    "A2": [
+      "SAM: Meine große Schwester ist wütend sehr unheimlich. Darum hat sie keinen Freund."
+    ],
+    "natural": [
+      "SAM: Meine große Schwester ist wütend sehr unheimlich. Darum hat sie keinen Freund."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroCEZero",
+  "base_symbol": "Route124_Text_1C0CE0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Хотел сразиться с нами?"
+    ],
+    "A2": [
+      "СЭМ: Хотел сразиться с нами? Тогда приведи ещё покемонов."
+    ],
+    "natural": [
+      "СЭМ: Хотел сразиться с нами? Тогда приведи ещё покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Du wolltest gegen uns kämpfen?"
+    ],
+    "A2": [
+      "SAM: Du wolltest gegen uns kämpfen? Dann bring mehr Pokémon mit."
+    ],
+    "natural": [
+      "SAM: Du wolltest gegen uns kämpfen? Dann bring mehr Pokémon mit."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroDOneF",
+  "base_symbol": "Route124_Text_1C0D1F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: Эх..."
+    ],
+    "A2": [
+      "РИТА: Эх... Я в море, но рядом младший брат!"
+    ],
+    "natural": [
+      "РИТА: Эх... Я в море, но рядом младший брат! О, давно не виделись. Давай сразимся, чтобы отвлечься!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: Seufz..."
+    ],
+    "A2": [
+      "RITA: Seufz... Am Meer, doch bei mir ist mein Bruder!"
+    ],
+    "natural": [
+      "RITA: Seufz... Am Meer, doch bei mir ist mein Bruder! Lange nicht gesehen. Kämpfen wir zur Ablenkung!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroDBFive",
+  "base_symbol": "Route124_Text_1C0DB5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: СЭМ!"
+    ],
+    "A2": [
+      "РИТА: СЭМ! Мы снова проиграли из-за тебя!"
+    ],
+    "natural": [
+      "РИТА: СЭМ! Мы снова проиграли из-за тебя! Позже будем тренироваться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: SAM!"
+    ],
+    "A2": [
+      "RITA: SAM! Wegen dir haben wir wieder verloren!"
+    ],
+    "natural": [
+      "RITA: SAM! Wegen dir haben wir wieder verloren! Später wird trainiert!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEZeroSix",
+  "base_symbol": "Route124_Text_1C0E06",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: Эх..."
+    ],
+    "A2": [
+      "РИТА: Эх... С милым парнем мы бы всех победили прекрасными комбинациями..."
+    ],
+    "natural": [
+      "РИТА: Эх... С милым парнем мы бы всех победили прекрасными комбинациями..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: Seufz..."
+    ],
+    "A2": [
+      "RITA: Seufz... Mit einem netten Freund würden wir alle mit schönen Kombinationen besiegen..."
+    ],
+    "natural": [
+      "RITA: Seufz... Mit einem netten Freund würden wir alle mit schönen Kombinationen besiegen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEFiveC",
+  "base_symbol": "Route124_Text_1C0E5C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РИТА: Хочешь сразиться с нами?"
+    ],
+    "A2": [
+      "РИТА: Хочешь сразиться с нами? Только если у тебя есть ещё покемоны."
+    ],
+    "natural": [
+      "РИТА: Хочешь сразиться с нами? Только если у тебя есть ещё покемоны."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RITA: Du willst gegen uns kämpfen?"
+    ],
+    "A2": [
+      "RITA: Du willst gegen uns kämpfen? Nicht ohne weitere Pokémon."
+    ],
+    "natural": [
+      "RITA: Du willst gegen uns kämpfen? Nicht ohne weitere Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEATwo",
+  "base_symbol": "Route124_Text_1C0EA2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Если проиграем, мне влетит."
+    ],
+    "A2": [
+      "СЭМ: Если проиграем, мне влетит. Я выложусь на полную!"
+    ],
+    "natural": [
+      "СЭМ: Если проиграем, мне влетит. Я выложусь на полную!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Wenn wir verlieren, bekomme ich Ärger."
+    ],
+    "A2": [
+      "SAM: Wenn wir verlieren, bekomme ich Ärger. Ich gebe wirklich alles!"
+    ],
+    "natural": [
+      "SAM: Wenn wir verlieren, bekomme ich Ärger. Ich gebe wirklich alles!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroEEFive",
+  "base_symbol": "Route124_Text_1C0EE5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Ой..."
+    ],
+    "A2": [
+      "СЭМ: Ой... Старшая сестра снова меня отругает."
+    ],
+    "natural": [
+      "СЭМ: Ой... Старшая сестра снова меня отругает."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Oh..."
+    ],
+    "A2": [
+      "SAM: Oh... Meine große Schwester wird mich wieder ausschimpfen."
+    ],
+    "natural": [
+      "SAM: Oh... Meine große Schwester wird mich wieder ausschimpfen."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroFOneNine",
+  "base_symbol": "Route124_Text_1C0F19",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Старшая сестра очень страшная, когда злится."
+    ],
+    "A2": [
+      "СЭМ: Старшая сестра очень страшная, когда злится. Позже она заставит меня упорно тренироваться..."
+    ],
+    "natural": [
+      "СЭМ: Старшая сестра очень страшная, когда злится. Позже она заставит меня упорно тренироваться..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Meine große Schwester ist wütend sehr unheimlich."
+    ],
+    "A2": [
+      "SAM: Meine große Schwester ist wütend sehr unheimlich. Später lässt sie mich hart trainieren..."
+    ],
+    "natural": [
+      "SAM: Meine große Schwester ist wütend sehr unheimlich. Später lässt sie mich hart trainieren..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoFourOneCZeroFNineZero",
+  "base_symbol": "Route124_Text_1C0F90",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 124 or Mossdeep resident, service, house, shop, game, treasure, sign, or travel interaction."
+  ],
+  "ru": {
+    "A1": [
+      "СЭМ: Хотел сразиться с нами?"
+    ],
+    "A2": [
+      "СЭМ: Хотел сразиться с нами? Тогда приведи ещё покемонов."
+    ],
+    "natural": [
+      "СЭМ: Хотел сразиться с нами? Тогда приведи ещё покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "город",
+        "city"
+      ]
+    ],
+    "de": [
+      [
+        "die Stadt",
+        "city"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SAM: Du wolltest gegen uns kämpfen?"
+    ],
+    "A2": [
+      "SAM: Du wolltest gegen uns kämpfen? Dann bring mehr Pokémon mit."
+    ],
+    "natural": [
+      "SAM: Du wolltest gegen uns kämpfen? Dann bring mehr Pokémon mit."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixSixSixEight",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6668",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Собираетесь в глубину пещеры?"
+    ],
+    "A2": [
+      "Собираетесь в глубину пещеры? Принесите мне отмельную соль и ракушки."
+    ],
+    "natural": [
+      "Собираетесь в глубину пещеры? Принесите мне отмельную соль и ракушки. Из них я сделаю полезную вещь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willst du tief in die Höhle gehen?"
+    ],
+    "A2": [
+      "Willst du tief in die Höhle gehen? Bring mir Küstensalz und Küstenschalen."
+    ],
+    "natural": [
+      "Willst du tief in die Höhle gehen? Bring mir Küstensalz und Küstenschalen. Daraus fertige ich etwas Nützliches."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixSevenZeroD",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C670D",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Принесите по четыре порции отмельной соли и ракушек, и я сделаю ракушечный колокольчик."
+    ],
+    "A2": [
+      "Принесите по четыре порции отмельной соли и ракушек, и я сделаю ракушечный колокольчик. Ингредиенты появляются каждый день."
+    ],
+    "natural": [
+      "Принесите по четыре порции отмельной соли и ракушек, и я сделаю ракушечный колокольчик. Ингредиенты появляются каждый день."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bring je vier Portionen Küstensalz und Küstenschalen, dann fertige ich eine Seegesang-Muschel."
+    ],
+    "A2": [
+      "Bring je vier Portionen Küstensalz und Küstenschalen, dann fertige ich eine Seegesang-Muschel. Die Zutaten gibt es täglich."
+    ],
+    "natural": [
+      "Bring je vier Portionen Küstensalz und Küstenschalen, dann fertige ich eine Seegesang-Muschel. Die Zutaten gibt es täglich."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixSevenNineThree",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6793",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О, соли и ракушек достаточно!"
+    ],
+    "A2": [
+      "О, соли и ракушек достаточно! Сделать из них ракушечный колокольчик?"
+    ],
+    "natural": [
+      "О, соли и ракушек достаточно! Сделать из них ракушечный колокольчик?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh, du hast genug Salz und Schalen!"
+    ],
+    "A2": [
+      "Oh, du hast genug Salz und Schalen! Soll ich daraus eine Seegesang-Muschel fertigen?"
+    ],
+    "natural": [
+      "Oh, du hast genug Salz und Schalen! Soll ich daraus eine Seegesang-Muschel fertigen?"
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixEightZeroEight",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6808",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хорошо!"
+    ],
+    "A2": [
+      "Хорошо! Сейчас сделаю колокольчик..."
+    ],
+    "natural": [
+      "Хорошо! Сейчас сделаю колокольчик... Готово!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gut!"
+    ],
+    "A2": [
+      "Gut! Ich fertige die Seegesang-Muschel sofort..."
+    ],
+    "natural": [
+      "Gut! Ich fertige die Seegesang-Muschel sofort... Fertig!"
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixEightEightE",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C688E",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дайте колокольчик покемону."
+    ],
+    "A2": [
+      "Дайте колокольчик покемону. Его прекрасный звон ему понравится!"
+    ],
+    "natural": [
+      "Дайте колокольчик покемону. Его прекрасный звон ему понравится! Ингредиенты появляются каждый день, поэтому я могу сделать ещё."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gib die Muschel einem Pokémon."
+    ],
+    "A2": [
+      "Gib die Muschel einem Pokémon. Ihr schöner Klang wird ihm gefallen!"
+    ],
+    "natural": [
+      "Gib die Muschel einem Pokémon. Ihr schöner Klang wird ihm gefallen! Die Zutaten erscheinen täglich, also kann ich weitere fertigen."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixNineFourFour",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6944",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот как..."
+    ],
+    "A2": [
+      "Вот как... А я хотел сделать колокольчик..."
+    ],
+    "natural": [
+      "Вот как... А я хотел сделать колокольчик..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ach so..."
+    ],
+    "A2": [
+      "Ach so... Ich wollte eine Seegesang-Muschel fertigen..."
+    ],
+    "natural": [
+      "Ach so... Ich wollte eine Seegesang-Muschel fertigen..."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideEntranceRoomOneCSixNineFFive",
+  "base_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C69F5",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В сумке нет места для колокольчика."
+    ],
+    "A2": [
+      "В сумке нет места для колокольчика. Освободите место и возвращайтесь."
+    ],
+    "natural": [
+      "В сумке нет места для колокольчика. Освободите место и возвращайтесь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In deinem Beutel ist kein Platz für die Muschel."
+    ],
+    "A2": [
+      "In deinem Beutel ist kein Platz für die Muschel. Schaffe Platz und komm zurück."
+    ],
+    "natural": [
+      "In deinem Beutel ist kein Platz für die Muschel. Schaffe Platz und komm zurück."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideInnerRoomOneCSixNineSevenNine",
+  "base_symbol": "ShoalCave_LowTideInnerRoom_Text_1C6979",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ],
+    "A2": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ],
+    "natural": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ],
+    "A2": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ],
+    "natural": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideInnerRoomOneCSixNineBEight",
+  "base_symbol": "ShoalCave_LowTideInnerRoom_Text_1C69B8",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь была отмельная ракушка, но теперь ничего нет."
+    ],
+    "A2": [
+      "Здесь была отмельная ракушка, но теперь ничего нет."
+    ],
+    "natural": [
+      "Здесь была отмельная ракушка, но теперь ничего нет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier lag eine Küstenschale, aber jetzt ist nichts mehr da."
+    ],
+    "A2": [
+      "Hier lag eine Küstenschale, aber jetzt ist nichts mehr da."
+    ],
+    "natural": [
+      "Hier lag eine Küstenschale, aber jetzt ist nichts mehr da."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideLowerRoomOneNineEightTwoZeroZero",
+  "base_symbol": "ShoalCave_LowTideLowerRoom_Text_198200",
+  "source_path": "data/maps/ShoalCave_LowTideLowerRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Пронизывающий холод мешает тренировке."
+    ],
+    "A2": [
+      "Пронизывающий холод мешает тренировке. Но сосредоточенность поможет всё преодолеть!"
+    ],
+    "natural": [
+      "Пронизывающий холод мешает тренировке. Но сосредоточенность поможет всё преодолеть! Возьми Ленту фокуса, соберись и выдержи холод!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die bittere Kälte erschwert das Training."
+    ],
+    "A2": [
+      "Die bittere Kälte erschwert das Training. Doch Konzentration hilft!"
+    ],
+    "natural": [
+      "Die bittere Kälte erschwert das Training. Doch Konzentration hilft! Nimm dieses Fokus-Band, sammle dich und halte der Kälte stand!"
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideLowerRoomOneNineEightTwoATwo",
+  "base_symbol": "ShoalCave_LowTideLowerRoom_Text_1982A2",
+  "source_path": "data/maps/ShoalCave_LowTideLowerRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Всё начинается с сосредоточенности!"
+    ],
+    "A2": [
+      "Всё начинается с сосредоточенности!"
+    ],
+    "natural": [
+      "Всё начинается с сосредоточенности!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Alles beginnt mit Konzentration!"
+    ],
+    "A2": [
+      "Alles beginnt mit Konzentration!"
+    ],
+    "natural": [
+      "Alles beginnt mit Konzentration!"
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideLowerRoomOneCSixNineSevenNine",
+  "base_symbol": "ShoalCave_LowTideLowerRoom_Text_1C6979",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ],
+    "A2": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ],
+    "natural": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ],
+    "A2": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ],
+    "natural": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ]
+  }
+},
+{
+  "id": "ShoalCaveLowTideStairsRoomOneCSixNineSevenNine",
+  "base_symbol": "ShoalCave_LowTideStairsRoom_Text_1C6979",
+  "source_path": "data/text/shoal_cave.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Shoal Cave tide, shell, salt, item, resident, or exploration interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ],
+    "A2": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ],
+    "natural": [
+      "Здесь была отмельная соль, но теперь ничего нет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "пещера",
+        "cave"
+      ]
+    ],
+    "de": [
+      [
+        "die Höhle",
+        "cave"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ],
+    "A2": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ],
+    "natural": [
+      "Hier lag Küstensalz, aber jetzt ist nichts mehr da."
+    ]
+  }
 }
   ]
 }

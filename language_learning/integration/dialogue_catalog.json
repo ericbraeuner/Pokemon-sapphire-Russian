@@ -45126,6 +45126,3146 @@
     "lilycove",
     "city"
   ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.battlelost.2255",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD2B",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_BattleLost",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFBattleLost"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2255
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.battletie.2256",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD34",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_BattleTie",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFBattleTie"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2256
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.battlewon.2257",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD22",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_BattleWon",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFBattleWon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2257
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.challengevisitingtrainer.2258",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD59",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_ChallengeVisitingTrainer",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFChallengeVisitingTrainer"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2258
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.doorislocked.2259",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AE4C",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_DoorIsLocked",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFDoorIsLocked"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2259
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.hopetoseeagoodmatch.2260",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD59",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_HopeToSeeAGoodMatch",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFHopeToSeeAGoodMatch"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2260
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.keepittoa3on3.2261",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15ADF5",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_KeepItToA3On3",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFKeepItToAThreeOnThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2261
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.matchendedupdraw.2262",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_B1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_B1F_EventScript_15AED5",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_MatchEndedUpDraw",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFMatchEndedUpDraw"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2262
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.oldmangreeting.2263",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD42",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_OldManGreeting",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFOldManGreeting"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2263
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.saveyourprogress.2264",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15AD59",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_SaveYourProgress",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFSaveYourProgress"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2264
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.game.mossdeepcity.gamecorner.b1f.text.youwontbattle.2265",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_GameCorner_1F/scripts.inc",
+    "symbol": "MossdeepCity_GameCorner_1F_EventScript_15ADE8",
+    "base_text_path": "data/maps/MossdeepCity_GameCorner_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_GameCorner_B1F_Text_YouWontBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGameCornerBOneFYouWontBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2265
+  },
+  "tags": [
+    "mossdeep",
+    "game"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.explaincalmmind.2266",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_GiveCalmMind2",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_ExplainCalmMind",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymExplainCalmMind"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2266
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.explainmindbadgetakethis.2267",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_TateAndLizaDefeated",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymExplainMindBadgeTakeThis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2267
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.fritzdefeat.2268",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Fritz",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_FritzDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymFritzDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2268
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.fritzintro.2269",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Fritz",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_FritzIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymFritzIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2269
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.fritzpostbattle.2270",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Fritz",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_FritzPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymFritzPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2270
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.gymguideadvice.2271",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_GymGuide",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_GymGuideAdvice",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymGymGuideAdvice"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2271
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.gymguidepostvictory.2272",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_GymGuidePostVictory",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_GymGuidePostVictory",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymGymGuidePostVictory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2272
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.gymstatue.2273",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_GymStatue",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_GymStatue",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymGymStatue"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2273
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.gymstatuecertified.2274",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_GymStatueCertified",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_GymStatueCertified",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymGymStatueCertified"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2274
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.hannahdefeat.2275",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Hannah",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_HannahDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymHannahDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2275
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.hannahintro.2276",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Hannah",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_HannahIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymHannahIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2276
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.hannahpostbattle.2277",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Hannah",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_HannahPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymHannahPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2277
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.mauradefeat.2278",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Maura",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_MauraDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymMauraDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2278
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.mauraintro.2279",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Maura",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_MauraIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymMauraIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2279
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.maurapostbattle.2280",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Maura",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_MauraPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymMauraPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2280
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.prestondefeat.2281",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Preston",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_PrestonDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymPrestonDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2281
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.prestonintro.2282",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Preston",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_PrestonIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymPrestonIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2282
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.prestonpostbattle.2283",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Preston",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_PrestonPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymPrestonPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2283
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.receivedmindbadge.2284",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_TateAndLizaDefeated",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_ReceivedMindBadge",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymReceivedMindBadge"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2284
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.samanthadefeat.2285",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Samantha",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_SamanthaDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymSamanthaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2285
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.samanthaintro.2286",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Samantha",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_SamanthaIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymSamanthaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2286
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.samanthapostbattle.2287",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Samantha",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_SamanthaPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymSamanthaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2287
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.tateandlizadefeat.2288",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_TateAndLiza",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_TateAndLizaDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymTateAndLizaDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2288
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.tateandlizaintro.2289",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_TateAndLiza",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_TateAndLizaIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymTateAndLizaIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2289
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.gym.text.tateandlizaneedtwomons.2290",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_TateAndLiza",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymTateAndLizaNeedTwoMons"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2290
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.tateandlizapostbattle.2291",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_TateAndLiza",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_TateAndLizaPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymTateAndLizaPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2291
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.virgildefeat.2292",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Virgil",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_VirgilDefeat",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymVirgilDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2292
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.virgilintro.2293",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Virgil",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_VirgilIntro",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymVirgilIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2293
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.trainer.mossdeepcity.gym.text.virgilpostbattle.2294",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Gym/scripts.inc",
+    "symbol": "MossdeepCity_Gym_EventScript_Virgil",
+    "base_text_path": "data/maps/MossdeepCity_Gym/text.inc",
+    "base_text_symbol": "MossdeepCity_Gym_Text_VirgilPostBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymVirgilPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2294
+  },
+  "tags": [
+    "mossdeep",
+    "trainer"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house1.text.doesntlikeordislikepokeblocks.2295",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House1/scripts.inc",
+    "symbol": "MossdeepCity_House1_EventScript_NeutralNature",
+    "base_text_path": "data/maps/MossdeepCity_House1/text.inc",
+    "base_text_symbol": "MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseOneDoesntLikeOrDislikePokeblocks"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2295
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house1.text.hmmyourpokemon.2296",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House1/scripts.inc",
+    "symbol": "MossdeepCity_House1_EventScript_BlackBelt",
+    "base_text_path": "data/maps/MossdeepCity_House1/text.inc",
+    "base_text_symbol": "MossdeepCity_House1_Text_HmmYourPokemon",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseOneHmmYourPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2296
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house1.text.husbandcantellpokeblockmonlikes.2297",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House1/scripts.inc",
+    "symbol": "MossdeepCity_House1_EventScript_Woman",
+    "base_text_path": "data/maps/MossdeepCity_House1/text.inc",
+    "base_text_symbol": "MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseOneHusbandCanTellPokeblockMonLikes"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2297
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house1.text.itlikesxpokeblocks.2298",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House1/scripts.inc",
+    "symbol": "MossdeepCity_House1_EventScript_BlackBelt",
+    "base_text_path": "data/maps/MossdeepCity_House1/text.inc",
+    "base_text_symbol": "MossdeepCity_House1_Text_ItLikesXPokeblocks",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseOneItLikesXPokeblocks"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2298
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house2.text.pokemoncarriesmailbackandforth.2299",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House2/scripts.inc",
+    "symbol": "MossdeepCity_House2_EventScript_Twin",
+    "base_text_path": "data/maps/MossdeepCity_House2/text.inc",
+    "base_text_symbol": "MossdeepCity_House2_Text_PokemonCarriesMailBackAndForth",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseTwoPokemonCarriesMailBackAndForth"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2299
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house2.text.sistermailsboyfriendinfortree.2300",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House2/scripts.inc",
+    "symbol": "MossdeepCity_House2_EventScript_Man",
+    "base_text_path": "data/maps/MossdeepCity_House2/text.inc",
+    "base_text_symbol": "MossdeepCity_House2_Text_SisterMailsBoyfriendInFortree",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseTwoSisterMailsBoyfriendInFortree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2300
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house2.text.wingull.2301",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House2/scripts.inc",
+    "symbol": "MossdeepCity_House2_EventScript_Wingull",
+    "base_text_path": "data/maps/MossdeepCity_House2/text.inc",
+    "base_text_symbol": "MossdeepCity_House2_Text_Wingull",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseTwoWingull"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2301
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house3.text.dontyouliketofish.2302",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House3/scripts.inc",
+    "symbol": "MossdeepCity_House3_EventScript_DeclineSuperRod",
+    "base_text_path": "data/maps/MossdeepCity_House3/text.inc",
+    "base_text_symbol": "MossdeepCity_House3_Text_DontYouLikeToFish",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseThreeDontYouLikeToFish"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2302
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house3.text.goafterseafloorpokemon.2303",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House3/scripts.inc",
+    "symbol": "MossdeepCity_House3_EventScript_ReceivedSuperRod",
+    "base_text_path": "data/maps/MossdeepCity_House3/text.inc",
+    "base_text_symbol": "MossdeepCity_House3_Text_GoAfterSeafloorPokemon",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseThreeGoAfterSeafloorPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2303
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house3.text.superrodissuper.2304",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House3/scripts.inc",
+    "symbol": "MossdeepCity_House3_EventScript_SuperRodFisherman",
+    "base_text_path": "data/maps/MossdeepCity_House3/text.inc",
+    "base_text_symbol": "MossdeepCity_House3_Text_SuperRodIsSuper",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseThreeSuperRodIsSuper"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2304
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house3.text.trydroppingrodinwater.2305",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House3/scripts.inc",
+    "symbol": "MossdeepCity_House3_EventScript_SuperRodFisherman",
+    "base_text_path": "data/maps/MossdeepCity_House3/text.inc",
+    "base_text_symbol": "MossdeepCity_House3_Text_TryDroppingRodInWater",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseThreeTryDroppingRodInWater"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2305
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house3.text.youwantsuperrod.2306",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House3/scripts.inc",
+    "symbol": "MossdeepCity_House3_EventScript_SuperRodFisherman",
+    "base_text_path": "data/maps/MossdeepCity_House3/text.inc",
+    "base_text_symbol": "MossdeepCity_House3_Text_YouWantSuperRod",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseThreeYouWantSuperRod"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2306
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house4.text.brotherlikestofindbases.2307",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House4/scripts.inc",
+    "symbol": "MossdeepCity_House4_EventScript_Woman",
+    "base_text_path": "data/maps/MossdeepCity_House4/text.inc",
+    "base_text_symbol": "MossdeepCity_House4_Text_BrotherLikesToFindBases",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseFourBrotherLikesToFindBases"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2307
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house4.text.brotherlikestovisitbasesandbattle.2308",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House4/scripts.inc",
+    "symbol": "MossdeepCity_House4_EventScript_CanBattleAtSecretBases",
+    "base_text_path": "data/maps/MossdeepCity_House4/text.inc",
+    "base_text_symbol": "MossdeepCity_House4_Text_BrotherLikesToVisitBasesAndBattle",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseFourBrotherLikesToVisitBasesAndBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2308
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house4.text.delcatty.2309",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House4/scripts.inc",
+    "symbol": "MossdeepCity_House4_EventScript_Delcatty",
+    "base_text_path": "data/maps/MossdeepCity_House4/text.inc",
+    "base_text_symbol": "MossdeepCity_House4_Text_Delcatty",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseFourDelcatty"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2309
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house4.text.makesecretbase.2310",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House4/scripts.inc",
+    "symbol": "MossdeepCity_House4_EventScript_NoSecretBase",
+    "base_text_path": "data/maps/MossdeepCity_House4/text.inc",
+    "base_text_symbol": "MossdeepCity_House4_Text_MakeSecretBase",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseFourMakeSecretBase"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2310
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.house4.text.youmadesecretbasenearx.2311",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_House4/scripts.inc",
+    "symbol": "MossdeepCity_House4_EventScript_NinjaBoy",
+    "base_text_path": "data/maps/MossdeepCity_House4/text.inc",
+    "base_text_symbol": "MossdeepCity_House4_Text_YouMadeSecretBaseNearX",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityHouseFourYouMadeSecretBaseNearX"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2311
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.mart.text.maxrepellastslongest.2312",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Mart/scripts.inc",
+    "symbol": "MossdeepCity_Mart_EventScript_Boy",
+    "base_text_path": "data/maps/MossdeepCity_Mart/text.inc",
+    "base_text_symbol": "MossdeepCity_Mart_Text_MaxRepelLastsLongest",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityMartMaxRepelLastsLongest"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2312
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.mart.text.netanddiveballsrare.2313",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Mart/scripts.inc",
+    "symbol": "MossdeepCity_Mart_EventScript_Sailor",
+    "base_text_path": "data/maps/MossdeepCity_Mart/text.inc",
+    "base_text_symbol": "MossdeepCity_Mart_Text_NetAndDiveBallsRare",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityMartNetAndDiveBallsRare"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2313
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.mart.text.reviveisfantastic.2314",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_Mart/scripts.inc",
+    "symbol": "MossdeepCity_Mart_EventScript_Woman",
+    "base_text_path": "data/maps/MossdeepCity_Mart/text.inc",
+    "base_text_symbol": "MossdeepCity_Mart_Text_ReviveIsFantastic",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityMartReviveIsFantastic"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2314
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.pokemoncenter.1f.text.abilitiesmightchangemoves.2315",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_PokemonCenter_1F_EventScript_Girl",
+    "base_text_path": "data/maps/MossdeepCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityPokemonCenterOneFAbilitiesMightChangeMoves"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2315
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.pokemoncenter.1f.text.gymleaderduoformidable.2316",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_PokemonCenter_1F_EventScript_Woman",
+    "base_text_path": "data/maps/MossdeepCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_PokemonCenter_1F_Text_GymLeaderDuoFormidable",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityPokemonCenterOneFGymLeaderDuoFormidable"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2316
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.pokemoncenter.2f.text.18d6f5.2317",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_PokemonCenter_2F/scripts.inc",
+    "symbol": "MossdeepCity_PokemonCenter_2F_EventScript_15A90A",
+    "base_text_path": "data/maps/MossdeepCity_PokemonCenter_2F/text.inc",
+    "base_text_symbol": "MossdeepCity_PokemonCenter_2F_Text_18D6F5",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityPokemonCenterTwoFOneEightDSixFFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2317
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.didpokemoncomefromspace.2318",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_Woman",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFDidPokemonComeFromSpace"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2318
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.foundthisyoucanhaveit.2319",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFFoundThisYouCanHaveIt"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2319
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.hoennfamousformeteorshowers.2320",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFHoennFamousForMeteorShowers"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2320
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.rocketlaunchdemandsperfection.2321",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_Scientist",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFRocketLaunchDemandsPerfection"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2321
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.rocketlaunchimminent.2322",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_NoLaunchesYet",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFRocketLaunchImminent"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2322
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.rocketsbogglemymind.2323",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_OldMan",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFRocketsBoggleMyMind"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2323
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.1f.text.successfullaunchnumber.2324",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_1F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_1F_EventScript_ShowLaunchNumber",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_1F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterOneFSuccessfulLaunchNumber"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2324
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.2f.text.mossdeepidealforrockets.2325",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_2F_EventScript_Scientist",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_2F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterTwoFMossdeepIdealForRockets"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2325
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.2f.text.wishordinarypeoplecouldgointospace.2326",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_2F_EventScript_RichBoy",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_2F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_2F_Text_WishOrdinaryPeopleCouldGoIntoSpace",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterTwoFWishOrdinaryPeopleCouldGoIntoSpace"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2326
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.spacecenter.2f.text.wouldvelikedtobeastronaut.2327",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_SpaceCenter_2F/scripts.inc",
+    "symbol": "MossdeepCity_SpaceCenter_2F_EventScript_Gentleman",
+    "base_text_path": "data/maps/MossdeepCity_SpaceCenter_2F/text.inc",
+    "base_text_symbol": "MossdeepCity_SpaceCenter_2F_Text_WouldveLikedToBeAstronaut",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterTwoFWouldveLikedToBeAstronaut"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2327
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.collectionofrarerocks.2328",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_RockDisplay",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_CollectionOfRareRocks",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseCollectionOfRareRocks"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2328
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.explaindive.2329",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_StevenGivesDive",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_ExplainDive",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseExplainDive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2329
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.leftpokeballwhereitwas.2330",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_LeaveBeldum",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseLeftPokeBallWhereItWas"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2330
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.letterfromsteven.2331",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_LetterWithoutDive",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_LetterFromSteven",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseLetterFromSteven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2331
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.letterfromstevenwithdive.2332",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_Letter",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_LetterFromStevenWithDive",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseLetterFromStevenWithDive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2332
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.nospaceforanothermon.2333",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_GiveBeldum",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_NoSpaceForAnotherMon",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseNoSpaceForAnotherMon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2333
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.obtainedbeldum.2334",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_BeldumPokeball",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_ObtainedBeldum",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseObtainedBeldum"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2334
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.takeballcontainingbeldum.2335",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_BeldumPokeball",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseTakeBallContainingBeldum"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2335
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.underwatecavernbetweenmossdeepsootopolis.2336",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_Steven",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseUnderwateCavernBetweenMossdeepSootopolis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2336
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.dive.mossdeepcity.stevenshouse.text.youveearnedhmdive.2337",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity_StevensHouse/scripts.inc",
+    "symbol": "MossdeepCity_StevensHouse_EventScript_StevenGivesDive",
+    "base_text_path": "data/maps/MossdeepCity_StevensHouse/text.inc",
+    "base_text_symbol": "MossdeepCity_StevensHouse_Text_YouveEarnedHMDive",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityStevensHouseYouveEarnedHMDive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2337
+  },
+  "tags": [
+    "mossdeep",
+    "dive"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.citysign.2338",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_CitySign",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_CitySign",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityCitySign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2338
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.collectingrocks.2339",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_ReceivedKingsRock",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_CollectingRocks",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityCollectingRocks"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2339
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.gym.mossdeepcity.text.gymsign.2340",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_GymSign",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_GymSign",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityGymSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2340
+  },
+  "tags": [
+    "mossdeep",
+    "gym"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.itsawhiterock.2341",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_WhiteRock",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_ItsAWhiteRock",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityItsAWhiteRock"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2341
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.lifeneedsseatolive.2342",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_ExpertM",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_LifeNeedsSeaToLive",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityLifeNeedsSeaToLive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2342
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.niceifworldcoveredbyflowers.2343",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_Girl",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_NiceIfWorldCoveredByFlowers",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityNiceIfWorldCoveredByFlowers"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2343
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.text.spacecenterlaunchingrockets.2344",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_PokefanF",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_SpaceCenterLaunchingRockets",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterLaunchingRockets"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2344
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.text.spacecentersign.2345",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_SpaceCenterSign",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_SpaceCenterSign",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpaceCenterSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2345
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.space.mossdeepcity.text.specialspacecenterrock.2346",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_Woman",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_SpecialSpaceCenterRock",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySpecialSpaceCenterRock"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2346
+  },
+  "tags": [
+    "mossdeep",
+    "space"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.surfexhilarating.2347",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_Man",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_SurfExhilarating",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCitySurfExhilarating"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2347
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.wailmerdisappeared.2348",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_Sailor",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_WailmerDisappeared",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityWailmerDisappeared"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2348
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.wailmerwatching.2349",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_NinjaBoy",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_WailmerWatching",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityWailmerWatching"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2349
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.wantkingsrockstevengaveme.2350",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_KingsRockBoy",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_WantKingsRockStevenGaveMe",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityWantKingsRockStevenGaveMe"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2350
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.whattodowithweirdrock.2351",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_DeclineKingsRock",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_WhatToDoWithWeirdRock",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityWhatToDoWithWeirdRock"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2351
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.mossdeepcity.text.youcankeepit.2352",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/MossdeepCity/scripts.inc",
+    "symbol": "MossdeepCity_EventScript_KingsRockBoy",
+    "base_text_path": "data/maps/MossdeepCity/text.inc",
+    "base_text_symbol": "MossdeepCity_Text_YouCanKeepIt",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "MossdeepCityYouCanKeepIt"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2352
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f416.2353",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_163E04",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F416",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFourOneSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2353
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f48f.2354",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_163E20",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F48F",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFourEightF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2354
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f4d1.2355",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_164329",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F4D1",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFourDOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2355
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f544.2356",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_163EA2",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F544",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFiveFourFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2356
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f5c5.2357",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_163EB0",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F5C5",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFiveCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2357
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f5e0.2358",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_164292",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F5E0",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFFiveEZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2358
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f606.2359",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_1642D3",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F606",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2359
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f629.2360",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_1642D3",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F629",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixTwoNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2360
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f64e.2361",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_164315",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F64E",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixFourE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2361
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f686.2362",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_16431F",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F686",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixEightSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2362
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.treasure.route124.divingtreasurehuntershouse.text.19f6c5.2363",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc",
+    "symbol": "Route124_DivingTreasureHuntersHouse_EventScript_164335",
+    "base_text_path": "data/maps/Route124_DivingTreasureHuntersHouse/text.inc",
+    "base_text_symbol": "Route124_DivingTreasureHuntersHouse_Text_19F6C5",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourDivingTreasureHuntersHouseOneNineFSixCFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2363
+  },
+  "tags": [
+    "mossdeep",
+    "treasure"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.171ed1.2364",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151DEF",
+    "base_text_path": "data/maps/Route124/text.inc",
+    "base_text_symbol": "Route124_Text_171ED1",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneSevenOneEDOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2364
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0624.2365",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151DF8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0624",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSixTwoFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2365
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0675.2366",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151DF8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0675",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSixSevenFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2366
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0693.2367",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151DF8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0693",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSixNineThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2367
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c06f7.2368",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E0F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C06F7",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSixFSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2368
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0741.2369",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E0F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0741",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSevenFourOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2369
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0750.2370",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E0F",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0750",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSevenFiveZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2370
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c07b4.2371",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E26",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C07B4",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSevenBFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2371
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c07f9.2372",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E26",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C07F9",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroSevenFNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2372
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c080e.2373",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E26",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C080E",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEightZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2373
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0888.2374",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E4D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0888",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEightEightEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2374
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c08c8.2375",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E4D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C08C8",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEightCEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2375
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c08ea.2376",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E4D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C08EA",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEightEA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2376
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0936.2377",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E64",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0936",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroNineThreeSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2377
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c096b.2378",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E64",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C096B",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroNineSixB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2378
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0994.2379",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E64",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0994",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroNineNineFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2379
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c09ce.2380",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E7B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C09CE",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroNineCE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2380
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0a2f.2381",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E7B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0A2F",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroATwoF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2381
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0a52.2382",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E7B",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0A52",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroAFiveTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2382
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0abd.2383",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0ABD",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroABD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2383
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0b36.2384",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0B36",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroBThreeSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2384
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0b72.2385",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0B72",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroBSevenTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2385
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0bc8.2386",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151E92",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0BC8",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroBCEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2386
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0c0e.2387",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151ED8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0C0E",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroCZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2387
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0c4f.2388",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151ED8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0C4F",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroCFourF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2388
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0c7f.2389",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151ED8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0C7F",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroCSevenF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2389
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0ce0.2390",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151ED8",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0CE0",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroCEZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2390
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0d1f.2391",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151EBD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0D1F",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroDOneF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2391
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0db5.2392",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151EBD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0DB5",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroDBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2392
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0e06.2393",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151EBD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0E06",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2393
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0e5c.2394",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151EBD",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0E5C",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEFiveC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2394
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0ea2.2395",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151F03",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0EA2",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEATwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2395
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0ee5.2396",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151F03",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0EE5",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroEEFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2396
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0f19.2397",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151F03",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0F19",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroFOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2397
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.city.route124.text.1c0f90.2398",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route124/scripts.inc",
+    "symbol": "Route124_EventScript_151F03",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route124_Text_1C0F90",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "RouteOneTwoFourOneCZeroFNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2398
+  },
+  "tags": [
+    "mossdeep",
+    "city"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c6668.2399",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E138",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6668",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixSixSixEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2399
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c670d.2400",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E162",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C670D",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixSevenZeroD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2400
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c6793.2401",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E076",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6793",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixSevenNineThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2401
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c6808.2402",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E076",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6808",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixEightZeroEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2402
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c688e.2403",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E076",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C688E",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixEightEightE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2403
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c6944.2404",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E16C",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C6944",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixNineFourFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2404
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideentranceroom.text.1c69f5.2405",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideEntranceRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideEntranceRoom_EventScript_15E12E",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideEntranceRoom_Text_1C69F5",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideEntranceRoomOneCSixNineFFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2405
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideinnerroom.text.1c6979.2406",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideInnerRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideInnerRoom_EventScript_15E35B",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideInnerRoom_Text_1C6979",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideInnerRoomOneCSixNineSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2406
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtideinnerroom.text.1c69b8.2407",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideInnerRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideInnerRoom_EventScript_15E289",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideInnerRoom_Text_1C69B8",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideInnerRoomOneCSixNineBEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2407
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtidelowerroom.text.198200.2408",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideLowerRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideLowerRoom_EventScript_15E44F",
+    "base_text_path": "data/maps/ShoalCave_LowTideLowerRoom/text.inc",
+    "base_text_symbol": "ShoalCave_LowTideLowerRoom_Text_198200",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideLowerRoomOneNineEightTwoZeroZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2408
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtidelowerroom.text.1982a2.2409",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideLowerRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideLowerRoom_EventScript_15E47E",
+    "base_text_path": "data/maps/ShoalCave_LowTideLowerRoom/text.inc",
+    "base_text_symbol": "ShoalCave_LowTideLowerRoom_Text_1982A2",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideLowerRoomOneNineEightTwoATwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2409
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtidelowerroom.text.1c6979.2410",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideLowerRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideLowerRoom_EventScript_15E445",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideLowerRoom_Text_1C6979",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideLowerRoomOneCSixNineSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2410
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
+},
+{
+  "id": "mossdeep.shoal.shoalcave.lowtidestairsroom.text.1c6979.2411",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/ShoalCave_LowTideStairsRoom/scripts.inc",
+    "symbol": "ShoalCave_LowTideStairsRoom_EventScript_15E3E9",
+    "base_text_path": "data/text/shoal_cave.inc",
+    "base_text_symbol": "ShoalCave_LowTideStairsRoom_Text_1C6979",
+    "note": "Adaptive translation preserves the original battle, puzzle, badge, TM, HM, trade, item, gift, tide, and story flow.",
+    "authored_id": "ShoalCaveLowTideStairsRoomOneCSixNineSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2411
+  },
+  "tags": [
+    "mossdeep",
+    "shoal"
+  ]
 }
   ]
 }

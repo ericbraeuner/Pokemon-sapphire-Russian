@@ -695,6 +695,24 @@ class LessonTests(unittest.TestCase):
                           'LilycoveCity_PokemonCenter_1F',
                           'LilycoveCity_PokemonTrainerFanClub')
         paths += [f'data/maps/{area}/scripts.inc' for area in lilycove_areas]
+        mossdeep_areas = ('Route124', 'Route124_DivingTreasureHuntersHouse',
+                          'MossdeepCity', 'MossdeepCity_GameCorner_1F',
+                          'MossdeepCity_GameCorner_B1F', 'MossdeepCity_Gym',
+                          'MossdeepCity_House1', 'MossdeepCity_House2',
+                          'MossdeepCity_House3', 'MossdeepCity_House4',
+                          'MossdeepCity_Mart', 'MossdeepCity_PokemonCenter_1F',
+                          'MossdeepCity_PokemonCenter_2F',
+                          'MossdeepCity_SpaceCenter_1F',
+                          'MossdeepCity_SpaceCenter_2F',
+                          'MossdeepCity_StevensHouse',
+                          'ShoalCave_HighTideEntranceRoom',
+                          'ShoalCave_HighTideInnerRoom',
+                          'ShoalCave_LowTideEntranceRoom',
+                          'ShoalCave_LowTideIceRoom',
+                          'ShoalCave_LowTideInnerRoom',
+                          'ShoalCave_LowTideLowerRoom',
+                          'ShoalCave_LowTideStairsRoom')
+        paths += [f'data/maps/{area}/scripts.inc' for area in mossdeep_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -1209,6 +1227,18 @@ class LessonTests(unittest.TestCase):
         for symbol in ('gOtherText_Player', 'gOtherText_Badges',
                        'gOtherText_Pokedex', 'gOtherText_PlayTime'):
             self.assertIn(f'SaveLearnerText({symbol})', save)
+        compact_save_labels = {
+            'gOtherText_Player': ('Имя', 'Name'),
+            'gOtherText_Badges': ('Значки', 'Orden'),
+            'gOtherText_Pokedex': ('Покедекс', 'Dex'),
+            'gOtherText_PlayTime': ('Время', 'Zeit'),
+        }
+        for symbol, (russian, german) in compact_save_labels.items():
+            self.assertEqual(russian, entries[symbol]['ru'])
+            self.assertEqual(german, entries[symbol]['de'])
+            self.assertLessEqual(entries[symbol]['width'], 56)
+        self.assertNotEqual('Spieler', entries['gOtherText_Player']['de'])
+        self.assertNotEqual('Spielzeit', entries['gOtherText_PlayTime']['de'])
         for symbol in ('gOtherText_Walk', 'gOtherText_Check',
                        'gOtherText_BootedTM', 'gOtherText_BootedHM'):
             self.assertIn(symbol, entries)
@@ -2714,6 +2744,34 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(320, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_route_124_mossdeep_and_shoal_cave_are_fully_adaptive(self):
+        areas = ('Route124', 'Route124_DivingTreasureHuntersHouse',
+                 'MossdeepCity', 'MossdeepCity_GameCorner_1F',
+                 'MossdeepCity_GameCorner_B1F', 'MossdeepCity_Gym',
+                 'MossdeepCity_House1', 'MossdeepCity_House2',
+                 'MossdeepCity_House3', 'MossdeepCity_House4',
+                 'MossdeepCity_Mart', 'MossdeepCity_PokemonCenter_1F',
+                 'MossdeepCity_PokemonCenter_2F', 'MossdeepCity_SpaceCenter_1F',
+                 'MossdeepCity_SpaceCenter_2F', 'MossdeepCity_StevensHouse',
+                 'ShoalCave_HighTideEntranceRoom', 'ShoalCave_HighTideInnerRoom',
+                 'ShoalCave_LowTideEntranceRoom', 'ShoalCave_LowTideIceRoom',
+                 'ShoalCave_LowTideInnerRoom', 'ShoalCave_LowTideLowerRoom',
+                 'ShoalCave_LowTideStairsRoom')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:Route124|MossdeepCity|ShoalCave)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(157, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

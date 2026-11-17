@@ -52846,6 +52846,2326 @@
     "sootopolis",
     "origin"
   ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c2161.2641",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_152366",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C2161",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoOneSixOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2641
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c2198.2642",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_152366",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C2198",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoOneNineEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2642
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c21b4.2643",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_152366",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C21B4",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoOneBFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2643
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c21ed.2644",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_15237D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C21ED",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoOneED"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2644
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c222f.2645",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_15237D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C222F",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoTwoTwoF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2645
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c2243.2646",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_15237D",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C2243",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoTwoFourThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2646
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c22c8.2647",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_152394",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C22C8",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoTwoCEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2647
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c22ec.2648",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_152394",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C22EC",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoTwoEC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2648
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c230f.2649",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_152394",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C230F",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoThreeZeroF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2649
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c2349.2650",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_1523AB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C2349",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoThreeFourNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2650
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c2378.2651",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_1523AB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C2378",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoThreeSevenEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2651
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route129.text.1c23a3.2652",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route129/scripts.inc",
+    "symbol": "Route129_EventScript_1523AB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route129_Text_1C23A3",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneTwoNineOneCTwoThreeAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2652
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route130.text.1c2401.2653",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route130/scripts.inc",
+    "symbol": "Route130_EventScript_152410",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route130_Text_1C2401",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeZeroOneCTwoFourZeroOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2653
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route130.text.1c245d.2654",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route130/scripts.inc",
+    "symbol": "Route130_EventScript_152410",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route130_Text_1C245D",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeZeroOneCTwoFourFiveD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2654
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route130.text.1c2479.2655",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route130/scripts.inc",
+    "symbol": "Route130_EventScript_152410",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route130_Text_1C2479",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeZeroOneCTwoFourSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2655
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route130.text.1c24dc.2656",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route130/scripts.inc",
+    "symbol": "Route130_EventScript_152427",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route130_Text_1C24DC",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeZeroOneCTwoFourDC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2656
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route130.text.1c2525.2657",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route130/scripts.inc",
+    "symbol": "Route130_EventScript_152427",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route130_Text_1C2525",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeZeroOneCTwoFiveTwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2657
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route130.text.1c256e.2658",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route130/scripts.inc",
+    "symbol": "Route130_EventScript_152427",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route130_Text_1C256E",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeZeroOneCTwoFiveSixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2658
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c25b3.2659",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152452",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C25B3",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoFiveBThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2659
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c25f8.2660",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152452",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C25F8",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoFiveFEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2660
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c262a.2661",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152452",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C262A",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSixTwoA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2661
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c26b9.2662",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152469",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C26B9",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSixBNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2662
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c271f.2663",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152469",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C271F",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSevenOneF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2663
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2726.2664",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152469",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2726",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSevenTwoSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2664
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2774.2665",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152480",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2774",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSevenSevenFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2665
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c27a4.2666",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152480",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C27A4",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSevenAFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2666
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c27cf.2667",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152480",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C27CF",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoSevenCF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2667
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c284a.2668",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152497",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C284A",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoEightFourA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2668
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2883.2669",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152497",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2883",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoEightEightThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2669
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2898.2670",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_152497",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2898",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoEightNineEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2670
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c28e2.2671",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C28E2",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoEightETwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2671
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2918.2672",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2918",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoNineOneEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2672
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c29b2.2673",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C29B2",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoNineBTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2673
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2950.2674",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524AE",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2950",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoNineFiveZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2674
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c29f3.2675",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C29F3",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoNineFThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2675
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2a20.2676",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2A20",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoATwoZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2676
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2aca.2677",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2ACA",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoACA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2677
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route131.text.1c2a5d.2678",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route131/scripts.inc",
+    "symbol": "Route131_EventScript_1524C9",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route131_Text_1C2A5D",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeOneOneCTwoAFiveD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2678
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2afb.2679",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_1524E5",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2AFB",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoAFB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2679
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2b5b.2680",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_1524E5",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2B5B",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoBFiveB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2680
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2b71.2681",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_1524E5",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2B71",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoBSevenOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2681
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2bb5.2682",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_1524FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2BB5",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoBBFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2682
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2bea.2683",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_1524FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2BEA",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoBEA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2683
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2bfa.2684",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_1524FC",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2BFA",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoBFA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2684
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2c32.2685",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_152513",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2C32",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoCThreeTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2685
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2c60.2686",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_152513",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2C60",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoCSixZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2686
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2c78.2687",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_152513",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2C78",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoCSevenEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2687
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2cd9.2688",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_15252A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2CD9",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoCDNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2688
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2d1f.2689",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_15252A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2D1F",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoDOneF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2689
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route132.text.1c2d3e.2690",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route132/scripts.inc",
+    "symbol": "Route132_EventScript_15252A",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route132_Text_1C2D3E",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeTwoOneCTwoDThreeE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2690
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2da5.2691",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152542",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2DA5",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoDAFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2691
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2df4.2692",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152542",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2DF4",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoDFFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2692
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2e09.2693",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152542",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2E09",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoEZeroNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2693
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2e61.2694",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152559",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2E61",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoESixOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2694
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2ebd.2695",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152559",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2EBD",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoEBD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2695
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2ecd.2696",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152559",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2ECD",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoECD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2696
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2ef7.2697",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152570",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2EF7",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoEFSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2697
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2f19.2698",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152570",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2F19",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoFOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2698
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2f25.2699",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152570",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2F25",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoFTwoFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2699
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2f53.2700",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152587",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2F53",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoFFiveThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2700
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2fa3.2701",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152587",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2FA3",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoFAThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2701
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c2fc7.2702",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_152587",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C2FC7",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCTwoFCSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2702
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c302d.2703",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_15259E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C302D",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCThreeZeroTwoD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2703
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c305f.2704",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_15259E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C305F",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCThreeZeroFiveF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2704
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route133.text.1c307e.2705",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route133/scripts.inc",
+    "symbol": "Route133_EventScript_15259E",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route133_Text_1C307E",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeThreeOneCThreeZeroSevenE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2705
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c30c6.2706",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525C4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C30C6",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeZeroCSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2706
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c3110.2707",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525C4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C3110",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeOneOneZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2707
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c311a.2708",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525C4",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C311A",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeOneOneA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2708
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c315e.2709",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525DB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C315E",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeOneFiveE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2709
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c3198.2710",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525DB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C3198",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeOneNineEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2710
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c31a0.2711",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525DB",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C31A0",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeOneAZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2711
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c31d7.2712",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525F2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C31D7",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeOneDSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2712
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c3213.2713",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525F2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C3213",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeTwoOneThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2713
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c3229.2714",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_1525F2",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C3229",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeTwoTwoNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2714
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c3319.2715",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_152609",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C3319",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeThreeOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2715
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c335c.2716",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_152609",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C335C",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeThreeFiveC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2716
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c336e.2717",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_152609",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C336E",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeThreeSixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2717
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c3262.2718",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_152620",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C3262",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeTwoSixTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2718
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c329e.2719",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_152620",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C329E",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeTwoNineE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2719
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.route.route134.text.1c32d6.2720",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/Route134/scripts.inc",
+    "symbol": "Route134_EventScript_152620",
+    "base_text_path": "data/text/trainers.inc",
+    "base_text_symbol": "Route134_Text_1C32D6",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "RouteOneThreeFourOneCThreeTwoDSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2720
+  },
+  "tags": [
+    "pacifidlog",
+    "route"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.text.neathousesonwater.2721",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown/scripts.inc",
+    "symbol": "PacifidlogTown_EventScript_NinjaBoy",
+    "base_text_path": "data/maps/PacifidlogTown/text.inc",
+    "base_text_symbol": "PacifidlogTown_Text_NeatHousesOnWater",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownNeatHousesOnWater"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2721
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.text.fastrunningcurrent.2722",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown/scripts.inc",
+    "symbol": "PacifidlogTown_EventScript_Girl",
+    "base_text_path": "data/maps/PacifidlogTown/text.inc",
+    "base_text_symbol": "PacifidlogTown_Text_FastRunningCurrent",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownFastRunningCurrent"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2722
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.text.fishanddivelifestyle.2723",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown/scripts.inc",
+    "symbol": "PacifidlogTown_EventScript_Fisherman",
+    "base_text_path": "data/maps/PacifidlogTown/text.inc",
+    "base_text_symbol": "PacifidlogTown_Text_FishAndDiveLifestyle",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownFishAndDiveLifestyle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2723
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.text.townsign.2724",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown/scripts.inc",
+    "symbol": "PacifidlogTown_EventScript_TownSign",
+    "base_text_path": "data/maps/PacifidlogTown/text.inc",
+    "base_text_symbol": "PacifidlogTown_Text_TownSign",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownTownSign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2724
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house1.text.registory.2725",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House1/scripts.inc",
+    "symbol": "PacifidlogTown_House1_EventScript_Man",
+    "base_text_path": "data/maps/PacifidlogTown_House1/text.inc",
+    "base_text_symbol": "PacifidlogTown_House1_Text_RegiStory",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseOneRegiStory"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2725
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house1.text.sixdotsopenthreedoors.2726",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House1/scripts.inc",
+    "symbol": "PacifidlogTown_House1_EventScript_Woman",
+    "base_text_path": "data/maps/PacifidlogTown_House1/text.inc",
+    "base_text_symbol": "PacifidlogTown_House1_Text_SixDotsOpenThreeDoors",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseOneSixDotsOpenThreeDoors"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2726
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.ahyourpokemon.2727",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_MonAssessment",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_AhYourPokemon",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoAhYourPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2727
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.chairmansyoungerbrotheronvacation.2728",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_FirstMonAssessment",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoChairmansYoungerBrotherOnVacation"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2728
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.adoringpokemontakethis.2729",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_GiveReturn",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_AdoringPokemonTakeThis",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoAdoringPokemonTakeThis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2729
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.explainreturnfrustration.2730",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_GiveReturn",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_ExplainReturnFrustration",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoExplainReturnFrustration"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2730
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.putinsomemoreeffort.2731",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_PutInEffort",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_PutInSomeMoreEffort",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoPutInSomeMoreEffort"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2731
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.viciouspokemontakethis.2732",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_GiveFrustration",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_ViciousPokemonTakeThis",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoViciousPokemonTakeThis"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2732
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.getgoodtminxdays.2733",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_ComeBackInXDays",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_GetGoodTMInXDays",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoGetGoodTMInXDays"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2733
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.rurii.2734",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_HappyAzurill",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_Rurii",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoRurii"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2734
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.veryfriendlywithtrainer.2735",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_HappyAzurill",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_VeryFriendlyWithTrainer",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoVeryFriendlyWithTrainer"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2735
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.rururi.2736",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_UnhappyAzurill",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_Rururi",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoRururi"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2736
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house2.text.doesntliketrainerverymuch.2737",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House2/scripts.inc",
+    "symbol": "PacifidlogTown_House2_EventScript_UnhappyAzurill",
+    "base_text_path": "data/maps/PacifidlogTown_House2/text.inc",
+    "base_text_symbol": "PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseTwoDoesntLikeTrainerVeryMuch"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2737
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house3.text.willingtotradeit.2738",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House3/scripts.inc",
+    "symbol": "PacifidlogTown_House3_EventScript_Trader",
+    "base_text_path": "data/maps/PacifidlogTown_House3/text.inc",
+    "base_text_symbol": "PacifidlogTown_House3_Text_WillingToTradeIt",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseThreeWillingToTradeIt"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2738
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house3.text.monissofluffy.2739",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House3/scripts.inc",
+    "symbol": "PacifidlogTown_House3_EventScript_Trader",
+    "base_text_path": "data/maps/PacifidlogTown_House3/text.inc",
+    "base_text_symbol": "PacifidlogTown_House3_Text_MonIsSoFluffy",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseThreeMonIsSoFluffy"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2739
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house3.text.imdisappointed.2740",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House3/scripts.inc",
+    "symbol": "PacifidlogTown_House3_EventScript_DeclineTrade",
+    "base_text_path": "data/maps/PacifidlogTown_House3/text.inc",
+    "base_text_symbol": "PacifidlogTown_House3_Text_ImDisappointed",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseThreeImDisappointed"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2740
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house3.text.thatsnomon.2741",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House3/scripts.inc",
+    "symbol": "PacifidlogTown_House3_EventScript_NotRequestedMon",
+    "base_text_path": "data/maps/PacifidlogTown_House3/text.inc",
+    "base_text_symbol": "PacifidlogTown_House3_Text_ThatsNoMon",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseThreeThatsNoMon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2741
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house3.text.nowwerefriends.2742",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House3/scripts.inc",
+    "symbol": "PacifidlogTown_House3_EventScript_TradeCompleted",
+    "base_text_path": "data/maps/PacifidlogTown_House3/text.inc",
+    "base_text_symbol": "PacifidlogTown_House3_Text_NowWereFriends",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseThreeNowWereFriends"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2742
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house3.text.isthatapokedex.2743",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House3/scripts.inc",
+    "symbol": "PacifidlogTown_House3_EventScript_Girl",
+    "base_text_path": "data/maps/PacifidlogTown_House3/text.inc",
+    "base_text_symbol": "PacifidlogTown_House3_Text_IsThatAPokedex",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseThreeIsThatAPokedex"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2743
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house4.text.skypokemon.2744",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House4/scripts.inc",
+    "symbol": "PacifidlogTown_House4_EventScript_LittleGirl",
+    "base_text_path": "data/maps/PacifidlogTown_House4/text.inc",
+    "base_text_symbol": "PacifidlogTown_House4_Text_SkyPokemon",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFourSkyPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2744
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house4.text.peoplesawhighflyingpokemon.2745",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House4/scripts.inc",
+    "symbol": "PacifidlogTown_House4_EventScript_Woman",
+    "base_text_path": "data/maps/PacifidlogTown_House4/text.inc",
+    "base_text_symbol": "PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFourPeopleSawHighFlyingPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2745
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house4.text.wheredidyoucomefrom.2746",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House4/scripts.inc",
+    "symbol": "PacifidlogTown_House4_EventScript_Boy",
+    "base_text_path": "data/maps/PacifidlogTown_House4/text.inc",
+    "base_text_symbol": "PacifidlogTown_House4_Text_WhereDidYouComeFrom",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFourWhereDidYouComeFrom"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2746
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house4.text.yestown.2747",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House4/scripts.inc",
+    "symbol": "PacifidlogTown_House4_EventScript_Yes",
+    "base_text_path": "data/maps/PacifidlogTown_House4/text.inc",
+    "base_text_symbol": "PacifidlogTown_House4_Text_YesTown",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFourYesTown"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2747
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house4.text.youhavetocomefromsomewhere.2748",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House4/scripts.inc",
+    "symbol": "PacifidlogTown_House4_EventScript_No",
+    "base_text_path": "data/maps/PacifidlogTown_House4/text.inc",
+    "base_text_symbol": "PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFourYouHaveToComeFromSomewhere"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2748
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house5.text.cantseemirageislandtoday.2749",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House5/scripts.inc",
+    "symbol": "PacifidlogTown_House5_EventScript_MirageIslandWatcher",
+    "base_text_path": "data/maps/PacifidlogTown_House5/text.inc",
+    "base_text_symbol": "PacifidlogTown_House5_Text_CantSeeMirageIslandToday",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFiveCantSeeMirageIslandToday"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2749
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house5.text.canseemirageislandtoday.2750",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House5/scripts.inc",
+    "symbol": "PacifidlogTown_House5_EventScript_MirageIslandPresent",
+    "base_text_path": "data/maps/PacifidlogTown_House5/text.inc",
+    "base_text_symbol": "PacifidlogTown_House5_Text_CanSeeMirageIslandToday",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFiveCanSeeMirageIslandToday"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2750
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.town.pacifidlogtown.house5.text.mirageislandappeardependingonweather.2751",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_House5/scripts.inc",
+    "symbol": "PacifidlogTown_House5_EventScript_Gentleman",
+    "base_text_path": "data/maps/PacifidlogTown_House5/text.inc",
+    "base_text_symbol": "PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownHouseFiveMirageIslandAppearDependingOnWeather"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2751
+  },
+  "tags": [
+    "pacifidlog",
+    "town"
+  ]
+},
+{
+  "id": "pacifidlog.center.pacifidlogtown.pokemoncenter.1f.text.whatcolortrainercard.2752",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.inc",
+    "symbol": "PacifidlogTown_PokemonCenter_1F_EventScript_Girl",
+    "base_text_path": "data/maps/PacifidlogTown_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownPokemonCenterOneFWhatColorTrainerCard"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2752
+  },
+  "tags": [
+    "pacifidlog",
+    "center"
+  ]
+},
+{
+  "id": "pacifidlog.center.pacifidlogtown.pokemoncenter.1f.text.oncolonyofcorsola.2753",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.inc",
+    "symbol": "PacifidlogTown_PokemonCenter_1F_EventScript_Woman",
+    "base_text_path": "data/maps/PacifidlogTown_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownPokemonCenterOneFOnColonyOfCorsola"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2753
+  },
+  "tags": [
+    "pacifidlog",
+    "center"
+  ]
+},
+{
+  "id": "pacifidlog.center.pacifidlogtown.pokemoncenter.1f.text.ancestorslivedonboats.2754",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/PacifidlogTown_PokemonCenter_1F/scripts.inc",
+    "symbol": "PacifidlogTown_PokemonCenter_1F_EventScript_OldMan",
+    "base_text_path": "data/maps/PacifidlogTown_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "PacifidlogTownPokemonCenterOneFAncestorsLivedOnBoats"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2754
+  },
+  "tags": [
+    "pacifidlog",
+    "center"
+  ]
+},
+{
+  "id": "pacifidlog.sealed.sealedchamber.innerroom.text.1a138b.2755",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SealedChamber_InnerRoom/scripts.inc",
+    "symbol": "SealedChamber_InnerRoom_EventScript_15F1E8",
+    "base_text_path": "data/event_scripts.s",
+    "base_text_symbol": "SealedChamber_InnerRoom_Text_1A138B",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "SealedChamberInnerRoomOneAOneThreeEightB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2755
+  },
+  "tags": [
+    "pacifidlog",
+    "sealed"
+  ]
+},
+{
+  "id": "pacifidlog.sealed.sealedchamber.outerroom.text.1a13be.2756",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/SealedChamber_OuterRoom/scripts.inc",
+    "symbol": "SealedChamber_OuterRoom_EventScript_15F1CF",
+    "base_text_path": "data/event_scripts.s",
+    "base_text_symbol": "SealedChamber_OuterRoom_Text_1A13BE",
+    "note": "Adaptive translation preserves currents, Dive access, trainer battles, rematches, trades, gifts, Mirage Island checks, Sealed Chamber puzzles, items, choices, and story flags.",
+    "authored_id": "SealedChamberOuterRoomOneAOneThreeBE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2756
+  },
+  "tags": [
+    "pacifidlog",
+    "sealed"
+  ]
 }
   ]
 }

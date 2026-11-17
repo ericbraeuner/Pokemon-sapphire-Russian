@@ -118622,6 +118622,5226 @@
       "KYOGRE scheint wieder eingeschlafen zu sein..."
     ]
   }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoOneSixOne",
+  "base_symbol": "Route129_Text_1C2161",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это мой первый триатлон."
+    ],
+    "A2": [
+      "Это мой первый триатлон. Я весь напряжён и нервничаю!"
+    ],
+    "natural": [
+      "Это мой первый триатлон. Я весь напряжён и нервничаю!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist mein erster Triathlon."
+    ],
+    "A2": [
+      "Das ist mein erster Triathlon. Ich bin angespannt und nervös!"
+    ],
+    "natural": [
+      "Das ist mein erster Triathlon. Ich bin angespannt und nervös!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoOneNineEight",
+  "base_symbol": "Route129_Text_1C2198",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ро-о-о-ар!"
+    ],
+    "A2": [
+      "Ро-о-о-ар! Я не смог победить!"
+    ],
+    "natural": [
+      "Ро-о-о-ар! Я не смог победить!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wroooaaar!"
+    ],
+    "A2": [
+      "Wroooaaar! Ich konnte nicht gewinnen!"
+    ],
+    "natural": [
+      "Wroooaaar! Ich konnte nicht gewinnen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoOneBFour",
+  "base_symbol": "Route129_Text_1C21B4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если я буду так напряжён, то не смогу выложиться полностью."
+    ],
+    "A2": [
+      "Если я буду так напряжён, то не смогу выложиться полностью."
+    ],
+    "natural": [
+      "Если я буду так напряжён, то не смогу выложиться полностью."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn ich so angespannt bin, kann ich nicht mein Bestes geben."
+    ],
+    "A2": [
+      "Wenn ich so angespannt bin, kann ich nicht mein Bestes geben."
+    ],
+    "natural": [
+      "Wenn ich so angespannt bin, kann ich nicht mein Bestes geben."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoOneED",
+  "base_symbol": "Route129_Text_1C21ED",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я участвую в триатлоне, но почему бы нам не сразиться?"
+    ],
+    "A2": [
+      "Я участвую в триатлоне, но почему бы нам не сразиться?"
+    ],
+    "natural": [
+      "Я участвую в триатлоне, но почему бы нам не сразиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin mitten im Triathlon, aber warum kämpfen wir nicht?"
+    ],
+    "A2": [
+      "Ich bin mitten im Triathlon, aber warum kämpfen wir nicht?"
+    ],
+    "natural": [
+      "Ich bin mitten im Triathlon, aber warum kämpfen wir nicht?"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoTwoTwoF",
+  "base_symbol": "Route129_Text_1C222F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я был уверен, что побежу!"
+    ],
+    "A2": [
+      "Я был уверен, что побежу!"
+    ],
+    "natural": [
+      "Я был уверен, что побежу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich war sicher, dass ich gewinne!"
+    ],
+    "A2": [
+      "Ich war sicher, dass ich gewinne!"
+    ],
+    "natural": [
+      "Ich war sicher, dass ich gewinne!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoTwoFourThree",
+  "base_symbol": "Route129_Text_1C2243",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Знаешь, что лучше всего в триатлоне?"
+    ],
+    "A2": [
+      "Знаешь, что лучше всего в триатлоне? Испытать пределы силы и выносливости в борьбе с природой!"
+    ],
+    "natural": [
+      "Знаешь, что лучше всего в триатлоне? Испытать пределы силы и выносливости в борьбе с природой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was ist das Beste am Triathlon?"
+    ],
+    "A2": [
+      "Was ist das Beste am Triathlon? Kraft und Ausdauer gegen Mutter Natur bis ans Limit zu testen!"
+    ],
+    "natural": [
+      "Was ist das Beste am Triathlon? Kraft und Ausdauer gegen Mutter Natur bis ans Limit zu testen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoTwoCEight",
+  "base_symbol": "Route129_Text_1C22C8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эй, эй!"
+    ],
+    "A2": [
+      "Эй, эй! Давай уже начнём!"
+    ],
+    "natural": [
+      "Эй, эй! Давай уже начнём!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "He, he!"
+    ],
+    "A2": [
+      "He, he! Fangen wir endlich an!"
+    ],
+    "natural": [
+      "He, he! Fangen wir endlich an!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoTwoEC",
+  "base_symbol": "Route129_Text_1C22EC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Разбит, я разбит."
+    ],
+    "A2": [
+      "Разбит, я разбит. Всё, конец!"
+    ],
+    "natural": [
+      "Разбит, я разбит. Всё, конец!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Besiegt, ich bin besiegt."
+    ],
+    "A2": [
+      "Besiegt, ich bin besiegt. Das war es!"
+    ],
+    "natural": [
+      "Besiegt, ich bin besiegt. Das war es!"
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoThreeZeroF",
+  "base_symbol": "Route129_Text_1C230F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Проигравшему ничего не достаётся."
+    ],
+    "A2": [
+      "Проигравшему ничего не достаётся. Пора мне убираться домой."
+    ],
+    "natural": [
+      "Проигравшему ничего не достаётся. Пора мне убираться домой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Für einen Verlierer gibt es nichts."
+    ],
+    "A2": [
+      "Für einen Verlierer gibt es nichts. Zeit, nach Hause zu verschwinden."
+    ],
+    "natural": [
+      "Für einen Verlierer gibt es nichts. Zeit, nach Hause zu verschwinden."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoThreeFourNine",
+  "base_symbol": "Route129_Text_1C2349",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Куда спешить?"
+    ],
+    "A2": [
+      "Куда спешить? Давай не торопиться."
+    ],
+    "natural": [
+      "Куда спешить? Давай не торопиться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Warum die Eile?"
+    ],
+    "A2": [
+      "Warum die Eile? Gehen wir es langsam und ruhig an."
+    ],
+    "natural": [
+      "Warum die Eile? Gehen wir es langsam und ruhig an."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoThreeSevenEight",
+  "base_symbol": "Route129_Text_1C2378",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох."
+    ],
+    "A2": [
+      "Ох. Я хотел ещё немного отдохнуть..."
+    ],
+    "natural": [
+      "Ох. Я хотел ещё немного отдохнуть..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh je."
+    ],
+    "A2": [
+      "Oh je. Ich wollte mich noch etwas entspannen..."
+    ],
+    "natural": [
+      "Oh je. Ich wollte mich noch etwas entspannen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneTwoNineOneCTwoThreeAThree",
+  "base_symbol": "Route129_Text_1C23A3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Разве не ужасно ошибаться из-за спешки?"
+    ],
+    "A2": [
+      "Разве не ужасно ошибаться из-за спешки? Поэтому я стараюсь делать всё медленно."
+    ],
+    "natural": [
+      "Разве не ужасно ошибаться из-за спешки? Поэтому я стараюсь делать всё медленно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hasst du Fehler aus Eile nicht auch?"
+    ],
+    "A2": [
+      "Hasst du Fehler aus Eile nicht auch? Darum lasse ich mir Zeit."
+    ],
+    "natural": [
+      "Hasst du Fehler aus Eile nicht auch? Darum lasse ich mir Zeit."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeZeroOneCTwoFourZeroOne",
+  "base_symbol": "Route130_Text_1C2401",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какой сюрприз!"
+    ],
+    "A2": [
+      "Какой сюрприз! Не ожидал встретить тренера в море."
+    ],
+    "natural": [
+      "Какой сюрприз! Не ожидал встретить тренера в море. Думаю, нам стоит сразиться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was für eine Überraschung!"
+    ],
+    "A2": [
+      "Was für eine Überraschung! Einen Trainer im Meer erwartete ich nicht."
+    ],
+    "natural": [
+      "Was für eine Überraschung! Einen Trainer im Meer erwartete ich nicht. Kämpfen wir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeZeroOneCTwoFourFiveD",
+  "base_symbol": "Route130_Text_1C245D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Этот малыш ужасно силён..."
+    ],
+    "A2": [
+      "Этот малыш ужасно силён..."
+    ],
+    "natural": [
+      "Этот малыш ужасно силён..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieses Kind ist unglaublich stark..."
+    ],
+    "A2": [
+      "Dieses Kind ist unglaublich stark..."
+    ],
+    "natural": [
+      "Dieses Kind ist unglaublich stark..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeZeroOneCTwoFourSevenNine",
+  "base_symbol": "Route130_Text_1C2479",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя взгляд того, кто прошёл суровые испытания и победил."
+    ],
+    "A2": [
+      "У тебя взгляд того, кто прошёл суровые испытания и победил. Тебе идёт!"
+    ],
+    "natural": [
+      "У тебя взгляд того, кто прошёл суровые испытания и победил. Тебе идёт!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du blickst wie jemand, der harte Prüfungen bestand und siegte."
+    ],
+    "A2": [
+      "Du blickst wie jemand, der harte Prüfungen bestand und siegte. Das steht dir!"
+    ],
+    "natural": [
+      "Du blickst wie jemand, der harte Prüfungen bestand und siegte. Das steht dir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeZeroOneCTwoFourDC",
+  "base_symbol": "Route130_Text_1C24DC",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В глубоком синем море моё разбитое сердце находит утешение среди волн."
+    ],
+    "A2": [
+      "В глубоком синем море моё разбитое сердце находит утешение среди волн."
+    ],
+    "natural": [
+      "В глубоком синем море моё разбитое сердце находит утешение среди волн."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im tiefblauen Meer findet mein gebrochenes blaues Herz Trost zwischen den Wellen."
+    ],
+    "A2": [
+      "Im tiefblauen Meer findet mein gebrochenes blaues Herz Trost zwischen den Wellen."
+    ],
+    "natural": [
+      "Im tiefblauen Meer findet mein gebrochenes blaues Herz Trost zwischen den Wellen."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeZeroOneCTwoFiveTwoFive",
+  "base_symbol": "Route130_Text_1C2525",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Как бескрайнее синее море, мир покемонов простирается на невероятную глубину."
+    ],
+    "A2": [
+      "Как бескрайнее синее море, мир покемонов простирается на невероятную глубину."
+    ],
+    "natural": [
+      "Как бескрайнее синее море, мир покемонов простирается на невероятную глубину."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie das weite blaue Meer reicht die Welt der Pokémon in unglaubliche Tiefen."
+    ],
+    "A2": [
+      "Wie das weite blaue Meer reicht die Welt der Pokémon in unglaubliche Tiefen."
+    ],
+    "natural": [
+      "Wie das weite blaue Meer reicht die Welt der Pokémon in unglaubliche Tiefen."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeZeroOneCTwoFiveSixE",
+  "base_symbol": "Route130_Text_1C256E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дети всего мира мечтают однажды стать чемпионами покемонов."
+    ],
+    "A2": [
+      "Дети всего мира мечтают однажды стать чемпионами покемонов."
+    ],
+    "natural": [
+      "Дети всего мира мечтают однажды стать чемпионами покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kinder auf der ganzen Welt träumen davon, Pokémon-Champ zu werden."
+    ],
+    "A2": [
+      "Kinder auf der ganzen Welt träumen davon, Pokémon-Champ zu werden."
+    ],
+    "natural": [
+      "Kinder auf der ganzen Welt träumen davon, Pokémon-Champ zu werden."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoFiveBThree",
+  "base_symbol": "Route131_Text_1C25B3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Море кишит покемонами."
+    ],
+    "A2": [
+      "Море кишит покемонами. Плавать тут нелегко, скажу я тебе."
+    ],
+    "natural": [
+      "Море кишит покемонами. Плавать тут нелегко, скажу я тебе."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das Meer wimmelt von Pokémon."
+    ],
+    "A2": [
+      "Das Meer wimmelt von Pokémon. Hier zu schwimmen ist nicht leicht."
+    ],
+    "natural": [
+      "Das Meer wimmelt von Pokémon. Hier zu schwimmen ist nicht leicht."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoFiveFEight",
+  "base_symbol": "Route131_Text_1C25F8",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Покемоны, выращенные тренерами, и правда очень сильны..."
+    ],
+    "A2": [
+      "Покемоны, выращенные тренерами, и правда очень сильны..."
+    ],
+    "natural": [
+      "Покемоны, выращенные тренерами, и правда очень сильны..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Von Trainern aufgezogene Pokémon sind wirklich stark..."
+    ],
+    "A2": [
+      "Von Trainern aufgezogene Pokémon sind wirklich stark..."
+    ],
+    "natural": [
+      "Von Trainern aufgezogene Pokémon sind wirklich stark..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSixTwoA",
+  "base_symbol": "Route131_Text_1C262A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ха..."
+    ],
+    "A2": [
+      "Ха... Ха..."
+    ],
+    "natural": [
+      "Ха... Ха... Я без сил... Путь туда лёгок, а обратно труден. Хватит ли мне сил вернуться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Keuch..."
+    ],
+    "A2": [
+      "Keuch... Ich bin erledigt..."
+    ],
+    "natural": [
+      "Keuch... Ich bin erledigt... Der Hinweg ist leicht, der Rückweg schwer. Reicht meine Kraft?"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSixBNine",
+  "base_symbol": "Route131_Text_1C26B9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Море..."
+    ],
+    "A2": [
+      "Море... Море..."
+    ],
+    "natural": [
+      "Море... Море... Море... Куда ни глянь, одно море! Мне до смерти надоело море!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das Meer..."
+    ],
+    "A2": [
+      "Das Meer... Das Meer..."
+    ],
+    "natural": [
+      "Das Meer... Das Meer... Überall nur Meer! Ich habe das Meer gründlich satt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSevenOneF",
+  "base_symbol": "Route131_Text_1C271F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Бе-е!"
+    ],
+    "A2": [
+      "Бе-е!"
+    ],
+    "natural": [
+      "Бе-е!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Bäh!"
+    ],
+    "A2": [
+      "Bäh!"
+    ],
+    "natural": [
+      "Bäh!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSevenTwoSix",
+  "base_symbol": "Route131_Text_1C2726",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Море мне наскучило, но я должен плыть."
+    ],
+    "A2": [
+      "Море мне наскучило, но я должен плыть. Я прирождённый пловец!"
+    ],
+    "natural": [
+      "Море мне наскучило, но я должен плыть. Я прирождённый пловец! Вот кто я."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das Meer langweilt mich, doch ich muss schwimmen."
+    ],
+    "A2": [
+      "Das Meer langweilt mich, doch ich muss schwimmen. Ich bin ein geborener Schwimmer!"
+    ],
+    "natural": [
+      "Das Meer langweilt mich, doch ich muss schwimmen. Ich bin ein geborener Schwimmer!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSevenSevenFour",
+  "base_symbol": "Route131_Text_1C2774",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, милый, подожди!"
+    ],
+    "A2": [
+      "Привет, милый, подожди! Нам с тобой стоит сразиться!"
+    ],
+    "natural": [
+      "Привет, милый, подожди! Нам с тобой стоит сразиться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, Süßer, warte!"
+    ],
+    "A2": [
+      "Hallo, Süßer, warte! Du und ich sollten kämpfen!"
+    ],
+    "natural": [
+      "Hallo, Süßer, warte! Du und ich sollten kämpfen!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSevenAFour",
+  "base_symbol": "Route131_Text_1C27A4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты силён, несмотря на свой вид!"
+    ],
+    "A2": [
+      "Ты силён, несмотря на свой вид!"
+    ],
+    "natural": [
+      "Ты силён, несмотря на свой вид!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist trotz deines Aussehens stark!"
+    ],
+    "A2": [
+      "Du bist trotz deines Aussehens stark!"
+    ],
+    "natural": [
+      "Du bist trotz deines Aussehens stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoSevenCF",
+  "base_symbol": "Route131_Text_1C27CF",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Видел парня, который ноет, что море ему надоело?"
+    ],
+    "A2": [
+      "Видел парня, который ноет, что море ему надоело? Это лишь слова."
+    ],
+    "natural": [
+      "Видел парня, который ноет, что море ему надоело? Это лишь слова. Он безнадёжно влюблён в море!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sahst du den Mann, der über das Meer jammert?"
+    ],
+    "A2": [
+      "Sahst du den Mann, der über das Meer jammert? Nur Gerede."
+    ],
+    "natural": [
+      "Sahst du den Mann, der über das Meer jammert? Nur Gerede. Er ist hoffnungslos ins Meer verliebt!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoEightFourA",
+  "base_symbol": "Route131_Text_1C284A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Почему мужчины так любят купальники?"
+    ],
+    "A2": [
+      "Почему мужчины так любят купальники? Они все на меня пялятся!"
+    ],
+    "natural": [
+      "Почему мужчины так любят купальники? Они все на меня пялятся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Warum mögen Männer Badeanzüge so sehr?"
+    ],
+    "A2": [
+      "Warum mögen Männer Badeanzüge so sehr? Alle starren mich an!"
+    ],
+    "natural": [
+      "Warum mögen Männer Badeanzüge so sehr? Alle starren mich an!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoEightEightThree",
+  "base_symbol": "Route131_Text_1C2883",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это слишком глубоко для меня!"
+    ],
+    "A2": [
+      "Это слишком глубоко для меня!"
+    ],
+    "natural": [
+      "Это слишком глубоко для меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist eine Nummer zu groß für mich!"
+    ],
+    "A2": [
+      "Das ist eine Nummer zu groß für mich!"
+    ],
+    "natural": [
+      "Das ist eine Nummer zu groß für mich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoEightNineEight",
+  "base_symbol": "Route131_Text_1C2898",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Может, мужчины смотрят не из-за купальника."
+    ],
+    "A2": [
+      "Может, мужчины смотрят не из-за купальника. Наверное, дело в моей красоте!"
+    ],
+    "natural": [
+      "Может, мужчины смотрят не из-за купальника. Наверное, дело в моей красоте!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vielleicht schauen Männer nicht wegen des Badeanzugs."
+    ],
+    "A2": [
+      "Vielleicht schauen Männer nicht wegen des Badeanzugs. Es muss meine Schönheit sein!"
+    ],
+    "natural": [
+      "Vielleicht schauen Männer nicht wegen des Badeanzugs. Es muss meine Schönheit sein!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoEightETwo",
+  "base_symbol": "Route131_Text_1C28E2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РЕЛИ: Мы, брат и сестра, вместе бросим тебе вызов!"
+    ],
+    "A2": [
+      "РЕЛИ: Мы, брат и сестра, вместе бросим тебе вызов!"
+    ],
+    "natural": [
+      "РЕЛИ: Мы, брат и сестра, вместе бросим тебе вызов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RELI: Wir Geschwister fordern dich gemeinsam heraus!"
+    ],
+    "A2": [
+      "RELI: Wir Geschwister fordern dich gemeinsam heraus!"
+    ],
+    "natural": [
+      "RELI: Wir Geschwister fordern dich gemeinsam heraus!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoNineOneEight",
+  "base_symbol": "Route131_Text_1C2918",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РЕЛИ: Мы не смогли победить, даже действуя вместе..."
+    ],
+    "A2": [
+      "РЕЛИ: Мы не смогли победить, даже действуя вместе..."
+    ],
+    "natural": [
+      "РЕЛИ: Мы не смогли победить, даже действуя вместе..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RELI: Selbst gemeinsam konnten wir nicht gewinnen..."
+    ],
+    "A2": [
+      "RELI: Selbst gemeinsam konnten wir nicht gewinnen..."
+    ],
+    "natural": [
+      "RELI: Selbst gemeinsam konnten wir nicht gewinnen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoNineBTwo",
+  "base_symbol": "Route131_Text_1C29B2",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РЕЛИ: У тебя нет двух покемонов?"
+    ],
+    "A2": [
+      "РЕЛИ: У тебя нет двух покемонов? Тогда мы не сможем насладиться боем."
+    ],
+    "natural": [
+      "РЕЛИ: У тебя нет двух покемонов? Тогда мы не сможем насладиться боем."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RELI: Du hast keine zwei Pokémon?"
+    ],
+    "A2": [
+      "RELI: Du hast keine zwei Pokémon? Dann können wir den Kampf nicht genießen."
+    ],
+    "natural": [
+      "RELI: Du hast keine zwei Pokémon? Dann können wir den Kampf nicht genießen."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoNineFiveZero",
+  "base_symbol": "Route131_Text_1C2950",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "РЕЛИ: Жители Пасифидлога с рождения живут вместе с морем и покемонами."
+    ],
+    "A2": [
+      "РЕЛИ: Жители Пасифидлога с рождения живут вместе с морем и покемонами."
+    ],
+    "natural": [
+      "РЕЛИ: Жители Пасифидлога с рождения живут вместе с морем и покемонами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "RELI: Die Menschen von Flossbrunn leben von Geburt an mit Meer und Pokémon."
+    ],
+    "A2": [
+      "RELI: Die Menschen von Flossbrunn leben von Geburt an mit Meer und Pokémon."
+    ],
+    "natural": [
+      "RELI: Die Menschen von Flossbrunn leben von Geburt an mit Meer und Pokémon."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoNineFThree",
+  "base_symbol": "Route131_Text_1C29F3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ИЭН: Я стараюсь изо всех сил вместе с сестрой!"
+    ],
+    "A2": [
+      "ИЭН: Я стараюсь изо всех сил вместе с сестрой!"
+    ],
+    "natural": [
+      "ИЭН: Я стараюсь изо всех сил вместе с сестрой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IAN: Ich gebe zusammen mit meiner Schwester mein Bestes!"
+    ],
+    "A2": [
+      "IAN: Ich gebe zusammen mit meiner Schwester mein Bestes!"
+    ],
+    "natural": [
+      "IAN: Ich gebe zusammen mit meiner Schwester mein Bestes!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoATwoZero",
+  "base_symbol": "Route131_Text_1C2A20",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ИЭН: Мы с сестрой старались, но всё равно не смогли победить..."
+    ],
+    "A2": [
+      "ИЭН: Мы с сестрой старались, но всё равно не смогли победить..."
+    ],
+    "natural": [
+      "ИЭН: Мы с сестрой старались, но всё равно не смогли победить..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IAN: Meine Schwester und ich gaben alles, konnten aber nicht gewinnen..."
+    ],
+    "A2": [
+      "IAN: Meine Schwester und ich gaben alles, konnten aber nicht gewinnen..."
+    ],
+    "natural": [
+      "IAN: Meine Schwester und ich gaben alles, konnten aber nicht gewinnen..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoACA",
+  "base_symbol": "Route131_Text_1C2ACA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ИЭН: Если у тебя два покемона, мы сразимся!"
+    ],
+    "A2": [
+      "ИЭН: Если у тебя два покемона, мы сразимся!"
+    ],
+    "natural": [
+      "ИЭН: Если у тебя два покемона, мы сразимся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IAN: Wenn du zwei Pokémon hast, treten wir gegen dich an!"
+    ],
+    "A2": [
+      "IAN: Wenn du zwei Pokémon hast, treten wir gegen dich an!"
+    ],
+    "natural": [
+      "IAN: Wenn du zwei Pokémon hast, treten wir gegen dich an!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeOneOneCTwoAFiveD",
+  "base_symbol": "Route131_Text_1C2A5D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ИЭН: Знаешь, Пасифидлог - плавучий город."
+    ],
+    "A2": [
+      "ИЭН: Знаешь, Пасифидлог - плавучий город. Значит, где есть море, там часть Пасифидлога!"
+    ],
+    "natural": [
+      "ИЭН: Знаешь, Пасифидлог - плавучий город. Значит, где есть море, там часть Пасифидлога!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "IAN: Flossbrunn ist eine schwimmende Stadt."
+    ],
+    "A2": [
+      "IAN: Flossbrunn ist eine schwimmende Stadt. Wo Meer ist, ist also ein Teil von Flossbrunn!"
+    ],
+    "natural": [
+      "IAN: Flossbrunn ist eine schwimmende Stadt. Wo Meer ist, ist also ein Teil von Flossbrunn!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoAFB",
+  "base_symbol": "Route132_Text_1C2AFB",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В детстве я постоянно простужался, но стал совершенно здоровым, когда начал плавать."
+    ],
+    "A2": [
+      "В детстве я постоянно простужался, но стал совершенно здоровым, когда начал плавать."
+    ],
+    "natural": [
+      "В детстве я постоянно простужался, но стал совершенно здоровым, когда начал плавать."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Als Kind war ich ständig erkältet."
+    ],
+    "A2": [
+      "Als Kind war ich ständig erkältet. Seit ich schwimme, bin ich völlig fit."
+    ],
+    "natural": [
+      "Als Kind war ich ständig erkältet. Seit ich schwimme, bin ich völlig fit."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoBFiveB",
+  "base_symbol": "Route132_Text_1C2B5B",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я жажду большей силы..."
+    ],
+    "A2": [
+      "Я жажду большей силы..."
+    ],
+    "natural": [
+      "Я жажду большей силы..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mich dürstet nach mehr Kraft..."
+    ],
+    "A2": [
+      "Mich dürstet nach mehr Kraft..."
+    ],
+    "natural": [
+      "Mich dürstet nach mehr Kraft..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoBSevenOne",
+  "base_symbol": "Route132_Text_1C2B71",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тренеры путешествуют по полям и горам, поэтому им тоже нужна хорошая форма."
+    ],
+    "A2": [
+      "Тренеры путешествуют по полям и горам, поэтому им тоже нужна хорошая форма."
+    ],
+    "natural": [
+      "Тренеры путешествуют по полям и горам, поэтому им тоже нужна хорошая форма."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Trainer reisen durch Felder und Berge, deshalb müssen auch sie fit sein."
+    ],
+    "A2": [
+      "Trainer reisen durch Felder und Berge, deshalb müssen auch sie fit sein."
+    ],
+    "natural": [
+      "Trainer reisen durch Felder und Berge, deshalb müssen auch sie fit sein."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoBBFive",
+  "base_symbol": "Route132_Text_1C2BB5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я стараюсь не плавать там, где течение слишком сильное."
+    ],
+    "A2": [
+      "Я стараюсь не плавать там, где течение слишком сильное."
+    ],
+    "natural": [
+      "Я стараюсь не плавать там, где течение слишком сильное."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich schwimme möglichst nicht dort, wo die Strömung zu stark ist."
+    ],
+    "A2": [
+      "Ich schwimme möglichst nicht dort, wo die Strömung zu stark ist."
+    ],
+    "natural": [
+      "Ich schwimme möglichst nicht dort, wo die Strömung zu stark ist."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoBEA",
+  "base_symbol": "Route132_Text_1C2BEA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ох, пожалуйста, нет!"
+    ],
+    "A2": [
+      "Ох, пожалуйста, нет!"
+    ],
+    "natural": [
+      "Ох, пожалуйста, нет!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh, bitte nicht!"
+    ],
+    "A2": [
+      "Oh, bitte nicht!"
+    ],
+    "natural": [
+      "Oh, bitte nicht!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoBFA",
+  "base_symbol": "Route132_Text_1C2BFA",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если меня унесёт, я совсем потеряю ориентир..."
+    ],
+    "A2": [
+      "Если меня унесёт, я совсем потеряю ориентир..."
+    ],
+    "natural": [
+      "Если меня унесёт, я совсем потеряю ориентир..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wenn ich fortgerissen werde, verliere ich jede Orientierung..."
+    ],
+    "A2": [
+      "Wenn ich fortgerissen werde, verliere ich jede Orientierung..."
+    ],
+    "natural": [
+      "Wenn ich fortgerissen werde, verliere ich jede Orientierung..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoCThreeTwo",
+  "base_symbol": "Route132_Text_1C2C32",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Победишь или проиграешь - не узнаешь, пока не попробуешь!"
+    ],
+    "A2": [
+      "Победишь или проиграешь - не узнаешь, пока не попробуешь!"
+    ],
+    "natural": [
+      "Победишь или проиграешь - не узнаешь, пока не попробуешь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ob Sieg oder Niederlage, weißt du erst, wenn du es versuchst!"
+    ],
+    "A2": [
+      "Ob Sieg oder Niederlage, weißt du erst, wenn du es versuchst!"
+    ],
+    "natural": [
+      "Ob Sieg oder Niederlage, weißt du erst, wenn du es versuchst!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoCSixZero",
+  "base_symbol": "Route132_Text_1C2C60",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "А-а!"
+    ],
+    "A2": [
+      "А-а! Я утонул в поражении!"
+    ],
+    "natural": [
+      "А-а! Я утонул в поражении!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Waaah!"
+    ],
+    "A2": [
+      "Waaah! Ich versank in Niederlage!"
+    ],
+    "natural": [
+      "Waaah! Ich versank in Niederlage!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoCSevenEight",
+  "base_symbol": "Route132_Text_1C2C78",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не сражаюсь, если точно знаю, что побежу."
+    ],
+    "A2": [
+      "Я не сражаюсь, если точно знаю, что побежу. Люблю бои на грани победы и поражения!"
+    ],
+    "natural": [
+      "Я не сражаюсь, если точно знаю, что побежу. Люблю бои на грани победы и поражения!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kämpfe nie bei sicherem Sieg."
+    ],
+    "A2": [
+      "Ich kämpfe nie bei sicherem Sieg. Ich mag Kämpfe auf Messers Schneide!"
+    ],
+    "natural": [
+      "Ich kämpfe nie bei sicherem Sieg. Ich mag Kämpfe auf Messers Schneide!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoCDNine",
+  "base_symbol": "Route132_Text_1C2CD9",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я думаю о покемонах круглые сутки."
+    ],
+    "A2": [
+      "Я думаю о покемонах круглые сутки. Как ты вообще можешь меня победить?"
+    ],
+    "natural": [
+      "Я думаю о покемонах круглые сутки. Как ты вообще можешь меня победить?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich denke rund um die Uhr an Pokémon."
+    ],
+    "A2": [
+      "Ich denke rund um die Uhr an Pokémon. Wie könntest du mich schlagen?"
+    ],
+    "natural": [
+      "Ich denke rund um die Uhr an Pokémon. Wie könntest du mich schlagen?"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoDOneF",
+  "base_symbol": "Route132_Text_1C2D1F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл."
+    ],
+    "A2": [
+      "Я проиграл. Признаю поражение."
+    ],
+    "natural": [
+      "Я проиграл. Признаю поражение."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich verliere."
+    ],
+    "A2": [
+      "Ich verliere. Ich gestehe meine Niederlage ein."
+    ],
+    "natural": [
+      "Ich verliere. Ich gestehe meine Niederlage ein."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeTwoOneCTwoDThreeE",
+  "base_symbol": "Route132_Text_1C2D3E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ур-р..."
+    ],
+    "A2": [
+      "Ур-р... Ты фанат покемонов, да?"
+    ],
+    "natural": [
+      "Ур-р... Ты фанат покемонов, да? Наверное, думаешь о них круглые сутки?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Urrgh..."
+    ],
+    "A2": [
+      "Urrgh... Du bist ein Pokémon-Fanatiker, oder?"
+    ],
+    "natural": [
+      "Urrgh... Du bist ein Pokémon-Fanatiker, oder? Denkst du rund um die Uhr an sie?"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoDAFive",
+  "base_symbol": "Route133_Text_1C2DA5",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Течение тоже принесло тебя сюда?"
+    ],
+    "A2": [
+      "Течение тоже принесло тебя сюда? Видимо, такова судьба."
+    ],
+    "natural": [
+      "Течение тоже принесло тебя сюда? Видимо, такова судьба. Давай сразимся!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hat die Strömung dich auch hergebracht?"
+    ],
+    "A2": [
+      "Hat die Strömung dich auch hergebracht? Das muss Schicksal sein."
+    ],
+    "natural": [
+      "Hat die Strömung dich auch hergebracht? Das muss Schicksal sein. Kämpfen wir!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoDFFour",
+  "base_symbol": "Route133_Text_1C2DF4",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Силён!"
+    ],
+    "A2": [
+      "Силён! Даже слишком!"
+    ],
+    "natural": [
+      "Силён! Даже слишком!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Stark!"
+    ],
+    "A2": [
+      "Stark! Viel zu stark!"
+    ],
+    "natural": [
+      "Stark! Viel zu stark!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoEZeroNine",
+  "base_symbol": "Route133_Text_1C2E09",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ну конечно, именно такой сильный тренер, как ты, приплыл сюда..."
+    ],
+    "A2": [
+      "Ну конечно, именно такой сильный тренер, как ты, приплыл сюда... Я проклят..."
+    ],
+    "natural": [
+      "Ну конечно, именно такой сильный тренер, как ты, приплыл сюда... Я проклят..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Typisch, dass ein starker Trainer wie du hierhertreibt..."
+    ],
+    "A2": [
+      "Typisch, dass ein starker Trainer wie du hierhertreibt... Ich muss verflucht sein..."
+    ],
+    "natural": [
+      "Typisch, dass ein starker Trainer wie du hierhertreibt... Ich muss verflucht sein..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoESixOne",
+  "base_symbol": "Route133_Text_1C2E61",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя жизнь полна горя и несчастий..."
+    ],
+    "A2": [
+      "Моя жизнь полна горя и несчастий... Я потерпел крушение, и меня принесло сюда..."
+    ],
+    "natural": [
+      "Моя жизнь полна горя и несчастий... Я потерпел крушение, и меня принесло сюда..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Leben ist voller Leid und Elend..."
+    ],
+    "A2": [
+      "Mein Leben ist voller Leid und Elend... Ich wurde schiffbrüchig und trieb hierher..."
+    ],
+    "natural": [
+      "Mein Leben ist voller Leid und Elend... Ich wurde schiffbrüchig und trieb hierher..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoEBD",
+  "base_symbol": "Route133_Text_1C2EBD",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ещё одно поражение..."
+    ],
+    "A2": [
+      "Ещё одно поражение..."
+    ],
+    "natural": [
+      "Ещё одно поражение..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Noch eine Niederlage..."
+    ],
+    "A2": [
+      "Noch eine Niederlage..."
+    ],
+    "natural": [
+      "Noch eine Niederlage..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoECD",
+  "base_symbol": "Route133_Text_1C2ECD",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Жизнь по воле волн..."
+    ],
+    "A2": [
+      "Жизнь по воле волн... Я больше так не хочу!"
+    ],
+    "natural": [
+      "Жизнь по воле волн... Я больше так не хочу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Leben auf der Strömung..."
+    ],
+    "A2": [
+      "Ein Leben auf der Strömung... Ich will es nicht mehr!"
+    ],
+    "natural": [
+      "Ein Leben auf der Strömung... Ich will es nicht mehr!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoEFSeven",
+  "base_symbol": "Route133_Text_1C2EF7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Добро пожаловать!"
+    ],
+    "A2": [
+      "Добро пожаловать! Я ждал тебя!"
+    ],
+    "natural": [
+      "Добро пожаловать! Я ждал тебя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen!"
+    ],
+    "A2": [
+      "Willkommen! Ich habe dich erwartet!"
+    ],
+    "natural": [
+      "Willkommen! Ich habe dich erwartet!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoFOneNine",
+  "base_symbol": "Route133_Text_1C2F19",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет!"
+    ],
+    "A2": [
+      "Нет! Пожалуйста!"
+    ],
+    "natural": [
+      "Нет! Пожалуйста!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nein!"
+    ],
+    "A2": [
+      "Nein! Bitte!"
+    ],
+    "natural": [
+      "Nein! Bitte!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoFTwoFive",
+  "base_symbol": "Route133_Text_1C2F25",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сильный юный тренер..."
+    ],
+    "A2": [
+      "Сильный юный тренер... Как же раздражает!"
+    ],
+    "natural": [
+      "Сильный юный тренер... Как же раздражает!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein starkes Trainerkind..."
+    ],
+    "A2": [
+      "Ein starkes Trainerkind... Wie ärgerlich!"
+    ],
+    "natural": [
+      "Ein starkes Trainerkind... Wie ärgerlich!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoFFiveThree",
+  "base_symbol": "Route133_Text_1C2F53",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хочу побеждать, как все, но не стану растить покемонов, как все."
+    ],
+    "A2": [
+      "Я хочу побеждать, как все, но не стану растить покемонов, как все."
+    ],
+    "natural": [
+      "Я хочу побеждать, как все, но не стану растить покемонов, как все."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich will wie alle gewinnen, aber meine Pokémon nicht wie alle anderen aufziehen."
+    ],
+    "A2": [
+      "Ich will wie alle gewinnen, aber meine Pokémon nicht wie alle anderen aufziehen."
+    ],
+    "natural": [
+      "Ich will wie alle gewinnen, aber meine Pokémon nicht wie alle anderen aufziehen."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoFAThree",
+  "base_symbol": "Route133_Text_1C2FA3",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Проклятье!"
+    ],
+    "A2": [
+      "Проклятье! Мой подход всё ещё слишком слаб!"
+    ],
+    "natural": [
+      "Проклятье! Мой подход всё ещё слишком слаб!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mist!"
+    ],
+    "A2": [
+      "Mist! Meine Art ist noch immer zu nachlässig!"
+    ],
+    "natural": [
+      "Mist! Meine Art ist noch immer zu nachlässig!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCTwoFCSeven",
+  "base_symbol": "Route133_Text_1C2FC7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Делать всё по-своему куда веселее, чем быть как все."
+    ],
+    "A2": [
+      "Делать всё по-своему куда веселее, чем быть как все. Это же очевидно!"
+    ],
+    "natural": [
+      "Делать всё по-своему куда веселее, чем быть как все. Это же очевидно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dinge auf meine Art zu tun macht viel mehr Spaß, als wie alle anderen zu sein."
+    ],
+    "A2": [
+      "Dinge auf meine Art zu tun macht viel mehr Spaß, als wie alle anderen zu sein. Ganz klar!"
+    ],
+    "natural": [
+      "Dinge auf meine Art zu tun macht viel mehr Spaß, als wie alle anderen zu sein. Ganz klar!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCThreeZeroTwoD",
+  "base_symbol": "Route133_Text_1C302D",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проделал весь этот путь со своими покемонами-птицами."
+    ],
+    "A2": [
+      "Я проделал весь этот путь со своими покемонами-птицами."
+    ],
+    "natural": [
+      "Я проделал весь этот путь со своими покемонами-птицами."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kam mit meinen Vogel-Pokémon den ganzen Weg hierher."
+    ],
+    "A2": [
+      "Ich kam mit meinen Vogel-Pokémon den ganzen Weg hierher."
+    ],
+    "natural": [
+      "Ich kam mit meinen Vogel-Pokémon den ganzen Weg hierher."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCThreeZeroFiveF",
+  "base_symbol": "Route133_Text_1C305F",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты..."
+    ],
+    "A2": [
+      "Ты... Ты потрясающе крут!"
+    ],
+    "natural": [
+      "Ты... Ты потрясающе крут!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du..."
+    ],
+    "A2": [
+      "Du... Du bist beeindruckend cool!"
+    ],
+    "natural": [
+      "Du... Du bist beeindruckend cool!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeThreeOneCThreeZeroSevenE",
+  "base_symbol": "Route133_Text_1C307E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я хотел бы вернуться в Фортри, но и это место мне полюбилось."
+    ],
+    "A2": [
+      "Я хотел бы вернуться в Фортри, но и это место мне полюбилось."
+    ],
+    "natural": [
+      "Я хотел бы вернуться в Фортри, но и это место мне полюбилось."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich möchte nach Baumhausen zurück, doch auch diesen Ort mag ich inzwischen."
+    ],
+    "A2": [
+      "Ich möchte nach Baumhausen zurück, doch auch diesen Ort mag ich inzwischen."
+    ],
+    "natural": [
+      "Ich möchte nach Baumhausen zurück, doch auch diesen Ort mag ich inzwischen."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeZeroCSix",
+  "base_symbol": "Route134_Text_1C30C6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Даже умеющих плавать покемонов уносит стремительным течением."
+    ],
+    "A2": [
+      "Даже умеющих плавать покемонов уносит стремительным течением."
+    ],
+    "natural": [
+      "Даже умеющих плавать покемонов уносит стремительным течением."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Selbst Pokémon, die schwimmen können, werden von der schnellen Strömung mitgerissen."
+    ],
+    "A2": [
+      "Selbst Pokémon, die schwimmen können, werden von der schnellen Strömung mitgerissen."
+    ],
+    "natural": [
+      "Selbst Pokémon, die schwimmen können, werden von der schnellen Strömung mitgerissen."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeOneOneZero",
+  "base_symbol": "Route134_Text_1C3110",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ай-е-е-ей!"
+    ],
+    "A2": [
+      "Ай-е-е-ей!"
+    ],
+    "natural": [
+      "Ай-е-е-ей!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Aiyeeeeh!"
+    ],
+    "A2": [
+      "Aiyeeeeh!"
+    ],
+    "natural": [
+      "Aiyeeeeh!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeOneOneA",
+  "base_symbol": "Route134_Text_1C311A",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Думаю, покемонам нравятся здешние быстрые течения."
+    ],
+    "A2": [
+      "Думаю, покемонам нравятся здешние быстрые течения."
+    ],
+    "natural": [
+      "Думаю, покемонам нравятся здешние быстрые течения."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich glaube, Pokémon mögen die schnellen Strömungen hier."
+    ],
+    "A2": [
+      "Ich glaube, Pokémon mögen die schnellen Strömungen hier."
+    ],
+    "natural": [
+      "Ich glaube, Pokémon mögen die schnellen Strömungen hier."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeOneFiveE",
+  "base_symbol": "Route134_Text_1C315E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мои Лавдиски хотят весёлого боя."
+    ],
+    "A2": [
+      "Мои Лавдиски хотят весёлого боя. Присоединишься к нам?"
+    ],
+    "natural": [
+      "Мои Лавдиски хотят весёлого боя. Присоединишься к нам?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Liebiskus suchen einen spaßigen Kampf."
+    ],
+    "A2": [
+      "Meine Liebiskus suchen einen spaßigen Kampf. Machst du mit?"
+    ],
+    "natural": [
+      "Meine Liebiskus suchen einen spaßigen Kampf. Machst du mit?"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeOneNineEight",
+  "base_symbol": "Route134_Text_1C3198",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ой!"
+    ],
+    "A2": [
+      "Ой!"
+    ],
+    "natural": [
+      "Ой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hoppla!"
+    ],
+    "A2": [
+      "Hoppla!"
+    ],
+    "natural": [
+      "Hoppla!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeOneAZero",
+  "base_symbol": "Route134_Text_1C31A0",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Один коллекционер охотится за чешуёй Лавдисков."
+    ],
+    "A2": [
+      "Один коллекционер охотится за чешуёй Лавдисков."
+    ],
+    "natural": [
+      "Один коллекционер охотится за чешуёй Лавдисков."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Sammler ist hinter den Herzschuppen von Liebiskus her."
+    ],
+    "A2": [
+      "Ein Sammler ist hinter den Herzschuppen von Liebiskus her."
+    ],
+    "natural": [
+      "Ein Sammler ist hinter den Herzschuppen von Liebiskus her."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeOneDSeven",
+  "base_symbol": "Route134_Text_1C31D7",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Так, ребята!"
+    ],
+    "A2": [
+      "Так, ребята! Хватит отдыхать!"
+    ],
+    "natural": [
+      "Так, ребята! Хватит отдыхать! Пора сражаться!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Also gut, Leute!"
+    ],
+    "A2": [
+      "Also gut, Leute! Genug geruht!"
+    ],
+    "natural": [
+      "Also gut, Leute! Genug geruht! Zeit für einen Kampf!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeTwoOneThree",
+  "base_symbol": "Route134_Text_1C3213",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Опять выбился из сил..."
+    ],
+    "A2": [
+      "Опять выбился из сил..."
+    ],
+    "natural": [
+      "Опять выбился из сил..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Schon wieder völlig erschöpft..."
+    ],
+    "A2": [
+      "Schon wieder völlig erschöpft..."
+    ],
+    "natural": [
+      "Schon wieder völlig erschöpft..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeTwoTwoNine",
+  "base_symbol": "Route134_Text_1C3229",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мои покемоны-птицы быстро устают после долгого полёта..."
+    ],
+    "A2": [
+      "Мои покемоны-птицы быстро устают после долгого полёта..."
+    ],
+    "natural": [
+      "Мои покемоны-птицы быстро устают после долгого полёта..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Meine Vogel-Pokémon werden nach einem langen Flug schnell müde..."
+    ],
+    "A2": [
+      "Meine Vogel-Pokémon werden nach einem langen Flug schnell müde..."
+    ],
+    "natural": [
+      "Meine Vogel-Pokémon werden nach einem langen Flug schnell müde..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeThreeOneNine",
+  "base_symbol": "Route134_Text_1C3319",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Свирепое здешнее течение делает нас ещё сильнее."
+    ],
+    "A2": [
+      "Свирепое здешнее течение делает нас ещё сильнее."
+    ],
+    "natural": [
+      "Свирепое здешнее течение делает нас ещё сильнее."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die wilde Strömung hier macht uns stärker als je zuvor."
+    ],
+    "A2": [
+      "Die wilde Strömung hier macht uns stärker als je zuvor."
+    ],
+    "natural": [
+      "Die wilde Strömung hier macht uns stärker als je zuvor."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeThreeFiveC",
+  "base_symbol": "Route134_Text_1C335C",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Признаю поражение."
+    ],
+    "A2": [
+      "Признаю поражение."
+    ],
+    "natural": [
+      "Признаю поражение."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich gestehe meine Niederlage ein."
+    ],
+    "A2": [
+      "Ich gestehe meine Niederlage ein."
+    ],
+    "natural": [
+      "Ich gestehe meine Niederlage ein."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeThreeSixE",
+  "base_symbol": "Route134_Text_1C336E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мы вернёмся тренироваться у Метеоритного водопада."
+    ],
+    "A2": [
+      "Мы вернёмся тренироваться у Метеоритного водопада. Если хочешь, приходи тоже."
+    ],
+    "natural": [
+      "Мы вернёмся тренироваться у Метеоритного водопада. Если хочешь, приходи тоже. Ты точно станешь крепче!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir trainieren wieder bei den Meteorfällen."
+    ],
+    "A2": [
+      "Wir trainieren wieder bei den Meteorfällen. Wenn du willst, komm auch."
+    ],
+    "natural": [
+      "Wir trainieren wieder bei den Meteorfällen. Wenn du willst, komm auch. Das macht dich sicher stärker!"
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeTwoSixTwo",
+  "base_symbol": "Route134_Text_1C3262",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты тренер покемонов."
+    ],
+    "A2": [
+      "Ты тренер покемонов. Слова не нужны."
+    ],
+    "natural": [
+      "Ты тренер покемонов. Слова не нужны. Сражаемся."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist Pokémon-Trainer."
+    ],
+    "A2": [
+      "Du bist Pokémon-Trainer. Worte sind unnötig."
+    ],
+    "natural": [
+      "Du bist Pokémon-Trainer. Worte sind unnötig. Wir kämpfen jetzt."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeTwoNineE",
+  "base_symbol": "Route134_Text_1C329E",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... ... ... ... ... ... ... ... ..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "..."
+    ],
+    "A2": [
+      "... ..."
+    ],
+    "natural": [
+      "... ... ... ... ... ... ... ... ... ... ... ... ... ..."
+    ]
+  }
+},
+{
+  "id": "RouteOneThreeFourOneCThreeTwoDSix",
+  "base_symbol": "Route134_Text_1C32D6",
+  "source_path": "data/text/trainers.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Route 129-134 current, swimmer, fisher, sign, diving, or ocean interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это я бросил тебе вызов, но проиграл."
+    ],
+    "A2": [
+      "Это я бросил тебе вызов, но проиграл. Мне ужасно стыдно..."
+    ],
+    "natural": [
+      "Это я бросил тебе вызов, но проиграл. Мне ужасно стыдно..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "течение",
+        "current"
+      ]
+    ],
+    "de": [
+      [
+        "die Strömung",
+        "current"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich habe dich herausgefordert und dennoch verloren."
+    ],
+    "A2": [
+      "Ich habe dich herausgefordert und dennoch verloren. Ich schäme mich zutiefst..."
+    ],
+    "natural": [
+      "Ich habe dich herausgefordert und dennoch verloren. Ich schäme mich zutiefst..."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownNeatHousesOnWater",
+  "base_symbol": "PacifidlogTown_Text_NeatHousesOnWater",
+  "source_path": "data/maps/PacifidlogTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Здорово, правда?"
+    ],
+    "A2": [
+      "Здорово, правда? Эти дома стоят на воде!"
+    ],
+    "natural": [
+      "Здорово, правда? Эти дома стоят на воде! Я здесь родился!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Toll, oder?"
+    ],
+    "A2": [
+      "Toll, oder? Diese Häuser stehen auf dem Wasser!"
+    ],
+    "natural": [
+      "Toll, oder? Diese Häuser stehen auf dem Wasser! Ich bin hier geboren!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownFastRunningCurrent",
+  "base_symbol": "PacifidlogTown_Text_FastRunningCurrent",
+  "source_path": "data/maps/PacifidlogTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Между ПАСИФИДЛОГОМ и СЛЕЙТПОРТОМ быстрое течение."
+    ],
+    "A2": [
+      "Между ПАСИФИДЛОГОМ и СЛЕЙТПОРТОМ быстрое течение. Если поплывёшь, тебя может унести в другое место."
+    ],
+    "natural": [
+      "Между ПАСИФИДЛОГОМ и СЛЕЙТПОРТОМ быстрое течение. Если поплывёшь, тебя может унести в другое место."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Zwischen FLOSSBRUNN und GRAPHITPORT fließt eine starke Strömung."
+    ],
+    "A2": [
+      "Zwischen FLOSSBRUNN und GRAPHITPORT fließt eine starke Strömung. Beim Surfen wirst du vielleicht woanders hingetrieben."
+    ],
+    "natural": [
+      "Zwischen FLOSSBRUNN und GRAPHITPORT fließt eine starke Strömung. Beim Surfen wirst du vielleicht woanders hingetrieben."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownFishAndDiveLifestyle",
+  "base_symbol": "PacifidlogTown_Text_FishAndDiveLifestyle",
+  "source_path": "data/maps/PacifidlogTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Жители ПАСИФИДЛОГА каждый день ловят рыбу и ныряют."
+    ],
+    "A2": [
+      "Жители ПАСИФИДЛОГА каждый день ловят рыбу и ныряют."
+    ],
+    "natural": [
+      "Жители ПАСИФИДЛОГА каждый день ловят рыбу и ныряют."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Leute in FLOSSBRUNN fischen und tauchen als Teil ihres Lebens."
+    ],
+    "A2": [
+      "Die Leute in FLOSSBRUNN fischen und tauchen als Teil ihres Lebens."
+    ],
+    "natural": [
+      "Die Leute in FLOSSBRUNN fischen und tauchen als Teil ihres Lebens."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownTownSign",
+  "base_symbol": "PacifidlogTown_Text_TownSign",
+  "source_path": "data/maps/PacifidlogTown/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАСИФИДЛОГ Город, где утреннее солнце улыбается водам."
+    ],
+    "A2": [
+      "ПАСИФИДЛОГ Город, где утреннее солнце улыбается водам."
+    ],
+    "natural": [
+      "ПАСИФИДЛОГ Город, где утреннее солнце улыбается водам."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "FLOSSBRUNN Wo die Morgensonne über dem Wasser lächelt."
+    ],
+    "A2": [
+      "FLOSSBRUNN Wo die Morgensonne über dem Wasser lächelt."
+    ],
+    "natural": [
+      "FLOSSBRUNN Wo die Morgensonne über dem Wasser lächelt."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseOneRegiStory",
+  "base_symbol": "PacifidlogTown_House1_Text_RegiStory",
+  "source_path": "data/maps/PacifidlogTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В Хоэнне есть три покемона сил камня, льда и стали."
+    ],
+    "A2": [
+      "В Хоэнне есть три покемона сил камня, льда и стали. Каждый скрыт глубоко в пещере."
+    ],
+    "natural": [
+      "В Хоэнне есть три покемона сил камня, льда и стали. Каждый скрыт глубоко в пещере. Я слышал это в детстве."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In Hoenn gibt es drei Pokémon für Fels, Eis und Stahl."
+    ],
+    "A2": [
+      "In Hoenn gibt es drei Pokémon für Fels, Eis und Stahl. Jedes soll tief in einer Höhle verborgen sein."
+    ],
+    "natural": [
+      "In Hoenn gibt es drei Pokémon für Fels, Eis und Stahl. Jedes soll tief in einer Höhle verborgen sein. Das hörte ich als Kind."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseOneSixDotsOpenThreeDoors",
+  "base_symbol": "PacifidlogTown_House1_Text_SixDotsOpenThreeDoors",
+  "source_path": "data/maps/PacifidlogTown_House1/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Шесть точек откроют три двери."
+    ],
+    "A2": [
+      "Шесть точек откроют три двери. Так говорил дедушка, но я не знаю, что это значит."
+    ],
+    "natural": [
+      "Шесть точек откроют три двери. Так говорил дедушка, но я не знаю, что это значит."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sechs Punkte öffnen drei Türen."
+    ],
+    "A2": [
+      "Sechs Punkte öffnen drei Türen. Das sagte Opa immer."
+    ],
+    "natural": [
+      "Sechs Punkte öffnen drei Türen. Das sagte Opa immer. Ich weiß nicht, was es bedeutet."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoAhYourPokemon",
+  "base_symbol": "PacifidlogTown_House2_Text_AhYourPokemon",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О!"
+    ],
+    "A2": [
+      "О! Твой покемон..."
+    ],
+    "natural": [
+      "О! Твой покемон..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Dein Pokémon..."
+    ],
+    "natural": [
+      "Oh! Dein Pokémon..."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoChairmansYoungerBrotherOnVacation",
+  "base_symbol": "PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кхм!"
+    ],
+    "A2": [
+      "Кхм! Я младший брат ПРЕДСЕДАТЕЛЯ фан-клуба покемонов."
+    ],
+    "natural": [
+      "Кхм! Я младший брат ПРЕДСЕДАТЕЛЯ фан-клуба покемонов. Я здесь на отдыхе с покемонами. Именно так!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ähem!"
+    ],
+    "A2": [
+      "Ähem! Ich bin der jüngere Bruder des Pokémon-Fanklub-LEITERS."
+    ],
+    "natural": [
+      "Ähem! Ich bin der jüngere Bruder des Pokémon-Fanklub-LEITERS. Hier mache ich mit Pokémon Urlaub. Jawohl!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoAdoringPokemonTakeThis",
+  "base_symbol": "PacifidlogTown_House2_Text_AdoringPokemonTakeThis",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Он явно очень тебя любит."
+    ],
+    "A2": [
+      "Он явно очень тебя любит. Такой преданный и милый покемон заслуживает эту ТМ!"
+    ],
+    "natural": [
+      "Он явно очень тебя любит. Такой преданный и милый покемон заслуживает эту ТМ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es mag dich eindeutig sehr."
+    ],
+    "A2": [
+      "Es mag dich eindeutig sehr. So ein treues, süßes Pokémon verdient diese TM!"
+    ],
+    "natural": [
+      "Es mag dich eindeutig sehr. So ein treues, süßes Pokémon verdient diese TM!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoExplainReturnFrustration",
+  "base_symbol": "PacifidlogTown_House2_Text_ExplainReturnFrustration",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Если покемон любит тебя, сила ВОЗВРАЩЕНИЯ растёт."
+    ],
+    "A2": [
+      "Если покемон любит тебя, сила ВОЗВРАЩЕНИЯ растёт. Если нет, сильнее становится РАЗОЧАРОВАНИЕ."
+    ],
+    "natural": [
+      "Если покемон любит тебя, сила ВОЗВРАЩЕНИЯ растёт. Если нет, сильнее становится РАЗОЧАРОВАНИЕ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mag dich ein Pokémon sehr, wird RÜCKKEHR stärker."
+    ],
+    "A2": [
+      "Mag dich ein Pokémon sehr, wird RÜCKKEHR stärker. Mag es dich nicht, wird FRUSTRATION stärker."
+    ],
+    "natural": [
+      "Mag dich ein Pokémon sehr, wird RÜCKKEHR stärker. Mag es dich nicht, wird FRUSTRATION stärker."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoPutInSomeMoreEffort",
+  "base_symbol": "PacifidlogTown_House2_Text_PutInSomeMoreEffort",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Хм..."
+    ],
+    "A2": [
+      "Хм... Неплохо, но и не хорошо."
+    ],
+    "natural": [
+      "Хм... Неплохо, но и не хорошо. Тебе как тренеру надо постараться."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hm..."
+    ],
+    "A2": [
+      "Hm... Nicht schlecht, aber nicht gut."
+    ],
+    "natural": [
+      "Hm... Nicht schlecht, aber nicht gut. Als Trainer musst du dich mehr bemühen."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoViciousPokemonTakeThis",
+  "base_symbol": "PacifidlogTown_House2_Text_ViciousPokemonTakeThis",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У него свирепый вид."
+    ],
+    "A2": [
+      "У него свирепый вид. Такой грозный покемон заслуживает ТМ."
+    ],
+    "natural": [
+      "У него свирепый вид. Такой грозный покемон заслуживает ТМ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es sieht richtig wild aus."
+    ],
+    "A2": [
+      "Es sieht richtig wild aus. So ein furchterregendes Pokémon verdient diese TM."
+    ],
+    "natural": [
+      "Es sieht richtig wild aus. So ein furchterregendes Pokémon verdient diese TM."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoGetGoodTMInXDays",
+  "base_symbol": "PacifidlogTown_House2_Text_GetGoodTMInXDays",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Примерно через {STR_VAR_1} дней я получу хорошие ТМ."
+    ],
+    "A2": [
+      "Примерно через {STR_VAR_1} дней я получу хорошие ТМ. Зайди тогда, и я дам ТМ твоему покемону."
+    ],
+    "natural": [
+      "Примерно через {STR_VAR_1} дней я получу хорошие ТМ. Зайди тогда, и я дам ТМ твоему покемону."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In etwa {STR_VAR_1} Tagen bekomme ich gute TMs."
+    ],
+    "A2": [
+      "In etwa {STR_VAR_1} Tagen bekomme ich gute TMs. Komm dann wieder."
+    ],
+    "natural": [
+      "In etwa {STR_VAR_1} Tagen bekomme ich gute TMs. Komm dann wieder. Ich gebe deinem Pokémon eine TM."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoRurii",
+  "base_symbol": "PacifidlogTown_House2_Text_Rurii",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЗУРИЛЛ: Рури-и."
+    ],
+    "A2": [
+      "АЗУРИЛЛ: Рури-и."
+    ],
+    "natural": [
+      "АЗУРИЛЛ: Рури-и."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "AZURILL: Rurii."
+    ],
+    "A2": [
+      "AZURILL: Rurii."
+    ],
+    "natural": [
+      "AZURILL: Rurii."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoVeryFriendlyWithTrainer",
+  "base_symbol": "PacifidlogTown_House2_Text_VeryFriendlyWithTrainer",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, он очень дружен с тренером."
+    ],
+    "A2": [
+      "Похоже, он очень дружен с тренером."
+    ],
+    "natural": [
+      "Похоже, он очень дружен с тренером."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es ist mit seinem Trainer sehr vertraut."
+    ],
+    "A2": [
+      "Es ist mit seinem Trainer sehr vertraut."
+    ],
+    "natural": [
+      "Es ist mit seinem Trainer sehr vertraut."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoRururi",
+  "base_symbol": "PacifidlogTown_House2_Text_Rururi",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "АЗУРИЛЛ: Рурури!"
+    ],
+    "A2": [
+      "АЗУРИЛЛ: Рурури!"
+    ],
+    "natural": [
+      "АЗУРИЛЛ: Рурури!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "AZURILL: Rururi!"
+    ],
+    "A2": [
+      "AZURILL: Rururi!"
+    ],
+    "natural": [
+      "AZURILL: Rururi!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseTwoDoesntLikeTrainerVeryMuch",
+  "base_symbol": "PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch",
+  "source_path": "data/maps/PacifidlogTown_House2/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, тренер ему не очень нравится."
+    ],
+    "A2": [
+      "Похоже, тренер ему не очень нравится."
+    ],
+    "natural": [
+      "Похоже, тренер ему не очень нравится."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es scheint seinen Trainer nicht zu mögen."
+    ],
+    "A2": [
+      "Es scheint seinen Trainer nicht zu mögen."
+    ],
+    "natural": [
+      "Es scheint seinen Trainer nicht zu mögen."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseThreeWillingToTradeIt",
+  "base_symbol": "PacifidlogTown_House3_Text_WillingToTradeIt",
+  "source_path": "data/maps/PacifidlogTown_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Привет, тренер."
+    ],
+    "A2": [
+      "Привет, тренер. Обменяешься со мной?"
+    ],
+    "natural": [
+      "Привет, тренер. Обменяешься со мной? Здесь ловятся лишь некоторые покемоны. У тебя есть {STR_VAR_1}? Я отдам за него своего {STR_VAR_2}."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo, Trainer."
+    ],
+    "A2": [
+      "Hallo, Trainer. Tauschst du mit mir?"
+    ],
+    "natural": [
+      "Hallo, Trainer. Tauschst du mit mir? Hier fange ich nur bestimmte Pokémon. Hast du {STR_VAR_1}? Dafür gebe ich dir mein {STR_VAR_2}."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseThreeMonIsSoFluffy",
+  "base_symbol": "PacifidlogTown_House3_Text_MonIsSoFluffy",
+  "source_path": "data/maps/PacifidlogTown_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух ты!"
+    ],
+    "A2": [
+      "Ух ты! Этот {STR_VAR_1} такой пушистый!"
+    ],
+    "natural": [
+      "Ух ты! Этот {STR_VAR_1} такой пушистый!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wow!"
+    ],
+    "A2": [
+      "Wow! Dieses {STR_VAR_1} ist so flauschig!"
+    ],
+    "natural": [
+      "Wow! Dieses {STR_VAR_1} ist so flauschig!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseThreeImDisappointed",
+  "base_symbol": "PacifidlogTown_House3_Text_ImDisappointed",
+  "source_path": "data/maps/PacifidlogTown_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я немного разочарован..."
+    ],
+    "A2": [
+      "Я немного разочарован..."
+    ],
+    "natural": [
+      "Я немного разочарован..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin etwas enttäuscht..."
+    ],
+    "A2": [
+      "Ich bin etwas enttäuscht..."
+    ],
+    "natural": [
+      "Ich bin etwas enttäuscht..."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseThreeThatsNoMon",
+  "base_symbol": "PacifidlogTown_House3_Text_ThatsNoMon",
+  "source_path": "data/maps/PacifidlogTown_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это не {STR_VAR_1}."
+    ],
+    "A2": [
+      "Это не {STR_VAR_1}."
+    ],
+    "natural": [
+      "Это не {STR_VAR_1}."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist kein {STR_VAR_1}."
+    ],
+    "A2": [
+      "Das ist kein {STR_VAR_1}."
+    ],
+    "natural": [
+      "Das ist kein {STR_VAR_1}."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseThreeNowWereFriends",
+  "base_symbol": "PacifidlogTown_House3_Text_NowWereFriends",
+  "source_path": "data/maps/PacifidlogTown_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Раз мы обменялись, теперь мы друзья, правда?"
+    ],
+    "A2": [
+      "Раз мы обменялись, теперь мы друзья, правда?"
+    ],
+    "natural": [
+      "Раз мы обменялись, теперь мы друзья, правда?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Seit unserem Tausch sind wir Freunde, nicht wahr?"
+    ],
+    "A2": [
+      "Seit unserem Tausch sind wir Freunde, nicht wahr?"
+    ],
+    "natural": [
+      "Seit unserem Tausch sind wir Freunde, nicht wahr?"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseThreeIsThatAPokedex",
+  "base_symbol": "PacifidlogTown_House3_Text_IsThatAPokedex",
+  "source_path": "data/maps/PacifidlogTown_House3/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это покедекс?"
+    ],
+    "A2": [
+      "Это покедекс? Ты встретил много разных покемонов?"
+    ],
+    "natural": [
+      "Это покедекс? Ты встретил много разных покемонов? Хотел бы я быть как ты."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ist das ein Pokédex?"
+    ],
+    "A2": [
+      "Ist das ein Pokédex? Hast du viele Pokémon getroffen?"
+    ],
+    "natural": [
+      "Ist das ein Pokédex? Hast du viele Pokémon getroffen? Ich wäre gern wie du."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFourSkyPokemon",
+  "base_symbol": "PacifidlogTown_House4_Text_SkyPokemon",
+  "source_path": "data/maps/PacifidlogTown_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Небесный покемон!"
+    ],
+    "A2": [
+      "Небесный покемон! Небесный покемон!"
+    ],
+    "natural": [
+      "Небесный покемон! Небесный покемон!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ein Himmels-Pokémon!"
+    ],
+    "A2": [
+      "Ein Himmels-Pokémon! Ein Himmels-Pokémon!"
+    ],
+    "natural": [
+      "Ein Himmels-Pokémon! Ein Himmels-Pokémon!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFourPeopleSawHighFlyingPokemon",
+  "base_symbol": "PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon",
+  "source_path": "data/maps/PacifidlogTown_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Люди видели покемона высоко над Хоэнном."
+    ],
+    "A2": [
+      "Люди видели покемона высоко над Хоэнном. Он всегда летает?"
+    ],
+    "natural": [
+      "Люди видели покемона высоко над Хоэнном. Он всегда летает? Разве ему негде отдохнуть?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Man sah ein Pokémon hoch über Hoenn."
+    ],
+    "A2": [
+      "Man sah ein Pokémon hoch über Hoenn. Fliegt es ständig?"
+    ],
+    "natural": [
+      "Man sah ein Pokémon hoch über Hoenn. Fliegt es ständig? Muss es nicht irgendwo ruhen?"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFourWhereDidYouComeFrom",
+  "base_symbol": "PacifidlogTown_House4_Text_WhereDidYouComeFrom",
+  "source_path": "data/maps/PacifidlogTown_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Откуда ты?"
+    ],
+    "A2": [
+      "Откуда ты?"
+    ],
+    "natural": [
+      "Откуда ты?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Woher kommst du?"
+    ],
+    "A2": [
+      "Woher kommst du?"
+    ],
+    "natural": [
+      "Woher kommst du?"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFourYesTown",
+  "base_symbol": "PacifidlogTown_House4_Text_YesTown",
+  "source_path": "data/maps/PacifidlogTown_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Да?"
+    ],
+    "A2": [
+      "Да? Город ДА?"
+    ],
+    "natural": [
+      "Да? Город ДА? Никогда не слышал о таком месте."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ja?"
+    ],
+    "A2": [
+      "Ja? JA-STADT?"
+    ],
+    "natural": [
+      "Ja? JA-STADT? Von so einem Ort hörte ich nie."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFourYouHaveToComeFromSomewhere",
+  "base_symbol": "PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere",
+  "source_path": "data/maps/PacifidlogTown_House4/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Нет?"
+    ],
+    "A2": [
+      "Нет? Так не бывает."
+    ],
+    "natural": [
+      "Нет? Так не бывает. Ты должен быть откуда-то. Только не говори, что родился на дне моря!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nein?"
+    ],
+    "A2": [
+      "Nein? Das ergibt keinen Sinn."
+    ],
+    "natural": [
+      "Nein? Das ergibt keinen Sinn. Du musst doch irgendwoher kommen. Sag nicht, du wurdest am Meeresgrund geboren!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFiveCantSeeMirageIslandToday",
+  "base_symbol": "PacifidlogTown_House5_Text_CantSeeMirageIslandToday",
+  "source_path": "data/maps/PacifidlogTown_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Сегодня ОСТРОВА МИРАЖА не видно..."
+    ],
+    "A2": [
+      "Сегодня ОСТРОВА МИРАЖА не видно..."
+    ],
+    "natural": [
+      "Сегодня ОСТРОВА МИРАЖА не видно..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Heute sehe ich WUNDEREILAND nicht..."
+    ],
+    "A2": [
+      "Heute sehe ich WUNDEREILAND nicht..."
+    ],
+    "natural": [
+      "Heute sehe ich WUNDEREILAND nicht..."
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFiveCanSeeMirageIslandToday",
+  "base_symbol": "PacifidlogTown_House5_Text_CanSeeMirageIslandToday",
+  "source_path": "data/maps/PacifidlogTown_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "О!"
+    ],
+    "A2": [
+      "О! Сегодня я вижу ОСТРОВ МИРАЖА!"
+    ],
+    "natural": [
+      "О! Сегодня я вижу ОСТРОВ МИРАЖА!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh!"
+    ],
+    "A2": [
+      "Oh! Heute sehe ich WUNDEREILAND!"
+    ],
+    "natural": [
+      "Oh! Heute sehe ich WUNDEREILAND!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownHouseFiveMirageIslandAppearDependingOnWeather",
+  "base_symbol": "PacifidlogTown_House5_Text_MirageIslandAppearDependingOnWeather",
+  "source_path": "data/maps/PacifidlogTown_House5/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog resident, house, trade, gift, sign, Mirage Island, or town interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ОСТРОВ МИРАЖА..."
+    ],
+    "A2": [
+      "ОСТРОВ МИРАЖА... Наверное, его видимость зависит от погоды."
+    ],
+    "natural": [
+      "ОСТРОВ МИРАЖА... Наверное, его видимость зависит от погоды. Или он правда появляется и исчезает?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "деревня",
+        "village"
+      ]
+    ],
+    "de": [
+      [
+        "das Dorf",
+        "village"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "WUNDEREILAND..."
+    ],
+    "A2": [
+      "WUNDEREILAND... Vielleicht wird es durch das Wetter sichtbar."
+    ],
+    "natural": [
+      "WUNDEREILAND... Vielleicht wird es durch das Wetter sichtbar. Oder erscheint und verschwindet es wirklich?"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownPokemonCenterOneFWhatColorTrainerCard",
+  "base_symbol": "PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard",
+  "source_path": "data/maps/PacifidlogTown_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog Pokémon Center visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Какого цвета твоя карта тренера?"
+    ],
+    "A2": [
+      "Какого цвета твоя карта тренера? Моя медная!"
+    ],
+    "natural": [
+      "Какого цвета твоя карта тренера? Моя медная!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "помощь",
+        "help"
+      ]
+    ],
+    "de": [
+      [
+        "die Hilfe",
+        "help"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Welche Farbe hat dein Trainerpass?"
+    ],
+    "A2": [
+      "Welche Farbe hat dein Trainerpass? Meiner ist kupferfarben!"
+    ],
+    "natural": [
+      "Welche Farbe hat dein Trainerpass? Meiner ist kupferfarben!"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownPokemonCenterOneFOnColonyOfCorsola",
+  "base_symbol": "PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola",
+  "source_path": "data/maps/PacifidlogTown_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog Pokémon Center visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ПАСИФИДЛОГ плавает на колонии КОРСОЛ."
+    ],
+    "A2": [
+      "ПАСИФИДЛОГ плавает на колонии КОРСОЛ. Поверишь мне?"
+    ],
+    "natural": [
+      "ПАСИФИДЛОГ плавает на колонии КОРСОЛ. Поверишь мне?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "помощь",
+        "help"
+      ]
+    ],
+    "de": [
+      [
+        "die Hilfe",
+        "help"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "FLOSSBRUNN schwimmt auf einer Kolonie CORSOLA."
+    ],
+    "A2": [
+      "FLOSSBRUNN schwimmt auf einer Kolonie CORSOLA. Glaubst du mir?"
+    ],
+    "natural": [
+      "FLOSSBRUNN schwimmt auf einer Kolonie CORSOLA. Glaubst du mir?"
+    ]
+  }
+},
+{
+  "id": "PacifidlogTownPokemonCenterOneFAncestorsLivedOnBoats",
+  "base_symbol": "PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats",
+  "source_path": "data/maps/PacifidlogTown_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pacifidlog Pokémon Center visitor interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Говорят, предки ПАСИФИДЛОГА рождались, жили и умирали на лодках."
+    ],
+    "A2": [
+      "Говорят, предки ПАСИФИДЛОГА рождались, жили и умирали на лодках. Так они искали что-то важное."
+    ],
+    "natural": [
+      "Говорят, предки ПАСИФИДЛОГА рождались, жили и умирали на лодках. Так они искали что-то важное."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "помощь",
+        "help"
+      ]
+    ],
+    "de": [
+      [
+        "die Hilfe",
+        "help"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Ahnen von FLOSSBRUNN wurden auf Booten geboren und lebten dort."
+    ],
+    "A2": [
+      "Die Ahnen von FLOSSBRUNN wurden auf Booten geboren und lebten dort. So lebten sie, weil sie etwas suchten."
+    ],
+    "natural": [
+      "Die Ahnen von FLOSSBRUNN wurden auf Booten geboren und lebten dort. So lebten sie, weil sie etwas suchten."
+    ]
+  }
+},
+{
+  "id": "SealedChamberInnerRoomOneAOneThreeEightB",
+  "base_symbol": "SealedChamber_InnerRoom_Text_1A138B",
+  "source_path": "data/event_scripts.s",
+  "adaptive_translation": true,
+  "english": [
+    "A Sealed Chamber clue, opened-door result, or ancient-mystery interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Кажется, где-то далеко открылась дверь."
+    ],
+    "A2": [
+      "Кажется, где-то далеко открылась дверь."
+    ],
+    "natural": [
+      "Кажется, где-то далеко открылась дверь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тайна",
+        "mystery"
+      ]
+    ],
+    "de": [
+      [
+        "das Geheimnis",
+        "mystery"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es klang, als hätte sich weit entfernt eine Tür geöffnet."
+    ],
+    "A2": [
+      "Es klang, als hätte sich weit entfernt eine Tür geöffnet."
+    ],
+    "natural": [
+      "Es klang, als hätte sich weit entfernt eine Tür geöffnet."
+    ]
+  }
+},
+{
+  "id": "SealedChamberOuterRoomOneAOneThreeBE",
+  "base_symbol": "SealedChamber_OuterRoom_Text_1A13BE",
+  "source_path": "data/event_scripts.s",
+  "adaptive_translation": true,
+  "english": [
+    "A Sealed Chamber clue, opened-door result, or ancient-mystery interaction."
+  ],
+  "ru": {
+    "A1": [
+      "В стене большая дыра."
+    ],
+    "A2": [
+      "В стене большая дыра."
+    ],
+    "natural": [
+      "В стене большая дыра."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тайна",
+        "mystery"
+      ]
+    ],
+    "de": [
+      [
+        "das Geheimnis",
+        "mystery"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "In der Wand ist ein großes Loch."
+    ],
+    "A2": [
+      "In der Wand ist ein großes Loch."
+    ],
+    "natural": [
+      "In der Wand ist ein großes Loch."
+    ]
+  }
 }
   ]
 }

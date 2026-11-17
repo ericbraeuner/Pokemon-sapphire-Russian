@@ -726,6 +726,14 @@ class LessonTests(unittest.TestCase):
                             'SootopolisCity_House8', 'SootopolisCity_Mart',
                             'SootopolisCity_PokemonCenter_1F', 'CaveOfOrigin_B4F')
         paths += [f'data/maps/{area}/scripts.inc' for area in sootopolis_areas]
+        pacifidlog_areas = ('Route129', 'Route130', 'Route131', 'Route132',
+                            'Route133', 'Route134', 'PacifidlogTown',
+                            'PacifidlogTown_House1', 'PacifidlogTown_House2',
+                            'PacifidlogTown_House3', 'PacifidlogTown_House4',
+                            'PacifidlogTown_House5',
+                            'PacifidlogTown_PokemonCenter_1F',
+                            'SealedChamber_InnerRoom', 'SealedChamber_OuterRoom')
+        paths += [f'data/maps/{area}/scripts.inc' for area in pacifidlog_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2279,7 +2287,7 @@ class LessonTests(unittest.TestCase):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         source = (demo.ROOT / 'data/maps/SootopolisCity/text.inc').read_text(errors='replace')
         symbols = set(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(32, len(symbols))
+        self.assertEqual(33, len(symbols))
         self.assertTrue(symbols.issubset(templates))
 
     def test_sootopolis_gym_is_bilingual(self):
@@ -2863,6 +2871,33 @@ class LessonTests(unittest.TestCase):
         ).read_text(errors='replace')
         self.assertIn('ClosedSootopolisDoorText::', sootopolis_text)
 
+    def test_routes_129_134_pacifidlog_and_sealed_chamber_are_fully_adaptive(self):
+        areas = ('Route129', 'Route130', 'Route131', 'Route132', 'Route133',
+                 'Route134', 'PacifidlogTown', 'PacifidlogTown_House1',
+                 'PacifidlogTown_House2', 'PacifidlogTown_House3',
+                 'PacifidlogTown_House4', 'PacifidlogTown_House5',
+                 'PacifidlogTown_PokemonCenter_1F', 'SealedChamber_InnerRoom',
+                 'SealedChamber_OuterRoom')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:Route1(?:29|3[0-4])|PacifidlogTown|SealedChamber)'
+            r'[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+', sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(116, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        self.assertEqual('In der Wand ist\\nein großes Loch.',
+                         templates['SealedChamber_OuterRoom_Text_1A13BE']['de'])
+        self.assertEqual('В стене большая дыра.',
+                         templates['SealedChamber_OuterRoom_Text_1A13BE']['ru'])
+
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = set()
@@ -3043,7 +3078,7 @@ class LessonTests(unittest.TestCase):
                 continue
             source = source_path.read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(2359, len(symbols))
+        self.assertEqual(2360, len(symbols))
         self.assertTrue(symbols.issubset(covered))
 
     def test_shared_berry_dialogue_is_bilingual(self):

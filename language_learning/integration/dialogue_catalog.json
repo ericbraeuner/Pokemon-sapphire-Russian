@@ -55946,6 +55946,886 @@
     "abandoned_ship",
     "ship"
   ]
+},
+{
+  "id": "victoryroad.trainer.evergrandecity.text.enteringvictoryroad.2796",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity/scripts.inc",
+    "symbol": "EverGrandeCity_EventScript_VictoryRoadSign",
+    "base_text_path": "data/maps/EverGrandeCity/text.inc",
+    "base_text_symbol": "EverGrandeCity_Text_EnteringVictoryRoad",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityEnteringVictoryRoad"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2796
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.city.evergrandecity.text.citysign.2797",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity/scripts.inc",
+    "symbol": "EverGrandeCity_EventScript_CitySign",
+    "base_text_path": "data/maps/EverGrandeCity/text.inc",
+    "base_text_symbol": "EverGrandeCity_Text_CitySign",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityCitySign"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2797
+  },
+  "tags": [
+    "victory_road",
+    "city"
+  ]
+},
+{
+  "id": "victoryroad.league.evergrandecity.text.enteringpokemonleague.2798",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity/scripts.inc",
+    "symbol": "EverGrandeCity_EventScript_PokemonLeagueSign",
+    "base_text_path": "data/maps/EverGrandeCity/text.inc",
+    "base_text_symbol": "EverGrandeCity_Text_EnteringPokemonLeague",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityEnteringPokemonLeague"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2798
+  },
+  "tags": [
+    "victory_road",
+    "league"
+  ]
+},
+{
+  "id": "victoryroad.trainer.evergrandecity.pokemoncenter.1f.text.leagueaftervictoryroad.2799",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "EverGrandeCity_PokemonCenter_1F_EventScript_Woman",
+    "base_text_path": "data/maps/EverGrandeCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityPokemonCenterOneFLeagueAfterVictoryRoad"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2799
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.city.evergrandecity.pokemoncenter.1f.text.believeinyourpokemon.2800",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PokemonCenter_1F/scripts.inc",
+    "symbol": "EverGrandeCity_PokemonCenter_1F_EventScript_ExpertM",
+    "base_text_path": "data/maps/EverGrandeCity_PokemonCenter_1F/text.inc",
+    "base_text_symbol": "EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityPokemonCenterOneFBelieveInYourPokemon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2800
+  },
+  "tags": [
+    "victory_road",
+    "city"
+  ]
+},
+{
+  "id": "victoryroad.league.evergrandecity.pokemonleague.1f.text.musthaveallgymbadges.2801",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PokemonLeague/scripts.inc",
+    "symbol": "EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard",
+    "base_text_path": "data/maps/EverGrandeCity_PokemonLeague/text.inc",
+    "base_text_symbol": "EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityPokemonLeagueOneFMustHaveAllGymBadges"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2801
+  },
+  "tags": [
+    "victory_road",
+    "league"
+  ]
+},
+{
+  "id": "victoryroad.league.evergrandecity.pokemonleague.1f.text.goforth.2802",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PokemonLeague/scripts.inc",
+    "symbol": "EverGrandeCity_PokemonLeague_1F_EventScript_DoorGuard",
+    "base_text_path": "data/maps/EverGrandeCity_PokemonLeague/text.inc",
+    "base_text_symbol": "EverGrandeCity_PokemonLeague_1F_Text_GoForth",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityPokemonLeagueOneFGoForth"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2802
+  },
+  "tags": [
+    "victory_road",
+    "league"
+  ]
+},
+{
+  "id": "victoryroad.league.evergrandecity.pokemonleague.1f.text.haventobtainedallbadges.2803",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PokemonLeague/scripts.inc",
+    "symbol": "EverGrandeCity_PokemonLeague_1F_EventScript_NotAllBadges",
+    "base_text_path": "data/maps/EverGrandeCity_PokemonLeague/text.inc",
+    "base_text_symbol": "EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "EverGrandeCityPokemonLeagueOneFHaventObtainedAllBadges"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2803
+  },
+  "tags": [
+    "victory_road",
+    "league"
+  ]
+},
+{
+  "id": "victoryroad.wally.victoryroad.1f.text.wallynotgoingtoloseanymore.2804",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_WallyApproachPlayer",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFWallyNotGoingToLoseAnymore"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2804
+  },
+  "tags": [
+    "victory_road",
+    "wally"
+  ]
+},
+{
+  "id": "victoryroad.wally.victoryroad.1f.text.wallyentrancedefeat.2805",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_WallyApproachPlayer",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_WallyEntranceDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFWallyEntranceDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2805
+  },
+  "tags": [
+    "victory_road",
+    "wally"
+  ]
+},
+{
+  "id": "victoryroad.wally.victoryroad.1f.text.wallypostentrancebattle.2806",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_WallyApproachPlayer",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_WallyPostEntranceBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFWallyPostEntranceBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2806
+  },
+  "tags": [
+    "victory_road",
+    "wally"
+  ]
+},
+{
+  "id": "victoryroad.wally.victoryroad.1f.text.wallyintro.2807",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Wally",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_WallyIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFWallyIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2807
+  },
+  "tags": [
+    "victory_road",
+    "wally"
+  ]
+},
+{
+  "id": "victoryroad.wally.victoryroad.1f.text.wallydefeat.2808",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Wally",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_WallyDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFWallyDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2808
+  },
+  "tags": [
+    "victory_road",
+    "wally"
+  ]
+},
+{
+  "id": "victoryroad.wally.victoryroad.1f.text.wallypostbattle.2809",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Wally",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_WallyPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFWallyPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2809
+  },
+  "tags": [
+    "victory_road",
+    "wally"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.edgarintro.2810",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Edgar",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_EdgarIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFEdgarIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2810
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.edgardefeat.2811",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Edgar",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_EdgarDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFEdgarDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2811
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.edgarpostbattle.2812",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Edgar",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_EdgarPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFEdgarPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2812
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.albertintro.2813",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Albert",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_AlbertIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFAlbertIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2813
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.albertdefeat.2814",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Albert",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_AlbertDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFAlbertDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2814
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.albertpostbattle.2815",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Albert",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_AlbertPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFAlbertPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2815
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.hopeintro.2816",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Hope",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_HopeIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFHopeIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2816
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.hopedefeat.2817",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Hope",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_HopeDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFHopeDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2817
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.1f.text.hopepostbattle.2818",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_1F/scripts.inc",
+    "symbol": "VictoryRoad_1F_EventScript_Hope",
+    "base_text_path": "data/maps/VictoryRoad_1F/text.inc",
+    "base_text_symbol": "VictoryRoad_1F_Text_HopePostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadOneFHopePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2818
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.samuelintro.2819",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Samuel",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_SamuelIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFSamuelIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2819
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.samueldefeat.2820",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Samuel",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_SamuelDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFSamuelDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2820
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.samuelpostbattle.2821",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Samuel",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_SamuelPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFSamuelPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2821
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.shannonintro.2822",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Shannon",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_ShannonIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFShannonIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2822
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.shannondefeat.2823",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Shannon",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_ShannonDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFShannonDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2823
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.shannonpostbattle.2824",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Shannon",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_ShannonPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFShannonPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2824
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.michelleintro.2825",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Michelle",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_MichelleIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFMichelleIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2825
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.michelledefeat.2826",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Michelle",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_MichelleDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFMichelleDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2826
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b1f.text.michellepostbattle.2827",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B1F/scripts.inc",
+    "symbol": "VictoryRoad_B1F_EventScript_Michelle",
+    "base_text_path": "data/maps/VictoryRoad_B1F/text.inc",
+    "base_text_symbol": "VictoryRoad_B1F_Text_MichellePostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBOneFMichellePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2827
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.vitointro.2828",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Vito",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_VitoIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFVitoIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2828
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.vitodefeat.2829",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Vito",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_VitoDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFVitoDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2829
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.vitopostbattle.2830",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Vito",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_VitoPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFVitoPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2830
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.owenintro.2831",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Owen",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_OwenIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFOwenIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2831
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.owendefeat.2832",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Owen",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_OwenDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFOwenDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2832
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.owenpostbattle.2833",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Owen",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_OwenPostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFOwenPostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2833
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.carolineintro.2834",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Caroline",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_CarolineIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFCarolineIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2834
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.carolinedefeat.2835",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Caroline",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_CarolineDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFCarolineDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2835
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.carolinepostbattle.2836",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Caroline",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_CarolinePostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFCarolinePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2836
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.julieintro.2837",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Julie",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_JulieIntro",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFJulieIntro"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2837
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.juliedefeat.2838",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Julie",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_JulieDefeat",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFJulieDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2838
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
+},
+{
+  "id": "victoryroad.trainer.victoryroad.b2f.text.juliepostbattle.2839",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/VictoryRoad_B2F/scripts.inc",
+    "symbol": "VictoryRoad_B2F_EventScript_Julie",
+    "base_text_path": "data/maps/VictoryRoad_B2F/text.inc",
+    "base_text_symbol": "VictoryRoad_B2F_Text_JuliePostBattle",
+    "note": "Adaptive translation preserves Victory Road traversal, trainer battles, Wally's final battle and rematch, badge checks, healing, warps, and League access flags.",
+    "authored_id": "VictoryRoadBTwoFJuliePostBattle"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2839
+  },
+  "tags": [
+    "victory_road",
+    "trainer"
+  ]
 }
   ]
 }

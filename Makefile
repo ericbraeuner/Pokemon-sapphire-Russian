@@ -162,8 +162,21 @@ LDFLAGS := $(LIBDIRS:%=-L %) -lgcc -lc
 
 ifeq ($(MODERN),0)
 LD_SCRIPT := $(BUILD_DIR)/ld_script.ld
+LD_SCRIPT_SOURCE := ld_script.txt
 else
 LD_SCRIPT := $(BUILD_DIR)/ld_script_modern.ld
+LD_SCRIPT_SOURCE := ld_script_modern.txt
+endif
+
+# The learner catalogue is substantially larger than the stock text data.  Keep
+# its graphics in the second 16 MiB ROM bank so both regions can continue to
+# grow without changing the byte-perfect stock build.
+ifeq ($(LEARNER_DEMO),1)
+ROM_PAD_TO := 0xA000000
+LD_SCRIPT_FILTER := -e "s/0x8D00000/0x9000000/g"
+else
+ROM_PAD_TO := 0x9000000
+LD_SCRIPT_FILTER :=
 endif
 
 # Special configurations required for lib files
@@ -246,7 +259,7 @@ tidy:
 	$(RM) -r build
 
 $(ROM): %.gba: %.elf
-	$(OBJCOPY) -O binary --gap-fill 0xFF --pad-to 0x9000000 $< $@
+	$(OBJCOPY) -O binary --gap-fill 0xFF --pad-to $(ROM_PAD_TO) $< $@
 	$(GBAFIX) $@ -p --silent
 
 %.elf: $(LD_SCRIPT) $(ALL_OBJECTS)
@@ -254,8 +267,8 @@ $(ROM): %.gba: %.elf
 	@cd $(BUILD_DIR) && $(LD) -T $(LD_SCRIPT:$(BUILD_DIR)/%=%) -Map ../../$(MAP) -o ../../$@ $(OBJS_REL) $(LDFLAGS)
 	$(GBAFIX) $@ -t"$(TITLE)" -c$(GAME_CODE) -m$(MAKER_CODE) -r$(GAME_REVISION) --silent
 
-$(LD_SCRIPT): $(LD_SCRIPT:$(BUILD_DIR)/%.ld=%.txt) $(BUILD_DIR)/sym_common.ld $(BUILD_DIR)/sym_ewram.ld $(BUILD_DIR)/sym_bss.ld
-	sed -e "s#tools/#../../tools/#g" $< >$@
+$(LD_SCRIPT): $(LD_SCRIPT_SOURCE) Makefile $(BUILD_DIR)/sym_common.ld $(BUILD_DIR)/sym_ewram.ld $(BUILD_DIR)/sym_bss.ld
+	sed -e "s#tools/#../../tools/#g" $(LD_SCRIPT_FILTER) $< >$@
 $(BUILD_DIR)/sym_%.ld: sym_%.txt
 	$(CPP) -P $(CPPFLAGS) $< | sed -e "s#tools/#../../tools/#g" > $@
 

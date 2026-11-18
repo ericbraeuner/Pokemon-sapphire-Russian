@@ -736,6 +736,10 @@ class LessonTests(unittest.TestCase):
         paths += [f'data/maps/{area}/scripts.inc' for area in pacifidlog_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in
                   (demo.ROOT / 'data/maps').glob('AbandonedShip*/scripts.inc')]
+        victory_road_areas = ('EverGrandeCity', 'EverGrandeCity_PokemonCenter_1F',
+                              'EverGrandeCity_PokemonLeague', 'VictoryRoad_1F',
+                              'VictoryRoad_B1F', 'VictoryRoad_B2F')
+        paths += [f'data/maps/{area}/scripts.inc' for area in victory_road_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2915,6 +2919,25 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(39, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
+    def test_ever_grande_and_victory_road_are_fully_adaptive(self):
+        areas = ('EverGrandeCity', 'EverGrandeCity_PokemonCenter_1F',
+                 'EverGrandeCity_PokemonLeague', 'VictoryRoad_1F',
+                 'VictoryRoad_B1F', 'VictoryRoad_B2F')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'(?:EverGrandeCity|VictoryRoad)[A-Za-z0-9_]*_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(44, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = set()
@@ -3624,6 +3647,14 @@ class LessonTests(unittest.TestCase):
         region = (demo.ROOT / 'src/region_map.c').read_text()
         self.assertGreaterEqual(hall.count('HOF_LEARNER_TEXT('), 11)
         self.assertEqual(6, region.count('REGION_MAP_LEARNER_TEXT('))
+
+    def test_learner_rom_has_room_for_catalogue_and_graphics(self):
+        makefile = (demo.ROOT / 'Makefile').read_text(encoding='utf-8')
+        self.assertIn('ROM_PAD_TO := 0xA000000', makefile)
+        self.assertIn('ROM_PAD_TO := 0x9000000', makefile)
+        self.assertIn('s/0x8D00000/0x9000000/g', makefile)
+        self.assertIn('--pad-to $(ROM_PAD_TO)', makefile)
+        self.assertIn('$(LD_SCRIPT_SOURCE) Makefile', makefile)
 
     def test_font_bits_match_variable_width_renderer(self):
         for char, rows in self.glyphs.items():

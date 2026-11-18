@@ -125597,6 +125597,1986 @@
       "Uah... Schon an Bord wird mir übel. Dabei bewegt sich das Schiff nicht einmal..."
     ]
   }
+},
+{
+  "id": "EverGrandeCityEnteringVictoryRoad",
+  "base_symbol": "EverGrandeCity_Text_EnteringVictoryRoad",
+  "source_path": "data/maps/EverGrandeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВХОД НА ДОРОГУ ПОБЕДЫ"
+    ],
+    "A2": [
+      "ВХОД НА ДОРОГУ ПОБЕДЫ"
+    ],
+    "natural": [
+      "ВХОД НА ДОРОГУ ПОБЕДЫ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "EINGANG SIEGESSTRASSE"
+    ],
+    "A2": [
+      "EINGANG SIEGESSTRASSE"
+    ],
+    "natural": [
+      "EINGANG SIEGESSTRASSE"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityCitySign",
+  "base_symbol": "EverGrandeCity_Text_CitySign",
+  "source_path": "data/maps/EverGrandeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Ever Grande City sign, route entrance, or Pokémon Center interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ЭВЕР-ГРАНДЕ Рай цветов, моря и покемонов."
+    ],
+    "A2": [
+      "ЭВЕР-ГРАНДЕ Рай цветов, моря и покемонов."
+    ],
+    "natural": [
+      "ЭВЕР-ГРАНДЕ Рай цветов, моря и покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дорога",
+        "road"
+      ]
+    ],
+    "de": [
+      [
+        "der Weg",
+        "road"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PRACHTPOLIS CITY Paradies der Blumen, des Meeres und der Pokémon."
+    ],
+    "A2": [
+      "PRACHTPOLIS CITY Paradies der Blumen, des Meeres und der Pokémon."
+    ],
+    "natural": [
+      "PRACHTPOLIS CITY Paradies der Blumen, des Meeres und der Pokémon."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityEnteringPokemonLeague",
+  "base_symbol": "EverGrandeCity_Text_EnteringPokemonLeague",
+  "source_path": "data/maps/EverGrandeCity/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pokémon League entrance, badge check, or final encouragement interaction."
+  ],
+  "ru": {
+    "A1": [
+      "ВХОД В ЦЕНТР ЛИГИ ПОКЕМОНОВ"
+    ],
+    "A2": [
+      "ВХОД В ЦЕНТР ЛИГИ ПОКЕМОНОВ"
+    ],
+    "natural": [
+      "ВХОД В ЦЕНТР ЛИГИ ПОКЕМОНОВ"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лига",
+        "league"
+      ]
+    ],
+    "de": [
+      [
+        "die Liga",
+        "league"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "EINGANG POKÉMON-LIGA"
+    ],
+    "A2": [
+      "EINGANG POKÉMON-LIGA"
+    ],
+    "natural": [
+      "EINGANG POKÉMON-LIGA"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPokemonCenterOneFLeagueAfterVictoryRoad",
+  "base_symbol": "EverGrandeCity_PokemonCenter_1F_Text_LeagueAfterVictoryRoad",
+  "source_path": "data/maps/EverGrandeCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лига покемонов совсем близко за Дорогой Победы."
+    ],
+    "A2": [
+      "Лига покемонов совсем близко за Дорогой Победы. Раз уж ты дошёл сюда, остаётся только идти дальше!"
+    ],
+    "natural": [
+      "Лига покемонов совсем близко за Дорогой Победы. Раз уж ты дошёл сюда, остаётся только идти дальше!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Pokémon-Liga liegt kurz hinter der Siegesstraße."
+    ],
+    "A2": [
+      "Die Pokémon-Liga liegt kurz hinter der Siegesstraße. Wenn du so weit kamst, bleibt nur noch weiterzugehen!"
+    ],
+    "natural": [
+      "Die Pokémon-Liga liegt kurz hinter der Siegesstraße. Wenn du so weit kamst, bleibt nur noch weiterzugehen!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPokemonCenterOneFBelieveInYourPokemon",
+  "base_symbol": "EverGrandeCity_PokemonCenter_1F_Text_BelieveInYourPokemon",
+  "source_path": "data/maps/EverGrandeCity_PokemonCenter_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "An Ever Grande City sign, route entrance, or Pokémon Center interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Долгая и трудная Дорога Победы..."
+    ],
+    "A2": [
+      "Долгая и трудная Дорога Победы... Будто снова проходишь весь жизненный путь."
+    ],
+    "natural": [
+      "Долгая и трудная Дорога Победы... Будто снова проходишь весь жизненный путь. Верь в покемонов и выложись!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дорога",
+        "road"
+      ]
+    ],
+    "de": [
+      [
+        "der Weg",
+        "road"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die lange, harte Siegesstraße..."
+    ],
+    "A2": [
+      "Die lange, harte Siegesstraße... Als durchlebte man seinen Lebensweg erneut."
+    ],
+    "natural": [
+      "Die lange, harte Siegesstraße... Als durchlebte man seinen Lebensweg erneut. Vertrau deinen Pokémon und gib alles!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPokemonLeagueOneFMustHaveAllGymBadges",
+  "base_symbol": "EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges",
+  "source_path": "data/maps/EverGrandeCity_PokemonLeague/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pokémon League entrance, badge check, or final encouragement interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дальше могут пройти лишь тренеры со всеми значками стадионов."
+    ],
+    "A2": [
+      "Дальше могут пройти лишь тренеры со всеми значками стадионов. Тренер, позволь проверить твои значки."
+    ],
+    "natural": [
+      "Дальше могут пройти лишь тренеры со всеми значками стадионов. Тренер, позволь проверить твои значки."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лига",
+        "league"
+      ]
+    ],
+    "de": [
+      [
+        "die Liga",
+        "league"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nur Trainer mit allen Arenaorden dürfen weiter."
+    ],
+    "A2": [
+      "Nur Trainer mit allen Arenaorden dürfen weiter. Trainer, lass uns deine Orden prüfen."
+    ],
+    "natural": [
+      "Nur Trainer mit allen Arenaorden dürfen weiter. Trainer, lass uns deine Orden prüfen."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPokemonLeagueOneFGoForth",
+  "base_symbol": "EverGrandeCity_PokemonLeague_1F_Text_GoForth",
+  "source_path": "data/maps/EverGrandeCity_PokemonLeague/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pokémon League entrance, badge check, or final encouragement interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Тренер!"
+    ],
+    "A2": [
+      "Тренер! Верь в себя и покемонов и иди вперёд!"
+    ],
+    "natural": [
+      "Тренер! Верь в себя и покемонов и иди вперёд!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лига",
+        "league"
+      ]
+    ],
+    "de": [
+      [
+        "die Liga",
+        "league"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Trainer!"
+    ],
+    "A2": [
+      "Trainer! Vertrau dir und deinen Pokémon und geh voran!"
+    ],
+    "natural": [
+      "Trainer! Vertrau dir und deinen Pokémon und geh voran!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPokemonLeagueOneFHaventObtainedAllBadges",
+  "base_symbol": "EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges",
+  "source_path": "data/maps/EverGrandeCity_PokemonLeague/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Pokémon League entrance, badge check, or final encouragement interaction."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя не все значки."
+    ],
+    "A2": [
+      "У тебя не все значки. Вернись с ними, если направляешься в Лигу покемонов."
+    ],
+    "natural": [
+      "У тебя не все значки. Вернись с ними, если направляешься в Лигу покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лига",
+        "league"
+      ]
+    ],
+    "de": [
+      [
+        "die Liga",
+        "league"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du hast nicht alle Orden."
+    ],
+    "A2": [
+      "Du hast nicht alle Orden. Kehre mit ihnen zurück, wenn du zur Liga willst."
+    ],
+    "natural": [
+      "Du hast nicht alle Orden. Kehre mit ihnen zurück, wenn du zur Liga willst."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFWallyNotGoingToLoseAnymore",
+  "base_symbol": "VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wally's final Victory Road challenge, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛИ: Привет, {PLAYER}!"
+    ],
+    "A2": [
+      "УОЛЛИ: Привет, {PLAYER}! Удивлён?"
+    ],
+    "natural": [
+      "УОЛЛИ: Привет, {PLAYER}! Удивлён? Я дошёл сюда благодаря тебе. Поражение сделало меня сильнее. Но больше я не проиграю! Победу ради покемона, давшего мне смелость! Начинаем!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "соперник",
+        "rival"
+      ]
+    ],
+    "de": [
+      [
+        "der Rivale",
+        "rival"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKO: Hallo, {PLAYER}!"
+    ],
+    "A2": [
+      "HEIKO: Hallo, {PLAYER}! Überrascht?"
+    ],
+    "natural": [
+      "HEIKO: Hallo, {PLAYER}! Überrascht? Dank dir kam ich bis hier. Die Niederlage machte mich stärker. Nun verliere ich nicht mehr! Ich siege für das Pokémon, das mir Mut gab! Los!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFWallyEntranceDefeat",
+  "base_symbol": "VictoryRoad_1F_Text_WallyEntranceDefeat",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wally's final Victory Road challenge, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух ты!"
+    ],
+    "A2": [
+      "Ух ты! {PLAYER}, ты и правда силён!"
+    ],
+    "natural": [
+      "Ух ты! {PLAYER}, ты и правда силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "соперник",
+        "rival"
+      ]
+    ],
+    "de": [
+      [
+        "der Rivale",
+        "rival"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wow!"
+    ],
+    "A2": [
+      "Wow! {PLAYER}, du bist wirklich stark!"
+    ],
+    "natural": [
+      "Wow! {PLAYER}, du bist wirklich stark!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFWallyPostEntranceBattle",
+  "base_symbol": "VictoryRoad_1F_Text_WallyPostEntranceBattle",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wally's final Victory Road challenge, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛИ: Сегодня я не победил тебя, {PLAYER}, но однажды догоню!"
+    ],
+    "A2": [
+      "УОЛЛИ: Сегодня я не победил тебя, {PLAYER}, но однажды догоню!"
+    ],
+    "natural": [
+      "УОЛЛИ: Сегодня я не победил тебя, {PLAYER}, но однажды догоню!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "соперник",
+        "rival"
+      ]
+    ],
+    "de": [
+      [
+        "der Rivale",
+        "rival"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKO: Heute schlug ich dich nicht, {PLAYER}, doch eines Tages hole ich auf!"
+    ],
+    "A2": [
+      "HEIKO: Heute schlug ich dich nicht, {PLAYER}, doch eines Tages hole ich auf!"
+    ],
+    "natural": [
+      "HEIKO: Heute schlug ich dich nicht, {PLAYER}, doch eines Tages hole ich auf!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFWallyIntro",
+  "base_symbol": "VictoryRoad_1F_Text_WallyIntro",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wally's final Victory Road challenge, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛИ: Привет, {PLAYER}!"
+    ],
+    "A2": [
+      "УОЛЛИ: Привет, {PLAYER}! Я стал сильнее с нашей прошлой встречи и хочу показать тебе."
+    ],
+    "natural": [
+      "УОЛЛИ: Привет, {PLAYER}! Я стал сильнее с нашей прошлой встречи и хочу показать тебе. Начинаем!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "соперник",
+        "rival"
+      ]
+    ],
+    "de": [
+      [
+        "der Rivale",
+        "rival"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKO: Hallo, {PLAYER}!"
+    ],
+    "A2": [
+      "HEIKO: Hallo, {PLAYER}! Seit unserem letzten Treffen bin ich stärker."
+    ],
+    "natural": [
+      "HEIKO: Hallo, {PLAYER}! Seit unserem letzten Treffen bin ich stärker. Das will ich dir zeigen. Los!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFWallyDefeat",
+  "base_symbol": "VictoryRoad_1F_Text_WallyDefeat",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wally's final Victory Road challenge, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ух ты!"
+    ],
+    "A2": [
+      "Ух ты! {PLAYER}, ты и правда силён!"
+    ],
+    "natural": [
+      "Ух ты! {PLAYER}, ты и правда силён!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "соперник",
+        "rival"
+      ]
+    ],
+    "de": [
+      [
+        "der Rivale",
+        "rival"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wow!"
+    ],
+    "A2": [
+      "Wow! {PLAYER}, du bist wirklich stark!"
+    ],
+    "natural": [
+      "Wow! {PLAYER}, du bist wirklich stark!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFWallyPostBattle",
+  "base_symbol": "VictoryRoad_1F_Text_WallyPostBattle",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wally's final Victory Road challenge, defeat, rematch, or follow-up interaction."
+  ],
+  "ru": {
+    "A1": [
+      "УОЛЛИ: И сейчас не получилось..."
+    ],
+    "A2": [
+      "УОЛЛИ: И сейчас не получилось... Но однажды, {PLAYER}, я догоню тебя и брошу вызов Лиге покемонов!"
+    ],
+    "natural": [
+      "УОЛЛИ: И сейчас не получилось... Но однажды, {PLAYER}, я догоню тебя и брошу вызов Лиге покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "соперник",
+        "rival"
+      ]
+    ],
+    "de": [
+      [
+        "der Rivale",
+        "rival"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "HEIKO: Auch diesmal verlor ich..."
+    ],
+    "A2": [
+      "HEIKO: Auch diesmal verlor ich... Doch eines Tages, {PLAYER}, hole ich dich ein und fordere die Pokémon-Liga heraus!"
+    ],
+    "natural": [
+      "HEIKO: Auch diesmal verlor ich... Doch eines Tages, {PLAYER}, hole ich dich ein und fordere die Pokémon-Liga heraus!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFEdgarIntro",
+  "base_symbol": "VictoryRoad_1F_Text_EdgarIntro",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я уже несколько раз доходил сюда, но последний участок так долог..."
+    ],
+    "A2": [
+      "Я уже несколько раз доходил сюда, но последний участок так долог..."
+    ],
+    "natural": [
+      "Я уже несколько раз доходил сюда, но последний участок так долог..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mehrmals kam ich bis hier, doch der letzte Abschnitt ist so lang..."
+    ],
+    "A2": [
+      "Mehrmals kam ich bis hier, doch der letzte Abschnitt ist so lang..."
+    ],
+    "natural": [
+      "Mehrmals kam ich bis hier, doch der letzte Abschnitt ist so lang..."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFEdgarDefeat",
+  "base_symbol": "VictoryRoad_1F_Text_EdgarDefeat",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Моя мечта снова кончается здесь..."
+    ],
+    "A2": [
+      "Моя мечта снова кончается здесь..."
+    ],
+    "natural": [
+      "Моя мечта снова кончается здесь..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Mein Traum endet wieder hier..."
+    ],
+    "A2": [
+      "Mein Traum endet wieder hier..."
+    ],
+    "natural": [
+      "Mein Traum endet wieder hier..."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFEdgarPostBattle",
+  "base_symbol": "VictoryRoad_1F_Text_EdgarPostBattle",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты дошёл так далеко."
+    ],
+    "A2": [
+      "Ты дошёл так далеко. Не сбавляй темп и стань чемпионом!"
+    ],
+    "natural": [
+      "Ты дошёл так далеко. Не сбавляй темп и стань чемпионом! Ты сможешь!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du kamst so weit."
+    ],
+    "A2": [
+      "Du kamst so weit. Bleib in Schwung und werde Champ!"
+    ],
+    "natural": [
+      "Du kamst so weit. Bleib in Schwung und werde Champ! Du kannst es schaffen!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFAlbertIntro",
+  "base_symbol": "VictoryRoad_1F_Text_AlbertIntro",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я не прошёл весь путь, чтобы проиграть сейчас."
+    ],
+    "A2": [
+      "Я не прошёл весь путь, чтобы проиграть сейчас. Это невозможно!"
+    ],
+    "natural": [
+      "Я не прошёл весь путь, чтобы проиграть сейчас. Это невозможно!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich kam nicht so weit, um jetzt zu verlieren."
+    ],
+    "A2": [
+      "Ich kam nicht so weit, um jetzt zu verlieren. Das ist unmöglich!"
+    ],
+    "natural": [
+      "Ich kam nicht so weit, um jetzt zu verlieren. Das ist unmöglich!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFAlbertDefeat",
+  "base_symbol": "VictoryRoad_1F_Text_AlbertDefeat",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Невозможно..."
+    ],
+    "A2": [
+      "Невозможно... Я проиграл?"
+    ],
+    "natural": [
+      "Невозможно... Я проиграл?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Unmöglich..."
+    ],
+    "A2": [
+      "Unmöglich... Ich habe verloren?"
+    ],
+    "natural": [
+      "Unmöglich... Ich habe verloren?"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFAlbertPostBattle",
+  "base_symbol": "VictoryRoad_1F_Text_AlbertPostBattle",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я проиграл здесь..."
+    ],
+    "A2": [
+      "Я проиграл здесь... Значит, я не имею права стать чемпионом..."
+    ],
+    "natural": [
+      "Я проиграл здесь... Значит, я не имею права стать чемпионом..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich verlor hier..."
+    ],
+    "A2": [
+      "Ich verlor hier... Also fehlt mir die Eignung zum Champ..."
+    ],
+    "natural": [
+      "Ich verlor hier... Also fehlt mir die Eignung zum Champ..."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFHopeIntro",
+  "base_symbol": "VictoryRoad_1F_Text_HopeIntro",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Эта бесконечная суровая дорога достойна названия Дорога Победы."
+    ],
+    "A2": [
+      "Эта бесконечная суровая дорога достойна названия Дорога Победы."
+    ],
+    "natural": [
+      "Эта бесконечная суровая дорога достойна названия Дорога Победы."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dieser endlose harte Weg verdient den Namen Siegesstraße."
+    ],
+    "A2": [
+      "Dieser endlose harte Weg verdient den Namen Siegesstraße."
+    ],
+    "natural": [
+      "Dieser endlose harte Weg verdient den Namen Siegesstraße."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFHopeDefeat",
+  "base_symbol": "VictoryRoad_1F_Text_HopeDefeat",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Твой стиль боя великолепен..."
+    ],
+    "A2": [
+      "Твой стиль боя великолепен..."
+    ],
+    "natural": [
+      "Твой стиль боя великолепен..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein Kampfstil ist fantastisch..."
+    ],
+    "A2": [
+      "Dein Kampfstil ist fantastisch..."
+    ],
+    "natural": [
+      "Dein Kampfstil ist fantastisch..."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadOneFHopePostBattle",
+  "base_symbol": "VictoryRoad_1F_Text_HopePostBattle",
+  "source_path": "data/maps/VictoryRoad_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, у тебя есть потенциал стать чемпионом."
+    ],
+    "A2": [
+      "Похоже, у тебя есть потенциал стать чемпионом."
+    ],
+    "natural": [
+      "Похоже, у тебя есть потенциал стать чемпионом."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du scheinst das Zeug zum Champ zu haben."
+    ],
+    "A2": [
+      "Du scheinst das Zeug zum Champ zu haben."
+    ],
+    "natural": [
+      "Du scheinst das Zeug zum Champ zu haben."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFSamuelIntro",
+  "base_symbol": "VictoryRoad_B1F_Text_SamuelIntro",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "От одной мысли, что Лига покемонов всё ближе..."
+    ],
+    "A2": [
+      "От одной мысли, что Лига покемонов всё ближе... У меня боязнь сцены."
+    ],
+    "natural": [
+      "От одной мысли, что Лига покемонов всё ближе... У меня боязнь сцены."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Gedanke, der Pokémon-Liga näher zu kommen..."
+    ],
+    "A2": [
+      "Der Gedanke, der Pokémon-Liga näher zu kommen... Ich bekomme Lampenfieber."
+    ],
+    "natural": [
+      "Der Gedanke, der Pokémon-Liga näher zu kommen... Ich bekomme Lampenfieber."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFSamuelDefeat",
+  "base_symbol": "VictoryRoad_B1F_Text_SamuelDefeat",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я ничего не смог сделать..."
+    ],
+    "A2": [
+      "Я ничего не смог сделать..."
+    ],
+    "natural": [
+      "Я ничего не смог сделать..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich konnte gar nichts tun..."
+    ],
+    "A2": [
+      "Ich konnte gar nichts tun..."
+    ],
+    "natural": [
+      "Ich konnte gar nichts tun..."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFSamuelPostBattle",
+  "base_symbol": "VictoryRoad_B1F_Text_SamuelPostBattle",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лига покемонов снова отдалилась..."
+    ],
+    "A2": [
+      "Лига покемонов снова отдалилась... Какое разочарование."
+    ],
+    "natural": [
+      "Лига покемонов снова отдалилась... Какое разочарование."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Pokémon-Liga ist wieder ferner..."
+    ],
+    "A2": [
+      "Die Pokémon-Liga ist wieder ferner... Welche Enttäuschung."
+    ],
+    "natural": [
+      "Die Pokémon-Liga ist wieder ferner... Welche Enttäuschung."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFShannonIntro",
+  "base_symbol": "VictoryRoad_B1F_Text_ShannonIntro",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Чтобы пройти Лигу покемонов, нужно доверие твоих покемонов."
+    ],
+    "A2": [
+      "Чтобы пройти Лигу покемонов, нужно доверие твоих покемонов."
+    ],
+    "natural": [
+      "Чтобы пройти Лигу покемонов, нужно доверие твоих покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Um die Pokémon-Liga zu meistern, brauchst du das Vertrauen deiner Pokémon."
+    ],
+    "A2": [
+      "Um die Pokémon-Liga zu meistern, brauchst du das Vertrauen deiner Pokémon."
+    ],
+    "natural": [
+      "Um die Pokémon-Liga zu meistern, brauchst du das Vertrauen deiner Pokémon."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFShannonDefeat",
+  "base_symbol": "VictoryRoad_B1F_Text_ShannonDefeat",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ваши отношения основаны на крепком доверии."
+    ],
+    "A2": [
+      "Ваши отношения основаны на крепком доверии."
+    ],
+    "natural": [
+      "Ваши отношения основаны на крепком доверии."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Eure Beziehung beruht auf festem Vertrauen."
+    ],
+    "A2": [
+      "Eure Beziehung beruht auf festem Vertrauen."
+    ],
+    "natural": [
+      "Eure Beziehung beruht auf festem Vertrauen."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFShannonPostBattle",
+  "base_symbol": "VictoryRoad_B1F_Text_ShannonPostBattle",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Когда тренер и покемоны всегда вместе, доверие между ними растёт."
+    ],
+    "A2": [
+      "Когда тренер и покемоны всегда вместе, доверие между ними растёт."
+    ],
+    "natural": [
+      "Когда тренер и покемоны всегда вместе, доверие между ними растёт."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sind Trainer und Pokémon immer zusammen, wächst ihr Vertrauen."
+    ],
+    "A2": [
+      "Sind Trainer und Pokémon immer zusammen, wächst ihr Vertrauen."
+    ],
+    "natural": [
+      "Sind Trainer und Pokémon immer zusammen, wächst ihr Vertrauen."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFMichelleIntro",
+  "base_symbol": "VictoryRoad_B1F_Text_MichelleIntro",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Это не цель, а лишь остановка на пути к Лиге покемонов."
+    ],
+    "A2": [
+      "Это не цель, а лишь остановка на пути к Лиге покемонов."
+    ],
+    "natural": [
+      "Это не цель, а лишь остановка на пути к Лиге покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dies ist nicht das Ziel, nur eine Station auf dem Weg zur Pokémon-Liga."
+    ],
+    "A2": [
+      "Dies ist nicht das Ziel, nur eine Station auf dem Weg zur Pokémon-Liga."
+    ],
+    "natural": [
+      "Dies ist nicht das Ziel, nur eine Station auf dem Weg zur Pokémon-Liga."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFMichelleDefeat",
+  "base_symbol": "VictoryRoad_B1F_Text_MichelleDefeat",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Вот как надо!"
+    ],
+    "A2": [
+      "Вот как надо!"
+    ],
+    "natural": [
+      "Вот как надо!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Genau so!"
+    ],
+    "A2": [
+      "Genau so!"
+    ],
+    "natural": [
+      "Genau so!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBOneFMichellePostBattle",
+  "base_symbol": "VictoryRoad_B1F_Text_MichellePostBattle",
+  "source_path": "data/maps/VictoryRoad_B1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты точно справишься!"
+    ],
+    "A2": [
+      "Ты точно справишься! Твои покемоны готовы идти дальше!"
+    ],
+    "natural": [
+      "Ты точно справишься! Твои покемоны готовы идти дальше!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du schaffst es sicher!"
+    ],
+    "A2": [
+      "Du schaffst es sicher! Deine Pokémon wollen unbedingt weiter!"
+    ],
+    "natural": [
+      "Du schaffst es sicher! Deine Pokémon wollen unbedingt weiter!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFVitoIntro",
+  "base_symbol": "VictoryRoad_B2F_Text_VitoIntro",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я тренировался со всей семьёй!"
+    ],
+    "A2": [
+      "Я тренировался со всей семьёй! Я никому не проиграю!"
+    ],
+    "natural": [
+      "Я тренировался со всей семьёй! Я никому не проиграю!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich trainierte mit meiner ganzen Familie!"
+    ],
+    "A2": [
+      "Ich trainierte mit meiner ganzen Familie! Ich verliere gegen niemanden!"
+    ],
+    "natural": [
+      "Ich trainierte mit meiner ganzen Familie! Ich verliere gegen niemanden!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFVitoDefeat",
+  "base_symbol": "VictoryRoad_B2F_Text_VitoDefeat",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Лучше всей моей семьи?!"
+    ],
+    "A2": [
+      "Лучше всей моей семьи?! Возможно ли это?"
+    ],
+    "natural": [
+      "Лучше всей моей семьи?! Возможно ли это?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Besser als meine Familie?!"
+    ],
+    "A2": [
+      "Besser als meine Familie?! Ist das möglich?"
+    ],
+    "natural": [
+      "Besser als meine Familie?! Ist das möglich?"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFVitoPostBattle",
+  "base_symbol": "VictoryRoad_B2F_Text_VitoPostBattle",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я был лучшим в семье и ещё не проигрывал."
+    ],
+    "A2": [
+      "Я был лучшим в семье и ещё не проигрывал. Уверенность пропала..."
+    ],
+    "natural": [
+      "Я был лучшим в семье и ещё не проигрывал. Уверенность пропала... Может, пойду домой."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich war der Beste meiner Familie und verlor nie."
+    ],
+    "A2": [
+      "Ich war der Beste meiner Familie und verlor nie. Mein Selbstvertrauen ist weg..."
+    ],
+    "natural": [
+      "Ich war der Beste meiner Familie und verlor nie. Mein Selbstvertrauen ist weg... Vielleicht gehe ich heim."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFOwenIntro",
+  "base_symbol": "VictoryRoad_B2F_Text_OwenIntro",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Я слышал о сильном ребёнке."
+    ],
+    "A2": [
+      "Я слышал о сильном ребёнке. Неужели это ты?"
+    ],
+    "natural": [
+      "Я слышал о сильном ребёнке. Неужели это ты?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich hörte von einem starken Kind."
+    ],
+    "A2": [
+      "Ich hörte von einem starken Kind. Bist du das etwa?"
+    ],
+    "natural": [
+      "Ich hörte von einem starken Kind. Bist du das etwa?"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFOwenDefeat",
+  "base_symbol": "VictoryRoad_B2F_Text_OwenDefeat",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Мелкий, но сильный!"
+    ],
+    "A2": [
+      "Мелкий, но сильный!"
+    ],
+    "natural": [
+      "Мелкий, но сильный!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Der Kleine ist stark!"
+    ],
+    "A2": [
+      "Der Kleine ist stark!"
+    ],
+    "natural": [
+      "Der Kleine ist stark!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFOwenPostBattle",
+  "base_symbol": "VictoryRoad_B2F_Text_OwenPostBattle",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Говорят, этот сильный ребёнок из Петалбурга."
+    ],
+    "A2": [
+      "Говорят, этот сильный ребёнок из Петалбурга."
+    ],
+    "natural": [
+      "Говорят, этот сильный ребёнок из Петалбурга."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Gerüchten zufolge kommt das starke Kind aus Blütenburg City."
+    ],
+    "A2": [
+      "Gerüchten zufolge kommt das starke Kind aus Blütenburg City."
+    ],
+    "natural": [
+      "Gerüchten zufolge kommt das starke Kind aus Blütenburg City."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFCarolineIntro",
+  "base_symbol": "VictoryRoad_B2F_Text_CarolineIntro",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты, должно быть, уже немного устал."
+    ],
+    "A2": [
+      "Ты, должно быть, уже немного устал."
+    ],
+    "natural": [
+      "Ты, должно быть, уже немного устал."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du musst langsam müde werden."
+    ],
+    "A2": [
+      "Du musst langsam müde werden."
+    ],
+    "natural": [
+      "Du musst langsam müde werden."
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFCarolineDefeat",
+  "base_symbol": "VictoryRoad_B2F_Text_CarolineDefeat",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ни малейшего признака усталости!"
+    ],
+    "A2": [
+      "Ни малейшего признака усталости!"
+    ],
+    "natural": [
+      "Ни малейшего признака усталости!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Kein Zeichen von Müdigkeit!"
+    ],
+    "A2": [
+      "Kein Zeichen von Müdigkeit!"
+    ],
+    "natural": [
+      "Kein Zeichen von Müdigkeit!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFCarolinePostBattle",
+  "base_symbol": "VictoryRoad_B2F_Text_CarolinePostBattle",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Дорога Победы и Лига покемонов - долгие и суровые испытания."
+    ],
+    "A2": [
+      "Дорога Победы и Лига покемонов - долгие и суровые испытания. Берегись усталости!"
+    ],
+    "natural": [
+      "Дорога Победы и Лига покемонов - долгие и суровые испытания. Берегись усталости!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Siegesstraße und Pokémon-Liga sind lange, harte Prüfungen."
+    ],
+    "A2": [
+      "Siegesstraße und Pokémon-Liga sind lange, harte Prüfungen. Hüte dich vor Erschöpfung!"
+    ],
+    "natural": [
+      "Siegesstraße und Pokémon-Liga sind lange, harte Prüfungen. Hüte dich vor Erschöpfung!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFJulieIntro",
+  "base_symbol": "VictoryRoad_B2F_Text_JulieIntro",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Не становись самодовольным из-за множества значков."
+    ],
+    "A2": [
+      "Не становись самодовольным из-за множества значков. Всегда найдётся кто-то сильнее!"
+    ],
+    "natural": [
+      "Не становись самодовольным из-за множества значков. Всегда найдётся кто-то сильнее!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Werde wegen vieler Orden nicht selbstgefällig."
+    ],
+    "A2": [
+      "Werde wegen vieler Orden nicht selbstgefällig. Es gibt immer jemanden, der besser ist!"
+    ],
+    "natural": [
+      "Werde wegen vieler Orden nicht selbstgefällig. Es gibt immer jemanden, der besser ist!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFJulieDefeat",
+  "base_symbol": "VictoryRoad_B2F_Text_JulieDefeat",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Ты лучше меня!"
+    ],
+    "A2": [
+      "Ты лучше меня!"
+    ],
+    "natural": [
+      "Ты лучше меня!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du bist besser als ich!"
+    ],
+    "A2": [
+      "Du bist besser als ich!"
+    ],
+    "natural": [
+      "Du bist besser als ich!"
+    ]
+  }
+},
+{
+  "id": "VictoryRoadBTwoFJuliePostBattle",
+  "base_symbol": "VictoryRoad_B2F_Text_JuliePostBattle",
+  "source_path": "data/maps/VictoryRoad_B2F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "A Victory Road trainer introduction, defeat, or post-battle interaction."
+  ],
+  "ru": {
+    "A1": [
+      "Посмотри на собранные значки и вспомни всех встреченных тренеров."
+    ],
+    "A2": [
+      "Посмотри на собранные значки и вспомни всех встреченных тренеров."
+    ],
+    "natural": [
+      "Посмотри на собранные значки и вспомни всех встреченных тренеров."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "тренер",
+        "trainer"
+      ]
+    ],
+    "de": [
+      [
+        "der Trainer",
+        "trainer"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh deine Orden an und erinnere dich an die Trainer, denen du begegnet bist."
+    ],
+    "A2": [
+      "Sieh deine Orden an und erinnere dich an die Trainer, denen du begegnet bist."
+    ],
+    "natural": [
+      "Sieh deine Orden an und erinnere dich an die Trainer, denen du begegnet bist."
+    ]
+  }
 }
   ]
 }

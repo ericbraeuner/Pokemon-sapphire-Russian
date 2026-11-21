@@ -128792,6 +128792,3021 @@
       "TROY: Tragen wir deinen Namen als Sieger der Pokémon-Liga und die Namen deiner Partner ein."
     ]
   }
+},
+{
+  "id": "PlayersHouseOneFTextTicketFromBrineyCameForYou",
+  "base_symbol": "PlayersHouse_1F_Text_TicketFromBrineyCameForYou",
+  "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "DAD: Hm? Hey, it's you! It's been a while since I saw you, but you look...stronger, somehow. That's the impression I get. But your old man hasn't given up yet! Oh, yes, I have something for you. This came to you from someone named MR. BRINEY."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: Хм? Эй, это {PLAYER}! Давно не виделись. Ты выглядишь сильнее. Но твой старик ещё не сдался! У меня кое-что для тебя. Это прислал МИСТЕР БРАЙНИ."
+    ],
+    "A2": [
+      "ПАПА: Хм? Эй, это {PLAYER}! Давно не виделись. Ты выглядишь сильнее. Но твой старик ещё не сдался! У меня кое-что для тебя. Это прислал МИСТЕР БРАЙНИ."
+    ],
+    "natural": [
+      "ПАПА: Хм? Эй, это {PLAYER}! Давно не виделись. Ты выглядишь сильнее. Но твой старик ещё не сдался! У меня кое-что для тебя. Это прислал МИСТЕР БРАЙНИ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "билет",
+        "ticket"
+      ]
+    ],
+    "de": [
+      [
+        "die Fahrkarte",
+        "ticket"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Hm? He, da ist {PLAYER}! Lange nicht gesehen. Du wirkst stärker. Doch dein alter Herr gibt nicht auf! Ich habe etwas für dich. Es kam von MR. BRACK."
+    ],
+    "A2": [
+      "PAPA: Hm? He, da ist {PLAYER}! Lange nicht gesehen. Du wirkst stärker. Doch dein alter Herr gibt nicht auf! Ich habe etwas für dich. Es kam von MR. BRACK."
+    ],
+    "natural": [
+      "PAPA: Hm? He, da ist {PLAYER}! Lange nicht gesehen. Du wirkst stärker. Doch dein alter Herr gibt nicht auf! Ich habe etwas für dich. Es kam von MR. BRACK."
+    ]
+  }
+},
+{
+  "id": "PlayersHouseOneFTextPortsInSlateportLilycove",
+  "base_symbol": "PlayersHouse_1F_Text_PortsInSlateportLilycove",
+  "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "DAD: Hm, a TICKET for a ferry? If I recall, there are ferry ports in SLATEPORT and LILYCOVE. you, if you have ambition as a TRAINER, go to the BATTLE TOWER. It should teach you that there is no end to a TRAINER's chosen path."
+  ],
+  "ru": {
+    "A1": [
+      "ПАПА: БИЛЕТ на паром? Порты есть в СЛЕЙТПОРТЕ и ЛИЛИКОВЕ. Если хочешь расти как ТРЕНЕР, отправляйся в БАШНЮ БИТВ."
+    ],
+    "A2": [
+      "ПАПА: БИЛЕТ на паром? Порты есть в СЛЕЙТПОРТЕ и ЛИЛИКОВЕ. Если хочешь расти как ТРЕНЕР, отправляйся в БАШНЮ БИТВ."
+    ],
+    "natural": [
+      "ПАПА: БИЛЕТ на паром? Порты есть в СЛЕЙТПОРТЕ и ЛИЛИКОВЕ. Если хочешь расти как ТРЕНЕР, отправляйся в БАШНЮ БИТВ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "билет",
+        "ticket"
+      ]
+    ],
+    "de": [
+      [
+        "die Fahrkarte",
+        "ticket"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PAPA: Eine SCHIFFSKARTE? Häfen gibt es in GRAPHITPORT und SEEGRASULB. Willst du als TRAINER wachsen, besuche den DUELLTURM."
+    ],
+    "A2": [
+      "PAPA: Eine SCHIFFSKARTE? Häfen gibt es in GRAPHITPORT und SEEGRASULB. Willst du als TRAINER wachsen, besuche den DUELLTURM."
+    ],
+    "natural": [
+      "PAPA: Eine SCHIFFSKARTE? Häfen gibt es in GRAPHITPORT und SEEGRASULB. Willst du als TRAINER wachsen, besuche den DUELLTURM."
+    ]
+  }
+},
+{
+  "id": "PlayersHouseOneFTextBetterGetBackToGym",
+  "base_symbol": "PlayersHouse_1F_Text_BetterGetBackToGym",
+  "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I'd better get back to PETALBURG GYM. MOM, thanks for looking after the house while I'm away."
+  ],
+  "ru": {
+    "A1": [
+      "Мне пора вернуться в ЗАЛ ПЕТАЛБУРГА. МАМА, спасибо, что следишь за домом."
+    ],
+    "A2": [
+      "Мне пора вернуться в ЗАЛ ПЕТАЛБУРГА. МАМА, спасибо, что следишь за домом."
+    ],
+    "natural": [
+      "Мне пора вернуться в ЗАЛ ПЕТАЛБУРГА. МАМА, спасибо, что следишь за домом."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "билет",
+        "ticket"
+      ]
+    ],
+    "de": [
+      [
+        "die Fahrkarte",
+        "ticket"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich muss zurück zur ARENA von BLÜTENBURG. MAMA, danke, dass du dich ums Haus kümmerst."
+    ],
+    "A2": [
+      "Ich muss zurück zur ARENA von BLÜTENBURG. MAMA, danke, dass du dich ums Haus kümmerst."
+    ],
+    "natural": [
+      "Ich muss zurück zur ARENA von BLÜTENBURG. MAMA, danke, dass du dich ums Haus kümmerst."
+    ]
+  }
+},
+{
+  "id": "PlayersHouseOneFTextDadShouldStayLonger",
+  "base_symbol": "PlayersHouse_1F_Text_DadShouldStayLonger",
+  "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "MOM: That DAD of yours... He comes home for the first time in a while, but all he talks about is POKéMON. He should relax and stay a little longer."
+  ],
+  "ru": {
+    "A1": [
+      "МАМА: Этот твой папа... Впервые за долгое время пришёл домой, а говорит лишь о покемонах. Мог бы отдохнуть и побыть подольше."
+    ],
+    "A2": [
+      "МАМА: Этот твой папа... Впервые за долгое время пришёл домой, а говорит лишь о покемонах. Мог бы отдохнуть и побыть подольше."
+    ],
+    "natural": [
+      "МАМА: Этот твой папа... Впервые за долгое время пришёл домой, а говорит лишь о покемонах. Мог бы отдохнуть и побыть подольше."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "билет",
+        "ticket"
+      ]
+    ],
+    "de": [
+      [
+        "die Fahrkarte",
+        "ticket"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAMA: Dieser PAPA... Zum ersten Mal seit Langem ist er daheim, doch er redet nur über Pokémon. Er sollte sich ausruhen und länger bleiben."
+    ],
+    "A2": [
+      "MAMA: Dieser PAPA... Zum ersten Mal seit Langem ist er daheim, doch er redet nur über Pokémon. Er sollte sich ausruhen und länger bleiben."
+    ],
+    "natural": [
+      "MAMA: Dieser PAPA... Zum ersten Mal seit Langem ist er daheim, doch er redet nur über Pokémon. Er sollte sich ausruhen und länger bleiben."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneSevenTwoDThreeZero",
+  "base_symbol": "UnknownString_8172D30",
+  "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "We bring you a special news bulletin. We've received reports of a red FLYING POKéMON in various HOENN locales. The identity of this POKéMON has not yet been determined. We now return you to your regular movie presentation."
+  ],
+  "ru": {
+    "A1": [
+      "Срочные новости. В разных местах Хоэнна видели красного летающего покемона. Его личность пока не установлена. Возвращаемся к фильму."
+    ],
+    "A2": [
+      "Срочные новости. В разных местах Хоэнна видели красного летающего покемона. Его личность пока не установлена. Возвращаемся к фильму."
+    ],
+    "natural": [
+      "Срочные новости. В разных местах Хоэнна видели красного летающего покемона. Его личность пока не установлена. Возвращаемся к фильму."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "билет",
+        "ticket"
+      ]
+    ],
+    "de": [
+      [
+        "die Fahrkarte",
+        "ticket"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sondermeldung: In Hoenn wurde an mehreren Orten ein rotes fliegendes Pokémon gesichtet. Seine Identität ist unbekannt. Nun zurück zum Film."
+    ],
+    "A2": [
+      "Sondermeldung: In Hoenn wurde an mehreren Orten ein rotes fliegendes Pokémon gesichtet. Seine Identität ist unbekannt. Nun zurück zum Film."
+    ],
+    "natural": [
+      "Sondermeldung: In Hoenn wurde an mehreren Orten ein rotes fliegendes Pokémon gesichtet. Seine Identität ist unbekannt. Nun zurück zum Film."
+    ]
+  }
+},
+{
+  "id": "UnknownStringEightOneSevenTwoCFiveZero",
+  "base_symbol": "UnknownString_8172C50",
+  "source_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "We bring you a special news bulletin. We've received reports of a blue FLYING POKéMON in various HOENN locales. The identity of this POKéMON has not yet been determined. We now return you to your regular movie presentation."
+  ],
+  "ru": {
+    "A1": [
+      "Срочные новости. В разных местах Хоэнна видели синего летающего покемона. Его личность пока не установлена. Возвращаемся к фильму."
+    ],
+    "A2": [
+      "Срочные новости. В разных местах Хоэнна видели синего летающего покемона. Его личность пока не установлена. Возвращаемся к фильму."
+    ],
+    "natural": [
+      "Срочные новости. В разных местах Хоэнна видели синего летающего покемона. Его личность пока не установлена. Возвращаемся к фильму."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "билет",
+        "ticket"
+      ]
+    ],
+    "de": [
+      [
+        "die Fahrkarte",
+        "ticket"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sondermeldung: In Hoenn wurde an mehreren Orten ein blaues fliegendes Pokémon gesichtet. Seine Identität ist unbekannt. Nun zurück zum Film."
+    ],
+    "A2": [
+      "Sondermeldung: In Hoenn wurde an mehreren Orten ein blaues fliegendes Pokémon gesichtet. Seine Identität ist unbekannt. Nun zurück zum Film."
+    ],
+    "natural": [
+      "Sondermeldung: In Hoenn wurde an mehreren Orten ein blaues fliegendes Pokémon gesichtet. Seine Identität ist unbekannt. Nun zurück zum Film."
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineDZeroSix",
+  "base_symbol": "BattleTower_Outside_Text_199D06",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Hello, are you here for the ferry? May I see your TICKET?"
+  ],
+  "ru": {
+    "A1": [
+      "Привет! Ты на паром? Покажи БИЛЕТ."
+    ],
+    "A2": [
+      "Привет! Ты на паром? Покажи БИЛЕТ."
+    ],
+    "natural": [
+      "Привет! Ты на паром? Покажи БИЛЕТ."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo! Willst du zur Fähre? Zeig mir bitte dein TICKET."
+    ],
+    "A2": [
+      "Hallo! Willst du zur Fähre? Zeig mir bitte dein TICKET."
+    ],
+    "natural": [
+      "Hallo! Willst du zur Fähre? Zeig mir bitte dein TICKET."
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineDNineD",
+  "base_symbol": "BattleTower_Outside_Text_199D9D",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "you flashed the TICKET. Perfect! That's all you need! And where would you like to go?"
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} показывает БИЛЕТ. Отлично! Куда ты хочешь отправиться?"
+    ],
+    "A2": [
+      "{PLAYER} показывает БИЛЕТ. Отлично! Куда ты хочешь отправиться?"
+    ],
+    "natural": [
+      "{PLAYER} показывает БИЛЕТ. Отлично! Куда ты хочешь отправиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} zeigt das TICKET. Perfekt! Wohin möchtest du fahren?"
+    ],
+    "A2": [
+      "{PLAYER} zeigt das TICKET. Perfekt! Wohin möchtest du fahren?"
+    ],
+    "natural": [
+      "{PLAYER} zeigt das TICKET. Perfekt! Wohin möchtest du fahren?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineDFourZero",
+  "base_symbol": "BattleTower_Outside_Text_199D40",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "you doesn't have the TICKET... I'm terribly sorry. You must have a TICKET to board the ferry."
+  ],
+  "ru": {
+    "A1": [
+      "У {PLAYER} нет БИЛЕТА... Очень жаль. Без БИЛЕТА на паром не пройти."
+    ],
+    "A2": [
+      "У {PLAYER} нет БИЛЕТА... Очень жаль. Без БИЛЕТА на паром не пройти."
+    ],
+    "natural": [
+      "У {PLAYER} нет БИЛЕТА... Очень жаль. Без БИЛЕТА на паром не пройти."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} hat kein TICKET... Tut mir leid. Ohne TICKET darfst du nicht an Bord."
+    ],
+    "A2": [
+      "{PLAYER} hat kein TICKET... Tut mir leid. Ohne TICKET darfst du nicht an Bord."
+    ],
+    "natural": [
+      "{PLAYER} hat kein TICKET... Tut mir leid. Ohne TICKET darfst du nicht an Bord."
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineDFTwo",
+  "base_symbol": "BattleTower_Outside_Text_199DF2",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "SLATEPORT CITY it is, then!"
+  ],
+  "ru": {
+    "A1": [
+      "Тогда в СЛЕЙТПОРТ!"
+    ],
+    "A2": [
+      "Тогда в СЛЕЙТПОРТ!"
+    ],
+    "natural": [
+      "Тогда в СЛЕЙТПОРТ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dann nach GRAPHITPORT!"
+    ],
+    "A2": [
+      "Dann nach GRAPHITPORT!"
+    ],
+    "natural": [
+      "Dann nach GRAPHITPORT!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineEFourB",
+  "base_symbol": "BattleTower_Outside_Text_199E4B",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Please board the ferry and wait for departure."
+  ],
+  "ru": {
+    "A1": [
+      "Поднимайся на паром и жди отправления."
+    ],
+    "A2": [
+      "Поднимайся на паром и жди отправления."
+    ],
+    "natural": [
+      "Поднимайся на паром и жди отправления."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Geh an Bord und warte auf die Abfahrt."
+    ],
+    "A2": [
+      "Geh an Bord und warte auf die Abfahrt."
+    ],
+    "natural": [
+      "Geh an Bord und warte auf die Abfahrt."
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineEZeroE",
+  "base_symbol": "BattleTower_Outside_Text_199E0E",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "LILYCOVE CITY it is, then!"
+  ],
+  "ru": {
+    "A1": [
+      "Тогда в ЛИЛИКОВ!"
+    ],
+    "A2": [
+      "Тогда в ЛИЛИКОВ!"
+    ],
+    "natural": [
+      "Тогда в ЛИЛИКОВ!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dann nach SEEGRASULB!"
+    ],
+    "A2": [
+      "Dann nach SEEGRASULB!"
+    ],
+    "natural": [
+      "Dann nach SEEGRASULB!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineESevenA",
+  "base_symbol": "BattleTower_Outside_Text_199E7A",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Then, where would you like to go?"
+  ],
+  "ru": {
+    "A1": [
+      "Куда ты хочешь отправиться?"
+    ],
+    "A2": [
+      "Куда ты хочешь отправиться?"
+    ],
+    "natural": [
+      "Куда ты хочешь отправиться?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wohin möchtest du fahren?"
+    ],
+    "A2": [
+      "Wohin möchtest du fahren?"
+    ],
+    "natural": [
+      "Wohin möchtest du fahren?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineETwoNine",
+  "base_symbol": "BattleTower_Outside_Text_199E29",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Please sail with us another time!"
+  ],
+  "ru": {
+    "A1": [
+      "Приходи поплавать в другой раз!"
+    ],
+    "A2": [
+      "Приходи поплавать в другой раз!"
+    ],
+    "natural": [
+      "Приходи поплавать в другой раз!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Fahr ein anderes Mal mit uns!"
+    ],
+    "A2": [
+      "Fahr ein anderes Mal mit uns!"
+    ],
+    "natural": [
+      "Fahr ein anderes Mal mit uns!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineCSixF",
+  "base_symbol": "BattleTower_Outside_Text_199C6F",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "BATTLE TOWER “Win it all and be the best, TRAINERS!”"
+  ],
+  "ru": {
+    "A1": [
+      "БАШНЯ БИТВ Победи всех и стань лучшим!"
+    ],
+    "A2": [
+      "БАШНЯ БИТВ Победи всех и стань лучшим!"
+    ],
+    "natural": [
+      "БАШНЯ БИТВ Победи всех и стань лучшим!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "DUELLTURM Besiege alle und sei der Beste!"
+    ],
+    "A2": [
+      "DUELLTURM Besiege alle und sei der Beste!"
+    ],
+    "natural": [
+      "DUELLTURM Besiege alle und sei der Beste!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineCAFour",
+  "base_symbol": "BattleTower_Outside_Text_199CA4",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "This is the BATTLE TOWER. TRAINERS bring their best-raised POKéMON for elimination-style matches."
+  ],
+  "ru": {
+    "A1": [
+      "Это БАШНЯ БИТВ. Тренеры приводят лучших покемонов на бои на вылет."
+    ],
+    "A2": [
+      "Это БАШНЯ БИТВ. Тренеры приводят лучших покемонов на бои на вылет."
+    ],
+    "natural": [
+      "Это БАШНЯ БИТВ. Тренеры приводят лучших покемонов на бои на вылет."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Das ist der DUELLTURM. Trainer bringen ihre besten Pokémon zu Ausscheidungskämpfen."
+    ],
+    "A2": [
+      "Das ist der DUELLTURM. Trainer bringen ihre besten Pokémon zu Ausscheidungskämpfen."
+    ],
+    "natural": [
+      "Das ist der DUELLTURM. Trainer bringen ihre besten Pokémon zu Ausscheidungskämpfen."
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineENineC",
+  "base_symbol": "BattleTower_Outside_Text_199E9C",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I'm not leaving until I've beaten 35 TRAINERS in a row!"
+  ],
+  "ru": {
+    "A1": [
+      "Не уйду, пока не одолею 35 тренеров подряд!"
+    ],
+    "A2": [
+      "Не уйду, пока не одолею 35 тренеров подряд!"
+    ],
+    "natural": [
+      "Не уйду, пока не одолею 35 тренеров подряд!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich gehe erst, wenn ich 35 Trainer in Folge besiegt habe!"
+    ],
+    "A2": [
+      "Ich gehe erst, wenn ich 35 Trainer in Folge besiegt habe!"
+    ],
+    "natural": [
+      "Ich gehe erst, wenn ich 35 Trainer in Folge besiegt habe!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerOutsideTextOneNineNineEDFour",
+  "base_symbol": "BattleTower_Outside_Text_199ED4",
+  "source_path": "data/maps/BattleTower_Outside/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Gee, there're a lot of tough-looking TRAINERS here. I'm not good enough to enter yet..."
+  ],
+  "ru": {
+    "A1": [
+      "Здесь много сильных на вид тренеров. Мне пока рано..."
+    ],
+    "A2": [
+      "Здесь много сильных на вид тренеров. Мне пока рано..."
+    ],
+    "natural": [
+      "Здесь много сильных на вид тренеров. Мне пока рано..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier sind viele starke Trainer. Ich bin noch nicht so weit..."
+    ],
+    "A2": [
+      "Hier sind viele starke Trainer. Ich bin noch nicht so weit..."
+    ],
+    "natural": [
+      "Hier sind viele starke Trainer. Ich bin noch nicht so weit..."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAThreeFD",
+  "base_symbol": "BattleTower_Lobby_Text_19A3FD",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Excuse me! You didn't save before you quit your challenge last time. Because of that, your challenge so far has been disqualified. Sorry!"
+  ],
+  "ru": {
+    "A1": [
+      "В прошлый раз игра не была сохранена перед выходом. Поэтому тот вызов отменён. Прости!"
+    ],
+    "A2": [
+      "В прошлый раз игра не была сохранена перед выходом. Поэтому тот вызов отменён. Прости!"
+    ],
+    "natural": [
+      "В прошлый раз игра не была сохранена перед выходом. Поэтому тот вызов отменён. Прости!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Letztes Mal hast du vor dem Beenden nicht gespeichert. Darum ist der Versuch ungültig. Tut mir leid!"
+    ],
+    "A2": [
+      "Letztes Mal hast du vor dem Beenden nicht gespeichert. Darum ist der Versuch ungültig. Tut mir leid!"
+    ],
+    "natural": [
+      "Letztes Mal hast du vor dem Beenden nicht gespeichert. Darum ist der Versuch ungültig. Tut mir leid!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFourEightSeven",
+  "base_symbol": "BattleTower_Lobby_Text_19A487",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Congratulations! You've beaten all seven TRAINERS!"
+  ],
+  "ru": {
+    "A1": [
+      "Поздравляю! Ты победил всех семерых тренеров!"
+    ],
+    "A2": [
+      "Поздравляю! Ты победил всех семерых тренеров!"
+    ],
+    "natural": [
+      "Поздравляю! Ты победил всех семерых тренеров!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Glückwunsch! Du hast alle sieben Trainer besiegt!"
+    ],
+    "A2": [
+      "Glückwunsch! Du hast alle sieben Trainer besiegt!"
+    ],
+    "natural": [
+      "Glückwunsch! Du hast alle sieben Trainer besiegt!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineASixBE",
+  "base_symbol": "BattleTower_Lobby_Text_19A6BE",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Here are some RIBBONS for beating seven tough TRAINERS in a row. you received some RIBBONS!"
+  ],
+  "ru": {
+    "A1": [
+      "Вот ленты за семь побед над сильными тренерами. {PLAYER} получает ленты!"
+    ],
+    "A2": [
+      "Вот ленты за семь побед над сильными тренерами. {PLAYER} получает ленты!"
+    ],
+    "natural": [
+      "Вот ленты за семь побед над сильными тренерами. {PLAYER} получает ленты!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hier sind Bänder für sieben Siege gegen starke Trainer. {PLAYER} erhält die Bänder!"
+    ],
+    "A2": [
+      "Hier sind Bänder für sieben Siege gegen starke Trainer. {PLAYER} erhält die Bänder!"
+    ],
+    "natural": [
+      "Hier sind Bänder für sieben Siege gegen starke Trainer. {PLAYER} erhält die Bänder!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineASevenOneNine",
+  "base_symbol": "BattleTower_Lobby_Text_19A719",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "you put the RIBBONS on the challenger POKéMON."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} надевает ленты на покемонов-участников."
+    ],
+    "A2": [
+      "{PLAYER} надевает ленты на покемонов-участников."
+    ],
+    "natural": [
+      "{PLAYER} надевает ленты на покемонов-участников."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} gibt den teilnehmenden Pokémon die Bänder."
+    ],
+    "A2": [
+      "{PLAYER} gibt den teilnehmenden Pokémon die Bänder."
+    ],
+    "natural": [
+      "{PLAYER} gibt den teilnehmenden Pokémon die Bänder."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFiveEightNine",
+  "base_symbol": "BattleTower_Lobby_Text_19A589",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Your record will be saved. Please wait."
+  ],
+  "ru": {
+    "A1": [
+      "Рекорд будет сохранён. Подожди."
+    ],
+    "A2": [
+      "Рекорд будет сохранён. Подожди."
+    ],
+    "natural": [
+      "Рекорд будет сохранён. Подожди."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein Rekord wird gespeichert. Bitte warte."
+    ],
+    "A2": [
+      "Dein Rekord wird gespeichert. Bitte warte."
+    ],
+    "natural": [
+      "Dein Rekord wird gespeichert. Bitte warte."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFourBB",
+  "base_symbol": "BattleTower_Lobby_Text_19A4BB",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "For beating seven TRAINERS in a row, you have earned this fabulous prize!"
+  ],
+  "ru": {
+    "A1": [
+      "За семь побед подряд ты получаешь великолепный приз!"
+    ],
+    "A2": [
+      "За семь побед подряд ты получаешь великолепный приз!"
+    ],
+    "natural": [
+      "За семь побед подряд ты получаешь великолепный приз!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Für sieben Siege in Folge erhältst du diesen tollen Preis!"
+    ],
+    "A2": [
+      "Für sieben Siege in Folge erhältst du diesen tollen Preis!"
+    ],
+    "natural": [
+      "Für sieben Siege in Folge erhältst du diesen tollen Preis!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFiveZeroSix",
+  "base_symbol": "BattleTower_Lobby_Text_19A506",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "you received the prize the value."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} получает приз: {STR_VAR_1}!"
+    ],
+    "A2": [
+      "{PLAYER} получает приз: {STR_VAR_1}!"
+    ],
+    "natural": [
+      "{PLAYER} получает приз: {STR_VAR_1}!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} erhält den Preis: {STR_VAR_1}!"
+    ],
+    "A2": [
+      "{PLAYER} erhält den Preis: {STR_VAR_1}!"
+    ],
+    "natural": [
+      "{PLAYER} erhält den Preis: {STR_VAR_1}!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineASixOneSeven",
+  "base_symbol": "BattleTower_Lobby_Text_19A617",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "You're finally about to face the 50th TRAINER. From here on, every time you beat seven TRAINERS in a row, your POKéMON will receive a commemorative RIBBON. Good luck!"
+  ],
+  "ru": {
+    "A1": [
+      "Сейчас будет бой с 50-м тренером. Отныне за каждые семь побед подряд покемоны получат ленты. Удачи!"
+    ],
+    "A2": [
+      "Сейчас будет бой с 50-м тренером. Отныне за каждые семь побед подряд покемоны получат ленты. Удачи!"
+    ],
+    "natural": [
+      "Сейчас будет бой с 50-м тренером. Отныне за каждые семь побед подряд покемоны получат ленты. Удачи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Nun kommt der 50. Trainer. Ab jetzt erhalten deine Pokémon für je sieben Siege in Folge Erinnerungsbänder. Viel Glück!"
+    ],
+    "A2": [
+      "Nun kommt der 50. Trainer. Ab jetzt erhalten deine Pokémon für je sieben Siege in Folge Erinnerungsbänder. Viel Glück!"
+    ],
+    "natural": [
+      "Nun kommt der 50. Trainer. Ab jetzt erhalten deine Pokémon für je sieben Siege in Folge Erinnerungsbänder. Viel Glück!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineNineFANine",
+  "base_symbol": "BattleTower_Lobby_Text_199FA9",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "We'll be looking forward to your next challenge."
+  ],
+  "ru": {
+    "A1": [
+      "Ждём твоего следующего вызова."
+    ],
+    "A2": [
+      "Ждём твоего следующего вызова."
+    ],
+    "natural": [
+      "Ждём твоего следующего вызова."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir freuen uns auf deinen nächsten Versuch."
+    ],
+    "A2": [
+      "Wir freuen uns auf deinen nächsten Versuch."
+    ],
+    "natural": [
+      "Wir freuen uns auf deinen nächsten Versuch."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFiveTwoZero",
+  "base_symbol": "BattleTower_Lobby_Text_19A520",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, your BAG appears to be full. Please make room in your BAG, then come see me."
+  ],
+  "ru": {
+    "A1": [
+      "Похоже, сумка полна. Освободи место и возвращайся."
+    ],
+    "A2": [
+      "Похоже, сумка полна. Освободи место и возвращайся."
+    ],
+    "natural": [
+      "Похоже, сумка полна. Освободи место и возвращайся."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein Beutel scheint voll zu sein. Mach Platz und komm wieder."
+    ],
+    "A2": [
+      "Dein Beutel scheint voll zu sein. Mach Platz und komm wieder."
+    ],
+    "natural": [
+      "Dein Beutel scheint voll zu sein. Mach Platz und komm wieder."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFiveSevenOne",
+  "base_symbol": "BattleTower_Lobby_Text_19A571",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Thank you for playing!"
+  ],
+  "ru": {
+    "A1": [
+      "Спасибо за участие!"
+    ],
+    "A2": [
+      "Спасибо за участие!"
+    ],
+    "natural": [
+      "Спасибо за участие!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Danke fürs Mitmachen!"
+    ],
+    "A2": [
+      "Danke fürs Mitmachen!"
+    ],
+    "natural": [
+      "Danke fürs Mitmachen!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFiveBOne",
+  "base_symbol": "BattleTower_Lobby_Text_19A5B1",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "We've been waiting for you!"
+  ],
+  "ru": {
+    "A1": [
+      "Мы ждали тебя!"
+    ],
+    "A2": [
+      "Мы ждали тебя!"
+    ],
+    "natural": [
+      "Мы ждали тебя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir haben auf dich gewartet!"
+    ],
+    "A2": [
+      "Wir haben auf dich gewartet!"
+    ],
+    "natural": [
+      "Wir haben auf dich gewartet!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAFiveCE",
+  "base_symbol": "BattleTower_Lobby_Text_19A5CE",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Before entering a BATTLE ROOM, your progress will be saved. Please wait."
+  ],
+  "ru": {
+    "A1": [
+      "Перед входом игра будет сохранена. Подожди."
+    ],
+    "A2": [
+      "Перед входом игра будет сохранена. Подожди."
+    ],
+    "natural": [
+      "Перед входом игра будет сохранена. Подожди."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vor dem Eintritt wird gespeichert. Bitte warte."
+    ],
+    "A2": [
+      "Vor dem Eintritt wird gespeichert. Bitte warte."
+    ],
+    "natural": [
+      "Vor dem Eintritt wird gespeichert. Bitte warte."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAZeroAEight",
+  "base_symbol": "BattleTower_Lobby_Text_19A0A8",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I'll direct you to your BATTLE ROOM now."
+  ],
+  "ru": {
+    "A1": [
+      "Сейчас я провожу тебя в зал."
+    ],
+    "A2": [
+      "Сейчас я провожу тебя в зал."
+    ],
+    "natural": [
+      "Сейчас я провожу тебя в зал."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich führe dich nun zum Kampfraum."
+    ],
+    "A2": [
+      "Ich führe dich nun zum Kampfraum."
+    ],
+    "natural": [
+      "Ich führe dich nun zum Kampfraum."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineNineFTwoC",
+  "base_symbol": "BattleTower_Lobby_Text_199F2C",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Welcome to the BATTLE TOWER! Please register with me to enter a BATTLE ROOM."
+  ],
+  "ru": {
+    "A1": [
+      "Добро пожаловать в БАШНЮ БИТВ! Зарегистрируйся, чтобы войти в зал битв."
+    ],
+    "A2": [
+      "Добро пожаловать в БАШНЮ БИТВ! Зарегистрируйся, чтобы войти в зал битв."
+    ],
+    "natural": [
+      "Добро пожаловать в БАШНЮ БИТВ! Зарегистрируйся, чтобы войти в зал битв."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen im DUELLTURM! Melde dich an, um einen Kampfraum zu betreten."
+    ],
+    "A2": [
+      "Willkommen im DUELLTURM! Melde dich an, um einen Kampfraum zu betreten."
+    ],
+    "natural": [
+      "Willkommen im DUELLTURM! Melde dich an, um einen Kampfraum zu betreten."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineNineFSevenNine",
+  "base_symbol": "BattleTower_Lobby_Text_199F79",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Would you like to make a BATTLE ROOM challenge?"
+  ],
+  "ru": {
+    "A1": [
+      "Хочешь принять вызов зала битв?"
+    ],
+    "A2": [
+      "Хочешь принять вызов зала битв?"
+    ],
+    "natural": [
+      "Хочешь принять вызов зала битв?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Möchtest du einen Kampfraum herausfordern?"
+    ],
+    "A2": [
+      "Möchtest du einen Kampfraum herausfordern?"
+    ],
+    "natural": [
+      "Möchtest du einen Kampfraum herausfordern?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAZeroTwoFour",
+  "base_symbol": "BattleTower_Lobby_Text_19A024",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "There are two BATTLE ROOMS, Level 50 and Level 100. Which would you like to challenge?"
+  ],
+  "ru": {
+    "A1": [
+      "Есть два зала: уровень 50 и уровень 100. Какой выберешь?"
+    ],
+    "A2": [
+      "Есть два зала: уровень 50 и уровень 100. Какой выберешь?"
+    ],
+    "natural": [
+      "Есть два зала: уровень 50 и уровень 100. Какой выберешь?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Es gibt zwei Räume: Level 50 und Level 100. Welchen nimmst du?"
+    ],
+    "A2": [
+      "Es gibt zwei Räume: Level 50 und Level 100. Welchen nimmst du?"
+    ],
+    "natural": [
+      "Es gibt zwei Räume: Level 50 und Level 100. Welchen nimmst du?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAZeroSevenB",
+  "base_symbol": "BattleTower_Lobby_Text_19A07B",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Please select the POKéMON you wish to enter."
+  ],
+  "ru": {
+    "A1": [
+      "Выбери покемонов для участия."
+    ],
+    "A2": [
+      "Выбери покемонов для участия."
+    ],
+    "natural": [
+      "Выбери покемонов для участия."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wähle deine teilnehmenden Pokémon aus."
+    ],
+    "A2": [
+      "Wähle deine teilnehmenden Pokémon aus."
+    ],
+    "natural": [
+      "Wähle deine teilnehmenden Pokémon aus."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineNineFDA",
+  "base_symbol": "BattleTower_Lobby_Text_199FDA",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Before entering a BATTLE ROOM, your progress must be saved. Is that okay?"
+  ],
+  "ru": {
+    "A1": [
+      "Перед входом нужно сохранить игру. Хорошо?"
+    ],
+    "A2": [
+      "Перед входом нужно сохранить игру. Хорошо?"
+    ],
+    "natural": [
+      "Перед входом нужно сохранить игру. Хорошо?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Vor dem Eintritt wird gespeichert. Ist das okay?"
+    ],
+    "A2": [
+      "Vor dem Eintritt wird gespeichert. Ist das okay?"
+    ],
+    "natural": [
+      "Vor dem Eintritt wird gespeichert. Ist das okay?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAZeroDOne",
+  "base_symbol": "BattleTower_Lobby_Text_19A0D1",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "The BATTLE TOWER is a facility made especially for POKéMON battles. Within the TOWER are many BATTLE ROOMS. In each BATTLE ROOM, seven TRAINERS await your challenge. Beat all seven, and you will be rewarded with a fabulous prize. You may also take a break from your challenge by saving your progress. Make sure you save properly or you won't be able to resume your challenge."
+  ],
+  "ru": {
+    "A1": [
+      "БАШНЯ БИТВ создана для боёв покемонов. В каждом зале ждут семь тренеров. Победи всех - получишь отличный приз. Можно сделать перерыв, сохранив игру. Сохраняйся правильно, иначе продолжить не получится."
+    ],
+    "A2": [
+      "БАШНЯ БИТВ создана для боёв покемонов. В каждом зале ждут семь тренеров. Победи всех - получишь отличный приз. Можно сделать перерыв, сохранив игру. Сохраняйся правильно, иначе продолжить не получится."
+    ],
+    "natural": [
+      "БАШНЯ БИТВ создана для боёв покемонов. В каждом зале ждут семь тренеров. Победи всех - получишь отличный приз. Можно сделать перерыв, сохранив игру. Сохраняйся правильно, иначе продолжить не получится."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im DUELLTURM finden Pokémon-Kämpfe statt. Sieben Trainer warten. Besiege alle für einen Preis. Speichere für eine Pause. Ohne korrektes Speichern kannst du nicht fortsetzen."
+    ],
+    "A2": [
+      "Im DUELLTURM finden Pokémon-Kämpfe statt. Sieben Trainer warten. Besiege alle für einen Preis. Speichere für eine Pause. Ohne korrektes Speichern kannst du nicht fortsetzen."
+    ],
+    "natural": [
+      "Im DUELLTURM finden Pokémon-Kämpfe statt. Sieben Trainer warten. Besiege alle für einen Preis. Speichere für eine Pause. Ohne korrektes Speichern kannst du nicht fortsetzen."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineATwoFourNine",
+  "base_symbol": "BattleTower_Lobby_Text_19A249",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Excuse me! You don't have three eligible POKéMON. You must have three different POKéMON of Level 50 or less to enter. They also must be holding different kinds of items. EGGSthe value ineligible. Please come see me when you are ready."
+  ],
+  "ru": {
+    "A1": [
+      "Извини! Нужны три разных подходящих покемона до уровня 50. У них должны быть разные предметы. Яйца{STR_VAR_1} не допускаются. Возвращайся, когда будешь готов."
+    ],
+    "A2": [
+      "Извини! Нужны три разных подходящих покемона до уровня 50. У них должны быть разные предметы. Яйца{STR_VAR_1} не допускаются. Возвращайся, когда будешь готов."
+    ],
+    "natural": [
+      "Извини! Нужны три разных подходящих покемона до уровня 50. У них должны быть разные предметы. Яйца{STR_VAR_1} не допускаются. Возвращайся, когда будешь готов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verzeihung! Du brauchst drei verschiedene Pokémon bis Level 50. Sie müssen verschiedene Items tragen. Eier{STR_VAR_1} nicht zugelassen. Komm wieder, wenn du bereit bist."
+    ],
+    "A2": [
+      "Verzeihung! Du brauchst drei verschiedene Pokémon bis Level 50. Sie müssen verschiedene Items tragen. Eier{STR_VAR_1} nicht zugelassen. Komm wieder, wenn du bereit bist."
+    ],
+    "natural": [
+      "Verzeihung! Du brauchst drei verschiedene Pokémon bis Level 50. Sie müssen verschiedene Items tragen. Eier{STR_VAR_1} nicht zugelassen. Komm wieder, wenn du bereit bist."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAThreeTwoD",
+  "base_symbol": "BattleTower_Lobby_Text_19A32D",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Excuse me! You don't have three eligible POKéMON. You must have three different POKéMON to enter. They also must be holding different kinds of items. EGGSthe value ineligible. Please come see me when you are ready."
+  ],
+  "ru": {
+    "A1": [
+      "Извини! Нужны три разных подходящих покемона. У них должны быть разные предметы. Яйца{STR_VAR_1} не допускаются. Возвращайся, когда будешь готов."
+    ],
+    "A2": [
+      "Извини! Нужны три разных подходящих покемона. У них должны быть разные предметы. Яйца{STR_VAR_1} не допускаются. Возвращайся, когда будешь готов."
+    ],
+    "natural": [
+      "Извини! Нужны три разных подходящих покемона. У них должны быть разные предметы. Яйца{STR_VAR_1} не допускаются. Возвращайся, когда будешь готов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verzeihung! Du brauchst drei verschiedene geeignete Pokémon. Sie müssen verschiedene Items tragen. Eier{STR_VAR_1} nicht zugelassen. Komm wieder, wenn du bereit bist."
+    ],
+    "A2": [
+      "Verzeihung! Du brauchst drei verschiedene geeignete Pokémon. Sie müssen verschiedene Items tragen. Eier{STR_VAR_1} nicht zugelassen. Komm wieder, wenn du bereit bist."
+    ],
+    "natural": [
+      "Verzeihung! Du brauchst drei verschiedene geeignete Pokémon. Sie müssen verschiedene Items tragen. Eier{STR_VAR_1} nicht zugelassen. Komm wieder, wenn du bereit bist."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineASevenFourSeven",
+  "base_symbol": "BattleTower_Lobby_Text_19A747",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Hello, hello! You're going to battle here, right? Can you tell me what's going through your mind as you prepare for battle?"
+  ],
+  "ru": {
+    "A1": [
+      "Привет! Будешь здесь сражаться? Что у тебя на уме перед боем?"
+    ],
+    "A2": [
+      "Привет! Будешь здесь сражаться? Что у тебя на уме перед боем?"
+    ],
+    "natural": [
+      "Привет! Будешь здесь сражаться? Что у тебя на уме перед боем?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo! Du kämpfst hier, oder? Was geht dir vor dem Kampf durch den Kopf?"
+    ],
+    "A2": [
+      "Hallo! Du kämpfst hier, oder? Was geht dir vor dem Kampf durch den Kopf?"
+    ],
+    "natural": [
+      "Hallo! Du kämpfst hier, oder? Was geht dir vor dem Kampf durch den Kopf?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineASevenCThree",
+  "base_symbol": "BattleTower_Lobby_Text_19A7C3",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, wow, you'll tell me? Great! Then, what's your answer?"
+  ],
+  "ru": {
+    "A1": [
+      "Правда расскажешь? Отлично! Каков твой ответ?"
+    ],
+    "A2": [
+      "Правда расскажешь? Отлично! Каков твой ответ?"
+    ],
+    "natural": [
+      "Правда расскажешь? Отлично! Каков твой ответ?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du sagst es mir? Toll! Wie lautet deine Antwort?"
+    ],
+    "A2": [
+      "Du sagst es mir? Toll! Wie lautet deine Antwort?"
+    ],
+    "natural": [
+      "Du sagst es mir? Toll! Wie lautet deine Antwort?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineASevenFD",
+  "base_symbol": "BattleTower_Lobby_Text_19A7FD",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, so you don't think much about it? You're one cool customer."
+  ],
+  "ru": {
+    "A1": [
+      "Значит, ты особо не думаешь? Вот это спокойствие."
+    ],
+    "A2": [
+      "Значит, ты особо не думаешь? Вот это спокойствие."
+    ],
+    "natural": [
+      "Значит, ты особо не думаешь? Вот это спокойствие."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du denkst nicht viel darüber nach? Du bleibst wirklich cool."
+    ],
+    "A2": [
+      "Du denkst nicht viel darüber nach? Du bleibst wirklich cool."
+    ],
+    "natural": [
+      "Du denkst nicht viel darüber nach? Du bleibst wirklich cool."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAEightThreeD",
+  "base_symbol": "BattleTower_Lobby_Text_19A83D",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Hunh? You changed your mind? I guess you're fickle."
+  ],
+  "ru": {
+    "A1": [
+      "Что? Передумал? Ты непостоянен."
+    ],
+    "A2": [
+      "Что? Передумал? Ты непостоянен."
+    ],
+    "natural": [
+      "Что? Передумал? Ты непостоянен."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Was? Du hast es dir anders überlegt? Ganz schön wechselhaft."
+    ],
+    "A2": [
+      "Was? Du hast es dir anders überlegt? Ganz schön wechselhaft."
+    ],
+    "natural": [
+      "Was? Du hast es dir anders überlegt? Ganz schön wechselhaft."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAEightSevenOne",
+  "base_symbol": "BattleTower_Lobby_Text_19A871",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Okay, so that's how you feel? That's quite original. Thanks!"
+  ],
+  "ru": {
+    "A1": [
+      "Вот как ты себя чувствуешь? Очень необычно. Спасибо!"
+    ],
+    "A2": [
+      "Вот как ты себя чувствуешь? Очень необычно. Спасибо!"
+    ],
+    "natural": [
+      "Вот как ты себя чувствуешь? Очень необычно. Спасибо!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "So fühlst du dich also? Sehr originell. Danke!"
+    ],
+    "A2": [
+      "So fühlst du dich also? Sehr originell. Danke!"
+    ],
+    "natural": [
+      "So fühlst du dich also? Sehr originell. Danke!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAEightAE",
+  "base_symbol": "BattleTower_Lobby_Text_19A8AE",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "The number of matches you win in a row is recorded. The record is posted beside the registration counter. It's also on the back of your TRAINER'S CARD."
+  ],
+  "ru": {
+    "A1": [
+      "Число побед подряд записывается. Рекорд висит у стойки и указан на обратной стороне карты тренера."
+    ],
+    "A2": [
+      "Число побед подряд записывается. Рекорд висит у стойки и указан на обратной стороне карты тренера."
+    ],
+    "natural": [
+      "Число побед подряд записывается. Рекорд висит у стойки и указан на обратной стороне карты тренера."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine Siegesserie wird erfasst. Der Rekord steht am Schalter und auf der Rückseite des Trainerpasses."
+    ],
+    "A2": [
+      "Deine Siegesserie wird erfasst. Der Rekord steht am Schalter und auf der Rückseite des Trainerpasses."
+    ],
+    "natural": [
+      "Deine Siegesserie wird erfasst. Der Rekord steht am Schalter und auf der Rückseite des Trainerpasses."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineANineFourSix",
+  "base_symbol": "BattleTower_Lobby_Text_19A946",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Once you've entered the BATTLE TOWER, you can't leave until you either lose or you beat seven TRAINERS in a row. You'd best be certain that you're up to the challenge."
+  ],
+  "ru": {
+    "A1": [
+      "Войдя в БАШНЮ, нельзя уйти, пока не проиграешь или не победишь семь раз подряд. Будь уверен в своих силах."
+    ],
+    "A2": [
+      "Войдя в БАШНЮ, нельзя уйти, пока не проиграешь или не победишь семь раз подряд. Будь уверен в своих силах."
+    ],
+    "natural": [
+      "Войдя в БАШНЮ, нельзя уйти, пока не проиграешь или не победишь семь раз подряд. Будь уверен в своих силах."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Im DUELLTURM kannst du erst gehen, wenn du verlierst oder siebenmal in Folge gewinnst. Sei dir deiner Stärke sicher."
+    ],
+    "A2": [
+      "Im DUELLTURM kannst du erst gehen, wenn du verlierst oder siebenmal in Folge gewinnst. Sei dir deiner Stärke sicher."
+    ],
+    "natural": [
+      "Im DUELLTURM kannst du erst gehen, wenn du verlierst oder siebenmal in Folge gewinnst. Sei dir deiner Stärke sicher."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineANineEE",
+  "base_symbol": "BattleTower_Lobby_Text_19A9EE",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Hahahaha! Pure magnificence! Pure magnificence indeed! Do you realize what you've achieved? You've beaten 50 TRAINERS in a row! Yes, purely magnificent! As the OWNER of the BATTLE TOWER, let me give you a memento!"
+  ],
+  "ru": {
+    "A1": [
+      "Ха-ха! Великолепно! Ты победил 50 раз подряд! Как владелец БАШНИ БИТВ я дарю тебе сувенир!"
+    ],
+    "A2": [
+      "Ха-ха! Великолепно! Ты победил 50 раз подряд! Как владелец БАШНИ БИТВ я дарю тебе сувенир!"
+    ],
+    "natural": [
+      "Ха-ха! Великолепно! Ты победил 50 раз подряд! Как владелец БАШНИ БИТВ я дарю тебе сувенир!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Haha! Großartig! Du hast 50 Trainer in Folge besiegt! Als Besitzer des DUELLTURMS schenke ich dir ein Andenken!"
+    ],
+    "A2": [
+      "Haha! Großartig! Du hast 50 Trainer in Folge besiegt! Als Besitzer des DUELLTURMS schenke ich dir ein Andenken!"
+    ],
+    "natural": [
+      "Haha! Großartig! Du hast 50 Trainer in Folge besiegt! Als Besitzer des DUELLTURMS schenke ich dir ein Andenken!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineABAA",
+  "base_symbol": "BattleTower_Lobby_Text_19ABAA",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I suggest you keep it displayed. It will surely attract attention."
+  ],
+  "ru": {
+    "A1": [
+      "Советую выставить его на виду. Он привлечёт внимание."
+    ],
+    "A2": [
+      "Советую выставить его на виду. Он привлечёт внимание."
+    ],
+    "natural": [
+      "Советую выставить его на виду. Он привлечёт внимание."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Stell es gut sichtbar auf. Es wird sicher auffallen."
+    ],
+    "A2": [
+      "Stell es gut sichtbar auf. Es wird sicher auffallen."
+    ],
+    "natural": [
+      "Stell es gut sichtbar auf. Es wird sicher auffallen."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineAACFour",
+  "base_symbol": "BattleTower_Lobby_Text_19AAC4",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Wahahaha! Pure magnificence! Absolutely pure magnificence indeed! Do you realize what you've achieved? You've beaten 100 TRAINERS in a row! Yes, absolutely magnificent! As the OWNER of the BATTLE TOWER, let me give you a memento!"
+  ],
+  "ru": {
+    "A1": [
+      "Ха-ха! Невероятно! Ты победил 100 раз подряд! Как владелец БАШНИ БИТВ я дарю тебе сувенир!"
+    ],
+    "A2": [
+      "Ха-ха! Невероятно! Ты победил 100 раз подряд! Как владелец БАШНИ БИТВ я дарю тебе сувенир!"
+    ],
+    "natural": [
+      "Ха-ха! Невероятно! Ты победил 100 раз подряд! Как владелец БАШНИ БИТВ я дарю тебе сувенир!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Haha! Unglaublich! Du hast 100 Trainer in Folge besiegt! Als Besitzer des DUELLTURMS schenke ich dir ein Andenken!"
+    ],
+    "A2": [
+      "Haha! Unglaublich! Du hast 100 Trainer in Folge besiegt! Als Besitzer des DUELLTURMS schenke ich dir ein Andenken!"
+    ],
+    "natural": [
+      "Haha! Unglaublich! Du hast 100 Trainer in Folge besiegt! Als Besitzer des DUELLTURMS schenke ich dir ein Andenken!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineABED",
+  "base_symbol": "BattleTower_Lobby_Text_19ABED",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh? Your PC has no room for this... But it would be a shame to waste this... Please come back for this!"
+  ],
+  "ru": {
+    "A1": [
+      "О? На твоём ПК нет места... Жаль выбрасывать подарок. Вернись за ним позже!"
+    ],
+    "A2": [
+      "О? На твоём ПК нет места... Жаль выбрасывать подарок. Вернись за ним позже!"
+    ],
+    "natural": [
+      "О? На твоём ПК нет места... Жаль выбрасывать подарок. Вернись за ним позже!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh? Dein PC hat keinen Platz... Zum Wegwerfen ist es zu schade. Hol es später ab!"
+    ],
+    "A2": [
+      "Oh? Dein PC hat keinen Platz... Zum Wegwerfen ist es zu schade. Hol es später ab!"
+    ],
+    "natural": [
+      "Oh? Dein PC hat keinen Platz... Zum Wegwerfen ist es zu schade. Hol es später ab!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneNineACFiveFive",
+  "base_symbol": "BattleTower_Lobby_Text_19AC55",
+  "source_path": "data/maps/BattleTower_Lobby/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I'm overwhelmed with satisfaction after seeing your magnificent performance. It makes the building of the BATTLE TOWER all worthwhile!"
+  ],
+  "ru": {
+    "A1": [
+      "Твоё великолепное выступление переполняет меня гордостью. Строить БАШНЮ БИТВ стоило того!"
+    ],
+    "A2": [
+      "Твоё великолепное выступление переполняет меня гордостью. Строить БАШНЮ БИТВ стоило того!"
+    ],
+    "natural": [
+      "Твоё великолепное выступление переполняет меня гордостью. Строить БАШНЮ БИТВ стоило того!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Deine großartige Leistung macht mich sehr zufrieden. Der Bau des DUELLTURMS hat sich gelohnt!"
+    ],
+    "A2": [
+      "Deine großartige Leistung macht mich sehr zufrieden. Der Bau des DUELLTURMS hat sich gelohnt!"
+    ],
+    "natural": [
+      "Deine großartige Leistung macht mich sehr zufrieden. Der Bau des DUELLTURMS hat sich gelohnt!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenSevenSixD",
+  "base_symbol": "BattleTower_Lobby_Text_1A776D",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Hello! You're the TRAINER who just had a battle, right? I'm gathering interviews with TRAINERS all over the place. May I get a few words from you about your impressions on battling?"
+  ],
+  "ru": {
+    "A1": [
+      "Здравствуйте! Вы только что сражались? Я беру интервью у тренеров. Можно спросить о ваших впечатлениях?"
+    ],
+    "A2": [
+      "Здравствуйте! Вы только что сражались? Я беру интервью у тренеров. Можно спросить о ваших впечатлениях?"
+    ],
+    "natural": [
+      "Здравствуйте! Вы только что сражались? Я беру интервью у тренеров. Можно спросить о ваших впечатлениях?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hallo! Du hast gerade gekämpft, oder? Ich befrage Trainer. Darf ich nach deinen Eindrücken fragen?"
+    ],
+    "A2": [
+      "Hallo! Du hast gerade gekämpft, oder? Ich befrage Trainer. Darf ich nach deinen Eindrücken fragen?"
+    ],
+    "natural": [
+      "Hallo! Du hast gerade gekämpft, oder? Ich befrage Trainer. Darf ich nach deinen Eindrücken fragen?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenEightTwoThree",
+  "base_symbol": "BattleTower_Lobby_Text_1A7823",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "You will? Really? Thank you! Then, uh... How did things turn out in the BATTLE TOWER today? Were you satisfied with the battle? Or are you unhappy?"
+  ],
+  "ru": {
+    "A1": [
+      "Правда? Спасибо! Как прошли сегодняшние бои в Боевой башне? Вы довольны результатом?"
+    ],
+    "A2": [
+      "Правда? Спасибо! Как прошли сегодняшние бои в Боевой башне? Вы довольны результатом?"
+    ],
+    "natural": [
+      "Правда? Спасибо! Как прошли сегодняшние бои в Боевой башне? Вы довольны результатом?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wirklich? Danke! Wie liefen die heutigen Kämpfe im Duellturm? Bist du mit dem Ergebnis zufrieden?"
+    ],
+    "A2": [
+      "Wirklich? Danke! Wie liefen die heutigen Kämpfe im Duellturm? Bist du mit dem Ergebnis zufrieden?"
+    ],
+    "natural": [
+      "Wirklich? Danke! Wie liefen die heutigen Kämpfe im Duellturm? Bist du mit dem Ergebnis zufrieden?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenNineEB",
+  "base_symbol": "BattleTower_Lobby_Text_1A79EB",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, oh, may I ask one more question? If you were to describe your impressions about this battle with one saying, what would it be?"
+  ],
+  "ru": {
+    "A1": [
+      "Можно ещё один вопрос? Какими словами вы бы описали этот бой?"
+    ],
+    "A2": [
+      "Можно ещё один вопрос? Какими словами вы бы описали этот бой?"
+    ],
+    "natural": [
+      "Можно ещё один вопрос? Какими словами вы бы описали этот бой?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Noch eine Frage: Mit welchen Worten würdest du diesen Kampf beschreiben?"
+    ],
+    "A2": [
+      "Noch eine Frage: Mit welchen Worten würdest du diesen Kampf beschreiben?"
+    ],
+    "natural": [
+      "Noch eine Frage: Mit welchen Worten würdest du diesen Kampf beschreiben?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenEightBSeven",
+  "base_symbol": "BattleTower_Lobby_Text_1A78B7",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh... Sorry we disturbed you. Please give us an interview the next time you visit the BATTLE TOWER."
+  ],
+  "ru": {
+    "A1": [
+      "Понятно... Простите за беспокойство. Дайте нам интервью в следующий раз."
+    ],
+    "A2": [
+      "Понятно... Простите за беспокойство. Дайте нам интервью в следующий раз."
+    ],
+    "natural": [
+      "Понятно... Простите за беспокойство. Дайте нам интервью в следующий раз."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verstehe... Entschuldige die Störung. Gib uns beim nächsten Besuch bitte ein Interview."
+    ],
+    "A2": [
+      "Verstehe... Entschuldige die Störung. Gib uns beim nächsten Besuch bitte ein Interview."
+    ],
+    "natural": [
+      "Verstehe... Entschuldige die Störung. Gib uns beim nächsten Besuch bitte ein Interview."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenNineOneB",
+  "base_symbol": "BattleTower_Lobby_Text_1A791B",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Well, of course! That unmistakable look of satisfaction on your face... It's obvious that you've had a great battle."
+  ],
+  "ru": {
+    "A1": [
+      "Конечно! По вашему довольному лицу видно: бой был превосходным."
+    ],
+    "A2": [
+      "Конечно! По вашему довольному лицу видно: бой был превосходным."
+    ],
+    "natural": [
+      "Конечно! По вашему довольному лицу видно: бой был превосходным."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Natürlich! Dein zufriedenes Gesicht verrät es: Der Kampf war großartig."
+    ],
+    "A2": [
+      "Natürlich! Dein zufriedenes Gesicht verrät es: Der Kampf war großartig."
+    ],
+    "natural": [
+      "Natürlich! Dein zufriedenes Gesicht verrät es: Der Kampf war großartig."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenNineNineZero",
+  "base_symbol": "BattleTower_Lobby_Text_1A7990",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, I see... Well, it certainly is difficult to make a battle turn out exactly as planned."
+  ],
+  "ru": {
+    "A1": [
+      "Понятно... Нелегко провести бой точно по плану."
+    ],
+    "A2": [
+      "Понятно... Нелегко провести бой точно по плану."
+    ],
+    "natural": [
+      "Понятно... Нелегко провести бой точно по плану."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verstehe... Es ist nicht leicht, einen Kampf genau nach Plan zu führen."
+    ],
+    "A2": [
+      "Verstehe... Es ist nicht leicht, einen Kampf genau nach Plan zu führen."
+    ],
+    "natural": [
+      "Verstehe... Es ist nicht leicht, einen Kampf genau nach Plan zu führen."
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenASixE",
+  "base_symbol": "BattleTower_Lobby_Text_1A7A6E",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, that is stunningly cool! That's a great line! I hope you'll do great next time, too. I hope to see you again!"
+  ],
+  "ru": {
+    "A1": [
+      "Как здорово! Отличные слова. Желаю успеха и в следующий раз. До встречи!"
+    ],
+    "A2": [
+      "Как здорово! Отличные слова. Желаю успеха и в следующий раз. До встречи!"
+    ],
+    "natural": [
+      "Как здорово! Отличные слова. Желаю успеха и в следующий раз. До встречи!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie stark! Tolle Worte. Viel Erfolg beim nächsten Mal. Bis bald!"
+    ],
+    "A2": [
+      "Wie stark! Tolle Worte. Viel Erfolg beim nächsten Mal. Bis bald!"
+    ],
+    "natural": [
+      "Wie stark! Tolle Worte. Viel Erfolg beim nächsten Mal. Bis bald!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenAEZero",
+  "base_symbol": "BattleTower_Lobby_Text_1A7AE0",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, I see... Still, being the silent type is also cool, isn't it? I hope you'll give me the opportunity to share your thoughts again!"
+  ],
+  "ru": {
+    "A1": [
+      "Понятно... Молчаливые тренеры тоже круты. Надеюсь, в следующий раз вы поделитесь мыслями!"
+    ],
+    "A2": [
+      "Понятно... Молчаливые тренеры тоже круты. Надеюсь, в следующий раз вы поделитесь мыслями!"
+    ],
+    "natural": [
+      "Понятно... Молчаливые тренеры тоже круты. Надеюсь, в следующий раз вы поделитесь мыслями!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Verstehe... Schweigsame Trainer sind auch cool. Hoffentlich teilst du beim nächsten Mal deine Gedanken!"
+    ],
+    "A2": [
+      "Verstehe... Schweigsame Trainer sind auch cool. Hoffentlich teilst du beim nächsten Mal deine Gedanken!"
+    ],
+    "natural": [
+      "Verstehe... Schweigsame Trainer sind auch cool. Hoffentlich teilst du beim nächsten Mal deine Gedanken!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerLobbyTextOneASevenBSixSix",
+  "base_symbol": "BattleTower_Lobby_Text_1A7B66",
+  "source_path": "data/text/tv.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I'll be looking forward to your next battle!"
+  ],
+  "ru": {
+    "A1": [
+      "Буду ждать вашего следующего боя!"
+    ],
+    "A2": [
+      "Буду ждать вашего следующего боя!"
+    ],
+    "natural": [
+      "Буду ждать вашего следующего боя!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich freue mich auf deinen nächsten Kampf!"
+    ],
+    "A2": [
+      "Ich freue mich auf deinen nächsten Kampf!"
+    ],
+    "natural": [
+      "Ich freue mich auf deinen nächsten Kampf!"
+    ]
+  }
+},
+{
+  "id": "BattleTowerBattleRoomTextOneNineACDC",
+  "base_symbol": "BattleTower_BattleRoom_Text_19ACDC",
+  "source_path": "data/maps/BattleTower_BattleRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "We will restore your POKéMON to full health."
+  ],
+  "ru": {
+    "A1": [
+      "Мы полностью вылечим твоих покемонов."
+    ],
+    "A2": [
+      "Мы полностью вылечим твоих покемонов."
+    ],
+    "natural": [
+      "Мы полностью вылечим твоих покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wir heilen deine Pokémon vollständig."
+    ],
+    "A2": [
+      "Wir heilen deine Pokémon vollständig."
+    ],
+    "natural": [
+      "Wir heilen deine Pokémon vollständig."
+    ]
+  }
+},
+{
+  "id": "BattleTowerBattleRoomTextOneNineADZeroNine",
+  "base_symbol": "BattleTower_BattleRoom_Text_19AD09",
+  "source_path": "data/maps/BattleTower_BattleRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "You will be facing opponent no. the value. Are you ready?"
+  ],
+  "ru": {
+    "A1": [
+      "Твой следующий соперник: номер {STR_VAR_1}. Ты готов?"
+    ],
+    "A2": [
+      "Твой следующий соперник: номер {STR_VAR_1}. Ты готов?"
+    ],
+    "natural": [
+      "Твой следующий соперник: номер {STR_VAR_1}. Ты готов?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Dein nächster Gegner ist Nr. {STR_VAR_1}. Bist du bereit?"
+    ],
+    "A2": [
+      "Dein nächster Gegner ist Nr. {STR_VAR_1}. Bist du bereit?"
+    ],
+    "natural": [
+      "Dein nächster Gegner ist Nr. {STR_VAR_1}. Bist du bereit?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerBattleRoomTextOneNineADThreeC",
+  "base_symbol": "BattleTower_BattleRoom_Text_19AD3C",
+  "source_path": "data/maps/BattleTower_BattleRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Would you like to save and quit the game?"
+  ],
+  "ru": {
+    "A1": [
+      "Сохранить игру и выйти?"
+    ],
+    "A2": [
+      "Сохранить игру и выйти?"
+    ],
+    "natural": [
+      "Сохранить игру и выйти?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Speichern und das Spiel beenden?"
+    ],
+    "A2": [
+      "Speichern und das Spiel beenden?"
+    ],
+    "natural": [
+      "Speichern und das Spiel beenden?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerBattleRoomTextOneNineADSixSix",
+  "base_symbol": "BattleTower_BattleRoom_Text_19AD66",
+  "source_path": "data/maps/BattleTower_BattleRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Would you like to cancel your BATTLE ROOM challenge?"
+  ],
+  "ru": {
+    "A1": [
+      "Отменить вызов зала битв?"
+    ],
+    "A2": [
+      "Отменить вызов зала битв?"
+    ],
+    "natural": [
+      "Отменить вызов зала битв?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Die Kampfraum-Serie abbrechen?"
+    ],
+    "A2": [
+      "Die Kampfraum-Serie abbrechen?"
+    ],
+    "natural": [
+      "Die Kampfraum-Serie abbrechen?"
+    ]
+  }
+},
+{
+  "id": "BattleTowerBattleRoomTextOneCSixCEOne",
+  "base_symbol": "BattleTower_BattleRoom_Text_1C6CE1",
+  "source_path": "data/text/save.inc",
+  "adaptive_translation": true,
+  "english": [
+    "SAVING... DON'T TURN OFF THE POWER."
+  ],
+  "ru": {
+    "A1": [
+      "СОХРАНЕНИЕ... Не выключай питание."
+    ],
+    "A2": [
+      "СОХРАНЕНИЕ... Не выключай питание."
+    ],
+    "natural": [
+      "СОХРАНЕНИЕ... Не выключай питание."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "SPEICHERN... Schalte das Gerät nicht aus."
+    ],
+    "A2": [
+      "SPEICHERN... Schalte das Gerät nicht aus."
+    ],
+    "natural": [
+      "SPEICHERN... Schalte das Gerät nicht aus."
+    ]
+  }
+},
+{
+  "id": "BattleTowerBattleRoomTextOneCSixDZeroFive",
+  "base_symbol": "BattleTower_BattleRoom_Text_1C6D05",
+  "source_path": "data/text/save.inc",
+  "adaptive_translation": true,
+  "english": [
+    "you saved the game."
+  ],
+  "ru": {
+    "A1": [
+      "{PLAYER} сохраняет игру."
+    ],
+    "A2": [
+      "{PLAYER} сохраняет игру."
+    ],
+    "natural": [
+      "{PLAYER} сохраняет игру."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "башня",
+        "tower"
+      ]
+    ],
+    "de": [
+      [
+        "der Turm",
+        "tower"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "{PLAYER} hat das Spiel gespeichert."
+    ],
+    "A2": [
+      "{PLAYER} hat das Spiel gespeichert."
+    ],
+    "natural": [
+      "{PLAYER} hat das Spiel gespeichert."
+    ]
+  }
 }
   ]
 }

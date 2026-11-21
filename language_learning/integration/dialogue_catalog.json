@@ -57366,6 +57366,1279 @@
     "elite_four",
     "halloffame"
   ]
+},
+{
+  "id": "postgame.playershouse.1f.text.ticketfrombrineycameforyou.2867",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/scripts/players_house.inc",
+    "symbol": "PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV",
+    "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "base_text_symbol": "PlayersHouse_1F_Text_TicketFromBrineyCameForYou",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "PlayersHouseOneFTextTicketFromBrineyCameForYou"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2867
+  },
+  "tags": [
+    "postgame"
+  ]
+},
+{
+  "id": "postgame.playershouse.1f.text.portsinslateportlilycove.2868",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/scripts/players_house.inc",
+    "symbol": "PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV",
+    "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "base_text_symbol": "PlayersHouse_1F_Text_PortsInSlateportLilycove",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "PlayersHouseOneFTextPortsInSlateportLilycove"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2868
+  },
+  "tags": [
+    "postgame"
+  ]
+},
+{
+  "id": "postgame.playershouse.1f.text.bettergetbacktogym.2869",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/scripts/players_house.inc",
+    "symbol": "PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV",
+    "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "base_text_symbol": "PlayersHouse_1F_Text_BetterGetBackToGym",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "PlayersHouseOneFTextBetterGetBackToGym"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2869
+  },
+  "tags": [
+    "postgame"
+  ]
+},
+{
+  "id": "postgame.playershouse.1f.text.dadshouldstaylonger.2870",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/scripts/players_house.inc",
+    "symbol": "LittlerootTown_BrendansHouse_1F_EventScript_1B6C33",
+    "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "base_text_symbol": "PlayersHouse_1F_Text_DadShouldStayLonger",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "PlayersHouseOneFTextDadShouldStayLonger"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2870
+  },
+  "tags": [
+    "postgame"
+  ]
+},
+{
+  "id": "postgame.unknownstring.8172d30.2871",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/scripts/tv.inc",
+    "symbol": "EventScript_1A6F0B",
+    "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "base_text_symbol": "UnknownString_8172D30",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "UnknownStringEightOneSevenTwoDThreeZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2871
+  },
+  "tags": [
+    "postgame"
+  ]
+},
+{
+  "id": "postgame.unknownstring.8172c50.2872",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/scripts/tv.inc",
+    "symbol": "EventScript_1A6F0B",
+    "base_text_path": "data/maps/LittlerootTown_BrendansHouse_1F/text.inc",
+    "base_text_symbol": "UnknownString_8172C50",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "UnknownStringEightOneSevenTwoCFiveZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2872
+  },
+  "tags": [
+    "postgame"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199d06.2873",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_160168",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199D06",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineDZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2873
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199d9d.2874",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_160168",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199D9D",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineDNineD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2874
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199d40.2875",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_1601C6",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199D40",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineDFourZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2875
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199df2.2876",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_1601D0",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199DF2",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineDFTwo"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2876
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199e4b.2877",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_1601D0",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199E4B",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineEFourB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2877
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199e0e.2878",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_1601FB",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199E0E",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineEZeroE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2878
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199e7a.2879",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_160226",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199E7A",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineESevenA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2879
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199e29.2880",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_160250",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199E29",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineETwoNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2880
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199c6f.2881",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_16025A",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199C6F",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineCSixF"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2881
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199ca4.2882",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_160263",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199CA4",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineCAFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2882
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199e9c.2883",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_16026C",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199E9C",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineENineC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2883
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.outside.text.199ed4.2884",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Outside/scripts.inc",
+    "symbol": "BattleTower_Outside_EventScript_160275",
+    "base_text_path": "data/maps/BattleTower_Outside/text.inc",
+    "base_text_symbol": "BattleTower_Outside_Text_199ED4",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerOutsideTextOneNineNineEDFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2884
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a3fd.2885",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160330",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A3FD",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAThreeFD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2885
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a487.2886",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160342",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A487",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFourEightSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2886
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a6be.2887",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160342",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A6BE",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineASixBE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2887
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a719.2888",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160342",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A719",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineASevenOneNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2888
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a589.2889",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16037D",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A589",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFiveEightNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2889
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a4bb.2890",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1603AD",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A4BB",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFourBB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2890
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a506.2891",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1603AD",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A506",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFiveZeroSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2891
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a617.2892",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1603AD",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A617",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineASixOneSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2892
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.199fa9.2893",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1603F8",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_199FA9",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineNineFANine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2893
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a520.2894",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160408",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A520",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFiveTwoZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2894
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a571.2895",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160419",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A571",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFiveSevenOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2895
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a5b1.2896",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16044B",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A5B1",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFiveBOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2896
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a5ce.2897",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16044B",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A5CE",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAFiveCE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2897
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a0a8.2898",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16044B",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A0A8",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAZeroAEight"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2898
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.199f2c.2899",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16049E",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_199F2C",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineNineFTwoC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2899
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.199f79.2900",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1604BE",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_199F79",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineNineFSevenNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2900
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a024.2901",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1604FA",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A024",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAZeroTwoFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2901
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a07b.2902",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1604FA",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A07B",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAZeroSevenB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2902
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.199fda.2903",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1604FA",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_199FDA",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineNineFDA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2903
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a0d1.2904",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160600",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A0D1",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAZeroDOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2904
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a249.2905",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160628",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A249",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineATwoFourNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2905
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a32d.2906",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160635",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A32D",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAThreeTwoD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2906
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a747.2907",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1606A5",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A747",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineASevenFourSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2907
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a7c3.2908",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1606CC",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A7C3",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineASevenCThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2908
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a7fd.2909",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1606F7",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A7FD",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineASevenFD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2909
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a83d.2910",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160701",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A83D",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAEightThreeD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2910
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a871.2911",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16070B",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A871",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAEightSevenOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2911
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a8ae.2912",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160715",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A8AE",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAEightAE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2912
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a946.2913",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_16071E",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A946",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineANineFourSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2913
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19a9ee.2914",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160733",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19A9EE",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineANineEE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2914
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19abaa.2915",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160733",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19ABAA",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineABAA"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2915
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19aac4.2916",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_160773",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19AAC4",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineAACFour"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2916
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19abed.2917",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1607AF",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19ABED",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineABED"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2917
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.19ac55.2918",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_Lobby/scripts.inc",
+    "symbol": "BattleTower_Lobby_EventScript_1607C5",
+    "base_text_path": "data/maps/BattleTower_Lobby/text.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_19AC55",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneNineACFiveFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2918
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a776d.2919",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE1FF",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A776D",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenSevenSixD"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2919
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a7823.2920",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE241",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A7823",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenEightTwoThree"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2920
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a79eb.2921",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE241",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A79EB",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenNineEB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2921
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a78b7.2922",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE297",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A78B7",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenEightBSeven"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2922
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a791b.2923",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE2A1",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A791B",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenNineOneB"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2923
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a7990.2924",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE2AA",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A7990",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenNineNineZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2924
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a7a6e.2925",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE2B3",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A7A6E",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenASixE"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2925
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a7ae0.2926",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE2D9",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A7AE0",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenAEZero"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2926
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.lobby.text.1a7b66.2927",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/event_scripts.s",
+    "symbol": "BattleTower_Lobby_EventScript_1AE2E3",
+    "base_text_path": "data/text/tv.inc",
+    "base_text_symbol": "BattleTower_Lobby_Text_1A7B66",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerLobbyTextOneASevenBSixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2927
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.battleroom.text.19acdc.2928",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_BattleRoom/scripts.inc",
+    "symbol": "BattleTower_BattleRoom_EventScript_160961",
+    "base_text_path": "data/maps/BattleTower_BattleRoom/text.inc",
+    "base_text_symbol": "BattleTower_BattleRoom_Text_19ACDC",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerBattleRoomTextOneNineACDC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2928
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.battleroom.text.19ad09.2929",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_BattleRoom/scripts.inc",
+    "symbol": "BattleTower_BattleRoom_EventScript_1609B2",
+    "base_text_path": "data/maps/BattleTower_BattleRoom/text.inc",
+    "base_text_symbol": "BattleTower_BattleRoom_Text_19AD09",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerBattleRoomTextOneNineADZeroNine"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2929
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.battleroom.text.19ad3c.2930",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_BattleRoom/scripts.inc",
+    "symbol": "BattleTower_BattleRoom_EventScript_1609E0",
+    "base_text_path": "data/maps/BattleTower_BattleRoom/text.inc",
+    "base_text_symbol": "BattleTower_BattleRoom_Text_19AD3C",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerBattleRoomTextOneNineADThreeC"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2930
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.battleroom.text.19ad66.2931",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_BattleRoom/scripts.inc",
+    "symbol": "BattleTower_BattleRoom_EventScript_160A0E",
+    "base_text_path": "data/maps/BattleTower_BattleRoom/text.inc",
+    "base_text_symbol": "BattleTower_BattleRoom_Text_19AD66",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerBattleRoomTextOneNineADSixSix"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2931
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.battleroom.text.1c6ce1.2932",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_BattleRoom/scripts.inc",
+    "symbol": "BattleTower_BattleRoom_EventScript_160A94",
+    "base_text_path": "data/text/save.inc",
+    "base_text_symbol": "BattleTower_BattleRoom_Text_1C6CE1",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerBattleRoomTextOneCSixCEOne"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2932
+  },
+  "tags": [
+    "battle_tower"
+  ]
+},
+{
+  "id": "battle_tower.battletower.battleroom.text.1c6d05.2933",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/BattleTower_BattleRoom/scripts.inc",
+    "symbol": "BattleTower_BattleRoom_EventScript_160A94",
+    "base_text_path": "data/text/save.inc",
+    "base_text_symbol": "BattleTower_BattleRoom_Text_1C6D05",
+    "note": "Adaptive translation preserves postgame gifts, roaming Pokémon setup, ferry travel, Battle Tower entry, party validation, streaks, prizes, records, battles, and save flow.",
+    "authored_id": "BattleTowerBattleRoomTextOneCSixDZeroFive"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2933
+  },
+  "tags": [
+    "battle_tower"
+  ]
 }
   ]
 }

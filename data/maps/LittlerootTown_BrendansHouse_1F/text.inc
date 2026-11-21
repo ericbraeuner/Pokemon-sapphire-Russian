@@ -120,7 +120,7 @@ PlayersHouse_1F_Text_DadShouldStayLonger:: @ 8172BBC
 	.string "while, but all he talks about is POKéMON.\p"
 	.string "He should relax and stay a little longer.$"
 
-UnknownString_8172C50: @ 8172C50
+UnknownString_8172C50:: @ 8172C50
 	.string "We bring you a special news bulletin.\p"
 	.string "We've received reports of a blue FLYING\n"
 	.string "POKéMON in various HOENN locales.\p"
@@ -129,7 +129,7 @@ UnknownString_8172C50: @ 8172C50
 	.string "We now return you to your regular\n"
 	.string "movie presentation.$"
 
-UnknownString_8172D30: @ 8172D30
+UnknownString_8172D30:: @ 8172D30
 	.string "We bring you a special news bulletin.\p"
 	.string "We've received reports of a red FLYING\n"
 	.string "POKéMON in various HOENN locales.\p"

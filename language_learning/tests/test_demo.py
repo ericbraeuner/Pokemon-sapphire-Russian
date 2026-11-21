@@ -747,6 +747,10 @@ class LessonTests(unittest.TestCase):
                               'EverGrandeCity_ChampionsRoom',
                               'EverGrandeCity_HallOfFame')
         paths += [f'data/maps/{area}/scripts.inc' for area in championship_areas]
+        battle_tower_areas = ('BattleTower_Outside', 'BattleTower_Lobby',
+                              'BattleTower_BattleRoom')
+        paths += [f'data/maps/{area}/scripts.inc' for area in battle_tower_areas]
+        paths.append('data/event_scripts.s')
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2964,6 +2968,38 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(27, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
+    def test_postgame_homecoming_and_battle_tower_are_fully_adaptive(self):
+        sources = '\n'.join([
+            (demo.ROOT / 'data/scripts/players_house.inc').read_text(errors='replace'),
+            (demo.ROOT / 'data/scripts/tv.inc').read_text(errors='replace'),
+            (demo.ROOT / 'data/event_scripts.s').read_text(errors='replace'),
+        ] + [
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in ('BattleTower_Outside', 'BattleTower_Lobby',
+                         'BattleTower_BattleRoom')
+        ])
+        tower = set(re.findall(
+            r'BattleTower_(?:Outside|Lobby|BattleRoom)_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        homecoming = {
+            'PlayersHouse_1F_Text_TicketFromBrineyCameForYou',
+            'PlayersHouse_1F_Text_PortsInSlateportLilycove',
+            'PlayersHouse_1F_Text_BetterGetBackToGym',
+            'PlayersHouse_1F_Text_DadShouldStayLonger',
+            'UnknownString_8172D30', 'UnknownString_8172C50',
+        }
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(61, len(tower))
+        self.assertTrue((tower | homecoming).issubset(adaptive))
+        home_text = (demo.ROOT / 'data/maps/LittlerootTown_BrendansHouse_1F/text.inc').read_text(
+            encoding='utf-8', errors='replace')
+        self.assertIn('UnknownString_8172D30::', home_text)
+        self.assertIn('UnknownString_8172C50::', home_text)
+
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = set()
@@ -3093,7 +3129,7 @@ class LessonTests(unittest.TestCase):
         for area in areas:
             source = (demo.ROOT / f'data/maps/{area}/text.inc').read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(89, len(symbols))
+        self.assertEqual(91, len(symbols))
         self.assertTrue(symbols.issubset(covered))
 
     def test_route_104_and_petalburg_woods_are_bilingual(self):
@@ -3144,7 +3180,7 @@ class LessonTests(unittest.TestCase):
                 continue
             source = source_path.read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(2360, len(symbols))
+        self.assertEqual(2362, len(symbols))
         self.assertTrue(symbols.issubset(covered))
 
     def test_shared_berry_dialogue_is_bilingual(self):

@@ -56826,6 +56826,546 @@
     "victory_road",
     "trainer"
   ]
+},
+{
+  "id": "elitefour.sidney.evergrandecity.sidneysroom.text.190728.2840",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_SidneysRoom/scripts.inc",
+    "symbol": "EverGrandeCity_SidneysRoom_EventScript_Sidney",
+    "base_text_path": "data/maps/EverGrandeCity_SidneysRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_SidneysRoom_Text_190728",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCitySidneysRoomIntroSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2840
+  },
+  "tags": [
+    "elite_four",
+    "sidney"
+  ]
+},
+{
+  "id": "elitefour.sidney.evergrandecity.sidneysroom.text.defeat.2841",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_SidneysRoom/scripts.inc",
+    "symbol": "EverGrandeCity_SidneysRoom_EventScript_Sidney",
+    "base_text_path": "data/maps/EverGrandeCity_SidneysRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_SidneysRoom_Text_Defeat",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCitySidneysRoomDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2841
+  },
+  "tags": [
+    "elite_four",
+    "sidney"
+  ]
+},
+{
+  "id": "elitefour.sidney.evergrandecity.sidneysroom.text.postbattlespeech.2842",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_SidneysRoom/scripts.inc",
+    "symbol": "EverGrandeCity_SidneysRoom_EventScript_Sidney",
+    "base_text_path": "data/maps/EverGrandeCity_SidneysRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_SidneysRoom_Text_PostBattleSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCitySidneysRoomPostBattleSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2842
+  },
+  "tags": [
+    "elite_four",
+    "sidney"
+  ]
+},
+{
+  "id": "elitefour.phoebe.evergrandecity.phoebesroom.text.introspeech.2843",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc",
+    "symbol": "EverGrandeCity_PhoebesRoom_EventScript_Phoebe",
+    "base_text_path": "data/maps/EverGrandeCity_PhoebesRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_PhoebesRoom_Text_IntroSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityPhoebesRoomIntroSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2843
+  },
+  "tags": [
+    "elite_four",
+    "phoebe"
+  ]
+},
+{
+  "id": "elitefour.phoebe.evergrandecity.phoebesroom.text.defeat.2844",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc",
+    "symbol": "EverGrandeCity_PhoebesRoom_EventScript_Phoebe",
+    "base_text_path": "data/maps/EverGrandeCity_PhoebesRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_PhoebesRoom_Text_Defeat",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityPhoebesRoomDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2844
+  },
+  "tags": [
+    "elite_four",
+    "phoebe"
+  ]
+},
+{
+  "id": "elitefour.phoebe.evergrandecity.phoebesroom.text.postbattlespeech.2845",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc",
+    "symbol": "EverGrandeCity_PhoebesRoom_EventScript_Phoebe",
+    "base_text_path": "data/maps/EverGrandeCity_PhoebesRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityPhoebesRoomPostBattleSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2845
+  },
+  "tags": [
+    "elite_four",
+    "phoebe"
+  ]
+},
+{
+  "id": "elitefour.glacia.evergrandecity.glaciasroom.text.introspeech.2846",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc",
+    "symbol": "EverGrandeCity_GlaciasRoom_EventScript_Glacia",
+    "base_text_path": "data/maps/EverGrandeCity_GlaciasRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_GlaciasRoom_Text_IntroSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityGlaciasRoomIntroSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2846
+  },
+  "tags": [
+    "elite_four",
+    "glacia"
+  ]
+},
+{
+  "id": "elitefour.glacia.evergrandecity.glaciasroom.text.defeat.2847",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc",
+    "symbol": "EverGrandeCity_GlaciasRoom_EventScript_Glacia",
+    "base_text_path": "data/maps/EverGrandeCity_GlaciasRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_GlaciasRoom_Text_Defeat",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityGlaciasRoomDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2847
+  },
+  "tags": [
+    "elite_four",
+    "glacia"
+  ]
+},
+{
+  "id": "elitefour.glacia.evergrandecity.glaciasroom.text.postbattlespeech.2848",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc",
+    "symbol": "EverGrandeCity_GlaciasRoom_EventScript_Glacia",
+    "base_text_path": "data/maps/EverGrandeCity_GlaciasRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityGlaciasRoomPostBattleSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2848
+  },
+  "tags": [
+    "elite_four",
+    "glacia"
+  ]
+},
+{
+  "id": "elitefour.drake.evergrandecity.drakesroom.text.introspeech.2849",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_DrakesRoom/scripts.inc",
+    "symbol": "EverGrandeCity_DrakesRoom_EventScript_Drake",
+    "base_text_path": "data/maps/EverGrandeCity_DrakesRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_DrakesRoom_Text_IntroSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityDrakesRoomIntroSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2849
+  },
+  "tags": [
+    "elite_four",
+    "drake"
+  ]
+},
+{
+  "id": "elitefour.drake.evergrandecity.drakesroom.text.defeat.2850",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_DrakesRoom/scripts.inc",
+    "symbol": "EverGrandeCity_DrakesRoom_EventScript_Drake",
+    "base_text_path": "data/maps/EverGrandeCity_DrakesRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_DrakesRoom_Text_Defeat",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityDrakesRoomDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2850
+  },
+  "tags": [
+    "elite_four",
+    "drake"
+  ]
+},
+{
+  "id": "elitefour.drake.evergrandecity.drakesroom.text.postbattlespeech.2851",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_DrakesRoom/scripts.inc",
+    "symbol": "EverGrandeCity_DrakesRoom_EventScript_Drake",
+    "base_text_path": "data/maps/EverGrandeCity_DrakesRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_DrakesRoom_Text_PostBattleSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityDrakesRoomPostBattleSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2851
+  },
+  "tags": [
+    "elite_four",
+    "drake"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.introspeech.2852",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_Steven",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_IntroSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomIntroSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2852
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.defeat.2853",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_Steven",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_Defeat",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomDefeat"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2853
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.postbattlespeech.2854",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_Defeated",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomPostBattleSpeech"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2854
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.mayadvice.2855",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_MayAdvice",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_MayAdvice",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomMayAdvice"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2855
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.mayitsalreadyover.2856",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_MayAdvice",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomMayItsAlreadyOver"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2856
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.brendanadvice.2857",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_BrendanAdvice",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomBrendanAdvice"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2857
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.brendanyouvewon.2858",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BrendanAdvice",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomBrendanYouveWon"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2858
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.bircharriveratepokedex.2859",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomBirchArriveRatePokedex"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2859
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.birchcongratulations.2860",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_BirchCongratulations",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomBirchCongratulations"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2860
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.stevencomewithme.2861",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_StevenComeWithMe",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomStevenComeWithMe"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2861
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.stevenwaitoutside.2862",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_StevenWaitOutside",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomStevenWaitOutside"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2862
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.maycongratulations.2863",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_MayCongratulations",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_MayCongratulations",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomMayCongratulations"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2863
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.champion.evergrandecity.championsroom.text.brendancongratulations.2864",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc",
+    "symbol": "EverGrandeCity_ChampionsRoom_EventScript_BrendanCongratulations",
+    "base_text_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+    "base_text_symbol": "EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityChampionsRoomBrendanCongratulations"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2864
+  },
+  "tags": [
+    "elite_four",
+    "champion"
+  ]
+},
+{
+  "id": "elitefour.halloffame.evergrandecity.halloffame.text.herewehonorleaguechampions.2865",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_HallOfFame/scripts.inc",
+    "symbol": "EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame",
+    "base_text_path": "data/maps/EverGrandeCity_HallOfFame/text.inc",
+    "base_text_symbol": "EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityHallOfFameHereWeHonorLeagueChampions"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2865
+  },
+  "tags": [
+    "elite_four",
+    "halloffame"
+  ]
+},
+{
+  "id": "elitefour.halloffame.evergrandecity.halloffame.text.letsrecordyouandyourpartnersnames.2866",
+  "source": {
+    "kind": "script_hook",
+    "path": "data/maps/EverGrandeCity_HallOfFame/scripts.inc",
+    "symbol": "EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame",
+    "base_text_path": "data/maps/EverGrandeCity_HallOfFame/text.inc",
+    "base_text_symbol": "EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames",
+    "note": "Adaptive translation preserves Elite Four battles, room progression, Champion events, Pokédex rating, Hall of Fame registration, and game-clear flags.",
+    "authored_id": "EverGrandeCityHallOfFameLetsRecordYouAndYourPartnersNames"
+  },
+  "progress": {
+    "chapter": "arrival",
+    "sequence": 2866
+  },
+  "tags": [
+    "elite_four",
+    "halloffame"
+  ]
 }
   ]
 }

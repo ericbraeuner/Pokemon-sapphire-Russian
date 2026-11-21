@@ -740,6 +740,13 @@ class LessonTests(unittest.TestCase):
                               'EverGrandeCity_PokemonLeague', 'VictoryRoad_1F',
                               'VictoryRoad_B1F', 'VictoryRoad_B2F')
         paths += [f'data/maps/{area}/scripts.inc' for area in victory_road_areas]
+        championship_areas = ('EverGrandeCity_SidneysRoom',
+                              'EverGrandeCity_PhoebesRoom',
+                              'EverGrandeCity_GlaciasRoom',
+                              'EverGrandeCity_DrakesRoom',
+                              'EverGrandeCity_ChampionsRoom',
+                              'EverGrandeCity_HallOfFame')
+        paths += [f'data/maps/{area}/scripts.inc' for area in championship_areas]
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
         for entry in opening.load()['dialogues']:
@@ -2936,6 +2943,25 @@ class LessonTests(unittest.TestCase):
             if entry.get('adaptive_translation')
         }
         self.assertEqual(44, len(referenced))
+        self.assertTrue(referenced.issubset(adaptive))
+
+    def test_elite_four_champion_and_hall_of_fame_are_fully_adaptive(self):
+        areas = ('EverGrandeCity_SidneysRoom', 'EverGrandeCity_PhoebesRoom',
+                 'EverGrandeCity_GlaciasRoom', 'EverGrandeCity_DrakesRoom',
+                 'EverGrandeCity_ChampionsRoom', 'EverGrandeCity_HallOfFame')
+        sources = '\n'.join(
+            (demo.ROOT / f'data/maps/{area}/scripts.inc').read_text(errors='replace')
+            for area in areas
+        )
+        referenced = set(re.findall(
+            r'EverGrandeCity_(?:SidneysRoom|PhoebesRoom|GlaciasRoom|DrakesRoom|ChampionsRoom|HallOfFame)_Text_[A-Za-z0-9_]+',
+            sources
+        ))
+        adaptive = {
+            entry['base_symbol'] for entry in opening.load()['dialogues']
+            if entry.get('adaptive_translation')
+        }
+        self.assertEqual(27, len(referenced))
         self.assertTrue(referenced.issubset(adaptive))
 
     def test_verdanturf_and_rusturf_tunnel_are_bilingual(self):

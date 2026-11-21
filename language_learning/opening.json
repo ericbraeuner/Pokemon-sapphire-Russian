@@ -127577,6 +127577,1221 @@
       "Sieh deine Orden an und erinnere dich an die Trainer, denen du begegnet bist."
     ]
   }
+},
+{
+  "id": "EverGrandeCitySidneysRoomIntroSpeech",
+  "base_symbol": "EverGrandeCity_SidneysRoom_Text_190728",
+  "source_path": "data/maps/EverGrandeCity_SidneysRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Welcome, challenger! I'm SIDNEY of the ELITE FOUR. I like that look you're giving me. I guess you'll give me a good match. That's good! Looking real good! All right! You and me, let's enjoy a battle that can only be staged here in the POKéMON LEAGUE!"
+  ],
+  "ru": {
+    "A1": [
+      "Добро пожаловать! Я Сидни из Элитной четвёрки. Мне нравится твой взгляд. Будет хороший бой! Насладимся битвой Лиги покемонов!"
+    ],
+    "A2": [
+      "Добро пожаловать! Я Сидни из Элитной четвёрки. Мне нравится твой взгляд. Будет хороший бой! Насладимся битвой Лиги покемонов!"
+    ],
+    "natural": [
+      "Добро пожаловать! Я Сидни из Элитной четвёрки. Мне нравится твой взгляд. Будет хороший бой! Насладимся битвой Лиги покемонов!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "Элитная четвёрка",
+        "elite four"
+      ]
+    ],
+    "de": [
+      [
+        "die Top Vier",
+        "elite four"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Willkommen! Ich bin Ulrich von den Top Vier. Dein Blick gefällt mir. Das wird ein guter Kampf! Genießen wir diesen Liga-Kampf!"
+    ],
+    "A2": [
+      "Willkommen! Ich bin Ulrich von den Top Vier. Dein Blick gefällt mir. Das wird ein guter Kampf! Genießen wir diesen Liga-Kampf!"
+    ],
+    "natural": [
+      "Willkommen! Ich bin Ulrich von den Top Vier. Dein Blick gefällt mir. Das wird ein guter Kampf! Genießen wir diesen Liga-Kampf!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCitySidneysRoomDefeat",
+  "base_symbol": "EverGrandeCity_SidneysRoom_Text_Defeat",
+  "source_path": "data/maps/EverGrandeCity_SidneysRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Well, how do you like that? I lost! Eh, it was fun, so it doesn't matter."
+  ],
+  "ru": {
+    "A1": [
+      "Вот так дела! Я проиграл. Но было весело, так что неважно."
+    ],
+    "A2": [
+      "Вот так дела! Я проиграл. Но было весело, так что неважно."
+    ],
+    "natural": [
+      "Вот так дела! Я проиграл. Но было весело, так что неважно."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "Элитная четвёрка",
+        "elite four"
+      ]
+    ],
+    "de": [
+      [
+        "die Top Vier",
+        "elite four"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Sieh an! Ich habe verloren. Doch es machte Spaß, also ist es egal."
+    ],
+    "A2": [
+      "Sieh an! Ich habe verloren. Doch es machte Spaß, also ist es egal."
+    ],
+    "natural": [
+      "Sieh an! Ich habe verloren. Doch es machte Spaß, also ist es egal."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCitySidneysRoomPostBattleSpeech",
+  "base_symbol": "EverGrandeCity_SidneysRoom_Text_PostBattleSpeech",
+  "source_path": "data/maps/EverGrandeCity_SidneysRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Well, listen to what this loser has to say. You've got what it takes to go far. Now, go on to the next room and enjoy your next battle!"
+  ],
+  "ru": {
+    "A1": [
+      "Послушай проигравшего. У тебя есть всё, чтобы далеко зайти. Иди в следующую комнату и наслаждайся следующей битвой!"
+    ],
+    "A2": [
+      "Послушай проигравшего. У тебя есть всё, чтобы далеко зайти. Иди в следующую комнату и наслаждайся следующей битвой!"
+    ],
+    "natural": [
+      "Послушай проигравшего. У тебя есть всё, чтобы далеко зайти. Иди в следующую комнату и наслаждайся следующей битвой!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "Элитная четвёрка",
+        "elite four"
+      ]
+    ],
+    "de": [
+      [
+        "die Top Vier",
+        "elite four"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hör dem Verlierer zu. Du hast das Zeug, weit zu kommen. Geh in den nächsten Raum und genieße den nächsten Kampf!"
+    ],
+    "A2": [
+      "Hör dem Verlierer zu. Du hast das Zeug, weit zu kommen. Geh in den nächsten Raum und genieße den nächsten Kampf!"
+    ],
+    "natural": [
+      "Hör dem Verlierer zu. Du hast das Zeug, weit zu kommen. Geh in den nächsten Raum und genieße den nächsten Kampf!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPhoebesRoomIntroSpeech",
+  "base_symbol": "EverGrandeCity_PhoebesRoom_Text_IntroSpeech",
+  "source_path": "data/maps/EverGrandeCity_PhoebesRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Ahahaha! I'm PHOEBE of the ELITE FOUR. I did my training on MT. PYRE. While I trained, I gained the ability to commune with GHOST-type POKéMON. Yes, the bond I developed with POKéMON is extremely tight. So, come on, just try and see if you can even inflict damage on my POKéMON!"
+  ],
+  "ru": {
+    "A1": [
+      "А-ха-ха! Я Фиби из Элитной четвёрки. Я тренировалась на горе Пайр и научилась общаться с призрачными покемонами. Наша связь крепка. Попробуй нанести им урон!"
+    ],
+    "A2": [
+      "А-ха-ха! Я Фиби из Элитной четвёрки. Я тренировалась на горе Пайр и научилась общаться с призрачными покемонами. Наша связь крепка. Попробуй нанести им урон!"
+    ],
+    "natural": [
+      "А-ха-ха! Я Фиби из Элитной четвёрки. Я тренировалась на горе Пайр и научилась общаться с призрачными покемонами. Наша связь крепка. Попробуй нанести им урон!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "призрачный",
+        "ghost-type"
+      ]
+    ],
+    "de": [
+      [
+        "der Geist",
+        "ghost"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ahahaha! Ich bin Antonia von den Top Vier. Am Pyroberg lernte ich, mit Geist-Pokémon zu sprechen. Unsere Bindung ist fest. Versuch nur, meinen Pokémon zu schaden!"
+    ],
+    "A2": [
+      "Ahahaha! Ich bin Antonia von den Top Vier. Am Pyroberg lernte ich, mit Geist-Pokémon zu sprechen. Unsere Bindung ist fest. Versuch nur, meinen Pokémon zu schaden!"
+    ],
+    "natural": [
+      "Ahahaha! Ich bin Antonia von den Top Vier. Am Pyroberg lernte ich, mit Geist-Pokémon zu sprechen. Unsere Bindung ist fest. Versuch nur, meinen Pokémon zu schaden!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPhoebesRoomDefeat",
+  "base_symbol": "EverGrandeCity_PhoebesRoom_Text_Defeat",
+  "source_path": "data/maps/EverGrandeCity_PhoebesRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Oh, darn. I've gone and lost."
+  ],
+  "ru": {
+    "A1": [
+      "Вот чёрт. Я проиграла."
+    ],
+    "A2": [
+      "Вот чёрт. Я проиграла."
+    ],
+    "natural": [
+      "Вот чёрт. Я проиграла."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "призрачный",
+        "ghost-type"
+      ]
+    ],
+    "de": [
+      [
+        "der Geist",
+        "ghost"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Oh nein. Ich habe verloren."
+    ],
+    "A2": [
+      "Oh nein. Ich habe verloren."
+    ],
+    "natural": [
+      "Oh nein. Ich habe verloren."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityPhoebesRoomPostBattleSpeech",
+  "base_symbol": "EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech",
+  "source_path": "data/maps/EverGrandeCity_PhoebesRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "There's a definite bond between you and your POKéMON, too. I didn't recognize it, so it's only natural that I lost. Yup, I'd like to see how far your bond will carry you. Go ahead, move on to the next room."
+  ],
+  "ru": {
+    "A1": [
+      "У тебя с покемонами тоже крепкая связь. Я её не заметила и заслуженно проиграла. Посмотрим, как далеко она тебя приведёт. Иди в следующую комнату."
+    ],
+    "A2": [
+      "У тебя с покемонами тоже крепкая связь. Я её не заметила и заслуженно проиграла. Посмотрим, как далеко она тебя приведёт. Иди в следующую комнату."
+    ],
+    "natural": [
+      "У тебя с покемонами тоже крепкая связь. Я её не заметила и заслуженно проиграла. Посмотрим, как далеко она тебя приведёт. Иди в следующую комнату."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "призрачный",
+        "ghost-type"
+      ]
+    ],
+    "de": [
+      [
+        "der Geist",
+        "ghost"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Auch du hast eine feste Bindung zu deinen Pokémon. Ich erkannte sie nicht und verlor. Mal sehen, wie weit sie dich trägt. Geh in den nächsten Raum."
+    ],
+    "A2": [
+      "Auch du hast eine feste Bindung zu deinen Pokémon. Ich erkannte sie nicht und verlor. Mal sehen, wie weit sie dich trägt. Geh in den nächsten Raum."
+    ],
+    "natural": [
+      "Auch du hast eine feste Bindung zu deinen Pokémon. Ich erkannte sie nicht und verlor. Mal sehen, wie weit sie dich trägt. Geh in den nächsten Raum."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityGlaciasRoomIntroSpeech",
+  "base_symbol": "EverGrandeCity_GlaciasRoom_Text_IntroSpeech",
+  "source_path": "data/maps/EverGrandeCity_GlaciasRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Welcome, my name is GLACIA of the ELITE FOUR. I've traveled from afar to HOENN so that I may hone my ice skills. But all I have seen are challenges by weak TRAINERS and their POKéMON. What about you? It would please me to no end if I could go all out against you!"
+  ],
+  "ru": {
+    "A1": [
+      "Я Глейсия из Элитной четвёрки. Я прибыла издалека, чтобы отточить ледяное мастерство. Но встречала лишь слабых тренеров. А ты? Надеюсь, против тебя можно биться в полную силу!"
+    ],
+    "A2": [
+      "Я Глейсия из Элитной четвёрки. Я прибыла издалека, чтобы отточить ледяное мастерство. Но встречала лишь слабых тренеров. А ты? Надеюсь, против тебя можно биться в полную силу!"
+    ],
+    "natural": [
+      "Я Глейсия из Элитной четвёрки. Я прибыла издалека, чтобы отточить ледяное мастерство. Но встречала лишь слабых тренеров. А ты? Надеюсь, против тебя можно биться в полную силу!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лёд",
+        "ice"
+      ]
+    ],
+    "de": [
+      [
+        "das Eis",
+        "ice"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin Frosina von den Top Vier. Ich kam von fern, um Eiskünste zu schärfen. Bisher traf ich nur schwache Trainer. Und du? Hoffentlich kann ich alles geben!"
+    ],
+    "A2": [
+      "Ich bin Frosina von den Top Vier. Ich kam von fern, um Eiskünste zu schärfen. Bisher traf ich nur schwache Trainer. Und du? Hoffentlich kann ich alles geben!"
+    ],
+    "natural": [
+      "Ich bin Frosina von den Top Vier. Ich kam von fern, um Eiskünste zu schärfen. Bisher traf ich nur schwache Trainer. Und du? Hoffentlich kann ich alles geben!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityGlaciasRoomDefeat",
+  "base_symbol": "EverGrandeCity_GlaciasRoom_Text_Defeat",
+  "source_path": "data/maps/EverGrandeCity_GlaciasRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "You and your POKéMON... How hot your spirits burn! The all-consuming heat overwhelms. It's no surprise that my icy skills failed to harm you."
+  ],
+  "ru": {
+    "A1": [
+      "Как горячо пылает ваш дух! Этот жар неодолим. Неудивительно, что мой лёд не причинил вреда."
+    ],
+    "A2": [
+      "Как горячо пылает ваш дух! Этот жар неодолим. Неудивительно, что мой лёд не причинил вреда."
+    ],
+    "natural": [
+      "Как горячо пылает ваш дух! Этот жар неодолим. Неудивительно, что мой лёд не причинил вреда."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лёд",
+        "ice"
+      ]
+    ],
+    "de": [
+      [
+        "das Eis",
+        "ice"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Wie heiß euer Geist brennt! Diese Glut ist überwältigend. Kein Wunder, dass mein Eis nicht wirkte."
+    ],
+    "A2": [
+      "Wie heiß euer Geist brennt! Diese Glut ist überwältigend. Kein Wunder, dass mein Eis nicht wirkte."
+    ],
+    "natural": [
+      "Wie heiß euer Geist brennt! Diese Glut ist überwältigend. Kein Wunder, dass mein Eis nicht wirkte."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityGlaciasRoomPostBattleSpeech",
+  "base_symbol": "EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech",
+  "source_path": "data/maps/EverGrandeCity_GlaciasRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Advance to the next room. And there, confirm the truly fearsome side of the POKéMON LEAGUE."
+  ],
+  "ru": {
+    "A1": [
+      "Иди в следующую комнату и узнай истинно грозную сторону Лиги покемонов."
+    ],
+    "A2": [
+      "Иди в следующую комнату и узнай истинно грозную сторону Лиги покемонов."
+    ],
+    "natural": [
+      "Иди в следующую комнату и узнай истинно грозную сторону Лиги покемонов."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "лёд",
+        "ice"
+      ]
+    ],
+    "de": [
+      [
+        "das Eis",
+        "ice"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Geh in den nächsten Raum und erlebe die wahrhaft furchterregende Seite der Liga."
+    ],
+    "A2": [
+      "Geh in den nächsten Raum und erlebe die wahrhaft furchterregende Seite der Liga."
+    ],
+    "natural": [
+      "Geh in den nächsten Raum und erlebe die wahrhaft furchterregende Seite der Liga."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityDrakesRoomIntroSpeech",
+  "base_symbol": "EverGrandeCity_DrakesRoom_Text_IntroSpeech",
+  "source_path": "data/maps/EverGrandeCity_DrakesRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I am the last of the POKéMON LEAGUE ELITE FOUR, DRAKE the DRAGON master! In their natural state, POKéMON are wild living things. They are free. At times, they hinder us. At times, they help us. For us to battle with POKéMON as partners, do you know what it takes? Do you know what is needed? If you don't, then you will never prevail over me!"
+  ],
+  "ru": {
+    "A1": [
+      "Я Дрейк, последний из Элитной четвёрки и мастер драконов. Покемоны дики и свободны. Они то мешают, то помогают нам. Знаешь, что нужно, чтобы сражаться с ними как с партнёрами? Иначе меня не победить!"
+    ],
+    "A2": [
+      "Я Дрейк, последний из Элитной четвёрки и мастер драконов. Покемоны дики и свободны. Они то мешают, то помогают нам. Знаешь, что нужно, чтобы сражаться с ними как с партнёрами? Иначе меня не победить!"
+    ],
+    "natural": [
+      "Я Дрейк, последний из Элитной четвёрки и мастер драконов. Покемоны дики и свободны. Они то мешают, то помогают нам. Знаешь, что нужно, чтобы сражаться с ними как с партнёрами? Иначе меня не победить!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дракон",
+        "dragon"
+      ]
+    ],
+    "de": [
+      [
+        "der Drache",
+        "dragon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich bin Dragan, Letzter der Top Vier und Drachenmeister. Pokémon sind wild und frei. Mal behindern, mal helfen sie uns. Weißt du, was Partnerschaft im Kampf braucht? Sonst wirst du mich nie besiegen!"
+    ],
+    "A2": [
+      "Ich bin Dragan, Letzter der Top Vier und Drachenmeister. Pokémon sind wild und frei. Mal behindern, mal helfen sie uns. Weißt du, was Partnerschaft im Kampf braucht? Sonst wirst du mich nie besiegen!"
+    ],
+    "natural": [
+      "Ich bin Dragan, Letzter der Top Vier und Drachenmeister. Pokémon sind wild und frei. Mal behindern, mal helfen sie uns. Weißt du, was Partnerschaft im Kampf braucht? Sonst wirst du mich nie besiegen!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityDrakesRoomDefeat",
+  "base_symbol": "EverGrandeCity_DrakesRoom_Text_Defeat",
+  "source_path": "data/maps/EverGrandeCity_DrakesRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "Superb, it should be said."
+  ],
+  "ru": {
+    "A1": [
+      "Превосходно, иначе не скажешь."
+    ],
+    "A2": [
+      "Превосходно, иначе не скажешь."
+    ],
+    "natural": [
+      "Превосходно, иначе не скажешь."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дракон",
+        "dragon"
+      ]
+    ],
+    "de": [
+      [
+        "der Drache",
+        "dragon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Hervorragend, anders kann man es nicht sagen."
+    ],
+    "A2": [
+      "Hervorragend, anders kann man es nicht sagen."
+    ],
+    "natural": [
+      "Hervorragend, anders kann man es nicht sagen."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityDrakesRoomPostBattleSpeech",
+  "base_symbol": "EverGrandeCity_DrakesRoom_Text_PostBattleSpeech",
+  "source_path": "data/maps/EverGrandeCity_DrakesRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "You deserve every credit for coming this far as a TRAINER of POKéMON. You do seem to know what is needed. Yes, what a TRAINER needs is a virtuous heart. POKéMON touch the good hearts of TRAINERS and learn good from wrong. They touch the good hearts of TRAINERS and grow strong. Go! Go onwards! The CHAMPION is waiting!"
+  ],
+  "ru": {
+    "A1": [
+      "Ты заслужил похвалу, добравшись так далеко. Ты знаешь, что тренеру нужно доброе сердце. Покемоны чувствуют его и становятся сильнее. Иди! Чемпион ждёт!"
+    ],
+    "A2": [
+      "Ты заслужил похвалу, добравшись так далеко. Ты знаешь, что тренеру нужно доброе сердце. Покемоны чувствуют его и становятся сильнее. Иди! Чемпион ждёт!"
+    ],
+    "natural": [
+      "Ты заслужил похвалу, добравшись так далеко. Ты знаешь, что тренеру нужно доброе сердце. Покемоны чувствуют его и становятся сильнее. Иди! Чемпион ждёт!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "дракон",
+        "dragon"
+      ]
+    ],
+    "de": [
+      [
+        "der Drache",
+        "dragon"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Du verdienst Lob, so weit gekommen zu sein. Du weißt: Ein Trainer braucht ein gutes Herz. Pokémon spüren es und werden stärker. Geh! Der Champ wartet!"
+    ],
+    "A2": [
+      "Du verdienst Lob, so weit gekommen zu sein. Du weißt: Ein Trainer braucht ein gutes Herz. Pokémon spüren es und werden stärker. Geh! Der Champ wartet!"
+    ],
+    "natural": [
+      "Du verdienst Lob, so weit gekommen zu sein. Du weißt: Ein Trainer braucht ein gutes Herz. Pokémon spüren es und werden stärker. Geh! Der Champ wartet!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomIntroSpeech",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_IntroSpeech",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "STEVEN: Welcome, you. I was looking forward to seeing you here one day. You... What did you see on your journey with POKéMON? What did you feel, meeting so many other TRAINERS like you? What has awoken in you? I want you to hit me with it all! Now, bring it!"
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Добро пожаловать, {PLAYER}. Я ждал тебя. Что ты увидел в пути? Что почувствовал, встречая тренеров? Покажи всё, что пробудилось в тебе! Начнём!"
+    ],
+    "A2": [
+      "СТИВЕН: Добро пожаловать, {PLAYER}. Я ждал тебя. Что ты увидел в пути? Что почувствовал, встречая тренеров? Покажи всё, что пробудилось в тебе! Начнём!"
+    ],
+    "natural": [
+      "СТИВЕН: Добро пожаловать, {PLAYER}. Я ждал тебя. Что ты увидел в пути? Что почувствовал, встречая тренеров? Покажи всё, что пробудилось в тебе! Начнём!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Willkommen, {PLAYER}. Ich erwartete dich. Was sahst du auf deiner Reise? Was fühltest du bei den Trainern? Zeig alles, was in dir erwachte! Los!"
+    ],
+    "A2": [
+      "TROY: Willkommen, {PLAYER}. Ich erwartete dich. Was sahst du auf deiner Reise? Was fühltest du bei den Trainern? Zeig alles, was in dir erwachte! Los!"
+    ],
+    "natural": [
+      "TROY: Willkommen, {PLAYER}. Ich erwartete dich. Was sahst du auf deiner Reise? Was fühltest du bei den Trainern? Zeig alles, was in dir erwachte! Los!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomDefeat",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_Defeat",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "I, the CHAMPION, fall in defeat... Kudos to you, you! You are a truly noble POKéMON TRAINER!"
+  ],
+  "ru": {
+    "A1": [
+      "Я, чемпион, побеждён... Хвала тебе, {PLAYER}! Ты поистине благородный тренер!"
+    ],
+    "A2": [
+      "Я, чемпион, побеждён... Хвала тебе, {PLAYER}! Ты поистине благородный тренер!"
+    ],
+    "natural": [
+      "Я, чемпион, побеждён... Хвала тебе, {PLAYER}! Ты поистине благородный тренер!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Ich, der Champ, bin besiegt... Glückwunsch, {PLAYER}! Du bist ein wahrhaft edler Trainer!"
+    ],
+    "A2": [
+      "Ich, der Champ, bin besiegt... Glückwunsch, {PLAYER}! Du bist ein wahrhaft edler Trainer!"
+    ],
+    "natural": [
+      "Ich, der Champ, bin besiegt... Glückwunsch, {PLAYER}! Du bist ein wahrhaft edler Trainer!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomPostBattleSpeech",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "STEVEN: Congratulations! The feelings you have for your POKéMON... And the POKéMON that responded to those feelings with all their might... They came together as one, and created an even greater power. And thus, you were able to grasp victory today! You are rightfully the HOENN region's new..."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Поздравляю! Твои чувства к покемонам и их ответ слились в одну силу. Так ты завоевал победу и стал новым чемпионом Хоэнна!"
+    ],
+    "A2": [
+      "СТИВЕН: Поздравляю! Твои чувства к покемонам и их ответ слились в одну силу. Так ты завоевал победу и стал новым чемпионом Хоэнна!"
+    ],
+    "natural": [
+      "СТИВЕН: Поздравляю! Твои чувства к покемонам и их ответ слились в одну силу. Так ты завоевал победу и стал новым чемпионом Хоэнна!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Glückwunsch! Deine Gefühle für die Pokémon und ihre Antwort wurden zu einer Kraft. So errangst du den Sieg und bist Hoenns neuer Champ!"
+    ],
+    "A2": [
+      "TROY: Glückwunsch! Deine Gefühle für die Pokémon und ihre Antwort wurden zu einer Kraft. So errangst du den Sieg und bist Hoenns neuer Champ!"
+    ],
+    "natural": [
+      "TROY: Glückwunsch! Deine Gefühle für die Pokémon und ihre Antwort wurden zu einer Kraft. So errangst du den Sieg und bist Hoenns neuer Champ!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomMayAdvice",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_MayAdvice",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "MAY: you! Here's some advice before you challenge the CHAMPION..."
+  ],
+  "ru": {
+    "A1": [
+      "МЭЙ: {PLAYER}! Вот совет перед битвой с чемпионом..."
+    ],
+    "A2": [
+      "МЭЙ: {PLAYER}! Вот совет перед битвой с чемпионом..."
+    ],
+    "natural": [
+      "МЭЙ: {PLAYER}! Вот совет перед битвой с чемпионом..."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAIKE: {PLAYER}! Ein Rat vor dem Kampf gegen den Champ..."
+    ],
+    "A2": [
+      "MAIKE: {PLAYER}! Ein Rat vor dem Kampf gegen den Champ..."
+    ],
+    "natural": [
+      "MAIKE: {PLAYER}! Ein Rat vor dem Kampf gegen den Champ..."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomMayItsAlreadyOver",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_MayItsAlreadyOver",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "MAY: Huh? What, what, what? you... Could it be that... It's already over?"
+  ],
+  "ru": {
+    "A1": [
+      "МЭЙ: Что? {PLAYER}... Неужели всё уже закончилось?"
+    ],
+    "A2": [
+      "МЭЙ: Что? {PLAYER}... Неужели всё уже закончилось?"
+    ],
+    "natural": [
+      "МЭЙ: Что? {PLAYER}... Неужели всё уже закончилось?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAIKE: Was? {PLAYER}... Ist es etwa schon vorbei?"
+    ],
+    "A2": [
+      "MAIKE: Was? {PLAYER}... Ist es etwa schon vorbei?"
+    ],
+    "natural": [
+      "MAIKE: Was? {PLAYER}... Ist es etwa schon vorbei?"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomBrendanAdvice",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_BrendanAdvice",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "BRENDAN: you! How would you like some advice before you challenge the CHAMPION?..."
+  ],
+  "ru": {
+    "A1": [
+      "БРЕНДАН: {PLAYER}! Хочешь совет перед битвой с чемпионом?"
+    ],
+    "A2": [
+      "БРЕНДАН: {PLAYER}! Хочешь совет перед битвой с чемпионом?"
+    ],
+    "natural": [
+      "БРЕНДАН: {PLAYER}! Хочешь совет перед битвой с чемпионом?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "Brix: {PLAYER}! Möchtest du einen Rat vor dem Kampf gegen den Champ?"
+    ],
+    "A2": [
+      "Brix: {PLAYER}! Möchtest du einen Rat vor dem Kampf gegen den Champ?"
+    ],
+    "natural": [
+      "Brix: {PLAYER}! Möchtest du einen Rat vor dem Kampf gegen den Champ?"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomBrendanYouveWon",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_BrendanYouveWon",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "BRENDAN: you... Are you trying to tell me... You've beaten the CHAMPION?"
+  ],
+  "ru": {
+    "A1": [
+      "БРЕНДАН: {PLAYER}... Ты хочешь сказать, что победил чемпиона?"
+    ],
+    "A2": [
+      "БРЕНДАН: {PLAYER}... Ты хочешь сказать, что победил чемпиона?"
+    ],
+    "natural": [
+      "БРЕНДАН: {PLAYER}... Ты хочешь сказать, что победил чемпиона?"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BRIX: {PLAYER}... Willst du sagen, du hast den Champ besiegt?"
+    ],
+    "A2": [
+      "BRIX: {PLAYER}... Willst du sagen, du hast den Champ besiegt?"
+    ],
+    "natural": [
+      "BRIX: {PLAYER}... Willst du sagen, du hast den Champ besiegt?"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomBirchArriveRatePokedex",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_BirchArriveRatePokedex",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "PROF. BIRCH: See? What did I tell you, your rival? Didn't I tell you that you don't need to worry about you? ... ... ... ... ... ... ... ... you, you've finally done it. When I heard that you defeated your own father at the PETALBURG GYM, I thought perhaps you had a chance... But to think you've actually become the CHAMPION! Ah, yes! What became of your POKéDEX? Here, let me see."
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ. БЁРЧ: Видишь, {RIVAL}? Я говорил не волноваться за {PLAYER}. {PLAYER}, ты сделал это! После победы над отцом я верил в тебя. Теперь ты чемпион! Покажи свой покедекс."
+    ],
+    "A2": [
+      "ПРОФ. БЁРЧ: Видишь, {RIVAL}? Я говорил не волноваться за {PLAYER}. {PLAYER}, ты сделал это! После победы над отцом я верил в тебя. Теперь ты чемпион! Покажи свой покедекс."
+    ],
+    "natural": [
+      "ПРОФ. БЁРЧ: Видишь, {RIVAL}? Я говорил не волноваться за {PLAYER}. {PLAYER}, ты сделал это! После победы над отцом я верил в тебя. Теперь ты чемпион! Покажи свой покедекс."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF. BIRK: {RIVAL}? {PLAYER}! Du hast es geschafft. Nach deinem Sieg über den Vater glaubte ich an dich. Nun bist du Champ! Zeig den Pokédex."
+    ],
+    "A2": [
+      "PROF. BIRK: {RIVAL}? {PLAYER}! Du hast es geschafft. Nach deinem Sieg über den Vater glaubte ich an dich. Nun bist du Champ! Zeig den Pokédex."
+    ],
+    "natural": [
+      "PROF. BIRK: {RIVAL}? {PLAYER}! Du hast es geschafft. Nach deinem Sieg über den Vater glaubte ich an dich. Nun bist du Champ! Zeig den Pokédex."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomBirchCongratulations",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_BirchCongratulations",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "PROF. BIRCH: Anyways, congratulations! Now, go proudly into the final room!"
+  ],
+  "ru": {
+    "A1": [
+      "ПРОФ. БЁРЧ: В любом случае поздравляю! Гордо входи в последнюю комнату!"
+    ],
+    "A2": [
+      "ПРОФ. БЁРЧ: В любом случае поздравляю! Гордо входи в последнюю комнату!"
+    ],
+    "natural": [
+      "ПРОФ. БЁРЧ: В любом случае поздравляю! Гордо входи в последнюю комнату!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "PROF. BIRK: Jedenfalls Glückwunsch! Betritt stolz den letzten Raum!"
+    ],
+    "A2": [
+      "PROF. BIRK: Jedenfalls Glückwunsch! Betritt stolz den letzten Raum!"
+    ],
+    "natural": [
+      "PROF. BIRK: Jedenfalls Glückwunsch! Betritt stolz den letzten Raum!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomStevenComeWithMe",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_StevenComeWithMe",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "STEVEN: you... No, the new CHAMPION! Come with me."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: {PLAYER}... Нет, новый чемпион! Идём со мной."
+    ],
+    "A2": [
+      "СТИВЕН: {PLAYER}... Нет, новый чемпион! Идём со мной."
+    ],
+    "natural": [
+      "СТИВЕН: {PLAYER}... Нет, новый чемпион! Идём со мной."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: {PLAYER}... Nein, neuer Champ! Komm mit mir."
+    ],
+    "A2": [
+      "TROY: {PLAYER}... Nein, neuer Champ! Komm mit mir."
+    ],
+    "natural": [
+      "TROY: {PLAYER}... Nein, neuer Champ! Komm mit mir."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomStevenWaitOutside",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_StevenWaitOutside",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "STEVEN: I'm sorry, but... From here on, only those TRAINERS who have become CHAMPIONS may enter. You'll have to wait outside with the PROFESSOR."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Прости, но дальше могут войти только чемпионы. Жди с профессором снаружи."
+    ],
+    "A2": [
+      "СТИВЕН: Прости, но дальше могут войти только чемпионы. Жди с профессором снаружи."
+    ],
+    "natural": [
+      "СТИВЕН: Прости, но дальше могут войти только чемпионы. Жди с профессором снаружи."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Tut mir leid, doch weiter dürfen nur Champions. Warte draußen beim Professor."
+    ],
+    "A2": [
+      "TROY: Tut mir leid, doch weiter dürfen nur Champions. Warte draußen beim Professor."
+    ],
+    "natural": [
+      "TROY: Tut mir leid, doch weiter dürfen nur Champions. Warte draußen beim Professor."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomMayCongratulations",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_MayCongratulations",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "MAY: Groan... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... I'm just joking! That's okay! That's the rule! you! Honestly, congratulations!"
+  ],
+  "ru": {
+    "A1": [
+      "МЭЙ: Эх... Шучу! Таково правило. {PLAYER}, искренне поздравляю!"
+    ],
+    "A2": [
+      "МЭЙ: Эх... Шучу! Таково правило. {PLAYER}, искренне поздравляю!"
+    ],
+    "natural": [
+      "МЭЙ: Эх... Шучу! Таково правило. {PLAYER}, искренне поздравляю!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "MAIKE: Ach... Nur Spaß! So lautet die Regel. {PLAYER}, herzlichen Glückwunsch!"
+    ],
+    "A2": [
+      "MAIKE: Ach... Nur Spaß! So lautet die Regel. {PLAYER}, herzlichen Glückwunsch!"
+    ],
+    "natural": [
+      "MAIKE: Ach... Nur Spaß! So lautet die Regel. {PLAYER}, herzlichen Glückwunsch!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityChampionsRoomBrendanCongratulations",
+  "base_symbol": "EverGrandeCity_ChampionsRoom_Text_BrendanCongratulations",
+  "source_path": "data/maps/EverGrandeCity_ChampionsRoom/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "BRENDAN: ... ... ... ... ... ... ... ... ... ... ... ... ... ... It can't be helped if that's the rule. you, way to go! Congratulations!"
+  ],
+  "ru": {
+    "A1": [
+      "БРЕНДАН: Если таково правило, ничего не поделаешь. {PLAYER}, молодец! Поздравляю!"
+    ],
+    "A2": [
+      "БРЕНДАН: Если таково правило, ничего не поделаешь. {PLAYER}, молодец! Поздравляю!"
+    ],
+    "natural": [
+      "БРЕНДАН: Если таково правило, ничего не поделаешь. {PLAYER}, молодец! Поздравляю!"
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "чемпион",
+        "champion"
+      ]
+    ],
+    "de": [
+      [
+        "der Champ",
+        "champion"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "BRIX: Gegen die Regel kann man nichts tun. {PLAYER}, gut gemacht! Glückwunsch!"
+    ],
+    "A2": [
+      "BRIX: Gegen die Regel kann man nichts tun. {PLAYER}, gut gemacht! Glückwunsch!"
+    ],
+    "natural": [
+      "BRIX: Gegen die Regel kann man nichts tun. {PLAYER}, gut gemacht! Glückwunsch!"
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityHallOfFameHereWeHonorLeagueChampions",
+  "base_symbol": "EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions",
+  "source_path": "data/maps/EverGrandeCity_HallOfFame/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "STEVEN: This room... This is where we keep records of POKéMON that prevailed through harsh battles. It is here that the LEAGUE CHAMPIONS are honored."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Здесь хранят записи о покемонах, победивших в суровых битвах. Здесь чествуют чемпионов Лиги."
+    ],
+    "A2": [
+      "СТИВЕН: Здесь хранят записи о покемонах, победивших в суровых битвах. Здесь чествуют чемпионов Лиги."
+    ],
+    "natural": [
+      "СТИВЕН: Здесь хранят записи о покемонах, победивших в суровых битвах. Здесь чествуют чемпионов Лиги."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "победитель",
+        "winner"
+      ]
+    ],
+    "de": [
+      [
+        "der Sieger",
+        "winner"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Hier bewahren wir Aufzeichnungen der Pokémon, die harte Kämpfe gewannen. Hier werden Liga-Champions geehrt."
+    ],
+    "A2": [
+      "TROY: Hier bewahren wir Aufzeichnungen der Pokémon, die harte Kämpfe gewannen. Hier werden Liga-Champions geehrt."
+    ],
+    "natural": [
+      "TROY: Hier bewahren wir Aufzeichnungen der Pokémon, die harte Kämpfe gewannen. Hier werden Liga-Champions geehrt."
+    ]
+  }
+},
+{
+  "id": "EverGrandeCityHallOfFameLetsRecordYouAndYourPartnersNames",
+  "base_symbol": "EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames",
+  "source_path": "data/maps/EverGrandeCity_HallOfFame/text.inc",
+  "adaptive_translation": true,
+  "english": [
+    "STEVEN: Come on, let's record your name as a TRAINER who triumphed over the POKéMON LEAGUE, and the names of the partners who battled with you."
+  ],
+  "ru": {
+    "A1": [
+      "СТИВЕН: Запишем твоё имя как победителя Лиги покемонов и имена сражавшихся с тобой партнёров."
+    ],
+    "A2": [
+      "СТИВЕН: Запишем твоё имя как победителя Лиги покемонов и имена сражавшихся с тобой партнёров."
+    ],
+    "natural": [
+      "СТИВЕН: Запишем твоё имя как победителя Лиги покемонов и имена сражавшихся с тобой партнёров."
+    ]
+  },
+  "words": {
+    "ru": [
+      [
+        "победитель",
+        "winner"
+      ]
+    ],
+    "de": [
+      [
+        "der Sieger",
+        "winner"
+      ]
+    ]
+  },
+  "de": {
+    "A1": [
+      "TROY: Tragen wir deinen Namen als Sieger der Pokémon-Liga und die Namen deiner Partner ein."
+    ],
+    "A2": [
+      "TROY: Tragen wir deinen Namen als Sieger der Pokémon-Liga und die Namen deiner Partner ein."
+    ],
+    "natural": [
+      "TROY: Tragen wir deinen Namen als Sieger der Pokémon-Liga und die Namen deiner Partner ein."
+    ]
+  }
 }
   ]
 }

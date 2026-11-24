@@ -68,10 +68,8 @@ static bool8 LearnerWaitForFieldDictionary(void)
     case 1:
         VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
         ShowFieldMessage(sLearnerFieldDictionaryReplay);
-        sLearnerFieldDictionaryWaitState = 2;
+        sLearnerFieldDictionaryWaitState = 0;
         return FALSE;
-    case 2:
-        break;
     }
 
     VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);

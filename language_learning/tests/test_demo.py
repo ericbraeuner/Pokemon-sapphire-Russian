@@ -763,19 +763,20 @@ class LessonTests(unittest.TestCase):
 
     def test_all_opening_text_bands_and_dictionary_compile(self):
         assembly = '\n'.join(opening.generate(self.russian, self.latin, self.glyphs))
+        lines = {line.strip() for line in assembly.splitlines()}
         dialogues = opening.load()['dialogues']
-        self.assertIn('LearnerOpening_OpenCurrentDictionary::', assembly)
+        self.assertIn('LearnerOpening_OpenCurrentDictionary::', lines)
+        self.assertIn('setvar VAR_LEARNER_ADAPTIVE_VARIANT, 0', lines)
+        self.assertIn('delay 1', lines)
         for context_id, entry in enumerate(dialogues, 1):
             root = f"LearnerOpening_{entry['id']}"
-            self.assertIn(f'setvar VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}', assembly)
-            self.assertIn('setvar VAR_LEARNER_ADAPTIVE_VARIANT, 0', assembly)
-            self.assertIn('delay 1', assembly)
-            self.assertIn(f'goto_if_eq {root}_Dictionary', assembly)
+            self.assertIn(f'setvar VAR_LEARNER_DICTIONARY_CONTEXT, {context_id}', lines)
+            self.assertIn(f'goto_if_eq {root}_Dictionary', lines)
             for tag in ('ru', 'de'):
                 for band in ('A1', 'A2', 'natural'):
-                    self.assertIn(f"{root}_{tag}_{band}:", assembly)
-                self.assertIn(f'{root}_{tag}_WordsDisplay:', assembly)
-            self.assertIn(f'{root}_Dictionary:', assembly)
+                    self.assertIn(f"{root}_{tag}_{band}:", lines)
+                self.assertIn(f'{root}_{tag}_WordsDisplay:', lines)
+            self.assertIn(f'{root}_Dictionary:', lines)
         self.assertEqual(len(dialogues), len(set(range(1, len(dialogues) + 1))))
 
     def test_adaptive_dewford_trends_preserve_runtime_words(self):

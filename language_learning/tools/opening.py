@@ -178,14 +178,14 @@ def generate(russian, latin, glyphs):
             labels = []
             for tag in ('ru', 'de'):
                 for band in ('A1', 'A2', 'natural'):
-                    if len(entry[tag][band]) != 1:
-                        raise ValueError(f'Adaptive translation must be one paragraph: {entry["id"]}/{tag}/{band}')
                     label = f'{root}_{tag}_{band}AdaptiveText'
                     mapping = russian if tag == 'ru' else latin
                     font = 0 if tag == 'ru' else 3
                     text = entry[tag][band][0]
                     bitmap = glyphs if tag == 'ru' else {}
-                    if '{' in text:
+                    if any('{' in paragraph for paragraph in entry[tag][band]):
+                        if len(entry[tag][band]) != 1:
+                            raise ValueError(f'Adaptive template must be one paragraph: {entry["id"]}/{tag}/{band}')
                         field_entry = field_entries[entry['base_symbol']]
                         widths = field_entry.get('widths', {})
                         wrapped = _wrap_template(text, mapping, bitmap, widths,

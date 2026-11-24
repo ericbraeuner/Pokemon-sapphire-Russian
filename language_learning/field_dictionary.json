@@ -158,5 +158,12 @@
   "SlateportCity_Text_VisitedMuseumOften": {"ru": [["детство", "childhood"], ["часто", "often"], ["экспонат", "exhibit"], ["мечтать", "to dream"], ["тайна", "mystery"]], "de": [["das Kind", "child"], ["oft", "often"], ["das Museum", "museum"], ["das Exponat", "exhibit"], ["träumen", "to dream"]]},
   "SlateportCity_Text_QuitPushing": {"ru": [["толкаться", "to push"], ["видеть", "to see"], ["очередь", "line"]], "de": [["drängeln", "to push"], ["sehen", "to see"], ["die Schlange", "line"]]},
   "SlateportCity_Text_EvilTeamHasPolicy": {"ru": [["собираться", "to assemble"], ["расходиться", "to disperse"], ["операция", "operation"], ["правило", "rule"]], "de": [["sich versammeln", "to assemble"], ["sich zerstreuen", "to disperse"], ["die Vorschrift", "rule"], ["der Einsatzort", "operation site"]]},
-  "SlateportCity_Text_BossIsBrilliant": {"ru": [["гений", "genius"], ["зачем", "what for"], ["музей", "museum"]], "de": [["brillant", "brilliant"], ["wollen", "to want"], ["das Museum", "museum"]]}
+  "SlateportCity_Text_BossIsBrilliant": {"ru": [["гений", "genius"], ["зачем", "what for"], ["музей", "museum"]], "de": [["brillant", "brilliant"], ["wollen", "to want"], ["das Museum", "museum"]]},
+  "SSTidalCorridor_Text_199291": {"ru":[["палуба","deck"],["облако","cloud"]],"de":[["das Deck","deck"],["die Wolke","cloud"]]},
+  "SSTidalRooms_Text_199630": {"ru":[["берег","shore"],["тропа","path"]],"de":[["das Ufer","shore"],["der Küstenpfad","coastal path"]]},
+  "SSTidalRooms_Text_1996E1": {"ru":[["билет","ticket"]],"de":[["die Fahrkarte","ticket"]]},
+  "SSTidalRooms_Text_199778": {"ru":[["открытка","postcard"]],"de":[["die Postkarte","postcard"]]},
+  "SSTidalRooms_Text_199A10": {"ru":[["дождь","rain"],["ливень","downpour"]],"de":[["der Schauer","rain shower"]]},
+  "SSTidalRooms_Text_199ADE": {"ru":[["выход","exit"]],"de":[["der Ausgang","exit"]]},
+  "SSTidalRooms_Text_199820": {"ru":[["окно","window"]],"de":[["das Fenster","window"]]}
 }

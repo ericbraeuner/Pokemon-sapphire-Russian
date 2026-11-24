@@ -11,9 +11,19 @@
 EWRAM_DATA struct PokemonStorage gPokemonStorage = {0};
 
 #if LEARNER_DEMO
-#define SaveLearnerText Learner_Translate
+static const u8 *SaveLearnerLabel(const u8 *fallback, const u8 *russian, const u8 *german)
+{
+    u8 language = Learner_GetLanguage();
+
+    if (language == 1)
+        return russian;
+    if (language == 2)
+        return german;
+    return fallback;
+}
+#define SaveLearnerLabelText(text, name) SaveLearnerLabel(text, LearnerUI_ru_##name, LearnerUI_de_##name)
 #else
-#define SaveLearnerText(text) (text)
+#define SaveLearnerLabelText(text, name) (text)
 #endif
 
 void HandleDrawSaveWindowInfo(s16 left, s16 top)
@@ -71,7 +81,7 @@ u8 IsResizeSaveWindowEnabled(void) // i don't know what else to name it..
 
 void PrintSavePlayerName(s16 x, s16 y)
 {
-    Menu_PrintText(SaveLearnerText(gOtherText_Player), x, y);
+    Menu_PrintText(SaveLearnerLabelText(gOtherText_Player, SavePlayerLabel), x, y);
     MenuPrint_RightAligned(gSaveBlock2.playerName, x + 12, y);
 }
 
@@ -91,7 +101,7 @@ void PrintSaveBadges(s16 x, s16 y)
 {
     char badges[16];
 
-    Menu_PrintText(SaveLearnerText(gOtherText_Badges), x, y);
+    Menu_PrintText(SaveLearnerLabelText(gOtherText_Badges, SaveBadgesLabel), x, y);
     ConvertIntToDecimalString(badges, GetBadgeCount());
     MenuPrint_RightAligned(badges, x + 12, y);
 }
@@ -100,7 +110,7 @@ void PrintSavePokedexCount(s16 x, s16 y)
 {
     char pokedex[16];
 
-    Menu_PrintText(SaveLearnerText(gOtherText_Pokedex), x, y);
+    Menu_PrintText(SaveLearnerLabelText(gOtherText_Pokedex, SavePokedexLabel), x, y);
     ConvertIntToDecimalStringN(pokedex, GetPokedexSeenCount(), 1, 3);
     MenuPrint_RightAligned(pokedex, x + 12, y);
 }
@@ -109,7 +119,7 @@ void PrintSavePlayTime(s16 x, s16 y)
 {
     char playtime[16];
 
-    Menu_PrintText(SaveLearnerText(gOtherText_PlayTime), x, y);
+    Menu_PrintText(SaveLearnerLabelText(gOtherText_PlayTime, SavePlayTimeLabel), x, y);
     FormatPlayTime(playtime, gSaveBlock2.playTimeHours, gSaveBlock2.playTimeMinutes, 1);
     MenuPrint_RightAligned(playtime, x + 12, y);
 }

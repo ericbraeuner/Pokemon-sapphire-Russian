@@ -1264,7 +1264,18 @@ class LessonTests(unittest.TestCase):
             self.assertIn(f'OptionLearnerText({symbol})', option)
         for symbol in ('gOtherText_Player', 'gOtherText_Badges',
                        'gOtherText_Pokedex', 'gOtherText_PlayTime'):
-            self.assertIn(f'SaveLearnerText({symbol})', save)
+            self.assertIn(symbol, save)
+        save_ui = validate.load(demo.ROOT / 'language_learning/ui.json')
+        for label, symbol in (
+                ('SavePlayerLabel', 'gOtherText_Player'),
+                ('SaveBadgesLabel', 'gOtherText_Badges'),
+                ('SavePokedexLabel', 'gOtherText_Pokedex'),
+                ('SavePlayTimeLabel', 'gOtherText_PlayTime')):
+            self.assertIn(f'SaveLearnerLabelText({symbol}, {label})', save)
+            self.assertIn(f'LEARNER_DECLARE({label})',
+                          (demo.ROOT / 'include/learner.h').read_text(encoding='utf-8'))
+            self.assertEqual(entries[symbol]['ru'], save_ui[label]['ru'])
+            self.assertEqual(entries[symbol]['de'], save_ui[label]['de'])
         compact_save_labels = {
             'gOtherText_Player': ('Имя', 'Name'),
             'gOtherText_Badges': ('Значки', 'Orden'),

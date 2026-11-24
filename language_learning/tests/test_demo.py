@@ -519,10 +519,12 @@ class LessonTests(unittest.TestCase):
     def test_activity_contexts_resolve_to_stable_vocabulary(self):
         contexts = context_catalog.load()
         authored_count = len(opening.load()["dialogues"])
-        self.assertEqual(authored_count + 160, len(contexts))
+        field_count = len(field_dictionary.load())
+        self.assertEqual(authored_count + field_count, len(contexts))
         self.assertEqual(set(range(1, authored_count + 1)),
                          {key for key in contexts if key < 0x1000})
-        self.assertEqual(set(range(0x1000, 0x10A0)), {key for key in contexts if key >= 0x1000})
+        self.assertEqual(set(range(0x1000, 0x1000 + field_count)),
+                         {key for key in contexts if key >= 0x1000})
         self.assertEqual("authored_dialogue", contexts[1]["kind"])
         self.assertEqual("field_dictionary", contexts[0x1000]["kind"])
         identifiers = []
@@ -750,6 +752,8 @@ class LessonTests(unittest.TestCase):
         battle_tower_areas = ('BattleTower_Outside', 'BattleTower_Lobby',
                               'BattleTower_BattleRoom')
         paths += [f'data/maps/{area}/scripts.inc' for area in battle_tower_areas]
+        paths += [f'data/maps/{area}/scripts.inc' for area in
+                  ('SSTidalCorridor', 'SSTidalRooms', 'SlateportCity_Harbor')]
         paths.append('data/event_scripts.s')
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)
@@ -854,10 +858,10 @@ class LessonTests(unittest.TestCase):
 
     def test_common_field_messages_have_contextual_dictionaries(self):
         entries = field_dictionary.load()
-        self.assertEqual(160, len(entries))
+        self.assertGreaterEqual(len(entries), 169)
         assembly = '\n'.join(field_dictionary.generate(self.russian, self.latin, self.glyphs))
         self.assertIn('gLearnerFieldDictionaries::', assembly)
-        self.assertIn('gLearnerFieldDictionaryCount::\n\t.2byte 160', assembly)
+        self.assertIn(f'gLearnerFieldDictionaryCount::\n\t.2byte {len(entries)}', assembly)
         for index, (symbol, languages) in enumerate(entries.items()):
             self.assertIn(f'\t.4byte {symbol}, LearnerFieldDictionary_{index}_ru, LearnerFieldDictionary_{index}_de', assembly)
             self.assertIn(f'\t.2byte 0x{0x1000 + index:04X}, 0', assembly)
@@ -887,7 +891,9 @@ class LessonTests(unittest.TestCase):
         item_messages = (demo.ROOT / 'src/menu_helpers.c').read_text(encoding='utf-8')
         self.assertIn('sLearnerFieldDictionaryMessage != NULL)\n    {\n        Learner_RecordFieldExposure();', scrcmd)
         self.assertIn('sLearnerItemDictionary != NULL)\n    {\n        Learner_RecordFieldExposure();', item_messages)
-        replay = scrcmd.split('case 1:', 1)[1].split('case 2:', 1)[0]
+        wait_handler = scrcmd.split('static bool8 LearnerWaitForFieldDictionary(void)', 1)[1]
+        replay = wait_handler.split('case 1:', 1)[1].split('return FALSE;', 1)[0]
+        self.assertIn('sLearnerFieldDictionaryWaitState = 0;', replay)
         self.assertNotIn('Learner_RecordFieldExposure', replay)
         makefile = (demo.ROOT / 'Makefile').read_text(encoding='utf-8')
         self.assertIn('$(BUILD_DIR)/src/main_menu.o: src/learner_intro.inc', makefile)

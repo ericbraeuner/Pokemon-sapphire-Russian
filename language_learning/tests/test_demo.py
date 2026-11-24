@@ -827,6 +827,23 @@ class LessonTests(unittest.TestCase):
                 self.assertLessEqual(len(byte_lines), demo.MAX_MESSAGE_BYTES)
                 self.assertEqual('0xFF', byte_lines[-1])
 
+    def test_ferry_practice_has_matching_field_dictionaries(self):
+        catalogue = validate.load(
+            demo.ROOT / 'language_learning/integration/dialogue_catalog.json'
+        )
+        scenes = [entry['source'] for entry in catalogue['dialogues']
+                  if 'ferry' in entry['tags'] and entry['id'].startswith('ferry.')]
+        self.assertGreaterEqual(len(scenes), 9)
+        authored = {entry['id']: entry for entry in opening.load()['dialogues']}
+        dictionaries = field_dictionary.load()
+        for scene in scenes:
+            with self.subTest(scene=scene['authored_id']):
+                entry = authored[scene['authored_id']]
+                symbol = scene['base_text_symbol']
+                self.assertTrue(entry['adaptive_translation'])
+                self.assertEqual(symbol, entry['base_symbol'])
+                self.assertEqual(entry['words'], dictionaries[symbol])
+
     def test_r_button_requests_current_dialogue_dictionary(self):
         source = (demo.ROOT / 'src/field_message_box.c').read_text(encoding='utf-8')
         self.assertIn('JOY_NEW(R_BUTTON)', source)

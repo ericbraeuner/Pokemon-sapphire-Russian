@@ -27,9 +27,9 @@
 #include "ewram.h"
 
 #if LEARNER_DEMO
-#define MAIN_MENU_LEARNER_TEXT(text) Learner_Translate(text)
+#define CONTINUE_LABEL(text, label) ContinueLabel(text, LearnerUI_ru_##label, LearnerUI_de_##label)
 #else
-#define MAIN_MENU_LEARNER_TEXT(text) (text)
+#define CONTINUE_LABEL(text, label) (text)
 #endif
 
 #define BirchSpeechUpdateWindowText() ((u8)Menu_UpdateWindowTextOverrideLineLength(24))
@@ -687,6 +687,19 @@ void PrintMainMenuItem(const u8 *text, u8 left, u8 top)
     Menu_PrintText(buffer, left, top);
 }
 
+#if LEARNER_DEMO
+static const u8 *ContinueLabel(const u8 *fallback, const u8 *russian, const u8 *german)
+{
+    u8 language = Learner_GetLanguage();
+
+    if (language == 1)
+        return russian;
+    if (language == 2)
+        return german;
+    return fallback;
+}
+#endif
+
 void PrintSaveFileInfo(void)
 {
     PrintPlayerName();
@@ -697,7 +710,7 @@ void PrintSaveFileInfo(void)
 
 void PrintPlayerName(void)
 {
-    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Player), 2, 3);
+    Menu_PrintText(CONTINUE_LABEL(gMainMenuString_Player, SavePlayerLabel), 2, 3);
     Menu_PrintText(gSaveBlock2.playerName, 9, 3);
 }
 
@@ -707,12 +720,12 @@ void PrintPlayTime(void)
     u8 alignedPlayTime[32];
 
 #if defined(ENGLISH)
-    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Time), 16, 3);
+    Menu_PrintText(CONTINUE_LABEL(gMainMenuString_Time, SavePlayTimeLabel), 16, 3);
     FormatPlayTime(playTime, gSaveBlock2.playTimeHours, gSaveBlock2.playTimeMinutes, 1);
     AlignStringInMenuWindow(alignedPlayTime, playTime, 48, 1);
     Menu_PrintText(alignedPlayTime, 22, 3);
 #elif defined(GERMAN)
-    Menu_PrintTextPixelCoords(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Time), 124, 24, TRUE);
+    Menu_PrintTextPixelCoords(CONTINUE_LABEL(gMainMenuString_Time, SavePlayTimeLabel), 124, 24, TRUE);
     FormatPlayTime(playTime, gSaveBlock2.playTimeHours, gSaveBlock2.playTimeMinutes, 1);
     // Keep the changing clock in its own final four-character column.
     AlignStringInMenuWindow(alignedPlayTime, playTime, 32, 1);
@@ -724,7 +737,7 @@ void PrintPokedexCount(void)
 {
     u8 buffer[16];
 
-    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Pokedex), 2, 5);
+    Menu_PrintText(CONTINUE_LABEL(gMainMenuString_Pokedex, SavePokedexLabel), 2, 5);
     AlignInt1InMenuWindow(buffer, GetPokedexSeenCount(), 18, 0);
     Menu_PrintText(buffer, 9, 5);
 }
@@ -734,9 +747,9 @@ void PrintBadgeCount(void)
     u8 buffer[16];
 
 #if defined(ENGLISH)
-    Menu_PrintText(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Badges), 16, 5);
+    Menu_PrintText(CONTINUE_LABEL(gMainMenuString_Badges, SaveBadgesLabel), 16, 5);
 #elif defined(GERMAN)
-    Menu_PrintTextPixelCoords(MAIN_MENU_LEARNER_TEXT(gMainMenuString_Badges), 124, 40, TRUE);
+    Menu_PrintTextPixelCoords(CONTINUE_LABEL(gMainMenuString_Badges, SaveBadgesLabel), 124, 40, TRUE);
 #endif
     ConvertIntToDecimalString(buffer, GetBadgeCount());
     Menu_PrintTextPixelCoords(buffer, 205, 40, 1);

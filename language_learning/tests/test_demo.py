@@ -3715,7 +3715,8 @@ class LessonTests(unittest.TestCase):
         self.assertIn('text = Learner_Translate(text);', main_menu)
         self.assertIn('Menu_PrintText(alignedPlayTime, 25, 3);', main_menu)
         for symbol in ('Player', 'Pokedex', 'Time', 'Badges'):
-            self.assertIn(f'MAIN_MENU_LEARNER_TEXT(gMainMenuString_{symbol})', main_menu)
+            label = 'PlayTime' if symbol == 'Time' else symbol
+            self.assertIn(f'CONTINUE_LABEL(gMainMenuString_{symbol}, Save{label}Label)', main_menu)
         hall = (demo.ROOT / 'src/hall_of_fame.c').read_text()
         region = (demo.ROOT / 'src/region_map.c').read_text()
         self.assertGreaterEqual(hall.count('HOF_LEARNER_TEXT('), 11)

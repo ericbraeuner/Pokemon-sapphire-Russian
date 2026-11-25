@@ -188,5 +188,16 @@
   "Route110_TrickHouseEntrance_Text_ConcealedBehindWindow": {"ru":[["окно","window"]],"de":[["das Fenster","window"]]},
   "Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion": {"ru":[["подушка","cushion"]],"de":[["das Kissen","cushion"]]},
   "Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse": {"ru":[["свиток","scroll"]],"de":[["die Schriftrolle","scroll"]]},
-  "Route110_TrickHouseEntrance_Text_ItsAScroll": {"ru":[["свиток","scroll"]],"de":[["die Schriftrolle","scroll"]]}
+  "Route110_TrickHouseEntrance_Text_ItsAScroll": {"ru":[["свиток","scroll"]],"de":[["die Schriftrolle","scroll"]]},
+  "Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened": {"ru":[["код","code"],["замок","lock"]],"de":[["der Geheimcode","secret code"],["das Schloss","lock"]]},
+  "Route110_TrickHousePuzzle_Text_DoorLockedWriteSecretCodeHere": {"ru":[["дверь","door"],["запереть","to lock"]],"de":[["die Tür","door"],["verschlossen","locked"]]},
+  "Route110_TrickHousePuzzle1_Text_FoundAScroll": {"ru":[["свиток","scroll"]],"de":[["die Schriftrolle","scroll"]]},
+  "Route110_TrickHousePuzzle1_Text_MemorizedTheCode": {"ru":[["запоминать","to memorize"]],"de":[["sich merken","to memorize"]]},
+  "Route110_TrickHousePuzzle1_Text_SecretCodeOnIt": {"ru":[["секретный код","secret code"]],"de":[["der Geheimcode","secret code"]]}
 }

@@ -1163,7 +1163,11 @@ static const u8 *GetTrainerNonBattlingSpeech(void);
 
 void ShowTrainerIntroSpeech(void)
 {
+#if LEARNER_DEMO
+    Learner_ShowScriptFieldMessage(GetTrainerIntroSpeech());
+#else
     ShowFieldMessage(GetTrainerIntroSpeech());
+#endif
 }
 
 u8 *BattleSetup_GetScriptAddrAfterBattle(void)
@@ -1184,7 +1188,11 @@ u8 *BattleSetup_GetTrainerPostBattleScript(void)
 
 void ScrSpecial_ShowTrainerNonBattlingSpeech(void)
 {
+#if LEARNER_DEMO
+    Learner_ShowScriptFieldMessage(GetTrainerNonBattlingSpeech());
+#else
     ShowFieldMessage(GetTrainerNonBattlingSpeech());
+#endif
 }
 
 void PlayTrainerEncounterMusic(void)

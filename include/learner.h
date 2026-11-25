@@ -1149,6 +1149,7 @@ extern const u8 gLearnerMoneyTilesRu[], gLearnerMoneyTilesDe[];
 extern const u8 gLearnerPartyMiscTilesRu[], gLearnerPartyMiscTilesDe[];
 const u8 *Learner_Translate(const u8 *text);
 void Learner_SetAdaptiveTextContext(const u8 *text);
+void Learner_ShowScriptFieldMessage(const u8 *text);
 const u8 *Learner_GetFieldDictionary(const u8 *text);
 void Learner_BeginFieldDictionaryExpansion(u8 *dest, const u8 *source);
 void Learner_EndFieldDictionaryExpansion(u8 *dest);

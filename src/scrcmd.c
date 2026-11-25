@@ -1282,15 +1282,13 @@ bool8 ScrCmd_release(struct ScriptContext *ctx)
     return FALSE;
 }
 
-bool8 ScrCmd_message(struct ScriptContext *ctx)
-{
-    u8 *msg = (u8 *)ScriptReadWord(ctx);
-
-    if (msg == NULL)
-        msg = (u8 *)ctx->data[0];
 #if LEARNER_DEMO
+void Learner_ShowScriptFieldMessage(const u8 *msg)
+{
+    const u8 *translated = Learner_Translate(msg);
+
     sLearnerFieldDictionaryMessage = Learner_GetFieldDictionary(msg);
-    sLearnerFieldDictionaryReplay = sLearnerFieldDictionaryMessage != NULL ? msg : NULL;
+    sLearnerFieldDictionaryReplay = sLearnerFieldDictionaryMessage != NULL ? translated : NULL;
     sLearnerFieldDictionaryWaitState = 0;
     if (sLearnerFieldDictionaryMessage != NULL)
     {
@@ -1303,8 +1301,21 @@ bool8 ScrCmd_message(struct ScriptContext *ctx)
         VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, 0);
         VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
     }
+    ShowFieldMessage(translated);
+}
 #endif
+
+bool8 ScrCmd_message(struct ScriptContext *ctx)
+{
+    u8 *msg = (u8 *)ScriptReadWord(ctx);
+
+    if (msg == NULL)
+        msg = (u8 *)ctx->data[0];
+#if LEARNER_DEMO
+    Learner_ShowScriptFieldMessage(msg);
+#else
     ShowFieldMessage(msg);
+#endif
     return FALSE;
 }
 

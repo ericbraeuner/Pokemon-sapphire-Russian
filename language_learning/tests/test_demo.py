@@ -849,6 +849,15 @@ class LessonTests(unittest.TestCase):
                 self.assertEqual(symbol, entry['base_symbol'])
                 self.assertEqual(entry['words'], dictionaries[symbol])
 
+    def test_adaptive_override_is_scoped_to_its_dialogue(self):
+        source = (demo.ROOT / 'src/learner_intro.inc').read_text()
+        selection = source.split('const u8 *Learner_Translate(', 1)[1]
+        selection = selection.split('void Learner_SetAdaptiveTextContext(', 1)[0]
+        self.assertRegex(selection, r'variant = 0;\s*if \(VarGet\(VAR_LEARNER_DICTIONARY_CONTEXT\)'
+                         r' == gLearnerAdaptiveTranslations\[i\]\.contextId\)\s*'
+                         r'variant = VarGet\(VAR_LEARNER_ADAPTIVE_VARIANT\);')
+        self.assertIn('variant = VarGet(VAR_LEARNER_LEVEL);', selection)
+
     def test_cave_dictionary_replay_precedes_secret_power_confirmation(self):
         symbol = 'SecretBase_Text_IndentUseSecretPower'
         dictionaries = field_dictionary.load()

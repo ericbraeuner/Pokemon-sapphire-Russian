@@ -104,7 +104,10 @@ const u8 *Learner_Translate(const u8 *text)
         for (i = 0; i < gLearnerAdaptiveTranslationCount; i++)
             if (text == gLearnerAdaptiveTranslations[i].source)
             {
-                variant = VarGet(VAR_LEARNER_ADAPTIVE_VARIANT);
+                // A runtime override applies only to its own dialogue.
+                variant = 0;
+                if (VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) == gLearnerAdaptiveTranslations[i].contextId)
+                    variant = VarGet(VAR_LEARNER_ADAPTIVE_VARIANT);
                 if (variant < 1 || variant > 3)
                 {
                     variant = VarGet(VAR_LEARNER_LEVEL);

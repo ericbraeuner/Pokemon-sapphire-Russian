@@ -60,8 +60,7 @@ showed the expected definition for `erforschen`.
 
 Changing the test save to Russian took effect in the same conversation. A
 normal save followed by an emulator restart preserved Russian, and the Russian
-Continue labels fit alongside the same name and the updated play time. The
-Russian START menu and Trainer Card still need layout/localization review.
+Continue labels fit alongside the same name and the updated play time.
 
 The same interaction reproduced a shortcut gap after the final page finished
 printing. The dialogue was already waiting for A or B, after the field text
@@ -69,6 +68,20 @@ printer stopped listening for R. In the rebuilt ROM, pressing R after the lab
 sign finished opened the correct glossary in Russian and German. Pressing R
 again left the Russian glossary open, and closing it restored the exact sign
 text. The German glossary included the article in `der Professor`.
+The shortcut also opened the glossary from the German sign's English
+translation and from the last page of the lab assistant's multi-page dialogue.
+Closing the latter glossary restored the final `nahe.` page. After a normal
+save and reset in the repaired build, Learning still showed German and A2.
+
+## 2026-11-25 START menu and Trainer Card
+
+The Russian START menu now uses `Декс` inside the existing cursor and window.
+The Continue screen and Trainer Card still show the full Russian Pokédex label.
+The Trainer Card front and back title were checked in Russian and German with
+a seven-character name, a five-digit ID, cash, a Pokédex count and play time.
+The badge heading clears the numbered slots in both languages. The copied
+save had no earned badges or link records, so filled badge slots and populated
+link cards still need an emulator check.
 
 ## Party and summary
 

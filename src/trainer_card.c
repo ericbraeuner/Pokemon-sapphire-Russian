@@ -1007,6 +1007,36 @@ static void TrainerCard_LoadCardTileMap(void)
     const void *arr[] = {gMenuTrainerCardFront_Tilemap, gMenuTrainerCardFront2_Tilemap};
 
     CpuFastSet(arr[gTrainerCardPtr->isShowingLinkCard], (void *)(VRAM + 0x4800), 0x140);
+#if LEARNER_DEMO
+    if (Learner_GetLanguage() != 0)
+    {
+        // These rectangles contain stock labels baked into the front tilemap.
+        // Replace them with matching background tiles before drawing text.
+        static const struct
+        {
+            u8 left, top, width, height, background;
+        } labels[] = {
+            {2, 2, 13, 2, 4}, // title
+            {16, 2, 4, 2, 4}, // ID
+            {3, 5, 3, 2, 1},  // name
+            {3, 8, 4, 2, 1},  // money, excluding the currency symbol
+            {3, 10, 6, 2, 1}, // Pokédex
+            {3, 12, 7, 2, 1}, // time
+        };
+        vu16 *tilemap = (vu16 *)(VRAM + 0x4800);
+        u8 i, x, y;
+
+        for (i = 0; i < ARRAY_COUNT(labels); i++)
+        {
+            for (y = labels[i].top; y < labels[i].top + labels[i].height; y++)
+                for (x = labels[i].left; x < labels[i].left + labels[i].width; x++)
+                    tilemap[y * 32 + x] = labels[i].background;
+        }
+        if (!gTrainerCardPtr->isShowingLinkCard)
+            for (x = 3; x < 10; x++)
+                tilemap[14 * 32 + x] = 4;
+    }
+#endif
 }
 
 // I don't really know where to put the data. It's in such a weird order.
@@ -1118,6 +1148,25 @@ static void TrainerCard_Front_PrintTexts(void)
 
     BasicInitMenuWindow(&gWindowTemplate_TrainerCard_Back_Values);
 
+#if LEARNER_DEMO
+    {
+        u8 language = Learner_GetLanguage();
+
+        if (language != 0)
+        {
+            Menu_PrintText(LEARNER_UI(language, TrainerCardTitle), 3, 2);
+            Menu_PrintText(LEARNER_UI(language, TrainerCardId), 16, 2);
+            Menu_PrintText(LEARNER_UI(language, SavePlayerLabel), 3, 5);
+            Menu_PrintText(LEARNER_UI(language, TrainerCardMoney), 3, 8);
+            if (gTrainerCardPtr->showPokedexCount)
+                Menu_PrintText(LEARNER_UI(language, SavePokedexLabel), 3, 10);
+            Menu_PrintText(LEARNER_UI(language, SavePlayTimeLabel), 3, 12);
+            if (!gTrainerCardPtr->isShowingLinkCard)
+                Menu_PrintText(LEARNER_UI(language, SaveBadgesLabel), 21, 13);
+        }
+    }
+#endif
+
     buffer = gStringVar1;
     StringCopy(buffer, gTrainerCardPtr->displayedCard.playerName);
     ConvertInternationalString(buffer, gTrainerCardPtr->language);
@@ -1224,6 +1273,17 @@ static void TrainerCard_Back_PrintName(void)
 {
     u8 *str;
 
+#if LEARNER_DEMO
+    if (Learner_GetLanguage() != 0)
+    {
+        str = StringCopy(gStringVar1, gTrainerCardPtr->displayedCard.playerName);
+        ConvertInternationalString(gStringVar1, gTrainerCardPtr->language);
+        str = StringAppend(gStringVar1, gUnknown_083B5EF4);
+        StringCopy(str, LEARNER_UI(Learner_GetLanguage(), TrainerCardTitle));
+        MenuPrint_RightAligned(gStringVar1, 28, 2);
+        return;
+    }
+#endif
     str = gStringVar1;
     StringCopy(str, gTrainerCardPtr->displayedCard.playerName);
     ConvertInternationalString(str, gTrainerCardPtr->language);

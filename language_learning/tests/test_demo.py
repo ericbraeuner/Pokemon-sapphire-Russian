@@ -753,7 +753,7 @@ class LessonTests(unittest.TestCase):
                               'BattleTower_BattleRoom')
         paths += [f'data/maps/{area}/scripts.inc' for area in battle_tower_areas]
         paths += [f'data/maps/{area}/scripts.inc' for area in
-                  ('SSTidalCorridor', 'SSTidalRooms', 'SlateportCity_Harbor')]
+                  ('SSTidalCorridor', 'SSTidalRooms', 'SSTidalLowerDeck', 'SlateportCity_Harbor')]
         paths.append('data/event_scripts.s')
         paths += [str(path.relative_to(demo.ROOT)) for path in (demo.ROOT / 'data/maps').glob('OldaleTown*/scripts.inc')]
         sources = '\n'.join((demo.ROOT / path).read_text(encoding='utf-8') for path in paths)

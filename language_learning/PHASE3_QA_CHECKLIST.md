@@ -79,9 +79,15 @@ The Russian START menu now uses `Декс` inside the existing cursor and window
 The Continue screen and Trainer Card still show the full Russian Pokédex label.
 The Trainer Card front and back title were checked in Russian and German with
 a seven-character name, a five-digit ID, cash, a Pokédex count and play time.
-The badge heading clears the numbered slots in both languages. The copied
-save had no earned badges or link records, so filled badge slots and populated
-link cards still need an emulator check.
+The badge heading clears the numbered slots in both languages. A disposable
+RAM fixture filled the first and last slots, which both stayed clear of the
+labels in Russian and German. That fixture also populated all six rows on the
+back of the player's card. The Hall of Fame time (3:33:50), four-digit Link
+Battle and Battle Tower figures, five-digit trade and Pokéblock counts, and
+three-digit contest count displayed without collisions in either language.
+The Pokéblock row still uses the game's small Pokéblock logo in both languages.
+The test covered local records and did not exchange or open a remote player's
+card over a link connection.
 
 ## Party and summary
 

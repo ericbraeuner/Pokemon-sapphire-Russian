@@ -20,6 +20,8 @@ LearnerOpening_SettingsReady:
 	return
 
 LearnerOpening_Settings::
+	setvar VAR_LEARNER_DICTIONARY_CONTEXT, 0
+	setvar VAR_LEARNER_DICTIONARY_REQUEST, 0
 	msgbox LearnerOpening_SettingsText, MSGBOX_DEFAULT
 	closemessage
 	multichoice 0, 0, MULTI_LEARNER_LANGUAGE, 1

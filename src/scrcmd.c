@@ -1364,6 +1364,20 @@ bool8 ScrCmd_closemessage(struct ScriptContext *ctx)
 
 static bool8 WaitForAorBPress(void)
 {
+#if LEARNER_DEMO
+    // Authored dialogue keeps its dictionary context through the final A/B wait.
+    // A request of 2 suppresses further shortcuts while the glossary is open.
+    if (VarGet(VAR_LEARNER_DICTIONARY_CONTEXT) != 0)
+    {
+        if (VarGet(VAR_LEARNER_DICTIONARY_REQUEST) == 1)
+            return TRUE;
+        if (VarGet(VAR_LEARNER_DICTIONARY_REQUEST) == 0 && JOY_NEW(R_BUTTON))
+        {
+            VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 1);
+            return TRUE;
+        }
+    }
+#endif
     if (JOY_NEW(A_BUTTON))
         return TRUE;
     if (JOY_NEW(B_BUTTON))

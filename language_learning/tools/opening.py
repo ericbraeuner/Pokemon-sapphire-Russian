@@ -170,7 +170,7 @@ def generate(russian, latin, glyphs):
                                                          f'{base}_WordsDisplay') + f'\tgoto {base}_Menu\n')
             scripts.append(f'{base}_Words:\n\tcall LearnerOpening_RecordDictionaryRequest\n'
                            f'\tcall {base}_WordsDisplay\n\tgoto {base}_Menu\n')
-            scripts.append(f'{base}_WordsDisplay:\n\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n'
+            scripts.append(f'{base}_WordsDisplay:\n\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 2\n'
                            + messages(base + 'WordsText', [f'{lemma}: {gloss}' for lemma, gloss in entry['words'][tag]], mapping, font)
                            + '\tsetvar VAR_LEARNER_DICTIONARY_REQUEST, 0\n\treturn\n')
             scripts.append(f'{base}_Settings:\n\tcall LearnerOpening_Settings\n\tgoto {root}\n')

@@ -49,6 +49,27 @@ start a new disposable save.
   `field_dictionary.json`. Press R and verify its glossary, replayed live item
   name or quantity, and subsequent event behavior.
 
+## 2026-11-25 Continue and learner dialogue smoke check
+
+A German in-game save opened on the Continue screen in mGBA 0.10.5.
+`Name`, `Zeit`, the seven-character name, and the `0:23` play time fit
+without clipping or colliding. After continuing into Littleroot, the Learning
+screen showed A1 and accepted a change to A2. The lab assistant's dialogue
+replayed from its first page when selecting `Noch einmal`, and `Wörterbuch`
+showed the expected definition for `erforschen`.
+
+Changing the test save to Russian took effect in the same conversation. A
+normal save followed by an emulator restart preserved Russian, and the Russian
+Continue labels fit alongside the same name and the updated play time. The
+Russian START menu and Trainer Card still need layout/localization review.
+
+The same interaction reproduced a shortcut gap after the final page finished
+printing. The dialogue was already waiting for A or B, after the field text
+printer stopped listening for R. In the rebuilt ROM, pressing R after the lab
+sign finished opened the correct glossary in Russian and German. Pressing R
+again left the Russian glossary open, and closing it restored the exact sign
+text. The German glossary included the article in `der Professor`.
+
 ## Party and summary
 
 - Open each party action, including summary, switch, item, mail and cancel.

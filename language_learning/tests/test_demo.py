@@ -1767,7 +1767,8 @@ class LessonTests(unittest.TestCase):
         self.assertIn("JOY_NEW(DPAD_LEFT | DPAD_RIGHT)", source)
         self.assertIn("VarSet(VAR_LEARNER_LANGUAGE", source)
         self.assertIn("VarSet(VAR_LEARNER_LEVEL", source)
-        self.assertIn("VarSet(VAR_LEARNER_MODE", source)
+        self.assertNotIn("VarSet(VAR_LEARNER_MODE", source)
+        self.assertIn("InitMenu(0, 1, 4, 2, sLearnerProgressCursor, 15)", source)
         self.assertIn("sLearnerProgressCursor = Menu_MoveCursor", source)
         self.assertIn("#else\n    AddStartMenuAction(MENU_ACTION_EXIT);", source)
         learner = source.split("#if LEARNER_DEMO", 1)[1]

@@ -634,7 +634,7 @@ static void DrawLearnerProgressPage(void)
                                VarGet(VAR_LEARNER_DICTIONARY_COUNT), 12);
     Menu_PrintText(LEARNER_UI(language, ChangeHint), 2, 15);
     Menu_PrintText(LEARNER_UI(language, BackHint), 2, 17);
-    sLearnerProgressCursor = InitMenu(0, 1, 4, 3, sLearnerProgressCursor, 15);
+    sLearnerProgressCursor = InitMenu(0, 1, 4, 2, sLearnerProgressCursor, 15);
 }
 
 static u8 StartMenu_LearnerProgressCallback(void)
@@ -676,9 +676,6 @@ static u8 StartMenu_LearnerProgressInput(void)
             else
                 value = value == 1 ? 6 : value - 1;
             VarSet(VAR_LEARNER_LEVEL, value);
-            break;
-        case 2:
-            VarSet(VAR_LEARNER_MODE, VarGet(VAR_LEARNER_MODE) == 1 ? 2 : 1);
             break;
         }
         Menu_DestroyCursor();

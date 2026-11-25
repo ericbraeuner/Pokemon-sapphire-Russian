@@ -47,6 +47,7 @@
 #if LEARNER_DEMO
 static const u8 *sLearnerFieldDictionaryMessage;
 static const u8 *sLearnerFieldDictionaryReplay;
+static EWRAM_DATA u8 sLearnerFieldDictionaryReplayBuffer[256] = {0};
 static u8 sLearnerFieldDictionaryWaitState;
 static bool8 sLearnerWaitForFinalButton;
 static bool8 sLearnerFinalPageReady;
@@ -1288,6 +1289,12 @@ void Learner_ShowScriptFieldMessage(const u8 *msg)
     const u8 *translated = Learner_Translate(msg);
 
     sLearnerFieldDictionaryMessage = Learner_GetFieldDictionary(msg);
+    if (sLearnerFieldDictionaryMessage != NULL && translated == gStringVar4)
+    {
+        // Printing the dictionary reuses the same expansion buffer.
+        StringCopy(sLearnerFieldDictionaryReplayBuffer, translated);
+        translated = sLearnerFieldDictionaryReplayBuffer;
+    }
     sLearnerFieldDictionaryReplay = sLearnerFieldDictionaryMessage != NULL ? translated : NULL;
     sLearnerFieldDictionaryWaitState = 0;
     if (sLearnerFieldDictionaryMessage != NULL)

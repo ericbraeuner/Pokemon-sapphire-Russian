@@ -849,6 +849,16 @@ class LessonTests(unittest.TestCase):
                 self.assertEqual(symbol, entry['base_symbol'])
                 self.assertEqual(entry['words'], dictionaries[symbol])
 
+    def test_cave_dictionary_replay_precedes_secret_power_confirmation(self):
+        symbol = 'SecretBase_Text_IndentUseSecretPower'
+        dictionaries = field_dictionary.load()
+        self.assertIn(symbol, dictionaries)
+        cave = (demo.ROOT / 'data/scripts/secret_base.inc').read_text()
+        self.assertIn(f'msgbox {symbol}, MSGBOX_YESNO\n\tcompare VAR_RESULT, NO', cave)
+        standard = (demo.ROOT / 'data/scripts/std_msgbox.inc').read_text()
+        yes_no = standard.split('Std_MsgboxYesNo:', 1)[1].split('\treturn', 1)[0]
+        self.assertLess(yes_no.index('waitmessage'), yes_no.index('yesnobox'))
+
     def test_r_button_requests_current_dialogue_dictionary(self):
         source = (demo.ROOT / 'src/field_message_box.c').read_text(encoding='utf-8')
         self.assertIn('JOY_NEW(R_BUTTON)', source)

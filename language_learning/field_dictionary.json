@@ -167,5 +167,8 @@
   "SSTidalRooms_Text_199ADE": {"ru":[["выход","exit"]],"de":[["der Ausgang","exit"]]},
   "SSTidalRooms_Text_199820": {"ru":[["окно","window"]],"de":[["das Fenster","window"]]},
   "SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday": {"ru":[["чайка","seagull"]],"de":[["die Möwe","seagull"]]},
-  "SlateportCity_Harbor_Text_SubTooSmallForMe": {"ru":[["лодка","boat"]],"de":[["das Boot","boat"]]}
+  "SlateportCity_Harbor_Text_SubTooSmallForMe": {"ru":[["лодка","boat"]],"de":[["das Boot","boat"]]},
+  "SecretBase_Text_SmallIndentInWall": {"ru": [["ниша", "recess"]], "de": [["die Nische", "recess"], ["der Fels", "rock"]]},
+  "SecretBase_Text_IndentUseSecretPower": {"ru": [["стена", "wall"], ["применить", "to use"]], "de": [["dahinter", "behind it"], ["einsetzen", "to use"]]},
+  "SecretBase_Text_DiscoveredSmallCavern": {"ru": [["укрытие", "hideout"]], "de": [["das Versteck", "hideout"]]}
 }

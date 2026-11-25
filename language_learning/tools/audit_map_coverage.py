@@ -15,6 +15,8 @@ def main():
     parser.add_argument("prefix", nargs="+", help="Map directory name prefixes")
     parser.add_argument("--shared", action="append", default=[],
                         help="Repository-relative shared text file to scan")
+    parser.add_argument("--list-fixed-only", action="store_true",
+                        help="List labels that have fixed translations but no adaptive entry")
     args = parser.parse_args()
 
     learner = ROOT / "language_learning"
@@ -48,6 +50,9 @@ def main():
               f"{len(labels & adaptive)} adaptive, {len(labels)} total")
         for label in sorted(labels - fixed.keys() - adaptive):
             print(f"  missing: {label}")
+        if args.list_fixed_only:
+            for label in sorted((labels & fixed.keys()) - adaptive):
+                print(f"  fixed only: {label}")
 
 
 if __name__ == "__main__":

@@ -240,6 +240,10 @@ news reports. Battle Tower coverage includes every exterior, lobby, challenge,
 party-validation, award, record, continuation, save, and battle-room message.
 Tickets, roamer setup, ferry travel, streaks, prizes, ribbons, party restoration,
 records, battles, and saving retain native behavior.
+The S.S. Tidal and Slateport Harbor have twelve original Russian and German
+practice scenes with A1, A2, and natural wording. Press R during a supported
+message to look up vocabulary. Southern Island messages and the Secret Base
+cave prompts also support dictionary lookup.
 Trainer introductions and defeat lines can now opt into the same generated
 variant table. The battle setup records the introduction context before the
 encounter and switches to the defeat context when combat begins, leaving the
@@ -375,12 +379,10 @@ should be committed.
 
 The learner build replaces the redundant `Exit` row in the ordinary START menu
 (START or B still closes it) with a localized Learning page. That page reads the
-saved language, CEFR level, introductory-help choice, exposure count, and
-dictionary count directly from the reserved variables. It does not modify those
-settings until the player uses left/right on the first three rows. Language,
-CEFR level, and introductory help can then be changed; the two activity counters
-remain read-only. Changes use the same reserved variables and persist with the
-next ordinary in-game save. No save structure is added.
+saved language, CEFR level, whether the opening tips were shown, exposure count,
+and dictionary count. Use left or right on the first two rows to change the
+language or level. The opening-tip record and activity counts are read-only.
+Language and level changes persist with the next ordinary in-game save.
 Imported events also update a conservative mastery estimate and next-review date
 for every vocabulary record in the context. Dictionary use shortens the review
 interval; repeated exposure gradually lengthens it up to 30 days. This activity

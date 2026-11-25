@@ -6,17 +6,15 @@ static EWRAM_DATA u8 sLearnerMode = 0;
 static EWRAM_DATA bool8 sLearnerSettingsPending = FALSE;
 
 static const u8 sLearnerLanguageTitle[] = _("Language");
-static const u8 sLearnerRussianName[] = _("Russian");
-static const u8 sLearnerGermanName[] = _("German");
 static const u8 sLearnerLevelA1[] = _("A1");
 static const u8 sLearnerLevelA2[] = _("A2");
 static const u8 sLearnerLevelB1[] = _("B1");
 static const u8 sLearnerLevelB2[] = _("B2");
 static const u8 sLearnerLevelC1[] = _("C1");
 static const u8 sLearnerLevelC2[] = _("C2");
-static const u8 sLearnerGuidance[] = _("A: read or confirm.\nB: back in menus.\pAfter translated scenes,\nopen the dictionary for help.\pYour language and level stay\nselected until you change them.");
+static const u8 sLearnerGuidance[] = _("A: read or confirm.\nB: back in menus.\pPress R while reading to\nlook up available words.\pChange language and level\nin the Learning menu.");
 static const struct MenuAction sLearnerLanguageChoices[] = {
-    {sLearnerRussianName, NULL}, {sLearnerGermanName, NULL}
+    {LearnerUI_ru_LanguageName, NULL}, {LearnerUI_de_LanguageName, NULL}
 };
 static const struct MenuAction sLearnerLevelChoices[] = {
     {sLearnerLevelA1, NULL}, {sLearnerLevelA2, NULL},

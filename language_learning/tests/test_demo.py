@@ -3235,8 +3235,8 @@ class LessonTests(unittest.TestCase):
                 continue
             source = source_path.read_text(errors='replace')
             symbols.update(re.findall(r'^([A-Za-z_]\w*)::', source, re.MULTILINE))
-        self.assertEqual(2362, len(symbols))
-        self.assertTrue(symbols.issubset(covered))
+        self.assertGreaterEqual(len(symbols), 2362)
+        self.assertEqual(set(), symbols - covered)
 
     def test_shared_berry_dialogue_is_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

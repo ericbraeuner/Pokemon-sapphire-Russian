@@ -1,4 +1,4 @@
-"""Report fixed and adaptive learner coverage for map text labels."""
+"""Report translation and dictionary coverage for map text labels."""
 
 import argparse
 import json
@@ -17,10 +17,13 @@ def main():
                         help="Repository-relative shared text file to scan")
     parser.add_argument("--list-fixed-only", action="store_true",
                         help="List labels that have fixed translations but no adaptive entry")
+    parser.add_argument("--list-without-dictionary", action="store_true",
+                        help="List translated labels without a field dictionary")
     args = parser.parse_args()
 
     learner = ROOT / "language_learning"
     fixed = json.loads((learner / "field_templates.json").read_text(encoding="utf-8"))
+    dictionaries = json.loads((learner / "field_dictionary.json").read_text(encoding="utf-8"))
     catalog = json.loads(
         (learner / "integration/dialogue_catalog.json").read_text(encoding="utf-8")
     )
@@ -47,12 +50,17 @@ def main():
             print(f"{prefix}: no local map text labels")
             continue
         print(f"{prefix}: {len(labels & fixed.keys())} fixed, "
-              f"{len(labels & adaptive)} adaptive, {len(labels)} total")
+              f"{len(labels & adaptive)} adaptive, "
+              f"{len(labels & dictionaries.keys())} with dictionary, {len(labels)} total")
         for label in sorted(labels - fixed.keys() - adaptive):
             print(f"  missing: {label}")
         if args.list_fixed_only:
             for label in sorted((labels & fixed.keys()) - adaptive):
                 print(f"  fixed only: {label}")
+        if args.list_without_dictionary:
+            translated = labels & (fixed.keys() | adaptive)
+            for label in sorted(translated - dictionaries.keys()):
+                print(f"  no dictionary: {label}")
 
 
 if __name__ == "__main__":

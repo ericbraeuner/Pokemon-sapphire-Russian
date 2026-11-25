@@ -48,6 +48,10 @@
 static const u8 *sLearnerFieldDictionaryMessage;
 static const u8 *sLearnerFieldDictionaryReplay;
 static u8 sLearnerFieldDictionaryWaitState;
+static bool8 sLearnerWaitForFinalButton;
+static bool8 sLearnerFinalPageReady;
+
+bool8 ScrCmd_waitbuttonpress(struct ScriptContext *ctx);
 
 static bool8 LearnerWaitForFieldDictionary(void)
 {
@@ -57,6 +61,18 @@ static bool8 LearnerWaitForFieldDictionary(void)
     switch (sLearnerFieldDictionaryWaitState)
     {
     case 0:
+        if (sLearnerWaitForFinalButton && VarGet(VAR_LEARNER_DICTIONARY_REQUEST) == 0)
+        {
+            if (!sLearnerFinalPageReady)
+            {
+                sLearnerFinalPageReady = TRUE;
+                return FALSE;
+            }
+            if (JOY_NEW(R_BUTTON))
+                VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 1);
+            else if (!JOY_NEW(A_BUTTON | B_BUTTON))
+                return FALSE;
+        }
         if (VarGet(VAR_LEARNER_DICTIONARY_REQUEST) != 1)
             break;
         VarSet(VAR_LEARNER_DICTIONARY_REQUEST, 0);
@@ -69,6 +85,7 @@ static bool8 LearnerWaitForFieldDictionary(void)
         VarSet(VAR_LEARNER_DICTIONARY_CONTEXT, LEARNER_FIELD_DICTIONARY_CONTEXT);
         ShowFieldMessage(sLearnerFieldDictionaryReplay);
         sLearnerFieldDictionaryWaitState = 0;
+        sLearnerFinalPageReady = FALSE;
         return FALSE;
     }
 
@@ -1305,7 +1322,16 @@ bool8 ScrCmd_waitmessage(struct ScriptContext *ctx)
 {
 #if LEARNER_DEMO
     if (sLearnerFieldDictionaryMessage != NULL)
+    {
+        // Keep the dictionary available through an immediately following A/B wait.
+        sLearnerWaitForFinalButton =
+            *ctx->scriptPtr < ctx->cmdTableEnd - ctx->cmdTable
+            && ctx->cmdTable[*ctx->scriptPtr] == ScrCmd_waitbuttonpress;
+        sLearnerFinalPageReady = FALSE;
+        if (sLearnerWaitForFinalButton)
+            ctx->scriptPtr++;
         SetupNativeScript(ctx, LearnerWaitForFieldDictionary);
+    }
     else
 #endif
     SetupNativeScript(ctx, IsFieldMessageBoxHidden);

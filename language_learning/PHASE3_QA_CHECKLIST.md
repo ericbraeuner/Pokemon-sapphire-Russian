@@ -86,8 +86,17 @@ back of the player's card. The Hall of Fame time (3:33:50), four-digit Link
 Battle and Battle Tower figures, five-digit trade and Pokéblock counts, and
 three-digit contest count displayed without collisions in either language.
 The Pokéblock row still uses the game's small Pokéblock logo in both languages.
-The test covered local records and did not exchange or open a remote player's
-card over a link connection.
+The test above covered locally populated records.
+
+In mGBA 0.10.5 local multiplayer, separate Russian and German learner saves
+joined the Oldale Trade Center and displayed both players in the trade room.
+The Russian player faced the German player and got the localized prompt with
+the correct remote name. Acknowledging the prompt produced a link error on
+both consoles before the remote card could be checked. The error screen was
+in English. Under the same emulator setup and with copies of the same saves,
+the checksum-matching stock Sapphire build opened the remote card in both
+directions with the expected names and trainer IDs. The learner link-card
+transition and error localization remain open.
 
 ## Party and summary
 

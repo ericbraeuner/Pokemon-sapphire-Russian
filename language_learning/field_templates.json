@@ -316,6 +316,12 @@
   ,"gOtherText_ThatWillBe2":{"ru":"{STR_VAR_1}\\nЦена ¥{STR_VAR_2}. Купить?","de":"{STR_VAR_1}\\n¥{STR_VAR_2}. Kaufen?","widths":{"STR_VAR_1":112,"STR_VAR_2":48},"max_width":192}
   ,"gOtherText_ThatWillBe3":{"ru":"{STR_VAR_1}\\nЦена ¥{STR_VAR_2}. Купить?","de":"{STR_VAR_1}\\n¥{STR_VAR_2}. Kaufen?","widths":{"STR_VAR_1":112,"STR_VAR_2":48},"max_width":192}
   ,"gOtherText_SpaceForIsFull":{"ru":"Нет места для:\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","de":"Kein Platz für:\\n{STR_VAR_1}.{PAUSE_UNTIL_PRESS}","widths":{"STR_VAR_1":112},"max_width":192}
+  ,"TradeText_LinkStandby":{"ru":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Есть связь.\\nПодожди.","de":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Verbunden.\\nBitte warten.","widths":{},"max_width":104}
+  ,"TradeText_TradeCancelled":{"ru":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Обмен отменён.","de":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Tausch\\nabgebrochen.","widths":{},"max_width":104}
+  ,"TradeText_OnlyPoke":{"ru":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Это твой последний\\nбоевой покемон.","de":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Dein letztes\\nKampf-Pokémon.","widths":{},"max_width":136}
+  ,"TradeText_NonTradablePoke":{"ru":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Друг не может\\nотдать покемона.","de":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Dieses Pokémon\\nist gesperrt.","widths":{},"max_width":136}
+  ,"TradeText_WaitingForFriend":{"ru":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Ждём другого\\nигрока...","de":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Warte auf den\\nMitspieler...","widths":{},"max_width":104}
+  ,"TradeText_WantToTrade":{"ru":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Друг предлагает\\nобмен.","de":"{COLOR DARK_GREY}{HIGHLIGHT WHITE2}{SHADOW LIGHT_GREY}Dein Freund\\nwill tauschen.","widths":{},"max_width":120}
   ,"gTradeText_WillBeSent":{"ru":"{STR_VAR_2} отправится к\\n{STR_VAR_1}.","de":"{STR_VAR_2} geht an\\n{STR_VAR_1}.","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192}
   ,"gTradeText_ByeBye":{"ru":"До свидания,\\n{STR_VAR_2}!","de":"Mach's gut,\\n{STR_VAR_2}!","widths":{"STR_VAR_2":80},"max_width":192}
   ,"gTradeText_SentOverPoke":{"ru":"{STR_VAR_1} отправляет\\n{STR_VAR_3}.","de":"{STR_VAR_1} sendet\\n{STR_VAR_3}.","widths":{"STR_VAR_1":80,"STR_VAR_3":80},"max_width":192}
@@ -4565,7 +4571,11 @@
   ,"TradeRoom_TerminatingLink":{"ru":"Связь завершается...\\nПожалуйста, подождите.","de":"Verbindung endet...\\nBitte warten.","widths":{},"max_width":192}
   ,"CableClub_TooBusyToNotice":{"ru":"Этот ТРЕНЕР\\nзанят...","de":"TRAINER ist\\nbeschäftigt...","widths":{},"max_width":192}
   ,"CableClub_LookAtTrainerCard1":{"ru":"Удалось увидеть КАРТУ\\nТРЕНЕРА {STR_VAR_1}!","de":"TRAINERPASS von\\n{STR_VAR_1} angesehen!","widths":{"STR_VAR_1":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10}}
-  ,"CableClub_LookAtTrainerCard2":{"ru":"КАРТА ТРЕНЕРА:\\n{STR_VAR_1}.\\pЦвет: {STR_VAR_2}.","de":"TRAINERPASS von\\n{STR_VAR_1}.\\pFarbe: {STR_VAR_2}.","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":10}}
+  ,"CableClub_LookAtTrainerCard2":{"ru":"КАРТА ТРЕНЕРА:\\n{STR_VAR_1}.\\pЦвет: {STR_VAR_2}.","de":"TRAINERPASS von\\n{STR_VAR_1}.\\pFarbe: {STR_VAR_2}.","widths":{"STR_VAR_1":80,"STR_VAR_2":80},"max_width":192,"buffer_lengths":{"STR_VAR_1":10,"STR_VAR_2":16}}
+  ,"TrainerCardColorName_Bronze":{"ru":"бронза","de":"Bronze","widths":{},"max_width":80}
+  ,"TrainerCardColorName_Copper":{"ru":"медь","de":"Kupfer","widths":{},"max_width":80}
+  ,"TrainerCardColorName_Silver":{"ru":"серебро","de":"Silber","widths":{},"max_width":80}
+  ,"TrainerCardColorName_Gold":{"ru":"золото","de":"Gold","widths":{},"max_width":80}
   ,"UnknownString_81A4E0A":{"ru":"Выберите ПОКЕМОНА\\nдля МУЛЬТИ-БОЯ.","de":"Wähle dein POKéMON\\nfür den MULTIKAMPF.","widths":{},"max_width":192}
   ,"UnknownString_81A0B57":{"ru":"Добро пожаловать в КЛУБ\\nСВЯЗИ: ОБМЕН.","de":"Willkommen im LINK-KLUB-\\nTAUSCHCENTER.","widths":{},"max_width":192}
   ,"UnknownString_81A0B87":{"ru":"Добро пожаловать в КЛУБ\\nСВЯЗИ: КОЛИЗЕЙ.","de":"Willkommen im LINK-KLUB-\\nKOLOSSEUM.","widths":{},"max_width":192}

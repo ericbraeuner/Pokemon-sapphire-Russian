@@ -1824,6 +1824,27 @@ class LessonTests(unittest.TestCase):
             'gTradeText_TradeOkayPrompt'
         }
         self.assertTrue(required.issubset(set(entries) | set(templates)))
+        trade_notices = {
+            'TradeText_LinkStandby': 104, 'TradeText_TradeCancelled': 104,
+            'TradeText_OnlyPoke': 136, 'TradeText_NonTradablePoke': 136,
+            'TradeText_WaitingForFriend': 104, 'TradeText_WantToTrade': 120,
+        }
+        for symbol, width in trade_notices.items():
+            for tag, mapping, glyphs, font in (
+                ('ru', self.russian, self.glyphs, 0), ('de', self.latin, {}, 3)
+            ):
+                with self.subTest(symbol=symbol, language=tag):
+                    entry = templates[symbol]
+                    self.assertLessEqual(entry['max_width'], width)
+                    encoded = field_templates.compile_text(entry[tag], mapping, glyphs, font,
+                                                           entry['widths'], width)
+                    self.assertEqual(encoded[5:14], [0xFC, 1, 1, 0xFC, 2, 15, 0xFC, 3, 8])
+                    self.assertLessEqual(encoded.count(0xFE), 1)
+        battle_names = validate.load(demo.ROOT / 'language_learning/battle_names.json')
+        for symbol, languages in battle_names.items():
+            if symbol.startswith('MOVE_'):
+                for text in languages.values():
+                    self.assertLessEqual(len(text), 11, symbol)
 
     def test_pokeblock_case_labels_and_messages_are_bilingual(self):
         entries = validate.load(demo.ROOT / 'language_learning/ui_sources.json')

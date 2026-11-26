@@ -1897,16 +1897,10 @@
   ,"TradeText_Summary1":{"ru":"СВОДКА","de":"BERICHT","width":80,"lines":1}
   ,"TradeText_Trade1":{"ru":"ОБМЕН","de":"TAUSCH","width":80,"lines":1}
   ,"TradeText_CancelTradePrompt":{"ru":"Отменить обмен?","de":"Tausch abbrechen?","width":192,"lines":2}
-  ,"TradeText_PressBToExit":{"ru":"Нажми B для выхода.","de":"Drücke B zum Beenden.","width":192,"lines":2}
+  ,"TradeText_PressBToExit":{"ru":"B: Выход.","de":"B: Beenden.","width":152,"lines":1}
   ,"TradeText_Summary2":{"ru":"СВОДКА","de":"BERICHT","width":80,"lines":1}
   ,"TradeText_Trade2":{"ru":"ОБМЕН","de":"TAUSCH","width":80,"lines":1}
-  ,"TradeText_LinkStandby":{"ru":"Связь установлена... Подожди.","de":"Verbindung steht... Bitte warten.","width":192,"lines":3}
-  ,"TradeText_TradeCancelled":{"ru":"Обмен отменён.","de":"Der Tausch wurde abgebrochen.","width":192,"lines":3}
-  ,"TradeText_OnlyPoke":{"ru":"Это твой единственный боевой покемон.","de":"Das ist dein einziges Kampf-Pokémon.","width":192,"lines":3}
-  ,"TradeText_NonTradablePoke":{"ru":"Друг не может обменять этого покемона.","de":"Dein Freund kann dieses Pokémon nicht tauschen.","width":192,"lines":3}
-  ,"TradeText_WaitingForFriend":{"ru":"Ждём, пока друг закончит...","de":"Warte, bis dein Freund fertig ist...","width":192,"lines":3}
-  ,"TradeText_WantToTrade":{"ru":"Друг хочет обменяться покемонами.","de":"Dein Freund möchte Pokémon tauschen.","width":192,"lines":3}
-  ,"gTradeText_TradeOkayPrompt":{"ru":"Согласен на обмен?","de":"Ist der Tausch in Ordnung?","width":192,"lines":2}
+  ,"gTradeText_TradeOkayPrompt":{"ru":"Подтвердить обмен?","de":"Tausch bestätigen?","width":152,"lines":1}
   ,"ContestStatsText_VerySoft":{"ru":"Очень мягкий","de":"Sehr weich","width":192,"lines":1}
   ,"ContestStatsText_Soft":{"ru":"Мягкий","de":"Weich","width":192,"lines":1}
   ,"ContestStatsText_Hard":{"ru":"Твёрдый","de":"Hart","width":192,"lines":1}

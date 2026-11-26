@@ -120,7 +120,18 @@ spilled out of its small box, as did the German wait notice during
 cancellation. The Russian player declined the cancellation prompt and
 returned to the selection screen. Both players then confirmed cancellation
 and returned to the trade room with the link still active. A completed
-Pokémon trade still needs verification.
+Pokémon trade was then verified with disposable saves. Each side selected a
+distinct nickname, confirmed in the trade interface, received the other's
+Pokémon, and returned to the selection screen. Reading the resulting saves
+confirmed the exchanged nicknames and one extra trade on each side.
+
+The rebuilt trade UI was checked with a second complete swap. The connection
+and wait notices used dark text on the light background and fit their boxes.
+Both consoles showed the confirmation prompt and the Pokémon's moves in the
+viewer's language, then saved the received Pokémon. Both cancelled a
+follow-up trade and returned to the trade room. Each player also saw the
+localized copper card color when interacting with the other player. The
+linked card's Easy Chat greeting remains English.
 
 ## Party and summary
 

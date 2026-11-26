@@ -6,6 +6,8 @@ TOKENS = {'PLAYER': 1, 'STR_VAR_1': 2, 'STR_VAR_2': 3, 'STR_VAR_3': 4, 'RIVAL': 
           'EVIL_TEAM': 8, 'GOOD_TEAM': 9, 'EVIL_LEADER': 10, 'GOOD_LEADER': 11}
 SOUND_EFFECTS = {'SE_BALL_BOUNCE_1': 56}
 SPECIAL_GLYPHS = {'POKEBLOCK': [0x55, 0x56, 0x57, 0x58, 0x59]}
+TEXT_COLORS = {'DARK_GREY': 1, 'LIGHT_GREY': 8, 'WHITE2': 15}
+TEXT_COLOR_CODES = {'COLOR': 1, 'HIGHLIGHT': 2, 'SHADOW': 3}
 
 def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_lengths=None):
     data = [0xFC, 22, 0xFC, 6, font]
@@ -18,6 +20,9 @@ def compile_text(text, mapping, glyphs, font, widths, max_width=192, buffer_leng
             data.extend([0xFE] if part == r'\n' else [0xFC, 6, 3, 0xFB, 0xFC, 6, font])
         elif part == '{PAUSE_UNTIL_PRESS}':
             data.extend([0xFC, 9])
+        elif part.startswith(('{COLOR ', '{HIGHLIGHT ', '{SHADOW ')) and part.endswith('}'):
+            command, color = part[1:-1].split()
+            data.extend([0xFC, TEXT_COLOR_CODES[command], TEXT_COLORS[color]])
         elif part.startswith('{CLEAR ') and part.endswith('}'):
             amount = int(part[7:-1], 0)
             if not 0 <= amount <= 0xFF:

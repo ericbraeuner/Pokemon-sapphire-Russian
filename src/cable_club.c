@@ -8,6 +8,7 @@
 #include "field_message_box.h"
 #include "field_specials.h"
 #include "field_weather.h"
+#include "learner.h"
 #include "link.h"
 #include "load_save.h"
 #include "m4a.h"
@@ -954,7 +955,11 @@ bool32 sub_8083BF4(u8 linkPlayerIndex)
     if (trainerCardColorIndex == 0)
         return FALSE;
 
+#if LEARNER_DEMO
+    StringCopy(gStringVar2, Learner_Translate(gTrainerCardColorNames[trainerCardColorIndex - 1]));
+#else
     StringCopy(gStringVar2, gTrainerCardColorNames[trainerCardColorIndex - 1]);
+#endif
     return TRUE;
 }
 

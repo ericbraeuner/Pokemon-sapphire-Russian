@@ -8,6 +8,7 @@
 #include "constants/moves.h"
 #include "constants/easy_chat.h"
 #include "link.h"
+#include "learner.h"
 #include "strings2.h"
 #include "graphics.h"
 #include "palette.h"
@@ -1649,9 +1650,13 @@ static bool8 sub_8048D44(void)
 
 static void sub_8049088(void)
 {
+#if LEARNER_DEMO
+    sub_804ACD8(gTradeText_TradeOkayPrompt, BG_CHAR_ADDR(4) + gUnknown_03004824->unk_007e * 32, 20);
+#else
     u8 string[28];
     StringCopy(string, gTradeText_TradeOkayPrompt);
     sub_804ACD8(string, BG_CHAR_ADDR(4) + gUnknown_03004824->unk_007e * 32, 20);
+#endif
 }
 
 static void sub_80490BC(u8 mpId, u8 a1)
@@ -2821,6 +2826,42 @@ void sub_804A33C(u8 *a0, u8 whichParty, u8 whichPokemon)
             else
                 moves[i] = GetMonData(&gEnemyParty[whichPokemon], MON_DATA_MOVE1 + i, NULL);
         }
+#if LEARNER_DEMO
+        if (Learner_GetLanguage() != 0)
+        {
+            // The caller reserves 56 bytes: one font prefix, four lines of
+            // at most 11 glyphs plus a newline each, a font reset, and EOS.
+            *a0++ = EXT_CTRL_CODE_BEGIN;
+            *a0++ = EXT_CTRL_CODE_ENG;
+            *a0++ = EXT_CTRL_CODE_BEGIN;
+            *a0++ = EXT_CTRL_CODE_SIZE;
+            *a0++ = Learner_GetLanguage() == 1 ? 0 : 3;
+            for (i = 0; i < ARRAY_COUNT(moves); i++)
+            {
+                const u8 *name = Learner_Translate(gMoveNames[moves[i]]);
+                u8 glyphs = 0;
+
+                while (moves[i] != 0 && *name != EOS && glyphs < 11)
+                {
+                    if (*name == EXT_CTRL_CODE_BEGIN)
+                    {
+                        name++;
+                        name += GetExtCtrlCodeLength(*name);
+                    }
+                    else
+                    {
+                        *a0++ = *name++;
+                        glyphs++;
+                    }
+                }
+                *a0++ = CHAR_NEWLINE;
+            }
+            *a0++ = EXT_CTRL_CODE_BEGIN;
+            *a0++ = EXT_CTRL_CODE_RESET_SIZE;
+            *a0 = EOS;
+            return;
+        }
+#endif
         StringCopy(a0, gOtherText_Terminator);
         for (i = 0; i < 4; i ++)
         {

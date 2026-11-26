@@ -3,6 +3,7 @@
 #if LEARNER_DEMO
 #define LEARNER_FIELD_DICTIONARY_CONTEXT 0xFFFE
 #define LEARNER_FIELD_DICTIONARY_CONTEXT_BASE 0x1000
+const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback);
 #define LEARNER_DECLARE(name) \
     extern const u8 LearnerUI_ru_##name[]; \
     extern const u8 LearnerUI_de_##name[];
@@ -16,6 +17,8 @@ LEARNER_DECLARE(SavePlayTimeLabel)
 LEARNER_DECLARE(TrainerCardTitle)
 LEARNER_DECLARE(TrainerCardId)
 LEARNER_DECLARE(TrainerCardMoney)
+LEARNER_DECLARE(TrainerCardGreetingTop)
+LEARNER_DECLARE(TrainerCardGreetingBottom)
 LEARNER_DECLARE(Level)
 LEARNER_DECLARE(Mode)
 LEARNER_DECLARE(Guided)

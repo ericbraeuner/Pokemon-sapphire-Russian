@@ -14,6 +14,7 @@ import build_demo as demo
 import validate
 import opening
 import ui
+import easy_chat
 import battle
 import field_templates
 import field_dictionary
@@ -3625,6 +3626,16 @@ class LessonTests(unittest.TestCase):
             'gOtherText_MixingRecordsWithFriend', 'gOtherText_MixingComplete',
         }
         self.assertTrue((trainer_symbols | battle_symbols | mixing_symbols).issubset(templates))
+        easy_chat_words = easy_chat.generate(self.russian, self.latin, self.glyphs)
+        greetings = easy_chat.GROUPS.index('greetings')
+        for tag, word, mapping, glyphs, font in (
+            ('ru', 'ЗДРАВСТВУЙ', self.russian, self.glyphs, 0),
+            ('de', 'HALLO', self.latin, {}, 3),
+        ):
+            # EC_WORD_HELLO keeps index 0xF in the greeting group over the link.
+            label = f'LearnerEasyChat_{tag}_{greetings}_15'
+            self.assertIn(demo.assembly_bytes(label, demo.message([word], mapping, glyphs, font, 104)),
+                          easy_chat_words)
         trainer = (demo.ROOT / 'src/trainer_card.c').read_text(errors='replace')
         battle = (demo.ROOT / 'src/battle_records.c').read_text(errors='replace')
         mixing = (demo.ROOT / 'src/record_mixing.c').read_text(errors='replace')

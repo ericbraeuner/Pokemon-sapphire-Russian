@@ -148,6 +148,8 @@ def generate():
     parts.extend(field_dictionary.generate(russian, latin, glyphs))
     import ui
     parts.extend(ui.generate(russian, latin, glyphs))
+    import easy_chat
+    parts.extend(easy_chat.generate(russian, latin, glyphs))
     import graphic_labels
     parts.extend(graphic_labels.generate())
     indices = [255] * 256

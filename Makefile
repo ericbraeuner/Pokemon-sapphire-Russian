@@ -138,6 +138,7 @@ build/learner_demo/lesson.s: language_learning/tools/field_templates.py language
 
 build/learner_demo/lesson.s: language_learning/tools/graphic_labels.py language_learning/graphic_labels.json graphics/fonts/font0_lat.png graphics/interface/bag_screen.png graphics/interface/money.png graphics/pokedex/menu_search.png
 build/learner_demo/lesson.s: graphics/pokedex/menu.png graphics/pokedex/menu2.png graphics/interface/party_menu_misc.png
+build/learner_demo/lesson.s: language_learning/tools/easy_chat.py language_learning/easy_chat_ru.json $(wildcard src/data/text/easy_chat/groups/*/words.h)
 
 # NODEP learner builds still need to notice changes to this directly included C file.
 $(BUILD_DIR)/src/main_menu.o: src/learner_intro.inc

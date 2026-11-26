@@ -126,6 +126,9 @@ u8 sub_80EAD7C(u8 group);
 u16 sub_80EAE88(u8);
 u8 sub_80EB37C(u16);
 u8* EasyChat_GetWordText(u8 *, u16);
+#if LEARNER_DEMO
+const u8 *EasyChat_GetLearnerWord(u16 word);
+#endif
 u8 *ConvertEasyChatWordsToString(u8 *dst, u16 *words, u16, u16);
 u16 sub_80EB784(u16 group);
 u8 sub_80EB868(u8);

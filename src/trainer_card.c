@@ -1253,6 +1253,38 @@ static void TrainerCard_PrintEasyChatPhrase(void)
 
     if (gTrainerCardPtr->isShowingLinkCard != 0)
     {
+#if LEARNER_DEMO
+        u8 language = Learner_GetLanguage();
+
+        if (language == 1 || language == 2)
+        {
+            extern const u16 gUnknown_083DB7EC[];
+            const u16 *words = gTrainerCardPtr->displayedCard.var_28;
+            u8 i;
+
+            for (i = 0; i < ARRAY_COUNT(gTrainerCardPtr->displayedCard.var_28); i++)
+                if (words[i] != gUnknown_083DB7EC[i])
+                    break;
+            if (i == ARRAY_COUNT(gTrainerCardPtr->displayedCard.var_28))
+            {
+                Menu_PrintText(LEARNER_UI(language, TrainerCardGreetingTop), 2, 14);
+                Menu_PrintText(LEARNER_UI(language, TrainerCardGreetingBottom), 2, 16);
+                return;
+            }
+            for (i = 0; i < 4; i += 2)
+            {
+                const u8 *first = EasyChat_GetLearnerWord(words[i]);
+                const u8 *second = EasyChat_GetLearnerWord(words[i + 1]);
+
+                str = StringCopy(gStringVar1, first != NULL ? first : gTrainerCardPtr->easyChatPhrase[i]);
+                if (words[i] != 0xFFFF && words[i + 1] != 0xFFFF)
+                    *str++ = CHAR_SPACE;
+                StringCopy(str, second != NULL ? second : gTrainerCardPtr->easyChatPhrase[i + 1]);
+                Menu_PrintText(gStringVar1, 2, 14 + i);
+            }
+            return;
+        }
+#endif
         str = gStringVar1;
         str = StringCopy(str, gTrainerCardPtr->easyChatPhrase[0]);
         str[0] = 00;

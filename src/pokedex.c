@@ -1250,7 +1250,6 @@ static u8 LoadInfoScreen(struct PokedexListItem *, u8);
 static bool8 IsInfoScreenScrolling(u8 taskId);
 static u8 sub_808F284(struct PokedexListItem *, u8);
 #if LEARNER_DEMO
-static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback);
 static const u8 *LearnerDexCategory(u16 dexNum, const u8 *fallback);
 static const u8 *LearnerDexDescription(u16 dexNum, u8 page, const u8 *fallback);
 #endif
@@ -4279,7 +4278,7 @@ static void PrintEntryScreenDexNum(u16 order, u8 b, u8 c)
 }
 
 #if LEARNER_DEMO
-static const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback)
+const u8 *LearnerDexSpeciesName(u16 dexNum, const u8 *fallback)
 {
     switch (dexNum)
     {

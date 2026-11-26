@@ -8,6 +8,7 @@
 #include "event_object_movement.h"
 #include "field_message_box.h"
 #include "graphics.h"
+#include "learner.h"
 #include "menu.h"
 #include "palette.h"
 #include "pokedex.h"
@@ -2607,6 +2608,29 @@ u32 de_sub_80EB748(s32 group, s32 index)
     }
 
     return r7;
+}
+#endif
+
+#if LEARNER_DEMO
+extern const u8 *const *const gLearnerEasyChatWords[][2];
+
+const u8 *EasyChat_GetLearnerWord(u16 word)
+{
+    u8 language = Learner_GetLanguage();
+    u16 group = EC_GROUP(word);
+    u16 index = EC_INDEX(word);
+    const u8 *const *words;
+
+    if (language < 1 || language > 2 || word == 0xFFFF || sub_80EB37C(word))
+        return NULL;
+
+    if (group == EC_GROUP_MOVE_1 || group == EC_GROUP_MOVE_2)
+        return Learner_Translate(gMoveNames[index]);
+    if (group == EC_GROUP_POKEMON_1 || group == EC_GROUP_POKEMON_2)
+        return LearnerDexSpeciesName(SpeciesToNationalPokedexNum(index), NULL);
+
+    words = gLearnerEasyChatWords[group][language - 1];
+    return words != NULL ? words[index] : NULL;
 }
 #endif
 

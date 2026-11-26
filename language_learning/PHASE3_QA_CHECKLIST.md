@@ -431,3 +431,16 @@ box. The learner hook now covers each of the four engine health-box tile ranges,
 including the two used by double battles, but enemy sleep/paralysis/burn/freeze
 and double-battle rendering remain unverified. These runs do not prove natural
 infliction/cure flows.
+
+## Link Trainer Card greetings
+
+Trainer Cards now show the default greeting in the viewer's selected language.
+Custom greetings retain their existing word IDs. German has 993 general word
+labels, while Russian has 61 words covering the greeting and trainer groups.
+The card also uses localized move and species names where available.
+
+In a live two-player mGBA link session, the German viewer saw the custom greeting
+with German words, and the Russian viewer saw the default greeting in Russian.
+Switching that disposable viewer to German also showed the German default.
+Both cards closed and returned to the link room. Broader Russian vocabulary and
+the Easy Chat editor remain to be localized and checked.

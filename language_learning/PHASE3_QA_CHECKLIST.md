@@ -95,8 +95,32 @@ the correct remote name. Acknowledging the prompt produced a link error on
 both consoles before the remote card could be checked. The error screen was
 in English. Under the same emulator setup and with copies of the same saves,
 the checksum-matching stock Sapphire build opened the remote card in both
-directions with the expected names and trainer IDs. The learner link-card
-transition and error localization remain open.
+directions with the expected names and trainer IDs.
+
+The pre-layout learner build reproduced the same disconnect. Its emulator
+trace reached the Trainer Card's regular drawing callback and then recorded a
+full receive queue and a checksum error. The Trainer Card prints its
+formatted play time every frame. The learner lookup now skips formatted RAM
+strings because the lookup tables only contain ROM addresses.
+
+With that guard, the Russian and German players each opened the other card
+using the normal Trade Center interaction. Their prompts and card labels
+used the viewing player's language, and the remote names and IDs matched
+both test saves. Both players returned to the same trade room after closing
+the cards. A second run used the German player as host, showed the two-player
+count and confirmation together, and opened both populated remote card backs.
+The received record values matched the fixtures and fit on both screens.
+A checksum failure injected into the disposable connection displayed the
+error and recovery instructions in the local language on both consoles.
+The preset Easy Chat phrase and the linked card's color name were still in
+English.
+The same linked pair could take the two seats and enter the Pokémon selection
+screen in both languages. The Russian connection notice immediately before it
+spilled out of its small box, as did the German wait notice during
+cancellation. The Russian player declined the cancellation prompt and
+returned to the selection screen. Both players then confirmed cancellation
+and returned to the trade room with the link still active. A completed
+Pokémon trade still needs verification.
 
 ## Party and summary
 

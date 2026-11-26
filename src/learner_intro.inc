@@ -95,9 +95,16 @@ static u16 Learner_DictionaryTextHash(const u8 *text)
 const u8 *Learner_Translate(const u8 *text)
 {
     u16 i;
-    u8 language = Learner_GetLanguage();
+    u8 language;
     u8 variant;
-    if (text != NULL && language >= 1 && language <= 2)
+
+    // The translation tables contain ROM symbols. Formatted RAM strings,
+    // including the link Trainer Card's clock, cannot match them.
+    if ((u32)text < 0x08000000 || (u32)text >= 0x0A000000)
+        return text;
+
+    language = Learner_GetLanguage();
+    if (language >= 1 && language <= 2)
     {
         for (i = 0; i < gLearnerAdaptiveTranslationCount; i++)
             if (text == gLearnerAdaptiveTranslations[i].source)

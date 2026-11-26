@@ -2844,9 +2844,9 @@
   ,"OldaleTown_PokemonCenter_2F_Text_1A48DD":{"ru":"Нельзя обменять покемона,\\nкоторый держит ЯГОДУ\\p{STR_VAR_1}.","de":"Ein Pokémon mit einer\\n{STR_VAR_1}-BEERE\\pkann nicht getauscht\\nwerden.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
   ,"gUnknown_081A490C":{"ru":"Подожди... B: отмена","de":"Bitte warten... B:\\nAbbrechen","widths":{},"max_width":192}
   ,"OldaleTown_PokemonCenter_2F_Text_1A490C":{"ru":"Подожди... B: отмена","de":"Bitte warten... B:\\nAbbrechen","widths":{},"max_width":192}
-  ,"gUnknown_081A4932":{"ru":"Когда все готовы: A -\\nподтвердить, B - отмена.","de":"Wenn alle bereit sind:\\nA - Bestätigen, B -\\pAbbrechen.","widths":{},"max_width":192}
+  ,"gUnknown_081A4932":{"ru":"Когда все готовы: A -\\nподтвердить, B - отмена.","de":"Alle bereit?\\nA: Start  B: Abbruch","widths":{},"max_width":192}
   ,"gUnknown_081A4975":{"ru":"Начать связь для\\n{STR_VAR_1} игроков?\\pA - подтвердить, B -\\nотмена.","de":"Verbindung für\\n{STR_VAR_1} Spieler\\pstarten? A -\\nBestätigen, B -\\pAbbrechen.","widths":{"STR_VAR_1":112},"max_width":192,"buffer_lengths":{"STR_VAR_1":14}}
-  ,"gUnknown_081A49B6":{"ru":"Ожидание связи... B: отмена","de":"Verbindung wird\\nerwartet... B:\\pAbbrechen","widths":{},"max_width":192}
+  ,"gUnknown_081A49B6":{"ru":"Ожидание связи... B: отмена","de":"Warte auf Verbindung.\\nB: Abbrechen","widths":{},"max_width":192}
   ,"OldaleTown_PokemonCenter_2F_Text_1A4A22":{"ru":"Проходи.","de":"Bitte eintreten.","widths":{},"max_width":192}
   ,"FallarborTown_ContestLobby_Text_1A4A30":{"ru":"Кто-то не готов к связи.\\nВозвращайтесь, когда все\\pподготовятся.","de":"Jemand ist nicht\\nbereit. Kommt zurück,\\pwenn alle vorbereitet\\nsind.","widths":{},"max_width":192}
   ,"OldaleTown_PokemonCenter_2F_Text_1A4A30":{"ru":"Кто-то не готов к связи.\\nВозвращайтесь, когда все\\pподготовятся.","de":"Jemand ist nicht\\nbereit. Kommt zurück,\\pwenn alle vorbereitet\\nsind.","widths":{},"max_width":192}
@@ -4368,6 +4368,8 @@
   ,"gOtherText_Ferry":{"ru":"ПАРОМ","de":"FÄHRE","widths":{},"max_width":96}
   ,"gOtherText_SecretBase":{"ru":"СЕКРЕТНАЯ БАЗА","de":"GEHEIMBASIS","widths":{},"max_width":112}
   ,"gOtherText_Hideout":{"ru":"УКРЫТИЕ","de":"VERSTECK","widths":{},"max_width":96}
+  ,"gMultiText_LinkError":{"ru":"Ошибка связи.\\nПроверь кабель связи.\\nВыключи и снова включи\\nобе консоли.","de":"Verbindungsfehler.\\nPrüfe das Linkkabel.\\nSchalte beide Geräte\\nneu ein.","widths":{},"max_width":200}
+  ,"gOtherText_PLink":{"ru":"Игроков: {STR_VAR_1}","de":"{STR_VAR_1} Spieler","widths":{"STR_VAR_1":8},"max_width":72}
   ,"gOtherText_FirstHOF":{"ru":"ПЕРВЫЙ ЗАЛ СЛАВЫ","de":"ERSTE RUHMESHALLE","widths":{},"max_width":200}
   ,"gOtherText_LinkCableBattles":{"ru":"БИТВЫ СВЯЗИ П/      ПР/","de":"LINK-KÄMPFE S/      N/","widths":{},"max_width":216}
   ,"gOtherText_BattleTowerWinRecord":{"ru":"БАШНЯ БИТВ П/{CLEAR_TO 0x72}&{CLEAR_TO 0x98}СЕРИЯ","de":"DUELLTURM S/{CLEAR_TO 0x72}&{CLEAR_TO 0x98}SERIE","widths":{},"max_width":216}

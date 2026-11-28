@@ -11,6 +11,45 @@ GROUPS = (
     'move_1', 'move_2', 'trendy_saying', 'pokemon_2',
 )
 
+# The stock keyboard has 26 letter positions and one position for symbols.
+ALPHABET_KEYS = {
+    'ru': 'А Б В Г Д ЕЁ Ж З ИЙ К Л М Н О П Р С Т У ФХ ЦЧ ШЩ ЪЫЬ Э Ю Я'.split(),
+    'de': 'AÄ B C D E F G H I J K L M N OÖ P Q R Sß T UÜ V W X Y Z'.split(),
+}
+
+
+def alphabet_data(russian, latin, glyphs):
+    output = []
+    table = []
+    for tag, mapping, bitmap, font, other in (
+        ('ru', russian, glyphs, 0, '…'),
+        ('de', latin, {}, 3, 'MEHR'),
+    ):
+        keys = ALPHABET_KEYS[tag]
+        if len(keys) != 26:
+            raise ValueError(f'Easy Chat alphabet must have 26 letter keys: {tag}')
+        buckets = [0] * 256
+        for index, key in enumerate(keys, start=1):
+            for char in key:
+                for form in (char, char.lower()):
+                    if form in mapping:
+                        buckets[mapping[form]] = index
+        output.append(demo.assembly_bytes(f'gLearnerEasyChatAlphabet_{tag}', buckets))
+        labels = []
+        for index, key in enumerate([other, *keys]):
+            label = f'LearnerEasyChatKey_{tag}_{index}'
+            # Umlaut variants share the corresponding plain Latin key.
+            key_text = key[0] if tag == 'de' and index != 0 else key
+            if tag == 'ru' and key == 'ЪЫЬ':
+                key_text = 'Ы'
+            width = 32 if index == 0 else 16
+            output.append(demo.assembly_bytes(label, demo.message([key_text], mapping, bitmap, font, width)))
+            labels.append(label)
+        table.extend(labels)
+    output.append('\t.balign 4\ngLearnerEasyChatKeys::\n'
+                  + ''.join(f'\t.4byte {label}\n' for label in table))
+    return output
+
 
 def generate(russian, latin, glyphs):
     russian_groups = demo.validate.load(demo.ROOT / 'language_learning/easy_chat_ru.json')
@@ -51,4 +90,5 @@ def generate(russian, latin, glyphs):
                 tables[-1].append('0')
     output.append('\t.balign 4\ngLearnerEasyChatWords::\n'
                   + ''.join(f'\t.4byte {ru}, {de}\n' for ru, de in tables))
+    output.extend(alphabet_data(russian, latin, glyphs))
     return output

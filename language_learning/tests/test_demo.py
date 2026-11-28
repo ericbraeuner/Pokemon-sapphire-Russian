@@ -3536,6 +3536,21 @@ class LessonTests(unittest.TestCase):
         editor = (demo.ROOT / 'src/easy_chat_2.c').read_text(errors='replace')
         self.assertIn('Learner_Translate(gEasyChatGroupNames[group])', editor)
 
+    def test_easy_chat_alphabet_uses_the_localized_letter_keys(self):
+        output = easy_chat.alphabet_data(self.russian, self.latin, self.glyphs)
+        for tag, mapping, groups in (
+            ('ru', self.russian, ('ЕЁ', 'ИЙ', 'ШЩ')),
+            ('de', self.latin, ('AÄ', 'OÖ', 'UÜ', 'Sß')),
+        ):
+            label = f'gLearnerEasyChatAlphabet_{tag}'
+            table = next(part for part in output if part.startswith(label + '::'))
+            buckets = [int(value, 16) for value in re.findall(r'0x[0-9A-F]{2}', table)]
+            self.assertEqual(256, len(buckets))
+            self.assertEqual(0, buckets[mapping['!']])
+            for group in groups:
+                index = easy_chat.ALPHABET_KEYS[tag].index(group) + 1
+                self.assertTrue(all(buckets[mapping[letter]] == index for letter in group))
+
     def test_pokenav_buffered_labels_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = ('gOtherText_Ribbons', 'gOtherText_Nature2',

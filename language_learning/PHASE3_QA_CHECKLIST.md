@@ -450,5 +450,9 @@ visible word by its existing ID. A label must fit the 72-pixel word column and
 its text buffer. Missing or oversized labels use the original word. The
 editable phrase cells and the compact preview now share that lookup with
 their own layout limits. The compact preview uses the original row if the
-translated words and spaces would overflow. The alphabet index still uses
-the original sort order. In-emulator layout checks remain pending.
+translated words and spaces would overflow. The letter index groups fitting
+translations by their displayed first letter. German umlauts share the base
+letter key and the Russian keyboard combines some neighboring letters to fit
+the grid. Words keep their original relative order within each group.
+Russian entries that still display English are accessible through their
+categories. In-emulator layout and filtering checks remain pending.

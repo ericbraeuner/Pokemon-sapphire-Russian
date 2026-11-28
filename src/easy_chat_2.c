@@ -1474,6 +1474,29 @@ void sub_80E9974(void)
     else
     {
         sub_80E9AD4();
+#if LEARNER_DEMO
+        {
+            extern const u8 *const gLearnerEasyChatKeys[2][27];
+            u8 language = Learner_GetLanguage();
+
+            if (language >= 1 && language <= 2)
+            {
+                u8 row;
+                u8 column;
+                u8 letter = 1;
+
+                for (row = 0; row < 4; row++)
+                {
+                    for (column = 0; column < (row < 2 ? 6 : 7); column++)
+                        sub_80E9A60(gLearnerEasyChatKeys[language - 1][letter++],
+                                    2 + gUnknown_083DBCC4[row][column], row * 2);
+                }
+                sub_80E9A60(gLearnerEasyChatKeys[language - 1][0],
+                            2 + gUnknown_083DBCC4[0][6], 0);
+                return;
+            }
+        }
+#endif
         sub_80E9A60(gUnknown_083DBEAC[0], 2, 0);
         sub_80E9A60(gUnknown_083DBEAC[1], 2, 2);
         sub_80E9A60(gUnknown_083DBEAC[2], 2, 4);
@@ -2390,21 +2413,63 @@ _080EB03C: .4byte 0x0000446c\n\
     .syntax divided\n");
 }
 #else
+#if LEARNER_DEMO
+static void AddEasyChatAlphabetWord(u8 stockBucket, u16 word, u8 language)
+{
+    extern const u8 gLearnerEasyChatAlphabet_ru[256];
+    extern const u8 gLearnerEasyChatAlphabet_de[256];
+    u8 bucket = stockBucket;
+    const u8 *text;
+
+    if (language >= 1 && language <= 2)
+    {
+        text = EasyChat_GetLearnerWord(word);
+        if (text != NULL && Text_GetStringWidthFromWindowTemplate(&gWindowTemplate_81E6D54, text) <= 72)
+        {
+            while (*text == EXT_CTRL_CODE_BEGIN)
+                text += 1 + GetExtCtrlCodeLength(text[1]);
+            if (language == 1)
+                bucket = gLearnerEasyChatAlphabet_ru[*text];
+            else
+                bucket = gLearnerEasyChatAlphabet_de[*text];
+        }
+        else if (language == 1)
+        {
+            // English fallbacks remain available through their categories.
+            return;
+        }
+    }
+
+    if (gEasyChatStruct->unk4142[bucket] < ARRAY_COUNT(gEasyChatStruct->unkB78[bucket]))
+        gEasyChatStruct->unkB78[bucket][gEasyChatStruct->unk4142[bucket]++] = word;
+}
+#endif
+
 void sub_80EAECC(void)
 {
     u16 i;
+#if LEARNER_DEMO
+    u8 language = Learner_GetLanguage();
+#else
     u16 r9;
+#endif
     u16 r6;
     u16 r5;
     bool8 r7;
 
+#if LEARNER_DEMO
+    for (i = 0; i < 27; i++)
+        gEasyChatStruct->unk4142[i] = 0;
+#endif
     for (i = 0; i < 27; i++)
     {
         u16 word = gEasyChatWordsByLetter[i];
         u16 sp0 = gEasyChatWordsByLetter[i + 1];
 
+#if !LEARNER_DEMO
         gEasyChatStruct->unk4142[i] = 0;
         r9 = 0;
+#endif
         r6 = word;
         while (r6 < sp0)
         {
@@ -2419,8 +2484,12 @@ void sub_80EAECC(void)
                     word = gEasyChatWordsAlphabetized[r6++];
                     if (sub_80EADC0(EC_GROUP(word), EC_INDEX(word)) && !r7)
                     {
+#if LEARNER_DEMO
+                        AddEasyChatAlphabetWord(i, word, language);
+#else
                         gEasyChatStruct->unkB78[i][r9++] = word;
                         gEasyChatStruct->unk4142[i]++;
+#endif
                         r7 = TRUE;
                     }
                 }
@@ -2429,8 +2498,12 @@ void sub_80EAECC(void)
             {
                 if (sub_80EADC0(EC_GROUP(word), EC_INDEX(word)))
                 {
+#if LEARNER_DEMO
+                    AddEasyChatAlphabetWord(i, word, language);
+#else
                     gEasyChatStruct->unkB78[i][r9++] = word;
                     gEasyChatStruct->unk4142[i]++;
+#endif
                 }
             }
         }

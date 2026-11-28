@@ -71,6 +71,9 @@ void sub_80EACBC(void *, u16 *, struct UnknownEasyChatStruct1 *);
 u8 *CopyEasyChatGroupName(u8 *, u8, int);
 u8 *sub_80EB218(u8 *, u16, u16);
 u16 sub_80EB2D4(u16);
+#if LEARNER_DEMO
+static u8 *CopyEasyChatDisplayWord(u8 *dest, u16 word, u16 available, u8 maxWidth, u16 paddingTiles);
+#endif
 bool8 sub_80EB37C(u16);
 bool8 sub_80EB868(u8);
 static u16 sub_80EB960(void);
@@ -1278,7 +1281,12 @@ void sub_80E9620(u16 a, u16 b)
             }
             else
             {
+#if LEARNER_DEMO
+                CopyEasyChatDisplayWord(gEasyChatStruct->unk9E14, gEasyChatStruct->unkC[r10],
+                                        sizeof(gEasyChatStruct->unk9E14), 88, 11);
+#else
                 sub_80EB218(gEasyChatStruct->unk9E14, gEasyChatStruct->unkC[r10], 11);
+#endif
                 Menu_PrintText(gEasyChatStruct->unk9E14, r6, r7);
                 r6 += gEasyChatStruct->unk8C[i][j] + 11;
             }
@@ -1327,6 +1335,10 @@ void sub_80E97C0(u16 a, u16 b)
         u8 r6;
         u8 *r2 = gEasyChatStruct->unk9E6E;
         u32 r1;
+#if LEARNER_DEMO
+        u8 firstWord = r7;
+        u16 rowWidth = gEasyChatStruct->unk83 * 88;
+#endif
 
         for (r6 = 0; r6 < gEasyChatStruct->unk83; r6++)
         {
@@ -1334,12 +1346,34 @@ void sub_80E97C0(u16 a, u16 b)
                 break;
             if (gEasyChatStruct->unkC[r7] != 0xFFFF)
             {
+#if LEARNER_DEMO
+                u16 available = sizeof(gEasyChatStruct->unk9E6E) - (r2 - gEasyChatStruct->unk9E6E);
+                r2 = CopyEasyChatDisplayWord(r2, gEasyChatStruct->unkC[r7], available - 4, 88, 0);
+#else
                 r2 = sub_80EB218(r2, gEasyChatStruct->unkC[r7], 0);
+#endif
                 *r2++ = CHAR_SPACE;
             }
             r7++;
         }
 
+#if LEARNER_DEMO
+        *r2 = EOS;
+        if (GetStringWidthInMenuWindow(gEasyChatStruct->unk9E6E) > rowWidth)
+        {
+            u8 word;
+
+            r2 = gEasyChatStruct->unk9E6E;
+            for (word = firstWord; word < r7; word++)
+            {
+                if (gEasyChatStruct->unkC[word] != 0xFFFF)
+                {
+                    r2 = sub_80EB218(r2, gEasyChatStruct->unkC[word], 0);
+                    *r2++ = CHAR_SPACE;
+                }
+            }
+        }
+#endif
         r1 = gEasyChatStruct->unk83 * 11;
         r2[0] = EXT_CTRL_CODE_BEGIN;
         r2[1] = 0x13;
@@ -1494,18 +1528,29 @@ void sub_80E9AD4(void)
 }
 
 #if LEARNER_DEMO
-static void CopyEasyChatPickerWord(u8 *dest, u16 word)
+static u8 *CopyEasyChatDisplayWord(u8 *dest, u16 word, u16 available, u8 maxWidth, u16 paddingTiles)
 {
     const u8 *text = EasyChat_GetLearnerWord(word);
 
-    // Each 88-pixel column reserves 16 pixels before the word.
-    if (text != NULL && GetStringWidthInMenuWindow(text) <= 72
-        && StringLength(text) <= sizeof(gEasyChatStruct->unk9E14) - 7)
+    if (text == NULL || StringLength(text) + 4 > available
+        || GetStringWidthInMenuWindow(text) > maxWidth)
+        return sub_80EB218(dest, word, paddingTiles);
+
+    dest = StringCopy(dest, text);
+    if (paddingTiles)
     {
-        StringCopy(dest, text);
-        return;
+        *dest++ = EXT_CTRL_CODE_BEGIN;
+        *dest++ = 0x13;
+        *dest++ = paddingTiles * 8;
+        *dest = EOS;
     }
-    sub_80EB218(dest, word, 9);
+    return dest;
+}
+
+static void CopyEasyChatPickerWord(u8 *dest, u16 word)
+{
+    // Each 88-pixel column reserves 16 pixels before the word.
+    CopyEasyChatDisplayWord(dest, word, sizeof(gEasyChatStruct->unk9E14) - 3, 72, 9);
 }
 #else
 #define CopyEasyChatPickerWord(dest, word) sub_80EB218(dest, word, 9)

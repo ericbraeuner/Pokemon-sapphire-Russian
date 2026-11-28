@@ -3533,6 +3533,8 @@ class LessonTests(unittest.TestCase):
         self.assertEqual(22, len(symbols))
         self.assertTrue(set(symbols).issubset(templates))
         self.assertTrue(all(templates[symbol]['max_width'] == 88 for symbol in symbols))
+        editor = (demo.ROOT / 'src/easy_chat_2.c').read_text(errors='replace')
+        self.assertIn('Learner_Translate(gEasyChatGroupNames[group])', editor)
 
     def test_pokenav_buffered_labels_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')

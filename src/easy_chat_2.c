@@ -2076,7 +2076,11 @@ void sub_80EAD08(void)
 
 u8 *CopyEasyChatGroupName(u8 *dest, u8 group, int unused)
 {
+#if LEARNER_DEMO
+    return StringCopy(dest, Learner_Translate(gEasyChatGroupNames[group]));
+#else
     return StringCopy(dest, gEasyChatGroupNames[group]);
+#endif
 }
 
 bool8 sub_80EAD7C(u8 group)

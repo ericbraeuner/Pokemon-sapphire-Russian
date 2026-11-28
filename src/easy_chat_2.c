@@ -2454,13 +2454,25 @@ static void AddEasyChatAlphabetWord(u8 stockBucket, u16 word, u8 language)
 {
     extern const u8 gLearnerEasyChatAlphabet_ru[256];
     extern const u8 gLearnerEasyChatAlphabet_de[256];
+    u8 label[sizeof(gEasyChatStruct->unk9E14) - 3];
     u8 bucket = stockBucket;
     const u8 *text;
 
     if (language >= 1 && language <= 2)
     {
         text = EasyChat_GetLearnerWord(word);
-        if (text != NULL && Text_GetStringWidthFromWindowTemplate(&gWindowTemplate_81E6D54, text) <= 72)
+        if (text != NULL && StringLength(text) + 4 <= sizeof(label))
+        {
+            // A RAM copy skips the global ROM translation lookup during measurement.
+            StringCopy(label, text);
+            if (Text_GetStringWidthFromWindowTemplate(&gWindowTemplate_81E6D54, label) > 72)
+                text = NULL;
+        }
+        else
+        {
+            text = NULL;
+        }
+        if (text != NULL)
         {
             while (*text == EXT_CTRL_CODE_BEGIN)
                 text += 1 + GetExtCtrlCodeLength(text[1]);

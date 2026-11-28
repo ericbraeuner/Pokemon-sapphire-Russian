@@ -470,6 +470,10 @@ appeared in English. This check did not write an in-game save.
 The subsequent source update adds Russian and German for the dynamic editor
 headings, help lines, and confirmation prompts. The generated strings fit
 their configured widths, including prompts that join two strings on one line.
+An mGBA run using a disposable copy verified the Russian ПРОФИЛЬ heading,
+both Russian help lines, and the Russian quit prompt with Да and Нет. The
+same session showed the German PROFIL heading and both German help lines
+after switching its language in RAM and reopening the editor.
 The following source update localizes the Easy Chat action labels and mode
 indicator graphics. The output preserves palette indices and pixels outside
 the label rectangles, and uses the same tile counts as the original assets.

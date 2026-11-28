@@ -3579,6 +3579,15 @@ class LessonTests(unittest.TestCase):
                     localized = graphic_labels.render(kind, tag)
                     self.assertEqual(size, localized.size)
                     self.assertEqual(stock.getpalette(), localized.getpalette())
+                    for left, top, width, height, background, ink, *_ in labels:
+                        crop = localized.crop((left, top, left + width, top + height))
+                        colors = {color for _, color in crop.getcolors()}
+                        self.assertIn(background, colors)
+                        self.assertIn(ink, colors)
+                        if kind == 'easy_chat_indicator':
+                            self.assertIn(3, colors)
+                        elif ink == 15:
+                            self.assertIn(12, colors)
                     for y in range(size[1]):
                         for x in range(size[0]):
                             if stock.getpixel((x, y)) != localized.getpixel((x, y)):

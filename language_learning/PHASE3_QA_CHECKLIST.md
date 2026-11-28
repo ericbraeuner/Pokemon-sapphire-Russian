@@ -478,3 +478,14 @@ The following source update localizes the Easy Chat action labels and mode
 indicator graphics. The output preserves palette indices and pixels outside
 the label rectangles, and uses the same tile counts as the original assets.
 The physical SELECT and B button markings remain recognizable.
+
+With the graphics loaded in mGBA, the editor showed Russian category and
+letter mode badges and the German A–Z badge and action row. The white side
+labels were hard to read against the light panel, so the generator now
+restores the stock shadow color under the localized lettering.
+
+On the optimized build, mGBA's frame callback counted 37 frames for Russian
+and 46 for German from entering the editor callback to enabling the editor's
+display. These timings use an Oldale clerk routed to the profile editor in a
+disposable ROM. They exclude the preceding field fade and do not measure a
+before-and-after speedup.

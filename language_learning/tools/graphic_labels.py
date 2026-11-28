@@ -159,19 +159,27 @@ def render(kind, tag):
         glyph_fn = small_glyph if kind in ('summary', 'money', 'party_misc') or kind in EASY_CHAT_LABELS else glyph
         letters = [glyph_fn(c, latin, cyrillic if tag == 'ru' else {}, font) for c in entry[tag]]
         text_width = sum(len(g[0]) + 1 for g in letters) - 1
-        if text_width > width:
+        shadow = None
+        if kind == 'easy_chat_frame' and ink == 15:
+            shadow = 12
+        elif kind == 'easy_chat_indicator':
+            shadow = 3
+        shadow_offset = int(shadow is not None)
+        if text_width + shadow_offset > width:
             raise ValueError(f'Graphic label overflow: {kind}/{tag}/{entry[tag]}')
         sheet.paste(background, (left, top, left + width, top + height))
-        cursor = left + (width - text_width) // 2
-        for letter in letters:
-            label_y = top + (height - len(letter)) // 2
-            for gy, row in enumerate(letter):
-                for gx, bit in enumerate(row):
-                    if bit:
-                        if not top <= label_y + gy < top + height:
-                            raise ValueError('Glyph exceeds label height')
-                        sheet.putpixel((cursor + gx, label_y + gy), ink)
-            cursor += len(letter[0]) + 1
+        colors = [(1, shadow), (0, ink)] if shadow is not None else [(0, ink)]
+        for offset, color in colors:
+            cursor = left + (width - text_width - shadow_offset) // 2 + offset
+            for letter in letters:
+                label_y = top + (height - len(letter) - shadow_offset) // 2 + offset
+                for gy, row in enumerate(letter):
+                    for gx, bit in enumerate(row):
+                        if bit:
+                            if not top <= label_y + gy < top + height:
+                                raise ValueError('Glyph exceeds label height')
+                            sheet.putpixel((cursor + gx, label_y + gy), color)
+                cursor += len(letter[0]) + 1
     return sheet
 
 

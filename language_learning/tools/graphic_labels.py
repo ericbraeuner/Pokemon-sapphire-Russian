@@ -17,6 +17,26 @@ SHEETS = {
     'summary': ('graphics/interface/status_screen.png', 'SummaryTiles', (128, 112)),
     'money': ('graphics/interface/money.png', 'MoneyTiles', (32, 16)),
     'party_misc': ('graphics/interface/party_menu_misc.png', 'PartyMiscTiles', (128, 64)),
+    'easy_chat_frame': ('graphics/interface/wordgroup_frame.png', 'EasyChatFrameTiles', (128, 40)),
+    'easy_chat_indicator': ('graphics/interface/wordgroup_indicator.png', 'EasyChatIndicatorTiles', (64, 128)),
+}
+
+# Rectangles in the two stock Easy Chat sheets, in pixels.
+EASY_CHAT_LABELS = {
+    'easy_chat_frame': (
+        (32, 0, 42, 16, 15, 12, 'УД. ВСЁ', 'ALLES WEG'),
+        (80, 0, 36, 16, 15, 12, 'ОТМЕНА', 'ZURÜCK'),
+        (8, 24, 26, 8, 14, 12, 'КЛАВ.', 'TASTE'),
+        (35, 24, 21, 8, 14, 15, 'РЕЖ.', 'MOD.'),
+        (58, 24, 30, 8, 14, 15, 'УДАЛ.', 'LÖSCH.'),
+        (89, 24, 31, 8, 14, 15, 'НАЗАД', 'ZURÜCK'),
+    ),
+    'easy_chat_indicator': (
+        (9, 3, 34, 8, 1, 15, 'ПО', 'A-Z'),
+        (13, 11, 31, 8, 1, 15, 'БУКВАМ', 'MODUS'),
+        (6, 35, 36, 8, 1, 15, 'ГРУППЫ', 'GRUPPE'),
+        (13, 43, 31, 8, 1, 15, 'СЛОВ', 'MODUS'),
+    ),
 }
 
 TYPE_ICON_NAMES = (
@@ -86,7 +106,12 @@ def render(kind, tag):
         font = source.copy()
     latin = demo.load_charmap()
     _, cyrillic = demo.load_font()
-    entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')[kind]
+    if kind in EASY_CHAT_LABELS:
+        entries = [dict(x=x, y=y, width=width, height=height, background=background,
+                        ink=ink, ru=ru, de=de)
+                   for x, y, width, height, background, ink, ru, de in EASY_CHAT_LABELS[kind]]
+    else:
+        entries = demo.validate.load(demo.ROOT / 'language_learning/graphic_labels.json')[kind]
     for entry in entries:
         x, y = entry['x'], entry['y']
         if 'bottom_x' in entry:
@@ -131,7 +156,7 @@ def render(kind, tag):
             background, ink = entry['background'], entry['ink']
         if left < 0 or top < 0 or left + width > size[0] or top + height > size[1]:
             raise ValueError('Label outside tile sheet')
-        glyph_fn = small_glyph if kind in ('summary', 'money', 'party_misc') else glyph
+        glyph_fn = small_glyph if kind in ('summary', 'money', 'party_misc') or kind in EASY_CHAT_LABELS else glyph
         letters = [glyph_fn(c, latin, cyrillic if tag == 'ru' else {}, font) for c in entry[tag]]
         text_width = sum(len(g[0]) + 1 for g in letters) - 1
         if text_width > width:
@@ -322,7 +347,10 @@ def generate():
     for kind, (_, name, _) in SHEETS.items():
         for tag in ('ru', 'de'):
             data = tile_bytes(render(kind, tag))
-            if kind in ('dex_sprites', 'storage_misc', 'summary', 'money', 'party_misc'):
+            if kind == 'easy_chat_frame':
+                # The stock build exports only 65 tiles from this sheet.
+                data = data[:65 * 32]
+            if kind in ('dex_sprites', 'storage_misc', 'summary', 'money', 'party_misc') or kind in EASY_CHAT_LABELS:
                 data = literal_lz(data)
             parts.append('\t.balign 4\n' + demo.assembly_bytes(
                 'gLearner' + name + tag.title(), data))

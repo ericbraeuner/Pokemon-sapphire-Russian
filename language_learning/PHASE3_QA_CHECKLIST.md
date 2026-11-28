@@ -470,4 +470,7 @@ appeared in English. This check did not write an in-game save.
 The subsequent source update adds Russian and German for the dynamic editor
 headings, help lines, and confirmation prompts. The generated strings fit
 their configured widths, including prompts that join two strings on one line.
-The button labels drawn as graphics still need localization.
+The following source update localizes the Easy Chat action labels and mode
+indicator graphics. The output preserves palette indices and pixels outside
+the label rectangles, and uses the same tile counts as the original assets.
+The physical SELECT and B button markings remain recognizable.

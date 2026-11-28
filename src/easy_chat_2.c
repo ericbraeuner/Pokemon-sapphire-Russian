@@ -72,6 +72,8 @@ u8 *CopyEasyChatGroupName(u8 *, u8, int);
 u8 *sub_80EB218(u8 *, u16, u16);
 u16 sub_80EB2D4(u16);
 #if LEARNER_DEMO
+extern const u8 gLearnerEasyChatFrameTilesRu[], gLearnerEasyChatFrameTilesDe[];
+extern const u8 gLearnerEasyChatIndicatorTilesRu[], gLearnerEasyChatIndicatorTilesDe[];
 static u8 *CopyEasyChatDisplayWord(u8 *dest, u16 word, u16 available, u8 maxWidth, u16 paddingTiles);
 #endif
 bool8 sub_80EB37C(u16);
@@ -891,7 +893,18 @@ void sub_80E8CEC(void)
 {
     u8 spriteId;
 
+#if LEARNER_DEMO
+    struct CompressedSpriteSheet indicator = gUnknown_083DBD60;
+    u8 language = Learner_GetLanguage();
+
+    if (language == 1)
+        indicator.data = gLearnerEasyChatIndicatorTilesRu;
+    else if (language == 2)
+        indicator.data = gLearnerEasyChatIndicatorTilesDe;
+    LoadCompressedObjectPic(&indicator);
+#else
     LoadCompressedObjectPic(&gUnknown_083DBD60);
+#endif
     LoadSpritePalette(&gUnknown_083DBD68);
 
     spriteId = CreateSprite(&gSpriteTemplate_83DBDE4, 224, 88, 0);
@@ -969,7 +982,20 @@ void sub_80E8DD8(void)
 
     CpuCopy16(gUnknown_08E945D0, gEasyChatStruct->unk1C8, 0x500);
     LZ77UnCompWram(gUnknown_08E953D0, gEasyChatStruct->unk6C8);
+#if LEARNER_DEMO
+    {
+        const u8 *frame = gMenuWordGroupFrame_Gfx;
+        u8 language = Learner_GetLanguage();
+
+        if (language == 1)
+            frame = gLearnerEasyChatFrameTilesRu;
+        else if (language == 2)
+            frame = gLearnerEasyChatFrameTilesDe;
+        LZ77UnCompVram(frame, (void *)(VRAM + 0x8000));
+    }
+#else
     LZ77UnCompVram(gMenuWordGroupFrame_Gfx, (void *)(VRAM + 0x8000));
+#endif
     CpuCopy16(gEasyChatStruct->unk1C8, (void *)(VRAM + 0x6800), 0x500);
     LoadPalette(gMenuWordGroupFrame1_Pal, 64, 64);
 

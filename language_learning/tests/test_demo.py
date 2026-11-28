@@ -3569,6 +3569,22 @@ class LessonTests(unittest.TestCase):
                 line = f'{templates[first][tag]} {templates[second][tag]}'
                 field_templates.compile_text(line, mapping, glyphs, font, {}, 176)
 
+    def test_easy_chat_graphics_preserve_pixels_outside_the_labels(self):
+        from PIL import Image
+
+        for kind, labels in graphic_labels.EASY_CHAT_LABELS.items():
+            path, _, size = graphic_labels.SHEETS[kind]
+            with Image.open(demo.ROOT / path) as stock:
+                for tag in ('ru', 'de'):
+                    localized = graphic_labels.render(kind, tag)
+                    self.assertEqual(size, localized.size)
+                    self.assertEqual(stock.getpalette(), localized.getpalette())
+                    for y in range(size[1]):
+                        for x in range(size[0]):
+                            if stock.getpixel((x, y)) != localized.getpixel((x, y)):
+                                self.assertTrue(any(left <= x < left + width and top <= y < top + height
+                                                    for left, top, width, height, *_ in labels))
+
     def test_pokenav_buffered_labels_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = ('gOtherText_Ribbons', 'gOtherText_Nature2',

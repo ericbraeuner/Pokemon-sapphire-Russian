@@ -4774,4 +4774,50 @@
   ,"SecretBase_Text_SmallIndentInWall":{"ru":"У стены есть ниша.\\nВнутрь пока не пройти.","de":"Eine Nische im Fels.\\nKein Durchgang.","widths":{},"max_width":192}
   ,"SecretBase_Text_IndentUseSecretPower":{"ru":"Что там за стеной?\\nПрименить ТАЙНУЮ СИЛУ?","de":"Was liegt dahinter?\\nGEHEIMPOWER einsetzen?","widths":{},"max_width":192}
   ,"SecretBase_Text_DiscoveredSmallCavern":{"ru":"За стеной есть место\\nдля укрытия!","de":"Platz für ein Versteck\\nim Fels!","widths":{},"max_width":192}
+  ,"gOtherText_Profile":{"ru":"ПРОФИЛЬ","de":"PROFIL","widths":{},"max_width":200}
+  ,"gOtherText_AtBattleStart":{"ru":"ПЕРЕД БОЕМ","de":"VOR DEM KAMPF","widths":{},"max_width":200}
+  ,"gOtherText_UponWinningBattle":{"ru":"ПОСЛЕ ПОБЕДЫ","de":"NACH EINEM SIEG","widths":{},"max_width":200}
+  ,"gOtherText_UponLosingBattle":{"ru":"ПОСЛЕ ПОРАЖЕНИЯ","de":"NACH DER NIEDERLAGE","widths":{},"max_width":200}
+  ,"gOtherText_TheBardsSong":{"ru":"ПЕСНЯ БАРДА","de":"LIED DES BARDEN","widths":{},"max_width":200}
+  ,"gOtherText_WhatsHipHappening":{"ru":"ЧТО В МОДЕ?","de":"WAS IST IM TREND?","widths":{},"max_width":200}
+  ,"gOtherText_Interview":{"ru":"ИНТЕРВЬЮ","de":"INTERVIEW","widths":{},"max_width":200}
+  ,"gOtherText_GoodSaying":{"ru":"УДАЧНАЯ ФРАЗА","de":"GUTER SPRUCH","widths":{},"max_width":200}
+  ,"OtherText_MakeProfilePage1":{"ru":"Составь профиль из четырёх","de":"Bilde dein Profil aus","widths":{},"max_width":176}
+  ,"OtherText_MakeProfilePage2":{"ru":"слов или фраз.","de":"vier Wörtern/Sätzen.","widths":{},"max_width":176}
+  ,"OtherText_MakeMessagePage1":{"ru":"Составь послание из 6 фраз.","de":"Nutze sechs Phrasen.","widths":{},"max_width":176}
+  ,"OtherText_MakeMessagePage2":{"ru":"До двух фраз в строке.","de":"Zwei Phrasen je Zeile.","widths":{},"max_width":176}
+  ,"OtherText_DescribeFeelingsPage1":{"ru":"Подбери слова для того,","de":"Finde Wörter dafür,","widths":{},"max_width":176}
+  ,"OtherText_DescribeFeelingsPage2":{"ru":"что ты сейчас чувствуешь.","de":"wie du dich fühlst.","widths":{},"max_width":176}
+  ,"OtherText_WithFourPhrases":{"ru":"Из четырёх фраз","de":"Bilde aus vier Phrasen","widths":{},"max_width":176}
+  ,"OtherText_CombineNinePhrasesPage1":{"ru":"Соедини девять фраз","de":"Verbinde neun Phrasen","widths":{},"max_width":176}
+  ,"OtherText_CombineNinePhrasesPage2":{"ru":"в послание.","de":"zu einer Nachricht.","widths":{},"max_width":176}
+  ,"OtherText_ImproveBardSongPage1":{"ru":"Замени одно слово или фразу","de":"Ändere eine Phrase","widths":{},"max_width":176}
+  ,"OtherText_ImproveBardSongPage2":{"ru":"и улучши песню барда.","de":"für ein besseres Lied.","widths":{},"max_width":176}
+  ,"OtherText_YourProfile":{"ru":"Твой профиль.","de":"Dein Profil.","widths":{},"max_width":176}
+  ,"OtherText_YourFeelingBattle":{"ru":"Твои слова перед боем.","de":"Vor dem Kampf.","widths":{},"max_width":176}
+  ,"OtherText_SetWinMessage":{"ru":"Твои слова после победы.","de":"Nach einem Sieg.","widths":{},"max_width":176}
+  ,"OtherText_SetLossMessage":{"ru":"Твои слова после поражения.","de":"Nach einer Niederlage.","widths":{},"max_width":176}
+  ,"OtherText_TheAnswer":{"ru":"Твой ответ.","de":"Deine Antwort.","widths":{},"max_width":176}
+  ,"OtherText_MailMessage":{"ru":"Текст письма.","de":"Der Brieftext.","widths":{},"max_width":176}
+  ,"OtherText_MailSalutation":{"ru":"Приветствие в письме.","de":"Die Anrede im Brief.","widths":{},"max_width":176}
+  ,"OtherText_NewSong":{"ru":"Новая песня.","de":"Das neue Lied.","widths":{},"max_width":176}
+  ,"OtherText_CombineTwoPhrasesPage1":{"ru":"Соедини две фразы,","de":"Verbinde zwei Phrasen","widths":{},"max_width":176}
+  ,"OtherText_CombineTwoPhrasesPage2":{"ru":"для нового оборота.","de":"zu einem neuen Spruch.","widths":{},"max_width":176}
+  ,"OtherText_ConfirmTrendyPage1":{"ru":"Вот модная фраза.","de":"Der Trendspruch.","widths":{},"max_width":176}
+  ,"OtherText_ConfirmTrendyPage2":{"ru":"Подходит?","de":"OK?","widths":{},"max_width":176}
+  ,"OtherText_HipsterPage1":{"ru":"Я соединю две фразы","de":"Ich füge zwei Phrasen","widths":{},"max_width":176}
+  ,"OtherText_HipsterPage2":{"ru":"и покажу новый оборот.","de":"für dich zusammen.","widths":{},"max_width":176}
+  ,"gOtherText_TextDeletedConfirmPage1":{"ru":"Удалить весь текст?","de":"Alles löschen?","widths":{},"max_width":176}
+  ,"gOtherText_TextDeletedConfirmPage2":{"ru":"Ты согласен?","de":"Ist das in Ordnung?","widths":{},"max_width":176}
+  ,"gOtherText_QuitEditing":{"ru":"Закончить редактирование?","de":"Bearbeiten beenden?","widths":{},"max_width":176}
+  ,"gOtherText_EditedTextNoSavePage1":{"ru":"Правки не будут сохранены.","de":"Änderungen verwerfen?","widths":{},"max_width":176}
+  ,"gOtherText_EditedTextNoSavePage2":{"ru":"Всё равно выйти?","de":"Trotzdem beenden?","widths":{},"max_width":176}
+  ,"gOtherText_EnterAPhraseOrWord":{"ru":"Введи слово или фразу.","de":"Gib eine Phrase ein.","widths":{},"max_width":176}
+  ,"gOtherText_TextNoDelete":{"ru":"Нельзя удалить весь текст.","de":"Leerer Text verboten.","widths":{},"max_width":176}
+  ,"gOtherText_OnlyOnePhrase":{"ru":"Измени лишь одну фразу.","de":"Nur eine Phrase.","widths":{},"max_width":176}
+  ,"gOtherText_OriginalSongRestored":{"ru":"Вернётся исходная песня.","de":"Das alte Lied bleibt.","widths":{},"max_width":176}
+  ,"gOtherText_TrendyAlready":{"ru":"Эта фраза уже в моде!","de":"Schon im Trend!","widths":{},"max_width":176}
+  ,"gOtherText_CombineTwoPhrases":{"ru":"Соедини две фразы.","de":"Verbinde zwei Phrasen.","widths":{},"max_width":176}
+  ,"gOtherText_QuitGivingInfo":{"ru":"Закончить разговор?","de":"Das Gespräch beenden?","widths":{},"max_width":176}
+  ,"gOtherText_StopGivingMail":{"ru":"Не отдавать письмо?","de":"Brief behalten?","widths":{},"max_width":176}
 }

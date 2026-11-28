@@ -7,6 +7,9 @@
 #include "event_data.h"
 #include "ewram.h"
 #include "graphics.h"
+#if LEARNER_DEMO
+#include "learner.h"
+#endif
 #include "main.h"
 #include "menu.h"
 #include "palette.h"
@@ -475,15 +478,27 @@ void sub_80E6690(void)
     {
         const struct EasyChatPrompt *prompt = &gUnknown_083DB6F4[gUnknown_083DB7C0[gEasyChatStruct->unk8][i]];
 
+#if LEARNER_DEMO
+        r3 = StringCopy(pointers[i * 2 + 0], Learner_Translate(prompt->text1));
+#else
         r3 = StringCopy(pointers[i * 2 + 0], prompt->text1);
+#endif
         if (prompt->unk8)
         {
+#if LEARNER_DEMO
+            StringCopy(pointers[i * 2 + 1], Learner_Translate(prompt->text2));
+#else
             StringCopy(pointers[i * 2 + 1], prompt->text2);
+#endif
         }
         else
         {
             *r3++ = CHAR_SPACE;
+#if LEARNER_DEMO
+            StringCopy(r3, Learner_Translate(prompt->text2));
+#else
             StringCopy(r3, prompt->text2);
+#endif
             *pointers[i * 2 + 1] = EOS;
         }
     }

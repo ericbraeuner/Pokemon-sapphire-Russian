@@ -1186,8 +1186,18 @@ void sub_80E9368(u8 a)
     gEasyChatStruct->unk9F8E[2] = 1;
     if (r4 != NULL)
     {
+#if LEARNER_DEMO
+        u8 title[64];
+
+        title[0] = EXT_CTRL_CODE_BEGIN;
+        title[1] = 5;
+        title[2] = 1;
+        AlignStringInMenuWindow(title + 3, Learner_Translate(r4), 240, 2);
+        Menu_PrintText(title, 0, 0);
+#else
         AlignStringInMenuWindow(gEasyChatStruct->unk9F8E + 3, r4, 240, 2);
         Menu_PrintText(gEasyChatStruct->unk9F8E, 0, 0);
+#endif
     }
     else
     {

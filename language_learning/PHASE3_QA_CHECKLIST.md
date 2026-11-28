@@ -466,3 +466,8 @@ German letter grid and MEHR. Selecting A showed German entries including
 ABWESEND and AKZEPTIEREN. Choosing ABWESEND updated the first word in the
 profile. The profile heading, help text, and several button labels still
 appeared in English. This check did not write an in-game save.
+
+The subsequent source update adds Russian and German for the dynamic editor
+headings, help lines, and confirmation prompts. The generated strings fit
+their configured widths, including prompts that join two strings on one line.
+The button labels drawn as graphics still need localization.

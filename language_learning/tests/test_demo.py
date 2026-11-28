@@ -3551,6 +3551,24 @@ class LessonTests(unittest.TestCase):
                 index = easy_chat.ALPHABET_KEYS[tag].index(group) + 1
                 self.assertTrue(all(buckets[mapping[letter]] == index for letter in group))
 
+    def test_easy_chat_editor_prompts_and_titles_are_bilingual(self):
+        templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
+        easy_chat_sources = demo.ROOT / 'src'
+        prompts = (easy_chat_sources / 'easy_chat_1.c').read_text(errors='replace')
+        editor = (easy_chat_sources / 'easy_chat_2.c').read_text(errors='replace')
+        symbols = set(re.findall(r'\bOtherText_\w+', prompts))
+        symbols.update(re.findall(r'(?:sub_80E91B0\(|r4 = )(gOtherText_\w+)', editor))
+        self.assertEqual(46, len(symbols))
+        self.assertTrue(symbols.issubset(templates))
+        for tag, mapping, glyphs, font in (
+            ('ru', self.russian, self.glyphs, 0),
+            ('de', self.latin, {}, 3),
+        ):
+            for first in ('OtherText_YourProfile', 'OtherText_NewSong', 'OtherText_TheAnswer'):
+                second = 'OtherText_ConfirmTrendyPage2'
+                line = f'{templates[first][tag]} {templates[second][tag]}'
+                field_templates.compile_text(line, mapping, glyphs, font, {}, 176)
+
     def test_pokenav_buffered_labels_are_bilingual(self):
         templates = validate.load(demo.ROOT / 'language_learning/field_templates.json')
         symbols = ('gOtherText_Ribbons', 'gOtherText_Nature2',

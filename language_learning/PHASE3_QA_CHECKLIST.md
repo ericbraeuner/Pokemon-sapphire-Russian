@@ -455,4 +455,14 @@ translations by their displayed first letter. German umlauts share the base
 letter key and the Russian keyboard combines some neighboring letters to fit
 the grid. Words keep their original relative order within each group.
 Russian entries that still display English are accessible through their
-categories. In-emulator layout and filtering checks remain pending.
+categories.
+
+In mGBA, a disposable ROM copy routed an Oldale Center clerk to the normal
+profile editor. The Russian letter grid and its cursor rendered, and selecting
+А showed Russian entries including АХАХА and АТАКА. Selecting АХАХА changed
+the first word in the profile, and cancelling returned to the center. Changing
+the disposable session's language in RAM and reopening the editor showed the
+German letter grid and MEHR. Selecting A showed German entries including
+ABWESEND and AKZEPTIEREN. Choosing ABWESEND updated the first word in the
+profile. The profile heading, help text, and several button labels still
+appeared in English. This check did not write an in-game save.

@@ -444,3 +444,9 @@ with German words, and the Russian viewer saw the default greeting in Russian.
 Switching that disposable viewer to German also showed the German default.
 Both cards closed and returned to the link room. Broader Russian vocabulary and
 the Easy Chat editor remain to be localized and checked.
+
+The Easy Chat editor uses the translated category headings and looks up each
+visible word by its existing ID. A label must fit the 72-pixel word column and
+its text buffer. Missing or oversized labels use the original word. The
+alphabet index and the editable phrase preview still use the original text
+layout. The word list has been built, with in-emulator layout checks pending.

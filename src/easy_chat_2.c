@@ -1493,6 +1493,24 @@ void sub_80E9AD4(void)
         sub_80E9C74(i);
 }
 
+#if LEARNER_DEMO
+static void CopyEasyChatPickerWord(u8 *dest, u16 word)
+{
+    const u8 *text = EasyChat_GetLearnerWord(word);
+
+    // Each 88-pixel column reserves 16 pixels before the word.
+    if (text != NULL && GetStringWidthInMenuWindow(text) <= 72
+        && StringLength(text) <= sizeof(gEasyChatStruct->unk9E14) - 7)
+    {
+        StringCopy(dest, text);
+        return;
+    }
+    sub_80EB218(dest, word, 9);
+}
+#else
+#define CopyEasyChatPickerWord(dest, word) sub_80EB218(dest, word, 9)
+#endif
+
 void sub_80E9AF8(u16 a)
 {
     u8 *r8;
@@ -1514,7 +1532,7 @@ void sub_80E9AF8(u16 a)
                 BasicInitMenuWindow(&gWindowTemplate_81E6D70);
             else
                 BasicInitMenuWindow(&gWindowTemplate_81E6D54);
-            sub_80EB218(r8, gEasyChatStruct->unk9A2A[a][i], 9);
+            CopyEasyChatPickerWord(r8, gEasyChatStruct->unk9A2A[a][i]);
             sub_80E9A60(gEasyChatStruct->unk9E14, i * 11 + 4, a * 2);
         }
     }
@@ -1523,7 +1541,7 @@ void sub_80E9AF8(u16 a)
         BasicInitMenuWindow(&gWindowTemplate_81E6D54);
         for (i = 0; i < gEasyChatStruct->unk99A6[a]; i++)
         {
-            sub_80EB218(r8, gEasyChatStruct->unk9A2A[a][i], 9);
+            CopyEasyChatPickerWord(r8, gEasyChatStruct->unk9A2A[a][i]);
             sub_80E9A60(gEasyChatStruct->unk9E14, i * 11 + 4, a * 2);
         }
     }
